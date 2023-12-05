@@ -1,15 +1,15 @@
 ---
-title: 이 안내서 정보
+title: 온프레미스 설치
 description: AEM Guides를 다운로드, 설치 및 구성하는 방법에 대해 알아봅니다.
 exl-id: 90d5ad94-eb68-4d73-9b23-a1f3d4b802ba
-source-git-commit: b8fba97d5e686fd09b094a6cf5b52aa08ef2d069
+source-git-commit: 02b33615669945cf65f70d6fd2de81bfd340a0ab
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
 
-# 이 안내서 정보 {#id175MC0P0S5Z}
+# 온프레미스 설치 {#id175MC0P0S5Z}
 
 Adobe Experience Manager Guides \(나중에 설명됨) *AEM 안내서*\) 는 강력한 엔터프라이즈급 구성 요소 컨텐츠 관리 솔루션 \(CCMS\)입니다. Adobe Experience Manager의 기본 DITA 지원을 활성화하여 AEM에서 DITA 기반 콘텐츠 생성 및 전달을 처리할 수 있도록 촉진합니다. 작성자는 Adobe FrameMaker 또는 사용하기 쉬운 내장 웹 편집기와 같은 오프라인 DITA 작성 도구를 사용하여 컨텐츠를 만들 수 있습니다.
 
