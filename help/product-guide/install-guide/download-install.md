@@ -2,7 +2,7 @@
 title: 다운로드 및 설치
 description: AEM Guides를 다운로드하고 설치하는 방법을 알아봅니다
 exl-id: 40ea0510-b25e-4180-b076-c4f771071dda
-source-git-commit: 02b33615669945cf65f70d6fd2de81bfd340a0ab
+source-git-commit: 31dc283a5e51fc9c504ac4e75a9719dc247e90eb
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 0%
