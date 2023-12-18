@@ -1,10 +1,10 @@
 ---
-user-guide-title: Experience Manager 가이드
-user-guide-description: Adobe Experience Manager 가이드에 대한 제품 설명서를 참조하십시오.
-breadcrumb-title: AEM 안내서
-source-git-commit: 31dc283a5e51fc9c504ac4e75a9719dc247e90eb
+user-guide-title: Experience Manager Guides
+user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 확인하십시오.
+breadcrumb-title: AEM Guides 안내서
+source-git-commit: 757371f7d9e9029096abd2f269b3bdd715d1c965
 workflow-type: tm+mt
-source-wordcount: '1639'
+source-wordcount: '1635'
 ht-degree: 3%
 
 ---
@@ -213,8 +213,8 @@ ht-degree: 3%
       + 콘텐츠 마이그레이션 {#content-migration}
          + [비 UUID에서 UUID로의 콘텐츠 마이그레이션](./install-guide/migrate-uuid-non-uuid.md)
          + 마이그레이션 프로세스 {#migration-process}
-            + [버전을 사용하여 UUID가 아닌 콘텐츠 마이그레이션](./install-guide/migrate-non-uuid-uuid-with-versions.md)
-            + [버전 없이 비 UUID 콘텐츠 마이그레이션](./install-guide/migrate-non-uuid-uuid-without-versions.md)
+            + [버전 있는 콘텐츠 마이그레이션](./install-guide/migrate-non-uuid-uuid-with-versions.md)
+            + [버전 없는 콘텐츠 마이그레이션](./install-guide/migrate-non-uuid-uuid-without-versions.md)
          + [기존 콘텐츠 마이그레이션](./install-guide/migrate-content.md)
          + [기존 DITA 콘텐츠 업로드](./install-guide/migrate-content-upload-existing-dita-content.md)
          + [DITA가 아닌 콘텐츠 마이그레이션](./install-guide/migrate-content-non-dita.md)
