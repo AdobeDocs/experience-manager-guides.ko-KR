@@ -1,7 +1,7 @@
 ---
 title: 버전이 있는 비 UUID 콘텐츠를 UUID 콘텐츠로 변환
 description: 버전이 있는 비 UUID 콘텐츠를 UUID 콘텐츠로 마이그레이션하는 방법에 대해 알아봅니다.
-source-git-commit: b4ba381cad13960f2fd514b23c66016f0e08e273
+source-git-commit: d37cb4a416d85b072c152d795d8a28b5ac70ef4e
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 0%
@@ -58,6 +58,7 @@ UUID가 아닌 버전(4.1 non-UUID 또는 4.3.0 non-UUID)에 대해 다음 검�
    >[!NOTE]
    >
    >이 유틸리티는 기준선 또는 검토에 사용된 버전을 제거하지 않으며 레이블이 없습니다.
+
 1. 시작 `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
 1. 선택 **호환성 평가**  왼쪽 패널에서 폴더 경로를 찾습니다.
 1. 다음 정보를 나열하려면 호환성을 확인하십시오.
