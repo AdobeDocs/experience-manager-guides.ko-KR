@@ -2,14 +2,14 @@
 title: 버전이 없는 비 UUID 콘텐츠를 UUID 콘텐츠로 변환
 description: 버전 없이 UUID가 아닌 콘텐츠를 마이그레이션하는 방법에 대해 알아봅니다.
 exl-id: 44b5660d-9961-4463-9686-53085249fb05
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 0c45b3bee77d04f031dea157e7d3671b2cc11b45
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
 
-# 버전 없이 비 UUID 콘텐츠 마이그레이션
+# 버전 없는 콘텐츠 마이그레이션
 
 >[!IMPORTANT]
 >
