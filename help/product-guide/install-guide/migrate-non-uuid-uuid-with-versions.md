@@ -1,9 +1,9 @@
 ---
 title: 버전이 있는 비 UUID 콘텐츠를 UUID 콘텐츠로 변환
 description: 버전이 있는 비 UUID 콘텐츠를 UUID 콘텐츠로 마이그레이션하는 방법에 대해 알아봅니다.
-source-git-commit: 72cdc50df0dfb4af8c798bd1a488c852ed054707
+source-git-commit: 0d985688af601ca51822b116ea4baafce19f0658
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '755'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->필요한 UUID 버전으로 마이그레이션하기 전에 해당 버전에 따른 업그레이드 지침을 따르십시오.
+>다음 [업그레이드 지침](./upgrade-xml-documentation.md) 사용 허가된 제품 버전에만 적용됩니다.
 
 ## 호환성 매트릭스
 
@@ -26,10 +26,9 @@ ht-degree: 0%
 
 ## 패키지 설치
 
-버전에 따라 Adobe 소프트웨어 배포 포털에서 필요한 패키지를 다운로드한 다음 설치합니다.
+사용 중인 버전에 따라 Adobe 소프트웨어 배포 포털에서 필요한 패키지를 다운로드합니다.
 <details>
-<summary>  버전 4.1용 패키지 </summary>
-UUID가 아닌 버전 4.1을 사용하는 경우 다음 패키지를 설치하기 전에 버전 4.1 UUID를 설치해야 합니다.
+<summary>  버전 4.1 업그레이드 경로용 패키지</summary>
 
 1. **마이그레이션 전**: [com.adobe.guides.pre-uuid-migration-1.0.9.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F1-0%2Fcom.adobe.guides.pre-uuid-migration-1.0.9.zip)
 1. **마이그레이션**: [com.adobe.guides.uuid-upgrade-1.0.19.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F1-0%2Fcom.adobe.guides.uuid-upgrade-1.0.19.zip)
@@ -37,8 +36,7 @@ UUID가 아닌 버전 4.1을 사용하는 경우 다음 패키지를 설치하�
 
 
 <details>
-<summary> 버전 4.3.1용 패키지</summary>
-UUID가 아닌 버전 4.3을 사용하는 경우 다음 패키지를 설치하기 전에 버전 4.3.1 UUID를 설치해야 합니다.
+<summary> 버전 4.3.1 업그레이드 경로 패키지</summary>
 
 1. **마이그레이션 전**: [com.adobe.guides.pre-uuid-migration-1.1.3.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2Fcom.adobe.guides.pre-uuid-migration-1.1.3.zip)
 1. **마이그레이션**: [com.adobe.guides.uuid-upgrade-1.1.15.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2Fcom.adobe.guides.uuid-upgrade-1.1.15.zip)
@@ -47,17 +45,18 @@ UUID가 아닌 버전 4.3을 사용하는 경우 다음 패키지를 설치하�
 
 ## 마이그레이션 전
 
-1. (선택 사항) 콘텐츠에 대해 버전 지우기를 수행하여 불필요한 버전을 제거하고 마이그레이션 프로세스를 가속화합니다. 버전 삭제를 수행하려면 옵션을 선택합니다 **버전 삭제** 마이그레이션 화면에서 URL을 사용하여 사용자 인터페이스로 이동합니다. `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
+UUID가 아닌 버전(4.1 non-UUID 또는 4.3.0 non-UUID)에 대해 다음 검사를 수행합니다.
 
-   >[!NOTE]
-   >
-   >이 유틸리티는 기준선 또는 검토에 사용된 버전을 제거하지 않으며 레이블이 없습니다.
 1. 사용 중인 버전에 따라 마이그레이션 전 패키지를 설치하십시오.
 
    >[!NOTE]
    >
    >* 마이그레이션을 실행하려면 관리자 권한이 필요합니다.
    >* 마이그레이션을 계속하기 전에 오류가 있는 파일을 수정하는 것이 좋습니다.
+1. (선택 사항) 콘텐츠에 대해 버전 지우기를 수행하여 불필요한 버전을 제거하고 마이그레이션 프로세스를 가속화합니다. 버전 삭제를 수행하려면 옵션을 선택합니다 **버전 삭제** 마이그레이션 화면에서 URL을 사용하여 사용자 인터페이스로 이동합니다. `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
+   >[!NOTE]
+   >
+   >이 유틸리티는 기준선 또는 검토에 사용된 버전을 제거하지 않으며 레이블이 없습니다.
 1. 시작 `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
 1. 선택 **호환성 평가**  왼쪽 패널에서 폴더 경로를 찾습니다.
 1. 다음 정보를 나열하려면 호환성을 확인하십시오.
@@ -100,7 +99,7 @@ UUID가 아닌 버전 4.3을 사용하는 경우 다음 패키지를 설치하�
 1. 속성 비활성화 유효성 검사 활성화(`validation.enabled`)를 클릭하여 제품에서 사용할 수 있습니다.
 
 1. 다음을 확인합니다. `uuid.regex` 속성 폴더가에서 제대로 설정됨 `com.adobe.fmdita.config.ConfigManager`. 비어 있는 경우 기본값으로 설정합니다. `^GUID-(?<id>.*)`.
-1. 다음에 대한 별도의 로거 추가 `com.adobe.fmdita.uuid.upgrade.UuidUpgrade` 브라우저 응답은에서 사용할 수도 있습니다. `/content/uuid-upgrade/logs`.
+1. 다음에 대한 별도의 로거 추가 `com.adobe.fmdita.uuid` 브라우저 응답은에서 사용할 수도 있습니다. `/content/uuid-upgrade/logs`.
 
 ### 2단계: 마이그레이션 실행 및 유효성 검사
 
