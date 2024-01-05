@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 확인하십시오.
 breadcrumb-title: AEM Guides 안내서
-source-git-commit: 9754536b7954d63d80746b34ff2cf35716086fdf
+source-git-commit: 6dedfb51c9f32c5f621c3672735ecc07be3d619d
 workflow-type: tm+mt
-source-wordcount: '1644'
+source-wordcount: '1652'
 ht-degree: 4%
 
 ---
@@ -392,8 +392,12 @@ ht-degree: 4%
             + 도식 문자 {#schematron}
                + [스키마 유효성 검사](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
       + Guides 확장 프레임워크 {#extention-framework}
-         + [소개](./guides-ui-extensions/getting-started/Introduction.md)
-         + [설치 안내서](./guides-ui-extensions/getting-started/integrating-customisations.md)
+         + 시작하기 {#getting-started}
+            + [소개](./guides-ui-extensions/getting-started/Introduction.md)
+            + [설치 안내서](./guides-ui-extensions/getting-started/integrating-customisations.md)
+            + [확장 저장소 소개](./guides-ui-extensions/getting-started/extension-repo-intro.md)
+         + 사용자 정의 {#customisations}
+            + [간단한 사용자 지정](./guides-ui-extensions/customisations/add-button.md)
       + 게시 {#publishing}
          + [기본 PDF 게시를 위한 AEM 환경 구성](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
          + [FMPS 및 안내서](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
