@@ -2,9 +2,9 @@
 title: AEM Guides의 확장 프레임워크 - 웹 편집기 사용자 지정 및 검토 UI
 description: Guides 확장 프레임워크를 사용하면 업데이트하기 쉬운 JSON, CSS 및 JavaScript를 사용하여 검토 Ui 또는 Webeditor의 원하는 섹션을 사용자 지정할 수 있습니다.
 exl-id: 7b2efae3-be8c-4259-babb-f28a6903116a
-source-git-commit: 9406895007386cbd15d5a9412457333493d7bb36
+source-git-commit: 20fb3f3556b5188764266e7fdf8aa876e45c1922
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
@@ -45,9 +45,9 @@ ht-degree: 0%
 
 - **Extension Framework 기본 저장소** - [GIT](https://github.com/adobe/guides-extension/tree/main)
 
-- **설명서** - [Experience League](https://guides-extension.vercel.app/docs/aem_guides_framework/basic_customisation)
+- **설명서** - [Experience League](../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)
 
-- **문서화된 공통 사용 사례** - [Experience League](https://guides-extension.vercel.app/docs/aem_guides_framework/basic_customisation)
+- **문서화된 공통 사용 사례** - [Experience League](../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
 
 - **샘플이 있는 공용 리포지토리** - [GIT에서](https://github.com/adobe/guides-extension/tree/sc-expert-session). 분기 sc-expert-session 참조
 

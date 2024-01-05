@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 확인하십시오.
 breadcrumb-title: AEM Guides 안내서
-source-git-commit: 5962414dfc065543b946cac1468a5f62013073cf
+source-git-commit: 2f5e951d3452e05fb307d6c34487269b5172000e
 workflow-type: tm+mt
-source-wordcount: '1660'
+source-wordcount: '1679'
 ht-degree: 4%
 
 ---
@@ -392,6 +392,18 @@ ht-degree: 4%
             + 도식 문자 {#schematron}
                + [스키마 유효성 검사](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
       + Guides 확장 프레임워크 {#extention-framework}
+         + Aem Guides 프레임워크 {#aem-guides-framework}
+            + [기본 사용자 지정](./guides-ui-extensions/aem_guides_framework/basic-customisation.md)
+            + [JUI 프레임워크](./guides-ui-extensions/aem_guides_framework/jui-framework.md)
+            + 구성 요소 {#framework-components}
+               + [버튼](./guides-ui-extensions/aem_guides_framework/components/button.md)
+               + [아이콘](./guides-ui-extensions/aem_guides_framework/components/icon.md)
+               + [레이블](./guides-ui-extensions/aem_guides_framework/components/label.md)
+               + [목록](./guides-ui-extensions/aem_guides_framework/components/list.md)
+               + [텍스트 영역](./guides-ui-extensions/aem_guides_framework/components/textArea.md)
+            + 위젯 {#framework-widgets}
+               + [렌더링 위젯](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
+               + [기본 위젯](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
          + 시작하기 {#getting-started}
             + [소개](./guides-ui-extensions/getting-started/Introduction.md)
             + [설치 안내서](./guides-ui-extensions/getting-started/integrating-customisations.md)
@@ -400,8 +412,9 @@ ht-degree: 4%
             + [간단한 사용자 지정](./guides-ui-extensions/customisations/add-button.md)
             + [컨텍스트 메뉴 사용자 정의](./guides-ui-extensions/customisations/context-menus.md)
             + [도구 모음 및 상단 표시줄 사용자 지정](./guides-ui-extensions/customisations/toolbar-topbar.md)
-         + 리뷰{#review-app-customisations}
-            + [구성 요소](./guides-ui-extensions/customisations/ReviewApp/components.md)
+            + 리뷰{#review-app-customisations}
+               + [구성 요소](./guides-ui-extensions/customisations/ReviewApp/components.md)
+               + [사용자 정의](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
       + 게시 {#publishing}
          + [기본 PDF 게시를 위한 AEM 환경 구성](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
          + [FMPS 및 안내서](./knowledge-base/kb-articles/publishing/fmpsandguides.md)

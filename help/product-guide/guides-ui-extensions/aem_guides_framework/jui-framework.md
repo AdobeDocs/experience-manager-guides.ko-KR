@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+title: Jui 프레임워크
+description: Jui 프레임워크 이해
+source-git-commit: a61abc0d2b480e276991db916ba0cbf630ca7996
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '265'
 ht-degree: 1%
 
 ---
@@ -23,7 +24,7 @@ JUI-React-Spectrum 라이브러리에는 Adobe React 스펙트럼 구성 요소�
 
 ### MVC UI 디자인
 
-![대체 텍스트](./imgs/jui-mvc-flow.png)
+![JUI MVC 흐름](./imgs/jui-mvc-flow.png)
 
 ### 위젯
 
@@ -35,7 +36,7 @@ JUI-React-Spectrum 라이브러리에는 Adobe React 스펙트럼 구성 요소�
 - 다른 위젯이 있을 수 있음
 - 앱이 위젯임
 
-![대체 텍스트](./imgs/jui-widget.png)
+![JUI 위젯](./imgs/jui-widget.png)
 
 ### 요소
 
@@ -76,4 +77,4 @@ JUI-React-Spectrum 라이브러리에는 Adobe React 스펙트럼 구성 요소�
 
 ### 샘플 앱 디자인
 
-![대체 텍스트](./imgs/jui-sample-app.png)
+![샘플 앱](./imgs/jui-sample-app.png)

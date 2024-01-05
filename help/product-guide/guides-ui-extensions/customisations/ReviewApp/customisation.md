@@ -1,10 +1,14 @@
 ---
-source-git-commit: 5962414dfc065543b946cac1468a5f62013073cf
+title: 사용자 정의
+description: 리뷰 앱 사용자 정의
+source-git-commit: a61abc0d2b480e276991db916ba0cbf630ca7996
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
+
+
 # 리뷰 앱 사용자 정의
 
 리뷰 앱의 맞춤화를 간소화하기 위해 당사는 아래와 같은 몇 가지 후크를 제공했습니다.
@@ -14,7 +18,7 @@ ht-degree: 0%
 - id: `review_comment`
 - 후크: `this.updateExtraProps`:
 
-논의된 대로 [여기](../../aem_guides_framework/basic_customisation.md), 사용자 지정 중에 추가된 모든 새 속성은 `this.model.extraProps`. 메서드 `updateExtraProps` 리뷰 주석에 속성을 추가하여 서버에서 추가된 속성의 업데이트 및 저장을 처리할 수 있습니다.
+논의된 대로 [여기](../../aem_guides_framework/basic-customisation.md), 사용자 지정 중에 추가된 모든 새 속성은 `this.model.extraProps`. 메서드 `updateExtraProps` 리뷰 주석에 속성을 추가하여 서버에서 추가된 속성의 업데이트 및 저장을 처리할 수 있습니다.
 
 ### 사용 예
 

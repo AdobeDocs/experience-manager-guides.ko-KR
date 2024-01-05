@@ -1,12 +1,12 @@
 ---
-sidebar_position: 5
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+title: 목록
+description: 목록
+source-git-commit: dfd4c898d3c093bfee1a8a6efff4e395efd20c60
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 1%
+source-wordcount: '59'
+ht-degree: 5%
 
 ---
-
 
 # 목록
 
@@ -33,7 +33,7 @@ const listJSON =  {
 },
 ```
 
-일반적으로 itemConfig는 `widget`. 위젯에 대한 자세한 내용을 보려면 다음 위치로 이동하십시오. [위젯](../Widgets/basic_widget.md)
+일반적으로 itemConfig는 `widget`. 위젯에 대한 자세한 내용을 보려면 다음 위치로 이동하십시오. [위젯](../Widgets/basic-widget.md)
 
 렌더링된 목록은 다음과 같이 표시됩니다.
 
