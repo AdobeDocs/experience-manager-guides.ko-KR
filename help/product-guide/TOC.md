@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 확인하십시오.
 breadcrumb-title: AEM Guides 안내서
-source-git-commit: 9406895007386cbd15d5a9412457333493d7bb36
+source-git-commit: 9754536b7954d63d80746b34ff2cf35716086fdf
 workflow-type: tm+mt
-source-wordcount: '1638'
-ht-degree: 3%
+source-wordcount: '1644'
+ht-degree: 4%
 
 ---
 
@@ -391,6 +391,9 @@ ht-degree: 3%
                + [웹 편집기에 사용자 지정 스타일 추가](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
             + 도식 문자 {#schematron}
                + [스키마 유효성 검사](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
+      + Guides 확장 프레임워크 {#extention-framework}
+         + [소개](./guides-ui-extensions/getting-started/Introduction.md)
+         + [설치 안내서](./guides-ui-extensions/getting-started/integrating-customisations.md)
       + 게시 {#publishing}
          + [기본 PDF 게시를 위한 AEM 환경 구성](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
          + [FMPS 및 안내서](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
