@@ -2,9 +2,9 @@
 title: 기본 PDF 게시 "Hands on lab - BYOS" - 대화형 학습
 description: 이 'Hands-on Lab - BYOS' 세션에서는 기본 PDF 게시를 심층적으로 살펴볼 수 있습니다. 다양한 사용 사례를 살펴보고, 주요 기능을 활용하고, Adobe 전문가와 직접 소통하여 특정 문제 진술 및 요구 사항을 해결하십시오.
 exl-id: 55c276d8-8611-4050-be5f-7f9854f94228
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
@@ -46,18 +46,17 @@ ht-degree: 0%
 
 ## 관련 리소스
 
-- **기본 PDF 설정 단계** - [Experience League](/help/product-guide/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
+- **기본 PDF 설정 단계** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.html?lang=en)
 
-- **기본 PDF 게시의 기능 개요** - [Experience League](/help/product-guide/knowledge-base/expert-sessions/native-pdf-publishing-essentials-feb23.md)
+- **기본 PDF 게시의 기능 개요** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23.html?lang=en)
 
-- **문서화된 공통 사용 사례** - [Experience League](/help/product-guide/native-pdf/stylesheet.md)
+- **문서화된 공통 사용 사례** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/content-styles/stylesheet.html?lang=en)
 
 - **커뮤니티 포럼** - Experience League에 대한 세션별 커뮤니티 상호 작용의 경우 다음을 참조하십시오.  [AEM Guides 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 > 이 세션에 표시된 기능은 다음 버전의 AEM Guides에서 사용할 수 있습니다.
->
 > - On-prem 4.2 이상
 > - Cloud Service 2309 이상
 

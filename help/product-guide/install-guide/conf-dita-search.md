@@ -2,9 +2,9 @@
 title: AEM Assets UI에 대한 검색 구성
 description: AEM Assets UI에 대한 검색을 구성하는 방법 알아보기
 exl-id: b920ba7f-e8fc-4af6-aa8a-b8516b1cffc0
-source-git-commit: 31dc283a5e51fc9c504ac4e75a9719dc247e90eb
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: '1697'
 ht-degree: 1%
 
 ---
@@ -70,7 +70,6 @@ AEM Assets UI에서 UUID 기반 검색 구성 요소를 추가하려면 다음�
 
    - **필드 레이블**: UUID
    - **속성 이름**: jcr:content/fmUuid
-
 1. 클릭 **완료** 변경 사항을 저장합니다.
 
    Assets UI에서 필터 옵션에 액세스하면 UUIS 기반 검색 필터링 옵션을 사용할 수 있습니다.
@@ -119,7 +118,7 @@ DITA 검색이 작동하려면 DITA 컨텐츠의 일부 사전 처리가 필요�
 >
 > 기본 검색 구성을 사용하여 `prolog` 요소를 선택한 다음 이 프로세스를 건너뛸 수 있습니다.
 
-이 파일에는 두 개의 주 섹션 속성 세트와 규칙 세트가 포함되어 있습니다. 규칙 세트 섹션의 스니펫이 아래에 제공됩니다.
+이 파일에는 속성 세트와 규칙 세트의 두 가지 기본 섹션이 있습니다. 규칙 세트 섹션의 스니펫이 아래에 제공됩니다.
 
 ```XML
 <ruleset filetypes="xml dita"><!-- Element rules --><rule xpath="//[contains(@class, 'topic/topic')]/[contains(@class, 'topic/prolog')]//*[not(*)]" text="yes" attributeset="all-attrs" /><!-- Attribute rules --><rule xpath="//[contains(@class, 'topic/topic')]/[contains(@class, 'topic/prolog')]///@[local-name() != 'class']" /></ruleset>
@@ -128,6 +127,7 @@ DITA 검색이 작동하려면 DITA 컨텐츠의 일부 사전 처리가 필요�
 규칙 세트 섹션에서 다음을 지정할 수 있습니다.
 
 - 요소 추출 규칙
+
 - 속성을 추출하는 규칙
 
 
@@ -135,15 +135,15 @@ DITA 검색이 작동하려면 DITA 컨텐츠의 일부 사전 처리가 필요�
 
 xpath : DITA 파일에서 요소나 속성을 검색하는 XPath 쿼리입니다. 요소 규칙의 기본 구성은 모두 검색합니다 `prolog` 요소. 속성 규칙의 기본 구성은 의 모든 속성을 검색합니다. `prolog` 요소. XPath 쿼리를 지정하여 검색할 요소나 특성을 직렬화할 수 있습니다.
 
-XPath 쿼리에는 문서 유형의 클래스 이름이 들어 있습니다. 다음 `topic/topic` 클래스는 주제 유형 DITA 문서에 사용됩니다. 다른 DITA 문서에 대한 규칙을 만들려면 다음 클래스 이름을 사용해야 합니다.
-
-| 문서 유형 | 클래스 이름 |
-|-------------|----------|
-| 주제 | - 주제/주제 |
-| 작업 | - 주제/주제 작업/작업 |
-| 개념 | - 주제/주제 개념/개념 |
-| 참조 | - 주제/주제 참조/참조 |
-| 맵 | - 맵/맵 |
+    XPath 쿼리에는 문서 유형의 클래스 이름이 들어 있습니다. 주제 유형 DITA 문서에는 &#39;topic/topic&#39; 클래스가 사용됩니다. 다른 DITA 문서에 대한 규칙을 만들려면 다음 클래스 이름을 사용해야 합니다.
+    
+    |문서 유형|클래스 이름|
+    -----------------------
+    |주제|- 주제/주제|
+    |작업|- 주제/주제 작업/작업|
+    |개념|- 주제/주제 개념/개념|
+    |참조|- 주제/주제 참조/참조|
+    |맵|- 맵/맵|
 
 텍스트 : 지정된 요소 내에서 텍스트를 검색하려면 yes 값을 지정합니다. no as value를 지정하면 요소 내의 속성만 일련화됩니다. 검색할 속성은 속성 세트 섹션에 지정해야 합니다.
 

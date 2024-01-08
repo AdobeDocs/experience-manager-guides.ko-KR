@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 확인하십시오.
 breadcrumb-title: AEM Guides 안내서
-source-git-commit: 2f5e951d3452e05fb307d6c34487269b5172000e
+source-git-commit: 2c81d111dede5301366169ba5f4c3825ac39c491
 workflow-type: tm+mt
-source-wordcount: '1679'
+source-wordcount: '1686'
 ht-degree: 4%
 
 ---
@@ -155,6 +155,7 @@ ht-degree: 4%
       + AEM Guides의 출력 사전 설정 {#output-presets-aemg}
          + [AEM 사이트](./user-guide/generate-output-aem-site.md)
          + [PDF](./user-guide/generate-output-pdf.md)
+         + [기술 자료](./user-guide/generate-output-knowledge-base.md)
          + [HTML5](./user-guide/generate-output-html5.md)
          + [EPUB](./user-guide/generate-output-epub.md)
          + [사용자 지정](./user-guide/generate-output-custom.md)
@@ -266,6 +267,7 @@ ht-degree: 4%
             + [PDF 템플릿](./native-pdf/pdf-template.md)
             + [PDF 템플릿의 구성 요소](./native-pdf/components-pdf-template.md)
             + [페이지 레이아웃 디자인](./native-pdf/design-page-layout.md)
+            + [PDF 출력의 변수](./native-pdf/native-pdf-variables.md)
             + [언어 변수 지원](./native-pdf/native-pdf-language-variables.md)
             + 공통 컨텐츠 스타일 {#content-styles}
                + [일반적인 콘텐츠 스타일 사용](./native-pdf/stylesheet.md)
@@ -430,3 +432,4 @@ ht-degree: 4%
          + [조건부 콘텐츠 작업](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
          + [키 작업](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
    + [산소 커넥터 사용](./oxygen-connector/use-aem-connector.md)
+

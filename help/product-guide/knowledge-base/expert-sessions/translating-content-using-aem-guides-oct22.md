@@ -2,9 +2,9 @@
 title: 콘텐츠 번역
 description: 콘텐츠를 여러 언어로 번역하는 방법을 알아봅니다.
 exl-id: c8dacbdc-4b0b-44ca-82d4-889cd83741ff
-source-git-commit: 0afe8bf9b16b1d1367971462b0d44f1721b317c5
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '166'
 ht-degree: 4%
 
 ---
@@ -31,7 +31,6 @@ AEM Guides는 강력한 번역 기능을 통해 다국어 콘텐츠 생성을 �
 ## 핵심 사항
 
 이 세션에서는 다음에 대해 알아봅니다.
-
 - 기업이 비즈니스 개선을 위해 번역에 투자하는 이유
 - 사용 가능한 프레임워크 메커니즘 및 번역 프로세스
 - 번역 워크플로우, API 및 대시보드 자동화
@@ -41,14 +40,13 @@ AEM Guides는 강력한 번역 기능을 통해 다국어 콘텐츠 생성을 �
 
 - **기능 비디오** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **사용 안내서** - [콘텐츠 번역](/help/product-guide/install-guide/translation.md)
+- **사용 안내서** - [콘텐츠 번역](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ftranslation.html)
 
 - **커뮤니티 포럼** - Experience League에 대한 세션별 커뮤니티 상호 작용의 경우 다음을 참조하십시오. [AEM Guides 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)
 
 >[!NOTE]
 >
 > 이 세션에 표시된 기능은 다음 버전의 AEM Guides에서 사용할 수 있습니다.
->
 > - On-prem 4.1 이상
 > - Cloud Service 2207 이상
 

@@ -2,9 +2,9 @@
 title: 컨텐츠 및 템플릿 설정
 description: AEM Guides에서 콘텐츠 및 템플릿을 설정하기 위해 고려해야 할 사항에 대해 알아봅니다.
 exl-id: f125bad9-33a2-4de5-b43f-d6368d61879b
-source-git-commit: 0afe8bf9b16b1d1367971462b0d44f1721b317c5
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '275'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 1%
 ## 세션 개요
 
 이 세션에서는 다음과 같은 내용을 광범위하게 다룹니다.
-
 - 콘텐츠 설정의 다양한 측면 (분류, 분류, 메타데이터)
 - 콘텐츠 템플릿(주제 템플릿, 맵 템플릿, 코드 조각) 설정
+
 
 
 ## 세션 레코딩
@@ -38,7 +38,6 @@ ht-degree: 1%
 ## 핵심 사항
 
 이 세션에서는 다음에 대해 배웠습니다.
-
 - 콘텐츠를 가져오거나 만들기 전에 분석 및 생각하는 데 시간 소요
 - 다양한 사용자 세그먼트(최종 사용자 또는 작성자)에 맞게 콘텐츠 분류 및 분류
 - 메타데이터 기능을 활용하여 사용자 생산성 향상
@@ -52,14 +51,13 @@ ht-degree: 1%
 
 - **기능 비디오** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/folder-profiles.html)
 
-- **사용 안내서** - [콘텐츠 작성](/help/product-guide/user-guide/reports-intro.md)
+- **사용 안내서** - [콘텐츠 작성](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
 
 - **커뮤니티 포럼** - Experience League에 대한 세션별 커뮤니티 상호 작용의 경우 다음을 참조하십시오.  [AEM Guides 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 > 이 세션에 표시된 기능은 다음 버전의 AEM Guides에서 사용할 수 있습니다.
->
 > - 온-프레미스: 4.2 이상
 > - Cloud Service: 2303 이상
 

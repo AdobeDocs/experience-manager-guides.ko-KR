@@ -2,9 +2,9 @@
 title: 기본 PDF 템플릿 만들기 및 사용자 지정
 description: 기본 PDF 템플릿을 만들고 사용자 지정하는 방법을 알아봅니다.
 exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1154'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ ht-degree: 0%
 자산 UI에서 템플릿을 보려면 이 옵션을 선택합니다. 템플릿의 루트 위치를 열면 템플릿의 모든 리소스를 볼 수 있습니다.
 
 사용자 지정 템플릿을 만든 후에는 PDF 출력 사전 설정의 페이지 레이아웃에서 해당 템플릿을 선택할 수 있습니다.
-방법 알아보기 [PDF 출력 게시](/help/product-guide/web-editor/native-pdf-web-editor.md).
+방법 알아보기 [PDF 출력 게시](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=en).
 
 >[!NOTE]
 >
@@ -112,7 +112,6 @@ ht-degree: 0%
 템플릿 구성 요소를 수정하고 스타일시트를 사용하여 스타일 형식을 적용하여 템플릿을 사용자 정의할 수 있습니다.
 
 PDF 템플릿을 사용자 정의하려면 다음 단계를 수행하십시오.
-
 1. 웹 편집기에서 **출력** 탭.
 1. 왼쪽 사이드바를 확장하고 을 선택합니다. **템플릿**.
 

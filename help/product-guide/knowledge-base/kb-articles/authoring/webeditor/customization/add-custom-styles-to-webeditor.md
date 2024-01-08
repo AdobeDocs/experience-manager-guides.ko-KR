@@ -2,9 +2,9 @@
 title: Guides webeditor에 사용자 정의 스타일 추가
 description: 맞춤형 스타일을 추가하여 Guides Webeditor의 모양과 느낌을 변경하는 방법을 알아봅니다.
 exl-id: 03143fb2-d05d-4103-b172-8b91880b7f9e
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,6 @@ ht-degree: 0%
 [이 링크를 사용하여 폴더 프로필 및 CSS 템플릿 레이아웃 구성에 대해 자세히 알아보십시오](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en#customize-the-css-template-layout)
 
 다음 명령을 사용하여 웨비터에서의 위 스타일을 설정하십시오.
-
 - 사용 [css_layout.css](../../../assets/authoring/webeditor-customstyles-css_layout.css) 원하는 폴더 프로필에 업로드합니다
 - 첨부된 패키지 설치 [webeditor-styles-resources.zip](../../../assets/authoring/webeditor-styles-resources.zip) AEM 패키지 관리자를 사용하여 위의 CSS 파일에 사용된 리소스 설치
 
@@ -57,4 +56,4 @@ Please note this is compatible to AEM Guides version 4.2 and AEM Guides cloud ve
 
 ## 참조
 
-또한 위에서 다룬 웨비터 구성 및 맞춤화에 대한 전문가 세션에 관심이 있을 수 있습니다 [웨비저 전문가 세션](/help/product-guide/knowledge-base/expert-sessions/webbased-authoring-jan2023.md)
+또한 위에서 다룬 웨비터 구성 및 맞춤화에 대한 전문가 세션에 관심이 있을 수 있습니다 [웨비저 전문가 세션](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/webbased-authoring-jan2023.html?lang=en)

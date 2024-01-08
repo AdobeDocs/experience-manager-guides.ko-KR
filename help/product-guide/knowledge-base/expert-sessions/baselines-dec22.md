@@ -2,9 +2,9 @@
 title: 기준선을 사용하여 콘텐츠 관리
 description: 기준선을 사용하여 콘텐츠를 효과적으로 관리하는 방법에 대해 알아봅니다.
 exl-id: 3fc2e889-b255-4e8d-9750-ab61337107ae
-source-git-commit: 0afe8bf9b16b1d1367971462b0d44f1721b317c5
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '183'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,6 @@ AEM Guides의 릴리스 관리는 게시나 번역에 사용할 수 있는 주�
 ## 핵심 사항
 
 이 세션에서는 다음에 대해 알아봅니다.
-
 - AEM Guides의 다양한 기준선 작업
 - 기준선을 사용하여 다운로드, 게시 및 번역
 - 기준 사용을 위한 우수 사례
@@ -41,14 +40,13 @@ AEM Guides의 릴리스 관리는 게시나 번역에 사용할 수 있는 주�
 
 - **기능 비디오** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **사용 안내서** - [기준선으로 작업](/help/product-guide/user-guide/generate-output-use-baseline-for-publishing.md)
+- **사용 안내서** - [기준선으로 작업](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html)
 
 - **커뮤니티 포럼** - Experience League에 대한 세션별 커뮤니티 상호 작용의 경우 다음을 참조하십시오. [AEM Guides 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 >이 세션에 표시된 기능은 다음 버전의 AEM Guides에서 사용할 수 있습니다.
->
 > - On-prem 4.1 이상
 > - Cloud Service 2211 이상
 

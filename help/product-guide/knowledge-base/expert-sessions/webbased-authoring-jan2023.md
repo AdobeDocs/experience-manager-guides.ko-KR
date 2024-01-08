@@ -2,9 +2,9 @@
 title: 웹 기반 콘텐츠 작성
 description: 웹 편집기를 사용하여 구조화된 콘텐츠를 작성하는 방법을 알아봅니다.
 exl-id: ab051c14-5c1e-4685-89e8-3c90dff9ea5e
-source-git-commit: 0afe8bf9b16b1d1367971462b0d44f1721b317c5
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '196'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,6 @@ AEM Guides에는 구조화된 콘텐츠를 작성할 수 있는 웹 편집기가
 ## 핵심 사항
 
 이 세션에서는 다음에 대해 알아봅니다.
-
 - 웹 편집기에 대한 설정 구성
 - 웹 편집기 기능을 사용하여 작성자의 생산성 향상
 - 사용 가능한 기능 확장 및 통합
@@ -41,14 +40,13 @@ AEM Guides에는 구조화된 콘텐츠를 작성할 수 있는 웹 편집기가
 
 - **기능 비디오** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **사용 안내서** - [콘텐츠 작성](/help/product-guide/user-guide/authoring-content.md)
+- **사용 안내서** - [콘텐츠 작성](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map/authoring-content.html)
 
 - **커뮤니티 포럼** - Experience League에 대한 세션별 커뮤니티 상호 작용의 경우 다음을 참조하십시오.  [AEM Guides 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 > 이 세션에 표시된 기능은 다음 버전의 AEM Guides에서 사용할 수 있습니다.
->
 > - On-prem 4.1.3 이상
 > - Cloud Service 2211 이상
 

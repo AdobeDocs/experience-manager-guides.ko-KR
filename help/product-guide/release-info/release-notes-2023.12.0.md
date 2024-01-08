@@ -1,7 +1,7 @@
 ---
-title: 릴리스 정보 | 2023년 12월 Adobe Experience Manager Guides 릴리스의 업그레이드 지침 및 해결된 문제
+title: 릴리스 정보 | Adobe Experience Manager Guides, 2023년 12월 릴리스의 업그레이드 지침 및 해결된 문제
 description: 버그 수정 사항과 Adobe Experience Manager Guides as a Cloud Service으로 2023년 12월 릴리스로 업그레이드하는 방법에 대해 알아보십시오.
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
 source-wordcount: '1319'
 ht-degree: 1%
@@ -19,7 +19,7 @@ ht-degree: 1%
 다음 단계를 수행하여 현재 Experience Manager 가이드 as a Cloud Service 설정을 업그레이드합니다.
 
 1. Cloud Service의 Git 코드를 체크아웃하고 업그레이드하려는 환경에 해당하는 Cloud Service 파이프라인에 구성된 분기로 전환합니다.
-2. 업데이트 `<dox.version>` 의 속성 `/dox/dox.installer/pom.xml` 2023.12.0.16에 대한 Cloud Service Git 코드 파일입니다.
+2. 업데이트 `<dox.version>` 의 속성 `/dox/dox.installer/pom.xml` 2023.12.0.15에 대한 Cloud Service Git 코드 파일.
 3. 변경 사항을 커밋하고 Cloud Service 파이프라인을 실행하여 2023년 12월 Experience Manager 가이드 as a Cloud Service 릴리스로 업그레이드합니다.
 
 ## 서블릿을 통해 스크립트 트리거를 활성화하는 단계
@@ -88,7 +88,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 기존 콘텐츠를 색인화하기 위해 다음 단계를 수행하고 보고서 탭 아래의 맵 수준 및 주제 목록에서 새 찾기 및 바꾸기 텍스트를 사용합니다.
 
-1. 올바른 인증을 사용하여 서버에 대한 POST 요청 실행 - `http://<server:port>/bin/guides/map-find/indexing`. (선택 사항: 맵의 특정 경로를 전달하여 인덱싱할 수 있습니다. 기본적으로 모든 맵이 인덱싱됩니다.| 예를 들면 다음과 같습니다. `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
+1. 올바른 인증을 사용하여 서버에 대한 POST 요청 실행 - `http://<server:port>/bin/guides/map-find/indexing`. (선택 사항: 맵의 특정 경로를 전달하여 인덱싱할 수 있습니다. 기본적으로 모든 맵이 인덱싱됩니다.| 예 : `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
 1. 루트 폴더를 전달하여 특정 폴더(및 그 하위 폴더)의 DITA 맵을 인덱싱할 수도 있습니다. 예, `http://<server:port>/bin/guides/map-find/indexing?root=/content/dam/test`. paths 매개 변수와 root 매개 변수가 모두 전달되면 paths 매개 변수만 고려됩니다.
 

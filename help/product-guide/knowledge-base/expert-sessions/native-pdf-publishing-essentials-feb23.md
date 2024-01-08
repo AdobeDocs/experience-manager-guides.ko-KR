@@ -2,9 +2,9 @@
 title: 기본 PDF 게시 기본 사항
 description: AEM Guides에서 기본 pdf 엔진을 사용하여 PDF을 게시하는 방법에 대해 알아봅니다.
 exl-id: e7ba6d2d-ebfb-4400-9b10-c4fb173123cf
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '204'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,6 @@ AEM Guides에는 사용자에게 PDF 형식으로 컨텐츠를 만들고, 개발
 ## 핵심 사항
 
 이 세션에서는 다음에 대해 알아봅니다.
-
 - PDF Publishing Essentials
 - PDF 템플릿의 다양한 구성 요소 만들기 및 사용자 지정
 - 게시를 위한 콘텐츠 구조화 및 스타일링
@@ -42,14 +41,13 @@ AEM Guides에는 사용자에게 PDF 형식으로 컨텐츠를 만들고, 개발
 
 - **기능 비디오** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **사용 안내서** - [기본 PDF 게시](/help/product-guide/native-pdf/pdf-template.md)
+- **사용 안내서** - [기본 PDF 게시](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/configuring/config-native-pdf-publish/pdf-template.html?lang=en)
 
 - **커뮤니티 포럼** - Experience League에 대한 세션별 커뮤니티 상호 작용의 경우 다음을 참조하십시오.  [AEM Guides 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 > 이 세션에 표시된 기능은 다음 버전의 AEM Guides에서 사용할 수 있습니다.
->
 > - On-prem 4.2 이상
 > - Cloud Service 2211 이상
 

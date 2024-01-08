@@ -2,9 +2,9 @@
 title: PDF 생성
 description: 웹 편집기 및 맵 대시보드에서 PDF 사전 설정을 만드는 방법을 알아봅니다. AEM Guides에서 PDF 출력 사전 설정을 구성합니다.
 exl-id: f12c91fd-3f95-478e-a9cd-68d037206ee8
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: b8c90eb8d1acfe6777a615bd71367027cd8d1c3b
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1006'
 ht-degree: 1%
 
 ---
@@ -63,6 +63,6 @@ PDF 출력에 사용할 수 있는 옵션은 다음과 같습니다.
 | 대상 경로 | PDF이 저장된 AEM 저장소 내의 경로입니다.<br><br>대상 경로를 설정할 때 변수를 사용할 수도 있습니다. 변수 사용에 대한 자세한 내용은 을 참조하십시오. [대상 경로, 사이트 이름 또는 파일 이름 옵션 설정에 변수 사용](generate-output-use-variables.md#id18BUG70K05Z). |
 | DITA-OT 임시 파일 정리 | DITA-OT에서 생성한 임시 파일을 정리하려면 이 옵션을 선택합니다. DITA-OT에서 임시 파일을 저장하는 위치는 출력 생성 로그에서 찾을 수 있습니다.<br><br>DITA-OT를 통해 출력을 생성하는 동안 오류가 발생하는 경우 이 옵션을 선택 해제하여 임시 파일을 유지할 수 있습니다. 그런 다음 이러한 파일을 사용하여 출력 생성 오류를 해결할 수 있습니다. |
 | 기준선 사용 | 선택한 DITA 맵에 대한 베이스라인을 생성한 경우 이 옵션을 선택하여 게시할 버전을 지정합니다.<br><br>다음을 참조하십시오 [기준선으로 작업](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) 추가 세부 정보. |
-| 속성 | 메타데이터로 처리할 속성을 선택합니다. 이러한 등록 정보는 DITA 맵 또는 북맵 파일의 등록 정보 페이지에서 설정됩니다. 드롭다운 목록에서 선택하는 속성은 **속성** 필드 및 은 드롭다운 목록에서 제거됩니다. 설정되면 이러한 속성이 맵 내의 항목에도 복사됩니다.<br><br>참고: DITA-OT 게시를 사용하여 메타데이터를 출력으로 전달할 수도 있습니다. 자세한 내용은 [DITA-OT를 사용하여 메타데이터를 출력에 전달](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
+| 속성 | 메타데이터로 처리할 속성을 선택합니다. 이러한 등록 정보는 DITA 맵 또는 북맵 파일의 등록 정보 페이지에서 설정됩니다. 드롭다운 목록에서 선택한 속성이 **속성** 필드. 속성 옆에 있는 교차 아이콘을 선택하여 제거합니다. <br><br>참고: DITA-OT 게시를 사용하여 메타데이터를 출력으로 전달할 수도 있습니다. 자세한 내용은 [DITA-OT를 사용하여 메타데이터를 출력에 전달](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 
 **상위 항목:**[&#x200B;출력 사전 설정 이해](generate-output-understand-presets.md)

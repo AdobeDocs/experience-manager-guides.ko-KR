@@ -2,9 +2,9 @@
 title: 기본 PDF | PDF 출력 생성
 description: 기본 PDF 게시를 사용하고, PDF 출력 사전 설정을 만들고, 기본 PDF 출력을 생성한 후 임시 파일을 다운로드하고, AEM Guides에서 언어 변수를 사용하는 방법에 대해 알아봅니다.
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: 0afe8bf9b16b1d1367971462b0d44f1721b317c5
+source-git-commit: b8c90eb8d1acfe6777a615bd71367027cd8d1c3b
 workflow-type: tm+mt
-source-wordcount: '3255'
+source-wordcount: '3196'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,13 @@ AEM Guides를 사용하면 개별 주제 PDF 또는 전체 맵 파일을 생성�
 
 이 방법을 사용하여 맵 대시보드에서 맵에 대한 PDF 출력을 생성합니다. 맵 대시보드에 열려 있는 맵의 출력 사전 설정을 만들어 PDF을 생성하기 전에 게시 속성을 설정할 수 있습니다. 출력 사전 설정을 만들거나 편집하려면 *출력 사전 설정 이해* 의 섹션 [AEM Guides as a Cloud Service 사용 안내서](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-apr-22/XML-Documentation-for-Adobe-Experience-Manager_CS_User-Guide_EN.pdf).
 
-DITA-OT 메서드를 사용하여 PDF을 생성하는 방법에 대한 자세한 내용은 [DITA-OT를 사용하여 PDF 생성](/help/product-guide/user-guide/generate-output-pdf.md).
+DITA-OT 메서드를 사용하여 PDF을 생성하는 방법에 대한 자세한 내용은 [DITA-OT를 사용하여 PDF 생성](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-pdf.html).
 
 * **FrameMaker Publishing Server(FMPS)**
 
 이 방법을 사용하면 DITA 콘텐츠뿐만 아니라 AEM 저장소에서 사용할 수 있는 FrameMaker 문서(.book 및 .fm)에서 PDF 출력을 생성할 수 있습니다. 출력 사전 설정을 구성하여 PDF을 만들고 FrameMaker Publishing Server(FMPS)를 사용하여 게시할 수 있습니다. PDF 및 기타 형식에 대한 출력의 디자인을 구성하고 이를 설정 파일(.sts)에 저장할 수 있습니다. 그런 다음 FMPS에서 이 설정 파일을 사용하여 DITA 맵 또는 .book 파일에 대한 출력을 생성합니다. 출력 사전 설정을 만들거나 편집하려면 다음을 참조하십시오  *출력 사전 설정 이해* 의 섹션 [AEM Guides as a Cloud Service 사용 안내서](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-apr-22/XML-Documentation-for-Adobe-Experience-Manager_CS_User-Guide_EN.pdf).
 
-FMPS 구성에 대한 자세한 내용은 [FrameMaker 문서에서 출력 생성](/help/product-guide/user-guide/fm-output-generate.md).
+FMPS 구성에 대한 자세한 내용은 [FrameMaker 문서에서 출력 생성](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ffm-output-generatation.html).
 
 * **기본 PDF 게시**
 
@@ -74,8 +74,8 @@ PDF 출력 사전 설정을 만들거나 구성하려면 다음 작업을 수행
 | --- | --- |
 | **출력 경로** | PDF 출력이 저장되는 AEM 저장소 내의 경로입니다. 출력 경로가 프로젝트 폴더 내에 있지 않은지 확인하십시오. 비워 두면 기본 DITA 맵 출력 위치에서 출력이 생성됩니다.<br>다음 기본 변수를 사용하여 출력 경로를 정의할 수도 있습니다. 단일 또는 변수 조합을 사용하여 이 옵션을 정의할 수 있습니다. <br> `${map_filename}`: DITA 맵 파일 이름을 사용하여 대상 경로를 만듭니다. <br> `${map_title}`: DITA 맵 제목을 사용하여 대상 경로를 만듭니다. <br>`${preset_name}`: 출력 사전 설정 이름을 사용하여 대상 경로를 만듭니다. <br> `${language_code}`: 맵 파일이 있는 언어 코드를 사용하여 대상 경로를 만듭니다. <br> `${map_parentpath}`: 맵 파일의 전체 경로를 사용하여 대상 경로를 만듭니다.  <br>`${path_after_langfolder}`: 언어 폴더 뒤에 있는 맵 파일의 경로를 사용하여 대상 경로를 만듭니다. |
 | **PDF 파일** | PDF을 저장할 파일 이름을 지정합니다. 기본적으로 PDF 파일 이름은 사전 설정 이름과 함께 DITA 맵 이름을 추가합니다. 예를 들어 ditamap은 &#39;TestMap&#39;이고 사전 설정 이름은 &#39;preset1&#39;이며 pdf의 기본 이름은 &#39;TestMap_preset1.pdf&#39;가 됩니다. <br>다음 기본 변수를 사용하여 PDF 파일을 정의할 수도 있습니다. 단일 또는 변수 조합을 사용하여 이 옵션을 정의할 수 있습니다. <br>`${map_filename}`<br>`${map_title}`<br>`${preset_name}` <br> `${language_code}` |
-| **다음을 사용하여 조건 적용** | 조건화된 콘텐츠의 경우, 아래 옵션 중에서 선택하여 해당 조건을 기반으로 PDF 출력을 생성합니다. <br><ul> <li> **적용된 항목 없음** 맵과 소스 콘텐츠에 조건을 적용하지 않으려면 이 옵션을 선택합니다. <br><li> **Ditaval 파일** DITAVAL 파일을 선택하여 조건화된 콘텐츠를 생성합니다. 선택하려면 조건 사전 설정을 기준으로 를 클릭하고 파일을 찾습니다. <br> <li> **조건 사전 설정** 드롭다운에서 조건 사전 설정을 선택하여 출력을 게시하는 동안 조건을 적용합니다. 이 옵션은 DITA 맵 파일에 대한 조건을 추가한 경우에 표시됩니다. 조건부 설정은 DITA 맵 콘솔의 조건 사전 설정 탭에서 사용할 수 있습니다. 조건 사전 설정에 대한 자세한 내용은 [조건 사전 설정 사용](/help/product-guide/user-guide/generate-output-use-condition-presets.md). <br> </ul> |
-| **기준선 사용** | 선택한 DITA 맵에 대한 베이스라인을 생성한 경우 이 옵션을 선택하여 게시할 버전을 지정합니다. 다음을 참조하십시오 [기준선으로 작업](/help/product-guide/user-guide/generate-output-use-baseline-for-publishing.md) 을 참조하십시오. |
+| **다음을 사용하여 조건 적용** | 조건화된 콘텐츠의 경우, 아래 옵션 중에서 선택하여 해당 조건을 기반으로 PDF 출력을 생성합니다. <br><ul> <li> **적용된 항목 없음** 맵과 소스 콘텐츠에 조건을 적용하지 않으려면 이 옵션을 선택합니다. <br><li> **Ditaval 파일** DITAVAL 파일을 선택하여 조건화된 콘텐츠를 생성합니다. 선택하려면 조건 사전 설정을 기준으로 를 클릭하고 파일을 찾습니다. <br> <li> **조건 사전 설정** 드롭다운에서 조건 사전 설정을 선택하여 출력을 게시하는 동안 조건을 적용합니다. 이 옵션은 DITA 맵 파일에 대한 조건을 추가한 경우에 표시됩니다. 조건부 설정은 DITA 맵 콘솔의 조건 사전 설정 탭에서 사용할 수 있습니다. 조건 사전 설정에 대한 자세한 내용은 [조건 사전 설정 사용](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-condition-presets.html). <br> </ul> |
+| **기준선 사용** | 선택한 DITA 맵에 대한 베이스라인을 생성한 경우 이 옵션을 선택하여 게시할 버전을 지정합니다. 다음을 참조하십시오 [기준선으로 작업](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html) 을 참조하십시오. |
 | **게시된 버전 사이에 변경 표시줄이 있는 PDF 만들기** | 다음 옵션을 사용하여 변경 막대를 사용하는 두 버전 간의 컨텐츠 차이를 보여 주는 PDF을 만듭니다.   <br><ul><li> **이전 버전의 기준선** 현재 버전 또는 다른 기준 요소와 비교할 기준 요소 버전을 선택합니다. 수정된 콘텐츠를 나타내는 변경 표시줄이 PDF에 나타납니다. 변경 막대는 새 콘텐츠 또는 수정된 콘텐츠를 시각적으로 식별하는 세로선입니다. 삽입, 변경 또는 삭제된 콘텐츠의 왼쪽에 변경 막대가 표시됩니다. <br> **참고**: 를 선택하는 경우 **기준선 사용** 게시할 기준선을 선택하면 선택한 두 기준선 버전 간에 비교가 수행됩니다. 예를 들어 아래에서 베이스라인 버전 1.3을 선택하는 경우 **기준선 사용**, 및 버전 1.1 **이전 버전의 기준선**, 비교는 기준 요소 버전 1.1과 기준 요소 버전 1.3 간에 수행됩니다. <br><li> **추가된 텍스트 표시** 삽입한 텍스트를 녹색으로 밑줄로 표시하려면 선택합니다. 이 옵션은 기본적으로 선택되어 있습니다. <br> <li> **삭제된 텍스트 표시** 삭제된 텍스트를 빨간색으로 표시하고 취소선으로 표시하려면 선택합니다. 이 옵션은 기본적으로 선택되어 있습니다. <br>**참고** 스타일시트를 사용하여 변경 막대, 삽입된 콘텐츠 또는 삭제된 콘텐츠의 스타일을 사용자 지정할 수도 있습니다.<br></ul> |
 | **사후 생성 워크플로** | AEM에 구성된 모든 워크플로우를 포함하는 드롭다운 목록을 표시하려면 선택하십시오. PDF 생성 워크플로우가 완료된 후 실행할 워크플로우를 선택할 수 있습니다. |
 
@@ -167,7 +167,7 @@ PDF 출력 사전 설정을 만들거나 구성하려면 다음 작업을 수행
 | **MathML 방정식 활성화** | 콘텐츠에 있는 MathML 방정식을 렌더링하려면 이 옵션을 선택합니다. 그렇지 않으면 기본적으로 방정식이 무시됩니다. |
 | **임시 파일 다운로드** | 기본 PDF 출력을 생성하는 동안 생성된 중간 HTML 파일을 다운로드하려면 이 옵션을 선택합니다. 출력을 생성한 후 나중에 임시 파일을 다운로드할 수 있습니다. |
 | **PDF 적합성** | PDF이 준수되는지 확인하기 위해 콘텐츠를 저장할 때 사용하는 표준입니다. 드롭다운에서 을 선택하여 사용 가능한 PDF 표준 목록에서 을 선택합니다. 지원되는 표준에 대한 자세한 내용은 [PDF 표준 정보](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
-| **파일 속성** | 메타데이터로 처리할 속성을 선택합니다. 드롭다운에 사용자 지정 및 기본 속성이 모두 나열됩니다. 이러한 등록 정보는 DITA 맵 또는 북맵 파일의 등록 정보 페이지에서 설정됩니다. 설정되면 이러한 속성이 맵 내의 항목에도 복사됩니다. 선택한 메타데이터 속성이 네이티브 PDF을 사용하여 생성된 출력으로 전달됩니다. |
+
 
 ## PDF 출력 생성 {#generate-pdf-output}
 

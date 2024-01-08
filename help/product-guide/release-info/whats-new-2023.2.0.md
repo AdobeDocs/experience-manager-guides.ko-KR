@@ -2,9 +2,9 @@
 title: 릴리스 정보 | Adobe Experience Manager Guides as a Cloud Service, 2023년 2월 릴리스
 description: Adobe Experience Manager Guides as a Cloud Service 2월 릴리스
 exl-id: 090eaf94-fe3a-47e9-9937-f84f8434550d
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1426'
 ht-degree: 0%
 
 ---
@@ -121,13 +121,13 @@ AEM Guides를 사용하면 맵 내에서 특정 텍스트가 포함된 파일을
 
 각 게시 요청에 대해 AEM Guides는 사용자 요청에 따라 가로로 확장되는 별도의 컨테이너를 as a Cloud Service으로 실행합니다. 이를 통해 여러 게시 요청을 실행하고 향상된 성능을 얻을 수 있습니다.
 
-자세한 내용은 [AEM Guides as a Cloud Service에 대한 새로운 마이크로서비스 기반 게시 구성](/help/product-guide/knowledge-base/publishing/configure-microservices.md).
+자세한 내용은 [AEM Guides as a Cloud Service에 대한 새로운 마이크로서비스 기반 게시 구성](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/publishing/configure-microservices.md).
 
 ## 기본 PDF | PDF 출력에 사용자 지정 책갈피 추가
 
 이제 쉽게 탐색할 수 있도록 최종 PDF 출력의 특정 콘텐츠에 사용자 지정 책갈피를 추가할 수 있습니다. DITA 맵의 주제 또는 섹션 제목에서 생성된 목차에 추가됩니다.
 
-## 기본 PDF | 목차 항목 및 주제 컨텐츠에 사용자 지정 스타일 적용
+## 기본 PDF | 목차 항목 및 주제 콘텐츠에 사용자 지정 스타일 적용
 
 AEM Guides에서는 목차 항목 또는 PDF 출력의 특정 항목에 사용자 지정 스타일을 적용하는 기능을 제공합니다. 예를 들어 목차와 주제 제목의 텍스트 색상을 변경할 수 있습니다. 주제 내의 전체 내용에 스타일을 적용할 수도 있습니다.
 

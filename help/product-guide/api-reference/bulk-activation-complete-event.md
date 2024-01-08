@@ -1,7 +1,7 @@
 ---
 title: 일괄 활성화 완료 이벤트 핸들러
 description: 벌크 활성화 완료 이벤트 핸들러에 대해 알아보기
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 8f1bb12a92ab9a63aef1765e51159644242683a0
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 1%
@@ -11,7 +11,6 @@ ht-degree: 1%
 # 일괄 활성화 완료 이벤트 핸들러
 
 Experience Manager 가이드는 `com/adobe/fmdita/replication/complete` 일괄 활성화 프로세스가 완료된 후 작업을 수행하는 데 사용되는 이벤트입니다. 이 이벤트는 일괄 활성화 프로세스가 완료될 때마다 트리거됩니다. 예를 들어 맵의 AEM 사이트 사전 설정의 벌크 활성화를 실행하는 경우 이 이벤트는 활성화 프로세스가 끝난 후 호출됩니다.
-
 
 이 이벤트에서 사용할 수 있는 속성을 읽고 추가 처리를 수행하려면 AEM 이벤트 처리기를 만들어야 합니다.
 

@@ -4,9 +4,9 @@ description: Adobe Experience Manager Guides용 산소 플러그인을 사용하
 hide: true
 hidefromtoc: true
 exl-id: 9a140564-27eb-404e-93a5-f5c81364e7f7
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 0e19b870541e8e65dc371eb01fc3256f172c1a91
 workflow-type: tm+mt
-source-wordcount: '6101'
+source-wordcount: '6294'
 ht-degree: 0%
 
 ---
@@ -246,22 +246,21 @@ AEM 저장소의 DITA 주제와 연관된 프로파일링 속성을 사용하려
 
    ![문서 유형 연결](images/document_type_association.png){width="650" align="left"}
 
-1. 다음에서 **클래스 경로** 탭에서 com.adobe.o2.connector를 선택합니다 **ID가 있는 플러그인의 상위 클래스 로더 사용** 드롭다운.
+1. 다음에서 **클래스 경로** 탭, 선택 `com.adobe.o2.connector` 다음에서 **ID가 있는 플러그인의 상위 클래스 로더 사용** 드롭다운.
 
    ![클래스 경로 탭](images/dita-extension.png){width="650" align="left"}
 
 1. 다음에서 **확장** 탭에서 다음 사항을 변경합니다.
-   - 클릭 **선택** 다음 옆에 **작성자 확장 상태 수신기** 아래에 **개별 확장** 에서 CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn 을 선택합니다. **클래스** 목록을 표시합니다. **확인**&#x200B;을 클릭합니다.
-   - 클릭 **선택** 다음 옆에 **작성자 사용자 지정 속성 값 편집기** 아래에 **개별 확장** 에서 CustomValueEditor - com.adobe.o2.framework.extn 을 선택합니다. **클래스** 목록을 표시합니다. 클릭 **확인**.
-다음 스크린샷은 구성된 을 보여 줍니다 **확장** DITA 주제 탭:
 
-     ![DITA 주제에 대해 구성된 확장](images/dita-topic-extension-tab.png){width="650" align="left"}
-
-   - 클릭 **선택** 다음 옆에 **확장 번들** 및 선택 사항에서 LinkResolverExtensionBundle - com.adobe.o2.framework.extn **클래스** 목록을 표시합니다. **확인**&#x200B;을 클릭합니다.
-
+   - 클릭 **선택** 다음 옆에 **확장 번들** 및 선택   `LinkResolverExtensionBundle - com.adobe.o2.framework.extn` 다음에서 **클래스** 목록을 표시합니다. **확인**을 클릭합니다.
      ![DITA 주제에 대해 구성된 확장](images/dita-map-extenstion-link-resolve.png) {width="650" align="left"}
+   - 클릭 **선택** 다음 옆에 **작성자 확장 상태 수신기** 아래에 **개별 확장** 및 선택 `CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn` 다음에서 **클래스** 목록을 표시합니다. **확인**&#x200B;을 클릭합니다.
+   - 클릭 **선택** 다음 옆에 **작성자 사용자 지정 속성 값 편집기** 아래에 **개별 확장** 및 선택 `CustomValueEditor - com.adobe.o2.framework.extn` 다음에서 **클래스** 목록을 표시합니다. **확인**&#x200B;을 클릭합니다.
+   - 클릭 **선택** 다음 옆에 **작성자 외부 개체 삽입 핸들러** 아래에 **개별 확장** 및 선택 `CustomURLInsertionHandler - com.adobe.o2.ui ` 다음에서 **클래스** 목록을 표시합니다. **확인**&#x200B;을 클릭합니다.
 
 
+   다음 스크린샷은 구성된 을 보여 줍니다 **확장** DITA 주제 탭:
+   <img src="images/dita-topic-extension-tab.png" alt="DITA 주제에 대해 구성된 확장" width="650" border="2px">
 1. 클릭 **확인** 모든 대화 상자에서 변경 내용을 저장합니다.
 
 ### DITA 맵 확장 구성
@@ -270,20 +269,23 @@ AEM 웹 인터페이스에서 직접 Oxygen XML 작성자의 맵 파일을 열 �
 
 DITA 맵 확장을 구성하려면 다음 단계를 수행하십시오.
 
-1. Oxygen XML Author에서&#x200B;**옵션** \> **환경 설정**.
+1. Oxygen XML Author에서 **옵션** \> **환경 설정**.
 1. 다음에서 **문서 유형 연결** 탭, 선택 **DITA 맵**&#x200B;을 클릭한 다음 을 클릭합니다 **확장**.
 1. 다음에서 **클래스 경로** 탭에서 com.adobe.o2.connector를 선택합니다 **ID가 있는 플러그인의 상위 클래스 로더 사용** 드롭다운.
 1. 다음에서 **확장** 탭에서 다음 사항을 변경합니다.
-1. 
-   - 클릭 **선택** 다음 옆에 **작성자 확장 상태 수신기** 아래에 **개별 확장** 에서 CustomDITAMapAuthorExtensionStateListener - com.adobe.o2.framework.extn 을 선택합니다. **클래스** 목록을 표시합니다. **확인**&#x200B;을 클릭합니다.
-- 클릭 **선택** 다음 옆에 **작성자 사용자 지정 속성 값 편집기** 아래에 **개별 확장** 에서 CustomValueEditor - com.adobe.o2.framework.extn 을 선택합니다. **클래스** 목록을 표시합니다. **확인**&#x200B;을 클릭합니다.
-- *\(선택 사항\)* 맵 파일을 여는 동안 참조를 확인하지 않으려면 다음과 같은 추가 구성을 수행해야 합니다.
+   - 클릭 **선택** 다음 옆에 **확장 번들** 및 선택   `com.adobe.o2.framework.extn.LinkResolverDITAMapExtensionBundle` 다음에서 **클래스** 목록을 표시합니다. **확인**&#x200B;을 클릭합니다.
 
-  클릭 **선택** 다음 옆에 **참조 확인자** 아래에 **개별 확장** 및에서 CustomDITAMapReferenceResolver - com.adobe.o2.framework.extn 을 선택합니다. **클래스** 목록을 표시합니다. **확인**&#x200B;을 클릭합니다.
+   - 클릭 **선택** 다음 옆에 **작성자 확장 상태 수신기** 아래에 **개별 확장** 및 선택 `CustomDITAMapAuthorExtensionStateListener - com.adobe.o2.framework.extn` 다음에서 **클래스** 목록을 표시합니다. **확인**&#x200B;을 클릭합니다.
 
-  다음 스크린샷은 구성된 을 보여 줍니다 **확장** 탭:
+   - 클릭 **선택** 다음 옆에 **작성자 외부 개체 삽입 핸들러** 아래에 **개별 확장** 및 선택 `CustomURLInsertionHandler - com.adobe.o2.ui ` 다음에서 **클래스** 목록을 표시합니다. **확인**&#x200B;을 클릭합니다.
 
-  ![DITA 맵에 대해 구성된 확장](images/dita-map-extension-tab.png){width="650" align="left"}
+   - 클릭 **선택** 다음 옆에 **작성자 사용자 지정 속성 값 편집기** 아래에 **개별 확장** 및 선택 `CustomValueEditor - com.adobe.o2.framework.extn` 다음에서 **클래스** 목록을 표시합니다. **확인**&#x200B;을 클릭합니다.
+
+   - 클릭 **선택** 다음 옆에 **참조 확인자** 아래에 **개별 확장** 및 선택 `CustomDITAMapReferenceResolver - com.adobe.o2` 다음에서 **클래스** 목록을 표시합니다. **확인**&#x200B;을 클릭합니다.
+   - *\(선택 사항\)* 맵 파일을 여는 동안 참조를 확인하지 않으려면 다음과 같은 추가 구성을 수행해야 합니다.
+
+   다음 스크린샷은 구성된 을 보여 줍니다 **확장** 탭:
+   <img src="images/dita-map-extension-tab.png" alt="DITA 맵에 대해 구성된 확장" width="650" border="2px">
 
 1. 클릭 **확인** 모든 대화 상자에서 변경 내용을 저장합니다.
 
@@ -440,7 +442,7 @@ AEM Guides에서 사용할 수 있는 편집기를 사용하려면 컨텍스트 
 
    ![체크 인 대화 상자](images/checkin-dropdown-labels.png){width="550" align="left"}
 
-   동일한 버전의 주제에 여러 레이블(쉼표로 구분)을 추가할 수 있습니다.  예를 들어, *Adobe*, *AEM*,*안내서*
+   동일한 버전의 주제에 여러 레이블(쉼표로 구분)을 추가할 수 있습니다.  예를 들어, *Adobe*, *AEM*, *안내서*.
 하지만 동일한 레이블을 주제의 다른 버전에 추가할 수는 없습니다. 이미 이전 버전에 추가한 레이블을 추가하면 최신 버전에 추가되고 이전 버전에서 제거됩니다.
 
    >[!NOTE]
@@ -511,7 +513,7 @@ AEM Guides에서 사용할 수 있는 편집기를 사용하려면 컨텍스트 
 
 - AEM 저장소에서 컨텐츠를 체크아웃하고 로컬 시스템에서 변경할 때 파일을 업로드할 때 파일 이름이 변경되지 않았는지 확인하십시오.
 
-- DITA 맵 관리자에 참조를 삽입하면 UUID가 아닌 파일 제목이 표시됩니다. 제목이 없으면 파일 이름이 표시됩니다.
+- DITA 맵 관리자 또는 편집기에 참조를 삽입하면 UUID가 아닌 파일 제목이 표시됩니다. 제목이 없으면 파일 이름이 표시됩니다.
 
 ### 즐겨찾기 추가 또는 제거 {#id195HC04405P}
 
@@ -607,6 +609,24 @@ Oxygen XML 작성자의 DITA 주제를 편집하려면 다음 단계를 수행�
    >[!NOTE]
    >
    >AEM Guides용 Oxygen Plugin을 사용하여 항목을 체크인했는지 확인합니다. AEM 웹 인터페이스에서 체크인하는 경우 Oxygen XML 작성자의 변경 사항이 항목의 체크인 버전에 저장되지 않습니다.
+
+**Experience Manager 가이드 저장소에서 항목에 대한 참조 삽입**
+
+항목을 드래그 앤 드롭하여 주제나 DITA 맵에 참조를 삽입할 수도 있습니다.
+>[!NOTE]
+>
+> 참조를 추가하기 전에 파일을 체크 아웃해야 합니다.
+
+참조 유형에 따라 다음 요소가 추가됩니다.
+
+열려 있는 주제가 있는 편집기로 드롭하는 경우:
+- 참조가 다음 항목에 추가됩니다. `<image>` 요소에 사용됩니다.
+- 비디오 또는 오디오에 대해 개체 요소가 추가됩니다.
+- 다음 `<xref>`  항목, 맵, DITAVAL, PDF, ZIP 및 XML과 같은 다른 모든 참조에 대해 요소가 추가됩니다.
+
+맵이 열려 있는 편집기 또는 DITA 맵 관리자로 드롭하면 다음과 같이 됩니다.
+- 다음 `<mapref>` DITA 맵, 북맵 또는 제목 체계를 포함하는 맵 참조에 대해 요소가 추가됩니다.
+- 다음 `<topicref>` 항목, 맵, DITAVAL, PDF, ZIP 및 XML과 같은 다른 모든 참조에 대해 요소가 추가됩니다.
 
 
 ## 속성 프로필 작업 {#id1827JA002YK}

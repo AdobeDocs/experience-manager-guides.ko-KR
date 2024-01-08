@@ -2,9 +2,9 @@
 title: 웹 편집기 기능 이해
 description: AEM Guides에서 웹 편집기의 기능을 살펴보십시오. 기본 도구 모음, 보조 도구 모음, 왼쪽 패널, 콘텐츠 편집 영역 및 오른쪽 패널을 비롯한 웹 편집기의 인터페이스를 알 수 있습니다.
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 9d9a1f270873869ce8261aae439f0ecd7d9fea94
 workflow-type: tm+mt
-source-wordcount: '17222'
+source-wordcount: '17364'
 ht-degree: 0%
 
 ---
@@ -147,9 +147,11 @@ ht-degree: 0%
 
   ![](images/editor-setting-add-attributes-list.png-to-element.PNG){width="300" align="left"}
 
-- **프로필 게시**: 기술 자료 출력을 게시하는 데 사용할 수 있는 게시 프로필이 포함되어 있습니다. 선택한 소비자 유형에 대해 새 프로필을 만들 수 있습니다. 예: Salesforce.
+- **프로필 게시**: 여기에는 를 게시하는 데 사용할 수 있는 게시 프로필이 포함되어 있습니다. **기술 자료** 출력. 대상 기술 자료에 대한 새 프로필을 만들 수 있습니다. 예: Salesforce 또는 ServiceNow.
 
-   - **Salesforce 게시 프로필을 만들기 위한 요구 사항**
+   - **Salesforce 게시 프로필 만들기**
+
+     **전제 조건**
 
       - Salesforce용 연결된 앱을 만듭니다. 자세한 내용은 다음을 참조하십시오. [API 통합에 대한 OAuth 설정 활성화](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&amp;type=5).
 
@@ -157,7 +159,7 @@ ht-degree: 0%
 
          - 콜백을 지정합니다.
 
-           `URL: http://: <server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
+           `URL: http://<server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
 
          - 다음 OAuth 범위를 선택하십시오.
             - 전체 액세스(전체)
@@ -166,18 +168,38 @@ ht-degree: 0%
   앱이 구성되면 Salesforce는 **소비자 키** 및 **소비자 암호**.
 
   Salesforce 게시 프로필을 만드는 데 사용할 수 있습니다.
-  ![편집기 설정의 프로필](./images/create-profile-editor-settings.png){width="300" align="left"}
 
 
+   - Salesforce 게시 프로필을 만들려면 **Salesforce** 기술 자료 **서버 유형** 드롭다운입니다. 프로필 이름을 입력합니다. 다음에서 **사이트 URL**&#x200B;를 클릭하고 출력을 게시하는 데 사용할 소비자 사이트를 입력한 다음 을(를) 추가합니다. **소비자 키** 및 **소비자 암호** salesforce 소비자 사이트에서 제공합니다. 그런 다음, **유효성 검사** 및 **저장** 새로 만든 프로필입니다.
+     ![편집기 설정의 salesforce 게시 프로필](./images/salesforce-publish-profile.png){width="550" align="left"}
 
-- 게시 프로필을 만들기 위해 Salesforce와 같은 기술 자료를 **서버 유형** 드롭다운입니다. 프로필 이름을 입력합니다. 다음에서 **사이트 URL** 출력을 게시하는 데 사용할 소비자 사이트를 입력한 다음 **소비자 키** 및 **소비자 암호** salesforce와 같은 소비자 사이트에서 제공합니다. 그런 다음 새로 만든 프로필에 로그인합니다.
-
-  >[!NOTE]
-  >
-  >Experience Manager 안내서에서 Salesforce용 프록시를 구성하려면 AEM에서 Apache HTTP 구성 요소 프록시 구성을 사용하십시오. 방법 알아보기 [AEM 링크 검사기에 대한 프록시 구성](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
+     >[!NOTE]
+     >
+     >Experience Manager 안내서에서 Salesforce용 프록시를 구성하려면 AEM에서 Apache HTTP 구성 요소 프록시 구성을 사용하십시오. 방법 알아보기 [AEM 링크 검사기에 대한 프록시 구성](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
 
 
-  로그인 후 DITA 맵의 출력 사전 설정에서 게시 프로필을 선택하고 을 사용하여 선택한 문서에 대한 출력을 생성할 수 있습니다. 자세한 내용은 [웹 편집기에서 문서 기반 게시](../install-guide/configure-article-based-publishing.md) ( 설치 및 구성 안내서)를 참조하십시오.
+   - **ServiceNow 게시 프로필 만들기**
+
+     **전제 조건**
+
+     자산을 업로드하도록 ServiceNow 서버를 구성합니다.
+      - 에 연결 **ServiceNow** 서버입니다.
+      - 다음으로 이동 **시스템 속성** > **보안**.
+      - 다음 옵션을 선택 취소합니다.
+
+        **업로드를 위해 MIME 유형 검사를 활성화하려면 이 속성을 설정해야 합니다(모든 버전 유레카 이상). 첨부 파일에 대한 MIME 유형 유효성 검사를 활성화(true)하거나 비활성화(false)합니다. glide.attachment.extensions를 통해 구성된 파일 확장자는 업로드하는 동안 MIME 유형을 확인합니다.**
+
+      - **저장**&#x200B;을 클릭합니다.
+
+     앱을 구성했으면 다음을 만듭니다. **ServiceNow** 프로필 게시.
+   - 게시 프로필을 만들려면 다음에서 ServiceNow 기술 자료를 선택합니다. **서버 유형** 드롭다운입니다. 프로필 입력 **이름**. 다음에서 **ServiceNow URL**&#x200B;를 클릭하고 출력을 게시하는 데 사용할 소비자 사이트를 입력한 다음 을(를) 추가합니다. **사용자 이름** 및 **암호** serviceNow 소비자 사이트에서 제공합니다. 그런 다음, **유효성 검사** 및 **저장** 새로 만든 프로필입니다.
+
+     ![ServiceNow 게시 프로필](./images/service-now-publish-profile.png){width="550" align="left"}
+
+  유효성을 검사한 후 DITA 맵의 출력 사전 설정에서 게시 프로필을 선택하고 이를 사용하여  **Salesforce** 또는 **ServiceNow** 선택한 서버입니다.
+
+  에 대해 자세히 알아보기 [기술 자료](../user-guide/generate-output-knowledge-base.md) 출력 사전 설정.
+
 
 - **유효성 검사**: 이 탭에는 웹 편집기에서 Schematron 유효성 검사를 구성하는 옵션이 포함되어 있습니다. 다음 기능을 활성화할 수 있습니다.
 
@@ -186,7 +208,7 @@ ht-degree: 0%
      >[!NOTE]
      >선택한 Schematron 파일이 선택한 폴더 프로필에 대해 유지됩니다.
 
-     ![편집기 설정에서 유효성 검사](./images/editor-setting-validation.png){width="300" align="left"}
+     ![편집기 설정에서 유효성 검사](./images/editor-setting-validation.png){width="550" align="left"}
 이렇게 하면 사용자가 선택한 Schematron 파일에 정의된 규칙을 벗어나는 파일을 저장할 수 없습니다. 이 옵션을 선택하지 않으면 변경 내용을 저장하기 전에 파일의 유효성을 검사하지 않습니다.
 
    - **모든 사용자가 유효성 검사 패널에서 schematron 파일을 추가하도록 허용**: 사용자가 웹 편집기의 유효성 검사 패널에서 Schematron 파일을 추가할 수 있도록 하려면 이 옵션을 선택합니다. 이를 통해 사용자는 Schematron 파일을 추가한 다음 Schematron 파일에 대해 항목을 확인할 수 있습니다. 이 옵션을 선택하지 않으면 **Schematron 파일 추가** 의 사용자는 버튼을 사용할 수 없습니다. **유효성 검사 패널** 웹 편집기의
@@ -232,9 +254,8 @@ ht-degree: 0%
 
 - **루트 맵 선택**: DITA 맵 파일을 선택하여 주요 참조 또는 용어집 항목을 확인합니다. 선택한 루트 맵이 키 참조를 확인하는 데 가장 높은 우선 순위를 갖습니다. 자세한 내용은 [키 참조 확인](map-editor-other-features.md#id176GD01H05Z).
 
-
 >[!NOTE]
->
+> 
 > 루트 맵을 사용하지 않으려면 **루트 맵 선택** 필드가 비어 있습니다.
 
 **작성자, 소스 및 미리보기 모드**
@@ -666,7 +687,7 @@ AEM Guides를 사용하면 자유 형식 텍스트 형식으로 레이블을 지
 
 이러한 레이블은 작성자가 레이블을 지정해야 하는 경우 드롭다운 목록 형태로 표시됩니다. 이렇게 하면 미리 정의된 일관된 레이블만 시스템에서 사용됩니다.
 
-여러 가지 방법으로 주제에 레이블을 적용할 수 있습니다. [버전 기록](web-editor-use-label.md#) 자산 UI의 패널, [기준선](/help/product-guide/user-guide/generate-output-use-baseline-for-publishing.md#id184KD0T305Z) UI 및 웹 편집기. 웹 편집기의 버전 레이블 기능을 사용하면 작성자가 주제에 레이블을 빠르고 쉽게 할당할 수 있습니다.
+여러 가지 방법으로 주제에 레이블을 적용할 수 있습니다. [버전 기록](web-editor-use-label.md) 자산 UI의 패널, [기준선](/help/product-guide/user-guide/generate-output-use-baseline-for-publishing.md) UI 및 웹 편집기. 웹 편집기의 버전 레이블 기능을 사용하면 작성자가 주제에 레이블을 빠르고 쉽게 할당할 수 있습니다.
 
 웹 편집기에서 주제에 레이블을 추가하려면 다음 단계를 수행하십시오.
 

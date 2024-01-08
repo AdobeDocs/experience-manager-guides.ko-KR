@@ -2,9 +2,9 @@
 title: AEM Guides의 DITA 파일에 대한 태그 관리
 description: AEM Guides의 cq:tags 관리에 대한 간단한 문서
 exl-id: 2d805c26-df9b-405a-81ca-7aa84c6f86c8
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '280'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 1%
 
 ### 관리->메타데이터의 목록이 비어 있거나 완료되지 않았습니다.
 
-목록이 비어 있거나 불완전한 경우 Ditamap에서 색인화를 실행해야 할 수 있습니다. [업그레이드 지침(콘텐츠 색인화)](/help/product-guide/install-guide/upgrade-xml-documentation.md#steps-to-index-the-existing-content-to-use-the-new-find-and-replace%3A)
+`If list is empty or  incomplete then you may need to run the indexing on your ditamap, You can refer` [업그레이드 지침(콘텐츠 색인화)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/download-install-upgrade-aemg/upgrade-xml-documentation.html?lang=en#steps-to-index-the-existing-content-to-use-the-new-find-and-replace%3A)
 
 ### 사용자 지정 메타데이터가 목록에 표시되지 않음
 
@@ -54,8 +54,8 @@ ht-degree: 1%
 
 ## 기타 유용한 리소스
 
-- [맵 대시보드를 사용한 벌크 태그 지정(자산 UI)](/help/product-guide/user-guide/map-editor-bulk-tagging.md)
-- [웹 편집기의 Ditamap 보고서](/help/product-guide/user-guide/reports-web-editor.md)
+- [맵 대시보드를 사용한 벌크 태그 지정(자산 UI)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/manaege-metadata/map-editor-bulk-tagging.html?lang=en)
+- [웹 편집기의 Ditamap 보고서](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/reports-aem-guide/reports-web-editor.html?lang=en)
 - [AEM의 태그 지정](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/configuring/tagging.html?lang=en)
 
 

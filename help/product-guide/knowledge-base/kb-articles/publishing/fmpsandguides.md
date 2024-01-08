@@ -2,9 +2,9 @@
 title: AEM Guides에서 FrameMaker Publishing Server(FMPS)를 사용하여 게시
 description: AEM Guides를 사용하여 FMPS로 게시
 exl-id: 05d4d876-f83b-473c-bf31-14d6565e80e2
-source-git-commit: c31a569c009155dacef00b6b3f1e6d64e556cf29
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 ## AEM Guides와 FMPS의 호환성
 
-- 4.1 AEM Guides와의 호환성: [4.1 호환성 매트릭스](/help/product-guide/release-info/release-notes-4.1.md#compatibility-matrix)
+- 4.1 AEM Guides와의 호환성: [4.1 호환성 매트릭스](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=en/#compatibility-matrix)
 - 4.0 AEM Guides와의 호환성: [4.0 호환성 매트릭스](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html/#Compatibility%20matrix)
-- 최신 릴리스: [최신 릴리스 정보](/help/product-guide/release-info/latest-release-info.md)
+- 최신 릴리스: [최신 릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=en)
 
 ## 설치
 

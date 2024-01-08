@@ -2,7 +2,7 @@
 title: 보고서
 description: AEM Guides에서 DITA 맵 보고서를 만드는 방법을 알아봅니다.
 exl-id: 1f8a33ba-d6e5-448f-b40b-646b9fdc0b19
-source-git-commit: 0afe8bf9b16b1d1367971462b0d44f1721b317c5
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 1%

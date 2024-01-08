@@ -2,9 +2,9 @@
 title: 기본 PDF 게시 기능 사용자 지정 및 구성
 description: 기본 PDF 기능의 다양한 구성 요소를 사용자 지정하고 구성하는 방법에 대해 알아봅니다.
 exl-id: 00bc894a-031e-4d09-bd30-331399fedbc8
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: c79f1d114d8a708cd088f2846243bbcfeed6e620
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,7 @@ AEM Guides를 사용하면 기본 PDF 출력 생성 기능을 사용하여 개�
 * [PDF 템플릿의 구성 요소](../native-pdf/components-pdf-template.md)
 * [페이지 레이아웃 디자인](../native-pdf/design-page-layout.md)
 * [언어 변수 지원](../native-pdf/native-pdf-language-variables.md)
+* [PDF 출력의 변수](../native-pdf/native-pdf-variables.md)
 * 공통 컨텐츠 스타일 {#content-styles}
    * [일반적인 콘텐츠 스타일 사용](../native-pdf/stylesheet.md)
    * [사용자 정의 변경 막대 스타일 작업](../native-pdf/change-bar-style.md)

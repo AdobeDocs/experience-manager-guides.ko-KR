@@ -2,9 +2,9 @@
 title: 웨비저 도구 모음에 실행 가능한 새 사용자 지정 단추 추가
 description: 웨비저 도구 모음에 새 사용자 지정 단추를 추가하고 Javascript를 호출하여 사용자 지정 작동하는 방법에 대해 알아봅니다.
 exl-id: 34999db6-027a-4d93-944f-b285b4a44288
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -60,10 +60,7 @@ JIRA ID가 포함된 &quot;change-request-id&quot; 요소는 API에서 검색해
 
 ### 새 단추에 대한 클릭 이벤트를 처리합니다.
 
->[!NOTE]
->
->아래에 언급된 단계는 이 게시물에 첨부된 패키지로 사용할 수 있습니다
-
+    참고: 아래에 언급된 단계는 이 게시물에 첨부된 패키지로 사용할 수 있습니다
 
 
 - 폴더 프로필을 저장한 후 프로젝트 디렉터리(아래에 있을 수 있음) 아래에 &quot;cq:ClientLibraryFolder&quot;를 만듭니다. */apps*) 아래 스크린샷에 표시된 대로 속성을 추가합니다.
