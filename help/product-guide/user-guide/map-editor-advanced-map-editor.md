@@ -2,7 +2,9 @@
 title: 고급 맵 편집기 작업
 description: AEM Guides에서 고급 맵 편집기로 작업하는 방법을 알아봅니다. 고급 맵 편집기의 기능을 이해할 수 있습니다. DITA 맵을 통해 주제를 편집하고 레이아웃 보기, 작성자 보기 및 미리보기 모드를 사용합니다.
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Map Editor
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '3695'
 ht-degree: 0%

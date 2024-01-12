@@ -1,7 +1,8 @@
 ---
 title: 상단 표시줄 및 도구 모음
 description: 상단 표시줄 및 도구 모음 사용자 지정
-source-git-commit: 5962414dfc065543b946cac1468a5f62013073cf
+role: User, Admin
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 0%

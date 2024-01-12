@@ -2,7 +2,10 @@
 title: 웹 편집기에서 파일 자동 저장 구성
 description: 웹 편집기에서 파일 자동 저장을 구성하는 방법에 대해 알아봅니다
 exl-id: 23fe404c-c76d-43ba-9b28-c49ab1e524de
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Web Editor Configuration
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 1%

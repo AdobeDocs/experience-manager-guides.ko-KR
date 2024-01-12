@@ -2,7 +2,9 @@
 title: 게시 대시보드를 사용하여 게시 작업 관리
 description: AEM Guides의 게시 대시보드를 사용하여 게시 작업을 관리합니다. 게시 대시보드에 액세스하고 게시 작업을 취소하는 방법을 이해할 수 있습니다.
 exl-id: d9e25e52-ba9d-4088-ac95-8df76b69f5d3
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Publishing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 0%

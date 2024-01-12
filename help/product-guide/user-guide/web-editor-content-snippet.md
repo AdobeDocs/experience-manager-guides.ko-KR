@@ -2,7 +2,9 @@
 title: 데이터 소스에서 콘텐츠 조각 삽입
 description: AEM Guides에서 데이터 소스의 데이터를 사용합니다. 데이터 소스에서 콘텐츠 코드 조각을 삽입하는 방법을 알아봅니다. 주제 생성기를 사용하여 주제를 생성합니다.
 exl-id: fbd5eff2-451b-49d6-ba77-6eb271e94349
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Features of Web Editor
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '2066'
 ht-degree: 0%

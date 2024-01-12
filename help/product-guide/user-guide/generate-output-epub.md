@@ -2,7 +2,9 @@
 title: EPUB 사전 설정
 description: 맵 대시보드에서 EPUB 사전 설정을 만드는 방법을 알아봅니다. AEM Guides에서 EPUB 출력 사전 설정을 구성합니다.
 exl-id: b6fb5483-064e-4552-84c7-b6723b79d8c5
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Publishing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 1%

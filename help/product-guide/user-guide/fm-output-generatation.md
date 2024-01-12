@@ -2,7 +2,9 @@
 title: FrameMaker 문서의 출력 생성
 description: AEM Guides에서 FrameMaker 문서의 출력을 생성하여 PDF, HTML 5 및 EPUB 형식으로 게시하는 방법에 대해 알아봅니다.
 exl-id: c19564c2-90f7-411d-835e-b2d1b0ada9c5
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Publishing FrameMaker Documents
+role: User
+source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 0%

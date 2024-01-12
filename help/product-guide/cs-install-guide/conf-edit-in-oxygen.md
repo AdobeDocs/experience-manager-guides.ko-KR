@@ -2,7 +2,10 @@
 title: Oxygen에서 편집할 옵션 구성
 description: Oxygen 커넥터 플러그인에서 편집할 옵션을 구성하는 방법을 알아봅니다.
 exl-id: 96081a6d-39cf-4697-8b43-6494543ea187
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Web Editor Configuration
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 1%

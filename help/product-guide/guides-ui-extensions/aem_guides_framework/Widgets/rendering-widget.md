@@ -1,7 +1,8 @@
 ---
 title: 렌더링 위젯
 description: JUI 위젯에서 렌더링이 작동하는 방법
-source-git-commit: f9a72e44fe1a3d90180ff728189a24ea9c7b1b1a
+role: User, Admin
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 0%

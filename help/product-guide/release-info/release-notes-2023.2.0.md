@@ -2,7 +2,9 @@
 title: 릴리스 정보 | Adobe Experience Manager Guides as a Cloud Service, 2023년 2월 릴리스
 description: Adobe Experience Manager Guides as a Cloud Service 2월 릴리스
 exl-id: c639b136-11ed-4a8b-a595-4bb5da879747
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
@@ -78,7 +80,7 @@ ht-degree: 0%
 
 * DITA 맵 자산( 자산 UI에서 )을 복사하면 복사된 자산에 잘못된 기준선이 생깁니다. (11218)
 * AEM에 허용된 제한(기본적으로 2GB)보다 큰 파일을 업로드할 때에는 경고 메시지가 표시되지 않습니다. (10817)
-* 웹 편집기 기준선 | 최신 열의 동작이 웹 편집기 내의 새 기준선 대시보드에 있습니다. (10808)
+* 웹 편집기 기준선 | 최근 열의 비헤이비어는 웹 편집기 내의 새 기준선 대시보드에서 다릅니다. (10808)
 * 번역 | 잘못된 /libs/fmdita/i18n/ja.json으로 인해 번역 작업이 시작되지 않습니다. (10543)
 * 번역 | 번역 대시보드(사람 번역)에서 생성된 범위 번역 프로젝트에서 오류가 발생합니다. (10526)
 * 번역 | 활성 번역 프로젝트에 자산이 있는 전체 언어 폴더에 대한 사후 처리가 차단됩니다. (10332)
@@ -89,12 +91,12 @@ ht-degree: 0%
 
 * 일부 시나리오에서는 주제 재생성이 작동하지 않습니다. (10635)
 * Publishlistener는 요청된 데이터를 정보 로그에 표시하지 않으며 일부 정크 로그도 포함합니다.( 10567)
-* 기본 PDF | &quot;폴더 프로필에 추가&quot; 옵션을 사용하여 출력 사전 설정을 만들 때 PDF 생성이 실패하고 Null 포인터 예외가 발생합니다. (10950)
-* 기본 PDF | 표 머리글을 회전할 때 문제가 발생합니다. (10555)
-* 기본 PDF | 중첩됨 `<indexterm>` 는 기본 PDF 내보내기에서 중첩되지 않습니다. (10521)
+* 기본 PDF | 폴더 프로필에 추가 옵션을 사용하여 출력 사전 설정을 만들 때 Null 포인터 예외가 발생하여 PDF 생성이 실패합니다. (10950)
+* 기본 PDF | 테이블 헤더 회전 시 문제가 발생합니다. (10555)
+* 기본 PDF | 중첩 `<indexterm>` 는 기본 PDF 내보내기에서 중첩되지 않습니다. (10521)
 * 기본 PDF | 부록의 중첩된 topicref는 모두 임시 HTML에서 h1로 변환됩니다. (10454)
 * FrameMaker Publishing Server 2020을 사용하여 생성된 PDF에 대한 기준선 게시가 실패합니다. (10551)
 * 기본 PDF | 추가 중 `xref` 이미지를 로 바꾸면 생성된 PDF에서 이미지가 렌더링되지 않습니다. (11346)
-* 기본 PDF | 이미지 태그는 모든 이미지에 display-inline 특성을 추가합니다. (10653)
+* 기본 PDF | Image 태그는 모든 이미지에 display-inline 속성을 추가합니다. (10653)
 * 기본 PDF | 초안 주석은 생성된 출력에서 기본적으로 숨겨집니다. (10560)
-* 기본 PDF | navtitle이 topichead에 대해 적용되지 않습니다. (10509)
+* 기본 PDF | navtitle은 topichead에 대해 적용되지 않습니다. (10509)

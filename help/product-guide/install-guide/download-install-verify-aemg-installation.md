@@ -2,7 +2,10 @@
 title: AEM Guides 설치 확인
 description: AEM Guides 설치를 확인하는 방법에 대해 알아봅니다
 exl-id: 8e0afe18-5675-4c7e-b216-6de1a752bd01
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Installation
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 0%

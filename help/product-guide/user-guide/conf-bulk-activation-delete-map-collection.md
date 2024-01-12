@@ -2,7 +2,9 @@
 title: 벌크 활성화 맵 컬렉션 삭제
 description: AEM Guides에서 벌크 활성화 맵 컬렉션을 삭제하는 방법에 대해 알아봅니다.
 exl-id: 8e1f30e4-4b83-4282-97c9-7e6960c6ec19
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Publishing, Bulk Activation
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 0%

@@ -2,7 +2,9 @@
 title: 웹 편집기에서 출력 사전 설정 만들기
 description: 웹 편집기에서 출력 사전 설정을 만듭니다. AEM Guides에서 출력 사전 설정을 편집, 이름 변경, 복제 및 삭제하는 방법에 대해 알아봅니다.
 exl-id: cd38b039-ef91-45c9-a226-433e57b09873
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Features of Web Editor, Publishing
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%

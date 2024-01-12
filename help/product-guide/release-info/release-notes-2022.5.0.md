@@ -2,7 +2,9 @@
 title: 릴리스 정보 | Adobe Experience Manager Guides as a Cloud Service, 2022년 5월 릴리스
 description: Adobe Experience Manager Guides as a Cloud Service 5월 릴리스
 exl-id: 7928a300-5ec9-492c-b9be-02b6f87638c6
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 0%

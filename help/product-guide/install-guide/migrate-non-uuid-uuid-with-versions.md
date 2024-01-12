@@ -1,7 +1,10 @@
 ---
 title: 버전이 있는 비 UUID 콘텐츠를 UUID 콘텐츠로 변환
 description: 버전이 있는 비 UUID 콘텐츠를 UUID 콘텐츠로 마이그레이션하는 방법에 대해 알아봅니다.
-source-git-commit: d37cb4a416d85b072c152d795d8a28b5ac70ef4e
+feature: Migration
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 0%

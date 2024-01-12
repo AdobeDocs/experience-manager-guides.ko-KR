@@ -2,7 +2,10 @@
 title: AEM Guides 제거
 description: AEM Guides를 제거하는 방법 알아보기
 exl-id: 6c6b9692-cdec-426f-bc3b-f09d0091da39
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Installation
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%

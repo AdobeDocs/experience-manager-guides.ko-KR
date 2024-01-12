@@ -2,7 +2,9 @@
 title: 주제 또는 맵 검토
 description: 원활한 콘텐츠 평가를 위해 AEM Guides에서 주제나 맵을 효율적으로 검토합니다. AEM Guides의 작성자 및 검토자의 기능을 이해합니다.
 exl-id: 81ea0b52-52b0-4764-a6d8-a96d5c7693bf
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Reviewing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 0%

@@ -2,7 +2,9 @@
 title: 웹 편집기의 키보드 단축키
 description: AEM Guides의 웹 편집기에서 시간을 절약할 수 있는 키보드 단축키에 대해 알아봅니다.
 exl-id: d843c5a9-04f8-44f2-9bf5-60cb4ed7fa38
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Features of Web Editor
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 0%

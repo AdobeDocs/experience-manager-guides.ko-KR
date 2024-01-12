@@ -2,7 +2,9 @@
 title: 릴리스 정보 | Adobe Experience Manager Guides 4.2 릴리스의 새로운 기능
 description: Adobe Experience Manager Guides 4.2 릴리스의 새로운 기능과 향상된 기능에 대해 알아봅니다
 exl-id: 46367ccf-58ff-4889-8314-cdd5bf5d0f1d
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: What's New
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '2423'
 ht-degree: 0%
@@ -217,6 +219,6 @@ PDF에 변경 막대가 표시되어 수정, 삽입 또는 삭제된 콘텐츠�
 
 이제 쉽게 탐색할 수 있도록 최종 PDF 출력의 특정 콘텐츠에 사용자 지정 책갈피를 추가할 수 있습니다. DITA 맵의 주제 또는 섹션 제목에서 생성된 목차에 추가됩니다.
 
-## 기본 PDF | 목차 항목 및 주제 컨텐츠에 사용자 지정 스타일 적용
+## 기본 PDF | 목차 항목 및 주제 콘텐츠에 사용자 지정 스타일 적용
 
 AEM Guides에서는 목차 항목 또는 PDF 출력의 특정 항목에 사용자 지정 스타일을 적용하는 기능을 제공합니다. 예를 들어 목차와 주제 제목의 텍스트 색상을 변경할 수 있습니다. 주제 내의 전체 내용에 스타일을 적용할 수도 있습니다.

@@ -2,7 +2,10 @@
 title: 기존 DITA 콘텐츠 업로드
 description: 기존 DITA 콘텐츠를 업로드하는 방법 알아보기
 exl-id: 1dde8a29-301f-461e-b598-2a8cab61bf3d
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Migration
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1201'
 ht-degree: 0%

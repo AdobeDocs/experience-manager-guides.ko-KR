@@ -1,7 +1,10 @@
 ---
 title: 일괄 활성화 완료 이벤트 핸들러
 description: 벌크 활성화 완료 이벤트 핸들러에 대해 알아보기
-source-git-commit: 8f1bb12a92ab9a63aef1765e51159644242683a0
+feature: Bulk Activation Event Handler
+role: Developer
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 1%

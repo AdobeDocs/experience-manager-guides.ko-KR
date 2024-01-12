@@ -2,7 +2,10 @@
 title: 체크인 및 체크아웃 아이콘의 제목 구성
 description: 체크인 및 체크아웃 아이콘의 제목을 구성하는 방법에 대해 알아봅니다
 exl-id: a8888a17-e819-4fa2-bb6f-cafe1002803a
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Web Editor Configuration
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%

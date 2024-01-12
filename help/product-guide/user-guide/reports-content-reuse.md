@@ -2,7 +2,9 @@
 title: 컨텐츠 재사용 보고서
 description: AEM Guides에서 컨텐츠 재사용 보고서를 보는 방법에 대해 알아봅니다. 보고서를 생성하여 콘텐츠 재사용 비율을 찾습니다.
 exl-id: ccae4303-75b1-4077-829a-7ef6a14fd8ad
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Report Generation
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%

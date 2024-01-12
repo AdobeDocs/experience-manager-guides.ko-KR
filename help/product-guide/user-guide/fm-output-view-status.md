@@ -2,7 +2,9 @@
 title: 출력 생성 작업의 상태 보기
 description: FrameMaker 문서의 출력 생성 대기열을 봅니다. 출력 생성 작업의 상태를 보는 방법에 대해 알아봅니다.
 exl-id: c358f747-f0a5-4d9e-a96f-20f30663101f
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Publishing FrameMaker Documents
+role: User
+source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%

@@ -2,7 +2,9 @@
 title: 릴리스 정보 | Adobe Experience Manager Guides, 2023년 6월 릴리스의 업그레이드 지침 및 해결된 문제
 description: 버그 수정 사항 및 Adobe Experience Manager Guides as a Cloud Service으로 2023년 6월 릴리스로 업그레이드하는 방법에 대해 알아보십시오
 exl-id: df17ee33-9f50-4223-ab9f-a57a31097d22
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1170'
 ht-degree: 1%
@@ -86,7 +88,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 기존 콘텐츠를 색인화하기 위해 다음 단계를 수행하고 보고서 탭 아래의 맵 수준 및 주제 목록에서 새 찾기 및 바꾸기 텍스트를 사용합니다.
 
-1. 올바른 인증을 사용하여 서버에 대한 POST 요청 실행\ - `http://<server:port\>/bin/guides/map-find/indexing`. (선택 사항: 맵의 특정 경로를 전달하여 인덱싱할 수 있습니다. 기본적으로 모든 맵은 \|\| 예를 들면 다음과 같습니다. `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+1. 올바른 인증을 사용하여 서버에 대한 POST 요청 실행\ - `http://<server:port\>/bin/guides/map-find/indexing`. (선택 사항: 맵의 특정 경로를 전달하여 인덱싱할 수 있습니다. 기본적으로 모든 맵은 인덱싱됩니다. \|\| 예 : `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 1. 루트 폴더를 전달하여 특정 폴더(및 그 하위 폴더)의 DITA 맵을 인덱싱할 수도 있습니다. 예, `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. paths 매개 변수와 root 매개 변수가 모두 전달되면 paths 매개 변수만 고려됩니다.
 
@@ -124,10 +126,10 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 - 레이아웃 보기에서 작성자 또는 소스 보기로 전환하면 Navtitle이 content33에서 제거됩니다. (12174)
 - DITA 맵을 클릭할 때 응용 프로그램 오류가 발생하는 경우가 있습니다. (11842)
 - 웹 편집기 | 항목을 편집하는 동안 XML 편집기에 줄바꿈하지 않는 공백이 추가됩니다. (11786)
-- 자산 UI | 목록 보기에서 오버레이된 사용 가능한 열을 병합할 수 없습니다. (11528)
+- 자산 UI | 목록 보기에서 오버레이된 사용 가능한 열은 병합할 수 없습니다. (11528)
 - Keyref가 맵 보기에서 확인되지 않습니다. (11490)
 - XML 편집기를 탐색할 때 상단 메뉴가 나타나지 않습니다. (10868)
-- `conref` ph 태그에서 | 표시되는 찾아보기 대화 상자가 올바르지 않습니다. (9481)
+- `conref` ph 태그에서 | 표시된 찾아보기 대화 상자가 올바르지 않습니다. (9481)
 - 다른 요소에 대한 로컬 링크는 웹 편집기에서 확인되지 않습니다. (8790)
 - Matches() 함수가 schematron 기능에서 작동하지 않습니다. (11224)
 
@@ -142,17 +144,17 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 - 새로 고치거나 다시 시작한 Pod에서 임시 파일을 읽을 때 AEM 사이트에 게시하지 못합니다. (12113)
 - 기본 PDF | brackets()가 있는 출력 클래스가 있는 콘텐츠를 게시하면 게시가 중지됩니다. (11936)
-- JSON 출력 | 다음 속성 값을 갖는 메타데이터 매핑 `"value in spaces and double quotes"` 은 게시 오류로 이어집니다. (11933)
+- JSON 출력 | 다음 속성 값을 갖는 메타데이터 매핑: `"value in spaces and double quotes"` 은 게시 오류로 이어집니다. (11933)
 - 웹 편집기 | AEM 사전 설정에서 출력 경로 및 템플릿을 선택할 수 없습니다. (11530)
-- 기본 PDF | 사용자 지정 특성이 임시 HTML 또는 PDF 엔진에 전파되지 않습니다. (DXML-12005)
+- 기본 PDF | 사용자 지정 속성은 임시 HTML 또는 PDF 엔진에 전파되지 않습니다. (DXML-12005)
 - 기본 PDF | 큰 콘텐츠를 게시할 때 Java OutOfMemoryError가 발생합니다. (11789)
-- JSON 출력 | `fmUuid` json의 jcr:content 노드에 있는 속성이 JSON 내의 &quot;id&quot;와 다릅니다. (11564)
-- JSON 출력 | 동일한 파일 이름을 가진 맵과 주제가 있으면 맵에 대한 JSON이 제거됩니다. (11524)
+- JSON 출력 | 다음 `fmUuid` json의 jcr:content 노드에 있는 속성이 JSON 내의 &quot;id&quot;와 다릅니다. (11564)
+- JSON 출력 | 맵과 동일한 파일 이름을 가진 주제가 있으면 맵에 대한 JSON이 제거됩니다. (11524)
 - 기본 PDF | Xref가 Xref 레이블 대신 href 주제 제목의 콘텐츠를 인쇄하고 있습니다. (11322)
 - 기본 PDF | PDF 템플릿 설정을 저장할 수 없습니다. (10751)
-- 기본 PDF | 텍스트가 여러 xref를 포함할 때 열 너비를 넘어갑니다. (10876)
+- 기본 PDF | 텍스트가 여러 xref를 포함할 때 열 너비를 초과하여 확장됩니다. (10876)
 - 기본 PDF | `<note>``</note>` 요소가 해당 유형의 추가 스팬 제목을 생성하지 않습니다. (10549)
-- 기본 PDF | 생성된 PDF에서 WCAG 2.0을 준수하도록 언어 메타데이터를 설정할 수 없습니다. (12296)
+- 기본 PDF | WCAG 2.0을 준수하도록 생성된 PDF에서 언어 메타데이터를 설정할 수 없습니다. (12296)
 
 
 
@@ -162,4 +164,4 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 ### 리뷰
 
-- 새 리뷰 UI | 조건이 강조 표시되고, 숨기기 작업이 웹 편집기에서 작동하는 방식과 다릅니다. (11628)
+- 새 리뷰 UI | 조건이 강조 표시되고 숨김 작업이 웹 편집기에서 작동하는 방식과 다릅니다. (11628)

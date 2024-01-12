@@ -2,7 +2,10 @@
 title: DITA 맵에서 사용할 REST API
 description: DITA 맵에서 작동하는 REST API에 대해 알아보기
 exl-id: 6277e52d-1b05-4dd7-8d2b-4b94f329e2d7
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Rest API DITA Map
+role: Developer
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 0%

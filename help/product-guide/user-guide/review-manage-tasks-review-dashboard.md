@@ -2,7 +2,9 @@
 title: 검토 대시보드를 사용하여 검토 작업 관리
 description: AEM Guides의 검토 대시보드에서 검토 작업을 관리합니다. 작업, 콘텐츠, 검토자 탭에서 수행할 작업에 대해 알아보고 검토 작업의 상태를 확인합니다.
 exl-id: 4fef5653-1c73-4b68-adf2-b24145555142
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Reviewing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1300'
 ht-degree: 0%

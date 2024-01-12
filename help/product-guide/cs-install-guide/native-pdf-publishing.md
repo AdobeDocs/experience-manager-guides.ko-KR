@@ -2,7 +2,10 @@
 title: 기본 PDF 게시 기능 사용자 지정 및 구성
 description: 기본 PDF 기능의 다양한 구성 요소를 사용자 지정하고 구성하는 방법에 대해 알아봅니다.
 exl-id: 00bc894a-031e-4d09-bd30-331399fedbc8
-source-git-commit: c79f1d114d8a708cd088f2846243bbcfeed6e620
+feature: Output Generation
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 0%

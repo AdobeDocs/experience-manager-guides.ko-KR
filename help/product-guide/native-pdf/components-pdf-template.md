@@ -2,7 +2,10 @@
 title: 기본 PDF 게시 기능 | PDF 템플릿의 구성 요소
 description: PDF 템플릿의 다양한 구성 요소와 구성 요소를 사용자 정의하고 구성하는 방법에 대해 알아봅니다.
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Output Generation
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '4975'
 ht-degree: 0%

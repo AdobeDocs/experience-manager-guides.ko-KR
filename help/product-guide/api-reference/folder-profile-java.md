@@ -2,7 +2,10 @@
 title: 폴더 프로필 작업을 위한 Java 기반 API
 description: 폴더 프로필로 작동하는 Java 기반 API에 대해 알아봅니다
 exl-id: 388ae654-c4f9-4bb7-ba98-370b8919e3a6
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Java-Based API Folder Profiles
+role: Developer
+level: Experienced
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 0%

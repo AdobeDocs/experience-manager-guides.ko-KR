@@ -2,7 +2,9 @@
 title: 콘텐츠 번역 방법 알아보기
 description: AEM Guides에서 콘텐츠를 여러 언어로 번역합니다. 사람 번역 및 기계 번역 워크플로에 대해 알아봅니다.
 exl-id: 88df750c-fb26-47f1-a884-b9e2f96b96ea
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Translation
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 1%

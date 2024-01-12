@@ -2,7 +2,9 @@
 title: 게시된 콘텐츠의 벌크 활성화
 description: 게시된 콘텐츠의 벌크 활성화에 대해 알아봅니다. AEM 안내서의 벌크 활성화 기능의 장점에 대해 알아보십시오.
 exl-id: 3643ecab-b5c1-41ea-8b7b-1470ead63aec
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Publishing, Bulk Activation
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 0%

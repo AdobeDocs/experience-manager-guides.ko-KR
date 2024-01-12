@@ -2,7 +2,10 @@
 title: 주제 구성 및 템플릿 매핑
 description: 주제 구성 및 템플릿 매핑 방법 알아보기
 exl-id: 2d813da9-6586-4b43-9c79-ff46a5e651a2
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Template Configuration
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '63'
 ht-degree: 0%

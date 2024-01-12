@@ -2,7 +2,9 @@
 title: 파일 업로드
 description: AEM 저장소에 파일을 업로드하고 오류를 처리하는 방법에 대해 알아봅니다. 에셋 콘솔 사용자 인터페이스, AEM 데스크탑 앱, 에셋 일괄 수집기를 알고 일괄 업로드에 FrameMaker을 사용합니다.
 exl-id: b5430242-1122-43df-a0b2-275b1dea33f2
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Content Management
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 0%

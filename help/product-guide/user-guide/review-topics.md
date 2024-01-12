@@ -2,7 +2,9 @@
 title: 주제 검토
 description: AEM Guides에서 항목을 검토하고 검토자, 문서 보기, 항목 보기, 상황별 도구 모음, 미리 보기 모드, 댓글에 첨부 추가 및 조건 패널로서의 기능을 사용하는 방법에 대해 알아봅니다.
 exl-id: fc87fc37-f1cd-4a19-96c2-3a08a8222002
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Reviewing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '2351'
 ht-degree: 0%

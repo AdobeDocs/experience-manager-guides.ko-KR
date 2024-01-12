@@ -2,7 +2,9 @@
 title: 주제 만들기 및 미리 보기
 description: AEM Guides의 Assets UI에서 DITA 주제를 만들고 미리 보는 방법에 대해 알아봅니다.
 exl-id: 17db1827-f5e6-48a9-8989-5e24c3671e55
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 0%

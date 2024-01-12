@@ -2,7 +2,9 @@
 title: 맵 편집기 작업
 description: AEM Guides에서 맵 편집기 를 사용하여 작업합니다. AEM 맵 편집기에서 맵 파일을 만들고 편집하는 방법에 대해 알아봅니다.
 exl-id: 1c780ae2-6917-474f-8222-cb93807426e2
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Map Editor
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 0%

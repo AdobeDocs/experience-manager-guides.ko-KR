@@ -2,7 +2,10 @@
 title: 닫을 때 파일을 체크 인하도록 프롬프트 구성
 description: 닫을 때 파일을 체크 인하도록 프롬프트를 구성하는 방법 알아보기
 exl-id: d184c97f-8405-4bcd-963d-635f17584897
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Web Editor Configuration
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 1%

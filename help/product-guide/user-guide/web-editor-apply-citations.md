@@ -2,7 +2,9 @@
 title: 콘텐츠의 인용 항목 추가 및 관리
 description: AEM Guides의 인용 부호를 추가하고 관리합니다. 인용을 사용하여 콘텐츠 출력을 적용, 가져오기, 필터링, 검색, 변경, 편집, 미리보기, 삽입, 삭제 및 생성하는 방법에 대해 알아봅니다.
 exl-id: 685d747d-e017-4350-a6bf-822fd55c76e8
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Features of Web Editor
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 0%
@@ -133,7 +135,7 @@ AEM Guides는 MLA(Modern Language Association), APA(American Psychological Assoc
 | MLA | APA | 시카고 | IEEE | AHA |
 |---|---|---|---|---|
 | 현대 언어 연결 스타일 <br> | 미국 심리학회 스타일 | 시카고 스타일 설명서 | 전기 전자 엔지니어 연구소 스타일 | 미국 심장 협회 스타일 |
-| 예:<br> Crawford, Claire 외. *어두운 기억의 감정적 내용*.Edited by Memory, vol 16, 2010, Amsterdam. | 예: <br> Crawford, C., J., &amp; , C. (2010). *어두운 기억의 감정적 내용* (505-16 ed.) 10.1080/ 09658210902067289 | 예: <br> Crawford, Claire 외. *어두운 기억의 감정적 내용*. 505-16, 2010. | 예: <br> C. Crawford, J. 및 C. , *어두운 기억의 감정적 내용*. 암스테르담, 2010년 | 예: <br> C. Crawford, J. 및 C. , *어두운 기억의 감정적 내용*. 암스테르담, 2010년 |
+| 예:<br> Crawford, Claire 외. *어두운 기억의 감정적 내용*.Edited by Memory, vol 16, 2010, Amsterdam. | 예: <br> Crawford, C., J., &amp;, C. (2010). *어두운 기억의 감정적 내용* (505-16 ed.) 10.1080/ 09658210902067289 | 예: <br> Crawford, Claire 외. *어두운 기억의 감정적 내용*. 505-16, 2010. | 예: <br> C. Crawford, J. 및 C. , *어두운 기억의 감정적 내용*. 암스테르담, 2010년 | 예: <br> C. Crawford, J. 및 C. , *어두운 기억의 감정적 내용*. 암스테르담, 2010년 |
 
 
 ## 인용 편집

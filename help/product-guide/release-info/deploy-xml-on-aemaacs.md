@@ -2,7 +2,9 @@
 title: 추가 방법 [!DNL AEM Guides] (으)로 [!DNL AEM as a Cloud Service] 환경
 description: 추가 방법 알아보기 [!DNL AEM Guides] (으)로 [!DNL AEM as a Cloud Service] 환경
 exl-id: a1e020c2-360c-4d71-b5fd-8179d9ceacda
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Installation
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%

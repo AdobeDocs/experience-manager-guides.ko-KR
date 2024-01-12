@@ -2,7 +2,9 @@
 title: Adobe Experience Manager 안내서 정보
 description: 엔터프라이즈급 DITA 기반 구성 요소 콘텐츠 관리 솔루션인 Adobe Experience Manager Guides에 대해 알아봅니다. AEM Guides의 이점을 알아봅니다.
 exl-id: 474e7eab-3474-4362-9f1d-17cc98e53184
-source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
+feature: Introduction
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 7%

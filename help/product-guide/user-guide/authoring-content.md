@@ -2,7 +2,9 @@
 title: 콘텐츠 작성
 description: AEM Guides에서 콘텐츠를 작성합니다. 문서를 만들고, 미리 보고, 편집하고, 버전을 저장하고, 검토를 위해 공유하는 방법을 알아봅니다.
 exl-id: 2696f315-7c27-4bac-a621-b8066cf5c96e
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 0%

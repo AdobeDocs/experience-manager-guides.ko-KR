@@ -2,7 +2,10 @@
 title: UUID를 기반으로 자동 파일 이름 구성
 description: UUID를 기반으로 자동 파일 이름을 구성하는 방법 알아보기
 exl-id: 2a599228-6d46-494f-a57a-96c3f30e073a
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Filename Configuration
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 0%

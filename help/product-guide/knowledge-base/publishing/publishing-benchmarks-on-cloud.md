@@ -2,7 +2,9 @@
 title: AEMaaCS에서 안내서 게시 벤치마크
 description: AEM Cloud에 게시하는 것에 대한 시스템 제한을 이해합니다.
 exl-id: 2cb4dfa4-dafc-409a-8d29-dbb00fabeae5
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Publishing
+role: User, Admin
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 8%

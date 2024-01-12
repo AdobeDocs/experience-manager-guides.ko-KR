@@ -2,7 +2,9 @@
 title: 조건 사전 설정 사용
 description: AEM Guides에서 조건 사전 설정의 사용 방법을 이해합니다. AEM에서 조건 사전 설정을 만들고, 편집하고, 복사하고, 삭제하는 방법에 대해 알아봅니다.
 exl-id: f6865a34-abdd-4d23-b903-0211bebd13b7
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Publishing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1210'
 ht-degree: 1%

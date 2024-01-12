@@ -2,7 +2,9 @@
 title: 출력 활성화
 description: AEM Guides에서 DITA 맵의 출력을 활성화합니다. 게시 인스턴스에서 콘텐츠를 활성화하는 방법을 알아봅니다.
 exl-id: 4da644b9-8c5f-4976-a212-960085b693b8
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Publishing, Bulk Activation
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 2%

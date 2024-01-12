@@ -2,7 +2,10 @@
 title: 기술 요구 사항
 description: AEM Guides와 함께 작동하는 기술 요구 사항에 대해 알아봅니다
 exl-id: d69245b0-bf20-43c1-b46e-b6c220319690
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Introduction, Installation
+role: Admin
+level: Experienced
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 0%

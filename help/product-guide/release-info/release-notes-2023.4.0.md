@@ -2,7 +2,9 @@
 title: 릴리스 정보 | Adobe Experience Manager Guides as a Cloud Service, 2023년 4월 릴리스
 description: 2023년 4월 Adobe Experience Manager 가이드 as a Cloud Service 릴리스
 exl-id: fa339eab-d3d0-4763-adbf-6411e39aa213
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '598'
 ht-degree: 0%
@@ -74,4 +76,4 @@ ht-degree: 0%
 
 Adobe은 AEM Guides as a Cloud Service 2023년 4월 릴리스에 대해 다음과 같은 알려진 문제를 확인했습니다.
 
-* 기본 PDF | 출력 사전 설정을 명시적으로 열 때까지 이전 메타데이터가 채워지지 않습니다.
+* 기본 PDF | 출력 사전 설정을 명시적으로 열 때까지 이전 메타데이터는 채워지지 않습니다.

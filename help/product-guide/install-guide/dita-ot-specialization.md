@@ -2,7 +2,10 @@
 title: 사용자 지정 DITA-OT 및 DITA 특수화 사용
 description: 사용자 지정 DITA-OT 및 DITA 특수화를 사용하는 방법 알아보기
 exl-id: ddc1393b-b269-40e5-9627-96dad82b42e9
-source-git-commit: 8e8e64ad1105b0546856cb82b47547ceacd405b9
+feature: DITA-OT Configuration
+role: Admin
+level: Experienced
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '2093'
 ht-degree: 0%

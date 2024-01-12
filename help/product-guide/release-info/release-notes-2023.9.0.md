@@ -2,7 +2,9 @@
 title: 릴리스 정보 | Adobe Experience Manager Guides, 2023년 9월 릴리스의 업그레이드 지침 및 해결된 문제
 description: 버그 수정 사항과 Adobe Experience Manager Guides as a Cloud Service으로 2023년 9월 릴리스로 업그레이드하는 방법에 대해 알아보십시오
 exl-id: 795b86a0-e763-404a-a4bb-35d3d2a42672
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1486'
 ht-degree: 0%
@@ -88,7 +90,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 기존 콘텐츠를 색인화하기 위해 다음 단계를 수행하고 보고서 탭 아래의 맵 수준 및 주제 목록에서 새 찾기 및 바꾸기 텍스트를 사용합니다.
 
-1. 올바른 인증을 사용하여 서버에 대한 POST 요청 실행\ - `http://<server:port\>/bin/guides/map-find/indexing`. (선택 사항: 맵의 특정 경로를 전달하여 인덱싱할 수 있습니다. 기본적으로 모든 맵은 \|\| 예를 들면 다음과 같습니다. `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+1. 올바른 인증을 사용하여 서버에 대한 POST 요청 실행\ - `http://<server:port\>/bin/guides/map-find/indexing`. (선택 사항: 맵의 특정 경로를 전달하여 인덱싱할 수 있습니다. 기본적으로 모든 맵은 인덱싱됩니다. \|\| 예 : `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 1. 루트 폴더를 전달하여 특정 폴더(및 그 하위 폴더)의 DITA 맵을 인덱싱할 수도 있습니다. 예, `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. paths 매개 변수와 root 매개 변수가 모두 전달되면 paths 매개 변수만 고려됩니다.
 
@@ -160,15 +162,15 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 - 네이티브 PDF 템플릿을 복제하면 제공된 사용자 지정 템플릿 위치가 아닌 기본 템플릿 위치에 복제됩니다. (12563)
 
 - 기본 PDF | 여러 xref를 포함하면 텍스트가 열 너비를 넘어갑니다. (13004)
-- 기본 PDF | 주제와 제목에 동일한 ID가 있으면 잘못된 PDF 출력 생성이 발생합니다. (12644)
-- 기본 PDF | outputclass를 상위에 추가할 때 `<topicref>` 요소는 DITA 맵에서 사용자 지정 스타일을 outputclass에 적용하고, 스타일 지정은 섹션 제목을 포함하여 주제 본문 내의 요소에 적용됩니다.(12166)
+- 기본 PDF | 주제와 제목이 동일한 ID를 가지면 잘못된 PDF 출력 생성이 발생합니다. (12644)
+- 기본 PDF | 상위에 outputclass 추가 시 `<topicref>` 요소는 DITA 맵에서 사용자 지정 스타일을 outputclass에 적용하고, 스타일 지정은 섹션 제목을 포함하여 주제 본문 내의 요소에 적용됩니다.(12166)
 - DITA 맵에 여러 개의 ditavalrefs가 있는 경우 증분 게시가 작동하지 않습니다. (12117)
-- AEM 사이트 | keydef가 항목을 변수로 가리키는 맵을 만들고 processing-role=resource-only를 추가하면 예기치 않은 페이지가 만들어집니다. (12099)
+- AEM 사이트 | 항목을 변수로 가리키는 keydef를 사용하여 맵을 만들고 processing-role=resource-only를 추가하면 예기치 않은 페이지가 만들어집니다. (12099)
 - AEM의 DAM에 있는 에셋이 AEM 사이트 이외의 출력에 사용되는 경우 메타데이터 &quot;jcr:createdBy&quot;는 게시자의 이름이나 DITA 맵 또는 주제를 마지막으로 수정한 사용자의 이름을 반영하지 않습니다. (12090)
-- AEM Sites | navtitle에 topichead가 포함된 DITA 맵(지원되지 않는 문자 포함)으로 인해 페이지 URL이 잘못되었습니다. (11978)
+- AEM Sites | navtitle에 topichead가 있는 DITA 맵(지원되지 않는 문자 포함)은 잘못된 페이지 URL로 이어집니다. (11978)
 - 기본 PDF | Frontmatter 및 Backmatter에서 topichead/topicmeta/navtitle을 지원할 때 문제가 발생합니다. (11969)
-- 기본 PDF | 대용량 문서에 대한 PDF을 생성하는 데 시간이 오래 걸립니다. (11955)
-- 기본 PDF | 사전 설정 이름을 바꾸면 PDF 출력을 생성하는 동안 NullPointerException이 발생합니다. (11889)
+- 기본 PDF | 대용량 문서에 대한 PDF을 생성하는 데에는 많은 시간이 소요됩니다. (11955)
+- 기본 PDF | 사전 설정의 이름을 바꾸면 PDF 출력을 생성하는 동안 NullPointerException이 발생합니다. (11889)
 - 다음 `<conref>` 콘텐츠는 PDF 출력에 표시되지 않습니다. (11131)
 - 추가 공백이 `<div>` 페이지 레이아웃 편집기에서 작성자와 소스 보기 간에 전환하는 데 사용되는 요소입니다. (10750)
 - AEM Cloud Manager에 복제된 콘텐츠는 게시 인스턴스에 표시되지 않습니다. (9564)

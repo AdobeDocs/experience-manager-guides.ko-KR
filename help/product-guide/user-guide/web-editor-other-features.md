@@ -2,7 +2,9 @@
 title: 웹 편집기의 기타 기능
 description: AEM Guides에서 웹 편집기의 다른 기능을 살펴보십시오. AEM Guides에서 개선된 작성을 위해 이러한 기능을 사용하는 방법에 대해 알아봅니다.
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Web Editor
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '2247'
 ht-degree: 0%

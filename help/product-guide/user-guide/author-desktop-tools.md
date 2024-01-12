@@ -2,7 +2,9 @@
 title: 데스크탑 도구를 사용하여 콘텐츠 작성
 description: AEM Guides의 데스크탑 도구를 사용하여 컨텐츠를 작성합니다. Adobe FrameMaker 및 Oxygen XML Editor를 사용하여 DITA 콘텐츠를 작성 및 게시하는 방법에 대해 알아봅니다.
 exl-id: d2c54f28-9433-46ee-adc2-d021c6bd5eb7
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Desktop Tools
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 0%

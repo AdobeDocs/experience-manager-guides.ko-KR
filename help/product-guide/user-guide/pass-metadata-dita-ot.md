@@ -2,7 +2,9 @@
 title: DITA-OT를 사용하여 메타데이터를 출력에 전달
 description: AEM Guides의 DITA-OT 게시를 사용하여 메타데이터를 출력에 전달하는 방법을 알아봅니다.
 exl-id: 70ca32dc-56c3-45ee-b6b9-0efb8cc79ea1
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Publishing, Metadata Management
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 0%

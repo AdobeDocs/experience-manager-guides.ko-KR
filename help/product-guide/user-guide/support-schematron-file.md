@@ -2,7 +2,9 @@
 title: Schematron 파일 지원
 description: DITA 주제를 가져오고 유효성을 검사하는 방법, 어설션 보고서 문을 사용하여 규칙을 확인하는 방법, 정규 표현식을 사용하는 방법 및 AEM Guides의 Schematron 파일에서 추상 패턴을 정의하는 방법에 대해 알아봅니다.
 exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Features of Web Editor
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 0%

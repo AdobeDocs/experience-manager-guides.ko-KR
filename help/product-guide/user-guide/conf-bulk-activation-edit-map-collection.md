@@ -2,7 +2,9 @@
 title: 벌크 활성화 맵 컬렉션 편집
 description: AEM Guides에서 일괄 게시 대시보드를 사용합니다. 맵 파일을 추가하거나 제거하여 벌크 활성화 맵 컬렉션을 편집하는 방법에 대해 알아봅니다.
 exl-id: 5f897c52-5d6e-4614-a14f-1806e085c21c
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Publishing, Bulk Activation
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 1%

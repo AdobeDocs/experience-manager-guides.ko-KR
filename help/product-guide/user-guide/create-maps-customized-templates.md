@@ -2,7 +2,9 @@
 title: 사용자 지정된 템플릿을 기반으로 맵 만들기
 description: 사용자 지정 템플릿을 만들고, 이 템플릿을 사용하여 새 맵 파일을 만들고, 정의된 제목을 AEM Guides의 DITA 맵으로 전달하는 방법을 알아봅니다.
 exl-id: 9cb0035f-bf81-4ab5-a575-53851bbff494
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Map Editor
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 0%

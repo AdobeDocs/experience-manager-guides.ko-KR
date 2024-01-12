@@ -2,7 +2,9 @@
 title: 릴리스 정보 | Adobe Experience Manager Guides as a Cloud Service, 2022년 11월 릴리스
 description: Adobe Experience Manager Guides as a Cloud Service 11월 릴리스
 exl-id: 9f329ec1-dd74-47cc-8567-3fadd962584a
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1384'
 ht-degree: 0%
@@ -131,7 +133,7 @@ PDF에 변경 막대가 표시되어 수정, 삽입 또는 삭제된 콘텐츠�
 
 * 기본 PDF | `conkeyref` 생성된 PDF 출력에서 해결되지 않습니다. (10564)
 * 기본 PDF | PDF 출력에서 맵의 메타데이터에 액세스할 때 문제가 발생합니다. (10556)
-* 기본 PDF | 인라인 스타일이 클래스 이름 대신 태그를 생성하는 데 사용됩니다.  (10498)
+* 기본 PDF | 클래스 이름 대신 태그를 생성하는 데 인라인 스타일이 사용됩니다.  (10498)
 * 웹 편집기는 빈 페이지를 간헐적으로 로드합니다. (10678)
 * 기존 사전 설정을 복제하여 사전 설정을 만드는 경우 PDF 게시가 실패합니다. (10584)
 * **로그 보기** 사전 설정에 대해 PDF 생성에 실패하면 버튼이 작동하지 않습니다. (10576)

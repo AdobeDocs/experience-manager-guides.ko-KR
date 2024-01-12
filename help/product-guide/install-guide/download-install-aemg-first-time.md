@@ -2,7 +2,10 @@
 title: 처음으로 AEM Guides 다운로드 및 설치
 description: AEM Guides를 처음 다운로드하고 설치하는 방법을 알아봅니다
 exl-id: 830a4381-303c-419c-b87f-9563352a7eeb
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Introduction, Installation
+role: Admin
+level: Experienced
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 0%

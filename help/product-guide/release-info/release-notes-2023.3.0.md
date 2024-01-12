@@ -2,7 +2,9 @@
 title: 릴리스 정보 | Adobe Experience Manager Guides as a Cloud Service, 2023년 3월 릴리스
 description: Adobe Experience Manager Guides as a Cloud Service 3월 릴리스
 exl-id: 6a0bba92-7d7d-4b20-ad46-0eacc91268da
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 0%
@@ -58,10 +60,10 @@ ht-degree: 0%
 다양한 영역에서 수정된 버그는 다음과 같습니다.
 
 * PDF 다운로드 프로세스가 웹 편집기에서 제대로 작동하지 않습니다. (11496)
-* JSON 출력 | 다음 속성 값을 갖는 메타데이터 매핑 `"value in spaces and double quotes"` 은 게시 오류로 이어집니다. (11438)
+* JSON 출력 | 다음 속성 값을 갖는 메타데이터 매핑: `"value in spaces and double quotes"` 은 게시 오류로 이어집니다. (11438)
 * 아래 YouTube 형식에서 오디오 및 비디오 멀티미디어 파일 삽입이 실패합니다. **멀티미디어 삽입** 아이콘. (11320)
 * 특화된 제목 요소가 있는 템플릿을 사용하여 맵을 만들 때 유효성 검사 오류가 발생합니다. (11212)
-* 기본 PDF | 표 머리글에 있는 각주는 PDF 출력 내의 해당 페이지 바닥글에 굵게 정렬되고 가운데 정렬된 텍스트로 이어집니다. (10610)
+* 기본 PDF | 표 머리글에 있는 각주는 PDF 출력 내의 해당 페이지 바닥글에 굵게 표시되고 가운데 정렬된 텍스트로 이어집니다. (10610)
 >[!NOTE]
 >
 >기본 PDF 변경 사항을 반영하려면 /content/dam/dita-templates에 있는 PDF 폴더를 삭제한 다음 최신 빌드로 업그레이드합니다. (10610)

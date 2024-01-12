@@ -2,7 +2,9 @@
 title: 의 릴리스 정보 [!DNL AEM Guides], 2022년 1월 릴리스
 description: 의 1월 릴리스 [!DNL Adobe Experience Manager Guides] as a Cloud Service
 exl-id: b2da77fa-f17c-440b-be59-acaafcd9a57c
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '2441'
 ht-degree: 0%
@@ -195,7 +197,7 @@ Oxygen의 AEM Server에서 파일을 새로 고치면 현재 Oxygen 세션에 �
 ### 맵 대시보드
 
 * 맵 대시보드의 주제 또는 보고서 탭에 있는 주제 제목에서 conref 콘텐츠를 볼 수 없습니다. (8263)
-* AEM Sites 출력 | jcr:DITA 주제 제목을 업데이트할 때 생성된 사이트 페이지의 제목이 업데이트되지 않습니다. (8131)
+* AEM Sites 출력 | DITA 주제 제목을 업데이트할 때 생성된 사이트 페이지의 jcr:title이 업데이트되지 않습니다. (8131)
 * MAP 다운로드는 주제 내에 사용된 비디오 파일을 다운로드하지 않습니다. (8070)
 * 다운로드 북맵 API를 통해 오브젝트 태그를 사용하면 미디어 파일이 다운로드되지 않습니다. (8057)
 * 제목이 conref로 시작하는 파일에 conref가 있는 주제가 있으면 보고서 탭에 잘못된 보고서가 표시됩니다. (4698)
@@ -234,9 +236,9 @@ Oxygen의 AEM Server에서 파일을 새로 고치면 현재 Oxygen 세션에 �
 
 ### 컨텐츠 가져오기
 
-* HTML-DITA 변환 | &#39;tr&#39;이 있는 테이블에 빈 &#39;td&#39; 항목이 있으면 출력에 추가 행이 발생합니다. (8132)
-* HTML-DITA 변환 | 본문이 여러 개인 테이블이 있는 HTML이 예외적으로 실패합니다. (7940)
-* HTML-DITA 변환 소스 HTML에 주석이 있으면 | 오류가 발생합니다. (7937)
+* HTML-DITA 변환 | &#39;tr&#39;에 빈 &#39;td&#39; 항목이 있는 테이블은 출력에 추가 행을 발생시킵니다. (8132)
+* HTML-DITA 변환 | 여러 본문이 있는 테이블을 가진 HTML이 예외적으로 실패합니다. (7940)
+* HTML-DITA 변환 | 소스 HTML에 주석이 있으면 오류가 발생합니다. (7937)
 * DITA 1.3 DITA 파일을 가져오면 일부 href가 잘못된 링크로 변형됩니다. (8019)
 
 ## 알려진 문제

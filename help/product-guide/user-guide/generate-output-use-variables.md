@@ -2,7 +2,9 @@
 title: 대상 경로, 사이트 이름 또는 파일 이름 옵션 설정에 변수 사용
 description: 대상 경로, 사이트 이름 또는 파일 이름 옵션을 설정하는 데 변수를 사용하는 방법에 대해 알아봅니다. AEM Guides에서 지원되는 기본 변수를 알고 있습니다.
 exl-id: 3396c971-6332-45b5-b2ef-b07f0abf97f7
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Publishing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 0%

@@ -2,7 +2,10 @@
 title: 도구 모음 사용자 지정
 description: 도구 모음을 사용자 지정하는 방법 알아보기
 exl-id: ba82af48-9357-4f29-90ce-6793366ab432
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Web Editor Configuration
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 0%

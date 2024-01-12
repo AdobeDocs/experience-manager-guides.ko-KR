@@ -2,7 +2,9 @@
 title: 기본 PDF 게시 - 예제를 통한 학습(1부)
 description: 기본 PDF 게시 엔진을 사용하면 업데이트하기 쉬운 CSS, HTML 및 JavaScript를 사용하여 필요에 따라 원하는 섹션을 조작하면서 문서의 컨텐츠 레이아웃을 제어할 수 있습니다.
 exl-id: ddaf4e83-9958-42c5-b172-4c9f8e923910
-source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
+feature: Native PDF Output
+role: User, Admin
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 1%

@@ -2,7 +2,9 @@
 title: 웹 편집기 기능 이해
 description: AEM Guides에서 웹 편집기의 기능을 살펴보십시오. 기본 도구 모음, 보조 도구 모음, 왼쪽 패널, 콘텐츠 편집 영역 및 오른쪽 패널을 비롯한 웹 편집기의 인터페이스를 알 수 있습니다.
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
-source-git-commit: 9d9a1f270873869ce8261aae439f0ecd7d9fea94
+feature: Authoring, Features of Web Editor
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '17364'
 ht-degree: 0%

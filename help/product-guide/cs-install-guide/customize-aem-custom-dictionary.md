@@ -2,7 +2,10 @@
 title: AEM 기본 사전 사용자 지정
 description: AEM 기본 사전을 사용자 지정하는 방법 알아보기
 exl-id: ecffcd14-6728-4938-a209-5c4b12af6fbb
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Web Editor Configuration
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 1%

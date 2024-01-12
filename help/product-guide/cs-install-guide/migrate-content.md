@@ -2,7 +2,10 @@
 title: 기존 콘텐츠 마이그레이션
 description: 기존 콘텐츠를 마이그레이션하는 방법 알아보기
 exl-id: 65d69d64-9cb7-4d08-b384-363df1ac9a16
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Migration
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '78'
 ht-degree: 0%

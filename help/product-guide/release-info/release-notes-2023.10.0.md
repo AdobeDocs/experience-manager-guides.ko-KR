@@ -1,8 +1,10 @@
 ---
-title: 릴리스 정보 | 2023년 10월 Adobe Experience Manager Guides 릴리스의 업그레이드 지침 및 해결된 문제
+title: 릴리스 정보 | Adobe Experience Manager Guides, 2023년 10월 릴리스의 업그레이드 지침 및 해결된 문제
 description: 버그 수정 사항 및 Adobe Experience Manager Guides as a Cloud Service으로 2023년 10월 릴리스로 업그레이드하는 방법에 대해 알아보십시오
 exl-id: 536d2ec2-31a0-4533-9c29-16a27525acca
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 1%
@@ -88,7 +90,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 기존 콘텐츠를 색인화하기 위해 다음 단계를 수행하고 보고서 탭 아래의 맵 수준 및 주제 목록에서 새 찾기 및 바꾸기 텍스트를 사용합니다.
 
-1. 올바른 인증을 사용하여 서버에 대한 POST 요청 실행\ - `http://<server:port\>/bin/guides/map-find/indexing`. (선택 사항: 맵의 특정 경로를 전달하여 인덱싱할 수 있습니다. 기본적으로 모든 맵은 \|\| 예를 들면 다음과 같습니다. `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+1. 올바른 인증을 사용하여 서버에 대한 POST 요청 실행\ - `http://<server:port\>/bin/guides/map-find/indexing`. (선택 사항: 맵의 특정 경로를 전달하여 인덱싱할 수 있습니다. 기본적으로 모든 맵은 인덱싱됩니다. \|\| 예 : `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 1. 루트 폴더를 전달하여 특정 폴더(및 그 하위 폴더)의 DITA 맵을 인덱싱할 수도 있습니다. 예, `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. paths 매개 변수와 root 매개 변수가 모두 전달되면 paths 매개 변수만 고려됩니다.
 
@@ -138,8 +140,8 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 ### 게시
 
 - 기본 PDF | PDF 출력이 생성될 때 주제의 순서가 수정되지 않습니다. (13157)
-- 기본 PDF| 사용할 수 있는 기본 스타일 태그가 없습니다. `<p>`요소를 생성하지 않습니다. (12559)
-- 기본 PDF | 컨텐츠 영역에 적용된 인라인 스타일은 앞뒤의 주제에 적용되지 않습니다. (13510)
+- 기본 PDF| 에 사용할 수 있는 기본 스타일 태그가 없습니다. `<p>`요소를 생성하지 않습니다. (12559)
+- 기본 PDF | 컨텐츠 영역에 적용된 인라인 스타일은 앞면 및 뒷면 항목의 주제에 적용되지 않습니다. (13510)
 - 다음 `DeliveryTarget` AEM Site 출력 생성 시 속성이 전파되지 않습니다.  (13132)
 - 다음 **게시** 특정 오류가 있는 콘텐츠에 대한 AEM 사이트 출력을 생성하는 도중 워크플로우가 중단되었습니다. (12000)
 

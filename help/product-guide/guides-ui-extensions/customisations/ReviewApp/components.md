@@ -1,7 +1,8 @@
 ---
 title: 구성 요소
 description: 앱 구성 요소 검토
-source-git-commit: 5962414dfc065543b946cac1468a5f62013073cf
+role: User, Admin
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%

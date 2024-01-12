@@ -2,7 +2,9 @@
 title: 검토할 항목 보내기
 description: AEM Guides에서 검토 작업을 만들고 검토할 항목을 보내는 방법을 알아봅니다. 검토를 위해 DITA 맵에서 하나 이상의 주제를 보냅니다.
 exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Reviewing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '2752'
 ht-degree: 0%

@@ -2,7 +2,9 @@
 title: 릴리스 정보 | Adobe Experience Manager Guides 4.2.1 릴리스의 새로운 기능
 description: Adobe Experience Manager Guides 4.2.1 릴리스의 새로운 기능과 향상된 기능에 대해 알아봅니다
 exl-id: 441aa7ec-d88c-42cb-83f0-d0f6e58bfa41
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: What's New
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 0%

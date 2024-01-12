@@ -2,7 +2,10 @@
 title: Adobe Experience Manager 설치
 description: Adobe Experience Manager 설치 방법 알아보기
 exl-id: 4693b102-b75a-4904-b2d5-914e774305f3
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Introduction, Installation
+role: Admin
+level: Experienced
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 0%
@@ -20,7 +23,7 @@ AEM Guides는 Adobe Experience Manager의 맨 위에 설치되는 플러그인�
 
 >[!IMPORTANT]
 >
-> AEM 6.5.x에서 Java 11을 사용하는 경우 문제가 발생할 수 있습니다. *JDK 11의 원인`NoClassDefFoundError`*. 참조 [JDK 11은 NoClassDefFoundError \| AEM 6.5를 발생시킵니다.](https://helpx.adobe.com/experience-manager/kb/jdk-11-causes-noclassdeffounderror---aem-6-5.html) 이 문제를 해결하기 위한 문서입니다.
+> AEM 6.5.x에서 Java 11을 사용하는 경우 문제가 발생할 수 있습니다. *JDK 11의 원인`NoClassDefFoundError`*. 참조 [JDK 11은 NoClassDefFoundError \|를 발생시킵니다. AEM 6.5](https://helpx.adobe.com/experience-manager/kb/jdk-11-causes-noclassdeffounderror---aem-6-5.html) 이 문제를 해결하기 위한 문서입니다.
 
 조직에 가장 적합한 배포 전략을 식별한 후에는 다음에 설명된 대로 설치 프로세스를 수행합니다. *[시작](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/deploy.html#GettingStarted)* AEM 섹션 을 참조하십시오.
 

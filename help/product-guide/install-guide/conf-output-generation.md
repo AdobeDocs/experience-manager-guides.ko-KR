@@ -2,7 +2,10 @@
 title: 출력 생성 설정 구성
 description: 출력 생성 설정을 구성하는 방법 알아보기
 exl-id: 6df31e3c-683c-4188-b917-9c1855d9b95b
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Output Generation
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '5762'
 ht-degree: 0%

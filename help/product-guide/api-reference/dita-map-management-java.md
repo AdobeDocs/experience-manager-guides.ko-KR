@@ -2,7 +2,10 @@
 title: DITA 맵에서 작동하는 Java 기반 API
 description: DITA 맵에서 작동하는 Java 기반 API에 대해 알아보기
 exl-id: bd91fc90-75f8-487c-99d1-2637e9cf9924
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Java-Based API Dita Map
+role: Developer
+level: Experienced
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '1027'
 ht-degree: 0%

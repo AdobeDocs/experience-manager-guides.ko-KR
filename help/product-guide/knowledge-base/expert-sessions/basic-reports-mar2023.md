@@ -2,7 +2,9 @@
 title: AEM 안내서의 보고서
 description: 사용자가 컨텐츠 품질을 개선하는 데 도움이 되는 AEM의 모든 보고서를 사용할 수 있는지 알아봅니다.
 exl-id: f0d761ff-efea-452c-bb8e-865f34a182fc
-source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
+feature: Report Generation
+role: User, Admin
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 1%

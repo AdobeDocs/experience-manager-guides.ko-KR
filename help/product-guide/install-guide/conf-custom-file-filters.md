@@ -2,7 +2,10 @@
 title: 파일 찾아보기 대화 상자에 대한 필터 구성
 description: 파일 찾아보기 대화 상자에 대한 필터를 구성하는 방법 알아보기
 exl-id: 1ef09820-3b18-4762-b177-4d40926e21f0
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Web Editor Configuration
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%

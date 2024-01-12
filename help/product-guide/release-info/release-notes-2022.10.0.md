@@ -2,7 +2,9 @@
 title: 릴리스 정보 | Adobe Experience Manager Guides as a Cloud Service, 2022년 10월 릴리스
 description: Adobe Experience Manager Guides as a Cloud Service 10월 릴리스
 exl-id: 38638080-625c-49c3-9e54-56cc23831546
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 1%
@@ -65,8 +67,8 @@ AEM Guides as a Cloud Service에서는 10월 릴리스의 개선 사항 및 새�
 * 기본 PDF | PDF 출력에 빈 키 참조가 나타납니다. (10553)
 * 기본 PDF | `navtitle` 대상 `topichead` 은(는) 영광스럽지 않습니다. (10509)
 * 기본 PDF | amd64 JDK 버전에 필요한 지원 (10465)
-* 기본 PDF | 목차에서 전문 주제를 숨길 수 없습니다. (10355)
-* 기본 PDF | 챕터 레이아웃에서 페이지 번호를 다시 시작하면 이전 챕터의 끝에서 임의로 번호 매기기가 시작됩니다. (10154)
-* Chrome 브라우저 | UI에서 요소를 드래그 앤 드롭할 때 화면이 비어 있습니다. 예를 들어, 조건 패널에서 조건을 드래그할 때 사용합니다. (10524)
+* 기본 PDF | 목차에서 주요 주제를 숨길 수 없습니다. (10355)
+* 기본 PDF | 챕터 레이아웃에서 페이지 번호를 다시 시작하면 이전 챕터가 끝날 때부터 임의로 번호가 매겨집니다. (10154)
+* Chrome 브라우저 | UI에서 요소를 드래그하여 놓을 때 화면이 비어 있습니다. 예를 들어, 조건 패널에서 조건을 드래그할 때 사용합니다. (10524)
 * 에셋의 복사-붙여넣기 작업 후 노드 속성이 제거됩니다. (10053)
 * 클릭 시  **닫기** 사용자가 assets로 리디렉션되고 있습니다. AEM 홈페이지로 사용자를 안내하도록 경험이 수정되었습니다. (9654)

@@ -2,7 +2,9 @@
 title: 맵 콘솔에서 DITA 맵에 대한 출력 생성
 description: AEM Guides의 맵 콘솔에서 DITA 맵에 대한 출력을 생성합니다. 증분 출력 생성과 출력 작업의 상태를 보고 취소 및 삭제하는 방법을 알아봅니다.
 exl-id: d6cbd44c-e74c-4192-bcc4-fb7752c59508
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Publishing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1418'
 ht-degree: 0%

@@ -2,7 +2,9 @@
 title: 릴리스 정보 | Adobe Experience Manager Guides as a Cloud Service, 2022년 8월 릴리스
 description: Adobe Experience Manager Guides as a Cloud Service 8월 릴리스
 exl-id: a01bfe8a-4715-438c-bb94-aa1d31f6662d
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 0%
@@ -95,8 +97,8 @@ AEM Guides as a Cloud Service에서는 8월 릴리스의 많은 개선 사항 �
 * 업데이트된 Node.js는 게시에 사용되지 않습니다. (9835)
 * DITA 주제가 다음에 대한 변경 사항을 완료하고 자동으로 업데이트되지 않음 **속성** 페이지를 가리키도록 업데이트하는 중입니다. (8745)
 * DITA 북맵에 추가될 때 Frontmatter 요소가 제대로 작동하지 않습니다. (9507)
-* 기본 PDF | 사용 시 빈 PDF이 생성됩니다. **빠른 생성** 비어 있는 요소를 선택한 경우 여러 파일이 포함됩니다. (9822)
-* 기본 PDF | 부록이 PDF 출력의 한 장으로 게시됩니다. (9829)
+* 기본 PDF | 사용 시 빈 PDF 생성됨 **빠른 생성** 비어 있는 요소를 선택한 경우 여러 파일이 포함됩니다. (9822)
+* 기본 PDF | 부록은 PDF 출력의 한 장으로 게시됩니다. (9829)
 * 기본 PDF | SVG 이미지를 편집할 때 페이지 레이아웃에 업데이트되어 표시되지 않습니다. (9069)
 * 다음과 같은 경우 일반 하이픈 문자가 삽입됩니다. `Nonbreaking Hyphen` 를 사용하여 문자가 삽입됩니다. **특수 문자 삽입** 대화 상자. (8919)
 * 업데이트된 이미지가 편집된 경우 XML 편집기는 해당 항목을 표시하지 않습니다. (9500)

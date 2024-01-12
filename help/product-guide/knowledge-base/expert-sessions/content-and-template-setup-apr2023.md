@@ -2,7 +2,9 @@
 title: 컨텐츠 및 템플릿 설정
 description: AEM Guides에서 콘텐츠 및 템플릿을 설정하기 위해 고려해야 할 사항에 대해 알아봅니다.
 exl-id: f125bad9-33a2-4de5-b43f-d6368d61879b
-source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
+feature: Template Configuration
+role: User, Admin
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 1%

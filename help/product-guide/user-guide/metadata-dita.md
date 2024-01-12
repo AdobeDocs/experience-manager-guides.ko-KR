@@ -2,7 +2,9 @@
 title: AEM에서 메타데이터 작업
 description: Adobe Experience Manager Assets을 사용하여 에셋을 만들고 메타데이터를 추가하는 방법을 알아봅니다. AEM Guides에서 메타데이터를 관리합니다.
 exl-id: 51e4fcab-7d76-4070-af32-96626e12ef82
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Metadata Management
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 0%
