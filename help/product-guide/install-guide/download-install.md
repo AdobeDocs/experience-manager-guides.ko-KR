@@ -1,6 +1,6 @@
 ---
 title: 다운로드 및 설치
-description: 다운로드 및 설치 방법 알아보기
+description: 다운로드하고 설치하는 방법 알아보기
 exl-id: 40ea0510-b25e-4180-b076-c4f771071dda
 feature: Introduction, Installation
 role: Admin
@@ -8,7 +8,7 @@ level: Experienced
 source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '134'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
