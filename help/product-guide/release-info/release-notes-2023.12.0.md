@@ -3,7 +3,7 @@ title: 릴리스 정보 | Adobe Experience Manager Guides, 2023년 12월 릴리�
 description: 버그 수정 사항과 Adobe Experience Manager Guides as a Cloud Service으로 2023년 12월 릴리스로 업그레이드하는 방법에 대해 알아보십시오.
 feature: Release Notes
 role: Leader
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 110a358ce6c0525f7b1eae075d89d78f8014ceff
 workflow-type: tm+mt
 source-wordcount: '1319'
 ht-degree: 1%
@@ -21,7 +21,7 @@ ht-degree: 1%
 다음 단계를 수행하여 현재 Experience Manager 가이드 as a Cloud Service 설정을 업그레이드합니다.
 
 1. Cloud Service의 Git 코드를 체크아웃하고 업그레이드하려는 환경에 해당하는 Cloud Service 파이프라인에 구성된 분기로 전환합니다.
-2. 업데이트 `<dox.version>` 의 속성 `/dox/dox.installer/pom.xml` 2023.12.0.15에 대한 Cloud Service Git 코드 파일.
+2. 업데이트 `<dox.version>` 의 속성 `/dox/dox.installer/pom.xml` 2023.12.0.16에 대한 Cloud Service Git 코드 파일입니다.
 3. 변경 사항을 커밋하고 Cloud Service 파이프라인을 실행하여 2023년 12월 Experience Manager 가이드 as a Cloud Service 릴리스로 업그레이드합니다.
 
 ## 서블릿을 통해 스크립트 트리거를 활성화하는 단계
