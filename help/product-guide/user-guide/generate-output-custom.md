@@ -1,17 +1,17 @@
 ---
-title: 사용자 지정
+title: 사용자 정의
 description: 웹 편집기 및 맵 대시보드에서 사용자 지정 사전 설정을 만드는 방법에 대해 알아봅니다. AEM Guides에서 사용자 지정 출력 사전 설정을 구성합니다.
 exl-id: 1bb14411-ec94-4960-92ba-3b2ff7a29932
 feature: Publishing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '934'
-ht-degree: 2%
+source-wordcount: '937'
+ht-degree: 1%
 
 ---
 
-# 사용자 지정 {#id205BEF00PX0}
+# 사용자 정의 {#id205BEF00PX0}
 
 사용자 지정 출력 사전 설정은 사용자 지정 DITA-OT 플러그인에 사용할 수 있습니다. 사용자 지정 DITA-OT 플러그인을 사용하여 출력을 게시하기 위해 사용자 지정 DITA-OT 출력 사전 설정을 만들 수 있습니다.
 
@@ -38,7 +38,7 @@ ht-degree: 2%
 고급 탭에는 다음 구성이 포함됩니다.
 
 - DITA-OT 임시 파일 정리
-- 속성
+- 파일 속성
 
 자세한 내용은 다음을 참조하십시오. [사용자 지정 구성](#id231KJA00REJ).
 
@@ -62,6 +62,6 @@ PDF을 위한 출력 사전 설정을 열려면 Assets UI에서 DITA 맵 파일�
 | DITA-OT 임시 파일 정리 | DITA-OT에서 생성한 임시 파일을 정리하려면 이 옵션을 선택합니다. DITA-OT에서 임시 파일을 저장하는 위치는 출력 생성 로그에서 찾을 수 있습니다.<br><br>DITA-OT를 통해 출력을 생성하는 동안 오류가 발생하는 경우 이 옵션을 선택 해제하여 임시 파일을 유지할 수 있습니다. 그런 다음 이러한 파일을 사용하여 출력 생성 오류를 해결할 수 있습니다. |
 | 사후 생성 워크플로 실행 | 이 옵션을 선택하면 AEM에 구성된 모든 워크플로우를 포함하는 새 사후 생성 워크플로우 드롭다운 목록이 표시됩니다. 출력 생성 워크플로우가 완료된 후 실행할 워크플로우를 선택해야 합니다.<br><br>**참고**: 사용자 지정 사후 출력 생성 워크플로우를 만드는 방법에 대한 자세한 내용은 _사후 출력 생성 워크플로 사용자 지정_ 에서 Adobe Experience Manager Guides as a Cloud Service 설치 및 구성. |
 | 기준선 사용 | 선택한 DITA 맵에 대한 베이스라인을 생성한 경우 이 옵션을 선택하여 게시할 버전을 지정합니다.<br><br>다음을 참조하십시오 [기준선으로 작업](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) 추가 세부 정보. |
-| 속성 | 메타데이터로 처리할 속성을 선택합니다. 이러한 등록 정보는 DITA 맵 또는 북맵 파일의 등록 정보 페이지에서 설정됩니다. 드롭다운 목록에서 선택한 속성이 **속성** 필드. 속성 옆에 있는 교차 아이콘을 선택하여 제거합니다. <br><br>**참고**: DITA-OT 게시를 사용하여 메타데이터를 출력에 전달할 수도 있습니다. 자세한 내용은 [DITA-OT를 사용하여 메타데이터를 출력에 전달](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
+| 파일 속성 | 메타데이터로 처리할 속성을 선택합니다. 이러한 등록 정보는 DITA 맵 또는 북맵 파일의 등록 정보 페이지에서 설정됩니다. 드롭다운 목록에서 선택한 속성이 **파일 속성** 필드. 속성 옆에 있는 교차 아이콘을 선택하여 제거합니다. <br><br>**참고**: DITA-OT 게시를 사용하여 메타데이터를 출력에 전달할 수도 있습니다. 자세한 내용은 [DITA-OT를 사용하여 메타데이터를 출력에 전달](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 
 **상위 항목:**[&#x200B;출력 사전 설정 이해](generate-output-understand-presets.md)

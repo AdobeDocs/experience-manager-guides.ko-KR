@@ -4,9 +4,9 @@ description: 웹 편집기 및 맵 대시보드에서 JSON 사전 설정을 만�
 exl-id: 9eb426fc-ca0a-4932-8a55-fea731281a0a
 feature: Publishing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '626'
 ht-degree: 1%
 
 ---
@@ -28,9 +28,6 @@ ht-degree: 1%
 
 자세한 내용은 다음을 참조하십시오. [JSON 구성](#id231KJA00REJ).
 
-**맵 대시보드에서**
-
-PDF을 위한 출력 사전 설정을 열려면 Assets UI에서 DITA 맵 파일을 클릭한 다음 출력 사전 설정을 클릭하고 HTML5 옵션을 클릭합니다. 맵 대시보드에서 을(를) 클릭합니다 **편집** 을 클릭하여 다양한 구성을 업데이트한 다음 을(를) 클릭합니다. **저장**.
 
 **JSON 구성**
 

@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 확인하십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: 4bb3a064a44b0b0c638ef22d0d7c219c77a20b20
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '1686'
+source-wordcount: '1699'
 ht-degree: 4%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 4%
 # [!DNL Adobe Experience Manager Guides] {#using}
 
 + [[!DNL AEM Guides] 개요](overview.md)
-+ [면책조항](./user-guide/rebranding-disclaimer.md)
++ [면책 조항](./user-guide/rebranding-disclaimer.md)
 + 릴리스 정보 {#release-info}
    + [[!DNL AEM Guides] 릴리스](./release-info/latest-release-info.md)
    + 릴리스 정보 {#release-notes}
@@ -58,23 +58,28 @@ ht-degree: 4%
             + [2월 릴리스 정보](./release-info/release-notes-2022.2.0.md)
             + [1월 릴리스 정보](./release-info/release-notes-2022.1.0.md)
       + On-prem/Managed Services {#on-prem-release-notes}
-         + 4.3.0 릴리스 {#43-release}
-            + 새로운 기능 {#43-whats-new}
-               + [4.3.1 새로운 기능](./release-info/whats-new-4.3.1-release.md)
-               + [4.3.0 새로운 기능](./release-info/whats-new-4.3-release.md)
-            + 릴리스 정보 {#43-release-notes}
-               + [4.3.1 릴리스 노트](./release-info/release-notes-4.3.1.md)
-               + [4.3.0 릴리스 노트](./release-info/release-notes-4.3.md)
-         + 4.2 릴리스 {#42-release}
-            + 새로운 기능 {#42-whats-new}
-               + [4.2.1 새로운 기능](./release-info/whats-new-4.2.1-release.md)
-               + [4.2 새로운 기능](./release-info/whats-new-4.2-release.md)
-            + 릴리스 정보 {#42-release-notes}
-               + [4.2.1 릴리스 노트](./release-info/release-notes-4.2.1.md)
-               + [4.2 릴리스 노트](./release-info/release-notes-4.2.md)
-         + [4.1.x 릴리스 노트](./release-info/release-notes-4.1.md)
-         + [4.0.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         + [3.8.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+      + 4.4.0 릴리스 {#44-release}
+         + 새로운 기능 {#44-whats-new}
+            + [4.4 새로운 기능](./release-info/whats-new-4.4.md)
+         + 릴리스 정보 {#43-release-notes}
+            + [4.4 릴리스 노트](./release-info/release-notes-4.4.md)
+      + 4.3.0 릴리스 {#43-release}
+         + 새로운 기능 {#43-whats-new}
+            + [4.3.1 새로운 기능](./release-info/whats-new-4.3.1-release.md)
+            + [4.3.0 새로운 기능](./release-info/whats-new-4.3-release.md)
+         + 릴리스 정보 {#43-release-notes}
+            + [4.3.1 릴리스 노트](./release-info/release-notes-4.3.1.md)
+            + [4.3.0 릴리스 노트](./release-info/release-notes-4.3.md)
+      + 4.2 릴리스 {#42-release}
+         + 새로운 기능 {#42-whats-new}
+            + [4.2.1 새로운 기능](./release-info/whats-new-4.2.1-release.md)
+            + [4.2 새로운 기능](./release-info/whats-new-4.2-release.md)
+         + 릴리스 정보 {#42-release-notes}
+            + [4.2.1 릴리스 노트](./release-info/release-notes-4.2.1.md)
+            + [4.2 릴리스 노트](./release-info/release-notes-4.2.md)
+      + [4.1.x 릴리스 노트](./release-info/release-notes-4.1.md)
+      + [4.0.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+      + [3.8.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 + 사용 안내서 {#user-guide}
    + 소개 {#about-aem-guide}
       + [정보 [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -158,7 +163,7 @@ ht-degree: 4%
          + [기술 자료](./user-guide/generate-output-knowledge-base.md)
          + [HTML5](./user-guide/generate-output-html5.md)
          + [EPUB](./user-guide/generate-output-epub.md)
-         + [사용자 지정](./user-guide/generate-output-custom.md)
+         + [사용자 정의](./user-guide/generate-output-custom.md)
          + [JSON](./user-guide/generate-output-json.md)
       + [대상 경로, 사이트 이름 또는 파일 이름 옵션 설정에 변수 사용](./user-guide/generate-output-use-variables.md)
       + [출력 사전 설정 만들기, 편집, 복제 또는 제거](./user-guide/generate-output-create-edit-preset.md)

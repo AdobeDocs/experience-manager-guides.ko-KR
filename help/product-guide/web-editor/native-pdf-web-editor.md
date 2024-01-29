@@ -4,9 +4,9 @@ description: 기본 PDF 게시를 사용하고, PDF 출력 사전 설정을 만�
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
 feature: Publishing, Web Editor, Native PDF Output
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '3196'
+source-wordcount: '3293'
 ht-degree: 0%
 
 ---
@@ -87,16 +87,20 @@ PDF 출력 사전 설정을 만들거나 구성하려면 다음 작업을 수행
 
 메타데이터 탭을 사용하여 작성자 이름, 문서 제목, 키워드, 저작권 정보 및 PDF 출력에 대한 기타 데이터 필드와 같은 메타데이터 필드를 설정합니다. PDF 출력에 대한 사용자 지정 메타데이터를 추가할 수도 있습니다.
 
-이 메타데이터는 출력 PDF의 문서 속성 내에 있는 설명 탭의 메타데이터에 매핑됩니다.
+이 메타데이터는 의 메타데이터에 매핑됩니다. **설명** 내의 탭 **문서 속성** 출력 PDF.
 
-**참고**: 이 메타데이터는 책 수준에서 정의된 메타데이터를 무시합니다.
+
 
 <img src="assets/pdf-metadata.png" alt="메타데이터 탭" width="600">
 
-출력 사전 설정에서 **PDF 선택** > **메타데이터** 메타데이터 옵션을 추가하고 사용자 지정합니다.
+[출력] 사전 설정에서 을 선택합니다.  **PDF** > **기본 PDF** > **메타데이터** 메타데이터 옵션을 추가하고 사용자 지정합니다.
+* **topicmeta에 추가된 메타데이터 사용**
+
+  이 옵션은 기본적으로 선택되어 있습니다. DITA 맵의 topicmeta 요소에 추가한 메타데이터를 사용하여 PDF 출력의 메타데이터 필드를 채울 수 있습니다.
+
 * **XMP 파일 제공**
 
-  메타데이터 필드는 가져오기로 직접 채울 수 있습니다. [XMP](https://www.adobe.com/products/xmp.html) (확장 가능한 메타데이터 플랫폼) 파일. 여기에서 샘플 XMP 파일을 다운로드할 수 있습니다.
+  를 가져와서 메타데이터 필드를 직접 채울 수도 있습니다 [XMP](https://www.adobe.com/products/xmp.html) (확장 가능한 메타데이터 플랫폼) 파일. 여기에서 샘플 XMP 파일을 다운로드할 수 있습니다.
 
 [다운로드](assets/SampleXMP.xmp)
 
@@ -169,6 +173,7 @@ PDF 출력 사전 설정을 만들거나 구성하려면 다음 작업을 수행
 | **MathML 방정식 활성화** | 콘텐츠에 있는 MathML 방정식을 렌더링하려면 이 옵션을 선택합니다. 그렇지 않으면 기본적으로 방정식이 무시됩니다. |
 | **임시 파일 다운로드** | 기본 PDF 출력을 생성하는 동안 생성된 중간 HTML 파일을 다운로드하려면 이 옵션을 선택합니다. 출력을 생성한 후 나중에 임시 파일을 다운로드할 수 있습니다. |
 | **PDF 적합성** | PDF이 준수되는지 확인하기 위해 콘텐츠를 저장할 때 사용하는 표준입니다. 드롭다운에서 을 선택하여 사용 가능한 PDF 표준 목록에서 을 선택합니다. 지원되는 표준에 대한 자세한 내용은 [PDF 표준 정보](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
+| **파일 속성** | 기본 PDF 게시로 전달할 메타데이터를 선택합니다. 드롭다운에 사용자 지정 및 기본 속성이 모두 나열됩니다. 예를 들어, `dc:description`, `dc:language`, `dc:title`, 및 `docstate` 은 다음과 같은 작업을 수행할 수 있는 기본 속성입니다. `author` 를 사용자 지정 속성으로 설정합니다. 선택한 메타데이터 속성은 기본 PDF을 사용하여 생성된 PDF 파일로 전달됩니다. <br> 다음 속성은에서 선택됩니다. `metadataList` 사용 가능한 파일:`/libs/fmdita/config/metadataList`. <br>이 파일은 다음에 오버레이할 수 있습니다. `/apps/fmdita/config/metadataList`. |
 
 
 ## PDF 출력 생성 {#generate-pdf-output}
