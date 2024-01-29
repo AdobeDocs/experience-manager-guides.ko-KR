@@ -1,9 +1,9 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides 4.4.0 릴리스의 새로운 기능
 description: Adobe Experience Manager Guides 4.4.0 릴리스의 새로운 기능과 향상된 기능에 대해 알아봅니다
-source-git-commit: ca86700d033ad8eb7cdba917f010f3aa71113a19
+source-git-commit: 027e8e6a6119145a5b2255449514a76488c90463
 workflow-type: tm+mt
-source-wordcount: '2293'
+source-wordcount: '2307'
 ht-degree: 0%
 
 ---
@@ -177,6 +177,7 @@ Experience Manager 안내서를 통해 관리자는 AEM Site 출력의 URL을 �
 
 Experience Manager은 적용된 레이블에 따라 항목을 자동으로 선택하여 기준선을 만드는 기능을 제공합니다. 이제 동일한 DITA 맵의 자동 기준선을 사용하여 여러 출력 사전 설정을 원활하게 게시할 수도 있습니다. 한 번에 하나의 사전 설정만 게시할 필요는 없지만 여러 출력 사전 설정을 동시에 쉽게 게시할 수 있습니다.
 
+방법 자세히 알아보기 [웹 편집기에서 기준선 만들기 및 관리](../user-guide/web-editor-baseline.md).
 
 ## 기본 PDF 개선 사항
 
@@ -216,10 +217,10 @@ Experience Manager은 적용된 레이블에 따라 항목을 자동으로 선�
 사용 방법에 대해 자세히 알아보기 [PDF 출력의 변수](../native-pdf/native-pdf-variables.md).
 
 
-### 에셋 메타데이터를 PDF 출력에 제안
+### 에셋 메타데이터를 PDF 출력에 전파
 
 이제 Experience Manager은 DITA 맵에서 PDF 출력으로 에셋의 메타데이터 속성을 전송하는 기능을 제공합니다.
-기본 PDF 출력 사전 설정에서 PDF 게시 프로세스에 제공할 메타데이터를 선택할 수 있습니다. 사용자 지정 속성과 기본 속성을 모두 선택할 수 있습니다.  선택한 메타데이터 속성은 기본 PDF을 사용하여 생성된 PDF 파일로 전송됩니다.
+기본 PDF 출력 사전 설정에서 PDF 게시 프로세스에 전파할 메타데이터를 선택할 수 있습니다. 사용자 지정 속성과 기본 속성을 모두 선택할 수 있습니다.  선택한 메타데이터 속성은 기본 PDF을 사용하여 생성된 PDF 파일로 전송됩니다.
 
 이 기능은 작성자, 작성 날짜 또는 문서 제목과 같은 에셋 속성을 일관되게 유지하는 데 도움이 되므로 편리합니다. 이렇게 하면 문서를 보다 쉽게 구성, 검색 및 분류할 수 있습니다.
 
