@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 확인하십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: 84c36eb746f0b8d49e1e461062c0d1373a0d1e83
+source-git-commit: 1171f785ff183f9d3332842fb9a15e123041de4a
 workflow-type: tm+mt
 source-wordcount: '1699'
 ht-degree: 4%
@@ -61,7 +61,7 @@ ht-degree: 4%
       + 4.4.0 릴리스 {#44-release}
          + 새로운 기능 {#44-whats-new}
             + [4.4 새로운 기능](./release-info/whats-new-4.4.md)
-         + 릴리스 정보 {#43-release-notes}
+         + 릴리스 정보 {#44-release-notes}
             + [4.4 릴리스 노트](./release-info/release-notes-4.4.md)
       + 4.3.0 릴리스 {#43-release}
          + 새로운 기능 {#43-whats-new}
