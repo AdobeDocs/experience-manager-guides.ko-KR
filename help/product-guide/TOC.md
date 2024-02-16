@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 확인하십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: 1171f785ff183f9d3332842fb9a15e123041de4a
+source-git-commit: ae821964e123079707f51377390df378230680fc
 workflow-type: tm+mt
 source-wordcount: '1699'
 ht-degree: 4%
@@ -21,63 +21,63 @@ ht-degree: 4%
          + [배포 지침](./release-info/deploy-xml-on-aemaacs.md)
          + 2023 릴리스 {#2023-releases}
             + 12월 릴리스 {#2312-release}
-               + [새로운 기능](./release-info/whats-new-2023.12.0.md)
-               + [릴리스 정보](./release-info/release-notes-2023.12.0.md)
+               + [새로운 기능](./release-info/whats-new-2023-12-0.md)
+               + [릴리스 정보](./release-info/release-notes-2023-12-0.md)
             + 11월 릴리스 {#2311-release}
-               + [새로운 기능](./release-info/whats-new-2023.11.0.md)
-               + [릴리스 정보](./release-info/release-notes-2023.11.0.md)
+               + [새로운 기능](./release-info/whats-new-2023-11-0.md)
+               + [릴리스 정보](./release-info/release-notes-2023-11-0.md)
             + 10월 릴리스 {#2310-release}
-               + [새로운 기능](./release-info/whats-new-2023.10.0.md)
-               + [릴리스 정보](./release-info/release-notes-2023.10.0.md)
+               + [새로운 기능](./release-info/whats-new-2023-10-0.md)
+               + [릴리스 정보](./release-info/release-notes-2023-10-0.md)
             + 9월 릴리스 {#2309-release}
-               + [새로운 기능](./release-info/whats-new-2023.9.0.md)
-               + [릴리스 정보](./release-info/release-notes-2023.9.0.md)
+               + [새로운 기능](./release-info/whats-new-2023-9-0.md)
+               + [릴리스 정보](./release-info/release-notes-2023-9-0.md)
             + 7월 릴리스 {#2307-release}
-               + [새로운 기능](./release-info/whats-new-2023.7.0.md)
-               + [릴리스 정보](./release-info/release-notes-2023.7.0.md)
+               + [새로운 기능](./release-info/whats-new-2023-7-0.md)
+               + [릴리스 정보](./release-info/release-notes-2023-7-0.md)
             + 6월 릴리스 {#2306-release}
-               + [새로운 기능](./release-info/whats-new-2023.6.0.md)
-               + [릴리스 정보](./release-info/release-notes-2023.6.0.md)
+               + [새로운 기능](./release-info/whats-new-2023-6-0.md)
+               + [릴리스 정보](./release-info/release-notes-2023-6-0.md)
             + 4월 릴리스 {#2304-release}
-               + [새로운 기능](./release-info/whats-new-2023.4.0.md)
-               + [릴리스 정보](./release-info/release-notes-2023.4.0.md)
+               + [새로운 기능](./release-info/whats-new-2023-4-0.md)
+               + [릴리스 정보](./release-info/release-notes-2023-4-0.md)
             + 3월 릴리스 {#2303-release}
-               + [새로운 기능](./release-info/whats-new-2023.3.0.md)
-               + [릴리스 정보](./release-info/release-notes-2023.3.0.md)
+               + [새로운 기능](./release-info/whats-new-2023-3-0.md)
+               + [릴리스 정보](./release-info/release-notes-2023-3-0.md)
             + 2월 릴리스 {#2302-release}
-               + [새로운 기능](./release-info/whats-new-2023.2.0.md)
-               + [릴리스 정보](./release-info/release-notes-2023.2.0.md)
+               + [새로운 기능](./release-info/whats-new-2023-2-0.md)
+               + [릴리스 정보](./release-info/release-notes-2023-2-0.md)
          + 2022 릴리스 {#2022-releases}
-            + [11월 릴리스 노트](./release-info/release-notes-2022.11.0.md)
-            + [10월 릴리스 정보](./release-info/release-notes-2022.10.0.md)
-            + [9월 릴리스 정보](./release-info/release-notes-2022.9.0.md)
-            + [8월 릴리스 노트](./release-info/release-notes-2022.8.0.md)
-            + [5월 릴리스 정보](./release-info/release-notes-2022.5.0.md)
-            + [4월 릴리스 정보](./release-info/release-notes-2022.4.0.md)
-            + [3월 릴리스 정보](./release-info/release-notes-2022.3.0.md)
-            + [2월 릴리스 정보](./release-info/release-notes-2022.2.0.md)
-            + [1월 릴리스 정보](./release-info/release-notes-2022.1.0.md)
+            + [11월 릴리스 노트](./release-info/release-notes-2022-11-0.md)
+            + [10월 릴리스 정보](./release-info/release-notes-2022-10-0.md)
+            + [9월 릴리스 정보](./release-info/release-notes-2022-9-0.md)
+            + [8월 릴리스 노트](./release-info/release-notes-2022-8-0.md)
+            + [5월 릴리스 정보](./release-info/release-notes-2022-5-0.md)
+            + [4월 릴리스 정보](./release-info/release-notes-2022-4-0.md)
+            + [3월 릴리스 정보](./release-info/release-notes-2022-3-0.md)
+            + [2월 릴리스 정보](./release-info/release-notes-2022-2-0.md)
+            + [1월 릴리스 정보](./release-info/release-notes-2022-1-0.md)
       + On-prem/Managed Services {#on-prem-release-notes}
       + 4.4.0 릴리스 {#44-release}
          + 새로운 기능 {#44-whats-new}
-            + [4.4 새로운 기능](./release-info/whats-new-4.4.md)
+            + [4.4 새로운 기능](./release-info/whats-new-4-4.md)
          + 릴리스 정보 {#44-release-notes}
-            + [4.4 릴리스 노트](./release-info/release-notes-4.4.md)
+            + [4.4 릴리스 노트](./release-info/release-notes-4-4.md)
       + 4.3.0 릴리스 {#43-release}
          + 새로운 기능 {#43-whats-new}
-            + [4.3.1 새로운 기능](./release-info/whats-new-4.3.1-release.md)
-            + [4.3.0 새로운 기능](./release-info/whats-new-4.3-release.md)
+            + [4.3.1 새로운 기능](./release-info/whats-new-4-3-1-release.md)
+            + [4.3.0 새로운 기능](./release-info/whats-new-4-3-release.md)
          + 릴리스 정보 {#43-release-notes}
-            + [4.3.1 릴리스 노트](./release-info/release-notes-4.3.1.md)
-            + [4.3.0 릴리스 노트](./release-info/release-notes-4.3.md)
+            + [4.3.1 릴리스 노트](./release-info/release-notes-4-3-1.md)
+            + [4.3.0 릴리스 노트](./release-info/release-notes-4-3.md)
       + 4.2 릴리스 {#42-release}
          + 새로운 기능 {#42-whats-new}
-            + [4.2.1 새로운 기능](./release-info/whats-new-4.2.1-release.md)
-            + [4.2 새로운 기능](./release-info/whats-new-4.2-release.md)
+            + [4.2.1 새로운 기능](./release-info/whats-new-4-2-1-release.md)
+            + [4.2 새로운 기능](./release-info/whats-new-4-2-release.md)
          + 릴리스 정보 {#42-release-notes}
-            + [4.2.1 릴리스 노트](./release-info/release-notes-4.2.1.md)
-            + [4.2 릴리스 노트](./release-info/release-notes-4.2.md)
-      + [4.1.x 릴리스 노트](./release-info/release-notes-4.1.md)
+            + [4.2.1 릴리스 노트](./release-info/release-notes-4-2-1.md)
+            + [4.2 릴리스 노트](./release-info/release-notes-4-2.md)
+      + [4.1.x 릴리스 노트](./release-info/release-notes-4-1.md)
       + [4.0.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
       + [3.8.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 + 사용 안내서 {#user-guide}
