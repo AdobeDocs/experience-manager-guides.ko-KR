@@ -4,9 +4,9 @@ description: 기본 PDF 게시를 위한 AEM 환경 구성
 exl-id: 40266ca0-0b0b-4418-b606-f70270addbaa
 feature: Native PDF Output
 role: User, Admin
-source-git-commit: a41fed965ed9fe33994478d51030eefdad1037de
+source-git-commit: 1baed01b2e573d79d4baaa6a551966ce59449136
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '902'
 ht-degree: 1%
 
 ---
@@ -181,12 +181,6 @@ Java 환경 설정을 수정한 후에도 문제가 지속되면 다음 사항�
 
 CRX 저장소의 /var/dxml/profiles/b1aad0a7-9079-e56c-1ed8-6fcabe8166/nodejs에 있는 nodejs 노드에 대한 시간 초과 속성 값의 유효성을 검사합니다. 기본값은 300입니다.
 
-### 종속성 예외 추출 중 오류 발생(문자열이 너무 김)
-![문자열이 너무 깁니다.](..//assets/publishing/string-too-long-error.png)
-
-이 예외를 해결하려면:
-1. 더 작게 만들기 위해 필요하지 않은 일부 스타일을 삭제 합니다.
-2. 하나의 큰 css 대신 여러 스타일시트를 만듭니다.
 
 
 위의 단계를 수행하는 동안 문제가 발생하면 AEM Guides 커뮤니티에 질문을 게시하십시오 [포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) 도움이 필요하신가요?
