@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 확인하십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: 03335bcff4987d486e3b1650c5ad6954dbb4c23a
+source-git-commit: 8fc1a5232bcc9049b16def8d629ab45a278a2c8f
 workflow-type: tm+mt
-source-wordcount: '1705'
+source-wordcount: '1711'
 ht-degree: 5%
 
 ---
@@ -387,6 +387,7 @@ ht-degree: 5%
       - [기본 PDF 게시 학습 - 실습 - BYOS](./knowledge-base/expert-sessions/native-pdf-publishing-hands-on-lab-sep2023.md)
       - [AEM 안내서의 확장 프레임워크](./knowledge-base/expert-sessions/guides-extension-framework-nov2023.md)
       - [외부 데이터 소스 통합](./knowledge-base/expert-sessions/external-datasource-integration-dec2023.md)
+      - [안내서의 콘텐츠 번역 - 2부](./knowledge-base/expert-sessions/translating-content-using-aem-guides-part2-feb2024.md)
    - 문서 {#kb-articles}
       - 작성 {#authoring}
          - 보고서 {#reports}
