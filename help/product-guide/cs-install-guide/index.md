@@ -1,19 +1,18 @@
 ---
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 22150456d455687a1e3bf36695ce6c1238f92e0c
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '227'
 ht-degree: 1%
 
 ---
 # Adobe Experience Manager Guides as a Cloud Service 설치 및 구성
 
-- [면책조항](rebranding-disclaimer.md)
+- [면책 조항](rebranding-disclaimer.md)
 - [이 안내서 정보](introduction.md)
 - [다운로드 및 설치](download-install.md)
    - [AEM Guides 모듈 배포](download-install-dxml-first-time.md)
    - [Dispatcher 구성](download-install-configure-dispatcher.md)
    - [AEM Guides 설치 확인](download-install-verify-dxml-installation.md)
-   - [AEM Guides 업그레이드](download-install-upgrade-dxml.md)
    - [구성 재정의](download-install-additional-config-override.md)
    - [성능 최적화를 위한 Recommendations](download-install-recommend-perf-optimiz.md)
 - [사용자 관리 및 보안](user-admin-sec.md)

@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 확인하십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: 8fc1a5232bcc9049b16def8d629ab45a278a2c8f
+source-git-commit: 933d683ec970417d4aac739c3cae19c103170ae9
 workflow-type: tm+mt
-source-wordcount: '1711'
+source-wordcount: '1740'
 ht-degree: 5%
 
 ---
@@ -15,10 +15,16 @@ ht-degree: 5%
 - [[!DNL AEM Guides] 개요](overview.md)
 - [면책 조항](./user-guide/rebranding-disclaimer.md)
 - 릴리스 정보 {#release-info}
+
    - [[!DNL AEM Guides] 릴리스](./release-info/latest-release-info.md)
    - 릴리스 정보 {#release-notes}
       - 클라우드 서비스 {#cloud-release-notes}
          - [배포 지침](./release-info/deploy-xml-on-aemaacs.md)
+         - 2024 릴리스 {#2024-releases}
+            - 2024.2.0 릴리스 {#2402-release}
+               - [새로운 기능](./release-info/whats-new-2024-2-0.md)
+               - [해결된 문제](./release-info/fixed-issues-2024-2-0.md)
+               - [업그레이드 지침](./release-info/upgrade-instructions-2024-2-0.md)
          - 2023 릴리스 {#2023-releases}
             - 12월 릴리스 {#2312-release}
                - [새로운 기능](./release-info/whats-new-2023-12-0.md)
@@ -108,6 +114,7 @@ ht-degree: 5%
                - [웹 편집기의 기타 기능](./user-guide/web-editor-other-features.md)
                - [웹 편집기 보기](./user-guide/web-editor-views.md)
                - [Schematron 파일 지원](./user-guide/support-schematron-file.md)
+               - [콘텐츠 작성에 대한 AI 기반 스마트 제안(베타)](./user-guide/authoring-ai-based-smart-suggestions.md)
                - [웹 편집기에서 Markdown 문서 작성](./user-guide/web-editor-markdown-topic.md)
                - [콘텐츠에 인용 부호 추가](./user-guide/web-editor-apply-citations.md)
                - [데이터 소스의 데이터 사용](./user-guide/web-editor-content-snippet.md)
@@ -219,8 +226,8 @@ ht-degree: 5%
       - 콘텐츠 마이그레이션 {#content-migration}
          - [비 UUID에서 UUID로의 콘텐츠 마이그레이션](./install-guide/migrate-uuid-non-uuid.md)
          - 마이그레이션 프로세스 {#migration-process}
-            - [버전 있는 콘텐츠 마이그레이션](./install-guide/migrate-non-uuid-uuid-with-versions.md)
-            - [버전 없는 콘텐츠 마이그레이션](./install-guide/migrate-non-uuid-uuid-without-versions.md)
+            - [버전을 사용하여 UUID가 아닌 콘텐츠 마이그레이션](./install-guide/migrate-non-uuid-uuid-with-versions.md)
+            - [버전 없이 비 UUID 콘텐츠 마이그레이션](./install-guide/migrate-non-uuid-uuid-without-versions.md)
          - [기존 콘텐츠 마이그레이션](./install-guide/migrate-content.md)
          - [기존 DITA 콘텐츠 업로드](./install-guide/migrate-content-upload-existing-dita-content.md)
          - [DITA가 아닌 콘텐츠 마이그레이션](./install-guide/migrate-content-non-dita.md)
@@ -322,6 +329,7 @@ ht-degree: 5%
       - 웹 편집기 구성 작업 {#web-editor-configs-cs}
          - [웹 편집기 사용자 지정](./cs-install-guide/conf-web-editor.md)
          - [도구 모음 사용자 지정](./cs-install-guide/conf-web-editor-customize-toolbar.md)
+         - [작성을 위한 AI 기반 스마트 제안 구성](./cs-install-guide/conf-smart-suggestions.md)
          - [태그 보기에 대한 기본값 구성](./cs-install-guide/configure-default-value-tags-view.md)
          - [UUID 기반 링크 표시 구성](./cs-install-guide/conf-uuid-based-links.md)
          - [동일한 탭에서 DITA 주제 또는 맵 파일 열기](./cs-install-guide/open-dita-files-same-tab.md)

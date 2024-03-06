@@ -4,9 +4,9 @@ description: 버그 수정 사항 및 Adobe Experience Manager Guides의 4.3.1 �
 exl-id: 3fb6dc31-ec6e-40f5-ab3f-a6e591da315e
 feature: Release Notes
 role: Leader
-source-git-commit: 5a444e88b0adba7fa3d498437df39b729b10b5eb
+source-git-commit: 1b25f1df67fa2442ab79830dc2ac5a6eabd0394c
 workflow-type: tm+mt
-source-wordcount: '1306'
+source-wordcount: '1308'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 ## Experience Manager 안내서의 4.3.1 릴리스로 업그레이드
 
 
-현재 버전의 Guides를 버전 4.3.1로 쉽게 업그레이드할 수 있습니다. Experience Manager 안내서 버전 4.3.1로 업그레이드하기 전에 다음 사항을 고려해야 합니다. 현재 버전의 Experience Manager 안내서를 버전 4.3.1로 업그레이드할 수 있습니다
+현재 버전의 Experience Manager 안내서를 버전 4.3.1로 쉽게 업그레이드할 수 있습니다. Experience Manager 안내서 버전 4.3.1로 업그레이드하기 전에 다음 사항을 고려해야 합니다. 현재 버전의 Experience Manager 안내서를 버전 4.3.1로 업그레이드할 수 있습니다
 
 
 - 버전 4.3.0, 4.2 또는 4.2.1을 사용 중인 경우 버전 4.3.1로 바로 업그레이드할 수 있습니다.

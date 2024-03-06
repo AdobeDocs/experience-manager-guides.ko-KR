@@ -1,9 +1,9 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides 4.4.0 릴리스의 업그레이드 지침 및 해결된 문제
 description: 버그 수정 사항과 Adobe Experience Manager Guides의 4.4.0 릴리스로 업그레이드하는 방법에 대해 알아봅니다
-source-git-commit: 5a444e88b0adba7fa3d498437df39b729b10b5eb
+source-git-commit: 1b25f1df67fa2442ab79830dc2ac5a6eabd0394c
 workflow-type: tm+mt
-source-wordcount: '1808'
+source-wordcount: '1820'
 ht-degree: 0%
 
 ---
@@ -17,14 +17,14 @@ ht-degree: 0%
 ## Experience Manager 안내서의 4.4.0 릴리스로 업그레이드
 
 
-현재 버전의 Guides를 버전 4.4.0으로 쉽게 업그레이드할 수 있습니다. Experience Manager 안내서 버전 4.4.0으로 업그레이드하기 전에 다음 사항을 고려해야 합니다.
+현재 버전의 Experience Manager 안내서를 버전 4.4.0으로 쉽게 업그레이드할 수 있습니다. Experience Manager 안내서 버전 4.4.0으로 업그레이드하기 전에 다음 사항을 고려해야 합니다.
 
 
 - 버전 4.3.1, 4.3.0 또는 4.2.1(핫픽스 4.2.1.3)을 사용하는 경우 버전 4.4.0으로 바로 업그레이드할 수 있습니다.
 - 버전 4.2, 4.1 또는 4.1.x를 사용 중인 경우 버전 4.4.0으로 업그레이드하기 전에 버전 4.3.1, 4.3.0 또는 4.2.1(핫픽스 4.2.1.3)로 업그레이드해야 합니다.
 - 버전 4.0을 사용 중인 경우 버전 4.3.x로 업그레이드하기 전에 버전 4.2로 업그레이드해야 합니다.
 - 버전 3.8.5를 사용하는 경우 버전 4.2로 업그레이드하기 전에 버전 4.0으로 업그레이드해야 합니다.
-- 3.8.5 이전 버전을 사용하는 경우 제품별 설치 안내서에서 업그레이드 Experience Manager 안내서 섹션을 참조하십시오.
+- 3.8.5 이전 버전을 사용 중이라면 제품별 설치 안내서에서 업그레이드 Experience Manager 안내서 섹션을 참조하십시오. [Adobe Experience Manager Guides 도움말 PDF 아카이브](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 
