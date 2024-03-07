@@ -1,18 +1,23 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides 4.4.0 릴리스의 새로운 기능
 description: Adobe Experience Manager Guides 4.4.0 릴리스의 새로운 기능과 향상된 기능에 대해 알아봅니다
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+role: Leader
+source-git-commit: 8f8075b205725a55b93286c804b879353b4d965d
 workflow-type: tm+mt
 source-wordcount: '2307'
 ht-degree: 0%
 
 ---
 
-# Adobe Experience Manager Guides 4.4.0 릴리스의 새로운 기능 (2024년 1월)
+# 4.4.0 릴리스의 새로운 기능(2024년 1월)
 
-이 문서에서는 Adobe Experience Manager Guides 버전 4.4.0(이후 설명됨)의 새로운 기능 및 향상된 기능을 다룹니다. *Experience Manager 가이드*).
+이 문서에서는 Adobe Experience Manager Guides 버전 4.4.0의 새로운 기능 및 향상된 기능을 다룹니다.
 
-업그레이드 지침, 호환성 매트릭스 및 이 릴리스에서 해결된 문제에 대한 자세한 내용은 [릴리스 정보](./release-notes-4-4.md).
+이 릴리스에서 수정된 문제 목록은 다음을 참조하십시오. [4.4.0 릴리스의 문제가 해결되었습니다.](../release-info/fixed-issues-4-4.md).
+
+다음에 대해 알아보기 [4.4.0 릴리스에 대한 업그레이드 지침](../release-info/upgrade-instructions-4-4.md).
+
+
 
 ## 웹 편집기의 버전 내역 기능 개선
 

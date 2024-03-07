@@ -1,28 +1,28 @@
 ---
 title: 기술 요구 사항
-description: AEM Guides와 함께 작동하는 기술 요구 사항에 대해 알아봅니다
+description: Adobe Experience Manager Guides를 사용하는 데 필요한 기술 요구 사항에 대해 알아봅니다
 exl-id: d69245b0-bf20-43c1-b46e-b6c220319690
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 60e905bf4027ee6c0390bf067b95517ab770ed7b
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---
 
 # 기술 요구 사항 {#id213BCG003XA}
 
-AEM Guides 4.3을 설치하기 전에 시스템이 다음 기술 요구 사항을 충족하는지 확인하십시오.
+AEM Guides 4.4를 설치하기 전에 시스템이 다음 기술 요구 사항을 충족하는지 확인하십시오.
 
 **Adobe Experience Manager**
 
-- 버전 6.5 서비스 팩 18, 17, 16, 15 또는 14
+- 버전 6.5 서비스 팩 19, 18 또는 17
 
 >[!IMPORTANT]
 >
-> AEM Site 출력을 생성하려면 AEM 게시 인스턴스에 서비스 팩 18, 17, 16, 15 또는 14가 있어야 합니다.
+> AEM Site 출력 생성의 경우 AEM 게시 인스턴스에 서비스 팩 19, 18 또는 17 이 있어야 합니다.
 
 **운영 체제**
 

@@ -5,9 +5,9 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 5a444e88b0adba7fa3d498437df39b729b10b5eb
+source-git-commit: 98fec02367c7e3f33f2511e51675d9e02e41170a
 workflow-type: tm+mt
-source-wordcount: '5744'
+source-wordcount: '5940'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 현재 버전의 Experience Manager 안내서를 버전 4.4.0으로 업그레이드할 수 있습니다.
 
-- 버전 4.3.1, 4.3.0 또는 4.2.1(핫픽스 4.2.1.3)을 사용하는 경우 버전 4.4.0으로 바로 업그레이드할 수 있습니다.
+- 버전 4.3.1.5, 4.3.1, 4.3.0 또는 4.2.1(핫픽스 4.2.1.3)을 사용하는 경우 버전 4.4.0으로 바로 업그레이드할 수 있습니다.
 - 버전 4.2, 4.1 또는 4.1.x를 사용 중인 경우 버전 4.4.0으로 업그레이드하기 전에 버전 4.3.1, 4.3.0 또는 4.2.1(핫픽스 4.2.1.3)로 업그레이드해야 합니다.
 - 버전 4.0을 사용 중인 경우 버전 4.3.x로 업그레이드하기 전에 버전 4.2로 업그레이드해야 합니다.
 - 버전 3.8.5를 사용하는 경우 버전 4.2로 업그레이드하기 전에 버전 4.0으로 업그레이드해야 합니다.
@@ -38,6 +38,7 @@ ht-degree: 0%
 - [버전 4.2.1로 업그레이드](#upgrade-version-4-2-1)
 - [버전 4.3.0으로 업그레이드](#upgrade-version-4-3)
 - [버전 4.3.1로 업그레이드](#upgrade-version-4-3-1)
+- [버전 4.3.1.5로 업그레이드](#upgrade-version-4-3-1-5)
 - [버전 4.4.0으로 업그레이드](#upgrade-version-4-4-0)
 
 
@@ -53,7 +54,9 @@ Experience Manager 가이드 버전 3.8.5를 사용하는 경우 Experience Mana
 
 >[!NOTE]
 >
-> 이 업그레이드 프로세스는 버전 3.8.5에서 버전 4.0으로만 적용할 수 있습니다. 버전 3.4 이상에서 3.8.5로 업그레이드하는 절차는 *업그레이드 Experience Manager 가이드* 에 있는 제품별 설치 안내서의 섹션 [도움말 보관 페이지](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+> 이 업그레이드 프로세스는 버전 3.8.5에서 버전 4.0으로만 적용할 수 있습니다. 버전 3.4 이상에서 3.8.5로 업그레이드하는 절차는 *업그레이드 Experience Manager 가이드* 에 있는 제품별 설치 안내서의 섹션 [Adobe Experience Manager 안내서 도움말 PDF 아카이브](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+
+
 
 ****전제 조건****
 
@@ -726,6 +729,48 @@ Experience Manager 안내서를 설치한 후 새로 설치한 버전에서 설�
 
 
 1. 의 기본값 또는 이전의 기존 값으로 되돌리기 `queryLimitReads` 1단계에서 변경한 경우.
+
+
+
+## 버전 4.3.1.5로 업그레이드 {#upgrade-version-4-3-1-5}
+
+버전 4.3.1.5로 업그레이드하는 방법은 현재 버전의 Experience Manager 가이드에 따라 다릅니다. 버전 4.3.1을 사용 중인 경우 버전 4.3.1.5로 바로 업그레이드할 수 있습니다.
+
+
+
+## 버전 4.3.1.5 설치
+
+1. 에서 4.3.1.5 버전 패키지 다운로드 [Adobe 소프트웨어 배포 포털](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. 버전 4.3.1.5 패키지를 설치합니다.
+
+1. 설치 프로세스가 완료될 때까지 기다립니다.
+1. 다음 섹션에 자세히 설명된 대로 맞춤화를 계속 업그레이드하십시오.
+
+
+## 버전 4.3.1.5를 설치한 후
+
+
+>[!NOTE]
+>
+>org.apache.velocity 번들을 사용하려면 번들을 업로드하기 전에 다음 단계를 수행하십시오.
+> 1. `<server>:<port>/system/console/bundles`로 이동합니다.
+> 1. org.apache.velocity를 검색합니다.
+> 1. 검색된 번들을 제거합니다.
+> 1. 필요한 속도 번들을 설치합니다.
+
+
+1. 업그레이드가 완료되면 사용자 지정/오버레이가 새 애플리케이션 코드와 일치하도록 확인 및 업데이트되었는지 확인합니다. 다음은 몇 가지 예입니다.
+   - 모든 구성 요소를에서 오버레이 `/libs/fmdita` 또는` /libs` 는 새 제품 코드와 비교해야 하며 업데이트는 `/apps` .
+   - 제품에서 사용되는 모든 clientlib 카테고리는 변경 사항을 검토해야 합니다. 최신 기능을 가져오려면 재정의된 모든 구성 \(아래 예제\)을 최신 구성과 비교해야 합니다.
+   - `elementmapping.xml`
+   - `ui\_config.json\` (폴더 프로필에 설정되었을 수 있음\)
+   - 수정됨 `com.adobe.fmdita.config.ConfigManager`
+
+
+
+
+
+
 
 ## 버전 4.4.0으로 업그레이드 {#upgrade-version-4-4-0}
 

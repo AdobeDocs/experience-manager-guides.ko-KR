@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 확인하십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: 933d683ec970417d4aac739c3cae19c103170ae9
+source-git-commit: d886d25f90f95c01009c0a9586df6b32754223cb
 workflow-type: tm+mt
-source-wordcount: '1740'
-ht-degree: 5%
+source-wordcount: '1742'
+ht-degree: 6%
 
 ---
 
@@ -15,8 +15,6 @@ ht-degree: 5%
 - [[!DNL AEM Guides] 개요](overview.md)
 - [면책 조항](./user-guide/rebranding-disclaimer.md)
 - 릴리스 정보 {#release-info}
-
-   - [[!DNL AEM Guides] 릴리스](./release-info/latest-release-info.md)
    - 릴리스 정보 {#release-notes}
       - 클라우드 서비스 {#cloud-release-notes}
          - [배포 지침](./release-info/deploy-xml-on-aemaacs.md)
@@ -63,12 +61,15 @@ ht-degree: 5%
             - [3월 릴리스 정보](./release-info/release-notes-2022-3-0.md)
             - [2월 릴리스 정보](./release-info/release-notes-2022-2-0.md)
             - [1월 릴리스 정보](./release-info/release-notes-2022-1-0.md)
-      - On-prem/Managed Services {#on-prem-release-notes}
-      - 4.4.0 릴리스 {#44-release}
-         - 새로운 기능 {#44-whats-new}
-            - [4.4 새로운 기능](./release-info/whats-new-4-4.md)
-         - 릴리스 정보 {#44-release-notes}
-            - [4.4 릴리스 노트](./release-info/release-notes-4-4.md)
+   - On-prem/Managed Services {#on-prem-release-notes}
+      - [[!DNL AEM Guides] 릴리스](./release-info/latest-release-info.md)
+      - 4.4.0 릴리스 {#440-release}
+         - [새로운 기능](./release-info/whats-new-4-4.md)
+         - [해결된 문제](./release-info/fixed-issues-4-4.md)
+         - [업그레이드 지침](./release-info/upgrade-instructions-4-4.md)
+      - 4.3.1.5 릴리스 {#4315-release}
+         - [해결된 문제](./release-info/fixed-issues-4-3-1-5.md)
+         - [업그레이드 지침](./release-info/upgrade-instructions-4-3-1-5.md)
       - 4.3.0 릴리스 {#43-release}
          - 새로운 기능 {#43-whats-new}
             - [4.3.1 새로운 기능](./release-info/whats-new-4-3-1-release.md)
