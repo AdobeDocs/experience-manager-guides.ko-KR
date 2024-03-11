@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 확인하십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: d886d25f90f95c01009c0a9586df6b32754223cb
+source-git-commit: 46fae421d3fb3bedaa2841c29d7d20f539bdf793
 workflow-type: tm+mt
 source-wordcount: '1742'
 ht-degree: 6%
@@ -61,32 +61,32 @@ ht-degree: 6%
             - [3월 릴리스 정보](./release-info/release-notes-2022-3-0.md)
             - [2월 릴리스 정보](./release-info/release-notes-2022-2-0.md)
             - [1월 릴리스 정보](./release-info/release-notes-2022-1-0.md)
-   - On-prem/Managed Services {#on-prem-release-notes}
-      - [[!DNL AEM Guides] 릴리스](./release-info/latest-release-info.md)
-      - 4.4.0 릴리스 {#440-release}
-         - [새로운 기능](./release-info/whats-new-4-4.md)
-         - [해결된 문제](./release-info/fixed-issues-4-4.md)
-         - [업그레이드 지침](./release-info/upgrade-instructions-4-4.md)
-      - 4.3.1.5 릴리스 {#4315-release}
-         - [해결된 문제](./release-info/fixed-issues-4-3-1-5.md)
-         - [업그레이드 지침](./release-info/upgrade-instructions-4-3-1-5.md)
-      - 4.3.0 릴리스 {#43-release}
-         - 새로운 기능 {#43-whats-new}
-            - [4.3.1 새로운 기능](./release-info/whats-new-4-3-1-release.md)
-            - [4.3.0 새로운 기능](./release-info/whats-new-4-3-release.md)
-         - 릴리스 정보 {#43-release-notes}
-            - [4.3.1 릴리스 노트](./release-info/release-notes-4-3-1.md)
-            - [4.3.0 릴리스 노트](./release-info/release-notes-4-3.md)
-      - 4.2 릴리스 {#42-release}
-         - 새로운 기능 {#42-whats-new}
-            - [4.2.1 새로운 기능](./release-info/whats-new-4-2-1-release.md)
-            - [4.2 새로운 기능](./release-info/whats-new-4-2-release.md)
-         - 릴리스 정보 {#42-release-notes}
-            - [4.2.1 릴리스 노트](./release-info/release-notes-4-2-1.md)
-            - [4.2 릴리스 노트](./release-info/release-notes-4-2.md)
-      - [4.1.x 릴리스 노트](./release-info/release-notes-4-1.md)
-      - [4.0.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-      - [3.8.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+      - On-prem/Managed Services {#on-prem-release-notes}
+         - [[!DNL AEM Guides] 릴리스](./release-info/latest-release-info.md)
+         - 4.4.0 릴리스 {#440-release}
+            - [새로운 기능](./release-info/whats-new-4-4.md)
+            - [해결된 문제](./release-info/fixed-issues-4-4.md)
+            - [업그레이드 지침](./release-info/upgrade-instructions-4-4.md)
+         - 4.3.1.5 릴리스 {#4315-release}
+            - [해결된 문제](./release-info/fixed-issues-4-3-1-5.md)
+            - [업그레이드 지침](./release-info/upgrade-instructions-4-3-1-5.md)
+         - 4.3.0 릴리스 {#43-release}
+            - 새로운 기능 {#43-whats-new}
+               - [4.3.1 새로운 기능](./release-info/whats-new-4-3-1-release.md)
+               - [4.3.0 새로운 기능](./release-info/whats-new-4-3-release.md)
+            - 릴리스 정보 {#43-release-notes}
+               - [4.3.1 릴리스 노트](./release-info/release-notes-4-3-1.md)
+               - [4.3.0 릴리스 노트](./release-info/release-notes-4-3.md)
+         - 4.2 릴리스 {#42-release}
+            - 새로운 기능 {#42-whats-new}
+               - [4.2.1 새로운 기능](./release-info/whats-new-4-2-1-release.md)
+               - [4.2 새로운 기능](./release-info/whats-new-4-2-release.md)
+            - 릴리스 정보 {#42-release-notes}
+               - [4.2.1 릴리스 노트](./release-info/release-notes-4-2-1.md)
+               - [4.2 릴리스 노트](./release-info/release-notes-4-2.md)
+         - [4.1.x 릴리스 노트](./release-info/release-notes-4-1.md)
+         - [4.0.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - 사용 안내서 {#user-guide}
    - 소개 {#about-aem-guide}
       - [정보 [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
