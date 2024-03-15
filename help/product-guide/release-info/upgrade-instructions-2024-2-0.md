@@ -1,7 +1,7 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides, 2024.2.0 릴리스의 업그레이드 지침 및 해결된 문제
 description: 호환성 매트릭스와 Adobe Experience Manager Guides as a Cloud Service의 2024.2.0 릴리스로 업그레이드하는 방법에 대해 알아보십시오.
-source-git-commit: e7457762ced59f696c5bd762c719cfd59b357250
+source-git-commit: 9022b8fbae9ff9eba962ca75e25c1f1137b008f8
 workflow-type: tm+mt
 source-wordcount: '866'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 | Experience Manager 가이드 as a Cloud 릴리스 | 산소 커넥터 창 | 산소 커넥터 Mac | Oxygen 창에서 편집 | Oxygen Mac에서 편집 |
 | --- | --- | --- | --- | --- |
-| 2024.2.0 | 3.4-uuid 1 | 3.4-uuid 1 | 2.3 | 2.3 |
+| 2024.2.0 | 3.5-uuid 1 | 3.5-uuid 1 | 2.3 | 2.3 |
 |  |  |  |  |
 
 
