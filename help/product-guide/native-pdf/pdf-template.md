@@ -5,9 +5,9 @@ exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: e3fcfeb94c77ee9e499425608048fc882eaa293b
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1151'
 ht-degree: 0%
 
 ---
@@ -27,16 +27,19 @@ ht-degree: 0%
 특정 페이지 레이아웃으로 사용자 지정 PDF 템플릿을 만들고 스타일 시트를 사용하여 페이지 레이아웃 구성 요소(예: 목차, 색인, 용어집) 또는 DITA 구성 요소(예: 제목, 단락, 목록)에 대한 서식을 정의할 수 있습니다.
 
 새 PDF 템플릿을 만들려면 다음 단계를 수행하십시오.
+
 1. 웹 편집기에서 **출력** 탭.
 1. 선택 **템플릿** <img src="./assets/template.svg" alt= "템플릿 아이콘" width="25"> 왼쪽 패널에서
-<img src="assets/create-pdf-template.png" alt="PDF 템플릿 만들기" width="400">
-1. **템플리트** 창에서 **템플리트** 옆에 있는 **+** 아이콘을 선택하고 **PDF 템플리트**를 선택합니다.
-1. **새 PDF 템플릿** 대화 상자에서 사용자 지정 템플릿을 만들 기준으로 사용할 팩토리 템플릿을 선택합니다. 검색 상자를 사용하여 템플릿을 검색할 수도 있습니다.
+
+   <img src="assets/create-pdf-template.png" alt="PDF 템플릿 만들기" width="400">
+
+1. 다음에서 **템플릿** 창에서 **+** 아이콘 옆에 있음 **템플릿** 및 선택 **PDF 템플릿**.
+1. 다음에서 **새 PDF 템플릿** 대화 상자에서 사용자 지정 템플릿을 만들기 위한 기반으로 사용할 팩토리 템플릿을 선택합니다. 검색 상자를 사용하여 템플릿을 검색할 수도 있습니다.
 1. 템플릿의 제목을 지정합니다.
 
->[!NOTE]
->
->  템플릿을 만들고 복제하는 동안 템플릿에 대한 썸네일을 미리 볼 수도 있습니다. 다음을 사용하여 썸네일 편집 또는 삭제 [**속성**](#properties-option) 다음에서 **옵션** 템플릿을 만든 후의 메뉴입니다.
+   >[!NOTE]
+   >
+   >  템플릿을 만들고 복제하는 동안 템플릿에 대한 썸네일을 미리 볼 수도 있습니다. 다음을 사용하여 썸네일 편집 또는 삭제 [**속성**](#properties-option) 다음에서 **옵션** 템플릿을 만든 후의 메뉴입니다.
 
 1. **만들기**&#x200B;를 클릭합니다.
 
@@ -47,6 +50,7 @@ ht-degree: 0%
 기존 템플릿과 동일한 페이지 레이아웃 및 서식을 사용하여 새 템플릿을 만들려면 복사본을 만들 수 있습니다. 템플릿이 복제되면 필요에 따라 해당 구성 요소를 추가로 사용자 정의할 수 있습니다.
 
 기존 PDF 템플릿을 복제하려면 아래 단계를 따르십시오.
+
 1. 웹 편집기에서 **출력** 탭.
 1. 선택 **템플릿** <img src="./assets/template.svg" alt= "템플릿 아이콘" width="25"> 왼쪽 패널에서 이렇게 하면 **템플릿** 창.
 1. 복제할 템플릿 위로 마우스를 가져간 후 **...** *옵션* 아이콘 및 선택 **복제** 컨텍스트 메뉴 아래의 제품에서 사용할 수 있습니다.
@@ -88,6 +92,7 @@ ht-degree: 0%
 자산 UI에서 템플릿을 보려면 이 옵션을 선택합니다. 템플릿의 루트 위치를 열면 템플릿의 모든 리소스를 볼 수 있습니다.
 
 사용자 지정 템플릿을 만든 후에는 PDF 출력 사전 설정의 페이지 레이아웃에서 해당 템플릿을 선택할 수 있습니다.
+
 방법 알아보기 [PDF 출력 게시](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=en).
 
 >[!NOTE]
@@ -96,35 +101,36 @@ ht-degree: 0%
 
 설정에 따라 관리자가 템플릿을 구성할 수 있습니다.
 
-<details>
-<summary> 클라우드 서비스 </summary>
++++ 클라우드 서비스
 
 전역 및 폴더 수준 프로필 설정에 대한 자세한 내용은 [템플릿 구성](../cs-install-guide/conf-folder-level.md#id1889D0IL0Y4) Cloud Service 섹션에 자세히 설명되어 있습니다.
 
-</details>
++++
 
-<details>    
-<summary>  On-premise Software </summary>
++++ On-premise Software
 
 전역 및 폴더 수준 프로필 설정에 대한 자세한 내용은 [작성 템플릿 구성](../install-guide/conf-folder-level.md#create-custom-authoring-template-id1917d0eg0hj) 섹션에 자세히 설명되어 있습니다.
 
-</details>
++++
 
 ## PDF 템플릿 사용자 지정 {#customize-pdf-template}
 
 템플릿 구성 요소를 수정하고 스타일시트를 사용하여 스타일 형식을 적용하여 템플릿을 사용자 정의할 수 있습니다.
 
 PDF 템플릿을 사용자 정의하려면 다음 단계를 수행하십시오.
+
 1. 웹 편집기에서 **출력** 탭.
 1. 왼쪽 사이드바를 확장하고 을 선택합니다. **템플릿**.
 
    이렇게 하면 **템플릿** 패널.
+
 1. 템플릿의 구성 요소를 보려면 다음 중 하나를 수행하십시오.
 
    * 템플릿 옆에 있는 > 아이콘을 선택하거나 템플릿 이름을 두 번 클릭합니다.
    * 템플릿 위로 마우스를 가져간 다음 ... (**옵션** 아이콘) 및 선택 **편집** 컨텍스트 메뉴 아래의 제품에서 사용할 수 있습니다.
 
-     기본적으로 **설정** 템플릿 편집기의 패널.
+   기본적으로 **설정** 템플릿 편집기의 패널.
+
    <img src="assets/customize-pdf-template.png" alt="PDF 템플릿 사용자 지정" width="350">
 
    >[!NOTE]
@@ -134,6 +140,7 @@ PDF 템플릿을 사용자 정의하려면 다음 단계를 수행하십시오.
    > `/libs/fmdita/pdf`
 
    사용자 정의할 수 있는 다양한 템플릿 구성 요소는 다음 섹션 아래에 분류됩니다.
+
    * 페이지 레이아웃: 일반적인 PDF은 앞 표지 또는 제목 페이지, 목차, 챕터, 색인, 인용 등 다양한 페이지를 포함합니다. 페이지 레이아웃 섹션에서 PDF을 구성하는 다양한 페이지의 디자인을 디자인할 수 있습니다. 자세한 내용은 [페이지 레이아웃](../native-pdf/components-pdf-template.md#page-layouts).
 
      모양새 외에도 페이지의 머리글, 바닥글 및 컨텐츠 영역과 같은 페이지 요소의 배열을 정의할 수도 있습니다. 페이지 레이아웃 사용자 지정에 대한 자세한 내용은 [페이지 레이아웃 만들기 및 사용자 지정](components-pdf-template.md#create-customize-page-layout).
@@ -143,8 +150,10 @@ PDF 템플릿을 사용자 정의하려면 다음 단계를 수행하십시오.
 저장소의 다른 위치에 있는 리소스를 사용할 수도 있습니다. 각 템플릿에 대해 중복 리소스를 만들 필요가 없으며, 이러한 리소스를 공유 폴더에 보관하고 모든 기본 PDF 템플릿에서 사용할 수 있습니다.
 
      리소스 활용에 대한 자세한 내용은 [리소스 사용](components-pdf-template.md#work-with-resources).
+
    * 설정: 템플릿을 사용하여 PDF을 생성하기 위한 출력 설정을 구성합니다. 이 섹션에서는 PDF의 다양한 페이지에 대한 템플릿 매핑, 챕터 시작 페이지, 인쇄 마커, 인용 등을 정의할 수 있습니다.
-또한 최종 PDF 출력에 표시되어야 하는 순서를 정렬할 수 있습니다.
+
+   또한 최종 PDF 출력에 표시되어야 하는 순서를 정렬할 수 있습니다.
 설정 적용에 대한 자세한 내용은 [고급 PDF 설정](components-pdf-template.md#advanced-pdf-settings).
 
 
