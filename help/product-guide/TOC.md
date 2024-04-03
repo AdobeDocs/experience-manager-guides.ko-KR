@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 확인하십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: 46fae421d3fb3bedaa2841c29d7d20f539bdf793
+source-git-commit: fa6486d7a1ca392742968fc4adad3e3910a91903
 workflow-type: tm+mt
-source-wordcount: '1742'
+source-wordcount: '1749'
 ht-degree: 6%
 
 ---
@@ -435,6 +435,9 @@ ht-degree: 6%
                - [사용자 정의](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
       - 게시 {#publishing}
          - [기본 PDF 게시를 위한 AEM 환경 구성](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
+
+         - [기본 PDF 게시에서 북맵의 TOC 생성](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
+
          - [FMPS 및 안내서](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          - [마이크로서비스 아키텍처 및 성능](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          - [마이크로서비스 기반 게시 구성](./knowledge-base/publishing/configure-microservices.md)
