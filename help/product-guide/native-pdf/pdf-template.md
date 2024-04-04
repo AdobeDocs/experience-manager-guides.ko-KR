@@ -5,7 +5,7 @@ exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: e3fcfeb94c77ee9e499425608048fc882eaa293b
+source-git-commit: 7790aa9dce9a586b8b422dc6deeecab3d53aca8d
 workflow-type: tm+mt
 source-wordcount: '1151'
 ht-degree: 0%
@@ -29,7 +29,7 @@ ht-degree: 0%
 새 PDF 템플릿을 만들려면 다음 단계를 수행하십시오.
 
 1. 웹 편집기에서 **출력** 탭.
-1. 선택 **템플릿** <img src="./assets/template.svg" alt= "템플릿 아이콘" width="25"> 왼쪽 패널에서
+1. 선택 **템플릿** ![템플릿 아이콘](./assets/template.svg) 왼쪽 패널에서
 
    <img src="assets/create-pdf-template.png" alt="PDF 템플릿 만들기" width="400">
 
