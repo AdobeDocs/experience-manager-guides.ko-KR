@@ -2,10 +2,12 @@
 title: NativePDF를 사용하여 목차 게시
 description: NativePDF를 사용하여 DITA 북맵에 대한 TOC 및 기타 북리스트 게시
 feature: Native PDF Output
+author: Pulkit Nagpal(punagpal)
 role: User, Admin
-source-git-commit: 6ccaef5d35d492fe8dbe0f8b52af8d11258f3d2a
+exl-id: c551f0a8-f973-4c5a-bd34-f52890a91342
+source-git-commit: 7638f3634ad45bbadda64ec6e3f706cbb65d696c
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -36,6 +38,31 @@ DITA 사양을 사용하여 목차와 북리스트를 `<backmatter>` 섹션도 �
       <indexlist/>
     </booklists>
   </backmatter>
+```
+
+TOC , 그림 목록 및 표 목록(앞쪽)과 색인 목록(뒷쪽)이 있는 북맵의 샘플 구조.
+
+```
+<bookmap>
+  <title>My Bookmap Title </title>
+  <frontmatter>
+    <booklists>
+      <toc/>
+      <figurelist/>
+      <tablelist/>
+    </booklists>
+  </frontmatter>
+
+  <chapter href="chapter1.ditamap">
+  <chapter href="chapter2.ditamap">
+  </chapter>
+
+  <backmatter>
+    <booklists>
+      <indexlist/>
+    </booklists>
+  </backmatter>
+</bookmap>
 ```
 
 TOC 및 북리스트는 북맵에 정의된 구조를 기반으로 자동으로 생성됩니다.
@@ -71,6 +98,7 @@ Ditamap을 게시하는 경우 기본 PDF은 TOC 및 북리스트를 자동으�
 <br>
 <br>
 
-AEM Guides 커뮤니티에 질문을 게시합니다. [포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) 모든 쿼리에 사용됩니다.
+AEM Guides 커뮤니티에 게시 [포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) 모든 쿼리에 사용됩니다.
+
 
 
