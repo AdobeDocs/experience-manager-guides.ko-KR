@@ -2,9 +2,9 @@
 title: AEM Guides의 DITA 콘텐츠 재사용
 description: 이 간략한 문서는 AEM Guides 및 DITA를 통해 콘텐츠 재사용 가능성을 사용할 때 시간과 노력을 절약하는 방법을 설명합니다
 role: User, Admin
-source-git-commit: 6ff99d32dd7a30c1104a79da4f223defe109f190
+source-git-commit: 8fceb5e76dcc946efc118b217e93088619c5c5c6
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
@@ -12,6 +12,12 @@ ht-degree: 0%
 # AEM Guides의 콘텐츠 재사용 가능
 
 Adobe AEM Guides는 DITA의 강점을 활용하여 컨텐츠 재사용을 위한 사용자 친화적인 인터페이스를 제공합니다.
+
+이 문서에서는 다음에 대해 설명합니다.
+
+1. 주제 참조( )를 사용하여 재사용 가능`topicrefs`)
+2. 콘텐츠 참조를 사용한 재사용 가능성(`conref` 및 `conkeyref`)
+3. AEM Guides에서 드래그 앤 드롭으로 콘텐츠를 재사용하기 위한 보너스 팁
 
 ## 주제 참조를 사용한 재사용 가능성(topicref)
 
@@ -129,7 +135,7 @@ AEM Guides를 사용하여 두 번 클릭
 여기서 루트 맵은 맵 보기에서 이미 열려 있으므로 자동 선택되었습니다.
 
 
-### AEM Guides에서 한 번의 클릭으로 콘텐츠 재사용
+## AEM Guides에서 한 번의 클릭으로 콘텐츠 재사용
 
 AEM Guides는 한 번의 클릭으로 콘텐츠 참조를 추가할 수 있는 &quot;재사용 가능한 콘텐츠&quot; 기능을 제공합니다.
 
