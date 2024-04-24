@@ -5,7 +5,7 @@ exl-id: 5af78233-343e-47ba-b60c-b7f4789e2406
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 11%
@@ -85,3 +85,4 @@ DITA 맵 대시보드에서 변환 탭을 숨기려면 다음 단계를 수행�
 | PID | 속성 키 | 속성 값 |
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | 부울: <br> - 임시 파일에서 후처리 작업을 실행하지 않으려면 다음을 수행합니다. *사용 안 함* \( false\) **사후 처리 언어 사본** 옵션을 선택합니다.<br> - 임시 파일에서 후처리 작업을 실행하려면 *사용* \( true\) **사후 처리 언어 사본** 옵션을 선택합니다.<br> **기본값**: false |
+

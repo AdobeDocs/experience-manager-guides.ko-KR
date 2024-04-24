@@ -1,7 +1,7 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides, 2024.4.0 릴리스의 새로운 기능
 description: Adobe Experience Manager Guides as a Cloud Service의 2024.4.0 릴리스의 새로운 기능과 향상된 기능에 대해 알아보십시오.
-source-git-commit: 9a0d2886012bd1695387a93984ccac5127384db3
+source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
 workflow-type: tm+mt
 source-wordcount: '1806'
 ht-degree: 0%
@@ -223,3 +223,4 @@ DITA-OT를 사용하여 생성된 출력으로 전달된 메타데이터 속성�
 
 
 이제 Experience Manager 가이드에 대한 클라우드 게시 서비스는 Adobe IMS OAuth 기반 인증으로 보호됩니다. 방법 알아보기 [oauth 인증을 통해 마이크로서비스 기반 게시 구성](../knowledge-base/publishing/configure-microservices-imt-config.md).
+

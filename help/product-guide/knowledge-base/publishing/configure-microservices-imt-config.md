@@ -3,7 +3,7 @@ title: AEM Guides에 대한 OAuth 인증을 통해 마이크로 서비스 기반
 description: AEM Guides에 대한 OAuth 인증을 사용하여 마이크로서비스 기반 게시를 구성하는 방법에 대해 알아봅니다.
 feature: Microservice in AEM Guides
 role: User, Admin
-source-git-commit: 17116ed5619b7177cf0174449d67cfebf5b9cf46
+source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 0%
@@ -21,9 +21,6 @@ ht-degree: 0%
 > Experience Manager 안내서의 마이크로서비스 기반 게시는 PDF(기본 및 DITA-OT 기반 모두), HTML 5, JSON 및 사용자 지정 유형의 출력 사전 설정을 지원합니다.
 
 클라우드 게시 서비스는 Adobe IMS OAuth 기반 인증을 통해 보호되므로 다음 단계를 수행하여 환경을 Adobe의 보안 토큰 기반 인증 워크플로와 통합하고 클라우드 기반의 확장 가능한 게시 솔루션을 사용하십시오.
-
-
-
 
 
 ## Adobe Developer 콘솔에서 IMS 구성 만들기

@@ -1,7 +1,7 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides, 2024.4.0 릴리스의 문제가 해결되었습니다
 description: Adobe Experience Manager Guides as a Cloud Service의 2024.04.0 릴리스의 버그 수정에 대해 알아봅니다.
-source-git-commit: 9d1b0bea20b2fe3ae8fb2ee7cf4387cf7271562d
+source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 0%
@@ -64,4 +64,5 @@ ht-degree: 0%
 ## 번역
 
 - **번역 수락** 임시 파일의 번역을 완료하지 못했습니다. (14665)
+
 
