@@ -2,7 +2,7 @@
 title: 작성을 위한 스마트 제안 구성
 description: 작성을 위한 스마트 제안을 구성하는 방법 알아보기
 exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
-source-git-commit: b2042431e96f2cbd90eea9c8cfcdb3e7033e26bb
+source-git-commit: d3e0c475ebd50a2664ea45c293d34b3a10772633
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 1%
@@ -34,7 +34,9 @@ Adobe Developer 콘솔에서 IMS 구성을 만들려면 다음 단계를 수행�
    *프로젝트에 I/O 관리 API를 추가합니다.*
 
 1. 새로 만들기 **OAuth 자격 증명** 구해
-   ![구성 API의 OAuth 자격 증명 타일](assets/conf-ss-OAuth-credential.png) {width="3000" align="left"}
+
+   ![구성 API의 OAuth 자격 증명 타일](assets/conf-ss-OAuth-credential.png)
+
    *API에 대한 OAuth 자격 증명을 구성합니다.*
 
 1. 다음에서  **프로젝트** 탭, 선택 **OAuth 서버-서버** 옵션을 선택한 다음 새로 만든 자격 증명을 선택합니다.
