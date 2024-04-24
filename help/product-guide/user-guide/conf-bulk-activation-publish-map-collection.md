@@ -4,10 +4,10 @@ description: AEM Guides에서 DITA 맵의 출력을 활성화합니다. 게시 �
 exl-id: 4da644b9-8c5f-4976-a212-960085b693b8
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 66d22560d40012a7475026ed44cec7bf301c1a97
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 2%
+source-wordcount: '444'
+ht-degree: 1%
 
 ---
 
@@ -28,13 +28,61 @@ ht-degree: 2%
    ![](images/bulk-activation-collection-open.png){width="800" align="left"}
 
 1. \(*선택 사항*\) 왼쪽 레일에서 필요한 필터를 적용하여 수정된 \(status\), 출력 사전 설정 또는 언어를 기반으로 필터 맵을 필터링합니다.
-1. 다음 중 하나를 수행하십시오.
 
-   - 선택한 맵의 출력을 활성화하려면 맵 파일을 선택하고 **빠른 게시**.
-   - 구성된 사전 설정으로 모든 DITA 맵의 출력을 활성화하려면 맵 \(열\) 옆에 있는 확인란을 선택한 다음 을 클릭합니다 **빠른 게시.**
-     ![](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
+   >[!NOTE]
+   >
+   >맵 컬렉션에서 활성화하기 전에 출력 사전 설정을 사용하여 맵에 대한 출력을 생성합니다.
 
 
-선택한 맵 파일에 대한 출력이 활성화되면 게시됨 열이 현재 날짜 및 시간으로 업데이트됩니다.
+설정에 따라 컬렉션을 활성화하는 다양한 방법을 살펴보십시오.
 
-**상위 항목:**[&#x200B;게시된 콘텐츠의 벌크 활성화](conf-bulk-activation.md)
+<details>
+<summary> 클라우드 서비스 </summary>
+
+![cloud service에 일괄 수집-게시](images/bulk-activation-collection-quick-publish-CS.png){width="650" align="left"}
+
+에 대한 출력을 **미리 보기** 또는 **게시** 인스턴스.
+
+**미리보기**
+
+* 선택한 맵의 출력을 활성화하려면 미리 생성된 맵 출력을 선택한 다음 를 선택합니다 **게시 위치** > **미리 보기**.
+* 구성된 사전 설정으로 모든 DITA 맵의 출력을 활성화하려면 **맵** 열을 선택한 다음 **게시 위치** > **게시**.
+
+
+**게시**
+
+* 선택한 맵의 출력을 활성화하려면 미리 생성된 맵 출력을 선택한 다음 를 선택합니다 **게시 위치** > **게시**.
+
+* 구성된 사전 설정으로 모든 DITA 맵의 출력을 활성화하려면 맵(열) 옆에 있는 확인란을 선택한 다음 을 선택합니다 **게시 위치** > **게시**.
+
+
+>[!NOTE]
+> 
+> 맵 출력 확인란은 맵에 대한 출력을 생성한 경우에만 활성화됩니다.
+
+맵 출력이 게시 큐에 있으면 성공 메시지가 표시됩니다.
+
+선택한 맵 파일에 대해 출력이 활성화되면 감사 기록 탭이 업데이트되고 가장 최근에 활성화된 출력이 맨 위에 표시됩니다. 다음 **게시됨** 열은 게시 날짜 및 시간으로 업데이트됩니다.
+
+</details>
+
+<details>    
+<summary>  On-premise Software </summary>
+
+
+다음 중 하나를 수행하십시오.
+
+* 선택한 맵의 출력을 활성화하려면 미리 생성된 맵 출력을 선택한 다음 를 선택합니다 **빠른 게시**.
+* 구성된 사전 설정으로 모든 DITA 맵의 출력을 활성화하려면 맵(열) 옆에 있는 확인란을 선택한 다음 을 선택합니다 **빠른 게시.**
+  ![대량 수집 게시](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
+
+  >[!NOTE]
+  > 
+  >맵 출력 확인란은 맵에 대한 출력을 생성한 경우에만 활성화됩니다.
+
+
+맵 출력이 게시 큐에 있으면 성공 메시지가 표시됩니다.
+
+선택한 맵 파일에 대해 출력이 활성화되면 감사 기록 탭이 업데이트되고 가장 최근에 활성화된 출력이 맨 위에 표시됩니다. 다음 **게시됨** 열은 게시 날짜 및 시간으로 업데이트됩니다.
+
+**상위 항목: **[게시된 콘텐츠의 벌크 활성화](conf-bulk-activation.md)

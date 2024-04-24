@@ -1,9 +1,10 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides, 2024.2.0 릴리스의 새로운 기능
 description: Adobe Experience Manager Guides as a Cloud Service의 2024.2.0 릴리스의 새로운 기능과 향상된 기능에 대해 알아보십시오.
-source-git-commit: f5940d0ddf19733411532281fb614690075c02ee
+exl-id: 234d430a-d775-484a-aea8-6e422b0a01eb
+source-git-commit: b1bb2b9da71bf0551fe40c84ac382df0e78e007b
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1066'
 ht-degree: 0%
 
 ---

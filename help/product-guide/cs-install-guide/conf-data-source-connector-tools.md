@@ -5,9 +5,9 @@ exl-id: d7cd412b-89ea-43a5-97b3-09944863bbee
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: acd16f23a7b3023a62b3c15007b03d4f3b2cfb4f
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 # 사용자 인터페이스에서 데이터 소스 커넥터 구성
 
 Experience Manager 안내서에는 **데이터 소스** 데이터 소스에 대한 기본 제공 커넥터를 구성하는 데 도움이 되는 도구입니다. JIRA, SQL(MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce, Elasticsearch 및 일반 REST 클라이언트 커넥터를 설정할 수 있습니다.
+
+Experience Manager 가이드는 이러한 기본 커넥터 외에도 Salsify, Akeneo 및 Microsoft Azure ADO(DevOps Boards) 데이터 소스에 대한 커넥터를 제공합니다. 다운로드하여 설치할 수 있습니다. 그런 다음 사용자는 이러한 커넥터를 구성할 수 있습니다.
+
+파일 커넥터를 사용하여 JSON 데이터 파일에 연결할 수도 있습니다. 컴퓨터에서 JSON 파일을 업로드하거나 Adobe Experience Manager 자산에서 해당 파일을 찾아봅니다. 그런 다음 생성기를 사용하여 콘텐츠 조각 또는 주제를 만듭니다.
 
 커넥터를 구성하려면 다음 단계를 수행하십시오.
 
@@ -37,14 +41,19 @@ Experience Manager 안내서에는 **데이터 소스** 데이터 소스에 대�
 1. 데이터베이스에 따라 구성 및 연결 세부 정보를 입력합니다.
 
    >[!TIP]
+   >
    >* 마우스로 가리키기 <img src="./assets/info-details.svg" alt= "정보 아이콘" width="25"> 필드 근처에서 세부 정보를 볼 수 있습니다.
    > * *가 있는 필드는 필수입니다. 예를 들어 Elasticsearch 커넥터에 대해 다음 세부 정보를 입력할 수 있습니다.
 
    * **이름**: 데이터 소스의 이름을 입력합니다.
-   * 인증 유형: 드롭다운에서 인증 유형을 선택합니다. 예: 기본 사용자 이름-암호 인증
+   * **인증 유형**: 드롭다운에서 인증 유형을 선택합니다. 예: 기본 사용자 이름-암호 인증
    * **사용자 이름**: 사용자 이름을 입력합니다.
    * **암호**: 사용자 이름과 암호를 입력합니다.
    * **URL**: API URL을 추가합니다.
+
+
+1. 다음 항목 선택 **팩터리 템플릿 제외** 항목 및 코드 조각 생성에 공장 템플릿이 사용되지 않도록 하는 옵션입니다. 이 속성은 아래에 표시되지 않습니다. **데이터 매핑 템플릿** 드롭다운  **콘텐츠 조각 생성기 추가** 또는 **주제 생성기 추가** 대화 상자.
+
 
 1. 선택 **연결 테스트**. 다음을 볼 수 있습니다. **연결 테스트** 필요한 세부 정보를 추가한 후에만 버튼이 활성화되었습니다. 연결 세부 사항이 올바른 경우 성공 메시지를 표시합니다. 그렇지 않으면 오류 메시지가 표시될 수 있습니다.
 
@@ -54,6 +63,21 @@ Experience Manager 안내서에는 **데이터 소스** 데이터 소스에 대�
 
 
    커넥터가 성공적으로 저장되면 페이지에서 연결된 데이터 소스를 볼 수 있습니다.
+
+**여러 리소스에 연결**
+
+일반 REST 클라이언트, Salsify, Akeneo 및 Microsoft Azure ADO(DevOps Boards)와 같은 일부 커넥터에 대해 서로 다른 URL을 기반으로 여러 리소스를 추가하거나 사용할 수 있습니다. 그런 다음 콘텐츠 조각을 연결하여 콘텐츠 조각 생성기를 사용하여 콘텐츠 조각 또는 주제를 만듭니다.
+
+리소스를 만들려면 다음 단계를 수행하십시오.
+
+1. 선택 ![추가 아이콘](assets/Add_icon.svg) 다음에서 **URL 리소스 섹션** 각 URL에 대한 리소스를 추가합니다.
+1. 의 모든 세부 정보를 구성합니다. **리소스 추가** 대화 상자.
+1. 클릭 **추가**.
+1. 편집할 수 있습니다. ![편집 아이콘](assets/edit_pencil_icon.svg) 또는 삭제 ![삭제](assets/Delete_icon.svg) url 리소스 목록의 리소스.
+
+1. Salsify, Akeneo 및 Microsoft ADO와 같은 데이터 소스에 사용할 수 있는 기본 리소스를 사용할 수도 있습니다. 데이터 소스에 대해 구성하지 않으려는 리소스에 대해 옵션 OFF를 전환합니다.
+
+이렇게 하면 단일 콘텐츠 조각 또는 주제의 특정 데이터 소스에 대한 리소스에서 데이터를 빠르게 가져올 수 있습니다.
 
 ## 커넥터에 사용할 수 있는 기능
 

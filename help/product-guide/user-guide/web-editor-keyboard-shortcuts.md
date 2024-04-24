@@ -4,9 +4,9 @@ description: AEM Guides의 웹 편집기에서 시간을 절약할 수 있는 �
 exl-id: d843c5a9-04f8-44f2-9bf5-60cb4ed7fa38
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 33da473cfa8c654a5413f9d8cbe9c43acaf65766
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -49,5 +49,6 @@ ht-degree: 0%
 | 인쇄 대화 상자 열기 | ***Ctrl***+**P** | ***명령***+**P** |
 | 마지막 작업 실행 취소 | ***Ctrl***+**Z** | ***명령***+**Z** |
 | 마지막 작업 다시 실행 | ***Ctrl***+**Y** | ***명령***+**Y** |
+| 줄바꿈하지 않는 공백 삽입 `(&nbsp;)` | ***대체***+**공간** | ***옵션***+**공간** |
 
 **상위 항목:** [웹 편집기 작업](web-editor.md)

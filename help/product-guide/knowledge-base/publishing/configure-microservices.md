@@ -4,24 +4,28 @@ description: AEM Guides의 새로운 마이크로서비스 기반 게시를 구�
 exl-id: 92e3091d-6337-4dc6-9609-12b1503684cd
 feature: Microservice in AEM Guides
 role: User, Admin
-source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
+source-git-commit: f929d4fd74e98e2025d80c14dbef6aeb464c0dd5
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '711'
 ht-degree: 0%
 
 ---
 
-# AEM Guides as a Cloud Service에 대한 새로운 마이크로서비스 기반 게시 구성
+# JWT 인증을 사용하여 마이크로서비스 기반 게시 구성
 
-새로운 게시 마이크로서비스를 통해 사용자는 AEM as a Cloud Service Guides에서 동시에 대규모 게시 워크로드를 실행할 수 있으며 업계 최고의 Adobe I/O Runtime 서버리스 플랫폼을 활용할 수 있습니다.
-
-각 게시 요청에 대해 AEM Guides는 사용자 요청에 따라 가로로 확장되는 별도의 컨테이너를 as a Cloud Service으로 실행합니다. 이를 통해 사용자는 여러 게시 요청을 실행하고 대형 온프레미스 AEM 서버보다 더 나은 성능을 얻을 수 있습니다.
+[!BADGE Cloud Service]{type=Informative}
 
 >[!NOTE]
 >
-> AEM Guides의 마이크로서비스 기반 게시는 PDF(기본 및 DITA-OT 기반 모두), HTML 5, JSON 및 사용자 지정 유형의 출력 사전 설정을 지원합니다.
+> JWT(서비스 계정) 자격 증명은 OAuth 서버 간 자격 증명을 위해 더 이상 사용되지 않습니다. 서비스 계정(JWT) 자격 증명을 사용하는 응용 프로그램은 2025년 1월 1일 이후에 작동을 중지합니다. 애플리케이션이 계속 작동하도록 하려면 2025년 1월 1일까지 새 자격 증명으로 마이그레이션해야 합니다. 자세히 알아보기 [서비스 계정(JWT) 자격 증명에서 OAuth 서버 간 자격 증명으로 마이그레이션](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/).
 
-새로운 클라우드 게시 서비스는 Adobe IMS JWT 기반 인증을 통해 보호되므로 고객은 아래 단계에 따라 환경을 Adobe의 보안 토큰 기반 인증 워크플로와 통합하고 새로운 클라우드 기반의 확장 가능한 게시 솔루션을 사용해야 합니다.
+
+
+Adobe Experience Manager Guides용 의 마이크로서비스 기반 게시는 PDF(기본 및 DITA-OT 기반 모두), HTML 5, JSON 및 사용자 지정 유형의 출력 사전 설정을 as a Cloud Service으로 지원합니다.
+
+JWT(서비스 계정) 자격 증명은 더 이상 사용되지 않으므로 Adobe IMS OAuth 기반 인증을 사용하는 것이 좋습니다. 방법 알아보기 [oauth 인증을 통해 마이크로서비스 기반 게시 구성](configure-microservices-imt-config.md).
+
+Adobe IMS JWT 기반 인증으로 보호되는 클라우드 게시 서비스의 경우 고객은 아래의 단계에 따라 환경을 Adobe의 보안 토큰 기반 인증 워크플로와 통합하고 새로운 클라우드 기반의 확장 가능한 게시 솔루션을 사용해야 합니다.
 
 
 ## Adobe Developer 콘솔에서 IMS 구성 만들기
@@ -80,7 +84,7 @@ Adobe Developer 콘솔에서 IMS 구성을 만들려면 다음 단계를 수행�
 >
 > 위 스크린샷과 같이 개인 키 및 서비스 세부 사항 JSON 파일의 컨텐츠를 열고 복사한 다음 구성 패널의 값 열에 붙여넣어야 합니다.
 
-환경에 IMS 구성을 추가한 후 다음 단계를 수행하여 OSGi를 사용하여 이러한 속성을 AEM Guides와 연결합니다.
+환경에 IMS 구성을 추가했으면 다음 단계를 수행하여 OSGi를 사용하여 이러한 속성을 Experience Manager 안내서와 연결합니다.
 
 1. Cloud Manager Git 프로젝트 코드에서 아래에 주어진 두 개의 파일을 추가합니다(파일 콘텐츠의 경우 참조). [부록](#appendix)).
 

@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 확인하십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: 6ff99d32dd7a30c1104a79da4f223defe109f190
+source-git-commit: e8febe389ed805375d4b79570cd9a0e023e046f3
 workflow-type: tm+mt
-source-wordcount: '1754'
-ht-degree: 5%
+source-wordcount: '1777'
+ht-degree: 6%
 
 ---
 
@@ -19,6 +19,10 @@ ht-degree: 5%
       - 클라우드 서비스 {#cloud-release-notes}
          - [배포 지침](./release-info/deploy-xml-on-aemaacs.md)
          - 2024 릴리스 {#2024-releases}
+            - 2024.4.0 릴리스 {#2404-release}
+               - [새로운 기능](./release-info/whats-new-2024-04-0.md)
+               - [해결된 문제](./release-info/fixed-issues-2024-04-0.md)
+               - [업그레이드 지침](./release-info/upgrade-instructions-2024-04-0.md)
             - 2024.2.0 릴리스 {#2402-release}
                - [새로운 기능](./release-info/whats-new-2024-2-0.md)
                - [해결된 문제](./release-info/fixed-issues-2024-2-0.md)
@@ -115,7 +119,7 @@ ht-degree: 5%
                - [웹 편집기의 기타 기능](./user-guide/web-editor-other-features.md)
                - [웹 편집기 보기](./user-guide/web-editor-views.md)
                - [Schematron 파일 지원](./user-guide/support-schematron-file.md)
-               - [콘텐츠 작성에 대한 AI 기반 스마트 제안(베타)](./user-guide/authoring-ai-based-smart-suggestions.md)
+               - [콘텐츠를 작성할 AI 기반 스마트 제안](./user-guide/authoring-ai-based-smart-suggestions.md)
                - [웹 편집기에서 Markdown 문서 작성](./user-guide/web-editor-markdown-topic.md)
                - [콘텐츠에 인용 부호 추가](./user-guide/web-editor-apply-citations.md)
                - [데이터 소스의 데이터 사용](./user-guide/web-editor-content-snippet.md)
@@ -317,6 +321,7 @@ ht-degree: 5%
       - 사용자 지정 DITA-OT 및 특수화 작업 {#custom-dita-ot-spec-cs}
          - [사용자 지정 DITA-OT 및 DITA 특수화 사용](./cs-install-guide/dita-ot-specialization.md)
       - UUID 및 비 UUID 기반 파일 이름 구성 {#conf-non-uuid-filename-cs}
+         - [폴더에 대한 후 처리 구성](./cs-install-guide/conf-folder-post-processing.md)
          - [파일 이름 구성](./cs-install-guide/conf-file-names.md)
          - [UUID를 기반으로 자동 파일 이름 구성](./cs-install-guide/conf-auto-uuid-filenames.md)
          - [올바른 파일 이름 문자에 대한 Regx 구성](./cs-install-guide/conf-file-names-valid-regx.md)
@@ -441,7 +446,9 @@ ht-degree: 5%
 
          - [FMPS 및 안내서](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          - [마이크로서비스 아키텍처 및 성능](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
-         - [마이크로서비스 기반 게시 구성](./knowledge-base/publishing/configure-microservices.md)
+         - [JWT 인증을 사용하여 마이크로서비스 기반 게시 구성](./knowledge-base/publishing/configure-microservices.md)
+         - [OAuth 인증을 통해 마이크로서비스 기반 게시 구성](./knowledge-base/publishing/configure-microservices-imt-config.md)
+
          - [AEM 클라우드에서 벤치마크 게시](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
          - [사용자 지정 DITA-OT 설정](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
       - 워크플로 {#workflows}

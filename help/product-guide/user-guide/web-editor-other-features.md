@@ -4,9 +4,9 @@ description: AEM Guides에서 웹 편집기의 다른 기능을 살펴보십시�
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: caf00a014838751675aed11e5687a81fe7ad2e7c
 workflow-type: tm+mt
-source-wordcount: '2247'
+source-wordcount: '2532'
 ht-degree: 0%
 
 ---
@@ -159,15 +159,25 @@ ht-degree: 0%
 
 **MathML 방정식 삽입**
 
-- AEM Guides는 와 통합함으로써 MathML 방정식 삽입을 위한 기본 지원을 제공합니다 [MathType 웹](https://docs.wiris.com/en/mathtype/mathtype_web/intro) 응용 프로그램. MathML 방정식을 삽입하려면 **요소 삽입** 아이콘을 클릭하고 mathml을 입력합니다. 목록에서 mathml 요소를 선택하면 MathML 삽입 대화 상자가 표시됩니다.
+- Experience Manager 안내서는 와 통합함으로써 MathML 방정식 삽입을 위한 기본 지원을 제공합니다. [MathType 웹](https://docs.wiris.com/en/mathtype/mathtype_web/intro) 응용 프로그램. MathML 방정식을 삽입하려면 **요소 삽입** 아이콘을 클릭하고 mathml을 입력합니다. 목록에서 Mathml 요소를 선택하면 **MathML 삽입** 대화 상자가 표시됩니다.
 
-![](images/insert-mathml-equation.png){width="550" align="left"}
+![mathml 편집기에 mathml 방정식 삽입](images/insert-mathml-equation.png){width="550" align="left"}
 
-MathML 수식 도구를 사용하여 수식을 만들고 삽입을 클릭하여 문서에 추가합니다. 방정식은 아래와 같이 밝은 회색 배경에 삽입됩니다.
+MathML 방정식 도구를 사용하여 방정식을 만들고 **삽입** 문서에 추가합니다. 방정식은 아래와 같이 밝은 회색 배경에 삽입됩니다.
 
-![](images/sample-mathml-equation.PNG){width="400" align="left"}
+![표본 행렬 방정식](images/sample-mathml-equation.PNG){width="400" align="left"}
 
 언제든지 기존 방정식을 마우스 오른쪽 버튼으로 클릭하고 를 선택하여 방정식을 업데이트할 수 있습니다 **MathML 편집** 컨텍스트 메뉴 아래의 제품에서 사용할 수 있습니다.
+
+- **MathML 편집기에서 방정식 유효성 검사**
+
+  Experience Manager 안내서는 방정식이 들어 있는 주제를 저장할 때 MathML 방정식의 유효성을 검사합니다.
+MathML 편집기를 사용하여 방정식을 삽입하면 구문 문제가 있는 경우 Experience Manager 안내서에서 방정식을 빨간색으로 강조 표시합니다. 삽입하기 전에 수정할 수 있습니다. 변경하지 않고 을(를) 선택하는 경우 **삽입**&#x200B;에 경고가 표시됩니다.
+
+  ![mathml 방정식 유효성 검사](images/validate-mathml-equation.png){width="400" align="left"}
+
+  구문 오류가 포함된 MathML 방정식을 삽입하면 주제를 저장하려고 할 때 유효성 검사 오류가 발생합니다.
+
 
 **각주 삽입**
 
@@ -203,11 +213,30 @@ MathML 수식 도구를 사용하여 수식을 만들고 삽입을 클릭하여 
 
 - 요소의 래핑을 해제하면 선택한 텍스트에서 요소 태그를 제거하고 상위 요소와 병합할 수 있습니다. 예를 들어 `p` 다음 내에 있는 요소 `note` 요소, 다음을 unwrap할 수 있습니다 `p` 요소를 사용하여 내에서 직접 텍스트 병합 `note` 요소를 생성하지 않습니다. 다음 **요소 래핑 해제** 옵션은 항목 이동 경로의 컨텍스트 메뉴에서 사용할 수 있습니다. 요소의 래핑을 해제하려면 요소를 마우스 오른쪽 단추로 클릭하여 컨텍스트 메뉴를 연 다음 를 선택합니다 **요소 래핑 해제** 요소를 제거하고 요소의 텍스트를 상위 요소와 병합합니다.
 
+**DITA 요소에 대한 공백 처리**
+
+- XML에서 공백에는 공백, 탭, 캐리지 리턴 및 빈 줄이 포함됩니다. Experience Manager 안내선은 여러 개의 연속된 공백을 한 개의 공백으로 변환합니다. 이렇게 하면 웹 편집기의 WYSIWYG 보기를 유지할 수 있습니다.
+
+  >[!NOTE]
+  >
+  >DITA 규칙에 따라 공백을 유지해야 하는 일부 요소에서는 연속된 여러 공백이 유지됩니다. 예를 들어, `<pre>` 및 `<codeblock>` 요소.
+
+
 **줄 바꿈 및 들여쓰기 유지**
 
 - 줄 바꿈과 공백이 포함된 DITA 요소는 작성자, 소스 또는 미리보기 모드와 최종 게시된 출력에서 해당 정의에 따라 지원되고 렌더링됩니다. 다음 스크린샷은 내의 콘텐츠를 보여 줍니다. `msgblock` 줄 바꿈과 공백 \(들여쓰기\)이 유지된 요소:
 
 ![](images/new-line-support_cs.png){width="500" align="left"}
+
+
+
+**웹 편집기에서 줄바꿈하지 않는 공백 처리**
+
+- 를 사용하여 문서에 줄바꿈하지 않는 공백을 삽입할 수 있습니다 **특수 문자 삽입**  ![특수 문자 삽입 아이콘](images/insert-special-chars-icon.svg) 아이콘 또는 **대체** + **공간** 바로 가기 키.  이러한 줄바꿈하지 않는 공백은 웹 편집기에서 항목을 편집하는 동안 표시기로 표시됩니다. 를 사용하여 줄바꿈하지 않는 공백 표시를 끌 수 있습니다. **작성자 모드에서 줄바꿈하지 않는 공백 표시기 표시** 옵션에서 **모양** 의 탭 **사용자 환경 설정** ![사용자 환경 설정 아이콘](images/user_preference_editor_icon.svg)..
+
+- 외부 소스에서 줄바꿈 없는 공백이 포함된 컨텐츠를 복사하여 **작성자** 보기에서 줄바꿈하지 않는 공백은 공백으로 변환됩니다.
+그러나 의 줄바꿈 없는 공백이 있는 콘텐츠를 복사하여 붙여넣으면 **작성자** 보기, 보존되어 있습니다.
+
 
 **요소 ID 자동 생성**
 

@@ -1,9 +1,10 @@
 ---
 title: 작성을 위한 스마트 제안 구성
 description: 작성을 위한 스마트 제안을 구성하는 방법 알아보기
-source-git-commit: 1cdad275651b78d794ebc3f4ad9ead266ebeb0bd
+exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
+source-git-commit: b2042431e96f2cbd90eea9c8cfcdb3e7033e26bb
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '745'
 ht-degree: 1%
 
 ---
@@ -15,6 +16,11 @@ ht-degree: 1%
 ## Adobe Developer 콘솔에서 IMS 구성 만들기
 
 Adobe Developer 콘솔에서 IMS 구성을 만들려면 다음 단계를 수행하십시오.
+
+>[!NOTE]
+>
+>마이크로 서비스 기반 게시를 구성하기 위해 OAuth 프로젝트를 이미 만든 경우 다음 단계를 건너뛰고 프로젝트를 만들 수 있습니다.
+
 1. 시작 [Adobe Developer 콘솔](https://developer.adobe.com/console).
 1. Developer Console에 로그인하면 **홈** 화면. 다음 **홈** 화면은 프로젝트 및 다운로드에 대한 위쪽 탐색 링크를 포함하여 정보와 빠른 링크를 쉽게 찾을 수 있는 곳입니다.
 1. 새 빈 프로젝트를 만들려면  **새 프로젝트 만들기** 다음에서  **빠른 시작** 링크.
@@ -38,9 +44,20 @@ Adobe Developer 콘솔에서 IMS 구성을 만들려면 다음 단계를 수행�
    ![연결된 자격 증명](assets/conf-ss-connected-credentials.png) {width="800" align="left"}
 
    *자격 증명 세부 정보를 보려면 프로젝트에 연결하십시오.*
-1. CLIENT_ID 및 CLIENT_SECRET 키를 복사합니다.
 
-이제 OAuth 인증 세부 사항을 구성했습니다. 다음 섹션에서 이러한 두 키를 필요로 하므로 이 두 키를 가까이에 두십시오.
+1. (으)로 돌아가기 **프로젝트** 탭하고 선택 **프로젝트 개요** 왼쪽이요
+
+   <img src="assets/project-overview.png" alt="프로젝트 개요" width="500">
+
+   *새 프로젝트를 시작합니다.*
+
+1. 다음을 클릭합니다. **다운로드** 서비스 JSON을 다운로드하려면 맨 위에 있는 버튼을 클릭합니다.
+
+   <img src="assets/download-json.png" alt="json 다운로드" width="500">
+
+   *JSON 서비스 세부 정보를 다운로드합니다.*
+
+OAuth 인증 세부 사항을 구성하고 JSON 서비스 세부 사항을 다운로드했습니다. 다음 섹션에서 이 파일을 필요로 하므로 이 파일을 가까이에 두십시오.
 
 ### 환경에 IMS 구성 추가
 
@@ -48,11 +65,14 @@ Adobe Developer 콘솔에서 IMS 구성을 만들려면 다음 단계를 수행�
 
 1. Experience Manager을 열고 구성할 환경이 포함된 프로그램을 선택합니다.
 1. 다음으로 전환 **환경** 탭.
-1. 구성할 환경 이름을 선택합니다. 환경 정보 페이지로 이동합니다.
+1. 구성할 환경 이름을 선택합니다. 다음으로 이동해야 합니다. **환경 정보** 페이지를 가리키도록 업데이트하는 중입니다.
 1. 다음으로 전환 **구성** 탭.
-1. 다음 스크린샷과 같이 CLIENT_ID 및 CLIENT_SECRET 키를 추가합니다. 아래에 강조 표시된 것과 동일한 이름 및 구성을 사용하고 있는지 확인하십시오.
-   ![환경 구성](assets/conf-ss-environment.png) {width="800" align="left"}
-   *환경 구성 세부 정보를 추가합니다.*
+1. SERVICE_ACCOUNT_DETAILS JSON 필드를 업데이트합니다. 다음 스크린샷과 동일한 이름과 구성을 사용하고 있는지 확인합니다.
+
+![ims 서비스 계정 구성](assets/ims-service-account-config.png){width="800" align="left"}
+
+
+*환경 구성 세부 정보를 추가합니다.*
 
 
 
@@ -61,7 +81,7 @@ Adobe Developer 콘솔에서 IMS 구성을 만들려면 다음 단계를 수행�
 
 1. Cloud Manager Git 프로젝트 코드에서 아래에 주어진 두 개의 파일을 추가합니다(파일 콘텐츠의 경우 보기) [부록](#appendix)).
 
-   * `com.adobe.fmdita.ims.service.ImsOauthUserAccountHeadersImpl.cfg.json`
+   * `com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
    * `com.adobe.fmdita.smartsuggest.service.SmartSuggestConfigurationConsumer.cfg.json`
 1. 새로 추가된 파일에 다음이 적용되는지 확인합니다. `filter.xml`.
 1. Git 변경 사항을 커밋하고 푸시합니다.
@@ -74,15 +94,13 @@ Adobe Developer 콘솔에서 IMS 구성을 만들려면 다음 단계를 수행�
 ## 부록 {#appendix}
 
 **파일**:
-`com.adobe.fmdita.ims.service.ImsOauthUserAccountHeadersImpl.cfg.json`
+`com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
 
 **콘텐츠**:
 
 ```
 {
-  "client.id": "$[secret:CLIENT_ID]",
-  "client.secret": "$[secret:CLIENT_SECRET]",
-  "ims.url": "https://ims-na1.adobelogin.com"
+ "service.account.details": "$[secret:SERVICE_ACCOUNT_DETAILS]",
 }
 ```
 
