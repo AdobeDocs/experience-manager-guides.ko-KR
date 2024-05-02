@@ -1,9 +1,10 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides, 2024.04.0 릴리스의 업그레이드 지침 및 해결된 문제
 description: 호환성 매트릭스와 Adobe Experience Manager Guides as a Cloud Service의 2024.04.0 릴리스로 업그레이드하는 방법에 대해 알아보십시오.
-source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
+exl-id: deca46e5-12cc-497f-84af-61ee02da3d65
+source-git-commit: 989f1628adf417167525a068845203380573b077
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '916'
 ht-degree: 0%
 
 ---
@@ -45,6 +46,12 @@ ht-degree: 0%
 ## 2024.04.0 릴리스로 업그레이드
 
 Experience Manager 가이드는 현재 (최신) 릴리스의 Experience Manager as a Cloud Service 업그레이드 시 자동으로 업그레이드됩니다.
+
+>[!NOTE]
+>
+> 현재(최신) 릴리스를 사용하기 시작하면 재정의된 구성을 최신 구성과 비교하여 최신 기능을 가져옵니다.
+>- ui_config.json (폴더 프로필에 설정되었을 수 있음)
+
 
 
 기존 릴리스에 대해 이전에 Experience Manager 안내서를 수행하지 않은 경우 as a Cloud Service으로 방문자에 대해 다음 단계를 수행하십시오.
@@ -130,4 +137,3 @@ Experience Manager 안내서에 [**사용자 정의 sling 재작성기**](../cs-
 코드베이스에 다른 사용자 지정 sling 재작성기가 있는 경우 `'order'` 값: 50보다 큼, Experience Manager Guides sling 재작성기 사용 `'order'` 50. 재정의하려면 50보다 큰 값이 필요합니다. 자세한 내용은 [출력 재작성 파이프라인](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
 
 이 업그레이드 동안 다음 이후 `'order'` 값이 1000에서 50으로 변경되면 기존 사용자 지정 재작성기를 와 병합해야 합니다 `fmdita-rewriter`.
-
