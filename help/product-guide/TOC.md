@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 확인하십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: e8febe389ed805375d4b79570cd9a0e023e046f3
+source-git-commit: ca1123005d1f36cba11b3f93a89de47006bfead4
 workflow-type: tm+mt
-source-wordcount: '1777'
+source-wordcount: '1783'
 ht-degree: 6%
 
 ---
@@ -404,8 +404,6 @@ ht-degree: 6%
       - [안내서의 콘텐츠 번역 - 2부](./knowledge-base/expert-sessions/translating-content-using-aem-guides-part2-feb2024.md)
    - 문서 {#kb-articles}
       - 작성 {#authoring}
-         - 보고서 {#reports}
-            - [DITA 콘텐츠에 대한 메타데이터 관리](./knowledge-base/kb-articles/authoring/reports/manage-metadata.md)
          - 웹 편집기 {#webeditor}
             - [AEM Guides의 콘텐츠 재사용 가능](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
             - 사용자 정의 {#customizing}
@@ -415,6 +413,9 @@ ht-degree: 6%
                - [파일 상황에 맞는 메뉴 사용자 지정](./knowledge-base/kb-articles/authoring/webeditor/customization/remove-delete-from-webeditor.md)
             - 도식 문자 {#schematron}
                - [스키마 유효성 검사](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
+         - 보고서 {#reports}
+            - [DITA 콘텐츠에 대한 메타데이터 관리](./knowledge-base/kb-articles/authoring/reports/manage-metadata.md)
+         - [사용자 지정 dita 유형에 대한 아이콘 정의](./knowledge-base/kb-articles/authoring/define-icon-for-custom-ditatypes.md)
       - Guides 확장 프레임워크 {#extention-framework}
          - Aem Guides 프레임워크 {#aem-guides-framework}
             - [기본 사용자 지정](./guides-ui-extensions/aem_guides_framework/basic-customisation.md)
