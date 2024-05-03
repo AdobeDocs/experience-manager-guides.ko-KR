@@ -1,19 +1,19 @@
 ---
 title: 사용자 지정 DITA 유형에 대한 구성 아이콘
 description: AEM의 다른 UI에 해당 아이콘을 표시하기 위해 사용자 지정 dita 유형의 아이콘을 정의하는 방법을 알아봅니다
-source-git-commit: 60d4aeec9841fdab8ff97d975fbbe4a640ccf9e8
+source-git-commit: de281989de21d8bf4ba771670d7cb871a089b1e1
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
 
-# 사용자 지정 dita(주제 또는 맵) 유형에 대한 아이콘 구성
+# 사용자 지정/특수 dita(주제 또는 맵) 유형에 대한 아이콘 구성
 
 
 ## 문제 설명
 
-AEM Guides에 사용된 사용자 지정 스키마를 사용하여 사용자 지정 주제 또는 맵 유형을 만들 수 있으며 이를 통해 웹 편집기 또는 Assets UI에 사용자 지정 주제/맵이 표시되지 않음 아이콘을 볼 수 있습니다. 참조하려면 아래 스크린샷 을 참조하십시오
+AEM Guides에 사용된 사용자 지정 스키마를 사용하여 사용자 지정 주제 또는 맵 유형을 만들 수 있으며 이를 통해 웹 편집기 또는 Assets UI에 사용자 지정 주제/맵 유형이 표시되지 않을 수 있습니다. 참조하려면 아래 스크린샷 을 참조하십시오
 
 ![참조용 스크린샷](../assets/authoring/custom-ditatype-icon-notshown.png)
 
