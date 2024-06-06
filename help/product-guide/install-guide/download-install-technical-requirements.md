@@ -5,9 +5,9 @@ exl-id: d69245b0-bf20-43c1-b46e-b6c220319690
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: 60e905bf4027ee6c0390bf067b95517ab770ed7b
+source-git-commit: eb6d678a27f5a000b83dbc662f4f9ddbba68d8f9
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ AEM Guides 4.4를 설치하기 전에 시스템이 다음 기술 요구 사항�
 
 **Adobe Experience Manager**
 
-- 버전 6.5 서비스 팩 19, 18 또는 17
+- 버전 6.5 서비스 팩 20, 19, 18 또는 17
 
 >[!IMPORTANT]
 >
-> AEM Site 출력 생성의 경우 AEM 게시 인스턴스에 서비스 팩 19, 18 또는 17 이 있어야 합니다.
+> AEM Site 출력 생성의 경우 AEM 게시 인스턴스에 서비스 팩 20, 19, 18 또는 17 이 있어야 합니다.
 
 **운영 체제**
 
