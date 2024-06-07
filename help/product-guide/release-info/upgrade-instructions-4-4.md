@@ -2,10 +2,11 @@
 title: 릴리스 정보 | Adobe Experience Manager Guides 4.4.0 릴리스에 대한 업그레이드 지침
 description: Adobe Experience Manager Guides의 4.4.0 릴리스로 업그레이드하는 방법에 대해 알아봅니다
 role: Leader
-source-git-commit: 2209fd311ca1ad524db35633b8be22f6d303346d
+exl-id: 884178b6-7a72-471a-a6e3-238a543fb227
+source-git-commit: 47c06dcc30b34780cbd26ded1ca400a5056a59ba
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 1%
+source-wordcount: '461'
+ht-degree: 5%
 
 ---
 
@@ -13,7 +14,7 @@ ht-degree: 1%
 
 이 문서에서는 Adobe Experience Manager Guides 4.4.0 릴리스의 업그레이드 지침 및 호환성 매트릭스에 대해 설명합니다.
 
-새로운 기능 및 향상된 기능에 대한 자세한 내용은 [4.4.0 릴리스의 새로운 기능](../release-info/whats-new-4-4.md).
+새로운 기능 및 개선 사항에 대한 자세한 내용은 [4.4.0 릴리스의 새로운 기능](../release-info/whats-new-4-4.md)을 참조하십시오.
 
 이 릴리스에서 수정된 문제 목록은 다음을 참조하십시오. [4.4.0 릴리스의 문제가 해결되었습니다.](../release-info/fixed-issues-4-4.md).
 
@@ -27,10 +28,10 @@ ht-degree: 1%
 ### Adobe Experience Manager
 
 **4.4.0 비 UUID**
-버전 6.5 서비스 팩 19, 18, 17
+버전 6.5 서비스 팩 20, 19, 18 또는 17
 
 **4.4.0 UUID**
-버전 6.5 서비스 팩 19, 18, 17
+버전 6.5 서비스 팩 20, 19, 18 또는 17
 
 
 자세한 내용은 [기술 요구 사항](../install-guide/download-install-technical-requirements.md) 섹션에 자세히 설명되어 있습니다.
@@ -82,4 +83,3 @@ ht-degree: 1%
 >Experience Manager 가이드 버전을 업그레이드하기 전에 AEM 서비스 팩을 설치해야 합니다.
 
 자세한 내용은 다음을 참조하십시오 [온-프레미스 릴리스에 대한 업그레이드 지침](../install-guide/upgrade-xml-documentation.md) Experience Manager 가이드.
-

@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 확인하십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: 56fa545f1dd32bcc3ec533cffb14a364b934ba20
+source-git-commit: bcb61127f5f69ac39860a90eac2e1a56ecd1de31
 workflow-type: tm+mt
-source-wordcount: '1792'
+source-wordcount: '1815'
 ht-degree: 6%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 6%
       - 클라우드 서비스 {#cloud-release-notes}
          - [배포 지침](./release-info/deploy-xml-on-aemaacs.md)
          - 2024 릴리스 {#2024-releases}
+            - 2024.6.0 릴리스 {#2406-release}
+               - [새로운 기능](./release-info/whats-new-2024-06-0.md)
+               - [해결된 문제](./release-info/fixed-issues-2024-06-0.md)
+               - [업그레이드 지침](./release-info/upgrade-instructions-2024-06-0.md)
             - 2024.4.0 릴리스 {#2404-release}
                - [새로운 기능](./release-info/whats-new-2024-04-0.md)
                - [해결된 문제](./release-info/fixed-issues-2024-04-0.md)
@@ -121,6 +125,7 @@ ht-degree: 6%
                - [웹 편집기 보기](./user-guide/web-editor-views.md)
                - [Schematron 파일 지원](./user-guide/support-schematron-file.md)
                - [콘텐츠를 작성할 AI 기반 스마트 제안](./user-guide/authoring-ai-based-smart-suggestions.md)
+
                - [웹 편집기에서 Markdown 문서 작성](./user-guide/web-editor-markdown-topic.md)
                - [콘텐츠에 인용 부호 추가](./user-guide/web-editor-apply-citations.md)
                - [데이터 소스의 데이터 사용](./user-guide/web-editor-content-snippet.md)
@@ -191,7 +196,8 @@ ht-degree: 6%
          - [추가 특수 문자 구성](./web-editor/configure-additional-special-characters.md)
       - [게시 대시보드를 사용하여 게시 작업 관리](./user-guide/generate-output-publish-dashboard.md)
       - [기본 문제 해결](./user-guide/generate-output-basic-troubleshooting.md)
-      - [콘텐츠 조각에 게시](./user-guide/publish-content-fragment.md)
+      - [콘텐츠 조각 게시](./user-guide/publish-content-fragment.md)
+      - [경험 조각 게시](./user-guide/publish-experience-fragment.md)
       - 콘텐츠의 벌크 활성화 {#bulk-activation}
          - [게시된 콘텐츠의 벌크 활성화](./user-guide/conf-bulk-activation.md)
          - [벌크 활성화 맵 컬렉션 만들기](./user-guide/conf-bulk-activation-create-map-collection.md)
@@ -240,10 +246,11 @@ ht-degree: 6%
       - 사용자 지정 DITA-OT 및 특수화 작업 {#custom-dita-ot-spec}
          - [사용자 지정 DITA-OT 및 DITA 특수화 사용](./install-guide/dita-ot-specialization.md)
       - UUID 및 비 UUID 기반 파일 이름 구성 {#conf-non-uuid-filename}
-         - [파일 이름 구성](./install-guide/conf-file-names.md)
-         - [UUID를 기반으로 자동 파일 이름 구성](./install-guide/conf-auto-uuid-filenames.md)
-         - [올바른 파일 이름 문자에 대한 Regx 구성](./install-guide/conf-file-names-valid-regx.md)
-         - [AEM 사이트 출력에 대한 유효한 파일 이름 구성](./install-guide/conf-file-names-valid-regx-aem-site-output.md)
+      - [폴더에 대한 후 처리 구성](./install-guide/conf-folder-post-processing.md)
+      - [파일 이름 구성](./install-guide/conf-file-names.md)
+      - [UUID를 기반으로 자동 파일 이름 구성](./install-guide/conf-auto-uuid-filenames.md)
+      - [올바른 파일 이름 문자에 대한 Regx 구성](./install-guide/conf-file-names-valid-regx.md)
+      - [AEM 사이트 출력에 대한 유효한 파일 이름 구성](./install-guide/conf-file-names-valid-regx-aem-site-output.md)
       - 주제 및 맵 템플릿 작업 {#topic-map-template}
          - [주제 구성 및 템플릿 매핑](./install-guide/conf-template-tags.md)
          - [사용자 지정 DITA 주제 템플릿 구성](./install-guide/conf-template-tags-custom-dita-topic-template.md)
@@ -287,6 +294,7 @@ ht-degree: 6%
             - [페이지 레이아웃 디자인](./native-pdf/design-page-layout.md)
             - [PDF 출력의 변수](./native-pdf/native-pdf-variables.md)
             - [언어 변수 지원](./native-pdf/native-pdf-language-variables.md)
+            - [PDF 출력에 바코드 추가](./native-pdf/add-barcode.md)
             - 공통 컨텐츠 스타일 {#content-styles}
                - [일반적인 콘텐츠 스타일 사용](./native-pdf/stylesheet.md)
                - [사용자 정의 변경 막대 스타일 작업](./native-pdf/change-bar-style.md)
@@ -295,8 +303,7 @@ ht-degree: 6%
                - [JavaScript를 사용하여 콘텐츠 또는 스타일 작업](./native-pdf/use-javascript-content-style.md)
                - [각주에 스타일 적용](./native-pdf/footnote-number-style.md)
          - [기본 PDF 게시를 위한 JVM 플래그 구성](./native-pdf/configure-jvm-flags.md)
-         - [주제와 컨텐츠 조각 간의 매핑 만들기](./install-guide/conf-content-fragment-mapping.md)
-      - 사용자 정의 워크플로우를 사용하여 작업 {#custom-workflow}
+         - 사용자 정의 워크플로우를 사용하여 작업 {#custom-workflow}
          - [워크플로우 구성 및 사용자 정의](./install-guide/customize-workflows.md)
       - 번역 구성 작업 {#translate-config}
          - [콘텐츠 번역](./install-guide/translation.md)
@@ -365,6 +372,7 @@ ht-degree: 6%
          - [기본 PDF 게시](./cs-install-guide/native-pdf-publishing.md)
          - [기본 PDF 게시를 위한 노드 프로세스 구성](./native-pdf/configure-node-options.md)
          - [주제와 컨텐츠 조각 간의 매핑 만들기](./cs-install-guide/conf-content-fragment-mapping-cs.md)
+         - [주제와 경험 조각 간의 매핑 만들기](./cs-install-guide/conf-experience-fragment-mapping-cs.md)
       - 사용자 정의 워크플로우를 사용하여 작업 {#custom-workflow-cs}
          - [워크플로우 구성 및 사용자 정의](./cs-install-guide/customize-workflows.md)
       - 번역 구성 작업 {#translate-config-cs}

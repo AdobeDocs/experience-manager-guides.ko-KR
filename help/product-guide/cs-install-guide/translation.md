@@ -5,10 +5,10 @@ exl-id: 5af78233-343e-47ba-b60c-b7f4789e2406
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
+source-git-commit: bcb61127f5f69ac39860a90eac2e1a56ecd1de31
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 11%
+source-wordcount: '756'
+ht-degree: 9%
 
 ---
 
@@ -68,9 +68,26 @@ DITA 맵 대시보드에서 변환 탭을 숨기려면 다음 단계를 수행�
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `component.translation` | 부울: <br> - 사람 번역을 사용하는 경우 *사용 안 함* \( `false`\) **구성 요소 기반 번역 워크플로** 옵션을 선택합니다. <br> - 기계 번역을 사용하는 경우 *\( 활성화 `true`\)* 다음 **구성 요소 기반 번역 워크플로** 옵션을 선택합니다. |
 
+
+
+## 기존 번역 워크플로우 구성
+
+향상된 성능을 제공하는 최신 번역 워크플로를 사용하는 것이 좋습니다. 그러나 이전 번역 워크플로를 사용하려는 경우 이를 구성할 수 있습니다.
+
+에 제공된 지침 사용 [구성 재정의](download-install-additional-config-override.md#) 구성 파일을 만듭니다. 구성 파일에서 다음 (속성) 세부 정보를 제공하여 기존 번역 워크플로를 구성합니다.
+
+
+
+
+| PID | 속성 키 | 속성 값 |
+|---|------------|--------------|
+| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | 부울: <br> - 최신 번역 워크플로를 사용하는 경우 *사용 안 함* \( `false`\) **기존 번역 워크플로우 실행** 옵션을 선택합니다. 최신 번역 워크플로우는 기본적으로 활성화되어 있습니다. <br> - 이전 번역을 사용하는 경우 *\( 활성화 `true`\)* 다음 **기존 번역 워크플로우 실행** 옵션을 선택합니다. |
+
+
+
 >[!NOTE]
 >
-> 번역 커넥터를 사용하는 경우 다음에 설명된 대로 커넥터를 구성했는지 확인하십시오. *[번역 통합 프레임워크 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)* 주제(AEM 설명서).
+> 번역 커넥터를 사용하는 경우 다음에 설명된 대로 커넥터를 구성했는지 확인하십시오. *[번역 통합 프레임워크 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)* Adobe Experience Manager 설명서의 항목입니다.
 
 >[!IMPORTANT]
 >

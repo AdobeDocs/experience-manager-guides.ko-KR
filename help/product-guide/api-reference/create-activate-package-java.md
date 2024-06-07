@@ -5,9 +5,9 @@ exl-id: b801c2b3-445f-4aa7-a4f2-029563d7cb3a
 feature: Java-Based API Packages
 role: Developer
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 4ce78061ddb193d3c16241ff32fa87060c9c7bd6
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,10 @@ ht-degree: 0%
 >
 > 만들기 또는 활성화 프로세스 중에 발생한 오류는 `outputstream`.
 
+### 두 개의 매개 변수가 있는 예
+
 **구문**:
+
 
 ```JAVA
 public static void activate
@@ -54,9 +57,28 @@ public static void activate
 throws GuidesApiException
 ```
 
-**매개 변수**: 이름|유형|설명| ---- --------------- |`json`|문자열|빌드할 CRX 패키지를 결정하는 JSON 문자열. 다음 형식을 사용하여 JSON 문자열을 만듭니다. <br>- `activate`: 유형이 부울 \(`true`/`false`\). 작성자 인스턴스에서 만든 CRX 패키지를 게시 인스턴스에 복제할지 여부를 결정합니다. <br> - `rules`: JSON 배열 유형입니다. CRX 패키지를 빌드하기 위해 순차적으로 처리되는 JSON 규칙의 배열입니다. <br> - `rootPath`: 유형 문자열입니다. 노드/속성 쿼리가 실행되는 기본 경로입니다. 노드/속성 쿼리가 없으면 루트 경로와 루트 경로 아래에 있는 모든 노드가 CRX 패키지에 포함됩니다. <br> - `nodeQueries`: 유형 Regex 배열입니다. 루트 경로 아래에 특정 파일을 포함하는 데 사용되는 정규 표현식의 배열입니다. <br> - `propertyQueries`: JSON 배열 유형입니다. 쿼리가 실행된 후 각 JCR 노드에 있는 속성의 이름과 루트 경로에서 실행될 XPath 쿼리로 구성된 각 JSON 개체가 있는 JSON 개체의 배열입니다. 각 JCR 노드의 속성 값은 경로 또는 경로 배열이어야 합니다. 이 속성에 있는 경로는 CRX 패키지에 추가됩니다.| |`outputstream`|java.io.OutputStream|쿼리 실행, 파일 포함, CRX 패키지 만들기 또는 활성화와 같은 다양한 단계의 결과를 쓰는 데 사용됩니다. 만들기 또는 활성화 프로세스 중에 발생한 모든 오류는 `outputstream`. 이 기능은 디버깅에 유용합니다.| |`session`|문자열|활성화 권한이 있는 올바른 JCR 세션입니다.|
+### 세 번째 선택적 매개 변수 사용 예
 
-**예외**: throw ``java.io.IOException``.
+```JAVA
+public static void activate
+(
+  String json, 
+  OutputStream outputstream,
+  String activationTarget, 
+  Session session
+) 
+throws GuidesApiException
+```
+
+**매개 변수**: 이름|유형|설명| ---- --------------- |`json`|문자열|빌드할 CRX 패키지를 결정하는 JSON 문자열. 다음 형식을 사용하여 JSON 문자열을 만듭니다. <br>- `activate`: 유형이 부울 \(`true`/`false`\). 작성자 인스턴스에서 만든 CRX 패키지를 게시 인스턴스에 복제할지 여부를 결정합니다. <br> - `rules`: JSON 배열 유형입니다. CRX 패키지를 빌드하기 위해 순차적으로 처리되는 JSON 규칙의 배열입니다. <br> - `rootPath`: 유형 문자열입니다. 노드/속성 쿼리가 실행되는 기본 경로입니다. 노드/속성 쿼리가 없으면 루트 경로와 루트 경로 아래에 있는 모든 노드가 CRX 패키지에 포함됩니다. <br> - `nodeQueries`: 유형 Regex 배열입니다. 루트 경로 아래에 특정 파일을 포함하는 데 사용되는 정규 표현식의 배열입니다. <br> - `propertyQueries`: JSON 배열 유형입니다. 쿼리가 실행된 후 각 JCR 노드에 있는 속성의 이름과 루트 경로에서 실행될 XPath 쿼리로 구성된 각 JSON 개체가 있는 JSON 개체의 배열입니다. 각 JCR 노드의 속성 값은 경로 또는 경로 배열이어야 합니다. 이 속성에 있는 경로는 CRX 패키지에 추가됩니다.| |`outputstream`|java.io.OutputStream|쿼리 실행, 파일 포함, CRX 패키지 만들기 또는 활성화와 같은 다양한 단계의 결과를 쓰는 데 사용됩니다. 만들기 또는 활성화 프로세스 중에 발생한 모든 오류는 `outputstream`. 이 기능은 디버깅에 유용합니다.| |`session`|문자열|활성화 권한이 있는 올바른 JCR 세션입니다.| |`activationTarget`|문자열|(*선택 사항*) `preview` 또는 `publish` Cloud Service 및 `publish` 온프레미스 소프트웨어용 <br> - Cloud Service의 경우 매개 변수에 잘못된 값이 포함되어 있으면 패키지 활성화에 실패합니다. <br> - On-Premise 소프트웨어의 경우 매개 변수에 잘못된 값이 포함되어 있으면 오류가 기록되고 기본값을 사용하여 게시가 수행됩니다. `publish`. |
+
+**예외**:
+
+Throws `java.io.IOException` 및 `java.io.IllegalArgumentException`
+
+
+선택적 매개 변수를 정의하지 않으면 `activationTarget`, Cloud Service 및 온-프레미스 소프트웨어 모두에 대한 기본 게시 에이전트를 사용하여 활성화됩니다.
+
 
 **예**: 다음 예는 JSON 쿼리를 작성하는 방법을 보여 줍니다.
 

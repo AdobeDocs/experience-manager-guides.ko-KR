@@ -4,9 +4,9 @@ description: 기본 PDF 게시를 사용하고, PDF 출력 사전 설정을 만�
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
 feature: Publishing, Web Editor, Native PDF Output
 role: User
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: e78749b1d5b4ba944cbca69ba65c6d28355b2c34
 workflow-type: tm+mt
-source-wordcount: '3293'
+source-wordcount: '3362'
 ht-degree: 0%
 
 ---
@@ -212,3 +212,10 @@ PDF 출력 사전 설정을 만들거나 구성하려면 다음 작업을 수행
 
 AEM Guides는 언어 변수에 대한 지원도 제공합니다. 선택 **언어 변수** <img src="./assets/language-variables.svg" width="25">  왼쪽 패널에서 PDF 출력의 Note, Caution 및 Warning과 같은 기본 제공 레이블이나 정적 텍스트의 지역화된 버전을 정의할 수 있습니다. 자세한 내용은 [언어 변수 지원](../native-pdf/native-pdf-language-variables.md).
 
+
+
+### Markdown 문서 지원
+
+Experience Manager 안내서에서는 Markdown 문서에 대한 지원도 제공합니다.  Markdown 파일은 작성하기가 쉽고 다양한 서식 옵션을 제공합니다. 방법 알아보기 [웹 편집기에서 Markdown 문서 작성](../user-guide/web-editor-markdown-topic.md).
+
+DITA 맵에 Markdown 주제를 추가하고 기본 PDF 출력 사전 설정을 사용하여 PDF 출력을 생성할 수 있습니다.  또는 을 구성하는 방법에 대해 알아봅니다. [PDF 출력 사전 설정 만들기](#create-a-pdf-output-preset-create-output-preset).

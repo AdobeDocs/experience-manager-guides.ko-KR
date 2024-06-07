@@ -5,7 +5,7 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: 1b25f1df67fa2442ab79830dc2ac5a6eabd0394c
+source-git-commit: 3bdc3c6370bbad67f9c31f538a49bee105fec0f9
 workflow-type: tm+mt
 source-wordcount: '4285'
 ht-degree: 0%
@@ -442,6 +442,57 @@ AI 기반 스마트 제안을 구성하고 작성자가 기존 콘텐츠를 재�
    > 파일을 저장하면 마지막으로 인덱싱된 상태 세부 정보가 맨 위에 표시됩니다.
 
 보기 및 추가 방법에 대해 자세히 알아보기 [AI 기반 스마트 제안](../user-guide/authoring-ai-based-smart-suggestions.md) 을 클릭하여 웹 편집기에서 작성하는 동안 컨텐츠 참조를 추가합니다.
+
+
+
+
+<!--## Configure AI-powered Guides Assistant in the Web Editor {#conf-ai-guides-assistant}
+
+For ![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service.
+
+You can configure the AI-powered **Guides Assistant** to help the authors ask questions and easily find the required content from the [ Experience Manager Guides Documentation](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
+
+The **XML Editor Configuration** tab allows you to configure the default questions of the **Guides Assistant panel** in the Web Editor.
+
+>[!NOTE]
+>
+>You can configure up to 10 default questions. 
+
+Perform the following steps to configure the default questions:
+
+1. Log into Adobe Experience Manager as an administrator or user with administrative rights on a folder-level profile.
+1. Select the **Adobe Experience Manager** link at the top and choose **Tools**.
+1. Select **Guides** from the list of tools and select the **Folder Profiles** tile.
+1. Select the profile tile that you want to configure.
+
+    >[!NOTE]
+    >
+    >You can configure default questions for the **Guides assistant panel** to the global or a folder-level profile.
+
+1.  Select the **XML Editor Configuration** tab. 
+
+1. Click the **Edit** icon on the top.
+1.  In the **XML Editor UI configuration** section, select the **Download** icon to download the `ui_config.json` file on your local system.
+1.  In the `ui_config.json` file, add the sample questions.
+
+    **Example of sample questions**:
+
+    ```json
+    "assistantSampleQuestions": [
+    "How to create a new topic",
+    "How to create a new map",
+    "What is a baseline" ]
+    ```
+
+1. Save the file and upload it.
+
+    >[!NOTE]
+    >
+    > The default questions appear in the **Guides assistant** panel after you save the file. 
+
+
+Learn more about using the [AI-powered Guides assistant](../user-guide/ai-based-guides-assistant.md) to find the required content from the Experience Manager Guides documentation. -->
+
 
 ## XML Web Editor 구성 및 사용자 지정 {#id2065G300O5Z}
 

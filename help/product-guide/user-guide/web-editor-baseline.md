@@ -4,9 +4,9 @@ description: AEM Guides의 웹 편집기에서 기준선을 만들고 관리합�
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: c4c5fa16daf3f713f85783152094c8af59eb4f8c
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1699'
 ht-degree: 0%
 
 ---
@@ -60,8 +60,12 @@ AEM Guides는 웹 편집기 내에 통합된 기준선 기능을 제공하여 �
 
    ![기준선 만들기](images/dynamic-baseline.png){width="300" align="left"}
 
-   - **레이블 선택**: 주제에 레이블이 지정된 경우 다음을 사용합니다. **레이블 선택** 드롭다운을 클릭하여 다음 중에서 선택 [나열된 레이블](#labels-list).
+   - **레이블**: 주제에 레이블이 지정된 경우 다음을 사용합니다. **레이블** 드롭다운을 클릭하여 다음 중에서 선택 [나열된 레이블](#labels-list).
 먼저 선택한 레이블은 나중에 선택한 레이블보다 우선 순위가 높습니다.
+
+     >[!NOTE]
+     >
+     >레이블을 가져오는 동안 로더가 표시되고 드롭다운이 비활성화됩니다.
 
      동적 기준선의 경우, 맵의 저장된 최신 버전 및 현재 작업 카피에서 레이블을 가져옵니다. 예를 들어 레이블을 만든 경우   `Label Release A.1.0 ` 및 `Label Release A.1.1` 항목 A 및 레이블의 버전 1.0 및 1.1의 경우 `Label Release B.1.0` 및 `Label Release B.1.1` 항목 B 버전 1.0 및 1.1의 경우 . 그런 다음 항목 A를 추가하여 버전 1.0에서 A를 매핑하고 항목 B를 추가하여 1.0*에서 A를 매핑할 수 있습니다(작업 복사본). 이 경우 다음을 볼 수 있습니다  `Label Release A.1.0 `, `Label Release A.1.1`, `Label Release B.1.0`, 및 `Label Release B.1.1` 동적 기준선 레이블의 드롭다운에서 을 수행합니다.
 

@@ -5,9 +5,9 @@ exl-id: 42ba7347-d81d-45d9-9627-8d164e4f9539
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: f98aa2b4b196ee0fd46542317894163b64b8a486
 workflow-type: tm+mt
-source-wordcount: '3525'
+source-wordcount: '3778'
 ht-degree: 0%
 
 ---
@@ -374,3 +374,63 @@ h1 스타일에 대한 속성은 해당 미리 보기와 함께 [속성] 패널�
 다음 스크린샷에는 &quot;기본 컨트롤&quot; 텍스트에 적용되는 wintitle 스타일이 표시됩니다.
 
 <img src="./assets/other-style-wintitle.png" width="500">
+
+
+## 단일 페이지 레이아웃에 대해 고유한 스타일 정의
+
+기본 PDF 출력을 게시하는 동안 모든 스타일이 최종 PDF에서 병합되므로 CSS 내의 각 템플릿에 고유한 스타일을 지정해야 합니다.
+고유한 CSS 스타일 이름을 사용하여 특정 PDF과 스타일을 페이지의 다른 섹션에 적용합니다. 예를 들어 다음 CSS를 사용하여 표지에 대해 원하는 글꼴을 정의할 수 있습니다.
+
+```css
+...
+[data-page-layout="Front"] * { 
+    font-size: 18pt; 
+}  
+...
+```
+
+
+나머지 문서는에서 본문 태그에 지정한 기본 글꼴을 사용합니다 `content.css` 또는 `layout.css`. 이렇게 하면 스타일이 병합되지 않고 각 구역이 의도한 디자인을 유지할 수 있습니다. 다른 글꼴 크기를 원하는 경우 특정 스타일을 만듭니다.
+
+예를 들어 다음 스타일을 정의하여 전면 표지 단락에 글꼴 크기 18과 후면 표지 단락에 글꼴 크기 11pt를 정의할 수 있습니다.
+
+```css
+[data-page-layout="Front"] p { //For all paragraphs inside Front page
+  font-size: 18pt; 
+} 
+  
+[data-page-layout="Back"] p { //For all paragraphs inside Back page
+  font-size: 11pt; 
+}
+```
+
+>[!NOTE]
+>
+앞의 예제에서 &quot;Front&quot; 및 &quot;Back&quot;은 템플릿에서 사용할 수 있는 레이아웃 파일의 샘플 이름입니다.
+
+
+## 접두사 및 접미사 콘텐츠에 대한 사용자 지정 CSS 스타일 정의
+
+사용자 지정 CSS 스타일을 정의하는 경우 기본 PDF 출력을 생성하는 동안 이 스타일을 먼저 고려합니다.
+다음 기본 CSS 스타일은 접두사와 접미사 콘텐츠를 모두 숨깁니다.
+
+```css
+...
+.prefix-content, .suffix-content{
+    display: none;
+} 
+...
+```
+
+다음 접두사를 허용하려면 `<note>` 요소에 다음 CSS를 포함합니다. `content.css`:
+
+```css
+...
+.prefix-content{
+    display: inline !important;
+}
+...
+```
+
+다음 `<note>` 요소가 추가 생성 `<span>` type 속성에 해당하는 클래스 prefix-content 이 CSS 규칙은 `.prefix-content` 클래스 `<note>` type 속성이 있는 요소를 사용하여 필요에 따라 접두사 컨텐츠의 스타일을 지정하거나 조작할 수 있습니다.
+

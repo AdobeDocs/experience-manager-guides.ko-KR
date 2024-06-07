@@ -4,7 +4,7 @@ description: AEM Guides에서 웹 편집기의 다른 기능을 살펴보십시�
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: caf00a014838751675aed11e5687a81fe7ad2e7c
+source-git-commit: d30f05ff614693beca5d9cf7f206a36f3dadfc8b
 workflow-type: tm+mt
 source-wordcount: '2532'
 ht-degree: 0%
@@ -182,6 +182,7 @@ MathML 편집기를 사용하여 방정식을 삽입하면 구문 문제가 있�
 **각주 삽입**
 
 - 를 사용하여 콘텐츠에 각주 삽입 `fn` 요소를 생성하지 않습니다. 작성 모드에서 각주 값은 콘텐츠와 함께 인라인으로 표시됩니다. 그러나 [미리 보기] 모드를 전환하거나 문서를 게시하면 항목의 끝에 각주가 나타납니다.
+
 
 **요소 이름 바꾸기 또는 바꾸기**
 

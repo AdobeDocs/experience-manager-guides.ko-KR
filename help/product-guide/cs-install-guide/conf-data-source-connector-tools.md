@@ -5,9 +5,9 @@ exl-id: d7cd412b-89ea-43a5-97b3-09944863bbee
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: acd16f23a7b3023a62b3c15007b03d4f3b2cfb4f
+source-git-commit: 873542cb2e8e1b7e80e0ecc113cae4f603b18592
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '902'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,11 @@ ht-degree: 0%
 
 Experience Manager 안내서에는 **데이터 소스** 데이터 소스에 대한 기본 제공 커넥터를 구성하는 데 도움이 되는 도구입니다. JIRA, SQL(MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce, Elasticsearch 및 일반 REST 클라이언트 커넥터를 설정할 수 있습니다.
 
-Experience Manager 가이드는 이러한 기본 커넥터 외에도 Salsify, Akeneo 및 Microsoft Azure ADO(DevOps Boards) 데이터 소스에 대한 커넥터를 제공합니다. 다운로드하여 설치할 수 있습니다. 그런 다음 사용자는 이러한 커넥터를 구성할 수 있습니다.
+
+Experience Manager 가이드는 이러한 기본 커넥터 외에도 Salsify, Akeneo 및 Microsoft Azure ADO(DevOps Boards) 데이터 소스에 대한 커넥터를 제공합니다. 다음에서 이러한 오픈 소스 커넥터를 다운로드하여 설치할 수 있습니다. [Maven Central 저장소](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides). 그런 다음 사용자는 이러한 커넥터를 구성할 수 있습니다.
+방법 알아보기 [오픈 소스 커넥터 설치](#install-open-source-connector).
+
+
 
 파일 커넥터를 사용하여 JSON 데이터 파일에 연결할 수도 있습니다. 컴퓨터에서 JSON 파일을 업로드하거나 Adobe Experience Manager 자산에서 해당 파일을 찾아봅니다. 그런 다음 생성기를 사용하여 콘텐츠 조각 또는 주제를 만듭니다.
 
@@ -78,6 +82,39 @@ Experience Manager 가이드는 이러한 기본 커넥터 외에도 Salsify, Ak
 1. Salsify, Akeneo 및 Microsoft ADO와 같은 데이터 소스에 사용할 수 있는 기본 리소스를 사용할 수도 있습니다. 데이터 소스에 대해 구성하지 않으려는 리소스에 대해 옵션 OFF를 전환합니다.
 
 이렇게 하면 단일 콘텐츠 조각 또는 주제의 특정 데이터 소스에 대한 리소스에서 데이터를 빠르게 가져올 수 있습니다.
+
+
+
+## 오픈 소스 커넥터 설치{#install-open-source-connector}
+
+에 있는 종속성을 게시하려면 [Maven Central 저장소](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides) Cloud Service에 오픈 소스 커넥터에 대한 종속성을 포함하고 포함해야 합니다.
+
+1. 다음에 종속성 추가 `all/pom.xml`  Cloud Manager Git 프로젝트 코드. 예를 들어 Microsoft Azure DevOps Boards 데이터 소스 커넥터에 대해 다음 종속성을 추가할 수 있습니다.
+
+
+   ```
+   <dependency>
+       <groupId>com.adobe.aem.addon.guides</groupId>
+       <artifactId>konnect-azure-devops</artifactId>
+       <version>1.0.0</version>
+       <type>jar</type>
+   </dependency> 
+   ```
+
+1. 추가된 종속성을 포함합니다.
+
+       &quot;
+       &lt;embedded>
+       &lt;groupid>com.adobe.aem.addon.guides&lt;/groupid>
+       &lt;artifactid>konnect-azure-devops&lt;/artifactid>
+       &lt;type>단지&lt;/type>
+       &lt;target>/apps/aemdoxonaemcsstageprogram-vendor-packages/content/install&lt;/target>
+       &lt;/embedded>
+       &quot;
+   
+1. 파이프라인을 실행하여 Cloud Service 변경 사항을 적용합니다.
+커넥터가 환경에 설치됩니다.
+
 
 ## 커넥터에 사용할 수 있는 기능
 

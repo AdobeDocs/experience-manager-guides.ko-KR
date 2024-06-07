@@ -5,9 +5,9 @@ exl-id: 00bc894a-031e-4d09-bd30-331399fedbc8
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 3bdc3c6370bbad67f9c31f538a49bee105fec0f9
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,7 @@ AEM Guides를 사용하면 기본 PDF 출력 생성 기능을 사용하여 개�
 * [페이지 레이아웃 디자인](../native-pdf/design-page-layout.md)
 * [언어 변수 지원](../native-pdf/native-pdf-language-variables.md)
 * [PDF 출력의 변수](../native-pdf/native-pdf-variables.md)
+* [PDF 출력에 바코드 추가](../native-pdf/add-barcode.md)
 * 공통 컨텐츠 스타일 {#content-styles}
    * [일반적인 콘텐츠 스타일 사용](../native-pdf/stylesheet.md)
    * [사용자 정의 변경 막대 스타일 작업](../native-pdf/change-bar-style.md)

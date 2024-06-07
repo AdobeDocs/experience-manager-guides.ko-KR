@@ -5,9 +5,9 @@ exl-id: 90686f77-a769-44bc-90eb-116cf9d0341e
 feature: Rest API Packages
 role: Developer
 level: Experienced
-source-git-commit: 32da48d82b1267bb220424edf385035426293b66
+source-git-commit: b95a64ca2e8ebffebec3d8ff8704f76f7faceca2
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
@@ -40,9 +40,17 @@ curl -u <*username*>:<*password*> -H "Content-Type: application/json; charset=UT
 
 **유효값**
 
-`preview` 또는 `publish` Cloud Service 및 `publish` On-Premise 소프트웨어
+`preview` 또는 `publish` Cloud Service 및 `publish` On-premise Software
 
-매개 변수에 잘못된 값이 포함되어 있으면 패키지 활성화가 실패합니다. 다음 예제에서는 선택적 매개 변수와 함께 curl 명령을 사용하는 API 호출을 보여 줍니다.
+- Cloud Service의 경우 매개 변수에 잘못된 값이 포함되어 있으면 패키지 활성화가 실패합니다.
+
+- 온프레미스 소프트웨어의 경우, 매개 변수에 잘못된 값이 포함되어 있으면 오류가 기록되고 기본값 `publish`인 를 사용하여 게시가 수행됩니다.
+
+선택적 매개 변수를 `activationTarget`정의하지 않으면 Cloud Service 및 On-premise Software 모두에 대해 기본 게시 에이전트를 사용하여 활성화됩니다.
+
+
+
+다음 예제에서는 선택적 매개 변수와 함께 curl 명령을 사용하는 API 호출을 보여 줍니다.
 
 
     &#39;&#39;&#39;XML
