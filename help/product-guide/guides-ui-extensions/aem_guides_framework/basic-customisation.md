@@ -2,7 +2,8 @@
 title: 앱 사용자 지정
 description: 앱 사용자 지정
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 3e454c48-2168-41a5-bbab-05c8a5b5aeb1
+source-git-commit: 4f00d6b7ad45636618bafe92e643b3e288ec2643
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
@@ -18,20 +19,21 @@ ht-degree: 0%
 이 모델은 다양한 속성을 정의하고 해당 값을 저장합니다. 모델에 저장된 다양한 속성들의 값들은 구문을 사용하여 제어기로부터 액세스될 수 있다
 
 ```typescript
-this.model.attributeName
+this.getValue('attributeName')
 ```
 
 앱의 사용자 지정을 위해 새로 만든 모든 속성이 모델의 맵 아래에 추가됩니다.
 모델에서 새 속성을 설정하려면 컨트롤러에서 다음 구문을 사용합니다.
 
 ```typescript
-this.model.extraProps.set("key", value)
+// If a key is not already in model then it will be added to extraProps
+this.setValue('key', value)
 ```
 
 모델에 추가된 속성에 액세스하려면 다음 구문을 사용합니다.
 
 ```typescript
-const value = this.model.extraProps.get("key")
+const value = this.getValue("key")
 ```
 
 ## 보기
@@ -87,13 +89,13 @@ this.next('methodName', args)
 
 ```typescript
   controller: {
-    init: function () {
-      this.model.extraProps.set("buttonLabel", "Submit")
+    init: function (context) {
+      context.setValue("buttonLabel", "Submit")
     },
 
     switchButtonLabel(){
-        const buttonLabel = this.model.extraProps.get("buttonLabel") === "Submit"? "Cancel" : "Submit"
-        this.model.extraProps.set("buttonLabel", buttonLabel)
+        const buttonLabel = this.getValue("buttonLabel") === "Submit"? "Cancel" : "Submit"
+        this.setValue("buttonLabel", buttonLabel)
     }
   }
 ```

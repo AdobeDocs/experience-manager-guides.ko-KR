@@ -2,13 +2,13 @@
 title: 사용자 정의
 description: 리뷰 앱 사용자 정의
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 9f6a4e9f-fc13-40b5-a30f-151c94faff81
+source-git-commit: 4f00d6b7ad45636618bafe92e643b3e288ec2643
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%
 
 ---
-
 
 # 리뷰 앱 사용자 정의
 
@@ -28,10 +28,10 @@ ht-degree: 0%
 다음 구문을 사용하여 이 작업을 수행할 수 있습니다.
 
 ```typescript
- this.updateExtraProps(
-        {'commentRationale': 'This is an important sentence.',
-        'severity': 'CRITICAL'}
-      )
+  this.next('updateExtraProps', {
+    'commentRationale': 'This is an important sentence.',
+    'severity': 'CRITICAL'
+  })
 ```
 
 위의 코드 조각은 값의 업데이트 및 저장을 처리합니다. 뷰를 정의하여 저장된 값을 UI에 렌더링할 수 있습니다.
@@ -65,7 +65,7 @@ ExtraProp을 보내려고 하는데 `userInfo`: 새 댓글 또는 회신이 발�
 ```typescript
     onNewCommentEvent(args){
       const events = _.get(args, "events")
-      const currTopicIndex = tcx.model.getValue(tcx.model.KEYS.REVIEW_CURR_TOPIC) || this.model.currTopicIndex || "0"
+      const currTopicIndex = tcx.model.getValue(tcx.model.KEYS.REVIEW_CURR_TOPIC) || this.getValue('currTopicIndex') || "0"
       const event = _.get(_.get(events, currTopicIndex), '0')
       const newComment = _.get(args, 'newComment')
       const newReply = _.get(args, 'newReply')
@@ -88,7 +88,8 @@ ExtraProp을 보내려고 하는데 `userInfo`: 새 댓글 또는 회신이 발�
           'userEmail': userData?.email || '',
         }
         const data = {... event, extraProps}
-        this.sendExtraProps(
+        this.next(
+          'sendExtraProps',
           data
         )
       })
