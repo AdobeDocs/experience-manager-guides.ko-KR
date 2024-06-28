@@ -1,9 +1,10 @@
 ---
-title: AEM Guides에 대한 OAuth 인증을 통해 마이크로 서비스 기반 게시 구성 as a Cloud Service
-description: AEM Guides에 대한 OAuth 인증을 사용하여 마이크로서비스 기반 게시를 구성하는 방법에 대해 알아봅니다.
+title: AEM Guidesas a Cloud Service 에 대한 OAuth 인증을 통해 마이크로서비스 기반 게시 구성
+description: AEM Guides에 대한 OAuth 인증을 통해 마이크로서비스 기반 게시를 구성하는 방법에 대해 알아봅니다.
 feature: Microservice in AEM Guides
 role: User, Admin
-source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
+exl-id: db0c83c7-1ece-4010-b214-f8d806d26bc9
+source-git-commit: 6d935ce934890066de358c434717efeef2c997cb
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 0%
@@ -12,34 +13,34 @@ ht-degree: 0%
 
 # OAuth 인증을 통해 마이크로서비스 기반 게시 구성
 
-게시 마이크로서비스를 사용하면 Experience Manager 가이드에서 동시에 대규모 게시 워크로드를 실행하고 as a Cloud Service으로 업계 최고의 Adobe I/O Runtime 서버리스 플랫폼을 활용할 수 있습니다.
+게시 서비스를 사용하면 Experience Manager Guides as a Cloud Service 마이크로에서 동시에 게시 워크로드를 실행하고 업계 최고의 Adobe I/O Runtime 서버리스 플랫폼을 활용할 수 있습니다.
 
-각 게시 요청에 대해 Experience Manager 가이드는 사용자 요청에 따라 가로로 확장되는 별도의 컨테이너를 as a Cloud Service으로 실행합니다. 이렇게 하면 여러 게시 요청을 실행하고 대형 On-Premise Adobe Experience Manager 서버보다 더 나은 성능을 얻을 수 있는 기능을 제공합니다.
+각 게시 요청에 대해 Experience Manager Guidesas a Cloud Service 는 사용자 요청에 따라 가로로 확장되는 별도의 컨테이너를 실행합니다. 이렇게 하면 여러 게시 요청을 실행하고 대형 On-Premise Adobe Experience Manager 서버보다 더 나은 성능을 얻을 수 있는 기능을 제공합니다.
 
 >[!NOTE]
 >
-> Experience Manager 안내서의 마이크로서비스 기반 게시는 PDF(기본 및 DITA-OT 기반 모두), HTML 5, JSON 및 사용자 지정 유형의 출력 사전 설정을 지원합니다.
+> Experience Manager Guides의 마이크로서비스 기반 게시는 PDF(기본 및 DITA-OT 기반 모두), HTML 5, JSON 및 사용자 지정 유형의 출력 사전 설정을 지원합니다.
 
 클라우드 게시 서비스는 Adobe IMS OAuth 기반 인증을 통해 보호되므로 다음 단계를 수행하여 환경을 Adobe의 보안 토큰 기반 인증 워크플로와 통합하고 클라우드 기반의 확장 가능한 게시 솔루션을 사용하십시오.
 
 
-## Adobe Developer 콘솔에서 IMS 구성 만들기
+## Adobe Developer Console에서 IMS 구성 만들기
 
 **구성을 만드는 데 필요한 역할**: 시스템 관리자
 
-에서 IMS 구성을 만들려면 다음 단계를 수행하십시오 **Adobe Developer 콘솔**:
+에서 IMS 구성을 만들려면 다음 단계를 수행하십시오 **Adobe Developer Console**:
 
 >[!NOTE]
 >
 >작성을 위해 AI 기반 스마트 제안을 구성하는 OAuth 프로젝트를 이미 만든 경우 다음 단계를 건너뛰고 프로젝트를 만들 수 있습니다.
 
-1. 열기 **개발자 콘솔**: `https://developer.adobe.com/console`.
+1. 열기 **Developer Console**: `https://developer.adobe.com/console`.
 
 1. 다음으로 전환 **프로젝트** 맨 위에 있는 탭입니다.
 
    <img src="assets/projects-tab.png" alt="프로젝트 탭" width="500">
 
-   *다음 항목 선택&#x200B;**프로젝트**의 탭&#x200B;**Adobe Developer 콘솔***
+   *다음 항목 선택&#x200B;**프로젝트**의 탭&#x200B;**Adobe Developer Console***
 
 1. 새 빈 프로젝트를 만들려면 **빈 프로젝트** 다음에서 **새 프로젝트 만들기** 드롭다운입니다.
 
@@ -127,7 +128,7 @@ JWT(더 이상 사용되지 않음)를 사용하여 게시하기 위해 마이�
 >
 > 이미 마이크로서비스 기반 게시를 사용하고 있는 경우 다음 단계를 건너뜁니다.
 
-환경에 IMS 구성을 추가했으면 다음 단계를 수행하여 OSGi를 사용하여 이러한 속성을 Experience Manager 안내서와 연결합니다.
+환경에 IMS 구성을 추가했으면 다음 단계를 수행하여 OSGi를 사용하여 이러한 속성을 Experience Manager Guides과 연결합니다.
 
 1. Cloud Manager Git 프로젝트 코드에서 다음 두 개의 파일을 추가합니다(파일 내용의 경우 보기) [부록](#appendix)).
 
