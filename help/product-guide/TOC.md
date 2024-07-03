@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 확인하십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: 1ec647821129467ecbf3641fcee0360e37e91fc0
+source-git-commit: 05a21c8b18d5eb79447423d48e1d65b4d6b44242
 workflow-type: tm+mt
 source-wordcount: '1819'
 ht-degree: 6%
@@ -138,8 +138,8 @@ ht-degree: 6%
                - 문서 기반 게시 {#article-based-pub}
                   - [웹 편집기에서 문서 기반 게시](./user-guide/web-editor-article-publishing.md)
                   - [웹 편집기에서 출력 사전 설정 만들기](./user-guide/web-editor-article-publishing-presets.md)
-                  - [저장소 패널 또는 맵 보기 패널의 generate 출력](./user-guide/web-editor-article-publishing-output.md)
-                  - [빠른 Generate 패널을 사용하여 generate 및 출력 보기](./user-guide/web-editor-quick-generate-panel.md)
+                  - [저장소 패널 또는 맵 보기 패널에서 출력 생성](./user-guide/web-editor-article-publishing-output.md)
+                  - [빠른 생성 패널을 사용하여 출력 생성 및 보기](./user-guide/web-editor-quick-generate-panel.md)
                - [웹 편집기에서 문서 번역](./user-guide/translate-documents-web-editor.md)
                - [웹 편집기에서 기준선 만들기 및 관리](./user-guide/web-editor-baseline.md)
                - [문서 상태](./user-guide/web-editor-document-states.md)
@@ -197,7 +197,7 @@ ht-degree: 6%
       - [조건부 속성 프로파일링](./user-guide/generate-output-conditional-attribute-profiling.md)
       - [조건 사전 설정 사용](./user-guide/generate-output-use-condition-presets.md)
       - [기준선으로 작업](./user-guide/generate-output-use-baseline-for-publishing.md)
-      - [맵 콘솔의 DITA 맵에 대한 generate 출력](./user-guide/generate-output-for-a-dita-map.md)
+      - [맵 콘솔에서 DITA 맵에 대한 출력 생성](./user-guide/generate-output-for-a-dita-map.md)
       - [출력 생성을 위해 맵 컬렉션 사용](./user-guide/generate-output-use-map-collection-output-generation.md)
       - 기본 PDF 게시 기능 사용 {#web-editor}
          - [Publish PDF 출력](./web-editor/native-pdf-web-editor.md)
@@ -213,13 +213,13 @@ ht-degree: 6%
          - [벌크 활성화 맵 컬렉션 편집](./user-guide/conf-bulk-activation-edit-map-collection.md)
          - [벌크 활성화 맵 컬렉션 삭제](./user-guide/conf-bulk-activation-delete-map-collection.md)
    - FrameMaker 문서의 출력 생성 {#generate-fm-output}
-      - [FrameMaker 문서의 generate 출력](./user-guide/fm-output-generatation.md)
+      - [FrameMaker 문서의 출력 생성](./user-guide/fm-output-generatation.md)
       - 지원되는 사전 설정 {#fm-docs-generating-presets}
          - [FrameMaker 문서 생성을 위한 사전 설정](./user-guide/fm-output-understand-presets.md)
          - [PDF](./user-guide/fm-output-pdf-preset.md)
          - [HTML5](./user-guide/fm-output-html5-preset.md)
          - [EPUB](./user-guide/fm-output-epub-preset.md)
-      - [.book 또는 .fm 파일의 generate 출력](./user-guide/fm-output-generate.md)
+      - [.book 또는 .fm 파일의 출력 생성](./user-guide/fm-output-generate.md)
       - [출력 생성 작업의 상태 보기](./user-guide/fm-output-view-status.md)
    - AEM Guides의 보고서 {#reports-aem-guide}
       - [보고서 소개](./user-guide/reports-intro.md)
@@ -276,10 +276,10 @@ ht-degree: 6%
          - [왼쪽 패널에서 사용자 정의 패널 구성](./install-guide/configure-custom-panel.md)
          - [웹 편집기에서 파일 자동 저장 구성](./install-guide/auto-save-in-editor.md)
          - [파일 찾아보기 대화 상자에 대한 필터 구성](./install-guide/conf-custom-file-filters.md)
-         - [닫을 때 새 버전으로 저장하도록 prompt 구성](./install-guide/conf-save-as-new-version-close.md)
-         - [닫을 때 파일을 체크 인하도록 prompt 구성](./install-guide/conf-checkin-file-close.md)
+         - [닫을 때 새 버전으로 저장하라는 메시지 구성](./install-guide/conf-save-as-new-version-close.md)
+         - [닫을 때 파일을 체크 인하도록 프롬프트 구성](./install-guide/conf-checkin-file-close.md)
          - [허용되는 특수 문자 구성](./install-guide/conf-special-chars.md)
-         - [자동 generate 요소 ID](./install-guide/auto-generate-ids.md)
+         - [요소 ID 자동 생성](./install-guide/auto-generate-ids.md)
          - [AEM의 기본 사전 사용자 지정](./install-guide/customize-aem-custom-dictionary.md)
          - [텍스트 필터 구성](./install-guide/config-text-filters.md)
          - [쿼리에 대한 LimitReads 수를 구성합니다.](./install-guide/conf-query-limitreads.md)
@@ -358,10 +358,10 @@ ht-degree: 6%
          - [동일한 탭에서 DITA 주제 또는 맵 파일 열기](./cs-install-guide/open-dita-files-same-tab.md)
          - [왼쪽 패널에서 사용자 정의 패널 구성](./cs-install-guide/configure-custom-panel.md)
          - [웹 편집기에서 파일 자동 저장 구성](./cs-install-guide/auto-save-in-editor.md)
-         - [닫을 때 새 버전으로 저장하도록 prompt 구성](./cs-install-guide/conf-save-as-new-version-close.md)
-         - [닫을 때 파일을 체크 인하도록 prompt 구성](./cs-install-guide/conf-checkin-file-close.md)
+         - [닫을 때 새 버전으로 저장하라는 메시지 구성](./cs-install-guide/conf-save-as-new-version-close.md)
+         - [닫을 때 파일을 체크 인하도록 프롬프트 구성](./cs-install-guide/conf-checkin-file-close.md)
          - [허용되는 특수 문자 구성](./cs-install-guide/conf-special-chars.md)
-         - [자동 generate 요소 ID](./cs-install-guide/auto-generate-ids.md)
+         - [요소 ID 자동 생성](./cs-install-guide/auto-generate-ids.md)
          - [AEM의 기본 사전 사용자 지정](./cs-install-guide/customize-aem-custom-dictionary.md)
          - [텍스트 필터 구성](./cs-install-guide/config-text-filters.md)
          - [파일 찾아보기 대화 상자에 대한 필터 구성](./cs-install-guide/conf-custom-file-filters.md)
@@ -422,7 +422,7 @@ ht-degree: 6%
       - [외부 데이터 소스 통합](./knowledge-base/expert-sessions/external-datasource-integration-dec2023.md)
       - [안내서의 콘텐츠 번역 - 2부](./knowledge-base/expert-sessions/translating-content-using-aem-guides-part2-feb2024.md)
       - [메타데이터 정의, 관리 및 활용](./knowledge-base/expert-sessions/metadata-define-manage-utilize-may2024.md)
-      - [AEM 사이트 출력 변형](./knowledge-base/expert-sessions/aem-site-output-variations-27jun.md)
+      - [AEM 사이트 출력 변형](./knowledge-base/expert-sessions/aem-site-output-variations-jun2024.md)
    - 문서 {#kb-articles}
 
       - 작성 {#authoring}
@@ -466,7 +466,7 @@ ht-degree: 6%
 
          - [기본 PDF 게시를 위한 AEM 환경 구성](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
 
-         - [기본 PDF 게시의 generate Bookmap TOC](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
+         - [기본 PDF 게시에서 북맵의 TOC 생성](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
 
          - [FMPS 및 안내서](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          - [마이크로서비스 아키텍처 및 성능](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
