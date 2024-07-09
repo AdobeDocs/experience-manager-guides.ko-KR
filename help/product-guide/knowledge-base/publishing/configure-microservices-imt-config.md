@@ -2,11 +2,11 @@
 title: AEM Guidesas a Cloud Service 에 대한 OAuth 인증을 통해 마이크로서비스 기반 게시 구성
 description: AEM Guides에 대한 OAuth 인증을 통해 마이크로서비스 기반 게시를 구성하는 방법에 대해 알아봅니다.
 feature: Microservice in AEM Guides
-role: User, Admin
+role: Admin
 exl-id: db0c83c7-1ece-4010-b214-f8d806d26bc9
-source-git-commit: 6d935ce934890066de358c434717efeef2c997cb
+source-git-commit: c51a372dc44921a489219f5ac99e3ad180ccc91d
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ OAuth 인증 세부 사항을 구성하고 JSON 서비스 세부 사항을 다�
 >
 >스마트 제안에 대한 OAuth 프로젝트를 이미 만든 경우 마이크로서비스에 대해 동일한 프로젝트를 재사용하고 다음 단계를 건너뛰어 환경에 IMS 구성을 추가할 수 있습니다.
 
-### 기존 구성 업데이트
+### 기존 구성 업데이트(JWT에서 OAuth로 이동)
 
 JWT(더 이상 사용되지 않음)를 사용하여 게시하기 위해 마이크로 서비스를 이미 사용 중인 경우 다음 단계를 수행하여 구성을 업데이트합니다.
 
@@ -114,7 +114,7 @@ JWT(더 이상 사용되지 않음)를 사용하여 게시하기 위해 마이�
 1. 구성할 환경의 이름을 선택합니다. 다음으로 이동해야 합니다. **환경 정보** 페이지를 가리키도록 업데이트하는 중입니다.
 1. 다음으로 전환 **구성** 탭.
 
-1. SERVICE_ACCOUNT_DETAILS JSON 필드를 업데이트합니다. 다음 스크린샷과 동일한 이름과 구성을 사용하고 있는지 확인합니다.
+1. SERVICE_ACCOUNT_DETAILS라는 새 구성을 만듭니다. 값에서 개발자 콘솔에서 다운로드한 OAuth JSON 파일의 컨텐츠를 추가합니다.
 
 
 <img src="assets/jws-service-account-config.png" alt="ims 서비스 계정 구성" width="500">
@@ -122,7 +122,7 @@ JWT(더 이상 사용되지 않음)를 사용하여 게시하기 위해 마이�
 *처음으로 환경을 구성합니다.*
 
 
-### 마이크로서비스 기반 게시를 처음 사용
+### 마이크로서비스 기반 게시 활성화를 위한 최초 코드 변경
 
 >[!NOTE]
 >
@@ -130,7 +130,7 @@ JWT(더 이상 사용되지 않음)를 사용하여 게시하기 위해 마이�
 
 환경에 IMS 구성을 추가했으면 다음 단계를 수행하여 OSGi를 사용하여 이러한 속성을 Experience Manager Guides과 연결합니다.
 
-1. Cloud Manager Git 프로젝트 코드에서 다음 두 개의 파일을 추가합니다(파일 내용의 경우 보기) [부록](#appendix)).
+1. Cloud Manager Git 프로젝트 코드에서에 다음 두 파일을 추가합니다 `/apps/fmditaCustom/config` (파일 콘텐츠의 경우, 보기 [부록](#appendix)).
 
    * `com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
    * `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
