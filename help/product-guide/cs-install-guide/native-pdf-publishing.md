@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # 기본 PDF 게시
 
-AEM Guides를 사용하면 기본 PDF 출력 생성 기능을 사용하여 개별 주제 PDF 또는 맵 파일을 생성할 수 있습니다. PDF 출력을 생성하는 동안 PDF 템플릿을 사용자 정의하고 사용할 수 있습니다. 페이지 레이아웃을 만들고 디자인하여 요구 사항에 따라 PDF 출력에 다양한 섹션을 표시할 수 있습니다.
+AEM Guides을 사용하면 기본 PDF 출력 생성 기능을 사용하여 개별 주제 PDF 또는 맵 파일을 생성할 수 있습니다. PDF 출력을 생성하는 동안 PDF 템플릿을 사용자 정의하고 사용할 수 있습니다. 페이지 레이아웃을 만들고 디자인하여 요구 사항에 따라 PDF 출력에 다양한 섹션을 표시할 수 있습니다.
 
-또한 AEM Guides는 현지화된 문자열을 정의하는 데 도움이 되는 언어 변수를 지원합니다. 또한 PDF 출력에 있는 다양한 요소의 스타일을 정의할 수 있습니다. 고급 사용자의 경우 CSS를 직접 사용하여 고급 페이지 레이아웃을 만들 수도 있습니다.
+또한 AEM Guides에서는 언어 변수를 지원하여 현지화된 문자열을 정의할 수 있습니다. 또한 PDF 출력에 있는 다양한 요소의 스타일을 정의할 수 있습니다. 고급 사용자의 경우 CSS를 직접 사용하여 고급 페이지 레이아웃을 만들 수도 있습니다.
 
 
 자세한 내용은 다음을 참조하십시오.
@@ -26,10 +26,10 @@ AEM Guides를 사용하면 기본 PDF 출력 생성 기능을 사용하여 개�
 * [언어 변수 지원](../native-pdf/native-pdf-language-variables.md)
 * [PDF 출력의 변수](../native-pdf/native-pdf-variables.md)
 * [PDF 출력에 바코드 추가](../native-pdf/add-barcode.md)
-* 공통 컨텐츠 스타일 {#content-styles}
+* 일반 콘텐츠 스타일 {#content-styles}
    * [일반적인 콘텐츠 스타일 사용](../native-pdf/stylesheet.md)
    * [사용자 정의 변경 막대 스타일 작업](../native-pdf/change-bar-style.md)
    * [목차 항목 및 주제 콘텐츠에 사용자 지정 스타일 적용](../native-pdf/custom-style-toc.md)
    * [PDF 출력에 사용자 지정 책갈피 추가](../native-pdf/add-custom-bookmark.md)
-   * [JavaScript를 사용하여 콘텐츠 또는 스타일 작업](../native-pdf/use-javascript-content-style.md)
+   * [JavaScript을 사용하여 콘텐츠 또는 스타일 작업](../native-pdf/use-javascript-content-style.md)
    * [각주에서 사용자 정의 스타일 사용](../native-pdf/footnote-number-style.md)

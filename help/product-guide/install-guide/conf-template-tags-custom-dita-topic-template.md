@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # 사용자 지정 DITA 주제 템플릿 구성 {#id16A7G0O02TD}
 
-AEM 안내서에는 다음 DITA 주제 템플릿이 포함되어 있습니다.
+AEM Guides에는 다음과 같은 DITA 주제 템플릿이 포함되어 있습니다.
 
 - 주제
 
@@ -39,18 +39,18 @@ DITA 주제 템플릿을 사용자 정의하고 작성에 사용하려면 다음
 
 1. [사용자 지정 작성 템플릿 만들기](conf-folder-level.md#id1917D0EG0HJ)
 
-1. 에 설명된 대로 전역 또는 폴더 수준 프로필에 사용자 지정 템플릿을 추가합니다. [작성 템플릿 구성](conf-folder-level.md#id1889D0IL0Y4) 섹션
+1. [작성 템플릿 구성](conf-folder-level.md#id1889D0IL0Y4) 섹션에 설명된 대로 사용자 지정 템플릿을 전역 또는 폴더 수준 프로필에 추가합니다.
 
 
 ## 사용자 지정 DITA 템플릿 폴더 경로 구성 {#id191LCF0095Z}
 
-AEM Guides를 사용하면 사용자 정의된 DITA 맵 및 템플릿을 저장하도록 폴더를 구성할 수 있습니다. 기본적으로 템플릿 파일은 DAM의 다음 폴더에 저장됩니다.
+AEM Guides을 사용하면 사용자 정의된 DITA 맵 및 템플릿을 저장하도록 폴더를 구성할 수 있습니다. 기본적으로 템플릿 파일은 DAM의 다음 폴더에 저장됩니다.
 
 `/content/dam/dita-templates/`
 
-주제 및 맵 템플릿 파일을 관리하기 위해 주제 및 맵 템플릿을 저장하는 전용 폴더가 있습니다. 기본적으로 모든 주제 템플릿은 `/content/dam/dita-templates/topics`
+주제 및 맵 템플릿 파일을 관리하기 위해 주제 및 맵 템플릿을 저장하는 전용 폴더가 있습니다. 기본적으로 모든 주제 템플릿은 `/content/dam/dita-templates/topics` 아래에 저장됩니다.
 
-폴더를 삭제합니다. 모든 맵 템플릿은 `/content/dam/dita-templates/maps` 폴더를 삭제합니다.
+폴더를 삭제합니다. 모든 맵 템플릿은 `/content/dam/dita-templates/maps` 폴더에 저장됩니다.
 
 관리자는 기본 폴더에 사용자 지정 맵 또는 주제 템플릿을 만들거나 사용자 지정 템플릿을 저장할 자체 폴더를 만들 수 있습니다. 기본 폴더를 사용하려는 경우 이 프로세스를 건너뛸 수 있습니다.
 
@@ -68,13 +68,13 @@ AEM Guides를 사용하면 사용자 정의된 DITA 맵 및 템플릿을 저장�
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 을(를) 검색하고 클릭합니다. *com.adobe.fmdita.config.ConfigManager* 번들.
+1. *com.adobe.fmdita.config.ConfigManager* 번들을 검색하고 클릭합니다.
 
-1. 다음에서 **템플릿 위치** 속성을 사용하려면 사용자 지정 템플릿을 저장할 위치를 지정하십시오.
+1. **템플릿 위치** 속성에서 사용자 지정 템플릿을 저장할 위치를 지정하십시오.
 
 1. **저장**&#x200B;을 클릭합니다.
 
 
 지정된 위치가 DAM에 있으면 모든 기본 맵 및 주제 템플릿이 해당 폴더에 복사됩니다. 위치가 존재하지 않으면 모든 기본 맵 및 주제 템플릿으로 폴더가 생성됩니다.
 
-**상위 항목:**[&#x200B;주제 구성 및 템플릿 매핑](conf-template-tags.md)
+**상위 항목:**[&#x200B;항목 및 맵 템플릿 구성](conf-template-tags.md)

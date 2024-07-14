@@ -1,16 +1,16 @@
 ---
 title: 확장 저장소 소개
-description: AEM Guides 확장 패키지 디렉터리 구조
+description: AEM Guides 확장 패키지 디렉토리 구조
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 99a00b3e-a5c9-41d8-a73d-8690d587277e
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%
 
 ---
 
-
-# AEM Guides 확장 패키지 디렉터리 구조
+# AEM Guides 확장 패키지 디렉토리 구조
 
 ```text
 ├── src

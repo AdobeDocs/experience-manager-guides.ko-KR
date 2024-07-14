@@ -28,7 +28,7 @@ ht-degree: 0%
 - **날짜** - 2023년 9월 7일
 - **참석자 수** - 65
 - **기간** - 75분
-- **대상자** - 고객, 파트너 및 Adobe 직원
+- **대상** - 고객, 파트너 및 Adobe 직원
 
 ## 핵심 사항
 
@@ -52,9 +52,9 @@ ht-degree: 0%
 
 - **기본 PDF 게시의 기능 개요** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23.html?lang=en)
 
-- **문서화된 공통 사용 사례** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/content-styles/stylesheet.html?lang=en)
+- **문서화된 일반적인 사용 사례** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/content-styles/stylesheet.html?lang=en)
 
-- **커뮤니티 포럼** - Experience League에 대한 세션별 커뮤니티 상호 작용의 경우 다음을 참조하십시오.  [AEM Guides 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **커뮤니티 포럼** - Experience League에 대한 세션별 커뮤니티 상호 작용의 경우 [AEM Guides 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)을 방문하십시오.
 
 >[!NOTE]
 >
@@ -64,9 +64,9 @@ ht-degree: 0%
 
 ## 다음 전문가 세션
 
-- **주제** - Guides 확장 프레임워크
-- **예약된 날짜** - 2023년 11월 2일
+- **주제** - 안내서 확장 프레임워크
+- **예약됨** - 2023년 11월 2일
 
 ## 연락처
 
-문의 사항은 다음 주소로 이메일을 보내주십시오. <techcomm@adobe.com>
+문의 사항은 <techcomm@adobe.com>(으)로 전자 메일을 보내세요.

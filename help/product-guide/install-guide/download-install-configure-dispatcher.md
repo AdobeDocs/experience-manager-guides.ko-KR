@@ -14,11 +14,11 @@ ht-degree: 5%
 
 # Dispatcher 구성 {#id213BCM0M05U}
 
-AEM Guides와 함께 AEM 작성자 인스턴스에서 Dispatcher를 사용하려는 경우 다음 추가 구성을 수행하여 설정을 완료해야 합니다.
+AEM Guides과 함께 Dispatcher on AEM 작성자 인스턴스를 사용하려는 경우 다음과 같은 추가 구성을 수행하여 설정을 완료해야 합니다.
 
 >[!NOTE]
 >
-> Dispatcher는 Adobe Experience Manager의 캐싱 및/또는 로드 밸런싱 도구입니다. Dispatcher 사용에 대한 자세한 내용은 을 참조하십시오. [Dispatcher 개요](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=en).
+> Dispatcher는 Adobe Experience Manager의 캐싱 및/또는 로드 밸런싱 도구입니다. Dispatcher 사용에 대한 자세한 내용은 [Dispatcher 개요](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=en)를 참조하십시오.
 
 ## URL에서 AllowEncodedSlashes 활성화
 
@@ -41,7 +41,7 @@ AEM Guides와 함께 AEM 작성자 인스턴스에서 Dispatcher를 사용하려
 
 ## DITA에 대한 mime.types 파일 구성
 
-AEM Guides에서 Dispatcher를 사용할 때 DITA 맵과 주제 파일이 작성자가 원시 텍스트 형식 대신 \에 기대한 대로 컨텐츠를 볼 수 있는 HTML으로 렌더링되어 있는지 확인해야 합니다.
+AEM Guides과 함께 Dispatcher을 사용하는 경우 작성자가 DITA 맵 및 주제 파일을 HTML으로 렌더링하여 \로(원시 텍스트 형식 대신) 컨텐츠를 예상대로 볼 수 있도록 해야 합니다.
 
 mime.types 파일을 업데이트하려면 다음 단계를 수행하십시오.
 
@@ -60,13 +60,13 @@ mime.types 파일을 업데이트하려면 다음 단계를 수행하십시오.
 1. 파일을 저장하고 닫습니다.
 
 
-이 구성 업데이트를 사용하면 Dispatcher에서 렌더링한 DITA 맵 및 주제 파일이 Assets UI에 HTML으로 표시됩니다.
+이 구성 업데이트를 통해 Dispatcher에서 렌더링한 DITA 맵 및 주제 파일이 Assets UI에서 HTML으로 표시됩니다.
 
 ## 사용자 환경 설정 요청 URL 허용
 
-AEM Guides와 함께 Dispatcher를 사용할 때 작성자 인스턴스에 앞에 Dispatcher가 있는 경우 다음 두 가지 사항을 변경합니다.
+AEM Guides과 함께 Dispatcher을 사용할 때 작성자 인스턴스에 앞에 Dispatcher가 있는 경우 다음 두 가지 사항을 변경합니다.
 
-- POST 요청 URL을 허용 목록에 추가합니다. 샘플 &quot; `/filters`&quot;규칙이 아래에 제공됨 - 이 규칙을 Dispatcher 구성 파일에 추가합니다.
+- POST 요청 URL을 허용 목록에 추가합니다. 샘플 &quot; `/filters`&quot; 규칙이 아래에 제공됩니다. - 이 규칙을 Dispatcher 구성 파일에 추가하십시오.
 
 ```json
 /xxxx {/type "allow" /method "POST" /url "/home/users/*/preferences"}

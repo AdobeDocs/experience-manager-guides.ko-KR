@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # 기본 PDF 게시 기본 사항
 
-AEM Guides에는 사용자에게 PDF 형식으로 컨텐츠를 만들고, 개발하고, 게시할 수 있는 기능을 제공하는 내장 PDF 게시 엔진이 있습니다. 다양한 페이지 레이아웃을 만들고, 스타일시트를 맞춤화하고, 원활한 컨텐츠 게시에 필요한 다양한 PDF 구성 요소를 디자인할 수 있는 다양한 기능 세트를 제공합니다.
+AEM Guides에는 PDF을 PDF 형식으로 만들고, 개발하고, 게시할 수 있는 기능을 제공하는 내장 콘텐츠 게시 엔진이 있습니다. 다양한 페이지 레이아웃을 만들고, 스타일시트를 맞춤화하고, 원활한 컨텐츠 게시에 필요한 다양한 PDF 구성 요소를 디자인할 수 있는 다양한 기능 세트를 제공합니다.
 
 ## 세션 개요
 
@@ -28,7 +28,7 @@ AEM Guides에는 사용자에게 PDF 형식으로 컨텐츠를 만들고, 개발
 - **날짜** - 2023년 2월 23일
 - **참석자 수** - 135
 - **기간** - 60분
-- **대상자** - 고객, 파트너 및 Adobe 직원
+- **대상** - 고객, 파트너 및 Adobe 직원
 
 ## 핵심 사항
 
@@ -41,11 +41,11 @@ AEM Guides에는 사용자에게 PDF 형식으로 컨텐츠를 만들고, 개발
 
 ## 관련 리소스
 
-- **기능 비디오** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
+- **기능 비디오** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
 - **사용 안내서** - [기본 PDF 게시](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/configuring/config-native-pdf-publish/pdf-template.html?lang=en)
 
-- **커뮤니티 포럼** - Experience League에 대한 세션별 커뮤니티 상호 작용의 경우 다음을 참조하십시오.  [AEM Guides 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **커뮤니티 포럼** - Experience League에 대한 세션별 커뮤니티 상호 작용의 경우 [AEM Guides 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)을 방문하십시오.
 
 >[!NOTE]
 >
@@ -55,4 +55,4 @@ AEM Guides에는 사용자에게 PDF 형식으로 컨텐츠를 만들고, 개발
 
 ## 연락처
 
-문의 사항은 다음 주소로 이메일을 보내주십시오. <techcomm@adobe.com>
+문의 사항은 <techcomm@adobe.com>(으)로 전자 메일을 보내세요.

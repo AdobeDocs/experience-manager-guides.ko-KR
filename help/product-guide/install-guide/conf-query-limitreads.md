@@ -24,9 +24,9 @@ ht-degree: 2%
    http://<server name>:<port>/system/console/jmx
    ```
 
-1. 을(를) 검색하고 클릭하십시오. **쿼리 엔진 설정**.
+1. **QueryEngineSettings**&#x200B;를 검색하고 클릭합니다.
 
-1. 다음에 대한 속성 값 변경 **LimitReads** 특성.
+1. **LimitReads** 특성에 대한 특성 값을 변경합니다.
 
 1. **저장**&#x200B;을 클릭합니다.
 

@@ -26,9 +26,9 @@ AEM Guides 기본 PDF 게시 JVM 플래그를 구성하려면 다음 단계를 �
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 을(를) 검색하고 선택합니다 *com.adobe.fmdita.config.ConfigManager* 번들.
+1. *com.adobe.fmdita.config.ConfigManager* 번들을 검색하고 선택합니다.
 
-1. 속성 업데이트 **기본 pdf에 대한 Java 명령줄 옵션** (*native.pdf.java.opts*)를 클릭하여 표준 JVM 플래그를 전달합니다.
+1. 표준 JVM 플래그를 전달하려면 **기본 pdf에 대한 Java 명령줄 옵션**(*native.pdf.java.opts*)을 업데이트하십시오.
 
 
 

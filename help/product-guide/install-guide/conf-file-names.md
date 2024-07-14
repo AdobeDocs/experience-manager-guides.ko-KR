@@ -20,4 +20,4 @@ ht-degree: 0%
 
 - **[올바른 파일 이름 문자에 대한 Regx 구성](conf-file-names-valid-regx.md)**
 
-- **[AEM 사이트 출력에 대한 유효한 파일 이름 구성](conf-file-names-valid-regx-aem-site-output.md)**
+- **[AEM 사이트 출력에 대해 올바른 파일 이름 구성](conf-file-names-valid-regx-aem-site-output.md)**

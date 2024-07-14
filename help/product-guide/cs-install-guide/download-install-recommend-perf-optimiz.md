@@ -16,7 +16,7 @@ ht-degree: 0%
 
 성능 최적화를 위해 다음 사항을 고려하십시오.
 
-- 콘텐츠 및 색인화 경험을 최적화하려면 [콘텐츠 검색 및 색인화 최적화](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html) AEM 설명서에서 참조할 수 있습니다.
+- 콘텐츠 및 색인화 환경을 최적화하려면 AEM 설명서에서 [콘텐츠 검색 및 색인화 최적화](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html)를 참조하십시오.
 
 - 게시에 사용자 지정 DITA-OT를 사용하는 동안 Patch Xerces Jar가 발생했습니다. 사용 사례에 따라 필수 구성입니다. 이 변경 사항은 게시 출력에 사용자 지정 DITA-OT를 사용하는 경우에만 필요합니다.
 

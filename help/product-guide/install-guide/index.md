@@ -7,7 +7,7 @@ ht-degree: 1%
 ---
 # Adobe Experience Manager Guides 4.2 설치 및 구성
 
-- [면책조항](rebranding-disclaimer.md)
+- [면책 조항](rebranding-disclaimer.md)
 - [이 안내서 정보](introduction.md)
 - [다운로드 및 설치](download-install.md)
    - [기술 요구 사항](download-install-technical-requirements.md)
@@ -43,7 +43,7 @@ ht-degree: 1%
    - [닫을 때 파일을 체크 인하도록 프롬프트 구성](conf-checkin-file-close.md)
    - [허용되는 특수 문자 구성](conf-special-chars.md)
    - [요소 ID 자동 생성](auto-generate-ids.md)
-   - [AEM 기본 사전 사용자 지정](customize-aem-custom-dictionary.md)
+   - [AEM의 기본 사전 사용자 지정](customize-aem-custom-dictionary.md)
    - [텍스트 필터 구성](config-text-filters.md)
    - [쿼리에 대한 LimitReads 수를 구성합니다.](conf-query-limitreads.md)
    - [문서 기반 게시용 패키지 설치](configure-article-based-publishing.md)

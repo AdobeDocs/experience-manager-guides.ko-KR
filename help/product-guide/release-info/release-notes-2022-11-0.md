@@ -1,6 +1,6 @@
 ---
-title: 릴리스 정보 | Adobe Experience Manager Guides as a Cloud Service, 2022년 11월 릴리스
-description: Adobe Experience Manager Guides as a Cloud Service 11월 릴리스
+title: 릴리스 정보 | Adobe Experience Manager Guides as a Cloud Service 2002년 11월 릴리스
+description: Adobe Experience Manager Guidesas a Cloud Service 의 11월 릴리스
 exl-id: 9f329ec1-dd74-47cc-8567-3fadd962584a
 feature: Release Notes
 role: Leader
@@ -11,30 +11,30 @@ ht-degree: 0%
 
 ---
 
-# Adobe Experience Manager Guides as a Cloud Service 11월 릴리스
+# Adobe Experience Manager Guidesas a Cloud Service 의 11월 릴리스
 
 ## 11월 릴리스로 업그레이드
 
-최신 Adobe Experience Manager Guides as a Cloud Service 업그레이드(나중에 참조) *AEM Guides as a Cloud Service*) 다음 단계를 수행하여 설정합니다.
+다음 단계를 수행하여 최신 Adobe Experience Manager Guides as a Cloud Service(나중에 *AEM Guides as a Cloud Service*) 설정을 업그레이드합니다.
 1. Cloud Service의 Git 코드를 체크아웃하고 업그레이드하려는 환경에 해당하는 Cloud Service 파이프라인에 구성된 분기로 전환합니다.
-1. 업데이트 `<dox.version>` 의 속성 `/dox/dox.installer/pom.xml` Cloud Service 파일 Git 코드 2022.11.198.
-1. 변경 사항을 커밋하고 Cloud Service 파이프라인을 실행하여 AEM Guides as a Cloud Service의 11월 릴리스로 업그레이드합니다.
+1. Cloud Service Git 코드의 `/dox/dox.installer/pom.xml` 파일에서 `<dox.version>` 속성을 2022.11.198로 업데이트합니다.
+1. 변경 사항을 커밋하고 Cloud Service 파이프라인을 실행하여 AEM Guidesas a Cloud Service 의 11월 릴리스로 업그레이드합니다.
 
-## 기존 콘텐츠를 색인화하는 절차(AEM Guides의 9월 릴리스 이전 버전을 as a Cloud Service으로 사용하는 경우에만)
+## 기존 콘텐츠를 색인화하는 단계(AEM Guidesas a Cloud Service 의 9월 릴리스 이전 버전인 경우에만 해당)
 
 기존 콘텐츠를 색인화하기 위해 다음 단계를 수행하고 맵 수준에서 새 찾기 및 바꾸기 텍스트를 사용합니다.
 
-* 올바른 인증을 사용하여 서버에 대한 POST 요청 실행 - `http://<server:port>/bin/guides/map-find/indexing`.
-(선택 사항: 맵의 특정 경로를 전달하여 인덱싱할 수 있습니다. 기본적으로 모든 맵이 인덱싱됩니다 || 예 : `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
+* 올바른 인증으로 서버에 대한 POST 요청을 실행합니다. `http://<server:port>/bin/guides/map-find/indexing`.
+(선택 사항: 맵의 특정 경로를 전달하여 인덱싱할 수 있습니다. 기본적으로 모든 맵이 인덱싱됩니다 || 예: `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
-* API는 jobId를 반환합니다. 작업 상태를 확인하려면 작업 ID가 있는 GET 요청을 동일한 끝점으로 보낼 수 있습니다. `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
+* API는 jobId를 반환합니다. 작업 상태를 확인하려면 작업 ID가 포함된 GET 요청을 동일한 끝점으로 보낼 수 있습니다. `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
 (예: http://&lt;_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
 
 * 작업이 완료되면 위의 GET 요청은 성공으로 응답하고 맵이 실패한 경우 언급됩니다. 인덱싱된 맵은 서버 로그에서 확인할 수 있습니다.
 
 ## 호환성 매트릭스
 
-이 섹션에서는 2022년 11월 AEM Guides as a Cloud Service 릴리스에서 지원되는 소프트웨어 애플리케이션에 대한 호환성 매트릭스를 나열합니다.
+이 섹션에서는 AEM Guides as a Cloud Service 2022년 11월 릴리스에서 지원되는 소프트웨어 응용 프로그램에 대한 호환성 매트릭스를 나열합니다.
 
 ### FrameMaker 및 FrameMaker Publishing Server
 
@@ -55,12 +55,12 @@ ht-degree: 0%
 
 ## 새로운 기능 및 향상된 기능
 
-AEM Guides as a Cloud Service에서는 11월 릴리스의 개선 사항 및 새로운 기능을 제공합니다.
+11월 릴리스의 AEM Guides as a Cloud Service 개선 사항 및 새로운 기능:
 
 
 ### 저장소 패널에서 파일 삭제
 
-이제 파일(한 번에 하나의 파일)을 **옵션** 저장소 패널에서 선택한 파일의 메뉴입니다.
+이제 저장소 패널에서 선택한 파일의 **옵션** 메뉴에서 파일(한 번에 하나의 파일)을 쉽게 삭제할 수 있습니다.
 <img src="assets/repository-delete-file.png" alt="저장소에서 삭제" width="500">
 
 파일을 삭제하기 전에 확인 메시지가 표시됩니다. 파일이 다른 파일에서 참조되지 않으면 삭제되고 성공 메시지가 표시됩니다.
@@ -72,12 +72,12 @@ AEM Guides as a Cloud Service에서는 11월 릴리스의 개선 사항 및 새�
 
 ### 선택한 파일 버전 제거
 
-컨텐트를 만들고 유지 관리할 때 저장소의 DITA 파일에 대해 여러 버전이 생성될 수 있습니다. AEM Guides를 사용하면 저장소에서 이전 버전의 DITA 파일을 제거하고 디스크 공간을 확보할 수 있습니다.
+컨텐트를 만들고 유지 관리할 때 저장소의 DITA 파일에 대해 여러 버전이 생성될 수 있습니다. AEM Guides을 사용하면 저장소에서 이전 버전의 DITA 파일을 제거하고 디스크 공간을 확보할 수 있습니다.
 
 <img src="assets/preview-purge-report.png" alt="제거 보고서 미리 보기" width="500">
 
 
-AEM Guides는 기준선에 포함되어 있거나 레이블이 적용된 파일의 첫 번째 버전을 삭제하지 않습니다. 제거 작업은 번역 또는 검토 워크플로에 포함된 파일도 삭제하지 않습니다. 유지할 버전 수를 선택하고 정의된 일 수보다 오래된 파일도 삭제할 수 있습니다.
+AEM Guides은 기준선에 포함되어 있거나 레이블이 적용된 파일의 첫 번째 버전을 삭제하지 않습니다. 제거 작업은 번역 또는 검토 워크플로에 포함된 파일도 삭제하지 않습니다. 유지할 버전 수를 선택하고 정의된 일 수보다 오래된 파일도 삭제할 수 있습니다.
 
 제거 작업을 시작하기 전에 보고서를 미리 확인하여 제거할 버전을 확인할 수 있습니다. 그런 다음 제거 작업을 시작하거나 취소할 수 있습니다.
 
@@ -93,7 +93,7 @@ AEM Guides에서는 전역 및 폴더 프로필에 대한 출력 사전 설정�
 
 **참고** 폴더 수준 관리자만 전역 및 폴더 프로필 사전 설정을 만들 수 있습니다.
 
-이러한 전역 사전 설정은 **출력** 모든 관련 맵의 탭 이러한 매개 변수를 사용하여 모든 관련 맵에 대한 출력을 생성할 수 있습니다. 사전 설정을 기본 PDF 사전 설정으로 선택하여 PDF 출력을 생성할 수 있습니다. 다음을 수행할 수도 있습니다. **편집**, **이름 바꾸기**, **복제**, 또는 **삭제** 에서 기존 출력 사전 설정 **옵션** 메뉴 아래의 제품에서 사용할 수 있습니다.
+이러한 전역 사전 설정은 모든 관련 맵의 **출력** 탭에 나타납니다. 이러한 매개 변수를 사용하여 모든 관련 맵에 대한 출력을 생성할 수 있습니다. 사전 설정을 기본 PDF 사전 설정으로 선택하여 PDF 출력을 생성할 수 있습니다. **옵션** 메뉴에서 기존 출력 사전 설정을 **편집**, **이름 바꾸기**, **복제** 또는 **삭제**&#x200B;할 수도 있습니다.
 
 ### 번역 대시보드에 추가된 버전 레이블 열
 
@@ -119,8 +119,8 @@ PDF에 변경 막대가 표시되어 수정, 삽입 또는 삭제된 콘텐츠�
 * `${map_title}`
 * `${preset_name}`
 * `${language_code}`
-* `${map_parentpath}` (출력 경로만 해당)
-* `${path_after_langfolder}` (출력 경로만 해당)
+* `${map_parentpath}`(출력 경로만 해당)
+* `${path_after_langfolder}`(출력 경로만 해당)
 
 
 ### 기본 PDF | DITA 맵에 대한 목차 생성 및 페이지 레이아웃 재정렬
@@ -131,24 +131,24 @@ PDF에 변경 막대가 표시되어 수정, 삽입 또는 삭제된 콘텐츠�
 
 다양한 영역에서 수정된 버그는 다음과 같습니다.
 
-* 기본 PDF | `conkeyref` 생성된 PDF 출력에서 해결되지 않습니다. (10564)
+* 기본 PDF | 생성된 PDF 출력에서 `conkeyref`이(가) 확인되지 않습니다. (10564)
 * 기본 PDF | PDF 출력에서 맵의 메타데이터에 액세스할 때 문제가 발생합니다. (10556)
 * 기본 PDF | 클래스 이름 대신 태그를 생성하는 데 인라인 스타일이 사용됩니다.  (10498)
 * 웹 편집기는 빈 페이지를 간헐적으로 로드합니다. (10678)
 * 기존 사전 설정을 복제하여 사전 설정을 만드는 경우 PDF 게시가 실패합니다. (10584)
-* **로그 보기** 사전 설정에 대해 PDF 생성에 실패하면 버튼이 작동하지 않습니다. (10576)
+* 사전 설정에 대한 PDF 생성에 실패하면 **로그 보기** 단추가 작동하지 않습니다. (10576)
 * para 태그 내의 conref는 미리보기에 표시되지 않습니다. (10559)
 * 목록 항목의 끝에 백스페이스를 두면 전체 목록이 제거됩니다. (10540)
-* 네이티브 PDF을 사용할 때 중첩 내보내기 `<indexterm>` 는 인덱스에 중첩하지 않습니다. (10521)
-* **자동 들여쓰기** 도구 모음의 단추가 소스 보기에 없습니다. (10448)
+* 네이티브 PDF 내보내기를 사용할 때 중첩된 `<indexterm>`이(가) 색인에 중첩되지 않습니다. (10521)
+* 도구 모음의 **자동 들여쓰기** 단추가 Source 보기에 없습니다. (10448)
 * 편집기에서 목록을 작성하는 동안 목록 항목의 첫 번째 문자가 손실됩니다. (10447)
 * DITA 에셋 버전을 변경하여 기준선 편집 창에 저장하면 여러 팝업이 표시됩니다. (10399)
-* 클릭 시 애플리케이션 오류 발생 **편집** [빠른 생성] 패널에서 모든 [출력] 사전 설정을 선택한 후 표시되는 단추입니다. (10388)
-* Assets UI에서 복사 붙여넣기 작업을 수행하면 DITA 주제에 대한 사용자 지정 메타데이터가 유지되지 않습니다. (10367)
-* 활성 번역 프로젝트에 자산이 있는 전체 언어 폴더에 대한 사후 처리가 차단됩니다. (10332)
+* 빠른 생성 패널에서 모든 출력 사전 설정을 선택한 후 **편집** 단추를 클릭하면 응용 프로그램 오류가 발생합니다. (10388)
+* Assets UI에서 복사 붙여넣기 작업을 수행할 때 DITA 주제에 대한 사용자 지정 메타데이터는 유지되지 않습니다. (10367)
+* 활성 번역 프로젝트에 자산이 있는 전체 언어 폴더에 대해 Post 처리가 차단됩니다. (10332)
 * 폴더 프로필 관리자가 XML 편집기의 템플릿 탭을 볼 수 없습니다. (10266)
 * 4.0 업그레이드 후 웹 편집기에서 탐색 문제가 발생합니다. (10159)
 * SVG 파일이 미리 보기 모드에서 표시되지 않습니다. (10010)
 * 편집기의 [출력] 탭에 더 많은 사전 설정이 포함된 경우 사전 설정 섹션을 스크롤할 수 없으며 모든 사전 설정이 표시되지 않습니다. (9787)
-* **편집** 및 **주석** 열 보기에서 이미지 옵션이 제대로 작동하지 않습니다. (8758)
+* 이미지에 대한 **편집** 및 **주석 달기** 옵션이 열 보기에서 올바르게 작동하지 않습니다. (8758)
 * 피어 링크는 확인되지 않으며 생성된 출력에 일반 텍스트로 나타납니다. (7774)

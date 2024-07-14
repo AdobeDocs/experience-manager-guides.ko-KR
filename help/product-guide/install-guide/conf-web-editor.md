@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 웹 편집기 사용자 지정 {#id181AI0003PN}
 
-AEM Guides는 작성자가 DITA 문서를 만들고 편집할 수 있는 강력한 웹 편집기와 번들로 제공됩니다. 웹 편집기의 도구 모음을 사용자 지정하여 도구 모음에서 액세스할 수 있는 기능을 추가하거나 제거할 수 있습니다. 또한 파일의 자동 저장을 구성하고, 요소에 삽입되면 해당 요소에 대한 ID를 생성하는 등의 작업을 수행할 수 있습니다. 다음 섹션에서는 웹 편집기에서 사용자 정의할 수 있는 기능에 대해 설명합니다.
+AEM Guides은 작성자가 DITA 문서를 만들고 편집할 수 있는 강력한 웹 편집기와 번들로 제공됩니다. 웹 편집기의 도구 모음을 사용자 지정하여 도구 모음에서 액세스할 수 있는 기능을 추가하거나 제거할 수 있습니다. 또한 파일의 자동 저장을 구성하고, 요소에 삽입되면 해당 요소에 대한 ID를 생성하는 등의 작업을 수행할 수 있습니다. 다음 섹션에서는 웹 편집기에서 사용자 정의할 수 있는 기능에 대해 설명합니다.
 
 - [도구 모음 사용자 지정](conf-web-editor-customize-toolbar.md)
 
@@ -22,13 +22,13 @@ AEM Guides는 작성자가 DITA 문서를 만들고 편집할 수 있는 강력�
 
 - [UUID 기반 링크 표시 구성](conf-uuid-based-links.md)
 
-- [동일한 탭에서 DITA 주제 또는 맵 파일 열기](open-dita-files-same-tab.md)
+- [같은 탭에서 DITA 주제 또는 맵 파일 열기](open-dita-files-same-tab.md)
 
-- [왼쪽 패널에서 사용자 정의 패널 구성](configure-custom-panel.md)
+- [왼쪽 패널에서 사용자 지정 패널 구성](configure-custom-panel.md)
 
 - [웹 편집기에서 파일 자동 저장 구성](auto-save-in-editor.md)
 
-- [닫을 때 새 버전으로 저장하라는 메시지 구성](conf-save-as-new-version-close.md)
+- [닫을 때 새 버전으로 저장하라는 메시지를 구성하십시오](conf-save-as-new-version-close.md)
 
 - [닫을 때 파일을 체크 인하도록 프롬프트 구성](conf-checkin-file-close.md)
 
@@ -36,7 +36,7 @@ AEM Guides는 작성자가 DITA 문서를 만들고 편집할 수 있는 강력�
 
 - [요소 ID 자동 생성](auto-generate-ids.md)
 
-- [AEM 기본 사전 사용자 지정](customize-aem-custom-dictionary.md)
+- [AEM의 기본 사전 사용자 지정](customize-aem-custom-dictionary.md)
 
 - [텍스트 필터 구성](config-text-filters.md)
 

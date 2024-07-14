@@ -1,6 +1,6 @@
 ---
 title: 완료된 검토 작업 보기
-description: AEM Guides에서 완료된 검토 작업을 검토자 또는 작성자로 보는 방법에 대해 알아봅니다.
+description: AEM Guides에서 검토자 또는 작성자로 완료된 검토 작업을 보는 방법에 대해 알아봅니다.
 exl-id: 7c468a1c-046c-4b40-9f0b-1a67e6cf65fe
 feature: Reviewing
 role: User

@@ -2,7 +2,8 @@
 title: 목록
 description: 목록
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 333b5e24-efba-4a51-8f68-83b5d1d7daec
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '59'
 ht-degree: 5%
@@ -34,7 +35,7 @@ const listJSON =  {
 },
 ```
 
-일반적으로 itemConfig는 `widget`. 위젯에 대한 자세한 내용을 보려면 다음 위치로 이동하십시오. [위젯](../Widgets/basic-widget.md)
+일반적으로 itemConfig는 `widget`입니다. 위젯에 대한 자세한 내용을 보려면 [위젯](../Widgets/basic-widget.md)(으)로 이동하십시오.
 
 렌더링된 목록은 다음과 같이 표시됩니다.
 

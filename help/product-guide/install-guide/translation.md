@@ -23,24 +23,24 @@ ht-degree: 9%
 
 콘텐츠 번역의 단계는 다음과 같습니다.
 
-1. AEM과 연결 [번역 서비스 제공업체](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider) 및 만들기 [번역 통합 프레임워크 구성](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration).
+1. [번역 서비스 공급자](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider)와 AEM을 연결하고 [번역 통합 프레임워크 구성을 만듭니다](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration).
 
-1. 언어 마스터의 페이지를 [번역 서비스 및 프레임워크 구성](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation).
+1. 언어 마스터의 페이지를 [번역 서비스 및 프레임워크 구성](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation)과 연결합니다.
 
-1. 유형 식별 [번역할 콘텐츠](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-rules.html).
+1. 번역할 [콘텐츠 유형 식별](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-rules.html).
 
 1. 언어 마스터를 작성하고 언어 사본의 루트 페이지를 만들어 [번역할 콘텐츠를 준비](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html)합니다.
 
-1. 만들기 [번역 프로젝트](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html) 번역할 콘텐츠를 수집하고 번역 프로세스를 준비합니다.
+1. [번역 프로젝트](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html)를 만들어 번역할 콘텐츠를 수집하고 번역 프로세스를 준비합니다.
 
-1. 번역 프로젝트를 사용하여 다음 작업을 수행합니다 [콘텐츠 번역 관리](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html) 프로세스.
+1. 번역 프로젝트를 사용하여 [콘텐츠 번역을 관리](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html) 합니다.
 
 
 번역 서비스 공급자가 AEM과의 통합에 대한 커넥터를 제공하지 않는 경우, AEM은 번역된 콘텐츠를 XML 형식으로 수동으로 내보내고 가져올 수 있도록 지원합니다.
 
 >[!TIP]
 >
-> 다음을 참조하십시오. *번역*&#x200B;콘텐츠 번역과 관련된 모범 사례에 대한 모범 사례 안내서의 섹션.
+> 콘텐츠 번역에 대한 모범 사례는 모범 사례 안내서의 *번역* 섹션을 참조하십시오.
 
 ## DITA 맵 대시보드에서 번역 탭 구성
 
@@ -54,9 +54,9 @@ ht-degree: 9%
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 을(를) 검색하고 클릭합니다. **com.adobe.fmdita.config.ConfigManager** 번들.
+1. **com.adobe.fmdita.config.ConfigManager** 번들을 검색하고 클릭합니다.
 
-1. 다음 항목 선택 **번역 탭 숨기기** 옵션을 사용하여 맵 대시보드에서 번역 탭을 숨깁니다.
+1. 맵 대시보드에서 번역 탭을 숨기려면 **번역 탭 숨기기** 옵션을 선택합니다.
 
    >[!NOTE]
    >
@@ -78,17 +78,17 @@ ht-degree: 9%
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 을(를) 검색하고 클릭합니다. **com.adobe.fmdita.config.ConfigManager** 번들.
+1. **com.adobe.fmdita.config.ConfigManager** 번들을 검색하고 클릭합니다.
 
-1. 구성 **구성 요소 기반 DITA 번역 워크플로** 설정에 따른 옵션:
+1. 설정에 따라 **구성 요소 기반 DITA 번역 워크플로** 옵션을 구성합니다.
 
-   - 사람 번역을 사용하는 경우 *사용 안 함* 다음 **구성 요소 기반 번역 워크플로** 옵션을 선택합니다.
+   - 사람 번역을 사용하는 경우 **구성 요소 기반 번역 워크플로** 옵션을 *사용 안 함*&#x200B;합니다.
 
-   - 기계 번역을 사용하는 경우 *사용* 다음 **구성 요소 기반 번역 워크플로** 옵션을 선택합니다.
+   - 기계 번역을 사용하는 경우 **구성 요소 기반 번역 워크플로** 옵션을 *사용*&#x200B;하십시오.
 
    >[!NOTE]
    >
-   > 번역 커넥터를 사용하는 경우 다음에 설명된 대로 커넥터를 구성했는지 확인하십시오. *[번역 통합 프레임워크 구성](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html)* 주제(AEM 설명서).
+   > 번역 커넥터를 사용하는 경우 AEM 설명서의 *[번역 통합 프레임워크 구성](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html)* 항목에 설명된 대로 커넥터를 구성했는지 확인하십시오.
 
 1. **저장**&#x200B;을 클릭합니다.
 
@@ -143,12 +143,12 @@ Based on the translation workflow used in your setup, provide the following (pro
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 을(를) 검색하고 클릭합니다. **com.adobe.fmdita.config.ConfigManager** 번들.
+1. **com.adobe.fmdita.config.ConfigManager** 번들을 검색하고 클릭합니다.
 
-1. 구성 **사후 처리 언어 사본** 설정에 따른 옵션:
+1. 설정에 따라 **Post-프로세스 언어 사본** 옵션을 구성합니다.
 
-   - \(*기본값*\) 임시 파일에서 사후 처리 작업을 실행하지 않으려면 다음을 수행합니다 *사용 안 함* 다음 **사후 처리 언어 사본** 옵션을 선택합니다.
+   - \(*기본*\) 임시 파일에서 후처리 작업을 실행하지 않으려면 *언어 사본&#x200B;**Post 처리**옵션을 비활성화*&#x200B;하십시오.
 
-   - 임시 파일에서 후처리 작업을 실행하려면 *사용* 다음 **사후 처리 언어 사본** 옵션을 선택합니다.
+   - 임시 파일에서 사후 처리 작업을 실행하려면 **Post 언어 사본 처리** 옵션을 *사용*&#x200B;합니다.
 
 1. **저장**&#x200B;을 클릭합니다.

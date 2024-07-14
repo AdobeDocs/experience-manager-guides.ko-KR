@@ -1,17 +1,17 @@
 ---
 title: 특정 사용자를 위해 웹 편집기의 파일 상황에 맞는 메뉴에서 '삭제' 옵션 제거
 description: 특정 사용자/그룹에 대한 파일 상황에 맞는 메뉴에서 '삭제' 옵션을 제거하여 웨비저 사용자 지정 방법을 알아봅니다
-source-git-commit: aacc04e2fb6ca061825e5e219ad6e03bf711b3d0
+exl-id: 31b4dd53-3938-42e1-bbc6-64806d668696
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
 
 ---
 
-
 # 웹 편집기의 파일 상황에 맞는 메뉴에서 &#39;삭제&#39; 옵션 제거
 
-이 문서에서는 특정 사용자 또는 그룹을 위해 AEM Guides 웹 편집기의 파일 컨텍스트 메뉴에서 &#39;삭제&#39; 옵션을 숨기는 방법에 대해 알아봅니다. 파일 컨텍스트 메뉴 옵션의 기타 사용자 지정에 대해서는 Guides Extension Framework 를 확인하십시오. 자세한 내용은 [여기](https://github.com/adobe/guides-extension/tree/main).
+이 문서에서는 특정 사용자 또는 그룹을 위해 AEM Guides 웹 편집기의 파일 컨텍스트 메뉴에서 &#39;삭제&#39; 옵션을 숨기는 방법에 대해 알아봅니다. 파일 컨텍스트 메뉴 옵션의 기타 사용자 지정에 대해서는 Guides Extension Framework 를 확인하십시오. 자세한 내용은 [여기](https://github.com/adobe/guides-extension/tree/main)를 참조하세요.
 
 아래 코드 조각에서 볼 수 있듯이 파일 컨텍스트 메뉴에는 이 특정 사용자에게 사용할 수 있는 &#39;삭제&#39; 옵션이 있습니다.
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ![사용자 권한 거부 ACE](../../../assets/authoring/permission-ACE-Delete.png)
 
-![권한의 액세스 제어 목록](../../../assets/authoring/delete-acl.png)
+![사용 권한의 액세스 제어 목록](../../../assets/authoring/delete-acl.png)
 
 ### 테스트
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 파일 컨텍스트 메뉴는 이제 다음과 같이 표시됩니다.
 
-![파일 contextmenu(삭제 안 함)](../../../assets/authoring/file-contextmenu-Delete-removed.png)
+![삭제 없이 파일 contextmenu](../../../assets/authoring/file-contextmenu-Delete-removed.png)
 
 ```
 Please note that these steps would also remove 'move' and 'rename' options from the Web Editor as they are also tied to delete process at the backend.

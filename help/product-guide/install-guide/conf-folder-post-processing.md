@@ -4,19 +4,19 @@ description: Adobe Experience Manager Assets에 업로드된 폴더에 대해 �
 feature: Filename Configuration
 role: Admin
 level: Experienced
-source-git-commit: 532e7c562a233619a8c4b7cbdbaef44bc73eb4b2
+exl-id: ff6e1322-9655-42aa-b353-199c70c9de49
+source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 0%
 
 ---
 
-
 # 폴더에 대한 사후 처리 비활성화
 
-기본적으로 업로드된 모든 자산은 DAM 자산 업데이트 워크플로우를 사용하여 처리됩니다. Experience Manager 안내서는 이 워크플로우의 일부로 후처리라는 추가 처리를 실행합니다. UUID를 생성하는 데도 도움이 됩니다
+기본적으로 업로드된 모든 자산은 DAM 자산 업데이트 워크플로우를 사용하여 처리됩니다. Experience Manager Guides은 이 워크플로우의 일부로 후처리라는 추가 처리를 실행합니다. UUID를 생성하는 데도 도움이 됩니다
 
-에 파일 및 폴더를 업로드하는 동안 *Adobe Experience Manager Assets* 서버에서 사후 처리 및 UUID 생성을 비활성화할 수도 있습니다.
+*Adobe Experience Manager Assets* 서버에 파일과 폴더를 업로드하는 동안 사후 처리 및 UUID 생성을 비활성화할 수도 있습니다.
 
 
 지정된 경로에서 후처리를 비활성화하거나 폴더에 대한 후처리를 무시하려면 다음 단계를 수행하십시오.
@@ -30,11 +30,11 @@ ht-degree: 0%
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 을(를) 검색하고 클릭합니다. **com.adobe.fmdita.config.ConfigManager** 번들.
+1. **com.adobe.fmdita.config.ConfigManager** 번들을 검색하고 클릭합니다.
 
-1. 다음 항목 선택 **사후 처리에 대해 무시된 경로** 사후 처리를 위해 폴더를 무시하는 옵션입니다.
+1. 사후 처리에 폴더를 무시하려면 **Post 처리에 대해 무시된 경로** 옵션을 선택하십시오.
 
-   표준 NODE_PROPERTIES를 설정하는 문자열 값(다중 값 OPTIONS, 누락된 경로가 있는 문자열) `/` 끝 부분에서)
+   표준 NODE_PROPERTIES를 설정할 문자열 값(다중 값 OPTIONS, 끝에 `/`이(가) 없는 경로가 있는 문자열)
 
    **기본값**: `/content/dam/projects/translation_output`
 
@@ -42,9 +42,9 @@ ht-degree: 0%
    >
    > 이 속성은 기본적으로 비활성화되어 있으며 맵 대시보드에서 번역 탭을 사용할 수 있습니다.
 
-1. 다음 항목 선택 **사후 처리에 대해 활성화된 경로** 옵션을 사용하여 사후 처리에 대한 경로를 활성화합니다.
+1. **Post 처리에 대해 활성화된 경로** 옵션을 선택하여 사후 처리에 대한 경로를 활성화합니다.
 
-   표준 NODE_PROPERTIES를 설정하는 문자열 값(다중 값 OPTIONS, 누락된 경로가 있는 문자열) `/` 끝 부분에서)
+   표준 NODE_PROPERTIES를 설정할 문자열 값(다중 값 OPTIONS, 끝에 `/`이(가) 없는 경로가 있는 문자열)
 
    **기본값**: `/content/dam/`
 

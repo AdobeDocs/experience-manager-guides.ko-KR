@@ -16,7 +16,8 @@ ht-degree: 0%
 
 ## 북맵 설정
 
-포함 `<toc>`  요소: 북맵 내 `<frontmatter>`요소, 다음 위치 찾기 `<booklists>` 요소를 생성하지 않습니다.  네스트 a `<toc>` 요소 내부 `<booklists>` 다음과 같이:
+`<toc>` 요소 포함:
+북맵의 `<frontmatter>`요소 내에서 `<booklists>` 요소를 찾습니다.  다음과 같이 `<booklists>` 내에 `<toc>` 요소를 중첩합니다.
 
 ```
 <frontmatter>
@@ -27,7 +28,7 @@ ht-degree: 0%
 </frontmatter>
 ```
 
-DITA 사양을 사용하여 목차와 북리스트를 `<backmatter>` 섹션도 참조하십시오.
+DITA 사양을 사용하면 목차와 책 목록을 `<backmatter>` 섹션 내에 배치할 수도 있습니다.
 
 
 ```
@@ -88,17 +89,17 @@ Ditamaps 자체는 북맵처럼 목차(TOC)를 직접 가지고 있지 않습니
 
 Ditamap을 게시하는 경우 기본 PDF은 TOC 및 북리스트를 자동으로 생성하는 기능을 제공합니다. 기본 PDF 설정에서 ditamap의 TOC 생성을 활성화/비활성화할 수 있습니다.
 
-![목차 비활성화 활성화](../assets/publishing/pageorder.png)
+![TOC 사용 안 함](../assets/publishing/pageorder.png)
 
 ## 추가 리소스 :
 
 - [기본 PDF 디자인 페이지 레이아웃 설명서](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/design-page-layout)
-- [네이티브 PDF essentials 사전 녹화된 전문가 세션](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
+- [기본 PDF essentials 사전 기록된 전문가 세션](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
 
 <br>
 <br>
 
-AEM Guides 커뮤니티에 게시 [포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) 모든 쿼리에 사용됩니다.
+모든 쿼리를 위해 AEM Guides 커뮤니티 [포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)의 Post.
 
 
 

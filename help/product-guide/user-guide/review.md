@@ -1,6 +1,6 @@
 ---
 title: 주제 또는 맵 검토
-description: 원활한 콘텐츠 평가를 위해 AEM Guides에서 주제나 맵을 효율적으로 검토합니다. AEM Guides의 작성자 및 검토자의 기능을 이해합니다.
+description: 원활한 콘텐츠 평가를 위해 AEM Guides에서 주제나 맵을 효율적으로 검토합니다. AEM Guides의 작성자 및 검토자를 위한 기능을 알아봅니다.
 exl-id: 81ea0b52-52b0-4764-a6d8-a96d5c7693bf
 feature: Reviewing
 role: User
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 거의 모든 기술 문서는 여러 차례의 검토를 거쳐야 합니다. 대부분의 경우 검토 주기에는 두 명 이상의 검토자가 포함됩니다. 여러 검토자의 주석을 처리하고 응답하는 것은 작성자에게 항상 어려운 일입니다. 또한 여러 검토자 시나리오에서 한 검토자가 다른 검토자의 주석을 볼 수도 있는 경우 유용합니다.
 
-AEM Guides에서 로 제공하는 몇 가지 주요 기능 *이니시에이터 \(또는 작성자\)* 은(는)
+AEM Guides에서 *이니시에이터 \(또는 작성자\)*&#x200B;에게 제공하는 몇 가지 주요 기능은 다음과 같습니다.
 
 - 검토 워크플로에 대한 DITA 프로젝트를 만듭니다.
 - 단일 검토 작업에서 검토할 하나 이상의 주제를 보냅니다.
@@ -35,7 +35,7 @@ AEM Guides에서 로 제공하는 몇 가지 주요 기능 *이니시에이터 \
 - 검토를 위해 공유된 토픽 버전으로 \(삭제되거나 삽입된\) 주석을 자동으로 가져옵니다.
 
 
-사용 가능한 기능 *검토자*:
+*검토자*&#x200B;가 사용할 수 있는 기능:
 
 - 검토를 위해 공유된 주제에 대한 하나의 복합 보기를 가져옵니다.
 - 복합 보기와 개별 주제 보기 간 전환
@@ -51,16 +51,16 @@ AEM Guides에서 로 제공하는 몇 가지 주요 기능 *이니시에이터 \
 
 >[!NOTE]
 >
-> 다음을 참조하십시오. *리뷰* [모범 사례 안내서]의 섹션에서 검토 작업 만들기에 대한 모범 사례를 확인할 수 있습니다.
+> 검토 작업 만들기에 대한 모범 사례는 모범 사례 안내서의 *검토* 섹션을 참조하십시오.
 
 - **[DITA 프로젝트 만들기](authoring-create-dita-project.md)**
 
 - **[검토할 항목 보내기](review-send-topics-for-review.md)**
 
-- **[알림을 사용하여 검토 작업 재할당](reassign-review-using-notification.md)**
+- **[알림을 사용하여 검토 작업 다시 할당](reassign-review-using-notification.md)**
 
 - **[주제 검토](review-topics.md)**
 
-- **[리뷰 댓글 처리](review-address-review-comments.md)**
+- **[주소 검토 의견](review-address-review-comments.md)**
 
 - **[검토 대시보드를 사용하여 검토 작업 관리](review-manage-tasks-review-dashboard.md)**

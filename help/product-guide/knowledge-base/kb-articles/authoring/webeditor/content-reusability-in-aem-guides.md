@@ -1,6 +1,6 @@
 ---
 title: AEM Guides의 DITA 콘텐츠 재사용
-description: 이 간략한 문서는 AEM Guides 및 DITA를 통해 콘텐츠 재사용 가능성을 사용할 때 시간과 노력을 절약하는 방법을 설명합니다
+description: 이 간략한 문서에서는 AEM Guides 및 DITA를 통해 콘텐츠 재사용 가능성을 사용할 때 시간과 노력을 절약하는 방법을 설명합니다
 role: User, Admin
 exl-id: 1522ebf5-2aea-4d8f-ade7-367227b31dd9
 source-git-commit: 4160c990bafe41611714ef66ee361aba0ef47c0a
@@ -10,15 +10,15 @@ ht-degree: 0%
 
 ---
 
-# AEM Guides의 콘텐츠 재사용 가능
+# AEM Guides의 콘텐츠 재사용 가능성
 
-Adobe AEM Guides는 DITA의 강점을 활용하여 컨텐츠 재사용을 위한 사용자 친화적인 인터페이스를 제공합니다.
+Adobe AEM Guides은 DITA의 강점을 활용하여 컨텐츠 재사용을 위한 사용자 친화적인 인터페이스를 제공합니다.
 
 이 문서에서는 다음에 대해 설명합니다.
 
 1. [주제 참조( )를 사용하여 재사용 가능](#reusability-using-topic-referencestopicref)
 2. [콘텐츠 참조를 사용한 재사용 가능성(](#reusability-using-content-reference-conref--conkeyref)
-3. [AEM Guides에서 드래그하여 놓기로 콘텐츠를 재사용하는 추가 팁](#reuse-content-with-a-single-click-in-aem-guides)
+3. [AEM Guides에서 드래그하여 놓기로 콘텐츠를 재사용하는 보너스 팁](#reuse-content-with-a-single-click-in-aem-guides)
 
 ## 주제 참조를 사용한 재사용 가능성(topicref)
 
@@ -77,11 +77,11 @@ Adobe AEM Guides는 DITA의 강점을 활용하여 컨텐츠 재사용을 위한
 </section>
 ```
 
-여기 `conref=kyc_procedures.dita#indvidual_kyc` kyc_procedures.dita는 파일 식별자이고 #individual_kyc은 조각 식별자입니다.
+여기서 `conref=kyc_procedures.dita#indvidual_kyc` kyc_procedures.dita는 파일 식별자이고 #individual_kyc은 조각 식별자입니다.
 
 Kyc_procedure.dita는 정보의 유일한 소스입니다. 규정에 따라 KYC 프로세스에 변경 사항이 있는 경우 한 개의 주제만 업데이트하면 해당 변경 사항이 자동으로 참조하는 모든 주제에 반영됩니다.
 
-AEM Guides를 사용하여 두 번의 클릭
+AEM Guides을 사용하여 두 번의 클릭
 
 1단계: 재사용 가능한 콘텐츠 삽입 클릭
 ![도구 모음](../../assets/publishing/content-reusability_image1.png)
@@ -125,7 +125,7 @@ AEM Guides를 사용하여 두 번의 클릭
 
 여기서는 최근 규정 변경으로 인해 주제 경로가 &quot;kyc_procedure_2020.dita&quot;에서 &quot;kyc_procedure_2024.dita&quot;로 변경되었습니다.
 
-AEM Guides를 사용하여 두 번의 클릭
+AEM Guides을 사용하여 두 번의 클릭
 
 1단계: 재사용 가능한 콘텐츠 삽입 클릭
 ![도구 모음](../../assets/publishing/content-reusability_image1.png)
@@ -138,7 +138,7 @@ AEM Guides를 사용하여 두 번의 클릭
 
 ## AEM Guides에서 한 번의 클릭으로 콘텐츠 재사용
 
-AEM Guides는 한 번의 클릭으로 콘텐츠 참조를 추가할 수 있는 &quot;재사용 가능한 콘텐츠&quot; 기능을 제공합니다.
+AEM Guides은 한 번의 클릭으로 콘텐츠 참조를 추가할 수 있는 &quot;재사용 가능한 콘텐츠&quot; 기능을 제공합니다.
 
 1단계: 재사용 가능한 콘텐츠에 일반 주제 추가
 
@@ -164,4 +164,4 @@ AEM Guides는 한 번의 클릭으로 콘텐츠 참조를 추가할 수 있는 &
 <br>
 
 
-AEM Guides 커뮤니티에 게시 [포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) 모든 쿼리에 사용됩니다.
+모든 쿼리를 위해 AEM Guides 커뮤니티 [포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)의 Post.

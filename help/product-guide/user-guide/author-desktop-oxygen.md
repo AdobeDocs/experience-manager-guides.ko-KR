@@ -1,6 +1,6 @@
 ---
 title: 산소를 사용한 작업
-description: AEM Guides의 컨텐츠 작성 및 게시를 위한 Oxygen XML Editor 지원에 대해 알아봅니다.
+description: AEM Guides에서 컨텐츠 작성 및 게시를 위한 Oxygen XML Editor 지원에 대해 알아봅니다.
 exl-id: 7c1a610c-e203-4298-9b29-457aef5e8c94
 feature: Authoring, Desktop Tools
 role: User
@@ -17,6 +17,6 @@ Oxygen XML Author에는 사용자 친화적인 작성 기능이 포함되어 있
 
 동일한 소스를 사용하여 PDF, ePub, HTML 및 기타 다양한 형식으로 출력을 생성할 수 있습니다.
 
-*고객 지원 팀에 문의하여 이 기능을 환경에서 활성화하십시오. 이 기능은 기본 지원의 일부로 활성화되지 않습니다.*
+*고객 지원 팀에 문의하여 환경에서 이 기능을 활성화하십시오. 기본 지원의 일부로 사용할 수 없습니다.*
 
-**상위 항목:**[&#x200B;데스크탑 도구를 사용하여 콘텐츠 작성](author-desktop-tools.md)
+**상위 항목:**[&#x200B;데스크톱 도구를 사용하여 콘텐츠 작성](author-desktop-tools.md)

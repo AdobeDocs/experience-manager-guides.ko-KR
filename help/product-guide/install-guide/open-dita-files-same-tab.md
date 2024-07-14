@@ -24,18 +24,18 @@ ht-degree: 0%
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 을(를) 검색하고 클릭합니다. **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** 번들.
+1. **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** 번들을 검색하고 클릭합니다.
 
-1. 다음 항목 선택 **동일한 탭에서 DITA 주제/맵 열기** 옵션을 선택합니다.
+1. **같은 탭에서 DITA 주제/맵 열기** 옵션을 선택합니다.
 
 1. **저장**&#x200B;을 클릭합니다.
 
 
 이 설정은 주제 또는 맵 파일에 액세스할 수 있는 다음 위치에 영향을 줍니다.
 
-- 워크플로 끝에 있는 \(을(를) 클릭하여 **주제 열기** button\)
+- DITA 주제를 만듭니다. \(워크플로우 끝에 **주제 열기** 단추를 클릭하면\)
 
-- 워크플로우의 끝에 있는 \(를 클릭하면 **맵 열기** button\)
+- DITA 맵 만들기 \(워크플로우 끝에 **맵 열기** 단추를 클릭하면\)
 
 - DITA 맵 콘솔의 주제 탭
 

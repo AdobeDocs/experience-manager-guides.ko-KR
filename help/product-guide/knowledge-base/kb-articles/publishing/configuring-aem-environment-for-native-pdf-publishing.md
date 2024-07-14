@@ -39,7 +39,7 @@ AEM Guides에서 이 기본 PDF을 구성하는 단계는 운영 체제에 따�
 2. Windows 작업 표시줄에서 Windows 아이콘을 마우스 오른쪽 단추로 클릭하고 시스템을 선택합니다.
 3. 설정 창의 관련 설정에서 고급 시스템 설정을 클릭합니다.
 4. 고급 탭에서 환경 변수를 클릭합니다.
-5. 시스템 변수 섹션에서 다음을 클릭합니다._신규_&quot;새 환경 변수를 생성합니다.
+5. 시스템 변수 섹션에서 &quot;_새로 만들기_&quot;를 클릭하여 새 환경 변수를 만듭니다.
 6. 변수 이름을 JAVA_HOME으로 입력합니다.
 7. 값 필드에서 Java 설치 경로를 입력하고 확인을 클릭합니다.
 
@@ -93,7 +93,7 @@ AEM Guides에서 이 기본 PDF을 구성하는 단계는 운영 체제에 따�
    2. 내보내기 경로=$PATH: $JAVA\_HOME/bin
 
 5. Guides 버전 4.2 이상을 사용하는 경우 AEM Server를 다시 시작하고 12단계로 이동합니다.
-6. 를 복사합니다._node_modules.zip_&#x200B;이 문서 하단에 있는 &quot; crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcabe8166/ 디렉토리에 첨부되었습니다.
+6. 이 문서 하단에 첨부된 &quot;_node_modules.zip_&quot;을(를) crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcabe8166/ 디렉터리에 복사합니다.
 7. crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcabe8166/ 위치의 터미널 열기
 8. 아래 명령을 사용하여 node_modules 디렉터리 삭제
 
@@ -111,7 +111,7 @@ AEM Guides에서 이 기본 PDF을 구성하는 단계는 운영 체제에 따�
 명령: yum install fontconfig
 12. 웹 편집기의 사전 설정에서 기본 PDF을 생성합니다.
 
-**참고** : node_modules.zip 패키지를 다운로드할 수 있습니다. [여기](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:295d8f03-41e1-429b-8465-2761ce3c2fb3).
+**참고** : node_modules.zip 패키지를 [여기](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:295d8f03-41e1-429b-8465-2761ce3c2fb3)에서 다운로드할 수 있습니다.
 
 Linux 운영 체제용 다운로드한 노드 모듈을 수동으로 가져오는 것은 Guides 4.1 이하 버전(6-12단계)을 사용하는 사용자를 위한 해결 방법입니다
 
@@ -142,11 +142,13 @@ Linux 운영 체제용 다운로드한 노드 모듈을 수동으로 가져오�
 
    C:/{aem-installation-folder}/crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcabe8166
 
-   i) 찾기 . -type d -exec chmod 0755 {} \; ii) 을(를) 찾습니다. -type f -exec chmod 0755 {} \; iii) 을 참조하십시오./node-darwin/bin/node node-darwin/lib/node_modules/npm/bin/npm-cli.js —접두사 . install —unsafe-perm —scripts-prepend-node-path
+   i) 찾기 . -type d -exec chmod 0755 {} \;
+ii) 찾기 . -type f -exec chmod 0755 {} \;
+iii)./node-darwin/bin/node node-darwin/lib/node_modules/npm/bin/npm-cli.js —접두사 . install —unsafe-perm —scripts-prepend-node-path
 
 8. 아래 명령을 사용하여 Java가 설치되었는지 확인합니다
 
-   i) 실행 **./node-darwin/bin/node** /crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcabe8166 폴더의 명령
+   i) **실행/crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcabe8166 폴더의 /node-darwin/bin/node** 명령
 
    ![mac](../assets/publishing/mac.png)
 
@@ -173,9 +175,9 @@ Java 환경 설정을 수정한 후에도 문제가 지속되면 다음 사항�
 
 ### RHEL 7 Linux OS에 누락된 라이브러리
 
-![라이브러리 누락](../assets/publishing/missing-libraries.png)
+![누락된 라이브러리](../assets/publishing/missing-libraries.png)
 
-### 게시 프로세스 시간 초과. 지정된 시간 0ms 내에 프로세스가 완료되지 않았습니다.
+### Publish 프로세스 시간 제한. 지정된 시간 0ms 내에 프로세스가 완료되지 않았습니다.
 
 ![게시 프로세스 시간 초과](../assets/publishing/publish-process-timeout.png)
 
@@ -183,4 +185,4 @@ CRX 저장소의 /var/dxml/profiles/b1aad0a7-9079-e56c-1ed8-6fcabe8166/nodejs에
 
 
 
-위의 단계를 수행하는 동안 문제가 발생하면 AEM Guides 커뮤니티에 질문을 게시하십시오 [포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) 도움이 필요하신가요?
+위의 단계를 수행하는 동안 문제가 발생하면 AEM Guides 커뮤니티 [포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)에 질문을 게시하여 도움을 받으십시오.

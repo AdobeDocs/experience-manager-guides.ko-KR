@@ -39,7 +39,7 @@ ht-degree: 1%
    - [닫을 때 파일을 체크 인하도록 프롬프트 구성](conf-checkin-file-close.md)
    - [허용되는 특수 문자 구성](conf-special-chars.md)
    - [요소 ID 자동 생성](auto-generate-ids.md)
-   - [AEM 기본 사전 사용자 지정](customize-aem-custom-dictionary.md)
+   - [AEM의 기본 사전 사용자 지정](customize-aem-custom-dictionary.md)
    - [텍스트 필터 구성](config-text-filters.md)
    - [파일 찾아보기 대화 상자에 대한 필터 구성](conf-custom-file-filters.md)
    - [문서 기반 게시용 패키지 설치](configure-article-based-publishing.md)

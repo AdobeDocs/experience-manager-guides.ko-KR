@@ -1,6 +1,6 @@
 ---
-title: 릴리스 정보 | Adobe Experience Manager Guides as a Cloud Service, 2022년 4월 릴리스
-description: Adobe Experience Manager Guides as a Cloud Service 4월 릴리스
+title: 릴리스 정보 | Adobe Experience Manager Guides as a Cloud Service 2002년 4월 릴리스
+description: Adobe Experience Manager Guidesas a Cloud Service 의 4월 릴리스
 exl-id: c735ba24-a803-454b-8723-57dacf90061b
 feature: Release Notes
 role: Leader
@@ -11,18 +11,18 @@ ht-degree: 0%
 
 ---
 
-# Adobe Experience Manager Guides as a Cloud Service 4월 릴리스
+# Adobe Experience Manager Guidesas a Cloud Service 의 4월 릴리스
 
 ## 4월 릴리스로 업그레이드
 
-현재 업그레이드 [!DNL Adobe Experience Manager Guides] as a Cloud Service(나중에 참조) *[!DNL AEM Guides]as a Cloud Service*) 다음 단계를 수행하여 설정합니다.
+as a Cloud Service as a Cloud Service 다음 단계를 수행하여 현재 [!DNL Adobe Experience Manager Guides] (나중에 *[!DNL AEM Guides]*) 설정을 업그레이드하십시오.
 1. Cloud Service의 Git 코드를 체크아웃하고 업그레이드하려는 환경에 해당하는 Cloud Service 파이프라인에 구성된 분기로 전환합니다.
-1. 업데이트 `<dox.version>` 의 속성 `/dox/dox.installer/pom.xml` 2022.4.133에 대한 Cloud Service Git 코드 파일입니다.
-1. 변경 사항을 커밋하고 Cloud Service 파이프라인을 실행하여 의 4월 릴리스로 업그레이드합니다. [!DNL AEM Guides] as a Cloud Service.
+1. Cloud Service Git 코드의 `/dox/dox.installer/pom.xml` 파일에서 `<dox.version>` 속성을 2022.4.133으로 업데이트합니다.
+1. 변경 사항을 커밋하고 Cloud Service as a Cloud Service 파이프라인을 실행하여 [!DNL AEM Guides]의 4월 릴리스로 업그레이드하십시오.
 
 ## 호환성 매트릭스
 
-이 섹션에서는 이 지원하는 소프트웨어 응용 프로그램의 호환성 매트릭스를 나열합니다. [!DNL AEM Guides] as a Cloud Service 2022년 4월 릴리스.
+이 섹션에서는 [!DNL AEM Guides] as a Cloud Service 2022년 4월 릴리스에서 지원되는 소프트웨어의 호환성 매트릭스를 나열합니다.
 
 ### FrameMaker 및 FrameMaker Publishing Server
 
@@ -57,15 +57,15 @@ DITA 콘텐츠 키 참조는 한 주제의 콘텐츠 일부를 다른 주제에 
 1. 맵 보기 패널
 1. 폴더 프로필
 
-자세한 내용은 *키 참조 확인* 섹션에 자세히 설명되어 있습니다.
+자세한 내용은 사용 안내서에서 *키 참조 확인* 섹션을 참조하십시오.
 
 ### 왼쪽 패널에 사용자 정의 패널 추가
 
-이제 웹 편집기의 왼쪽 패널 내에 사용자 지정 패널을 추가할 수 있습니다. 사용자 정의 패널을 프로젝트에 대한 도움말 제공이나 테스트 수행과 같은 다양한 용도로 사용할 수 있습니다. 사용자 지정 패널이 구성된 경우 내 패널 목록에도 표시됩니다. **편집기 설정**. 스위치를 전환하여 사용자 지정 패널을 표시하거나 숨길 수 있습니다.
+이제 웹 편집기의 왼쪽 패널 내에 사용자 지정 패널을 추가할 수 있습니다. 사용자 정의 패널을 프로젝트에 대한 도움말 제공이나 테스트 수행과 같은 다양한 용도로 사용할 수 있습니다. 사용자 지정 패널이 구성된 경우 **편집기 설정** 내의 패널 목록에도 표시됩니다. 스위치를 전환하여 사용자 지정 패널을 표시하거나 숨길 수 있습니다.
 
 ### DITA 맵에서 주제의 문서 상태를 변경하는 기능
 
-이제 DITA 맵 내에서 선택한 주제의 문서 상태를 쉽게 변경할 수 있습니다. DITA 맵에서 선택한 주제의 속성을 열고 편집할 수도 있습니다. **추가 옵션** [맵 보기] 패널 아래에 있는 메뉴
+이제 DITA 맵 내에서 선택한 주제의 문서 상태를 쉽게 변경할 수 있습니다. 맵 보기 패널 아래쪽에 있는 **추가 옵션** 메뉴에서 DITA 맵에서 선택한 주제의 속성을 열고 편집할 수도 있습니다.
 
 ![선택한 항목 속성](assets/map-view-properties.png)
 
@@ -73,7 +73,7 @@ DITA 콘텐츠 키 참조는 한 주제의 콘텐츠 일부를 다른 주제에 
 
 웹 편집기는 버전을 관리하는 데 도움이 됩니다. 이제 주제의 미리 보기 모드에서 주제의 파일 탭 오른쪽 상단 모서리에 활성 주제 또는 DITA 맵의 버전을 볼 수도 있습니다.
 
-![버전 미리 보기](assets/preview-version.png)
+![미리 보기 버전](assets/preview-version.png)
 
 ## 해결된 문제
 
@@ -87,7 +87,7 @@ DITA 콘텐츠 키 참조는 한 주제의 콘텐츠 일부를 다른 주제에 
 * 탭의 제목에 키워드가 사용될 때 문제가 발생합니다. (9318)
 * 공백이 있는 레이블을 추가할 때 기준선이 실패합니다. (9362)
 * AEM 사이트 출력에 glossusage 요소가 올바르게 표시되지 않습니다. (8936)
-* 를 열 때 콘솔 오류 발생 **출력** 웹 편집기의 탭 (8715)
+* 웹 편집기에서 **출력** 탭을 열 때 콘솔 오류가 발생합니다. (8715)
 * Salesforce를 통해 수동 레코드 유형을 게시할 때 표시되는 오류 메시지가 직관적이지 않습니다. (8952)
 * 조건 속성으로 유효성 검사 설정은 즉시 열리지 않습니다. 대신 사용자가 유효성 검사를 보려면 파일을 다시 열어야 합니다. (9300)
 * DITA 맵이 메타데이터와 함께 게시되면 메타데이터를 제거할 수 없습니다.  (9178)
@@ -100,7 +100,7 @@ DITA 콘텐츠 키 참조는 한 주제의 콘텐츠 일부를 다른 주제에 
 
 ## 알려진 문제
 
-Adobe이 [!DNL AEM Guides] as a Cloud Service 4월 릴리스.
+Adobeas a Cloud Service 는 [!DNL AEM Guides] 알려진 4월 릴리스에서 다음 문제를 확인했습니다.
 
 * 이름이 같지만 공백이나 대/소문자가 다른 두 개 이상의 기준선을 만들 때 웹 편집기에서 오류를 보고하지 않습니다. 예: &quot;adobe&quot; 및 &quot;Adobe &quot; 또는 &quot;Adobe&quot;.
 * 서로 다른 인증 유형 간에 자주 로그인하거나 로그아웃하거나 전환하는 동안 산소 커넥터가 간헐적으로 중단됩니다.

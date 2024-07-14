@@ -29,7 +29,7 @@ DITA 맵에 대해 만든 출력 사전 설정을 사용하여 저장소 패널 
 
 - **[웹 편집기에서 출력 사전 설정 만들기](web-editor-article-publishing-presets.md)**
 
-- **[저장소 패널 또는 맵 보기 패널에서 출력 생성](web-editor-article-publishing-output.md)**
+- **[저장소 패널 또는 맵 보기 패널에서 출력을 생성합니다](web-editor-article-publishing-output.md)**
 
 
-**상위 항목:**[&#x200B;웹 편집기 작업](web-editor.md)
+**상위 항목:**[&#x200B;웹 편집기에서 작업](web-editor.md)

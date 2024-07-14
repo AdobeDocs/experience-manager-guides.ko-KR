@@ -13,7 +13,7 @@ ht-degree: 4%
 
 # 콘텐츠 번역
 
-AEM Guides는 강력한 번역 기능을 통해 다국어 콘텐츠 생성을 위한 최상의 솔루션을 제공합니다.
+AEM Guides은 강력한 번역 기능을 갖춘 다국어 콘텐츠 생성을 위한 최상의 솔루션을 제공합니다.
 
 ## 세션 개요
 
@@ -28,7 +28,7 @@ AEM Guides는 강력한 번역 기능을 통해 다국어 콘텐츠 생성을 �
 - **날짜** - 2022년 10월 27일
 - **참석자 수** - 94
 - **기간** - 60분
-- **대상자** - 고객, 파트너 및 Adobe 직원
+- **대상** - 고객, 파트너 및 Adobe 직원
 
 ## 핵심 사항
 
@@ -40,11 +40,11 @@ AEM Guides는 강력한 번역 기능을 통해 다국어 콘텐츠 생성을 �
 
 ## 관련 리소스
 
-- **기능 비디오** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
+- **기능 비디오** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
 - **사용 안내서** - [콘텐츠 번역](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ftranslation.html)
 
-- **커뮤니티 포럼** - Experience League에 대한 세션별 커뮤니티 상호 작용의 경우 다음을 참조하십시오. [AEM Guides 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)
+- **커뮤니티 포럼** - Experience League에 대한 세션별 커뮤니티 상호 작용의 경우 [AEM Guides 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions) 방문
 
 >[!NOTE]
 >
@@ -54,4 +54,4 @@ AEM Guides는 강력한 번역 기능을 통해 다국어 콘텐츠 생성을 �
 
 ## 연락처
 
-문의 사항은 다음 주소로 이메일을 보내주십시오. <techcomm@adobe.com>
+문의 사항은 <techcomm@adobe.com>(으)로 전자 메일을 보내세요.

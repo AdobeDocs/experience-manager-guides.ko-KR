@@ -2,7 +2,8 @@
 title: 렌더링 위젯
 description: JUI 위젯에서 렌더링이 작동하는 방법
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 381cc7b9-c957-40be-9db4-8347eefe2fa7
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 0%
@@ -11,9 +12,9 @@ ht-degree: 0%
 
 # 렌더링 위젯
 
-위젯을 사용하여 참조함으로써 위젯을 렌더링할 수 있습니다 `id`
+`id`을(를) 사용하여 위젯을 참조하여 렌더링할 수 있습니다.
 
-위젯을 렌더링하려면 `widget_languages` 앱의 모든 위치에서 간단한 구문을 사용할 수 있습니다.
+앱의 어느 곳에서든 `widget_languages` 위젯을 렌더링하려면 간단한 구문을 사용할 수 있습니다.
 
 ```json
 {
@@ -67,7 +68,7 @@ const listJSON = {
 }
 ```
 
-여기 `@files` 는 필드가 포함된 파일 개체 목록입니다.
+`@files`은(는) 필드가 포함된 파일 개체 목록입니다.
 
 ```typescript
 - fileName: string

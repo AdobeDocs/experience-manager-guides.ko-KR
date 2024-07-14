@@ -26,15 +26,15 @@ ht-degree: 0%
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 을(를) 검색하고 클릭합니다. *com.adobe.fmdita.xmleditor.config.XmlEditorConfig* 번들.
+1. *com.adobe.fmdita.xmleditor.config.XmlEditorConfig* 번들을 검색하고 클릭합니다.
 
-1. 다음 항목 선택 **UUID 기반 시스템 파일 이름 사용** 옵션을 선택합니다.
+1. **UUID 기반 시스템 파일 이름 사용** 옵션을 선택합니다.
 
 1. **저장**&#x200B;을 클릭합니다.
 
 
 >[!NOTE]
 >
-> 기본적으로 이 옵션은 꺼져 있습니다. 이 옵션을 켜면 작성자가 새 주제 또는 맵 파일을 만드는 동안 파일 이름을 지정하는 옵션이 표시되지 않습니다. 자산 UI 및 웹 편집기에서 새 주제 또는 맵 파일을 만들 수 있습니다.
+> 기본적으로 이 옵션은 꺼져 있습니다. 이 옵션을 켜면 작성자가 새 주제 또는 맵 파일을 만드는 동안 파일 이름을 지정하는 옵션이 표시되지 않습니다. Assets UI 및 웹 편집기에서 새 주제 또는 맵 파일을 만들 수 있습니다.
 
 **상위 항목:**[&#x200B;파일 이름 구성](conf-file-names.md)

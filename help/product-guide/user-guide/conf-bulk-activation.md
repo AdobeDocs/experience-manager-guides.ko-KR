@@ -17,13 +17,14 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> AEM에서 작성자 및 게시 인스턴스를 설정하는 방법에 대한 자세한 내용은 [아키텍처 개요 작성 및 게시](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites).
+> AEM에서 작성자 및 게시 인스턴스를 설정하는 방법에 대한 자세한 내용은 [작성자 및 Publish 아키텍처 개요](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites)를 참조하십시오.
 
 AEM Guides의 벌크 활성화 기능을 사용하면 작성에서 게시 인스턴스로 콘텐츠를 빠르고 쉽게 활성화할 수 있습니다. 벌크 활성화 기능을 사용하면 다음과 같은 유연성을 얻을 수 있습니다.
 
 - 하나 이상의 맵 \(맵 컬렉션에\) 을 단일 활성화 작업에 추가합니다.
 
-- 게시하려는 하나 이상의 출력 사전 설정을 선택합니다. AEM Site, PDF, 기본 PDF, HTML5, 사용자 지정 및 JSON 출력 사전 설정을 추가할 수 있습니다.
+- 게시하려는 하나 이상의 출력 사전 설정을 선택합니다. AEM 사이트, PDF, 기본 PDF, HTML 5, 사용자 지정 및
+JSON 출력 사전 설정.
 
 
 - 출력을 활성화해야 하는 로케일 정의
@@ -31,13 +32,13 @@ AEM Guides의 벌크 활성화 기능을 사용하면 작성에서 게시 인스
 - 감사 로그에 액세스하여 활성화 작업이 성공적으로 완료되었는지 또는 일부 문제가 있는지 확인
 
 
-- **[벌크 활성화 맵 컬렉션 만들기](conf-bulk-activation-create-map-collection.md)**
+- **[일괄 활성화 맵 컬렉션 만들기](conf-bulk-activation-create-map-collection.md)**
 
 - **[출력 활성화](conf-bulk-activation-publish-map-collection.md)**
 
-- **[벌크 활성화 맵 컬렉션 편집](conf-bulk-activation-edit-map-collection.md)**
+- **[일괄 활성화 맵 컬렉션 편집](conf-bulk-activation-edit-map-collection.md)**
 
-- **[벌크 활성화 맵 컬렉션 삭제](conf-bulk-activation-delete-map-collection.md)**
+- **[일괄 활성화 맵 컬렉션 삭제](conf-bulk-activation-delete-map-collection.md)**
 
 
 **상위 항목:**[&#x200B;출력 생성](generate-output.md)

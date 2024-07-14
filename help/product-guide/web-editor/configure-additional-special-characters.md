@@ -1,6 +1,6 @@
 ---
 title: 웹 편집기 도구 모음에서 추가 특수 문자 구성
-description: AEM Guides의 웹 편집기에서 추가 특수 문자를 구성하는 방법에 대해 알아봅니다.
+description: AEM Guides 웹 편집기에서 추가 특수 문자를 구성하는 방법에 대해 알아봅니다.
 feature: Web Editor
 role: User
 exl-id: 0fbc05a5-a6b0-4f6b-bbc4-8fca03581d90

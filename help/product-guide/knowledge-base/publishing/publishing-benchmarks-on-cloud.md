@@ -11,22 +11,22 @@ ht-degree: 8%
 
 ---
 
-# AEM Guides Publishing 벤치마크
+# AEMaaCS에서 AEM Guides 게시 벤치마크
 
 현재 AEM Guides 클라우드 서비스에는 Guides 팀이 문제를 해결하기 위해 노력하고 있는 게시 맵 크기에 대한 몇 가지 제한이 있습니다.
 
-Guides 팀은 대형 맵과 여러 동시 게시를 지원하기 위해 확장 가능한 게시 마이크로서비스를 도입했습니다. 새 게시 마이크로서비스에 대한 자세한 내용은 을 참조하십시오. [마이크로서비스 아키텍처 게시](publish-microservice-architecture-and-performance.md)
+Guides 팀은 대형 맵과 여러 동시 게시를 지원하기 위해 확장 가능한 게시 마이크로서비스를 도입했습니다. 새 게시 마이크로서비스에 대한 자세한 내용은 [게시 마이크로서비스 아키텍처](publish-microservice-architecture-and-performance.md)를 참조하세요.
 
-AEM 클라우드 환경에 대한 새 게시 서비스를 구성하려면 다음을 참조하십시오. [새 마이크로서비스 기반 게시 구성](configure-microservices.md)
+AEM 클라우드 환경에 대한 새 게시 서비스를 구성하려면 [새 마이크로서비스 기반 게시 구성](configure-microservices.md)을 참조하십시오.
 
 
 ## 실행 환경
 
     AEM 릴리스: 2023.5.11983.20230511T173830Z
-    릴리스 추가 정보: 2023.6.0
+    릴리스 추가 안내: 2023.6.0
     AEM 사이트 템플릿: AEM Guides OOTB 템플릿
     DITA-OT 버전: 3.5.4
-    게시 워크플로 유형: 게시 워크플로 분할
+    Publish 워크플로 유형: 분할 Publish 워크플로
     마이크로서비스에서 지원하는 출력: 기본 PDF, PDF(Dita-OT)
 
 ## 출력 생성 번호
@@ -37,7 +37,7 @@ AEM 클라우드 환경에 대한 새 게시 서비스를 구성하려면 다음
 | 기본 PDF | 3500 | 780 | 예 |
 | PDF(DITA-OT) | 11000 | 960 | 예 |
 | HTML5 | 3500 | 240 | 아니요 |
-| 사용자 지정 | 300 | 300 | 아니요 |
+| 사용자 정의 | 300 | 300 | 아니요 |
 
 ## 기억해야 할 주요 사항
 

@@ -2,7 +2,8 @@
 title: Jui 프레임워크
 description: Jui 프레임워크 이해
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: c193cf90-5916-4d8c-88f1-be5014beca1c
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 1%
@@ -19,7 +20,7 @@ ht-degree: 1%
 JUI는 React 및 Adobe React Spectrum 구성 요소 위에 있는 MVC 프레임워크입니다. JUI는 JSON 사용자 인터페이스입니다. 여러 git 저장소로 구성됩니다.
 
 JUI-Core는 JSON 구성을 작동하는 반응 구성 요소로 변환하고 관련 컨트롤러 클래스 인스턴스와 연결하는 모든 논리를 갖춘 핵심 라이브러리입니다.
-JUI-React-Spectrum 라이브러리에는 Adobe React 스펙트럼 구성 요소의 래퍼 위젯이 있습니다.
+JUI-React-Spectrum  라이브러리에는 Adobe React 스펙트럼 구성 요소의 래퍼 위젯이 있습니다.
 
 ## JUI 코어 디자인
 

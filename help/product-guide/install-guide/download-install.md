@@ -14,9 +14,9 @@ ht-degree: 4%
 
 # 다운로드 및 설치 {#id1645E0O04MK}
 
-AEM 가이드는 Adobe 소프트웨어 배포 포털을 통해 제공됩니다. Adobe 소프트웨어 배포 포털 계정에서 AEM Guides를 다운로드하여 설정의 모든 Adobe Experience Manager \(AEM\) 인스턴스에 설치할 수 있습니다. 일반적으로 AEM의 작성 인스턴스와 프로덕션 인스턴스는 다른 서버에서 호스팅됩니다. 사용하려는 AEM의 모든 인스턴스에 AEM Guides를 설치해야 합니다.
+AEM Guides은 Adobe 소프트웨어 배포 포털을 통해 사용할 수 있습니다. Adobe 소프트웨어 배포 포털 계정에서 AEM Guides을 다운로드하여 설정의 모든 Adobe Experience Manager \(AEM\) 인스턴스에 설치할 수 있습니다. 일반적으로 AEM의 작성 인스턴스와 프로덕션 인스턴스는 다른 서버에서 호스팅됩니다. 사용하려는 AEM의 모든 인스턴스에 AEM Guides을 설치해야 합니다.
 
-다운로드 및 설치 프로세스를 시작하기 전에 시스템이 AEM Guides를 설치하기 위한 기술 요구 사항을 충족하는지 확인해야 합니다.
+다운로드 및 설치 프로세스를 시작하기 전에 시스템이 AEM Guides을 설치하기 위한 기술 요구 사항을 충족하는지 확인해야 합니다.
 
 - **[기술 요구 사항](download-install-technical-requirements.md)**
 
@@ -32,4 +32,4 @@ AEM 가이드는 Adobe 소프트웨어 배포 포털을 통해 제공됩니다. 
 
 - **[AEM Guides 제거](download-install-unistall-aemg.md)**
 
-- **[성능 최적화를 위한 Recommendations](download-install-recommend-perf-optimiz.md)**
+- 성능 최적화를 위한 **[Recommendations](download-install-recommend-perf-optimiz.md)**

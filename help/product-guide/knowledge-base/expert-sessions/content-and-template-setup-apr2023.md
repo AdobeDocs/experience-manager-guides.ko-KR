@@ -1,6 +1,6 @@
 ---
 title: 컨텐츠 및 템플릿 설정
-description: AEM Guides에서 콘텐츠 및 템플릿을 설정하기 위해 고려해야 할 사항에 대해 알아봅니다.
+description: AEM Guides에서 콘텐츠 및 템플릿을 설정하기 위해 고려해야 할 사항을 알아봅니다.
 exl-id: f125bad9-33a2-4de5-b43f-d6368d61879b
 feature: Template Configuration
 role: User, Admin
@@ -11,7 +11,7 @@ ht-degree: 1%
 
 ---
 
-# AEM Guides의 콘텐츠 및 템플릿 설정
+# AEM Guides의 컨텐츠 및 템플릿 설정
 
 최종 사용자에게 제공되는 다양한 유형의 문서를 지원하기 위해 시스템 내에서 관리하는 컨텐츠의 양은 작성자가 컨텐츠를 분류하여 필요할 때 쉽게 추적하고 변경할 수 있도록 할 뿐만 아니라, 작성자가 문서를 처음부터 작성하지 않고도 새로운/유사한 문서를 만들 수 있도록 해야 합니다.
 
@@ -34,7 +34,7 @@ ht-degree: 1%
 - **날짜** - 2023년 4월 27일
 - **참석자 수** - 70
 - **기간** - 60분
-- **대상자** - 고객, 파트너 및 Adobe 직원
+- **대상** - 고객, 파트너 및 Adobe 직원
 
 
 ## 핵심 사항
@@ -51,11 +51,11 @@ ht-degree: 1%
 
 ## 관련 리소스
 
-- **기능 비디오** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/folder-profiles.html)
+- **기능 비디오** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/folder-profiles.html)
 
-- **사용 안내서** - [콘텐츠 작성](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
+- **사용 안내서** - [콘텐츠 작성자](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
 
-- **커뮤니티 포럼** - Experience League에 대한 세션별 커뮤니티 상호 작용의 경우 다음을 참조하십시오.  [AEM Guides 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **커뮤니티 포럼** - Experience League에 대한 세션별 커뮤니티 상호 작용의 경우 [AEM Guides 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)을 방문하십시오.
 
 >[!NOTE]
 >
@@ -67,9 +67,9 @@ ht-degree: 1%
 ## 다음 전문가 세션
 
 - **주제** - 기본 PDF 게시 - 예제를 통한 학습(1부)
-- **예약된 날짜** - 2023년 6월 1일
+- **예약됨** - 2023년 6월 1일
 
 
 ## 연락처
 
-문의 사항은 다음 주소로 이메일을 보내주십시오. <techcomm@adobe.com>
+문의 사항은 <techcomm@adobe.com>(으)로 전자 메일을 보내세요.

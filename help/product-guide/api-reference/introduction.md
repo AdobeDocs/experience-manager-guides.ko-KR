@@ -1,6 +1,6 @@
 ---
 title: 소개
-description: AEM Guides에 대한 API 참조 안내서 소개
+description: AEM Guides용 API 참조 안내서 소개
 exl-id: d8ee9cf7-1d67-4b4a-aa80-64e893a99463
 feature: API Introduction
 role: Developer
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # 소개 {#id1761C0007W7}
 
-Adobe Experience Manager Guides \(나중에 설명됨) *AEM 안내서*\) 는 Adobe Experience Manager \(AEM\)에서 DITA 기반 콘텐츠 생성 및 전달을 위한 구성 요소 콘텐츠 관리 솔루션 \(CCMS\) 기능을 사용할 수 있도록 하는 종단간 엔터프라이즈 솔루션입니다. 고객은 AEM Guides API를 사용하여 프로그래밍 방식으로 AEM Guides 워크플로우에 액세스하여 다른 엔터프라이즈 애플리케이션과 통합할 수 있습니다. 이러한 API는 Adobe 파트너가 기능을 확장하거나 다른 애플리케이션이나 서비스와 통합하여 AEM Guides의 가치 제안을 향상시키는 데 사용할 수도 있습니다.
+Adobe Experience Manager Guides \(나중에 *AEM Guides*\)는 Adobe Experience Manager \(AEM\)에서 DITA 기반 콘텐츠 생성 및 전달을 위한 구성 요소 콘텐츠 관리 솔루션 \(CCMS\) 기능을 사용할 수 있도록 하는 종단간 엔터프라이즈 솔루션입니다. 고객은 AEM Guides API를 사용하여 프로그래밍 방식으로 AEM Guides 워크플로우에 액세스하여 다른 엔터프라이즈 애플리케이션과 통합할 수 있습니다. 이러한 API는 Adobe 파트너가 기능을 확장하거나 다른 애플리케이션이나 서비스와 통합하여 AEM Guides의 가치 제안을 향상시키는 데 사용할 수도 있습니다.
 
-## AEM Guides API
+## AEM GUIDES API
 
 AEM Guides API는 HTTP와 Java의 두 가지 형식으로 사용할 수 있습니다. 이러한 API는 AEM Guides의 주요 기능을 애플리케이션 개발자에게 노출합니다. 개발자는 이러한 기능을 사용하여 고유한 플러그인을 만들어 기본 제공 워크플로를 확장할 수 있습니다. API는 DITA 콘텐츠에 대한 출력 관리, DITA 맵 작업, 폴더 수준 프로필에 조건부 속성 추가, HTML 및 Words 문서를 DITA 형식으로 변환 등과 관련하여 사용할 수 있습니다.
 
@@ -24,7 +24,7 @@ AEM Guides API는 HTTP와 Java의 두 가지 형식으로 사용할 수 있습�
 
 AEM Guides에 의해 노출된 JAR 파일을 사용하려면 로컬 Apache Maven 저장소에 해당 파일을 설치해야 합니다. 다음 단계를 수행하여 위치 Maven 저장소에 JAR을 설치합니다.
 
-1. 로컬 시스템에서 AEM Guides 패키지 \(.zip\) 파일의 압축을 풉니다.
+1. 로컬 시스템에서 AEM Guides 패키지 \(.zip\) 파일의 컨텐츠를 추출합니다.
 
 2. 명령 프롬프트에서 추출된 콘텐츠 경로의 다음 폴더로 이동합니다.
 
@@ -42,13 +42,13 @@ AEM Guides에 의해 노출된 JAR 파일을 사용하려면 로컬 Apache Maven
    >
    > 위의 명령에서 X.x는 Dfile 및 Dversion 매개 변수에서 실제 버전 번호로 대체되어야 합니다.
 
-4. \(*선택 사항*\) 로컬 Maven 프로젝트의 저장소에 종속성을 설치합니다. Maven 프로젝트에서 폴더를 만든 다음 `mvn install` 다음 추가 매개 변수와 함께 이전 단계에서 제공된 명령:
+4. \(*선택 사항*\) 로컬 Maven 프로젝트의 저장소에 종속성을 설치합니다. Maven 프로젝트에서 폴더를 만든 다음 다음 다음 추가 매개 변수를 사용하여 이전 단계에서 제공된 `mvn install` 명령을 실행하여 이를 수행할 수 있습니다.
 
    ```
    -DlocalRepositoryPath=<path_to_project_repository>
    ```
 
-   그런 다음 프로젝트의 로컬 저장소 폴더를 Maven 빌드 프로세스에 노출하려면 `repository` 아래에 표시된 대로 부모 pom.xml 파일의 요소입니다.
+   그런 다음 프로젝트의 로컬 저장소 폴더를 Maven 빌드 프로세스에 노출하려면 아래와 같이 상위 pom.xml 파일에 `repository` 요소를 추가합니다.
 
    ```XML
    <repositories>
@@ -74,7 +74,7 @@ AEM Guides에 의해 노출된 JAR 파일을 사용하려면 로컬 Apache Maven
 
    >[!IMPORTANT]
    >
-   > 다음 코드 스니펫에서 X.x는 실제 버전 번호 및 API JAR의 파일 이름으로 대체되어야 합니다. 이 정보는 의 3단계에 제공된 것과 같습니다. [설치 프로세스](#install-jar-local).
+   > 다음 코드 스니펫에서 X.x는 실제 버전 번호 및 API JAR의 파일 이름으로 대체되어야 합니다. 이 정보는 [설치 프로세스](#install-jar-local)의 3단계에 제공된 것과 같습니다.
 
    ```XML
    <plugin>
@@ -171,7 +171,7 @@ AEM Guides에 의해 노출된 JAR 파일을 사용하려면 로컬 Apache Maven
 
 프로젝트의 공개 Maven 저장소에서 서비스 API JAR을 구성하고 사용하려면 다음 단계를 수행하십시오.
 
-1. 프로젝트에서 서비스 API JAR을 사용하려면 pom.xml 파일에 AEM Guides 공용 Maven 저장소를 구성합니다.
+1. 프로젝트에서 서비스 API JAR을 사용하려면 pom.xml 파일에 AEM Guides 공개 Maven 저장소를 구성합니다.
 2. 다음과 같이 Maven의 settings.xml 파일에서 공개 Maven 저장소를 구성합니다.
 
    ```XML
@@ -201,9 +201,9 @@ AEM Guides에 의해 노출된 JAR 파일을 사용하려면 로컬 Apache Maven
 
 서비스 API JAR이 프로젝트의 pom.xml 파일에 프로젝트 종속성으로 추가되면 프로젝트에서 AEM Guides Java API를 빌드하고 사용할 수 있습니다.
 
-## AEM Guides에 Maven Central 저장소의 API JAR as a Cloud Service 사용
+## AEM Guidesas a Cloud Service 용 Maven Central 리포지토리의 API JAR 사용
 
-AEM Guides의 경우 as a Cloud Service API JAR가 Maven Central에 배포되었습니다. 설정 없이 API JAR를 사용할 수 있습니다.
+AEM Guidesas a Cloud Service 의 경우 API JAR가 Maven Central에 배포되었습니다. 설정 없이 API JAR를 사용할 수 있습니다.
 
 >[!NOTE]
 >
@@ -225,7 +225,7 @@ API JAR을 사용하려면 아래와 같이 프로젝트의 pom.xml에 종속성
 
 ## 추가 리소스
 
-다음은 AEM Guides의 유용한 기타 리소스 목록이며, [학습 및 지원](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html) 페이지:
+다음은 [학습 및 지원](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html) 페이지에서 사용할 수 있는 AEM Guides의 다른 유용한 리소스 목록입니다.
 
 - 사용 안내서
 - 설치 및 구성 안내서

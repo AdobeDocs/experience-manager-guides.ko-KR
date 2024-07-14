@@ -14,9 +14,9 @@ ht-degree: 1%
 
 # Oxygen에서 편집할 옵션 구성
 
-AEM Guides를 사용하면 Oxygen 커넥터 플러그인에서 DITA 주제 및 DITA 맵을 편집할 수도 있습니다.
+AEM Guides을 사용하면 Oxygen 커넥터 플러그인에서 DITA 주제 및 DITA 맵을 편집할 수도 있습니다.
 
-에 제공된 지침 사용 [구성 재정의](download-install-additional-config-override.md#) 구성 파일을 만듭니다. 구성 파일에서 다음 (속성) 세부 사항을 입력하여 **Oxygen에서 편집** 옵션:
+구성 파일을 만들려면 [구성 재정의](download-install-additional-config-override.md#)의 지침을 사용하십시오. **Edit in Oxygen** 옵션을 구성하려면 구성 파일에서 다음(속성) 세부 정보를 제공합니다.
 
 
 

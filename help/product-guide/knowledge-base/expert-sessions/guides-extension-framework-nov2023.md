@@ -1,6 +1,6 @@
 ---
 title: AEM Guides의 확장 프레임워크 - 웹 편집기 사용자 지정 및 검토 UI
-description: Guides 확장 프레임워크를 사용하면 업데이트하기 쉬운 JSON, CSS 및 JavaScript를 사용하여 검토 Ui 또는 Webeditor의 원하는 섹션을 사용자 지정할 수 있습니다.
+description: Guides 확장 프레임워크를 사용하면 업데이트하기 쉬운 JSON, CSS 및 JavaScript을 사용하여 검토 Ui 또는 Webeditor의 원하는 섹션을 사용자 지정할 수 있습니다.
 exl-id: 7b2efae3-be8c-4259-babb-f28a6903116a
 feature: Web Editor, Troubleshooting
 role: User, Admin
@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# AEM Guides의 확장 프레임워크: 웹 편집기 사용자 지정 및 UI 검토
+# AEM Guides의 확장 프레임워크: 웹 편집기 사용자 지정 및 검토 UI
 
-시스템에서 작업할 때 비즈니스/사용자는 작업을 충족하고 생산성을 향상시키기 위해 사용자 정의 버튼, 작업 또는 정보 표시를 원하는 것이 일반적입니다. 확장 프레임워크를 사용하면 AEM Guides 위에 사용자 지정 패키지를 만들어 사용자 인터페이스와 해당 동작을 확장할 수 있습니다. 이러한 사용자 지정 패키지는 개발자와 컨설턴트가 편집기/검토 UI의 구성 요소에 대한 확장성을 제공하는 데 유용합니다. 버튼, 대화 상자 및 드롭다운을 타겟팅하고 AEM Guides UI와 쉽게 상호 운용할 수 있는 사용자 지정 JavaScript를 추가할 수 있습니다.
+시스템에서 작업할 때 비즈니스/사용자는 작업을 충족하고 생산성을 향상시키기 위해 사용자 정의 버튼, 작업 또는 정보 표시를 원하는 것이 일반적입니다. 확장 프레임워크를 사용하면 AEM Guides 위에 사용자 지정 패키지를 만들어 사용자 인터페이스와 해당 동작을 확장할 수 있습니다. 이러한 사용자 지정 패키지는 개발자와 컨설턴트가 편집기/검토 UI의 구성 요소에 대한 확장성을 제공하는 데 유용합니다. 버튼, 대화 상자 및 드롭다운을 타겟팅하고 AEM Guides UI와 쉽게 상호 운용할 수 있는 사용자 지정 JavaScript을 추가할 수 있습니다.
 
 이 세션에서는 실용적인 시나리오를 통해 AEM Guides의 검토 및 웹 편집기 UI를 사용자 정의하거나 확장하는 방법을 알아봅니다.
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 - **날짜** - 2023년 11월 2일
 - **참석자 수** - 119
 - **기간** - 60분
-- **대상자** - 고객, 파트너 및 Adobe 직원
+- **대상** - 고객, 파트너 및 Adobe 직원
 
 ## 핵심 사항
 
@@ -45,13 +45,13 @@ ht-degree: 0%
 
 ## 관련 리소스
 
-- **Extension Framework 기본 저장소** - [GIT](https://github.com/adobe/guides-extension/tree/main)
+- **확장 프레임워크 기본 리포지토리** - [GIT](https://github.com/adobe/guides-extension/tree/main)
 
 - **설명서** - [Experience League](../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)
 
-- **문서화된 공통 사용 사례** - [Experience League](../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
+- **문서화된 일반적인 사용 사례** - [Experience League](../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
 
-- **샘플이 있는 공용 리포지토리** - [GIT에서](https://github.com/adobe/guides-extension/tree/sc-expert-session). 분기 sc-expert-session 참조
+- **샘플이 있는 공용 리포지토리** - [GIT](https://github.com/adobe/guides-extension/tree/sc-expert-session). 분기 sc-expert-session 참조
 
 
 >[!NOTE]
@@ -64,4 +64,4 @@ ht-degree: 0%
 
 ## 연락처
 
-문의 사항은 다음 주소로 이메일을 보내주십시오. <techcomm@adobe.com>
+문의 사항은 <techcomm@adobe.com>(으)로 전자 메일을 보내세요.

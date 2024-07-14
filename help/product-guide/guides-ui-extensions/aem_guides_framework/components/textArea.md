@@ -2,7 +2,8 @@
 title: 텍스트 영역
 description: 텍스트 영역
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 4c576acc-fa6a-4c41-9b92-443ba51dc8ee
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 3%
@@ -12,7 +13,7 @@ ht-degree: 3%
 # 텍스트 필드 및 텍스트 영역
 
 텍스트를 입력하려면 구성 요소, 텍스트 필드 및 텍스트 영역을 사용합니다.
-JUI의 텍스트 영역 구성 요소는 html을 나타냅니다 `<textarea/>`.
+JUI의 텍스트 영역 구성 요소는 html `<textarea/>`을(를) 나타냅니다.
 
 ```js title="textArea.js"
 const textAreaJSON =  {
@@ -30,8 +31,8 @@ const textAreaJSON =  {
 },
 ```
 
-여기, `on-keyup` 는 컨트롤러에서 명령을 호출하는 구문입니다.
-이렇게 하면 Enter 키를 눌러 이벤트를 호출하는 textArea가 생성됩니다. `submitName`
+여기서 `on-keyup`은(는) 컨트롤러에서 명령을 호출하는 구문입니다.
+Enter 키를 누르면 `submitName` 이벤트가 호출되는 textArea가 생성됩니다.
 
 렌더링된 텍스트 영역은 다음과 같이 표시됩니다.
 

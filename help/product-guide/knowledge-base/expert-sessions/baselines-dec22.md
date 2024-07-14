@@ -28,7 +28,7 @@ AEM Guides의 릴리스 관리는 게시나 번역에 사용할 수 있는 주�
 - **날짜** - 2022년 12월 8일
 - **참석자 수** - 64
 - **기간** - 60분
-- **대상자** - 고객, 파트너 및 Adobe 직원
+- **대상** - 고객, 파트너 및 Adobe 직원
 
 ## 핵심 사항
 
@@ -36,15 +36,15 @@ AEM Guides의 릴리스 관리는 게시나 번역에 사용할 수 있는 주�
 - AEM Guides의 다양한 기준선 작업
 - 기준선을 사용하여 다운로드, 게시 및 번역
 - 기준 사용을 위한 우수 사례
-- 곧 출시될 새로운 기능을 살짝 엿보세요. **동적 기준선 만들기**
+- 예정된 새로운 기능 **동적 기준선 만들기**&#x200B;를 살짝 엿봅니다.
 
 ## 관련 리소스
 
-- **기능 비디오** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
+- **기능 비디오** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **사용 안내서** - [기준선으로 작업](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html)
+- **사용 안내서** - [기준선을 사용한 작업](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html)
 
-- **커뮤니티 포럼** - Experience League에 대한 세션별 커뮤니티 상호 작용의 경우 다음을 참조하십시오. [AEM Guides 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **커뮤니티 포럼** - Experience League에 대한 세션별 커뮤니티 상호 작용의 경우 [AEM Guides 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)을 방문하십시오.
 
 >[!NOTE]
 >
@@ -54,4 +54,4 @@ AEM Guides의 릴리스 관리는 게시나 번역에 사용할 수 있는 주�
 
 ## 연락처
 
-문의 사항은 다음 주소로 이메일을 보내주십시오. <techcomm@adobe.com>
+문의 사항은 <techcomm@adobe.com>(으)로 전자 메일을 보내세요.

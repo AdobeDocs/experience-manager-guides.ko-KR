@@ -1,5 +1,5 @@
 ---
-title: AEM Guides의 DITA 파일에 대한 태그 관리
+title: AEM Guides에서 DITA 파일에 대한 태그 관리
 description: AEM Guides의 cq:tags 관리에 대한 간단한 문서
 exl-id: 2d805c26-df9b-405a-81ca-7aa84c6f86c8
 feature: Metadata Management
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 태그는 콘텐츠를 분류하는 데 유용합니다. 콘텐츠에 적절한 태그가 지정되는 경우 디태깅에서 정확한 주제를 찾는 데 도움이 될 수 있으며 최종 사용자는 게시된 출력에서 적절한 콘텐츠를 보다 빠르게 찾을 수 있습니다
 
-> **_참고:_**  다음 문서는 AEM Guides 빌드 4.2(온-프레미스)/2023년 2월(클라우드 버전 ) 이상 버전에 대한 것입니다
+> **_참고:_** 다음 문서는 AEM Guides Build 4.2(on-prem)/2023년 2월(cloud 버전 ) 이상 버전에 대한 것입니다
 
 
 ## 태그 만들기
@@ -56,9 +56,9 @@ ht-degree: 1%
 
 ## 기타 유용한 리소스
 
-- [맵 대시보드를 사용한 벌크 태그 지정(자산 UI)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/manaege-metadata/map-editor-bulk-tagging.html?lang=en)
+- [맵 대시보드를 사용하여 일괄 태그 지정(Assets UI)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/manaege-metadata/map-editor-bulk-tagging.html?lang=en)
 - [웹 편집기의 Ditamap 보고서](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/reports-aem-guide/reports-web-editor.html?lang=en)
 - [AEM의 태그 지정](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/configuring/tagging.html?lang=en)
 
 
-**기타 문의 사항은 해당 CSM에 문의하십시오**
+**다른 쿼리는 해당 CSM에 문의**

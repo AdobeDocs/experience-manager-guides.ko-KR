@@ -32,12 +32,12 @@ ht-degree: 0%
   public class **PublishUtils** extends Object
   ```
 
-  다음 **`PublishUtils`** 클래스는 하나 이상의 출력 사전 설정에 대한 출력을 생성하는 메서드를 포함합니다.
+  **`PublishUtils`** 클래스에는 하나 이상의 출력 사전 설정에 대한 출력을 생성하는 메서드가 포함되어 있습니다.
 
 
 ## 출력 생성
 
-다음 ``generateOutput`` 메서드는 지정된 출력 사전 설정을 사용하여 DITA 맵 파일에 대한 출력을 생성합니다.
+``generateOutput`` 메서드는 지정된 출력 사전 설정을 사용하여 DITA 맵 파일에 대한 출력을 생성합니다.
 
 **구문**:
 
@@ -48,6 +48,12 @@ String outputName)
 throws GuidesApiException
 ```
 
-**매개 변수**: 이름|유형|설명| ---- --------------- |`session`|javax.jcr.Session|유효한 JCR 세션입니다.| |``sourcePath``출력을 생성해야 하는 DITA 맵 파일의 |String|Path\(AEM 저장소 내).| |``outputName``|문자열|출력을 생성하는 데 사용할 출력 사전 설정의 이름입니다. 예를 들어 파이프 \(&quot;\|&quot;\) 구분 기호를 사용하여 여러 출력 사전 설정을 지정할 수 있습니다 `aemsite\|pdfoutput`.|
+**매개 변수**:
+이름|유형|설명|
+---- ---------------
+|`session`|javax.jcr.Session|올바른 JCR 세션입니다.|
+출력을 생성해야 하는 DITA 맵 파일의 |``sourcePath``|String|Path\(AEM 저장소 내)|
+|``outputName``|문자열|출력을 생성하는 데 사용할 출력 사전 설정의 이름입니다. 파이프 \(&quot;\|&quot;\) 구분 기호(예: `aemsite\|pdfoutput`)를 사용하여 여러 출력 사전 설정을 지정할 수 있습니다.|
 
-**예외**: throw ``javax.jcr.RepositoryException``, `java.io.IOException`, 및 `java.lang.Exception`.
+**예외**:
+``javax.jcr.RepositoryException``, `java.io.IOException` 및 `java.lang.Exception`이(가) 발생합니다.

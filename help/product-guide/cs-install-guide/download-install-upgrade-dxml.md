@@ -1,6 +1,6 @@
 ---
 title: AEM Guides 업그레이드
-description: AEM Guides를 업그레이드하는 방법 알아보기
+description: AEM Guides 업그레이드 방법 알아보기
 exl-id: 57ae906f-69e3-4319-89f6-0fa9ddb7a3ff
 feature: Installation
 role: Admin
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> CI/CD 파이프라인 사용에 대한 자세한 내용은 을 참조하십시오. [Adobe Cloud Manager에서 CI/CD 파이프라인 사용](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/cloud-manager/use-the-cicd-pipeline-in-cloud-manager-for-aem.html).
+> CI/CD 파이프라인 사용에 대한 자세한 내용은 [Cloud Manager Adobe에서 CI/CD 파이프라인 사용](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/cloud-manager/use-the-cicd-pipeline-in-cloud-manager-for-aem.html)을 참조하십시오.
 
 ## 브라우저 캐시 지우기
 

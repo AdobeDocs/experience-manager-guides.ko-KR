@@ -2,13 +2,13 @@
 title: 위젯
 description: 위젯 이해
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 96e960df-d595-4d58-8ad4-27057f857bac
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 0%
 
 ---
-
 
 # 위젯
 
@@ -45,8 +45,8 @@ const widgetJSON =  {
 },
 ```
 
-여기, `@languages` 는 모델에 정의된 배열입니다. `widget_languages` 다음으로: [&quot;영어&quot;, &quot;프랑스어&quot;, &quot;힌디어&quot;, &quot;스페인어&quot;, &quot;우르두어&quot;]
+여기서 `@languages`은(는) [&quot;English&quot;, &quot;French&quot;, &quot;Hindi&quot;, &quot;Spanish&quot;, &quot;Urdu&quot;](으)로 `widget_languages`의 모델에 정의된 배열입니다.
 
 렌더링된 기본 위젯은 다음과 같이 표시됩니다.
 
-![basic_위젯](imgs/basic_widget.png "기본 위젯")
+![basic_widget](imgs/basic_widget.png "기본 위젯")

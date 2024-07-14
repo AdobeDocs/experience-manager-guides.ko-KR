@@ -23,7 +23,10 @@ ht-degree: 0%
 **요청 URL**:
 `http://server:port/bin/guides/v1/konnect/config/register?path=<uploaded file path>`
 
-**매개 변수**: |이름|유형|필수|설명| -------- ------------------- |`path`|문자열|예|AEM 저장소의 경로를 가리키는 문자열입니다. 의 경로일 수 있습니다. `/content/dam or /var/dxml`.|
+**매개 변수**:
+|이름|유형|필수|설명|
+-------- -------------------
+|`path`|문자열|예|AEM 저장소의 경로를 가리키는 문자열입니다. `/content/dam or /var/dxml`의 경로일 수 있습니다.|
 
 **예**:\
 `http://host:4502/bin/guides/v1/konnect/config/register?path=/var/dxml/konnect/jira.json`

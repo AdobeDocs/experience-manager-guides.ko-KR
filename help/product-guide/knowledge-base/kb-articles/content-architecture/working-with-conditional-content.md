@@ -1,6 +1,6 @@
 ---
 title: 조건부 콘텐츠 작업
-description: 에서 조건을 만든 다음 조건부 콘텐츠 생성을 설정하는 방법을 알아봅니다 [!DNL AEM Guides]
+description: 조건을 만든 다음  [!DNL AEM Guides]에서 조건부 콘텐츠 생성을 설정하는 방법을 알아봅니다.
 role: User
 exl-id: a86007e3-48d1-458b-84a7-b683e113e5b2
 feature: Publishing
@@ -23,21 +23,25 @@ ht-degree: 0%
 
 **1단계**
 
-에서 설명서와 관련된 조건을 정의합니다. [!UICONTROL 폴더 프로필]: 섹션을 참조하십시오 **전역 또는 폴더 수준 프로필에 대한 조건부 속성 구성** 위치: [설치 및 구성 안내서 69페이지](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf)
+[!UICONTROL 폴더 프로필]에서 설명서와 관련된 조건을 정의합니다.
+설치 및 구성 안내서 [69페이지](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf)의 **전역 또는 폴더 수준 프로필에 대한 조건부 특성 구성** 섹션을 참조하십시오.
 
 ![폴더 프로필에서 조건 구성](assets/conditions-in-profiles.png)
 
 **2단계**
 
-다음 항목 선택 **[!UICONTROL 폴더 프로필]** 의 1단계에서 정의됨 **사용자 환경 설정** XML 편집기: 섹션을 참조하십시오 **사용자 환경 설정** 위치: [사용 안내서 41페이지](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)
+XML 편집기의 **사용자 환경 설정**&#x200B;에서 1단계에 정의된 **[!UICONTROL 폴더 프로필]**을 선택하십시오.
+사용 안내서 [41페이지](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)의 **사용자 환경 설정** 섹션을 참조하십시오.
 
 
 **3단계**
 
-조건을 사용하여 컨텐츠의 섹션을 조건화합니다. 섹션을 참조하십시오. **조건** 위치: [사용 안내서의 90페이지](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)
+조건을 사용하여 콘텐츠 섹션을 조건화합니다.
+사용 안내서 [90페이지](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)의 **조건** 섹션을 참조하세요.
 
 ![웹 편집기에서 조건 사용](assets/conditions-in-web-editor.png)
 
 **4단계**
 
-맵 수준에서 조건 사전 설정을 정의하여 출력에서 활성화할 조건을 선택합니다. 섹션 을 참조하십시오. **조건 사전 설정 사용** 위치: [사용 안내서 249페이지](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)
+맵 수준에서 조건 사전 설정을 정의하여 출력에서 활성화할 조건을 선택합니다.
+사용 안내서 [249페이지](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)의 **조건 사전 설정 사용** 섹션을 참조하세요.

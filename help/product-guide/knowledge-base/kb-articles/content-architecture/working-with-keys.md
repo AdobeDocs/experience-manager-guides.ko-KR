@@ -37,7 +37,7 @@ ht-degree: 0%
 </map>
 ```
 
-여기에서 위에 표시된 대로 두 개의 정의를 정의했습니다. [!UICONTROL keyref] 다음으로: _AEM_ 대상: _Adobe Experience Manager_ 텍스트를 입력하십시오.
+여기에 위에 표시된 대로 _Adobe Experience Manager_ 텍스트에 [!UICONTROL keyref]을(를) _AEM_(으)로 제공한 두 개의 정의를 정의했습니다.
 
 ## 2단계: 발행 맵에 이 맵 추가
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 ## 3단계: 키를 사용하여 글로벌 키 맵에 정의된 변수를 참조합니다.
 
-+ 항목을 편집하고 다음을 사용하여 키 값 추가 [!UICONTROL keyref].
++ 주제를 편집하고 [!UICONTROL keyref]을(를) 사용하여 키 값을 추가하십시오.
 + 스크린샷에 표시된 대로 키워드를 선택할 수 있는 작은 창이 나타납니다. &quot;keyword&quot; 요소를 추가하면 표시됩니다.
   ![요소 삽입](assets/insert_element.png)
   ![키 참조](assets/key_ref.png)

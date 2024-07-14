@@ -7,6 +7,6 @@ ht-degree: 6%
 ---
 # Adobe Experience Manager Guides용 산소 플러그인
 
-- [면책조항](rebranding-disclaimer.md)
+- [면책 조항](rebranding-disclaimer.md)
 - [Adobe Experience Manager Guides용 산소 플러그인](use-aem-connector.md)
 

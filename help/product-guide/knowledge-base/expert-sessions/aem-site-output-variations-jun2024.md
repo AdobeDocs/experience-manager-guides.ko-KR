@@ -11,7 +11,9 @@ ht-degree: 2%
 
 # 세션 개요
 
-웹 경험의 잘 정의된 레이아웃은 플랫폼의 디지털 경험/페이지 전반에 걸쳐 일관성과 일관성과 일관성과 함께 일관된 애플리케이션 브랜딩 및 디자인을 초래합니다.
+웹 경험에 대한 레이아웃이 잘 정의되어 있으면 일관된 애플리케이션 브랜딩이 수행됩니다
+디지털 전반에 걸쳐 일관성과 일관성을 갖춘 설계
+플랫폼의 경험/페이지
 이 모든 작업은 Adobe experience manager Guides에서 제공하는 다양한 AEM 사이트 출력 을 통해 수행할 수 있습니다.
 이 세션에서는 다양한 AEM 사이트 출력 변형을 생성하는 방법에 대해 알아봅니다.
 
@@ -33,7 +35,7 @@ ht-degree: 2%
 - **날짜** - 2024년 6월 27일
 - **참석자 수** - 120
 - **기간** - 60분
-- **대상자** - 고객, 파트너 및 Adobe 직원
+- **대상** - 고객, 파트너 및 Adobe 직원
 
 ## 관련 리소스
 
@@ -44,7 +46,7 @@ ht-degree: 2%
 
 - [AEM 템플릿](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/developing/platform/templates/templates)
 
-- **커뮤니티 포럼** - Experience League에 대한 세션별 커뮤니티 상호 작용의 경우 다음을 참조하십시오. [AEM Guides 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **커뮤니티 포럼** - Experience League에 대한 세션별 커뮤니티 상호 작용의 경우 [AEM Guides 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)을 방문하십시오.
 
 >[!NOTE]
 >
@@ -52,4 +54,4 @@ ht-degree: 2%
 
 ## 연락처
 
-문의 사항은 다음 주소로 이메일을 보내주십시오. <techcomm@adobe.com>
+문의 사항은 <techcomm@adobe.com>(으)로 전자 메일을 보내세요.

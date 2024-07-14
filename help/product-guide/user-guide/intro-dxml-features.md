@@ -1,6 +1,6 @@
 ---
 title: 주요 AEM Guides 기능
-description: AEM Guides, DITA 작성, 콘텐츠 관리, 웹 기반 검토, 번역, 로컬라이제이션, 멀티채널 게시 및 FrameMaker 통합의 주요 기능을 살펴봅니다.
+description: AEM Guides, DITA 작성, 컨텐츠 관리, 웹 기반 검토, 번역, 현지화, 멀티채널 게시 및 FrameMaker 통합의 주요 기능을 살펴볼 수 있습니다.
 exl-id: 978d7027-08da-40f7-ae9e-bb4d559a84dc
 feature: Introduction
 role: User
@@ -13,14 +13,14 @@ ht-degree: 0%
 
 # 주요 AEM Guides 기능 {#id167G9I060SI}
 
-**강력한 DITA 작성 및 컨텐츠 관리**
+**강력한 DITA 작성 및 콘텐츠 관리**
 모듈, 구성 요소, 단어, 그래픽, 멀티미디어 및 번역\ 등 세분화된 수준에서 효과적으로 재사용할 수 있도록 최적화된 모듈식 정보의 단일 소싱을 통해 작성 생산성을 크게 향상시킵니다.
 
 기본 제공 웹 기반 편집기를 사용하면 DITA 주제, 맵 및 DITAVAL 파일을 쉽게 작성하고 효과적으로 관리할 수 있습니다. 기본 제공 편집기에는 간단하고 직관적인 워드 프로세싱 인터페이스가 있으므로 DITA를 사용하는 데 익숙하지 않은 주제 전문가, 일반 기여자 및 검토자를 쉽게 입력할 수 있습니다. 지능형 요소 삽입 기능을 사용하면 요소를 올바른 위치에 배치할 필요가 없습니다. 요소는 항상 사용 가능한 다음 유효한 위치에 삽입됩니다.
 
 AEM 도구 모음 및 웹 편집기에서 사용할 수 있는 새로운 옵션에서 파일을 체크 아웃 및 체크 인할 수도 있습니다.
 
-조직에서 특수 형식의 DITA를 사용하는 경우 웹 편집기를 사용자 정의하여 특수 DITA 문서를 만들고 편집할 수 있습니다. DITA 특수화 사용에 대한 자세한 내용은 *사용자 지정 DITA-OT 및 DITA 특수화 사용* 에서 Adobe Experience Manager Guides as a Cloud Service 설치 및 구성.
+조직에서 특수 형식의 DITA를 사용하는 경우 웹 편집기를 사용자 정의하여 특수 DITA 문서를 만들고 편집할 수 있습니다. DITA 특수화 사용에 대한 자세한 내용은 Adobe Experience Manager Guides as a Cloud Service 설치 및 구성에서 *사용자 지정 DITA-OT 및 DITA 특수화 사용*&#x200B;을 참조하십시오.
 
 현재 기본 제공 편집기는 다음과 같은 DITA 표준을 지원합니다.
 
@@ -33,10 +33,10 @@ AEM 도구 모음 및 웹 편집기에서 사용할 수 있는 새로운 옵션�
 >
 > 경량 DITA는 아직 제안 상태이며 DITA 표준이 되지 않았습니다.
 
-**웹 기반 검토를 통한 차세대 협업**
+**웹 기반 검토를 통한 차세대 공동 작업**
 다중 작성자, 다중 검토자 분산 팀이 강력한 웹 기반 복합 검토 워크플로를 통해 원활하게 공동 작업하도록 하여 프로세스에서 수동 오류의 범위를 최소화합니다.
 
-AEM Guides는 강력하면서도 사용하기 쉬운 웹 기반 검토 기능을 제공합니다. 검토를 위해 여러 DITA 주제를 동시에 보낼 수 있습니다. 검토 기능은 문서 콘텐츠를 효율적으로 검토하는 데 도움이 됩니다. 작성자와 검토자는 검토를 진행하는 동안 변경 사항에 대해 손쉽게 공동 작업을 수행할 수 있습니다. 검토자는 이전 버전과의 차이점을 모니터링하여 피드백이 올바르게 통합되었는지 확인할 수 있습니다. 관리자는 다양한 기능의 관리 대시보드를 사용하여 검토 작업 기록을 추적할 수 있습니다.
+AEM Guides은 강력하면서도 사용하기 쉬운 웹 기반 검토 기능을 제공합니다. 검토를 위해 여러 DITA 주제를 동시에 보낼 수 있습니다. 검토 기능은 문서 콘텐츠를 효율적으로 검토하는 데 도움이 됩니다. 작성자와 검토자는 검토를 진행하는 동안 변경 사항에 대해 손쉽게 공동 작업을 수행할 수 있습니다. 검토자는 이전 버전과의 차이점을 모니터링하여 피드백이 올바르게 통합되었는지 확인할 수 있습니다. 관리자는 다양한 기능의 관리 대시보드를 사용하여 검토 작업 기록을 추적할 수 있습니다.
 
 이제 DAM의 모든 문서가 문서 상태를 가져옵니다. 이 문서 상태를 통해 문서 프로세스에서 문서가 어떤 상태인지를 식별할 수 있습니다. 시스템 관리자는 문서의 문서 상태, 기본 시작 및 종료 상태, 문서 상태 전환을 정의할 수 있습니다.
 
@@ -50,29 +50,29 @@ Adobe Experience Manager에는 주요 번역 공급업체를 위한 내장 커�
 
 Experience Manager에 기본 DITA 지원이 추가되면 DITA-OT를 통해 Experience Manager Sites, PDF, HTML 5, EPUBS 또는 사용자 정의 출력에 대한 출력을 생성합니다. 전체 구성 가능한 출력을 활용하여 최종 사용자에게 고도로 개인화되고 관련성이 있으며 몰입형 콘텐츠 경험을 제공할 수 있습니다. 배치 생성을 쉽게 수행하거나 베이스라인을 사용하여 설명서의 특정 버전을 게시할 수도 있습니다.
 
-**포괄적인 검색 및 컨텐츠 사용 데이터**
+**포괄적인 검색 및 콘텐츠 사용 데이터**
 재사용할 때마다 컨텐츠에 대한 ROI를 극대화하여 관련 컨텐츠를 보다 빠르게 찾고 선택할 수 있습니다. DITA 작성 도구 내의 간단한 인터페이스를 통해 전체 저장소에서 콘텐츠 속성 및 주제 메타데이터를 사용하여 기본 및 고급 검색을 수행할 수 있습니다. 결과에는 컨텐츠 사용 데이터가 태그 지정되므로 최적의 재사용을 위해 적합한 컨텐츠를 쉽게 식별하고 선택할 수 있습니다.
 
-**심층 게시 준비 보고서**
+**자세한 게시 준비 보고서**
 콘텐츠가 라이브로 전환되기 전에 쉽게 확인하고 수정하여 게시 오류를 방지합니다. DITA 맵 수준에서 다양한 보고서에 쉽게 액세스하여 시스템 상태를 면밀히 주시합니다. 모든 주제에 대해 누락된 주제, 끊어진 링크 또는 참조의 수, 검토 및 번역 상태를 확인할 수 있습니다. 또한 보고서를 사용하여 게시하기 전에 최종 단계에서 포괄적인 온전성 검사를 수행할 수도 있습니다.
 
-**개인화된 출력을 위한 광범위한 태그 관리 지원**\
-관련성이 높은 콘텐츠 경험을 통해 보다 심층적인 최종 사용자 참여 및 콘텐츠 채택을 유도합니다. AEM Guides를 사용하면 Experience Manager의 광범위한 태그 관리 지원을 활용하여 DITA 소스 콘텐츠에 관련 태그를 적용할 수 있습니다. 이러한 태그를 사용하여 최종 사용자에게 고도로 개인화된 콘텐츠 경험을 제공합니다.
+**개인화된 출력에 대한 광범위한 태그 관리 지원**\
+관련성이 높은 콘텐츠 경험을 통해 보다 심층적인 최종 사용자 참여 및 콘텐츠 채택을 유도합니다. AEM Guides을 사용하면 Experience Manager의 광범위한 태그 관리 지원을 활용하여 DITA 소스 콘텐츠에 관련 태그를 적용할 수 있습니다. 이러한 태그를 사용하여 최종 사용자에게 고도로 개인화된 콘텐츠 경험을 제공합니다.
 
-**Adobe FrameMaker과의 기본 통합**
+**Adobe FrameMaker과 네이티브 통합**
 Experience Manager 및 FrameMaker(2015 릴리스) 업데이트 4 이상으로 작업하는 동안 빠르고 원활한 경험을 제공합니다.
 
 기본 제공 커넥터를 통해 Experience Manager과 FrameMaker을 긴밀하게 통합하면 Experience Manager 컨텐츠 저장소를 원활하게 사용할 수 있습니다. 커넥터를 사용하면 DITA 콘텐츠 작성, 검토 및 검색을 신속하게 시작할 수 있습니다.
 
-FrameMaker에서 AEM 커넥터를 사용하여 FrameMaker 파일을 관리할 수 있습니다. AEM 커넥터를 사용하면 AEM에서 DITA 및 기타 FrameMaker 문서(.book 및 .fm)를 쉽게 업로드할 수 있습니다. AEM Guides를 사용하면 AEM에서 직접 FrameMaker 문서를 게시할 수도 있습니다. FrameMaker 장부 파일에 DITA와 .fm 파일이 조합되어 있는 경우 AEM Guides에서 이러한 문서를 게시할 수도 있습니다. 현재 FrameMaker의 .book 및 .fm 파일을 PDF, HTML5 및 EPUB 형식으로 게시할 수 있습니다.
+FrameMaker에서 AEM 커넥터를 사용하여 FrameMaker 파일을 관리할 수 있습니다. AEM 커넥터를 사용하면 AEM에서 DITA 및 기타 FrameMaker 문서(.book 및 .fm)를 쉽게 업로드할 수 있습니다. AEM Guides을 사용하면 AEM에서 직접 FrameMaker 문서를 게시할 수도 있습니다. FrameMaker 장부 파일에 DITA와 .fm 파일이 조합되어 있는 경우 AEM Guides에서 이러한 문서를 게시할 수도 있습니다. 현재 FrameMaker의 .book 및 .fm 파일을 PDF, HTML5 및 EPUB 형식으로 게시할 수 있습니다.
 
 ## 추가 리소스
 
-다음은 AEM Guides의 유용한 기타 리소스 목록이며, [학습 및 지원](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html) 페이지:
+다음은 [학습 및 지원](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html) 페이지에서 사용할 수 있는 AEM Guides의 다른 유용한 리소스 목록입니다.
 
 * 사용 안내서
 * API 참조 안내서
 * 빠른 시작 안내서
-* [도움말* 보관 페이지](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) (이전 릴리스 설명서에 액세스)
+* [도움말* 보관 페이지](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)(이전 릴리스 설명서에 액세스)
 
-**상위 항목:**[ Adobe Experience Manager Guides as a Cloud Service](intro.md)
+**상위 항목:**[ Adobe Experience Manager Guides as a Cloud Service 정보](intro.md)

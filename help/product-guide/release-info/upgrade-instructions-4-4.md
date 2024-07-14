@@ -1,6 +1,6 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides 4.4.0 릴리스에 대한 업그레이드 지침
-description: Adobe Experience Manager Guides의 4.4.0 릴리스로 업그레이드하는 방법에 대해 알아봅니다
+description: Adobe Experience Manager Guides 4.4.0 릴리스로 업그레이드하는 방법 알아보기
 role: Leader
 exl-id: 884178b6-7a72-471a-a6e3-238a543fb227
 source-git-commit: 47c06dcc30b34780cbd26ded1ca400a5056a59ba
@@ -12,29 +12,29 @@ ht-degree: 5%
 
 # 4.4.0 릴리스에 대한 업그레이드 지침(2024년 1월)
 
-이 문서에서는 Adobe Experience Manager Guides 4.4.0 릴리스의 업그레이드 지침 및 호환성 매트릭스에 대해 설명합니다.
+이 문서에서는 Adobe Experience Manager Guides 4.4.0 릴리스의 업그레이드 지침 및 호환성 매트릭스를 다룹니다.
 
 새로운 기능 및 개선 사항에 대한 자세한 내용은 [4.4.0 릴리스의 새로운 기능](../release-info/whats-new-4-4.md)을 참조하십시오.
 
-이 릴리스에서 수정된 문제 목록은 다음을 참조하십시오. [4.4.0 릴리스의 문제가 해결되었습니다.](../release-info/fixed-issues-4-4.md).
+이 릴리스에서 수정된 문제 목록을 보려면 [4.4.0 릴리스에서 수정된 문제](../release-info/fixed-issues-4-4.md)를 확인하십시오.
 
 
 
 
 ## 호환성 매트릭스
 
-이 섹션에서는 Experience Manager 안내서 4.4.0 릴리스에서 지원하는 소프트웨어 응용 프로그램에 대한 호환성 매트릭스를 나열합니다.
+이 섹션에서는 Experience Manager Guides 4.4.0 릴리스에서 지원하는 소프트웨어 응용 프로그램에 대한 호환성 매트릭스를 나열합니다.
 
 ### Adobe Experience Manager
 
-**4.4.0 비 UUID**
+**4.4.0 비UUID**
 버전 6.5 서비스 팩 20, 19, 18 또는 17
 
 **4.4.0 UUID**
 버전 6.5 서비스 팩 20, 19, 18 또는 17
 
 
-자세한 내용은 [기술 요구 사항](../install-guide/download-install-technical-requirements.md) 섹션에 자세히 설명되어 있습니다.
+자세한 내용은 On-Premise 설치 및 구성 안내서의 [기술 요구 사항](../install-guide/download-install-technical-requirements.md) 섹션을 참조하십시오.
 
 ### FrameMaker 및 FrameMaker Publishing Server
 
@@ -60,26 +60,26 @@ ht-degree: 5%
 
 | 구성 요소 패키지 이름 | 구성 요소 버전 | 템플릿 버전 |
 |---|---|---|
-| Experience Manager 가이드 구성 요소 Cloud Service 컨텐츠 패키지 | dxml-components.all-1.2.2 | aem-site-template-dxml.all-1.0.15 |
+| Cloud Service을 위한 Experience Manager Guides 구성 요소 컨텐츠 패키지 | dxml-components.all-1.2.2 | aem-site-template-dxml.all-1.0.15 |
 
 
 
-## Experience Manager 안내서의 4.4.0 릴리스로 업그레이드
+## Experience Manager Guides 4.4.0 릴리스로 업그레이드
 
 
-현재 버전의 Guides를 버전 4.4.0으로 쉽게 업그레이드할 수 있습니다. Experience Manager 안내서 버전 4.4.0으로 업그레이드하기 전에 다음 사항을 고려해야 합니다.
+현재 버전의 Guides를 버전 4.4.0으로 쉽게 업그레이드할 수 있습니다. Experience Manager Guides 버전 4.4.0으로 업그레이드하기 전에 다음 사항을 고려해야 합니다.
 
 
 - 버전 4.3.1, 4.3.0 또는 4.2.1(핫픽스 4.2.1.3)을 사용하는 경우 버전 4.4.0으로 바로 업그레이드할 수 있습니다.
 - 버전 4.2, 4.1 또는 4.1.x를 사용 중인 경우 버전 4.4.0으로 업그레이드하기 전에 버전 4.3.1, 4.3.0 또는 4.2.1(핫픽스 4.2.1.3)로 업그레이드해야 합니다.
 - 버전 4.0을 사용 중인 경우 버전 4.3.x로 업그레이드하기 전에 버전 4.2로 업그레이드해야 합니다.
 - 버전 3.8.5를 사용하는 경우 버전 4.2로 업그레이드하기 전에 버전 4.0으로 업그레이드해야 합니다.
-- 3.8.5 이전 버전을 사용 중이라면 제품별 설치 안내서에서 업그레이드 Experience Manager 안내서 섹션을 참조하십시오. [Adobe Experience Manager 안내서 도움말 PDF 아카이브](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+- 3.8.5 이전 버전을 사용하는 경우 [Experience Manager Guides 도움말 PDF 보관](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)에 있는 제품별 설치 안내서의 Adobe Experience Manager Guides 업그레이드 섹션을 참조하십시오.
 
 
 
 >[!NOTE]
 >
->Experience Manager 가이드 버전을 업그레이드하기 전에 AEM 서비스 팩을 설치해야 합니다.
+>Experience Manager Guides 버전을 업그레이드하기 전에 AEM 서비스 팩을 설치해야 합니다.
 
-자세한 내용은 다음을 참조하십시오 [온-프레미스 릴리스에 대한 업그레이드 지침](../install-guide/upgrade-xml-documentation.md) Experience Manager 가이드.
+자세한 내용은 Experience Manager Guides의 [온-프레미스 릴리스에 대한 업그레이드 지침](../install-guide/upgrade-xml-documentation.md)을 참조하세요.

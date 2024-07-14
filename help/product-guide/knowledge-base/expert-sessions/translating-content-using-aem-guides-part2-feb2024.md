@@ -1,16 +1,17 @@
 ---
 title: 안내서의 콘텐츠 번역 - 2부
 description: 콘텐츠를 여러 언어로 번역하는 방법을 알아봅니다.
-source-git-commit: 87fe100d312fafbfd5b336f7c5ca618bc20cdebb
+exl-id: b61d4432-62bf-4fb5-8264-ac50dc93215b
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 1%
 
 ---
 
-# AEM Guides를 사용한 콘텐츠 번역 - 2부
+# AEM Guides을 사용한 콘텐츠 번역 - 2부
 
-AEM 안내서에는 콘텐츠를 여러 언어로 번역할 수 있는 강력한 기능이 포함되어 있습니다. AEM Guides에서는 사람 번역 및 기계 번역 워크플로를 모두 지원합니다. 이 세션에서는 안내서 번역의 최신 개발 내용을 살펴보고 사용 가능한 프레임워크 메커니즘 및 라이브 데모를 사용한 번역 프로세스를 이해합니다.
+AEM Guides에는 콘텐츠를 여러 언어로 번역할 수 있는 강력한 기능이 포함되어 있습니다. AEM Guides은 사람 번역 및 기계 번역 워크플로를 모두 지원합니다. 이 세션에서는 안내서 번역의 최신 개발 내용을 살펴보고 사용 가능한 프레임워크 메커니즘 및 라이브 데모를 사용한 번역 프로세스를 이해합니다.
 
 
 ## 세션 레코딩
@@ -22,7 +23,7 @@ AEM 안내서에는 콘텐츠를 여러 언어로 번역할 수 있는 강력한
 - **날짜** - 2024년 2월 29일
 - **참석자 수** - 57
 - **기간** - 60분
-- **대상자** - 고객, 파트너 및 Adobe 직원
+- **대상** - 고객, 파트너 및 Adobe 직원
 
 ## 핵심 사항
 
@@ -38,7 +39,7 @@ AEM 안내서에는 콘텐츠를 여러 언어로 번역할 수 있는 강력한
 
 - **설명서** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/translate-content/translation.html?lang=en)
 
-- **커뮤니티 포럼** - Experience League에 대한 세션별 커뮤니티 상호 작용의 경우 다음을 참조하십시오.  [AEM Guides 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **커뮤니티 포럼** - Experience League에 대한 세션별 커뮤니티 상호 작용의 경우 [AEM Guides 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)을 방문하십시오.
 
 
 >[!NOTE]
@@ -51,4 +52,4 @@ AEM 안내서에는 콘텐츠를 여러 언어로 번역할 수 있는 강력한
 
 ## 연락처
 
-문의 사항은 다음 주소로 이메일을 보내주십시오. <techcomm@adobe.com>
+문의 사항은 <techcomm@adobe.com>(으)로 전자 메일을 보내세요.

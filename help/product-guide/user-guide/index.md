@@ -7,8 +7,8 @@ ht-degree: 2%
 ---
 # Adobe Experience Manager Guides as a Cloud Service 사용
 
-- [면책조항](rebranding-disclaimer.md)
-- [Adobe Experience Manager Guides as a Cloud Service](intro.md)
+- [면책 조항](rebranding-disclaimer.md)
+- [Adobe Experience Manager Guides as a Cloud Service 정보](intro.md)
    - [AEM Guides 작동 방식](intro-how-dxml-works.md)
    - [주요 AEM Guides 기능](intro-dxml-features.md)
 - [콘텐츠 관리](authoring.md)
@@ -19,7 +19,7 @@ ht-degree: 2%
    - [주제 만들기 및 미리 보기](create-preview-topics.md)
       - [주제 만들기](web-editor-create-topics.md)
       - [주제 미리 보기](web-editor-preview-topics.md)
-   - [AEM Guides를 사용하여 콘텐츠 작성](authoring-content-xml-doc.md)
+   - [AEM Guides을 사용하여 콘텐츠 작성](authoring-content-xml-doc.md)
       - [웹 편집기 작업](web-editor.md)
          - [웹 편집기 실행](web-editor-launch-editor.md)
          - [웹 편집기에서 주제 편집](web-editor-edit-topics.md)
@@ -68,7 +68,7 @@ ht-degree: 2%
       - [PDF](generate-output-pdf.md)
       - [HTML5](generate-output-html5.md)
       - [EPUB](generate-output-epub.md)
-      - [사용자 지정](generate-output-custom.md)
+      - [사용자 정의](generate-output-custom.md)
       - [JSON](generate-output-json.md)
    - [대상 경로, 사이트 이름 또는 파일 이름 옵션 설정에 변수 사용](generate-output-use-variables.md)
    - [출력 사전 설정 만들기, 편집, 복제 또는 제거](generate-output-create-edit-preset.md)
@@ -78,7 +78,7 @@ ht-degree: 2%
    - [기준선으로 작업](generate-output-use-baseline-for-publishing.md)
    - [맵 콘솔에서 DITA 맵에 대한 출력 생성](generate-output-for-a-dita-map.md)
    - [출력 생성을 위해 맵 컬렉션 사용](generate-output-use-map-collection-output-generation.md)
-   - [게시 대시보드를 사용하여 게시 작업 관리](generate-output-publish-dashboard.md)
+   - [Publish 대시보드를 사용하여 게시 작업 관리](generate-output-publish-dashboard.md)
    - [기본 문제 해결](generate-output-basic-troubleshooting.md)
    - [게시된 콘텐츠의 벌크 활성화](conf-bulk-activation.md)
       - [벌크 활성화 맵 컬렉션 만들기](conf-bulk-activation-create-map-collection.md)

@@ -16,8 +16,8 @@ ht-degree: 0%
 
 다음 단계를 수행하여 웹 편집기의 왼쪽 패널 내에 사용자 지정 패널을 추가합니다.
 
-1. 만들기 *clientlib* 폴더를 만들고 이 폴더에 JavaScript 및 CSS 파일을 추가합니다.
-1. 의 카테고리 속성을 업데이트합니다. *clientlib* 값을 할당하여 폴더 만들기 *apps.fmdita.xml\_editor.page\_overrides*.
+1. *clientlib* 폴더를 만들고 이 폴더에 JavaScript 및 CSS 파일을 추가하십시오.
+1. *apps.fmdita.xml\_editor.page\_overrides*&#x200B;의 값을 할당하여 *clientlib* 폴더의 categories 속성을 업데이트합니다.
 
 사용자 지정 패널을 구성하는 샘플 코드:
 

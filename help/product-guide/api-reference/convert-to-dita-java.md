@@ -32,12 +32,12 @@ ht-degree: 0%
   public class ConversionUtils extends Object
   ```
 
-  다음 **전환 유틸리티** 클래스에는 HTML 및 Word 문서를 DITA 형식으로 변환하는 메서드가 포함되어 있습니다.
+  **ConversionUtils** 클래스에는 HTML 및 Word 문서를 DITA 형식으로 변환하는 메서드가 포함되어 있습니다.
 
 
 ## HTML 문서 변환
 
-다음 `convertHtmlToDita` 메서드는 HTML 문서를 DITA 형식으로 변환합니다.
+`convertHtmlToDita` 메서드는 HTML 문서를 DITA 형식으로 변환합니다.
 
 **구문**:
 
@@ -49,13 +49,20 @@ public static void convertHtmlToDita(Session session,
                   throws RepositoryException, WorkflowException
 ```
 
-**매개 변수**: 이름|유형|설명| ---- --------------- |`session`|javax.jcr.Session|유효한 JCR 세션입니다.| |`inputFile`|문자열|AEM 저장소에 있는 원본 HTML 파일의 절대 경로입니다.| |`destPath`|문자열|변환된 DITA 파일을 저장할 대상 위치의 절대 경로입니다.| |`createRev`|부울|파일의 수정 버전을 만들지 여부를 지정합니다. \( `true`\) 지정한 대상에 있거나 없습니다. \( `false`\). 이는 대상 위치에 변환된 파일의 기존 버전이 포함된 경우에만 고려됩니다.|
+**매개 변수**:
+이름|유형|설명|
+---- ---------------
+|`session`|javax.jcr.Session|올바른 JCR 세션입니다.|
+|`inputFile`|문자열|AEM 저장소에 있는 원본 HTML 파일의 절대 경로입니다.|
+|`destPath`|문자열|변환된 DITA 파일을 저장할 대상 위치의 절대 경로입니다.|
+|`createRev`|부울|파일의 수정 버전이 지정된 대상에 생성되는지 \( `true`\) 여부를 지정합니다 \( `false`\). 이는 대상 위치에 변환된 파일의 기존 버전이 포함된 경우에만 고려됩니다.|
 
-**예외**: throw `RepositoryException`.
+**예외**:
+`RepositoryException`을(를) throw합니다.
 
 ## Word 문서 변환
 
-다음 ``convertWordToDita`` 메서드는 Word 문서를 DITA 형식으로 변환합니다.
+``convertWordToDita`` 메서드는 Word 문서를 DITA 형식으로 변환합니다.
 
 **구문**:
 
@@ -68,6 +75,14 @@ public static void convertWordToDita(Session session,
                   throws RepositoryException, WorkflowException
 ```
 
-**매개 변수**: 이름|유형|설명| ---- --------------- |`session`|javax.jcr.Session|유효한 JCR 세션입니다.| |`inputFile`|문자열|AEM 저장소에 있는 원본 Word 파일의 절대 경로입니다.| |`destPath`|문자열|변환된 DITA 파일을 저장할 대상 위치의 절대 경로입니다.| |`style2tagMap`|문자열|변환에 사용할 스타일 매핑 파일의 절대 경로입니다.| |`createRev`|부울|파일의 수정 버전을 만들지 여부를 지정합니다. \( `true`\) 지정한 대상에 있거나 없습니다. \( `false`\). 이는 대상 위치에 변환된 파일의 기존 버전이 포함된 경우에만 고려됩니다.|
+**매개 변수**:
+이름|유형|설명|
+---- ---------------
+|`session`|javax.jcr.Session|올바른 JCR 세션입니다.|
+|`inputFile`|문자열|AEM 저장소에 있는 원본 Word 파일의 절대 경로입니다.|
+|`destPath`|문자열|변환된 DITA 파일을 저장할 대상 위치의 절대 경로입니다.|
+|`style2tagMap`|문자열|변환에 사용할 스타일 매핑 파일의 절대 경로입니다.|
+|`createRev`|부울|파일의 수정 버전이 지정된 대상에 생성되는지 \( `true`\) 여부를 지정합니다 \( `false`\). 이는 대상 위치에 변환된 파일의 기존 버전이 포함된 경우에만 고려됩니다.|
 
-**예외**: throw `RepositoryException`.
+**예외**:
+`RepositoryException`을(를) throw합니다.

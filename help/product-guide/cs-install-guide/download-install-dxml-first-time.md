@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Adobe Experience Manager Guides 모듈 배포 {#id213BCL00KEV}
 
-Cloud Manager를 통해 Experience Manager 안내서를 배포하여 시작할 수 있습니다. 모듈을 배포하려면에 언급된 지침을 따르십시오 [AEM Guides as a Cloud Service 배포](../release-info/deploy-xml-on-aemaacs.md)
+Cloud Manager을 통해 Experience Manager Guides을 배포하여 시작할 수 있습니다. 모듈을 배포하려면 [AEM Guides as a Cloud Service 배포](../release-info/deploy-xml-on-aemaacs.md)의 지침을 따르십시오
 
 
 

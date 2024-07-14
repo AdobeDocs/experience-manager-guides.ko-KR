@@ -1,13 +1,13 @@
 ---
 title: 특정 사용자 또는 그룹에 대한 폴더 컨텍스트 메뉴 옵션에서 DitaMap 만들기 옵션을 숨깁니다.
 description: 특정 사용자/그룹에 대한 폴더 컨텍스트 메뉴에서 'DitaMap' 옵션을 숨겨서 웨비저를 사용자 지정하는 방법을 알아봅니다
-source-git-commit: ea8fb646287f68676b6530b4cc5f56e7ba2d9b0c
+exl-id: 796bfe3a-3950-4ade-9215-c33534791055
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
 
 ---
-
 
 # 웹 편집기의 폴더 컨텍스트 메뉴에서 &#39;DitaMAP 만들기&#39; 표시/숨기기
 
@@ -16,8 +16,8 @@ ht-degree: 0%
 
 ## 전제 조건
 
-당사는 사용자의 요구 사항에 따라 앱의 UI를 사용자 정의할 수 있는 AEM Guides 확장 패키지를 활용할 것입니다.
-이 작업을 수행하십시오. [설명서](https://github.com/adobe/guides-extension/tree/main) guides 확장 프레임워크 작동 방식에 대한 자세한 정보를 얻으십시오.
+요구 사항에 따라 앱의 UI를 사용자 지정할 수 있는 AEM Guides 확장 패키지를 활용합니다.
+이 [설명서](https://github.com/adobe/guides-extension/tree/main)를 통해 안내서 확장 프레임워크 작동 방식에 대한 자세한 정보를 얻으십시오.
 
 이제 을(를) 시작하여 작성자가 아닌 모든 사용자에 대해 이 옵션을 숨기도록 폴더 컨텍스트 메뉴를 맞춤화하는 방법을 배울 수 있습니다.
 
@@ -126,13 +126,13 @@ controller: {
 
 ### 관련 리소스
 
-- **Extension Framework 기본 저장소** - [GIT](https://github.com/adobe/guides-extension/tree/main)
+- **확장 프레임워크 기본 리포지토리** - [GIT](https://github.com/adobe/guides-extension/tree/main)
 
 - **설명서** - [Experience League](../../../../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)
 
-- **문서화된 공통 사용 사례** - [Experience League](../../../../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
+- **문서화된 일반적인 사용 사례** - [Experience League](../../../../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
 
-- **샘플이 있는 공용 리포지토리** - [GIT에서](https://github.com/adobe/guides-extension/tree/sc-expert-session). 분기 sc-expert-session 참조
+- **샘플이 있는 공용 리포지토리** - [GIT](https://github.com/adobe/guides-extension/tree/sc-expert-session). 분기 sc-expert-session 참조
 
 ```
 
