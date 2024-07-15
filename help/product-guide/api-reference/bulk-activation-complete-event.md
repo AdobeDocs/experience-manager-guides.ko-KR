@@ -27,8 +27,9 @@ com/adobe/fmdita/replication/complete
 ```
 
 **매개 변수**:
-이름|유형|설명|
----- ---------------
+
+|이름|유형|설명|
+|---|---|---|
 |`path`|문자열|이 이벤트를 트리거한 파일의 경로입니다. <br> 예: `/content/output/sites/ditamap1-ditamap`. <br> JSON 배열로 직렬화된 경로 목록입니다.|
 |`messageType`|문자열|메시지 유형입니다. <br>가능한 옵션: `REPLICATION`|
 |`action`|문자열|수행된 작업입니다. <br>가능한 옵션: `BulkReplicate`|
