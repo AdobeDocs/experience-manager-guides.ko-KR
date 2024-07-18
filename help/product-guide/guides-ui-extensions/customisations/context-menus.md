@@ -3,7 +3,7 @@ title: 컨텍스트 메뉴
 description: 컨텍스트 메뉴 사용자 정의
 role: User, Admin
 exl-id: 25aa76dd-ef05-41ed-b980-14bbc1626059
-source-git-commit: 4f00d6b7ad45636618bafe92e643b3e288ec2643
+source-git-commit: 492f72768e0de74a91eb7acc9db8264e21bfc810
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 0%
@@ -51,6 +51,19 @@ ht-degree: 0%
 예를 들어 이해할 수 있도록 합니다.
 
 ```js title=customise_context_menu.js"
+const loadDitaFile = (filePath, uuid) =>{
+  return $.ajax({
+    type: 'POST',
+    url: '/bin/referencelistener',
+    data: {
+        operation: 'getdita',
+        path: filePath,
+        type: uuid ? 'UUID' : 'PATH',
+        cache: false,
+    },
+  })
+}
+
 const fileOptions = {
     id: "file_options",
     contextMenuWidget: "repository_panel",
@@ -89,7 +102,7 @@ const fileOptions = {
     controller: {
         downloadFile(){
             const path  = this.getValue('selectedItems')[0].path
-            this.loader.loadDitaFile(path).then((file) => {
+            loadDitaFile(path).then((file) => {
               function download_file(name, contents) {
                 const mime_type = "text/plain";
         

@@ -3,7 +3,7 @@ title: 사용자 정의
 description: 리뷰 앱 사용자 정의
 role: User, Admin
 exl-id: 9f6a4e9f-fc13-40b5-a30f-151c94faff81
-source-git-commit: 4f00d6b7ad45636618bafe92e643b3e288ec2643
+source-git-commit: 492f72768e0de74a91eb7acc9db8264e21bfc810
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 ## Review-Comment
 
 - id: `review_comment`
-- 후크: `this.updateExtraProps`:
+- 후크: `this.next('updateExtraProps')`:
 
 [여기](../../aem_guides_framework/basic-customisation.md)에서 설명한 대로 사용자 지정 중에 추가된 새 특성은 `this.model.extraProps`에 적용됩니다. `updateExtraProps` 메서드를 사용하면 리뷰 주석에 특성을 추가할 수 있으므로 추가된 특성의 업데이트와 서버에서의 저장도 처리할 수 있습니다.
 
@@ -80,8 +80,20 @@ ht-degree: 0%
 위의 코드 스니펫에서 발송된 이벤트가 새 댓글 또는 회신인지 확인하고 있습니다. 새 댓글이나 회신이 있는 경우 `setUserInfo` 메서드를 호출합니다.
 
 ```typescript
+    const getUserInfo = (userId) => {
+      return $.ajax({
+        url: '/bin/dxml/xmleditor/userinfo',
+        data: {
+          username: userId,
+        },
+        success: (data) => {
+          return data
+        }
+      })
+    }
+
     setUserInfo(event) {
-      this.loader?.getUserInfo(event.user).subscribe(userData => {
+      getUserInfo(event.user).done(userData => {
         const extraProps = {
           "userFirstName": userData?.givenName || '',
           "userLastName": userData?.familyName || '',

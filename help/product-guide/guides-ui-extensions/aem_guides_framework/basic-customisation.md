@@ -3,14 +3,44 @@ title: 앱 사용자 지정
 description: 앱 사용자 지정
 role: User, Admin
 exl-id: 3e454c48-2168-41a5-bbab-05c8a5b5aeb1
-source-git-commit: 4f00d6b7ad45636618bafe92e643b3e288ec2643
+source-git-commit: 3615928117ce1be527dc3c6d2ec8ddd115b78b0a
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
 
 # 앱 사용자 지정
+
+## 확장 프레임워크에 노출된 기능
+
+데이터 액세스, 구성 및 이벤트 트리거에 사용할 수 있는 `proxy` 아래에 함수 및 getter 집합이 노출되었습니다. 다음은 목록 및 액세스 방법입니다.
+
+```typescript
+interface EventData {
+  key?: string,
+  keys?: string[]
+  view?: any,
+  next?: any,
+  error?: any,
+  completed?: any,
+  id?: any
+}
+
+* getValue(key)
+* setValue(key, value)
+* subject // getter
+* subscribe(opts: EventData)
+* subscribeAppEvent(opts: EventData)
+* subscribeAppModel(key, next)
+* subscribeParentEvent(opts: EventData)
+* parentEventHandlerNext(eventName: string, opts: any)
+* appModelNext(eventName:string, opts) 
+* appEventHandlerNext(eventName:string, opts)
+* next(eventName:string, opts, eventHandler?)
+* viewConfig //getter
+* args //getter
+```
 
 앱은 MVC(모델, 뷰, 컨트롤러) 구조를 따릅니다.
 
@@ -89,8 +119,8 @@ this.next('methodName', args)
 
 ```typescript
   controller: {
-    init: function (context) {
-      context.setValue("buttonLabel", "Submit")
+    init: function () {
+      this.setValue("buttonLabel", "Submit")
     },
 
     switchButtonLabel(){
@@ -102,3 +132,111 @@ this.next('methodName', args)
 
 아래 GIF은 위의 코드를 작동 중인 상태로 보여 줍니다
 ![기본 사용자 지정](imgs/basic_customisation.gif "기본 사용자 지정 단추")
+
+
+### 구성 예제 보기
+
+이 경우 `viewConfig`을(를) 사용하여 검색 모드 이벤트에 액세스하고 이벤트를 트리거하여 업데이트합니다.
+
+```typescript
+  { 
+    id: 'repository_panel', 
+    controller: {
+      init: function () {
+        console.log('Logging view config ', this.viewConfig)
+        this.next(this.viewConfig.items[1].searchModeChangedEvent, { searchMode: true })
+      }
+    }
+  }
+```
+
+### 가입 예
+
+이 경우 파일 이름 바꾸기 옵션을 클릭할 때 파일 이름 바꾸기에 대한 구독을 콘솔 로그에 추가합니다
+
+```typescript
+  { 
+    id: 'repository_panel', 
+    controller: {
+      init: function () {
+        this.subscribe({
+          key: 'rename',
+          next: () => { console.log('rename using extension') }
+        })
+      }
+    }
+  }
+```
+
+### 앱 이벤트 구독 예
+
+이 경우 변경된 활성 문서에 대한 콘솔 로그온(편집기 UI에서 탭 변경)
+
+```typescript
+  { 
+    id: 'repository_panel', 
+    controller: {
+      init: function () {
+        this.subscribeAppEvent({
+          key: 'app.active_document_changed',
+          next: () => { console.log('Extension: active document changed') }
+        })
+      }
+    }
+  }
+```
+
+### 앱 모델 이벤트 구독 예
+
+`app.mode`과(와) 같은 앱 모델 이벤트 구독 예
+
+```typescript
+  { 
+    id: 'repository_panel', 
+    controller: {
+      init: function () {
+        this.subscribeAppModel('app.mode',
+          () => { console.log('app mode subs') }
+        )
+      }
+    }
+  }
+```
+
+### 상위 컨트롤러 이벤트 예
+
+여기서는 `left_panel_container` 컨트롤러의 이벤트인 `tabChange` 이벤트에 구독을 추가합니다.
+`repository_panel`의 상위 컨트롤러로
+
+```typescript
+  { 
+    id: 'repository_panel', 
+    controller: {
+      init: function () {
+        this.subscribeParentEvent({
+          key: 'tabChange',
+          next: () => { console.log('tab change subs') }
+        })
+        this.parentEventHandlerNext('tabChange', {
+          data: 'map_panel'
+        )
+      }
+    }
+  }
+```
+
+### 다음 앱 모델 및 앱 컨트롤러
+
+실행할 올바른 이벤트와 해당 데이터를 알고 있어 직접 트리거할 수 있습니다
+
+```typescript
+  { 
+    id: 'file_options', 
+    controller: {
+      init: function () {
+        this.appModelNext('app.mode', 'author')
+        this.appEventHandlerNext('app.active_document_changed', 'active doc changed')   
+      }
+    }
+  } 
+```

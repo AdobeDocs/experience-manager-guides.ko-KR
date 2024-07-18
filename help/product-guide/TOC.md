@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 확인하십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: 05a21c8b18d5eb79447423d48e1d65b4d6b44242
+source-git-commit: d16d9915b826a754f834ad82f413e860c2da12d2
 workflow-type: tm+mt
-source-wordcount: '1819'
+source-wordcount: '1824'
 ht-degree: 6%
 
 ---
@@ -403,7 +403,7 @@ ht-degree: 6%
    - [기준 및 레이블로 작동하는 Java 기반 API](./api-reference/create-baseline-label-java.md)
    - [폴더 프로필 작업을 위한 Java 기반 API](./api-reference/folder-profile-java.md)
    - [패키지 생성 및 활성화를 위한 Java 기반 API](./api-reference/create-activate-package-java.md)
-   - [Post 처리 이벤트 핸들러](./api-reference/post-process-event.md)
+   - [사후 처리 이벤트 핸들러](./api-reference/post-process-event.md)
    - [일괄 활성화 완료 이벤트 핸들러](./api-reference/bulk-activation-complete-event.md)
    - [전환 프로세스 이벤트 핸들러](./api-reference/conversion-complete-event.md)
 - 기술 자료 {#knowledge-base}
@@ -459,9 +459,12 @@ ht-degree: 6%
             - [간단한 사용자 지정](./guides-ui-extensions/customisations/add-button.md)
             - [컨텍스트 메뉴 사용자 정의](./guides-ui-extensions/customisations/context-menus.md)
             - [도구 모음 및 상단 표시줄 사용자 지정](./guides-ui-extensions/customisations/toolbar-topbar.md)
+            - [예](./guides-ui-extensions/examples.md)
+            - [사용자 지정 가능한 Json](./guides-ui-extensions/JSONs.md)
             - {#review-app-customisations} 검토
                - [구성 요소](./guides-ui-extensions/customisations/ReviewApp/components.md)
                - [사용자 정의](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
+               - [사용자 지정 대화 상자](./guides-ui-extensions/customisations/ReviewApp/custom-dialog.md)
       - 게시 {#publishing}
 
          - [기본 PDF 게시를 위한 AEM 환경 구성](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
@@ -477,7 +480,7 @@ ht-degree: 6%
          - [사용자 지정 DITA-OT 설정](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
 
       - 워크플로 {#workflows}
-         - [Post 생성 워크플로](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
+         - [사후 생성 워크플로](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
       - 번역 {#translation}
          - [번역에서 단락 제외](./knowledge-base/kb-articles/translation/exclude-paragraphs-from-translation.md)
       - 사용 사례 {#use-cases}
