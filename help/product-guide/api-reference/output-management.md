@@ -5,10 +5,10 @@ exl-id: dab654f5-555d-4a89-bc94-55b1e938f255
 feature: Rest API Output Management
 role: Developer
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 3279640b32041cafe262457c62b8bd34e55f9ccf
 workflow-type: tm+mt
 source-wordcount: '1175'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -23,11 +23,12 @@ DITA 맵에 대해 구성된 모든 출력 사전 설정을 검색하는 POST �
 **요청 URL**:
 http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/publishlistener
 
-**매개 변수**:\
-|이름|유형|필수|설명|
--------- -------------------
-호출되는 작업의 |`:operation`|문자열|예|이름. 이 매개 변수의 값은 `getalloutputs`.<br>입니다. **참고:** 값은 대소문자를 구분하지 않습니다.|
-|`sourcePath`|문자열|예|DITA 맵 파일의 절대 경로.|
+**매개 변수**:
+
+| 이름 | 유형 | 필수 | 설명 |
+|----|----|--------|-----------|
+| `:operation` | 문자열 | 예 | 호출되는 작업의 이름입니다. 이 매개 변수의 값은 `getalloutputs`.<br>입니다. **참고:** 값은 대소문자를 구분하지 않습니다. |
+| `sourcePath` | 문자열 | 예 | DITA 맵 파일의 절대 경로입니다. |
 
 **응답 값**:
 JSON 출력 사전 설정 객체의 배열을 반환합니다. 각 객체에는 다음 요소가 포함됩니다.
@@ -59,17 +60,19 @@ DITA 맵에 대한 새 출력 사전 설정을 만드는 POST 방법입니다.
 http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/publishlistener
 
 **매개 변수**:
-|이름|유형|필수|설명|
--------- -------------------
-호출되는 작업의 |`:operation`|문자열|예|이름. 이 매개 변수의 값은 ``createoutput``.<br>입니다. **참고:** 값은 대소문자를 구분하지 않습니다.|
-|`sourcePath`|문자열|예|DITA 맵 파일의 절대 경로.|
-|`outputTitle`|문자열|예|출력 사전 설정 설정에 대한 설명적인 이름. 출력 사전 설정의 Setting Name 속성 값을 정의하는 데 사용됩니다.<br> **참고:** 새 출력 사전 설정이 만들어지면 백 엔드 시스템에서 지정된 제목에서 출력 사전 설정의 고유한 이름을 구동합니다.|
-|`outputType`|문자열|예|이 사전 설정을 사용하여 생성된 출력 유형(예: AEM 사이트, PDF, EPUB 또는 기타)입니다. 사용 가능한 옵션은 <br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   EPUB <br>-   사용자 정의|
+
+| 이름 | 유형 | 필수 | 설명 |
+|----|----|--------|-----------|
+| `:operation` | 문자열 | 예 | 호출되는 작업의 이름입니다. 이 매개 변수의 값은 ``createoutput``.<br>입니다. **참고:** 값은 대소문자를 구분하지 않습니다. |
+| `sourcePath` | 문자열 | 예 | DITA 맵 파일의 절대 경로입니다. |
+| `outputTitle` | 문자열 | 예 | 출력 사전 설정 설정을 설명하는 이름입니다. 출력 사전 설정의 Setting Name 속성 값을 정의하는 데 사용됩니다.<br> **참고:** 새 출력 사전 설정이 만들어지면 백 엔드 시스템에서 지정된 제목에서 출력 사전 설정의 고유한 이름을 구동합니다. |
+| `outputType` | 문자열 | 예 | 이 사전 설정을 사용하여 생성된 출력 유형(예: AEM Site, PDF, EPUB 또는 기타)입니다. 사용 가능한 옵션은 <br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   EPUB <br>-   사용자 정의 |
 
 **응답 값**:
-|요소|설명|
-------------------
-|`outputName`|새로 만든 출력 사전 설정의 고유 이름입니다. 이 이름은 `outputTitle` 매개 변수의 값에서 파생됩니다.|
+
+| 요소 | 설명 |
+|-------|-----------|
+| `outputName` | 새로 생성된 출력 사전 설정의 고유 이름입니다. 이 이름은 `outputTitle` 매개 변수의 값에서 파생됩니다. |
 
 ## 출력 사전 설정 저장
 
@@ -79,11 +82,12 @@ http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/publishlistener
 http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/publishlistener
 
 **매개 변수**:
-|이름|유형|필수|설명|
--------- -------------------
-호출되는 작업의 |`:operation`|문자열|예|이름. 이 매개 변수의 값은 ``saveoutput``.<br>입니다. **참고:** 값은 대소문자를 구분하지 않습니다.|
-|`sourcePath`|문자열|예|DITA 맵 파일의 절대 경로.|
-|`outputObj`|문자열|예|업데이트 중인 출력 사전 설정의 속성을 포함하는 JSON 개체입니다. `outputObj.outputName` 속성에 업데이트할 출력 사전 설정의 이름이 포함되어 있습니다. JSON 개체의 형식을 보려면 [DITA 맵에 대한 모든 출력 사전 설정 가져오기](#get-output-presets-dita-map)의 **응답 값** 표를 참조하십시오.|
+
+| 이름 | 유형 | 필수 | 설명 |
+|----|----|--------|-----------|
+| `:operation` | 문자열 | 예 | 호출되는 작업의 이름입니다. 이 매개 변수의 값은 ``saveoutput``.<br>입니다. **참고:** 값은 대소문자를 구분하지 않습니다. |
+| `sourcePath` | 문자열 | 예 | DITA 맵 파일의 절대 경로입니다. |
+| `outputObj` | 문자열 | 예 | 업데이트 중인 출력 사전 설정의 속성을 포함하는 JSON 개체입니다. `outputObj.outputName` 속성에 업데이트할 출력 사전 설정의 이름이 포함되어 있습니다. JSON 개체의 형식을 보려면 [DITA 맵에 대한 모든 출력 사전 설정 가져오기](#get-output-presets-dita-map)의 **응답 값** 표를 참조하십시오. |
 
 **응답 값**:
 HTTP 200 \(Successful\) 응답을 반환합니다.
@@ -96,28 +100,30 @@ HTTP 200 \(Successful\) 응답을 반환합니다.
 http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/publishlistener
 
 **매개 변수**:
-|이름|유형|필수|설명|
--------- -------------------
-호출되는 작업의 |`:operation`|문자열|예|이름. 이 매개 변수의 값은 `getoutput`입니다. <br>**참고:** 값은 대소문자를 구분하지 않습니다.|
-|`sourcePath`|문자열|예|DITA 맵 파일의 절대 경로.|
-|`outputName`|문자열|예|세부 정보를 검색해야 하는 출력 사전 설정 이름.|
+
+| 이름 | 유형 | 필수 | 설명 |
+|----|----|--------|-----------|
+| `:operation` | 문자열 | 예 | 호출되는 작업의 이름입니다. 이 매개 변수의 값은 `getoutput`입니다. <br>**참고:** 값은 대소문자를 구분하지 않습니다. |
+| `sourcePath` | 문자열 | 예 | DITA 맵 파일의 절대 경로입니다. |
+| `outputName` | 문자열 | 예 | 세부 정보를 검색해야 하는 출력 사전 설정의 이름입니다. |
 
 **응답 값**:
-|요소|설명|
-------------------
-출력 사전 설정 이름 |`outputName`|입니다. 출력 이름은 정의된 DITA 맵의 범위에서 고유합니다.|
-|`outputType`|이 사전 설정을 사용하여 생성된 출력 유형(예: AEM 사이트, PDF, EPUB 또는 기타)입니다. 사용 가능한 옵션은 <br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   EPUB <br>-   사용자 정의 <br>|
-|`outputTitle`|출력 사전 설정 설정을 설명하는 이름입니다. 출력 사전 설정의 이름 설정 속성 값을 정의하는 데 사용됩니다.|
-|`ditaValPathList`|원하는 출력을 생성하는 데 사용할 DITAVAL 파일 경로의 배열입니다.|
-|`targetPath`|출력이 게시되거나 저장되는 경로입니다.|
-|`siteName`|\(AEM Site 출력의 경우\) AEM 사이트의 이름입니다.|
-AEM Site의 |`siteTitle`|\(AEM Site 출력의 경우\) 제목|
-|`templatePath`|\(AEM Site 출력\) 원하는 출력을 생성하는 데 사용할 템플릿 노드의 경로|
-|`searchScope`|검색 작업의 범위를 지정합니다. 이 매개 변수의 값은 `local`(으)로 설정해야 합니다.|
-|`generateTOC`|\(AEM Site 출력의 경우\) TOC의 생성 \(true\) 여부를 지정합니다 \(false\).|
-|`generateBreadcrumbs`|\(AEM Site 출력의 경우\) 탐색 표시를 생성할지 \(true\) 또는 \(false\) 여부를 지정합니다.|
-|`overwriteFiles`|\(AEM Site 출력의 경우\) 대상에 있는 파일을 덮어쓸지 \(true\) 또는 \(false\) 여부를 지정합니다.|
-|`pdfGenerator`|사용할 PDF 생성 엔진을 지정합니다. 가능한 값은 <br>-   <br> 반복   FMPS|
+
+| 요소 | 설명 |
+|-------|-----------|
+| `outputName` | 출력 사전 설정 이름. 출력 이름은 정의된 DITA 맵의 범위에서 고유합니다. |
+| `outputType` | 이 사전 설정을 사용하여 생성된 출력 유형(예: AEM Site, PDF, EPUB 또는 기타)입니다. 사용 가능한 옵션은 <br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   EPUB <br>-   사용자 지정 <br> |
+| `outputTitle` | 출력 사전 설정 설정을 설명하는 이름입니다. 출력 사전 설정의 이름 설정 속성 값을 정의하는 데 사용됩니다. |
+| `ditaValPathList` | 원하는 출력을 생성하는 데 사용할 DITAVAL 파일 경로의 배열입니다. |
+| `targetPath` | 출력이 게시되거나 저장되는 경로입니다. |
+| `siteName` | \(AEM Site 출력의 경우\) AEM 사이트의 이름입니다. |
+| `siteTitle` | \(AEM Site 출력의 경우\) AEM 사이트의 제목입니다. |
+| `templatePath` | \(AEM 사이트 출력의 경우\) 원하는 출력을 생성하는 데 사용할 템플릿 노드의 경로입니다. |
+| `searchScope` | 검색 작업의 범위를 지정하십시오. 이 매개 변수의 값은 `local`(으)로 설정해야 합니다. |
+| `generateTOC` | \(AEM 사이트 출력의 경우\) TOC의 생성 여부를 \(true\) \(false\) 지정합니다. |
+| `generateBreadcrumbs` | \(AEM 사이트 출력의 경우\) 탐색 표시를 생성할지 \(true\) 여부를 \(false\) 지정합니다. |
+| `overwriteFiles` | \(AEM 사이트 출력의 경우\) 대상에 있는 파일을 덮어쓸지 \(true\) 또는 \(false\) 여부를 지정합니다. |
+| `pdfGenerator` | 사용할 PDF 생성 엔진을 지정합니다. 가능한 값은 <br>-   <br> 반복   FMPS |
 
 >[!NOTE]
 >
@@ -131,11 +137,12 @@ AEM Site의 |`siteTitle`|\(AEM Site 출력의 경우\) 제목|
 http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/publishlistener
 
 **매개 변수**:
-|이름|유형|필수|설명|
--------- -------------------
-호출되는 작업의 |`operation`|문자열|예|이름. 이 매개 변수의 값은 `GENERATEOUTPUT`.<br>입니다. **참고:** 값은 대/소문자를 구분합니다.|
-|`source`|문자열|예|DITA 맵 파일의 절대 경로.|
-|`outputName`|문자열|예|출력을 생성하는 데 사용할 출력 사전 설정의 이름입니다. 파이프 \(&quot;\|&quot;\) 구분 기호(예: `aemsite|pdfoutput`)를 사용하여 여러 출력 사전 설정을 지정할 수 있습니다.|
+
+| 이름 | 유형 | 필수 | 설명 |
+|----|----|--------|-----------|
+| `operation` | 문자열 | 예 | 호출되는 작업의 이름입니다. 이 매개 변수의 값은 `GENERATEOUTPUT`.<br>입니다. **참고:** 값은 대/소문자를 구분합니다. |
+| `source` | 문자열 | 예 | DITA 맵 파일의 절대 경로입니다. |
+| `outputName` | 문자열 | 예 | 출력을 생성하는 데 사용할 출력 사전 설정의 이름입니다. 파이프 \(&quot;\|&quot;\) 구분 기호(예: `aemsite|pdfoutput`)를 사용하여 여러 출력 사전 설정을 지정할 수 있습니다. |
 
 **응답 값**:
 HTTP 200 \(Successful\) 응답을 반환합니다.
@@ -148,10 +155,11 @@ HTTP 200 \(Successful\) 응답을 반환합니다.
 http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/publishlistener
 
 **매개 변수**:
-|이름|유형|필수|설명|
--------- -------------------
-호출되는 작업의 |`operation`|문자열|예|이름. 이 매개 변수의 값은 `INCREMENTALPUBLISH`입니다. <br>**참고:** 값은 대/소문자를 구분합니다.|
-|`contentPath`|JSON|예|출력 사전 설정의 이름과 함께 DITA 맵 파일 및 주제 파일의 절대 경로입니다. 다음 예제를 빌딩 블록으로 사용합니다.|
+
+| 이름 | 유형 | 필수 | 설명 |
+|----|----|--------|-----------|
+| `operation` | 문자열 | 예 | 호출되는 작업의 이름입니다. 이 매개 변수의 값은 `INCREMENTALPUBLISH`입니다. <br>**참고:** 값은 대/소문자를 구분합니다. |
+| `contentPath` | JSON | 예 | 출력 사전 설정의 이름과 함께 DITA 맵 파일 및 주제 파일의 절대 경로입니다. 다음 예를 빌딩 블록으로 사용합니다. |
 
 ```XML
 {
@@ -192,11 +200,12 @@ HTTP 200 \(Successful\) 응답을 반환합니다.
 http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/publishlistener
 
 **매개 변수**:
-|이름|유형|필수|설명|
--------- -------------------
-호출되는 작업의 |`:operation`|문자열|예|이름. 이 매개 변수의 값은 `deleteoutput`.<br>입니다. **참고:** 값은 대소문자를 구분하지 않습니다.|
-|`sourcePath`|문자열|예|DITA 맵 파일의 절대 경로.|
-|`outputName`|문자열|예|삭제할 출력 사전 설정의 이름.|
+
+| 이름 | 유형 | 필수 | 설명 |
+|----|----|--------|-----------|
+| `:operation` | 문자열 | 예 | 호출되는 작업의 이름입니다. 이 매개 변수의 값은 `deleteoutput`.<br>입니다. **참고:** 값은 대소문자를 구분하지 않습니다. |
+| `sourcePath` | 문자열 | 예 | DITA 맵 파일의 절대 경로입니다. |
+| `outputName` | 문자열 | 예 | 삭제할 출력 사전 설정의 이름입니다. |
 
 **응답 값**:
 HTTP 200 \(Successful\) 응답을 반환합니다.

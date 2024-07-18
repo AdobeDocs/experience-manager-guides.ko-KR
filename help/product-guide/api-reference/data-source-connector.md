@@ -5,10 +5,10 @@ exl-id: e2811892-c3cf-41f5-94d8-c2b37823a53a
 feature: Rest API Data Source
 role: Developer
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: b4762314ec5269abe62b622184f1724762a6cfa0
 workflow-type: tm+mt
 source-wordcount: '81'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 0%
 
 **매개 변수**:
 
-|이름|유형|필수|설명|
+| 이름 | 유형 | 필수 | 설명 |
 |----|----|--------|-----------|
-|`path`|String|Yes|A string which points to a path in the AEM repository. It can be a path in the `/content/dam or /var/dxml`.|
+| `path` | 문자열 | 예 | AEM 저장소의 경로를 가리키는 문자열입니다. `/content/dam or /var/dxml`의 경로일 수 있습니다. |
 
 **예**:\
 `http://host:4502/bin/guides/v1/konnect/config/register?path=/var/dxml/konnect/jira.json`

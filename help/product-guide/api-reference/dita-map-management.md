@@ -5,10 +5,10 @@ exl-id: 6277e52d-1b05-4dd7-8d2b-4b94f329e2d7
 feature: Rest API DITA Map
 role: Developer
 level: Experienced
-source-git-commit: 7c529e98334999cf2b5e9ee18a27278d24318437
+source-git-commit: d0196ffbe5a779445d627871c2940f7eea40f1ce
 workflow-type: tm+mt
 source-wordcount: '611'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -24,10 +24,11 @@ ht-degree: 0%
 http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/fmdita/exportditamap
 
 **매개 변수**:
-|이름|유형|필수|설명|
--------- -------------------
-|`ditamap`|문자열|예|AEM 저장소에 있는 DITA 맵 파일의 절대 경로입니다.|
-|`baseline`|문자열|아니요|버전이 지정된 콘텐츠를 검색하는 데 사용되는 기준선의 제목입니다. <br> **참고:** 값은 대/소문자를 구분합니다. |
+
+| 이름 | 유형 | 필수 | 설명 |
+|----|----|--------|-----------|
+| `ditamap` | 문자열 | 예 | AEM 저장소의 DITA 맵 파일의 절대 경로입니다. |
+| `baseline` | 문자열 | 아니요 | 버전이 지정된 콘텐츠를 검색하는 데 사용되는 베이스라인의 제목입니다. <br> **참고:** 값은 대/소문자를 구분합니다. |
 
 **응답 값**:
 응답 출력 스트림에 내용이 기록되는 .zip 파일입니다.

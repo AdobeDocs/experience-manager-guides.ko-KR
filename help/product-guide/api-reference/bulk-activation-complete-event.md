@@ -5,10 +5,10 @@ feature: Bulk Activation Event Handler
 role: Developer
 level: Experienced
 exl-id: 08b153d7-3d13-4804-9e3e-38790dbea1f3
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+source-git-commit: 9b8971bf7065a94a2e42669094249c822c555718
 workflow-type: tm+mt
 source-wordcount: '185'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
@@ -28,15 +28,15 @@ com/adobe/fmdita/replication/complete
 
 **매개 변수**:
 
-|이름|유형|설명|
-|---|---|---|
-|`path`|문자열|이 이벤트를 트리거한 파일의 경로입니다. <br> 예: `/content/output/sites/ditamap1-ditamap`. <br> JSON 배열로 직렬화된 경로 목록입니다.|
-|`messageType`|문자열|메시지 유형입니다. <br>가능한 옵션: `REPLICATION`|
-|`action`|문자열|수행된 작업입니다. <br>가능한 옵션: `BulkReplicate`|
-|`user`|문자열|작업을 시작한 사용자입니다.|
-|`result`|문자열|일괄 활성화 결과. 직렬화된 JSON 개체입니다. <br>`{"success":boolean,"code":integer,"message":"" }`|
-|`agentId`|문자열|복제에 사용된 에이전트 ID입니다. 예: `"publish"`|
-|`importMode`|문자열|활성화에 사용되는 가져오기 모드입니다. 가능한 옵션은 <br>`REPLACE, MERGE, UPDATE`입니다.|
+| 이름 | 유형 | 설명 |
+|----|----|-----------|
+| `path` | 문자열 | 이 이벤트를 트리거한 파일의 경로입니다. <br> 예: `/content/output/sites/ditamap1-ditamap`. <br> JSON 배열로 직렬화된 경로 목록입니다. |
+| `messageType` | 문자열 | 메시지 유형. <br>가능한 옵션: `REPLICATION` |
+| `action` | 문자열 | 수행한 작업입니다. <br>가능한 옵션: `BulkReplicate` |
+| `user` | 문자열 | 작업을 시작한 사용자입니다. |
+| `result` | 문자열 | 벌크 활성화의 결과입니다. 직렬화된 JSON 개체입니다. <br>`{"success":boolean,"code":integer,"message":"" }` |
+| `agentId` | 문자열 | 복제에 사용되는 agentId입니다. 예: `"publish"` |
+| `importMode` | 문자열 | 활성화에 사용되는 가져오기 모드입니다. 가능한 옵션은 <br>`REPLACE, MERGE, UPDATE`입니다. |
 
 
 **샘플 이벤트 수신기**:
