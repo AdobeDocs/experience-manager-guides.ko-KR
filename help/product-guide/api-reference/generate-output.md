@@ -5,10 +5,10 @@ exl-id: e19439df-39ec-47fd-9da5-24f51750a7e5
 feature: Java-Based API Publishing
 role: Developer
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: a255007fc9fe169f926e356ec9d2a8f5a2fdbe29
 workflow-type: tm+mt
 source-wordcount: '160'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -49,11 +49,12 @@ throws GuidesApiException
 ```
 
 **매개 변수**:
-이름|유형|설명|
----- ---------------
-|`session`|javax.jcr.Session|올바른 JCR 세션입니다.|
-출력을 생성해야 하는 DITA 맵 파일의 |``sourcePath``|String|Path\(AEM 저장소 내)|
-|``outputName``|문자열|출력을 생성하는 데 사용할 출력 사전 설정의 이름입니다. 파이프 \(&quot;\|&quot;\) 구분 기호(예: `aemsite\|pdfoutput`)를 사용하여 여러 출력 사전 설정을 지정할 수 있습니다.|
+
+| 이름 | 유형 | 설명 |
+|----|----|-----------|
+| `session` | javax.jcr.Session | 유효한 JCR 세션입니다. |
+| ``sourcePath`` | 문자열 | 출력을 생성해야 하는 DITA 맵 파일의 경로 \(AEM 저장소\). |
+| ``outputName`` | 문자열 | 출력을 생성하는 데 사용할 출력 사전 설정의 이름입니다. 파이프 \(&quot;\|&quot;\) 구분 기호(예: `aemsite\|pdfoutput`)를 사용하여 여러 출력 사전 설정을 지정할 수 있습니다. |
 
 **예외**:
 ``javax.jcr.RepositoryException``, `java.io.IOException` 및 `java.lang.Exception`이(가) 발생합니다.
