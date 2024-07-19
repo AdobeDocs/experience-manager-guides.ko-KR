@@ -1,9 +1,9 @@
 ---
 title: 예
 description: 사용자 지정 예 목록
-source-git-commit: 7770bc791ae87748cfe191cfaff3f929f77b4533
+source-git-commit: fc0b19ac44ca9cbc1e9c5cf046f9a0a24f2a1794
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,9 @@ ht-degree: 0%
 
 6. [수정 대화 상자로 수락](./examples/review_app_examples/accept_with_modification_dialog.ts)
 앱에 새 위젯을 추가하는 예제입니다. 여기에 두 개의 입력 텍스트 필드가 있는 새 대화 상자가 만들어졌습니다. `Revised Text` 및 `Adjudicator Comment Rationale`
+
+7. [개정 저장](./examples/save_revision.ts)
+이는 기존 대화 상자를 업데이트하는 방법의 예입니다. 여기에 게시 버튼을 추가합니다. 대화 상자의 내용을 수정할 수 있습니다. 여기에 있는 JSON을 참조하세요. [`save_revision`](./jsons/dialogs/save_revision.json)
 
 ![수정 대화 상자 포함](./imgs/accept_with_modification_dialogue.png)
 
