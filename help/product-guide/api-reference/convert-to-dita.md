@@ -5,10 +5,10 @@ exl-id: f091782e-ab54-4db4-9018-9bcbff9da7b2
 feature: Rest API Conversion Workflow
 role: Developer
 level: Experienced
-source-git-commit: add4730e396fe7384a20fb2c6c04730c20a83e71
+source-git-commit: e979823b7947b561165fde92023ae9c440182e94
 workflow-type: tm+mt
 source-wordcount: '391'
-ht-degree: 6%
+ht-degree: 9%
 
 ---
 
@@ -63,12 +63,13 @@ InDesign 문서를 DITA 형식으로 변환하는 GET 방법입니다.
 http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/fmdita/conversion
 
 **매개 변수**:
-|이름|유형|필수|설명|
--------- -------------------
-호출되는 작업의 |``operation``|문자열|예|이름. 이 매개 변수의 값은 ``idml2dita``입니다. <br> **참고:** 값은 대소문자를 구분하지 않습니다.|
-|`inputFile`|문자열|예|AEM 저장소에 있는 원본 InDesign 파일의 절대 경로입니다.|
-|`destPath`|문자열|예|변환된 DITA 파일이 저장되는 대상 위치의 절대 경로입니다.|
-|`createRev`|Boolean|Yes|파일의 수정 버전이 지정된 대상에 \( `true`\) 생성되는지 여부를 지정합니다 \( `false`\). 이는 대상 위치에 변환된 파일의 기존 버전이 포함된 경우에만 고려됩니다.|
+
+| 이름 | 유형 | 필수 | 설명 |
+|----|----|--------|-----------|
+| ``operation`` | 문자열 | 예 | 호출되는 작업의 이름입니다. 이 매개 변수의 값은 ``idml2dita``입니다. <br> **참고:** 값은 대소문자를 구분하지 않습니다. |
+| `inputFile` | 문자열 | 예 | AEM 저장소에 있는 소스 InDesign 파일의 절대 경로입니다. |
+| `destPath` | 문자열 | 예 | 변환된 DITA 파일을 저장할 대상 위치의 절대 경로입니다. |
+| `createRev` | 부울 | 예 | 지정한 대상에 파일 수정 버전을 만들지 \( `true`\) 여부를 지정하십시오. \( `false`\) 대상 위치에 변환된 파일의 기존 버전이 포함된 경우에만 이 값이 고려됩니다. |
 
 **응답 값**:
 HTTP 200 \(Successful\) 응답을 반환합니다.
