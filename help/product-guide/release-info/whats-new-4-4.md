@@ -3,9 +3,9 @@ title: 릴리스 정보 | Adobe Experience Manager Guides 4.4.0 릴리스의 새
 description: Adobe Experience Manager Guides 4.4.0 릴리스의 새로운 기능과 향상된 기능에 대해 알아봅니다
 role: Leader
 exl-id: 63a2e93b-b4cf-4423-88e4-b01c6a52a532
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
 workflow-type: tm+mt
-source-wordcount: '2307'
+source-wordcount: '2308'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,7 @@ ht-degree: 0%
 ![버전 기록 대화 상자](assets/version-history-dialog-web-editor.png){width="800" align="left"}
 *주제의 다른 버전에서 변경 내용을 미리 봅니다.*
 
-
-[왼쪽 패널](../user-guide/web-editor-features.md#id2051EA0M0HS) 섹션에서 **버전 기록** 기능 설명에 대해 자세히 알아보세요.
+[왼쪽 패널(레거시)](/help/legacy-product-guide/user-guide/web-editor-features.md#id2051EA0M0HS) 섹션에서 **버전 기록** 기능 설명에 대해 자세히 알아보세요.
 
 ## 조건 사전 설정 관리
 
@@ -177,7 +176,7 @@ AEM Site 출력에서 렌더링되는 교차 맵 링크(범위 피어가 있는 
 
 ## 문서 제목을 사용하도록 AEM 사이트 출력의 URL을 구성합니다.
 
-Experience Manager Guides을 사용하면 관리자가 AEM Site 출력의 URL을 구성할 수 있습니다. 파일 이름이 존재하지 않거나 모든 특수 문자를 포함하는 경우 AEM Site 출력의 URL에서 구분 기호로 대체하도록 을 구성할 수 있습니다. 첫 번째 하위 주제의 이름으로 바꿀 수도 있습니다. [문서 제목을 사용하도록 AEM 사이트 출력의 URL을 구성하는 방법](../cs-install-guide/conf-output-generation.md#configure-the-url-of-the-aem-site-output-to-use-the-document-title)을 알아봅니다.
+Experience Manager Guides을 사용하면 관리자가 AEM Site 출력의 URL을 구성할 수 있습니다. 파일 이름이 없거나 모든 특수 문자를 포함하는 경우 AEM Site 출력의 URL에서 구분 기호로 대체하도록 을 구성할 수 있습니다. 첫 번째 하위 항목의 이름으로 바꿀 수도 있습니다. [문서 제목을 사용하도록 AEM 사이트 출력의 URL을 구성하는 방법](../cs-install-guide/conf-output-generation.md#configure-the-url-of-the-aem-site-output-to-use-the-document-title)을 알아봅니다.
 
 
 ## Publish 여러 출력 사전 설정 병렬

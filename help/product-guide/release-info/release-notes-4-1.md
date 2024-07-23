@@ -4,7 +4,7 @@ description: Adobe Experience Manager Guides의 최신 릴리스
 exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
 workflow-type: tm+mt
 source-wordcount: '3644'
 ht-degree: 1%
@@ -18,6 +18,7 @@ ht-degree: 1%
 ## 최신 릴리스로 업그레이드
 
 현재 버전의 AEM Guides을 버전 4.1.3으로 쉽게 업그레이드할 수 있습니다. AEM Guides 버전 4.1.3으로 업그레이드하기 전에 다음 사항을 고려해야 합니다.
+
 * 버전 4.1 또는 4.1.x를 사용 중인 경우 버전 4.1.3으로 바로 업그레이드할 수 있습니다.
 * 버전 4.0.x를 사용 중인 경우 4.1.3으로 업그레이드하기 전에 버전 4.1 또는 4.1.x로 업그레이드해야 합니다.
 * 버전 3.8.5를 사용 중인 경우 4.1로 업그레이드하기 전에 버전 4.0.x로 업그레이드해야 합니다.
@@ -235,7 +236,7 @@ DITA 콘텐츠 키 참조는 한 주제의 콘텐츠 일부를 다른 주제에 
 사용자 지정된 맵 템플릿을 사용하면 맵 템플릿과 전체 참조 폴더 구조를 매우 쉽게 복제할 수 있습니다. 이러한 사용자 정의된 템플릿은 재귀 구조 및 참조가 있는 여러 맵을 만들고 다시 만드는 데 특히 유용합니다.
 
 * **스키마 집합 지원**
-&quot;Schematron&quot;은 XML 파일에 대한 테스트를 정의하는 데 사용되는 규칙 기반 유효성 검사 언어를 의미합니다. Schematron 파일을 사용하여 특정 규칙을 정의한 다음 DITA 주제 또는 맵의 유효성을 검사할 수 있습니다. 웹 편집기는 Schematron 파일을 지원합니다. Schematron 파일을 가져와서 웹 편집기에서 편집할 수도 있습니다. 웹 편집기의 Schematron 지원을 통해 규칙 세트에 대한 파일의 유효성을 검사하고 전체 항목의 일관성과 정확성을 유지할 수 있습니다.
+&quot;Schematron&quot;은 XML 파일에 대한 테스트를 정의하는 데 사용되는 규칙 기반 유효성 검사 언어를 나타냅니다. Schematron 파일을 사용하여 특정 규칙을 정의한 다음 DITA 주제 또는 맵의 유효성을 검사할 수 있습니다. 웹 편집기는 Schematron 파일을 지원합니다. Schematron 파일을 가져와서 웹 편집기에서 편집할 수도 있습니다. 웹 편집기의 Schematron 지원을 통해 규칙 세트에 대한 파일의 유효성을 검사하고 전체 항목의 일관성과 정확성을 유지할 수 있습니다.
 
 ![스키마 유효성 검사](assets/schematron-validate.png)
 

@@ -2,7 +2,7 @@
 title: 릴리스 정보 | Adobe Experience Manager Guides, 2024.06.0 릴리스의 새로운 기능
 description: Adobe Experience Manager Guides as a Cloud Service 2024.06.0 릴리스의 새로운 기능과 향상된 기능에 대해 알아보십시오.
 exl-id: c885b8ba-5230-4d51-8f38-311b3a33fe0a
-source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
+source-git-commit: 2455307ef747b2f2574666ee773d931b302f58ca
 workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 2%
@@ -36,7 +36,6 @@ ht-degree: 2%
 Experience Manager Guides은 또한 콘텐츠 조각에 몇 가지 유용한 개선 사항을 제공합니다.
 
 - DITAVAL 파일 또는 조건부 속성을 사용하여 콘텐츠 조각에 게시하는 동안 조건이 있는 콘텐츠를 쉽게 필터링할 수 있습니다.
-
 - **파일 속성**&#x200B;의 **출력** 섹션에서 주제의 콘텐츠 조각을 게시하고 볼 수도 있습니다.
 
 ![파일 속성 옵션 탭](./assets/file-properties-outputs-tab.png){width="300" align="left"}
