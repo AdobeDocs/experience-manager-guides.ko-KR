@@ -5,10 +5,10 @@ exl-id: 807d9ffa-23e3-476c-992d-c1f495233892
 feature: Java-Based API Conversion Workflow
 role: Developer
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 83966cc9187b13dd3b5956821e0aa038b41db28e
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -50,12 +50,13 @@ public static void convertHtmlToDita(Session session,
 ```
 
 **매개 변수**:
-이름|유형|설명|
----- ---------------
-|`session`|javax.jcr.Session|올바른 JCR 세션입니다.|
-|`inputFile`|문자열|AEM 저장소에 있는 원본 HTML 파일의 절대 경로입니다.|
-|`destPath`|문자열|변환된 DITA 파일을 저장할 대상 위치의 절대 경로입니다.|
-|`createRev`|부울|파일의 수정 버전이 지정된 대상에 생성되는지 \( `true`\) 여부를 지정합니다 \( `false`\). 이는 대상 위치에 변환된 파일의 기존 버전이 포함된 경우에만 고려됩니다.|
+
+| 이름 | 유형 | 설명 |
+|----|----|-----------|
+| `session` | javax.jcr.Session | 유효한 JCR 세션입니다. |
+| `inputFile` | 문자열 | AEM 저장소에 있는 소스 HTML 파일의 절대 경로입니다. |
+| `destPath` | 문자열 | 변환된 DITA 파일을 저장할 대상 위치의 절대 경로입니다. |
+| `createRev` | 부울 | 지정한 대상에 파일 수정 버전을 만들지 \( `true`\) 여부를 지정하십시오. \( `false`\) 대상 위치에 변환된 파일의 기존 버전이 포함된 경우에만 이 값이 고려됩니다. |
 
 **예외**:
 `RepositoryException`을(를) throw합니다.
@@ -76,13 +77,14 @@ public static void convertWordToDita(Session session,
 ```
 
 **매개 변수**:
-이름|유형|설명|
----- ---------------
-|`session`|javax.jcr.Session|올바른 JCR 세션입니다.|
-|`inputFile`|문자열|AEM 저장소에 있는 원본 Word 파일의 절대 경로입니다.|
-|`destPath`|문자열|변환된 DITA 파일을 저장할 대상 위치의 절대 경로입니다.|
-|`style2tagMap`|문자열|변환에 사용할 스타일 매핑 파일의 절대 경로입니다.|
-|`createRev`|부울|파일의 수정 버전이 지정된 대상에 생성되는지 \( `true`\) 여부를 지정합니다 \( `false`\). 이는 대상 위치에 변환된 파일의 기존 버전이 포함된 경우에만 고려됩니다.|
+
+| 이름 | 유형 | 설명 |
+|----|----|-----------|
+| `session` | javax.jcr.Session | 유효한 JCR 세션입니다. |
+| `inputFile` | 문자열 | AEM 저장소의 원본 Word 파일의 절대 경로입니다. |
+| `destPath` | 문자열 | 변환된 DITA 파일을 저장할 대상 위치의 절대 경로입니다. |
+| `style2tagMap` | 문자열 | 변환에 사용될 스타일 매핑 파일의 절대 경로입니다. |
+| `createRev` | 부울 | 지정한 대상에 파일 수정 버전을 만들지 \( `true`\) 여부를 지정하십시오. \( `false`\) 대상 위치에 변환된 파일의 기존 버전이 포함된 경우에만 이 값이 고려됩니다. |
 
 **예외**:
 `RepositoryException`을(를) throw합니다.

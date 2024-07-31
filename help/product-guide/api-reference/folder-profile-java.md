@@ -5,10 +5,10 @@ exl-id: 388ae654-c4f9-4bb7-ba98-370b8919e3a6
 feature: Java-Based API Folder Profiles
 role: Developer
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 83966cc9187b13dd3b5956821e0aa038b41db28e
 workflow-type: tm+mt
 source-wordcount: '245'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -54,13 +54,14 @@ Session session) throws GuidesApiException
 ```
 
 **매개 변수**:
-이름|유형|설명|
----- ---------------
-|``attributeNames``|문자열|특성 이름 목록입니다.|
-|``values``|문자열|해당 특성에 대한 값 목록입니다.|
-|`labels`|문자열|`attribute`- `value` 쌍의 레이블 목록입니다. [1](#fntarg_1)|
-|`profileName`|문자열|이러한 특성, 값 및 레이블을 적용할 폴더 수준 프로필의 이름입니다. **중요:** 프로필에 정의된 기존의 모든 특성-값-레이블을 덮어씁니다.|
-|`session`|javax.jcr.Session|올바른 JCR 세션입니다.|
+
+| 이름 | 유형 | 설명 |
+|----|----|-----------|
+| ``attributeNames`` | 문자열 | 속성 이름 목록입니다. |
+| ``values`` | 문자열 | 지정된 속성에 대한 값 목록입니다. |
+| `labels` | 문자열 | `attribute`- `value` 쌍의 레이블 목록입니다. [1](#fntarg_1) |
+| `profileName` | 문자열 | 이러한 속성, 값 및 레이블을 적용해야 하는 폴더 수준 프로필의 이름입니다. **중요:** 프로필에 정의된 기존의 모든 특성-값-레이블을 덮어씁니다. |
+| `session` | javax.jcr.Session | 유효한 JCR 세션입니다. |
 
 **반환**:
 성공의 경우 `true`. 실패할 경우 예외가 발생합니다.
