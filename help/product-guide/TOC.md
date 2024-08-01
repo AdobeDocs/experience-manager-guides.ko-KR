@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 확인하십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: 2b63b1d1c71e60c06c1d2c01b40b085dc7f4a6b0
+source-git-commit: 44875f9fb0935abd0ee58bf933bb0eedb50c0616
 workflow-type: tm+mt
 source-wordcount: '1829'
 ht-degree: 6%
@@ -428,7 +428,7 @@ ht-degree: 6%
       - 작성 {#authoring}
          - 웹 편집기 {#webeditor}
             - [AEM Guides의 콘텐츠 재사용](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
-            - [AEM Guides에서 Markdown 사용](./knowledge-base/kb-articles/authoring/webeditor/mardown-in-DITA-and-AEM-Guides.md)
+            - [AEM Guides에서 Markdown 사용](./knowledge-base/kb-articles/authoring/webeditor/markdown-in-dita-and-aem-guides.md)
             - {#customizing} 사용자 지정 중
                - [도구 모음에 사용자 지정 단추 추가](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
                - [웹 편집기에 사용자 지정 스타일 추가](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
