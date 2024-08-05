@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 확인하십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: 44875f9fb0935abd0ee58bf933bb0eedb50c0616
+source-git-commit: f2c99e59e7352279135169796221faba74fe45c7
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '1836'
 ht-degree: 6%
 
 ---
@@ -335,6 +335,7 @@ ht-degree: 6%
          - [기존 콘텐츠 마이그레이션](./cs-install-guide/migrate-content.md)
          - [기존 DITA 콘텐츠 업로드](./cs-install-guide/migrate-content-upload-existing-dita-content.md)
          - [DITA가 아닌 콘텐츠 마이그레이션](./cs-install-guide/migrate-content-non-dita.md)
+         - [온-프레미스에서 Cloud Service으로 콘텐츠 마이그레이션](./cs-install-guide/migrate-on-premise-content-cloud.md)
       - 사용자 지정 DITA-OT 및 특수화 {#custom-dita-ot-spec-cs} 작업
          - [사용자 지정 DITA-OT 및 DITA 특수화 사용](./cs-install-guide/dita-ot-specialization.md)
       - UUID 및 비 UUID 기반 파일 이름 구성 {#conf-non-uuid-filename-cs}
