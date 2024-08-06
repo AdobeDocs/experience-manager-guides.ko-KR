@@ -4,18 +4,29 @@ description: 온-프레미스 소프트웨어에서 Cloud Service으로 콘텐�
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: af7b3595c10793a8faf72310083547f90b6568f0
+source-git-commit: f1c21c6a2683c99d2fcf91b6e5bd4626b3de653b
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '1000'
 ht-degree: 1%
 
 ---
 
 # 온-프레미스에서 Cloud Service으로 콘텐츠 마이그레이션
 
-Experience Manager Assets Forms 및 Screens을 위한 확장 가능하고 안전하며 안전한 기술 기반인 Experience Manager as a Cloud Service 이를 통해 마케터와 IT 전문가는 규모에 맞게 효과적인 경험을 제공하는 데 집중할 수 있습니다.
+Experience Manager Guides, Forms 및 Screens을 위한 확장 가능하고 안전하며 안전한 기술 기반인 Experience Manager as a Cloud Service Assets 이를 통해 마케터와 IT 전문가는 규모에 맞게 효과적인 경험을 제공하는 데 집중할 수 있습니다.
 Experience Manageras a Cloud Service 을 통해 팀은 제품 업그레이드를 계획하는 대신 혁신에 집중할 수 있습니다. 새로운 제품 기능은 중단 없이 철저하게 테스트되고 팀에게 전달되므로 항상 최신 버전의 Adobe Experience Manager에 액세스할 수 있습니다.
+
 이 문서에서는 온프레미스 또는 Managed Services Experience Manager Guides 콘텐츠를 Cloud Service으로 마이그레이션하는 자세한 단계별 프로세스를 제공하므로 클라우드 기반 플랫폼으로 원활하게 전환할 수 있습니다.
+
+## 전제 조건
+
+* Adobe Experience Manager 6.4 이상 버전
+* Experience Manager Guides은 UUID 버전이어야 합니다. UUID가 아닌 Adobe Experience Manager Guides 버전을 사용하는 경우 먼저 [DITA가 아닌 콘텐츠 마이그레이션](./migrate-content-non-dita.md)의 단계를 사용하여 UUID로 마이그레이션합니다.
+* 콘텐츠를 마이그레이션하려는 클라우드 인스턴스의 **Cloud Acceleration Manager**&#x200B;에 액세스
+* 최대 20TB의 저장소 크기가 지원됩니다
+* 총 Lucene 인덱스 크기 25GB
+* 노드 이름의 길이는 150바이트 미만이어야 합니다.
+
 
 ## 마이그레이션 프로세스
 
@@ -36,15 +47,11 @@ Experience Manageras a Cloud Service 을 통해 팀은 제품 업그레이드를
 > 
 > 버전 2.0.0 이상만 지원되며 최신 버전을 사용하는 것이 좋습니다.
 
-### 전제 조건
-
-* Adobe Experience Manager 6.4 이상 버전
-* 최대 20TB의 저장소 크기가 지원됩니다
-* 총 Lucene 인덱스 크기 25GB
-* 노드 이름의 길이는 150바이트 미만이어야 합니다.
 
 
-Experience Manager Guides 콘텐츠를 Experience Manager as a cloud service로 마이그레이션하려면 다음 단계를 수행하십시오.
+
+
+Experience Manager Guides 콘텐츠를 Cloud Service로 Experience Manager에 마이그레이션하려면 다음 단계를 수행하십시오.
 
 1. [experience.adobe.com](https://experience.adobe.com/)에 로그인하고 **Experience Manager**&#x200B;을 선택합니다.
 
@@ -100,9 +107,9 @@ Experience Manager Guides 콘텐츠를 Experience Manager as a cloud service로 
    ![](./assets/migration-create-migration-set.png)
 
 1. 마이그레이션할 경로를 입력하고 **저장**을 클릭합니다.
-예: `/content/we-retail`
+예: `/content/sites`
 또는
-   `/content/dam/wknd-events`
+   `/content/dam/tech-docs`
    ![포함된 경로](./assets/migration-included-paths.png)
 
 
