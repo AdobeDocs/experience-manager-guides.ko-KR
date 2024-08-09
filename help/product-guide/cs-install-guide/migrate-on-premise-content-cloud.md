@@ -4,7 +4,7 @@ description: 온-프레미스 소프트웨어에서 Cloud Service으로 콘텐�
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: f1c21c6a2683c99d2fcf91b6e5bd4626b3de653b
+source-git-commit: 645d9983b66c740444f24e2283806b5ec4a4ee79
 workflow-type: tm+mt
 source-wordcount: '1000'
 ht-degree: 1%
@@ -21,7 +21,7 @@ Experience Manageras a Cloud Service 을 통해 팀은 제품 업그레이드를
 ## 전제 조건
 
 * Adobe Experience Manager 6.4 이상 버전
-* Experience Manager Guides은 UUID 버전이어야 합니다. UUID가 아닌 Adobe Experience Manager Guides 버전을 사용하는 경우 먼저 [DITA가 아닌 콘텐츠 마이그레이션](./migrate-content-non-dita.md)의 단계를 사용하여 UUID로 마이그레이션합니다.
+* Experience Manager Guides은 UUID 버전이어야 합니다. UUID가 아닌 Adobe Experience Manager Guides 버전을 사용하는 경우 먼저 [DITA가 아닌 콘텐츠 마이그레이션](../install-guide/migrate-uuid-non-uuid.md)의 단계를 사용하여 UUID로 마이그레이션합니다.
 * 콘텐츠를 마이그레이션하려는 클라우드 인스턴스의 **Cloud Acceleration Manager**&#x200B;에 액세스
 * 최대 20TB의 저장소 크기가 지원됩니다
 * 총 Lucene 인덱스 크기 25GB
