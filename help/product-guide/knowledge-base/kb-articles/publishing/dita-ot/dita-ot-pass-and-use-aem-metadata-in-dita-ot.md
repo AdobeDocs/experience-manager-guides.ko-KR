@@ -1,9 +1,7 @@
 ---
 title: AEM Assets 메타데이터를 DITA-OT 플러그인 생성 출력으로 전파
 description: 메타데이터를 생성된 출력으로 푸시하도록 AEM에서 DITA-OT 플러그인 및 콘텐츠 구성
-role: Developer
-feature: DITA-OT publishing
-source-git-commit: ed35fa94d9c3cec70a4959d7efe69678b066a2e0
+source-git-commit: 5a427e14f13ba6e7344f48a9edb3f153a4958ba2
 workflow-type: tm+mt
 source-wordcount: '906'
 ht-degree: 0%

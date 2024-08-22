@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 확인하십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: 3c861e42bb01255f19cb2c901a3bca94d7949b76
+source-git-commit: 135f78ae723f3d77a3e7448f5af79b2261b89b1e
 workflow-type: tm+mt
-source-wordcount: '1842'
+source-wordcount: '1848'
 ht-degree: 6%
 
 ---
@@ -84,14 +84,14 @@ ht-degree: 6%
                - [4.3.1 새로운 기능](./release-info/whats-new-4-3-1-release.md)
                - [4.3.0 새로운 기능](./release-info/whats-new-4-3-release.md)
             - 릴리스 정보 {#43-release-notes}
-               - [4.3.1 릴리스 노트](./release-info/release-notes-4-3-1.md)
-               - [4.3.0 릴리스 노트](./release-info/release-notes-4-3.md)
+               - [4.3.1 릴리스 정보](./release-info/release-notes-4-3-1.md)
+               - [4.3.0 릴리스 정보](./release-info/release-notes-4-3.md)
          - 4.2 릴리스 {#42-release}
             - 새로운 기능 {#42-whats-new}
                - [4.2.1 새로운 기능](./release-info/whats-new-4-2-1-release.md)
                - [4.2 새로운 기능](./release-info/whats-new-4-2-release.md)
             - 릴리스 정보 {#42-release-notes}
-               - [4.2.1 릴리스 노트](./release-info/release-notes-4-2-1.md)
+               - [4.2.1 릴리스 정보](./release-info/release-notes-4-2-1.md)
                - [4.2 릴리스 노트](./release-info/release-notes-4-2.md)
          - [4.1.x 릴리스 노트](./release-info/release-notes-4-1.md)
          - [4.0.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
@@ -469,16 +469,14 @@ ht-degree: 6%
                - [사용자 정의](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
                - [사용자 지정 대화 상자](./guides-ui-extensions/customisations/ReviewApp/custom-dialog.md)
       - 게시 {#publishing}
-
+         - DITA-OT {#dita-ot}
+            - [플러그인에서 AEM 메타데이터 사용](./knowledge-base/kb-articles/publishing/dita-ot/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)
          - [기본 PDF 게시를 위한 AEM 환경 구성](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
-
          - [기본 PDF 게시에서 북맵의 TOC 생성](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
-
          - [FMPS 및 안내서](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          - [마이크로서비스 아키텍처 및 성능](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          - [JWT 인증을 사용하여 마이크로서비스 기반 게시 구성](./knowledge-base/publishing/configure-microservices.md)
          - [OAuth 인증을 통해 마이크로서비스 기반 게시 구성](./knowledge-base/publishing/configure-microservices-imt-config.md)
-
          - [AEM 클라우드에서 벤치마크 게시](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
          - [사용자 지정 DITA-OT 설정](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
 
