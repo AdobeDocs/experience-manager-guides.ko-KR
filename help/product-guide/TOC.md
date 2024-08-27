@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 확인하십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: 135f78ae723f3d77a3e7448f5af79b2261b89b1e
+source-git-commit: 62c69ba7765f89b03381a5526e616a9118426fb9
 workflow-type: tm+mt
 source-wordcount: '1848'
 ht-degree: 6%
@@ -450,12 +450,12 @@ ht-degree: 6%
                - [아이콘](./guides-ui-extensions/aem_guides_framework/components/icon.md)
                - [레이블](./guides-ui-extensions/aem_guides_framework/components/label.md)
                - [목록](./guides-ui-extensions/aem_guides_framework/components/list.md)
-               - [텍스트 영역](./guides-ui-extensions/aem_guides_framework/components/textArea.md)
+               - [텍스트 영역](./guides-ui-extensions/aem_guides_framework/components/textarea.md)
             - 위젯 {#framework-widgets}
                - [렌더링 위젯](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
                - [기본 위젯](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
          - 시작하기 {#getting-started}
-            - [소개](./guides-ui-extensions/getting-started/Introduction.md)
+            - [소개](./guides-ui-extensions/getting-started/introduction.md)
             - [설치 안내서](./guides-ui-extensions/getting-started/integrating-customisations.md)
             - [확장 저장소 소개](./guides-ui-extensions/getting-started/extension-repo-intro.md)
          - 사용자 지정 {#customisations}
@@ -463,7 +463,7 @@ ht-degree: 6%
             - [컨텍스트 메뉴 사용자 정의](./guides-ui-extensions/customisations/context-menus.md)
             - [도구 모음 및 상단 표시줄 사용자 지정](./guides-ui-extensions/customisations/toolbar-topbar.md)
             - [예](./guides-ui-extensions/examples.md)
-            - [사용자 지정 가능한 Json](./guides-ui-extensions/JSONs.md)
+            - [사용자 지정 가능한 Json](./guides-ui-extensions/jsons.md)
             - {#review-app-customisations} 검토
                - [구성 요소](./guides-ui-extensions/customisations/ReviewApp/components.md)
                - [사용자 정의](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
