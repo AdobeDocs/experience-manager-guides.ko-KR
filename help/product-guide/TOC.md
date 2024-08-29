@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 확인하십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: 62c69ba7765f89b03381a5526e616a9118426fb9
+source-git-commit: b0c7b944b66c4a4167beece4f827f3d5789531b5
 workflow-type: tm+mt
-source-wordcount: '1848'
+source-wordcount: '1849'
 ht-degree: 6%
 
 ---
@@ -247,8 +247,8 @@ ht-degree: 6%
       - 콘텐츠 마이그레이션 {#content-migration}
          - [비 UUID에서 UUID로의 콘텐츠 마이그레이션](./install-guide/migrate-uuid-non-uuid.md)
          - 마이그레이션 프로세스 {#migration-process}
-            - [버전을 사용하여 UUID가 아닌 콘텐츠 마이그레이션](./install-guide/migrate-non-uuid-uuid-with-versions.md)
-            - [버전 없이 비 UUID 콘텐츠 마이그레이션](./install-guide/migrate-non-uuid-uuid-without-versions.md)
+            - [버전을 사용하여 UUID가 아닌 콘텐츠 마이그레이션](./install-guide/migrate-non-uuid-uuid-new.md)
+            - [버전(레거시)을 사용하여 비 UUID 콘텐츠 마이그레이션](./install-guide/migrate-non-uuid-uuid-with-versions.md)
          - [기존 콘텐츠 마이그레이션](./install-guide/migrate-content.md)
          - [기존 DITA 콘텐츠 업로드](./install-guide/migrate-content-upload-existing-dita-content.md)
          - [DITA가 아닌 콘텐츠 마이그레이션](./install-guide/migrate-content-non-dita.md)

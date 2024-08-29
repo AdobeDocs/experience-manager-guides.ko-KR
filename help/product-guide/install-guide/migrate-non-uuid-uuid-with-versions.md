@@ -5,14 +5,19 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: 8f3a89fc-7d18-453d-909d-6dff5e275cab
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+source-git-commit: b0c7b944b66c4a4167beece4f827f3d5789531b5
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
 
 # 버전 있는 콘텐츠 마이그레이션
+
+>[!NOTE]
+>
+> UUID가 아닌 콘텐츠를 Experience Manager Guides의 UUID 콘텐츠로 마이그레이션할 수 있습니다. 이 문서는 2024년 11월에 보관됩니다.
+>최신 및 자세한 설명서는 [**UUID가 아닌 콘텐츠를 UUID로 마이그레이션**](./migrate-non-uuid-uuid-new.md)&#x200B;을(를) 참조하십시오.
 
 다음 단계를 수행하여 UUID가 아닌 버전 관리 콘텐츠를 UUID 콘텐츠로 마이그레이션합니다.
 
@@ -87,7 +92,7 @@ UUID가 아닌 버전(4.1 non-UUID 또는 4.3.0 non-UUID)에 대해 다음 검�
 
 1. 마이그레이션 중에 사용 가능한 공간이 AEM(crx-quickstart 디렉터리)에서 사용하는 공간의 10배 이상인지 확인하십시오. 마이그레이션을 완료하면 압축을 실행하여 대부분의 디스크 공간을 다시 확보할 수 있습니다([수정 정리](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en) 참조).
 
-1. `com.adobe.fmdita.config.ConfigManager`에서 *Post 처리 워크플로 시작 활성화* 및 `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation.`에서 *버전 사후 처리 활성화* 활성화
+1. `com.adobe.fmdita.config.ConfigManager`에서 *사후 처리 워크플로 시작 활성화* 및 `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation.`에서 *버전 사후 처리 활성화* 활성화
 
 1. 지원되는 릴리스의 UUID 버전을 UUID가 아닌 버전에 설치합니다. 예를 들어 4.1 비 UUID 빌드를 사용하는 경우 UUID 버전 4.1을 설치하고 마이그레이션을 실행해야 합니다.
 
@@ -98,7 +103,7 @@ UUID가 아닌 버전(4.1 non-UUID 또는 4.3.0 non-UUID)에 대해 다음 검�
    * DAM 자산 업데이트 워크플로우
    * DAM 메타데이터 원본에 쓰기 워크플로우
 
-1. `com.adobe.fmdita.config.ConfigManager`에서 *Post 처리 워크플로 시작 관리자를 활성화*&#x200B;하고 `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation`에서 *버전 사후 처리 기능을 활성화*&#x200B;합니다.
+1. `com.adobe.fmdita.config.ConfigManager`에서 *사후 처리 워크플로 시작 관리자를 활성화*&#x200B;하고 `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation`에서 *버전 사후 처리 기능을 활성화*&#x200B;합니다.
 
 1. 일별 CQ 태그 지정 서비스에서 유효성 검사 사용(`validation.enabled`) 속성을 사용하지 않도록 설정합니다.
 
