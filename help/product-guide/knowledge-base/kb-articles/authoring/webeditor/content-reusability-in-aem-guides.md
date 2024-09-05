@@ -3,9 +3,9 @@ title: AEM Guides의 DITA 콘텐츠 재사용
 description: 이 간략한 문서에서는 AEM Guides 및 DITA를 통해 콘텐츠 재사용 가능성을 사용할 때 시간과 노력을 절약하는 방법을 설명합니다
 role: User, Admin
 exl-id: 1522ebf5-2aea-4d8f-ade7-367227b31dd9
-source-git-commit: 4160c990bafe41611714ef66ee361aba0ef47c0a
+source-git-commit: 12d7f9c3479d2fa8e8f0adad7cb89993cd17dec0
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Adobe AEM Guides은 DITA의 강점을 활용하여 컨텐츠 재사용을 위한 사용자 친화적인 인터페이스를 제공합니다.
 
-이 문서에서는 다음에 대해 설명합니다.
+이 문서에서는 다음 사항에 대해 설명합니다.
 
 1. [주제 참조( )를 사용하여 재사용 가능](#reusability-using-topic-referencestopicref)
 2. [콘텐츠 참조를 사용한 재사용 가능성(](#reusability-using-content-reference-conref--conkeyref)
@@ -79,7 +79,7 @@ Adobe AEM Guides은 DITA의 강점을 활용하여 컨텐츠 재사용을 위한
 
 여기서 `conref=kyc_procedures.dita#indvidual_kyc` kyc_procedures.dita는 파일 식별자이고 #individual_kyc은 조각 식별자입니다.
 
-Kyc_procedure.dita는 정보의 유일한 소스입니다. 규정에 따라 KYC 프로세스에 변경 사항이 있는 경우 한 개의 주제만 업데이트하면 해당 변경 사항이 자동으로 참조하는 모든 주제에 반영됩니다.
+Kyc_procedure.dita는 정보의 유일한 소스입니다. 규정 변경 시 KYC 프로세스에 대한 업데이트가 필요한 경우 새로운 항목으로 주제 경로를 업데이트합니다. 변경 사항은 이를 참조하는 모든 주제에 자동으로 반영됩니다.
 
 AEM Guides을 사용하여 두 번의 클릭
 
@@ -91,7 +91,7 @@ AEM Guides을 사용하여 두 번의 클릭
 2단계: 재사용해야 하는 파일 및 조각을 선택합니다.
 ![conref](../../assets/publishing/content-reusability_image2.png)
 
-&quot;conref&quot;와 마찬가지로 &quot;conkeyref&quot;를 사용할 수 있으며 콘텐츠 경로를 제공하는 대신 키를 통해 콘텐츠를 참조할 수 있습니다.
+&#39;conref&#39;와 마찬가지로 &#39;conkeyref&#39;를 사용하고 콘텐츠 경로를 제공하는 대신 키를 통해 콘텐츠를 참조할 수 있습니다
 
 코드 예 :
 
@@ -111,7 +111,7 @@ AEM Guides을 사용하여 두 번의 클릭
 </map>
 ```
 
-키 - &quot;Kyc_procedure&quot;는 계속해서 유일한 정보 소스입니다. 규정에 따라 KYC 프로세스에 변경 사항이 있는 경우 한 주제 경로를 새 주제 경로로 업데이트하면 해당 변경 사항이 해당 변경 사항을 참조하는 모든 주제에 자동으로 반영됩니다.
+키 - &#39;Kyc_procedure&#39;는 정보의 단일 소스입니다. 규정에 따라 KYC 프로세스에 변경 사항이 있는 경우 새 주제 경로로 한 주제 경로를 갱신하면 해당 변경 사항이 해당 변경 사항을 참조하는 모든 주제에 자동으로 반영됩니다.
 
 ```
 <map id="ABC_manual">
@@ -133,7 +133,7 @@ AEM Guides을 사용하여 두 번의 클릭
 2단계: 재사용해야 하는 루트 맵(선택 사항), 키 및 조각을 선택합니다.
 ![conkeyref](../../assets/publishing/content-reusability_image3.png)
 
-여기서 루트 맵은 맵 보기에서 이미 열려 있으므로 자동 선택되었습니다.
+여기서 루트 맵은 맵 보기에서 이미 열려 있으므로 자동으로 선택됩니다.
 
 
 ## AEM Guides에서 한 번의 클릭으로 콘텐츠 재사용
@@ -154,14 +154,16 @@ AEM Guides은 한 번의 클릭으로 콘텐츠 참조를 추가할 수 있는 &
 
 - ### 콘텐츠 재사용 대화 상자에서 파일/키를 선택한 후 모든 콘텐츠가 표시되지 않습니다
 
-다른 주제에서 재사용할 조각(Dita 요소 )에 ID를 지정해야 합니다
+다른 주제에서 재사용할 조각(Dita 요소)에 ID 할당
 
 - ## 콘텐츠 재사용 대화 상자에 키가 표시되지 않습니다.
 
-맵 보기에서 키 정의가 있는 루트 맵/상위 맵을 열었는지 확인하거나 동일한 대화 상자에서 루트 맵 경로를 수동으로 추가하십시오.
+  맵 보기에서 루트 맵/상위 맵을 열었는지 확인합니다. 이 맵에는 키 정의가 있으며 동일한 대화 상자에서 루트 맵 경로를 수동으로 추가합니다.
 
 
 <br>
+<br>
+<br>
 
 
-모든 쿼리를 위해 AEM Guides 커뮤니티 [포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)의 Post.
+모든 쿼리를 위해 AEM Guides 커뮤니티 [포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)에 게시하십시오.
