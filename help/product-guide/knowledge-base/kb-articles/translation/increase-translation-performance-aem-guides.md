@@ -2,8 +2,8 @@
 title: AEM 안내서에서 DITA 파일의 번역 성능 향상
 description: AEM Guides에서 DITA 번역 프로젝트 성능을 향상시키는 모범 사례, 팁 및 요령
 feature: Translation
-role: User, admin
-source-git-commit: b22dcdf2c040159b30128dfe97f0e5a0605ca068
+role: User, Admin
+source-git-commit: d25e7b1b8a1be15e1d627e74a23bbb33b7fc6e94
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 0%

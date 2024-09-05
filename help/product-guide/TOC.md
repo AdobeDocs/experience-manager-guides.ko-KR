@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 확인하십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: b0c7b944b66c4a4167beece4f827f3d5789531b5
+source-git-commit: ff34f8b21d3e930ed332a360e90040a14b219f75
 workflow-type: tm+mt
-source-wordcount: '1849'
+source-wordcount: '1855'
 ht-degree: 6%
 
 ---
@@ -483,6 +483,7 @@ ht-degree: 6%
       - 워크플로 {#workflows}
          - [사후 생성 워크플로](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
       - 번역 {#translation}
+         - [번역 성능 향상을 위한 모범 사례](./knowledge-base/kb-articles/translation/increase-translation-performance-aem-guides.md)
          - [번역에서 단락 제외](./knowledge-base/kb-articles/translation/exclude-paragraphs-from-translation.md)
       - 사용 사례 {#use-cases}
          - [조건부 콘텐츠 작업](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
