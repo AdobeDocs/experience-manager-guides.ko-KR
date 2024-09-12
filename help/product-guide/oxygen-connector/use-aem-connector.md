@@ -6,9 +6,9 @@ hidefromtoc: true
 exl-id: 9a140564-27eb-404e-93a5-f5c81364e7f7
 feature: Oxygen Plugin, Authoring, Web Editor
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6c89275df6bdcd031c45956aeb06b6c3e5753208
 workflow-type: tm+mt
-source-wordcount: '6294'
+source-wordcount: '6293'
 ht-degree: 0%
 
 ---
@@ -29,13 +29,13 @@ AEM Guides용 산소 플러그인은 Adobe 소프트웨어 배포 포털을 통�
 
 ### 기술 요구 사항
 
-- Oxygen XML Author 버전 25.1
+- Oxygen XML Author 버전 26.1
 
-- Adobe Experience Manager Guides 버전 4.3 이상
+- Adobe Experience Manager Guides 버전 4.6 이상
 
-- Adobe Experience Manager 버전 6.5(서비스 팩 14, 15, 16 및 17 포함)
+- Adobe Experience Manager 버전 6.5(서비스 팩 21, 20 및 19 포함)
 
-- Oxygen XML Author 버전 25.1에서 지원하는 운영 체제
+- Oxygen XML Author 버전 26.1에서 지원하는 운영 체제
 
 - Java 개발 키트
    - Oracle SE 8 JRE 1.8
@@ -159,7 +159,7 @@ JxBrowser는 Oxygen 커넥터 플러그인의 SSO 인증에 사용됩니다. Chr
 >
 >업데이트하기 전에 파일을 백업하십시오.
 
-**Mac 및 Oxygen 25.1용**
+**Mac 및 Oxygen 26.1용**
 
 env.sh에 다음 줄 추가
 
@@ -185,7 +185,7 @@ oxygenAuthor.sh에 다음 줄을 추가합니다
 -Djdk.module.illegalAccess=permit\-Djava.ipc.external=true\
 ```
 
-**Windows 및 Oxygen 25.1용**
+**Windows 및 Oxygen 26.1용**
 
 env.bat에 다음 줄 추가
 
@@ -746,7 +746,7 @@ Oxygen XML 작성자의 콘텐츠에 조건부 특성을 추가하려면 다음 
    </configuration>   
    ```
 
-1. 파일을 `Oxygen Author 25` 디렉터리에 저장합니다. (예를 들어 경로는 `C:\Program Files\Oxygen XML Author 25\logback.xml`입니다.)
+1. 파일을 `Oxygen Author 26` 디렉터리에 저장합니다. (예를 들어 경로는 `C:\Program Files\Oxygen XML Author 26\logback.xml`입니다.)
 
 1. 파일을 닫습니다. 이렇게 하면 경로 `${user.home}/Desktop/oxygenLog/oxygen.log`에서 사용할 수 있는 Xygen 로그가 활성화됩니다.
 1. 텍스트 편집기에서 `oxygenAuthor.bat` 파일을 엽니다.

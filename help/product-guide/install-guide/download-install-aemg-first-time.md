@@ -5,9 +5,9 @@ exl-id: 830a4381-303c-419c-b87f-9563352a7eeb
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 8e43e76e22d1d8b7251c73f813e2e56f65633a5f
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,10 @@ ht-degree: 0%
 >
 > Livefyre와 AEM Guides을 함께 사용하려면 AEM Guides을 설치하기 전에 Livefyre 3.0 이전 버전을 설치해야 합니다. Livefyre 버전 3.0 이상을 사용 중인 경우 이러한 제한이 없습니다.
 
-1. Adobe 소프트웨어 배포 포털에서 AEM Guides을 다운로드합니다.
-
+1. [Adobe 소프트웨어 배포 포털](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)에서 AEM Guides을 다운로드합니다.
+   >[!NOTE]
+   >
+   >Experience Manager Guides을 설치하기 전에 시스템이 [기술 요구 사항](../install-guide/download-install-technical-requirements.md)을 충족하는지 확인하십시오.
 1. AEM 인스턴스에 로그인하고 CRX 패키지 관리자로 이동합니다. 패키지 관리자에 액세스할 수 있는 기본 URL은 다음과 같습니다.
 
    ```http

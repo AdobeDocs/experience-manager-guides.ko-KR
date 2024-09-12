@@ -5,9 +5,9 @@ exl-id: f091782e-ab54-4db4-9018-9bcbff9da7b2
 feature: Rest API Conversion Workflow
 role: Developer
 level: Experienced
-source-git-commit: e979823b7947b561165fde92023ae9c440182e94
+source-git-commit: 45ae1471fe0f0586764ede9dd96530b7f75f69ee
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '390'
 ht-degree: 9%
 
 ---
@@ -22,8 +22,6 @@ Word 문서를 DITA 형식으로 변환하는 GET 방법입니다.
 
 **요청 URL**:
 http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/fmdita/conversion
-
-**매개 변수**:
 
 | 이름 | 유형 | 필수 | 설명 |
 |----|----|--------|-----------|
@@ -41,6 +39,7 @@ HTTP 200 \(Successful\) 응답을 반환합니다.
 HTML 문서를 DITA 형식으로 변환하는 GET 방법입니다.
 
 **요청 URL**:
+
 http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/fmdita/conversion
 
 **매개 변수**:
@@ -53,6 +52,7 @@ http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/fmdita/conversion
 | `createRev` | 부울 | 예 | 지정한 대상에 파일 수정 버전을 만들지 \( `true`\) 여부를 지정하십시오. \( `false`\) 대상 위치에 변환된 파일의 기존 버전이 포함된 경우에만 이 값이 고려됩니다. |
 
 **응답 값**:
+
 HTTP 200 \(Successful\) 응답을 반환합니다.
 
 ## InDesign 문서 변환

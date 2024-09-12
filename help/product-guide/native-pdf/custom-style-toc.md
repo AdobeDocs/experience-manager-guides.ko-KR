@@ -5,9 +5,9 @@ exl-id: f65c9683-a1fc-432a-854b-83e8f39d7dae
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: db4c823e592e249e1d828a7071fc0848a5e68c0f
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
@@ -75,3 +75,17 @@ CSS에서 `new-topic`의 클래스 정의를 사용하면 다음 항목의 스�
 위의 스타일 특성을 사용하면 아래와 같이 *비행 기록* 항목 왼쪽에 변경 막대가 추가됩니다.
 
 <img src="./assets/pdf-output-topic-content.jpg" width="500">
+
+## 목차에서 빈 행 제거
+
+주제에 대한 제목을 정의하지 않은 경우 이러한 주제에 대한 목차에 빈 행이 나타납니다.
+
+TOC 및 미니 TOC에서 빈 행을 제거하려면 `layout.css`에 다음 스타일을 추가하십시오.
+
+```css
+.toc-body a:empty,
+.chaptoc-body a:empty {
+    display: none;
+} 
+```
+

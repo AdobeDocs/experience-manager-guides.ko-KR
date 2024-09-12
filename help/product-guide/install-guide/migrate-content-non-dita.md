@@ -5,9 +5,9 @@ exl-id: 4597d1be-5426-4eba-8490-e42d0e565427
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 1644bfba3332b0f023aa8d70aefd2680d4220d8a
 workflow-type: tm+mt
-source-wordcount: '2761'
+source-wordcount: '2802'
 ht-degree: 0%
 
 ---
@@ -130,27 +130,42 @@ AEM Guides을 사용하면 InDesign 문서를 변환할 수 있습니다. FrameM
 
    `/libs/fmdita/config/idml2dita_io.xml`
 
-1. `apps` 노드 내에 `config` 폴더의 오버레이 노드를 만듭니다.
+1. 요구 사항에 따라 사용자 지정 구성을 만들려면 `apps` 노드 내에 `config` 폴더의 오버레이 노드를 만드십시오.
+
+1. `libs` 폴더에서 apps 폴더로 다음 파일 또는 폴더를 복사합니다.
+
+   - `/fmdita/config/idml2dita_io.xml`
+   - `/fmdita/idml2dita/config`
+   - `/fmdita/idml2dita/xsl`
 
 1. `apps` 노드에서 사용할 수 있는 구성 파일로 이동합니다.
 
    `/apps/fmdita/config/idml2dita_io.xml`
 
-   `idml2dita_io.xml` 파일에서 다음 매개 변수를 구성합니다.
+1. `idml2dita_io.xml` 파일 내의 `idml12dita` 폴더에 있는 구성의 매핑을 추가합니다.
+1. `idml2dita_io.xml` 파일에 다음 속성을 추가하십시오.
 
-   - `inputDir` 요소에서 소스 InDesign 문서를 사용할 수 있는 입력 폴더의 위치를 지정합니다. 예를 들어 InDesign 문서가 `projects` 폴더의 `indesigntodita` 폴더에 저장되어 있는 경우 위치를 `/content/dam/idmlfiles/indesigntodita/`(으)로 지정합니다.
+   ```
+   <entry key="idml2DitaConfig">/apps/fmdita/idml2dita/config</entry>
+   
+   <entry key="idml2DitaXsl">/apps/fmdita/idml2dita/xsl</entry>
+   ```
 
-   - `outputDir` 요소에서 출력 폴더의 위치를 지정하거나 기본 출력 위치를 유지하여 변환된 DITA 문서를 저장합니다. 지정된 출력 폴더가 DAM에 없으면 변환 워크플로우가 출력 폴더를 만듭니다.
+`idml2dita_io.xml` 파일에서 다음 매개 변수를 구성합니다.
 
-   - `mapStyle` 요소에서 DITA 요소에 대한 InDesign 문서 스타일에 대한 매핑이 포함된 맵 파일의 위치를 지정합니다. 기본 매핑은 다음 위치에 있는 파일에 저장됩니다.
+- `inputDir` 요소에서 소스 InDesign 문서를 사용할 수 있는 입력 폴더의 위치를 지정합니다. 예를 들어 InDesign 문서가 `projects` 폴더의 `indesigntodita` 폴더에 저장되어 있는 경우 위치를 `/content/dam/idmlfiles/indesigntodita/`(으)로 지정합니다.
 
-     ```XML
-     /stmap.adobeidml.xml
-     ```
+- `outputDir` 요소에서 출력 폴더의 위치를 지정하거나 기본 출력 위치를 유지하여 변환된 DITA 문서를 저장합니다. 지정된 출력 폴더가 DAM에 없으면 변환 워크플로우가 출력 폴더를 만듭니다.
 
-     >[!NOTE]
-     >
-     > `stmap.adobeidml.xml` 파일의 구조와 사용자 지정 방법에 대한 자세한 내용은 *부록*&#x200B;의 [DITA 마이그레이션에 대한 InDesign을 위한 매핑 파일 준비](appendix.md#id194AF0003HT) 섹션을 참조하십시오.
+- `mapStyle` 요소에서 DITA 요소에 대한 InDesign 문서 스타일에 대한 매핑이 포함된 맵 파일의 위치를 지정합니다. 기본 매핑은 다음 위치에 있는 파일에 저장됩니다.
+
+```XML
+    /stmap.adobeidml.xml
+```
+
+>[!NOTE]
+>
+> `stmap.adobeidml.xml` 파일의 구조와 사용자 지정 방법에 대한 자세한 내용은 *부록*&#x200B;의 [DITA 마이그레이션에 대한 InDesign을 위한 매핑 파일 준비](appendix.md#id194AF0003HT) 섹션을 참조하십시오.
 
 1. `idml2dita_io.xml` 파일을 저장합니다.
 

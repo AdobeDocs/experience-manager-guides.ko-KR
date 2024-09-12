@@ -5,9 +5,9 @@ exl-id: d8ee9cf7-1d67-4b4a-aa80-64e893a99463
 feature: API Introduction
 role: Developer
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 9024b552fd470344ba7b0068a147c37084ae0d13
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '760'
 ht-degree: 0%
 
 ---
@@ -222,6 +222,12 @@ API JAR을 사용하려면 아래와 같이 프로젝트의 pom.xml에 종속성
 >[!NOTE]
 >
 > API JAR 내의 패키지는 여전히 동일하므로 기존 클라우드 프로젝트에서 이 API JAR를 사용하기 위해 코드를 변경할 필요가 없습니다.
+
+### Java 기반 API
+
+Experience Manager Guides에서 사용할 수 있는 Java 기반 API를 사용하여 사용자 지정 플러그인을 만들고 기본 제공 워크플로를 확장할 수 있습니다. Java 기반 API 사용에 대한 최신 및 자세한 설명서는 [![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-guides-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api)을(를) 참조하십시오.
+
+
 
 ## 추가 리소스
 

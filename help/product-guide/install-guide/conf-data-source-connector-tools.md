@@ -5,9 +5,9 @@ exl-id: 2a0ac0a0-b2a9-453e-851b-fb04c8903526
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 1eb4fcb33d6f905df3f543232e7040d1da42560b
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
@@ -76,4 +76,8 @@ Experience Manager Guides에는 데이터 소스에 대한 기본 제공 커넥�
 * **삭제**: 선택한 커넥터를 삭제합니다.
 
 
-데이터 소스를 구성하면 커넥터가 웹 편집기의 **데이터 소스 패널** 아래에 나열됩니다. 그런 다음 데이터 소스에 연결하고 주제에 콘텐츠 스니펫을 삽입할 수 있습니다. 자세한 내용은 [데이터 원본에서 콘텐츠 조각 삽입](../user-guide/web-editor-content-snippet.md)을 참조하세요.
+데이터 소스를 구성하면 커넥터가 웹 편집기의 **데이터 소스 패널** 아래에 나열됩니다. 그런 다음 데이터 소스에 연결하고 주제에 콘텐츠 스니펫을 삽입할 수 있습니다. 자세한 내용은 [데이터 원본의 데이터 사용](../user-guide/web-editor-content-snippet.md)을 참조하세요.
+
+>[!NOTE]
+>
+>사용자 지정 커넥터를 만들고 다양한 데이터 소스와 함께 사용할 수도 있습니다. [사용자 지정 커넥터를 구성](../knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)하는 방법을 알아봅니다.

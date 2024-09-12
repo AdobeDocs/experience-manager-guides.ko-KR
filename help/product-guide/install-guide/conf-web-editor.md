@@ -5,7 +5,7 @@ exl-id: 6579812b-caa7-420f-a6e4-36fef7d63d34
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 2e52beedb5b3ce13acfae1ecba3b67e8de8e6614
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
@@ -43,3 +43,4 @@ AEM Guides은 작성자가 DITA 문서를 만들고 편집할 수 있는 강력�
 - [쿼리에 대한 LimitReads 수를 구성합니다.](conf-query-limitreads.md)
 
 - [문서 기반 게시용 패키지 설치](configure-article-based-publishing.md)
+

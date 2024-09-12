@@ -4,9 +4,9 @@ description: AEM Guides에서 웹 편집기의 기능을 살펴보십시오. 기
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 1b338bb702267640bc3f5b5de4b00051979b562f
+source-git-commit: 2e474dec4f55ccf54a415b1969f7e7f79c4d0226
 workflow-type: tm+mt
-source-wordcount: '18678'
+source-wordcount: '18802'
 ht-degree: 0%
 
 ---
@@ -149,13 +149,13 @@ Source 보기에서 찾기 및 바꾸기는 특정 요소나 속성을 검색하
 
   ![](images/editor-setting-add-attributes-list.png-to-element.PNG){width="300" align="left"}
 
-- **Publish 프로필**: 여기에는 **기술 자료** 출력을 게시하는 데 사용할 수 있는 Publish 프로필이 포함되어 있습니다. 대상 기술 자료에 대한 새 프로필을 만들 수 있습니다. 예: Salesforce 또는 ServiceNow.
+- **Publish 프로필**: 여기에는 **기술 자료** 출력을 게시하는 데 사용할 수 있는 Publish 프로필이 포함되어 있습니다. 대상 기술 자료에 대한 새 프로필을 만들 수 있습니다. 예를 들어 Salesforce 또는 ServiceNow가 있습니다.
 
    - **Salesforce Publish 프로필 만들기**
 
      **전제 조건**
 
-      - Salesforce용 연결된 앱을 만듭니다. 자세한 내용은 [API 통합을 위해 OAuth 설정 사용](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&amp;type=5)을 참조하세요.
+      - Salesforce에 연결된 앱을 만듭니다. 자세한 내용은 [API 통합을 위해 OAuth 설정 사용](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&amp;type=5)을 참조하세요.
 
       - 연결된 앱을 구성하는 동안 다음을 확인하십시오.
 
@@ -167,7 +167,7 @@ Source 보기에서 찾기 및 바꾸기는 특정 요소나 속성을 검색하
             - 전체 액세스(전체)
             - API(Manage user data via API)를 선택합니다
 
-  앱이 구성되면 Salesforce는 **소비자 키** 및 **소비자 암호**&#x200B;를 제공합니다.
+  앱이 구성되면 Salesforce에서 **소비자 키** 및 **소비자 암호**&#x200B;를 제공합니다.
 
   이를 사용하여 Salesforce Publish 프로필을 만들 수 있습니다.
 
@@ -177,7 +177,7 @@ Source 보기에서 찾기 및 바꾸기는 특정 요소나 속성을 검색하
 
      >[!NOTE]
      >
-     >Experience Manager Guides에서 Salesforce에 대한 프록시를 구성하려면 AEM에서 Apache HTTP 구성 요소 프록시 구성을 사용하십시오. [AEM 링크 검사기에 대한 프록시를 구성](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html)하는 방법을 알아봅니다.
+     >Experience Manager Guides에서 Salesforce용 프록시를 구성하려면 AEM에서 Apache HTTP 구성 요소 프록시 구성 을 사용합니다. [AEM 링크 검사기에 대한 프록시를 구성](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html)하는 방법을 알아봅니다.
 
 
    - **ServiceNow Publish 프로필 만들기**
@@ -1508,7 +1508,22 @@ AEM Guides을 사용하면 용어집 유형 문서를 손쉽게 만들고 사용
 
 ![](images/conditional-panel-create-cond.png){width="400" align="left"}
 
-속성 목록에서 정의할 조건부 속성을 선택하고 조건 값을 입력한 다음 조건 패널에 표시되는 레이블을 지정합니다. 조건의 색상을 정의할 수도 있습니다. 이 색상은 조건이 적용되는 콘텐츠의 배경색으로 설정됩니다
+속성 목록에서 정의할 조건부 속성을 선택하고 조건 값을 입력한 다음 조건 패널에 표시되는 레이블을 지정합니다. 조건에 대한 그룹을 정의합니다. 그룹에 여러 조건을 추가할 수 있습니다. 조건의 색상을 정의할 수도 있습니다. 이 색상은 조건이 적용되는 콘텐츠의 배경색으로 설정됩니다.
+
+조건을 그룹화하고 중첩된 폴더에 구성할 수 있습니다. 그룹을 사용하면 여러 수준에서 조건을 만들고 이를 콘텐츠에서 사용할 수 있도록 더 잘 구성할 수 있습니다.
+
+예를 들어 *Acrobat* 및 *AEM Guides*&#x200B;과 같은 제품의 조건 그룹을 만들 수 있습니다. 두 그룹 모두에 대해 조건부 속성을 선택할 수 있습니다. 각 그룹에는 *사용자*, *관리자*, *검토자*, *작성자*&#x200B;와 같은 특정 값이 있을 수 있습니다.
+
+>[!NOTE]
+>
+> 를 입력하여 새 그룹을 생성하거나 특정 속성에 대한 기존 그룹을 선택합니다.
+
+`/`을(를) 사용하고 하위 그룹을 정의하여 `AEM Guides/Cloud Service`과(와) 같은 하위 그룹을 정의할 수 있습니다.
+
+
+
+![중첩된 계층에 구성된 조건](images/conditions-nested-hierarchy.png){width="300" align="left"}
+
 
 조건을 편집하려면 옵션 메뉴에서 **편집**&#x200B;을 선택하세요. 조건 편집 대화 상자가 나타납니다.
 
@@ -1806,7 +1821,7 @@ AEM Guides은 프로젝트의 모든 검토 작업을 표시하는 기능을 제
    - ![](images/filter-search-icon.svg)을(를) 선택하여 **필터** 대화 상자를 엽니다. 모든 프로젝트를 선택하거나 특정 프로젝트만 선택할 수 있습니다. 선택한 프로젝트가 **검토** 패널에 나열됩니다.
      ![](images/active-review-select-project.png){width="300" align="left"}
 
-     **내가 시작한 작업** 옵션은 기본적으로 활성화되어 있습니다. 시작한 작업만 볼 수 있습니다.
+     **내가 시작한 작업** 옵션은 기본적으로 활성화되어 있습니다. 시작한 작업만 볼 수 있습니다. 이 옵션의 전환 상태는 페이지를 새로 고친 후에도 유지됩니다.
 
 1. 기본적으로 검토 프로젝트에서는 연결된 주석이 있는 일반적인 주제 목록을 볼 수 있습니다. 왼쪽 레일에서 필요한 필터를 적용하여 주제에 있는 검토 설명을 기반으로 주제를 필터링합니다.
 
@@ -1917,7 +1932,7 @@ AEM Guides은 프로젝트의 모든 검토 작업을 표시하는 기능을 제
 
 ## 콘텐츠 편집 영역 {#id2051EB000UI}
 
-콘텐츠 편집 영역은 주제나 맵의 콘텐츠가 표시되는 위치입니다. 이 영역에서 모든 콘텐츠를 편집합니다. 편집 중인 콘텐츠에 대한 WYSIWYG 보기를 제공합니다. 여러 개의 주제를 동시에 열어 각 탭에 표시할 수 있습니다.
+콘텐츠 편집 영역은 주제나 맵의 콘텐츠가 표시되는 위치입니다. 이 영역에서 모든 콘텐츠를 편집합니다. 편집 중인 콘텐츠의 WYSIWYG 보기를 제공합니다. 여러 개의 주제를 동시에 열어 각 탭에 표시할 수 있습니다.
 
 기본적으로 탭에서 파일 제목을 볼 수 있습니다. 파일 위로 마우스를 가져가면 파일 제목과 파일 경로를 도구 설명으로 볼 수 있습니다.
 

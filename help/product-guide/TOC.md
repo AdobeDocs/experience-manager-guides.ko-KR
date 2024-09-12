@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 확인하십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: ff34f8b21d3e930ed332a360e90040a14b219f75
+source-git-commit: 3540c27fcfb856a0ee6b669c3d7a573331324817
 workflow-type: tm+mt
-source-wordcount: '1855'
+source-wordcount: '1879'
 ht-degree: 6%
 
 ---
@@ -72,6 +72,11 @@ ht-degree: 6%
             - [1월 릴리스 정보](./release-info/release-notes-2022-1-0.md)
       - 온-프레미스/Managed Services {#on-prem-release-notes}
          - [[!DNL AEM Guides] 릴리스](./release-info/latest-release-info.md)
+         - 4.6.0 릴리스 {#460-release}
+            - [새로운 기능](./release-info/whats-new-4-6.md)
+            - [해결된 문제](./release-info/fixed-issues-4-6-0.md)
+            - [업그레이드 지침](./release-info/upgrade-instructions-4-6-0.md)
+
          - 4.4.0 릴리스 {#440-release}
             - [새로운 기능](./release-info/whats-new-4-4.md)
             - [해결된 문제](./release-info/fixed-issues-4-4.md)
@@ -206,6 +211,7 @@ ht-degree: 6%
       - [기본 문제 해결](./user-guide/generate-output-basic-troubleshooting.md)
       - [Publish 컨텐츠 조각](./user-guide/publish-content-fragment.md)
       - [Publish 경험 조각](./user-guide/publish-experience-fragment.md)
+      - [Publish AEM Sites 페이지](./user-guide/publish-aem-sites.md)
       - {#bulk-activation} 컨텐츠의 일괄 활성화
          - [게시된 콘텐츠의 벌크 활성화](./user-guide/conf-bulk-activation.md)
          - [벌크 활성화 맵 컬렉션 만들기](./user-guide/conf-bulk-activation-create-map-collection.md)
@@ -247,8 +253,8 @@ ht-degree: 6%
       - 콘텐츠 마이그레이션 {#content-migration}
          - [비 UUID에서 UUID로의 콘텐츠 마이그레이션](./install-guide/migrate-uuid-non-uuid.md)
          - 마이그레이션 프로세스 {#migration-process}
-            - [버전을 사용하여 UUID가 아닌 콘텐츠 마이그레이션](./install-guide/migrate-non-uuid-uuid-new.md)
-            - [버전(레거시)을 사용하여 비 UUID 콘텐츠 마이그레이션](./install-guide/migrate-non-uuid-uuid-with-versions.md)
+            - [버전을 사용하여 UUID가 아닌 콘텐츠 마이그레이션](./install-guide/migrate-non-uuid-uuid.md)
+            - [버전(레거시)을 사용하여 비 UUID 콘텐츠 마이그레이션](./install-guide/migrate-non-uuid-uuid-with-versions-legacy.md)
          - [기존 콘텐츠 마이그레이션](./install-guide/migrate-content.md)
          - [기존 DITA 콘텐츠 업로드](./install-guide/migrate-content-upload-existing-dita-content.md)
          - [DITA가 아닌 콘텐츠 마이그레이션](./install-guide/migrate-content-non-dita.md)
@@ -284,7 +290,6 @@ ht-degree: 6%
          - [텍스트 필터 구성](./install-guide/config-text-filters.md)
          - [쿼리에 대한 LimitReads 수를 구성합니다.](./install-guide/conf-query-limitreads.md)
          - [문서 기반 게시용 패키지 설치](./install-guide/configure-article-based-publishing.md)
-         - [데이터 소스 커넥터 구성](./install-guide/conf-data-source-connector.md)
          - [사용자 인터페이스에서 데이터 소스 커넥터 구성](./install-guide/conf-data-source-connector-tools.md)
          - [고급 맵 편집기 를 기본값으로 설정합니다.](./install-guide/conf-map-editor.md)
          - [기본적@navtitle 속성 포함](./install-guide/auto-add-navtitle.md)
@@ -377,7 +382,8 @@ ht-degree: 6%
          - [전역 또는 폴더 수준 프로필 구성](./cs-install-guide/conf-folder-level.md)
       - 버전 {#version-mgt-cs} 구성
          - [버전 관리](./cs-install-guide/version-management.md)
-      - 출력 생성 설정 {#output-gen-config-cs} 작업
+      - 데스크톱 기반 XML 편집기 {#desktop-xml-editor} 작업
+         - 출력 생성 설정 {#output-gen-config-cs} 작업
          - [출력 생성 설정 구성](./cs-install-guide/conf-output-generation.md)
          - [기본 PDF 게시](./cs-install-guide/native-pdf-publishing.md)
          - [기본 PDF 게시를 위한 노드 프로세스 구성](./native-pdf/configure-node-options.md)
@@ -468,6 +474,10 @@ ht-degree: 6%
                - [구성 요소](./guides-ui-extensions/customisations/ReviewApp/components.md)
                - [사용자 정의](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
                - [사용자 지정 대화 상자](./guides-ui-extensions/customisations/ReviewApp/custom-dialog.md)
+      - 외부 데이터 원본 {#external-data-source}
+         - [데이터 소스 통합](../product-guide/knowledge-base/kb-articles/data-source/integrate-data-sources.md)
+         - [데이터 소스 커넥터 구성](../product-guide/knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)
+
       - 게시 {#publishing}
          - DITA-OT {#dita-ot}
             - [플러그인에서 AEM 메타데이터 사용](./knowledge-base/kb-articles/publishing/dita-ot/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)

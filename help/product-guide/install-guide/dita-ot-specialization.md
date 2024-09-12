@@ -5,9 +5,9 @@ exl-id: ddc1393b-b269-40e5-9627-96dad82b42e9
 feature: DITA-OT Configuration
 role: Admin
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: b04f20af6e1f85746e13dad464513bf60b039378
 workflow-type: tm+mt
-source-wordcount: '2093'
+source-wordcount: '2122'
 ht-degree: 0%
 
 ---
@@ -171,6 +171,8 @@ DITA 특수화는 새 요소를 추가하거나 기존 요소를 제거하여 �
    >
    > 기본 프로파일 정보가 프로파일 페이지에 표시됩니다. AEM Guides을 버전 2.2에서 2.5.1 또는 2.6으로 업그레이드한 경우 구성 관리자를 통해 수행한 모든 변경 사항이 자동으로 선택되어 기본 프로필에 저장됩니다.
 
+
+
 1. 기본 프로파일을 편집하거나, 새 프로파일을 만들거나, 기본 프로파일에서 설정을 복제하여 새 프로파일을 만들 수 있습니다.
 
    >[!NOTE]
@@ -178,6 +180,12 @@ DITA 특수화는 새 요소를 추가하거나 기존 요소를 제거하여 �
    > 기본 프로파일은 삭제할 수 없습니다. 그러나 새로 만드는 모든 프로필은 편집하고 삭제할 수 있습니다.
 
 1. **스키마** \> **카탈로그** 설정에서 AEM 저장소에 있는 사용자 지정 DTD 및 XSD `catalog.xml` 파일의 경로를 지정하십시오.
+
+   >[!NOTE]
+   >
+   > 사용자 지정 스키마를 사용하는 경우 **카탈로그 통합** 옵션의 AEM 저장소에 있는 사용자 지정 DTD 및 XSD catalog.xml 파일의 경로를 정의해야 합니다.
+
+
 
 1. **시스템 ID 카탈로그 추가** 옵션을 선택하십시오.
 

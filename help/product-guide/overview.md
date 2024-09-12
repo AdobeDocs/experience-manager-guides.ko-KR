@@ -4,7 +4,7 @@ description: Experience Manager Guides(이전 XML Documentation for Adobe Experi
 exl-id: 06dd1b77-1a98-430f-8322-475d4fa4947b
 feature: AEM Guides Tutorials
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: fb4b5fa72cc0643810e4c299dd827803687f0bc4
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 2%
@@ -36,7 +36,6 @@ ht-degree: 2%
 * **[출력 생성( [!DNL AEM Guides]](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/overview.html){target="blank"}**)
 
   _[!DNL Adobe Experience Manager Guides]을(를) 사용하여 출력을 생성하는 방법에 대해 알아봅니다. 보고서, 기준선, 조건, 문제 해결, 벌크 게시 및 활성화와 같이 출력 생성에 사용할 수 있는 다양한 기능에 대해 알아봅니다._
-
 
 <!--
 
@@ -90,9 +89,9 @@ Dummy links cause validation to fail
 
 -->
 
-
 ## 추가 리소스
 
 * [[!DNL AEM Guides] 온라인 사용 안내서](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html)
 * [[!DNL AEM Guides] PDF 가이드](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
 * [Experience League - AEM 탐색](https://experienceleague.adobe.com/#recommended/solutions/experience-manager)
+

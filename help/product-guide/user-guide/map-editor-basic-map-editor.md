@@ -4,14 +4,19 @@ description: AEM Guides에서 기본 맵 편집기로 작업하는 방법을 알
 exl-id: 13da729d-e8f7-46ae-873a-1bfc32da974f
 feature: Authoring, Map Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 126cecdaa481b9da1add4ba3664c26c2bc5da068
 workflow-type: tm+mt
-source-wordcount: '1408'
+source-wordcount: '1471'
 ht-degree: 0%
 
 ---
 
 # 기본 맵 편집기 작업 {#id1942CM005Y4}
+
+>[!NOTE]
+>
+> 이전에 Experience Manager Guides에서 사용할 수 있었던 기본 맵 편집기는 버전 4.3 및 2307부터 더 이상 사용되지 않습니다. 기본 맵 편집기에 액세스하여 DITA 맵을 만들고 관리할 수 없습니다.
+>고급 맵 편집기를 사용하는 것이 좋습니다. 고급 맵 편집기는 향상된 기능과 더 나은 사용자 지정 옵션을 제공합니다. [고급 맵 편집기](../user-guide/map-editor-advanced-map-editor.md)를 사용하여 작업하는 방법에 대해 자세히 알아보세요.
 
 기본 맵 편집기는 AEM 저장소에서 주제를 추가하여 DITA 맵이나 북맵을 만드는 손쉬운 드래그 앤 드롭 기능을 제공합니다. 중첩된 항목, 관계 테이블 \(relable\), 속성 및 메타데이터 정보를 추가하고 맵의 유효성을 검사할 수 있습니다.
 
