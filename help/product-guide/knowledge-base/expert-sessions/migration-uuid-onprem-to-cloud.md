@@ -1,9 +1,10 @@
 ---
 title: 배포 옵션 및 클라우드로 마이그레이션
 description: AEM Guides, 다양한 배포 옵션 및 온프레미스 설정에서 AEMaaCS로의 콘텐츠 마이그레이션
-source-git-commit: 3c861e42bb01255f19cb2c901a3bca94d7949b76
+exl-id: 6224f35a-bbed-4a3b-b411-ee653c108d90
+source-git-commit: 4644b7237dcb85a2bc62495abcd48d2c312a7842
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '245'
 ht-degree: 1%
 
 ---
@@ -50,9 +51,9 @@ AEM Guides에서 사용할 수 있는 배포 옵션(비클라우드 및 클라�
 ### 설명서
 
 - [AEM Cloud로 이동](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
-- [AEM Guides: 온-프레미스/AMS에서 클라우드로 UUID 콘텐츠 이동](https://experienceleague.corp.adobe.com/docs/experience-manager-guides/using/install-guide/cs-ig/migrate-con-cs/migrate-on-premise-content-cloud.html)
+- [AEM Guides: 온-프레미스/AMS에서 클라우드로 UUID 콘텐츠 이동](../../cs-install-guide/migrate-on-premise-content-cloud.md)
 - [콘텐츠 전송 도구: FAQ](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/migration/moving-to-aem-as-a-cloud-service/content-migration/faq)
-- [AEM Guides: UUID가 아닌 콘텐츠를 클라우드로 마이그레이션](https://experienceleague.corp.adobe.com/docs/experience-manager-guides/using/install-guide/on-prem-ig/content-migration/migrate-uuid-non-uuid.html)
+- [AEM Guides: uuid가 아닌 콘텐츠를 클라우드로 마이그레이션](../../install-guide/migrate-uuid-non-uuid.md)
 
 ### 커뮤니티 포럼
 
