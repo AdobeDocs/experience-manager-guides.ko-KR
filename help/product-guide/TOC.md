@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 확인하십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: 3540c27fcfb856a0ee6b669c3d7a573331324817
+source-git-commit: a9f8622dc5a2647bcff32c8895700d5c5933be4a
 workflow-type: tm+mt
-source-wordcount: '1879'
+source-wordcount: '1889'
 ht-degree: 6%
 
 ---
@@ -482,6 +482,7 @@ ht-degree: 6%
          - DITA-OT {#dita-ot}
             - [플러그인에서 AEM 메타데이터 사용](./knowledge-base/kb-articles/publishing/dita-ot/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)
          - [기본 PDF 게시를 위한 AEM 환경 구성](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
+         - [PDF의 첫 페이지에 엔터프라이즈 브랜딩 추가](./knowledge-base/kb-articles/publishing/add-branding-to-bookmap-content-header.md)
          - [기본 PDF 게시에서 북맵의 TOC 생성](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
          - [FMPS 및 안내서](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          - [마이크로서비스 아키텍처 및 성능](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
