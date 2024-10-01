@@ -2,9 +2,9 @@
 title: 릴리스 정보 | Adobe Experience Manager Guides 4.6.0 릴리스의 문제가 해결되었습니다.
 description: Adobe Experience Manager Guides 4.6.0 릴리스의 버그 수정에 대해 알아봅니다
 role: Leader
-source-git-commit: 5a30d427fa579e37a18b0fca65dea96dc486c594
+source-git-commit: 17c3d945cb2a2faab1e361385a95e1de5a790a96
 workflow-type: tm+mt
-source-wordcount: '1946'
+source-wordcount: '1970'
 ht-degree: 0%
 
 ---
@@ -161,6 +161,8 @@ Adobe은 4.6.0 릴리스에 대해 다음과 같은 알려진 문제를 확인�
 - DITA 맵의 맨 위 도구 모음에서 주제의 참조를 삽입하면 사용자 인터페이스에서 깨진 상태로 표시됩니다.
 - 참조가 누락된 경우 DITA 맵에 대한 기본 PDF 생성에 실패합니다.
 - 주제의 문서 상태가 **완료**(으)로 업데이트되면 **새 릴리스 시작** 아이콘은 주제의 **미리 보기** 모드에서만 사용할 수 있습니다.
+- 에셋 UI에서 DITA 파일을 선택하면 구성 설정에서 **FrameMaker에서 열기** 옵션이 비활성화되어 있지만 표시됩니다.
+
 
 
 
