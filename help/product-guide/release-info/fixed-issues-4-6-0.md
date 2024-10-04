@@ -2,9 +2,9 @@
 title: 릴리스 정보 | Adobe Experience Manager Guides 4.6.0 릴리스의 문제가 해결되었습니다.
 description: Adobe Experience Manager Guides 4.6.0 릴리스의 버그 수정에 대해 알아봅니다
 role: Leader
-source-git-commit: 17c3d945cb2a2faab1e361385a95e1de5a790a96
+source-git-commit: 6bff0a9c8770418c4486b65feb1c11792b893ca8
 workflow-type: tm+mt
-source-wordcount: '1970'
+source-wordcount: '1985'
 ht-degree: 0%
 
 ---
@@ -75,8 +75,7 @@ ht-degree: 0%
 - 자동 저장 기능을 사용할 때 닫기 버튼의 동작이 일관되지 않습니다. (10996)
 - 새 요소를 삽입하거나 방정식을 수정할 때 MathML 요소에서 유효성 검사 문제가 발생합니다. (10624)
 - 변경 내용 추적 기능은 한국어 문자로 시작되는 텍스트에서는 작동하지 않습니다. (14538)
-
-
+- 버전 생성 후 주제의 연결된 이미지가 기준선에 표시되지 않습니다. (16931)
 
 ## 게시
 
