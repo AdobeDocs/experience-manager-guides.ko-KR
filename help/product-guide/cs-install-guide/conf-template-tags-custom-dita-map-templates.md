@@ -5,9 +5,9 @@ exl-id: a0eeb43c-06e4-4922-a005-704e8929063f
 feature: Template Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 83971ee35a19cf0146ddd034b1ae7a345f587663
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '489'
 ht-degree: 1%
 
 ---
@@ -55,4 +55,20 @@ AEM Guides에는 DITA 맵과 북맵이라는 두 가지 기본 맵 템플릿이 
 >
 > 사용자 지정 맵 템플릿 사용에 대한 모범 사례는 모범 사례 안내서의 *사용자 지정 템플릿* 섹션을 참조하십시오.
 
-**상위 항목:**[&#x200B;항목 및 맵 템플릿 구성](conf-template-tags.md)
+
+## DITA 맵의 참조 수 사용자 정의
+
+DITA 맵의 참조 수를 기반으로 비동기 처리를 위한 임계값을 구성할 수 있습니다. 기본적으로 참조가 5개 이상인 맵은 비동기 작업을 통해 만들어지고, 참조가 적은 맵은 동기 작업을 계속 사용합니다.
+
+
+구성 파일을 만들려면 [구성 재정의](download-install-additional-config-override.md#)의 지침을 사용하십시오. 구성 파일에서 다음(등록 정보) 세부 정보를 제공하여 프로세스를 동기식으로 유지할 수 있도록 DITA 맵 템플릿에 참조 수를 지정합니다.
+
+| PID | 속성 키 | 속성 값 |
+|---|------------|--------------|
+| com.adobe.fmdita.xmleditor.config.XmlEditorConfig | xmleditor.asyncmapcreation | > 0 <br> **기본값**: 5 |
+
+사용자 지정 템플릿을 사용하여 큰 주제 참조가 있는 DITA 맵을 만들 때 총 처리 시간이 60초를 초과하는 경우 클라우드 서버에서 맵 만들기가 실패합니다.
+
+이를 방지하려면 작업을 동시에 실행하고 더 큰 DITA 맵의 처리 시간을 줄일 수 있도록 XmlEditorConfig에서 **비동기 DITA 맵 만들기**&#x200B;를 구성하십시오.
+
+**상위 항목:** [항목 및 맵 템플릿 구성](conf-template-tags.md)

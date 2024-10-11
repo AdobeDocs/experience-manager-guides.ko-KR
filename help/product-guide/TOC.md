@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 살펴보십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: 23470fdb176fa487139f8a8822be7f95dd205a3e
+source-git-commit: f6e34c0bc57603b4251abd4859b43c95042e8819
 workflow-type: tm+mt
-source-wordcount: '1896'
+source-wordcount: '1964'
 ht-degree: 6%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 6%
       - 클라우드 서비스 {#cloud-release-notes}
          - [배포 지침](./release-info/deploy-xml-on-aemaacs.md)
          - 2024 릴리스 {#2024-releases}
+            - 2024.10.0 릴리스 {#2406-release}
+               - [새로운 기능](./release-info/whats-new-2024-10-0.md)
+               - [해결된 문제](./release-info/fixed-issues-2024-10-0.md)
+               - [업그레이드 지침](./release-info/upgrade-instructions-2024-10-0.md)
             - 2024.6.0 릴리스 {#2406-release}
                - [새로운 기능](./release-info/whats-new-2024-06-0.md)
                - [해결된 문제](./release-info/fixed-issues-2024-06-0.md)
@@ -135,7 +139,8 @@ ht-degree: 6%
                - [웹 편집기 보기](./user-guide/web-editor-views.md)
                - [Schematron 파일 지원](./user-guide/support-schematron-file.md)
                - [콘텐츠를 작성할 AI 기반 스마트 제안](./user-guide/authoring-ai-based-smart-suggestions.md)
-
+               - [콘텐츠 검색에 대한 AI 기반 스마트 도움말](./user-guide/ai-based-smart-help.md)
+               - [효율적인 문서 작성을 위한 AI Assistant](./user-guide/AI-assistant-right-panel.md)
                - [웹 편집기에서 Markdown 문서 작성](./user-guide/web-editor-markdown-topic.md)
                - [콘텐츠에 인용 부호 추가](./user-guide/web-editor-apply-citations.md)
                - [데이터 소스의 데이터 사용](./user-guide/web-editor-content-snippet.md)
@@ -189,7 +194,10 @@ ht-degree: 6%
       - [출력 생성 기본 사항](./user-guide/generate-output.md)
       - [출력 사전 설정 소개](./user-guide/generate-output-understand-presets.md)
       - AEM Guides {#output-presets-aemg}의 출력 사전 설정
-         - [AEM 사이트](./user-guide/generate-output-aem-site.md)
+
+         - [AEM Sites](./user-guide/generate-output-aem-site.md)
+         - [맵 대시보드의 AEM Sites 사전 설정](./user-guide/generate-output-aem-site-map-dashboard.md)
+         - [웹 편집기의 AEM Sites 사전 설정](./user-guide/generate-output-aem-site-web-editor.md)
          - [PDF](./user-guide/generate-output-pdf.md)
          - [기술 자료](./user-guide/generate-output-knowledge-base.md)
          - [HTML5](./user-guide/generate-output-html5.md)
@@ -302,6 +310,8 @@ ht-degree: 6%
          - [데스크탑 기반 XML 편집기 통합](./install-guide/integrate-desktop-editors.md)
       - 출력 생성 설정 {#output-gen-config} 작업
          - [출력 생성 설정 구성](./install-guide/conf-output-generation.md)
+         - [Aem sites 템플릿 다운로드 및 설치](./install-guide/download-install-aem-sites-templates.md)
+         - [AEM Sites 출력의 HTML 태그 오버레이](./install-guide/overlay-html-tags-aem-sites.md)
          - 기본 PDF 게시 {#config-native-pdf-publish}
             - [PDF 템플릿](./native-pdf/pdf-template.md)
             - [PDF 템플릿의 구성 요소](./native-pdf/components-pdf-template.md)
@@ -359,6 +369,8 @@ ht-degree: 6%
          - [웹 편집기 사용자 지정](./cs-install-guide/conf-web-editor.md)
          - [도구 모음 사용자 지정](./cs-install-guide/conf-web-editor-customize-toolbar.md)
          - [작성을 위한 AI 기반 스마트 제안 구성](./cs-install-guide/conf-smart-suggestions.md)
+
+         - [콘텐츠 검색을 위한 AI 기반 스마트 도움말 구성](./cs-install-guide/conf-smart-help.md)
          - [태그 보기에 대한 기본값 구성](./cs-install-guide/configure-default-value-tags-view.md)
          - [UUID 기반 링크 표시 구성](./cs-install-guide/conf-uuid-based-links.md)
          - [동일한 탭에서 DITA 주제 또는 맵 파일 열기](./cs-install-guide/open-dita-files-same-tab.md)
@@ -383,8 +395,10 @@ ht-degree: 6%
       - 버전 {#version-mgt-cs} 구성
          - [버전 관리](./cs-install-guide/version-management.md)
       - 데스크톱 기반 XML 편집기 {#desktop-xml-editor} 작업
-         - 출력 생성 설정 {#output-gen-config-cs} 작업
+         - [데스크탑 기반 XML 편집기 통합](./cs-install-guide/integrate-desktop-editors-cs.md)
+      - 출력 생성 설정 {#output-gen-config-cs} 작업
          - [출력 생성 설정 구성](./cs-install-guide/conf-output-generation.md)
+         - [Aem sites 템플릿 다운로드 및 설치](./cs-install-guide/download-install-aem-sites-templates-cs.md)
          - [기본 PDF 게시](./cs-install-guide/native-pdf-publishing.md)
          - [기본 PDF 게시를 위한 노드 프로세스 구성](./native-pdf/configure-node-options.md)
          - [주제와 컨텐츠 조각 간의 매핑 만들기](./cs-install-guide/conf-content-fragment-mapping-cs.md)

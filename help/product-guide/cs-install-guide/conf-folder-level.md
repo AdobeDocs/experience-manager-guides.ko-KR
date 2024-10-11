@@ -5,9 +5,9 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: 3bdc3c6370bbad67f9c31f538a49bee105fec0f9
+source-git-commit: c94eb03af60ef9df60f77c21bfce1c45708df2f8
 workflow-type: tm+mt
-source-wordcount: '4285'
+source-wordcount: '4521'
 ht-degree: 0%
 
 ---
@@ -411,7 +411,7 @@ AEM Guides을 사용하면 관리자가 특정 설정을 사용하여 출력 사
 
 AEM ![ 클라우드 ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service 의 경우 .
 
-AI 기반 스마트 제안을 구성하고 작성자가 기존 콘텐츠를 재사용하고 올바르고 일관된 콘텐츠 참조를 쉽게 만들 수 있도록 지원할 수 있습니다. **AI 구성** 탭을 사용하면 웹 편집기에서 스마트 제안 패널의 설정을 제어할 수 있습니다.
+AI 기반의 스마트 제안을 구성하고 작성자가 기존 콘텐츠를 재사용하고 올바르고 일관된 콘텐츠 참조를 쉽게 만들 수 있도록 지원할 수 있습니다. **AI 구성** 탭을 사용하면 웹 편집기의 AI 도우미 패널에서 **재사용 가능한 콘텐츠 제안**&#x200B;의 설정을 제어할 수 있습니다.
 
 글로벌 또는 폴더 수준 프로필에서 표준 AI 구성을 구성하려면 다음 단계를 수행하십시오.
 1. 폴더 수준 프로필에 대한 관리자 권한이 있는 관리자 또는 사용자로 Adobe Experience Manager에 로그인합니다.
@@ -421,7 +421,7 @@ AI 기반 스마트 제안을 구성하고 작성자가 기존 콘텐츠를 재�
 
    >[!NOTE]
    >
-   >전역 또는 폴더 수준 프로필에 AI 기반 스마트 제안을 구성할 수 있습니다.
+   >전역 또는 폴더 수준 프로필에 대해 AI 기반 스마트 제안을 구성할 수 있습니다.
 
 1. 프로필 페이지에서 **AI 구성** 탭을 선택합니다.
    글로벌 프로필의 ![AI 구성 탭](assets/global-profile-AI-configuration-cs.png) {width="800" align="left"}
@@ -446,52 +446,52 @@ AI 기반 스마트 제안을 구성하고 작성자가 기존 콘텐츠를 재�
 
 
 
-<!--## Configure AI-powered Guides Assistant in the Web Editor {#conf-ai-guides-assistant}
+## 웹 편집기에서 AI 기반 스마트 도움말 구성 {#conf-ai-guides-assistant}
 
-For ![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service.
+![ 클라우드 ](assets/aem-cloud-icon.svg) AEMExperience Manager Guides as a Cloud Service 의 경우
 
-You can configure the AI-powered **Guides Assistant** to help the authors ask questions and easily find the required content from the [ Experience Manager Guides Documentation](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
+작성자가 질문을 하고 [Experience Manager Guides 설명서](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)에서 필요한 콘텐츠를 쉽게 찾을 수 있도록 AI 기반의 **스마트 도움말**&#x200B;을 구성할 수 있습니다.
 
-The **XML Editor Configuration** tab allows you to configure the default questions of the **Guides Assistant panel** in the Web Editor.
+**XML 편집기 구성** 탭을 사용하면 웹 편집기에서 **스마트 도움말 패널**&#x200B;의 기본 질문을 구성할 수 있습니다.
 
 >[!NOTE]
 >
->You can configure up to 10 default questions. 
+>최대 10개의 기본 질문을 구성할 수 있습니다.
 
-Perform the following steps to configure the default questions:
+기본 질문을 구성하려면 다음 단계를 수행하십시오.
 
-1. Log into Adobe Experience Manager as an administrator or user with administrative rights on a folder-level profile.
-1. Select the **Adobe Experience Manager** link at the top and choose **Tools**.
-1. Select **Guides** from the list of tools and select the **Folder Profiles** tile.
-1. Select the profile tile that you want to configure.
+1. 폴더 수준 프로필에 대한 관리자 권한이 있는 관리자 또는 사용자로 Adobe Experience Manager에 로그인합니다.
+1. 맨 위에 있는 **Adobe Experience Manager** 링크를 선택하고 **도구**&#x200B;를 선택합니다.
+1. 도구 목록에서 **안내서**&#x200B;를 선택하고 **폴더 프로필** 타일을 선택합니다.
+1. 구성할 프로필 타일을 선택합니다.
 
-    >[!NOTE]
-    >
-    >You can configure default questions for the **Guides assistant panel** to the global or a folder-level profile.
+   >[!NOTE]
+   >
+   >전역 또는 폴더 수준 프로필에 대해 **스마트 도움말 패널**&#x200B;에 대한 기본 질문을 구성할 수 있습니다.
 
-1.  Select the **XML Editor Configuration** tab. 
+1. **XML 편집기 구성** 탭을 선택합니다.
 
-1. Click the **Edit** icon on the top.
-1.  In the **XML Editor UI configuration** section, select the **Download** icon to download the `ui_config.json` file on your local system.
-1.  In the `ui_config.json` file, add the sample questions.
+1. 맨 위에 있는 **편집** 아이콘을 클릭합니다.
+1. **XML 편집기 UI 구성** 섹션에서 **다운로드** 아이콘을 선택하여 로컬 시스템에서 `ui_config.json` 파일을 다운로드합니다.
+1. `ui_config.json` 파일에 샘플 질문을 추가합니다.
 
-    **Example of sample questions**:
+   **샘플 질문의 예**:
 
-    ```json
-    "assistantSampleQuestions": [
-    "How to create a new topic",
-    "How to create a new map",
-    "What is a baseline" ]
-    ```
+   ```json
+   "assistantSampleQuestions": [
+   "How to create a new topic",
+   "How to create a new map",
+   "What is a baseline" ]
+   ```
 
-1. Save the file and upload it.
+1. 파일을 저장하고 업로드합니다.
 
-    >[!NOTE]
-    >
-    > The default questions appear in the **Guides assistant** panel after you save the file. 
+   >[!NOTE]
+   >
+   > 파일을 저장하면 **스마트 도움말** 패널에 기본 질문이 나타납니다.
 
 
-Learn more about using the [AI-powered Guides assistant](../user-guide/ai-based-guides-assistant.md) to find the required content from the Experience Manager Guides documentation. -->
+[AI 기반 스마트 도움말](../user-guide/ai-based-smart-help.md)을 사용하여 Experience Manager Guides 설명서에서 필요한 콘텐츠를 찾는 방법에 대해 자세히 알아보십시오.
 
 
 ## XML Web Editor 구성 및 사용자 지정 {#id2065G300O5Z}

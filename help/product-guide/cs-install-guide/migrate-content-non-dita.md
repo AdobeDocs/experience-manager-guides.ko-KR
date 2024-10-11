@@ -5,9 +5,9 @@ exl-id: cf437fb8-ed33-47af-aa7e-ffd8acd232da
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: cddbd7a19d4dfaa3f6549ed1bd511eeeb02acbb2
 workflow-type: tm+mt
-source-wordcount: '2889'
+source-wordcount: '2940'
 ht-degree: 0%
 
 ---
@@ -137,12 +137,29 @@ AEM Guides을 사용하면 InDesign 문서를 변환할 수 있습니다. FrameM
 1. 다음 위치에서 사용할 수 있는 기본 구성 파일로 이동합니다.
 
    `/libs/fmdita/config/idml2dita_io.xml`
+1. 요구 사항에 따라 사용자 지정 구성을 만들려면 `apps` 노드 내에 `config` 폴더의 오버레이 노드를 만드십시오.
 
-1. `apps` 노드 내에 `config` 폴더의 오버레이 노드를 만듭니다.
+1. `libs` 폴더에서 apps 폴더로 다음 파일 또는 폴더를 복사합니다.
+
+   - `/fmdita/config/idml2dita_io.xml`
+   - `/fmdita/idml2dita/config`
+   - `/fmdita/idml2dita/xsl`
 
 1. `apps` 노드에서 사용할 수 있는 구성 파일로 이동합니다.
 
    `/apps/fmdita/config/idml2dita_io.xml`
+
+1. `idml2dita_io.xml` 파일 내의 `idml12dita` 폴더에 있는 구성의 매핑을 추가합니다.
+1. `idml2dita_io.xml` 파일에 다음 속성을 추가하십시오.
+
+   ```
+   <entry          key="idml2DitaConfig">/apps/fmdita/idml2dita/config</entry>
+   
+   <entry key="idml2DitaXsl">/apps/fmdita/idml2dita/xsl</entry>
+   ```
+
+1. `apps` 노드 내에 `config` 폴더의 오버레이 노드를 만듭니다.
+
 
    `idml2dita_io.xml` 파일에서 다음 매개 변수를 구성합니다.
 
