@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 살펴보십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: fb586c7e857db5c4aa68645cb1be2a48fdbe165c
+source-git-commit: 9db546b3a9e0ece66024e1c06c6cec52b786ff76
 workflow-type: tm+mt
-source-wordcount: '1972'
+source-wordcount: '1974'
 ht-degree: 6%
 
 ---
@@ -494,18 +494,22 @@ ht-degree: 6%
          - [데이터 소스 커넥터 구성](../product-guide/knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)
 
       - 게시 {#publishing}
+
+         - 기본 PDF {#native-pdf}
+            - [DITA 기본 글꼴에 사용자 정의 PDF 추가](./knowledge-base/kb-articles/publishing/add-custom-font-native-pdf.md)
+            - [기본 PDF 게시를 위한 AEM 환경 구성](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
+            - [PDF의 첫 페이지에 엔터프라이즈 브랜딩 추가](./knowledge-base/kb-articles/publishing/add-branding-to-bookmap-content-header.md)
+            - [기본 PDF 게시에서 북맵의 TOC 생성](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
          - DITA-OT {#dita-ot}
             - [플러그인에서 AEM 메타데이터 사용](./knowledge-base/kb-articles/publishing/dita-ot/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)
-         - [DITA 기본 글꼴에 사용자 정의 PDF 추가](./knowledge-base/kb-articles/publishing/add-custom-font-native-pdf.md)
-         - [기본 PDF 게시를 위한 AEM 환경 구성](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
-         - [PDF의 첫 페이지에 엔터프라이즈 브랜딩 추가](./knowledge-base/kb-articles/publishing/add-branding-to-bookmap-content-header.md)
-         - [기본 PDF 게시에서 북맵의 TOC 생성](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
+            - [사용자 지정 DITA-OT 설정](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
          - [FMPS 및 안내서](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
+
          - [마이크로서비스 아키텍처 및 성능](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          - [JWT 인증을 사용하여 마이크로서비스 기반 게시 구성](./knowledge-base/publishing/configure-microservices.md)
          - [OAuth 인증을 통해 마이크로서비스 기반 게시 구성](./knowledge-base/publishing/configure-microservices-imt-config.md)
          - [AEM 클라우드에서 벤치마크 게시](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
-         - [사용자 지정 DITA-OT 설정](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
+
 
       - 워크플로 {#workflows}
          - [사후 생성 워크플로](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
