@@ -2,9 +2,9 @@
 title: 릴리스 정보 | Adobe Experience Manager Guides 4.6.0 릴리스의 문제가 해결되었습니다.
 description: Adobe Experience Manager Guides 4.6.0 릴리스의 버그 수정에 대해 알아봅니다
 role: Leader
-source-git-commit: 9ffe068bbcdc0fe32e3dbf56a48171d241825e5a
+source-git-commit: d51cc5ed621d5f533815c677e23bd4c1f4a52de3
 workflow-type: tm+mt
-source-wordcount: '1996'
+source-wordcount: '2011'
 ht-degree: 0%
 
 ---
@@ -107,7 +107,9 @@ ht-degree: 0%
 - OOTB 주제 재생성 또는 증분 게시 API 실패로 인해 주제 재생성에 실패합니다. (18452)
 - 조건 사전 설정은 Experience Manager Guides 업그레이드 후 업데이트된 속성을 가져오지 않습니다. (18174)
 - 키 정의가 포함된 파일이 DITA 맵과 동일한 폴더에 없는 경우 기본 PDF 출력에 대해 컨텐트 참조가 올바르게 해석되지 않습니다. (15062)
+- 벌크 Publish 대시보드 는 아직 번역 프로세스에 있는 맵에 대해 빈 을 표시합니다. (19352)
 - 현지화된 맵에서는 게시된 콘텐츠의 벌크 활성화가 작동하지 않습니다. (17638)
+
 
 
 ## 관리

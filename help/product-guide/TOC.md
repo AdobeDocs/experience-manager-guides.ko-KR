@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 살펴보십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: 9db546b3a9e0ece66024e1c06c6cec52b786ff76
+source-git-commit: f74362c78532ddd7721faf66789281a8c0704194
 workflow-type: tm+mt
-source-wordcount: '1974'
+source-wordcount: '1988'
 ht-degree: 6%
 
 ---
@@ -20,10 +20,13 @@ ht-degree: 6%
       - 클라우드 서비스 {#cloud-release-notes}
          - [배포 지침](./release-info/deploy-xml-on-aemaacs.md)
          - 2024 릴리스 {#2024-releases}
-            - 2024.10.0 릴리스 {#2410-release}
-               - [새로운 기능](./release-info/whats-new-2024-10-0.md)
-               - [해결된 문제](./release-info/fixed-issues-2024-10-0.md)
-               - [업그레이드 지침](./release-info/upgrade-instructions-2024-10-0.md)
+            - 2024.10.x 릴리스 {#2410-release}
+               - 2024.10.1 릴리스 {#2410-1-release}
+                  - [해결된 문제](./release-info/fixed-issues-2024-10-1.md)
+               - 2024.10.0 릴리스 {#2410-0-release}
+                  - [새로운 기능](./release-info/whats-new-2024-10-0.md)
+                  - [해결된 문제](./release-info/fixed-issues-2024-10-0.md)
+                  - [업그레이드 지침](./release-info/upgrade-instructions-2024-10-0.md)
             - 2024.6.0 릴리스 {#2406-release}
                - [새로운 기능](./release-info/whats-new-2024-06-0.md)
                - [해결된 문제](./release-info/fixed-issues-2024-06-0.md)
@@ -76,11 +79,13 @@ ht-degree: 6%
             - [1월 릴리스 정보](./release-info/release-notes-2022-1-0.md)
       - 온-프레미스/Managed Services {#on-prem-release-notes}
          - [[!DNL AEM Guides] 릴리스](./release-info/latest-release-info.md)
+         - 4.6.1 릴리스 {#461-release}
+            - [해결된 문제](./release-info/fixed-issues-4-6-1.md)
+            - [업그레이드 지침](./release-info/upgrade-instructions-4-6-1.md)
          - 4.6.0 릴리스 {#460-release}
             - [새로운 기능](./release-info/whats-new-4-6.md)
             - [해결된 문제](./release-info/fixed-issues-4-6-0.md)
             - [업그레이드 지침](./release-info/upgrade-instructions-4-6-0.md)
-
          - 4.4.0 릴리스 {#440-release}
             - [새로운 기능](./release-info/whats-new-4-4.md)
             - [해결된 문제](./release-info/fixed-issues-4-4.md)
@@ -106,7 +111,6 @@ ht-degree: 6%
          - [4.0.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
          - [3.8.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - 사용 안내서 {#user-guide}
-
    - 소개 {#about-aem-guide}
       - [ [!DNL Adobe Experience Manager Guides] 정보](./user-guide/intro.md)
       - [!DNL AEM Guides] 작업 중 및 주요 기능 {#aemg-works-features}
@@ -118,18 +122,14 @@ ht-degree: 6%
       - [파일 및 폴더 관리](./user-guide/authoring-file-management.md)
       - [파일 다운로드](./user-guide/authoring-download-assets.md)
    - 작성자 콘텐츠 {#author-content}
-
       - [작성 개요](./user-guide/authoring-content.md)
       - 항목 만들기 및 미리 보기 {#create-preview-topics}
-
          - [주제 만들기 및 미리 보기](./user-guide/create-preview-topics.md)
          - [주제 만들기](./user-guide/web-editor-create-topics.md)
          - [주제 미리 보기](./user-guide/web-editor-preview-topics.md)
          - 콘텐츠 작성자 {#author-content-aem-guides}
-
             - [AEM Guides을 사용하여 콘텐츠를 작성하는 방법](./user-guide/authoring-content-xml-doc.md)
             - 웹 편집기 {#work-with-web-editor}
-
                - [웹 편집기 작업](./user-guide/web-editor.md)
                - [웹 편집기 실행](./user-guide/web-editor-launch-editor.md)
                - [웹 편집기에서 주제 편집](./user-guide/web-editor-edit-topics.md)
@@ -154,7 +154,6 @@ ht-degree: 6%
                - [웹 편집기에서 기준선 만들기 및 관리](./user-guide/web-editor-baseline.md)
                - [문서 상태](./user-guide/web-editor-document-states.md)
                - [레이블 사용](./user-guide/web-editor-use-label.md)
-
             - 맵 편집기 {#work-with-map-editor}
                - [맵 편집기 작업](./user-guide/map-editor.md)
                - [맵 만들기](./user-guide/map-editor-create-map.md)
@@ -164,12 +163,10 @@ ht-degree: 6%
                - [맵 편집기의 기타 기능](./user-guide/map-editor-other-features.md)
             - DITAVAL 편집기 {#ditaval-editor}
                - [DITAVAL 편집기 작업](./user-guide/ditaval-editor.md)
-
          - 콘텐츠 {#author-using-desktop-tools}을(를) 작성하기 위한 데스크톱 도구
             - [데스크탑 도구를 사용하여 콘텐츠 작성](./user-guide/author-desktop-tools.md)
             - [FrameMaker 작업](./user-guide/author-desktop-framemaker.md)
             - [산소를 사용한 작업](./user-guide/author-desktop-oxygen.md)
-
    - 콘텐츠 {#review-topic-maps} 검토
       - [주제 또는 맵 검토](./user-guide/review.md)
       - [DITA 프로젝트 만들기](./user-guide/authoring-create-dita-project.md)
@@ -194,7 +191,6 @@ ht-degree: 6%
       - [출력 생성 기본 사항](./user-guide/generate-output.md)
       - [출력 사전 설정 소개](./user-guide/generate-output-understand-presets.md)
       - AEM Guides {#output-presets-aemg}의 출력 사전 설정
-
          - [AEM Sites](./user-guide/generate-output-aem-site.md)
          - [맵 대시보드의 AEM Sites 사전 설정](./user-guide/generate-output-aem-site-map-dashboard.md)
          - [웹 편집기의 AEM Sites 사전 설정](./user-guide/generate-output-aem-site-web-editor.md)
@@ -242,7 +238,6 @@ ht-degree: 6%
       - [컨텐츠 재사용 보고서](./user-guide/reports-content-reuse.md)
       - [전환 상태 보고서](./user-guide/reports-convertion-status.md)
       - [파일 버전 기록 보고서를 되돌렸습니다.](./user-guide/reports-reverted-file-version-history.md)
-
 - 설치 및 구성 {#install-guide}
    - 온-프레미스 {#on-prem-ig}
       - [On-Premise 기본 사항](./install-guide/introduction.md)
@@ -368,8 +363,7 @@ ht-degree: 6%
       - 웹 편집기 구성 {#web-editor-configs-cs} 작업
          - [웹 편집기 사용자 지정](./cs-install-guide/conf-web-editor.md)
          - [도구 모음 사용자 지정](./cs-install-guide/conf-web-editor-customize-toolbar.md)
-         - [작성을 위한 AI 기반 스마트 제안 구성](./cs-install-guide/conf-smart-suggestions.md)
-
+         - [작성을 위해 AI 기반 스마트 제안 구성](./cs-install-guide/conf-smart-suggestions.md)
          - [콘텐츠 검색을 위한 AI 기반 스마트 도움말 구성](./cs-install-guide/conf-smart-help.md)
          - [태그 보기에 대한 기본값 구성](./cs-install-guide/configure-default-value-tags-view.md)
          - [UUID 기반 링크 표시 구성](./cs-install-guide/conf-uuid-based-links.md)
@@ -428,7 +422,6 @@ ht-degree: 6%
    - [일괄 활성화 완료 이벤트 핸들러](./api-reference/bulk-activation-complete-event.md)
    - [전환 프로세스 이벤트 핸들러](./api-reference/conversion-complete-event.md)
 - 기술 자료 {#knowledge-base}
-
    - 전문가 세션 {#expert-session}
       - [전문가 세션 개요](./knowledge-base/expert-sessions/expert-session.md)
       - [콘텐츠 번역](./knowledge-base/expert-sessions/translating-content-using-aem-guides-oct22.md)
@@ -447,7 +440,6 @@ ht-degree: 6%
       - [배포 옵션 및 클라우드로 마이그레이션](./knowledge-base/expert-sessions/migration-uuid-onprem-to-cloud.md)
       - [UUID가 아닌 콘텐츠를 UUID로 마이그레이션](./knowledge-base/expert-sessions/migration-non-uuid-to-uuid.md)
    - 문서 {#kb-articles}
-
       - 작성 {#authoring}
          - 웹 편집기 {#webeditor}
             - [AEM Guides의 콘텐츠 재사용](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
@@ -491,10 +483,8 @@ ht-degree: 6%
                - [사용자 지정 대화 상자](./guides-ui-extensions/customisations/ReviewApp/custom-dialog.md)
       - 외부 데이터 원본 {#external-data-source}
          - [데이터 소스 통합](../product-guide/knowledge-base/kb-articles/data-source/integrate-data-sources.md)
-         - [데이터 소스 커넥터 구성](../product-guide/knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)
-
+         - [데이터 원본 커넥터 구성](../product-guide/knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)
       - 게시 {#publishing}
-
          - 기본 PDF {#native-pdf}
             - [DITA 기본 글꼴에 사용자 정의 PDF 추가](./knowledge-base/kb-articles/publishing/add-custom-font-native-pdf.md)
             - [기본 PDF 게시를 위한 AEM 환경 구성](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
@@ -504,13 +494,10 @@ ht-degree: 6%
             - [플러그인에서 AEM 메타데이터 사용](./knowledge-base/kb-articles/publishing/dita-ot/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)
             - [사용자 지정 DITA-OT 설정](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
          - [FMPS 및 안내서](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
-
          - [마이크로서비스 아키텍처 및 성능](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          - [JWT 인증을 사용하여 마이크로서비스 기반 게시 구성](./knowledge-base/publishing/configure-microservices.md)
          - [OAuth 인증을 통해 마이크로서비스 기반 게시 구성](./knowledge-base/publishing/configure-microservices-imt-config.md)
          - [AEM 클라우드에서 벤치마크 게시](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
-
-
       - 워크플로 {#workflows}
          - [사후 생성 워크플로](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
       - 번역 {#translation}
@@ -519,5 +506,4 @@ ht-degree: 6%
       - 사용 사례 {#use-cases}
          - [조건부 콘텐츠 작업](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
          - [키 작업](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
-
    - [산소 커넥터 사용](./oxygen-connector/use-aem-connector.md)
