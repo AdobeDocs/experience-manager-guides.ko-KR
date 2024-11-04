@@ -3,10 +3,10 @@ title: Adobe Experience Manager Guides 릴리스 로드맵 2024
 description: Adobe Experience Manager Guides on-prem 및 Adobe Experience Manager Guides as a Cloud Service 라이브 및 향후 릴리스에 대한 정보를 얻으십시오
 role: Admin, Leader, Developer, User
 exl-id: cb6709ce-2732-45d0-adfd-5aeca520240e
-source-git-commit: aaf1c31e0c5f5ac863370eb22c8f9cf3df7d25ef
+source-git-commit: f601319dc2fe6b4f71099bb881c7a6712135c4cf
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 30%
+source-wordcount: '294'
+ht-degree: 29%
 
 ---
 
@@ -28,6 +28,7 @@ Experience Manager Guides as a Cloud Service 릴리스는 다음과 같이 계�
 | Adobe Experience Manager Guides 2024.4.0 | 자동 업데이트 | 2024년 4월 26일 토요일 | [여기](whats-new-2024-04-0.md) | [여기](upgrade-instructions-2024-04-0.md) | [여기](fixed-issues-2024-04-0.md) | 업데이트됨 |
 | Adobe Experience Manager Guides 2024.6.0 | 자동 업데이트 | 2024년 6월 10~12일 | [여기](whats-new-2024-06-0.md) | [여기](upgrade-instructions-2024-06-0.md) | [여기](fixed-issues-2024-06-0.md) | 업데이트됨 |
 | Adobe Experience Manager Guides 2024.10.0 | 자동 업데이트 | 2024년 10월 14~16일 | [여기](whats-new-2024-10-0.md) | [여기](upgrade-instructions-2024-10-0.md) | [여기](fixed-issues-2024-10-0.md) | 업데이트됨 |
+| Adobe Experience Manager Guides 2024.10.1 | 서비스 팩 1 | 2024년 10월 29일 수요일 | - | - | [여기](fixed-issues-2024-10-1.md) | 업데이트됨 |
 | Adobe Experience Manager Guides 2025.02.0 | 자동 업데이트 | 2025년 2월 ~ |  |  |  | 대상 |
 | Adobe Experience Manager Guides 2025.04.0 | 자동 업데이트 | ~ 2025년 4월 |  |  |  | 대상 |
 
@@ -41,6 +42,6 @@ Experience Manager Guides as a Cloud Service 릴리스는 다음과 같이 계�
 |---|---|---|---|---|---|
 | Adobe Experience Manager Guides 4.4.0 | 릴리스 | 2024년 1월 29일 화요일 | [여기](whats-new-4-4.md) | [여기](upgrade-instructions-4-4.md) | 릴리스됨 |
 | Adobe Experience Manager Guides 4.6.0 | 릴리스 | 2024년 9월 12일 금요일 | [여기](whats-new-4-6.md) | [여기](upgrade-instructions-4-6-0.md) | 릴리스됨 |
-| Adobe Experience Manager Guides 4.6.1 | 서비스 팩 1 | 2024년 10월 말 |  |  | 대상 |
+| Adobe Experience Manager Guides 4.6.1 | 서비스 팩 1 | 2024년 10월 29일 수요일 | - | [여기](upgrade-instructions-4-6-1.md) | 릴리스됨 |
 | Adobe Experience Manager Guides 5.0.0 | 릴리스 | 2025년 2월 ~ |  |  | 대상 |
 | Adobe Experience Manager Guides 5.1.0 | 릴리스 | 2025년 8월 ~ |  |  | 대상 |
