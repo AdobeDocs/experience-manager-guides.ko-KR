@@ -5,10 +5,10 @@ exl-id: 0d3a909c-3499-4ef4-b033-02e412dae959
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: bc2348ae3342addf9ab05a3e3898fa485dba9bcf
+source-git-commit: f7ce1dc72edfcec939e5bd25bbf82c2e3907a326
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 9%
+source-wordcount: '836'
+ht-degree: 8%
 
 ---
 
@@ -92,6 +92,40 @@ ht-degree: 9%
 
 1. **저장**&#x200B;을 클릭합니다.
 
+>[!IMPORTANT]
+>
+> 번역 구성을 설정한 후에는 언어 폴더에 적절한 클라우드 구성을 설정해야 합니다.
+
+## 기존 번역 워크플로우 구성
+
+>[!IMPORTANT]
+> 
+> 향상된 성능을 제공하는 최신 번역 워크플로를 사용하는 것이 좋습니다. 그러나 현재 번역 프로세스에서 활성화된 사용자 정의가 있는 경우 이전 번역 워크플로를 사용하는 것이 좋습니다.
+
+기본적으로 이전 번역 워크플로 옵션은 비활성화되어 있습니다. 다음 단계를 수행하여 이 옵션을 구성할 수 있습니다.
+
+1. Adobe Experience Manager 웹 콘솔 구성 페이지를 엽니다.
+
+   구성 페이지에 액세스하기 위한 기본 URL은 다음과 같습니다.
+
+   ```http
+   http://<server name>:<port>/system/console/configMgr
+   ```
+
+1. **com.adobe.fmdita.config.ConfigManager** 번들을 검색하고 클릭합니다.
+
+1. 설정에 따라 기존 번역 워크플로 옵션을 구성합니다.
+
+   - (*기본값*) 최신 번역 워크플로를 사용하려면 **기존 번역 워크플로 실행** 옵션을 비활성화하십시오.
+   - 기존 번역 워크플로를 사용하려면 **기존 번역 워크플로 실행** 옵션을 활성화하십시오.
+
+1. **저장**&#x200B;을 클릭합니다.
+
+
+
+
+
+
 <!---
 
 This was added for 2406 CS IG
@@ -125,9 +159,7 @@ Based on the translation workflow used in your setup, provide the following (pro
 
 
 --->
->[!IMPORTANT]
->
-> 번역 구성을 설정한 후에는 언어 폴더에 적절한 클라우드 구성을 설정해야 합니다.
+
 
 ## 임시 언어 사본 후 처리 구성
 
@@ -145,10 +177,10 @@ Based on the translation workflow used in your setup, provide the following (pro
 
 1. **com.adobe.fmdita.config.ConfigManager** 번들을 검색하고 클릭합니다.
 
-1. 설정에 따라 **Post-프로세스 언어 사본** 옵션을 구성합니다.
+1. 설정에 따라 **사후 처리 언어 사본** 옵션을 구성합니다.
 
-   - \(*기본*\) 임시 파일에서 후처리 작업을 실행하지 않으려면 *언어 사본&#x200B;**Post 처리**옵션을 비활성화*&#x200B;하십시오.
+   - \(*기본*\) 임시 파일에서 후처리 작업을 실행하지 않으려면 *언어 사본&#x200B;**후처리**옵션을 비활성화*&#x200B;하십시오.
 
-   - 임시 파일에서 사후 처리 작업을 실행하려면 **Post 언어 사본 처리** 옵션을 *사용*&#x200B;합니다.
+   - 임시 파일에서 사후 처리 작업을 실행하려면 **사후 처리 언어 사본** 옵션을 *사용*&#x200B;합니다.
 
 1. **저장**&#x200B;을 클릭합니다.

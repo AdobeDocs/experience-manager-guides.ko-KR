@@ -2,7 +2,7 @@
 title: 릴리스 정보 | Adobe Experience Manager Guides 2024.10.0 릴리스의 새로운 기능
 description: Adobe Experience Manager Guides 2024.10.0 릴리스의 새로운 기능과 향상된 기능에 대해 알아봅니다
 role: Leader
-source-git-commit: 545e51cbd970aa3df01a0fe2461a2e730c0db66a
+source-git-commit: b5ee4610811209719c7f0ff4bd03d8ae55f2d934
 workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 1%
@@ -11,7 +11,7 @@ ht-degree: 1%
 
 # 2024.10.0 릴리스(2024년 10월)의 새로운 기능
 
-이 문서에서는 Adobe Experience Manager Guides as a Cloud Service. 의 2024.10.0 릴리스와 함께 도입된 새로운 기능과 향상된 기능을 다룹니다.
+이 문서에서는 Adobe Experience Manager Guides as a Cloud Service 2024.10.0 릴리스와 함께 도입된 새로운 기능과 향상된 기능을 다룹니다.
 
 이 릴리스에서 해결된 문제 목록을 보려면 [2024.10.0 릴리스에서 해결된 문제](fixed-issues-2024-10-0.md)를 확인하십시오.
 

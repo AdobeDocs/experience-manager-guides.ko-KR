@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 살펴보십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: f74362c78532ddd7721faf66789281a8c0704194
+source-git-commit: 9553c05b1ab9657d6138aa0ff026cc4494514bd8
 workflow-type: tm+mt
 source-wordcount: '1988'
 ht-degree: 6%
@@ -20,13 +20,12 @@ ht-degree: 6%
       - 클라우드 서비스 {#cloud-release-notes}
          - [배포 지침](./release-info/deploy-xml-on-aemaacs.md)
          - 2024 릴리스 {#2024-releases}
-            - 2024.10.x 릴리스 {#2410-release}
-               - 2024.10.1 릴리스 {#2410-1-release}
-                  - [해결된 문제](./release-info/fixed-issues-2024-10-1.md)
-               - 2024.10.0 릴리스 {#2410-0-release}
-                  - [새로운 기능](./release-info/whats-new-2024-10-0.md)
-                  - [해결된 문제](./release-info/fixed-issues-2024-10-0.md)
-                  - [업그레이드 지침](./release-info/upgrade-instructions-2024-10-0.md)
+            - 2024.10.0 SP1 릴리스 {#2410-0-sp1-release}
+               - [해결된 문제](./release-info/fixed-issues-2024-10-0-sp1.md)
+            - 2024.10.0 릴리스 {#2410-0-release}
+               - [새로운 기능](./release-info/whats-new-2024-10-0.md)
+               - [해결된 문제](./release-info/fixed-issues-2024-10-0.md)
+               - [업그레이드 지침](./release-info/upgrade-instructions-2024-10-0.md)
             - 2024.6.0 릴리스 {#2406-release}
                - [새로운 기능](./release-info/whats-new-2024-06-0.md)
                - [해결된 문제](./release-info/fixed-issues-2024-06-0.md)
@@ -79,9 +78,9 @@ ht-degree: 6%
             - [1월 릴리스 정보](./release-info/release-notes-2022-1-0.md)
       - 온-프레미스/Managed Services {#on-prem-release-notes}
          - [[!DNL AEM Guides] 릴리스](./release-info/latest-release-info.md)
-         - 4.6.1 릴리스 {#461-release}
-            - [해결된 문제](./release-info/fixed-issues-4-6-1.md)
-            - [업그레이드 지침](./release-info/upgrade-instructions-4-6-1.md)
+         - 4.6.0 SP1 릴리스 {#460-sp1-release}
+            - [해결된 문제](./release-info/fixed-issues-4-6-0-sp1.md)
+            - [업그레이드 지침](./release-info/upgrade-instructions-4-6-0-sp1.md)
          - 4.6.0 릴리스 {#460-release}
             - [새로운 기능](./release-info/whats-new-4-6.md)
             - [해결된 문제](./release-info/fixed-issues-4-6-0.md)
