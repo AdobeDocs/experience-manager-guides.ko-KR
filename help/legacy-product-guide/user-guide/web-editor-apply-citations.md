@@ -3,7 +3,7 @@ title: 콘텐츠의 인용 항목 추가 및 관리
 description: AEM Guides에서 인용을 추가하고 관리합니다. 인용을 사용하여 콘텐츠 출력을 적용, 가져오기, 필터링, 검색, 변경, 편집, 미리보기, 삽입, 삭제 및 생성하는 방법에 대해 알아봅니다.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 0%
@@ -257,10 +257,10 @@ AEM Guides은 MLA(Modern Language Association), APA(American Psychological Assoc
 
 기본 PDF 출력에서 인용은 삽입한 콘텐츠 내에 나타납니다. 참고 문헌 페이지를 만들 수도 있습니다. 인용문을 클릭하면 참고 문헌 페이지로 리디렉션됩니다.
 
-PDF 템플릿에서 **인용** 페이지 레이아웃을 만들고 문서에 포함하십시오. 책에 사용된 모든 인용문은 PDF 출력에 나타나는 한 페이지에 나열됩니다. 페이지 레이아웃 만들기에 대한 자세한 내용은 [페이지 레이아웃 만들기](/help/product-guide/native-pdf/components-pdf-template.md#create-page-layout)를 참조하세요.
+PDF 템플릿에서 **인용** 페이지 레이아웃을 만들고 문서에 포함하십시오. 책에 사용된 모든 인용문은 PDF 출력에 나타나는 한 페이지에 나열됩니다. 페이지 레이아웃 만들기에 대한 자세한 내용은 [페이지 레이아웃 만들기](../native-pdf/components-pdf-template.md#create-page-layout)를 참조하세요.
 
 
-인용 페이지의 보기 및 느낌을 변경하려면 [PDF 템플릿 사용자 지정](/help/product-guide/native-pdf/pdf-template.md)을 보세요.
+인용 페이지의 보기 및 느낌을 변경하려면 [PDF 템플릿 사용자 지정](../native-pdf/pdf-template.md)을 보세요.
 
 
 
@@ -272,4 +272,4 @@ PDF 템플릿에서 **인용** 페이지 레이아웃을 만들고 문서에 포
 
 1. 검색 패널에서 `<cite>`을(를) 검색합니다.
 
-스타일에 대해 자세히 알아보려면 [일반적인 콘텐츠 스타일을 사용하여 작업](/help/product-guide/native-pdf/stylesheet.md)을 보세요.
+스타일에 대해 자세히 알아보려면 [일반적인 콘텐츠 스타일을 사용하여 작업](../native-pdf/stylesheet.md)을 보세요.

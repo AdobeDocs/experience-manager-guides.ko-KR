@@ -3,7 +3,7 @@ title: 웹 편집기 작업
 description: 웹 편집기를 사용하여 구조화된 문서를 만들고 편집합니다. AEM Guides의 DITA 표준에 따라 웹 편집기로 작업하는 방법을 알아봅니다.
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 0%

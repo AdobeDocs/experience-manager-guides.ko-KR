@@ -3,7 +3,7 @@ title: 전환 상태 보고서
 description: 다양한 형식의 문서를 AEM Guides에서 DITA로 변환합니다. 필터를 추가하고 전환 상태 보고서를 보는 방법에 대해 알아봅니다.
 feature: Report Generation
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%

@@ -3,7 +3,7 @@ title: 웹 편집기 보기
 description: 작성자, 소스 및 미리보기 모드에서 문서를 봅니다. 조건부 필터를 기반으로 컨텐츠를 보고, 변경 내용 추적을 보고, AEM Guides에서 주제를 PDF으로 내보내는 방법에 대해 알아봅니다.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 0%

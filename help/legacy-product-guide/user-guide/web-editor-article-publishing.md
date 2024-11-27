@@ -3,7 +3,7 @@ title: 웹 편집기에서 문서 기반 게시
 description: 웹 편집기에서 하나 이상의 문서를 게시하는 방법에 대해 알아봅니다. AEM Guides의 DITA 맵에서 하나 이상의 주제에 대한 출력을 생성합니다.
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 0%

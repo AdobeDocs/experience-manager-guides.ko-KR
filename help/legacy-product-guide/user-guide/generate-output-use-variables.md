@@ -3,7 +3,7 @@ title: 대상 경로, 사이트 이름 또는 파일 이름 옵션 설정에 변
 description: 대상 경로, 사이트 이름 또는 파일 이름 옵션을 설정하는 데 변수를 사용하는 방법에 대해 알아봅니다. AEM Guides에서 지원되는 기본 제공 변수 이해
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 0%

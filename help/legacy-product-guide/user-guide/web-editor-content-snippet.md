@@ -3,7 +3,7 @@ title: 데이터 소스에서 콘텐츠 조각 삽입
 description: AEM Guides에서 데이터 소스의 데이터를 사용합니다. 데이터 소스에서 콘텐츠 코드 조각을 삽입하는 방법을 알아봅니다. 주제 생성기를 사용하여 주제를 생성합니다.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '2389'
 ht-degree: 0%
@@ -26,18 +26,18 @@ ht-degree: 0%
 <summary> 클라우드 서비스 </summary>
 
 
-- 2023년 10월 릴리스 이상을 사용 중인 경우 Cloud Service 설치 및 구성 안내서에서 [사용자 인터페이스에서 데이터 소스 커넥터를 구성](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md)하는 방법을 알아보세요.
+- 2023년 10월 릴리스 이상을 사용 중인 경우 Cloud Service 설치 및 구성 안내서에서 [사용자 인터페이스에서 데이터 소스 커넥터를 구성](../cs-install-guide/conf-data-source-connector-tools.md)하는 방법을 알아보세요.
 
-- 2023년 7월 또는 2023년 9월 릴리스를 사용 중인 경우 Cloud Service 설치 및 구성 안내서에서 [데이터 소스 커넥터를 구성](/help/product-guide/cs-install-guide/conf-data-source-connector.md)하는 방법을 알아보세요.
+- 2023년 7월 또는 2023년 9월 릴리스를 사용 중인 경우 Cloud Service 설치 및 구성 안내서에서 [데이터 소스 커넥터를 구성](../cs-install-guide/conf-data-source-connector.md)하는 방법을 알아보세요.
 
 </details>
 
 <details>    
 <summary>  On-premise Software </summary>
 
-- 4.3.1 이상 릴리스를 사용하는 경우 On-Premise 설치 및 구성 안내서에서 [사용자 인터페이스에서 데이터 소스 커넥터를 구성](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md)하는 방법을 알아보세요.
+- 4.3.1 이상 릴리스를 사용하는 경우 On-Premise 설치 및 구성 안내서에서 [사용자 인터페이스에서 데이터 소스 커넥터를 구성](../cs-install-guide/conf-data-source-connector-tools.md)하는 방법을 알아보세요.
 
-- 4.3 릴리스를 사용 중인 경우 On-Premise 설치 및 구성 안내서에서 [데이터 원본 커넥터를 구성](/help/product-guide/cs-install-guide/conf-data-source-connector.md)하는 방법을 알아보세요.
+- 4.3 릴리스를 사용 중인 경우 On-Premise 설치 및 구성 안내서에서 [데이터 원본 커넥터를 구성](../cs-install-guide/conf-data-source-connector.md)하는 방법을 알아보세요.
 </details>
 
 
@@ -103,7 +103,7 @@ AEM Guides은 데이터 소스와 연결하는 기능을 제공합니다. 데이
 
    >[!NOTE]
    >  
-   > 관리자가 사용자 정의된 템플릿을 구성하면 관리자가 수행한 템플릿 경로 구성에 따라 드롭다운 목록에도 해당 템플릿이 표시됩니다.
+   > 관리자가 사용자 정의된 템플릿을 구성한 경우 드롭다운 목록에도 해당 템플릿이 표시됩니다(관리자가 수행한 템플릿 경로 구성에 따라).
    >   
    >템플릿에서 속도 도구를 사용할 수도 있습니다. [Velocity 도구를 사용](#use-velocity-tools)하는 방법에 대해 자세히 알아보세요.
 

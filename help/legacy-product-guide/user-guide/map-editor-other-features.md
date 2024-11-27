@@ -3,7 +3,7 @@ title: 맵 편집기의 기타 기능
 description: 기본 및 고급 맵 편집기의 몇 가지 공통 기능을 살펴보십시오. 맵 편집기에서 주요 참조를 확인하는 방법을 알아봅니다.
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 0%

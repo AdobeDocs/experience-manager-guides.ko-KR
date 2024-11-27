@@ -3,7 +3,7 @@ title: 출력 사전 설정 이해
 description: AEM Guides의 출력 사전 설정을 이해합니다. AEM 사이트, PDF, HTML5, EPUB, 사용자 지정 및 JSON 형식에 대한 웹 편집기 및 맵 대시보드에서 출력 사전 설정을 만듭니다.
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%

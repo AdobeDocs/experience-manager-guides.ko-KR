@@ -3,7 +3,7 @@ title: 웹 편집기의 키보드 단축키
 description: AEM Guides 웹 편집기에서 시간을 절약할 수 있는 키보드 단축키를 살펴보십시오.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 0%

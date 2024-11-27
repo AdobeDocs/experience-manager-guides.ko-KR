@@ -3,7 +3,7 @@ title: Publish 대시보드를 사용하여 게시 작업 관리
 description: AEM Guides의 Publish 대시보드를 사용하여 게시 작업을 관리합니다. 게시 대시보드에 액세스하고 게시 작업을 취소하는 방법을 이해할 수 있습니다.
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 0%

@@ -3,7 +3,7 @@ title: 리뷰 댓글 처리
 description: AEM Guides에서 작성자로서 검토 주석을 처리하는 방법에 대해 알아봅니다. 작성자가 문서의 주석을 편집, 필터링, 수락 또는 거부하는 방법에 대해 알아봅니다.
 feature: Reviewing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 # 리뷰 댓글 처리 {#id2056B0X0KBI}
 
 
-작성자는 웹 편집기를 사용하여 주제의 주석을 처리할 수 있습니다. 주석은 [검토] 패널에서 선택한 검토 작업을 기반으로 로드됩니다. 자세한 내용은 [왼쪽 패널](/help/product-guide/user-guide/web-editor-features.md#id2051EA0M0HS) 섹션에서 **검토** 패널 ![](images/active-review-tasklist-icon.svg) 기능 설명을 참조하십시오.
+작성자는 웹 편집기를 사용하여 주제의 주석을 처리할 수 있습니다. 주석은 [검토] 패널에서 선택한 검토 작업을 기반으로 로드됩니다. 자세한 내용은 [왼쪽 패널](../user-guide/web-editor-features.md#id2051EA0M0HS) 섹션에서 **검토** 패널 ![](images/active-review-tasklist-icon.svg) 기능 설명을 참조하십시오.
 
 다음 섹션에서는 웹 편집기에서 주석을 편집하는 방법에 대해 설명합니다.
 

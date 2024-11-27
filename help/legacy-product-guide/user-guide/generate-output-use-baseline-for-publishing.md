@@ -3,7 +3,7 @@ title: 기준선으로 작업
 description: AEM Guides에서 기준선 의 사용을 이해합니다. 콘텐츠를 만들고, 보고, 편집하고, 복제하고, 제거하고, 레이블을 추가하고, 번역된 기준선을 내보내는 방법을 알아봅니다.
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1960'
 ht-degree: 0%

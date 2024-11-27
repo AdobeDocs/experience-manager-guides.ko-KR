@@ -3,7 +3,7 @@ title: 사용자 지정된 템플릿을 기반으로 맵 만들기
 description: 사용자 지정 템플릿을 만들고, 이 템플릿을 사용하여 새 맵 파일을 만들고, 정의된 제목을 AEM Guides의 DITA 맵에 전달하는 방법을 알아봅니다.
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 0%
@@ -93,18 +93,17 @@ AEM Guides을 사용하면 dita-templates 폴더에서 사용자 정의된 맵�
 또한 관리자는 폴더를 만들고 사용자가 템플릿을 만들고 저장할 수 있는 폴더로 구성할 수 있습니다.
 
 설정에 따라 사용자 지정 DITA 템플릿 폴더 경로를 구성하는 방법을 알아봅니다.
+<details>
+    <summary> 클라우드 서비스 </summary>
 
-+++ 클라우드 서비스
+Cloud Service 설치 및 구성 안내서에서 [사용자 지정 DITA 템플릿 폴더 경로를 구성](../install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z)하는 방법을 알아봅니다.
+</details>
 
-Cloud Service 설치 및 구성 안내서에서 [사용자 지정 DITA 템플릿 폴더 경로를 구성](/help/product-guide/install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z){target="_blank"}하는 방법을 알아봅니다.
+<details>
+    <summary> On-premise Software</summary>
 
-+++
-
-+++ On-premise Software
-
-On-premise 설치 및 구성 안내서에서 [사용자 지정 DITA 템플릿 폴더 경로를 구성](/help/product-guide/cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z)하는 방법을 알아봅니다.
-
-+++
+On-premise 설치 및 구성 안내서에서 [사용자 지정 DITA 템플릿 폴더 경로를 구성](../cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z)하는 방법을 알아봅니다.
+</details>
 
 ## 템플릿에 정의된 제목 전달
 

@@ -3,7 +3,7 @@ title: 콘텐츠 번역 모범 사례
 description: AEM Guides의 콘텐츠 번역 모범 사례를 알아봅니다. 번역 서비스를 구성하고 새 번역 프로젝트를 만들고 번역 작업을 시작하는 방법에 대해 알아봅니다.
 feature: Translation
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1295'
 ht-degree: 1%

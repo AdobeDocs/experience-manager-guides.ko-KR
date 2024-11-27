@@ -3,7 +3,7 @@ title: 경험 조각에 대한 주제 Publish
 description: Publish 주제 또는 주제 내의 요소를 AEM Guides의 경험 조각으로 복사합니다.  주제에 대해 제시된 경험 조각을 보고 다시 게시하는 방법에 대해 알아봅니다.
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Experience Manager Guides을 사용하면 주제 또는 해당 요소를 경험 
 
 
 
-     관리자가 *experienceFragmentMapping.json* 파일에 매핑을 추가할 수 있습니다.  설치 및 구성 안내서에서 [주제와 경험 조각 간의 매핑을 만들기](/help/product-guide/cs-install-guide/conf-experience-fragment-mapping-cs.md)하는 방법에 대해 자세히 알아보십시오.
+     관리자가 *experienceFragmentMapping.json* 파일에 매핑을 추가할 수 있습니다.  설치 및 구성 안내서에서 [주제와 경험 조각 간의 매핑을 만들기](../cs-install-guide/conf-experience-fragment-mapping-cs.md)하는 방법에 대해 자세히 알아보십시오.
 
    * 다른 조건을 선택하여 콘텐츠를 게시할 수도 있습니다.  다음 옵션 중 하나를 선택합니다.
 
@@ -74,7 +74,7 @@ Experience Manager Guides을 사용하면 주제 또는 해당 요소를 경험 
      >조건은 조건 속성이 주제에 정의된 경우에만 활성화됩니다.
 
 
-   * 경험 조각이 이미 있고 덮어쓰려는 경우 **기존 콘텐츠 덮어쓰기** 확인란을 선택합니다. 확인란을 선택하지 않았는데 경험 조각이 이미 존재하는 경우 Experience Manager Guides에 오류가 표시됩니다.
+   * 경험 조각이 이미 있고 덮어쓰려는 경우 **기존 콘텐츠 덮어쓰기** 확인란을 선택합니다. 확인란을 선택하지 않고 경험 조각이 이미 존재하는 경우 Experience Manager Guides에 오류가 표시됩니다.
 1. 경험 조각을 게시하려면 **생성**&#x200B;을 클릭합니다.
 1. **파일 속성**&#x200B;의 **출력** 섹션 아래에서 주제에 대한 경험 조각을 볼 수 있습니다. 경험 조각은 게시 날짜 및 시간에 따라 나타나며 최신 항목을 첫 번째 조각으로 합니다.
 

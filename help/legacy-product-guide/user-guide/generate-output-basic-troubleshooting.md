@@ -3,7 +3,7 @@ title: 기본 문제 해결
 description: AEM Guides의 기본 문제 해결 관련 문제를 해결합니다. 텍스트 편집기에서 로그 파일을 보고, 복사하고, 확인하고, JSP 컴파일 오류를 해결하는 방법에 대해 알아봅니다.
 feature: Publishing, Troubleshooting
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%

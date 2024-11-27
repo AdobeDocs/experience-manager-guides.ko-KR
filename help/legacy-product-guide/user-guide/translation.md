@@ -3,7 +3,7 @@ title: 콘텐츠 번역 방법 알아보기
 description: AEM Guides에서 콘텐츠를 여러 언어로 번역합니다. 사람 번역 및 기계 번역 워크플로에 대해 알아봅니다.
 feature: Translation
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 1%

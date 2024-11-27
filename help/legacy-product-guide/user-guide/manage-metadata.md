@@ -3,7 +3,7 @@ title: 메타데이터 관리
 description: AEM Guides에서 메타데이터를 정의하고 관리하는 방법에 대해 알아봅니다. 스마트 및 벌크 태깅을 사용하여 DITA 맵 내에서 관련 항목을 쉽게 찾을 수 있습니다.
 feature: Metadata Management
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 2%

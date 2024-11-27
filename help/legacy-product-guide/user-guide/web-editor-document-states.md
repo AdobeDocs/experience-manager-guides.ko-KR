@@ -3,7 +3,7 @@ title: 문서 상태
 description: AEM Guides의 문서 상태 유형에 대해 알아봅니다. 문서 상태를 변경하거나 보는 방법을 알고 DLC에서 문서 상태를 사용할 수 있습니다.
 feature: Authoring, Features of Web Editor, Document State
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '936'
 ht-degree: 0%

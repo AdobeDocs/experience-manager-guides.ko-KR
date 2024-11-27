@@ -3,7 +3,7 @@ title: 글로벌 및 폴더 프로필 출력 사전 설정 관리
 description: AEM Guides에서 관리 사용자로 전역 및 폴더 프로필 출력 사전 설정을 만들고, 편집하고, 이름을 바꾸고, 복제하고, 삭제하는 방법에 대해 알아봅니다.
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 0%

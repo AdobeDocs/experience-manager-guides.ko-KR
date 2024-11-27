@@ -3,7 +3,7 @@ title: 콘텐츠 작성
 description: AEM Guides에서 콘텐츠를 작성합니다. 문서를 만들고, 미리 보고, 편집하고, 버전을 저장하고, 검토를 위해 공유하는 방법을 알아봅니다.
 feature: Authoring
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 0%

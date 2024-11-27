@@ -3,10 +3,10 @@ title: 조건 사전 설정 사용
 description: AEM Guides에서 조건 사전 설정의 사용을 알 수 있습니다. AEM에서 조건 사전 설정을 만들고, 편집하고, 복사하고, 삭제하는 방법에 대해 알아봅니다.
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1210'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -71,7 +71,7 @@ Experience Manager Guides에서는 웹 편집기에서 조건 사전 설정을 �
    >
    > 다른 사전 설정을 선택하거나 저장하지 않고 사전 설정을 닫으면 경고가 표시됩니다.
 
-조건 사전 설정을 만들면 [출력] 사전 설정의 **조건 사전 설정** 드롭다운 아래에 표시됩니다. [Publish PDF 출력](/help/product-guide/web-editor/native-pdf-web-editor.md)을 사용하는 방법에 대해 자세히 알아보세요.
+조건 사전 설정을 만들면 [출력] 사전 설정의 **조건 사전 설정** 드롭다운 아래에 표시됩니다. [Publish PDF 출력](../web-editor/native-pdf-web-editor.md)을 사용하는 방법에 대해 자세히 알아보세요.
 
 ### 조건 사전 설정 이름 바꾸기
 
@@ -80,7 +80,7 @@ Experience Manager Guides에서는 웹 편집기에서 조건 사전 설정을 �
 1. **조건 사전 설정** 패널에서 조건 사전 설정을 마우스로 가리킵니다.
 1. 옵션 메뉴에서 **이름 바꾸기**&#x200B;를 선택하여 **조건 사전 설정 이름 바꾸기** 대화 상자를 엽니다.
 1. 조건 사전 설정의 이름을 편집합니다.
-1. **이름 바꾸기**&#x200B;를 클릭합니다.
+1. **이름 변경**&#x200B;을 클릭합니다.
 
 ### 조건 사전 설정 복제
 

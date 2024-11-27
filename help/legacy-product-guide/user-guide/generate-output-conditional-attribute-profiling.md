@@ -3,7 +3,7 @@ title: 조건부 속성 프로파일링
 description: AEM Guides에서 조건부 속성을 만드는 방법을 알아봅니다. 폴더 및 전역 프로필에서 조건부 속성을 사용하여 콘텐츠를 조건화합니다.
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 0%

@@ -3,7 +3,7 @@ title: AEM Guides을 사용하여 콘텐츠 작성
 description: AEM Guides을 사용하여 콘텐츠를 효율적으로 작성합니다. AEM Guides에서 문서를 만들고, 편집하고, 게시하는 방법에 대해 알아봅니다.
 feature: Authoring
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 0%
