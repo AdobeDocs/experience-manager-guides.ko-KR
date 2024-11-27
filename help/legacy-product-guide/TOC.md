@@ -4,9 +4,9 @@ user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 �
 breadcrumb-title: AEM Guides 설명서
 hide: true
 badgeAll: label="레거시 안내서 - 추가 정보" type="Informative" url="/help/legacy-product-guide/legacy.md" tooltip="레거시 안내서"
-source-git-commit: 62c69ba7765f89b03381a5526e616a9118426fb9
+source-git-commit: 328f74790de401c0595bcc4009110bc36f5104bf
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '543'
 ht-degree: 4%
 
 ---
@@ -107,6 +107,8 @@ ht-degree: 4%
       - [출력 사전 설정 소개](./user-guide/generate-output-understand-presets.md)
       - AEM Guides {#output-presets-aemg}의 출력 사전 설정
          - [AEM 사이트](./user-guide/generate-output-aem-site.md)
+         - [맵 대시보드의 AEM Sites 사전 설정](./user-guide/generate-output-aem-site-map-dashboard.md)
+         - [웹 편집기의 AEM Sites 사전 설정](./user-guide/generate-output-aem-site-web-editor.md)
          - [PDF](./user-guide/generate-output-pdf.md)
          - [기술 자료](./user-guide/generate-output-knowledge-base.md)
          - [HTML5](./user-guide/generate-output-html5.md)
