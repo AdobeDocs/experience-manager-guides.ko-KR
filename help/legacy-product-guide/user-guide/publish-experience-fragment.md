@@ -3,7 +3,7 @@ title: 경험 조각에 대한 주제 Publish
 description: Publish 주제 또는 주제 내의 요소를 AEM Guides의 경험 조각으로 복사합니다.  주제에 대해 제시된 경험 조각을 보고 다시 게시하는 방법에 대해 알아봅니다.
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Experience Manager Guides을 사용하면 주제 또는 해당 요소를 경험 
 
 
 
-     관리자가 *experienceFragmentMapping.json* 파일에 매핑을 추가할 수 있습니다.  설치 및 구성 안내서에서 [주제와 경험 조각 간의 매핑을 만들기](../cs-install-guide/conf-experience-fragment-mapping-cs.md)하는 방법에 대해 자세히 알아보십시오.
+     관리자가 *experienceFragmentMapping.json* 파일에 매핑을 추가할 수 있습니다.  설치 및 구성 안내서에서 [주제와 경험 조각 간의 매핑을 만들기](/help/product-guide/cs-install-guide/conf-experience-fragment-mapping-cs.md)하는 방법에 대해 자세히 알아보십시오.
 
    * 다른 조건을 선택하여 콘텐츠를 게시할 수도 있습니다.  다음 옵션 중 하나를 선택합니다.
 

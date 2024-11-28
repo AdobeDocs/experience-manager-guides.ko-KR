@@ -3,7 +3,7 @@ title: AEM Sites
 description: 웹 편집기에서 AEM Sites 사전 설정을 만들고 구성하고 DITA 맵, 선택한 주제 및 연결된 주제에 대한 AEM Sites 출력을 생성합니다.
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '2732'
 ht-degree: 0%
@@ -16,9 +16,9 @@ ht-degree: 0%
 웹 편집기에서 AEM Sites 사전 설정을 만들고 AEM Sites 출력을 생성하도록 구성할 수 있습니다. AEM Sites 출력은 `guides-components`과(와) 함께 복합 구성 요소 매핑을 기반으로 하므로 효율적인 콘텐츠 생성 및 관리가 가능합니다.
 
 Experience Manager Guides은 AEM Sites을 만들기 위한 사전 정의된 템플릿을 제공합니다. 이러한 사전 설정은 컨텐츠 레이아웃 및 구조의 일관성을 보장하는 데 도움이 됩니다.
-- 미리 정의된 템플릿을 기반으로 [홈 페이지를 만듭니다](../cs-install-guide/download-install-aem-sites-templates-cs.md#create-a-home-page-using-the-template).
-- [주제 템플릿을 편집](../cs-install-guide/download-install-aem-sites-templates-cs.md#package-installation)하고 요구 사항에 따라 스타일을 적용할 수 있습니다.
-- [기존 AEM Sites 템플릿을 사용자 지정](../cs-install-guide/download-install-aem-sites-templates-cs.md#customize-existing-aem-sites-templates)할 수도 있습니다.
+- 미리 정의된 템플릿을 기반으로 [홈 페이지를 만듭니다](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md#create-a-home-page-using-the-template).
+- [주제 템플릿을 편집](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md#package-installation)하고 요구 사항에 따라 스타일을 적용할 수 있습니다.
+- [기존 AEM Sites 템플릿을 사용자 지정](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md#customize-existing-aem-sites-templates)할 수도 있습니다.
 
 
 
@@ -40,8 +40,8 @@ Experience Manager Guides은 AEM Sites을 만들기 위한 사전 정의된 템�
 >[!NOTE]
 >
 >Experience Manager Guides에 대한 AEM Sites 사전 설정을 구성하기 전에 관리자가 템플릿을 사용하여 AEM Sites 구조를 만들어야 합니다.
-- **온-프레미스 소프트웨어**: 온-프레미스 소프트웨어용 [AEM Sites 템플릿을 다운로드하고 설치](../install-guide/download-install-aem-sites-templates.md)하는 방법에 대해 자세히 알아보세요.
-- **Cloud Service**: Cloud Service을 위해 [AEM Sites 템플릿을 다운로드하고 설치](../cs-install-guide/download-install-aem-sites-templates-cs.md)하는 방법에 대해 자세히 알아보세요.
+- **온-프레미스 소프트웨어**: 온-프레미스 소프트웨어용 [AEM Sites 템플릿을 다운로드하고 설치](/help/product-guide/install-guide/download-install-aem-sites-templates.md)하는 방법에 대해 자세히 알아보세요.
+- **Cloud Service**: Cloud Service을 위해 [AEM Sites 템플릿을 다운로드하고 설치](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md)하는 방법에 대해 자세히 알아보세요.
 
 
 
@@ -140,7 +140,7 @@ AEM Sites 출력에 사용할 수 있는 옵션은 다음과 같습니다.
 Experience Manager Guides을 사용하면 기본 제공 템플릿을 사용하거나 고유한 AEM Sites 템플릿을 추가할 수 있습니다.
 
 AEM Sites 사전 설정을 구성하기 전에 템플릿을 사용하여 AEM Sites 구조를 만들어야 합니다.\
-자세한 내용은 [AEM Sites 템플릿 다운로드 및 설치](../install-guide/download-install-aem-sites-templates.md)를 참조하십시오.
+자세한 내용은 [AEM Sites 템플릿 다운로드 및 설치](/help/product-guide/install-guide/download-install-aem-sites-templates.md)를 참조하십시오.
 
 
 

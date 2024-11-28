@@ -1,7 +1,7 @@
 ---
 title: 콘텐츠를 작성할 AI 기반 스마트 제안
 description: 웹 편집기에서 AI 기반 스마트 제안을 보고 활용하는 방법에 대해 알아봅니다.
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 0%
@@ -17,7 +17,7 @@ Experience Manager Guides에서는 일관되고 정확한 콘텐츠를 만드는
 이렇게 하면 설명서 저장소의 기존 콘텐츠를 재사용하고 일관된 콘텐츠를 만들 수 있습니다. 예를 들어 **Adobe Firefly**&#x200B;에 대한 단락을 포함하여 **Adobe**&#x200B;에 대한 정보가 들어 있는 문서를 만들고 있습니다. 이 경우 동일한 단락을 포함하는 **Adobe Photoshop**&#x200B;와 같은 다른 주제의 콘텐츠 참조를 빠르게 보고 추가할 수 있습니다.
 >[!NOTE]
 >
-> [전역 또는 폴더 수준 프로필](../cs-install-guide/conf-folder-level.md#conf-ai-smart-suggestions)에서 관리자는 스마트 제안을 색인화할 파일 또는 폴더, 제안을 보기 위해 입력해야 하는 최소 문자 수, 목록에서 볼 수 있는 최대 제안 수를 정의해야 합니다.
+> [전역 또는 폴더 수준 프로필](/help/product-guide/cs-install-guide/conf-folder-level.md#conf-ai-smart-suggestions)에서 관리자는 스마트 제안을 색인화할 파일 또는 폴더, 제안을 보기 위해 입력해야 하는 최소 문자 수, 목록에서 볼 수 있는 최대 제안 수를 정의해야 합니다.
 
 주제에 적절한 콘텐츠 참조를 추가하기 위한 스마트 제안을 보려면 다음 단계를 수행하십시오.
 

@@ -3,7 +3,7 @@ title: 컨텐츠 조각에 주제 Publish
 description: Publish 주제 또는 주제 내의 요소를 AEM Guides의 콘텐츠 조각으로 복사합니다.  주제에 대한 콘텐츠 조각을 보고 다시 게시하는 방법에 대해 알아봅니다.
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
@@ -74,7 +74,7 @@ Experience Manager Guides을 사용하면 주제 또는 해당 요소를 콘텐�
 
      >[!NOTE]
      >
-     > 4.4 이하 버전을 사용하는 경우 드롭다운에서 매핑을 선택합니다. *contentFragmentMapping.json* 파일에서 매핑을 선택합니다.  관리자가 *contentFragmentMapping.json* 파일에 매핑을 추가할 수 있습니다. 설치 및 구성 안내서에서 [주제와 콘텐츠 조각 간의 매핑을 만들기](../cs-install-guide/conf-content-fragment-mapping-cs.md)하는 방법에 대해 자세히 알아보십시오.
+     > 4.4 이하 버전을 사용하는 경우 드롭다운에서 매핑을 선택합니다. *contentFragmentMapping.json* 파일에서 매핑을 선택합니다.  관리자가 *contentFragmentMapping.json* 파일에 매핑을 추가할 수 있습니다. 설치 및 구성 안내서에서 [주제와 콘텐츠 조각 간의 매핑을 만들기](/help/product-guide/cs-install-guide/conf-content-fragment-mapping-cs.md)하는 방법에 대해 자세히 알아보십시오.
 
 1. 콘텐츠 조각을 게시하려면 **생성**&#x200B;을 클릭하십시오.
 
@@ -110,4 +110,4 @@ Experience Manager Guides을 사용하면 주제 또는 해당 요소를 콘텐�
 
 새 UUID 콘텐츠 마이그레이션 스크립트가 크게 최적화되어 비 UUID에서 UUID로의 콘텐츠 마이그레이션이 이전 스크립트보다 30배 더 빨라졌습니다. 여기에는 체크포인트에서 다시 시작, 라이브 인사이트, 예상 완료 시간 및 세부 보고와 같은 기능이 포함되어 있어 조화로운 마이그레이션 프로세스를 보장합니다. 특히 마이그레이션 프로세스는 변경 사항 없이 자산 메타데이터를 유지합니다. 300만 개의 자산으로 구성된 대규모 데이터 세트에서 스크립트를 테스트하고 검증하여 대규모 마이그레이션에 대한 효율성과 안정성을 확인했습니다.
 
-[UUID가 아닌 콘텐츠를 UUID로 마이그레이션](../install-guide/migrate-non-uuid-uuid.md)하는 방법에 대해 자세히 알아보십시오.
+[UUID가 아닌 콘텐츠를 UUID로 마이그레이션](/help/product-guide/install-guide/migrate-non-uuid-uuid.md)하는 방법에 대해 자세히 알아보십시오.

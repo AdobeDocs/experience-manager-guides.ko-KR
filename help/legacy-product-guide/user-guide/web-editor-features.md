@@ -3,7 +3,7 @@ title: 웹 편집기 기능 이해
 description: AEM Guides에서 웹 편집기의 기능을 살펴보십시오. 기본 도구 모음, 보조 도구 모음, 왼쪽 패널, 콘텐츠 편집 영역 및 오른쪽 패널을 비롯한 웹 편집기의 인터페이스를 알 수 있습니다.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '18802'
 ht-degree: 0%
@@ -605,7 +605,7 @@ DITA 맵에 정의된 키워드를 삽입합니다. 키워드 삽입 아이콘�
 
 체크 인/체크 아웃에 대한 도구 설명은 `ui_config.json` 파일의 제목 속성에 의해 결정됩니다.
 
-자세한 내용은 온-프레미스 설치 및 구성 안내서에서 [체크 인 및 체크 아웃 아이콘 제목 구성](../install-guide/conf-checkin-checkout-title.md)을 참조하세요.
+자세한 내용은 온-프레미스 설치 및 구성 안내서에서 [체크 인 및 체크 아웃 아이콘 제목 구성](/help/product-guide/install-guide/conf-checkin-checkout-title.md)을 참조하세요.
 
 
 **태그 보기 전환** - ![](images/Label_icon.svg)
@@ -1142,7 +1142,7 @@ DAM 내에서 필요한 파일로 이동하여 웹 편집기에서 열 수 있�
 
   >[!NOTE]
   >
-  >고객 지원 팀에 문의하여 이 기능을 환경에서 활성화하십시오. 이 기능은 기본 지원의 일부로 활성화되지 않습니다. 자세한 내용은 설치 및 구성 안내서의 [Configure to edit in Oxygen](../cs-install-guide/conf-edit-in-oxygen.md) 섹션을 참조하십시오.
+  >고객 지원 팀에 문의하여 이 기능을 환경에서 활성화하십시오. 이 기능은 기본 지원의 일부로 활성화되지 않습니다. 자세한 내용은 설치 및 구성 안내서의 [Configure to edit in Oxygen](/help/product-guide/cs-install-guide/conf-edit-in-oxygen.md) 섹션을 참조하십시오.
 
 
 - **Assets UI에서 보기**: Assets UI에서 .dita/.xml 파일의 미리 보기를 표시할 때 사용합니다. .ditamap/.bookmap 파일의 경우 맵 내의 모든 주제 파일이 하나의 통합된 페이지별 보기로 표시됩니다.

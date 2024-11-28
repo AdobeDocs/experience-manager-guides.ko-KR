@@ -1,7 +1,7 @@
 ---
 title: 콘텐츠 검색에 대한 AI 기반 스마트 도움말
 description: 웹 편집기에서 AI 기반 스마트 도움말을 보고 활용하는 방법에 대해 알아봅니다.
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Experience Manager Guides은 [Adobe Experience Manager Guides 설명서](https:/
 
 >[!NOTE]
 >
-> 관리자가 **스마트 도움말** 기능을 구성해야 합니다. 자세한 내용은 Cloud Service 설치 및 구성 안내서의 [콘텐츠를 검색하도록 AI 기반 스마트 도움말 구성](../cs-install-guide/conf-smart-help.md) 섹션을 참조하십시오.
+> 관리자가 **스마트 도움말** 기능을 구성해야 합니다. 자세한 내용은 Cloud Service 설치 및 구성 안내서의 [콘텐츠를 검색하도록 AI 기반 스마트 도움말 구성](/help/product-guide/cs-install-guide/conf-smart-help.md) 섹션을 참조하십시오.
 
 ![고급 도움말 패널](images/smart-help-panel.png){width="300" align="left"}
 
@@ -39,7 +39,7 @@ Experience Manager Guides은 [Adobe Experience Manager Guides 설명서](https:/
 
    >[!NOTE]
    >
-   > [전역 또는 폴더 수준 프로필](../cs-install-guide/conf-folder-level.md#conf-ai-guides-assistant)에서 관리자는 패널에 표시되는 기본 질문을 정의해야 합니다.
+   > [전역 또는 폴더 수준 프로필](/help/product-guide/cs-install-guide/conf-folder-level.md#conf-ai-guides-assistant)에서 관리자는 패널에 표시되는 기본 질문을 정의해야 합니다.
 
 1. 질문을 입력하여 Experience Manager Guides 설명서에서 관련 콘텐츠를 찾습니다. 패널에서 기본 질문을 선택하거나 텍스트 상자에 질문을 입력할 수 있습니다.
 

@@ -3,7 +3,7 @@ title: 데이터 소스에서 콘텐츠 조각 삽입
 description: AEM Guides에서 데이터 소스의 데이터를 사용합니다. 데이터 소스에서 콘텐츠 코드 조각을 삽입하는 방법을 알아봅니다. 주제 생성기를 사용하여 주제를 생성합니다.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '2389'
 ht-degree: 0%
@@ -26,18 +26,18 @@ ht-degree: 0%
 <summary> 클라우드 서비스 </summary>
 
 
-- 2023년 10월 릴리스 이상을 사용 중인 경우 Cloud Service 설치 및 구성 안내서에서 [사용자 인터페이스에서 데이터 소스 커넥터를 구성](../cs-install-guide/conf-data-source-connector-tools.md)하는 방법을 알아보세요.
+- 2023년 10월 릴리스 이상을 사용 중인 경우 Cloud Service 설치 및 구성 안내서에서 [사용자 인터페이스에서 데이터 소스 커넥터를 구성](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md)하는 방법을 알아보세요.
 
-- 2023년 7월 또는 2023년 9월 릴리스를 사용 중인 경우 Cloud Service 설치 및 구성 안내서에서 [데이터 소스 커넥터를 구성](../cs-install-guide/conf-data-source-connector.md)하는 방법을 알아보세요.
+- 2023년 7월 또는 2023년 9월 릴리스를 사용 중인 경우 Cloud Service 설치 및 구성 안내서에서 [데이터 소스 커넥터를 구성](/help/product-guide/cs-install-guide/conf-data-source-connector.md)하는 방법을 알아보세요.
 
 </details>
 
 <details>    
 <summary>  On-premise Software </summary>
 
-- 4.3.1 이상 릴리스를 사용하는 경우 On-Premise 설치 및 구성 안내서에서 [사용자 인터페이스에서 데이터 소스 커넥터를 구성](../cs-install-guide/conf-data-source-connector-tools.md)하는 방법을 알아보세요.
+- 4.3.1 이상 릴리스를 사용하는 경우 On-Premise 설치 및 구성 안내서에서 [사용자 인터페이스에서 데이터 소스 커넥터를 구성](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md)하는 방법을 알아보세요.
 
-- 4.3 릴리스를 사용 중인 경우 On-Premise 설치 및 구성 안내서에서 [데이터 원본 커넥터를 구성](../cs-install-guide/conf-data-source-connector.md)하는 방법을 알아보세요.
+- 4.3 릴리스를 사용 중인 경우 On-Premise 설치 및 구성 안내서에서 [데이터 원본 커넥터를 구성](/help/product-guide/cs-install-guide/conf-data-source-connector.md)하는 방법을 알아보세요.
 </details>
 
 
