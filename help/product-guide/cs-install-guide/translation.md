@@ -5,9 +5,9 @@ exl-id: 5af78233-343e-47ba-b60c-b7f4789e2406
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: bcb61127f5f69ac39860a90eac2e1a56ecd1de31
+source-git-commit: ea3083542e955a56c27cd833600370a7962c6b8d
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '773'
 ht-degree: 9%
 
 ---
@@ -72,16 +72,17 @@ DITA 맵 대시보드에서 변환 탭을 숨기려면 다음 단계를 수행�
 
 ## 기존 번역 워크플로우 구성
 
-향상된 성능을 제공하는 최신 번역 워크플로를 사용하는 것이 좋습니다. 그러나 이전 번역 워크플로를 사용하려는 경우 이를 구성할 수 있습니다.
+>[!IMPORTANT]
+>
+> 성능을 향상시키려면 AEM Guides 2024.06.0 이상에서 사용할 수 있는 최신 번역 워크플로우를 사용하는 것이 좋습니다. 그러나 번역 프로세스에서 사용자 지정을 활성화했으며 새 워크플로의 영향을 받는 경우에는 기존 번역 워크플로로 되돌리는 것을 해결 방법으로 고려하십시오.
 
 구성 파일을 만들려면 [구성 재정의](download-install-additional-config-override.md#)의 지침을 사용하십시오. 구성 파일에서 다음 (속성) 세부 정보를 제공하여 기존 번역 워크플로를 구성합니다.
 
 
-
-
 | PID | 속성 키 | 속성 값 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | 부울: <br> - 최신 번역 워크플로를 사용하는 경우 **레거시 번역 워크플로 실행** 옵션을 *비활성화* \(`false`\) 합니다. 최신 번역 워크플로우는 기본적으로 활성화되어 있습니다. <br> -   기존 번역을 사용하는 경우 *활성화 \( `true`\)*, **기존 번역 워크플로 실행** 옵션을 사용하십시오. |
+| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | 부울: <br> - 최신 번역 워크플로를 사용하는 경우 **레거시 번역 워크플로 실행** 옵션을 *비활성화* \(`false`\) 합니다.  <br> -   기존 번역을 사용하는 경우 *활성화 \( `true`\)*, **기존 번역 워크플로 실행** 옵션을 사용하십시오. <br> **기본값**: false |
+
 
 
 
@@ -101,5 +102,5 @@ DITA 맵 대시보드에서 변환 탭을 숨기려면 다음 단계를 수행�
 
 | PID | 속성 키 | 속성 값 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | 부울: <br> -   임시 파일에서 사후 처리 작업을 실행하지 않으려면 **Post 언어 사본 처리** 옵션을 *사용 안 함* \( false\)합니다.<br> -   임시 파일에서 후처리 작업을 실행하려면 *활성화* \( true\) **Post 처리 언어 사본** 옵션을 사용합니다<br>. **기본값**: false |
+| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | 부울: <br> -   임시 파일에서 사후 처리 작업을 실행하지 않으려면 **사후 처리 언어 사본** 옵션을 *비활성화* \( false\)합니다.<br> -   임시 파일에서 사후 처리 작업을 실행하려면 *언어 사본&#x200B;**사후 처리**옵션을 활성화* \( true\)합니다.<br> **기본값**: false |
 

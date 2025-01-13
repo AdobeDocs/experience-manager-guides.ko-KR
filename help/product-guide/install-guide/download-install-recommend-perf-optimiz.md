@@ -5,9 +5,9 @@ exl-id: b2a836a0-de82-4d89-aae3-43276997da74
 feature: Performance Optimization
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: b28b7d96cce69f677b0bcf891b94d7ac84eb1eb0
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '907'
 ht-degree: 0%
 
 ---
@@ -114,17 +114,5 @@ AEM Sites 출력을 생성하는 경우 이 변경이 필요합니다.
 **이 변경 결과**
 **힙에서 AEM 사이트 페이지 제한** 속성의 수를 늘리면 AEM 사이트 출력 생성 프로세스를 최적화합니다.
 
-## 사후 처리 스레드 수 최적화 \(사용 사례에 따라 필수입니다\)
-
-**변경 내용**
-DITA 콘텐츠를 대량으로 업로드하는 경우 이 변경이 필요합니다.
-
-`com.adobe.fmdita.config.ConfigManager` 아래의 **Post Process Threads** 속성을 `1`(으)로 설정합니다.
-
-**구성할 때**
-이 작업은 런타임에 수행할 수 있습니다.
-
-**이 변경 결과**
-이 변경 사항으로 DITA 파일의 일괄 업로드 후 처리 시간이 줄어듭니다.
 
 **상위 항목:**[&#x200B;다운로드 및 설치](download-install.md)

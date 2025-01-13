@@ -5,9 +5,9 @@ exl-id: 0d3a909c-3499-4ef4-b033-02e412dae959
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: f7ce1dc72edfcec939e5bd25bbf82c2e3907a326
+source-git-commit: ea3083542e955a56c27cd833600370a7962c6b8d
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '854'
 ht-degree: 8%
 
 ---
@@ -100,7 +100,9 @@ ht-degree: 8%
 
 >[!IMPORTANT]
 > 
-> 향상된 성능을 제공하는 최신 번역 워크플로를 사용하는 것이 좋습니다. 그러나 현재 번역 프로세스에서 활성화된 사용자 정의가 있는 경우 이전 번역 워크플로를 사용하는 것이 좋습니다.
+> 성능을 향상시키려면 AEM Guides 4.6.0 이상에서 사용할 수 있는 최신 번역 워크플로를 사용하는 것이 좋습니다. 그러나 번역 프로세스에서 사용자 지정을 활성화했으며 새 워크플로의 영향을 받는 경우에는 기존 번역 워크플로로 되돌리는 것을 해결 방법으로 고려하십시오.
+
+
 
 기본적으로 이전 번역 워크플로 옵션은 비활성화되어 있습니다. 다음 단계를 수행하여 이 옵션을 구성할 수 있습니다.
 
