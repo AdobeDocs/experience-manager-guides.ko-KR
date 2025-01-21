@@ -2,7 +2,7 @@
 title: AI Assistant를 사용하여 문서를 스마트하게 작성 `
 description: AI Assistant를 사용하여 웹 편집기에서 효율적인 방식으로 문서를 작성하는 방법에 대해 알아봅니다.
 exl-id: 47d37323-20bf-4444-a2c9-41c44b2c8daf
-source-git-commit: 59929235b3d93267b9b82fd2827c8d3ac6607e61
+source-git-commit: ae49df3912a5a7a3a01e5eaa08fb9f05249da29f
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 0%
@@ -110,12 +110,12 @@ Experience Manager Guides은 보다 스마트하고 빠르게 작성할 수 있�
 
 
 1. 콘텐츠를 선택합니다.
-1. 현재 주제에 대한 간단한 설명을 만들려면 **간단한 설명 만들기 ![ai 간단한 설명 만들기 아이콘](./images/ai-create-shortdesc-icon.svg)**&#x200B;을 선택합니다.
+1. 현재 주제에 대한 간단한 설명을 만들려면 **간단한 설명 만들기** ![ai 간단한 설명 만들기 아이콘](./images/ai-create-shortdesc-icon.svg)을 선택하십시오.
 1. 짧은 설명이 없는 경우 **승인**&#x200B;을 선택하여 짧은 설명을 새로 만드십시오. 짧은 설명이 있는 경우 새로 추가된 짧은 설명으로 대체하기 전에 확인해야 합니다.
 
 다음 작업도 수행할 수 있습니다.
-- AI 도구와 같은 주제에 대한 다른 간단한 설명을 생성하려면 **다시 생성**&#x200B;을 선택하십시오.
 
+- AI 도구와 같은 주제에 대한 다른 간단한 설명을 생성하려면 **다시 생성**&#x200B;을 선택하십시오.
 - **확장**&#x200B;을 선택하여 **바로 가기 만들기** 편집기를 엽니다.
 
 ![ai 길잡이, 간단한 설명 편집기 만들기](./images/ai-assistant-create-short-desc.png)
