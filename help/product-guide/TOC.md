@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 살펴보십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: 6d0648ddaabffe84c923afe7c531eea902406c1c
+source-git-commit: 4020534552bdb77545c2a283f2a90adc3aebc729
 workflow-type: tm+mt
-source-wordcount: '2011'
+source-wordcount: '2016'
 ht-degree: 6%
 
 ---
@@ -511,5 +511,5 @@ ht-degree: 6%
       - 사용 사례 {#use-cases}
          - [조건부 콘텐츠 작업](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
          - [키 작업](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
-         - [aemguides를 통해 aemsites의 컨텍스트 콘텐츠 변수 활성화](./knowledge-base/kb-articles/publishing/enabling-contextual-content-variables-in-aem-sites-via-aemguides.md)
+         - [AEM Guides에서 생성된 AEM Sites 페이지에서 컨텍스트 기반 콘텐츠 변수(CCVAR) 활성화](./knowledge-base/kb-articles/publishing/enabling-contextual-content-variables-in-aem-sites-via-aemguides.md)
    - [산소 커넥터 사용](./oxygen-connector/use-aem-connector.md)

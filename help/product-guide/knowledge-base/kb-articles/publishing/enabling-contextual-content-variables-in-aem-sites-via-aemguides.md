@@ -1,16 +1,17 @@
 ---
-title: AEM Guides을 통해 AEM Sites에서 컨텍스트 기반 콘텐츠 변수(CCVAR) 활성화
-description: AEM Guides을 통해 AEM Sites에서 컨텍스트 기반 콘텐츠 변수(CCVAR) 작업
+title: AEM Guides에서 생성된 AEM Sites 페이지에서 컨텍스트 기반 콘텐츠 변수(CCVAR) 활성화
+description: AEM Guides에서 생성된 AEM Sites 페이지에서 컨텍스트 기반 콘텐츠 변수(CCVAR) 작업
 feature: Web Editor
 role: User, Admin
-source-git-commit: cd5b8329153f598365a640f50d2c003af72dac50
+exl-id: f9adbb3f-6c1c-4d6f-b55d-1fb45acca91a
+source-git-commit: 4020534552bdb77545c2a283f2a90adc3aebc729
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '473'
 ht-degree: 2%
 
 ---
 
-# AEM Guides을 통해 AEM Sites에서 컨텍스트 기반 콘텐츠 변수(CCVAR) 활성화
+# AEM Guides에서 생성된 AEM Sites 페이지에서 컨텍스트 기반 콘텐츠 변수(CCVAR) 활성화
 
 컨텍스트 콘텐츠 변수(CCVAR)는 작성자가 작성한 텍스트에서 직접 동적 콘텐츠 변수를 사용할 수 있도록 해주는 ACS Commons 기능입니다. CCVAR는 AEM Sites에서 일반적으로 사용되지만, 이 문서에서는 주로 DITA 맵에 정의된 키워드를 사용하여 **AEM Guides** *에서 작성된 콘텐츠에서 생성된 페이지를 통해 유사한 기능을 수행하는 방법을 설명합니다*.
 
@@ -20,7 +21,7 @@ ht-degree: 2%
 CCVAR를 사용하면 작성자가 컨텍스트에 따라 런타임 시 해결되는 콘텐츠에 동적 변수를 삽입할 수 있습니다. 예를 들어 `((page_properties.pageTitle))`과(와) 같은 변수는 콘텐츠 렌더링 중에 페이지 제목을 동적으로 가져올 수 있습니다.
 
 
-## AEM Guides에서 생성된 AEM Sites에서 CCVAR를 활성화하는 방법
+## AEM Guides에서 생성된 AEM Sites 페이지에서 CCVAR를 활성화하는 방법
 
 AEM Guides이 모든 컨텐츠(AEM Sites, PDF 또는 HTML5 포함)의 소스로 사용되는 것을 고려하여 AEM Guides에서 생성된 페이지에서 CCVAR를 활성화하려면 키워드를 사용하여 CCVAR 이름을 정의해야 합니다. 안내서에서 이를 수행하려면 `<keydef>` 요소를 사용하여 DITA 맵에서 **키워드**&#x200B;를 정의하십시오. 이러한 키워드는 동적 값(또는 CCVAR 이름)에 해당할 수 있으므로 DITA 주제에서 참조할 수 있습니다.
 
