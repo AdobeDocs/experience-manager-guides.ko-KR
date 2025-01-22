@@ -1,10 +1,9 @@
 ---
 title: AEM Guides을 통해 AEM Sites에서 컨텍스트 기반 콘텐츠 변수(CCVAR) 활성화
 description: AEM Guides을 통해 AEM Sites에서 컨텍스트 기반 콘텐츠 변수(CCVAR) 작업
-exl-id: null
 feature: Web Editor
 role: User, Admin
-source-git-commit: ac40ab63b691ea31dfa1a3c9f7644b357b3167a4
+source-git-commit: cd5b8329153f598365a640f50d2c003af72dac50
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 2%
