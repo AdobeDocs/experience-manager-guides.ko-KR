@@ -1,9 +1,10 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides 2024.12.0 릴리스의 문제가 해결되었습니다.
 description: Adobe Experience Manager Guides as a Cloud Service 2024.1.0 릴리스의 버그 수정에 대해 알아봅니다.
-source-git-commit: f643a4a22151af2ff14288ab3885c1a6657a80ca
+exl-id: 04a57e1a-6e74-46f6-acde-5045d3dcacdc
+source-git-commit: dd404c42863f0b4a5f31b54f770c0bf296d68ab9
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '408'
 ht-degree: 1%
 
 ---
@@ -40,3 +41,30 @@ ht-degree: 1%
 ## 번역
 
 - 기준선을 사용한 맵 변환은 느려지고 결국 연결된 모든 주제 및 맵 파일 목록을 로드하지 못합니다. (19733)
+
+## 해결 방법에 대한 알려진 문제
+
+Adobe은 Adobe Experience Manager Guidesas a Cloud Service 의 2024.12.0 릴리스에서 다음과 같은 알려진 문제를 확인했습니다.
+
+콘텐츠 번역을 처리하는 동안 **프로젝트 만들기가 실패합니다**
+
+번역을 위해 콘텐츠를 전송하는 동안 프로젝트 만들기가 실패하고 다음 로그 오류가 발생합니다.
+
+번역 프로젝트를 처리하는 동안 `com.adobe.cq.wcm.translation.impl.TranslationPrepareResource` 오류가 발생했습니다.
+
+`com.adobe.cq.projects.api.ProjectException`: 프로젝트를 만들 수 없습니다.
+
+원인: `org.apache.jackrabbit.oak.api.CommitFailedException`: `OakAccess0000`: 액세스가 거부되었습니다.
+
+
+**해결 방법**: 이 문제를 해결하려면 다음 해결 단계를 수행하십시오.
+
+1. Repoinit 파일을 추가합니다. 파일이 없는 경우 [샘플 repoinit 구성 만들기 단계](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-cloud-questions/repoinit-configuration-for-property-set-on-aem-as-cloud-service/m-p/438854)를 수행하여 파일을 만드십시오.
+2. 파일에 다음 줄을 추가하고 코드를 배포합니다.
+
+   ```
+   { "scripts": [ "set principal ACL for translation-job-service\n allow jcr:all on /home/users/system/cq:services/internal/translation\nend" ] }
+   ```
+
+3. 배포 후 번역을 테스트합니다.
+
