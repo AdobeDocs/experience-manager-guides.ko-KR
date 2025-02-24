@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 살펴보십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: 293d2fd9c015a4ec516080b9e5dfed32b96639b7
+source-git-commit: 7252254443b5f1fee8c51e49efe23da418e46d50
 workflow-type: tm+mt
 source-wordcount: '2040'
 ht-degree: 6%
@@ -258,7 +258,7 @@ ht-degree: 6%
          - [파일 및 폴더 관리](./user-guide/authoring-file-management.md)
          - [파일 다운로드](./user-guide/authoring-download-assets.md)
 - 사용 안내서(이전 UI) {#user-guide-old-ui}
-   - [AEM Guides 개요)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides 개요](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 설치 및 구성 {#install-guide}
    - 온-프레미스 {#on-prem-ig}
       - [On-Premise 기본 사항](./install-guide/introduction.md)
