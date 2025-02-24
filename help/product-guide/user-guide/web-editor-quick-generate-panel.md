@@ -4,14 +4,19 @@ description: AEM Guides의 빠른 생성 패널을 사용합니다. 빠른 생�
 exl-id: 5de04980-91d7-4bbc-a4b7-9bfd60ccf3c7
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: a02a7310f5e332f88827a9d5a05034abec05b43a
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
 
 # 빠른 생성 패널을 사용하여 출력 생성 및 보기 {#id22AKE050F5L}
+
+>[!NOTE]
+>
+> 이전에 Adobe Experience Manager Guides에서 사용할 수 있었던 빠른 생성 패널은 버전 4.0 및 2502부터 더 이상 사용되지 않습니다. 빠른 생성 패널에 액세스하여 출력을 생성하고 볼 수 없습니다.
+
 
 AEM Guides은 웹 편집기 내에 통합된 **빠른 생성** 패널을 제공합니다. 이 패널을 사용하면 DITA 맵에 대해 만든 출력 사전 설정에 대한 출력을 동시에 생성할 수 있습니다. 하나 이상의 사전 설정 또는 DITA 맵에 대해 만들어진 모든 사전 설정에 대한 출력을 생성할 수 있습니다. **빠른 생성** 패널을 사용하여 나중에 사전 설정에 대해 생성된 출력을 볼 수도 있습니다.
 

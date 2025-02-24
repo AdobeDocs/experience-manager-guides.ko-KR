@@ -4,9 +4,9 @@ description: AEM Guides의 알림을 사용하여 검토 작업을 재할당합�
 exl-id: 6cd01564-aa26-4773-9c95-9dc519706f27
 feature: Reviewing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -38,4 +38,4 @@ ht-degree: 0%
 
 할당된 검토자는 다시 할당된 검토 작업에 대한 알림을 받은 편지함에 받게 됩니다.
 
-**상위 항목:**[&#x200B;항목 또는 맵 검토](review.md)
+**상위 항목:**[&#x200B;검토 소개](review.md)

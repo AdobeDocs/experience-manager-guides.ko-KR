@@ -1,17 +1,17 @@
 ---
-title: 컨텐츠 조각에 주제 Publish
-description: Publish 주제 또는 주제 내의 요소를 AEM Guides의 콘텐츠 조각으로 복사합니다.  주제에 대한 콘텐츠 조각을 보고 다시 게시하는 방법에 대해 알아봅니다.
+title: 콘텐츠 조각에 주제 게시
+description: 주제 또는 주제 내의 요소를 AEM Guides의 콘텐츠 조각에 게시합니다.  주제에 대한 콘텐츠 조각을 보고 다시 게시하는 방법에 대해 알아봅니다.
 exl-id: b1769e48-d721-4e93-b10f-04b385272be7
 feature: Publishing
 role: User
-source-git-commit: f86d8f2d2e6aa48941cf16526e608df4845420fd
+source-git-commit: 26aacde56e84c9f3a5ee5106b9271b4b12f8969a
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '938'
 ht-degree: 0%
 
 ---
 
-# Publish 컨텐츠 조각
+# 콘텐츠 조각 게시
 
 컨텐츠 조각은 Adobe Experience Manager에서 개별 컨텐츠 조각입니다. 이는 콘텐츠 모델을 기반으로 하는 구조화된 콘텐츠입니다. 콘텐츠 조각 은 디자인 또는 레이아웃 정보가 없는 순수 콘텐츠입니다. Adobe Experience Manager이 지원하는 채널과 독립적으로 작성 및 관리할 수 있습니다. 콘텐츠 조각은 모듈식이며, 콘텐츠는 더 작은 구성 요소로 분류됩니다.
 
@@ -26,21 +26,21 @@ Experience Manager Guides을 사용하면 주제 또는 해당 요소를 콘텐�
 
 1. Adobe Experience Manager Assets에서 [콘텐츠 조각 모델](https://experienceleague.adobe.com/docs/experience-manager-65/assets/content-fragments/content-fragments-models.html?lang=ko)을(를) 만듭니다.
 1. 콘텐츠 조각 모델을 기반으로 만든 콘텐츠 조각을 저장할 폴더를 만듭니다. 예: &quot;stock-content-fragments&quot;.
-1. 폴더의 속성(예: &quot;stock-content-fragments&quot;)을 편집하고 클라우드 구성에서 콘텐츠 조각 모델을 포함하는 폴더의 경로를 추가합니다.
+1. 폴더의 속성(예: &quot;stock-content-fragments&quot;)을 편집하고 클라우드 구성에 콘텐츠 조각 모델이 포함된 폴더의 경로를 추가합니다.
 예를 들어 클라우드 구성에 `/conf/we-retail`을(를) 추가합니다. 이 구성은 모든 콘텐츠 조각 모델을 폴더와 연결합니다.\
    ![폴더 속성에 클라우드 구성 세부 정보 추가](images/fragment-folder-cloud-configuration.png){width="650" align="left"}
    *폴더 속성에 클라우드 구성을 추가하여 조각 모델과 연결합니다.*
 
 1. 콘텐츠 조각을 생성하려면 주제의 **파일 속성**&#x200B;에서 **출력** 섹션에서 **새 출력** ![새 출력 아이콘](./images/Add_icon.svg)을 선택하십시오.
 1. **콘텐츠 조각**&#x200B;을 선택합니다.\
-   ![파일 속성 옵션 탭](./images/file-properties-outputs-tab.png) {width="300" align="left"}
+   ![파일 속성 옵션 탭](./images/file-properties-outputs-tab-new.png) {width="300" align="left"}
 
    *주제의 파일 속성에서 새 콘텐츠 조각을 추가합니다*.
 
 1. **콘텐츠 조각 생성** 대화 상자의 **일반** 및 **매핑** 탭에서 다음 세부 정보를 입력합니다.
 
    **일반** 탭
-   ![콘텐츠 조각 대화 상자로 Publish에서 조각 모델 및 매핑 세부 정보 추가](images/generate-content-fragment.png)
+   ![콘텐츠 조각으로 게시 대화 상자에서 조각 모델 및 매핑 세부 정보 추가](images/generate-content-fragment.png)
    *항목이나 해당 요소를 콘텐츠 조각으로 게시하려면 경로, 이름, 제목 및 조건 필터링을 추가하십시오.*
 
 
@@ -64,7 +64,7 @@ Experience Manager Guides을 사용하면 주제 또는 해당 요소를 콘텐�
 
    **매핑** 탭
 
-   ![콘텐츠 조각 대화 상자로 Publish에서 조각 모델 및 매핑 세부 정보 추가](images/content-fragment-mapping.png)
+   ![콘텐츠 조각으로 게시 대화 상자에서 조각 모델 및 매핑 세부 정보 추가](images/content-fragment-mapping.png)
 
    *콘텐츠 조각 모델을 선택하고 매핑 세부 정보를 추가하여 주제 또는 해당 요소를 콘텐츠 조각으로 게시합니다.*
 
@@ -77,11 +77,11 @@ Experience Manager Guides을 사용하면 주제 또는 해당 요소를 콘텐�
      >
      > 4.4 이하 버전을 사용하는 경우 드롭다운에서 매핑을 선택합니다. *contentFragmentMapping.json* 파일에서 매핑을 선택합니다.  관리자가 *contentFragmentMapping.json* 파일에 매핑을 추가할 수 있습니다. 설치 및 구성 안내서에서 [주제와 콘텐츠 조각 간의 매핑을 만들기](../cs-install-guide/conf-content-fragment-mapping-cs.md)하는 방법에 대해 자세히 알아보십시오.
 
-1. 콘텐츠 조각을 게시하려면 **생성**&#x200B;을 클릭하십시오.
+1. 콘텐츠 조각을 게시하려면 **생성**&#x200B;을(를) 선택하십시오.
 
 1. **파일 속성**&#x200B;의 **출력** 섹션 아래에서 주제에 대한 콘텐츠 조각을 볼 수 있습니다.
 
-   ![주제에 대한 콘텐츠 조각 보기](images/outputs-options-menu.png){width="300" align="left"}
+   ![주제에 대한 콘텐츠 조각 보기](images/outputs-options-menu-new.png){width="300" align="left"}
 
    *주제에 대한 콘텐츠 조각을 보고 다시 게시합니다.*
 
@@ -106,9 +106,3 @@ Experience Manager Guides을 사용하면 주제 또는 해당 요소를 콘텐�
   > 이 작업으로 콘텐츠 조각에서 콘텐츠가 삭제되지 않습니다.
 
 * **보기**: 콘텐츠 조각 편집기를 봅니다. 변경 작업을 수행한 후 저장할 수도 있습니다.
-
-## 비 UUID에서 UUID로 콘텐츠 마이그레이션 개선
-
-새 UUID 콘텐츠 마이그레이션 스크립트가 크게 최적화되어 비 UUID에서 UUID로의 콘텐츠 마이그레이션이 이전 스크립트보다 30배 더 빨라졌습니다. 여기에는 체크포인트에서 다시 시작, 라이브 인사이트, 예상 완료 시간 및 세부 보고와 같은 기능이 포함되어 있어 조화로운 마이그레이션 프로세스를 보장합니다. 특히 마이그레이션 프로세스는 변경 사항 없이 자산 메타데이터를 유지합니다. 300만 개의 자산으로 구성된 대규모 데이터 세트에서 스크립트를 테스트하고 검증하여 대규모 마이그레이션에 대한 효율성과 안정성을 확인했습니다.
-
-[UUID가 아닌 콘텐츠를 UUID로 마이그레이션](../install-guide/migrate-non-uuid-uuid.md)하는 방법에 대해 자세히 알아보십시오.

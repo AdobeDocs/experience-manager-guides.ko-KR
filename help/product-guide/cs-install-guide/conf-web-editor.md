@@ -5,9 +5,9 @@ exl-id: 9a52ba17-68c0-4552-aae6-e89bc5d3ac6f
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: ede91932959b952a47c890269695a69a2edab523
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ AEM Guides은 작성자가 DITA 문서를 만들고 편집할 수 있는 강력�
 - **[태그 보기에 대한 기본값 구성](configure-default-value-tags-view.md)**
 
 - **[UUID 기반 링크 표시 구성](conf-uuid-based-links.md)**
+
+- **[붙여 넣은 테이블 표시 구성](conf-pasted-tables.md)**
 
 - **[같은 탭에서 DITA 주제 또는 맵 파일 열기](open-dita-files-same-tab.md)**
 
@@ -59,3 +61,5 @@ AEM Guides은 작성자가 DITA 문서를 만들고 편집할 수 있는 강력�
 - **[고급 맵 편집기를 기본값으로 설정](conf-map-editor.md)**
 
 - **[기본적@navtitle 특성 포함](auto-add-navtitle.md)**
+
+

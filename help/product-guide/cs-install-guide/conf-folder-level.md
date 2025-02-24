@@ -5,9 +5,9 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: c94eb03af60ef9df60f77c21bfce1c45708df2f8
+source-git-commit: e1d6123991ddd8d25f76ee03befeb95f020a9834
 workflow-type: tm+mt
-source-wordcount: '4521'
+source-wordcount: '4755'
 ht-degree: 0%
 
 ---
@@ -73,6 +73,8 @@ AEM Guides을 사용하면 폴더 수준뿐만 아니라 엔터프라이즈 \(�
 - **XML 편집기 구성**: 이 탭을 사용하여 웹 편집기의 모양과 다양한 기능을 사용자 지정할 수 있습니다. 웹 편집기에서 다음 구성 가능한 설정을 사용할 수 있습니다.
 
    - XML 편집기 UI 구성
+   - XML 편집기 페이지 레이아웃
+   - XML 편집기 구성
    - CSS 템플릿 레이아웃
    - XML 편집기 조각
    - XML 콘텐츠 버전 레이블
@@ -106,7 +108,7 @@ AEM Guides을 사용하면 폴더 수준뿐만 아니라 엔터프라이즈 \(�
 
 1. **출력 사전 설정**&#x200B;을 구성하려면 [출력 사전 설정 구성](#id18AGD0IH0Y4)을 참조하십시오.
 
-1. XML 편집기 구성을 구성하려면 [XML Web Editor 구성 및 사용자 지정](#id2065G300O5Z)을 참조하십시오.
+1. XML 편집기 구성을 구성하려면 [XML 편집기 구성 및 사용자 지정](#id2065G300O5Z)을 참조하십시오.
 
 1. 필요한 모든 업데이트를 수행한 후 **전역 프로필**&#x200B;을(를) 저장하고 닫습니다.
 
@@ -337,7 +339,7 @@ AEM Guides을 사용하면 관리자가 특정 설정을 사용하여 출력 사
 
 시스템에 기본 출력 사전 설정이 만들어지면 그 이후에 만들어진 모든 DITA 맵에서 기본 사전 설정을 사용하여 출력을 생성합니다. 그러나 기존의 모든 DITA 맵은 이전에 구성된 출력 사전 설정을 계속 사용합니다. 기존의 모든 DITA 맵에 새 출력 사전 설정을 적용하려면 사전 설정 변경 사항 적용 워크플로우를 실행해야 합니다.
 
-글로벌 또는 엔터프라이즈 수준에서 구성된 사전 설정 외에도 게시자는 여전히 더 많은 출력 사전 설정을 만들 수 있는 권한을 갖습니다. 그러나 이러한 사전 설정은 해당 사전 설정이 생성되는 DITA 맵에 연결되어 있습니다. DITA 맵에 대한 일반 출력 사전 설정을 만드는 방법에 대한 자세한 내용은 Adobe Experience Manager Guides as a Cloud Service 사용 안내서의 *출력 사전 설정 만들기, 편집, 복제 또는 제거*&#x200B;를 참조하십시오.
+글로벌 또는 엔터프라이즈 수준에서 구성된 사전 설정 외에도 게시자는 여전히 더 많은 출력 사전 설정을 만들 수 있는 권한을 갖습니다. 그러나 이러한 사전 설정은 해당 사전 설정이 생성되는 DITA 맵에 연결되어 있습니다. DITA 맵에 대한 일반 출력 사전 설정을 만드는 방법에 대한 자세한 내용은 Adobe Experience Manager Guides as a Cloud Service 사용 안내서에서 *출력 사전 설정 만들기, 편집, 복제 또는 제거*&#x200B;를 참조하십시오.
 
 전역 또는 폴더별 출력 사전 설정을 구성하려면 다음 단계를 수행하십시오.
 
@@ -355,7 +357,7 @@ AEM Guides을 사용하면 관리자가 특정 설정을 사용하여 출력 사
 
 1. 프로필 페이지에서 을 참조하십시오. **출력 사전 설정** 탭을 클릭합니다.
 
-   AEM Site, PDF, HTML5, EPUB 및 CUSTOM을 포함한 즉시 사용 가능한 출력 사전 설정 목록이 표시됩니다.
+   AEM Site, PDF, HTML5, EPUB 및 CUSTOM을 포함하는 즉시 사용 가능한 출력 사전 설정 목록이 표시됩니다.
 
 1. 출력 사전 설정을 만들거나 편집하려면 다음 중 하나를 수행하십시오.
 
@@ -364,7 +366,7 @@ AEM Guides을 사용하면 관리자가 특정 설정을 사용하여 출력 사
 
    - 선택한 사전 설정의 편집 구성을 열려면 **편집**&#x200B;을 클릭하세요.
 
-     출력 사전 설정 설정에 대한 자세한 내용은 Adobe Experience Manager Guides as a Cloud Service 사용 안내서의 *출력 사전 설정 이해*&#x200B;를 참조하십시오.
+     출력 사전 설정 설정에 대한 자세한 내용은 Adobe Experience Manager Guides as a Cloud Service 사용 안내서에서 *출력 사전 설정 이해*&#x200B;를 참조하십시오.
 
 1. 사전 설정 설정을 저장하려면 **저장**&#x200B;을 클릭하세요.
 
@@ -391,7 +393,7 @@ AEM Guides을 사용하면 관리자가 특정 설정을 사용하여 출력 사
 
 1. 프로필 페이지에서 을 참조하십시오. **출력 사전 설정** 탭을 클릭합니다.
 
-   AEM Site, PDF, HTML5, EPUB 및 CUSTOM을 포함한 즉시 사용 가능한 출력 사전 설정 목록이 표시됩니다.
+   AEM Site, PDF, HTML5, EPUB 및 CUSTOM을 포함하는 즉시 사용 가능한 출력 사전 설정 목록이 표시됩니다.
 
 1. 기존 DITA 맵에 적용할 출력 사전 설정을 선택합니다.
 
@@ -407,9 +409,15 @@ AEM Guides을 사용하면 관리자가 특정 설정을 사용하여 출력 사
 
 
 
-## 웹 편집기에서 AI 기반 스마트 제안 구성 {#conf-ai-smart-suggestions}
+## 스마트 도움말 및 작성을 위한 AI Assistant 구성
 
-AEM ![ 클라우드 ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service 의 경우 .
+![AEM 클라우드 ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service 의 경우 .
+
+Adobe Experience Manager Guides의 AI Assistant는 스마트 작성 및 컨텐츠 재사용 경험을 통해 컨텐츠를 향상시키도록 설계된 강력한 AI 기반 도구입니다. 강력한 두 가지 AI 기능(**작성** 및 **도움말**)을 Experience Manager Guides 인터페이스에 통합하므로 문서를 작성하고 보다 빠르고 효율적으로 정보에 액세스할 수 있습니다.
+
+구성 세부 정보는 [AI Assistant 구성](./conf-smart-suggestions.md)을 참조하십시오.
+
+**AI 기반 스마트 제안 구성**
 
 AI 기반의 스마트 제안을 구성하고 작성자가 기존 콘텐츠를 재사용하고 올바르고 일관된 콘텐츠 참조를 쉽게 만들 수 있도록 지원할 수 있습니다. **AI 구성** 탭을 사용하면 웹 편집기의 AI 도우미 패널에서 **재사용 가능한 콘텐츠 제안**&#x200B;의 설정을 제어할 수 있습니다.
 
@@ -424,9 +432,10 @@ AI 기반의 스마트 제안을 구성하고 작성자가 기존 콘텐츠를 �
    >전역 또는 폴더 수준 프로필에 대해 AI 기반 스마트 제안을 구성할 수 있습니다.
 
 1. 프로필 페이지에서 **AI 구성** 탭을 선택합니다.
+
    글로벌 프로필의 ![AI 구성 탭](assets/global-profile-AI-configuration-cs.png) {width="800" align="left"}
 
-1. **편집**&#x200B;을 클릭합니다.
+1. **편집**&#x200B;을 선택합니다.
 1. 관리자는 다음 설정을 구성할 수 있습니다.
 
    **최소 문자**: 작성자가 제안을 얻기 위해 입력해야 하는 최소 문자 수를 입력합니다. 예를 들어 이 숫자가 7이면 작성자는 최소 7자를 추가하여 스마트 제안을 확인해야 합니다.
@@ -443,16 +452,13 @@ AI 기반의 스마트 제안을 구성하고 작성자가 기존 콘텐츠를 �
 
 웹 편집기에서 작성하는 동안 콘텐츠 참조를 추가하기 위해 [AI 기반 스마트 제안](../user-guide/authoring-ai-based-smart-suggestions.md)을 보고 추가하는 방법에 대해 자세히 알아보세요.
 
+**스마트 도움말의 기본 질문 사용자 지정**
 
+![AEM 클라우드 ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service.
 
+작성자가 질문을 하고 [Experience Manager Guides 설명서](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)에서 필요한 콘텐츠를 쉽게 찾을 수 있도록 AI 기반 스마트 **도움말**&#x200B;을 구성할 수 있습니다.
 
-## 웹 편집기에서 AI 기반 스마트 도움말 구성 {#conf-ai-guides-assistant}
-
-![ 클라우드 ](assets/aem-cloud-icon.svg) AEMExperience Manager Guides as a Cloud Service 의 경우
-
-작성자가 질문을 하고 [Experience Manager Guides 설명서](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)에서 필요한 콘텐츠를 쉽게 찾을 수 있도록 AI 기반의 **스마트 도움말**&#x200B;을 구성할 수 있습니다.
-
-**XML 편집기 구성** 탭을 사용하면 웹 편집기에서 **스마트 도움말 패널**&#x200B;의 기본 질문을 구성할 수 있습니다.
+**XML 편집기 구성** 탭에서 **도움말** 패널의 기본 질문을 구성할 수 있습니다.
 
 >[!NOTE]
 >
@@ -494,13 +500,27 @@ AI 기반의 스마트 제안을 구성하고 작성자가 기존 콘텐츠를 �
 [AI 기반 스마트 도움말](../user-guide/ai-based-smart-help.md)을 사용하여 Experience Manager Guides 설명서에서 필요한 콘텐츠를 찾는 방법에 대해 자세히 알아보십시오.
 
 
-## XML Web Editor 구성 및 사용자 지정 {#id2065G300O5Z}
+## XML 편집기 구성 및 사용자 지정 {#id2065G300O5Z}
 
-기본적으로 XML Web Editor에는 작성자가 DITA 문서를 작성하는 데 도움이 되는 다양한 기능이 포함되어 있습니다. 제한된 환경에서 작업하는 경우 작성자가 볼 수 있는 기능을 선택할 수 있습니다. XML 편집기 구성 탭에서는 기능을 쉽게 제어하고 웹 편집기의 모양과 느낌을 변경할 수 있습니다. 관리자는 웹 편집기의 다음 구성 요소를 사용자 지정할 수 있습니다.
+기본적으로 XML 편집기에는 작성자가 DITA 문서를 만드는 데 도움이 되는 많은 기능이 포함되어 있습니다. 제한된 환경에서 작업하는 경우 작성자가 볼 수 있는 기능을 선택할 수 있습니다. XML 편집기 구성 탭에서는 기능을 쉽게 제어하고 편집기의 모양과 느낌을 변경할 수 있습니다. 관리자는 편집기의 다음 구성 요소를 사용자 지정할 수 있습니다.
 
 **XML 편집기 UI 구성**
 
-이 설정은 웹 편집기의 도구 모음 및 기타 사용자 인터페이스 요소를 제어합니다. 다운로드 아이콘을 클릭하여 로컬 시스템에서 ui\_config.json 파일을 다운로드합니다. 그런 다음 파일을 변경하고 동일한 파일을 업로드할 수 있습니다. 에서 파일을 업로드하는 위치, 글로벌 또는 폴더 수준 프로필에 따라 변경 사항이 적절하게 적용됩니다. ui\_config.json 파일을 사용하여 XML 편집기를 사용자 지정하는 방법에 대한 자세한 내용은 [도구 모음 사용자 지정](conf-web-editor-customize-toolbar.md#)을 참조하십시오.
+이 설정을 사용하면 `ui_config.json` 파일에서 수정된 사항을 반영하는 JSON 확장을 만들 수 있습니다. 폴더 프로필 수준에서 이러한 확장을 독립적으로 업로드하여 향상된 유연성과 사용자 지정을 제공할 수 있습니다. 예를들어, 단추를 업데이트하는 등 **XML 편집기 구성**&#x200B;을 변경하면 시스템이 자동으로 차이점을 식별합니다. 이러한 변경 사항을 **XML 편집기 UI 구성**&#x200B;에 업로드하고 **UI 구성을 JSON으로 변환** 단추를 사용하여 JSON 확장으로 변환하면 시스템이 새 기능을 통합하는 확장을 생성합니다.
+
+**JSON 구성 사용자 지정 및 새 AEM Guides 편집기의 UI 구성 전환**&#x200B;에 대해 자세히 알아보십시오.
+
+**XML 편집기 페이지 레이아웃**
+
+이 기능을 사용하면 CSS 파일을 업로드하여 **XML 편집기 UI 구성**&#x200B;에 업로드된 새 확장의 스타일을 지정할 수 있습니다. 업로드된 CSS는 모든 관련 애플리케이션에 일관되게 적용되어, UI 사용자 정의에 맞게 통일되고 세련된 모양을 보장합니다.
+
+**XML 편집기 구성**
+
+이 설정은 편집기의 도구 모음 및 기타 사용자 인터페이스 요소를 제어합니다. **다운로드** 아이콘을 선택하여 로컬 시스템에서 `ui\_config.json` 파일을 다운로드합니다. 그런 다음 파일을 변경하고 동일한 파일을 업로드할 수 있습니다. 에서 파일을 업로드하는 위치, 글로벌 또는 폴더 수준 프로필에 따라 변경 사항이 적절하게 적용됩니다. `ui\_config.json file`을(를) 사용하여 XML 편집기를 사용자 지정하는 방법에 대한 자세한 내용은 [도구 모음 사용자 지정](conf-web-editor-customize-toolbar.md#)을 참조하십시오.
+
+>[!NOTE]
+>
+> AEM Guides 2502 릴리스 및 최신 버전의 경우 맞춤화를 위해 `ui_config.json` 대신 확장 JSON을 사용하는 것이 좋습니다. 자세한 내용은 위의 **XML 편집기 UI 구성** 섹션을 참조하십시오.
 
 **CSS 템플릿 레이아웃**
 

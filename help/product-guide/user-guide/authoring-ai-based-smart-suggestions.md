@@ -2,16 +2,16 @@
 title: 콘텐츠를 작성할 AI 기반 스마트 제안
 description: 웹 편집기에서 AI 기반 스마트 제안을 보고 활용하는 방법에 대해 알아봅니다.
 exl-id: 23c5285e-0d4f-484a-a062-fe1ba1608b8d
-source-git-commit: 6cf65f70252e133cf8977ce925f0a103dc79c0ec
+source-git-commit: dd6fae108ddca23d36615fe38d176723bc4cfe86
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---
 
 # 콘텐츠 작성에 대한 AI 기반 스마트 제안
 
-Experience Manager Guides에서는 일관되고 정확한 콘텐츠를 만드는 데 도움이 되는 스마트 제안 사항을 제공합니다.
+Adobe Experience Manager Guides에서는 일관되고 정확한 콘텐츠를 만드는 데 도움이 되는 스마트 제안 사항을 제공합니다.
 
 콘텐츠를 작성하는 동안 AI Assistant 도구의 **재사용 가능한 콘텐츠 제안** 기능은 AI를 사용하여 검색하고 콘텐츠와 의미상 유사한 기존 콘텐츠를 표시할 수 있습니다. 그런 다음 현재 주제에 참조로 포함할 가장 일치하는 콘텐츠를 선택할 수 있습니다.
 
@@ -24,7 +24,7 @@ Experience Manager Guides에서는 일관되고 정확한 콘텐츠를 만드는
 
 
 1. 관련 제안을 보려면 주제의 콘텐츠를 선택합니다. 콘텐츠의 문자 길이가 관리자가 콘텐츠 제안을 표시하기 위해 폴더 프로필에서 설정한 길이보다 길어야 합니다.
-1. AI Assistant 패널에서 **재사용 가능한 콘텐츠 제안** ![ai 추천 재사용 가능한 콘텐츠 아이콘 ](./images/ai-suggest-reusable-content-icon.svg)을 선택합니다.
+1. AI Assistant의 **작성 패널**&#x200B;에서 **재사용 가능한 콘텐츠 제안** ![ai 재사용 가능한 콘텐츠 제안 아이콘 ](./images/ai-suggest-reusable-content-icon.svg)을(를) 선택합니다.
 
 1. 태그를 선택하여 현재 태그에 대한 작성 제안 사항을 확인합니다.  인덱싱된 파일에서 콘텐츠 참조를 보고 추가하는 제안은 현재 태그의 콘텐츠를 기반으로 표시됩니다. 여러 태그를 선택할 수도 있습니다.
 
@@ -38,7 +38,7 @@ Experience Manager Guides에서는 일관되고 정확한 콘텐츠를 만드는
    > 현재 뷰포트(화면에 표시되는 콘텐츠)에 대한 제안만 볼 수 있습니다. 문서의 다른 컨텐츠에 대한 제안을 보려면 위 또는 아래로 스크롤하여 뷰포트에 표시한 다음 **재사용 가능한 컨텐츠 제안** ![ai 재사용 가능한 컨텐츠 제안 아이콘 ](./images/ai-suggest-reusable-content-icon.svg)을 선택합니다.
 
 
-1. 제안 패널에서 스마트 제안을 볼 수 있습니다.  Experience Manager Guides은 컨텍스트적으로 유사하거나 동일한 의미를 갖는 제안 콘텐츠를 제공합니다. 예를 들어 &quot;릴리스 버전 2023.03.12&quot;와 같은 정확한 버전 번호가 포함된 주제를 검색할 수 있습니다. 또한 &quot;Adobe은 캘리포니아 주 산호세에 본사가 있습니다&quot;를 검색하고 &quot;산호세에는 Adobe과 같은 많은 소프트웨어 회사의 4분의 1이 있습니다&quot;와 같은 유사한 콘텐츠를 찾을 수 있습니다.
+1. 제안 패널에서 스마트 제안을 볼 수 있습니다.  Experience Manager Guides은 컨텍스트적으로 유사하거나 동일한 의미를 갖는 제안 콘텐츠를 제공합니다. 예를 들어 &quot;릴리스 버전 2023.03.12&quot;와 같은 정확한 버전 번호가 포함된 주제를 검색할 수 있습니다. 또한 &quot;Adobe은 캘리포니아 주 산호세에 본사가 있습니다.&quot;를 검색하고 &quot;산호세에는 Adobe과 같은 많은 소프트웨어 회사의 4분의 1이 있습니다.&quot;와 같은 유사한 콘텐츠를 찾을 수 있습니다.
 1. 세부 정보를 보려면 **콘텐츠 정보** ![콘텐츠 정보](images/smart-suggestions-content-info-icon.svg)를 선택하십시오.
 
    ![콘텐츠 정보 패널](images/smart-suggestions-content-information.png){width="300" align="left"}
@@ -55,7 +55,7 @@ Experience Manager Guides에서는 일관되고 정확한 콘텐츠를 만드는
 
    *현재 콘텐츠와 제안된 콘텐츠의 비교를 미리 봅니다.*
 
-1. **수락**&#x200B;을 클릭하여 **재사용 가능한 콘텐츠 제안** 미리 보기에서 제안된 콘텐츠 참조를 추가합니다.
+1. **재사용 가능한 콘텐츠 제안** 미리 보기에서 제안된 콘텐츠 참조를 추가하려면 **수락**&#x200B;을 선택하십시오.
 1. 적절한 권장 사항에 대한 제안 패널에서 **수락** 또는 **취소**&#x200B;를 선택할 수도 있습니다.
 
 

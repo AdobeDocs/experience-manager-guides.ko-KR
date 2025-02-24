@@ -4,9 +4,9 @@ description: AEM Guides에서 인용을 추가하고 관리합니다. 인용을 
 exl-id: 685d747d-e017-4350-a6bf-822fd55c76e8
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
 workflow-type: tm+mt
-source-wordcount: '1887'
+source-wordcount: '1890'
 ht-degree: 0%
 
 ---
@@ -15,17 +15,17 @@ ht-degree: 0%
 
 인용은 콘텐츠에 추가된 정보 소스에 대한 참조입니다. 인용을 사용하여, 당신은 소스 정보의 작성자를 크레딧하고 독자가 소스 정보에 대한 후속 조치를 도울 수 있습니다. 인용을 추가하면 콘텐츠를 더욱 신뢰할 수 있게 만들고 표절을 방지하게 된다. 또한 잘 연구된 콘텐츠를 표시할 수 있습니다.
 
-AEM Guides에서 인용을 추가 및 가져와서 콘텐츠에 적용할 수 있습니다. 책, 웹 사이트 및 저널의 모든 소스에서 이러한 인용구를 추가할 수 있습니다.
+Adobe Experience Manager Guides에서 인용을 추가 및 가져와서 콘텐츠에 적용할 수 있습니다. 책, 웹 사이트 및 저널의 모든 소스에서 이러한 인용구를 추가할 수 있습니다.
 
 
-AEM Guides을 사용하면 인용구를 편집, 미리 보기 및 정렬할 수 있습니다. 콘텐츠에 인용을 추가한 후 기본 PDF을 사용하여 출력을 생성할 수 있습니다. 기본 PDF 출력에서 참고 문헌 또는 참조 페이지를 추가할 수도 있습니다.
+Experience Manager Guides을 사용하면 인용구를 편집, 미리 보기 및 정렬할 수 있습니다. 콘텐츠에 인용을 추가한 후 기본 PDF을 사용하여 출력을 생성할 수 있습니다. 기본 PDF 출력에서 참고 문헌 또는 참조 페이지를 추가할 수도 있습니다.
 
-AEM Guides은 MLA(Modern Language Association), APA(American Psychological Association), Chicago, IEEE(Institute for Electrical and Electronics Engineers) 및 AHA(American Heart Association)와 같은 다양한 스타일의 인용을 지원합니다. 명확하고 일관되게 사용할 것을 권장합니다.
+Experience Manager Guides은 MLA(Modern Language Association), APA(American Psychological Association), Chicago, IEEE(Institute for Electrical and Electronics Engineers) 및 AHA(American Heart Association)와 같은 다양한 스타일의 인용을 지원합니다. 명확하고 일관되게 사용할 것을 권장합니다.
 
 
 >[!NOTE]
 >
->현재 AEM Guides은 인용에 대한 기본 PDF 만 지원합니다.
+>현재 Experience Manager Guides은 인용에 대한 기본 PDF만 지원합니다.
 
 
 ## 인용 추가
@@ -33,14 +33,16 @@ AEM Guides은 MLA(Modern Language Association), APA(American Psychological Assoc
 인용 부호를 추가하려면 다음 단계를 수행합니다.
 
 1. 왼쪽 패널에서 **인용** ![인용 아이콘](images/citations-icon.svg) 아이콘을 선택합니다.
-**인용** 패널이 열립니다.
 
-   ![](images/citation-panel.png){width="300" align="left"}
+   **인용** 패널이 열립니다.
+
+   ![](images/citation-panel.png){width="350" align="left"}
 
 1. **인용** 패널에서 ![아이콘 추가](images/Add_icon.svg)를 선택합니다. 드롭다운에서 새 인용을 추가하거나 인용을 가져오도록 선택할 수 있습니다.
 
-1. 새 인용을 추가하려면 **새 인용**을 선택하십시오.
-**인용 추가** 대화 상자가 열립니다.
+1. 새 인용을 추가하려면 **새 인용**&#x200B;을 선택하십시오.
+
+   **인용 추가** 대화 상자가 열립니다.
 
    웹 편집기의 ![인용 패널](images/citation-add.png) {width="300" align="left"}
 
@@ -66,10 +68,6 @@ AEM Guides은 MLA(Modern Language Association), APA(American Psychological Assoc
    | **시리즈** <br>책의 시리즈를 추가합니다. |  | **고유 ID** <br> 인용에 대한 고유 ID를 추가합니다. 고유 ID는 해당 인용에 대한 고유 식별자입니다. |
    | **URL** <br> 책에 웹 링크를 추가합니다. |
    | **고유 ID** <br> 인용에 고유 ID를 추가합니다. 고유 ID는 해당 인용에 대한 고유 식별자입니다. |
-
-
-
-
 
 1. **완료**&#x200B;를 선택합니다.
 
@@ -97,8 +95,8 @@ AEM Guides은 MLA(Modern Language Association), APA(American Psychological Assoc
    파일을 성공적으로 가져오면 인용 패널에서 참조를 볼 수 있습니다.
 
    >[!NOTE]
-   > <ol><li> AEM Guides은 고유하고 아직 존재하지 않는 인용구만 가져옵니다.
-    &gt; <li> AEM Guides은 책, 저널 또는 웹 사이트에서 인용구를 가져올 수 있습니다. 현재 다른 소스의 인용을 지원하지 않습니다.
+   > <ol><li> Experience Manager Guides은 고유하고 아직 존재하지 않는 인용구만 가져옵니다.
+    &gt; <li> Experience Manager Guides은 책, 저널 또는 웹 사이트에서 인용구를 가져올 수 있습니다. 현재 다른 소스의 인용을 지원하지 않습니다.
 
 ## 인용 관리
 
@@ -127,7 +125,7 @@ AEM Guides은 MLA(Modern Language Association), APA(American Psychological Assoc
 
 ### 인용 스타일 변경 {#change-citation-style}
 
-시스템 관리자는 **편집기 설정**&#x200B;의 **일반 설정** 탭에 있는 **인용** 드롭다운에서 인용 스타일을 변경할 수 있습니다.
+시스템 관리자는 **설정**&#x200B;의 **일반** 탭에 있는 **인용** 드롭다운에서 인용 스타일을 변경할 수 있습니다.
 이러한 스타일은 미리 보기 창이나 기본 PDF 출력에 인용이 표시되는 방식을 결정합니다.
 
 드롭다운에서 다음 옵션을 사용할 수 있습니다.
@@ -166,15 +164,15 @@ AEM Guides은 MLA(Modern Language Association), APA(American Psychological Assoc
 
    >[!NOTE]
    >
-   >미리 보기는 관리자가 **편집기 설정**&#x200B;에서 선택한 인용 스타일을 기반으로 합니다.
+   >미리 보기는 관리자가 **설정**&#x200B;에서 선택한 인용 스타일을 기반으로 합니다.
 
-1. 화면의 아무 곳이나 클릭하여 미리 보기 상자를 닫습니다.
+1. 화면에서 아무 곳이나 선택하여 미리 보기 상자를 닫습니다.
 
    ![](images/citation-preview.png){width="550" align="left"}
 
 >[!NOTE]
 >
-> Assets UI 또는 웹 편집기의 미리 보기 탭에서 주제에 삽입된 인용을 미리 볼 수도 있습니다.
+> Assets UI 또는 편집기의 미리보기 탭에서 주제에 삽입된 인용을 미리 볼 수도 있습니다.
 
 ## 인용 삽입
 
@@ -193,7 +191,7 @@ AEM Guides은 MLA(Modern Language Association), APA(American Psychological Assoc
    ![인용 대화 상자](images/citation-dialog-main-toolbar.png){width="300" align="left"}
 1. **인용** 대화 상자의 검색 패널에 처음 몇 개의 알파벳을 입력하여 인용을 필터링할 수 있습니다.
 
-1. **완료**를 클릭합니다.
+1. **완료**를 선택합니다.
 선택한 인용이 주제의 커서 위치에 추가됩니다.
 
 
@@ -201,7 +199,7 @@ AEM Guides은 MLA(Modern Language Association), APA(American Psychological Assoc
 
 >[!NOTE]
 > 
->왼쪽 패널에서 **인용** 아이콘을 보려면 시스템 관리자가 **편집기 설정**&#x200B;의 **패널** 탭에서 **인용** 옵션을 선택해야 합니다.
+>왼쪽 패널에서 **인용** 아이콘을 보려면 시스템 관리자가 **설정**&#x200B;의 **패널** 탭에서 **인용** 옵션을 활성화해야 합니다.
 
 1. 왼쪽 패널에서 **인용** ![인용 아이콘 ](images/citations-icon.svg) 아이콘을 선택합니다.
 1. **인용** 패널에서 인용을 드래그하여 주제의 적절한 위치에 놓습니다.
@@ -256,13 +254,12 @@ AEM Guides은 MLA(Modern Language Association), APA(American Psychological Assoc
 
 항목에 인용을 삽입하면 기본 PDF을 사용하여 인용이 있는 콘텐츠를 게시할 수 있습니다.
 
-기본 PDF 출력에서 인용은 삽입한 콘텐츠 내에 나타납니다. 참고 문헌 페이지를 만들 수도 있습니다. 인용문을 클릭하면 참고 문헌 페이지로 리디렉션됩니다.
+기본 PDF 출력에서 인용은 삽입한 콘텐츠 내에 나타납니다. 참고 문헌 페이지를 만들 수도 있습니다. 인용을 선택하면 참고 문헌 페이지로 리디렉션됩니다.
 
-PDF 템플릿에서 **인용** 페이지 레이아웃을 만들고 문서에 포함하십시오. 책에 사용된 모든 인용문은 PDF 출력에 나타나는 한 페이지에 나열됩니다. 페이지 레이아웃 만들기에 대한 자세한 내용은 [페이지 레이아웃 만들기](../native-pdf/components-pdf-template.md#create-page-layout)를 참조하세요.
+PDF 템플릿에서 **인용** 페이지 레이아웃을 만들고 문서에 포함하십시오. 이 책에 사용된 모든 인용구가 PDF 출력에 나타나는 한 페이지에 나열됩니다. 페이지 레이아웃 만들기에 대한 자세한 내용은 [페이지 레이아웃 만들기](../native-pdf/components-pdf-template.md#create-page-layout)를 참조하세요.
 
 
 인용 페이지의 보기 및 느낌을 변경하려면 [PDF 템플릿 사용자 지정](../native-pdf/pdf-template.md)을 보세요.
-
 
 
 ### 인용에 콘텐츠 스타일 적용

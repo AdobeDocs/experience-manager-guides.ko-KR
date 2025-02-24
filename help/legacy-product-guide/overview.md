@@ -1,22 +1,23 @@
 ---
-title: Experience Manager Guides Tutorials
+title: Experience Manager Guides용 자습서
 description: Experience Manager Guides(이전 XML Documentation for Adobe Experience Manager)에 대한 자습서 비디오를 찾으십시오. Experience Manager의 기본 DITA 지원 및 구조화된 작성에 대해 알아봅니다.
 feature: AEM Guides Tutorials
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+exl-id: de7bda03-371b-4414-846b-86787f98fda8
+source-git-commit: 67d6b6f59e5d8c37389a181949ce4527760576e2
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '257'
 ht-degree: 1%
 
 ---
 
-# AEM Guides 설명서(이전)
+# AEM Guides 개요
 
 >[!NOTE]
 >
 >기존 안내서에 대한 참고 사항입니다. 메타데이터 배지 대신 또는 배지와 함께 사용할 수 있습니다.
 
-[!DNL Experience Manager Guides](이하 _[!DNL AEM Guides]_)은(는) 강력한 엔터프라이즈급 구성 요소 콘텐츠 관리 솔루션(CCMS)입니다. Experience Manager에서 기본 DITA 지원을 활성화하여 AEM에서 DITA 기반 콘텐츠 생성 및 전달을 처리할 수 있도록 촉진합니다. 작성자는 Adobe FrameMaker 또는 사용하기 쉬운 내장 웹 편집기와 같은 오프라인 DITA 작성 도구를 사용하여 컨텐츠를 만들 수 있습니다.
+[!DNL Experience Manager Guides]&#x200B;(이하 _[!DNL AEM Guides]_)은(는) 강력한 엔터프라이즈급 구성 요소 콘텐츠 관리 솔루션(CCMS)입니다. Experience Manager의 기본 DITA 지원을 활성화하여 AEM에서 DITA 기반 콘텐츠 생성 및 전달을 처리할 수 있도록 촉진합니다. 작성자는 Adobe FrameMaker 또는 사용하기 쉬운 내장 웹 편집기와 같은 오프라인 DITA 작성 도구를 사용하여 컨텐츠를 만들 수 있습니다.
 
 [!DNL AEM Guides] 솔루션은 공동 작업, 검토, 번역, 검색 및 DITA 콘텐츠에 대한 보고서와 같은 모든 핵심 CCMS 기능을 제공하므로 작성자는 효율적인 콘텐츠 재사용 및 강력한 워크플로를 통해 더 짧은 시간에 더 많은 작업을 수행할 수 있습니다. 또한 사용자는 동급 최고의 단일 클릭 게시 기능을 활용하여 가장 많이 사용되는 형식(Experience Manager Sites, PDF, HTML5, EPUB 및 DITA-OT를 통한 사용자 지정 출력)에 대한 DITA 기반 출력을 생성할 수 있습니다.
 
@@ -25,21 +26,6 @@ ht-degree: 1%
 >[!NOTE]
 > 
 > Adobe Experience Manager Guides은 이전에 _Adobe Experience Manager용 XML Documentation_ 브랜드로 지정되었습니다. 설명서 내의 특정 참조는 이전 브랜딩을 계속 참조할 수 있지만 현재 제공에 여전히 적용할 수 있습니다.
-
-## 새로운 기능
-
-* **[[!DNL AEM Guides] 과정 시작](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/getting-started/overview.html){target="blank"}**
-
-  _[!DNL Adobe Experience Manager Guides]을(를) 사용하여 콘텐츠를 만들고, 구성하고, 작성하고, 게시하는 방법에 대해 알아봅니다._
-
-* **[[!DNL AEM Guides] 기본 제공 웹 편집기에서 작성](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html){target="blank"}**
-
-  _[!DNL Adobe Experience Manager Guides]에서 기본 웹 편집기를 사용하여 콘텐츠를 작성하는 방법에 대해 알아봅니다. 사용자 환경 설정, 편집기 설정, 구성, 도구 모음 등을 완벽하게 이해합니다._
-
-* **[출력 생성( [!DNL AEM Guides]](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/overview.html){target="blank"}**)
-
-  _[!DNL Adobe Experience Manager Guides]을(를) 사용하여 출력을 생성하는 방법에 대해 알아봅니다. 보고서, 기준선, 조건, 문제 해결, 벌크 게시 및 활성화와 같이 출력 생성에 사용할 수 있는 다양한 기능에 대해 알아봅니다._
-
 
 <!--
 
@@ -96,6 +82,6 @@ Dummy links cause validation to fail
 
 ## 추가 리소스
 
-* [[!DNL AEM Guides] 온라인 사용 안내서](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html)
-* [[!DNL AEM Guides] PDF 가이드](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
-* [Experience League - AEM 탐색](https://experienceleague.adobe.com/#recommended/solutions/experience-manager)
+* [[!DNL AEM Guides] 사용 안내서(새 UI)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)
+* [[!DNL AEM Guides] 학습 및 지원](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
+* [Experience League - AEM 탐색](https://business.adobe.com/products/experience-manager/adobe-experience-manager.html)

@@ -1,19 +1,19 @@
 ---
-title: 경험 조각에 대한 주제 Publish
-description: Publish 주제 또는 주제 내의 요소를 AEM Guides의 경험 조각으로 복사합니다.  주제에 대해 제시된 경험 조각을 보고 다시 게시하는 방법에 대해 알아봅니다.
+title: 경험 조각에 주제 게시
+description: 주제 또는 주제 내의 요소를 AEM Guides의 경험 조각에 게시합니다.  주제에 대해 제시된 경험 조각을 보고 다시 게시하는 방법에 대해 알아봅니다.
 feature: Publishing
 role: User
 exl-id: 4cdce8c2-2ccf-4bf1-8b92-4dfeb10de186
-source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
+source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '996'
 ht-degree: 0%
 
 ---
 
-# Publish 경험 조각
+# 경험 조각 게시
 
-경험 조각 은 Adobe Experience Manager의 모듈식 콘텐츠 조각입니다. 이러한 콘텐츠 블록은 템플릿을 기반으로 하며 콘텐츠와 그 레이아웃을 모두 캡슐화합니다. 이러한 재사용 가능한 콘텐츠 조각을 통해 콘텐츠 작성자는 Experience Manager이 지원하는 여러 채널에서 일관되고 확장 가능한 경험을 취합하고 제공할 수 있습니다. 이 기능을 사용하면 뉴스레터, 프로모션 배너 및 고객 추천과 같은 일관된 마케팅 경험을 효율적으로 만들 수 있습니다.
+경험 조각 은 Adobe Experience Manager의 모듈식 콘텐츠 조각입니다. 이러한 콘텐츠 블록은 템플릿을 기반으로 하며 콘텐츠와 그 레이아웃을 모두 캡슐화합니다. 재사용 가능한 이러한 콘텐츠 조각을 통해 콘텐츠 작성자는 Experience Manager이 지원하는 여러 채널에 걸쳐 일관되고 확장 가능한 경험을 조합하고 제공할 수 있습니다. 이 기능을 사용하면 뉴스레터, 프로모션 배너 및 고객 추천과 같은 일관된 마케팅 경험을 효율적으로 만들 수 있습니다.
 
 Experience Manager Guides을 사용하면 주제 또는 해당 요소를 경험 조각에 게시할 수 있습니다. 경험 조각의 주제와 해당 요소 간에 JSON 기반 매핑을 만들 수 있습니다. 그런 다음 매핑을 사용하여 주제 또는 해당 요소를 경험 조각에 게시합니다. 그런 다음 Experience Manager 사이트에서 경험 조각을 사용하거나 경험 조각에서 지원하는 API를 통해 세부 정보를 추출할 수 있습니다.
 
@@ -30,7 +30,7 @@ Experience Manager Guides을 사용하면 주제 또는 해당 요소를 경험 
 
    * **제목**: 폴더의 제목을 보거나 편집합니다.
 
-   * **허용된 템플릿**: experiencefragment의 하위 페이지로 추가할 수 있는 템플릿 목록을 포함합니다. 허용된 템플릿을 추가하려면 **허용된 템플릿** 필드에 필요한 템플릿을 검색할 정규식을 지정하십시오.
+   * **허용된 템플릿**: 경험 조각의 하위 페이지로 추가할 수 있는 템플릿 목록을 포함합니다. 허용된 템플릿을 추가하려면 **허용된 템플릿** 필드에 필요한 템플릿을 검색할 정규식을 지정하십시오.
 예:
      `/libs/cq/experience-fragments/components/experiencefragment/template`
 
@@ -40,16 +40,16 @@ Experience Manager Guides을 사용하면 주제 또는 해당 요소를 경험 
      *폴더 속성에 클라우드 구성을 추가하여 조각 템플릿과 연결합니다.*
 1. 경험 조각을 생성하려면 주제의 **파일 속성**&#x200B;에서 **출력** 섹션에서 **새 출력** ![새 출력 아이콘](./images/Add_icon.svg)을 선택하십시오.
 1. **경험 조각**&#x200B;을 선택합니다.\
-   ![파일 속성 옵션 탭](./images/file-properties-outputs.png){width="300" align="left"}
+   ![파일 속성 옵션 탭](./images/file-properties-outputs-new.png){width="300" align="left"}
 
    *주제의 파일 속성에서 새 경험 조각을 추가합니다*.
 
    >[!NOTE]
    >
-   > **저장소 보기**&#x200B;에서 경험 조각을 게시할 수도 있습니다. 경험 조각으로 게시할 주제를 선택합니다. 그런 다음 **옵션** 메뉴에서 **Publish As** > **경험 조각**&#x200B;을 선택합니다.
+   > **저장소 보기**&#x200B;에서 경험 조각을 게시할 수도 있습니다. 경험 조각으로 게시할 주제를 선택합니다. 그런 다음 **옵션** 메뉴에서 **다음으로 게시** > **경험 조각**&#x200B;을 선택합니다.
 
 1. **경험 조각 생성** 대화 상자에서 다음 세부 정보를 입력합니다.
-   ![경험 조각으로 Publish 대화 상자에서 조각 모델 및 매핑 세부 정보 추가](images/experience-fragment-generate.png){width="500" align="left"}
+   ![경험 조각으로 게시 대화 상자에서 조각 모델 및 매핑 세부 정보 추가](images/experience-fragment-generate.png){width="500" align="left"}
 
    *경로, 템플릿 및 매핑 세부 정보를 추가하여 주제 또는 해당 요소를 경험 조각으로 게시합니다. 기존 경험 조각을 덮어쓸 수 있습니다.*
 
@@ -75,11 +75,11 @@ Experience Manager Guides을 사용하면 주제 또는 해당 요소를 경험 
      >조건은 조건 속성이 주제에 정의된 경우에만 활성화됩니다.
 
 
-   * 경험 조각이 이미 있고 덮어쓰려는 경우 **기존 콘텐츠 덮어쓰기** 확인란을 선택합니다. 확인란을 선택하지 않았는데 경험 조각이 이미 존재하는 경우 Experience Manager Guides에 오류가 표시됩니다.
-1. 경험 조각을 게시하려면 **생성**&#x200B;을 클릭합니다.
+   * 경험 조각이 이미 있고 덮어쓰려는 경우 **기존 콘텐츠 덮어쓰기** 확인란을 선택합니다. 확인란을 선택하지 않고 경험 조각이 이미 존재하는 경우 Experience Manager Guides에 오류가 표시됩니다.
+1. 경험 조각을 게시하려면 **생성**&#x200B;을 선택합니다.
 1. **파일 속성**&#x200B;의 **출력** 섹션 아래에서 주제에 대한 경험 조각을 볼 수 있습니다. 경험 조각은 게시 날짜 및 시간에 따라 나타나며 최신 항목을 첫 번째 조각으로 합니다.
 
-   ![주제에 대한 경험 조각 보기](images/experience-fragment-outputs.png){width=300 align=&quot;left&quot;}
+   ![주제에 대한 경험 조각 보기](images/experience-fragment-outputs-new.png){width=300 align=&quot;left&quot;}
 
    *주제에 대한 경험 조각을 보고 다시 게시합니다.*
 

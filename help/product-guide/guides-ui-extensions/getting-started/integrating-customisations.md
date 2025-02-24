@@ -3,9 +3,9 @@ title: 설치 및 설정
 description: AEM Guides 확장 패키지 설치 및 사용
 role: User, Admin
 exl-id: 0304c8d0-35a8-4712-a9af-36557e3b247f
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+source-git-commit: b4d6c1c8c2d413bb4137e58391554abf2fb68b8c
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -55,6 +55,11 @@ npx @adobe/create-guides-extension
 이름: `categories`
 유형: `String []`
 값: `apps.fmdita.review_overrides`, `apps.fmdita.xml_editor.page_overrides`
+
+>[!NOTE]
+>
+> 최종 UI의 경우 값은 `apps.fmdita.penultimate.xml_editor.page_overrides` 및 `apps.fmdita.review_overrides`입니다.
+
 
 ![폴더 속성](./../imgs/crxde_folder_properties.png)
 

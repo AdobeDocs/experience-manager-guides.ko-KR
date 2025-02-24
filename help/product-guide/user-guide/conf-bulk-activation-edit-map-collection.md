@@ -4,10 +4,10 @@ description: AEM Guides에서 일괄 게시 대시보드를 사용합니다. 맵
 exl-id: 5f897c52-5d6e-4614-a14f-1806e085c21c
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 1350304943e86f4f9c5270eaedd36eacb25a6b0f
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 1%
+source-wordcount: '250'
+ht-degree: 2%
 
 ---
 
@@ -15,20 +15,20 @@ ht-degree: 1%
 
 컬렉션에서 맵 파일 또는 사전 설정을 추가하거나 제거하여 벌크 활성화 맵 컬렉션을 편집할 수 있습니다. 벌크 활성화 맵 컬렉션을 편집하려면 다음 단계를 수행하십시오.
 
-1. 도구 목록에서 **안내서**&#x200B;를 선택합니다.
+1. 맨 위에 있는 Adobe Experience Manager 로고를 선택하고 **도구**&#x200B;를 선택합니다.
 
-1. 맨 위에 있는 Adobe Experience Manager 링크를 클릭하고 **도구**&#x200B;를 선택합니다.
+1. **도구** 패널에서 **안내서**&#x200B;를 선택합니다.
 
-1. **일괄 Publish 대시보드** 타일을 클릭합니다.
+1. **일괄 게시 대시보드** 타일을 선택합니다.
 
-   벌크 활성화 맵 컬렉션 목록이 표시됩니다.
+   벌크 게시 대시보드 에는 벌크 활성화 맵 컬렉션 목록이 표시됩니다. [Adobe Experience Manager Guides 홈 페이지](intro-home-page.md)의 왼쪽 패널에서 이 대시보드에 액세스할 수도 있습니다.
 
-1. 편집할 컬렉션을 선택하고 **열기**&#x200B;를 클릭합니다.
+1. 편집할 컬렉션을 선택하고 **열기**&#x200B;를 선택합니다.
 
-1. **편집**&#x200B;을 클릭합니다.
+1. **편집**&#x200B;을 선택합니다.
 
    사용 가능한 각 로케일에 대해 사전 구성된 사전 설정과 함께 맵이 표시되는 벌크 활성화 맵 컬렉션 페이지가 나타납니다.
-AEM Site, PDF, 기본 PDF, HTML5, 사용자 지정 및 JSON 출력과 같은 다양한 유형의 출력 사전 설정을 해당 아이콘과 함께 볼 수 있습니다
+AEM Site, PDF, Native PDF, HTML5, Custom 및 JSON 출력과 같은 다양한 유형의 출력 사전 설정을 해당 아이콘과 함께 볼 수 있습니다
 .
 
    >[!NOTE]
@@ -40,13 +40,13 @@ AEM Site, PDF, 기본 PDF, HTML5, 사용자 지정 및 JSON 출력과 같은 다
 
 1. 컬렉션에서 맵을 제거하려면 맵을 확장하고 **제거를 위해 선택** 옵션을 선택하십시오.
 
-1. **삭제**&#x200B;를 클릭합니다.
+1. **삭제**&#x200B;를 선택합니다.
 
    ![](images/bulk-activation-delete-map.png){width="600" align="left"}
 
    선택한 맵이 벌크 활성화 맵 컬렉션에서 제거됩니다.
 
-1. **완료**&#x200B;를 클릭합니다.
+1. **완료**&#x200B;를 선택합니다.
 
 
 **상위 항목:**[&#x200B;게시된 콘텐츠의 일괄 활성화](conf-bulk-activation.md)

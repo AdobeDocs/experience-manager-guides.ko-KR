@@ -1,35 +1,29 @@
 ---
-title: AEM Sites 페이지에 대한 주제 Publish
-description: Publish 항목 또는 항목 내의 요소를 Adobe Experience Manager Sites 출력으로 출력합니다.  주제에 대한 Experience Manager Sites 페이지 표시를 보고 다시 게시하는 방법을 알아봅니다.
+title: AEM Sites 페이지에 주제 게시
+description: 주제 또는 주제 내의 요소를 Adobe Experience Manager Sites 출력에 게시합니다.  주제에 대한 Experience Manager Sites 페이지 표시를 보고 다시 게시하는 방법을 알아봅니다.
 feature: Publishing
 role: User
-source-git-commit: 05c3e5e6f3c6aea4b3e3f3a52af5810307f1f29b
+exl-id: acbc48b7-93a2-41c6-8565-359fbbdd1fb9
+source-git-commit: 144ecbea83b2c649a00c6b88e533327f3ce111f4
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
 
-# Publish Adobe Experience Manager Sites 페이지
+# Adobe Experience Manager Sites 페이지 게시
 
 
 Experience Manager Sites 페이지는 Adobe Experience Manager 웹 사이트에 게시된 콘텐츠를 나타냅니다. Experience Manager Guides을 사용하면 독립 실행형 항목을 Sites 페이지에 게시할 수 있습니다.
 
 이 기능을 사용하면 DITA 맵과 출력 사전 설정을 만들지 않고도 주제와 해당 요소를 게시할 수 있습니다. 간편하게 주제를 업데이트하고, 사이트 페이지를 다시 게시하고, 여러 웹 페이지에서 재사용할 수 있습니다. 이 기능을 사용하면 독립 실행형 문서 또는 마케팅 콘텐츠를 쉽게 게시할 수 있습니다.
 
-
-
-
-
 사이트 페이지를 생성하려면 다음 단계를 수행하십시오.
 
 
-
-
-1. 항목의 **파일 속성**&#x200B;에 있는 **출력** 섹션에서 **새 출력** ![새 출력 아이콘](./images/Add_icon.svg)을 선택합니다.
+1. 편집기에서 항목을 열고 오른쪽 패널에서 파일 속성 을 선택합니다.
+1. **출력** 섹션에서 **새 출력** 아이콘![새 출력 아이콘](./images/Add_icon.svg)을 선택합니다.
 1. **사이트 페이지**&#x200B;를 선택하십시오.
-
-
 1. **사이트 생성 페이지** 대화 상자에서 다음 세부 정보를 입력합니다.
    ![사이트 생성 페이지에서 경로 및 템플릿 세부 정보 추가](images/aem-sites-page-generate.png){width="500" align="left"}
 
@@ -54,15 +48,12 @@ Experience Manager Sites 페이지는 Adobe Experience Manager 웹 사이트에 
 
 
 
-1. 사이트 페이지를 게시하려면 **생성**&#x200B;을 클릭하세요.
+1. 사이트 페이지를 게시하려면 **생성**&#x200B;을 선택하십시오.
 1. **파일 속성**&#x200B;의 **출력** 섹션 아래에서 주제에 대한 사이트 페이지를 볼 수 있습니다. Sites 페이지는 게시 날짜 및 시간에 따라 나타나며 최신 페이지를 첫 번째 페이지로 합니다.
 
-   ![주제에 대한 사이트 페이지 보기](images/aem-sites-outputs.png){width=300 align=&quot;left&quot;}
+   ![주제에 대한 사이트 페이지 보기](images/aem-sites-output-new.png){width=300 align=&quot;left&quot;}
 
    *주제에 대한 사이트 페이지를 보고 다시 게시합니다.*
-
-
-
 
 Sites 페이지를 게시하면 모든 Adobe Experience Manager 사이트에서도 사용할 수 있습니다.
 

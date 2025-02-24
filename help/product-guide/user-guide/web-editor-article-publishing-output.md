@@ -4,14 +4,18 @@ description: AEM Guides의 저장소 패널 또는 맵 보기 패널에서 출�
 exl-id: f7a4be54-9c51-44e6-96bb-f25e3a6155da
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: a02a7310f5e332f88827a9d5a05034abec05b43a
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
 
 # 저장소 패널 또는 맵 보기 패널에서 출력 생성 {#id218CL6010AE}
+
+>[!NOTE]
+>
+> 이전에 Adobe Experience Manager Guides에서 사용할 수 있었던 빠른 생성 패널은 버전 4.0 및 2502부터 더 이상 사용되지 않습니다. 빠른 생성 패널에 액세스하여 저장소 패널 또는 맵 보기 패널에서 출력을 생성할 수 없습니다.
 
 DITA 맵에 대해 만든 출력 사전 설정을 사용하여 저장소 패널 또는 맵 보기 패널에서 출력을 생성할 수도 있습니다.
 
@@ -23,7 +27,7 @@ DITA 맵에 대해 만든 출력 사전 설정을 사용하여 저장소 패널 
 
 - [맵 보기] 패널의 **출력 생성** 기능을 사용하여 선택한 여러 주제에 대한 출력을 생성합니다.
 
-## Publish 하나 이상의 DITA 맵에서 사용되는 주제
+## 하나 이상의 DITA 맵에 사용된 주제 게시
 
 다음 단계를 수행하여 DITA 맵에서 하나 이상의 주제에 대한 출력을 생성합니다.
 

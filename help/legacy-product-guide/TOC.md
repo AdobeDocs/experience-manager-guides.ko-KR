@@ -1,25 +1,23 @@
 ---
-user-guide-title: Experience Manager Guides (기존)
+user-guide-title: Experience Manager Guides 이전 UI
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 확인하십시오.
 breadcrumb-title: AEM Guides 설명서
 hide: true
-badgeAll: label="레거시 안내서 - 추가 정보" type="Informative" url="/help/legacy-product-guide/legacy.md" tooltip="레거시 안내서"
-source-git-commit: 328f74790de401c0595bcc4009110bc36f5104bf
+badgeAll: label="이전 UI 안내서 - 추가 정보" type="Informative" url="/help/legacy-product-guide/disclaimer.md" tooltip="이전 UI 안내서"
+source-git-commit: e1d6123991ddd8d25f76ee03befeb95f020a9834
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '550'
 ht-degree: 4%
 
 ---
 
 
-# [!DNL Adobe Experience Manager Guides (Legacy)] {#using-legacy}
+# [!DNL Adobe Experience Manager Guides Old UI] {#using-old-ui}
 
+- [면책 조항](disclaimer.md)
 - [[!DNL AEM Guides] 개요](overview.md)
-- [레거시 이해](legacy.md)
-- [릴리스 정보(기본 안내서)](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/release-info/aem-guides-releases-roadmap){target="_blank"}
-
-- 사용 안내서 {#user-guide}
-
+- [릴리스 정보](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/release-info/aem-guides-releases-roadmap){target="_blank"}
+- 사용 안내서(이전 UI) {#user-guide}
    - 소개 {#about-aem-guide}
       - [ [!DNL Adobe Experience Manager Guides] 정보](./user-guide/intro.md)
       - [!DNL AEM Guides] 작업 중 및 주요 기능 {#aemg-works-features}
@@ -31,18 +29,14 @@ ht-degree: 4%
       - [파일 및 폴더 관리](./user-guide/authoring-file-management.md)
       - [파일 다운로드](./user-guide/authoring-download-assets.md)
    - 작성자 콘텐츠 {#author-content}
-
       - [작성 개요](./user-guide/authoring-content.md)
       - 항목 만들기 및 미리 보기 {#create-preview-topics}
-
          - [주제 만들기 및 미리 보기](./user-guide/create-preview-topics.md)
          - [주제 만들기](./user-guide/web-editor-create-topics.md)
          - [주제 미리 보기](./user-guide/web-editor-preview-topics.md)
          - 콘텐츠 작성자 {#author-content-aem-guides}
-
             - [AEM Guides을 사용하여 콘텐츠를 작성하는 방법](./user-guide/authoring-content-xml-doc.md)
             - 웹 편집기 {#work-with-web-editor}
-
                - [웹 편집기 작업](./user-guide/web-editor.md)
                - [웹 편집기 실행](./user-guide/web-editor-launch-editor.md)
                - [웹 편집기에서 주제 편집](./user-guide/web-editor-edit-topics.md)
@@ -52,7 +46,6 @@ ht-degree: 4%
                - [웹 편집기 보기](./user-guide/web-editor-views.md)
                - [Schematron 파일 지원](./user-guide/support-schematron-file.md)
                - [콘텐츠를 작성할 AI 기반 스마트 제안](./user-guide/authoring-ai-based-smart-suggestions.md)
-
                - [웹 편집기에서 Markdown 문서 작성](./user-guide/web-editor-markdown-topic.md)
                - [콘텐츠에 인용 부호 추가](./user-guide/web-editor-apply-citations.md)
                - [데이터 소스의 데이터 사용](./user-guide/web-editor-content-snippet.md)
@@ -66,7 +59,6 @@ ht-degree: 4%
                - [웹 편집기에서 기준선 만들기 및 관리](./user-guide/web-editor-baseline.md)
                - [문서 상태](./user-guide/web-editor-document-states.md)
                - [레이블 사용](./user-guide/web-editor-use-label.md)
-
             - 맵 편집기 {#work-with-map-editor}
                - [맵 편집기 작업](./user-guide/map-editor.md)
                - [맵 만들기](./user-guide/map-editor-create-map.md)
@@ -76,12 +68,10 @@ ht-degree: 4%
                - [맵 편집기의 기타 기능](./user-guide/map-editor-other-features.md)
             - DITAVAL 편집기 {#ditaval-editor}
                - [DITAVAL 편집기 작업](./user-guide/ditaval-editor.md)
-
          - 콘텐츠 {#author-using-desktop-tools}을(를) 작성하기 위한 데스크톱 도구
             - [데스크탑 도구를 사용하여 콘텐츠 작성](./user-guide/author-desktop-tools.md)
             - [FrameMaker 작업](./user-guide/author-desktop-framemaker.md)
             - [산소를 사용한 작업](./user-guide/author-desktop-oxygen.md)
-
    - 콘텐츠 {#review-topic-maps} 검토
       - [주제 또는 맵 검토](./user-guide/review.md)
       - [DITA 프로젝트 만들기](./user-guide/authoring-create-dita-project.md)
@@ -123,10 +113,10 @@ ht-degree: 4%
       - [기준선으로 작업](./user-guide/generate-output-use-baseline-for-publishing.md)
       - [맵 콘솔에서 DITA 맵에 대한 출력 생성](./user-guide/generate-output-for-a-dita-map.md)
       - [출력 생성을 위해 맵 컬렉션 사용](./user-guide/generate-output-use-map-collection-output-generation.md)
-      - [Publish 대시보드를 사용하여 게시 작업 관리](./user-guide/generate-output-publish-dashboard.md)
+      - [게시 대시보드를 사용하여 게시 작업 관리](./user-guide/generate-output-publish-dashboard.md)
       - [기본 문제 해결](./user-guide/generate-output-basic-troubleshooting.md)
-      - [Publish 컨텐츠 조각](./user-guide/publish-content-fragment.md)
-      - [Publish 경험 조각](./user-guide/publish-experience-fragment.md)
+      - [콘텐츠 조각 게시](./user-guide/publish-content-fragment.md)
+      - [경험 조각 게시](./user-guide/publish-experience-fragment.md)
       - {#bulk-activation} 컨텐츠의 일괄 활성화
          - [게시된 콘텐츠의 벌크 활성화](./user-guide/conf-bulk-activation.md)
          - [벌크 활성화 맵 컬렉션 만들기](./user-guide/conf-bulk-activation-create-map-collection.md)
@@ -149,76 +139,4 @@ ht-degree: 4%
       - [컨텐츠 재사용 보고서](./user-guide/reports-content-reuse.md)
       - [전환 상태 보고서](./user-guide/reports-convertion-status.md)
       - [파일 버전 기록 보고서를 되돌렸습니다.](./user-guide/reports-reverted-file-version-history.md)
-
-<!--
-  - Articles {#kb-articles}
-
-    - Use native PDF publishing feature {#web-editor}
-      - [Publish PDF output](./web-editor/native-pdf-web-editor.md)
-      - [Configure additional special characters](./web-editor/configure-additional-special-characters.md)
-
-    - Authoring {#authoring}
-      - Web Editor {#webeditor}
-        - [Content re-usability in AEM Guides](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
-        - Customizing {#customizing}
-          - [Add custom button to toolbar](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
-          - [Add custom styles to Web Editor](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
-          - [Customize Folder ContextMenu](./knowledge-base/kb-articles/authoring/webeditor/customization/hide-create-ditamap-webeditor.md)
-          - [Customize File ContextMenu](./knowledge-base/kb-articles/authoring/webeditor/customization/remove-delete-from-webeditor.md)
-        - Schematron {#schematron}
-          - [Schematron Validation](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
-      - Reports {#reports}
-        - [Manage metadata for your DITA content](./knowledge-base/kb-articles/authoring/reports/manage-metadata.md)
-      - [Define icon for custom dita types](./knowledge-base/kb-articles/authoring/define-icon-for-custom-ditatypes.md)
-    - Guides Extention Framework {#extention-framework}
-      - Aem Guides Framework {#aem-guides-framework}
-        - [Basic Customisations](./guides-ui-extensions/aem_guides_framework/basic-customisation.md)
-        - [JUI Framework](./guides-ui-extensions/aem_guides_framework/jui-framework.md)
-        - Components {#framework-components}
-          - [Button](./guides-ui-extensions/aem_guides_framework/components/button.md)
-          - [Icon](./guides-ui-extensions/aem_guides_framework/components/icon.md)
-          - [Label](./guides-ui-extensions/aem_guides_framework/components/label.md)
-          - [List](./guides-ui-extensions/aem_guides_framework/components/list.md)
-          - [Textarea](./guides-ui-extensions/aem_guides_framework/components/textarea.md)
-        - Widgets {#framework-widgets}
-          - [Rendering Widgets](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
-          - [Basic Widgets](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
-      - Getting Started {#getting-started}
-        - [Introduction](./guides-ui-extensions/getting-started/introduction.md)
-        - [Installation guide](./guides-ui-extensions/getting-started/integrating-customisations.md)
-        - [Extension Repositry intro](./guides-ui-extensions/getting-started/extension-repo-intro.md)
-      - Customisations {#customisations}
-        - [Simple customisation](./guides-ui-extensions/customisations/add-button.md)
-        - [Customising Context Menus](./guides-ui-extensions/customisations/context-menus.md)
-        - [Customising Toolbar & Topbar](./guides-ui-extensions/customisations/toolbar-topbar.md)
-        - [Examples](./guides-ui-extensions/examples.md)
-        - [Customisable Jsons](./guides-ui-extensions/JSONs.md)
-        - Review{#review-app-customisations}
-          - [Components](./guides-ui-extensions/customisations/ReviewApp/components.md)
-          - [Customising](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
-          - [Custom Dialog](./guides-ui-extensions/customisations/ReviewApp/custom-dialog.md)
-    - Publishing {#publishing}
-
-      - [Configuring AEM Environment for Native PDF Publishing](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
-
-      - [Generate Bookmap's TOC in Native PDF Publishing](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
-
-      - [FMPS and Guides](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
-      - [Microservice architecture and performance](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
-      - [Configure microservice-based publishing with JWT authentication](./knowledge-base/publishing/configure-microservices.md)
-      - [Configure microservice-based publishing with OAuth authentication](./knowledge-base/publishing/configure-microservices-imt-config.md)
-
-      - [Publishing benchmarks on AEM cloud](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
-      - [Set up a custom DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
-
-    - Workflows {#workflows}
-      - [Post Generation Workflow](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
-    - Translation {#translation}
-      - [Exclude paragraphs from translation](./knowledge-base/kb-articles/translation/exclude-paragraphs-from-translation.md)
-    - Use Cases {#use-cases}
-      - [Working with conditional content](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
-      - [Working with keys](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
-
-  - [Use Oxygen Connector](./oxygen-connector/use-aem-connector.md)
-
--->
+- [사용 안내서(새 UI)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/about-aem-guide/intro)
