@@ -4,18 +4,14 @@ description: Experience Manager Guides(이전 XML Documentation for Adobe Experi
 feature: AEM Guides Tutorials
 role: User
 exl-id: de7bda03-371b-4414-846b-86787f98fda8
-source-git-commit: 67d6b6f59e5d8c37389a181949ce4527760576e2
+source-git-commit: 293d2fd9c015a4ec516080b9e5dfed32b96639b7
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '236'
 ht-degree: 1%
 
 ---
 
 # AEM Guides 개요
-
->[!NOTE]
->
->기존 안내서에 대한 참고 사항입니다. 메타데이터 배지 대신 또는 배지와 함께 사용할 수 있습니다.
 
 [!DNL Experience Manager Guides]&#x200B;(이하 _[!DNL AEM Guides]_)은(는) 강력한 엔터프라이즈급 구성 요소 콘텐츠 관리 솔루션(CCMS)입니다. Experience Manager의 기본 DITA 지원을 활성화하여 AEM에서 DITA 기반 콘텐츠 생성 및 전달을 처리할 수 있도록 촉진합니다. 작성자는 Adobe FrameMaker 또는 사용하기 쉬운 내장 웹 편집기와 같은 오프라인 DITA 작성 도구를 사용하여 컨텐츠를 만들 수 있습니다.
 
@@ -26,59 +22,6 @@ ht-degree: 1%
 >[!NOTE]
 > 
 > Adobe Experience Manager Guides은 이전에 _Adobe Experience Manager용 XML Documentation_ 브랜드로 지정되었습니다. 설명서 내의 특정 참조는 이전 브랜딩을 계속 참조할 수 있지만 현재 제공에 여전히 적용할 수 있습니다.
-
-<!--
-
-Dummy links cause validation to fail
-
-## Staff Picks
-
-<table>
-<tr>
-  <td>
-    <a href="#">
-      <img alt="400 x 225px" src="myimage.png" />
-    </a>
-    <div>
-      <a href="#">
-    <strong>Enablement Content 1</strong>
-    </a>
-    </div>
-    <p>
-    <em>A brief description of enablement content.</em>
-    <p>
-  </td>
-   <td>
-    <a href="#">
-      <img alt="400 x 225px" src="myimage.png" />
-    </a>
-    <div>
-      <a href="#">
-    <strong>Enablement Content 1</strong>
-    </a>
-    </div>
-    <p>
-    <em>A brief description of enablement content.</em>
-    <p>
-  </td>
-  <td>
-    <a href="#">
-      <img alt="400 x 225px" src="myimage.png" />
-    </a>
-    <div>
-      <a href="#">
-    <strong>Enablement Content 1</strong>
-    </a>
-    </div>
-    <p>
-    <em>A brief description of enablement content.</em>
-    <p>
-  </td>
-</tr>
-</table>
-
--->
-
 
 ## 추가 리소스
 

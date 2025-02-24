@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 살펴보십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: ab7e91306d9a5253205e773f148d789141b9b0d1
+source-git-commit: 293d2fd9c015a4ec516080b9e5dfed32b96639b7
 workflow-type: tm+mt
-source-wordcount: '2034'
+source-wordcount: '2040'
 ht-degree: 6%
 
 ---
@@ -126,7 +126,8 @@ ht-degree: 6%
       - [!DNL AEM Guides] 작업 중 및 주요 기능 {#aemg-works-features}
          - [ [!DNL AEM Guides] 작동 방식](./user-guide/intro-how-dxml-works.md)
          - [주요 [!DNL AEM Guides] 기능](./user-guide/intro-dxml-features.md)
-   - [[!DNL AEM Guides] 홈 페이지 경험](./user-guide/intro-home-page.md)
+   - {#home-page} 홈 페이지
+      - [[!DNL AEM Guides] 홈 페이지 경험](./user-guide/intro-home-page.md)
    - 콘텐츠 작성자 {#author-content}
       - [작성 개요](./user-guide/authoring-content.md)
       - [AEM Guides을 사용하여 콘텐츠를 작성하는 방법](./user-guide/authoring-content-xml-doc.md)
@@ -158,7 +159,7 @@ ht-degree: 6%
          - [DITAVAL 편집기 사용](./user-guide/ditaval-editor.md)
       - 콘텐츠 {#author-using-desktop-tools}을(를) 작성하기 위한 데스크톱 도구
          - [데스크탑 도구를 사용하여 콘텐츠 작성](./user-guide/author-desktop-tools.md)
-   - {#review} 검토
+   - 콘텐츠 {#review} 검토
       - [리뷰 소개](./user-guide/review.md)
       - [DITA 프로젝트 만들기](./user-guide/authoring-create-dita-project.md)
       - [검토할 항목 보내기](./user-guide/review-send-topics-for-review.md)
@@ -177,6 +178,19 @@ ht-degree: 6%
    - 맵 관리 및 게시 {#map-management-publishing}
       - [맵 콘솔 개요](./user-guide/map-console-overview.md)
       - [맵 콘솔에서 파일 열기](./user-guide/open-files-map-console.md)
+      - 보고서 {#reports-aem-guide}
+         - [보고서 소개](./user-guide/reports-intro.md)
+         - [맵 콘솔의 DITA 맵 보고서](./user-guide/reports-web-editor.md)
+         - [맵 대시보드의 DITA 맵 보고서](./user-guide/reports-ditamap.md)
+         - [컨텐츠 재사용 보고서](./user-guide/reports-content-reuse.md)
+         - [전환 상태 보고서](./user-guide/reports-convertion-status.md)
+         - [파일 버전 기록 보고서를 되돌렸습니다](./user-guide/reports-reverted-file-version-history.md)
+      - 콘텐츠 번역 {#translate-content}
+         - [콘텐츠 번역 개요](./user-guide/translation.md)
+         - [콘텐츠 번역 모범 사례](./user-guide/translation-first-time.md)
+         - [맵 콘솔에서 문서 번역](./user-guide/translate-documents-web-editor.md)
+         - [번역 상태 보기](./user-guide/translation-view-trans-state-6234.md)
+         - [수정된 주제 번역](./user-guide/translation-modified-topics-6234.md)
       - 출력 생성 {#output-gen}
          - [출력 생성 기본 사항](./user-guide/generate-output.md)
          - AEM Guides {#output-presets-aemg}의 출력 사전 설정
@@ -203,19 +217,6 @@ ht-degree: 6%
          - [글로벌 및 폴더 프로필 출력 사전 설정 관리](./user-guide/web-editor-manage-output-presets.md)
          - [대상 경로, 사이트 이름 또는 파일 이름 옵션 설정에 변수 사용](./user-guide/generate-output-use-variables.md)
          - [DITA-OT를 사용하여 메타데이터를 출력에 전달](./user-guide/pass-metadata-dita-ot.md)
-         - 보고서 {#reports-aem-guide}
-            - [보고서 소개](./user-guide/reports-intro.md)
-            - [맵 콘솔의 DITA 맵 보고서](./user-guide/reports-web-editor.md)
-            - [맵 대시보드의 DITA 맵 보고서](./user-guide/reports-ditamap.md)
-            - [컨텐츠 재사용 보고서](./user-guide/reports-content-reuse.md)
-            - [전환 상태 보고서](./user-guide/reports-convertion-status.md)
-            - [파일 버전 기록 보고서를 되돌렸습니다](./user-guide/reports-reverted-file-version-history.md)
-         - 콘텐츠 번역 {#translate-content}
-            - [콘텐츠 번역 개요](./user-guide/translation.md)
-            - [콘텐츠 번역 모범 사례](./user-guide/translation-first-time.md)
-            - [맵 콘솔에서 문서 번역](./user-guide/translate-documents-web-editor.md)
-            - [번역 상태 보기](./user-guide/translation-view-trans-state-6234.md)
-            - [수정된 주제 번역](./user-guide/translation-modified-topics-6234.md)
          - {#generate-output} 출력 생성
             - [DITA 맵에 대한 출력 생성](./user-guide/generate-output-for-a-dita-map.md)
             - [기술 자료 출력 생성](./user-guide/web-editor-article-publishing.md)
@@ -228,12 +229,12 @@ ht-degree: 6%
          - [출력 생성 프로세스 관리](./user-guide/generate-output-manage-process.md)
          - [게시 대시보드를 사용하여 게시 작업 관리](./user-guide/generate-output-publish-dashboard.md)
          - [기본 문제 해결](./user-guide/generate-output-basic-troubleshooting.md)
-         - {#bulk-activation} 컨텐츠의 일괄 활성화
-            - [게시된 콘텐츠의 벌크 활성화](./user-guide/conf-bulk-activation.md)
-            - [벌크 활성화 맵 컬렉션 만들기](./user-guide/conf-bulk-activation-create-map-collection.md)
-            - [출력 활성화](./user-guide/conf-bulk-activation-publish-map-collection.md)
-            - [벌크 활성화 맵 컬렉션 편집](./user-guide/conf-bulk-activation-edit-map-collection.md)
-            - [벌크 활성화 맵 컬렉션 삭제](./user-guide/conf-bulk-activation-delete-map-collection.md)
+      - {#bulk-activation} 컨텐츠의 일괄 활성화
+         - [게시된 콘텐츠의 벌크 활성화](./user-guide/conf-bulk-activation.md)
+         - [벌크 활성화 맵 컬렉션 만들기](./user-guide/conf-bulk-activation-create-map-collection.md)
+         - [출력 활성화](./user-guide/conf-bulk-activation-publish-map-collection.md)
+         - [벌크 활성화 맵 컬렉션 편집](./user-guide/conf-bulk-activation-edit-map-collection.md)
+         - [벌크 활성화 맵 컬렉션 삭제](./user-guide/conf-bulk-activation-delete-map-collection.md)
    - FrameMaker 문서 {#generate-fm-output}의 출력 생성
       - [FrameMaker 출력 생성 기본 사항](./user-guide/fm-output-generatation.md)
       - 지원되는 사전 설정 {#fm-docs-generating-presets}
@@ -256,7 +257,8 @@ ht-degree: 6%
          - [파일 업로드](./user-guide/authoring-upload-existing-files.md)
          - [파일 및 폴더 관리](./user-guide/authoring-file-management.md)
          - [파일 다운로드](./user-guide/authoring-download-assets.md)
-- [사용 안내서(이전 UI)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+- 사용 안내서(이전 UI) {#user-guide-old-ui}
+   - [AEM Guides 개요)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 설치 및 구성 {#install-guide}
    - 온-프레미스 {#on-prem-ig}
       - [On-Premise 기본 사항](./install-guide/introduction.md)

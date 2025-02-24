@@ -1,13 +1,13 @@
 ---
 user-guide-title: Experience Manager Guides 이전 UI
-user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 확인하십시오.
+user-guide-description: 이전 사용자 인터페이스를 사용하여 Adobe Experience Manager Guides에 대한 제품 설명서를 읽어 보십시오.
 breadcrumb-title: AEM Guides 설명서
 hide: true
 badgeAll: label="이전 UI 안내서 - 추가 정보" type="Informative" url="/help/legacy-product-guide/disclaimer.md" tooltip="이전 UI 안내서"
-source-git-commit: e1d6123991ddd8d25f76ee03befeb95f020a9834
+source-git-commit: 293d2fd9c015a4ec516080b9e5dfed32b96639b7
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 4%
+source-wordcount: '555'
+ht-degree: 3%
 
 ---
 
@@ -139,4 +139,5 @@ ht-degree: 4%
       - [컨텐츠 재사용 보고서](./user-guide/reports-content-reuse.md)
       - [전환 상태 보고서](./user-guide/reports-convertion-status.md)
       - [파일 버전 기록 보고서를 되돌렸습니다.](./user-guide/reports-reverted-file-version-history.md)
-- [사용 안내서(새 UI)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/about-aem-guide/intro)
+- [사용 안내서(새 UI)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/about-aemg/intro)
+
