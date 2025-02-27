@@ -3,7 +3,9 @@ title: 맵 만들기
 description: AEM Guides에서 맵 편집기를 사용하여 맵을 만듭니다. 맵 템플릿을 기반으로 맵 파일을 만드는 단계를 확인하십시오.
 feature: Authoring, Map Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 981ecaeb-9b1f-4c7a-8336-7746a739bedc
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -50,7 +52,7 @@ AEM Guides은 DITA 맵과 북맵이라는 두 가지 기본 맵 템플릿을 제
 
    >[!NOTE]
    >
-   > 고급 맵 편집기를 사용하려면 웹 편집기에서 맵 파일에 액세스합니다. 관리자가 고급 맵 편집기를 맵 파일의 기본 편집기로 구성한 경우 맵 파일은 편집을 위해 고급 맵 편집기에서 직접 열립니다. Adobe Experience Manager Guides as a Cloud Service 설치 및 구성 섹션에서 *고급 맵 편집기를 기본값으로 설정*&#x200B;을 참조하십시오.
+   > 고급 맵 편집기를 사용하려면 웹 편집기에서 맵 파일에 액세스합니다. 관리자가 고급 맵 편집기를 맵 파일의 기본 편집기로 구성한 경우 맵 파일은 편집을 위해 고급 맵 편집기에서 직접 열립니다. Adobe Experience Manager Guides as a Cloud Service 설치 및 구성에서 *고급 맵 편집기를 기본값으로 설정* 섹션을 참조하십시오.
 
 
 **상위 항목:**[&#x200B;맵 편집기 작업](map-editor.md)

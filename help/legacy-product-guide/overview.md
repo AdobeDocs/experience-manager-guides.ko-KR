@@ -3,8 +3,9 @@ title: Experience Manager Guides용 자습서
 description: Experience Manager Guides(이전 XML Documentation for Adobe Experience Manager)에 대한 자습서 비디오를 찾으십시오. Experience Manager의 기본 DITA 지원 및 구조화된 작성에 대해 알아봅니다.
 feature: AEM Guides Tutorials
 role: User
+hide: true
 exl-id: de7bda03-371b-4414-846b-86787f98fda8
-source-git-commit: 293d2fd9c015a4ec516080b9e5dfed32b96639b7
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 1%

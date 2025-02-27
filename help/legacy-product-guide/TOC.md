@@ -4,9 +4,9 @@ user-guide-description: 이전 사용자 인터페이스를 사용하여 Adobe E
 breadcrumb-title: AEM Guides 설명서
 hide: true
 badgeAll: label="이전 UI 안내서 - 추가 정보" type="Informative" url="/help/legacy-product-guide/disclaimer.md" tooltip="이전 UI 안내서"
-source-git-commit: 293d2fd9c015a4ec516080b9e5dfed32b96639b7
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '573'
 ht-degree: 3%
 
 ---
@@ -46,6 +46,8 @@ ht-degree: 3%
                - [웹 편집기 보기](./user-guide/web-editor-views.md)
                - [Schematron 파일 지원](./user-guide/support-schematron-file.md)
                - [콘텐츠를 작성할 AI 기반 스마트 제안](./user-guide/authoring-ai-based-smart-suggestions.md)
+               - [콘텐츠 검색에 대한 AI 기반 스마트 도움말](./user-guide/ai-based-smart-help.md)
+               - [효율적인 문서 작성을 위한 AI Assistant](./user-guide/ai-assistant-right-panel.md)
                - [웹 편집기에서 Markdown 문서 작성](./user-guide/web-editor-markdown-topic.md)
                - [콘텐츠에 인용 부호 추가](./user-guide/web-editor-apply-citations.md)
                - [데이터 소스의 데이터 사용](./user-guide/web-editor-content-snippet.md)
@@ -117,6 +119,7 @@ ht-degree: 3%
       - [기본 문제 해결](./user-guide/generate-output-basic-troubleshooting.md)
       - [콘텐츠 조각 게시](./user-guide/publish-content-fragment.md)
       - [경험 조각 게시](./user-guide/publish-experience-fragment.md)
+      - [AEM Sites 페이지 게시](./user-guide/publish-aem-sites.md)
       - {#bulk-activation} 컨텐츠의 일괄 활성화
          - [게시된 콘텐츠의 벌크 활성화](./user-guide/conf-bulk-activation.md)
          - [벌크 활성화 맵 컬렉션 만들기](./user-guide/conf-bulk-activation-create-map-collection.md)

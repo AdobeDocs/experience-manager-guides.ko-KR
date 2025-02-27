@@ -3,7 +3,9 @@ title: 콘텐츠 관리
 description: AEM Guides에서 콘텐츠를 관리하고 역할 및 권한을 식별합니다. 콘텐츠 관리의 주요 개념과 전역 또는 폴더 수준 프로필 작업에 대해 알아봅니다.
 feature: Content Management
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 54b960cf-fb00-4d4a-a836-9de4738c49a8
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 10%
@@ -16,7 +18,7 @@ ht-degree: 10%
 
 ## 주요 개념
 
-AEM의 콘텐츠 관리에 대한 몇 가지 주요 개념은 다음과 같습니다.
+AEM에서 컨텐츠 관리의 몇 가지 주요 개념은 다음과 같습니다.
 
 **자산 관리**
 

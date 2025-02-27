@@ -1,7 +1,9 @@
 ---
 title: 콘텐츠를 작성할 AI 기반 스마트 제안
 description: 웹 편집기에서 AI 기반 스마트 제안을 보고 활용하는 방법에 대해 알아봅니다.
-source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
+hide: true
+exl-id: 30c85d46-61ba-486c-979c-1a2ed95f5a32
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 0%
@@ -37,7 +39,7 @@ Experience Manager Guides에서는 일관되고 정확한 콘텐츠를 만드는
    > 현재 뷰포트(화면에 표시되는 콘텐츠)에 대한 제안만 볼 수 있습니다. 문서의 다른 컨텐츠에 대한 제안을 보려면 위 또는 아래로 스크롤하여 뷰포트에 표시한 다음 **재사용 가능한 컨텐츠 제안** ![ai 재사용 가능한 컨텐츠 제안 아이콘 ](./images/ai-suggest-reusable-content-icon.svg)을 선택합니다.
 
 
-1. 제안 패널에서 스마트 제안을 볼 수 있습니다.  Experience Manager Guides은 컨텍스트적으로 유사하거나 동일한 의미를 갖는 제안 콘텐츠를 제공합니다. 예를 들어 &quot;릴리스 버전 2023.03.12&quot;와 같은 정확한 버전 번호가 포함된 주제를 검색할 수 있습니다. 또한 &quot;Adobe은 캘리포니아 주 산호세에 본사가 있습니다&quot;를 검색하고 &quot;산호세에는 Adobe과 같은 많은 소프트웨어 회사의 4분의 1이 있습니다&quot;와 같은 유사한 콘텐츠를 찾을 수 있습니다.
+1. 제안 패널에서 스마트 제안을 볼 수 있습니다.  Experience Manager Guides은 컨텍스트적으로 유사하거나 동일한 의미를 갖는 제안 콘텐츠를 제공합니다. 예를 들어 &quot;릴리스 버전 2023.03.12&quot;와 같은 정확한 버전 번호가 포함된 주제를 검색할 수 있습니다. 또한 &quot;Adobe은 캘리포니아 주 산호세에 본사가 있습니다.&quot;를 검색하고 &quot;산호세에는 Adobe과 같은 많은 소프트웨어 회사의 4분의 1이 있습니다.&quot;와 같은 유사한 콘텐츠를 찾을 수 있습니다.
 1. 세부 정보를 보려면 **콘텐츠 정보** ![콘텐츠 정보](images/smart-suggestions-content-info-icon.svg)를 선택하십시오.
 
    ![콘텐츠 정보 패널](images/smart-suggestions-content-information.png){width="300" align="left"}

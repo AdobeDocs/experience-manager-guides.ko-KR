@@ -3,7 +3,9 @@ title: 콘텐츠 번역 모범 사례
 description: AEM Guides의 콘텐츠 번역 모범 사례를 알아봅니다. 번역 서비스를 구성하고 새 번역 프로젝트를 만들고 번역 작업을 시작하는 방법에 대해 알아봅니다.
 feature: Translation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 09e813fd-ec22-4d2e-9ee7-098d562ad44f
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1295'
 ht-degree: 1%
@@ -38,9 +40,9 @@ ht-degree: 1%
 
 1. Assets UI에서 소스 언어 폴더를 선택합니다.
 
-1. 폴더 속성을 열고 **Cloud Service** 탭으로 이동합니다.
+1. 폴더 속성을 열고 **클라우드 서비스** 탭으로 이동합니다.
 
-1. **Cloud Service** 탭에서 사용할 번역 서비스를 구성합니다.
+1. **클라우드 서비스** 탭에서 사용할 번역 서비스를 구성합니다.
 
    기계 기반 또는 사람 번역을 구성할 수 있습니다.
 

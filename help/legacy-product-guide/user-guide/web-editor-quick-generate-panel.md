@@ -3,7 +3,9 @@ title: 빠른 생성 패널 사용
 description: AEM Guides의 빠른 생성 패널을 사용합니다. 빠른 생성 패널에서 출력을 생성하고 보는 방법에 대해 알아봅니다.
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 8ba8eaa2-9ab0-4132-a751-48d2a527faf4
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%

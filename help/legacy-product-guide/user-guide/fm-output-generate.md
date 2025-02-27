@@ -3,7 +3,9 @@ title: .book 또는 .fm 파일의 출력 생성
 description: AEM Guides에서 .book 또는 .fm 파일의 출력을 생성하는 방법에 대해 알아봅니다.
 feature: Publishing FrameMaker Documents
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 9b5760bd-817c-4d8d-ab37-ab8699ac62fa
+source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 0%

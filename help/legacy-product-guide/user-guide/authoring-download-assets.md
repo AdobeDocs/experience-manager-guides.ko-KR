@@ -3,7 +3,9 @@ title: 파일 다운로드
 description: AEM Guides의 DITA 맵 콘솔에서 파일을 다운로드하고 AEM 저장소에서 DITA 맵 파일을 내보내는 방법에 대해 알아봅니다.
 feature: Content Management
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: b04a0abe-a029-44ac-b8f4-138d78908d44
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 # 파일 다운로드 {#id216MC0H0BE8}
 
-DITA 및 비 DITA 파일을 포함하는 에셋을 다운로드할 수 있습니다. 에셋을 다운로드할 수 있는 방법에는 여러 가지가 있으며, 일부 메서드는 AEM에 기본 사용되며, 다른 메서드는 AEM Guides에서 지원합니다. 기본 AEM 에셋 다운로드 정보는 AEM 설명서의 [Adobe Experience Manager에서 에셋 다운로드](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html)를 참조하십시오. 다음 섹션에서는 AEM Guides에서 DITA 맵 콘솔을 통해 파일을 다운로드하는 메커니즘에 대해 설명합니다.
+DITA 및 비 DITA 파일을 포함하는 에셋을 다운로드할 수 있습니다. 에셋을 다운로드할 수 있는 방법에는 여러 가지가 있으며, 일부 메서드는 AEM에 고유하고 다른 메서드는 AEM Guides에서 지원합니다. 기본 AEM 에셋 다운로드 정보는 AEM 설명서의 [Adobe Experience Manager에서 에셋 다운로드](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html)를 참조하십시오. 다음 섹션에서는 AEM Guides에서 DITA 맵 콘솔을 통해 파일을 다운로드하는 메커니즘에 대해 설명합니다.
 
 ## DITA 맵 파일 내보내기
 
@@ -46,7 +48,7 @@ AEM 저장소에 DITA 맵 파일이 있으면 해당 종속 항목과 함께 맵
 
    - **다운로드**&#x200B;를 클릭하여 맵 파일을 in.zip 형식으로 다운로드합니다.
 
-   - 나중에 맵 파일을 다운로드하려면 **나중에 다운로드**&#x200B;를 클릭하십시오. 다운로드 링크는 AEM 알림 받은 편지함에서 액세스할 수 있습니다. 받은 편지함에서 생성된 맵 알림을 클릭하여 .zip 형식으로 맵을 다운로드합니다.
+   - 나중에 맵 파일을 다운로드하려면 **나중에 다운로드**&#x200B;를 클릭하십시오. AEM 알림 받은 편지함에서 다운로드 링크에 액세스할 수 있습니다. 받은 편지함에서 생성된 맵 알림을 클릭하여 .zip 형식으로 맵을 다운로드합니다.
 
    >[!NOTE]
    >

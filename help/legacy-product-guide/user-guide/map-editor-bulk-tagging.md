@@ -3,7 +3,9 @@ title: DITA 콘텐츠의 벌크 태그 지정
 description: AEM Guides의 일괄 컨텐츠 태깅을 사용하여 DITA 컨텐츠 검색 기능을 개선합니다. 단일 또는 여러 항목에서 일괄 태그를 적용, 제거, 표시 또는 숨기는 방법을 알아봅니다.
 feature: Metadata Management
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: b320e34f-ee0a-4cc3-b4f6-d322fbb29844
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%

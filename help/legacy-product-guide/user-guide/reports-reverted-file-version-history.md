@@ -3,7 +3,9 @@ title: 파일 버전 기록 보고서를 되돌렸습니다.
 description: AEM Guides에서 되돌린 파일 버전 내역 보고서를 봅니다. Assets UI, 주제 미리 보기 및 AEM 도구 선택에서 버전 로그 되돌리기 를 액세스하는 방법에 대해 알아봅니다.
 feature: Report Generation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: c787947a-b235-4c12-a9cc-eac5136d31db
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%

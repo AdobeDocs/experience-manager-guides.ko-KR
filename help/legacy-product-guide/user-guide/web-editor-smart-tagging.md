@@ -3,7 +3,9 @@ title: 스마트 태깅
 description: AEM Guides에서 스마트 태그를 추가하는 방법을 알아봅니다. XML 키워드 추출 도구를 사용하여 관련 키워드를 추출하십시오.
 feature: Metadata Management
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: dd5b2648-37e1-4737-bd9d-8618f735d11f
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%

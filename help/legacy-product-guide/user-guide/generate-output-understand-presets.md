@@ -1,9 +1,11 @@
 ---
 title: 출력 사전 설정 이해
-description: AEM Guides의 출력 사전 설정을 이해합니다. AEM 사이트, PDF, HTML5, EPUB, 사용자 지정 및 JSON 형식에 대한 웹 편집기 및 맵 대시보드에서 출력 사전 설정을 만듭니다.
+description: AEM Guides의 출력 사전 설정을 이해합니다. 웹 편집기와 AEM 사이트, PDF, HTML5, EPUB, 사용자 지정 및 JSON 형식에 대한 맵 대시보드에서 출력 사전 설정을 만듭니다.
 feature: Publishing
+hide: true
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+exl-id: 682ca543-86f3-46b0-9e05-7e011a4cf7b8
+source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%
@@ -12,14 +14,14 @@ ht-degree: 0%
 
 # 출력 사전 설정 이해 {#understanding_output_settings}
 
-AEM Guides에서는 AEM Site, PDF, 기술 자료, HTML5, EPUB, JSON 및 DITA-OT, 기본 PDF 및 FMPS를 통한 사용자 지정 출력과 같이 가장 인기 있는 형식으로 출력을 만들 수 있습니다. 이러한 출력 형식을 사용하여 다양한 출력 사전 설정을 구성할 수 있습니다. 출력 사전 설정은 콘텐츠를 게시하려는 사용자 지정된 출력 형식을 나타냅니다.
+AEM Guides은 AEM Site, PDF, Knowledge Base, HTML5, EPUB, JSON 및 DITA-OT, 기본 PDF 및 FMPS를 통한 사용자 지정 출력과 같이 가장 인기 있는 형식으로 출력을 만들 수 있습니다. 이러한 출력 형식을 사용하여 다양한 출력 사전 설정을 구성할 수 있습니다. 출력 사전 설정은 콘텐츠를 게시하려는 사용자 지정된 출력 형식을 나타냅니다.
 
 다음 섹션에서는 지원되는 출력 형식에 사용할 수 있는 옵션에 대해 설명합니다.
 
 다음 두 가지 방법으로 사전 설정을 만들 수 있습니다.
 
-- **웹 편집기에서**: AEM Site, PDF, 기술 자료, HTML5, 사용자 지정 및 JSON 출력 사전 설정을 만들고 해당 출력을 생성할 수 있습니다.
-- **맵 대시보드에서**: AEM Site, PDF, HTML5, EPUB 및 사용자 지정 출력 사전 설정을 만들고 각각의 출력을 생성할 수 있습니다.
+- **웹 편집기에서**: AEM Site, PDF, 기술 자료, HTML5, 사용자 지정 및 JSON 출력 사전 설정을 만들고 각각의 출력을 생성할 수 있습니다.
+- **맵 대시보드에서**: AEM 사이트, PDF, HTML5, EPUB 및 사용자 지정 출력 사전 설정을 만들고 각각의 출력을 생성할 수 있습니다.
 
 다음 섹션에서는 지원되는 출력 형식에 사용할 수 있는 옵션에 대해 설명합니다.
 

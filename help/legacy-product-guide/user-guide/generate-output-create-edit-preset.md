@@ -3,7 +3,9 @@ title: 출력 사전 설정 만들기, 편집, 복제 또는 제거
 description: AEM Guides에서 사용자 지정 출력 사전 설정을 만들고, 편집하고, 복제하고, 삭제하는 방법에 대해 알아봅니다.
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: f770dd7e-0c52-4a97-ba93-ddd12832d5ae
+source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 0%

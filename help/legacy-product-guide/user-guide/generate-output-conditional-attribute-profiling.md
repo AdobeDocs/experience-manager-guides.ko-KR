@@ -3,10 +3,12 @@ title: 조건부 속성 프로파일링
 description: AEM Guides에서 조건부 속성을 만드는 방법을 알아봅니다. 폴더 및 전역 프로필에서 조건부 속성을 사용하여 콘텐츠를 조건화합니다.
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: f8397acf-acd3-4e68-adce-9adbbef55337
+source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
 workflow-type: tm+mt
 source-wordcount: '481'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -50,7 +52,7 @@ AEM Guides을 사용하면 관련 DITA 속성을 사용하여 조건부 속성�
 
 1. 특성을 더 추가하려면 **추가**&#x200B;를 클릭하세요.
 
-1. 변경 내용을 저장하려면 **저장**&#x200B;을 클릭하세요.
+1. **저장**&#x200B;을 클릭하여 변경 내용을 저장합니다.
 
 
 `platform` 특성은 시스템에 저장됩니다. 작성자가 폴더의 DITA 주제에 `platform` 특성을 사용하기로 결정할 때마다 웹 편집기의 속성 탭에 값이 표시됩니다.

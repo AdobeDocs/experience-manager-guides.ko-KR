@@ -3,7 +3,9 @@ title: 웹 편집기에서 문서 번역
 description: 웹 편집기에서 콘텐츠를 여러 언어로 번역합니다. AEM Guides에서 번역 프로젝트를 만들고, 규칙을 추가하고, 버전을 보고, 동기화되지 않은 파일을 무시하는 방법을 알아봅니다.
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: a288a4d5-5c24-4021-8bfa-4b68cecf630f
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '2343'
 ht-degree: 0%
@@ -20,7 +22,7 @@ AEM Guides에는 콘텐츠를 여러 언어로 번역할 수 있는 강력한 �
 
 >[!NOTE]
 >
-> 관리자는 웹 편집기에서 관리 탭 \(번역에 사용\)을 구성할 수 있습니다. 자세한 내용은 웹 편집기에서 *번역 기능 구성* 섹션을 참조하십시오. Adobe Experience Manager Guides as a Cloud Service 설치 및 구성
+> 관리자는 웹 편집기에서 관리 탭 \(번역에 사용\)을 구성할 수 있습니다. 자세한 내용은 Adobe Experience Manager Guides as a Cloud Service 설치 및 구성 섹션의 *웹 편집기에서 번역 기능 구성* 섹션을 참조하십시오.
 
 ## 시작하기에 앞서
 
@@ -136,7 +138,7 @@ AEM Guides을 사용하면 관리자가 번역 규칙을 구성할 수 있습니
 SRX 파일의 이름은 `<language-code>.srx`(으)로 지정해야 합니다. 예: en-US 또는 ar-AE.
 
 >[!NOTE]
->제목은 대/소문자를 구분하지 않으므로 &#39;en-US&#39; 또는 &#39;en-us&#39; 또는 &#39;EN-us&#39;를 사용할 수 있습니다. 또한 AEM 가이드는 &#39;-&#39;(하이픈) 또는 &#39;_&#39;(밑줄)을 확인할 수 있습니다. 따라서 &#39;en-US&#39; 또는 &#39;en_US&#39;를 사용할 수 있습니다.
+>제목은 대/소문자를 구분하지 않으므로 &#39;en-US&#39; 또는 &#39;en-us&#39; 또는 &#39;EN-us&#39;를 사용할 수 있습니다. 또한 AEM 안내서에서는 &#39;-&#39;(하이픈) 또는 &#39;_&#39;(밑줄)을 확인할 수 있습니다. 따라서 &#39;en-US&#39; 또는 &#39;en_US&#39;를 사용할 수 있습니다.
 
 또한 이러한 파일을 `./content/dam`인 AEM 에셋 루트 아래의 모든 폴더에 넣을 수 있습니다.
 

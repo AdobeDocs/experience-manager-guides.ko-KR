@@ -3,7 +3,9 @@ title: 벌크 활성화 맵 컬렉션 삭제
 description: AEM Guides에서 일괄 활성화 맵 컬렉션을 삭제하는 방법에 대해 알아봅니다.
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 374f8265-9aa0-4a08-8afa-ae9ce0cb33e6
+source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 0%
@@ -18,7 +20,7 @@ ht-degree: 0%
 
 1. 맨 위에 있는 Adobe Experience Manager 링크를 클릭하고 **도구**&#x200B;를 선택합니다.
 
-1. **일괄 Publish 대시보드** 타일을 클릭합니다.
+1. **일괄 게시 대시보드** 타일을 클릭합니다.
 
    벌크 활성화 맵 컬렉션 목록이 표시됩니다.
 

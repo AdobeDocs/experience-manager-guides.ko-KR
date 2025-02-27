@@ -1,9 +1,11 @@
 ---
 title: 웹 편집기 보기
-description: 작성자, 소스 및 미리보기 모드에서 문서를 봅니다. 조건부 필터를 기반으로 컨텐츠를 보고, 변경 내용 추적을 보고, AEM Guides에서 주제를 PDF으로 내보내는 방법에 대해 알아봅니다.
+description: 작성자, 소스 및 미리보기 모드에서 문서를 봅니다. 조건부 필터를 기반으로 컨텐츠를 보고, 변경 내용 추적을 보고, AEM Guides에서 주제를 PDF으로 내보내는 방법을 알아봅니다.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: dbc27856-6903-4694-9875-77dc778c80bd
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 0%
@@ -120,22 +122,22 @@ Source 보기에는 항목을 구성하는 기본 XML이 표시됩니다. XML을
 
 ### 주제를 PDF으로 내보내기 {#id2114BL00B5U}
 
-PDF은 문서 개발 주기의 모든 단계에서 사용되는 가장 일반적인 출력 형식 중 하나입니다. AEM Guides은 개별 주제 또는 전체 맵 파일의 PDF을 생성할 수 있는 유연성을 제공합니다. PDF으로 내보내기 기능을 사용하면 작성자, 게시자 또는 관리자가 개별 주제에 대한 PDF 출력을 쉽게 생성할 수 있습니다. 폴더 수준 프로파일에 저장된 DITA-OT 구성을 사용하여 PDF을 생성합니다.
+PDF은 문서 개발 주기의 모든 단계에서 사용되는 가장 일반적인 출력 형식 중 하나입니다. AEM Guides에서는 개별 항목 또는 전체 맵 파일의 PDF을 생성할 수 있는 유연성을 제공합니다. PDF으로 내보내기 기능을 사용하면 작성자, 게시자 또는 관리자가 개별 주제에 대한 PDF 출력을 쉽게 생성할 수 있습니다. 폴더 수준 프로필에 저장된 DITA-OT 구성을 사용하여 PDF을 생성합니다.
 
 이 기능은 다음 기능을 지원합니다.
 
 - 주제의 현재 활성 작업 복사본에 대한 PDF을 생성합니다.
-- DITA-OT 변환 이름과 명령줄 인수를 사용하여 PDF을 생성합니다.
+- DITA-OT 변환 이름과 명령줄 인수를 수락하여 PDF을 생성합니다.
 - 생성된 출력을 로컬 시스템에 저장합니다.
 - 출력을 생성하기 전에 주제에 사용된 키 및 컨텐츠 참조를 확인합니다.
 
-항목을 PDF으로 내보내려면 다음 단계를 수행합니다.
+주제를 PDF으로 내보내려면 다음 단계를 수행합니다.
 
 1. 미리보기 모드에서 주제를 엽니다.
 
 1. **PDF으로 내보내기** \(![](images/export-as-pdf-icon.svg)\) 아이콘을 클릭합니다.
 
-   [PDF으로 내보내기] 대화 상자가 표시됩니다.
+   PDF으로 내보내기 대화 상자가 표시됩니다.
 
    ![](images/export-as-pdf-dialog.png){width="350" align="left"}
 

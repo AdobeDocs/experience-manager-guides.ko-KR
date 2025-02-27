@@ -3,7 +3,9 @@ title: DITA-OT를 사용하여 메타데이터를 출력에 전달
 description: AEM Guides에서 DITA-OT 게시를 사용하여 메타데이터를 출력에 전달하는 방법을 알아봅니다.
 feature: Publishing, Metadata Management
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 55d70c6d-feb0-43f7-9f18-6d1ccdd1e728
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 # DITA-OT를 사용하여 메타데이터를 출력에 전달 {#id21BJ00QD0XA}
 
-메타데이터는 출력에 대한 추가 정보입니다. AEM Guides에서 기존 메타데이터를 전달하거나 사용자 지정 메타데이터 태그를 만들 수 있습니다. DITA-OT 게시를 사용하여 AEM, PDF, HTML 5, EPUB 및 사용자 지정 형식 출력으로 메타데이터를 전달할 수 있습니다.
+메타데이터는 출력에 대한 추가 정보입니다. AEM Guides에서 기존 메타데이터를 전달하거나 사용자 지정 메타데이터 태그를 만들 수 있습니다. DITA-OT 게시를 사용하여 AEM, PDF, HTML5, EPUB 및 사용자 지정 형식 출력에 메타데이터를 전달할 수 있습니다.
 
 DITA-OT 게시를 사용하여 메타데이터를 출력에 전달하려면 다음 단계를 수행합니다.
 

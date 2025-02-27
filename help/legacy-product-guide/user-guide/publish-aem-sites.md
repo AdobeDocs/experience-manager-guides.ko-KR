@@ -1,16 +1,17 @@
 ---
-title: AEM Sites 페이지에 대한 주제 Publish
-description: Publish 항목 또는 항목 내의 요소를 Adobe Experience Manager Sites 출력으로 출력합니다.  주제에 대한 Experience Manager Sites 페이지 표시를 보고 다시 게시하는 방법을 알아봅니다.
+title: AEM Sites 페이지에 주제 게시
+description: 주제 또는 주제 내의 요소를 Adobe Experience Manager Sites 출력에 게시합니다.  주제에 대한 Experience Manager Sites 페이지 표시를 보고 다시 게시하는 방법을 알아봅니다.
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '638'
 ht-degree: 0%
 
 ---
 
-# Publish Adobe Experience Manager Sites 페이지
+# Adobe Experience Manager Sites 페이지 게시
 
 
 Experience Manager Sites 페이지는 Adobe Experience Manager 웹 사이트에 게시된 콘텐츠를 나타냅니다. Experience Manager Guides을 사용하면 독립 실행형 항목을 Sites 페이지에 게시할 수 있습니다.

@@ -1,9 +1,11 @@
 ---
 title: 주제 미리 보기
-description: AEM Guides에서 주제를 미리 보는 방법에 대해 알아봅니다. 미리보기 모드에서 사용할 수 있는 기능에 대해 알아봅니다. AEM Guides의 분기, 되돌리기 및 이후 버전 관리.
+description: AEM Guides에서 주제를 미리 보는 방법에 대해 알아봅니다. 미리보기 모드에서 사용할 수 있는 기능에 대해 알아봅니다. AEM 안내서의 분기, 되돌리기 및 후속 버전 관리.
 feature: Authoring
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: c2c24b6f-08e8-47be-be33-b3e9fb50052e
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1859'
 ht-degree: 0%
@@ -27,7 +29,7 @@ ht-degree: 0%
 
    >[!IMPORTANT]
    >
-   > 미리 보기 도구 모음에서 다음 기능은 AEM 서버의 설정에 따라 위치가 다를 수 있습니다. 일부 기능은 기본 도구 모음에서 사용할 수 있고, 다른 기능은 기타 메뉴에서 사용할 수 있습니다.
+   > 미리 보기 도구 모음에서 다음 기능의 위치는 AEM 서버의 설정에 따라 다를 수 있습니다. 일부 기능은 기본 도구 모음에서 사용할 수 있고, 다른 기능은 기타 메뉴에서 사용할 수 있습니다.
 
 ## 미리보기 모드에서 사용 가능한 기능
 

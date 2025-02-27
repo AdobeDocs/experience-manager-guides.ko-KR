@@ -3,7 +3,9 @@ title: 주제 검토
 description: AEM Guides에서 항목을 검토하고 검토자, 문서 보기, 항목 보기, 상황별 도구 모음, 미리 보기 모드, 댓글에 첨부 파일 추가 및 조건 패널로서의 기능을 사용하는 방법에 대해 알아봅니다.
 feature: Reviewing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 371d89b8-fe05-4477-9bf8-cc47c0899108
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '2351'
 ht-degree: 0%
@@ -30,7 +32,7 @@ ht-degree: 0%
    >
    > 다음에서 검토를 만든 경우 UI가 다를 수 있습니다.
    >
-   > - AEM Guides as a Cloud Service 2002년 11월 또는 이전 릴리스
+   > - AEM Guides as a Cloud Service 2022년 11월 릴리스 또는 이전
    > - AEM Guides 버전 4.1 이하
 
 

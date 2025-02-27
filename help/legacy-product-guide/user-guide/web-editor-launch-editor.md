@@ -3,7 +3,9 @@ title: 웹 편집기 실행
 description: AEM Guides의 AEM 탐색 페이지, AEM Assets UI 및 DITA 맵 콘솔에서 웹 편집기를 실행하는 방법을 알아봅니다.
 feature: Authoring, Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 374042e4-0f1c-44cf-926c-c9fefa4b1de0
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 0%
@@ -32,7 +34,7 @@ AEM에 로그인하면 탐색 페이지가 표시됩니다.
 
 파일을 선택하지 않고 웹 편집기를 시작하면 빈 웹 편집기 화면이 표시됩니다. AEM 저장소 또는 즐겨찾기 컬렉션에서 편집할 파일을 열 수 있습니다.
 
-- AEM 탐색 페이지로 돌아가려면 **안내서** 아이콘(![](images/aem-guides-icon.png))을 클릭하십시오.
+- **안내서** 아이콘(![](images/aem-guides-icon.png))을 클릭하여 AEM 탐색 페이지로 돌아갑니다.
 
 - **닫기** 단추를 사용하면 설정에 따라 대상으로 이동합니다.
 
@@ -42,7 +44,7 @@ AEM에 로그인하면 탐색 페이지가 표시됩니다.
 
   <summary> 클라우드 서비스 </summary>
 
-  Cloud Service을 사용하는 경우 **닫기** 단추를 클릭하여 AEM 탐색 페이지로 돌아갑니다.
+  클라우드 서비스를 사용하는 경우 **닫기** 단추를 클릭하여 AEM 탐색 페이지로 돌아갑니다.
   </details>
 
   <details>

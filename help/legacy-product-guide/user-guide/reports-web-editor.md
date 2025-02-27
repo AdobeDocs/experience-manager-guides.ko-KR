@@ -3,7 +3,9 @@ title: 웹 편집기의 DITA 맵 보고서
 description: AEM Guides의 웹 편집기에서 DITA 맵 보고서를 생성합니다. 주제 목록, 멀티미디어, 메타데이터 및 끊어진 링크 보고서에 대한 CSV를 생성하는 방법에 대해 알아봅니다.
 feature: Report Generation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: d0fc902a-0b50-4af5-9e24-5564d216396c
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '2366'
 ht-degree: 0%

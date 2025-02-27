@@ -1,7 +1,8 @@
 ---
 title: 콘텐츠 검색에 대한 AI 기반 스마트 도움말
 description: 웹 편집기에서 AI 기반 스마트 도움말을 보고 활용하는 방법에 대해 알아봅니다.
-source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
+hide: true
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 Experience Manager Guides은 [Adobe Experience Manager Guides 설명서](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)에서 관련 콘텐츠를 찾는 데 도움이 되는 대화형 검색 기능인 GenAI 기반 스마트 도움말을 제공합니다.
 질문을 하고 유익한 방법으로 답변을 얻을 수 있다. 쿼리에 대한 답변은 제품 설명서의 콘텐츠를 기반으로 합니다. 이 검색은 완전히 대화형입니다. 질문을 한 다음 응답을 기반으로 추가 질문을 할 수도 있습니다. 이 응답에는 소스 문서에 대한 링크도 포함되어 있습니다. 자세한 내용은 을 참조하십시오.
 
-예를 들어, Experience Manager Guides에서 설명서에 대한 주제를 만들 수 있습니다. *주제를 만드는 방법을 물어볼 수 있습니다.* 응답 및 관련 문서에 대한 링크를 받습니다. 그런 다음 문서에 대한 PDF 출력을 생성하는 방법을 배우려면 해당 문서에 대한 질문을 할 수 있습니다. 예를 들어 *PDF에 항목을 게시하는 방법* 또는 *주제에 대한 PDF 출력을 생성하는 방법*
+예를 들어, Experience Manager Guides에서 설명서에 대한 주제를 만들 수 있습니다. *주제를 만드는 방법을 물어볼 수 있습니다.* 응답 및 관련 문서에 대한 링크를 받습니다. 그런 다음 문서에 대한 PDF 출력을 생성하는 방법을 배우려면 관련 질문을 할 수 있습니다. 예를 들어 *PDF에 항목을 게시하는 방법* 또는 *주제에 대한 PDF 출력을 생성하는 방법*
 
 
 
@@ -25,7 +26,7 @@ Experience Manager Guides은 [Adobe Experience Manager Guides 설명서](https:/
 
 >[!NOTE]
 >
-> 관리자가 **스마트 도움말** 기능을 구성해야 합니다. 자세한 내용은 Cloud Service 설치 및 구성 안내서의 [콘텐츠를 검색하도록 AI 기반 스마트 도움말 구성](/help/product-guide/cs-install-guide/conf-smart-help.md) 섹션을 참조하십시오.
+> 관리자가 **스마트 도움말** 기능을 구성해야 합니다. 자세한 내용은 클라우드 서비스 설치 및 구성 안내서의 [콘텐츠를 검색하도록 AI 기반 스마트 도움말 구성](/help/product-guide/cs-install-guide/conf-smart-help.md) 섹션을 참조하십시오.
 
 ![고급 도움말 패널](images/smart-help-panel.png){width="300" align="left"}
 

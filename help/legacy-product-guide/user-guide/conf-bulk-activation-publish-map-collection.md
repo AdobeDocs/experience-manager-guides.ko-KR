@@ -3,7 +3,9 @@ title: 출력 활성화
 description: AEM Guides에서 DITA 맵의 출력을 활성화합니다. 게시 인스턴스에서 콘텐츠를 활성화하는 방법을 알아봅니다.
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: de1fd057-60c6-4b1a-9e55-f32969eb0079
+source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 1%
@@ -18,7 +20,7 @@ ht-degree: 1%
 
 1. 맨 위에 있는 Adobe Experience Manager 링크를 클릭하고 **도구**&#x200B;를 선택합니다.
 
-1. **일괄 Publish 대시보드** 타일을 클릭합니다.
+1. **일괄 게시 대시보드** 타일을 클릭합니다.
 
    벌크 활성화 맵 컬렉션 목록이 표시됩니다.
 
@@ -40,19 +42,19 @@ ht-degree: 1%
 
 클라우드 서비스에 ![bulk-collection-publish](images/bulk-activation-collection-quick-publish-CS.png){width="650" align="left"}
 
-**미리 보기** 또는 **Publish** 인스턴스에 대한 출력을 활성화할 수 있습니다.
+**미리 보기** 또는 **게시** 인스턴스에 대한 출력을 활성화할 수 있습니다.
 
 **미리보기**
 
-* 선택한 맵의 출력을 활성화하려면 미리 생성된 맵 출력을 선택하고 **Publish to** > **미리 보기**&#x200B;를 선택합니다.
-* 구성된 사전 설정으로 모든 DITA 맵의 출력을 활성화하려면 **맵** 열 옆의 확인란을 선택한 다음 **Publish to** > **Publish**&#x200B;을(를) 선택합니다.
+* 선택한 맵의 출력을 활성화하려면 미리 생성된 맵 출력을 선택하고 **게시 대상** > **미리 보기**&#x200B;를 선택합니다.
+* 구성된 사전 설정으로 모든 DITA 맵의 출력을 활성화하려면 **맵** 열 옆의 확인란을 선택한 다음 **게시 대상** > **게시**&#x200B;를 선택합니다.
 
 
-**Publish**
+**게시**
 
-* 선택한 맵의 출력을 활성화하려면 미리 생성된 맵 출력을 선택하고 **Publish to** > **Publish**&#x200B;을(를) 선택합니다.
+* 선택한 맵의 출력을 활성화하려면 미리 생성된 맵 출력을 선택하고 **게시 대상** > **게시**&#x200B;를 선택합니다.
 
-* 구성된 사전 설정으로 모든 DITA 맵의 출력을 활성화하려면 맵(열) 옆의 확인란을 선택한 다음 **Publish to** > **Publish**&#x200B;을(를) 선택합니다.
+* 구성된 사전 설정으로 모든 DITA 맵의 출력을 활성화하려면 맵(열) 옆에 있는 확인란을 선택한 다음 **게시 대상** > **게시**&#x200B;를 선택합니다.
 
 
 >[!NOTE]
@@ -71,8 +73,8 @@ ht-degree: 1%
 
 다음 중 하나를 수행하십시오.
 
-* 선택한 맵의 출력을 활성화하려면 미리 생성된 맵 출력을 선택하고 **빠른 Publish**&#x200B;을(를) 선택합니다.
-* 구성된 사전 설정으로 모든 DITA 맵의 출력을 활성화하려면 맵(열) 옆에 있는 확인란을 선택한 다음 **빠른 Publish을 선택합니다.**
+* 선택한 맵의 출력을 활성화하려면 미리 생성된 맵 출력을 선택하고 **빠른 게시**&#x200B;를 선택합니다.
+* 구성된 사전 설정으로 모든 DITA 맵의 출력을 활성화하려면 맵(열) 옆에 있는 확인란을 선택한 다음 **빠른 게시**를 선택합니다.
   ![bulk-collection-publish](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
 
   >[!NOTE]

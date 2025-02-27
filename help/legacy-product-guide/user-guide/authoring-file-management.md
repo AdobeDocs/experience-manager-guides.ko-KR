@@ -3,7 +3,9 @@ title: 파일 및 폴더 관리
 description: AEM Guides에서 파일 및 폴더를 관리하는 방법에 대해 알아봅니다. 복사 및 붙여넣기, 드래그 앤 드롭, 삭제, 일괄 파일 및 폴더 이동 및 DITA 콘텐츠 검색.
 feature: Content Management
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 35663aa1-9e52-4909-aaee-0f01cf47dc64
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '3109'
 ht-degree: 0%
@@ -66,7 +68,7 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >관리자가 **업로드 시 체크 아웃된 파일 덮어쓰기** 기능을 사용하지 않도록 설정해야 합니다. 이 기능이 활성화되어 있으면 체크 아웃된 파일을 덮어쓸 수 있습니다. 이 기능이 활성화되어 있지 않으면 체크 아웃된 파일을 덮어쓸 수 없습니다. 자세한 내용은 *업로드 시 체크 아웃된 파일 덮어쓰기* 섹션의 Adobe Experience Manager Guides as a Cloud Service 설치 및 구성 섹션을 참조하십시오.
+  >관리자가 **업로드 시 체크 아웃된 파일 덮어쓰기** 기능을 사용하지 않도록 설정해야 합니다. 이 기능이 활성화되어 있으면 체크 아웃된 파일을 덮어쓸 수 있습니다. 이 기능이 활성화되어 있지 않으면 체크 아웃된 파일을 덮어쓸 수 없습니다. 자세한 내용은 Adobe Experience Manager Guides as a Cloud Service 설치 및 구성 섹션의 *업로드 시 체크 아웃된 파일 덮어쓰기* 섹션을 참조하십시오.
 
 
 - *다른 위치에서 파일을 드래그 앤 드롭하십시오*: 파일의 새 복사본이 만들어지고 새 위치에서 새 UUID도 할당됩니다. 여기서 파일 이름은 원래 파일 이름과 같습니다.
@@ -130,7 +132,7 @@ AEM Guides에는 관리자가 여러 파일이 있는 폴더를 한 위치에서
 
    <details>
 
-   <summary> Cloud Service 및 On-Premise UUID 기반 파일 시스템 </summary>
+   <summary> 클라우드 서비스 및 온프레미스 UUID 기반 파일 시스템 </summary>
 
    ![](images/bulk-move-tool-uuid.png){width="650" align="center"}
 
@@ -217,11 +219,11 @@ AEM Guides에는 관리자가 여러 파일이 있는 폴더를 한 위치에서
 
 ## DITA 콘텐츠 검색
 
-기본적으로 AEM은 DITA 콘텐츠를 인식하지 않으므로 저장소 내에서 DITA 콘텐츠를 검색하는 메커니즘을 제공하지 않습니다. AEM Guides은 AEM 위에 레이어를 추가하여 AEM이 DITA 콘텐츠를 이해하고 처리할 수 있도록 합니다. AEM Guides의 DITA 콘텐츠 검색 기능을 사용하면 AEM 저장소 내에서 DITA 콘텐츠를 검색할 수 있습니다.
+기본적으로 AEM은 DITA 콘텐츠를 인식하지 않으므로 저장소 내에서 DITA 콘텐츠를 검색하는 메커니즘을 제공하지 않습니다. AEM Guides은 AEM 위에 레이어를 추가하여 AEM에서 DITA 콘텐츠를 이해하고 처리할 수 있도록 합니다. AEM Guides의 DITA 콘텐츠 검색 기능을 사용하면 AEM 저장소 내에서 DITA 콘텐츠를 검색할 수 있습니다.
 
 >[!NOTE]
 >
->시스템 관리자가 **DITA 요소** 검색 구성 요소를 구성한 다음 AEM Assets UI에서 해당 기능을 사용할 수 있습니다. 자세한 내용은 Adobe Experience Manager Guides as a Cloud Service 설치 및 구성 의 *Assets UI에 DITA 요소 검색 구성 요소 추가* 섹션을 참조하십시오.
+>시스템 관리자가 **DITA 요소** 검색 구성 요소를 구성한 다음 AEM Assets UI에서 해당 기능을 사용할 수 있습니다. 자세한 내용은 Adobe Experience Manager Guides as a Cloud Service 설치 및 구성 의 *Assets UI에서 DITA 요소 검색 구성 요소 추가* 섹션을 참조하십시오.
 
 검색 기능을 사용하여 다음과 같은 작업을 수행할 수 있습니다.
 
@@ -284,7 +286,7 @@ AEM 저장소에서 파일을 삭제하는 것은 시스템 관리자가 제어�
 
 >[!NOTE]
 >
-> 파일 관리 구성에 대한 자세한 내용은 Adobe Experience Manager Guides as a Cloud Service 설치 및 구성 의 *체크 아웃된 파일 삭제 방지* 및 *참조된 파일 삭제 방지* 섹션을 참조하십시오.
+> 파일 관리 구성에 대한 자세한 내용은 Adobe Experience Manager Guides as a Cloud Service 설치 및 구성 섹션에서 *체크 아웃된 파일의 삭제 방지* 및 *참조된 파일의 삭제 방지* 섹션을 참조하십시오.
 
 관리자가 모든 사용자에게 파일 삭제 권한을 부여한 경우 참조가 포함된 파일을 삭제할 때 다음 메시지가 표시됩니다.
 

@@ -3,7 +3,9 @@ title: 게시된 콘텐츠의 벌크 활성화
 description: 게시된 콘텐츠의 벌크 활성화에 대해 알아봅니다. AEM 안내서의 벌크 활성화 기능의 장점에 대해 알아보십시오.
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 4b60bf50-f6c2-4e87-8af6-fd1c26d4898f
+source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 0%
@@ -16,13 +18,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> AEM에서 작성자 및 게시 인스턴스를 설정하는 방법에 대한 자세한 내용은 [작성자 및 Publish 아키텍처 개요](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites)를 참조하십시오.
+> AEM에서 작성자 및 게시 인스턴스를 설정하는 방법에 대한 자세한 내용은 [작성자 및 게시 아키텍처 개요](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites)를 참조하십시오.
 
 AEM Guides의 벌크 활성화 기능을 사용하면 작성에서 게시 인스턴스로 콘텐츠를 빠르고 쉽게 활성화할 수 있습니다. 벌크 활성화 기능을 사용하면 다음과 같은 유연성을 얻을 수 있습니다.
 
 - 하나 이상의 맵 \(맵 컬렉션에\) 을 단일 활성화 작업에 추가합니다.
 
-- 게시하려는 하나 이상의 출력 사전 설정을 선택합니다. AEM 사이트, PDF, 기본 PDF, HTML 5, 사용자 지정 및
+- 게시하려는 하나 이상의 출력 사전 설정을 선택합니다. AEM 사이트, PDF, 기본 PDF, HTML5, 사용자 지정 및
 JSON 출력 사전 설정.
 
 

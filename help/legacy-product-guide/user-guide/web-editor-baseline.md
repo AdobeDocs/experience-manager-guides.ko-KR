@@ -3,7 +3,9 @@ title: 웹 편집기에서 기준선 만들기 및 관리
 description: AEM Guides의 웹 편집기에서 기준선을 만들고 관리합니다. 레이블을 기반으로 기준선을 만들고 기준선에 필터를 적용하는 방법을 알아봅니다.
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: f43bc3ae-b7b6-4a8c-b42d-28ec02d0d1d6
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1699'
 ht-degree: 0%
@@ -153,4 +155,3 @@ AEM Guides에서는 사용자가 기준선을 만들고 이를 사용하여 다�
 기준선을 편집한 후에는 상단의 **저장** 단추를 클릭하여 변경 내용을 기준선에 저장할 수 있습니다. 변경 내용을 저장하고 기준선을 다시 설정하지 않으려면 **재설정** 단추를 클릭할 수 있습니다. **재설정** 단추를 클릭하면 저장되지 않은 변경 내용이 손실된다는 경고가 표시됩니다.
 
 **상위 항목:**[&#x200B;웹 편집기에서 작업](web-editor.md)
-

@@ -3,8 +3,9 @@ title: 주요 AEM Guides 기능
 description: AEM Guides, DITA 작성, 콘텐츠 관리, 웹 기반 검토, 번역, 현지화, 멀티채널 게시 및 FrameMaker 통합의 주요 기능을 살펴보십시오.
 feature: Introduction
 role: User
+hide: true
 exl-id: b3e17f62-70d0-470e-9e52-73489510c62f
-source-git-commit: cbcb55fc239d9469de45a224f14361db14ec5f76
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '938'
 ht-degree: 0%

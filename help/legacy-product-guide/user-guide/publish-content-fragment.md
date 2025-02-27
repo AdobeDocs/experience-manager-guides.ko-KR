@@ -1,16 +1,18 @@
 ---
-title: 컨텐츠 조각에 주제 Publish
-description: Publish 주제 또는 주제 내의 요소를 AEM Guides의 콘텐츠 조각으로 복사합니다.  주제에 대한 콘텐츠 조각을 보고 다시 게시하는 방법에 대해 알아봅니다.
+title: 콘텐츠 조각에 주제 게시
+description: 주제 또는 주제 내의 요소를 AEM Guides의 콘텐츠 조각에 게시합니다.  주제에 대한 콘텐츠 조각을 보고 다시 게시하는 방법에 대해 알아봅니다.
 feature: Publishing
 role: User
-source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
+hide: true
+exl-id: f8a8dfd3-19de-49ff-b4d4-265b3ac09488
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
 
 ---
 
-# Publish 컨텐츠 조각
+# 콘텐츠 조각 게시
 
 컨텐츠 조각은 Adobe Experience Manager에서 개별 컨텐츠 조각입니다. 이는 콘텐츠 모델을 기반으로 하는 구조화된 콘텐츠입니다. 콘텐츠 조각 은 디자인 또는 레이아웃 정보가 없는 순수 콘텐츠입니다. Adobe Experience Manager이 지원하는 채널과 독립적으로 작성 및 관리할 수 있습니다. 콘텐츠 조각은 모듈식이며, 콘텐츠는 더 작은 구성 요소로 분류됩니다.
 
@@ -39,7 +41,7 @@ Experience Manager Guides을 사용하면 주제 또는 해당 요소를 콘텐�
 1. **콘텐츠 조각 생성** 대화 상자의 **일반** 및 **매핑** 탭에서 다음 세부 정보를 입력합니다.
 
    **일반** 탭
-   ![콘텐츠 조각 대화 상자로 Publish에서 조각 모델 및 매핑 세부 정보 추가](images/generate-content-fragment.png)
+   ![콘텐츠 조각으로 게시 대화 상자에서 조각 모델 및 매핑 세부 정보 추가](images/generate-content-fragment.png)
    *항목이나 해당 요소를 콘텐츠 조각으로 게시하려면 경로, 이름, 제목 및 조건 필터링을 추가하십시오.*
 
 
@@ -63,7 +65,7 @@ Experience Manager Guides을 사용하면 주제 또는 해당 요소를 콘텐�
 
    **매핑** 탭
 
-   ![콘텐츠 조각 대화 상자로 Publish에서 조각 모델 및 매핑 세부 정보 추가](images/content-fragment-mapping.png)
+   ![콘텐츠 조각으로 게시 대화 상자에서 조각 모델 및 매핑 세부 정보 추가](images/content-fragment-mapping.png)
 
    *콘텐츠 조각 모델을 선택하고 매핑 세부 정보를 추가하여 주제 또는 해당 요소를 콘텐츠 조각으로 게시합니다.*
 

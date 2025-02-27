@@ -1,9 +1,11 @@
 ---
 title: 출력 생성 작업의 상태 보기
-description: FrameMaker 문서의 출력 생성 대기열을 봅니다. 출력 생성 작업의 상태를 보는 방법에 대해 알아봅니다.
+description: FrameMaker 문서의 출력 생성 큐를 봅니다. 출력 생성 작업의 상태를 보는 방법에 대해 알아봅니다.
 feature: Publishing FrameMaker Documents
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: bf5a4365-0183-43d5-a39a-b9eb8a34b27d
+source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 # 출력 생성 작업의 상태 보기 {#viewing_output_history}
 
-FrameMaker 문서에 대한 출력 생성 작업을 시작하면 AEM Guides에서 이 작업을 출력 생성 대기열로 보냅니다. 이 큐는 실시간으로 업데이트되며, 큐의 각 출력 생성 작업의 상태를 표시합니다.
+FrameMaker 문서에 대한 출력 생성 작업을 시작하면 AEM Guides은 이 작업을 출력 생성 대기열로 보냅니다. 이 큐는 실시간으로 업데이트되며, 큐의 각 출력 생성 작업의 상태를 표시합니다.
 
 출력 생성 대기열을 보려면 다음 단계를 수행하십시오.
 

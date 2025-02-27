@@ -3,7 +3,9 @@ title: 웹 편집기에서 주제 편집
 description: 웹 편집기에서 항목을 편집하는 방법에 대해 알아봅니다. AEM Guides에서 주제 파일을 수정하는 다양한 편집 기능에 대해 알아봅니다.
 feature: Authoring, Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 0341bdec-9635-4ced-b1c6-789b4e1aded8
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1055'
 ht-degree: 0%

@@ -3,7 +3,9 @@ title: JSON
 description: 웹 편집기 및 맵 대시보드에서 JSON 사전 설정을 만드는 방법에 대해 알아봅니다. AEM Guides에서 JSON 출력 사전 설정을 구성합니다.
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: dbc082e9-e75e-414d-a1d1-41f919b345af
+source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%

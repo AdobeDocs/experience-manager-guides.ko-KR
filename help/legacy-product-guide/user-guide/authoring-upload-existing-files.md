@@ -3,7 +3,9 @@ title: 파일 업로드
 description: AEM 저장소에 파일을 업로드하고 오류를 처리하는 방법에 대해 알아봅니다. 에셋 콘솔 사용자 인터페이스, AEM 데스크탑 앱, 에셋 일괄 수집기를 알고 일괄 업로드에 FrameMaker을 사용합니다.
 feature: Content Management
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: fcb2cc43-6a36-42f2-a695-7a50ae1031a0
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 0%
@@ -24,13 +26,13 @@ AEM Guides에 사용하려는 기존 DITA 콘텐츠 저장소가 있을 수 있�
 
 ## AEM 데스크탑 앱
 
-크리에이티브 전문가이고 로컬 데스크탑의 에셋을 관리하려는 경우 AEM 데스크탑 앱을 사용하십시오. 데스크탑 애플리케이션을 사용하여 이러한 에셋을 열고 편집할 수 있습니다. 버전을 유지 관리하고 다른 사용자와 파일을 공유할 수도 있습니다. 자세한 내용은 [AEM 데스크톱 앱](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html)을 참조하세요.
+크리에이티브 전문가이고 로컬 데스크탑에서 자산을 관리하려는 경우 AEM 데스크탑 앱을 사용하십시오. 데스크탑 애플리케이션을 사용하여 이러한 에셋을 열고 편집할 수 있습니다. 버전을 유지 관리하고 다른 사용자와 파일을 공유할 수도 있습니다. 자세한 내용은 [AEM 데스크톱 앱](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html)을 참조하세요.
 
 ## 일괄 에셋 수집기
 
 대규모 마이그레이션 및 경우에 따라 일괄 수집이 있는 경우 일괄 에셋 수집기 를 사용하여 콘텐츠를 업로드하십시오. 이 도구를 사용하면 Azure 또는 S3와 같이 지원되는 데이터 저장소에서 대량 콘텐츠를 업로드할 수 있습니다. 자세한 내용은 [일괄 에셋 수집기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=en#asset-bulk-ingestor)를 참조하십시오.
 
-## 일괄 업로드에 FrameMaker 사용
+## 벌크 업로드에 FrameMaker 사용
 
 Adobe FrameMaker에는 기존 DITA 및 기타 FrameMaker 문서 \(`.book` 및 `.fm`\)를 AEM에 쉽게 업로드할 수 있는 강력한 AEM 커넥터가 포함되어 있습니다. 단일 파일 업로드, 종속성 유무에 관계없이 전체 폴더 업로드 \(예: 콘텐츠 참조, 상호 참조 및 그래픽\)와 같은 다양한 파일 업로드 기능을 사용할 수 있습니다.
 

@@ -3,7 +3,9 @@ title: 벌크 활성화 맵 컬렉션 편집
 description: AEM Guides에서 일괄 게시 대시보드를 사용합니다. 맵 파일을 추가하거나 제거하여 벌크 활성화 맵 컬렉션을 편집하는 방법에 대해 알아봅니다.
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: a15ee164-ec60-483e-8760-b1c290625415
+source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 2%
@@ -18,7 +20,7 @@ ht-degree: 2%
 
 1. 맨 위에 있는 Adobe Experience Manager 링크를 클릭하고 **도구**&#x200B;를 선택합니다.
 
-1. **일괄 Publish 대시보드** 타일을 클릭합니다.
+1. **일괄 게시 대시보드** 타일을 클릭합니다.
 
    벌크 활성화 맵 컬렉션 목록이 표시됩니다.
 
@@ -27,7 +29,7 @@ ht-degree: 2%
 1. **편집**&#x200B;을 클릭합니다.
 
    사용 가능한 각 로케일에 대해 사전 구성된 사전 설정과 함께 맵이 표시되는 벌크 활성화 맵 컬렉션 페이지가 나타납니다.
-AEM Site, PDF, 기본 PDF, HTML5, 사용자 지정 및 JSON 출력과 같은 다양한 유형의 출력 사전 설정을 해당 아이콘과 함께 볼 수 있습니다
+AEM Site, PDF, Native PDF, HTML5, Custom 및 JSON 출력과 같은 다양한 유형의 출력 사전 설정을 해당 아이콘과 함께 볼 수 있습니다
 .
 
    >[!NOTE]

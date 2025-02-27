@@ -3,7 +3,9 @@ title: 사용자 지정된 템플릿을 기반으로 맵 만들기
 description: 사용자 지정 템플릿을 만들고, 이 템플릿을 사용하여 새 맵 파일을 만들고, 정의된 제목을 AEM Guides의 DITA 맵에 전달하는 방법을 알아봅니다.
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
+hide: true
+exl-id: 0f86ac98-7ba4-4e15-8a1f-83456afa7570
+source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
 workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 0%
@@ -96,7 +98,7 @@ AEM Guides을 사용하면 dita-templates 폴더에서 사용자 정의된 맵�
 <details>
     <summary> 클라우드 서비스 </summary>
 
-Cloud Service 설치 및 구성 안내서에서 [사용자 지정 DITA 템플릿 폴더 경로를 구성](/help/product-guide/install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z)하는 방법을 알아봅니다.
+Cloud Services 설치 및 구성 안내서에서 [사용자 지정 DITA 템플릿 폴더 경로를 구성](/help/product-guide/install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z)하는 방법을 알아봅니다.
 </details>
 
 <details>
@@ -156,7 +158,7 @@ The resultant DITA map with title "Rootmap1" will look like as follows:
 
 >[!NOTE]
 >
-> 맵 템플릿을 구성하고 관리자가 작성할 수 있도록 해야 합니다. 자세한 내용은 Adobe Experience Manager Guides as a Cloud Service 설치 및 구성 섹션의 *템플릿 작성 구성* 섹션을 참조하십시오.
+> 맵 템플릿을 구성하고 관리자가 작성할 수 있도록 해야 합니다. 자세한 내용은 Adobe Experience Manager Guides as a Cloud Service 설치 및 구성 섹션의 *작성 템플릿 구성* 섹션을 참조하십시오.
 
 사용자 지정 맵 템플릿을 사용하여 맵을 만들려면 다음 단계를 수행하십시오.
 
