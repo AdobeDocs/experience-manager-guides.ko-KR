@@ -4,7 +4,7 @@ description: Adobe Experience Manager Guides에서 편집기의 기능을 살펴
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 52b94c662f04499644f2806255521b3e68da1910
+source-git-commit: 14afe993292c78ed2f14178b3ab9dcbbaee7c372
 workflow-type: tm+mt
 source-wordcount: '18660'
 ht-degree: 0%
@@ -1722,8 +1722,6 @@ Experience Manager Guides은 또한 중첩된 수준 제목 체계 맵을 지원
     </subjectdef>
   </enumerationdef>
 ```
-
-</details>
 
 
 **특성** 드롭다운
