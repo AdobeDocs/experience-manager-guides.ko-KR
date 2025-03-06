@@ -1,10 +1,10 @@
 ---
-title: 웹 편집기에서 문서 번역
+title: 맵 콘솔에서 문서 번역
 description: 웹 편집기에서 콘텐츠를 여러 언어로 번역합니다. AEM Guides에서 번역 프로젝트를 만들고, 규칙을 추가하고, 버전을 보고, 동기화되지 않은 파일을 무시하는 방법을 알아봅니다.
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: f29c1225fcb95dbe05a3fc8aa471c88dc7b8ffb2
+source-git-commit: 6b4908e9780ec70f4d11a21680bba384c9636485
 workflow-type: tm+mt
 source-wordcount: '2365'
 ht-degree: 0%
