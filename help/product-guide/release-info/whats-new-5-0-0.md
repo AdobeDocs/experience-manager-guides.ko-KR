@@ -2,7 +2,8 @@
 title: 릴리스 정보 | Adobe Experience Manager Guides 5.0.0 릴리스의 새로운 기능
 description: Adobe Experience Manager Guides 5.0.0 릴리스의 새로운 기능과 향상된 기능에 대해 알아봅니다
 role: Leader
-source-git-commit: a5c18c228f68db9a3282a004dc56c8a0735e4926
+exl-id: 523667d9-fed4-4798-9554-2a27033c8027
+source-git-commit: 14641e72c4b488251c10318f4661e31b5d811cef
 workflow-type: tm+mt
 source-wordcount: '1706'
 ht-degree: 0%
@@ -27,7 +28,7 @@ ht-degree: 0%
 
   자세한 내용은 [Adobe Experience Manager Guides 홈 페이지 경험](../user-guide/intro-home-page.md)을 참조하세요.
 
-  ![](assets/aem-home-page-new.png){width="800" align="left"}
+  ![](assets/aem-home-page-whats-new.png){width="800" align="left"}
 
 
 - **새로운 편집기 경험**: 이제 새로운 모양과 느낌으로 편집기를 경험해 보십시오. 개선된 편집기 인터페이스에서는 보다 깔끔하고 조직적인 도구 모음, 원활한 탐색 및 전반적으로 직관적인 환경을 통해 문서를 보다 빠르고 효율적으로 작성할 수 있습니다.
@@ -54,7 +55,7 @@ ht-degree: 0%
 
 자세한 내용은 [Workfront 통합](../user-guide/workfront-integration.md)을 참조하세요.
 
-![](assets/workfront-new-ui-whats-new.png){width="800" align="left"}
+![](assets/workfront-new.png){width="800" align="left"}
 
 
 ## 더 빠르고 확장 가능한 새로운 AEM Sites 게시 엔진

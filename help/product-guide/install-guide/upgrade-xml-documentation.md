@@ -5,9 +5,9 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: de79a2d63328fc6142b475a776dafd7e6d12f911
+source-git-commit: fec62d9c14acbbfc632f08af003f386aa2a6ab35
 workflow-type: tm+mt
-source-wordcount: '8018'
+source-wordcount: '8021'
 ht-degree: 0%
 
 ---
@@ -1298,7 +1298,7 @@ Experience Manager Guides에는 교차 맵(서로 다른 두 맵의 주제 간 �
 
 ## damAssetLucene를 다시 인덱싱하는 절차
 
-안내서가 있는 damAssetLucene에 대한 색인 정의가 업데이트되었습니다. 5.0.0 버전으로 업그레이드한 후 damAssetLucene을 다시 인덱싱하려면 https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460 을 참조하십시오.
+안내서가 있는 damAssetLucene에 대한 색인 정의가 업데이트되었습니다. 5.0.0 버전으로 업그레이드한 후 damAssetLucene을 다시 인덱싱하려면 [이 문서](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460)를 참조하십시오.
 
 >[!NOTE]
 >
