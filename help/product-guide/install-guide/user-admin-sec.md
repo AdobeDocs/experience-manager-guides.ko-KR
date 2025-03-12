@@ -5,9 +5,9 @@ exl-id: 1269a652-5261-413d-9ea0-b4f75003e9d8
 feature: User Management
 role: Admin
 level: Experienced
-source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
+source-git-commit: 9b657b0530db8fafe3bb6d30a9002791acf8f226
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '710'
 ht-degree: 10%
 
 ---
@@ -18,9 +18,9 @@ AEM Guides의 기능에 액세스하고 구성하려면 사용자를 생성해�
 
 AEM 설명서의 다음 항목은 사용자 관리 및 보안 관련 개념과 기능을 이해하는 데 도움이 됩니다.
 
-- [AEM의 사용자 및 그룹](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)
+- AEM의 [사용자 및 그룹](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)
 
-- [AEM의 권한](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)
+- AEM의 [권한](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)
 
 - [사용자 및 그룹 관리](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)
 
@@ -29,7 +29,7 @@ AEM 설명서의 다음 항목은 사용자 관리 및 보안 관련 개념과 �
 
 ## AEM Guides에서 만든 사용자 그룹 {#id181TF0K0MHT}
 
-AEM Guides에서는 DITA 프로젝트의 다양한 작업을 관리할 수 있는 세 가지 기본 그룹을 제공합니다. 이러한 그룹은 *작성자*, *검토자* 및 *게시자*&#x200B;입니다. 사용자가 연결된 그룹에 따라 특정 작업을 수행할 수 있습니다. 예를 들어 게시 작업은 게시자만 수행할 수 있고 작성자나 검토자는 수행할 수 없습니다. 마찬가지로 작성자는 새 주제를 만들 수 있고 검토자는 주제만 검토할 수 있습니다.
+AEM Guides은 세 가지 기본 제공 그룹을 제공합니다. 이러한 그룹은 *작성자*, *검토자* 및 *게시자*&#x200B;입니다. 사용자가 연결된 그룹에 따라 특정 작업을 수행할 수 있습니다. 예를 들어 게시 작업은 게시자만 수행할 수 있고 작성자나 검토자는 수행할 수 없습니다. 마찬가지로 작성자는 새 주제를 만들 수 있고 검토자는 주제만 검토할 수 있습니다.
 
 >[!TIP]
 >
