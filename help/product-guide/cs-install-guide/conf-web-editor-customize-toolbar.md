@@ -5,9 +5,9 @@ exl-id: ba82af48-9357-4f29-90ce-6793366ab432
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 5778ed2855287d1010728e689abbe6020ad56574
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '1013'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 # 도구 모음 사용자 지정 {#id172FB00L0V6}
 
 기본적으로 웹 편집기는 DITA 편집기에 필요한 가장 일반적인 편집 기능과 함께 제공됩니다. 편집기에서 유형 목록 \(번호 매기기 또는 글머리 기호\), 상호 참조, 콘텐츠 참조, 표, 단락 및 문자 서식의 요소 삽입과 같은 기능을 사용할 수 있습니다. 이러한 기본 요소 외에도 작성 환경에서 사용되는 요소를 삽입하도록 웹 편집기를 사용자 지정할 수 있습니다.
+
+>[!NOTE]
+>
+> 이전 UI에서 새 AEM Guides UI(AEM Guides의 2502 및 5.0 릴리스에서 적용 가능)로 마이그레이션할 때 `ui_config`에 대한 업데이트를 보다 유연하고 모듈식 UI 구성으로 변환해야 합니다. 이 프레임워크를 사용하면 해당하는 경우 editor_toolbar 및 기타 대상 위젯에 변경 사항을 원활하게 적용할 수 있습니다. 자세한 내용은 [UI 구성 전환 개요](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config)를 참조하세요.
 
 웹 편집기의 도구 모음을 사용자 지정하는 방법에는 두 가지가 있습니다.
 

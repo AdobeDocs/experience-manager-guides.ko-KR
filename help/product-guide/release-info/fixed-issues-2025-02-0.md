@@ -2,9 +2,9 @@
 title: 릴리스 정보 | Adobe Experience Manager Guides, 2025.02.0 릴리스의 문제가 해결되었습니다.
 description: Adobe Experience Manager Guides as a Cloud Service 2025.02.0 릴리스의 버그 수정에 대해 알아봅니다.
 exl-id: e7dec4a2-e11a-4b78-8111-a331d20ce73d
-source-git-commit: 09283ab7c76eca669b30ec92923456c11d53a10b
+source-git-commit: 71971c25094b842cb7a0bd1f5bd2acbca4212a66
 workflow-type: tm+mt
-source-wordcount: '1311'
+source-wordcount: '1325'
 ht-degree: 1%
 
 ---
@@ -102,3 +102,4 @@ Adobe은 2025.02.0 릴리스에 대해 다음과 같은 알려진 문제를 확�
 - 이미지를 `<keyref>`(으)로 사용하는 경우 이미지의 **참조 형식**&#x200B;이(가) **멀티미디어 보고서**&#x200B;에 표시되지 않습니다.
 - 경우에 따라 CSS 파일에 대한 잠금 기능이 예상대로 작동하지 않아 다른 사용자가 파일을 잠근 경우에도 해당 파일을 편집하고 저장할 수 있습니다.
 - 사전 설정 이름에 대문자가 포함된 경우 사전 설정 변경 사항을 적용하면 맵 내에서 이미 만들어진 사전 설정에서 반영되지 않습니다.
+- 통합 셸이 활성화된 DITA 맵을 열면 편집기가 간헐적으로 새로 고쳐집니다.
