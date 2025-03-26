@@ -4,7 +4,7 @@ description: Adobe Experience Manager Guides의 AEM 탐색 페이지, AEM Assets
 exl-id: cdde7c29-ee49-4e17-902e-1e2bd6f32e8a
 feature: Authoring, Web Editor
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -25,11 +25,11 @@ ht-degree: 0%
 
 Experience Manager에 로그인하면 탐색 페이지가 표시됩니다.
 
-![](images/web-editor-from-navigation-page.png){width="800" align="left"}
+![](images/web-editor-from-navigation-page.png){align="left"}
 
 **안내서** 링크를 선택하면 [Adobe Experience Manager Guides 홈 페이지](./intro-home-page.md)(으)로 이동합니다.
 
-![](images/aem-home-page.png){width="800" align="left"}
+![](images/aem-home-page.png){align="left"}
 
 편집기를 시작하려면 탐색 표시줄로 이동한 다음 드롭다운에서 **편집기**&#x200B;를 선택합니다. 기본적으로 홈 페이지가 선택됩니다.
 
@@ -37,7 +37,7 @@ Experience Manager에 로그인하면 탐색 페이지가 표시됩니다.
 
 파일을 선택하지 않고 편집기를 시작하면 빈 편집기 화면이 표시됩니다. Experience Manager **저장소** 또는 **컬렉션**&#x200B;에서 편집할 파일을 열 수 있습니다.
 
-![](images/web-editor-launch-page.png){width="800" align="left"}
+![](images/web-editor-launch-page.png){align="left"}
 
 또는 [Adobe Experience Manager Guides 홈 페이지 경험](./intro-home-page.md)의 **최근 파일** 위젯 및 **컬렉션** 위젯에 있는 기존 파일을 열어 편집기를 시작할 수도 있습니다.
 
@@ -57,7 +57,7 @@ Experience Manager 탐색 페이지로 돌아가려면 상단 헤더의 왼쪽 �
    >
    > 주제의 UUID를 볼 수도 있습니다.
 
-   ![](images/assets_ui_with_uuid_cs.png){width="800" align="left"}
+   ![](images/assets_ui_with_uuid_cs.png){align="left"}
 
    >[!IMPORTANT]
    >
@@ -79,15 +79,15 @@ Experience Manager 탐색 페이지로 돌아가려면 상단 헤더의 왼쪽 �
    >
    > 편집할 항목을 여러 개 열려면 자산 UI에서 원하는 항목을 선택하고 **편집**&#x200B;을 선택합니다. 브라우저에 팝업 차단이 활성화되어 있지 않은지, 아니면 선택한 목록의 첫 번째 주제만 편집을 위해 열려 있는지 확인합니다.
 
-   ![](images/edit-from-preview_cs.png){width="800" align="left"}
+   ![](images/edit-from-preview_cs.png){align="left"}
 
    항목을 미리 보지 않고 편집기에서 직접 열려면 카드 보기의 빠른 작업 메뉴에서 **편집** 아이콘을 선택합니다.
 
-   ![](images/edit-topic-from-quick-action_cs.png){width="800" align="left"}
+   ![](images/edit-topic-from-quick-action_cs.png){align="left"}
 
    항목이 편집기에서 열립니다.
 
-   ![](images/edit-mode.png){width="800" align="left"}
+   ![](images/edit-mode.png){align="left"}
 
 Assets UI에서 맵 파일을 열고 편집기를 실행하여 맵 파일의 항목을 편집할 수도 있습니다.
 
@@ -98,7 +98,7 @@ Assets UI에서 맵 파일을 열고 편집기를 실행하여 맵 파일의 항
 1. 편집할 주제 파일을 선택합니다.
 1. **주제 편집**&#x200B;을 선택합니다.
 
-   ![](images/edit-topics-map-console_cs.png){width="800" align="left"}
+   ![](images/edit-topics-map-console_cs.png){align="left"}
 
 1. 항목이 편집기에서 열립니다.
 
@@ -122,11 +122,11 @@ Assets UI에서 맵 파일을 열고 편집기를 실행하여 맵 파일의 항
 1. 맵 파일이 있는 경로를 선택합니다. 선택한 맵 파일이 맵 콘솔에 추가됩니다.
 1. 맵 파일로 이동하여 드롭다운에서 **편집기에서 열기**&#x200B;를 선택합니다.
 
-   ![](images/map-console-open-in-editor.png){width="800" align="left"}
+   ![](images/map-console-open-in-editor.png){align="left"}
 
    항목이 들어 있는 맵 파일이 편집기에서 편집을 위해 열려 있습니다.
 
-   ![](images/map-console-edit-topics.png){width="800" align="left"}
+   ![](images/map-console-edit-topics.png){align="left"}
 
 
 

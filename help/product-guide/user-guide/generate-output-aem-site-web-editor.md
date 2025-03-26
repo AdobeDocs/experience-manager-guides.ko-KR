@@ -4,7 +4,7 @@ description: 합성 구성 요소 매핑 및 레거시 구성 요소 매핑을 �
 feature: Publishing
 role: User
 exl-id: f3657268-9dee-43af-b643-499dbc3ca948
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '3533'
 ht-degree: 0%
@@ -122,7 +122,7 @@ You can configure the Out-of-the-box Sites template  in two ways:
 
 **주제 목록** 탭에는 DITA 맵의 현재 작업 복사본에 있는 주제 목록이 표시됩니다. 기본적으로 모든 주제가 포함됩니다. 특정 주제를 선택하고 해당 주제에 대해서만 AEM Sites 출력을 생성할 수 있습니다. 예를 들어 전체 DITA 맵을 게시하는 대신 해당 주제만 게시할 수 있도록 일부 주제를 업데이트했습니다.
 
-![aem 사이트 주제 목록](images/aem-presets-topic-list.png) {width="800" align="left"}
+![aem 사이트 주제 목록](images/aem-presets-topic-list.png) {align="left"}
 
 
 >[!NOTE]

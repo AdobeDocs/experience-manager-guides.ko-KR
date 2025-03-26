@@ -4,7 +4,7 @@ description: 사용자 지정 템플릿을 만들고, 이 템플릿을 사용하
 exl-id: 9cb0035f-bf81-4ab5-a575-53851bbff494
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 594e348fc1188e66cf2f4648702ed2b17f1f8f33
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 0%
@@ -85,7 +85,7 @@ Assets UI에서 맵 또는 주제 템플릿을 만들려면 다음 단계를 수
 
 1. **Assets UI**&#x200B;에서 dita-templates 폴더로 이동합니다.
 
-   ![](images/dita-templates.png){width="800" align="left"}
+   ![](images/dita-templates.png){align="left"}
 
 1. **주제** 템플릿을 만들려면 **주제** 폴더를 여십시오. **맵** 템플릿을 만들려면 **맵** 폴더를 여십시오.
 1. **DITA 템플릿 만들기 \>**&#x200B;를 선택합니다.

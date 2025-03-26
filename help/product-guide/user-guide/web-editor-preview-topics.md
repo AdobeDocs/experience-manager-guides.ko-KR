@@ -4,7 +4,7 @@ description: Adobe Experience Manager Guides에서 주제를 미리 보는 방�
 exl-id: f4013ac6-226a-4e66-bd7b-604ac7c361ae
 feature: Authoring
 role: User
-source-git-commit: 67d6b6f59e5d8c37389a181949ce4527760576e2
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1988'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Experience Manager Guides에서 주제를 미리 보는 방법에는 두 가지�
 
    [주제 미리 보기]가 표시됩니다.
 
-   ![](images/preview-pop-up.png){width="800" align="left"}
+   ![](images/preview-pop-up.png){align="left"}
 
 **미리 보기 모드에서 주제 미리 보기**
 
@@ -61,7 +61,7 @@ Experience Manager Guides에서 주제를 미리 보는 방법에는 두 가지�
 
 Assets UI의 미리 보기 기능을 사용하는 경우 도구 모음에서 다음 작업을 사용할 수 있습니다.
 
-![](images/preview-screen.png){width="800" align="left"}
+![](images/preview-screen.png){align="left"}
 
 
 **속성**
@@ -78,7 +78,7 @@ Assets UI의 미리 보기 기능을 사용하는 경우 도구 모음에서 다
 
 **다음에서 사용됨** 참조 섹션의 \(+\) 아이콘을 사용하면 위로 이동하여 해당 주제가 사용되거나 참조되는 위치를 찾을 수 있습니다.
 
-![](images/used-in-dialog_cs.png){width="800" align="left"}
+![](images/used-in-dialog_cs.png){align="left"}
 
 문서 옆에 있는 ![](images/right-arrow-used-in-dialog.svg) 아이콘을 선택하면 해당 문서가 추가로 참조되는 맵 또는 주제 파일이 표시됩니다.
 
@@ -108,7 +108,7 @@ Assets UI의 미리 보기 기능을 사용하는 경우 도구 모음에서 다
   >
   > DITA 맵 파일의 소스 코드 보기를 가져오려면 Assets UI에서 파일을 선택하고 Source을 선택합니다.
 
-  ![](images/xml-source-code-view-from-preview_cs.png){width="800" align="left"}
+  ![](images/xml-source-code-view-from-preview_cs.png){align="left"}
 
 **UUID 링크 공유**
 
@@ -120,7 +120,7 @@ Assets UI의 미리 보기 기능을 사용하는 경우 도구 모음에서 다
 
 위에서 언급한 영역의 도구 모음에 새 옵션 **UUID 링크 공유**&#x200B;가 표시됩니다. 다음 스크린샷은 주제의 미리 보기 모드에서 **UUID 링크 공유** 옵션을 보여 줍니다.
 
-![](images/share-uuid-link_cs.png){width="800" align="left"}
+![](images/share-uuid-link_cs.png){align="left"}
 
 에셋 UI에서 이 옵션은 파일을 선택할 때 표시됩니다. 미리보기 모드에 있는 동안 이 옵션은 기본적으로 기본 도구 모음에서 사용할 수 있습니다. DITA 맵 콘솔에서 이 옵션은 [출력 사전 설정] 섹션에 표시됩니다.
 
@@ -148,7 +148,7 @@ DITA 맵 콘솔 또는 파일의 미리보기 모드에서 링크를 공유하�
 
 체크 아웃된 열이 표시되지 않으면 **목록 보기**&#x200B;에서 **설정 보기**&#x200B;를 선택하고 **열 구성** 대화 상자에서 **체크 아웃** 상태를 선택하십시오.
 
-![](images/list-view-settings-check-out_cs.png){width="800" align="left"}
+![](images/list-view-settings-check-out_cs.png){align="left"}
 
 >[!TIP]
 >
@@ -166,17 +166,17 @@ DITA 맵 콘솔 또는 파일의 미리보기 모드에서 링크를 공유하�
 
    1. 왼쪽 레일에서 **버전 기록**&#x200B;을 선택하고 버전을 선택합니다.
 
-      ![](images/timeline-versions62_cs.png){width="800" align="left"}
+      ![](images/timeline-versions62_cs.png){align="left"}
 
    1. 나열된 버전에서 기본 버전으로 사용할 버전을 선택하고 **버전 미리 보기**&#x200B;를 선택합니다. 선택한 버전의 미리보기가 버전 미리보기 창에 표시됩니다.
 
    1. **차이점 표시** 목록에서 기본 버전을 비교할 버전을 선택합니다.
 
-      ![](images/show-diff-list-cropped.png){width="800" align="left"}
+      ![](images/show-diff-list-cropped.png){align="left"}
 
       변경된 내용은 주제 미리 보기에서 강조 표시됩니다. 녹색에서 강조 표시된 콘텐츠는 새로 추가된 콘텐츠를 의미하며 빨간색으로 표시된 콘텐츠는 삭제된 콘텐츠입니다.
 
-      ![](images/version-difference.png){width="800" align="left"}
+      ![](images/version-difference.png){align="left"}
 
 
 ## 분기, 되돌리기 및 후속 버전 관리

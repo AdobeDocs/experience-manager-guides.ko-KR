@@ -4,7 +4,7 @@ description: AEM Guides의 콘텐츠 번역 모범 사례를 알아봅니다. �
 exl-id: f2a4df86-bba7-434c-b7f9-3587b8a4f9bc
 feature: Translation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 다음 그림은 콘텐츠 및 세 개의 언어 사본을 전역적으로 사용한 경우 Adobe Experience Manager의 폴더 구조 예를 보여 줍니다.
 
-![](images/aem-directory_structure.png){width="800" align="left"}
+![](images/aem-directory_structure.png){align="left"}
 
 ## 번역 서비스 구성
 

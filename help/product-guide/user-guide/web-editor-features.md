@@ -4,7 +4,7 @@ description: Adobe Experience Manager Guides에서 편집기의 기능을 살펴
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 1e3a957dffc7296210eea89814cf6ca83ff1200e
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '18659'
 ht-degree: 0%
@@ -299,7 +299,7 @@ Experience Manager Guides에서 [AI Assistant](./ai-assistant.md) 기능을 활�
 
 **찾기 및 바꾸기** 기능은 작성자 및 Source 보기 모드에서 사용할 수 있습니다. 활성화되면 항목 편집 영역 하단에 찾기 및 바꾸기 텍스트 막대가 나타납니다. 바로 가기 키 **CTRL**+**F**&#x200B;을 사용하여 찾기 및 바꾸기 표시줄을 호출할 수 있습니다.
 
-![](images/find-replace-bar.png){width="800" align="left"}
+![](images/find-replace-bar.png){align="left"}
 
 설정 아이콘 \(![](images/settings-find-replace-icon.svg)\)을 사용하여 **대/소문자 무시** 및 **단어 단위만** 검색 옵션을 전환할 수 있습니다. 대/소문자를 구분하지 않는 검색을 수행하려면 **대/소문자 무시** 옵션을 켜거나 선택합니다. 대/소문자를 구분하는 검색을 수행하려면 **대/소문자 무시** 옵션을 끄거나 선택 취소하십시오. 전체 단어를 검색하도록 선택할 수도 있습니다.
 
@@ -365,7 +365,7 @@ Source 보기에서 **찾기 및 바꾸기** 기능은 특정 요소나 특성�
 
    이전 버전으로 되돌리면 현재 작업 중인 버전이 최신 버전이 아님을 나타내는 시각적 큐가 표시됩니다.
 
-   ![](images/older-version-visual-cue.png){width="800" align="left"}
+   ![](images/older-version-visual-cue.png){align="left"}
 
 **버전 레이블**
 
@@ -544,7 +544,7 @@ Experience Manager Guides은 문서에서 수행한 업데이트에 대한 정�
 
 `note`과(와) 같은 블록 요소 내에서 작업하는 경우 요소 삽입 아이콘을 사용하여 `note` 요소 뒤에 새 요소를 삽입합니다. 다음 스크린샷에서는 참고 요소가 p \(paragraph\) 요소 내부에 삽입되었습니다.
 
-![블록 요소에 요소 삽입](images/note-in-para-insert-element_cs.png){width="800" align="left"}
+![블록 요소에 요소 삽입](images/note-in-para-insert-element_cs.png){align="left"}
 
 메모 요소에서 Enter 키를 누르면 메모 요소 자체에 새 단락이 만들어집니다. 메모 외부에 새 요소를 삽입하려면 요소 경로에서 p 요소 \(스크린샷에 강조 표시\)를 선택한 다음 요소 아이콘을 선택하거나 ***Alt***+***Enter***&#x200B;를 눌러 요소 삽입 대화 상자를 엽니다. 그런 다음 원하는 요소를 선택하고 Enter 키를 눌러 메모 요소 뒤에 선택한 요소를 삽입합니다.
 
@@ -613,7 +613,7 @@ Experience Manager Guides은 문서에서 수행한 업데이트에 대한 정�
 1. 값 드롭다운 목록에서 선택한 테이블 셀에 적용할 원하는 텍스트 정렬을 선택합니다.
 1. **추가** 선택
 
-![](images/align-table-cell_cs.png){width="800" align="left"}
+![](images/align-table-cell_cs.png){align="left"}
 
 **이미지** - ![](images/Image_icon.svg)
 
@@ -636,7 +636,7 @@ Experience Manager Guides은 문서에서 수행한 업데이트에 대한 정�
 
 이미지를 삽입하면 [컨텐트 속성] 패널에서 높이, 너비, 배치 및 속성을 변경할 수 있습니다. 이미지 파일을 선택한 다음 오른쪽 패널의 [내용 속성] 패널에서 변경 작업을 수행합니다.
 
-![](images/image-properties.png){width="800" align="left"}
+![](images/image-properties.png){align="left"}
 
 Source 필드는 삽입된 이미지 파일의 UUID를 표시합니다. 마우스 포인터를 Source 필드 위로 가져가면 삽입된 이미지 파일의 전체 경로를 찾을 수 있습니다. 경로는 도구 설명에 표시됩니다.
 
@@ -713,7 +713,7 @@ Source 필드는 삽입된 이미지 파일의 UUID를 표시합니다. 마우�
 
 관리자가 *XMLEditorConfig*&#x200B;에서 UUID 옵션을 활성화한 경우 **Link** 속성에서 참조된 콘텐츠의 UUID를 보게 됩니다.
 
-![](images/ref-link-uuid_cs.png){width="800" align="left"}
+![](images/ref-link-uuid_cs.png){align="left"}
 
 >[!NOTE]
 >
@@ -816,12 +816,12 @@ DITA 맵에 정의된 키워드를 삽입합니다. 키워드 옵션을 선택�
 
   버전 번호는 주제 또는 맵 파일에 대해 생성되는 모든 새 버전에 따라 변경됩니다. 새로 만든 문서에서 작업하는 경우 버전 정보는 **없음**&#x200B;으로 표시됩니다.
 
-  ![](images/version-information.png){width="800" align="left"}
+  ![](images/version-information.png){align="left"}
 
 
 - **새 버전으로 저장**&#x200B;은(는) 주제에 대한 변경 사항을 저장하고 새로운 버전의 주제도 만드는 단추입니다.
 
-  ![](images/save-as-new-version.png){width="800" align="left"}
+  ![](images/save-as-new-version.png){align="left"}
 
 
 **새 버전으로 저장**&#x200B;을 사용하여 주제 또는 맵을 저장하도록 선택하면 다음과 같은 대화 상자가 나타납니다.
@@ -842,7 +842,7 @@ DITA 맵에 정의된 키워드를 삽입합니다. 키워드 옵션을 선택�
 
 주제 제목 위에 포인터를 놓으면 파일 제목, 파일 경로 및 버전 번호가 표시됩니다.
 
-![](images/mouse-hover-on-title_cs.png){width="800" align="left"}
+![](images/mouse-hover-on-title_cs.png){align="left"}
 
 >[!NOTE]
 >
@@ -852,7 +852,7 @@ DITA 맵에 정의된 키워드를 삽입합니다. 키워드 옵션을 선택�
 
 현재 파일을 잠그거나 잠금 해제합니다. 파일을 잠그면 파일에 대한 단독 쓰기 액세스 권한이 제공됩니다. 이렇게 하면 다른 사용자가 파일을 편집할 수 없습니다. 다른 사용자가 편집 액세스 권한을 갖게 하려면 파일 잠금을 해제하십시오. 파일의 잠금이 해제되면 변경 사항이 파일의 현재 버전에 저장됩니다.
 
-![](images/web-editor-lock-button.png){width="800" align="left"}
+![](images/web-editor-lock-button.png){align="left"}
 
 맵 보기에서 상위 맵을 확장하는 경우 한 번의 클릭으로 맵의 모든 파일을 잠글 수 있습니다. 상위 맵 파일을 확장하고 상위 파일을 선택하면 맵 내의 모든 파일이 선택됩니다. **잠금** ![](images/LockClosed_icon.svg)을(를) 선택하여 맵 내의 모든 파일을 잠글 수 있습니다.
 
@@ -935,7 +935,7 @@ Adobe Workfront이 구성된 경우 **Workfront**(으)로 레이블이 지정된
 
 - 편집기에서 파일의 탭을 마우스 오른쪽 단추로 클릭하여 컨텍스트 메뉴를 엽니다. 즐겨찾기 목록에 파일을 추가하려면 **다음에 추가** > **컬렉션**&#x200B;을 선택하십시오.
 
-  ![](images/favorite-add-from-file-context-menu_cs.png){width="800" align="left"}
+  ![](images/favorite-add-from-file-context-menu_cs.png){align="left"}
 
 
 >[!NOTE]
@@ -1098,7 +1098,7 @@ DAM 내에서 필요한 파일로 이동하여 편집기에서 열 수 있습니
 
   관리자가 *XMLEditorConfig*&#x200B;에서 UUID 옵션을 활성화한 경우 **Source** 속성에서 업로드된 이미지의 UUID를 볼 수 있습니다.
 
-  ![](images/uuid-in-source-upload-image_cs.png){width="800" align="left"}
+  ![](images/uuid-in-source-upload-image_cs.png){align="left"}
 
 - **폴더에서 파일 찾기**: 검색어를 입력할 수 있는 저장소 검색으로 포커스를 이동합니다. 검색은 저장소의 선택한 폴더에서 수행됩니다. 필터를 적용하여 DITA 파일, 이미지 파일 또는 둘 다 반환할 수도 있습니다.
 
@@ -1127,7 +1127,7 @@ DAM 내에서 필요한 파일로 이동하여 편집기에서 열 수 있습니
 - FrameMaker에서 열기
 - 복제
 - 잠금/잠금 해제
-- 미리보기
+- 미리 보기
 - 다음으로 이동
 - 이름 바꾸기
 - 삭제
@@ -1150,7 +1150,7 @@ DAM 내에서 필요한 파일로 이동하여 편집기에서 열 수 있습니
 
 - **미리 보기**: 파일(.dita, .xml, 오디오, 비디오 또는 이미지)을 열지 않고 빠르게 미리 봅니다. 미리 보기 창의 크기를 조정할 수 있습니다. 콘텐츠에 `<xref>` 또는 `<conref>`이(가) 포함되어 있으면 선택하여 새 탭에서 열 수 있습니다. 파일 제목이 창에 나타납니다. 제목이 없으면 파일 이름이 나타납니다. **미리 보기** 패널을 닫으려면 닫기 아이콘을 선택하거나 창 바깥쪽을 선택할 수 있습니다.
 
-  ![](images/quick-preview_cs.png){width="800" align="left"}
+  ![](images/quick-preview_cs.png){align="left"}
 
 - **이름 바꾸기**: 선택한 파일의 이름을 바꾸려면 이 옵션을 사용합니다. **자산 이름 바꾸기** 대화 상자에 새 파일 이름을 입력하십시오.
    - 모든 유형의 파일 이름을 바꿀 수 있습니다.
@@ -1270,7 +1270,7 @@ DAM 내에서 필요한 파일로 이동하여 편집기에서 열 수 있습니
 
 맵 파일의 옵션 메뉴를 사용하여 다음 작업을 수행할 수 있습니다.
 
-![맵 보기의 옵션 메뉴](images/options-menu-map-view_cs.png){width="800" align="left"}
+![맵 보기의 옵션 메뉴](images/options-menu-map-view_cs.png){align="left"}
 
 - **편집**: 맵 편집기에서 편집할 맵 파일을 엽니다.
 
@@ -1326,7 +1326,7 @@ DAM 내에서 필요한 파일로 이동하여 편집기에서 열 수 있습니
 
 다음 스크린샷은 맵 보기에서 파일에 대한 옵션 메뉴를 보여 줍니다.
 
-![](images/options-menu-file_cs.PNG){width="800" align="left"}
+![](images/options-menu-file_cs.PNG){align="left"}
 
 옵션 메뉴를 사용하여 다음 작업을 수행할 수 있습니다.
 
@@ -1436,11 +1436,11 @@ DITA의 주요 기능 중 하나는 콘텐츠를 재사용하는 기능입니다
 
 - 요소를 끌어서 놓습니다. 다른 요소를 끌어 놓아 요소를 쉽게 바꿀 수 있습니다. 요소를 다른 요소 위로 끌어다 놓고 요소 주위에 파선 사각형 상자를 보면 요소가 교체됨을 나타냅니다. 요소가 드롭된 요소를 대체합니다.
 
-  ![](images/replace-element-outline-view_cs.png){width="800" align="left"}
+  ![](images/replace-element-outline-view_cs.png){align="left"}
 
   요소를 드래그하여 놓으면 파선 사각형이 요소가 현재 위치에 배치될 수 있음을 나타냅니다. 드래그 앤 드롭이 유효하지 않은 경우, 작업이 허용되지 않음을 나타내는 오류 메시지가 표시됩니다.
 
-  ![](images/drop-element-outline-view_cs.png){width="800" align="left"}
+  ![](images/drop-element-outline-view_cs.png){align="left"}
 
 - *개요* 보기의 **옵션** 메뉴를 사용하면 현재 요소 앞 또는 뒤에 요소 삽입, 요소 이름 바꾸기 또는 바꾸기, 요소 줄 바꿈, 요소 줄 바꿈 취소, 선택한 요소에서 코드 조각 만들기와 같은 일반 작업을 수행할 수 있습니다.
 
@@ -1523,7 +1523,7 @@ Experience Manager Guides을 사용하면 용어집 유형 문서를 손쉽게 �
 
 요소에 여러 조건을 끌어다 놓아 요소에 여러 조건을 적용할 수도 있습니다. 요소에 여러 조건을 적용하면 속성 패널에 적용된 조건이 쉼표로 구분되어 표시됩니다.
 
-![](images/multiple-conditions-applied_cs.png){width="800" align="left"}
+![](images/multiple-conditions-applied_cs.png){align="left"}
 
 단, 코드 보기에서 조건은 공백 구분 기호를 사용하여 구분됩니다. 코드 보기에서 조건을 추가하거나 편집할 때는 공백을 사용하여 여러 조건이 구분되어야 합니다.
 
@@ -1531,7 +1531,7 @@ Experience Manager Guides을 사용하면 용어집 유형 문서를 손쉽게 �
 >
 > 다음 스크린샷은 관리 권한이 있는 사용자의 스크린샷입니다. 관리 권한이 있는 사용자는 조건을 추가, 편집 및 삭제할 수 있습니다. 그렇지 않으면 일반 작성자는 조건을 적용할 수 있는 옵션만 제공됩니다.
 
-![](images/conditional-content-through-panel_cs.png){width="800" align="left"}
+![](images/conditional-content-through-panel_cs.png){align="left"}
 
 조건을 추가하거나 정의하려면 조건 패널 옆에 있는 + 아이콘을 선택하여 조건 정의 대화 상자를 표시합니다.
 
@@ -1761,7 +1761,7 @@ Source 보기에서 속성 드롭다운의 값을 변경할 수도 있습니다.
 >
 > 다음 스크린샷은 관리 권한이 있는 사용자의 스크린샷입니다. 관리자 권한이 있는 사용자는 코드 조각을 추가, 편집 및 삭제할 수 있습니다. 또는 일반 작성자는 코드 조각을 미리 보고 삽입하는 옵션만 사용할 수 있습니다.
 
-![](images/snippets-panel_cs.png){width="800" align="left"}
+![](images/snippets-panel_cs.png){align="left"}
 
 코드 조각을 추가하려면 다음 방법 중 하나를 사용하십시오.
 
@@ -1826,7 +1826,7 @@ Experience Manager Guides을 사용하면 기본 PDF 게시를 위한 변수를 
 
 찾기 및 바꾸기 아이콘은 왼쪽 패널 하단에 있습니다. 찾기 및 바꾸기 패널을 사용하면 맵 또는 저장소 내 폴더에 있는 파일에서 텍스트를 검색하고 바꿀 수 있습니다. 맵의 모든 주제와 맵 내의 하위 맵에 있는 주제를 찾아서 바꿀 수 있습니다.
 
-![](images/map-find-replace.png){width="800" align="left"}
+![](images/map-find-replace.png){align="left"}
 
 기본적으로 제목별로 파일을 볼 수 있습니다. 파일 위로 마우스를 가져가면 파일 제목과 파일 경로를 도구 설명으로 볼 수 있습니다.
 
@@ -1919,7 +1919,7 @@ Experience Manager Guides은 프로젝트의 모든 검토 작업을 표시하�
 1. 항목의 제목이나 파일 경로에서 찾을 검색어나 텍스트를 입력할 수도 있습니다. 제목 또는 파일 경로에 있는 용어가 포함된 항목이 나열됩니다.
 1. 항목을 두 번 클릭하여 작성자 보기에서 엽니다. **댓글** 패널에서 댓글을 볼 수 있습니다.
 
-   ![](images/active-review-task-comments.png){width="800" align="left"}
+   ![](images/active-review-task-comments.png){align="left"}
 
    >[!NOTE]
    > 
@@ -1935,7 +1935,7 @@ Experience Manager Guides은 프로젝트의 모든 검토 작업을 표시하�
 
 콘텐츠 편집 영역의 왼쪽 하단에 있는 현재 커서 위치에 요소의 이동 경로가 있습니다. 오른쪽 하단 모서리에 사용 가능한 편집기 보기가 표시됩니다.
 
-![](images/content-editing-area.png){width="800" align="left"}
+![](images/content-editing-area.png){align="left"}
 
 콘텐츠 편집 영역의 주제 파일에 사용할 수 있는 편집기 보기에 대한 자세한 내용은 [편집기 보기](./web-editor-views.md)를 참조하세요.
 

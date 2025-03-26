@@ -4,7 +4,7 @@ description: Experience Manager Guides에서 맵 편집기를 사용하여 맵�
 exl-id: b9cda118-ab6f-4d6b-9616-a083180ba069
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1555'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Adobe Experience Manager Guides은 DITA 맵과 북맵이라는 두 가지 기본
 
 1. 저장소 패널에서 **새 파일** 아이콘을 선택한 다음 드롭다운 메뉴에서 **DITA 맵**&#x200B;을(를) 선택합니다.
 
-   ![](images/create-map-options.png){width="800" align="left"}
+   ![](images/create-map-options.png){align="left"}
 
    [Experience Manager Guides 홈 페이지](./intro-home-page.md)와 저장소 보기에 있는 폴더의 옵션 메뉴에서도 이 옵션에 액세스할 수 있습니다.
 
@@ -38,7 +38,7 @@ Adobe Experience Manager Guides은 DITA 맵과 북맵이라는 두 가지 기본
 
 지정한 경로에 맵이 만들어집니다. 또한 맵 편집기에서 편집할 수 있도록 맵이 열립니다.
 
-![](images/map-file-in-map-editor.png){width="800" align="left"}
+![](images/map-file-in-map-editor.png){align="left"}
 
 ## 맵 파일에 주제 추가
 
@@ -53,7 +53,7 @@ Adobe Experience Manager Guides은 DITA 맵과 북맵이라는 두 가지 기본
 
 1. 맵 파일이 맵 편집기에서 열립니다. 새 맵 파일을 연 경우 편집기에 맵의 제목만 표시됩니다.
 
-   ![](images/new-map-file-in-editor.png){width="800" align="left"}
+   ![](images/new-map-file-in-editor.png){align="left"}
 
 
    - **A** - \(*탭 표시줄*\): 편집기의 탭 표시줄과 비슷합니다. 자세한 내용은 편집기에서 [탭 모음](./web-editor-features.md#tab-bar)을 참조하세요.
@@ -76,7 +76,7 @@ Adobe Experience Manager Guides은 DITA 맵과 북맵이라는 두 가지 기본
 
    항목이 맵에 추가됩니다.
 
-   ![맵 편집기 항목 추가](images/map-editor-add-topic.png){width="800" align="left"}
+   ![맵 편집기 항목 추가](images/map-editor-add-topic.png){align="left"}
 
 1. 후속 주제 또는 하위 맵을 추가하려면 주제 또는 하위 맵을 맵의 필요한 위치로 드래그 앤 드롭합니다.
 
@@ -84,7 +84,7 @@ Adobe Experience Manager Guides은 DITA 맵과 북맵이라는 두 가지 기본
 
    - 맵 편집 영역에서 파선 사각형 막대가 나타나는 위치에 파일이 추가됩니다. 다음 스크린샷에서는 *스마트 제안 1*&#x200B;과(와) *스마트 제안 2* 주제 사이에 *샘플 주제* 주제가 추가됩니다.
 
-     ![](images/horizontal-line-in-adv-map-editor.png){width="800" align="left"}
+     ![](images/horizontal-line-in-adv-map-editor.png){align="left"}
 
    - 항목을 바꾸려면 바꿀 항목 위에 새 항목을 끌어서 놓습니다. 그리고 드롭하면 해당 항목이 드롭되는 것으로 바뀝니다.
 
@@ -94,7 +94,7 @@ Adobe Experience Manager Guides은 DITA 맵과 북맵이라는 두 가지 기본
 
    - 주제의 위치를 변경하려면 주제 아이콘을 선택하여 주제를 \(선택\) 선택한 다음 맵 파일의 원하는 위치에 드래그 앤 드롭합니다. 다음 스크린샷에서 *스마트 제안 1* 주제가 *샘플 주제* 뒤로 이동되고 있습니다.
 
-     ![](images/move-topic-adv-map-editor.png){width="800" align="left"}
+     ![](images/move-topic-adv-map-editor.png){align="left"}
 
    - 맵 파일의 속성을 확인하려면 맵 편집 영역의 아무 곳이나 마우스 오른쪽 단추로 클릭하고 상황에 맞는 메뉴에서 **속성**&#x200B;을 선택합니다. Adobe Experience Manager 버전을 기반으로 메타데이터, 일정 \(de\) 활성화, 참조, 문서 상태 등의 속성을 볼 수 있습니다.
 
@@ -116,7 +116,7 @@ Assets UI에서 맵을 만들려면 다음 단계를 수행하십시오.
    >
    > 맵 파일에서 주제가 참조되는 방식은 맵 템플릿에 따라 다릅니다. 예를 들어 맵 템플릿을 선택하면 항목 참조 \(`topicref`\)가 항목을 참조하는 데 사용됩니다. 북맵의 경우 DITA의 `chapter` 요소를 사용하여 주제 참조를 만듭니다.
 
-   ![](images/map-template.png){width="800" align="left"}
+   ![](images/map-template.png){align="left"}
 
 1. 속성 페이지에서 맵 **제목**&#x200B;을 지정하십시오.
 
@@ -132,7 +132,7 @@ Assets UI에서 맵을 만들려면 다음 단계를 수행하십시오.
 
    Assets UI 또는 편집기에서 만드는 모든 새 맵 파일에는 고유한 맵 ID가 지정됩니다. 또한 새 맵이 DAM에 최신 작업 복사본으로 저장됩니다. 새로 생성된 맵의 개정 버전을 저장할 때까지 버전 내역에 버전 번호가 표시되지 않습니다. 편집할 맵을 열면 맵 파일의 탭 오른쪽 상단 모서리에 버전 정보가 표시됩니다.
 
-   ![](images/first-version-map-none.png){width="800" align="left"}
+   ![](images/first-version-map-none.png){align="left"}
 
    새로 만든 맵의 버전 정보가 *없음*(으)로 표시됩니다. 새 버전을 저장하면 버전 번호가 1.0으로 지정됩니다. 새 버전을 저장하는 방법에 대한 자세한 내용은 [새 버전으로 저장](web-editor-features.md#save-as-new-version)을 참조하세요.
 
@@ -160,11 +160,11 @@ Assets UI에서 항목을 맵 파일에 추가하려면 다음 단계를 수행�
 
 1. 맵 파일을 선택한 상태에서 **주제 편집**&#x200B;을 선택합니다.
 
-   ![](images/edit-map-main-menu.png){width="800" align="left"}
+   ![](images/edit-map-main-menu.png){align="left"}
 
    또는 맵 파일의 작업 메뉴에서 **항목 편집** 옵션을 선택할 수도 있습니다.
 
-   ![](images/edit-map-action-menu.png){width="800" align="left"}
+   ![](images/edit-map-action-menu.png){align="left"}
 
    편집기에서 편집할 수 있도록 맵 파일이 열립니다. 맵 파일에 항목을 추가하려면 [맵 파일에 항목 추가](#add-topics-to-a-map-file)의 (4-8) 단계를 따르십시오.
 

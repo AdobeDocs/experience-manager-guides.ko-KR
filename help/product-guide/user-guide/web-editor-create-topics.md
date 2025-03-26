@@ -4,7 +4,7 @@ description: Adobe Experience Manager Guides에서 사용자 지정 템플릿을
 exl-id: 84e9cfdf-e188-487f-9181-68708029c101
 feature: Authoring
 role: User
-source-git-commit: 67d6b6f59e5d8c37389a181949ce4527760576e2
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Experience Manager Guides에서 주제를 만드는 방법에는 두 가지가 �
 
 지정한 경로에 주제가 만들어집니다. 또한 편집기에서 편집할 주제가 열립니다.
 
-![](images/new-topic-editor.png){width="800" align="left"}
+![](images/new-topic-editor.png){align="left"}
 
 ## Assets UI에서 주제 만들기
 
@@ -61,7 +61,7 @@ Assets UI에서 주제를 만들려면 다음 단계를 수행하십시오.
 
 1. 블루프린트 페이지에서 만들려는 DITA 문서의 유형을 선택하고 **다음**&#x200B;을 선택합니다.
 
-   ![](images/create_dita_topic.png){width="800" align="left"}
+   ![](images/create_dita_topic.png){align="left"}
 
    기본적으로 Experience Manager Guides은 가장 일반적으로 사용되는 DITA 주제 템플릿을 제공합니다. 조직 요구 사항에 따라 더 많은 주제 템플릿을 구성하고, 설정에 맞게 Adobe Experience Manager Guides 설치 및 구성에서 *작성 템플릿 구성*&#x200B;을 볼 수 있습니다.
 

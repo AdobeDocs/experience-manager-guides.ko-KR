@@ -4,7 +4,7 @@ description: AEM Guides의 저장소 패널 또는 맵 보기 패널에서 출�
 exl-id: f7a4be54-9c51-44e6-96bb-f25e3a6155da
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: a02a7310f5e332f88827a9d5a05034abec05b43a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 0%
@@ -52,7 +52,7 @@ DITA 맵에 대해 만든 출력 사전 설정을 사용하여 저장소 패널 
    - **맵**: 선택한 주제가 포함된 DITA 맵을 나열합니다.
    - **상태**: 각 항목의 게시 상태를 표시합니다.
 출력을 보려면 마우스 포인터를 주제 위로 가져간 다음 출력 보기 를 클릭합니다.
-     ![](images/output-multiple-maps_cs.png){width="800" align="left"}
+     ![](images/output-multiple-maps_cs.png){align="left"}
 
 
 ## 웹 편집기에서 DITA 맵에 대한 출력 생성

@@ -4,7 +4,7 @@ description: AEM Guides에서 기준선 의 사용을 이해합니다. 콘텐츠
 exl-id: 0554947f-3038-4fd2-8a62-ac0d4b858e94
 feature: Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1790'
 ht-degree: 0%
@@ -81,7 +81,7 @@ Experience Manager Guides에서는 사용자가 기준선을 만들고 이를 �
 1. 베이스라인에서 필요한 사항을 변경합니다. 주제 또는 참조된 콘텐츠의 이름 및 버전을 변경할 수 있습니다.
 1. 하나 이상의 주제에 대해 다른 버전을 사용하려면 해당 주제를 수동으로 선택하여 사용할 수 있습니다. **항목 찾아보기**&#x200B;를 선택하고 다른 버전을 사용할 항목을 선택하십시오. 선택한 항목에 대한 버전 선택 드롭다운 목록에서 기준선에 사용할 항목의 버전을 선택하고 **확인**&#x200B;을 선택합니다.
 
-   ![](images/baseline-select-version-drop-down.png){width="800" align="left"}
+   ![](images/baseline-select-version-drop-down.png){align="left"}
 
    주제 및 선택한 버전에 대한 정보가 백엔드에 저장됩니다. 이 단계를 반복하여 여러 주제에 대해 선택한 버전을 변경할 수 있습니다.
 
@@ -128,7 +128,7 @@ DITA 맵에서 여러 주제 및 참조된 콘텐츠에 레이블을 추가하�
 
 1. **레이블 추가**&#x200B;를 선택합니다.
 
-   ![](images/add-label-baseline-uuid.png){width="800" align="left"}
+   ![](images/add-label-baseline-uuid.png){align="left"}
 
 1. **레이블 추가** 대화 상자에서 이 기준선과 연결할 고유한 레이블을 지정합니다.
 
@@ -158,7 +158,7 @@ DITA 맵에서 여러 주제 및 참조된 콘텐츠에 레이블을 추가하�
 
 1. **번역** 탭에서 왼쪽 레일에서 사용할 수 있는 **기준선** 옵션을 확장합니다.
 
-   ![](images/export-baseline-new.png){width="800" align="left"}
+   ![](images/export-baseline-new.png){align="left"}
 
 1. **기준선 사용** 옵션을 선택하고 내보낼 기준선을 선택합니다.
 

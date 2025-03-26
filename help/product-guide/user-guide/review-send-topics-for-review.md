@@ -4,7 +4,7 @@ description: AEM Guides에서 검토 작업을 만들고 검토할 항목을 보
 exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 feature: Reviewing
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2793'
 ht-degree: 0%
@@ -95,7 +95,7 @@ Assets UI에서 작성자/게시자가 검토 작업을 만들 수 있는 방법
 
    콘텐츠 페이지가 표시됩니다.
 
-   ![](images/content_page_review.png){width="800" align="left"}
+   ![](images/content_page_review.png){align="left"}
 
 1. 컨텐트 페이지에서 검토를 위해 공유할 주제의 버전을 선택합니다.
 
@@ -214,7 +214,7 @@ Experience Manager Guides을 사용하면 DITA 맵에서 하나 이상의 주제
 
    맵 파일에서 참조된 모든 주제가 포함된 컨텐트 페이지가 표시됩니다. DITA 맵에 중첩된 맵이 포함된 경우 중첩된 맵의 항목도 여기에 나열됩니다.
 
-   ![](images/content-page-map-review.png){width="800" align="left"}
+   ![](images/content-page-map-review.png){align="left"}
 
 1. 컨텐트 페이지에서 검토를 위해 공유할 주제의 버전을 선택합니다.
 

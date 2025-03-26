@@ -4,7 +4,7 @@ description: 맵 콘솔 및 맵 대시보드에서 사용자 지정 사전 설�
 exl-id: 1bb14411-ec94-4960-92ba-3b2ff7a29932
 feature: Publishing
 role: User
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1225'
 ht-degree: 0%
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 맵 콘솔에서 사전 설정된 구성 옵션은 **일반** 및 **고급** 탭 아래에 구성됩니다.
 
-![](images/custom-preset-config.png){width="800" align="left"}
+![](images/custom-preset-config.png){align="left"}
 
 **일반** 탭에는 다음 구성 옵션이 포함되어 있습니다.
 

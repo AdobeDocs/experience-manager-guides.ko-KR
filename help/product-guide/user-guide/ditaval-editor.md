@@ -4,7 +4,7 @@ description: Adobe Experience Manager Guides의 DIVATAL 편집기를 사용하�
 exl-id: f3901a4f-1925-42aa-b773-0d6f18175ce8
 feature: Authoring, DITAVAL Editor
 role: User
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 0%
@@ -30,7 +30,7 @@ DITAVAL 파일을 생성하려면 다음 단계를 수행하십시오.
 
 1. 저장소 패널에서 **새 파일** 아이콘을 선택한 다음 드롭다운 메뉴에서 **주제**&#x200B;를 선택합니다.
 
-   ![](images/new-file-option.png){width="800" align="left"}
+   ![](images/new-file-option.png){align="left"}
 
    [Experience Manager Guides 홈 페이지](./intro-home-page.md)와 저장소 보기에 있는 폴더의 옵션 메뉴에서도 이 옵션에 액세스할 수 있습니다.
 
@@ -49,7 +49,7 @@ DITAVAL 파일을 생성하려면 다음 단계를 수행하십시오.
 
 지정한 경로에 주제가 만들어집니다. 또한 편집기에서 편집할 주제가 열립니다.
 
-![](images/ditaval-file-editor.png){width="800" align="left"}
+![](images/ditaval-file-editor.png){align="left"}
 
 ## DITAVAL 파일 편집
 

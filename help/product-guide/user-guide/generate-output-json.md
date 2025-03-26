@@ -4,7 +4,7 @@ description: 맵 콘솔에서 JSON 사전 설정을 만드는 방법에 대해 �
 exl-id: 9eb426fc-ca0a-4932-8a55-fea731281a0a
 feature: Publishing
 role: User
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '794'
 ht-degree: 0%
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 자세한 내용은 [JSON 구성](#json-configuration)을 참조하세요.
 
-![](images/json-preset-config.png){width="800" align="left"}
+![](images/json-preset-config.png){align="left"}
 
 ## JSON 구성
 

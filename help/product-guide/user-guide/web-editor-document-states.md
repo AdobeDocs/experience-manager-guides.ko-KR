@@ -4,7 +4,7 @@ description: Adobe Experience Manager Guides의 문서 상태 유형에 대해 �
 exl-id: 3a68b2ed-b917-4f05-8b2b-d2722a740502
 feature: Authoring, Features of Web Editor, Document State
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1042'
 ht-degree: 0%
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 Assets UI의 카드 보기에는 해당 DITA 주제 또는 DITA 맵의 생성 날짜 및 크기와 함께 현재 상태가 표시됩니다.
 
-![](images/document_state.png){width="800" align="left"}
+![](images/document_state.png){align="left"}
 
 ## DLC에서 문서 상태 사용
 

@@ -4,7 +4,7 @@ description: AEM Guides에서 DITA-OT 게시를 사용하여 메타데이터를 
 exl-id: 70ca32dc-56c3-45ee-b6b9-0efb8cc79ea1
 feature: Publishing, Metadata Management
 role: User
-source-git-commit: e1d6123991ddd8d25f76ee03befeb95f020a9834
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 0%
@@ -28,7 +28,7 @@ DITA-OT 게시를 사용하여 메타데이터를 출력에 전달하려면 다�
 1. 메타데이터 필드를 전달할 출력 사전 설정을 선택하여 엽니다. 예를 들어 PDF 출력 사전 설정을 선택합니다. **DITA-OT** 옵션을 사용하여 만들어졌는지 확인하십시오.
 1. **파일 속성** 드롭다운에서 DITA-OT 게시로 전달할 메타데이터를 선택합니다.
 
-   ![](images/custom-metadata-output-preset-new.png){width="800" align="left"}
+   ![](images/custom-metadata-output-preset-new.png){align="left"}
 
    속성 드롭다운에는 사용자 지정 속성과 기본 속성이 모두 나열됩니다. 예를 들어 위의 스크린샷 `dc:description`에서 `dc:language`, `dc:title` 및 `docstate`이(가) 기본 속성입니다.
 
@@ -61,7 +61,7 @@ DITA-OT 게시를 사용하여 메타데이터를 출력에 전달하려면 다�
 1. 메타데이터 필드를 전달할 출력 사전 설정을 선택하고 편집합니다. 예를 들어 PDF 출력 사전 설정을 선택합니다.
 1. 선택한 출력 사전 설정에서 **DITA-OT** 옵션을 선택합니다.
 
-   ![](images/custom-meta-data-output-preset.png){width="800" align="left"}
+   ![](images/custom-meta-data-output-preset.png){align="left"}
 
 1. 등록 정보 드롭다운에서 DITA-OT 게시에 전달할 메타데이터를 선택합니다.
 

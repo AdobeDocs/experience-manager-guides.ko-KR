@@ -4,7 +4,7 @@ description: AEM Guides의 맵 콘솔 및 맵 대시보드에서 DITA 맵에 대
 exl-id: d6cbd44c-e74c-4192-bcc4-fb7752c59508
 feature: Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
@@ -54,7 +54,7 @@ DITA 맵에 대한 출력을 생성하는 방법에는 두 가지가 있습니�
 
 1. 출력을 생성하는 데 사용할 [출력 사전 설정]을 하나 이상 선택합니다.
 
-   ![](images/generate-multiple-outputs-uuid.png){width="800" align="left"}
+   ![](images/generate-multiple-outputs-uuid.png){align="left"}
 
 1. **생성** 아이콘을 선택하여 출력 생성 프로세스를 시작합니다.
 

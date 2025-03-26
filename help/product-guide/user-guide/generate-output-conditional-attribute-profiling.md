@@ -4,7 +4,7 @@ description: AEM Guides에서 조건부 속성을 만드는 방법을 알아봅�
 exl-id: 5ec7666e-df6b-4b0d-b6c2-cdc395fcccc5
 feature: Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Adobe Experience Manager Guides을 사용하면 관련 DITA 속성을 사용하�
 
    다음 스크린샷은 값이 `unix`이고 레이블이 `Red Hat Linux`인 `platform` 특성에 대한 정의를 보여 줍니다.
 
-   ![](images/add-profile-new.png){width="800" align="left"}
+   ![](images/add-profile-new.png){align="left"}
 
 1. 동일한 특성에 대해 더 많은 값을 추가하려면 **+** 아이콘을 선택하고 추가 값과 레이블을 입력하십시오.
 

@@ -4,7 +4,7 @@ description: Adobe Experience Manager Guides에서 편집기의 다른 기능을
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 594e348fc1188e66cf2f4648702ed2b17f1f8f33
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2406'
 ht-degree: 0%
@@ -222,7 +222,7 @@ XML에서 공백에는 공백, 탭, 캐리지 리턴 및 빈 줄이 포함됩니
 
 줄 바꿈과 공백이 포함된 DITA 요소는 작성자, Source 또는 미리보기 모드와 최종 게시된 출력에서 해당 정의에 따라 지원되고 렌더링됩니다. 다음 스크린샷은 줄 바꿈과 공백 \(들여쓰기\)이 유지된 `msgblock` 요소 내의 내용을 보여 줍니다.
 
-![](images/new-line-support_cs.png){width="800" align="left"}
+![](images/new-line-support_cs.png){align="left"}
 
 
 

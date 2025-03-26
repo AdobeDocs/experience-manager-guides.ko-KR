@@ -4,7 +4,7 @@ description: Adobe Experience Manager Guides에서 다양한 버전의 파일에
 exl-id: d116906d-b469-4a97-b0af-4fadbe15222b
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Adobe Experience Manager Guides을 사용하면 파일의 다른 버전에 레�
 
 항목에서 버전 레이블을 삭제하려면 [버전 레이블 관리] 대화 상자에서 추가한 각 레이블에 대해 제공된 **제거** 아이콘을 사용하십시오.
 
-![](images/remove-version-label.png){width="800" align="left"}
+![](images/remove-version-label.png){align="left"}
 
 
 ## Assets UI의 레이블로 작업

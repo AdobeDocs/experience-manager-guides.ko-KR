@@ -4,7 +4,7 @@ description: Adobe Experience Manager Guides의 맵 편집기 기능을 이해�
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: e1d6123991ddd8d25f76ee03befeb95f020a9834
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2570'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 - [레이아웃](#layout-view)
 - [작성자](#author-view)
 - [소스](#source-view)
-- [미리보기](#preview)
+- [미리 보기](#preview)
 
 다음 섹션에서는 맵 편집기의 다양한 보기에서 사용할 수 있는 도구 모음 옵션을 다룹니다.
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 주제 검색 대화 상자를 표시합니다. 삽입할 주제/맵 파일로 이동한 다음 **선택**&#x200B;을 선택하여 맵에 추가합니다.
 
-![](images/insert-topic-reference-dialog.png){width="800" align="left"}
+![](images/insert-topic-reference-dialog.png){align="left"}
 
 
 **주제 그룹** - ![](images/topic-group.svg)
@@ -140,7 +140,7 @@ Keydef 삽입 대화 상자를 표시합니다. 이 대화 상자를 사용하�
 
 **작성자** 보기를 사용하면 편집기에서 DITA 맵을 편집할 수 있습니다. 이는 맵 편집기의 WYSIWYG 보기를 보여주며 작성자 보기에 표시된 일부 아이콘은 레이아웃 보기와 동일합니다.
 
-![](images/map-editor-author-view.png){width="800" align="left"}
+![](images/map-editor-author-view.png){align="left"}
 
 또한 다음 아이콘을 보고 작성자 보기에서 관련 작업을 수행할 수 있습니다.
 
@@ -243,18 +243,18 @@ XML 태그를 표시하거나 숨깁니다. 태그는 요소의 경계를 나타
 
 이 보기를 사용하면 콘텐츠를 원시 형식으로 편집하여 구조 및 형식을 완벽하게 제어할 수 있습니다.
 
-![](images/map-editor-source-view.png){width="800" align="left"}
+![](images/map-editor-source-view.png){align="left"}
 
 
 이 보기에서 도구 모음은 잘라내기, 복사, 실행 취소, 다시 실행, 삭제, 찾기 및 바꾸기, 버전 레이블, 병합, 새 버전으로 저장, 잠금 및 잠금 해제를 포함하여 **메뉴** 드롭다운에서 사용할 수 있는 기본 콘텐츠 편집 및 삽입 옵션을 제공합니다.
 
-## 미리보기
+## 미리 보기
 
 미리보기 모드는 최종 출력에 나타나는 대로 콘텐츠를 렌더링하므로 게시하기 전에 레이아웃과 서식을 검토할 수 있습니다.
 
 맵 내에서 각 주제 파일의 위치를 볼 수 있을 뿐만 아니라, 맵 콘텐츠를 하나의 연속적인 흐름으로 보는 것이 바람직하다. 맵 미리 보기 기능을 사용하면 한 번의 클릭으로 맵 파일의 전체 콘텐츠를 볼 수 있습니다. 맵 파일의 출력을 생성하지 않아도 전체 맵이 게시된 후 어떻게 표시되는지 볼 수 있습니다. 맵의 미리보기에 간단히 액세스할 수 있으며 모든 주제와 하위 맵이 책 형태로 렌더링됩니다.
 
-![](images/map-editor-preview.png){width="800" align="left"}
+![](images/map-editor-preview.png){align="left"}
 
 >[!NOTE]
 >
@@ -315,7 +315,7 @@ DITA 맵을 통해 주제를 편집하려면 다음 단계를 수행합니다.
 
    편집기에서 여러 항목을 열 수 있으며 각 항목은 편집기의 새 탭에서 열립니다. DITA 맵에 하위 맵이 포함되어 있더라도 하위 맵의 주제는 편집을 위해 새 탭에서도 열립니다. 하위 맵 아래의 항목을 보려면 하위 맵을 선택하고 확장할 수 있습니다.
 
-   ![](images/web-editor-multiple-topics.png){width="800" align="left"}
+   ![](images/web-editor-multiple-topics.png){align="left"}
 
    맵 파일을 선택하면 편집기의 새 탭에서 맵이 열립니다.
 

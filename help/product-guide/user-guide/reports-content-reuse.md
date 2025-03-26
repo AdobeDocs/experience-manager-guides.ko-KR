@@ -4,7 +4,7 @@ description: AEM Guides에서 컨텐츠 재사용 보고서를 보는 방법에 
 exl-id: ccae4303-75b1-4077-829a-7ef6a14fd8ad
 feature: Report Generation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 1. 콘텐츠 재사용 보고서를 가져오려면 **보고서 생성**&#x200B;을 선택하십시오.
 
-   ![](images/content-reuse-uuid.png){width="800" align="left"}
+   ![](images/content-reuse-uuid.png){align="left"}
 
    보고서 페이지는 두 부분으로 나뉘어져 있습니다.
 

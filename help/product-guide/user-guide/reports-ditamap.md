@@ -4,7 +4,7 @@ description: AEM Guides의 맵 대시보드에서 DITA 맵 보고서를 생성�
 exl-id: 7fe52ee0-e940-467b-9b8d-3d2371de7a84
 feature: Report Generation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '759'
 ht-degree: 0%
@@ -25,7 +25,7 @@ DITA 맵 보고서를 보려면 다음 단계를 수행하십시오.
 
 1. **보고서**&#x200B;를 선택하십시오.
 
-   ![](images/reports-page-uuid-new.png){width="800" align="left"}
+   ![](images/reports-page-uuid-new.png){align="left"}
 
    보고서 페이지는 두 부분으로 나뉘어져 있습니다.
 
@@ -37,7 +37,7 @@ DITA 맵 보고서를 보려면 다음 단계를 수행하십시오.
 
      항목을 선택하면 선택한 항목에 대한 자세한 보고서가 표시됩니다.
 
-     ![](images/detailed-report-uuid-new.png){width="800" align="left"}
+     ![](images/detailed-report-uuid-new.png){align="left"}
 
      **A**, **B**, **C** 및 **D**&#x200B;에 강조 표시된 항목은 아래에 설명되어 있습니다.
 
@@ -82,7 +82,7 @@ DITA 맵 보고서의 CSV를 생성하려면 다음 단계를 수행하십시오
 
 1. 왼쪽 상단에서 **보고서 생성**&#x200B;을 선택하여 DITA 맵 보고서를 생성합니다.
 
-   ![](images/generate-DITA-map-report-new.png){width="800" align="left"}
+   ![](images/generate-DITA-map-report-new.png){align="left"}
 
 1. 보고서를 다운로드할 준비가 되면 알림을 받게 됩니다. 생성된 보고서의 CSV를 다운로드하려면 **다운로드**&#x200B;를 선택하십시오.
 

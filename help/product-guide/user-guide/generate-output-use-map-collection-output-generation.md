@@ -4,7 +4,7 @@ description: 맵 컬렉션을 만들고 삭제하고 DITA 맵을 추가하거나
 exl-id: 41152fa4-f739-44d2-9ccd-74072f53e31b
 feature: Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1251'
 ht-degree: 1%
@@ -54,7 +54,7 @@ Adobe Experience Manager Guides에서는 맵 컬렉션이라는 대시보드를 
 
    DITA 맵 파일이 맵 컬렉션에 추가됩니다.
 
-   ![맵 컬렉션 대시보드](./images/map-collection-dashboard.png){width="800" align="left"}
+   ![맵 컬렉션 대시보드](./images/map-collection-dashboard.png){align="left"}
 
 **필터링 옵션**
 
@@ -95,7 +95,7 @@ Adobe Experience Manager Guides에서는 맵 컬렉션이라는 대시보드를 
    - DITA 맵에 대해 **모든 사전 설정**&#x200B;을 활성화하여 한 번에 모든 사전 설정을 선택합니다. 이 옵션은 기본적으로 비활성화되어 있습니다.
    - DITA 맵에 대해 **폴더 프로필 사전 설정**&#x200B;을 활성화하여 모든 폴더 프로필 사전 설정을 선택합니다. 이 옵션은 기본적으로 비활성화되어 있습니다.
 
-![클라우드 서비스에서 맵 컬렉션 편집](images/edit-map-collection-cs.png){width="800" align="left"}
+![클라우드 서비스에서 맵 컬렉션 편집](images/edit-map-collection-cs.png){align="left"}
 
 
 
@@ -112,7 +112,7 @@ Adobe Experience Manager Guides에서는 맵 컬렉션이라는 대시보드를 
 
 맵 컬렉션에서 DITA 맵에 대한 메타데이터 속성을 일괄적으로 구성할 수 있습니다. **메타데이터 구성**&#x200B;을 선택하여 **자산 메타데이터** 페이지를 엽니다. **자산 메타데이터** 페이지에서 컬렉션에 있는 모든 맵이 왼쪽에 나열됩니다.
 
-![메타데이터 구성](images/map-collection-asset-metadata.png){width="800" align="left"}
+![메타데이터 구성](images/map-collection-asset-metadata.png){align="left"}
 
 메타데이터 속성을 구성하려면 다음 단계를 수행하십시오.
 
@@ -147,6 +147,6 @@ Adobe Experience Manager Guides에서는 맵 컬렉션이라는 대시보드를 
 
 [DITA 맵 콘솔](generate-output-for-a-dita-map.md#id2061H100T5Z) 또는 [대시보드 게시](generate-output-publish-dashboard.md#)에서 출력 생성 작업을 취소하는 방법과 마찬가지로 맵 컬렉션에서 출력 생성 작업을 취소할 수 있습니다. 맵 컬렉션의 출력 탭에 액세스하여 취소할 게시 작업으로 이동한 다음 **이 작업 취소** 아이콘을 선택하여 게시 작업을 취소합니다.
 
-![](images/cancel-publish-task-map-collection.png){width="800" align="left"}
+![](images/cancel-publish-task-map-collection.png){align="left"}
 
 **상위 항목:**[&#x200B;출력 생성](generate-output.md)

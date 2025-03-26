@@ -4,7 +4,7 @@ description: AEM Guides에서 조건 사전 설정의 사용을 알 수 있습�
 exl-id: f6865a34-abdd-4d23-b903-0211bebd13b7
 feature: Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1152'
 ht-degree: 1%
@@ -25,7 +25,7 @@ DITA 주제에서 속성을 정의하고 조건 사전 설정을 사용하여 �
 
 Experience Manager Guides을 사용하면 맵 콘솔에서 조건 사전 설정을 만들고 관리할 수 있으며, **출력 사전 설정**&#x200B;에서 이 사전 설정을 사용하여 최종 조건부 출력을 생성할 수 있습니다.
 
-<img src="images/manage-condtions-presets.png" alt= "맵 콘솔의 조건 사전 설정" width="800" border="1px">
+<img src="images/manage-condtions-presets.png" alt= "맵 콘솔의 조건 사전 설정" border="1px">
 
 ### 조건 사전 설정 만들기
 

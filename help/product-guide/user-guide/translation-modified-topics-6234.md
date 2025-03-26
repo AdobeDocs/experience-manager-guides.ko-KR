@@ -4,7 +4,7 @@ description: AEM Guides에서 수정된 주제를 다시 번역하는 방법을 
 exl-id: b3228ea9-24a8-44aa-8ba4-e8f44754ffe4
 feature: Translation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 
    추가 세부 정보를 보려면 화살표를 선택하면 동기화되지 않은 특정 언어 사본을 볼 수 있습니다.
 
-   ![](images/out-of-sync-uuid-new.png){width="800" align="left"}
+   ![](images/out-of-sync-uuid-new.png){align="left"}
 
 1. 재번역을 위해 보낼 항목을 선택하려면 확인란을 선택합니다.
 

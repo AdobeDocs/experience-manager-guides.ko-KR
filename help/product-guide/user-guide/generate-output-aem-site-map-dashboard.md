@@ -4,7 +4,7 @@ description: 맵 대시보드에서 AEM Guides의 AEM 사이트 사전 설정을
 feature: Publishing
 role: User
 exl-id: 641c98ca-b815-4176-abf5-a12c31ff4496
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2404'
 ht-degree: 0%
@@ -47,7 +47,7 @@ AEM Sites 출력에 사용할 수 있는 옵션은 다음과 같습니다.
 
 콘텐츠를 연결하는 또 다른 방법은 `peer` `@scope`을(를) 사용하여 링크를 만드는 것입니다. 이러한 컨텐트의 경우 파일 제목과 DITA 맵의 게시 컨텍스트에서 링크된 주제에 대해 구성된 컨텍스트를 선택하여 런타임 시 링크가 해결됩니다. 다음 스크린샷은 `peer` `@scope`이(가) 있는 링크의 속성 패널을 보여 줍니다.
 
-![](images/peer-link-scope-link-new.png){width="800" align="left"}
+![](images/peer-link-scope-link-new.png){align="left"}
 
 Adobe Experience Manager Guides을 사용하면 각 출력 사전 설정에 대한 게시 컨텍스트를 설정할 수 있으므로 복잡한 맵과 다른 맵의 다른 주제에 연결되는 주제를 간단히 게시할 수 있습니다.
 
@@ -65,7 +65,7 @@ Adobe Experience Manager Guides을 사용하면 각 출력 사전 설정에 대�
 
    AEM 사전 설정 및 게시 컨텍스트 탭이 표시됩니다.
 
-   ![](images/aem-site-publish-settings.png){width="800" align="left"}
+   ![](images/aem-site-publish-settings.png){align="left"}
 
 1. **게시 컨텍스트** 탭을 엽니다.
 
@@ -77,7 +77,7 @@ Adobe Experience Manager Guides을 사용하면 각 출력 사전 설정에 대�
 
    기본적으로 연결된 모든 주제에는 최신 출력 사전 설정과 맵이 선택되어 있습니다.
 
-   ![](images/default-publish-context.png){width="800" align="left"}
+   ![](images/default-publish-context.png){align="left"}
 
 1. DITA 맵과 사전 설정의 기본 선택을 변경하려면 **편집** \(기본 도구 모음에서\)를 선택합니다.
 

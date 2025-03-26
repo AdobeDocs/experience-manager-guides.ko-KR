@@ -4,7 +4,7 @@ description: AEM Guides에서 기본 맵 편집기로 작업하는 방법을 알
 exl-id: 13da729d-e8f7-46ae-873a-1bfc32da974f
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 126cecdaa481b9da1add4ba3664c26c2bc5da068
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1471'
 ht-degree: 0%
@@ -44,7 +44,7 @@ ht-degree: 0%
 
    맵 편집기에서 편집할 수 있도록 맵 파일이 열립니다. 맵 편집기를 사용하여 참조 레일에 표시된 현재 사용 가능한 주제를 사용하여 맵을 작성합니다.
 
-   ![](images/dita-map-01.png){width="800" align="left"}
+   ![](images/dita-map-01.png){align="left"}
 
 1. **참조** 레일을 사용하여 추가할 항목이나 하위 맵이 포함된 폴더로 이동합니다.
 
@@ -73,13 +73,13 @@ ht-degree: 0%
 
 기본 맵 편집기의 기본 도구 모음을 사용하여 다음 작업을 수행할 수 있습니다.
 
-![](images/ditamap-toolbar-actions.png){width="800" align="left"}
+![](images/ditamap-toolbar-actions.png){align="left"}
 
 **A: 검색**
 
 DAM에서 필요한 항목을 검색하고 포함할 수 있습니다. 이 아이콘을 클릭하면 검색 대화 상자가 표시됩니다.
 
-![](images/search-dita-map.png){width="800" align="left"}
+![](images/search-dita-map.png){align="left"}
 
 검색할 키워드를 입력합니다. 이 키워드는 주제의 파일 이름, 컨텐트 및 속성 값에도 일치합니다. 검색 결과를 사용할 수 있게 되면 원하는 항목을 선택하고 확인 버튼을 클릭하여 맵 구조의 끝에 선택한 파일을 추가합니다. 수정 날짜 매개 변수를 지정하여 검색 결과를 필터링할 수 있습니다.
 

@@ -4,7 +4,7 @@ description: 웹 편집기에서 콘텐츠를 여러 언어로 번역합니다. 
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: 6b4908e9780ec70f4d11a21680bba384c9636485
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2365'
 ht-degree: 0%
@@ -93,7 +93,7 @@ Experience Manager Guides에는 콘텐츠를 여러 언어로 번역할 수 있�
    - **대상 레이블**: 대상 파일의 선택한 버전에 대한 레이블
 1. 오른쪽 상단 모서리에서 **번역용으로 보내기**&#x200B;를 선택합니다.
 
-   ![](images/translation-send.png){width="800" align="left"}
+   ![](images/translation-send.png){align="left"}
 
 1. 드롭다운에서 **새 번역 프로젝트 만들기**&#x200B;를 선택합니다.
 

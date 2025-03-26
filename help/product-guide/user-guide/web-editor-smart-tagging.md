@@ -4,7 +4,7 @@ description: AEM Guides에서 스마트 태그를 추가하는 방법을 알아�
 exl-id: 7fb4b881-0898-44eb-a0e8-85cb99d9593b
 feature: Metadata Management
 role: User
-source-git-commit: 9898f98d897da4da9ca76a89efd262239606ac2e
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Adobe Experience Manager Guides에는 스마트 태그를 추가하는 기능이
 1. 사후 프로세스 실행 옵션을 선택합니다. 도구가 성공적으로 시작되면 메시지가 표시됩니다.
 1. 태그는 자동으로 추출되며 선택한 주제의 속성 페이지에서 볼 수 있습니다.
 
-   ![](images/properties-smart-tags.png){width="800" align="left"}
+   ![](images/properties-smart-tags.png){align="left"}
 
    >[!NOTE]
    >

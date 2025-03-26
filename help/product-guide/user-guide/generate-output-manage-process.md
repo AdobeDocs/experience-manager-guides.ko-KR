@@ -3,7 +3,8 @@ title: 출력 생성
 description: AEM Guides의 DITA-OT 플러그인, 기본 PDF 게시 및 FTPS를 통해 AEM Sites, PDF, HTML5, EPUB, 사용자 지정 및 JSON의 출력 생성 프로세스를 관리합니다.
 feature: Publishing
 role: User
-source-git-commit: b061bcbcefba1700665bed33f017a962e84a0433
+exl-id: 11bb3604-f45c-4df7-be74-588dbf8594af
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 0%
@@ -26,7 +27,7 @@ Adobe Experience Manager Guides을 사용하면 생성된 출력에 대해 다�
 
 1. **출력**&#x200B;을 선택하세요.
 
-   ![](images/output-queued.png){width="800" align="left"}
+   ![](images/output-queued.png){align="left"}
 
    [출력] 페이지는 두 부분으로 나뉩니다.
 
@@ -63,17 +64,17 @@ DITA 맵 콘솔에서 출력 생성 작업을 취소하려면 다음 단계를 �
 
 1. **이 작업 취소** 아이콘을 선택합니다.
 
-   ![](images/cancel-publish-task-map-console.png){width="800" align="left"}
+   ![](images/cancel-publish-task-map-console.png){align="left"}
 
 1. **취소 확인** 메시지 프롬프트에서 **예**&#x200B;을(를) 선택하십시오.
 
-   ![](images/confirm-cancel-output-map-console.png){width="800" align="left"}
+   ![](images/confirm-cancel-output-map-console.png){align="left"}
 
    작업이 아직 시작되지 않은 경우 취소 명령이 작업에 대해 실행됩니다. 취소 중인 작업의 경우 상태가 취소로 설정됩니다.
 
    작업이 성공적으로 취소되면 **취소됨** 상태의 **생성된 출력** 목록으로 이동됩니다. 취소한 작업 위로 마우스를 가져가면 작업을 취소한 사용자의 이름이 표시됩니다. 다음 스크린샷에서는 *HTML5* 작업이 취소되었습니다.
 
-   ![](images/cancelled-output-task.png){width="800" align="left"}
+   ![](images/cancelled-output-task.png){align="left"}
 
 
 ## 출력 작업 삭제
@@ -90,9 +91,8 @@ DITA 맵에 대해 여러 출력을 생성하면 일정 기간 동안 이러한 
 
 1. 삭제 아이콘을 선택합니다.
 
-   ![](images/delete-output-task.png){width="800" align="left"}
+   ![](images/delete-output-task.png){align="left"}
 
 1. **삭제 확인** 메시지 프롬프트에서 **예**&#x200B;을(를) 선택하십시오.
 
    작업이 생성된 출력 목록에서 삭제됩니다.
-

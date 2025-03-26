@@ -4,7 +4,7 @@ description: AEM Guides의 맵 콘솔에서 DITA 맵 보고서를 생성합니�
 exl-id: 2f202b41-85d9-4a5a-aa28-e25715ce5e2e
 feature: Report Generation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2568'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Adobe Experience Manager Guides에는 맵의 전체 무결성을 확인하고 �
 
 **보고서** 패널에서 네 개의 보고서를 모두 찾을 수 있습니다. 요구 사항에 따라 여기에 표시된 대로 보고서를 선택할 수 있습니다.
 
-![](images/reports-demo.png){width="800" align="left"}
+![](images/reports-demo.png){align="left"}
 
 보고서 패널에서는 네 가지 유형의 보고서에 액세스할 수 있습니다. 각 보고서는 접근성 및 기능과 함께 아래에 자세히 설명되어 있습니다.
 
@@ -44,7 +44,7 @@ Adobe Experience Manager Guides에는 맵의 전체 무결성을 확인하고 �
 
 1. 보고서 패널에서 **주제 목록**&#x200B;을(를) 선택합니다. DITA 맵에 있는 주제 목록이 표시됩니다.
 
-   ![](images/web-editor-topiclist-panel-new.png){width="800" align="left"}
+   ![](images/web-editor-topiclist-panel-new.png){align="left"}
 
 1. **필터** 패널에서 **참조 형식** \(직접 또는 간접\), **문서 상태** \(예: 주제가 편집, 검토 중 또는 검토됨 상태인 경우 나열됨\) 또는 주제의 **작성자**&#x200B;에 따라 주제를 필터링할 수 있습니다.
 
@@ -78,7 +78,7 @@ Adobe Experience Manager Guides에는 맵의 전체 무결성을 확인하고 �
 1. 보고서 패널에서 **메타데이터**&#x200B;을(를) 선택합니다. 맵의 모든 참조 목록이 태그, 문서 상태, 사용자 지정 메타데이터와 같은 메타데이터와 함께 표시됩니다. 새 사용자 지정 메타데이터 열을 추가하려면 [사용자 지정 메타데이터 열 추가](#add-custom-metadata-columns) 섹션을 참조하십시오.
 
 
-   ![](images/web-editor-metadata-panel-new.png){width="800" align="left"}
+   ![](images/web-editor-metadata-panel-new.png){align="left"}
 
 
 1. **필터** 패널에서 참조의 **문서 상태** \(예: 주제가 편집, 검토 중 또는 검토됨 상태인 경우 나열됨\), **참조** \(직접 또는 간접\), **파일 형식** \(맵, 주제, 문서, 이미지, 비디오 및 기타\)을 기반으로 주제를 필터링할 수 있습니다.
@@ -127,7 +127,7 @@ Adobe Experience Manager Guides에는 맵의 전체 무결성을 확인하고 �
    >
    > 체크 아웃된 파일은 선택할 수 없습니다. 체크 아웃된 파일의 제목 근처에 체크 아웃 아이콘도 나타납니다. 아이콘 위로 마우스를 가져가 사용자의 이름을 볼 수 있습니다.
 
-   ![](images/all-selection.png){width="800" align="left"}
+   ![](images/all-selection.png){align="left"}
 
 
 1. 맨 위에서 **관리**&#x200B;를 선택합니다.
@@ -225,13 +225,13 @@ Adobe Experience Manager Guides에는 맵의 전체 무결성을 확인하고 �
    - **끊어진 링크**&#x200B;로 주문하면 끊어진 링크의 경로가 첫 번째 열에 표시된 다음 해당 링크가 사용된 모든 참조의 이름이 별도의 행의 다른 열에 표시됩니다. 여러 파일에서 동일한 끊어진 링크가 사용되는 경우 한 행에 표시되고 그룹화되거나 하위 행으로 표시됩니다. 예를 들어, 다음 스크린샷은 첫 번째 열에 있는 끊어진 두 링크와 해당 링크가 사용되는 참조를 보여 줍니다. `m_ElectricalSpecs_900.ditamap`은(는) 두 개의 개별 행에 있는 세 번째 열에 표시됩니다.
 
 
-   ![](images/broken-link-report-new.png){width="800" align="left"}
+   ![](images/broken-link-report-new.png){align="left"}
 
 
    - **Used in** 열을 기준으로 정렬하면 첫 번째 열에는 끊어진 링크가 사용된 참조 이름이 나열되고 같은 행의 다른 열에는 끊어진 링크가 나열된 바꾸기 보기가 표시됩니다. 예를 들어 다음 스크린샷은 첫 번째 열의 참조(끊어진 링크가 사용됨) `m_ElectricalSpecs_900.ditamap`을(를) 보여 주며 끊어진 링크는 같은 행의 세 번째 열에 표시됩니다.
 
 
-   ![](images/broken-link-filter-usedin-new.png){width="800" align="left"}
+   ![](images/broken-link-filter-usedin-new.png){align="left"}
 
 
 1. **파일 형식** 및 **링크 형식**&#x200B;을(를) 기반으로 끊어진 링크를 필터링할 수 있습니다. 드롭다운에서 선택한 항목에 따라 끊어진 링크 목록이 표시됩니다. 예를 들어 DITA 맵의 컨텐트 참조만 표시하도록 선택할 수 있으며, 파일에 사용된 깨진 컨텐트 참조만 표시됩니다.

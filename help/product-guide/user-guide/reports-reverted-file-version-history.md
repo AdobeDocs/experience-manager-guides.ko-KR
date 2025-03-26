@@ -4,7 +4,7 @@ description: AEM Guides에서 되돌린 파일 버전 내역 보고서를 봅니
 exl-id: 74bef625-acd6-49a6-b983-881a782f68d6
 feature: Report Generation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Revert History 보고서에 액세스하려면 다음 단계를 수행하십시�
 
 1. **로그 표시**&#x200B;를 선택하여 선택한 파일 또는 폴더에 대한 보고서를 생성합니다.
 
-   ![](images/revert-version-history-report.png){width="800" align="left"}
+   ![](images/revert-version-history-report.png){align="left"}
 
    이 보고서에는 다음 세부 정보가 포함됩니다.
 

@@ -4,7 +4,7 @@ description: AEM Guides에서 AEM Sites에 대한 증분 출력 생성이 작동
 exl-id: 019d9fbf-2f23-4669-8022-d693be75c1c3
 feature: Publishing
 role: User
-source-git-commit: b061bcbcefba1700665bed33f017a962e84a0433
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 0%
@@ -36,7 +36,7 @@ DITA 맵에서 일부 주제만 업데이트하고 업데이트된 주제만 라
 1. 증분 출력을 생성할 AEM Sites 사전 설정을 선택합니다.
 1. **주제** 탭에서 게시할 주제를 선택합니다.
 
-   ![aem 사이트 주제 목록](images/aem-presets-topic-list.png) {width="800" align="left"}
+   ![aem 사이트 주제 목록](images/aem-presets-topic-list.png) {align="left"}
 
    >[!NOTE]
    >
@@ -64,7 +64,7 @@ DITA 맵에서 일부 주제만 업데이트하고 업데이트된 주제만 라
    >
    > DITA 맵에 새 주제를 추가한 경우 여기에서 해당 새 주제를 생성할 수 없습니다. 먼저 DITA 맵 게시 기능을 사용하여 새로 추가된 주제를 게시해야 합니다.
 
-   ![](images/regenerate-topics.png){width="800" align="left"}
+   ![](images/regenerate-topics.png){align="left"}
 
 1. **다시 생성**&#x200B;을 선택합니다.
 

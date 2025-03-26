@@ -4,7 +4,7 @@ description: AEM Guides에서 파일 및 폴더를 관리하는 방법에 대해
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: 99e42091490b28b5d5ee73472a7655e3feeafd25
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '3131'
 ht-degree: 0%
@@ -310,7 +310,7 @@ Adobe Experience Manager 저장소에서 파일을 삭제하는 것은 시스템
 1. 왼쪽 레일에서 **버전 기록**&#x200B;을 선택하고 버전을 선택합니다.
 1. 버전 기록 아래에서 다양한 버전의 축소판을 볼 수도 있습니다.
 
-   ![](images/media-version-history-icon.png){width="800" align="center"}
+   ![](images/media-version-history-icon.png){align="center"}
 
 1. 나열된 버전에서 기본 버전으로 사용할 버전을 선택하고 **버전 미리 보기**&#x200B;를 선택합니다. 선택한 버전의 미리보기가 버전 미리보기 창에 표시됩니다.
 

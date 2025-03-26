@@ -4,7 +4,7 @@ description: AEM Guides의 게시 대시보드를 사용하여 게시 작업을 
 exl-id: d9e25e52-ba9d-4088-ac95-8df76b69f5d3
 feature: Publishing
 role: User
-source-git-commit: ff75aca9ddd7b405501a62e055fb99bd5ea2291c
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 게시 대시보드는 시스템에서 현재 실행 중인 모든 게시 작업에 대한 전체 개요를 제공합니다.
 
-![](images/publish-dashboard.png){width="800" align="left"}
+![](images/publish-dashboard.png){align="left"}
 
 게시 대시보드에는 다음 세부 정보가 포함되어 있습니다.
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 - **출력 사전 설정** - 현재 활성 게시 작업을 보려는 출력 사전 설정을 하나 이상 선택합니다. 다음 스크린샷에서는 게시 작업이 필터링되어 AEM 사이트 출력 사전 설정을 사용하는 작업만 표시됩니다.
 
-  ![](images/publish-dashboard-preset-filter.png){width="800" align="left"}
+  ![](images/publish-dashboard-preset-filter.png){align="left"}
 
 - **시작한 사람** - 선택한 사용자가 시작한 게시 작업을 표시하려면 목록에서 사용자 이름을 선택합니다.
 
@@ -65,7 +65,7 @@ Adobe Experience Manager **도구** 페이지에서 **대시보드 게시**&#x20
 
    파일 이름(File Name) 링크를 선택하면 선택한 맵의 DITA 맵 대시보드가 표시됩니다.
 
-   ![](images/publish-dashboard-click-filename-link.png){width="800" align="left"}
+   ![](images/publish-dashboard-click-filename-link.png){align="left"}
 
 
 >[!NOTE]
@@ -80,13 +80,13 @@ Adobe Experience Manager **도구** 페이지에서 **대시보드 게시**&#x20
 
 1. 활성 게시 작업 목록에서 취소하려는 작업의 삭제 아이콘을 선택합니다.
 
-   ![](images/publish-dashboard-cancel-task.png){width="800" align="left"}
+   ![](images/publish-dashboard-cancel-task.png){align="left"}
 
 1. **취소 확인** 메시지 프롬프트에서 **예**&#x200B;을(를) 선택하십시오.
 
    cancel 명령이 수락되고 작업이 활성 상태인 한 취소가 시도됩니다. 작업이 성공적으로 종료되면 현재 활성화된 작업 목록에서 제거됩니다. 작업의 상태도 DITA 맵 대시보드에서 취소됨으로 업데이트됩니다. 다음 스크린샷에서는 *HTML5* 작업이 게시 대시보드에서 취소되고 DITA 맵 대시보드에서도 상태가 변경됩니다.
 
-   ![](images/cancelled-output-task.png){width="800" align="left"}
+   ![](images/cancelled-output-task.png){align="left"}
 
 
 **상위 항목:**[&#x200B;출력 생성](generate-output.md)

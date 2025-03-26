@@ -4,7 +4,7 @@ description: AEM Guides에서 검토자 또는 작성자로 완료된 검토 작
 exl-id: 7c468a1c-046c-4b40-9f0b-1a67e6cf65fe
 feature: Reviewing
 role: User
-source-git-commit: 99e42091490b28b5d5ee73472a7655e3feeafd25
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 0%
@@ -21,19 +21,19 @@ ht-degree: 0%
 
 그러나 모든 주석을 검색하거나 필터링할 수 있습니다. 조건을 표시하거나 숨기고 그에 따라 조건화된 콘텐츠를 표시하도록 선택할 수도 있습니다. 첨부 파일은 다운로드할 수 있지만 댓글에 대한 첨부 파일은 업로드하거나 삭제할 수 없습니다.
 
-![](images/complete-task-reviewer-new.png){width="800" align="left"}
+![](images/complete-task-reviewer-new.png){align="left"}
 
 
 ## 작성자
 
 스크린샷과 같이 **마감된 작업** 섹션에서 프로젝트 수준의 **검토** 패널에서 완료된 검토 작업을 볼 수 있습니다. 프로젝트를 기반으로 검토 작업을 검색하거나 필터링할 수 있습니다. 예를 들어 **필터** 대화 상자에서 특정 프로젝트를 선택하여 활성 검토 패널에 표시할 수 있습니다. **내가 시작한 작업** 및 **활성 작업만 표시** 옵션을 사용하여 결과를 추가로 필터링할 수 있습니다.
 
-![](images/review-filters-new.png){width="800" align="left"}
+![](images/review-filters-new.png){align="left"}
 
 마감된 검토 작업의 경우 댓글을 읽을 수는 있지만 댓글을 수락하거나 거부할 수는 없습니다. 댓글은 편집하거나 삭제할 수 없습니다. 댓글에 대한 회신을 추가할 수도 없습니다. 완료된 검토 작업에 대해 오래된 설명 아이콘 및 작성자 보기로 설명 가져오기 아이콘이 표시되지 않습니다. 스크린샷과 같이 검토 작업이 완료되면 주제 되돌리기 아이콘 및 가져오기 아이콘이 비활성화됩니다.
 
 [검토] 패널에 있는 주석을 검색하거나 필터링할 수도 있습니다. 첨부 파일은 다운로드할 수 있지만 댓글에 대한 첨부 파일은 업로드하거나 삭제할 수 없습니다.
 
-![](images/completed-task-author-new.png){width="800" align="left"}
+![](images/completed-task-author-new.png){align="left"}
 
 따라서 검토자 또는 작성자 모두 댓글과 함께 검토된 콘텐츠를 볼 수는 있지만 완료된 검토 작업에서는 변경할 수 없습니다.

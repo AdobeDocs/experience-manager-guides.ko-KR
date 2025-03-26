@@ -4,7 +4,7 @@ description: AEM Guides의 DITA 맵에서 각 주제에 대한 번역 상태 및
 exl-id: 6ed30bc6-3030-40fd-987a-928fd5b06ee6
 feature: Translation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%
@@ -26,6 +26,6 @@ DITA 맵의 변환 상태를 보려면 다음 단계를 수행하십시오.
    >
    > 번역 상태 \(동기화되지 않은 사본, 진행 중 또는 동기화 중\), Source 유형 \(모두, DITA, DITA 맵 또는 리소스\) 및 수정 날짜를 기준으로 콘텐츠를 추가로 필터링할 수 있습니다. 또한 키워드를 입력하여 특정 주제를 검색할 수 있습니다. 변경된 사항이 있으면 **새로 고침**&#x200B;을 사용하여 상태를 업데이트할 수 있습니다.
 
-   ![](images/translation-status-new.png){width="800" align="left"}
+   ![](images/translation-status-new.png){align="left"}
 
 **상위 항목:**[&#x200B;콘텐츠 번역 개요](translation.md)

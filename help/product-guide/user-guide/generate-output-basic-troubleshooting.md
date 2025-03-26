@@ -4,7 +4,7 @@ description: AEM Guides의 기본 문제 해결 관련 문제를 해결합니다
 exl-id: 57b88291-b5a3-4931-b3ed-f2b2ce7a463c
 feature: Publishing, Troubleshooting
 role: User
-source-git-commit: ff75aca9ddd7b405501a62e055fb99bd5ea2291c
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Adobe Experience Manager Guides으로 작업하는 동안 문서를 게시하거
 
    로그 파일이 새 탭에서 열립니다.
 
-   ![](images/log-file.png){width="800" align="left"}
+   ![](images/log-file.png){align="left"}
 
 1. 다음 필터를 적용하여 로그 파일의 텍스트를 강조 표시합니다.
    - 치명적: 로그 파일의 치명적인 오류를 분홍색으로 강조 표시합니다.

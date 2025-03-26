@@ -4,7 +4,7 @@ description: 편집기에서 Markdown 문서를 작성합니다. AEM Guides에�
 exl-id: def14e35-27c5-4b90-bc3d-eef7e8f317d2
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1254'
 ht-degree: 2%
@@ -81,7 +81,7 @@ Features available in the tab bar are explained as follows:
 
 도구 모음은 탭 모음 바로 아래에 있습니다. 도구 모음에서 사용할 수 있는 기능은 다음과 같이 설명되어 있습니다.
 
-![](images/markdown-main-toolbar.png){width="800" align="left"}
+![](images/markdown-main-toolbar.png){align="left"}
 
 | 기능 | 설명 |
 |----------------|----------------|
@@ -104,11 +104,11 @@ Features available in the tab bar are explained as follows:
 
 Markdown 작성의 경우 편집기에서 컨텐츠 작성 및 형식을 지원하는 세 가지 보기 모드를 지원합니다.
 
-![](images/markdown-footer.png){width="800" align="left"}
+![](images/markdown-footer.png){align="left"}
 
 * 소스
 * 나란히
-* 미리보기
+* 미리 보기
 
 **소스**
 

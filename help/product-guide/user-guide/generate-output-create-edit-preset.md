@@ -4,7 +4,7 @@ description: AEM Guides에서 사용자 지정 출력 사전 설정을 만들고
 exl-id: 0522a49d-4dce-4456-bfdc-7ff9261ae04c
 feature: Publishing
 role: User
-source-git-commit: 6b4908e9780ec70f4d11a21680bba384c9636485
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
@@ -22,14 +22,14 @@ ht-degree: 0%
 또한 아래와 같이 **옵션** 드롭다운 메뉴를 사용하여 출력 사전 설정을 복제하거나 삭제할 수 있습니다.
 
 
-![](images/delete-preset-map-console.png){width="800" align="left"}
+![](images/delete-preset-map-console.png){align="left"}
 
 
 ## 맵 대시보드 사용
 
 맵 대시보드를 사용하여 아래 표시된 것처럼 상단 막대에서 필요한 탭을 선택하여 출력 사전 설정을 편집, 복제 및 삭제할 수 있습니다.
 
-![](images/create-new-preset-map-dashboard-new.png){width="800" align="left"}
+![](images/create-new-preset-map-dashboard-new.png){align="left"}
 
 
 

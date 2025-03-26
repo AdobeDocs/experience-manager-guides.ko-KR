@@ -4,7 +4,7 @@ description: 다양한 형식의 문서를 AEM Guides에서 DITA로 변환합니
 exl-id: 0a4699e5-865f-40e1-a17f-5e1a248ea955
 feature: Report Generation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Adobe Experience Manager Guides은 다양한 형식의 문서를 DITA로 변환�
 
    변환 상태 보고서는 시스템에서 실행되는 모든 변환 작업에 대해 표시됩니다.
 
-   ![](images/conversion-status-report-new.png){width="800" align="left"}
+   ![](images/conversion-status-report-new.png){align="left"}
 
 1. 보고서 페이지는 두 부분으로 나뉘어져 있습니다.
 
@@ -35,7 +35,7 @@ Adobe Experience Manager Guides은 다양한 형식의 문서를 DITA로 변환�
 
      다음 스크린샷에는 성공 상태인 전환 작업에 대한 보고서 데이터가 표시됩니다.
 
-     ![](images/conversion-report-failed-active-queued-new.png){width="800" align="left"}
+     ![](images/conversion-report-failed-active-queued-new.png){align="left"}
 
    - **보고서 데이터:**
 

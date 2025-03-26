@@ -3,7 +3,8 @@ title: Adobe Experience Manager Guides 홈페이지 경험
 description: Adobe Experience Manager Guides의 홈 페이지를 알아봅니다.
 feature: Authoring
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1853'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 홈 페이지는 Experience Manager Guides에 로그인할 때 표시되는 첫 번째 화면입니다. 최근에 액세스한 파일, 컬렉션 등을 빠르게 볼 수 있는 통합적이고 직관적인 시작 화면 경험을 제공합니다.
 
-![](images/aem-home-page.png){width="800" align="left"}
+![](images/aem-home-page.png){align="left"}
 
 Experience Manager Guides 홈 페이지는 다음 섹션으로 나뉩니다.
 
@@ -26,7 +27,7 @@ Experience Manager Guides 홈 페이지는 다음 섹션으로 나뉩니다.
 
 헤더 막대는 Adobe Experience Manager 로고(또는 통합 쉘을 Experience Manager Guides UI로 사용하는 경우 통합 쉘)를 표시하는 홈 페이지의 상단 막대입니다. 로고를 선택하면 Experience Manager 탐색 페이지로 이동합니다.
 
-![](images/aem-home-header.png){width="800" align="left"}
+![](images/aem-home-header.png){align="left"}
 
 ## 탐색 막대
 
@@ -36,7 +37,7 @@ Experience Manager Guides 홈 페이지는 다음 섹션으로 나뉩니다.
 >
 > Adobe Experience Manager Guides as a Cloud Service을 사용하는 경우 **AI Assistant**(으)로 레이블이 지정된 추가 기능이 탐색 모음에 표시됩니다.
 
-![](images/aem-home-nav-bar.png){width="800" align="left"}
+![](images/aem-home-nav-bar.png){align="left"}
 
 탐색 모음에서 사용할 수 있는 기능은 다음과 같이 설명되어 있습니다.
 
@@ -88,11 +89,11 @@ Experience Manager Guides 홈 페이지는 다음 섹션으로 나뉩니다.
 
 - **최근 파일**: 위젯은 최근에 연 파일(편집기에서 액세스한 파일 목록)의 스냅숏과 함께 제목, 파일 이름, 파일 형식, 파일 경로, 액세스한 날짜 등 주요 파일 세부 정보를 제공합니다.
 
-  ![](images/aem-home-recent-files.png){width="800" align="left"}
+  ![](images/aem-home-recent-files.png){align="left"}
 
   열 드롭다운 메뉴에서 옵션을 선택하여 열을 정렬하고 크기를 조정할 수 있습니다. 기본적으로 데이터는 마지막으로 액세스한 날짜 및 시간을 기준으로 정렬됩니다.
 
-  ![](images/aem-home-recent-files-sort-resize-options.png){width="800" align="left"}
+  ![](images/aem-home-recent-files-sort-resize-options.png){align="left"}
 
 
   [사용자 환경 설정](#user-preferences)에서 이 위젯에 표시할 수 있는 최대 파일 수를 설정할 수 있습니다. 기본적으로 이 제한은 **20**(으)로 설정됩니다.
@@ -110,11 +111,11 @@ Experience Manager Guides 홈 페이지는 다음 섹션으로 나뉩니다.
 - **컬렉션**: 파일이나 폴더 집합에서 작업하는 경우 이 위젯에 추가하여 빠르게 액세스할 수 있습니다. 추가한 후에는 소유자 및 만든 날짜 등 다른 주요 세부 정보와 함께 제목별로 파일을 볼 수 있습니다. 열 드롭다운을 선택하면 열을 정렬하고 크기를 조정하는 옵션을 볼 수 있습니다.
 
 
-  ![](images/aem-home-collections.png){width="800" align="left"}
+  ![](images/aem-home-collections.png){align="left"}
 
   선택한 컬렉션의 이동 경로는 컬렉션 위젯의 맨 위에 표시됩니다. 계층 내 특정 폴더로 돌아가도록 선택할 수 있습니다.
 
-  ![](images/aem-home-collections-breadcrumbs.png){width="800" align="left"}
+  ![](images/aem-home-collections-breadcrumbs.png){align="left"}
 
   다음 옵션은 컬렉션 위로 마우스를 가져간 후 기타 아이콘 ![](images/Smock_MoreSmallList_18_N.svg)을(를) 선택할 때 사용할 수 있습니다.
 
@@ -158,7 +159,7 @@ Experience Manager Guides에서는 **컬렉션 매핑**&#x200B;이라는 대시�
 
 - **일반**: 일반 탭에서 다음 설정을 구성할 수 있습니다.
 
-  ![](images/user_preference_editor.PNG){width="800" align="left"}
+  ![](images/user_preference_editor.PNG){align="left"}
 
    - **폴더 프로필**: 폴더 프로필은 조건부 특성, 작성 템플릿, 출력 사전 설정 및 편집기 구성과 관련된 다양한 구성을 제어합니다. 기본적으로 글로벌 프로필이 표시됩니다. 또한 관리자가 시스템에서 폴더 프로필을 구성한 경우 해당 폴더 프로필이 폴더 프로필 목록에도 표시됩니다.
    - **기본 경로**: 기본적으로 편집기에서 Experience Manager Guides 저장소에 액세스하면 /content/dam 위치에서 자산이 표시됩니다. 작업 폴더는 /content/dam/ 폴더 내에 있는 몇 개의 폴더일 수 있습니다. 기본 경로를 작업 폴더로 설정하고 저장소 보기에 해당 위치의 콘텐츠가 맨 앞에 표시됩니다. 이렇게 하면 작업 폴더에 액세스하는 시간이 줄어듭니다. 또한 항목에 참조 또는 미디어 파일을 삽입하면 파일 찾아보기 위치는 기본 경로에 설정된 폴더로 시작됩니다.
@@ -168,7 +169,7 @@ Experience Manager Guides에서는 **컬렉션 매핑**&#x200B;이라는 대시�
 
 - **모양**: 모양 탭에는 응용 프로그램의 테마를 선택하고 콘텐츠 편집 영역의 원본 보기를 선택할 수 있는 옵션이 있습니다. 이 탭을 사용하여 다음 설정을 구성합니다.
 
-  ![](images/user_preference_editor_appearance.png){width="800" align="left"}
+  ![](images/user_preference_editor_appearance.png){align="left"}
 
    - **편집기 파일에 구성 표시**: 편집기에서 파일을 보는 기본 방법을 선택하십시오. 작성자 보기의 여러 패널에서 제목 또는 파일 이름별로 파일 목록을 볼 수 있습니다. 기본적으로 파일은 편집기에서 제목으로 표시됩니다.
    - **응용 프로그램 테마 및 Source 보기**: 응용 프로그램 및 소스 보기에 대해 밝은 테마 또는 어두운 테마 중에서 선택할 수 있습니다. 라이트 테마의 경우 도구 모음과 패널은 밝은 회색 배경색을 사용합니다. 어두운 테마의 경우 도구 모음과 패널은 검정색 배경을 사용합니다. **장치 사용** 테마를 선택하여 Experience Manager Guides에서 장치의 테마에 따라 밝은 테마와 어두운 테마를 선택할 수 있도록 합니다.

@@ -4,7 +4,7 @@ description: AEM Guides에서 데이터 소스의 데이터를 사용합니다. 
 exl-id: fbd5eff2-451b-49d6-ba77-6eb271e94349
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2386'
 ht-degree: 0%
@@ -154,7 +154,7 @@ Adobe Experience Manager Guides은 데이터 소스와 연결하는 기능을 �
 
 도구 모음에서 **데이터 쿼리** ![](images/data-sources-new-icon.svg)를 사용하여 데이터 코드 조각을 주제에 삽입할 수도 있습니다.  드롭다운에서 생성기를 선택하거나 쿼리를 편집하거나 템플릿을 변경하고 주제에 데이터를 삽입할 수 있습니다.
 
-![](images/add-content-snippet-generator.png){width="800" align="left"}
+![](images/add-content-snippet-generator.png){align="left"}
 
 *데이터 코드 조각을 편집하고 삽입하십시오.*
 
@@ -248,7 +248,7 @@ Adobe Experience Manager Guides은 데이터 소스와 연결하는 기능을 �
 
 
 
-   ![](images/add-topic-generator.png){width="800" align="left"}
+   ![](images/add-topic-generator.png){align="left"}
 
    *기존 항목 생성기에서 새 항목을 생성합니다.*
 

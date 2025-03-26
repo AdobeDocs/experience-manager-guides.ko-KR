@@ -4,7 +4,7 @@ description: 작성자, 소스 및 미리보기 모드에서 주제를 봅니다
 exl-id: 74db2902-4507-4904-85d8-6b52e4af4c55
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 594e348fc1188e66cf2f4648702ed2b17f1f8f33
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1447'
 ht-degree: 0%
@@ -17,7 +17,7 @@ Adobe Experience Manager의 편집기 인터페이스는 세 가지 다른 모�
 
 * [작성자](#author)
 * [소스](#source)
-* [미리보기](#preview)
+* [미리 보기](#preview)
 
 ## 작성자
 
@@ -88,7 +88,7 @@ Source 보기에는 항목을 구성하는 기본 XML이 표시됩니다. XML을
   | 재귀적으로 현재 단어 \(역방향\) 찾기 | **Shift**+**Ctrl**+**F3** |
 
 
-## 미리보기
+## 미리 보기
 
 미리보기 모드에서 주제를 열면 브라우저에서 사용자가 주제를 볼 때 주제가 표시되는 방식이 표시됩니다. DITA 맵의 경우 맵 미리보기가 표시되고 맵 내의 모든 주제에 대한 단일 합성 문서가 표시됩니다.
 
@@ -104,7 +104,7 @@ Source 보기에는 항목을 구성하는 기본 XML이 표시됩니다. XML을
 
 다음 이미지는 `Audience`과(와) `Product`의 두 조건을 사용하는 주제를 보여 줍니다. 조건화된 콘텐츠는 노란색 배경으로 강조 표시됩니다.
 
-![](images/preview-filters.png){width="800" align="left"}
+![](images/preview-filters.png){align="left"}
 
 ### 변경 내용 추적 마크업 보기 {#id2114BJ00CE8}
 

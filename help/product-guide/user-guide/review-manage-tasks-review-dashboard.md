@@ -4,7 +4,7 @@ description: AEM Guides의 검토 대시보드에서 검토 작업을 관리합�
 exl-id: 4fef5653-1c73-4b68-adf2-b24145555142
 feature: Reviewing
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1298'
 ht-degree: 0%
@@ -25,13 +25,13 @@ ht-degree: 0%
 
    작업 타일이 있는 프로젝트 패널이 표시됩니다.
 
-   ![](images/review-management.png){width="800" align="left"}
+   ![](images/review-management.png){align="left"}
 
 1. **검토** 타일에서 세 점을 선택합니다.
 
    [검토 대시보드]가 표시됩니다. 대시보드에는 사용자가 생성한 모든 검토 작업이 나열됩니다.
 
-   ![](images/review-dashboard.png){width="800" align="left"}
+   ![](images/review-dashboard.png){align="left"}
 
    검토 대시보드에는 검토를 시작한 작업 이름, 검토를 시작한 날짜, 기한, 상태, 작성자가 수락 또는 거부하지 않은 새 주석 수, 검토자 이름 등 검토 작업에 대한 세부 정보가 표시됩니다. 작업은 새로 생성된 작업에서 이전 작업으로의 순서로 나열됩니다.
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 ## 작업 탭
 
-![](images/review-task-page.png){width="800" align="left"}
+![](images/review-task-page.png){align="left"}
 
 **작업** 탭에서 다음 작업을 수행할 수 있습니다.
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 ## 컨텐츠 탭
 
-![](images/review-content-page.png){width="800" align="left"}
+![](images/review-content-page.png){align="left"}
 
 **콘텐츠** 탭에서 다음 작업을 수행할 수 있습니다.
 
@@ -90,7 +90,7 @@ ht-degree: 0%
 
 ## 검토자 탭 {#reviewer-tab-id199RF0N0MUI}
 
-![](images/reviewers-tab.png){width="800" align="left"}
+![](images/reviewers-tab.png){align="left"}
 
 **검토자** 탭에서 다음 작업을 수행할 수 있습니다.
 
@@ -111,7 +111,7 @@ ht-degree: 0%
 
 기본 [검토 대시보드] 페이지에서 검토 작업을 선택하고 **상태**&#x200B;를 선택하면 검토 작업의 상태 보고서가 표시됩니다.
 
-![](images/review-status-report.png){width="800" align="left"}
+![](images/review-status-report.png){align="left"}
 
 검토 작업에 대한 상태 보고서에는 다음 세부 정보가 포함되어 있습니다.
 

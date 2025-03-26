@@ -4,7 +4,7 @@ description: 맵 콘솔에서 문서를 한 개 이상 게시하는 방법을 �
 exl-id: d89ce69d-8d4c-4265-bfca-60763f561afd
 feature: Publishing
 role: User
-source-git-commit: 4fbc9c8e28f2b68af0307255eb842065e93fbc83
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 0%
@@ -27,16 +27,16 @@ DITA 맵의 일부 주제에 대해서만 콘텐츠를 업데이트한 경우 �
 1. **문서** 탭으로 이동하여 출력을 생성할 주제를 선택합니다.
 1. 맨 위에 있는 **출력 생성**&#x200B;을 선택하여 출력을 생성합니다.
 
-   ![](images/add-preset-articles-tab_cs.png){width="800" align="left"}
+   ![](images/add-preset-articles-tab_cs.png){align="left"}
 
 1. **게시할 파일 확인** 프롬프트에서 게시할 파일을 선택하고 **게시**&#x200B;를 선택하여 확인합니다.
 
-   ![새 ](images/knowledge-base-confirm-files-for-publishing.png){width="800" align="left"}
+   ![새 ](images/knowledge-base-confirm-files-for-publishing.png){align="left"}
 
    출력 생성 프로세스의 상태를 볼 수 있습니다. **주제** 열에는 출력이 생성되는 주제가 나열되며 **상태** 열에는 각 주제의 게시 상태가 표시됩니다.
 
 
-   ![](images/add-preset-output-generated_cs.png){width="800" align="left"}
+   ![](images/add-preset-output-generated_cs.png){align="left"}
 
    출력을 보려면 **생성된 출력** 대화 상자를 닫고 사전 설정 페이지에서 **출력 보기**&#x200B;를 선택하십시오.
 
