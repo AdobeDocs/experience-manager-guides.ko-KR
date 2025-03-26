@@ -3,7 +3,8 @@ title: Workfront 통합
 description: Workfront을 Adobe Experience Manager Guides과 통합하고 워크플로 작성, 게시, 검토 및 번역을 위한 작업 만들기를 시작하는 방법에 대해 알아봅니다.
 feature: Authoring
 role: User
-source-git-commit: aa50c63588f18f2aabc03d8b81edca4281258876
+exl-id: fd988434-3ebd-40ac-a776-e62359dcb6ef
+source-git-commit: dea9876cf0afa615f3719637c909bbda0d1d40b5
 workflow-type: tm+mt
 source-wordcount: '2436'
 ht-degree: 0%
@@ -40,7 +41,7 @@ Adobe Workfront 작업에 액세스하려면 다음 단계를 수행하십시오
 
    **Workfront 작업** 페이지가 표시됩니다.
 
-   ![](./images/workfront-sign-in.png){width="800" align="left"}
+   ![](./images/workfront-sign-in.png){align="left"}
 3. **로그인**&#x200B;을 선택합니다.
 
    Adobe Workfront 로그인 페이지로 리디렉션됩니다.
@@ -48,7 +49,7 @@ Adobe Workfront 작업에 액세스하려면 다음 단계를 수행하십시오
 
    Experience Manager Guides의 **Workfront 작업** 페이지로 자동 리디렉션됩니다.
 
-   ![](./images/workfront-tasks-page.png){width="800" align="left"}
+   ![](./images/workfront-tasks-page.png){align="left"}
 
 ## Workfront 작업 페이지에서 사용할 수 있는 기능
 
@@ -72,7 +73,7 @@ Workfront 작업 페이지에 있는 **새 작업** 단추를 사용하여 Exper
 
    **작업 만들기** 대화 상자가 표시됩니다.
 
-   ![](./images/workfront-create-task.png){width="650" align="left"}
+   ![](./images/workfront-create-task.png){align="left"}
 2. **일반** 탭에서 다음 작업 세부 정보를 입력합니다.
 
    * **작업 유형**: 만들 작업 유형을 선택합니다. 사용 가능한 옵션은 **작성**, **검토**, **게시** 및 **번역**&#x200B;입니다.
@@ -83,20 +84,20 @@ Workfront 작업 페이지에 있는 **새 작업** 단추를 사용하여 Exper
    * **피할당자**: 작업에 대한 피할당자를 선택하십시오.
 3. **Assets** 탭에서 **추가**&#x200B;를 선택하여 이 작업에 에셋을 추가합니다.
 
-   ![](./images/workfront-create-tasks-asset.png){width="650" align="left"}
+   ![](./images/workfront-create-tasks-asset.png){align="left"}
 
    * 작성, 게시 및 번역 작업의 경우 **경로 선택** 대화 상자에서 필요한 파일의 위치를 선택하라는 메시지가 표시됩니다. 선택한 파일(게시 및 번역을 위한 작성 및 맵 항목)은 **만들기** 단추를 선택하는 즉시 작업에 추가됩니다.
 
-     ![](./images/attach-asset.png){width="650" align="left"}
+     ![](./images/attach-asset.png){align="left"}
 
    * 검토 작업의 경우 먼저 에셋 유형(맵 또는 주제)을 선택하라는 메시지가 표시된 후 선택한 파일이 다음과 같이 표시됩니다.
 
 
-     ![리뷰 작업에 맵 추가](./images/attach-asset-topics.png){width="650" align="left"}
+     ![리뷰 작업에 맵 추가](./images/attach-asset-topics.png){align="left"}
 
      *검토 작업에 항목 추가*
 
-     ![리뷰 작업에 맵 추가](./images/attach-asset-maps.png){width="650" align="left"}
+     ![리뷰 작업에 맵 추가](./images/attach-asset-maps.png){align="left"}
 
      *리뷰 작업에 맵 추가*
 
@@ -125,7 +126,7 @@ Workfront 작업 페이지에 있는 **새 작업** 단추를 사용하여 Exper
 
 생성했으며 아직 활성 상태인 모든 작업은 Workfront 작업 페이지의 **사용자가 만든 작업** 탭에 표시되며 프로젝트 이름, 담당자, 작업 생성 날짜, 작업 완료 날짜 및 작업 상태와 같은 주요 작업 세부 정보를 제공합니다.
 
-![](./images/workfront-tasks-created-by-you.png){width="800" align="left"}
+![](./images/workfront-tasks-created-by-you.png){align="left"}
 
 다음 옵션은 사용자가 만든 사람 탭에 있는 작업을 마우스로 가리키면 사용할 수 있습니다.
 
@@ -147,7 +148,7 @@ Workfront 작업 페이지에 있는 **새 작업** 단추를 사용하여 Exper
 
 사용자에게 할당되고 아직 활성 상태인 모든 작업은 Workfront 작업 페이지의 **사용자에게 할당됨** 탭에 표시되며 프로젝트 이름, 할당자, 기한 및 작업 상태와 같은 주요 작업 세부 정보를 제공합니다.
 
-![](./images/workfront-tasks-assigned-to-you.png){width="800" align="left"}
+![](./images/workfront-tasks-assigned-to-you.png){align="left"}
 
 다음 옵션은 사용자에게 할당됨 탭에 있는 작업을 마우스로 가리키면 사용할 수 있습니다.
 
@@ -159,7 +160,7 @@ Workfront 작업 페이지에 있는 **새 작업** 단추를 사용하여 Exper
 
 작업 생성 중 입력한 세부 정보, 작업 상태 및 추가된 에셋을 포함한 작업 정보를 표시합니다.
 
-![](images/task-details.png){width="800" align="left"}
+![](images/task-details.png){align="left"}
 
 #### 개요 섹션에서 할당된 작업 액세스
 
@@ -167,7 +168,7 @@ Workfront 작업 페이지에 있는 **새 작업** 단추를 사용하여 Exper
 
 **작업**&#x200B;은(는) 작업 이름, 관련 프로젝트, 기한 및 현재 상태 등 주요 작업 세부 정보와 함께 할당된 활성 상태인 Adobe Workfront 작업 목록이 표시되는 위젯입니다.
 
-![](./images/workfront-your-tasks-widget.png){width="800" align="left"}
+![](./images/workfront-your-tasks-widget.png){align="left"}
 
 [할당된 사용자] 탭과 마찬가지로 작업 위젯도 작업을 마우스로 가리키면 **열기**&#x200B;와 **작업 세부 정보**&#x200B;를 볼 수 있는 옵션을 제공합니다.
 
@@ -194,11 +195,11 @@ Experience Manager Guides에 할당되었을 때 생성, 할당 또는 작업할
 
 1. [개요](#accessing-assigned-tasks-from-overview-section) 섹션 또는 [사용자에게 할당](#managing-tasks-assigned-to-you) 탭에서 작업에 액세스합니다.
 
-   ![사용자에게 할당된 탭에서 작업 작성](./images/authoring-task-access.png){width="650" align="left"}
+   ![사용자에게 할당된 탭에서 작업 작성](./images/authoring-task-access.png){align="left"}
 
    *사용자에게 할당된 탭에서 작업 작성*
 
-   ![작업 위젯에서 작업 작성](./images/authoring-task-access-your-tasks.png){width="650" align="left"}
+   ![작업 위젯에서 작업 작성](./images/authoring-task-access-your-tasks.png){align="left"}
 
    *작업 위젯에서 작업 작성*
 2. 작업할 작업 위로 마우스를 가져간 후 을(를) 선택합니다.  ![](images/Smock_OpenIn_18_N.svg)  열려고. 작업을 선택하여 해당 작업을 열 수도 있습니다.
@@ -206,7 +207,7 @@ Experience Manager Guides에 할당되었을 때 생성, 할당 또는 작업할
    모든 작성 작업이 편집기에서 열립니다.
 3. **세부 정보** 탭에서 작업 세부 정보를 검토하고 **자산** 파일을 선택하여 엽니다.
 
-   ![](./images/authoring-task-review-details-editor.png){width="650" align="left"}
+   ![](./images/authoring-task-review-details-editor.png){align="left"}
 
 4. 필요한 편집을 수행하고 **완료로 표시**&#x200B;를 선택합니다.
 5. **댓글** 탭으로 전환하여 이 작업에 댓글을 추가하세요. 작업 수준에서 추가된 이러한 주석은 Adobe Workfront 프로젝트 대시보드에도 반영됩니다.
@@ -223,18 +224,18 @@ Experience Manager Guides에 할당되었을 때 생성, 할당 또는 작업할
 
 1. [개요](#accessing-assigned-tasks-from-overview-section) 섹션 또는 [사용자에게 할당](#managing-tasks-assigned-to-you) 탭에서 작업에 액세스합니다.
 
-   ![사용자에게 할당된 탭에서 작업 검토](./images/review-task-access.png){width="650" align="left"}
+   ![사용자에게 할당된 탭에서 작업 검토](./images/review-task-access.png){align="left"}
 
    *사용자에게 할당된 탭에서 작업 검토*
 
-   ![작업 위젯에서 작업 검토](./images/review-task-access-your-tasks.png){width="650" align="left"}
+   ![작업 위젯에서 작업 검토](./images/review-task-access-your-tasks.png){align="left"}
 
    *작업 위젯에서 작업 작성*
 2. 작업할 작업 위로 마우스를 가져간 후 을(를) 선택합니다.  ![](images/Smock_OpenIn_18_N.svg)  열려고. 작업을 선택하여 해당 작업을 열 수도 있습니다.
 
    검토자의 경우 **검토 UI**&#x200B;에서 검토 작업이 열립니다.
 
-   ![](./images/review-task-access-review-ui.png){width="650" align="left"}
+   ![](./images/review-task-access-review-ui.png){align="left"}
 
 3. 필요한 검토를 수행합니다. 항목을 검토하는 방법에 대한 자세한 내용은 [항목 검토](./review-topics.md)를 참조하십시오.
 4. 검토가 완료되면 **완료로 표시**&#x200B;를 선택합니다.
@@ -248,13 +249,13 @@ Experience Manager Guides에 할당되었을 때 생성, 할당 또는 작업할
 
 검토 통합을 위해 작성자/작성자에게 다시 할당된 검토 작업은 [개요](#accessing-assigned-tasks-from-overview-section) 섹션 또는 [사용자에게 할당됨](#managing-tasks-assigned-to-you) 탭에서 액세스할 수 있습니다.
 
-![작성자 모드에서 작업 검토](./images/review-task-author-mode.png){width="800" align="left"}
+![작성자 모드에서 작업 검토](./images/review-task-author-mode.png){align="left"}
 
 *작성자에게 다시 할당된 검토 작업*
 
 이러한 작업의 경우 작업 유형이 **검토**(으)로 유지되는 동안 피할당자의 작업 상태가 **작성**(으)로 변경됩니다. 이 상태 변경은 모든 검토자가 검토를 완료한 경우에 발생합니다.
 
-![](./images/review-tasks-with-authoring-doc-state.png){width="300" align="left"}
+![](./images/review-tasks-with-authoring-doc-state.png){align="left"}
 
 
 작업 또는 열기 아이콘 ![](images/Smock_OpenIn_18_N.svg)을(를) 선택하면 작성자가 [검토 의견을 처리](../user-guide/review-address-review-comments.md)할 수 있는 편집기에서 작업이 열리고, 주제 버전을 업데이트하여 작업을 편집한 다음 필요한 경우 검토자에게 작업을 다시 할당할 수 있습니다.
@@ -271,21 +272,21 @@ Experience Manager Guides에 할당되었을 때 생성, 할당 또는 작업할
 
 1. [개요](#accessing-assigned-tasks-from-overview-section) 섹션 또는 [사용자에게 할당](#managing-tasks-assigned-to-you) 탭에서 작업에 액세스합니다.
 
-   ![사용자에게 할당 탭의 번역 작업](./images/translation-tasks-access.png){width="650" align="left"}
+   ![사용자에게 할당 탭의 번역 작업](./images/translation-tasks-access.png){align="left"}
 
    *사용자에게 할당 탭의 번역 작업*
 
-   ![작업 위젯의 번역 작업](./images/translation-tasks-access-your-tasks.png){width="650" align="left"}
+   ![작업 위젯의 번역 작업](./images/translation-tasks-access-your-tasks.png){align="left"}
 
    *작업 위젯의 번역 작업*
 
 2. 작업할 작업 위로 마우스를 가져간 후 을(를) 선택합니다.  ![](images/Smock_OpenIn_18_N.svg)  **맵 콘솔**&#x200B;에서 엽니다. 작업을 선택하여 해당 작업을 열 수도 있습니다.
 3. 작업 세부 정보 및 번역을 위해 추가된 파일을 검토합니다.
 
-   ![](./images/translation-tasks-review-details.png){width="650" align="left"}
+   ![](./images/translation-tasks-review-details.png){align="left"}
 4. 다양한 번역 옵션을 보려면 **번역** 탭으로 이동합니다. Experience Manager Guides에서 [콘텐츠를 번역](../user-guide/translation.md)하는 방법에 대해 알아봅니다.
 5. 필요한 번역을 수행하고 **번역용으로 보내기**를 선택합니다.
-   ![](./images/translation-tasks-send-translation.png){width="650" align="left"}
+   ![](./images/translation-tasks-send-translation.png){align="left"}
 6. **Workfront** 섹션으로 이동한 다음 **완료로 표시**&#x200B;를 선택하여 작업이 완료되었음을 나타냅니다.
 7. **댓글** 탭으로 전환하여 이 작업에 댓글을 추가하세요. 작업 수준에서 추가된 이러한 주석은 Adobe Workfront 프로젝트 대시보드에 반영됩니다.
 
@@ -301,17 +302,17 @@ Experience Manager Guides에 할당되었을 때 생성, 할당 또는 작업할
 
 1. [개요](#accessing-assigned-tasks-from-overview-section) 섹션 또는 [사용자에게 할당](#managing-tasks-assigned-to-you) 탭에서 작업에 액세스합니다.
 
-   ![사용자에게 할당된 탭에서 작업 게시](./images/publishing-tasks-access.png){width="650" align="left"}
+   ![사용자에게 할당된 탭에서 작업 게시](./images/publishing-tasks-access.png){align="left"}
 
    *사용자에게 할당된 탭에서 작업을 게시하는 중*
 
-   ![작업 위젯에서 작업 게시](./images/publishing-tasks-access-your-tasks.png){width="650" align="left"}
+   ![작업 위젯에서 작업 게시](./images/publishing-tasks-access-your-tasks.png){align="left"}
 
    *작업 위젯에서 작업 게시*
 2. 작업할 작업 위로 마우스를 가져간 후 을(를) 선택합니다.  ![](images/Smock_OpenIn_18_N.svg)  **맵 콘솔**&#x200B;에서 엽니다. 작업을 선택하여 해당 작업을 열 수도 있습니다.
 3. 작업 세부 사항 및 게시를 위해 추가된 파일을 검토합니다.
 
-   ![](./images/publishing-tasks-review-details.png){width="650" align="left"}
+   ![](./images/publishing-tasks-review-details.png){align="left"}
 4. **출력 사전 설정**(으)로 이동하여 작업을 게시하는 데 필요한 게시 작업을 수행합니다. 자세한 내용은 [출력 사전 설정 이해](../user-guide/generate-output-understand-presets.md/)를 참조하십시오.
 5. 게시가 완료되면 **Workfront** 섹션으로 이동한 다음 **완료로 표시**&#x200B;를 선택하여 작업이 완료되었음을 나타냅니다.
 6. **댓글** 탭으로 전환하여 이 작업에 댓글을 추가하세요. 작업 수준에서 추가된 이러한 주석은 Workfront의 프로젝트 대시보드에 반영됩니다.
