@@ -3,10 +3,10 @@ title: Adobe Experience Manager Guides 릴리스 로드맵 2024
 description: Adobe Experience Manager Guides 온프레미스 및 Adobe Experience Manager Guides as a Cloud Service의 라이브 및 예정된 릴리스에 대한 정보를 가져옵니다
 role: Admin, Leader, Developer, User
 exl-id: cb6709ce-2732-45d0-adfd-5aeca520240e
-source-git-commit: c87f343fd8010c375d46ca8c8f50d81f6a0a2c53
+source-git-commit: 202a25afc4fc05f5a6e326798c9608703f308a7e
 workflow-type: tm+mt
 source-wordcount: '366'
-ht-degree: 32%
+ht-degree: 31%
 
 ---
 
@@ -27,7 +27,7 @@ Experience Manager Guides as a Cloud Service의 릴리스는 다음과 같이 �
 
 | 릴리스 | 이벤트 | 일정 | 새로운 기능 | 업그레이드 지침 | 해결된 문제 | 상태 |
 |---|---|---|---|---|---|---|
-| Adobe Experience Manager Guides 2025.04.0 | 자동 업데이트 | 2025년 4월 21~23일 |  |  |  | 대상 |
+| Adobe Experience Manager Guides 2025.04.0 | 자동 업데이트 | 2025년 5월 05~07일 |  |  |  | 대상 |
 
 ### 라이브 릴리스
 
