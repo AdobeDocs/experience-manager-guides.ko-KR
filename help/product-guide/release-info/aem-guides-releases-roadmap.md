@@ -3,9 +3,9 @@ title: Adobe Experience Manager Guides 릴리스 로드맵 2024
 description: Adobe Experience Manager Guides 온프레미스 및 Adobe Experience Manager Guides as a Cloud Service의 라이브 및 예정된 릴리스에 대한 정보를 가져옵니다
 role: Admin, Leader, Developer, User
 exl-id: cb6709ce-2732-45d0-adfd-5aeca520240e
-source-git-commit: 202a25afc4fc05f5a6e326798c9608703f308a7e
+source-git-commit: 6ae6bb6e6056ba477b8138162c21f1201e277b91
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '367'
 ht-degree: 31%
 
 ---
@@ -34,7 +34,7 @@ Experience Manager Guides as a Cloud Service의 릴리스는 다음과 같이 �
 | 릴리스 | 이벤트 | 일정 | 새로운 기능 | 업그레이드 지침 | 해결된 문제 | 상태 |
 |---|---|---|---|---|---|---|
 | Adobe Experience Manager Guides 2025.2.0 | 자동 업데이트 | 2025년 3월 10~12일 | [여기](whats-new-2025-02-0.md) | [여기](upgrade-instructions-2025-02-0.md) | [여기](fixed-issues-2025-02-0.md) | 업데이트됨 |
-| Adobe Experience Manager Guides 2024.12.0 | 자동 업데이트 | 2025년 1월 13~15일 |  | [여기](upgrade-instructions-2024-12-0.md) | [여기](fixed-issues-2024-12-0.md) | 업데이트됨 |
+| Adobe Experience Manager Guides 2024.12.0 | 자동 업데이트 | 2025년 1월 13~15일 | - | [여기](upgrade-instructions-2024-12-0.md) | [여기](fixed-issues-2024-12-0.md) | 업데이트됨 |
 | Adobe Experience Manager Guides 2024.10.0 | 서비스 팩 1 | 2024년 10월 29일 수요일 | - | - | [여기](fixed-issues-2024-10-0-sp1.md) | 업데이트됨 |
 | Adobe Experience Manager Guides 2024.10.0 | 자동 업데이트 | 2024년 10월 14~16일 | [여기](whats-new-2024-10-0.md) | [여기](upgrade-instructions-2024-10-0.md) | [여기](fixed-issues-2024-10-0.md) | 업데이트됨 |
 | Adobe Experience Manager Guides 2024.6.0 | 자동 업데이트 | 2024년 6월 10~12일 | [여기](whats-new-2024-06-0.md) | [여기](upgrade-instructions-2024-06-0.md) | [여기](fixed-issues-2024-06-0.md) | 업데이트됨 |
@@ -53,13 +53,13 @@ Experience Manager Guides as a Cloud Service의 릴리스는 다음과 같이 �
 
 | 릴리스 | 이벤트 | 일정 | 새로운 기능 | 업그레이드 지침 | 상태 |
 |---|---|---|---|---|---|
-| Adobe Experience Manager Guides 4.6.0 | 서비스 팩 4 | 2025년 4월 11일 토요일 |  |  | 대상 |
 | Adobe Experience Manager Guides 5.1.0 | 릴리스 | 2025년 8월 ~ |  |  | 대상 |
 
 ### 라이브 릴리스
 
 | 릴리스 | 이벤트 | 일정 | 새로운 기능 | 업그레이드 지침 | 상태 |
 |---|---|---|---|---|---|
+| Adobe Experience Manager Guides 4.6.0 | 서비스 팩 4 | 2025년 4월 11일 토요일 | - | [여기](upgrade-instructions-4-6-0-sp4.md) | 릴리스됨 |
 | Adobe Experience Manager Guides 5.0.0 | 릴리스 | 2025년 3월 6일 금요일 | [여기](whats-new-5-0-0.md) | [여기](upgrade-instructions-5-0-0.md) | 릴리스됨 |
 | Adobe Experience Manager Guides 4.6.0 | 서비스 팩 3 | 2025년 1월 22일 목요일 | - | [여기](upgrade-instructions-4-6-0-sp2.md) | 릴리스됨 |
 | Adobe Experience Manager Guides 4.6.0 | 서비스 팩 1 | 2024년 10월 29일 수요일 | - | [여기](upgrade-instructions-4-6-0-sp1.md) | 릴리스됨 |

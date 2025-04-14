@@ -4,7 +4,9 @@ description: Adobe Experience Manager Guides에서 편집기의 기능을 살펴
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+hidefromtoc: true
+hide: true
+source-git-commit: 9e84617dcfc8bf596bdf0863883284b660cde2f1
 workflow-type: tm+mt
 source-wordcount: '18659'
 ht-degree: 0%
@@ -1127,7 +1129,7 @@ DAM 내에서 필요한 파일로 이동하여 편집기에서 열 수 있습니
 - FrameMaker에서 열기
 - 복제
 - 잠금/잠금 해제
-- 미리 보기
+- 미리보기
 - 다음으로 이동
 - 이름 바꾸기
 - 삭제

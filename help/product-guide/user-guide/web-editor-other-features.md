@@ -4,9 +4,9 @@ description: Adobe Experience Manager Guides에서 편집기의 다른 기능을
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 9e84617dcfc8bf596bdf0863883284b660cde2f1
 workflow-type: tm+mt
-source-wordcount: '2406'
+source-wordcount: '2399'
 ht-degree: 0%
 
 ---
@@ -213,9 +213,9 @@ MathML 편집기를 사용하여 방정식을 삽입하면 구문 문제가 있�
 
 XML에서 공백에는 공백, 탭, 캐리지 리턴 및 빈 줄이 포함됩니다. Experience Manager Guides은 여러 개의 연속된 공백을 하나의 공백으로 변환합니다. 이렇게 하면 편집기의 WYSIWYG 보기를 유지하는 데 도움이 됩니다.
 
-    >[!NOTE]
-    >
-    >DITA 규칙에 따라 공백을 유지해야 하는 일부 요소에서는 연속된 여러 공백이 유지됩니다. 예: &#39;&lt;pre>&#39; 및 &#39;&lt;codeblock>&#39; 요소.
+>[!NOTE]
+>
+> DITA 규칙에 따라 공백을 유지해야 하는 일부 요소에서는 연속된 여러 공백이 유지됩니다. 예: `<pre>` 및 `<codeblock>` 요소.
 
 
 **줄 바꿈 및 들여쓰기 유지**

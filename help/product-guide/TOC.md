@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 살펴보십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: 995cb28356fb087871225475e0d69fc96a9b5f98
+source-git-commit: 9e84617dcfc8bf596bdf0863883284b660cde2f1
 workflow-type: tm+mt
-source-wordcount: '2066'
+source-wordcount: '2089'
 ht-degree: 7%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 7%
                - [새로운 기능](./release-info/whats-new-2024-10-0.md)
                - [해결된 문제](./release-info/fixed-issues-2024-10-0.md)
                - [업그레이드 지침](./release-info/upgrade-instructions-2024-10-0.md)
-            - 2024.6.0 릴리즈 {#2406-release}
+            - 2024.6.0 릴리스 {#2406-release}
                - [새로운 기능](./release-info/whats-new-2024-06-0.md)
                - [해결된 문제](./release-info/fixed-issues-2024-06-0.md)
                - [업그레이드 지침](./release-info/upgrade-instructions-2024-06-0.md)
@@ -147,7 +147,15 @@ ht-degree: 7%
             - [주제 만들기](./user-guide/web-editor-create-topics.md)
             - [주제 미리 보기](./user-guide/web-editor-preview-topics.md)
          - [편집기 기능 이해](./user-guide/web-editor-features.md)
+         - 편집기 인터페이스 및 기능 {#editor-interface-features}을(를) 알아봅니다.
+            - [헤더 막대](./user-guide/web-editor-header-bar.md)
+            - [탭 표시줄](./user-guide/web-editor-tab-bar.md)
+            - [도구 모음](./user-guide/web-editor-toolbar.md)
+            - [왼쪽 패널](./user-guide/web-editor-left-panel.md)
+            - [콘텐츠 편집 영역](./user-guide/web-editor-content-editing-area.md)
+            - [오른쪽 패널](./user-guide/web-editor-right-panel.md)
          - [편집기의 추가 기능](./user-guide/web-editor-other-features.md)
+         - [편집기 설정 작업](./user-guide/web-editor-settings.md)
          - [편집기의 키보드 단축키](./user-guide/web-editor-keyboard-shortcuts.md)
          - [편집기 보기](./user-guide/web-editor-views.md)
          - [Schematron 파일 지원](./user-guide/support-schematron-file.md)
@@ -159,7 +167,7 @@ ht-degree: 7%
       - 맵 편집기 {#map-editor}
          - [맵 편집기 소개](./user-guide/map-editor.md)
          - [맵 만들기](./user-guide/map-editor-create-map.md)
-         - [사용자 정의된 템플릿을 기반으로 맵 만들기](./user-guide/create-maps-customized-templates.md)
+         - [사용자 지정된 템플릿을 기반으로 맵 만들기](./user-guide/create-maps-customized-templates.md)
          - [맵 편집기 기능](./user-guide/map-editor-advanced-map-editor.md)
          - [맵 편집기의 추가 기능](./user-guide/map-editor-other-features.md)
       - DITAVAL 편집기 {#ditaval-editor}
@@ -217,8 +225,8 @@ ht-degree: 7%
          - [출력 사전 설정 편집, 복제 또는 삭제](./user-guide/generate-output-create-edit-preset.md)
          - 콘텐츠 {#conditional-content} 조건화
             - [조건 사전 설정 사용](./user-guide/generate-output-use-condition-presets.md)
-            - [조건부 특성 프로파일링](./user-guide/generate-output-conditional-attribute-profiling.md)
-         - 기준선 사용 {#work-with-baseline}
+            - [조건부 속성 프로파일링](./user-guide/generate-output-conditional-attribute-profiling.md)
+         - 기준선 {#work-with-baseline} 사용
             - [맵 콘솔에서 기준선 만들기 및 관리](./user-guide/web-editor-baseline.md)
             - [맵 대시보드에서 기준선 만들기 및 관리](./user-guide/generate-output-use-baseline-for-publishing.md)
          - [글로벌 및 폴더 프로필 출력 사전 설정 관리](./user-guide/web-editor-manage-output-presets.md)
@@ -278,8 +286,8 @@ ht-degree: 7%
          - [AEM Guides 설치 확인](./install-guide/download-install-verify-aemg-installation.md)
          - [AEM Guides 업그레이드](./install-guide/upgrade-xml-documentation.md)
          - [AEM Guides 제거](./install-guide/download-install-unistall-aemg.md)
-         - [성능 최적화를 위한 추천](./install-guide/download-install-recommend-perf-optimiz.md)
-      - 사용자 그룹 및 보안 작업 {#user-group-sec}
+         - [성능 최적화를 위한 권장 사항](./install-guide/download-install-recommend-perf-optimiz.md)
+      - 사용자 그룹 및 보안 {#user-group-sec} 작업
          - [사용자 관리 및 보안](./install-guide/user-admin-sec.md)
       - 콘텐츠 마이그레이션 {#content-migration}
          - [비 UUID에서 UUID로의 콘텐츠 마이그레이션](./install-guide/migrate-uuid-non-uuid.md)
@@ -400,7 +408,7 @@ ht-degree: 7%
          - [동일한 탭에서 DITA 주제 또는 맵 파일 열기](./cs-install-guide/open-dita-files-same-tab.md)
          - [왼쪽 패널에서 사용자 정의 패널 구성](./cs-install-guide/configure-custom-panel.md)
          - [웹 편집기에서 파일 자동 저장 구성](./cs-install-guide/auto-save-in-editor.md)
-         - [닫을 때 새 버전으로 저장하도록 프롬프트 구성](./cs-install-guide/conf-save-as-new-version-close.md)
+         - [닫을 때 새 버전으로 저장하라는 메시지 구성](./cs-install-guide/conf-save-as-new-version-close.md)
          - [닫을 때 파일을 체크 인하도록 프롬프트 구성](./cs-install-guide/conf-checkin-file-close.md)
          - [허용되는 특수 문자 구성](./cs-install-guide/conf-special-chars.md)
          - [요소 ID 자동 생성](./cs-install-guide/auto-generate-ids.md)
@@ -517,9 +525,9 @@ ht-degree: 7%
                - [사용자 지정 대화 상자](./guides-ui-extensions/customisations/ReviewApp/custom-dialog.md)
       - 외부 데이터 원본 {#external-data-source}
          - [데이터 소스 통합](../product-guide/knowledge-base/kb-articles/data-source/integrate-data-sources.md)
-         - [데이터 소스 커넥터 구성](../product-guide/knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)
+         - [데이터 원본 커넥터 구성](../product-guide/knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)
       - 게시 {#publishing}
-         - 기본 PDF {#native-pdf}
+         - 네이티브 PDF {#native-pdf}
             - [DITA 기본 PDF에 사용자 정의 글꼴 추가](./knowledge-base/kb-articles/publishing/add-custom-font-native-pdf.md)
             - [기본 AEM 게시를 위한 PDF 환경 구성](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
             - [PDF의 첫 페이지에 엔터프라이즈 브랜딩 추가](./knowledge-base/kb-articles/publishing/add-branding-to-bookmap-content-header.md)
@@ -535,10 +543,10 @@ ht-degree: 7%
       - 워크플로 {#workflows}
          - [사후 생성 워크플로](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
       - 번역 {#translation}
-         - [번역 성능 향상을 위한 우수 사례](./knowledge-base/kb-articles/translation/increase-translation-performance-aem-guides.md)
+         - [번역 성능 향상을 위한 모범 사례](./knowledge-base/kb-articles/translation/increase-translation-performance-aem-guides.md)
          - [번역에서 단락 제외](./knowledge-base/kb-articles/translation/exclude-paragraphs-from-translation.md)
       - 사용 사례 {#use-cases}
-         - [조건부 컨텐츠 작업](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
+         - [조건부 콘텐츠 작업](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
          - [키 작업](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
          - [AEM Guides에서 생성된 AEM Sites 페이지에서 컨텍스트 기반 콘텐츠 변수(CCVAR) 활성화](./knowledge-base/kb-articles/publishing/enabling-contextual-content-variables-in-aem-sites-via-aemguides.md)
    - [산소 커넥터 사용](./oxygen-connector/use-aem-connector.md)
