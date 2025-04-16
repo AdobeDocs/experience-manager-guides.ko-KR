@@ -3,7 +3,8 @@ title: 편집기의 오른쪽 패널
 description: 편집기의 올바른 패널에 대해 알아봅니다. Adobe Experience Manager Guides의 편집기 인터페이스와 기능에 대해 알아봅니다.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 6e7d600da4373cb046e6adad3c5afe3164c9d0fa
+exl-id: 6a0f4ed2-6eca-4b3c-bd3a-3f72f6919b36
+source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
 workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 1%
@@ -130,7 +131,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> 추적된 변경 내용 기능은 [탭 모음](#tab-bar)의 변경 내용 추적 사용/사용 안 함 기능을 사용하여 추적된 모든 업데이트를 표시합니다.
+> 추적된 변경 내용 기능은 [탭 모음](./web-editor-tab-bar.md)의 변경 내용 추적 사용/사용 안 함 기능을 사용하여 추적된 모든 업데이트를 표시합니다.
 
 ## 도식 문자
 

@@ -1,18 +1,19 @@
 ---
-title: 주제에 대한 편집기 뷰
-description: 작성자, 소스 및 미리보기 모드에서 주제를 봅니다. 조건부 필터를 기반으로 컨텐츠를 보고, 변경 내용 추적을 보고, AEM Guides에서 주제를 PDF으로 내보내는 방법을 알아봅니다.
-Sfeature: Authoring, Features of Web Editor
+title: Experience Manager Guides의 편집기 설정
+description: Experience Manager Guides의 편집기 인터페이스에서 사용할 수 있는 다양한 설정에 대해 알아봅니다.
+feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 0fb079d08c31688046acf0e5a1e2ce7997d24cd6
+exl-id: fad2874f-dab5-4538-8502-f7112c51d941
+source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
 workflow-type: tm+mt
-source-wordcount: '1990'
+source-wordcount: '1975'
 ht-degree: 0%
 
 ---
 
 # 편집기 설정
 
-편집기의 [탭 모음]에 있는 **설정** 옵션은 관리자 및 폴더 프로필 관리자만 사용할 수 있으며 다음 설정을 구성할 수 있습니다.
+편집기의 [탭 모음](./web-editor-tab-bar.md)에 있는 **설정** 옵션은 관리자 및 폴더 프로필 관리자만 사용할 수 있으며 다음 설정을 구성할 수 있습니다.
 
 - [일반](#general)
 - [패널](#panels)

@@ -3,7 +3,8 @@ title: 편집기의 도구 모음
 description: 편집기의 도구 모음에 대해 알아봅니다. Adobe Experience Manager Guides의 편집기 인터페이스와 기능에 대해 알아봅니다.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 74f3e6933b711f855e5a07bb7909678da4254207
+exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
+source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
 workflow-type: tm+mt
 source-wordcount: '5909'
 ht-degree: 0%
@@ -38,7 +39,7 @@ ht-degree: 0%
 
 **찾기 및 바꾸기** 기능은 작성자 및 Source 보기 모드에서 사용할 수 있습니다. 활성화되면 항목 편집 영역 하단에 찾기 및 바꾸기 텍스트 막대가 나타납니다. 바로 가기 키 **CTRL**+**F**&#x200B;을 사용하여 찾기 및 바꾸기 표시줄을 호출할 수 있습니다.
 
-![](images/find-replace-bar.png){width="800" align="left"}
+![](images/find-replace-bar.png){align="left"}
 
 설정 아이콘 \(![](images/settings-find-replace-icon.svg)\)을 사용하여 **대/소문자 무시** 및 **단어 단위만** 검색 옵션을 전환할 수 있습니다. 대/소문자를 구분하지 않는 검색을 수행하려면 **대/소문자 무시** 옵션을 \(또는 select\) 설정합니다. 또는 대/소문자를 구분하는 검색을 수행하려면 **대/소문자 무시** 옵션을 \(또는 선택 해제\)하십시오. 전체 단어를 검색하도록 선택할 수도 있습니다.
 
@@ -107,7 +108,7 @@ Source 보기에서 **찾기 및 바꾸기** 기능은 특정 요소나 특성�
 
    이전 버전으로 되돌리면 현재 작업 중인 버전이 최신 버전이 아님을 나타내는 시각적 큐가 표시됩니다.
 
-   ![](images/older-version-visual-cue.png){width="800" align="left"}
+   ![](images/older-version-visual-cue.png){align="left"}
 
 </details>
 
@@ -295,7 +296,7 @@ Experience Manager Guides은 문서에서 수행한 업데이트에 대한 정�
 
 `note`과(와) 같은 블록 요소 내에서 작업하는 경우 요소 삽입 아이콘을 사용하여 `note` 요소 뒤에 새 요소를 삽입합니다. 다음 스크린샷에서는 참고 요소가 p \(paragraph\) 요소 내부에 삽입되었습니다.
 
-![블록 요소에 요소 삽입](images/note-in-para-insert-element_cs.png){width="800" align="left"}
+![블록 요소에 요소 삽입](images/note-in-para-insert-element_cs.png){align="left"}
 
 메모 요소에서 Enter 키를 누르면 메모 요소 자체에 새 단락이 만들어집니다. 메모 외부에 새 요소를 삽입하려면 요소 경로에서 p 요소 \(스크린샷에 강조 표시\)를 선택한 다음 요소 아이콘을 선택하거나 ***Alt***+***Enter***&#x200B;를 눌러 요소 삽입 대화 상자를 엽니다. 그런 다음 원하는 요소를 선택하고 Enter 키를 눌러 메모 요소 뒤에 선택한 요소를 삽입합니다.
 
@@ -366,7 +367,7 @@ Experience Manager Guides은 문서에서 수행한 업데이트에 대한 정�
 1. 값 드롭다운 목록에서 선택한 테이블 셀에 적용할 원하는 텍스트 정렬을 선택합니다.
 1. **추가** 선택
 
-![](images/align-table-cell_cs.png){width="800" align="left"}
+![](images/align-table-cell_cs.png){align="left"}
 
 </details>
 
@@ -379,11 +380,11 @@ Experience Manager Guides은 문서에서 수행한 업데이트에 대한 정�
 > 이미지를 로컬 시스템에서 문서에 끌어다 놓아 추가할 수도 있습니다. 이 경우 이미지 파일은 **Assets 업로드** 워크플로우를 사용하여 추가됩니다.  자세한 내용은 [왼쪽 패널](#left-panel) 섹션에서 **Assets 업로드** 워크플로우를 참조하십시오.
 
 
-![](images/insert-image.png){width="650" align="left"}
+![](images/insert-image.png){width="300" align="left"}
 
 이미지 삽입 대화 상자에서 이미지에 대한 이미지/그림 제목과 그림 설명을 추가할 수 있습니다.
 
->
+>[!NOTE]
 >
 > 이미지를 삽입하고 이미지에 대한 대체 텍스트를 지정하면 최신 DITA 표준에 따라 `<alt>` 요소 내에 추가됩니다. 대체 텍스트에 대한 `@alt` 특성은 더 이상 사용되지 않지만 이전 DITA 버전에서 지원됩니다.
 
@@ -391,7 +392,7 @@ Experience Manager Guides은 문서에서 수행한 업데이트에 대한 정�
 
 이미지를 삽입하면 [컨텐트 속성] 패널에서 높이, 너비, 배치 및 속성을 변경할 수 있습니다. 이미지 파일을 선택한 다음 오른쪽 패널의 [내용 속성] 패널에서 변경 작업을 수행합니다.
 
-![](images/image-properties.png){width="800" align="left"}
+![](images/image-properties.png){align="left"}
 
 Source 필드는 삽입된 이미지 파일의 UUID를 표시합니다. 마우스 포인터를 Source 필드 위로 가져가면 삽입된 이미지 파일의 전체 경로를 찾을 수 있습니다. 경로는 도구 설명에 표시됩니다.
 
@@ -468,7 +469,7 @@ Source 필드는 삽입된 이미지 파일의 UUID를 표시합니다. 마우�
 
 관리자가 *XMLEditorConfig*&#x200B;에서 UUID 옵션을 활성화한 경우 **Link** 속성에서 참조된 콘텐츠의 UUID를 보게 됩니다.
 
-![](images/ref-link-uuid_cs.png){width="800" align="left"}
+![](images/ref-link-uuid_cs.png){align="left"}
 
 >[!NOTE]
 >
@@ -523,7 +524,7 @@ AEM 저장소의 선택한 경로에 있는 파일에서 일부 텍스트를 검
 >
 > Experience Manager Guides은 이동 가능하고 크기 조정 가능한 대화 상자를 제공합니다. 오른쪽 아래 모서리에 두 개의 십자선이 있는 대화 상자의 크기를 조정할 수 있습니다. 특수 문자 대화 상자의 십자선이 아래에 표시됩니다.
 
-![](images/insert-special-char.png){width="550" align="left"}
+![](images/insert-special-char.png){width="350" align="left"}
 
 특수 문자 삽입 대화 상자에서 이름을 사용하여 특수 문자를 검색할 수 있습니다. 모든 특수 문자는 다양한 카테고리에 저장됩니다. 범주 선택 드롭다운 목록을 사용하여 범주를 선택합니다. 선택한 범주 내에서 사용할 수 있는 특수 문자가 표시됩니다. 화살표 키를 사용하여 특수 문자 목록을 탐색하거나 삽입하려는 문자를 선택할 수 있습니다. 선택한 특수 문자의 이름 및 16진수 코드가 목록 아래에 표시됩니다. **삽입**&#x200B;을 선택하여 문서에 선택한 문자를 삽입합니다.
 
@@ -543,7 +544,7 @@ DITA 맵에 정의된 키워드를 삽입합니다. 키워드 옵션을 선택�
 
 **코드 조각** - ![](images/insert-snippet-icon.svg)
 
-현재 또는 다음 유효한 위치에 코드 조각을 삽입합니다. 이 기능을 사용하려면 시스템에 스니펫이 정의되어 있어야 합니다. 코드 조각 추가에 대한 자세한 내용은 [왼쪽 패널](web-editor-features.md#left-panel) 섹션에서 **코드 조각** 기능 설명을 참조하십시오.
+현재 또는 다음 유효한 위치에 코드 조각을 삽입합니다. 이 기능을 사용하려면 시스템에 스니펫이 정의되어 있어야 합니다. 코드 조각 추가에 대한 자세한 내용은 [왼쪽 패널](./web-editor-left-panel.md) 섹션에서 **코드 조각** 기능 설명을 참조하십시오.
 
 코드 조각 옵션을 선택하면 코드 조각 삽입 카탈로그가 표시됩니다. 카탈로그는 컨텍스트에 따라 다르며, 이는 현재 위치에서 허용된 경우에만 코드 조각이 표시됨을 나타냅니다.
 
@@ -571,12 +572,12 @@ DITA 맵에 정의된 키워드를 삽입합니다. 키워드 옵션을 선택�
 
   버전 번호는 주제 또는 맵 파일에 대해 생성되는 모든 새 버전에 따라 변경됩니다. 새로 만든 문서에서 작업하는 경우 버전 정보는 **없음**&#x200B;으로 표시됩니다.
 
-  ![](images/version-information.png){width="800" align="left"}
+  ![](images/version-information.png){align="left"}
 
 
 - **새 버전으로 저장**&#x200B;은(는) 주제에 대한 변경 사항을 저장하고 새로운 버전의 주제도 만드는 단추입니다.
 
-  ![](images/save-as-new-version.png){width="800" align="left"}
+  ![](images/save-as-new-version.png){align="left"}
 
 
 **새 버전으로 저장**&#x200B;을 사용하여 주제 또는 맵을 저장하도록 선택하면 다음과 같은 대화 상자가 나타납니다.
@@ -597,7 +598,7 @@ DITA 맵에 정의된 키워드를 삽입합니다. 키워드 옵션을 선택�
 
 주제 제목 위에 포인터를 놓으면 파일 제목, 파일 경로 및 버전 번호가 표시됩니다.
 
-![](images/mouse-hover-on-title_cs.png){width="800" align="left"}
+![](images/mouse-hover-on-title_cs.png){align="left"}
 
 >[!NOTE]
 >
@@ -607,7 +608,7 @@ DITA 맵에 정의된 키워드를 삽입합니다. 키워드 옵션을 선택�
 
 현재 파일을 잠그거나 잠금 해제합니다. 파일을 잠그면 파일에 대한 단독 쓰기 액세스 권한이 제공됩니다. 이렇게 하면 다른 사용자가 파일을 편집할 수 없습니다. 다른 사용자가 편집 액세스 권한을 갖게 하려면 파일 잠금을 해제하십시오. 파일의 잠금이 해제되면 변경 사항이 파일의 현재 버전에 저장됩니다.
 
-![](images/web-editor-lock-button.png){width="800" align="left"}
+![](images/web-editor-lock-button.png){align="left"}
 
 맵 보기에서 상위 맵을 확장하는 경우 한 번의 클릭으로 맵의 모든 파일을 잠글 수 있습니다. 상위 맵 파일을 확장하고 상위 파일을 선택하면 맵 내의 모든 파일이 선택됩니다. **잠금** ![](images/LockClosed_icon.svg)을(를) 선택하여 맵 내의 모든 파일을 잠글 수 있습니다.
 
