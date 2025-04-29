@@ -4,9 +4,9 @@ description: AEM Guides에서 파일 및 폴더를 관리하는 방법에 대해
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 717d300c6e879bad573f67e3eb91dd266ab203c6
 workflow-type: tm+mt
-source-wordcount: '3131'
+source-wordcount: '3201'
 ht-degree: 0%
 
 ---
@@ -146,7 +146,7 @@ Experience Manager Guides에는 관리자가 여러 파일이 있는 폴더를 �
 
    - **Source 경로\**: 이동할 폴더의 위치를 지정합니다.
 
-      - **폴더 찾아보기** 선택  <img src="images/browse-folder-icon.svg" width="25">    파일 찾아보기 대화 상자를 엽니다. 이동할 폴더를 선택하고 **선택**&#x200B;을 선택하여 프로세스를 완료합니다.
+      - **폴더 찾아보기** 선택  <img src="images/browse-folder-icon.svg" width="25">    **경로 선택** 대화 상자를 엽니다. 이동할 폴더를 선택하고 **선택**&#x200B;을 선택하여 프로세스를 완료합니다. 경로 브라우저에서 서로 다른 위치에 배치된 여러 폴더를 선택할 수 있습니다. 선택한 폴더의 경로가 유지되므로 대화 상자를 다시 열 때 해당 폴더를 쉽게 검토하거나 수정할 수 있습니다.
 
       - 소스 위치를 입력하거나 복사하여 붙여넣을 수도 있습니다. Enter 키를 눌러 폴더를 목록에 추가합니다.
 
@@ -195,7 +195,7 @@ Experience Manager Guides에는 관리자가 여러 파일이 있는 폴더를 �
 
    - **Source 경로\**: 이동할 폴더의 위치를 지정합니다.
 
-      - **폴더 찾아보기** 선택  <img src="images/browse-folder-icon.svg" width="25">    파일 찾아보기 대화 상자를 엽니다. 이동할 폴더를 선택하고 **선택**&#x200B;을 선택하여 프로세스를 완료합니다.
+      - **폴더 찾아보기** 선택  <img src="images/browse-folder-icon.svg" width="25">    **경로 선택** 대화 상자를 엽니다. 이동할 폴더를 선택하고 **선택**&#x200B;을 선택하여 프로세스를 완료합니다. 경로 브라우저에서 서로 다른 위치에 배치된 여러 폴더를 선택할 수 있습니다. 선택한 폴더의 경로가 유지되므로 대화 상자를 다시 열 때 해당 폴더를 쉽게 검토하거나 수정할 수 있습니다.
 
       - 소스 위치를 입력하거나 복사하여 붙여넣을 수도 있습니다. Enter 키를 눌러 폴더를 목록에 추가합니다.
 

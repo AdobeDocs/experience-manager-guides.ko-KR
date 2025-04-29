@@ -4,9 +4,9 @@ description: Adobe Experience Manager Guides의 맵 콘솔에서 기준선을 �
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: 154d4cb2c4c51581590048e1d368f4c744402847
 workflow-type: tm+mt
-source-wordcount: '1815'
+source-wordcount: '1831'
 ht-degree: 0%
 
 ---
@@ -137,7 +137,7 @@ ht-degree: 0%
   > 레이블을 추가하거나 제거하는 프로세스는 비동기적으로 발생하므로 다른 파일에서 계속 작업할 수 있습니다. 레이블이 추가 또는 제거되면 레이블이 추가 또는 제거되었음을 확인하는 팝업 메시지가 표시되며, 이에 대한 받은 편지함 알림도 수신하게 됩니다.
 
 - 기준선을 만드는 동안 설정한 기존 정적 기준선의 **속성 편집**.
-- **기준선 내보내기** 옵션을 사용하여 Microsoft Excel 파일에서 기준선의 스냅숏을 내보냅니다.
+- **기준선 내보내기** 옵션을 사용하면 제목, 파일 이름, 파일 형식, 버전 번호, 문서 상태 및 기타 관련 정보와 같은 모든 필수 세부 정보를 포함하여 Microsoft Excel 파일에서 기준선의 스냅숏을 내보낼 수 있습니다.
 
 
 ### 레이블 목록 {#labels-list}

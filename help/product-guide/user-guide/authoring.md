@@ -4,10 +4,10 @@ description: AEM Guides에서 콘텐츠를 관리하고 역할 및 권한을 식
 exl-id: 84926dc2-1180-48ef-85d0-50e3478bf26a
 feature: Content Management
 role: User
-source-git-commit: 99e42091490b28b5d5ee73472a7655e3feeafd25
+source-git-commit: 461692ce786f914dd196f289efef726e42bf9660
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 10%
+source-wordcount: '584'
+ht-degree: 13%
 
 ---
 
@@ -88,15 +88,3 @@ Experience Manager Guides은 세 가지 기본 제공 그룹을 제공합니다.
 [1](#fnsrc_1) *작성자* 및 *게시자*&#x200B;가 리뷰를 위해 초대된 경우
 
 [2](#fnsrc_2) 문서 상태 프로필에서 사용자에게 부여된 권한에 따라 다릅니다.
-
-## 콘텐츠 작성에 대한 전제 조건
-
-**전역 또는 폴더 수준 프로필을 사용하여 작업**
-
-기업에서는 다른 그룹이나 제품이 다른 작성 템플릿, 출력 템플릿, 조건부 속성 프로필 \(또는 주제 스키마\) 및 웹 편집기 구성을 사용할 수 있습니다. 작성자가 엔터프라이즈 \(또는 글로벌\) 수준에서만 구성하면 작성자와 관련이 없는 템플릿 또는 프로필을 볼 수 있으므로 작업이 어려울 수 있습니다.
-
-Experience Manager Guides을 사용하면 폴더 수준뿐만 아니라 엔터프라이즈 \(전역\) 수준에서 작성 \(topic 또는 map\) 템플릿, 출력 템플릿, 조건부 속성 및 웹 편집기 구성을 구성할 수 있습니다. 이렇게 하면 기업의 다양한 부서나 제품에 대한 구성을 분리할 수 있습니다.
-
-또한 부서나 제품 관리자에게 폴더별 구성을 위임하여 관리를 분산할 수 있습니다.
-
-전역 및 폴더 수준 프로필 설정에 대한 자세한 내용은 Adobe Experience Manager Guides as a Cloud Service 설치 및 구성에서 *전역 또는 폴더 수준 프로필 구성*&#x200B;을 참조하십시오.

@@ -4,9 +4,9 @@ description: Workfront을 Adobe Experience Manager Guides과 통합하고 워크
 feature: Authoring
 role: User
 exl-id: fd988434-3ebd-40ac-a776-e62359dcb6ef
-source-git-commit: dea9876cf0afa615f3719637c909bbda0d1d40b5
+source-git-commit: 62b1abd012f4bbf532480e2625505cdea1c70bc7
 workflow-type: tm+mt
-source-wordcount: '2436'
+source-wordcount: '2482'
 ht-degree: 0%
 
 ---
@@ -85,6 +85,8 @@ Workfront 작업 페이지에 있는 **새 작업** 단추를 사용하여 Exper
 3. **Assets** 탭에서 **추가**&#x200B;를 선택하여 이 작업에 에셋을 추가합니다.
 
    ![](./images/workfront-create-tasks-asset.png){align="left"}
+
+   **경로 선택** 대화 상자가 표시됩니다. 필요한 에셋에 대한 경로를 선택합니다. 경로 브라우저에서 유효한 경로를 선택하여 여러 자산을 추가할 수 있습니다. 선택한 경로가 유지되므로 대화 상자를 다시 열 때 쉽게 검토하거나 수정할 수 있습니다.
 
    * 작성, 게시 및 번역 작업의 경우 **경로 선택** 대화 상자에서 필요한 파일의 위치를 선택하라는 메시지가 표시됩니다. 선택한 파일(게시 및 번역을 위한 작성 및 맵 항목)은 **만들기** 단추를 선택하는 즉시 작업에 추가됩니다.
 
