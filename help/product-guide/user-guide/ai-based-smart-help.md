@@ -21,7 +21,7 @@ Experience Manager Guides은 [Adobe Experience Manager Guides 설명서](https:/
 
 ![고급 도움말 패널](images/smart-help-panel.png){width="300" align="left"}
 
-***도움말**패널을 봅니다.*
+***도움말**&#x200B;패널을 봅니다.*
 
 도움말 패널을 사용하여 적절한 콘텐츠를 찾고 쿼리를 해결하려면 다음 단계를 수행하십시오.
 

@@ -35,12 +35,15 @@ XML 편집기 측의 댓글 검토:
 
 - 댓글 회신 검토: `id: comment_reply`
    - 각 리뷰 댓글 회신에 대한 위젯입니다.
+
      ![댓글 응답 스크린샷 검토](./imgs/reply.png)
 
 - 새 리뷰 댓글 회신: `id: comment_new_reply`
    - 새 리뷰 댓글 회신에 대한 위젯입니다.
+
      ![새 리뷰 댓글 스크린샷](./imgs/new_reply.png)
 
 - 주석 도구 상자: `id: annotation_toolbox`
    - 리뷰 앱의 오른쪽 상단 도구 모음
+
      ![주석 도구 상자 스크린샷](./imgs/annotation_toolbox.png)

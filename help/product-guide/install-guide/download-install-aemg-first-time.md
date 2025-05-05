@@ -55,4 +55,4 @@ ht-degree: 0%
 >
 > 설치 시 AEM 서버의 모든 인스턴스에 설치 절차를 수행합니다.
 
-**상위 항목:**[&#x200B;다운로드 및 설치](download-install.md)
+**상위 항목:**&#x200B;[&#x200B;다운로드 및 설치](download-install.md)

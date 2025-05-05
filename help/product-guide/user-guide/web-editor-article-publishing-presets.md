@@ -66,4 +66,4 @@ DITA 맵에 대한 출력 사전 설정을 만들려면 다음 단계를 수행�
 
 
 
-**상위 항목:**[&#x200B;편집기에서 문서 기반 게시](web-editor-article-publishing.md)
+**상위 항목:**&#x200B;[&#x200B;편집기에서 문서 기반 게시](web-editor-article-publishing.md)

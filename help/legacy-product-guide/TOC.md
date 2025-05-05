@@ -23,7 +23,7 @@ ht-degree: 3%
       - [!DNL AEM Guides] 작업 중 및 주요 기능 {#aemg-works-features}
          - [ [!DNL AEM Guides] 작동 방식](./user-guide/intro-how-dxml-works.md)
          - [주요 [!DNL AEM Guides] 기능](./user-guide/intro-dxml-features.md)
-   - {#manage-content} 콘텐츠 관리
+   - 콘텐츠 관리{#manage-content}
       - [주요 개념, 역할 및 권한, 전제 조건](./user-guide/authoring.md)
       - [파일 업로드](./user-guide/authoring-upload-existing-files.md)
       - [파일 및 폴더 관리](./user-guide/authoring-file-management.md)
@@ -70,11 +70,11 @@ ht-degree: 3%
                - [맵 편집기의 기타 기능](./user-guide/map-editor-other-features.md)
             - DITAVAL 편집기 {#ditaval-editor}
                - [DITAVAL 편집기 작업](./user-guide/ditaval-editor.md)
-         - 콘텐츠 {#author-using-desktop-tools}을(를) 작성하기 위한 데스크톱 도구
+         - 콘텐츠을(를) 작성하기 위한 데스크톱 도구 {#author-using-desktop-tools}
             - [데스크탑 도구를 사용하여 콘텐츠 작성](./user-guide/author-desktop-tools.md)
             - [FrameMaker 작업](./user-guide/author-desktop-framemaker.md)
             - [산소를 사용한 작업](./user-guide/author-desktop-oxygen.md)
-   - 콘텐츠 {#review-topic-maps} 검토
+   - 콘텐츠 검토 {#review-topic-maps}
       - [주제 또는 맵 검토](./user-guide/review.md)
       - [DITA 프로젝트 만들기](./user-guide/authoring-create-dita-project.md)
       - [검토할 항목 보내기](./user-guide/review-send-topics-for-review.md)
@@ -84,7 +84,7 @@ ht-degree: 3%
          - [리뷰 댓글 처리](./user-guide/review-address-review-comments.md)
       - [검토 대시보드를 사용하여 검토 작업 관리](./user-guide/review-manage-tasks-review-dashboard.md)
       - [완료된 검토 작업 보기](./user-guide/review-view-completed-task.md)
-   - AEM Guides {#manaege-metadata}의 메타데이터
+   - AEM Guides의 메타데이터 {#manaege-metadata}
       - [메타데이터 관리](./user-guide/manage-metadata.md)
       - [AEM에서 메타데이터 작업](./user-guide/metadata-dita.md)
       - [스마트 태깅](./user-guide/web-editor-smart-tagging.md)
@@ -97,7 +97,7 @@ ht-degree: 3%
    - 출력 생성 {#output-gen}
       - [출력 생성 기본 사항](./user-guide/generate-output.md)
       - [출력 사전 설정 소개](./user-guide/generate-output-understand-presets.md)
-      - AEM Guides {#output-presets-aemg}의 출력 사전 설정
+      - AEM Guides의 출력 사전 설정 {#output-presets-aemg}
          - [AEM 사이트](./user-guide/generate-output-aem-site.md)
          - [맵 대시보드의 AEM Sites 사전 설정](./user-guide/generate-output-aem-site-map-dashboard.md)
          - [웹 편집기의 AEM Sites 사전 설정](./user-guide/generate-output-aem-site-web-editor.md)
@@ -120,13 +120,13 @@ ht-degree: 3%
       - [콘텐츠 조각 게시](./user-guide/publish-content-fragment.md)
       - [경험 조각 게시](./user-guide/publish-experience-fragment.md)
       - [AEM Sites 페이지 게시](./user-guide/publish-aem-sites.md)
-      - {#bulk-activation} 컨텐츠의 일괄 활성화
+      - 컨텐츠의 일괄 활성화{#bulk-activation}
          - [게시된 콘텐츠의 벌크 활성화](./user-guide/conf-bulk-activation.md)
          - [벌크 활성화 맵 컬렉션 만들기](./user-guide/conf-bulk-activation-create-map-collection.md)
          - [출력 활성화](./user-guide/conf-bulk-activation-publish-map-collection.md)
          - [벌크 활성화 맵 컬렉션 편집](./user-guide/conf-bulk-activation-edit-map-collection.md)
          - [벌크 활성화 맵 컬렉션 삭제](./user-guide/conf-bulk-activation-delete-map-collection.md)
-   - FrameMaker 문서 {#generate-fm-output}의 출력 생성
+   - FrameMaker 문서의 출력 생성 {#generate-fm-output}
       - [FrameMaker 문서의 출력 생성](./user-guide/fm-output-generatation.md)
       - 지원되는 사전 설정 {#fm-docs-generating-presets}
          - [FrameMaker 문서 생성을 위한 사전 설정](./user-guide/fm-output-understand-presets.md)
@@ -135,7 +135,7 @@ ht-degree: 3%
          - [EPUB](./user-guide/fm-output-epub-preset.md)
       - [.book 또는 .fm 파일의 출력 생성](./user-guide/fm-output-generate.md)
       - [출력 생성 작업의 상태 보기](./user-guide/fm-output-view-status.md)
-   - AEM Guides {#reports-aem-guide}의 보고서
+   - AEM Guides의 보고서 {#reports-aem-guide}
       - [보고서 소개](./user-guide/reports-intro.md)
       - [웹 편집기의 DITA 맵 보고서](./user-guide/reports-web-editor.md)
       - [맵 대시보드의 DITA 맵 보고서](./user-guide/reports-ditamap.md)

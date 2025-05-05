@@ -49,4 +49,4 @@ AEM Site, PDF, Native PDF, HTML5, Custom 및 JSON 출력과 같은 다양한 유
 1. **완료**&#x200B;를 선택합니다.
 
 
-**상위 항목:**[&#x200B;게시된 콘텐츠의 일괄 활성화](conf-bulk-activation.md)
+**상위 항목:**&#x200B;[&#x200B;게시된 콘텐츠의 일괄 활성화](conf-bulk-activation.md)

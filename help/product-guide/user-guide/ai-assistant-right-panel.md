@@ -1,5 +1,5 @@
 ---
-title: AI Assistant를 사용하여 문서를 스마트하게 작성 `
+title: AI Assistant를 사용하여 문서를 스마트하게 작성 &grave;
 description: AI Assistant를 사용하여 효율적인 방식으로 문서를 작성하는 방법에 대해 알아봅니다.
 exl-id: 47d37323-20bf-4444-a2c9-41c44b2c8daf
 source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a

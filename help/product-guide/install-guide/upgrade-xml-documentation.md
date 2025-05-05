@@ -62,7 +62,7 @@ Experience Manager Guides 버전 3.8.5를 사용하는 경우 Experience Manager
 
 
 
-****전제 조건****
+**&#x200B;**&#x200B;전제 조건&#x200B;**&#x200B;**
 
 Experience Manager Guides 업그레이드 프로세스를 시작하기 전에 다음을 확인하십시오.
 
@@ -86,7 +86,7 @@ Experience Manager Guides 업그레이드 프로세스를 시작하기 전에 �
 
 | 끝점 | /bin/dxml/업그레이드/3xto4x/보고서 |
 | --- | --- |
-| 요청 유형 | **** GET AEM 인스턴스에 관리자로 로그인되어 있는 웹 브라우저 사용할 수 있습니다. |
+| 요청 유형 | **&#x200B;**&#x200B;GET AEM 인스턴스에 관리자로 로그인되어 있는 웹 브라우저 사용할 수 있습니다. |
 | 예상 응답 | - 필요한 모든 노드를 이동할 수 있는 경우 통과된 검사를 받게 됩니다. <br>- 타겟 위치에 노드가 있는 경우 관련 오류가 발생합니다. 저장소 \(delete 노드 /var/dxml\)을 정리하고 업그레이드 패키지를 다시 설치한 다음 이 엔드포인트를 다시 트리거합니다. <br>**참고:** 대상 위치가 3.x Experience Manager Guides에서 이전에 사용되지 않으므로 일반적인 오류가 아닙니다. <br> -   이 스크립트가 성공하지 못할 경우 진행하지 말고 고객 성공 팀에 보고하십시오. |
 
 **시스템 데이터 마이그레이션 API**
@@ -135,7 +135,7 @@ CRX 패키지 관리자를 사용하여 기존 AEM 서버 인스턴스에 패키
 
 버전 4.0, 4.1 또는 4.1.x를 사용하는 경우 버전 4.2로 바로 업그레이드할 수 있습니다.
 
-****전제 조건****
+**&#x200B;**&#x200B;전제 조건&#x200B;**&#x200B;**
 
 Experience Manager Guides 4.2 업그레이드 프로세스를 시작하기 전에 다음을 확인하십시오.
 
@@ -187,7 +187,7 @@ Experience Manager Guides를 설치한 후 새로 설치된 버전에서 설정�
    ```
 
 1. DAM 자산 업데이트 작업 과정&#x200B;**을 선택합니다**.
-1. 편집 ****&#x200B;클릭합니다.
+1. 편집 **&#x200B;**&#x200B;클릭합니다.
 1. **DXML Post Process Initiator** 구성 요소가 있는 경우 사용자 지정이 동기화되었는지 확인합니다.
 1. **DXML Post Process Initiator** 구성 요소가 없는 경우 다음 단계를 수행하여 삽입합니다.
 
@@ -204,7 +204,7 @@ Experience Manager Guides를 설치한 후 새로 설치된 버전에서 설정�
 
    - 프로세스&#x200B;**드롭다운에서 DXML Post Process Initiator**&#x200B;를 **선택합니다**
 
-   - 핸들러 고급 선택 ****
+   - 핸들러 고급 선택 **&#x200B;**
 
    - **완료** 선택
 
@@ -243,7 +243,7 @@ Experience Manager Guides를 설치한 후 새로 설치된 버전에서 설정�
    - elementmapping.xml
    - ui\_config.json\(폴더 프로필에 설정되었을 수 있음\)
    - 개정 `com.adobe.fmdita.config.ConfigManager`
-   - 사용자 지정 코드가 이전 경로를 사용하고 있는지 확인하십시오 \(마이그레이션 매핑](#id2244LE040XA) 섹션에서 언급한 [대로\) - 사용자 지정도 예상대로 작동하도록 새 경로로 업데이트해야 합니다.
+   - 사용자 지정 코드가 이전 경로를 사용하고 있는지 확인하십시오 \(마이그레이션 매핑[&#128279;](#id2244LE040XA) 섹션에서 언급한 대로\) - 사용자 지정도 예상대로 작동하도록 새 경로로 업데이트해야 합니다.
 1. 현재 릴리스 \([릴리스 정보](../release-info/release-notes-4-3.md)\ 확인)에서 가져온 새 구성에 대해 읽어 보고 기능에 영향을 주는지 확인한 다음 적절한 조치를 취하십시오. 예를 들어 버전 4.0에 도입된 &quot;향상된 파일 및 버전 처리&quot;를 사용하는 것이 좋습니다. 이 경우 구성을 활성화해야 합니다.
 
 ## 새 찾기 및 바꾸기를 사용할 기존 콘텐츠를 색인화하는 단계:
@@ -311,7 +311,7 @@ Experience Manager Guides를 설치한 후 새로 설치된 버전에서 설정�
 >
 >게시물 처리 및 색인 생성에는 몇 시간이 걸릴 수 있습니다. 사용량이 적은 시간에 업그레이드 프로세스를 시작하는 것이 좋습니다.
 
-****전제 조건****
+**&#x200B;**&#x200B;전제 조건&#x200B;**&#x200B;**
 
 Experience Manager Guides 4.2.1 업그레이드 프로세스를 시작하기 전에 다음 사항을 확인하십시오.
 
@@ -460,7 +460,7 @@ Experience Manager Guides을 설치한 후 새로 설치한 버전에서 설정�
    - elementmapping.xml
    - ui\_config.json\(폴더 프로필에 설정되었을 수 있음\)
    - 개정 `com.adobe.fmdita.config.ConfigManager`
-   - 사용자 지정 코드가 이전 경로를 사용하고 있는지 확인하십시오 \(마이그레이션 매핑](#id2244LE040XA) 섹션에서 언급한 [대로\) - 사용자 지정도 예상대로 작동하도록 새 경로로 업데이트해야 합니다.
+   - 사용자 지정 코드가 이전 경로를 사용하고 있는지 확인하십시오 \(마이그레이션 매핑[&#128279;](#id2244LE040XA) 섹션에서 언급한 대로\) - 사용자 지정도 예상대로 작동하도록 새 경로로 업데이트해야 합니다.
 1. 현재 릴리스 \([릴리스 정보](../release-info/release-notes-4-2-1.md)\ 확인)에서 가져온 새 구성에 대해 읽어 보고 기능에 영향을 주는지 확인한 다음 적절한 조치를 취하십시오. 예를 들어 버전 4.0에 도입된 &quot;향상된 파일 및 버전 처리&quot;를 사용하는 것이 좋습니다. 이 경우 구성을 활성화해야 합니다.
 
 ## 새 찾기 및 바꾸기를 사용할 기존 콘텐츠를 색인화하는 단계:
@@ -488,7 +488,7 @@ Experience Manager Guides을 설치한 후 새로 설치한 버전에서 설정�
 >
 >게시물 처리 및 색인 생성에는 몇 시간이 걸릴 수 있습니다. 사용량이 적은 시간에 업그레이드 프로세스를 시작하는 것이 좋습니다.
 
-****전제 조건****
+**&#x200B;**&#x200B;전제 조건&#x200B;**&#x200B;**
 
 Experience Manager Guides 4.3.0 업그레이드 프로세스를 시작하기 전에 다음을 확인하십시오.
 
@@ -546,7 +546,7 @@ Experience Manager Guides를 설치한 후 새로 설치된 버전에서 설정�
 >
 >사후 처리 및 인덱싱에는 몇 시간이 걸릴 수 있습니다. 사용량이 적은 시간 동안 업그레이드 프로세스를 시작하는 것이 좋습니다.
 
-****전제 조건****
+**&#x200B;**&#x200B;전제 조건&#x200B;**&#x200B;**
 
 Experience Manager Guides 4.3.1 업그레이드 프로세스를 시작하기 전에 다음을 확인하십시오.
 
@@ -632,7 +632,7 @@ Experience Manager Guides을 설치한 후 새로 설치한 버전에서 설정�
    ```
 
 1. DAM 자산 업데이트 작업 과정&#x200B;**을 선택합니다**.
-1. 편집 ****&#x200B;클릭합니다.
+1. 편집 **&#x200B;**&#x200B;클릭합니다.
 1. **DXML 사후 프로세스 개시자** 구성 요소가 있는 경우 사용자 지정이 동기화되었는지 확인하십시오.
 1. **DXML 사후 프로세스 개시자** 구성 요소가 없으면 다음 단계를 수행하여 해당 구성 요소를 삽입합니다.
 
@@ -787,7 +787,7 @@ Experience Manager Guides을 설치한 후 새로 설치한 버전에서 설정�
 >
 >사후 처리 및 인덱싱에는 몇 시간이 걸릴 수 있습니다. 사용량이 적은 시간 동안 업그레이드 프로세스를 시작하는 것이 좋습니다.
 
-****전제 조건****
+**&#x200B;**&#x200B;전제 조건&#x200B;**&#x200B;**
 
 Experience Manager Guides 4.4.0 업그레이드 프로세스를 시작하기 전에 다음을 확인하십시오.
 
@@ -980,7 +980,7 @@ Experience Manager Guides에는 교차 맵(서로 다른 두 맵의 주제 간 �
 이 업그레이드 중에 `'order'` 값이 1000에서 50으로 변경되었으므로 기존 사용자 지정 재작성기가 있는 경우 `'fmdita-rewriter'`과(와) 병합해야 합니다.
 
 
-**상위 항목:**[&#x200B;다운로드 및 설치](download-install.md)
+**상위 항목:**&#x200B;[&#x200B;다운로드 및 설치](download-install.md)
 
 
 ## 버전 4.6.0으로 업그레이드
@@ -995,7 +995,7 @@ Experience Manager Guides에는 교차 맵(서로 다른 두 맵의 주제 간 �
 >
 > 사후 처리 및 인덱싱에는 몇 시간이 걸릴 수 있습니다. 사용량이 적은 시간 동안 업그레이드 프로세스를 시작하는 것이 좋습니다.
 
-****전제 조건****
+**&#x200B;**&#x200B;전제 조건&#x200B;**&#x200B;**
 
 Experience Manager Guides 4.6.0 업그레이드 프로세스를 시작하기 전에 다음을 확인하십시오.
 
@@ -1041,7 +1041,7 @@ Experience Manager Guides을 설치한 후 새로 설치한 버전에서 설정�
    ```
 
 1. **DAM 자산 업데이트 워크플로우**&#x200B;를 선택합니다.
-1. 편집 ****&#x200B;클릭합니다.
+1. 편집 **&#x200B;**&#x200B;클릭합니다.
 1. **DXML Post Process Initiator** 구성 요소가 있는 경우 사용자 지정이 동기화되었는지 확인합니다.
 1. **DXML 사후 프로세스 개시자** 구성 요소가 없으면 다음 단계를 수행하여 해당 구성 요소를 삽입합니다.
 
@@ -1133,9 +1133,9 @@ Experience Manager Guides을 설치한 후 새로 설치한 버전에서 설정�
 
 ## 충돌 처리 `'fmdita rewriter'` 단계
 
-Experience Manager Guides에는 교차 맵(서로 다른 두 맵의 주제 간 링크)의 경우 생성된 링크를 처리하기 위한 사용자 지정 sling 재작성&#x200B;**](../cs-install-guide/conf-output-generation.md#custom-rewriter)기 모듈 모듈이 있습니다[**.
+Experience Manager Guides에는 교차 맵(서로 다른 두 맵의 주제 간 링크)의 경우 생성된 링크를 처리하기 위한 사용자 지정 sling 재작성&#x200B;**[&#128279;](../cs-install-guide/conf-output-generation.md#custom-rewriter)기 모듈 모듈이 있습니다**.
 
-코드베이스에 다른 사용자 지정 sling rewriter가 있는 경우 Experience Manager Guides sling rewriter는 50을 사용 `'order'` 하므로 50보다 큰 값을 사용합니다`'order'`.  이를 재정의하려면 값 >50이 필요합니다. 자세한 내용은 파이프라인 다시 쓰기](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html) Output 을 참조하세요[.
+코드베이스에 다른 사용자 지정 sling rewriter가 있는 경우 Experience Manager Guides sling rewriter는 50을 사용 `'order'` 하므로 50보다 큰 값을 사용합니다`'order'`.  이를 재정의하려면 값 >50이 필요합니다. 자세한 내용은 파이프라인 다시 쓰기[&#128279;](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html) Output 을 참조하세요.
 
 이 업그레이드 중에 값이 1000에서 50으로 변경되었으므로 `'order'` 기존 사용자 지정 재작성기(있는 경우)를 `'fmdita-rewriter'`와 병합해야 합니다.
 
@@ -1150,7 +1150,7 @@ Experience Manager Guides에는 교차 맵(서로 다른 두 맵의 주제 간 �
 >
 > 게시물 처리 및 색인 생성에는 몇 시간이 걸릴 수 있습니다. 사용량이 적은 시간에 업그레이드 프로세스를 시작하는 것이 좋습니다.
 
-****전제 조건****
+**&#x200B;**&#x200B;전제 조건&#x200B;**&#x200B;**
 
 Experience Manager Guides 5.0.0 업그레이드 프로세스를 시작하기 전에 다음 사항을 확인하십시오.
 
@@ -1163,7 +1163,7 @@ Experience Manager Guides 5.0.0 업그레이드 프로세스를 시작하기 전
 
 1. [Adobe 소프트웨어 배포 포털](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)에서 5.0.0 버전 패키지를 다운로드합니다.
 1. 버전 5.0.0 패키지를 설치합니다.
-1. 트리거를 HIT하여 번역 맵 업그레이드 작업을 시작하도록 선택할 수 있습니다. 자세한 내용은 Enable trigger of script via a Servlet](#enable-trigger-of-script-via-a-servlet)을 참조하십시오[.
+1. 트리거를 HIT하여 번역 맵 업그레이드 작업을 시작하도록 선택할 수 있습니다. 자세한 내용은 Enable trigger of script via a Servlet[&#128279;](#enable-trigger-of-script-via-a-servlet)을 참조하십시오.
 
 1. 패키지 설치를 완료한 후 로그에서 다음 메시지를 기다립니다.
 
@@ -1264,7 +1264,7 @@ Experience Manager Guides을 설치한 후 새로 설치한 버전에서 설정�
    >[!NOTE]
    >
    > 존재하는 데이터의 양에 따라 몇 분 정도 걸릴 수 있습니다.
-4. 추가되거나 수정된 다른 인덱스에 대해 동일한 단계를 수행합니다. `guidesBulkActivation``guidesPeerLinkIndex``guidesKonnectTemplateIndex`
+4. 추가되거나 수정된 다른 인덱스에 대해 동일한 단계를 수행합니다. `guidesBulkActivation` `guidesPeerLinkIndex` `guidesKonnectTemplateIndex`
 
 ## 기존 컨텐츠 색인화 단계
 

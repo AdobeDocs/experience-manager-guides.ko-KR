@@ -128,7 +128,7 @@ AEM Guides을 사용하면 InDesign 문서를 변환할 수 있습니다. FrameM
 - 개별 DITA 주제 및 DITA 맵 파일의 생성 및 유효성 검사
 - 임시 파일 삭제.
 
-변환 프로세스에서는 [변환을 위해 InDesign 파일 준비](appendix.md#id195DBF0045Z)[appendix.md\#id195DBF0045Z](appendix.md#id195DBF0045Z) 및 [DITA 마이그레이션에 InDesign을 위해 매핑 파일 준비](appendix.md#id194AF0003HT)[appendix.md\#id194AF0003HT](appendix.md#id194AF0003HT)를 수행해야 합니다. 그런 다음 변환 프로세스를 실행하는 지정된 절차를 따라야 합니다.
+변환 프로세스에서는 [변환을 위해 InDesign 파일 준비](appendix.md#id195DBF0045Z) [appendix.md\#id195DBF0045Z](appendix.md#id195DBF0045Z) 및 [DITA 마이그레이션에 InDesign을 위해 매핑 파일 준비](appendix.md#id194AF0003HT) [appendix.md\#id194AF0003HT](appendix.md#id194AF0003HT)를 수행해야 합니다. 그런 다음 변환 프로세스를 실행하는 지정된 절차를 따라야 합니다.
 
 다음 단계를 수행하여 기존 InDesign 문서를 DITA 주제 유형 문서로 변환합니다.
 
@@ -396,4 +396,4 @@ AEM Guides을 사용하면 기존의 구조화된 문서를 유효한 DITA 문�
 
 `<config> </config>` 블록을 사용하여 변환을 위해 하나 이상의 구성 블록을 정의할 수 있습니다. 변환 워크플로우가 실행되고 DITA 주제 형식의 최종 출력이 `outputDir` 요소에 지정된 위치에 저장됩니다.
 
-**상위 항목:**[&#x200B;기존 콘텐츠 마이그레이션](migrate-content.md)
+**상위 항목:**&#x200B;[&#x200B;기존 콘텐츠 마이그레이션](migrate-content.md)

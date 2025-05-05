@@ -40,7 +40,7 @@ AEM Guides은 MLA(Modern Language Association), APA(American Psychological Assoc
 
 1. **인용** 패널에서 ![아이콘 추가](images/Add_icon.svg)를 선택합니다. 드롭다운에서 새 인용을 추가하거나 인용을 가져오도록 선택할 수 있습니다.
 
-1. 새 인용을 추가하려면 **새 인용**을 선택하십시오.
+1. 새 인용을 추가하려면 **새 인용**&#x200B;을 선택하십시오.
 **인용 추가** 대화 상자가 열립니다.
 
    웹 편집기의 ![인용 패널](images/citation-add.png) {width="300" align="left"}
@@ -99,7 +99,7 @@ AEM Guides은 MLA(Modern Language Association), APA(American Psychological Assoc
 
    >[!NOTE]
    > <ol><li> AEM Guides은 고유하고 아직 존재하지 않는 인용구만 가져옵니다.
-    &gt; <li> AEM Guides은 책, 저널 또는 웹 사이트에서 인용구를 가져올 수 있습니다. 현재 다른 소스의 인용을 지원하지 않습니다.
+   > &gt; <li> AEM Guides은 책, 저널 또는 웹 사이트에서 인용구를 가져올 수 있습니다. 현재 다른 소스의 인용을 지원하지 않습니다.
 
 ## 인용 관리
 
@@ -149,7 +149,7 @@ AEM Guides은 MLA(Modern Language Association), APA(American Psychological Assoc
 
 **인용 편집** 대화 상자가 열립니다.
 
-1. 필요한 사항을 변경합니다. **완료**를 선택합니다.
+1. 필요한 사항을 변경합니다. **완료**&#x200B;를 선택합니다.
 선택한 인용이 편집되었습니다.
 
 >[!NOTE]
@@ -162,7 +162,7 @@ AEM Guides은 MLA(Modern Language Association), APA(American Psychological Assoc
 
 목록에서 인용구의 이름 위로 마우스를 가져갑니다. 선택     ![](images/options.svg) **옵션** 아이콘.
 
-1. **미리 보기**를 선택합니다.
+1. **미리 보기**&#x200B;를 선택합니다.
 미리보기 창에서 인용의 내용과 형식을 미리 볼 수 있습니다.
 
    >[!NOTE]
@@ -194,7 +194,7 @@ AEM Guides은 MLA(Modern Language Association), APA(American Psychological Assoc
    ![인용 대화 상자](images/citation-dialog-main-toolbar.png){width="300" align="left"}
 1. **인용** 대화 상자의 검색 패널에 처음 몇 개의 알파벳을 입력하여 인용을 필터링할 수 있습니다.
 
-1. **완료**를 클릭합니다.
+1. **완료**&#x200B;를 클릭합니다.
 선택한 인용이 주제의 커서 위치에 추가됩니다.
 
 
@@ -230,7 +230,7 @@ AEM Guides은 MLA(Modern Language Association), APA(American Psychological Assoc
 1. ![](images/options.svg) **옵션** 아이콘을 선택합니다.
 1. 다음 항목 선택   **삭제** ![](images/Delete_icon.svg).
 확인(confirmation) 대화상자가 열립니다.
-1. **예**를 선택합니다.
+1. **예**&#x200B;를 선택합니다.
 선택한 인용이 인용 패널에서 삭제됩니다.
 
 
@@ -241,7 +241,7 @@ AEM Guides은 MLA(Modern Language Association), APA(American Psychological Assoc
 
 항목에서 인용의 끝에 커서를 놓습니다.
 
-1. 항목에서 인용을 마우스 오른쪽 단추로 클릭하고 바로 가기 메뉴에서 **인용 수정**을 선택합니다. 인용 대화 상자가 열립니다.
+1. 항목에서 인용을 마우스 오른쪽 단추로 클릭하고 바로 가기 메뉴에서 **인용 수정**&#x200B;을 선택합니다. 인용 대화 상자가 열립니다.
    ![인용의 바로 가기 메뉴](./images/modify-citation.png)
 
 1. 문서에 삽입할 인용구를 선택할 수 있습니다.

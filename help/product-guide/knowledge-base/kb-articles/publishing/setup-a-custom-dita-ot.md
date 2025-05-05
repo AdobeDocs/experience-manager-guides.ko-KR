@@ -22,7 +22,7 @@ ht-degree: 0%
    + 다른 버전을 얻으려면 [dita-ot 저장소](https://www.dita-ot.org/download)에서 다운로드할 수 있습니다.
 + [새 플러그인 추가](https://www.dita-ot.org/dev/topics/plugins-installing.html) 또는 기존 플러그인 사용자 지정과 같이 DITA-OT를 변경합니다(아래 관련 링크 섹션의 예 참조).
 + `DITA-OT.zip` 업로드가 `/apps/<project-folder>/dita_resources`에 수신되었습니다. 사용자 지정 프로젝트 폴더를 만드는 것이 좋습니다.
-+ **[!UICONTROL 도구]** > **[!UICONTROL 안내서]** > **[!UICONTROL DITA 프로필]**을 통해 DITA 프로필을 추가합니다(사용자 지정 DITA-OT가 업로드되는 DITA-OT 경로 사용, 아래 스크린샷 참조).
++ **[!UICONTROL 도구]** > **[!UICONTROL 안내서]** > **[!UICONTROL DITA 프로필]**&#x200B;을 통해 DITA 프로필을 추가합니다(사용자 지정 DITA-OT가 업로드되는 DITA-OT 경로 사용, 아래 스크린샷 참조).
   ![DITA 프로필](assets/dita-profile.png)
 
 >[!MORELIKETHIS]

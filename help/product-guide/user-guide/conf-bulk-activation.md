@@ -41,4 +41,4 @@ JSON 출력 사전 설정.
 - **[일괄 활성화 맵 컬렉션 삭제](conf-bulk-activation-delete-map-collection.md)**
 
 
-**상위 항목:**[&#x200B;출력 생성](generate-output.md)
+**상위 항목:**&#x200B;[&#x200B;출력 생성](generate-output.md)

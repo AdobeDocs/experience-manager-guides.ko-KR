@@ -30,7 +30,7 @@ ht-degree: 0%
 
 **2단계**
 
-XML 편집기의 **사용자 환경 설정**&#x200B;에서 1단계에 정의된 **[!UICONTROL 폴더 프로필]**을 선택하십시오.
+XML 편집기의 **사용자 환경 설정**&#x200B;에서 1단계에 정의된 **[!UICONTROL 폴더 프로필]**&#x200B;을 선택하십시오.
 사용 안내서 [41페이지](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)의 **사용자 환경 설정** 섹션을 참조하십시오.
 
 

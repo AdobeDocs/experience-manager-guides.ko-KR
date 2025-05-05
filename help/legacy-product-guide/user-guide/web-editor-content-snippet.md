@@ -125,6 +125,7 @@ AEM Guides은 데이터 소스와 연결하는 기능을 제공합니다. 데이
       - jira 순차 목록 템플릿을 선택한 경우 Jira 문제에 대한 순차 목록을 볼 수 있습니다.
 
    1. 소스 뷰에는 DITA 소스 뷰의 데이터가 표시됩니다.
+
       ![](images/add-content-snippet-generator.png){width="800" align="left"}
       *콘텐츠 조각 생성기를 추가합니다. 원본 또는 미리 보기 모드에서 데이터를 봅니다.*
 

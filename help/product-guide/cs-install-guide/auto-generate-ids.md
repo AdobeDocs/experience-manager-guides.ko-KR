@@ -30,4 +30,4 @@ AEM Guides에서는 ID가 자동 생성되는 요소와 ID에 대한 패턴을 �
 |---|------------|--------------|
 | `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.pattern` | 이 필드의 기본값은 `${elementName}_${id}`(으)로 설정되어 있습니다. `${elementName}` 값이 요소의 이름으로 대체되었습니다. `${id}` 변수는 요소에 대한 순차적 번호를 생성합니다. 예를 들어, 단락 요소를 할당하여 자동 생성된 ID를 갖게 되면 주제나 문서의 첫 번째 단락은 p\_1과 같은 ID를 갖게 되고 다음 단락은 p\_2를 받게 됩니다. 하지만 다른 문서에서는 ID 생성 프로세스가 다시 시작됩니다. 즉, 다른 문서에서 p\_1 및 p\_2와 같은 ID를 단락 요소에 할당할 수 있습니다. **기본값**: ``${elementName}_${id}`` |
 
-**상위 항목:**[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)
+**상위 항목:**&#x200B;[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)

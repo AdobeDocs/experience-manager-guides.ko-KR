@@ -19,4 +19,4 @@ AEM Guides은 또한 Adobe FrameMaker 및 Oxygen XML 편집기와 같은 데스�
 - **[산소로 작업](author-desktop-oxygen.md)**
 
 
-**상위 항목:**[&#x200B;콘텐츠 작성자](authoring-content.md)
+**상위 항목:**&#x200B;[&#x200B;콘텐츠 작성자](authoring-content.md)

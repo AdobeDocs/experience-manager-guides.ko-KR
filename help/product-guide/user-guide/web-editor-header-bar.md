@@ -23,4 +23,4 @@ ht-degree: 0%
 
 
 
-**상위 항목:**[&#x200B;편집기 소개](web-editor.md)
+**상위 항목:**&#x200B;[&#x200B;편집기 소개](web-editor.md)

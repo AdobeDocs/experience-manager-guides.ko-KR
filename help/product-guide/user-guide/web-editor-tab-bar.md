@@ -52,4 +52,4 @@ ht-degree: 0%
    - **온-프레미스 소프트웨어**: Adobe Experience Manager Guides(4.2.1 이상)를 사용하는 경우 **Assets** 옵션을 선택하면 Assets UI의 현재 파일 경로로 이동합니다.
 - **설정**: 편집기 설정 대화 상자로 이동합니다. 자세한 내용은 [편집기 설정 작업](./web-editor-settings.md)을 참조하세요.
 
-**상위 항목:**[&#x200B;편집기 소개](web-editor.md)
+**상위 항목:**&#x200B;[&#x200B;편집기 소개](web-editor.md)

@@ -42,4 +42,4 @@ Experience Manager Guides에서는 AEM Sites, PDF, 기술 자료, HTML5, EPUB, J
 
 관리자는 Experience Manager Guides을 사용하여 전역 및 폴더 프로필에 대한 출력 사전 설정을 만들고 관리할 수 있습니다. 자세한 내용은 [전역 및 폴더 프로필 출력 사전 설정 관리](./web-editor-manage-output-presets.md)를 참조하십시오.
 
-**상위 항목:**[&#x200B;출력 생성](generate-output.md)
+**상위 항목:**&#x200B;[&#x200B;출력 생성](generate-output.md)

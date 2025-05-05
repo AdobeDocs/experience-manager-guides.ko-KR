@@ -47,4 +47,4 @@ AEM Guides에는 구조화된 문서를 만들고 편집할 수 있는 사용하
 - **[레이블 사용](web-editor-use-label.md)**
 
 
-**상위 항목:**[ AEM Guides을 사용하여 콘텐츠 작성](authoring-content-xml-doc.md)
+**상위 항목:**&#x200B;[ AEM Guides을 사용하여 콘텐츠 작성](authoring-content-xml-doc.md)

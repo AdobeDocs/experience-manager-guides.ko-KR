@@ -58,4 +58,4 @@ AEM Guides을 사용하면 파일의 다른 버전에 레이블을 추가할 수
    ![](images/delete-labels.png){width="300" align="left"}
 
 
-**상위 항목:**[&#x200B;웹 편집기에서 작업](web-editor.md)
+**상위 항목:**&#x200B;[&#x200B;웹 편집기에서 작업](web-editor.md)

@@ -66,7 +66,7 @@ DITA-OT 플러그인에 메타데이터를 전달하기 위해 맵의 출력 사
 
 - 이 파일에는 게시된 모든 에셋 목록이 포함되어 있으며 각 에셋에는 다음이 포함되어 있습니다.
    - DITA 디렉터리 [Path 요소의 id 특성]에 있는 파일의 경로
-   - _metadata_ 요소]의 메타데이터 속성 값 쌍 [ 목록
+   - _metadata_ 요소&rbrack;의 메타데이터 속성 값 쌍 &lbrack; 목록
 
 ```
         <Path id="topics\about-this-document.dita">

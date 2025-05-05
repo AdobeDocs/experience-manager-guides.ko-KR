@@ -33,7 +33,7 @@ ht-degree: 0%
 
 DITA 주제에서 조건 속성을 정의할 수 있습니다. 그런 다음 조건 사전 설정에서 조건 속성을 사용하여 DITA 맵의 콘텐츠를 게시합니다. 이제 Experience Manager Guides에서는 조건 사전 설정을 보다 효율적으로 만들고 관리하는 데 도움이 되는 웹 편집기의 풍부한 경험도 제공합니다. 쉽게 편집, 복제 또는 삭제할 수도 있습니다.
 
-웹 편집기 ](assets/web-editor-manage-condition-presets.png){width="550" align="left"}의 관리 탭에서 ![조건 사전 설정
+웹 편집기 ![&#128279;](assets/web-editor-manage-condition-presets.png){width="550" align="left"}의 관리 탭에서 조건 사전 설정
 
 자세한 내용은 [조건 사전 설정 사용](../user-guide/generate-output-use-condition-presets.md)을 참조하세요.
 
@@ -154,7 +154,7 @@ Experience Manager Guides은 향상된 맵 컬렉션 대시보드를 제공합�
 
 ![사용자 환경 설정 대화 상자](assets/user-preferences-2311.png){width="550" align="left"}
 
-***사용자 환경 설정**대화 상자에서 파일을 보는 기본 방법을 변경합니다.*
+***사용자 환경 설정**&#x200B;대화 상자에서 파일을 보는 기본 방법을 변경합니다.*
 
 
 ## 브라우저를 새로 고칠 때 파일 탭 복원
@@ -220,7 +220,7 @@ Experience Manager은 적용된 레이블에 따라 항목을 자동으로 선�
 스타일을 적용하고 HTML 마크업을 사용하여 변수의 서식을 지정할 수 있습니다.  필요할 때마다 변수의 값을 빠르게 업데이트하고 출력을 재생성할 수도 있습니다. 예를 들어 버전에 대한 세부 정보를 업데이트해야 하는 경우 VersionNumber 변수에서 버전 값을 편집하고 출력을 재생성할 수 있습니다.
 
 
-PDF 출력](../native-pdf/native-pdf-variables.md)에서 [변수를 사용하는 방법에 대해 자세히 알아보세요.
+PDF 출력[&#128279;](../native-pdf/native-pdf-variables.md)에서 변수를 사용하는 방법에 대해 자세히 알아보세요.
 
 
 ### 에셋 메타데이터를 PDF 출력에 전파

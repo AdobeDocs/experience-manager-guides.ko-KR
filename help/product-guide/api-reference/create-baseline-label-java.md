@@ -122,7 +122,7 @@ public static void applyLabel(Session session,
 | `session` | javax.jcr.Session | 유효한 JCR 세션입니다. |
 | `sourcePath` | 문자열 | AEM 저장소의 DITA 맵 파일의 절대 경로입니다. |
 | ``baselineName`` | 문자열 | 레이블을 적용할 기준 노드의 이름입니다. 기준선 노드의 이름을 가져오려면 [\#id185NFF0085Z](#id185NFF0085Z) 메서드를 사용하거나 CRXDE에서 DITA 맵의 기준선 노드를 확인하십시오.<br> **참고:** 레이블은 기준선에 있는 맵 파일에서 직접 참조되는 파일 버전에 적용됩니다. |
-| `label` | 문자열 | 기준선의 파일에 적용되는 레이블입니다. 레이블에 다음 문자가 포함되어 있지 않은지 확인합니다. &amp;sol; &amp;comma; &amp;colon; &amp;comma; &amp;lbrack; &amp;comma; &amp;comma; &amp;comma; &amp;vert; &amp;comma; &amp;ast; <br> 여러 레이블을 설정하려면 레이블(예: Label1, Label2)을 쉼표로 구분하십시오. |
+| `label` | 문자열 | 기준선의 파일에 적용되는 레이블입니다. 레이블에 다음 문자가 포함되어 있지 않은지 확인합니다. &sol; &comma; &colon; &comma; &lbrack; &comma; &comma; &comma; &vert; &comma; &ast; <br> 여러 레이블을 설정하려면 레이블(예: Label1, Label2)을 쉼표로 구분하십시오. |
 
 **예외**:
 `RepositoryException`을(를) throw합니다.

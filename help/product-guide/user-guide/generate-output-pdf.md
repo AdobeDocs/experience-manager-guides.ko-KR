@@ -41,4 +41,4 @@ FMPS 구성에 대한 자세한 내용은 [FrameMaker 문서에서 출력 생성
 
 
 
-**상위 항목:**[&#x200B;출력 사전 설정 이해](generate-output-understand-presets.md)
+**상위 항목:**&#x200B;[&#x200B;출력 사전 설정 이해](generate-output-understand-presets.md)

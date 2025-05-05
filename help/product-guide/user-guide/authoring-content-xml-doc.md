@@ -21,4 +21,4 @@ Experience Manager Guides에는 세 가지 기본 편집기가 포함되어 있�
 
 
 
-**상위 항목:**[&#x200B;콘텐츠 작성자](authoring-content.md)
+**상위 항목:**&#x200B;[&#x200B;콘텐츠 작성자](authoring-content.md)

@@ -30,7 +30,7 @@ Experience Manageras a Cloud Service 을 통해 팀은 제품 업그레이드를
 
 ## 마이그레이션 프로세스
 
-**컨텐츠 전송 도구**은(는) Adobe에서 개발한 도구로, 원본 Adobe Experience Manager 온-프레미스 또는 Managed Services 인스턴스에서 대상 Experience Manager Cloud Service 인스턴스로 기존 컨텐츠를 마이그레이션하는 데 사용할 수 있습니다.
+**컨텐츠 전송 도구**&#x200B;은(는) Adobe에서 개발한 도구로, 원본 Adobe Experience Manager 온-프레미스 또는 Managed Services 인스턴스에서 대상 Experience Manager Cloud Service 인스턴스로 기존 컨텐츠를 마이그레이션하는 데 사용할 수 있습니다.
 이 도구는 주체(사용자 또는 그룹)도 자동으로 전송합니다.
 
 **소프트웨어 배포** 포털에서 **콘텐츠 전송 도구**&#x200B;를 ZIP 파일로 다운로드할 수 있습니다.
@@ -40,7 +40,7 @@ Experience Manageras a Cloud Service 을 통해 팀은 제품 업그레이드를
 1. 목록에서 **콘텐츠 전송 도구**&#x200B;을(를) 선택하고 다운로드하십시오.
 
 ![콘텐츠 전송 도구 다운로드](./assets/content-transfer-tool-software-portal.png)
-그런 다음 소스 Adobe Experience Manager 인스턴스에서 **패키지 관리자**를 통해 패키지를 설치합니다. 최신 버전을 다운로드해야 합니다.
+그런 다음 소스 Adobe Experience Manager 인스턴스에서 **패키지 관리자**&#x200B;를 통해 패키지를 설치합니다. 최신 버전을 다운로드해야 합니다.
 최신 버전에 대한 자세한 내용은 [릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=en)를 참조하세요.
 
 >[!NOTE]
@@ -58,7 +58,7 @@ Experience Manager Guides 콘텐츠를 Cloud Service로 Experience Manager에 �
    ![경험 관리자](./assets/migration-experience-manager.png)
 
 
-1. **Cloud Acceleration Manager** 타일에서 **시작**을 클릭합니다.
+1. **Cloud Acceleration Manager** 타일에서 **시작**&#x200B;을 클릭합니다.
    ![클라우드 가속 관리자](./assets/migration-experience-manager-cloud.png)
 
 1. 첫 번째 프로젝트를 만듭니다.
@@ -81,7 +81,7 @@ Experience Manager Guides 콘텐츠를 Cloud Service로 Experience Manager에 �
 1. 만든 후 세 점을 선택하고 **추출 키 복사**&#x200B;를 선택합니다.
 
 
-1. **클립보드에 복사**를 클릭합니다. 첫 번째 프로젝트를 만듭니다.
+1. **클립보드에 복사**&#x200B;를 클릭합니다. 첫 번째 프로젝트를 만듭니다.
    ![추출 키](./assets/migration-copy-to-clipboard.png)
 
 1. 맨 위에서 **Adobe Experience Manager**&#x200B;을(를) 선택한 다음 **소프트웨어 배포** 타일을 선택합니다.
@@ -106,7 +106,7 @@ Experience Manager Guides 콘텐츠를 Cloud Service로 Experience Manager에 �
 1. 파일 버전을 포함하려면 **버전 포함** 옵션을 활성화하십시오.
    ![](./assets/migration-create-migration-set.png)
 
-1. 마이그레이션할 경로를 입력하고 **저장**을 클릭합니다.
+1. 마이그레이션할 경로를 입력하고 **저장**&#x200B;을 클릭합니다.
 예: `/content/sites`
 또는
    `/content/dam/tech-docs`
@@ -128,10 +128,10 @@ Experience Manager Guides 콘텐츠를 Cloud Service로 Experience Manager에 �
    * `/etc` CTT에서 일부 `/etc` 경로를 선택할 수 있습니다.
 
 1. **저장** 클릭
-1. **마이그레이션 세트**&#x200B;를 선택한 다음 맨 위에서 **추출**을 선택하십시오.
+1. **마이그레이션 세트**&#x200B;를 선택한 다음 맨 위에서 **추출**&#x200B;을 선택하십시오.
    ![마이그레이션 세트 추출 ](./assets/migration-extract.png)
 
-1. **마이그레이션 세트 추출** 팝업에서 선택한 경로 및 구성에 대한 세부 정보를 확인하고 **추출**을 클릭합니다. 추출은 몇 분 정도 소요되며 상태는 업데이트된 것으로 표시됩니다.
+1. **마이그레이션 세트 추출** 팝업에서 선택한 경로 및 구성에 대한 세부 정보를 확인하고 **추출**&#x200B;을 클릭합니다. 추출은 몇 분 정도 소요되며 상태는 업데이트된 것으로 표시됩니다.
    ![마이그레이션 세트 추출](./assets/migration-set-extraction.png)
 
 1. 추출이 완료되고 `finished` 상태로 표시되면 Cloud Acceleration Manager으로 이동하여 18단계에서 만든 프로젝트를 선택합니다.
@@ -143,7 +143,7 @@ Experience Manager Guides 콘텐츠를 Cloud Service로 Experience Manager에 �
 
 
 1. **수집 작업** > **새 수집**&#x200B;을 클릭합니다.
-1. 필요한 확인 표시 값을 확인한 다음 **만들기**를 클릭합니다.
+1. 필요한 확인 표시 값을 확인한 다음 **만들기**&#x200B;를 클릭합니다.
    ![마이그레이션 확인 확인](./assets/migration-new-ingestion-acknowledge.png)
 
 1. 마이그레이션 세트를 선택하고 환경에 필요한 서버를 선택한 다음 **수집**&#x200B;을 클릭합니다.

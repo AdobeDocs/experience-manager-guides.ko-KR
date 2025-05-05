@@ -65,6 +65,7 @@ AEM Guides에서 사용할 수 있는 기본 DITA-OT 패키지에는 MathML 방�
    - Mac/Linux OS에서 통합자 \(사용자 정의 플러그인\ 설치)를 실행하여 파일 구분 기호 관련 문제를 방지합니다. Windows 및 Linux OS의 파일 구분 기호가 다르므로 Mac/Linux OS에 통합된 플러그인은 Windows 및 Linux 설치와 모두 호환됩니다.
    - `DITA-OT.ZIP` 파일에 관련된 모든 플러그인 및 파일이 있는 &quot;DITA-OT&quot;라는 폴더가 있는지 확인하십시오.
    - 만든 `DITA-OT.ZIP` 파일이 mimeType: &quot;nt:file&quot; \(AEM에 업로드할 때 ZIP 파일의 기본 유형에 해당됨)인지 확인하십시오. WebDAV 도구 또는 코드 배포를 사용하여 이 ZIP 파일을 AEM의 원하는 경로로 업로드합니다. \(이 ZIP은 AEM 컨텐츠 패키지가 아니라 아카이브 파일이므로 AEM 패키지 관리자를 사용하여 이 ZIP 파일을 배포하지 마십시오.\)
+
    >[!NOTE]
    >
    > 기본 DITA-OT 패키지를 덮어쓰지 않는 것이 좋습니다. 플러그 인이 들어 있는 사용자 지정 DITA-OT 패키지를 `apps` 폴더 아래의 다른 위치에 업로드해야 합니다.

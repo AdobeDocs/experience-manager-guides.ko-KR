@@ -58,4 +58,4 @@ Adobe Experience Manager Guides을 사용하면 관련 DITA 속성을 사용하�
 
 ![](images/properties-tab.png){width="350" align="left"}
 
-**상위 항목:**[&#x200B;출력 생성](generate-output.md)
+**상위 항목:**&#x200B;[&#x200B;출력 생성](generate-output.md)

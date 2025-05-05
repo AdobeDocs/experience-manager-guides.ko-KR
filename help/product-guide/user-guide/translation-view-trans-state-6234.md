@@ -28,4 +28,4 @@ DITA 맵의 변환 상태를 보려면 다음 단계를 수행하십시오.
 
    ![](images/translation-status-new.png){align="left"}
 
-**상위 항목:**[&#x200B;콘텐츠 번역 개요](translation.md)
+**상위 항목:**&#x200B;[&#x200B;콘텐츠 번역 개요](translation.md)

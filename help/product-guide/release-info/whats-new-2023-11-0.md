@@ -59,14 +59,14 @@ Experience Manager Guides은 기본 제공 또는 팩토리 PDF 템플릿을 제
 
 ![사용자 환경 설정 대화 상자](assets/user-preferences-2311.png){width="550" align="left"}
 
-***사용자 환경 설정**대화 상자에서 파일을 보는 기본 방법을 변경합니다.*
+***사용자 환경 설정**&#x200B;대화 상자에서 파일을 보는 기본 방법을 변경합니다.*
 
 
 ### 조건 사전 설정 관리
 
 DITA 주제에서 조건 속성을 정의할 수 있습니다. 그런 다음 조건 사전 설정에서 조건 속성을 사용하여 DITA 맵의 콘텐츠를 게시합니다. 이제 Experience Manager Guides을 사용하여 웹 편집기에서 조건 사전 설정을 만들고 관리할 수도 있습니다. 쉽게 편집, 복제 또는 삭제할 수도 있습니다.
 
-웹 편집기 ](assets/web-editor-manage-condition-presets.png){width="550" align="left"}의 관리 탭에서 ![조건 사전 설정
+웹 편집기 ![&#128279;](assets/web-editor-manage-condition-presets.png){width="550" align="left"}의 관리 탭에서 조건 사전 설정
 
 자세한 내용은 [조건 사전 설정 사용](../user-guide/generate-output-use-condition-presets.md)을 참조하세요.
 

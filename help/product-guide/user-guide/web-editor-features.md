@@ -266,7 +266,7 @@ Experience Manager Guides에서 [AI Assistant](./ai-assistant.md) 기능을 활�
 
   편집기 설정의 ![메타데이터 탭](images/editor-setting-metadata.png){width="550" align="left"}
 
-  ***버전 기록**대화 상자에 대한 메타데이터를 구성합니다.*
+  ***버전 기록**&#x200B;대화 상자에 대한 메타데이터를 구성합니다.*
 
 
 
@@ -341,7 +341,7 @@ Source 보기에서 **찾기 및 바꾸기** 기능은 특정 요소나 특성�
 
    **메타데이터** 탭: 새로 추가된 메타데이터는 녹색 글꼴이고 삭제된 메타데이터는 빨간색 글꼴입니다.
 
-   ](images/metadata-version-diff.png){width="550" align="left"} 버전에 대한 ![메타데이터 차이점
+   ![&#128279;](images/metadata-version-diff.png){width="550" align="left"} 버전에 대한 메타데이터 차이점
 
    *버전 기록에서 다른 버전의 메타데이터를 비교합니다.*
 

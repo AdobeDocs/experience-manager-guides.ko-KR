@@ -82,7 +82,7 @@ Source 보기에서 **찾기 및 바꾸기** 기능은 특정 요소나 특성�
 
    **메타데이터** 탭: 새로 추가된 메타데이터는 녹색 글꼴이고 삭제된 메타데이터는 빨간색 글꼴입니다.
 
-   ](images/metadata-version-diff.png){width="550" align="left"} 버전에 대한 ![메타데이터 차이점
+   ![&#128279;](images/metadata-version-diff.png){width="550" align="left"} 버전에 대한 메타데이터 차이점
 
    *버전 기록에서 다른 버전의 메타데이터를 비교합니다.*
 
@@ -621,4 +621,4 @@ DITA 맵에 정의된 키워드를 삽입합니다. 키워드 옵션을 선택�
 관리자는 다른 사용자가 잠근 파일의 잠금을 해제할 수 있는 **잠금 해제 강제** 기능에 액세스할 수도 있습니다. 이 기능을 사용하여 다른 사용자가 잠근 파일의 편집 권한에 액세스할 수 있습니다.
 
 ![](images/web-editor-force-unlock-new.png){width="350" align="left"}
-**상위 항목:**[&#x200B;편집기 소개](web-editor.md)
+**상위 항목:**&#x200B;[&#x200B;편집기 소개](web-editor.md)

@@ -70,7 +70,7 @@ ht-degree: 28%
 
 ![이(가) 일괄 활성화 컬렉션 감사 기록 탭을 만들었습니다](assets/bulk-collection-audit-history.png){width="800" align="left"}
 
-***감사 기록**탭에서 활성화된 맵 출력에 대한 정보를 봅니다.*
+***감사 기록**&#x200B;탭에서 활성화된 맵 출력에 대한 정보를 봅니다.*
 
 
 [일괄 활성화](../user-guide/conf-bulk-activation-publish-map-collection.md)에 대해 자세히 알아보세요.

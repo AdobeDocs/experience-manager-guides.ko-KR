@@ -121,7 +121,7 @@ AEM Guides에는 분류 체계 주제와 제어 값을 정의하는 데 사용�
 
 ## 번역에서 XLIFF 형식 지원
 
-AEM Guides은 또한 번역에서 XML 로컬라이제이션 교환 파일 형식(XLIFF) 형식을 지원합니다. 이제 **새 XLIFF 번역 프로젝트를 만들기**하여 XML 콘텐츠를 XLIFF 형식으로 변환할 수도 있습니다.
+AEM Guides은 또한 번역에서 XML 로컬라이제이션 교환 파일 형식(XLIFF) 형식을 지원합니다. 이제 **새 XLIFF 번역 프로젝트를 만들기**&#x200B;하여 XML 콘텐츠를 XLIFF 형식으로 변환할 수도 있습니다.
 이 형식을 사용하면 콘텐츠를 업계 표준 XLIFF 형식으로 내보낸 다음 번역 공급업체에 제공할 수 있습니다. 자세한 내용은 [번역 프로젝트 만들기](../user-guide/translate-documents-web-editor.md#create-translation-project)를 참조하십시오.
 
 ![](assets/translation-project-types.png){width="350" align="left"}

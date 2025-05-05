@@ -23,4 +23,4 @@ Dispatcher는 Adobe Experience Manager의 캐싱 및/또는 로드 밸런싱 도
 >
 > AEM as a cloud service는 작성자 인스턴스에 대한 dispatcher를 지원하지 않습니다.
 
-**상위 항목:**[&#x200B;다운로드 및 설치](download-install.md)
+**상위 항목:**&#x200B;[&#x200B;다운로드 및 설치](download-install.md)

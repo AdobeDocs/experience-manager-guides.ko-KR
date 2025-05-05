@@ -55,7 +55,7 @@ Experience Manager Guides for On-premise Software에서 AEM Sites 템플릿을 �
 - **AEMG** 폴더에 영어(en) 언어 폴더가 있습니다. 요구 사항에 따라 유사한 언어 사본을 만들 수 있습니다. 예를 들어 다국어 웹 사이트에는 영어(en), 독일어(de) 및 프랑스어(fr) 언어 사본이 포함되어 있습니다.  [언어 복사 마법사](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/introduction/tc-wizard)를 사용하여 언어 복사를 만드는 방법에 대해 자세히 알아보세요.
 - 영어(en) 언어 폴더에서 Experience Manager Guides은 **검색**, **로그인**, **문서** 및 **지원**&#x200B;과 같은 기본 제공 샘플 페이지를 제공합니다.
 
-- **Docs**은(는) 샘플 설명서 홈 페이지입니다. 모든 제품 관련 설명서의 중앙 위치 역할을 합니다
+- **Docs**&#x200B;은(는) 샘플 설명서 홈 페이지입니다. 모든 제품 관련 설명서의 중앙 위치 역할을 합니다
 설명서를 개별 타일로 사용할 수 있는 각 제품을 표시합니다.
 
 - 설명서 홈 페이지와 함께 **검색**, **로그인** 및 **지원**&#x200B;에 대한 샘플 페이지가 있습니다. 요구 사항에 따라 이러한 샘플을 사용자 정의할 수 있습니다.
@@ -114,8 +114,10 @@ AEM 템플릿 편집기가 열립니다. 주제 템플릿을 편집할 수 있�
   ![섹션 페이지 템플릿](assets/customize-existing-aem-templates-section.png)
    - 세부 사항 페이지 또는 주제 페이지 템플릿: 맵의 주제 컨텐츠에 이 템플릿을 사용합니다. DITA/XML 컨텐트의 모든 Sites 페이지는 주제 페이지 템플릿을 사용하여 작성됩니다. 이러한 템플릿을 만들려면 다음 두 가지 전제 조건이 필요합니다.
       - 필수 속성을 사용하여 컨테이너 구성 요소에 포함된 템플릿에 텍스트 구성 요소를 추가합니다. `text="$topic.content$"`.
+
         ![컨테이너 페이지 템플릿](assets/customize-existing-aem-templates-container.png)
       - 다음 스크린샷과 같이 동일한 컨테이너 및 텍스트 구성 요소를 동일한 템플릿의 구조에 반영합니다.
+
         컨테이너 템플릿의 ![구조](assets/customize-existing-aem-templates-structure.png)
 
 ### 카테고리 페이지를 설명서 컨테이너로 태그 지정

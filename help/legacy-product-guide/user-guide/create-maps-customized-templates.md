@@ -190,4 +190,4 @@ The resultant DITA map with title "Rootmap1" will look like as follows:
 
 - 폴더의 동일한 수준에서 다른 맵이나 주제가 만들어지면 새로 만든 에셋의 이름에 0,1,2 등이 추가됩니다. 편집할 맵을 열거나 맵 파일을 저장소에 저장하도록 선택할 수 있습니다.
 
-**상위 항목:**[&#x200B;맵 편집기 작업](map-editor.md)
+**상위 항목:**&#x200B;[&#x200B;맵 편집기 작업](map-editor.md)

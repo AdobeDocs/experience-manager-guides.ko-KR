@@ -165,6 +165,7 @@ PDF 문서에는 일반적으로 다음 섹션이 포함되어 있습니다.
 1. [회전 보기] 속성을 변경하여 콘텐츠를 시계 방향으로 90° 렌더링합니다.
 
    1. 회전 보기 드롭다운 목록에서 **시계 방향으로 90°**&#x200B;을(를) 선택합니다.
+
    <img src="./assets/view-rotation-page-props.png" width="300">
 
    1. 업데이트된 페이지 레이아웃 속성을 저장하려면 **모두 저장**&#x200B;을 클릭합니다.
@@ -178,10 +179,12 @@ PDF 문서에는 일반적으로 다음 섹션이 포함되어 있습니다.
 
       편집을 위해 레이아웃 스타일시트가 열립니다.
 
-   1. **다른 스타일**&#x200B;을 마우스 오른쪽 단추로 클릭하고 **새 스타일**을 선택하세요.
+   1. **다른 스타일**&#x200B;을 마우스 오른쪽 단추로 클릭하고 **새 스타일**&#x200B;을 선택하세요.
+
       <img src="./assets/stylesheet-other-new-style.png" width="300">
 
-   1. 스타일 추가 팝업에서 **classname**&#x200B;에 **landscape-style**을(를) 입력합니다.
+   1. 스타일 추가 팝업에서 **classname**&#x200B;에 **landscape-style**&#x200B;을(를) 입력합니다.
+
       <img src="./assets/stylesheet-new-landscape-style.png" width="400">
 
    1. **완료**&#x200B;를 클릭합니다.
@@ -437,6 +440,7 @@ CSS 및 HTML 코드로 직접 작업하려면 다음 코드 조각에 표시된 
    1. 오른쪽 패널에서 **콘텐츠 속성**(<img src="./assets/content-properties-icon.png" width="25">) 아이콘입니다.
 
    1. **Layout** 속성 섹션을 확장하고 **Float** 속성 값을 **right**(으)로 설정합니다.
+
       <img src="./assets/float-prop-html-content.png" width="400">
 
       챕터 제목 필드는 페이지 바닥글의 오른쪽으로 정렬됩니다.

@@ -48,6 +48,7 @@ Experience Manager Guides에서는 여러 요소의 콘텐츠를 선택할 수�
 
    - 요소 내의 콘텐츠를 선택합니다.
    - 상단의 도구 모음에서 ![추가](images/Add_icon.svg) 아이콘을 선택하여 **요소 삽입** 대화 상자를 표시합니다. 대화 상자에는 선택한 콘텐츠에 대한 유효한 요소가 나열됩니다.
+
      >[!NOTE]
      >
      > 선택한 컨텐츠의 컨텍스트 메뉴를 선택하여 요소 삽입 대화 상자를 볼 수도 있습니다.
@@ -114,4 +115,4 @@ You can access the **Layout** view for read-only DITA maps. This view lets you s
 **사용자 환경 설정**&#x200B;의 **모양** 탭에서 **항상 리포지토리에서 파일 찾기** 옵션을 사용하여 파일을 찾는 기능을 끌 수 있습니다.
 
 
-**상위 항목:**[&#x200B;편집기 작업](web-editor.md)
+**상위 항목:**&#x200B;[&#x200B;편집기 작업](web-editor.md)

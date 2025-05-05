@@ -243,7 +243,7 @@ Oxygen의 AEM Server에서 파일을 새로 고치면 현재 Oxygen 세션에 �
 
 ## 알려진 문제
 
-Adobe은 다음과 같은 {0 as a Cloud Service 2022년 1월 릴리스에 대한 문제를 확인했습니다.[!DNL AEM Guides]
+Adobe은 다음과 같은 &lbrace;0 as a Cloud Service 2022년 1월 릴리스에 대한 문제를 확인했습니다.[!DNL AEM Guides]
 
 
 ### 해결 방법에 대한 알려진 문제

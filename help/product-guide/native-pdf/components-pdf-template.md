@@ -68,7 +68,7 @@ PDF 템플릿에는 페이지 레이아웃, 스타일시트, 리소스 및 설�
 
 1. _레이아웃 복제_ 대화 상자에서 페이지 레이아웃의 이름을 입력합니다.
 
-1. **완료**를 클릭합니다.
+1. **완료**&#x200B;를 클릭합니다.
 선택한 페이지 레이아웃의 복사본이 생성되어 페이지 레이아웃 아래에 추가됩니다.
 
 ### 페이지 레이아웃 사용자 지정 {#customize-page-layout}
@@ -120,7 +120,7 @@ CSS 파일이 컨텐츠와 레이아웃에 제공되면 새 스타일시트를 �
 새 스타일을 만들려면 아래 단계를 수행하십시오.
 1. 왼쪽 사이드바를 확장하고 스타일을 만들 템플릿을 두 번 클릭합니다.
 1. **스타일시트** 섹션을 확장합니다. 모든 스타일 옵션이 포함된 **스타일** 패널이 열립니다.
-1. + 아이콘을 선택하여 새 스타일을 추가합니다.
+1. &#x200B;+ 아이콘을 선택하여 새 스타일을 추가합니다.
 
    **스타일 추가** 대화 상자가 열립니다.
 
@@ -190,7 +190,7 @@ Resources 폴더에 자산 파일을 추가하려면 아래 단계를 수행합�
 
 1. 로컬 컴퓨터에서 자산 파일을 찾아보려면 **파일 선택**&#x200B;을 클릭하십시오.
 
-1. **업로드**를 클릭합니다.
+1. **업로드**&#x200B;를 클릭합니다.
 선택한 파일을 가져와서 Resources 폴더 아래에 나열됩니다.
 
 ## 고급 PDF 설정 {#advanced-pdf-settings}
@@ -459,11 +459,11 @@ AEM Guides은 다음과 같은 기본 변수를 제공합니다.
 단락 섹션에 `${lng:<variable name>}`을(를) 추가하면 출력의 단락에 있는 상호 참조에 지역화된 텍스트와 페이지 번호가 포함됩니다.\
 예를 들어 다음 스크린샷은 영어로 된 &quot;View on page 1&quot; 및 독일어로 된 &quot;Einzelheiten finden Sie auf der Seite 1&quot; 상호 참조를 보여줍니다.
 
-<img src="./assets/english-output-corss-reference.png" alt="프라그라에 있는 상호 참조의 영어 출력" width ="800" border="2px">
+<img src="./assets/english-output-corss-reference.png" alt="프라그라에 있는 상호 참조의 영어 출력&quot; width =&quot;800" border="2px">
 
 *영어로 게시할 때 단락 내의 상호 참조입니다.*
 
-<img src="./assets/german-output-corss-reference.png" alt="프라그라에서 상호 참조에 대한 독일어 출력" width ="800" border="2px">
+<img src="./assets/german-output-corss-reference.png" alt="프라그라에서 상호 참조에 대한 독일어 출력&quot; width =&quot;800" border="2px">
 
 
 *독일어로 게시할 때 단락 내의 상호 참조입니다.*

@@ -37,4 +37,4 @@ AEM 인스턴스를 업그레이드하려는 경우 지정된 순서를 따라�
 >
 > 시스템 성능을 개선하기 위해 고려할 수 있는 다양한 성능 최적화 권장 사항이 있습니다. 자세한 내용은 [성능 최적화를 위한 Recommendations](download-install-recommend-perf-optimiz.md#)을 참조하십시오.
 
-**상위 항목:**[&#x200B;다운로드 및 설치](download-install.md)
+**상위 항목:**&#x200B;[&#x200B;다운로드 및 설치](download-install.md)

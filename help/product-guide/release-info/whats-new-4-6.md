@@ -30,7 +30,7 @@ ht-degree: 15%
 
 ![파일 속성 옵션 탭](./assets/file-properties-outputs-4-6.png) {width="300" align="left"}
 
-*Publish 및&#x200B;**파일 속성**의&#x200B;**출력**섹션에서 주제의 경험 조각을 봅니다.*
+*Publish 및&#x200B;**파일 속성**&#x200B;의&#x200B;**출력**&#x200B;섹션에서 주제의 경험 조각을 봅니다.*
 
 이제 Experience Manager Guides을 사용하여 주제 또는 해당 요소를 경험 조각에 게시할 수 있습니다. 주제 또는 해당 요소와 경험 조각 템플릿 간에 JSON 기반 매핑을 만들 수 있습니다. 조건 필터를 사용하여 경험 조각 변형을 만들 수도 있습니다.
 
@@ -81,7 +81,7 @@ scope=&quot;peer&quot;가 있는 다른 DITA 맵에서 사용할 수 있는 주�
 
 ![기존 AEM Sites 사전 설정](assets/aem-sites-legacy.png)
 
-***AEM Sites**사전 설정의&#x200B;**상호 맵 참조**탭에서 연결된 주제에 대한 게시 컨텍스트를 지정하십시오.*
+***AEM Sites**&#x200B;사전 설정의&#x200B;**상호 맵 참조**&#x200B;탭에서 연결된 주제에 대한 게시 컨텍스트를 지정하십시오.*
 
 
 

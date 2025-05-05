@@ -45,7 +45,7 @@ const widgetJSON =  {
 },
 ```
 
-여기서 `@languages`은(는) [&quot;English&quot;, &quot;French&quot;, &quot;Hindi&quot;, &quot;Spanish&quot;, &quot;Urdu&quot;](으)로 `widget_languages`의 모델에 정의된 배열입니다.
+여기서 `@languages`은(는) [&quot;English&quot;, &quot;French&quot;, &quot;Hindi&quot;, &quot;Spanish&quot;, &quot;Urdu&quot;] (으)로 `widget_languages`의 모델에 정의된 배열입니다.
 
 렌더링된 기본 위젯은 다음과 같이 표시됩니다.
 

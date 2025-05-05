@@ -22,4 +22,4 @@ ht-degree: 1%
 |---|------------|--------------|
 | `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.uuid` | 부울 \(true/false\). 연결된 콘텐츠의 상대 경로를 표시하려면 이 속성을 false로 설정하십시오. <br> **기본값**: true |
 
-**상위 항목:**[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)
+**상위 항목:**&#x200B;[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)

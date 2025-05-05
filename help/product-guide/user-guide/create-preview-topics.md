@@ -20,4 +20,4 @@ Adobe Experience Manager Guides에는 DITA 주제를 만들고 미리 볼 수 �
 - **[주제 미리 보기](web-editor-preview-topics.md)**
 
 
-**상위 항목:**[&#x200B;편집기 소개](web-editor.md)
+**상위 항목:**&#x200B;[&#x200B;편집기 소개](web-editor.md)

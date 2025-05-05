@@ -317,4 +317,4 @@ Adobe Experience Manager 저장소에서 파일을 삭제하는 것은 시스템
    ![](images/media-version-preview.png){width="650" align="center"}
 
 
-**상위 항목:**[&#x200B;콘텐츠 관리](authoring.md)
+**상위 항목:**&#x200B;[&#x200B;콘텐츠 관리](authoring.md)

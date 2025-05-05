@@ -124,7 +124,7 @@ Adobe Experience Manager Guides에서는 맵 컬렉션이라는 대시보드를 
 
 1. 업데이트를 저장하려면 맨 위에 있는 **저장 및 닫기**&#x200B;를 선택하십시오.
 1. (선택 사항) 태그를 업데이트할 때 **저장 및 닫기** 드롭다운에서 추가를 선택하여 새 태그를 기존 목록에 추가할 수도 있습니다.
-1. **저장 및 닫기** 드롭다운에서 **제출**을 선택합니다.
+1. **저장 및 닫기** 드롭다운에서 **제출**&#x200B;을 선택합니다.
 맵 컬렉션에서 일괄 선택하는 DITA 맵에 대해 메타데이터 속성이 업데이트됩니다.
 
 >[!NOTE]
@@ -149,4 +149,4 @@ Adobe Experience Manager Guides에서는 맵 컬렉션이라는 대시보드를 
 
 ![](images/cancel-publish-task-map-collection.png){align="left"}
 
-**상위 항목:**[&#x200B;출력 생성](generate-output.md)
+**상위 항목:**&#x200B;[&#x200B;출력 생성](generate-output.md)

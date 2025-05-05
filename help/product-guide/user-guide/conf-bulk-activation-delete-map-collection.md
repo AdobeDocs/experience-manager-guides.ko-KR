@@ -33,4 +33,4 @@ ht-degree: 0%
    벌크 활성화 맵 컬렉션이 시스템에서 삭제됩니다.
 
 
-**상위 항목:**[&#x200B;게시된 콘텐츠의 일괄 활성화](conf-bulk-activation.md)
+**상위 항목:**&#x200B;[&#x200B;게시된 콘텐츠의 일괄 활성화](conf-bulk-activation.md)

@@ -40,7 +40,7 @@ ht-degree: 0%
 
    <img src="assets/projects-tab.png" alt="프로젝트 탭" width="500">
 
-   ***Adobe Developer Console***에서**&#x200B;프로젝트&#x200B;**탭을 선택합니다.
+   ***Adobe Developer Console***에서&#x200B;**&#x200B;프로젝트&#x200B;**&#x200B;탭을 선택합니다.
 
 1. 새 빈 프로젝트를 만들려면 **새 프로젝트 만들기** 드롭다운에서 **빈 프로젝트**&#x200B;을(를) 선택하십시오.
 

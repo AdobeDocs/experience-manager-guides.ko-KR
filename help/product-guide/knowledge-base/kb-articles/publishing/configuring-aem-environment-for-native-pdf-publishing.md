@@ -105,7 +105,7 @@ AEM Guides에서 이 기본 PDF을 구성하는 단계는 운영 체제에 따�
 
 10. unzip 명령이 설치/인식되지 않으면 다음 명령을 사용하여 설치할 수 있습니다
 
-   **yum install unzip**
+    **yum install unzip**
 
 11. fontconfig 패키지를 설치합니다.
 명령: yum install fontconfig

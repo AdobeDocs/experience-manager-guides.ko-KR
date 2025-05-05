@@ -51,7 +51,7 @@ JVM 시작 매개변수는 인프라 및 디스크 크기에 따라 신중하게
 
 - JVM 힙 크기를 사용 가능한 총 메모리의 1/4 이상으로 설정합니다. `-Xmx<size>` 매개 변수를 사용하여 힙 메모리 크기를 설정합니다. -`Xms`의 값을 `-Xmx`과(와) 동일하게 설정합니다.
 
-- `-XX:+HeapDumpOnOutOfMemoryError`을(를) 사용하도록 설정하고 `-XX:HeapDumpPath=</path/to/folder``>`의 경로를 설정합니다.
+- `-XX:+HeapDumpOnOutOfMemoryError`을(를) 사용하도록 설정하고 `-XX:HeapDumpPath=</path/to/folder` `>`의 경로를 설정합니다.
 
 - 다음과 같이 Java GC 로그 활성화:
 
@@ -115,4 +115,4 @@ AEM Sites 출력을 생성하는 경우 이 변경이 필요합니다.
 **힙에서 AEM 사이트 페이지 제한** 속성의 수를 늘리면 AEM 사이트 출력 생성 프로세스를 최적화합니다.
 
 
-**상위 항목:**[&#x200B;다운로드 및 설치](download-install.md)
+**상위 항목:**&#x200B;[&#x200B;다운로드 및 설치](download-install.md)

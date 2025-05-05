@@ -53,6 +53,7 @@ Experience Manager Guides에서 연결할 수 있는 일부 데이터 소스는 
 1. **데이터 원본 커넥터 설정**
    - 데이터 소스 커넥터는 외부 데이터 소스와의 연결을 설정하는 인터페이스 역할을 합니다. 연결을 설정하고 `Basic Auth` 또는 `API key Auth`과(와) 같은 인증 방법을 포함하도록 커넥터를 구성해야 합니다. 암호화된 정보를 포함한 모든 구성 세부 정보는 Adobe Experience Manager에 안전하게 저장됩니다.
    - 커넥터 계층은 확장 가능하도록 설계되어 Experience Manager Guides에서 즉시 제공하지 않는 다양한 시스템에 연결하기 위한 구현을 만들 수 있습니다.
+
      ![커넥터 레이어](assets/data-source-connector-layer.jpg)
    >[!NOTE]
    >
@@ -98,8 +99,10 @@ Experience Manager Guides에서 연결할 수 있는 일부 데이터 소스는 
         ```
 
       - 템플릿
+
         ![템플릿 엔진](assets/data-source-TemplatingEngine.png){width="800" align="left"}
       - 동일한 데이터 소스에서 생성되었지만 다른 템플릿에서 생성된 데이터
+
         ![데이터 생성됨](assets/data-source-templates-topics.png){width="800" align="left"}
 
 1. **템플릿을 사용하여 콘텐츠 생성**

@@ -254,7 +254,8 @@ AEM 저장소의 DITA 주제와 연관된 프로파일링 속성을 사용하려
 
 1. **확장** 탭에서 다음과 같이 변경합니다.
 
-   - **확장 번들** 옆에 있는 **선택**&#x200B;을 클릭하고 다음을 선택합니다.   **클래스** 목록의 `LinkResolverExtensionBundle - com.adobe.o2.framework.extn` **확인**을 클릭합니다.
+   - **확장 번들** 옆에 있는 **선택**&#x200B;을 클릭하고 다음을 선택합니다.   **클래스** 목록의 `LinkResolverExtensionBundle - com.adobe.o2.framework.extn` **확인**&#x200B;을 클릭합니다.
+
      ![DITA 주제에 대해 구성된 확장](images/dita-map-extenstion-link-resolve.png) {width="650" align="left"}
    - **개별 확장**&#x200B;에서 **작성자 확장 상태 수신기** 옆에 있는 **선택**&#x200B;을 클릭하고 **클래스** 목록에서 `CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn`을(를) 선택합니다. **확인**&#x200B;을 클릭합니다.
    - **개별 확장**&#x200B;에서 **작성자 사용자 지정 특성 값 편집기** 옆에 있는 **선택**&#x200B;을 클릭하고 **클래스** 목록에서 `CustomValueEditor - com.adobe.o2.framework.extn`을(를) 선택합니다. **확인**&#x200B;을 클릭합니다.

@@ -22,4 +22,4 @@ DITA 주제에 허용되는 유효한 파일 이름 문자 목록과 유사하�
 |---|------------|--------------|
 | `com.adobe.fmdita.common.SanitizeNodeNameImpl` | `aemsite.DisallowedFileNameChars` | AEM Site 출력 파일 이름에 밑줄로 바꿀 문자를 추가합니다. <br> **기본값**: ``'<\>\`@$`` |
 
-**상위 항목:**[&#x200B;파일 이름 구성](conf-file-names.md)
+**상위 항목:**&#x200B;[&#x200B;파일 이름 구성](conf-file-names.md)

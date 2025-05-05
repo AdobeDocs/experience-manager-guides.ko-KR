@@ -89,4 +89,4 @@ Adobe Experience Manager **도구** 페이지에서 **대시보드 게시**&#x20
    ![](images/cancelled-output-task.png){align="left"}
 
 
-**상위 항목:**[&#x200B;출력 생성](generate-output.md)
+**상위 항목:**&#x200B;[&#x200B;출력 생성](generate-output.md)
