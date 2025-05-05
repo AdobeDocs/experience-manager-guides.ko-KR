@@ -2,7 +2,7 @@
 title: 스마트 도움말 및 작성을 위한 AI Assistant 구성
 description: Experience Manager Guides에서 AI Assistant를 구성하는 방법 알아보기
 exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
-source-git-commit: 7b217cfd52dbf716b626e66373fffcc1b9eff695
+source-git-commit: 018bd7c7bc3bb9161e5bedd42d50a5c501ca2919
 workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 0%
@@ -32,13 +32,13 @@ Adobe Developer Console에서 IMS 구성을 만들려면 다음 단계를 수행
 
 1. [Adobe Developer Console](https://developer.adobe.com/console)을(를) 시작합니다.
 1. Developer Console에 로그인하면 **홈** 화면이 표시됩니다. **홈** 화면에서 프로젝트 및 다운로드에 대한 위쪽 탐색 링크를 포함하여 정보와 빠른 링크를 쉽게 찾을 수 있습니다.
-1. 새 빈 프로젝트를 만들려면 **빠른 시작** 링크에서 **새 프로젝트 만들기**&#x200B;를 선택하십시오.
+1. 새 빈 프로젝트를 만들려면 **빠른 시작** 링크에서 **새 프로젝트 만들기**를 선택하십시오.
    ![빠른 시작 링크](assets/conf-ss-quick-start.png) {width="550" align="left"}
    *새 프로젝트를 만듭니다.*
 
 1. **프로젝트** 화면에서 **API 추가**&#x200B;를 선택합니다.  **API 추가** 화면이 나타납니다. 이 화면에는 애플리케이션을 개발할 수 있는 Adobe 제품 및 기술에 사용 가능한 모든 API, 이벤트 및 서비스가 표시됩니다.
 
-1. **I/O 관리 API**&#x200B;를 선택하여 프로젝트에 추가하십시오.
+1. **I/O 관리 API**를 선택하여 프로젝트에 추가하십시오.
    ![IO 관리 API](assets/confi-ss-io-management.png)
    *I/O 관리 API를 프로젝트에 추가합니다.*
 
@@ -84,7 +84,7 @@ OAuth 인증 세부 사항을 구성하고 JSON 서비스 세부 사항을 다�
 
 ## 환경에서 AI 플래그 활성화
 
-Experience Manager Guides UI에서 AI 도우미 기능을 활성화하려면 환경에 `ENABLES_GUIDES_AI` 플래그를 추가하십시오.
+Experience Manager Guides UI에서 AI 도우미 기능을 활성화하려면 환경에 `ENABLE_GUIDES_AI` 플래그를 추가하십시오.
 
 다음 스크린샷과 동일한 이름과 구성을 사용하고 있는지 확인합니다.
 
