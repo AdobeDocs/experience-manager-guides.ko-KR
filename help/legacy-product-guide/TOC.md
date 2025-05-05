@@ -142,5 +142,5 @@ ht-degree: 3%
       - [컨텐츠 재사용 보고서](./user-guide/reports-content-reuse.md)
       - [전환 상태 보고서](./user-guide/reports-convertion-status.md)
       - [파일 버전 기록 보고서를 되돌렸습니다.](./user-guide/reports-reverted-file-version-history.md)
-- [사용 안내서(새 UI)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/about-aemg/intro)
+- [사용 안내서(새 UI)](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/user-guide/about-aemg/intro)
 

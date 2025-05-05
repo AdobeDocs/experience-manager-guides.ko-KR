@@ -18,7 +18,7 @@ AEM Guides과 함께 Dispatcher on AEM 작성자 인스턴스를 사용하려는
 
 >[!NOTE]
 >
-> Dispatcher는 Adobe Experience Manager의 캐싱 및/또는 로드 밸런싱 도구입니다. Dispatcher 사용에 대한 자세한 내용은 [Dispatcher 개요](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=en)를 참조하십시오.
+> Dispatcher는 Adobe Experience Manager의 캐싱 및/또는 로드 밸런싱 도구입니다. Dispatcher 사용에 대한 자세한 내용은 [Dispatcher 개요](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=ko)를 참조하십시오.
 
 ## URL에서 AllowEncodedSlashes 활성화
 

@@ -59,7 +59,7 @@ Adobe은 Adobe Experience Manager Guidesas a Cloud Service 의 2024.12.0 릴리�
 
 **해결 방법**: 이 문제를 해결하려면 다음 해결 단계를 수행하십시오.
 
-1. Repoinit 파일을 추가합니다. 파일이 없는 경우 [샘플 repoinit 구성 만들기 단계](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-cloud-questions/repoinit-configuration-for-property-set-on-aem-as-cloud-service/m-p/438854)를 수행하여 파일을 만드십시오.
+1. Repoinit 파일을 추가합니다. 파일이 없는 경우 [샘플 repoinit 구성 만들기 단계](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-cloud-questions/repoinit-configuration-for-property-set-on-aem-as-cloud-service/m-p/438854?profile.language=ko)를 수행하여 파일을 만드십시오.
 2. 파일에 다음 줄을 추가하고 코드를 배포합니다.
 
    ```

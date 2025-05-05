@@ -167,4 +167,4 @@ AEM Guides은 한 번의 클릭으로 콘텐츠 참조를 추가할 수 있는 &
 <br>
 
 
-모든 쿼리를 위해 AEM Guides 커뮤니티 [포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)에 게시하십시오.
+모든 쿼리를 위해 AEM Guides 커뮤니티 [포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=ko)에 게시하십시오.

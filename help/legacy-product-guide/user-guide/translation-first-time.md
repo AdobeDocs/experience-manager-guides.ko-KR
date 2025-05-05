@@ -50,7 +50,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   > 타사 번역 서비스와의 통합에 대한 자세한 내용은 AEM 설명서에서 [번역 통합 프레임워크 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)을 참조하십시오.
+   > 타사 번역 서비스와의 통합에 대한 자세한 내용은 AEM 설명서에서 [번역 통합 프레임워크 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=ko)을 참조하십시오.
 
 1. 업데이트된 폴더 속성을 저장하려면 **저장 및 닫기**&#x200B;를 클릭하십시오.
 

@@ -57,7 +57,7 @@ JIRA ID가 포함된 &quot;change-request-id&quot; 요소는 API에서 검색해
 }
 ```
 
-[이 링크를 사용하여 폴더 프로필 및 ui_config.json 구성에 대해 자세히 알아보세요](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en)
+[이 링크를 사용하여 폴더 프로필 및 ui_config.json 구성에 대해 자세히 알아보세요](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=ko)
 
 
 ### 새 단추에 대한 클릭 이벤트를 처리합니다.

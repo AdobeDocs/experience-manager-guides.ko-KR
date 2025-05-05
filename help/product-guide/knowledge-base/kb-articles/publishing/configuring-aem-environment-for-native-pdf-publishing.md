@@ -185,4 +185,4 @@ CRX 저장소의 /var/dxml/profiles/b1aad0a7-9079-e56c-1ed8-6fcabe8166/nodejs에
 
 
 
-위의 단계를 수행하는 동안 문제가 발생하면 AEM Guides 커뮤니티 [포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)에 질문을 게시하여 도움을 받으십시오.
+위의 단계를 수행하는 동안 문제가 발생하면 AEM Guides 커뮤니티 [포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=ko)에 질문을 게시하여 도움을 받으십시오.

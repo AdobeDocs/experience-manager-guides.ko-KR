@@ -17,7 +17,7 @@ ht-degree: 0%
 
 이 세션에서는 전문가가 EMC 제품의 기능 및 이점을 심층적으로 논의하고, 이를 최대한 활용하는 데 도움이 되는 실용적인 팁과 모범 사례를 공유합니다. 신규 사용자든 숙련된 전문가든 이러한 세션은 AEM Guides 사용을 극대화하는 데 필요한 정보를 제공합니다.
 
-귀하의 시간이 가치 있다는 것을 잘 알고 있으며 이러한 전문가 세션을 귀하가 쉽고 쉽게 이용할 수 있도록 만들었습니다. [커뮤니티 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)을 방문하거나 귀하에게 전송된 전자 메일을 통해 예정된 세션에 등록할 수 있습니다.
+귀하의 시간이 가치 있다는 것을 잘 알고 있으며 이러한 전문가 세션을 귀하가 쉽고 쉽게 이용할 수 있도록 만들었습니다. [커뮤니티 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=ko)을 방문하거나 귀하에게 전송된 전자 메일을 통해 예정된 세션에 등록할 수 있습니다.
 
 이전 세션을 놓친 경우 이 섹션의 녹화분에 액세스할 수 있습니다.
 

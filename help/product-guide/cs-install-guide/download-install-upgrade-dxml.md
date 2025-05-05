@@ -25,7 +25,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> CI/CD 파이프라인 사용에 대한 자세한 내용은 [Cloud Manager Adobe에서 CI/CD 파이프라인 사용](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/cloud-manager/use-the-cicd-pipeline-in-cloud-manager-for-aem.html)을 참조하십시오.
+> CI/CD 파이프라인 사용에 대한 자세한 내용은 [Cloud Manager Adobe에서 CI/CD 파이프라인 사용](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/cloud-manager/use-the-cicd-pipeline-in-cloud-manager-for-aem.html?lang=ko)을 참조하십시오.
 
 ## 브라우저 캐시 지우기
 

@@ -166,7 +166,7 @@ DITA-OT 플러그인이 _metadata.xml_ 및 이 플러그인에서 사용할 수 
 
 ### 배포
 
-DITA-OT 플러그인을 개발했으면 DITA-OT 디렉터리 아래의 _dita —install_ 명령을 사용하여 DITA-OT에 이 플러그인을 통합하고 AEM 서버에 배포할 수 있습니다. [자세한 내용은 이 문서를 참조하십시오.](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/steps-to-setup-a-custom-dita-ot/td-p/407659)
+DITA-OT 플러그인을 개발했으면 DITA-OT 디렉터리 아래의 _dita —install_ 명령을 사용하여 DITA-OT에 이 플러그인을 통합하고 AEM 서버에 배포할 수 있습니다. [자세한 내용은 이 문서를 참조하십시오.](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/steps-to-setup-a-custom-dita-ot/td-p/407659?profile.language=ko)
 
 
 ## 리소스

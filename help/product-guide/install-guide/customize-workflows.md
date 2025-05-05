@@ -18,20 +18,20 @@ ht-degree: 1%
 
 AEM의 워크플로우에 대한 자세한 내용은 다음을 참조하십시오.
 
-- [워크플로우 관리](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)
+- [워크플로우 관리](https://helpx.adobe.com/kr/experience-manager/6-5/sites/administering/using/workflows.html)
 
-- 워크플로 적용 및 참여: [워크플로를 사용하여 작업](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/workflows.html).
+- 워크플로 적용 및 참여: [워크플로를 사용하여 작업](https://helpx.adobe.com/kr/experience-manager/6-5/sites/authoring/using/workflows.html).
 
-- 워크플로 모델 만들기 및 워크플로 기능 확장: [워크플로 개발 및 확장](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/workflows.html).
+- 워크플로 모델 만들기 및 워크플로 기능 확장: [워크플로 개발 및 확장](https://helpx.adobe.com/kr/experience-manager/6-5/sites/developing/using/workflows.html).
 
-- 중요한 서버 리소스를 사용하는 워크플로우의 성능을 개선합니다. [동시 워크플로우 처리](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance).
+- 중요한 서버 리소스를 사용하는 워크플로우의 성능을 개선합니다. [동시 워크플로우 처리](https://helpx.adobe.com/kr/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance).
 
 
 이 항목의 섹션에서는 AEM Guides에서 제공되는 기본 워크플로우에서 수행할 수 있는 다양한 사용자 정의에 대해 설명합니다.
 
 ## 리뷰 워크플로 사용자 지정 {#id176NE0C00HS}
 
-모든 조직의 콘텐츠 작성 팀은 비즈니스 요구 사항을 충족하기 위해 특정 방식으로 작업합니다. 일부 조직에서는 전용 편집기가 있는 반면, 다른 조직에서는 편집 검토 시스템을 자동화할 수 있습니다. 예를 들어 조직에서 일반적인 작성 및 게시 작업 과정에는 작성자가 컨텐츠 작성을 완료할 때마다 검토자에게 자동으로 전달되고 검토가 완료되면 최종 출력을 생성하기 위해 게시자에게 전달되는 등의 작업이 포함될 수 있습니다. AEM에서 컨텐츠 및 에셋에서 수행하는 활동은 프로세스 형태로 결합되어 AEM 워크플로우에 매핑될 수 있습니다. AEM의 워크플로에 대한 자세한 내용은 AEM 설명서에서 [워크플로 관리](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)를 참조하십시오.
+모든 조직의 콘텐츠 작성 팀은 비즈니스 요구 사항을 충족하기 위해 특정 방식으로 작업합니다. 일부 조직에서는 전용 편집기가 있는 반면, 다른 조직에서는 편집 검토 시스템을 자동화할 수 있습니다. 예를 들어 조직에서 일반적인 작성 및 게시 작업 과정에는 작성자가 컨텐츠 작성을 완료할 때마다 검토자에게 자동으로 전달되고 검토가 완료되면 최종 출력을 생성하기 위해 게시자에게 전달되는 등의 작업이 포함될 수 있습니다. AEM에서 컨텐츠 및 에셋에서 수행하는 활동은 프로세스 형태로 결합되어 AEM 워크플로우에 매핑될 수 있습니다. AEM의 워크플로에 대한 자세한 내용은 AEM 설명서에서 [워크플로 관리](https://helpx.adobe.com/kr/experience-manager/6-5/sites/administering/using/workflows.html)를 참조하십시오.
 
 AEM Guides을 사용하면 기본 검토 워크플로를 사용자 지정할 수 있습니다. 다른 작성 또는 게시 작업 과정에서 다음 네 가지 사용자 정의 검토 관련 프로세스를 사용할 수 있습니다.
 

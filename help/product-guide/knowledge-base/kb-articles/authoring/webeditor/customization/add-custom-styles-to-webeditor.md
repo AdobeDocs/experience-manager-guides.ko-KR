@@ -34,7 +34,7 @@ ht-degree: 0%
 
 폴더 프로필을 사용하여 &quot;XML 편집기 구성&quot; 탭에서 *css_layout.css*&#x200B;를 확인하고 사용자 지정 스타일이 있는 CSS를 추가하십시오
 
-[이 링크를 사용하여 폴더 프로필 및 CSS 템플릿 레이아웃 구성에 대해 자세히 알아보세요](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en#customize-the-css-template-layout)
+[이 링크를 사용하여 폴더 프로필 및 CSS 템플릿 레이아웃 구성에 대해 자세히 알아보세요](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=ko#customize-the-css-template-layout)
 
 다음 명령을 사용하여 웨비터에서의 위 스타일을 설정하십시오.
 - [css_layout.css](../../../assets/authoring/webeditor-customstyles-css_layout.css)을(를) 사용하여 선택한 폴더 프로필에 업로드합니다.
@@ -58,4 +58,4 @@ Please note this is compatible to AEM Guides version 4.2 and AEM Guides cloud ve
 
 ## 참조
 
-[웨비터에서의 전문가 세션](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/webbased-authoring-jan2023.html?lang=en)에서 다루는 웨비터 구성 및 사용자 지정에 대한 전문가 세션에도 관심이 있을 수 있습니다.
+[웨비터에서의 전문가 세션](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/webbased-authoring-jan2023.html?lang=ko)에서 다루는 웨비터 구성 및 사용자 지정에 대한 전문가 세션에도 관심이 있을 수 있습니다.

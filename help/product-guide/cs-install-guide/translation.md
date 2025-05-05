@@ -23,17 +23,17 @@ ht-degree: 9%
 
 콘텐츠 번역의 단계는 다음과 같습니다.
 
-1. [번역 서비스 공급자](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)와 AEM을 연결하고 번역 통합 프레임워크 구성을 만듭니다.
+1. [번역 서비스 공급자](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=ko)와 AEM을 연결하고 번역 통합 프레임워크 구성을 만듭니다.
 
 1. 번역 서비스 및 프레임워크 구성과 언어 마스터의 페이지를 연결합니다.
 
-1. 번역할 [콘텐츠 유형 식별](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/rules.html?lang=en).
+1. 번역할 [콘텐츠 유형 식별](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/rules.html?lang=ko).
 
-1. 언어 마스터를 작성하고 언어 사본의 루트 페이지를 만들어 [번역할 콘텐츠를 준비](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html?lang=en)합니다.
+1. 언어 마스터를 작성하고 언어 사본의 루트 페이지를 만들어 [번역할 콘텐츠를 준비](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html?lang=ko)합니다.
 
-1. [번역 프로젝트](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en)를 만들어 번역할 콘텐츠를 수집하고 번역 프로세스를 준비합니다.
+1. [번역 프로젝트](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=ko)를 만들어 번역할 콘텐츠를 수집하고 번역 프로세스를 준비합니다.
 
-1. 번역 프로젝트를 사용하여 [콘텐츠 번역을 관리](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en) 합니다.
+1. 번역 프로젝트를 사용하여 [콘텐츠 번역을 관리](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=ko) 합니다.
 
 
 번역 서비스 공급자가 AEM과의 통합에 대한 커넥터를 제공하지 않는 경우, AEM은 번역된 콘텐츠를 XML 형식으로 수동으로 내보내고 가져올 수 있도록 지원합니다.
@@ -88,7 +88,7 @@ DITA 맵 대시보드에서 변환 탭을 숨기려면 다음 단계를 수행�
 
 >[!NOTE]
 >
-> 번역 커넥터를 사용하는 경우 Adobe Experience Manager 설명서의 *[번역 통합 프레임워크 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)* 항목에 설명된 대로 커넥터를 구성했는지 확인하십시오.
+> 번역 커넥터를 사용하는 경우 Adobe Experience Manager 설명서의 *[번역 통합 프레임워크 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=ko)* 항목에 설명된 대로 커넥터를 구성했는지 확인하십시오.
 
 >[!IMPORTANT]
 >

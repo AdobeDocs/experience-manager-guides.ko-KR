@@ -15,7 +15,7 @@ ht-degree: 0%
 
 DITAVAL 파일은 조건부 출력을 생성하는 데 사용됩니다. 단일 항목에서 요소 속성을 사용하여 조건을 추가하여 콘텐츠를 조건화할 수 있습니다. 그런 다음 컨텐츠를 생성하기 위해 선택해야 하는 조건과 최종 출력에서 제외해야 하는 조건을 지정하는 DITAVAL 파일을 만듭니다.
 
-Adobe Experience Manager Guides을 사용하면 DITAVAL 편집기를 사용하여 DITAVAL 파일을 쉽게 만들고 편집할 수 있습니다. DITAVAL 편집기는 시스템에 정의된 \(또는 tags\) 속성을 검색하며, 이 속성을 사용하여 DITAVAL 파일을 만들거나 편집할 수 있습니다. Adobe Experience Manager에서 태그를 만들고 관리하는 방법에 대한 자세한 내용은 Adobe Experience Manager 설명서의 [태그 관리](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) 섹션을 참조하십시오.
+Adobe Experience Manager Guides을 사용하면 DITAVAL 편집기를 사용하여 DITAVAL 파일을 쉽게 만들고 편집할 수 있습니다. DITAVAL 편집기는 시스템에 정의된 \(또는 tags\) 속성을 검색하며, 이 속성을 사용하여 DITAVAL 파일을 만들거나 편집할 수 있습니다. Adobe Experience Manager에서 태그를 만들고 관리하는 방법에 대한 자세한 내용은 Adobe Experience Manager 설명서의 [태그 관리](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=ko) 섹션을 참조하십시오.
 
 다음 섹션에서는 Experience Manager Guides에서 DITAVAL 파일에 사용할 수 있는 옵션에 대해 설명합니다.
 

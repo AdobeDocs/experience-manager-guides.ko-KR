@@ -220,5 +220,5 @@ UUID가 아닌 버전 4.3.1에서 다음 검사를 수행합니다.
    > 마이그레이션 전에 `com.adobe.fmdita.config.ConfigManager` 내의 **AEM 사이트 페이지 이름에 제목 사용** 속성이 *False*(으)로 설정된 경우 마이그레이션 후에 이 속성을 업데이트해야 합니다.
 
 
-1. 유효성 검사가 완료되면 압축을 실행하여 대부분의 디스크 공간을 회수할 수 있습니다(`https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en` 참조).
+1. 유효성 검사가 완료되면 압축을 실행하여 대부분의 디스크 공간을 회수할 수 있습니다(`https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=ko` 참조).
 

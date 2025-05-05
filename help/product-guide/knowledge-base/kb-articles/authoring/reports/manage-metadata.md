@@ -46,7 +46,7 @@ ht-degree: 1%
 
 ### 관리->메타데이터의 목록이 비어 있거나 완료되지 않았습니다.
 
-`If list is empty or  incomplete then you may need to run the indexing on your ditamap, You can refer` [업그레이드 지침(콘텐츠 색인화)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/download-install-upgrade-aemg/upgrade-xml-documentation.html?lang=en#steps-to-index-the-existing-content-to-use-the-new-find-and-replace%3A)
+`If list is empty or  incomplete then you may need to run the indexing on your ditamap, You can refer` [업그레이드 지침(콘텐츠 색인화)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/download-install-upgrade-aemg/upgrade-xml-documentation.html?lang=ko#steps-to-index-the-existing-content-to-use-the-new-find-and-replace%3A)
 
 ### 사용자 지정 메타데이터가 목록에 표시되지 않음
 
@@ -59,7 +59,7 @@ ht-degree: 1%
 
 - [맵 대시보드를 사용하여 일괄 태그 지정(Assets UI)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/manaege-metadata/map-editor-bulk-tagging.html?lang=en)
 - [웹 편집기의 Ditamap 보고서](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/reports-aem-guide/reports-web-editor.html?lang=en)
-- [AEM의 태그 지정](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/configuring/tagging.html?lang=en)
+- [AEM의 태그 지정](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/configuring/tagging.html?lang=ko)
 
 
 **다른 쿼리는 해당 CSM에 문의**

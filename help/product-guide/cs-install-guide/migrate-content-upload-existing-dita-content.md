@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 기존 DITA 콘텐츠 업로드 {#id176FF000JUI}
 
-AEM Guides에서 사용하려는 기존 DITA 콘텐츠 저장소가 있을 수 있습니다. 이러한 기존 콘텐츠의 경우 [Adobe Experience Manager as a Cloud Service Assets에 디지털 에셋 추가](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html)에 설명된 지원되는 방법을 사용할 수 있습니다.
+AEM Guides에서 사용하려는 기존 DITA 콘텐츠 저장소가 있을 수 있습니다. 이러한 기존 콘텐츠의 경우 [Adobe Experience Manager as a Cloud Service Assets에 디지털 에셋 추가](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=ko)에 설명된 지원되는 방법을 사용할 수 있습니다.
 
 ## UUID 파일 이름 패턴 구성
 

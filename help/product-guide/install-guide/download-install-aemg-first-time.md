@@ -32,7 +32,7 @@ ht-degree: 0%
    http://<server name>:<port>/crx/packmgr/index.jsp
    ```
 
-   패키지 관리자는 로컬 AEM 설치에서 패키지를 관리합니다. 패키지 관리자 작업에 대한 자세한 내용은 AEM 설명서에서 [패키지 작업 방법](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html)을 참조하십시오.
+   패키지 관리자는 로컬 AEM 설치에서 패키지를 관리합니다. 패키지 관리자 작업에 대한 자세한 내용은 AEM 설명서에서 [패키지 작업 방법](https://helpx.adobe.com/kr/experience-manager/6-5/sites/administering/using/package-manager.html)을 참조하십시오.
 
    ![](assets/package-manager.png){width="650" align="left"}
 

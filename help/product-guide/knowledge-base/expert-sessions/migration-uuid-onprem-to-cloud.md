@@ -50,14 +50,14 @@ AEM Guides에서 사용할 수 있는 배포 옵션(비클라우드 및 클라�
 
 ### 설명서
 
-- [AEM Cloud로 이동](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
+- [AEM Cloud로 이동](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
 - [AEM Guides: 온-프레미스/AMS에서 클라우드로 UUID 콘텐츠 이동](../../cs-install-guide/migrate-on-premise-content-cloud.md)
-- [콘텐츠 전송 도구: FAQ](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/migration/moving-to-aem-as-a-cloud-service/content-migration/faq)
+- [콘텐츠 전송 도구: FAQ](https://experienceleague.adobe.com/ko/docs/experience-manager-learn/cloud-service/migration/moving-to-aem-as-a-cloud-service/content-migration/faq)
 - [AEM Guides: uuid가 아닌 콘텐츠를 클라우드로 마이그레이션](../../install-guide/migrate-uuid-non-uuid.md)
 
 ### 커뮤니티 포럼
 
-- Experience League에 대한 세션별 커뮤니티 상호 작용을 보려면 [AEM Guides 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)을 방문하세요.
+- Experience League에 대한 세션별 커뮤니티 상호 작용을 보려면 [AEM Guides 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=ko)을 방문하세요.
 
 
 >[!NOTE]

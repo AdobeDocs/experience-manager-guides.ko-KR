@@ -46,14 +46,14 @@ UUID(AEM Guides on-prem/AMS)에서 AEMaaCS의 AEM Guides으로 콘텐츠를 마�
 
 ### 설명서
 
-- [UUID가 아닌 콘텐츠를 UUID로 마이그레이션 중](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/content-migration/migration-process/migrate-non-uuid-uuid)
+- [UUID가 아닌 콘텐츠를 UUID로 마이그레이션 중](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/install-guide/on-prem-ig/content-migration/migration-process/migrate-non-uuid-uuid)
 - [AEM Guides: 온-프레미스/AMS에서 클라우드로 UUID 콘텐츠 이동](../../cs-install-guide/migrate-on-premise-content-cloud.md)
-- [AEM Cloud로 이동](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
+- [AEM Cloud로 이동](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
 - [AEM Guides: uuid가 아닌 콘텐츠를 클라우드로 마이그레이션](../../install-guide/migrate-uuid-non-uuid.md)
 
 ### 커뮤니티 포럼
 
-- Experience League에 대한 세션별 커뮤니티 상호 작용을 보려면 [AEM Guides 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)을 방문하세요.
+- Experience League에 대한 세션별 커뮤니티 상호 작용을 보려면 [AEM Guides 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=ko)을 방문하세요.
 
 
 >[!NOTE]

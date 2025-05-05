@@ -17,19 +17,19 @@ Adobe Experience Manager Guides에 사용하려는 기존 DITA 콘텐츠 저장�
 
 >[!IMPORTANT]
 >
-> Adobe Experience Manager에서 지원되는 콘텐츠 업로드 방법에 대한 자세한 내용은 [Adobe Experience Manager as a Cloud Service Assets에 디지털 에셋 추가](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html)를 참조하십시오.
+> Adobe Experience Manager에서 지원되는 콘텐츠 업로드 방법에 대한 자세한 내용은 [Adobe Experience Manager as a Cloud Service Assets에 디지털 에셋 추가](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=ko)를 참조하십시오.
 
 ## Assets 콘솔 사용자 인터페이스
 
-데스크탑에서 컨텐츠를 선택하고 Adobe Experience Manager 사용자 인터페이스 \(웹 브라우저\)를 대상 폴더로 드래그할 수 있습니다. 자세한 내용은 Adobe Experience Manager 설명서에서 [자산 업로드](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#upload-assets)를 참조하십시오.
+데스크탑에서 컨텐츠를 선택하고 Adobe Experience Manager 사용자 인터페이스 \(웹 브라우저\)를 대상 폴더로 드래그할 수 있습니다. 자세한 내용은 Adobe Experience Manager 설명서에서 [자산 업로드](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=ko#upload-assets)를 참조하십시오.
 
 ## Adobe Experience Manager 데스크탑 앱
 
-크리에이티브 전문가이고 로컬 데스크탑에서 자산을 관리하려는 경우 Adobe Experience Manager 데스크탑 앱을 사용하십시오. 데스크탑 애플리케이션을 사용하여 이러한 에셋을 열고 편집할 수 있습니다. 버전을 유지 관리하고 다른 사용자와 파일을 공유할 수도 있습니다. 자세한 내용은 [Adobe Experience Manager 데스크톱 앱](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html)을 참조하세요.
+크리에이티브 전문가이고 로컬 데스크탑에서 자산을 관리하려는 경우 Adobe Experience Manager 데스크탑 앱을 사용하십시오. 데스크탑 애플리케이션을 사용하여 이러한 에셋을 열고 편집할 수 있습니다. 버전을 유지 관리하고 다른 사용자와 파일을 공유할 수도 있습니다. 자세한 내용은 [Adobe Experience Manager 데스크톱 앱](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html?lang=ko)을 참조하세요.
 
 ## 일괄 에셋 수집기
 
-대규모 마이그레이션 및 경우에 따라 일괄 수집이 있는 경우 일괄 에셋 수집기 를 사용하여 콘텐츠를 업로드하십시오. 이 도구를 사용하면 Azure 또는 S3와 같이 지원되는 데이터 저장소에서 대량 콘텐츠를 업로드할 수 있습니다. 자세한 내용은 [일괄 에셋 수집기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=en#asset-bulk-ingestor)를 참조하십시오.
+대규모 마이그레이션 및 경우에 따라 일괄 수집이 있는 경우 일괄 에셋 수집기 를 사용하여 콘텐츠를 업로드하십시오. 이 도구를 사용하면 Azure 또는 S3와 같이 지원되는 데이터 저장소에서 대량 콘텐츠를 업로드할 수 있습니다. 자세한 내용은 [일괄 에셋 수집기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=ko#asset-bulk-ingestor)를 참조하십시오.
 
 ## 벌크 업로드에 FrameMaker 사용
 

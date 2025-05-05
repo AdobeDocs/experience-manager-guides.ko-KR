@@ -31,7 +31,7 @@ Experience Manager Guides for On-premise Software에서 AEM Sites 템플릿을 �
    http://<server name>:<port>/crx/packmgr/index.jsp
    ```
 
-   패키지 관리자는 로컬 AEM 설치에서 패키지를 관리합니다. 패키지 관리자 작업에 대한 자세한 내용은 AEM 설명서에서 [패키지 작업 방법](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html)을 참조하세요.
+   패키지 관리자는 로컬 AEM 설치에서 패키지를 관리합니다. 패키지 관리자 작업에 대한 자세한 내용은 AEM 설명서에서 [패키지 작업 방법](https://helpx.adobe.com/kr/experience-manager/6-5/sites/administering/using/package-manager.html)을 참조하세요.
 
 1. 패키지를 업로드하려면 **패키지 업로드**&#x200B;를 클릭하세요.
 
@@ -52,7 +52,7 @@ Experience Manager Guides for On-premise Software에서 AEM Sites 템플릿을 �
 
 
 **AEMG**&#x200B;에 다음 구성 요소가 포함되어 있습니다.
-- **AEMG** 폴더에 영어(en) 언어 폴더가 있습니다. 요구 사항에 따라 유사한 언어 사본을 만들 수 있습니다. 예를 들어 다국어 웹 사이트에는 영어(en), 독일어(de) 및 프랑스어(fr) 언어 사본이 포함되어 있습니다.  [언어 복사 마법사](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/introduction/tc-wizard)를 사용하여 언어 복사를 만드는 방법에 대해 자세히 알아보세요.
+- **AEMG** 폴더에 영어(en) 언어 폴더가 있습니다. 요구 사항에 따라 유사한 언어 사본을 만들 수 있습니다. 예를 들어 다국어 웹 사이트에는 영어(en), 독일어(de) 및 프랑스어(fr) 언어 사본이 포함되어 있습니다.  [언어 복사 마법사](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/sites/administering/introduction/tc-wizard)를 사용하여 언어 복사를 만드는 방법에 대해 자세히 알아보세요.
 - 영어(en) 언어 폴더에서 Experience Manager Guides은 **검색**, **로그인**, **문서** 및 **지원**&#x200B;과 같은 기본 제공 샘플 페이지를 제공합니다.
 
 - **Docs**&#x200B;은(는) 샘플 설명서 홈 페이지입니다. 모든 제품 관련 설명서의 중앙 위치 역할을 합니다
@@ -97,7 +97,7 @@ AEM Sites에 대한 주제 템플릿을 사용자 지정할 수도 있습니다.
 1. 편집할 템플릿을 선택합니다.
 1. 맨 위에 있는 **편집** 아이콘을 선택합니다.
 
-AEM 템플릿 편집기가 열립니다. 주제 템플릿을 편집할 수 있습니다. [페이지 템플릿 만들기](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/siteandpage/templates#editing-a-template-structure-template-author)에 대해 자세히 알아보세요.
+AEM 템플릿 편집기가 열립니다. 주제 템플릿을 편집할 수 있습니다. [페이지 템플릿 만들기](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/sites/authoring/siteandpage/templates#editing-a-template-structure-template-author)에 대해 자세히 알아보세요.
 
 
 ## 기존 AEM Sites 템플릿 맞춤화

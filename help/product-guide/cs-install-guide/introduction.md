@@ -66,16 +66,16 @@ Adobe Experience Manager Guides \(나중에 *AEM Guides*\)는 강력한 클라�
 
 [Adobe Experience Manager \(AEM\)](https://business.adobe.com/products/experience-manager/adobe-experience-manager.html)은(는) 웹 사이트, 모바일 앱 및 양식 구축을 위한 포괄적인 콘텐츠 관리 솔루션입니다. AEM은 마케팅 콘텐츠 및 에셋을 관리하는 데 도움이 됩니다. AEM as a Cloud Service 사용 가능 AEM as a Cloud Service은 AEM 콘텐츠 관리 시스템의 강력한 기능을 AEM 디지털 에셋 관리와 결합하여 고객에게 개인화된 콘텐츠 주도 경험을 제공할 수 있도록 지원합니다.AEM as a Cloud Service을 시작하고 배포하는 데 도움이 되는 몇 가지 주요 리소스는 다음과 같습니다.
 
-- [Experience Manager as a Cloud Service 개요](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=en)
-- [AEM as a Cloud Service으로 마이그레이션 여정 시작](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/getting-started.html?lang=en)
-- [Experience Manager as a Cloud Service 온보딩 시작](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/home.html?lang=enhttps://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/home.html?lang=en)
-- [AEM as a Cloud Service용 애플리케이션 구현](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/home.html?lang=en)
-- [AEM as a Cloud Service에 배포](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/overview.html?lang=en)
+- [Experience Manager as a Cloud Service 개요](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=ko)
+- [AEM as a Cloud Service으로 마이그레이션 여정 시작](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/getting-started.html?lang=ko)
+- [Experience Manager as a Cloud Service 온보딩 시작](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/home.html?lang=kohttps://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/home.html?lang=en)
+- [AEM as a Cloud Service용 애플리케이션 구현](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/home.html?lang=ko)
+- [AEM as a Cloud Service에 배포](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/overview.html?lang=ko)
 - [Assets as a Cloud Service 안내서](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html?lang=kr)
 
 ## 추가 리소스
 
-다음은 [학습 및 지원](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html) 페이지에서 사용할 수 있는 AEM Guides의 다른 유용한 리소스 목록입니다.
+다음은 [학습 및 지원](https://helpx.adobe.com/kr/support/xml-documentation-for-experience-manager.html) 페이지에서 사용할 수 있는 AEM Guides의 다른 유용한 리소스 목록입니다.
 
 - 사용 안내서
 - API 참조 안내서
