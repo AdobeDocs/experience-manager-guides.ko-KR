@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 살펴보십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: b78a34430476c15cadacb23d65bd978b3c25bd23
+source-git-commit: fd20f8d8dffd9ab566128ace61cb923279aa2d8b
 workflow-type: tm+mt
-source-wordcount: '2098'
+source-wordcount: '2106'
 ht-degree: 8%
 
 ---
@@ -129,8 +129,8 @@ ht-degree: 8%
                - [4.2.1 릴리스 정보](./release-info/release-notes-4-2-1.md)
                - [4.2 릴리스 노트](./release-info/release-notes-4-2.md)
          - [4.1.x 릴리스 노트](./release-info/release-notes-4-1.md)
-         - [4.0.x 릴리스 노트](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x 릴리스 노트](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - 사용 안내서 (새 UI) {#user-guide}
    - 소개 {#about-aemg}
       - [ [!DNL Adobe Experience Manager Guides] 정보](./user-guide/intro.md)
@@ -277,7 +277,7 @@ ht-degree: 8%
          - [파일 및 폴더 관리](./user-guide/authoring-file-management.md)
          - [파일 다운로드](./user-guide/authoring-download-assets.md)
 - 사용 안내서 (이전 UI) {#user-guide-old-ui}
-   - [AEM Guides 개요](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides 개요](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 설치 및 구성 {#install-guide}
    - 온프레미스 {#on-prem-ig}
       - [On-Premise 기본 사항](./install-guide/introduction.md)
@@ -485,6 +485,7 @@ ht-degree: 8%
       - [UUID가 아닌 콘텐츠를 UUID로 마이그레이션](./knowledge-base/expert-sessions/migration-non-uuid-to-uuid.md)
       - [델타 컨텐츠 마이그레이션](./knowledge-base/expert-sessions/migration-delta-content.md)
       - [기본 PDF을 사용하여 더욱 스마트한 PDF 게시](./knowledge-base//expert-sessions/smarter-pdf-publishing-with-native-pdf.md)
+      - [AEM Guides의 새로운 UX 및 AI 기능](./knowledge-base/expert-sessions/new-ux-and-ai-capabilities.md)
    - 기사 {#kb-articles}
       - 작성 {#authoring}
          - 웹 편집기 {#webeditor}
