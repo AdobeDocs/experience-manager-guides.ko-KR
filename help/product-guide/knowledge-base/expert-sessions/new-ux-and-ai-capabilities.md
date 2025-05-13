@@ -37,11 +37,11 @@ ht-degree: 1%
 
 ## 관련 리소스
 
-- [새 홈 페이지 환경](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/home-page/intro-home-page)
+- [새 홈 페이지 환경](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/user-guide/home-page/intro-home-page)
 
-- [AI 기능](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/ai-assistant-aem/ai-assistant)
+- [AI 기능](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/user-guide/ai-assistant-aem/ai-assistant)
 
-- [새 홈 페이지 환경](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-smart-suggestions)
+- [새 홈 페이지 환경](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-smart-suggestions)
 
 
 
@@ -54,7 +54,7 @@ ht-degree: 1%
 
 ### 커뮤니티 포럼
 
-- Experience League에서 세션별 커뮤니티 상호 작용을 보려면 [AEM Guides 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)을 방문하십시오.
+- Experience League에서 세션별 커뮤니티 상호 작용을 보려면 [AEM Guides 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=ko)을 방문하십시오.
 
 
 ## 연락처
