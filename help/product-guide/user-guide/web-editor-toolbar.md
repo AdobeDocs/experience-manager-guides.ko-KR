@@ -4,7 +4,7 @@ description: 편집기의 도구 모음에 대해 알아봅니다. Adobe Experie
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
-source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
+source-git-commit: e49fde64cbbb2544afe23b820af6477ed1e900fc
 workflow-type: tm+mt
 source-wordcount: '5909'
 ht-degree: 0%
@@ -82,13 +82,13 @@ Source 보기에서 **찾기 및 바꾸기** 기능은 특정 요소나 특성�
 
    **메타데이터** 탭: 새로 추가된 메타데이터는 녹색 글꼴이고 삭제된 메타데이터는 빨간색 글꼴입니다.
 
-   ![&#128279;](images/metadata-version-diff.png){width="550" align="left"} 버전에 대한 메타데이터 차이점
+   ](images/metadata-version-diff.png){width="550" align="left"} 버전에 대한 ![메타데이터 차이점
 
    *버전 기록에서 다른 버전의 메타데이터를 비교합니다.*
 
    >[!NOTE]
    >
-   > 시스템 관리자는 **설정**&#x200B;의 메타데이터 탭에서 표시할 메타데이터를 변경할 수 있습니다. 자세한 내용은 [탭 모음](#tab-bar)의 **추가 작업** 섹션을 참조하세요.
+   > 시스템 관리자는 **설정**&#x200B;의 메타데이터 탭에서 표시할 메타데이터를 변경할 수 있습니다. 자세한 내용은 [탭 모음](./web-editor-tab-bar.md)의 **추가 작업** 섹션을 참조하세요.
 
    현재 및 비교 버전의 사용자 및 시간 세부 사항을 볼 수도 있습니다.
 
@@ -132,7 +132,7 @@ Assets UI의 [버전 내역](web-editor-use-label.md) 패널, [기준선](/help/
 
    [버전 레이블 관리] 대화 상자가 표시됩니다.
 
-   ![](images/version-label-management-dialog.png){width="650" align="left"}
+   ![](images/version-label-management-dialog.png){width="350" align="left"}
 
    버전 레이블 관리 대화 상자는 두 부분으로 분할됩니다. 왼쪽 패널에는 레이블 드롭다운 목록 \(또는 레이블을 입력할 텍스트 상자\)과 함께 주제에 사용할 수 있는 버전 목록이 있고 오른쪽 패널에는 주제를 미리 볼 수 있습니다.
 
@@ -249,7 +249,7 @@ Experience Manager Guides은 문서에서 수행한 업데이트에 대한 정�
 
 >[!NOTE]
 >
-> 미리보기 모드에서는 변경된 컨텐트의 마크업을 사용하거나 사용하지 않고 문서를 볼 수 있습니다. 자세한 내용은 [미리 보기](web-editor-views.md#preview-mode-id19AAGL00163) 모드를 참조하십시오.
+> 미리보기 모드에서는 변경된 컨텐트의 마크업을 사용하거나 사용하지 않고 문서를 볼 수 있습니다. 자세한 내용은 [미리 보기](web-editor-views.md#preview-mode) 모드를 참조하십시오.
 
 **태그**
 
@@ -377,7 +377,7 @@ Experience Manager Guides은 문서에서 수행한 업데이트에 대한 정�
 
 >[!NOTE]
 >
-> 이미지를 로컬 시스템에서 문서에 끌어다 놓아 추가할 수도 있습니다. 이 경우 이미지 파일은 **Assets 업로드** 워크플로우를 사용하여 추가됩니다.  자세한 내용은 [왼쪽 패널](#left-panel) 섹션에서 **Assets 업로드** 워크플로우를 참조하십시오.
+> 이미지를 로컬 시스템에서 문서에 끌어다 놓아 추가할 수도 있습니다. 이 경우 이미지 파일은 **Assets 업로드** 워크플로우를 사용하여 추가됩니다.  자세한 내용은 [왼쪽 패널](./web-editor-left-panel.md) 섹션에서 **Assets 업로드** 워크플로우를 참조하십시오.
 
 
 ![](images/insert-image.png){width="300" align="left"}
@@ -621,4 +621,4 @@ DITA 맵에 정의된 키워드를 삽입합니다. 키워드 옵션을 선택�
 관리자는 다른 사용자가 잠근 파일의 잠금을 해제할 수 있는 **잠금 해제 강제** 기능에 액세스할 수도 있습니다. 이 기능을 사용하여 다른 사용자가 잠근 파일의 편집 권한에 액세스할 수 있습니다.
 
 ![](images/web-editor-force-unlock-new.png){width="350" align="left"}
-**상위 항목:**&#x200B;[&#x200B;편집기 소개](web-editor.md)
+**상위 항목:**[&#x200B;편집기 소개](web-editor.md)
