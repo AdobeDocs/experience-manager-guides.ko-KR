@@ -3,10 +3,10 @@ title: 릴리스 정보 | Adobe Experience Manager Guides 2025.04.0 릴리스의
 description: Adobe Experience Manager Guides 2025.04.0 릴리스의 새로운 기능과 향상된 기능에 대해 알아봅니다
 role: Leader
 exl-id: 5d28119b-641f-402b-833c-6f7554e7c273
-source-git-commit: f4ed3c8b70c47beb1f97c6703ade4d4f49fa814e
+source-git-commit: fe7d81f1826fe4ee0c716df36daabe3c5efd8994
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 2%
+source-wordcount: '436'
+ht-degree: 3%
 
 ---
 
@@ -27,17 +27,6 @@ ht-degree: 2%
 - **.dita** 또는 **.ditamap** 파일이 있는 파일의 경우 형식이 **dita**(으)로 설정됩니다.
 
 또한 확장명이 **.xml**&#x200B;인 파일의 형식도 **dita**(으)로 설정됩니다. 확장명이 없는 파일의 경우 형식은 비어 있습니다. 또한 범위가 **external**(으)로 설정된 모든 참조 링크의 경우 참조 링크의 파일 확장명에 관계없이 형식이 **html**(으)로 설정됩니다.
-
-
-## 편집기에서 대용량 파일에 대한 정확한 통신
-
-이제 Experience Manager Guides에서 파일이 큰 파일로 분류되고 실행 취소, 다시 실행, 윤곽선 패널 및 더티 마커와 같은 특정 기능이 예상대로 작동하지 않을 수 있음을 알립니다. 아래 코드 조각에 표시된 대로 큰 파일에 대한 인터페이스 맨 위에 경고 메시지가 표시되어 **uiconfig.json** 파일의 **largeFileTagCount** 매개 변수를 기반으로 요소 수를 나타냅니다.
-
-또한 맨 아래 막대에 태그 수가 표시되며, 태그 위로 마우스를 가져가면 도구 설명이 표시됩니다. **자세히 알아보기** 탭을 선택하면 대용량 파일 처리에 대한 자세한 정보가 제공됩니다. 이 경고는 DITA 파일에만 사용할 수 있으며 작성자, Source 및 레이아웃과 같은 모든 보기에서 볼 수 있습니다.
-
-자세한 내용은 [편집기에서 대용량 파일 처리](../user-guide/web-editor-other-features.md#handling-large-files-in-the-editor)를 참조하십시오.
-
-![](assets/add-toast-tag-count.png){width="800" align="left"}
 
 ## 내보낸 기준선에 문서 상태가 포함됨
 
