@@ -1,9 +1,10 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides, 2025.04.0 릴리스의 문제가 해결되었습니다.
 description: Adobe Experience Manager Guides as a Cloud Service 2025.04.0 릴리스의 버그 수정에 대해 알아봅니다.
-source-git-commit: 9a943a26a22b64035b61c72c47268a0de2c23b7f
+exl-id: ad3e95b5-4903-4387-8e4d-c4b9ba77fee2
+source-git-commit: 70078864379eedd82ae21da70614055c60f0b114
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '771'
 ht-degree: 3%
 
 ---
@@ -60,12 +61,10 @@ Adobe은 2025.04.0 릴리스에 대해 다음과 같은 알려진 문제를 확�
 - 새 콘텐츠를 `codeblock` 요소 내의 새 줄에 붙여 넣을 때 빈 줄이 자동으로 삽입됩니다.(27842)
 - 동일한 기준선을 사용하는 사전 설정 간을 전환하면 현재 사전 설정의 **저장** 단추가 비활성화됩니다. (28025)
 - 하위 맵에서 `keydef` 및 `topicref` 모두로 사용 중인 경우 DITA 맵 내의 주제가 AEM Sites 출력에 게시되지 않습니다. (22269)
-- AEM Sites 출력에서 게시 중에 기준선이 적용되지 않으면 이미지가 중단됩니다. (28043)
 - 맵의 여러 항목을 편집한 다음 **모두 닫기** 옵션을 사용하여 닫으면 응용 프로그램 오류가 발생합니다. **닫을 때 저장 버전 묻기** 설정이 활성화되었습니다.(27931)
 
+Adobe은 해결 방법으로 다음과 같은 알려진 문제를 확인했습니다.
 
-
-
-
-
-
++++AEM Sites 출력에서 게시 중에 기준선이 적용되지 않으면 이미지가 중단됩니다. (28043)
+***해결 방법:*** 링크가 작동하게 되는 **Assets UI**에서 이러한 자산을 게시할 수 있습니다.
++++
