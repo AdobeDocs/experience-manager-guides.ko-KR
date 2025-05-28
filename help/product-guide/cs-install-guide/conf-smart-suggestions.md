@@ -2,9 +2,9 @@
 title: 스마트 도움말 및 작성을 위한 AI Assistant 구성
 description: Experience Manager Guides에서 AI Assistant를 구성하는 방법 알아보기
 exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
-source-git-commit: 018bd7c7bc3bb9161e5bedd42d50a5c501ca2919
+source-git-commit: b80737d6066008104ceea103edbc828bc8e632cb
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,10 @@ AI Assistant를 구성하려면 다음 단계를 수행하십시오.
 1. [Adobe Developer Console에서 IMS 구성 만들기](#create-ims-configurations-in-adobe-developer-console).
 2. [환경에 IMS 구성 추가](#add-ims-configuration-to-the-environment)
 3. [환경에서 AI 플래그 활성화](#enable-ai-flag-in-the-environment)
-4. [환경에 변경 사항 적용](#apply-changes-to-the-environment)
-5. [폴더 프로필에서 AI Assistant 활성화](#enable-ai-assistant-in-folder-profile)
-6. [폴더 프로필에서 스마트 제안 구성](./conf-folder-level.md#configure-ai-assistant-for-smart-help-and-authoring)
+4. [환경에 GUIDES_AI_SITE_ID 변수 추가](#add-the-guides_ai_site_id-variable-in-the-environment)
+5. [환경에 변경 사항 적용](#apply-changes-to-the-environment)
+6. [폴더 프로필에서 AI Assistant 활성화](#enable-ai-assistant-in-folder-profile)
+7. [폴더 프로필에서 스마트 제안 구성](./conf-folder-level.md#configure-ai-assistant-for-smart-help-and-authoring)
 
 ## Adobe Developer Console에서 IMS 구성 만들기
 
@@ -32,13 +33,13 @@ Adobe Developer Console에서 IMS 구성을 만들려면 다음 단계를 수행
 
 1. [Adobe Developer Console](https://developer.adobe.com/console)을(를) 시작합니다.
 1. Developer Console에 로그인하면 **홈** 화면이 표시됩니다. **홈** 화면에서 프로젝트 및 다운로드에 대한 위쪽 탐색 링크를 포함하여 정보와 빠른 링크를 쉽게 찾을 수 있습니다.
-1. 새 빈 프로젝트를 만들려면 **빠른 시작** 링크에서 **새 프로젝트 만들기**&#x200B;를 선택하십시오.
+1. 새 빈 프로젝트를 만들려면 **빠른 시작** 링크에서 **새 프로젝트 만들기**를 선택하십시오.
    ![빠른 시작 링크](assets/conf-ss-quick-start.png) {width="550" align="left"}
    *새 프로젝트를 만듭니다.*
 
 1. **프로젝트** 화면에서 **API 추가**&#x200B;를 선택합니다.  **API 추가** 화면이 나타납니다. 이 화면에는 애플리케이션을 개발할 수 있는 Adobe 제품 및 기술에 사용 가능한 모든 API, 이벤트 및 서비스가 표시됩니다.
 
-1. **I/O 관리 API**&#x200B;를 선택하여 프로젝트에 추가하십시오.
+1. **I/O 관리 API**를 선택하여 프로젝트에 추가하십시오.
    ![IO 관리 API](assets/confi-ss-io-management.png)
    *I/O 관리 API를 프로젝트에 추가합니다.*
 
@@ -92,6 +93,14 @@ Experience Manager Guides UI에서 AI 도우미 기능을 활성화하려면 환
 
 플래그를 **true**(으)로 설정하면 기능을 사용할 수 있지만 **false**(으)로 설정하면 기능을 사용할 수 없습니다.
 
+## 환경에 GUIDES_AI_SITE_ID 변수 추가
+
+환경(Cloud Manager)에서 `GUIDES_AI_SITE_ID` 변수를 추가하고 값을 `id_f651abc807c84f52b425737bb93f87ba`(으)로 설정하여 활성화하십시오.
+
+다음 스크린샷과 동일한 이름과 구성을 사용하고 있는지 확인합니다.
+
+![](assets/conf-folder-guides-site-id.png){width="800" align="left"}
+
 ## 환경에 변경 사항 적용
 
 IMS 구성을 추가하고 AI Assistant 플래그를 환경에 활성화했으면 다음 단계를 수행하여 OSGi를 사용하여 이러한 속성을 AEM Guides과 연결합니다.
@@ -143,8 +152,8 @@ AI Assistant 기능을 활성화한 후 폴더 프로필에서 스마트 제안 
   "related.link.threshold":0.5,
   "emerald.url":"https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1",
   "instance.type":"prod",
-  "chat.url":"https://aem-guides-ai.adobe.io"
-}
+  "chat.url":"https://aem-guides-ai-v2.adobe.io"
+  }
 ```
 
 ## AI Assistant 구성 세부 정보
@@ -154,7 +163,7 @@ AI Assistant 기능을 활성화한 후 폴더 프로필에서 스마트 제안 
 | conref.inline.threshold | 사용자가 현재 입력 중인 태그에 대해 가져온 제안의 정밀도/회수를 제어하는 임계값입니다. | -1.0부터 1.0까지의 모든 값. | 0.6 |
 | conref.block.threshold | 전체 파일에서 태그에 대해 가져온 제안의 정밀도/회수를 제어하는 임계값입니다. | -1.0부터 1.0까지의 모든 값. | 0.7 |
 | emerald.url | 스마트 제안 벡터 데이터베이스의 끝점 | [https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1) | [https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1) |
-| chat.url | AI 어시스턴트 서비스의 엔드포인트 | [https://aem-guides-ai.adobe.io](https://aem-guides-ai.adobe.io) | [https://aem-guides-ai.adobe.io](https://aem-guides-ai.adobe.io) |
+| chat.url | AI 어시스턴트 서비스의 엔드포인트 | [https://aem-guides-ai-v2.adobe.io](https://aem-guides-ai-v2.adobe.io) | [https://aem-guides-ai-v2.adobe.io](https://aem-guides-ai-v2.adobe.io) |
 | instance.type | AEM 인스턴스 유형입니다. 스마트 제안이 구성된 각 AEM 인스턴스에 대해 고유한지 확인합니다. 사용 사례는 &quot;instance.type&quot; = &quot;stage&quot;를 사용하여 스테이징 환경에서 피쳐를 테스트하는 것이지만 동시에 피쳐는 &quot;prod&quot;에도 구성됩니다. | 환경을 식별하는 모든 고유 키. *영숫자* 값만 허용됩니다. &quot;dev&quot;/&quot;stage&quot;/&quot;prod&quot;/&quot;test1&quot;/&quot;stage2&quot; | &quot;prod&quot; |
 
 구성하고 나면 Experience Manager Guides 홈 페이지 및 편집기에 AI Assistant 아이콘이 표시됩니다. 자세한 내용은 Experience Manager 사용 안내서의 [AI Assistant](../user-guide/ai-assistant.md) 섹션을 참조하십시오.

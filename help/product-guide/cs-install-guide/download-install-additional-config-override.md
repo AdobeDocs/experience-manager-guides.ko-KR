@@ -5,9 +5,9 @@ exl-id: dc5f81f7-5b0a-4d12-a944-ba66b0239d5c
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: dae38cf948b99c8b89c61472938ce97b571f9366
+source-git-commit: e4b213b5f0efda18fb24f100f3ee8237947890bf
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Adobe Experience Manager Guides의 2025.02.0 릴리스에서는 이전보다 빠
 
 >[!IMPORTANT]
 >
-> 새 UI와 이전 UI 간에 전환하는 이 구성 옵션은 2025.4.0 릴리스까지 사용할 수 있습니다. 그 이후에는 새 UI가 기본값이 되고 이전 UI로 다시 전환하는 옵션은 더 이상 지원되지 않습니다.
+> 새 UI와 이전 UI 간에 전환하는 이 구성 옵션은 2025.4.0 릴리스까지 지원되었습니다. 2025.6.0 릴리스에서는 이 설정이 더 이상 사용되지 않으며 더 이상 이전 UI로 되돌리는 데 사용할 수 없습니다.
 
 Experience Manager Guides UI를 구성하려면 다음 단계를 수행하십시오.
 
@@ -65,4 +65,4 @@ Experience Manager Guides UI를 구성하려면 다음 단계를 수행하십시
 
 
 
-**상위 항목:**&#x200B;[&#x200B;다운로드 및 설치](download-install.md)
+**상위 항목:**[&#x200B;다운로드 및 설치](download-install.md)

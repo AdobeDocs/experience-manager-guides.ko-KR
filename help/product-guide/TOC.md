@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 살펴보십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: fd20f8d8dffd9ab566128ace61cb923279aa2d8b
+source-git-commit: b80737d6066008104ceea103edbc828bc8e632cb
 workflow-type: tm+mt
-source-wordcount: '2106'
+source-wordcount: '2122'
 ht-degree: 8%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 8%
       - 클라우드 서비스 {#cloud-release-notes}
          - [배포 지침](./release-info/deploy-xml-on-aemaacs.md)
          - 2025 릴리스 {#2025-releases}
+            - 2025.06.0 릴리스 {#2506-release}
+               - [새로운 기능](./release-info/whats-new-2025-06-0.md)
+               - [해결된 문제](./release-info/fixed-issues-2025-06-0.md)
+               - [업그레이드 지침](./release-info/upgrade-instructions-2025-06-0.md)
             - 2025.04.0 릴리스 {#2504-release}
                - [새로운 기능](./release-info/whats-new-2025-04-0.md)
                - [해결된 문제](./release-info/fixed-issues-2025-04-0.md)
@@ -129,8 +133,8 @@ ht-degree: 8%
                - [4.2.1 릴리스 정보](./release-info/release-notes-4-2-1.md)
                - [4.2 릴리스 노트](./release-info/release-notes-4-2.md)
          - [4.1.x 릴리스 노트](./release-info/release-notes-4-1.md)
-         - [4.0.x 릴리스 노트](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x 릴리스 노트](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - 사용 안내서 (새 UI) {#user-guide}
    - 소개 {#about-aemg}
       - [ [!DNL Adobe Experience Manager Guides] 정보](./user-guide/intro.md)
@@ -173,6 +177,7 @@ ht-degree: 8%
          - [맵 만들기](./user-guide/map-editor-create-map.md)
          - [사용자 지정된 템플릿을 기반으로 맵 만들기](./user-guide/create-maps-customized-templates.md)
          - [맵 편집기 기능](./user-guide/map-editor-advanced-map-editor.md)
+         - [파일 다운로드](./user-guide/authoring-download-assets.md)
          - [맵 편집기의 추가 기능](./user-guide/map-editor-other-features.md)
       - DITAVAL 편집기 {#ditaval-editor}
          - [DITAVAL 편집기 사용](./user-guide/ditaval-editor.md)
@@ -275,9 +280,11 @@ ht-degree: 8%
          - [주요 개념, 역할 및 권한, 전제 조건](./user-guide/authoring.md)
          - [파일 업로드](./user-guide/authoring-upload-existing-files.md)
          - [파일 및 폴더 관리](./user-guide/authoring-file-management.md)
-         - [파일 다운로드](./user-guide/authoring-download-assets.md)
+         - [에셋 처리 또는 재처리](./user-guide/asset-processor.md)
+      - 문제 해결 {#troubleshooting}
+         - [세션 시간 초과](./user-guide/session-timeout-prompt.md)
 - 사용 안내서 (이전 UI) {#user-guide-old-ui}
-   - [AEM Guides 개요](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides 개요](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 설치 및 구성 {#install-guide}
    - 온프레미스 {#on-prem-ig}
       - [On-Premise 기본 사항](./install-guide/introduction.md)

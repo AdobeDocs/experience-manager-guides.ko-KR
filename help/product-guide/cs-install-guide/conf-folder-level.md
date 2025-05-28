@@ -5,9 +5,9 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: 8ee4863470f69bca52a9b36cde52703e4d6643bc
+source-git-commit: 10c0a105c09f5a20b5bf2ef9b3201e7747048a8a
 workflow-type: tm+mt
-source-wordcount: '4756'
+source-wordcount: '4794'
 ht-degree: 0%
 
 ---
@@ -456,7 +456,7 @@ AI 기반의 스마트 제안을 구성하고 작성자가 기존 콘텐츠를 �
 
 ![AEM 클라우드 ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service.
 
-작성자가 질문을 하고 [Experience Manager Guides 설명서](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/overview)에서 필요한 콘텐츠를 쉽게 찾을 수 있도록 AI 기반 스마트 **도움말**&#x200B;을 구성할 수 있습니다.
+작성자가 질문을 하고 [Experience Manager Guides 설명서](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)에서 필요한 콘텐츠를 쉽게 찾을 수 있도록 AI 기반 스마트 **도움말**&#x200B;을 구성할 수 있습니다.
 
 **XML 편집기 구성** 탭에서 **도움말** 패널의 기본 질문을 구성할 수 있습니다.
 
@@ -508,7 +508,11 @@ AI 기반의 스마트 제안을 구성하고 작성자가 기존 콘텐츠를 �
 
 이 설정을 사용하면 `ui_config.json` 파일에서 수정된 사항을 반영하는 JSON 확장을 만들 수 있습니다. 폴더 프로필 수준에서 이러한 확장을 독립적으로 업로드하여 향상된 유연성과 사용자 지정을 제공할 수 있습니다. 예를들어, 단추를 업데이트하는 등 **XML 편집기 구성**&#x200B;을 변경하면 시스템이 자동으로 차이점을 식별합니다. 이러한 변경 사항을 **XML 편집기 UI 구성**&#x200B;에 업로드하고 **UI 구성을 JSON으로 변환** 단추를 사용하여 JSON 확장으로 변환하면 시스템이 새 기능을 통합하는 확장을 생성합니다.
 
-[JSON 구성 사용자 지정 및 새 AEM Guides 편집기의 UI 구성 전환](https://experienceleague.adobe.com/ko/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config)에 대해 자세히 알아보십시오.
+[JSON 구성 사용자 지정 및 새 AEM Guides 편집기의 UI 구성 전환](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config)에 대해 자세히 알아보십시오.
+
+>[!NOTE]
+>
+> 확장 프레임워크를 사용하여 앱을 사용자 지정할 때 배포 중에 문제가 발생하지 않도록 트리, 테이블, 확인란, 라디오 버튼 및 라디오 그룹 등과 같이 지원되는 필수 React 스펙트럼 구성 요소만 사용하는 것이 좋습니다.
 
 **XML 편집기 페이지 레이아웃**
 
