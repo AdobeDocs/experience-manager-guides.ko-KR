@@ -1,7 +1,8 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides, 2025.06.0 릴리스의 문제가 해결되었습니다.
 description: Adobe Experience Manager Guides as a Cloud Service 2025.06.0 릴리스의 버그 수정에 대해 알아봅니다.
-source-git-commit: 78d8896982ff73e954de6d6daa9832faf30ed3b3
+exl-id: 0f362ab3-0fae-4eba-bbd6-0b64ae1f2599
+source-git-commit: 83be0a1e051bfc524ff2448397d87349f30b4301
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 4%
@@ -18,7 +19,6 @@ ht-degree: 4%
 
 ## 작성
 
-- 통합 셸이 활성화된 DITA 맵을 열면 편집기가 간헐적으로 새로 고쳐집니다. (GUIDES-26919)
 - 항목을 업데이트하거나 만드는 동안 JCR 세션 연결을 닫지 않으면 메모리 누수가 발생하고 서비스 다운타임이 발생합니다. (GUIDES-26282)
 - 열을 드래그하면 너비가 백분율에서 픽셀 값으로 변경되어 테이블이 왜곡되거나 잘못 정렬됩니다.(GUIDES-23128)
 - 콘텐츠를 `code block`에 붙여넣거나 `code block`에 공백을 추가하고 보기를 전환하면 간격이 손실됩니다. (GUIDES-27478)
@@ -47,6 +47,8 @@ ht-degree: 4%
 Adobe은 2025.06.0 릴리스에 대해 다음과 같은 알려진 문제를 확인했습니다.
 
 - [찾기 및 바꾸기] 옵션을 사용하는 경우 파일에 [단일 발생 항목 바꾸기] 작업을 적용한 후 [찾기 및 바꾸기] 패널에서 추가 작업을 수행할 수 없습니다. (GUIDES-28930)
+
+- 통합 셸이 활성화된 DITA 맵을 열면 편집기가 간헐적으로 새로 고쳐집니다. (GUIDES-26919)
 
 - 폴더 프로필에서 이미 인덱싱된 에셋이 UI에서 삭제되면 해당 인덱싱된 경로가 제거되지 않고, 다시 인덱싱하려는 시도가 실패하고 오류 메시지가 표시됩니다. (GUIDES-29147) <br>**해결 방법:** 다시 색인화를 시작하기 전에 더 이상 존재하지 않는 오래된 경로를 제거해야 합니다.
 

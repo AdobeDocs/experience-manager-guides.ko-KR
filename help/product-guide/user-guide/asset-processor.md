@@ -4,7 +4,8 @@ description: 에셋 처리 방법 알아보기
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: b0e744baeb6867bfc9e7d212ec53e581812d8f63
+exl-id: 27786098-119c-4b7a-8275-8a89d435294f
+source-git-commit: 851dafc1f17864bf6a295de7be12ffe513c3af57
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 0%
@@ -27,7 +28,7 @@ ht-degree: 0%
 1. **도구** 패널에서 **안내서**&#x200B;를 선택합니다.
 1. **자산 프로세서** 타일을 선택하십시오.
 
-   ![흐름 자산 프로세서](images/flow-asset-processor.png){width="550" align="left"}
+   ![흐름 자산 프로세서](images/flow-asset-processor.png){align="left"}
 
 1. 아래 표시된 세부 정보가 포함된 Guides Asset Processor 창이 열립니다. 또한 최근 5개의 마이그레이션과 관련된 정보만 이 창에 표시됩니다.
 
@@ -43,7 +44,7 @@ ht-degree: 0%
 
    - **상태**: 재처리 상태를 진행 중, 완료됨 또는 취소됨으로 가리킵니다.
 
-   ![Guides-asset-processor](images/guides-asset-processor.png){width="550" align="left"}
+   ![Guides-asset-processor](images/guides-asset-processor.png){align="left"}
 
 1. 창 오른쪽 상단의 **새 프로세스** 탭을 선택하여 새 처리 작업을 시작합니다.
 
@@ -66,20 +67,16 @@ ht-degree: 0%
 
 - **다시 시작** : 이전에 성공한 에셋 처리 작업을 다시 시작합니다.
 
-  ![자산 프로세서 다시 시작](images/restart-asset-processor.png){width="550" align="left"}
+  ![자산 프로세서 다시 시작](images/restart-asset-processor.png){align="left"}
 
 - **다시 시작** : 이전에 취소되었거나 실패한 자산 처리 작업을 다시 시작합니다.
 
-  ![자산 프로세서 다시 시작](images/resume-asset-processor.png){width="550" align="left"}
+  ![자산 프로세서 다시 시작](images/resume-asset-processor.png){align="left"}
 
 - **취소** : 현재 진행 중인 자산 처리 작업을 취소합니다.
 
-  ![cancel-asset-processor](images/cancel-asset-processor.png){width="550" align="left"}
+  ![cancel-asset-processor](images/cancel-asset-processor.png){align="left"}
 
 - **로그 보기**: 에셋 처리 작업에 대한 로그를 표시합니다. 진행 중인 작업의 경우 로그에 예상 남은 시간 및 에셋 상태를 포함한 자세한 처리 정보가 표시됩니다. 이 로그 목록에는 최대 500개의 항목이 표시됩니다. 전체 로그를 다운로드할 수 있습니다.
 
-  ![logs-asset-processor](images/logs-asset-processor.png){width="550" align="left"}
-
-
-
-
+  ![logs-asset-processor](images/logs-asset-processor.png){align="left"}
