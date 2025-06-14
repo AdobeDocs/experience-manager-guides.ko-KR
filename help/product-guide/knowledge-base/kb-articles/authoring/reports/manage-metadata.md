@@ -57,8 +57,8 @@ ht-degree: 1%
 
 ## 기타 유용한 리소스
 
-- [맵 대시보드를 사용하여 일괄 태그 지정(Assets UI)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/manaege-metadata/map-editor-bulk-tagging.html?lang=en)
-- [웹 편집기의 Ditamap 보고서](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/reports-aem-guide/reports-web-editor.html?lang=en)
+- [맵 대시보드를 사용하여 일괄 태그 지정(Assets UI)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/manaege-metadata/map-editor-bulk-tagging.html?lang=ko)
+- [웹 편집기의 Ditamap 보고서](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/reports-aem-guide/reports-web-editor.html?lang=ko)
 - [AEM의 태그 지정](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/configuring/tagging.html?lang=ko)
 
 

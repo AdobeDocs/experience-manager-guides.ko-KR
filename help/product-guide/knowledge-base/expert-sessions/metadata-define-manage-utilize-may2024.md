@@ -45,7 +45,7 @@ Adobe Experience Manager Guides을 사용하면 시스템에서 관리되는 콘
 - [DITA 에셋에서 메타데이터 관리](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/knowledge-base/kb-articles/authoring/reports/manage-metadata)
 - [메타데이터로 DITA 메타데이터 추출](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/install-guide/cs-ig/aem-asset-search-cs/conf-dita-search#id192SF0G10YK)
 - [DITA-OT 출력에서 메타데이터 사용](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/conf-output-generation#id191LF0U0TY4)
-- [기본 PDF에서 메타데이터 사용](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/web-editor/native-pdf-web-editor#native-pdf-publishing)
+- [기본 PDF에서 메타데이터 사용](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/user-guide/output-gen/web-editor/native-pdf-web-editor#native-pdf-publishing)
 
 
 ### 커뮤니티 포럼
