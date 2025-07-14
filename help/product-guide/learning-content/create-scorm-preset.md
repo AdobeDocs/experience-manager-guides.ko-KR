@@ -24,7 +24,7 @@ SCORM 출력 사전 설정을 만들려면 다음 단계를 수행하십시오.
    ![](assets/scorm-preset.png){width="350" align="left"}
 
 1. **이름** 필드에 이 사전 설정의 이름을 입력하십시오.
-1. **추가**를 선택합니다.
+1. **추가**&#x200B;를 선택합니다.
 SCORM 사전 설정이 만들어집니다. 필요한 구성을 수행할 수 있는 SCORM 사전 설정 페이지가 열립니다.
 
    ![](assets/scorm-output-preset.png){width="800" align="left"}

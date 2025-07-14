@@ -18,7 +18,7 @@ ht-degree: 2%
 
    ![](assets/workflow-learning-content.png){width="650" align="left"}
 
-1. **학습 콘텐츠**를 선택하십시오.
+1. **학습 콘텐츠**&#x200B;를 선택하십시오.
 새 학습 콘텐츠 대화 상자가 표시됩니다.
 
    ![](assets/learning-content-dialog.png){width="350" align="left"}
