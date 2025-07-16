@@ -3,7 +3,8 @@ title: 학습 콘텐츠 만들기
 description: 학습 및 교육 콘텐츠에서 학습 콘텐츠를 만드는 방법에 대해 설명합니다.
 feature: Authoring
 role: User
-source-git-commit: 110082f38f170d277dfd745a4fce77ad030707c3
+exl-id: a08a165d-801b-4b35-9626-b27471349327
+source-git-commit: 57ddd498cd06d7d8cb511b0c3108591280a35bdb
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 2%
@@ -18,8 +19,8 @@ ht-degree: 2%
 
    ![](assets/workflow-learning-content.png){width="650" align="left"}
 
-1. **학습 콘텐츠**&#x200B;를 선택하십시오.
-새 학습 콘텐츠 대화 상자가 표시됩니다.
+1. **학습 콘텐츠**를 선택하십시오.
+**새 학습 콘텐츠** 대화 상자가 표시됩니다.
 
    ![](assets/learning-content-dialog.png){width="350" align="left"}
 
@@ -35,4 +36,3 @@ ht-degree: 2%
 >[!NOTE]
 >
 > 새 학습 콘텐츠를 만들면 버전 1.0이 자동으로 할당됩니다.
-
