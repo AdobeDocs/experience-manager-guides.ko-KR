@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 살펴보십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: cc57af80f2556a9be9a7cc610ae0efa50e0e086b
+source-git-commit: 200aae4c5d05531da5413c80a1cf254d2c0f0ec3
 workflow-type: tm+mt
-source-wordcount: '2283'
+source-wordcount: '2282'
 ht-degree: 8%
 
 ---
@@ -140,8 +140,8 @@ ht-degree: 8%
                - [4.2.1 릴리스 정보](./release-info/release-notes-4-2-1.md)
                - [4.2 릴리스 노트](./release-info/release-notes-4-2.md)
          - [4.1.x 릴리스 노트](./release-info/release-notes-4-1.md)
-         - [4.0.x 릴리스 노트](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x 릴리스 노트](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - 사용 안내서 (새 UI) {#user-guide}
    - 소개 {#about-aemg}
       - [ [!DNL Adobe Experience Manager Guides] 정보](./user-guide/intro.md)
@@ -286,9 +286,9 @@ ht-degree: 8%
       - 시작 안내서 {#get-started}
          - 소개 {#intro-lc}
             - [학습 및 교육 콘텐츠 개요](./learning-content/intro.md)
-            - [학습 및 교육 콘텐츠 인터페이스 액세스](./learning-content/access-lc-interface.md)
          - 과정 설정 {#setup-course}
             - [강의 개요](./learning-content/course-overview.md)
+            - [인터페이스 및 사전 요구 사항 살펴보기](./learning-content/access-lc-interface-preq.md)
             - [첫 번째 과정 만들기](./learning-content/create-first-course.md)
             - [Course Manager 기본 사항 이해](./learning-content/course-manager-basics.md)
             - [과정 관리](./learning-content/manage-course.md)
@@ -335,7 +335,7 @@ ht-degree: 8%
       - 문제 해결 {#troubleshooting}
          - [세션 시간 초과](./user-guide/session-timeout-prompt.md)
 - 사용 안내서 (이전 UI) {#user-guide-old-ui}
-   - [AEM Guides 개요](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides 개요](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 설치 및 구성 {#install-guide}
    - 온프레미스 {#on-prem-ig}
       - [On-Premise 기본 사항](./install-guide/introduction.md)
