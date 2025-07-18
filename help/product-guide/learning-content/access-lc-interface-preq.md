@@ -3,7 +3,7 @@ title: 인터페이스 및 사전 요구 사항 살펴보기
 description: Adobe Experience Manager Guides에서 학습 및 교육 콘텐츠로 작업할 때 발생하는 인터페이스와 사전 요구 사항을 살펴보십시오.
 feature: Authoring
 role: User
-source-git-commit: 200aae4c5d05531da5413c80a1cf254d2c0f0ec3
+source-git-commit: eda6c57d80359b1c70266708dc444f4880e1bf6c
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
    자세한 내용은 [Adobe Experience Manager Guides 홈 페이지 경험](../user-guide/intro-home-page.md)을 참조하세요.
 
-   ![](assets/aem-navigation-switcher.png){width="300" align="left"}
+   ![](assets/aem-navigation-switcher.png){width="350" align="left"}
 
 ## 사전 요구 사항
 
