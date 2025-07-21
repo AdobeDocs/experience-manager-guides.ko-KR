@@ -1,9 +1,10 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides, 2025.07.0 릴리스의 문제가 해결되었습니다.
 description: Adobe Experience Manager Guides as a Cloud Service 2025.07.0 릴리스의 버그 수정에 대해 알아봅니다.
-source-git-commit: bf8b295444a1e21fc19bfbc04efaa20fe78f71bb
+exl-id: 0744e821-5aee-432b-a6c8-7ed6538935db
+source-git-commit: c4d3cdd2a0a98b7c9c937c66c5c3130bf4c5c164
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '527'
 ht-degree: 4%
 
 ---
@@ -50,6 +51,6 @@ ht-degree: 4%
 Adobe은 2025.07.0 릴리스에 대해 다음과 같은 알려진 문제를 확인했습니다.
 
 - Markdown 주제를 사용하여 작업할 때 **주제 참조** 단추가 편집기 도구 모음에 표시되지만 작동하지 않습니다. (GUIDES-31038)
-- Adobe Experience Manager 데스크탑 앱을 사용하여 대문자 이름을 가진 폴더를 업로드할 때 대/소문자가 유지되지 않고 편집기에서 이름이 소문자로 표시됩니다. (GUIDES-30909)
+- 편집기의 폴더 제목 대신 폴더 노드 이름이 잘못 표시됩니다. (GUIDES-30909)
 - **병합** 대화 상자에서 드롭다운 목록에 선택한 주제의 사용 가능한 버전이 표시되지 않고 **주 콘텐츠**&#x200B;가 잘못 표시됩니다. (GUIDES-30820)
 - 통합 셸이 활성화된 DITA 맵을 열면 편집기가 간헐적으로 새로 고쳐집니다.(GUIDES-26919)
