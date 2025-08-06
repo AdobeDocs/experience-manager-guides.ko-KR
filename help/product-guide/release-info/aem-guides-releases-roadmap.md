@@ -3,9 +3,9 @@ title: Adobe Experience Manager Guides 릴리스 로드맵 2024
 description: Adobe Experience Manager Guides 온프레미스 및 Adobe Experience Manager Guides as a Cloud Service의 라이브 및 예정된 릴리스에 대한 정보를 가져옵니다
 role: Admin, Leader, Developer, User
 exl-id: cb6709ce-2732-45d0-adfd-5aeca520240e
-source-git-commit: b79084e369ecc92c4b20447069f8b0b52b4a42b8
+source-git-commit: ff74fa80826eec9fffb06c84b1dd6fa8678f4fc3
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '457'
 ht-degree: 30%
 
 ---
@@ -35,7 +35,7 @@ Experience Manager Guides as a Cloud Service의 릴리스는 다음과 같이 �
 
 | 릴리스 | 이벤트 | 일정 | 새로운 기능 | 업그레이드 지침 | 해결된 문제 | 상태 |
 |---|---|---|---|---|---|---|
-| Adobe Experience Manager Guides 2025.07.0 | 자동 업데이트 | 2025년 7월 14~16일 | [여기](whats-new-2025-07-0.md) | [여기](upgrade-instructions-2025-07-0.md) | [여기](fixed-issues-2025-07-0.md) | 업데이트됨 |
+| Adobe Experience Manager Guides 2025.07.0 <br> [(AEM 릴리스 - 21570)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2025/2025-7-0?lang=en#21570) | 자동 업데이트 | 2025년 7월 14~16일 | [여기](whats-new-2025-07-0.md) | [여기](upgrade-instructions-2025-07-0.md) | [여기](fixed-issues-2025-07-0.md) | 업데이트됨 |
 | Adobe Experience Manager Guides 2025.6.0 | 자동 업데이트 | 2025년 6월 02~04일 | [여기](whats-new-2025-06-0.md) | [여기](upgrade-instructions-2025-06-0.md) | [여기](fixed-issues-2025-06-0.md) | 업데이트됨 |
 | Adobe Experience Manager Guides 2025.4.0 | 자동 업데이트 | 2025년 5월 05~07일 | [여기](whats-new-2025-04-0.md) | [여기](upgrade-instructions-2025-04-0.md) | [여기](fixed-issues-2025-04-0.md) | 업데이트됨 |
 | Adobe Experience Manager Guides 2025.2.0 | 자동 업데이트 | 2025년 3월 10~12일 | [여기](whats-new-2025-02-0.md) | [여기](upgrade-instructions-2025-02-0.md) | [여기](fixed-issues-2025-02-0.md) | 업데이트됨 |
