@@ -49,4 +49,4 @@ FrameMaker에서 일괄 업로드 기능을 사용하는 방법에 대한 자세
 
 Adobe Experience Manager 데스크탑 앱이나 자산 대량 수집기와 같은 도구를 사용하는 경우 중복 파일에서 수행할 작업은 Adobe Experience Manager 서버의 설정에 의해 제어됩니다. 이 구성에 대해 알아보려면 시스템 관리자에게 문의하십시오.
 
-**상위 항목:**[&#x200B;콘텐츠 관리](authoring.md)
+**상위 항목:**&#x200B;[&#x200B;콘텐츠 관리](authoring.md)
