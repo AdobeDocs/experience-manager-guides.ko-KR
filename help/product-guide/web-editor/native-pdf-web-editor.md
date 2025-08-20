@@ -184,7 +184,7 @@ ht-degree: 0%
 | **대화형 PDF 양식 만들기** | 생성된 PDF 출력에서 향상된 사용자 입력을 위해 대화형 및 사용자 지정 가능한 PDF 양식 필드를 포함하려면 이 옵션을 선택합니다. |
 | **트랙 변경 내용 포함** | 간편한 검토 및 비교를 위해 생성된 PDF에서 추적된 변경 사항을 포함하려면 이 옵션을 선택합니다. |
 | **임시 파일 유지** | 기본 PDF 출력을 생성하는 동안 생성된 임시 HTML 파일을 유지하려면 이 옵션을 선택합니다. 출력을 생성한 후 나중에 임시 파일을 다운로드할 수 있습니다. 다운로드한 파일에는 작성자 URL, 로컬 URL 및 게시 URL에 대한 정보를 제공하는 `system_config.xml` 파일도 포함됩니다. 이러한 URL은 AEM 외부화 설정에 구성되어 `system_config.xml` 파일에 반영됩니다. |
-| **PDF 적합성** | PDF이 준수되는지 확인하기 위해 저장하려는 표준입니다. 드롭다운에서 을(를) 선택하여 사용 가능한 PDF 표준 목록에서 을(를) 선택합니다. 지원되는 표준에 대한 자세한 내용은 [PDF 표준 정보](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards)를 참조하십시오. |
+| **PDF 적합성** | PDF이 준수되는지 확인하기 위해 저장하려는 표준입니다. 드롭다운에서 을(를) 선택하여 사용 가능한 PDF 표준 목록에서 을(를) 선택합니다. 지원되는 표준에 대한 자세한 내용은 [PDF 표준 정보](https://helpx.adobe.com/kr/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards)를 참조하십시오. |
 | **파일 속성** | 기본 PDF 게시로 전달할 메타데이터를 선택합니다. 드롭다운에 사용자 지정 및 기본 속성이 모두 나열됩니다. 예를 들어 `dc:description`, `dc:language`, `dc:title` 및 `docstate`은(는) 기본 속성이지만 `author`을(를) 사용자 지정 속성으로 가질 수 있습니다. 선택한 메타데이터 속성은 기본 PDF을 사용하여 생성된 PDF 파일로 전달됩니다. <br> 다음 위치에 있는 `metadataList` 파일에서 이러한 속성을 선택합니다.`/libs/fmdita/config/metadataList`. <br>이 파일은 `/apps/fmdita/config/metadataList`에 오버레이할 수 있습니다. |
 
 
