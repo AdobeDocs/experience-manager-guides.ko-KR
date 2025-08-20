@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 살펴보십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: 200aae4c5d05531da5413c80a1cf254d2c0f0ec3
+source-git-commit: 3b306a873f3b71078256407d977e8bdd5af1180b
 workflow-type: tm+mt
-source-wordcount: '2282'
+source-wordcount: '2323'
 ht-degree: 8%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 8%
       - 클라우드 서비스 {#cloud-release-notes}
          - [배포 지침](./release-info/deploy-xml-on-aemaacs.md)
          - 2025 릴리스 {#2025-releases}
+            - 2025.08.0 릴리스 {#2508-release}
+               - [새로운 기능](./release-info/whats-new-2025-08-0.md)
+               - [해결된 문제](./release-info/fixed-issues-2025-08-0.md)
+               - [업그레이드 지침](./release-info/upgrade-instructions-2025-08-0.md)
             - 2025.07.0 릴리스 {#2507-release}
                - [새로운 기능](./release-info/whats-new-2025-07-0.md)
                - [해결된 문제](./release-info/fixed-issues-2025-07-0.md)
@@ -140,8 +144,8 @@ ht-degree: 8%
                - [4.2.1 릴리스 정보](./release-info/release-notes-4-2-1.md)
                - [4.2 릴리스 노트](./release-info/release-notes-4-2.md)
          - [4.1.x 릴리스 노트](./release-info/release-notes-4-1.md)
-         - [4.0.x 릴리스 노트](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x 릴리스 노트](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - 사용 안내서 (새 UI) {#user-guide}
    - 소개 {#about-aemg}
       - [ [!DNL Adobe Experience Manager Guides] 정보](./user-guide/intro.md)
@@ -194,11 +198,14 @@ ht-degree: 8%
       - [리뷰 소개](./user-guide/review.md)
       - [DITA 프로젝트 만들기](./user-guide/authoring-create-dita-project.md)
       - [검토할 항목 보내기](./user-guide/review-send-topics-for-review.md)
-      - [알림을 사용하여 검토 작업 재할당](./user-guide/reassign-review-using-notification.md)
       - [주제 검토](./user-guide/review-topics.md)
+      - [알림을 사용하여 검토 작업 재할당](./user-guide/reassign-review-using-notification.md)
+      - [검토자로 검토 작업 완료](./user-guide/review-complete-review-tasks.md)
       - [리뷰 댓글 처리](./user-guide/review-address-review-comments.md)
+      - [리뷰 작업을 닫거나 재검토 요청](./user-guide/review-close-review-task.md)
       - [검토 대시보드를 사용하여 검토 작업 관리](./user-guide/review-manage-tasks-review-dashboard.md)
       - [완료된 검토 작업 보기](./user-guide/review-view-completed-task.md)
+      - [검토 알림 이해](./user-guide/review-understanding-review-notifications.md)
    - Adobe Workfront을 사용하여 공동 작업 {#workfront-integration}
       - [Experience Manager Guides과 Workfront 통합](./user-guide/workfront-integration.md)
    - 메타데이터 및 태깅 {#manage-metadata}
@@ -335,7 +342,7 @@ ht-degree: 8%
       - 문제 해결 {#troubleshooting}
          - [세션 시간 초과](./user-guide/session-timeout-prompt.md)
 - 사용 안내서 (이전 UI) {#user-guide-old-ui}
-   - [AEM Guides 개요](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides 개요](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 설치 및 구성 {#install-guide}
    - 온프레미스 {#on-prem-ig}
       - [On-Premise 기본 사항](./install-guide/introduction.md)
@@ -421,6 +428,7 @@ ht-degree: 8%
                - [JavaScript을 사용하여 콘텐츠 또는 스타일 작업](./native-pdf/use-javascript-content-style.md)
                - [각주에 스타일 적용](./native-pdf/footnote-number-style.md)
          - [기본 PDF 게시를 위한 JVM 플래그 구성](./native-pdf/configure-jvm-flags.md)
+         - [게시 출력을 위한 기본 출력 위치 구성](./native-pdf/configure-base-output-location.md)
          - 사용자 정의 워크플로우를 사용하여 작업 {#custom-workflow}
          - [워크플로우 구성 및 사용자 정의](./install-guide/customize-workflows.md)
       - 번역 구성 작업 {#translate-config}
@@ -499,6 +507,7 @@ ht-degree: 8%
          - [기본 PDF 게시를 위한 노드 프로세스 구성](./native-pdf/configure-node-options.md)
          - [주제와 컨텐츠 조각 간의 매핑 만들기](./cs-install-guide/conf-content-fragment-mapping-cs.md)
          - [주제와 경험 조각 간의 매핑 만들기](./cs-install-guide/conf-experience-fragment-mapping-cs.md)
+         - [게시 출력을 위한 기본 출력 위치 구성](./native-pdf/configure-base-location-cs.md)
       - 사용자 정의 워크플로우를 사용하여 작업 {#custom-workflow-cs}
          - [워크플로우 구성 및 사용자 정의](./cs-install-guide/customize-workflows.md)
       - 번역 구성 작업 {#translate-config-cs}

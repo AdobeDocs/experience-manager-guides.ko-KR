@@ -4,9 +4,9 @@ description: AEM Guides에서 항목을 검토하고 검토자, 문서 보기, �
 exl-id: fc87fc37-f1cd-4a19-96c2-3a08a8222002
 feature: Reviewing
 role: User
-source-git-commit: 9197cb757e3b883d81eee8a72c797b74cf06e570
+source-git-commit: b7648fe1d36de3c243ca5a55f42a41f7523056ce
 workflow-type: tm+mt
-source-wordcount: '2476'
+source-wordcount: '2655'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 0%
 # 주제 검토 {#id2056B0W0FBI}
 
 검토자인 경우 검토 주제에 대한 링크가 포함된 검토 요청 이메일을 받게 됩니다. 이 링크를 사용하여 공유 주제에 대한 피드백을 추가할 수 있는 검토 페이지에 액세스할 수 있습니다.
+
+>[!NOTE]
+>
+> 통지에서 검토 요청에 액세스하는 동안 동일한 검토 프로젝트에 속한 다른 사용자에게 재할당하도록 선택할 수 있습니다. 자세한 내용은 [알림을 사용하여 검토 작업 다시 할당](./reassign-review-using-notification.md)을 참조하십시오.
 
 항목을 검토하려면 다음 단계를 수행하십시오.
 
@@ -33,8 +37,6 @@ ht-degree: 0%
    >
    > - Adobe Experience Manager Guides as a Cloud Service 2022년 11월 릴리스 또는 이전
    > - Adobe Experience Manager Guides 버전 4.1 이하
-
-
 
    DITA 맵을 사용하여 검토 워크플로우를 시작하면 다음 화면이 나타납니다.
 
@@ -162,6 +164,21 @@ ht-degree: 0%
 
 ![](images/review-preview-mode.png){width="550" align="left"}
 
+
+**댓글에 작업 사용자에 태그 지정**
+
+여러 검토자와 검토 작업에 대해 공동 작업을 수행할 때 새 댓글과 답글 모두에서 특정 사용자에게 태그를 지정하여 커뮤니케이션을 향상시킬 수 있습니다. 검토자는 동일한 검토 작업에 관련된 다른 사용자에게 태그를 지정하여 주의를 끌거나 후속 작업을 할당하는 동안 댓글을 시작하거나 기존 댓글에 응답할 수 있습니다. 이 기능은 활성 검토 작업에만 사용할 수 있습니다.
+
+>[!NOTE]
+>
+> 검토 작업에 할당된 사용자 목록을 보고 댓글에 태그를 지정하려면 *개 노드에*&#x200B;읽기`/home/users and /home/groups` 액세스 권한이 있어야 합니다. 자세한 내용은 [사용자 관리 및 보안](../cs-install-guide/user-admin-sec.md#additional-notes-on-user-groups)을 확인하세요. <br> 액세스를 확인한 후에도 태그 지정을 사용할 수 없는 경우 관리자가 이 기능을 사용하려면 `user-admin` 라이선스를 할당해야 할 수 있습니다.
+
+![](images/tag-users-review-ui.png){width="350" align="left"}
+
+태그가 지정된 사용자는 이메일과 AEM 알림을 모두 받아 즉시 알림을 받을 수 있습니다. 검토 알림을 트리거하는 방법에 대한 자세한 내용은 [검토 알림 이해](./review-understanding-review-notifications.md)를 참조하세요.
+
+![](images/mentioned-in-tags-author.png){width="350" align="left"}
+
 **댓글에 첨부 파일 추가** -   일부 다른 파일에서 사용 가능한 추가 정보를 제공하여 댓글을 보완하려는 경우 댓글과 함께 첨부하면 됩니다. 검토자는 로컬 시스템에서 하나 이상의 파일을 주석에 쉽게 추가할 수 있습니다. 강조, 취소선, 텍스트 삽입 또는 댓글과 같이 지원되는 모든 형식의 댓글에 파일을 추가할 수 있습니다.
 
 주석을 삽입하면 주석 팝업이 나타납니다. 팝업에 추가 의견이나 정보를 제공한 후 Enter 키를 눌러 제출합니다. 댓글이 추가되면 해당 댓글에 첨부 파일을 추가할 수 있는 옵션이 제공됩니다.
@@ -257,4 +274,4 @@ ht-degree: 0%
 
 필터를 제거하고 모든 댓글을 보려면 **필터 유형** 대화 상자에서 모든 필터를 선택 취소하고 **적용**&#x200B;을 선택하십시오.
 
-**상위 항목:**&#x200B;[&#x200B;검토 소개](review.md)
+**상위 항목:**[&#x200B;검토 소개](review.md)

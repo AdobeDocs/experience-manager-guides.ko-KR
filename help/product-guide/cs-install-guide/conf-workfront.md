@@ -5,9 +5,9 @@ feature: Authoring
 role: Admin
 level: Experienced
 exl-id: 1f72642c-e694-47cd-9182-f4f4aaf69655
-source-git-commit: d5068ac73748ec7bc047450a947924b40977748f
+source-git-commit: 4ac91ae3be8a7eda99389288c4a70a2047456071
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '532'
 ht-degree: 3%
 
 ---
@@ -23,12 +23,12 @@ Experience Manager Guides의 [Adobe Workfront 통합](../user-guide/workfront-in
 시작하기 전에 다음을 확인하십시오.
 
 1. Adobe Workfront에 대한 표준 액세스 권한과 Experience Manager Guides에 대한 관리자 액세스 권한이 있습니다.
-2. 아래 필드를 사용하여 Adobe WorkfrontExperience Manager Guides 에 필요한 [새 사용자 정의 양식을 만듭니다](https://experienceleague.adobe.com/ko/docs/workfront/using/administration-and-setup/customize/custom-forms/design-a-form/design-a-form).
+2. 아래 필드를 사용하여 Adobe WorkfrontExperience Manager Guides 에 필요한 [새 사용자 정의 양식을 만듭니다](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/customize/custom-forms/design-a-form/design-a-form).
 
    | 필드 유형 | 레이블 | 이름 | 선택 사항(값 표시 활성화됨) |
    |------------|------|------|-------------------------------|
    | 단일 선택 드롭다운 | 작업 유형 | 작업 유형 | 작성(값 = 작성자), 게시(값 = 게시), 번역(값 = 번역), 검토(값 = 검토) |
-   | 단일 선택 드롭다운 | 작업 상태 | task-state | 작성(값 = 작성자), 검토(값 = 검토) |
+   | 단일 선택 드롭다운 | 작업 상태 | task-state | 작성(값 = 작성자), 게시(값 = 게시), 번역(값 = 번역), 검토(값 = 검토) |
    | 서식이 있는 텍스트 | 작성자 목록 | author-list | - |
    | 서식이 있는 텍스트 | 검토자 목록 | 검토자 목록 | - |
    | 한 줄 텍스트 | URL 검토 | review-url | - |
@@ -39,6 +39,8 @@ Experience Manager Guides의 [Adobe Workfront 통합](../user-guide/workfront-in
 >
 > * 위의 표에서 선택 항목은 **작업 유형** 필드에서 사용할 수 있는 옵션을 나타냅니다. 각 옵션에 대해 **작업 이름** 및 **작업 값**&#x200B;을 제공해야 합니다. 각 작업 유형의 이름과 값은 위의 표에 언급된 것과 정확히 동일해야 합니다. 예를 들어 작업 유형 작성자의 경우 **작성**&#x200B;을(를) 이름으로 지정하고 **작성자**&#x200B;을(를) 해당 값으로 지정하십시오.
 > * 온-프레미스 서비스로 작업할 때는 항상 `localhost`이(가) **일 CQ 링크 외부화** 구성에서 올바른 서버 주소로 바뀌는지 확인하여 전자 메일 알림에서 해결된 작업 링크를 제대로 수신해야 합니다.
+> * Workfront에서 검토 작업을 만들 때 사용자(작성자 또는 검토자)는 **workflow-users** 그룹의 일부여야 합니다. 또한 **작성자**&#x200B;로서 **content-authors** 및 **authors** 그룹의 일부여야 하지만 **검토자**&#x200B;로서 **검토자** 그룹의 일부여야 합니다.
+
 
 ## 시작하기
 
@@ -55,7 +57,7 @@ Experience Manager Guides에서 Adobe Workfront을 구성하려면 다음 단계
 
    Adobe Workfront 설정에 구성된 **클라이언트 ID** 및 **클라이언트 암호** 키에 액세스하려면 `Setup >> Systems>> oAuth2 Applications`(으)로 이동하십시오.
 
-   Adobe Workfront 도메인 구성에 대한 자세한 내용은 [Workfront 통합을 위한 OAuth2 애플리케이션 만들기](https://experienceleague.adobe.com/ko/docs/workfront/using/administration-and-setup/configure-integrations/create-oauth-application#create-an-oauth2-application-using-user-credentials-authorization-code-flow)의 인증 코드 흐름 섹션을 참조하십시오.
+   Adobe Workfront 도메인 구성에 대한 자세한 내용은 [Workfront 통합을 위한 OAuth2 애플리케이션 만들기](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/configure-integrations/create-oauth-application#create-an-oauth2-application-using-user-credentials-authorization-code-flow)의 인증 코드 흐름 섹션을 참조하십시오.
 
 4. **로그인 및 확인**&#x200B;을 선택합니다.
 
@@ -67,4 +69,4 @@ Experience Manager Guides에서 Adobe Workfront을 구성하려면 다음 단계
 6. 사용자 정의 양식 드롭다운 목록에서 Experience Manager Guides용으로 만든 Adobe Workfront 사용자 정의 양식을 선택합니다. [필수 구성 요소](#prerequisites)를 봅니다.
 7. Workfront 구성 변경 사항을 적용하고 저장하려면 **저장 후 닫기**&#x200B;를 선택합니다.
 
-구성하고 나면 Adobe Workfront에 있는 것과 동일한 전자 메일 주소를 사용하여 [Experience Manager Guides에 사용자를 추가](https://experienceleague.adobe.com/ko/docs/workfront/using/administration-and-setup/add-users/create-manage-users/add-users)합니다.
+구성하고 나면 Adobe Workfront에 있는 것과 동일한 전자 메일 주소를 사용하여 [Experience Manager Guides에 사용자를 추가](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/add-users/create-manage-users/add-users)합니다.

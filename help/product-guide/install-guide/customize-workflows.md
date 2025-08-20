@@ -5,9 +5,9 @@ exl-id: 3be387b9-6ac2-4b61-afdf-fbe9d8b6cc1e
 feature: Workflow Configuration
 role: Admin
 level: Experienced
-source-git-commit: 3f61aa6615a1b9765154d55249a33136443dfa33
+source-git-commit: 01efb1f17b39fcbc48d78dd1ae818ece167f4fe5
 workflow-type: tm+mt
-source-wordcount: '1856'
+source-wordcount: '1854'
 ht-degree: 2%
 
 ---
@@ -18,20 +18,20 @@ ht-degree: 2%
 
 AEM의 워크플로우에 대한 자세한 내용은 다음을 참조하십시오.
 
-- [워크플로우 관리](https://helpx.adobe.com/kr/experience-manager/6-5/sites/administering/using/workflows.html)
+- [워크플로우 관리](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)
 
-- 워크플로 적용 및 참여: [워크플로를 사용하여 작업](https://helpx.adobe.com/kr/experience-manager/6-5/sites/authoring/using/workflows.html).
+- 워크플로 적용 및 참여: [워크플로를 사용하여 작업](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/workflows.html).
 
-- 워크플로 모델 만들기 및 워크플로 기능 확장: [워크플로 개발 및 확장](https://helpx.adobe.com/kr/experience-manager/6-5/sites/developing/using/workflows.html).
+- 워크플로 모델 만들기 및 워크플로 기능 확장: [워크플로 개발 및 확장](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/workflows.html).
 
-- 중요한 서버 리소스를 사용하는 워크플로우의 성능을 개선합니다. [동시 워크플로우 처리](https://helpx.adobe.com/kr/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance).
+- 중요한 서버 리소스를 사용하는 워크플로우의 성능을 개선합니다. [동시 워크플로우 처리](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance).
 
 
 이 항목의 섹션에서는 AEM Guides에서 제공되는 기본 워크플로우에서 수행할 수 있는 다양한 사용자 정의에 대해 설명합니다.
 
 ## 리뷰 워크플로 사용자 지정 {#id176NE0C00HS}
 
-모든 조직의 콘텐츠 작성 팀은 비즈니스 요구 사항을 충족하기 위해 특정 방식으로 작업합니다. 일부 조직에서는 전용 편집기가 있는 반면, 다른 조직에서는 편집 검토 시스템을 자동화할 수 있습니다. 예를 들어 조직에서 일반적인 작성 및 게시 작업 과정에는 작성자가 컨텐츠 작성을 완료할 때마다 검토자에게 자동으로 전달되고 검토가 완료되면 최종 출력을 생성하기 위해 게시자에게 전달되는 등의 작업이 포함될 수 있습니다. AEM에서 컨텐츠 및 에셋에서 수행하는 활동은 프로세스 형태로 결합되어 AEM 워크플로우에 매핑될 수 있습니다. AEM의 워크플로에 대한 자세한 내용은 AEM 설명서에서 [워크플로 관리](https://helpx.adobe.com/kr/experience-manager/6-5/sites/administering/using/workflows.html)를 참조하십시오.
+모든 조직의 콘텐츠 작성 팀은 비즈니스 요구 사항을 충족하기 위해 특정 방식으로 작업합니다. 일부 조직에서는 전용 편집기가 있는 반면, 다른 조직에서는 편집 검토 시스템을 자동화할 수 있습니다. 예를 들어 조직에서 일반적인 작성 및 게시 작업 과정에는 작성자가 컨텐츠 작성을 완료할 때마다 검토자에게 자동으로 전달되고 검토가 완료되면 최종 출력을 생성하기 위해 게시자에게 전달되는 등의 작업이 포함될 수 있습니다. AEM에서 컨텐츠 및 에셋에서 수행하는 활동은 프로세스 형태로 결합되어 AEM 워크플로우에 매핑될 수 있습니다. AEM의 워크플로에 대한 자세한 내용은 AEM 설명서에서 [워크플로 관리](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)를 참조하십시오.
 
 AEM Guides을 사용하면 기본 검토 워크플로를 사용자 지정할 수 있습니다. 다른 작성 또는 게시 작업 과정에서 다음 네 가지 사용자 정의 검토 관련 프로세스를 사용할 수 있습니다.
 
@@ -108,7 +108,7 @@ workflowdata.getMetaDataMap().put("ditamapHierarchy", ditamapHierarchy);
 | `startTime` | Long | `System.currentTimeMillis()` 함수를 사용하여 현재 시스템 시간을 가져옵니다. |
 | `projectPath` | 문자열 | 검토 작업이 할당될 검토 프로젝트의 경로(예: /content/projects/sampleereviewproject). |
 | `reviewType` | 문자열 | 정적 값 &quot;AEM&quot;. |
-| `versionJson` | JSON 오브젝트 | versionJson은 각 주제 개체에 다음 구조 { &quot;path&quot;: &quot;/content/dam/1-topic.dita&quot;, &quot;version&quot;: &quot;1.1&quot;, &quot;review&quot;: true, &quot;reviewers&quot;: [&quot;projects-we_retail-editor&quot;] }가 있는 검토 중인 주제 목록입니다. |
+| `versionJson` | JSON 오브젝트 | versionJson은 각 주제 개체에 다음 구조가 있는 검토에서 진행되는 주제 목록입니다. [ { &quot;path&quot;: &quot;/content/dam/1-topic.dita&quot;, &quot;version&quot;: &quot;1.1&quot;, &quot;review&quot;: true, &quot;reviewers&quot;: [&quot;projects-we_retail-editor&quot;] } ] |
 | `isDitamap` | 부울 | false/true |
 | `ditamapHierarchy` | JSON 오브젝트 | 맵을 검토용으로 보내는 경우 여기에 있는 값은 다음과 같아야 합니다.[ { &quot;path&quot;: &quot;GUID-f0df1513-fe07-473f-9960-477d4df29c87.ditamap&quot;, &quot;items&quot;: [ { &quot;path&quot;: &quot;GUID-9747e8ab-8cf1-45dd-9e20-d47d482f667d.dita&quot;, &quot;title&quot;: &quot;&quot;, &quot;items&quot;: [] } ] } ]. |
 | `ditamap` | 문자열 | 리뷰 작업의 ditamap 경로 지정 |
@@ -147,7 +147,7 @@ AEM Guides에는 사용자 지정할 수 있는 이메일 템플릿 세트가 �
 
    >[!NOTE]
    >
-   > ``libs`` 노드에서 사용할 수 있는 기본 구성 파일의 사용자 지정을 만들지 마십시오. ``apps`` 노드에서 ``libs`` 노드의 오버레이를 만들고 ``apps`` 노드에서만 필요한 파일을 업데이트해야 합니다.
+   > ``libs`` 노드에서 사용할 수 있는 기본 구성 파일의 사용자 지정을 만들지 마십시오. ``libs`` 노드에서 ``apps`` 노드의 오버레이를 만들고 ``apps`` 노드에서만 필요한 파일을 업데이트해야 합니다.
 
 1. 메일 폴더에는 다음과 같은 사용자 지정 가능한 템플릿이 포함되어 있습니다.
 
@@ -227,7 +227,7 @@ generatedPath;
    jcr:content/metadata/dc:format!=application/xml
    ```
 
-1. **저장 및 닫기** 클릭
+1. **저장 및 닫기**&#x200B;를 클릭합니다.
 
 
 ## 사후 처리 XML 워크플로우 구성 {#id18CJB03J0Y4}

@@ -4,9 +4,9 @@ description: 기본 PDF 게시를 사용하고, PDF 출력 사전 설정을 만�
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
 feature: Publishing, Native PDF Output
 role: User
-source-git-commit: 9ae2690c52ab5408a9d17e9a40a89fe1f902042f
+source-git-commit: e722ba35e27599566140709e060f3b391d50b4db
 workflow-type: tm+mt
-source-wordcount: '3083'
+source-wordcount: '3232'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 1. [맵 콘솔에서 DITA 맵 파일을 엽니다](../user-guide/open-files-map-console.md).
 
-   [개요 섹션](../user-guide/intro-home-page.md#overview)의 **최근 파일** 위젯에서 맵 파일에 액세스할 수도 있습니다. 선택한 맵 파일이 맵 콘솔에서 열립니다.
+   **개요 섹션**&#x200B;의 [최근 파일](../user-guide/intro-home-page.md#overview) 위젯에서 맵 파일에 액세스할 수도 있습니다. 선택한 맵 파일이 맵 콘솔에서 열립니다.
 1. **출력 사전 설정** 탭에서 + 아이콘을 선택하여 출력 사전 설정을 만듭니다.
 1. **새 출력 사전 설정** 대화 상자의 유형 드롭다운에서 **PDF**&#x200B;을(를) 선택합니다.
 1. **이름** 필드에서 이 사전 설정의 이름을 입력하십시오.
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 사전 설정이 만들어지면 기본 PDF 사전 설정 설정을 구성합니다. DITA-OT에 대한 사전 설정 구성 옵션은 **일반**, **메타데이터**, **레이아웃**, **보안**, **인쇄** 및 **고급** 탭에서 구성됩니다.
 
-<img src="assets/preset-panel.png" alt="사전 설정 패널" width="800">
+<img src="assets/preset-panel-new.png" alt="사전 설정 패널" width="800">
 
 **일반**
 
@@ -54,9 +54,9 @@ ht-degree: 0%
 
 | 설정 | 설명 |
 | --- | --- |
-| **출력 경로** | PDF 출력이 저장되는 AEM 저장소 내의 경로입니다. 출력 경로가 프로젝트 폴더 내에 있지 않은지 확인하십시오. 비워 두면 기본 DITA 맵 출력 위치에서 출력이 생성됩니다.<br>다음 기본 변수를 사용하여 출력 경로를 정의할 수도 있습니다. 단일 또는 변수 조합을 사용하여 이 옵션을 정의할 수 있습니다. <br> `${map_filename}`: DITA 맵 파일 이름을 사용하여 대상 경로를 만듭니다. <br> `${map_title}`: DITA 맵 제목을 사용하여 대상 경로를 만듭니다. <br>`${preset_name}`: 출력 사전 설정 이름을 사용하여 대상 경로를 만듭니다. <br> `${language_code}`: 맵 파일이 있는 언어 코드를 사용하여 대상 경로를 만듭니다. <br> `${map_parentpath}`: 맵 파일의 전체 경로를 사용하여 대상 경로를 만듭니다.  <br>`${path_after_langfolder}`: 언어 폴더 뒤에 있는 맵 파일의 경로를 사용하여 대상 경로를 만듭니다. |
+| **출력 경로** | PDF 출력이 저장되는 AEM 저장소 내의 경로입니다. 출력 경로가 프로젝트 폴더 내에 있지 않은지 확인하십시오. 출력 경로는 관리자가 구성한 변수 `${base_output_path}`을(를) 통해 설정됩니다. 출력 경로를 구성하려면 사용 중인 서비스에 따라 [클라우드 서비스에 대한 기본 출력 위치 구성](../native-pdf/configure-base-location-cs.md) 또는 [온프레미스 서비스에 대한 기본 출력 위치 구성](../native-pdf/configure-base-output-location.md)을 봅니다. <br>다음 기본 변수를 사용하여 출력 경로를 정의할 수도 있습니다. 단일 또는 변수 조합을 사용하여 이 옵션을 정의할 수 있습니다. <br> `${map_filename}`: DITA 맵 파일 이름을 사용하여 대상 경로를 만듭니다. <br> `${map_title}`: DITA 맵 제목을 사용하여 대상 경로를 만듭니다. <br>`${preset_name}`: 출력 사전 설정 이름을 사용하여 대상 경로를 만듭니다. <br> `${language_code}`: 맵 파일이 있는 언어 코드를 사용하여 대상 경로를 만듭니다. <br> `${map_parentpath}`: 맵 파일의 전체 경로를 사용하여 대상 경로를 만듭니다.  <br>`${path_after_langfolder}`: 언어 폴더 뒤에 있는 맵 파일의 경로를 사용하여 대상 경로를 만듭니다. |
 | **PDF 파일** | PDF을 저장할 파일 이름을 지정합니다. 기본적으로 PDF 파일 이름은 사전 설정 이름과 함께 DITA 맵 이름을 추가합니다. 예를 들어 ditamap은 &#39;TestMap&#39;이고 사전 설정 이름은 &#39;preset1&#39;이며 pdf의 기본 이름은 &#39;TestMap_preset1.pdf&#39;가 됩니다. <br>다음의 기본 변수를 사용하여 PDF 파일을 정의할 수도 있습니다. 단일 또는 변수 조합을 사용하여 이 옵션을 정의할 수 있습니다. <br>`${map_filename}`<br>`${map_title}`<br>`${preset_name}` <br> `${language_code}` |
-| **다음을 사용하여 조건 적용** | 조건화된 콘텐츠의 경우 아래 옵션 중 하나를 선택하여 해당 조건을 기반으로 PDF 출력을 생성합니다. <br><ul> <li> **적용되지 않음** 맵과 소스 콘텐츠에 조건을 적용하지 않으려면 이 옵션을 선택하십시오. <br><li> **Ditaval 파일** DITAVAL 파일을 선택하여 조건화된 콘텐츠를 생성합니다. 선택하려면 [조건 사전 설정]을 선택하고 파일을 찾습니다. <br> <li> **조건 사전 설정** 출력을 게시하는 동안 조건을 적용하려면 드롭다운에서 조건 사전 설정을 선택합니다. 이 옵션은 DITA 맵 파일에 대한 조건을 추가한 경우에 표시됩니다. 조건부 설정은 DITA 맵 콘솔의 조건 사전 설정 탭에서 사용할 수 있습니다. 조건 사전 설정에 대해 자세히 알아보려면 [조건 사전 설정 사용](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-condition-presets.html)을 확인하십시오. <br> </ul> |
+| **다음을 사용하여 조건 적용** | 조건화된 콘텐츠의 경우 아래 옵션 중 하나를 선택하여 해당 조건을 기반으로 PDF 출력을 생성합니다. <br><ul> <li> **적용되지 않음** 맵과 소스 콘텐츠에 조건을 적용하지 않으려면 이 옵션을 선택하십시오. <br><li> **DITAVAL 파일** 조건부 콘텐츠를 생성할 DITAVAL 파일을 선택하십시오. 찾아보기 대화 상자를 사용하거나 파일 경로를 수동으로 입력하여 여러 DITAVAL 파일을 선택할 수 있습니다. 선택한 파일을 제거하려면 해당 이름 옆에 있는 교차 아이콘을 클릭합니다. 잘못된 파일을 선택하면 **잘못된 DITAVAL 파일이 선택되었습니다**. <br> <br>각 DITAVAL 파일에는 필터링 조건 및 플래그 스타일 등 다양한 속성이 포함될 수 있습니다. 플래그 지정을 사용하면 시작 및 종료 플래그를 사용하여 콘텐츠를 시각적으로 표시할 수 있습니다. 시작 플래그에는 이미지 또는 볼드체 또는 기울임체 등의 텍스트 서식이 포함될 수 있습니다. 조건이 겹치거나 스타일이 충돌하는 경우 스타일 충돌 설정을 사용하여 배경색을 정의할 수 있습니다. 자세한 내용은 [DITAVAL 편집기 사용](../user-guide/ditaval-editor.md).<br>을 참조하세요.<li> **조건 사전 설정** 출력을 게시하는 동안 조건을 적용하려면 드롭다운에서 조건 사전 설정을 선택합니다. 이 옵션은 DITA 맵 파일에 대한 조건을 추가한 경우에 표시됩니다. 조건부 설정은 DITA 맵 콘솔의 조건 사전 설정 탭에서 사용할 수 있습니다. 조건 사전 설정에 대해 자세히 알아보려면 [조건 사전 설정 사용](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-condition-presets.html)을 확인하십시오. <br> </ul> |
 | **기준선 사용** | 선택한 DITA 맵에 대한 베이스라인을 생성한 경우 이 옵션을 선택하여 게시할 버전을 지정합니다. 자세한 내용은 [기준선으로 작업](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html)을 참조하세요. |
 | **게시된 버전 사이에 변경 막대를 사용하여 PDF 만들기** | 다음 옵션을 사용하여 변경 막대를 사용하는 두 버전 간의 콘텐츠 차이를 보여주는 PDF을 만듭니다.   <br><ul><li> **이전 버전의 기준 요소** 현재 버전 또는 다른 기준 요소와 비교할 기준 요소 버전을 선택합니다. PDF에 수정된 콘텐츠를 나타내는 변경 표시줄이 나타납니다. 변경 막대는 새 콘텐츠 또는 수정된 콘텐츠를 시각적으로 식별하는 세로선입니다. 삽입, 변경 또는 삭제된 콘텐츠의 왼쪽에 변경 막대가 표시됩니다. <br> **참고**: **기준선 사용**&#x200B;을 선택하고 게시할 기준선을 선택하면 선택한 두 기준선 버전 간에 비교가 수행됩니다. 예를 들어, **기준 요소 사용**&#x200B;에서 기준 요소 버전 1.3을 선택하고 **이전 버전의 기준 요소**&#x200B;에서 버전 1.1을 선택하면 기준 요소 버전 1.1과 기준 요소 버전 1.3 간의 비교가 수행됩니다. <br><li> **추가된 텍스트 표시** 삽입된 텍스트를 녹색 및 밑줄로 표시하려면 선택합니다. 이 옵션은 기본적으로 선택되어 있습니다. <br> <li> **삭제된 텍스트 표시** 삭제된 텍스트를 빨간색으로 표시하고 취소선으로 표시하려면 선택합니다. 이 옵션은 기본적으로 선택되어 있습니다. <br>**참고** 스타일시트를 사용하여 변경 막대, 삽입된 콘텐츠 또는 삭제된 콘텐츠의 스타일을 사용자 지정할 수도 있습니다.<br></ul> |
 | **사후 생성 워크플로** | AEM에 구성된 모든 워크플로가 포함된 드롭다운 목록을 표시하려면 선택하십시오. PDF 생성 워크플로우가 완료된 후 실행할 워크플로우를 선택할 수 있습니다. |
@@ -183,8 +183,8 @@ ht-degree: 0%
 | **MathML 방정식 사용** | 콘텐츠에 있는 MathML 방정식을 렌더링하려면 이 옵션을 선택합니다. 그렇지 않으면 기본적으로 방정식이 무시됩니다. |
 | **대화형 PDF 양식 만들기** | 생성된 PDF 출력에서 향상된 사용자 입력을 위해 대화형 및 사용자 지정 가능한 PDF 양식 필드를 포함하려면 이 옵션을 선택합니다. |
 | **트랙 변경 내용 포함** | 간편한 검토 및 비교를 위해 생성된 PDF에서 추적된 변경 사항을 포함하려면 이 옵션을 선택합니다. |
-| **임시 파일 유지** | 기본 PDF 출력을 생성하는 동안 생성된 임시 HTML 파일을 유지하려면 이 옵션을 선택합니다. 출력을 생성한 후 나중에 임시 파일을 다운로드할 수 있습니다. 다운로드한 파일에는 작성자 URL, 로컬 URL 및 게시 URL에 대한 정보를 제공하는 `system_config.json` 파일도 포함됩니다. |
-| **PDF 적합성** | PDF이 준수되는지 확인하기 위해 저장하려는 표준입니다. 드롭다운에서 을(를) 선택하여 사용 가능한 PDF 표준 목록에서 을(를) 선택합니다. 지원되는 표준에 대한 자세한 내용은 [PDF 표준 정보](https://helpx.adobe.com/kr/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards)를 참조하십시오. |
+| **임시 파일 유지** | 기본 PDF 출력을 생성하는 동안 생성된 임시 HTML 파일을 유지하려면 이 옵션을 선택합니다. 출력을 생성한 후 나중에 임시 파일을 다운로드할 수 있습니다. 다운로드한 파일에는 작성자 URL, 로컬 URL 및 게시 URL에 대한 정보를 제공하는 `system_config.xml` 파일도 포함됩니다. 이러한 URL은 AEM 외부화 설정에 구성되어 `system_config.xml` 파일에 반영됩니다. |
+| **PDF 적합성** | PDF이 준수되는지 확인하기 위해 저장하려는 표준입니다. 드롭다운에서 을(를) 선택하여 사용 가능한 PDF 표준 목록에서 을(를) 선택합니다. 지원되는 표준에 대한 자세한 내용은 [PDF 표준 정보](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards)를 참조하십시오. |
 | **파일 속성** | 기본 PDF 게시로 전달할 메타데이터를 선택합니다. 드롭다운에 사용자 지정 및 기본 속성이 모두 나열됩니다. 예를 들어 `dc:description`, `dc:language`, `dc:title` 및 `docstate`은(는) 기본 속성이지만 `author`을(를) 사용자 지정 속성으로 가질 수 있습니다. 선택한 메타데이터 속성은 기본 PDF을 사용하여 생성된 PDF 파일로 전달됩니다. <br> 다음 위치에 있는 `metadataList` 파일에서 이러한 속성을 선택합니다.`/libs/fmdita/config/metadataList`. <br>이 파일은 `/apps/fmdita/config/metadataList`에 오버레이할 수 있습니다. |
 
 
@@ -196,7 +196,7 @@ ht-degree: 0%
 
 **Download temporary files after generating the Native PDF output**
 
-If you select the **Download temporary files** option in the Advanced settings, you can also download the interim HTML files created while generating the Native PDF output. Once you’ve generated the output, you can download the temporary files using the **Download temporary files** ![download temporary files](assets/native-pdf-download-temporary-files-icon.svg)icon on the top bar. This feature helps you view your interim HTML styles and layouts and helps you correct or change your CSS styles according to your requirements.
+If you select the **Download temporary files** option in the Advanced settings, you can also download the interim HTML files created while generating the Native PDF output. Once you've generated the output, you can download the temporary files using the **Download temporary files** ![download temporary files](assets/native-pdf-download-temporary-files-icon.svg)icon on the top bar. This feature helps you view your interim HTML styles and layouts and helps you correct or change your CSS styles according to your requirements.
 
 
 >[!NOTE]

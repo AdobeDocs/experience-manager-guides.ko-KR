@@ -4,7 +4,7 @@ description: Adobe Experience Manager Guides의 DIVATAL 편집기를 사용하�
 exl-id: f3901a4f-1925-42aa-b773-0d6f18175ce8
 feature: Authoring, DITAVAL Editor
 role: User
-source-git-commit: a49234698e040c7441ea0f82265f4b7936a95dfc
+source-git-commit: cbc9cd59e36dad63b25866b2d5c52a7380dc7d26
 workflow-type: tm+mt
 source-wordcount: '1501'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 DITAVAL 파일은 조건부 출력을 생성하는 데 사용됩니다. 단일 항목에서 요소 속성을 사용하여 조건을 추가하여 콘텐츠를 조건화할 수 있습니다. 그런 다음 컨텐츠를 생성하기 위해 선택해야 하는 조건과 최종 출력에서 제외해야 하는 조건을 지정하는 DITAVAL 파일을 만듭니다.
 
-Adobe Experience Manager Guides을 사용하면 DITAVAL 편집기를 사용하여 DITAVAL 파일을 쉽게 만들고 편집할 수 있습니다. DITAVAL 편집기는 시스템에 정의된 속성(조건으로 사용 가능)을 검색하며, 이를 사용하여 DITAVAL 파일을 생성하거나 편집할 수 있습니다. Adobe Experience Manager에서 조건을 만들고 관리하는 방법에 대한 자세한 내용은 Adobe Experience Manager 설명서의 [태그 관리](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=ko) 섹션을 참조하십시오.
+Adobe Experience Manager Guides을 사용하면 DITAVAL 편집기를 사용하여 DITAVAL 파일을 쉽게 만들고 편집할 수 있습니다. DITAVAL 편집기는 시스템에 정의된 속성(조건으로 사용 가능)을 검색하며, 이를 사용하여 DITAVAL 파일을 생성하거나 편집할 수 있습니다. Adobe Experience Manager에서 조건을 만들고 관리하는 방법에 대한 자세한 내용은 Adobe Experience Manager 설명서의 [태그 관리](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) 섹션을 참조하십시오.
 
 다음 섹션에서는 Experience Manager Guides에서 DITAVAL 파일에 사용할 수 있는 옵션에 대해 설명합니다.
 
@@ -30,7 +30,7 @@ DITAVAL 파일을 생성하려면 다음 단계를 수행하십시오.
 
 1. 저장소 패널에서 **새 파일** 아이콘을 선택한 다음 드롭다운 메뉴에서 **주제**&#x200B;를 선택합니다.
 
-   ![](images/new-file-option.png){width="300" align="left"}
+   ![](images/new-file-option.png){width="350" align="left"}
 
    [Experience Manager Guides 홈 페이지](./intro-home-page.md)와 저장소 보기에 있는 폴더의 옵션 메뉴에서도 이 옵션에 액세스할 수 있습니다.
 
@@ -42,7 +42,7 @@ DITAVAL 파일을 생성하려면 다음 단계를 수행하십시오.
    - 주제의 기반이 되는 템플릿입니다. DITAVAL 파일의 경우 드롭다운 목록에서 **Ditaval**&#x200B;을(를) 선택합니다.
    - 주제 파일을 저장할 경로입니다. 기본적으로 현재 저장소에서 선택한 폴더의 경로가 경로 필드에 표시됩니다.
 
-   ![](images/new-topic-dialog-ditaval.png){width="300" align="left"}
+   ![](images/new-topic-dialog-ditaval.png){width="350" align="left"}
 
 
 4. **만들기**&#x200B;를 선택합니다.
@@ -112,35 +112,35 @@ XML의 태그에 특정 개정 번호를 추가하려면 Add rev prop 옵션을 
 - **배경색**: 배경색에서 색조, 채도, 대비를 선택합니다. 해당 HEX 값은 선택에 따라 자동으로 업데이트됩니다. 드롭다운을 사용하여 색상 공간 형식을 전환하여 HEX, RGB 및 HSB 중에서 선택할 수도 있습니다.
 
 
-![](images/ditaval-background-color.png){width="650" align="left"}
+  ![](images/ditaval-background-color.png){width="350" align="left"}
 
 
 
 - **텍스트 색상**: 텍스트 색상에서 색조, 채도, 대비를 선택합니다. 해당 HEX 값은 선택에 따라 자동으로 업데이트됩니다. 드롭다운을 사용하여 색상 공간 형식을 전환하여 HEX, RGB 및 HSB 중에서 선택할 수도 있습니다.
 
 
-![](images/ditaval-text-color.png){width="650" align="left"}
+  ![](images/ditaval-text-color.png){width="350" align="left"}
 
 
 
 - **스타일 옵션**: 굵게, 기울임꼴, 밑줄, 윗줄, 이중 밑줄 등의 일부 스타일 옵션도 추가할 수 있습니다.
 
 
-![](images/ditaval-styling-option.png){width="650" align="left"}
+  ![](images/ditaval-styling-option.png){width="350" align="left"}
 
 
 
 - **시작 및 종료 플래그**: **플래그 추가** 단추를 사용하여 이미지를 시작 및 종료 플래그로 삽입할 수 있습니다. 이미지를 선택하려면 **Assets 검색**&#x200B;을 사용하여 Guides 리포지토리에서 선택하거나 **파일 추가**&#x200B;를 사용하여 로컬 시스템에서 업로드하십시오. 또한 이미지에 대한 대체 텍스트를 지정할 수 있습니다.
 
 
-![](images/ditaval-start-end-flags.png){width="650" align="left"}
+  ![](images/ditaval-start-end-flags.png){width="350" align="left"}
 
 
 
 - **스타일 충돌**: 단일 요소에 다른 플래그 스타일의 여러 속성이 포함되어 있을 때 발생하는 충돌을 해결합니다. 이러한 경우 스타일 충돌 속성에 정의된 값이 선택되어 배경색 및 텍스트 색상에 대한 기본값 선택기 역할을 효과적으로 합니다.
 
 
-![](images/ditaval-style-conflict.png){width="650" align="left"}
+  ![](images/ditaval-style-conflict.png){width="650" align="left"}
 
 
 #### 버전 정보 및 새 버전으로 저장

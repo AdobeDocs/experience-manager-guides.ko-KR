@@ -4,9 +4,9 @@ description: Adobe Experience Manager Guides의 맵 편집기 기능을 이해�
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 02a149bbb40615c07d2744f0899a370c91eb83d2
 workflow-type: tm+mt
-source-wordcount: '2570'
+source-wordcount: '2578'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 - [레이아웃](#layout-view)
 - [작성자](#author-view)
 - [소스](#source-view)
-- [미리 보기](#preview)
+- [미리보기](#preview)
 
 다음 섹션에서는 맵 편집기의 다양한 보기에서 사용할 수 있는 도구 모음 옵션을 다룹니다.
 
@@ -146,7 +146,7 @@ Keydef 삽입 대화 상자를 표시합니다. 이 대화 상자를 사용하�
 
 **다음 항목 앞에 삽입/다음 항목 뒤에 삽입** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
-**다음 항목 앞에 요소 삽입 또는 &#x200B;** 다음 항목 뒤에 요소 삽입 대화 상자를 표시합니다. 맵에 삽입할 요소를 선택합니다. 작업에 따라 새 요소는 맵에서 현재 요소의 앞 또는 뒤에 삽입됩니다.
+**다음 항목 앞에 요소 삽입 또는 **다음 항목 뒤에 요소 삽입 대화 상자를 표시합니다. 맵에 삽입할 요소를 선택합니다. 작업에 따라 새 요소는 맵에서 현재 요소의 앞 또는 뒤에 삽입됩니다.
 
 **요소** - ![](images/Add_icon.svg)
 
@@ -219,13 +219,11 @@ If you want to delete the relationship table, click anywhere outside the relatio
 
 **탐색 제목 특성 새로 고침** - ![](images/refresh.svg)
 
-맵에서 참조된 파일의 `title` 요소를 해당 `@navtitle` 특성에 지정된 값과 동기화합니다. 주제, 참조, 작업, \(하위\) 맵 등과 같은 여러 유형의 참조 파일을 맵에 추가할 수 있습니다. 이러한 파일의 대부분은 `@navtitle` 특성을 지원합니다. 파일에 `@navtitle` 특성이 포함되어 있으면 맵에서 동일한 파일에 대한 `@navtitle` 특성이 업데이트됩니다. `@navtitle` 특성이 없는 경우 `@navtitle` 특성이 해당 참조 파일에 추가되고 해당 `title`도 업데이트되어 `@navtitle`을(를) 표시합니다.
+참조된 파일의 `@navtitle` 특성과 `title` 요소를 동기화하도록 허용합니다. 주제, 작업, 참조 또는 하위 맵과 같은 다양한 유형의 파일을 맵에 추가할 수 있습니다. 이 중 대부분은 맵 또는 목차에 파일 이름이 표시되는 방식을 제어하는 `@navtitle` 특성을 지원합니다. 파일에 `@navtitle` 특성이 포함되어 있으면 맵에서 동일한 파일에 대한 `@navtitle` 특성이 업데이트됩니다. `@navtitle` 특성이 없는 경우 `@navtitle` 특성이 해당 참조 파일에 추가되고 해당 `title`도 업데이트되어 `@navtitle`을(를) 표시합니다.
 
 >[!NOTE]
 >
-> 관리자는 사용자가 맵에 추가하는 모든 참조 파일에 `@navtitle` 특성을 자동으로 추가하도록 구성할 수 있습니다. 자동 추가 `@navtitle` 특성 구성에 대한 자세한 내용은 Adobe Experience Manager Guides as a Cloud Service 설치 및 구성에서 *@navtitle 특성을 기본적으로 포함*&#x200B;을(를) 참조하십시오.
-
-탐색 제목 속성 새로 고침 아이콘을 선택하여 `title` 요소 및 `@navtitle` 속성 값을 동기화합니다.
+> 관리자는 구성 속성을 사용하여 맵 편집기 도구 모음에서 이 단추를 표시하거나 숨길 수 있습니다. 또한 파일을 맵에 추가할 때 `@navtitle` 특성을 자동으로 추가할 수도 있습니다. 자세한 내용은 Adobe Experience Manager Guides as a Cloud Service 설치 및 구성에서 [@navtitle 특성을 기본적으로 포함](../cs-install-guide/auto-add-navtitle.md)*을(를) 참조하십시오.
 
 **태그**
 
@@ -248,7 +246,7 @@ XML 태그를 표시하거나 숨깁니다. 태그는 요소의 경계를 나타
 
 이 보기에서 도구 모음은 잘라내기, 복사, 실행 취소, 다시 실행, 삭제, 찾기 및 바꾸기, 버전 레이블, 병합, 새 버전으로 저장, 잠금 및 잠금 해제를 포함하여 **메뉴** 드롭다운에서 사용할 수 있는 기본 콘텐츠 편집 및 삽입 옵션을 제공합니다.
 
-## 미리 보기
+## 미리보기
 
 미리보기 모드는 최종 출력에 나타나는 대로 콘텐츠를 렌더링하므로 게시하기 전에 레이아웃과 서식을 검토할 수 있습니다.
 
@@ -350,7 +348,7 @@ DITA 맵을 통해 주제를 편집하려면 다음 단계를 수행합니다.
   ![레이아웃 보기](images/layout-inline-attributes.png){width="650" align="left"}
 
 
-  자세한 내용은 [편집기](web-editor-features.md#main-toolbar)에서 *설정* 기능 설명 내의 *표시 특성*&#x200B;을(를) 참조하십시오.
+  자세한 내용은 *편집기*&#x200B;에서 *설정* 기능 설명 내의 [표시 특성](web-editor-features.md#main-toolbar)을(를) 참조하십시오.
 
 - **메타데이터** 메타데이터 를 사용하여 메타데이터 정보를 설정할 수 있습니다. 탐색 제목, 링크 텍스트, 간단한 설명 및 키워드를 정의할 수 있습니다.
 

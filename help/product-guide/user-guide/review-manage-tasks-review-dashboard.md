@@ -4,9 +4,9 @@ description: AEM Guides의 검토 대시보드에서 검토 작업을 관리합�
 exl-id: 4fef5653-1c73-4b68-adf2-b24145555142
 feature: Reviewing
 role: User
-source-git-commit: 717d300c6e879bad573f67e3eb91dd266ab203c6
+source-git-commit: 19e521ed790a7ac25afab88e8878250f943d9bff
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1348'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,10 @@ ht-degree: 0%
    작업 타일이 있는 프로젝트 패널이 표시됩니다.
 
    ![](images/review-management.png){align="left"}
+
+   >[!NOTE]
+   >
+   > 또는 편집기 왼쪽 패널에서 프로젝트 대시보드에 직접 액세스할 수도 있습니다. [검토 패널](./web-editor-left-panel.md#review)을 열고 검토 패널에 나열된 각 검토 프로젝트에 대해 배치된 **프로젝트 대시보드 열기** 아이콘을 사용합니다.
 
 1. **검토** 타일에서 세 점을 선택합니다.
 
@@ -126,4 +130,4 @@ ht-degree: 0%
 - 모든 주제에 대한 총 댓글 수입니다. 검토 중인 주제가 여러 개인 경우 각 주제의 설명 수는 주제 이름에 \(대괄호\)로 표시됩니다.
 - 검토자가 마지막으로 주제에 액세스한 날짜입니다.
 
-**상위 항목:**&#x200B;[&#x200B;검토 소개](review.md)
+**상위 항목:**[&#x200B;검토 소개](review.md)

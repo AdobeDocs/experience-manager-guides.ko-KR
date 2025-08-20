@@ -4,16 +4,16 @@ description: Experience Manager Guides의 편집기 인터페이스에서 사용
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: fad2874f-dab5-4538-8502-f7112c51d941
-source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
+source-git-commit: 84cc3db0e14217a7ba92143cb63b94329d5c26e1
 workflow-type: tm+mt
-source-wordcount: '1975'
+source-wordcount: '2112'
 ht-degree: 0%
 
 ---
 
 # 편집기 설정
 
-편집기의 [탭 모음](./web-editor-tab-bar.md)에 있는 **설정** 옵션은 관리자 및 폴더 프로필 관리자만 사용할 수 있으며 다음 설정을 구성할 수 있습니다.
+편집기의 **탭 모음**&#x200B;에 있는 [설정](./web-editor-tab-bar.md) 옵션은 관리자 및 폴더 프로필 관리자만 사용할 수 있으며 다음 설정을 구성할 수 있습니다.
 
 - [일반](#general)
 - [패널](#panels)
@@ -33,11 +33,34 @@ ht-degree: 0%
 
 ## 일반
 
-일반 설정을 사용하면 편집기에서 사용할 사전을 구성할 수 있습니다. 이 탭에는 **맞춤법 검사**, **조건**, **작성** 및 **인용**, 이렇게 네 개의 섹션이 있습니다.
+일반 설정을 사용하면 편집기를 사용하도록 설정을 구성할 수 있습니다. 이 탭에는 **AI 길잡이**, **작성**, **인용**, **조건** 및 **맞춤법 검사**&#x200B;의 5개 섹션이 포함되어 있습니다.
 
-![](images/editor-setting-general.png){width="650" align="left"}
+![](images/editor-setting-general-new.png){width="350" align="left"}
 
-- **맞춤법 검사**: 두 가지 옵션이 있습니다. **AEM 맞춤법 검사** 및 **브라우저 맞춤법 검사**. 기본적으로 편집기는 브라우저의 기본 제공 사전을 사용하여 맞춤법 검사가 수행되는 브라우저 맞춤법 검사 기능을 사용합니다. AEM 맞춤법 검사로 전환하여 Adobe Experience Manager 사전을 사용할 수 있습니다. 사용자 지정 단어 목록을 추가하도록 사용자 지정할 수도 있습니다. AEM 사전 사용자 지정에 대한 자세한 내용은 Adobe Experience Manager Guides as a Cloud Service 설치 및 구성 섹션에서 [AEM의 기본 사전 사용자 지정](../cs-install-guide/customize-aem-custom-dictionary.md) 섹션을 참조하십시오.
+- **AI 길잡이**
+Experience Manager Guides에서 [AI Assistant](./ai-assistant.md) 기능을 활성화하려면 이 옵션을 선택하십시오. 기능을 비활성화하려면 선택 취소합니다.
+
+  **AI Assistant** 토글을 활성화한 후 아래와 같이 **빠른 작업 작성** 메뉴를 사용하여 작성자가 **작성 탭**&#x200B;에 표시할 옵션을 구성할 수 있습니다.\
+  이러한 변경 사항은 작업 중인 특정 폴더 프로필에 적용됩니다. 새 폴더 프로필을 만들면 기본적으로 **전역** 폴더 프로필에 정의된 편집기 설정을 상속합니다. **편집기 설정**&#x200B;을 사용하여 필요에 따라 이러한 설정을 수정하고 업데이트된 구성을 저장할 수 있습니다.\
+  AI Assistant를 사용하여 작성할 수 있는 옵션에 대한 자세한 개요는 [AI Assistant를 사용하여 문서를 현명하게 작성](./ai-assistant-right-panel.md)하십시오.
+
+  **빠른 작업 작성** 메뉴에서 다음을 수행할 수 있습니다.
+
+   - 작성자가 AI Assistant를 사용하여 작업할 때 액세스할 수 있는 특정 옵션을 활성화하거나 비활성화하려면 전환을 사용합니다.
+
+   - 옵션이 표시되는 순서를 변경하고 필요에 따라 끌어서 놓습니다.
+
+  ![](images/authoring-quick-actions.png){width="350" align="left"}
+
+
+
+- **작성**
+
+   - **모두 바꾸기 사용**: **찾기 및 바꾸기** 패널에서 **모두 바꾸기** 아이콘을 보려면 이 항목을 선택하십시오.
+
+- **인용**
+
+  인용 유형을 변경합니다. 프로젝트에서 사용할 드롭다운에서 인용 스타일을 선택합니다. 자세한 내용은 [인용 스타일 변경](./web-editor-apply-citations.md#change-citation-style)을 참조하세요.
 
 - **조건**
 
@@ -51,16 +74,8 @@ ht-degree: 0%
 
    - **조건 패널에 주제 구성표 표시**: 조건 패널에서 주제 구성표를 보려면 이 항목을 선택하십시오. 이 옵션을 선택 취소하면 정의된 조건이 [조건] 패널에 표시됩니다.
 
-- **작성**
-
-   - **모두 바꾸기 사용**: **찾기 및 바꾸기** 패널에서 **모두 바꾸기** 아이콘을 보려면 이 항목을 선택하십시오.
-
-- **인용**
-
-  인용 유형을 변경합니다. 프로젝트에서 사용할 드롭다운에서 인용 스타일을 선택합니다. 자세한 내용은 [인용 스타일 변경](./web-editor-apply-citations.md#change-citation-style)을 참조하세요.
-
-- **AI 길잡이**
-Experience Manager Guides에서 [AI Assistant](./ai-assistant.md) 기능을 활성화하려면 이 옵션을 선택하십시오. 기능을 비활성화하려면 선택 취소합니다.
+- **맞춤법 검사**
+두 가지 옵션이 있습니다. **AEM 맞춤법 검사** 및 **브라우저 맞춤법 검사**. 기본적으로 편집기는 브라우저의 기본 제공 사전을 사용하여 맞춤법 검사가 수행되는 브라우저 맞춤법 검사 기능을 사용합니다. AEM 맞춤법 검사로 전환하여 Adobe Experience Manager 사전을 사용할 수 있습니다. 사용자 지정 단어 목록을 추가하도록 사용자 지정할 수도 있습니다. AEM 사전 사용자 지정에 대한 자세한 내용은 Adobe Experience Manager Guides as a Cloud Service 설치 및 구성 섹션에서 [AEM의 기본 사전 사용자 지정](../cs-install-guide/customize-aem-custom-dictionary.md) 섹션을 참조하십시오.
 
 
 ## 패널
@@ -114,9 +129,9 @@ Experience Manager Guides에서 [AI Assistant](./ai-assistant.md) 기능을 활�
 
 **Salesforce 프로필 만들기**
 
-**전제 조건**
+**사전 요구 사항**
 
-- Salesforce에 연결된 앱을 만듭니다. 자세한 내용은 [API 통합을 위해 OAuth 설정 사용](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&amp;type=5)을 참조하세요.
+- Salesforce에 연결된 앱을 만듭니다. 자세한 내용은 [API 통합을 위해 OAuth 설정 사용](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&type=5)을 참조하세요.
 
 - 연결된 앱을 구성하는 동안 다음을 확인하십시오.
 
@@ -142,7 +157,7 @@ Experience Manager Guides에서 [AI Assistant](./ai-assistant.md) 기능을 활�
 
 **ServiceNow 프로필 만들기**
 
-**전제 조건**
+**사전 요구 사항**
 
 자산을 업로드하도록 ServiceNow 서버를 구성합니다.
 
@@ -237,11 +252,11 @@ Experience Manager Guides에서 [AI Assistant](./ai-assistant.md) 기능을 활�
 
 편집기 설정의 ![메타데이터 탭](images/editor-setting-metadata.png){width="550" align="left"}
 
-***버전 기록**&#x200B;대화 상자에 대한 메타데이터를 구성합니다.*
+***버전 기록**대화 상자에 대한 메타데이터를 구성합니다.*
 
 
 
 이러한 메타데이터 태그가 표시되는 순서를 정의할 수도 있습니다. 이러한 태그의 기본 순서를 변경하려면 점선 막대를 선택하여 원하는 위치에 태그를 드래그하여 놓습니다.
 메타데이터 레이블은 편집기의 **버전 기록** 대화 상자에서 동일한 순서로 나타납니다.
 
-**상위 항목:**&#x200B;[&#x200B;편집기 소개](web-editor.md)
+**상위 항목:**[&#x200B;편집기 소개](web-editor.md)

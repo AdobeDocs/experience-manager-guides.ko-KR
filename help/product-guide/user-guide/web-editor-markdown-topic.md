@@ -4,10 +4,10 @@ description: 편집기에서 Markdown 문서를 작성합니다. AEM Guides에�
 exl-id: def14e35-27c5-4b90-bc3d-eef7e8f317d2
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 779be011c078fb3c2fae4fc6a92e3e2d734672b0
 workflow-type: tm+mt
-source-wordcount: '1254'
-ht-degree: 2%
+source-wordcount: '1197'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ Markdown은 일반 텍스트 문서에 서식 요소를 추가하는 데 도움�
 편집기에서 Markdown 주제를 만들려면 다음 단계를 수행하십시오.
 
 1. 저장소 패널에서 ![](images/Add_icon.svg)을(를) 선택한 다음 드롭다운에서 **주제**&#x200B;를 선택합니다.
-1. **새 항목** 대화 상자에서 다음 세부 정보를 제공합니다.
+2. **새 항목** 대화 상자에서 다음 세부 정보를 제공합니다.
 
    ![](images/create-markdown-dialog.png){width="300" align="left"}
 
@@ -29,10 +29,10 @@ Markdown은 일반 텍스트 문서에 서식 요소를 추가하는 데 도움�
    * **템플릿**: 드롭다운 목록에서 **Markdown**&#x200B;을(를) 선택합니다. 템플릿 **주제**&#x200B;이(가) 기본적으로 선택됩니다.
    * **경로**: 주제 파일을 저장할 경로를 찾습니다. 기본적으로 현재 저장소에서 선택한 폴더의 경로가 경로 필드에 표시됩니다.
 
-   >
+   >[!NOTE]
    >
    > 업그레이드의 경우 사용 중인 현재 폴더 프로필에 Markdown 템플릿을 추가해야 합니다. [편집기에서 새 Markdown 템플릿을 만들거나](./web-editor-features.md#templates) Markdown 작성에 기존 템플릿을 사용할 수 있습니다. Experience Manager Guides에서 작성 템플릿을 추가하는 방법에 대한 자세한 내용은 [전역 또는 폴더 수준 프로필 구성](../cs-install-guide/conf-folder-level.md)을 참조하십시오.
-1. **만들기**&#x200B;를 선택합니다.
+3. **만들기**&#x200B;를 선택합니다.
 
    선택한 경로에 Markdown 주제가 만들어지고 편집을 위해 열려 있습니다.
 
@@ -108,7 +108,7 @@ Markdown 작성의 경우 편집기에서 컨텐츠 작성 및 형식을 지원�
 
 * 소스
 * 나란히
-* 미리 보기
+* 미리보기
 
 **소스**
 
@@ -158,7 +158,7 @@ Markdown 주제를 편집할 때 실시간으로 렌더링된 출력을 보려�
 * **다음에서 사용됨**: 참조에서 사용됨 목록에는 현재 파일이 참조되거나 사용되는 문서가 있습니다.
 * **송신 링크**: 송신 링크는 현재 문서에서 참조되는 문서를 나열합니다.
 
->
+>[!NOTE]
 >
 > 모든 사용 위치 및 발신 링크 참조는 문서에 하이퍼링크됩니다. 연결된 문서를 쉽게 열고 편집할 수 있습니다.
 
@@ -170,12 +170,9 @@ Markdown 주제를 편집할 때 실시간으로 렌더링된 출력을 보려�
 2. 병합
 3. AI 어시스턴트
 4. 변경 내용 추적
-5. 찾기 및 바꾸기
-6. 검색 및 필터링
-
->[!NOTE]
->
-> **찾기 및 바꾸기** 기능은 저장소 수준에서 Markdown 파일을 처리하지 않습니다. 여기에는 맵 또는 폴더 내에서 Markdown 파일 검색이 포함됩니다. 그러나 Markdown 편집기 내에서는 계속 사용할 수 있습니다. 또한 저장소 보기의 **검색** 및 **필터** 옵션은 Markdown 파일을 처리하지 않습니다.
 
 
-**상위 항목:**&#x200B;[&#x200B;편집기 소개](web-editor.md)
+
+
+
+**상위 항목:**[&#x200B;편집기 소개](web-editor.md)

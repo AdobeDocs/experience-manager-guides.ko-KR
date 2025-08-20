@@ -4,9 +4,10 @@ description: Experience Manager Guides의 학습 및 교육 콘텐츠로 작업�
 feature: Authoring
 role: Admin
 level: Experienced
-source-git-commit: b114cbcc0f637a71a9d9b7458686a06070179983
+exl-id: dc26ae48-c953-492c-823a-5f65157b6902
+source-git-commit: f14ee85ccc49abd662a046b2bd4e7be2eece4902
 workflow-type: tm+mt
-source-wordcount: '1296'
+source-wordcount: '1451'
 ht-degree: 0%
 
 ---
@@ -17,12 +18,23 @@ ht-degree: 0%
 
 학습 및 교육 콘텐츠에 대한 폴더 프로필 구성을 시작하려면 다음을 수행해야 합니다.
 
-1. [폴더 프로필을 만듭니다](../cs-install-guide/conf-folder-level.md#create-and-configure-a-folder-level-profile).
-2. **구성할 폴더 프로필 선택**: 폴더 프로필이 만들어지면 [사용자 환경 설정](../user-guide/intro-home-page.md#user-preferences) 페이지에서 폴더 프로필을 선택하여 작성자와 게시자가 올바른 템플릿에 액세스할 수 있도록 해야 합니다.
+1. **작성 및 출력 템플릿을 관리하기 위해 다른 폴더를 만듭니다**: 엔터프라이즈의 다른 부서나 제품에서 작업하는 작성자와 게시자를 위한 폴더를 만들 수 있습니다. 이러한 폴더는 부서별 학습 과정 작성 및 분산 관리를 지원하기 위해 각기 다른 작성 및 출력 템플릿으로 구성된 특정 폴더 프로필에 매핑할 수 있습니다.
+
+   저장소 패널에서 새 폴더를 만들 수 있습니다.
+
+   ![](assets/create-new-folder.png){width="350" align="left"}
+2. **번역을 관리할 언어 폴더를 만듭니다**: 콘텐츠를 다른 언어로 번역하려면 각 언어에 해당하는 폴더를 만들어야 합니다. 이러한 각 언어 폴더에는 해당 언어에 해당하는 콘텐츠가 포함됩니다.
+
+   자세한 내용은 [콘텐츠 번역 모범 사례](../user-guide/translation-first-time.md)를 참조하세요.
+3. **Assets을 관리할 폴더를 만드십시오**: 폴더와 마찬가지로 부서마다 다른 요구 사항에 맞게 다른 Assets 폴더를 만들 수도 있습니다. 이렇게 하면 작성자와 게시자가 템플릿, 이미지 및 기타 에셋에 구성된 올바른 CSS에 액세스할 수도 있습니다.
+
+   ![](assets/configure-assets-folder.png){width="350" align="left"}
+4. 다른 폴더를 매핑하려면 [폴더 프로필을 만듭니다](../cs-install-guide/conf-folder-level.md#create-and-configure-a-folder-level-profile).
+5. **구성할 폴더 프로필 선택**: 폴더 프로필이 만들어지면 [사용자 환경 설정](../user-guide/intro-home-page.md#user-preferences) 페이지에서 폴더 프로필을 선택하여 작성자와 게시자가 올바른 템플릿에 액세스할 수 있도록 해야 합니다.
 
    ![](assets/folder-profile.png){width="650" align="left"}
 
-3. **폴더 프로필 설정 구성**: 학습 및 교육 컨텐츠의 경우 폴더 수준에서 다음 설정을 구성할 수 있습니다.
+6. **폴더 프로필 설정 구성**: 학습 및 교육 컨텐츠의 경우 폴더 수준에서 다음 설정을 구성할 수 있습니다.
    - [패널](#configure-panels)
    - [템플릿](#configure-templates)
    - [출력 사전 설정](#configure-output-presets)

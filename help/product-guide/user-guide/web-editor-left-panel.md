@@ -4,9 +4,9 @@ description: 편집기의 왼쪽 패널에 대해 알아봅니다. Adobe Experie
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
-source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
+source-git-commit: 97e80f9115f84291a7190cf4c4cf25426b3a83bb
 workflow-type: tm+mt
-source-wordcount: '9323'
+source-wordcount: '9390'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Adobe Workfront이 구성된 경우 **Workfront**(으)로 레이블이 지정된
 
 >[!NOTE]
 >
-> 왼쪽 패널에서 사용할 수 있는 기능은 관리자가 관리하므로 왼쪽 패널에 있는 개별 기능을 활성화하거나 비활성화할 수 있습니다. 활성화된 피쳐만 왼쪽 패널에 표시됩니다. 자세한 내용은 [탭 모음](./web-editor-tab-bar.md)의 **패널** 섹션을 참조하십시오.
+> 왼쪽 패널에서 사용할 수 있는 기능은 관리자가 관리하므로 왼쪽 패널에 있는 개별 기능을 활성화하거나 비활성화할 수 있습니다. 활성화된 피쳐만 왼쪽 패널에 표시됩니다. 자세한 내용은 **탭 모음**&#x200B;의 [패널](./web-editor-tab-bar.md) 섹션을 참조하십시오.
 
 왼쪽 패널 기능에 대한 자세한 설명은 다음과 같습니다.
 
@@ -74,7 +74,7 @@ Adobe Workfront이 구성된 경우 **Workfront**(으)로 레이블이 지정된
 
 >[!NOTE]
 >
-> Experience Manager Guides 홈 페이지에서 컬렉션을 만들 수도 있습니다. 홈 페이지를 열고 [개요 섹션](./intro-home-page.md#overview)에서 **컬렉션** 위젯으로 이동한 다음 **새 컬렉션**&#x200B;을 선택합니다.
+> Experience Manager Guides 홈 페이지에서 컬렉션을 만들 수도 있습니다. 홈 페이지를 열고 **개요 섹션**&#x200B;에서 [컬렉션](./intro-home-page.md#overview) 위젯으로 이동한 다음 **새 컬렉션**&#x200B;을 선택합니다.
 
 </details>
 
@@ -113,7 +113,7 @@ Adobe Workfront이 구성된 경우 **Workfront**(으)로 레이블이 지정된
 
 >[!NOTE]
 >
-> 맨 위에 있는 새로 고침 아이콘을 사용하여 목록을 새로 고칠 수도 있습니다.
+> 맨 위에 있는 **새로 고침** 아이콘을 사용하여 목록을 새로 고칠 수 있습니다. 또한 목록을 새로 고치면 컬렉션이 다시 로드되므로 패널의 확장된 컬렉션이 축소됩니다.
 
 
 ## 저장소
@@ -158,6 +158,10 @@ DAM 내에서 필요한 파일로 이동하여 편집기에서 열 수 있습니
   ![빠른 검색 필터 ](images/repository-filter-search-quick.png) {width="300" align="left"}
 
   *빠른 필터를 사용하여 DITA 및 비 DITA 파일을 검색합니다.*
+
+>[!NOTE]
+>
+> 또한 **DITA 항목** 필터를 사용하여 제목, 주제 내용 및 속성을 비롯하여 저장소의 Markdown 파일과 관련된 내용을 검색할 수 있습니다. 이 기능은 현재 새로 만든 Markdown 파일에만 적용됩니다.
 
 **고급 필터링**
 
@@ -613,7 +617,7 @@ DITA의 주요 기능 중 하나는 콘텐츠를 재사용하는 기능입니다
 
   ![](images/drop-element-outline-view_cs.png){align="left"}
 
-- *개요* 보기의 **옵션** 메뉴를 사용하면 현재 요소 앞 또는 뒤에 요소 삽입, 요소 이름 바꾸기 또는 바꾸기, 요소 줄 바꿈, 요소 줄 바꿈 취소, 선택한 요소에서 코드 조각 만들기와 같은 일반 작업을 수행할 수 있습니다.
+- **개요** 보기의 *옵션* 메뉴를 사용하면 현재 요소 앞 또는 뒤에 요소 삽입, 요소 이름 바꾸기 또는 바꾸기, 요소 줄 바꿈, 요소 줄 바꿈 취소, 선택한 요소에서 코드 조각 만들기와 같은 일반 작업을 수행할 수 있습니다.
 
 >[!NOTE]
 >
@@ -867,7 +871,7 @@ Experience Manager Guides은 또한 중첩된 수준 제목 체계 맵을 지원
         </subjectScheme>
 ```
 
-열거형 정의가 `subject_scheme_map_2.ditamap`에 있는 동안 `subject_scheme_map_1.ditamap`에서 주체 정의가 정의됩니다. `subject_scheme_map_1.ditamap`에 대한 참조도 `subject_scheme_map_2.ditamap`에 추가되었습니다.
+열거형 정의가 `subject_scheme_map_1.ditamap`에 있는 동안 `subject_scheme_map_2.ditamap`에서 주체 정의가 정의됩니다. `subject_scheme_map_1.ditamap`에 대한 참조도 `subject_scheme_map_2.ditamap`에 추가되었습니다.
 
 >[!NOTE]
 >
@@ -929,7 +933,7 @@ Source 보기에서 속성 드롭다운의 값을 변경할 수도 있습니다.
 
 조건 패널에서 주제 스키마를 보고 적용할 수도 있습니다.
 
-조건 패널에서 제목 구성표를 보려면 시스템 관리자는 [설정]의 [일반] 탭에서 **조건 패널에 제목 구성표 표시** 옵션을 선택해야 합니다. 자세한 내용은 [탭 모음](./web-editor-tab-bar.md)의 **설정** 섹션을 참조하십시오.
+조건 패널에서 제목 구성표를 보려면 시스템 관리자는 [설정]의 [일반] 탭에서 **조건 패널에 제목 구성표 표시** 옵션을 선택해야 합니다. 자세한 내용은 **탭 모음**&#x200B;의 [설정](./web-editor-tab-bar.md) 섹션을 참조하십시오.
 
 조건 패널에는 주제 구성표 내의 주제 정의에 대한 플랫 수직 구조가 표시됩니다.
 
@@ -1006,7 +1010,7 @@ Experience Manager Guides을 사용하면 기본 PDF 게시를 위한 변수를 
 
 ## 찾기 및 바꾸기
 
-찾기 및 바꾸기 아이콘은 왼쪽 패널 하단에 있습니다. 찾기 및 바꾸기 패널을 사용하면 맵 또는 저장소 내 폴더에 있는 파일에서 텍스트를 검색하고 바꿀 수 있습니다. 맵의 모든 주제와 맵 내의 하위 맵에 있는 주제를 찾아서 바꿀 수 있습니다.
+찾기 및 바꾸기 아이콘은 왼쪽 패널 하단에 있습니다. 찾기 및 바꾸기 패널을 사용하면 맵 또는 저장소 내 폴더에 있는 파일에서 텍스트를 검색하고 바꿀 수 있습니다. 하위 맵과 Markdown 파일의 항목을 포함하여 맵의 모든 항목에 대해 찾기 및 바꾸기 작업을 수행할 수 있습니다.
 
 ![](images/map-find-replace.png){align="left"}
 
@@ -1094,6 +1098,10 @@ Experience Manager Guides은 프로젝트의 모든 검토 작업을 표시하�
 
    ![](images/web-editor-review-panel.png){width="300" align="left"}
 1. 검토 프로젝트를 선택한 다음 목록에서 검토 작업을 선택하여 엽니다.
+1. **프로젝트 대시보드 열기** 아이콘을 선택하여 **프로젝트 콘솔**&#x200B;에서 프로젝트를 열 수 있습니다.
+
+   ![](images/web-editor-project-dashboard.png){width="300" align="left"}
+
 1. 다음 방법으로 프로젝트를 필터링할 수도 있습니다.
 
    - 프로젝트 제목에서 찾을 검색어 또는 텍스트를 입력합니다. 그런 다음 Enter 키를 눌러 검색을 수행합니다. 예를 들어 제목에 &#39;space&#39;라는 용어가 있는 모든 프로젝트를 검색할 수 있습니다.
@@ -1122,4 +1130,4 @@ Experience Manager Guides은 프로젝트의 모든 검토 작업을 표시하�
 
 </details>
 
-**상위 항목:**&#x200B;[&#x200B;편집기 소개](web-editor.md)
+**상위 항목:**[&#x200B;편집기 소개](web-editor.md)

@@ -4,9 +4,9 @@ description: AEM Guides에서 파일 및 폴더를 관리하는 방법에 대해
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: 717d300c6e879bad573f67e3eb91dd266ab203c6
+source-git-commit: 14bbb3a055d8b528b6ed657be797c5fa96dd3e7e
 workflow-type: tm+mt
-source-wordcount: '3201'
+source-wordcount: '3263'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,6 @@ ht-degree: 0%
 - *같은 이름의 파일이 대상 폴더에 없는 경우*: 파일의 새 복사본이 만들어지고 새 위치에서 새 UUID도 이 폴더에 할당됩니다. 여기에서 파일 이름은 UUID와 같습니다.
 - *같은 이름의 파일이 대상 폴더에 이미 있는 경우*: 파일의 새 복사본이 만들어지고 새 UUID도 이 폴더에 할당됩니다. 파일 이름은 UUID와 같습니다.
 
-
 ## 폴더 복사 및 붙여넣기
 
 **같은 위치에 폴더 복사 및 붙여넣기**
@@ -43,6 +42,16 @@ ht-degree: 0%
 - *폴더에 사람이 읽을 수 있는 파일 이름이 있는 파일이 있습니다*: 폴더의 새 복사본이 만들어지고 새 UUID도 새 위치의 폴더 내 모든 파일에 할당됩니다. 여기에서 폴더 또는 파일 이름은 변경되지 않습니다.
 
 - *폴더에 UUID 패턴을 기반으로 하는 파일 이름이 있는 파일이 있습니다*: 폴더의 새 복사본이 원래 폴더와 같은 이름으로 만들어집니다. 새 UUID도 새 폴더 내의 모든 파일에 할당됩니다. 파일 이름도 변경됩니다. 파일 이름은 새 UUID와 동일합니다.
+
+**성공 메시지 및 알림**
+
+Assets UI의 폴더에 대한 복사-붙여넣기 작업은 백그라운드에서 비동기적으로 실행되므로 시스템이 요청을 처리하는 동안 작업을 계속할 수 있습니다. 프로세스가 시작되었음을 나타내는 팝업 메시지가 표시됩니다.
+
+![](images/copy-folders-success-popup.png){width="350" align="left"}
+
+작업이 완료되면 성공 또는 실패 알림이 트리거되어 작업의 성공 또는 실패 여부를 나타냅니다.
+
+![](images/copy-folders-success-notification.png){width="650" align="left"}
 
 
 ## 파일 드래그 앤 드롭
@@ -244,7 +253,7 @@ Adobe Experience Manager 저장소 내에서 DITA 콘텐츠를 검색하려면 �
 
 1. *\(선택 사항\)* **검색 디렉터리 선택** 필드에서 검색할 위치를 찾습니다.
 
-1. **DITA 요소** 필터에서 검색할 **요소 이름**, **특성** 및 값을 입력하십시오. 예를 들어, 작성자 `@type`인 요소 `author`이(가) 있는 문서를 검색하려면 다음 스크린샷과 같이 정보를 제공해야 합니다.
+1. **DITA 요소** 필터에서 검색할 **요소 이름**, **특성** 및 값을 입력하십시오. 예를 들어, 작성자 `author`인 요소 `@type`이(가) 있는 문서를 검색하려면 다음 스크린샷과 같이 정보를 제공해야 합니다.
 
    ![](images/search-params.png){width="650" align="center"}
 
@@ -317,4 +326,4 @@ Adobe Experience Manager 저장소에서 파일을 삭제하는 것은 시스템
    ![](images/media-version-preview.png){width="650" align="center"}
 
 
-**상위 항목:**&#x200B;[&#x200B;콘텐츠 관리](authoring.md)
+**상위 항목:**[&#x200B;콘텐츠 관리](authoring.md)

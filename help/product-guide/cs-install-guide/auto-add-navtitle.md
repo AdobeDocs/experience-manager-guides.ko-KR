@@ -5,10 +5,10 @@ exl-id: 38711c0c-efa8-461a-92e1-ecfcdcdd36d3
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: a3c7973868549c72e868c05a3fc6ca8bdce9bce3
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 1%
+source-wordcount: '327'
+ht-degree: 0%
 
 ---
 
@@ -41,12 +41,13 @@ ht-degree: 1%
                            },
    ```
 
-1. `required` 매개 변수를 다음과 같이 변경합니다.
+1. 아래와 같이 `required` 매개 변수를 변경합니다.
 
    ```
    "required": {"navtitle": true}
    ```
 
+   `true`(으)로 설정하면 **탐색 제목 특성 새로 고침** 단추가 편집기 도구 모음에 표시되도록 활성화됩니다. `false`(으)로 설정하거나 비워 두면 단추가 편집기에서 숨겨집니다.
 1. 파일을 저장합니다.
 
 1. 해당 프로필 \(Global 또는 Folder\)에 있는 파일을 업로드합니다.
@@ -54,4 +55,6 @@ ht-degree: 1%
 
 이 구성을 사용하면 맵에 추가하는 모든 참조 파일에 기본적으로 `@navtitle` 특성이 포함됩니다.
 
-**상위 항목:**&#x200B;[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)
+
+
+**상위 항목:**[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)

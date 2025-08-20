@@ -4,9 +4,9 @@ description: 원활한 콘텐츠 평가를 위해 AEM Guides에서 주제나 맵
 exl-id: 81ea0b52-52b0-4764-a6d8-a96d5c7693bf
 feature: Reviewing
 role: User
-source-git-commit: 38ea2eb35ebd75c1202c86d598ad953db3894d40
+source-git-commit: b7648fe1d36de3c243ca5a55f42a41f7523056ce
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Adobe Experience Manager Guides에서 *이니시에이터 \(또는 작성자\)*&
 - 검토 대시보드에서 검토할 항목의 업데이트된 버전을 공유합니다.
 
 - 다른 버전의 주제에 대해 공유된 설명에 액세스합니다.
-
+- 특정 검토 작업의 사용자를 댓글이나 댓글에 쉽게 태깅하여 빠른 작업 및 후속 작업을 수행할 수 있습니다. 태그가 지정된 사용자는 AEM 및 이메일 알림을 통해 즉시 알림을 받습니다.
 - 주제 버전을 기준으로 설명을 그룹화하고 필터링합니다.
 
 - 검토를 위해 공유된 여러 버전의 주제 간의 차이점을 나란히 봅니다.
@@ -41,6 +41,7 @@ Adobe Experience Manager Guides에서 *이니시에이터 \(또는 작성자\)*&
 - 복합 보기와 개별 주제 보기 간 전환
 - 텍스트 삽입, 삭제, 강조 표시 및 메모/댓글과 같은 댓글 달기 도구를 사용하여 피드백을 제공합니다.
 - 검토 주석에 하나 이상의 파일을 첨부합니다.
+- 동일한 리뷰 작업에 관련된 사용자를 태그 지정하여 댓글에 답글을 달 수 있습니다.
 - 댓글에서 첨부 파일을 다운로드합니다.
 - 리뷰 패널을 사용하여 댓글을 추가하거나 다른 사용자의 댓글에 응답합니다.
 - 검토 중인 주제의 버전을 쉽게 알 수 있습니다.
@@ -57,10 +58,18 @@ Adobe Experience Manager Guides에서 *이니시에이터 \(또는 작성자\)*&
 
 - **[검토할 항목 보내기](review-send-topics-for-review.md)**
 
+- **[주제 검토](review-topics.md)**
+
 - **[알림을 사용하여 검토 작업 다시 할당](reassign-review-using-notification.md)**
 
-- **[주제 검토](review-topics.md)**
+- **[검토자로 검토 작업 완료](review-complete-review-tasks.md)**
 
 - **[주소 검토 의견](review-address-review-comments.md)**
 
+- **[검토 작업을 닫거나 다시 검토하도록 요청](review-close-review-task.md)**
+
 - **[검토 대시보드를 사용하여 검토 작업 관리](review-manage-tasks-review-dashboard.md)**
+
+- **[완료된 검토 작업 보기](review-view-completed-task.md)**
+
+- **[검토 알림 이해](review-understanding-review-notifications.md)**

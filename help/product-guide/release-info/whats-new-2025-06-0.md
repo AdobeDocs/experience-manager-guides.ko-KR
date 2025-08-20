@@ -3,10 +3,10 @@ title: 릴리스 정보 | Adobe Experience Manager Guides 2025.06.0 릴리스의
 description: Adobe Experience Manager Guides 2025.06.0 릴리스의 새로운 기능과 향상된 기능에 대해 알아봅니다
 role: Leader
 exl-id: 48f27aa6-d870-4228-8e62-db81699a25f7
-source-git-commit: 158c2a99ac43fd70726bedf30f4de1a970a48864
+source-git-commit: d418ffb254b11430509609b91e0174690815cf73
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 3%
+source-wordcount: '409'
+ht-degree: 4%
 
 ---
 
@@ -17,14 +17,6 @@ ht-degree: 3%
 이 릴리스에서 해결된 문제 목록을 보려면 [2025.06.0 릴리스에서 해결된 문제](fixed-issues-2025-06-0.md)를 확인하십시오.
 
 [2025.06.0 릴리스의 업그레이드 지침](../release-info/upgrade-instructions-2025-06-0.md)에 대해 알아봅니다.
-
-## 이제 게시된 출력에 대한 임시 파일에는 작성자 및 게시 URL이 새 구성 파일에 포함됩니다
-
-이제 Experience Manager Guides의 향상된 최신 게시 기능을 통해 기본 PDF 출력뿐만 아니라 DITA-OT를 사용하여 HTML, PDF 및 JSON 출력을 게시하는 동안 생성된 임시 파일에 새 `system_config.json` 파일이 추가됩니다. 이 파일은 게시 작업에 자동으로 포함되며 사전 설정에 대해 **임시 파일 유지** 옵션을 활성화하고 출력을 생성할 때 임시 파일을 통해서도 액세스할 수 있습니다.
-
-`system_config.json` 파일에는 작성자 URL, 로컬 URL 및 게시 URL을 비롯한 주요 인스턴스 세부 정보가 포함되어 있어 컨텍스트를 보다 명확하게 하고 다운로드한 URL의 추적 가능성을 향상시킵니다.
-
-자세한 내용은 [출력 사전 설정 이해](../user-guide/generate-output-understand-presets.md)를 참조하십시오.
 
 ## 우발적 컨텐츠 손실을 방지하기 위한 세션 시간 초과 프롬프트
 

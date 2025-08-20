@@ -4,9 +4,10 @@ description: Experience Manager Guides의 여러 부서에 대해 폴더, 에셋
 feature: Authoring
 role: Admin
 level: Experienced
-source-git-commit: 5f42540a32da6e85a5c8aa0831582ce871c9088a
+exl-id: 15a0cd40-45be-4631-8d60-4a9474bc431c
+source-git-commit: f14ee85ccc49abd662a046b2bd4e7be2eece4902
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
@@ -15,18 +16,6 @@ ht-degree: 0%
 
 관리자는 학습 과정 작성자 및 게시자에 대해 다음 설정을 구성할 수도 있습니다.
 
-- **폴더 설정**
-   - **다른 폴더 만들기**: 엔터프라이즈의 다른 부서나 제품에서 작업하는 작성자와 게시자를 위한 폴더를 만들 수 있습니다. 이러한 폴더는 부서별 학습 과정 작성 및 분산 관리를 지원하기 위해 각기 다른 작성 및 출력 템플릿으로 구성된 특정 폴더 프로필에 매핑할 수 있습니다.
-
-     저장소 패널에서 새 폴더를 만들 수 있습니다.
-
-     ![](assets/create-new-folder.png){width="350" align="left"}
-   - **언어 폴더 만들기**: 콘텐츠를 다른 언어로 번역하는 경우 각 언어에 해당하는 폴더를 만들어야 합니다. 이러한 각 언어 폴더에는 해당 언어에 해당하는 콘텐츠가 포함됩니다.
-
-     자세한 내용은 [콘텐츠 번역 모범 사례](../user-guide/translation-first-time.md)를 참조하세요.
-   - **Assets 관리**: 폴더와 마찬가지로 여러 부서의 요구 사항에 맞게 다른 Assets 폴더를 만들 수도 있습니다. 이렇게 하면 작성자와 게시자가 템플릿, 이미지 및 기타 에셋에 구성된 올바른 CSS에 액세스할 수도 있습니다.
-
-     ![](assets/configure-assets-folder.png){width="350" align="left"}
 - **코드 조각**: 작성자가 올바른 코드 조각에 액세스할 수 있도록 폴더 수준에서 코드 조각을 구성할 수 있습니다. Experience Manager Guides에서는 관리자만 코드 조각을 만들 수 있으며, 이 코드 조각은 편집기의 작성자가 사용할 수 있습니다.
 
   편집기의 왼쪽 패널에서 코드 조각에 액세스할 수 있습니다.

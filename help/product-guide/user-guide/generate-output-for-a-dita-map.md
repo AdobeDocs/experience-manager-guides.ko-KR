@@ -4,9 +4,9 @@ description: AEM Guides의 맵 콘솔 및 맵 대시보드에서 DITA 맵에 대
 exl-id: d6cbd44c-e74c-4192-bcc4-fb7752c59508
 feature: Publishing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 358d38ca761661eaee7aeac2cc7d46c53105c543
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,15 @@ DITA 맵에 대한 출력을 생성하는 방법에는 두 가지가 있습니�
 
 맵 콘솔에서 하나 이상의 주제에 대한 AEM Sites 출력 또는 전체 DITA 맵을 생성할 수도 있습니다. 자세한 내용은 [기술 자료 출력 생성](web-editor-article-publishing.md#id218CK0U019I)을 참조하세요.
 
+## `chunk` 특성을 사용하여 DITA 맵 내에서 다른 주제 병합
+
+DITA 맵에는 참조, 개념 및 작업과 같은 다양한 주제 유형이 포함될 수 있습니다. `chunk=to-content` 특성을 사용하면 이러한 주제를 병합하여 AEM Sites에서 단일 페이지 출력을 생성할 수 있습니다. 그러나 병합된 주제를 제대로 게시하려면 관리자가 DITA 프로필에 올바른 XML 카탈로그를 구성했는지 확인하십시오.
+
+적절한 DTD 규칙을 올바르게 식별하고 적용하려면 XML 카탈로그에 `composite` 키워드가 있는 공용 ID가 필요합니다.
+이 구성은 기본적으로 표준 XML 카탈로그에 포함되어 있습니다. 그러나 사용자 지정 XML 카탈로그를 사용하는 경우 관리자가 이 공개 ID를 구성에 추가했는지 확인하십시오. 이 항목이 없으면 병합된 주제가 제대로 게시되지 않을 수 있습니다.
+
+사용자 지정 DTD/XSD에서 공개 ID 및 시스템 ID를 사용하는 방법에 대한 자세한 내용은 [DITA 특수화 통합](../cs-install-guide/dita-ot-specialization.md#integrate-dita-specialization-id211mb0e00xa)을 참조하십시오.
 
 
 
-**상위 항목:**&#x200B;[&#x200B;출력 생성](generate-output.md)
+**상위 항목:**[&#x200B;출력 생성](generate-output.md)
