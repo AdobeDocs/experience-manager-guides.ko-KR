@@ -1,7 +1,7 @@
 ---
 title: AEM Guides에서 게시
 description: AEM Guides의 게시 형식을 살펴보고 AEM Sites, PDF, HTML5, Edge Delivery Services, JSON 등을 비롯한 다양한 채널에 콘텐츠를 전달하는 방법을 알아봅니다.
-source-git-commit: ace32569321747c53829c58f9daca7e5c7753f99
+source-git-commit: 95404f56afdf4527de80f39ed1633ed3806e4b8a
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 1%
@@ -39,9 +39,9 @@ ht-degree: 1%
 
 ## 관련 리소스
 
-- [출력 생성 기본 사항]&#x200B;(https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/user-guide/map-management-publishing/output-gen/generate-output)
+- [출력 생성 기본 사항](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/map-management-publishing/output-gen/generate-output)
 
-- [새 AEM Sites 템플릿 설치](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/aem-site-templates/download-install-aem-sites-templates-cs-kb)
+- [새 AEM Sites 템플릿 설치](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/aem-site-templates/download-install-aem-sites-templates-cs-kb)
 
 - [단일 주제 게시](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/map-management-publishing/output-gen/generate-output/single-topic-publishing/publish-content-fragment.html)
 
@@ -56,7 +56,7 @@ ht-degree: 1%
 
 ### 커뮤니티 포럼
 
-- Experience League에서 세션별 커뮤니티 상호 작용을 보려면 [AEM Guides 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=ko)을 방문하십시오.
+- Experience League에서 세션별 커뮤니티 상호 작용을 보려면 [AEM Guides 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)을 방문하십시오.
 
 
 ## 연락처
