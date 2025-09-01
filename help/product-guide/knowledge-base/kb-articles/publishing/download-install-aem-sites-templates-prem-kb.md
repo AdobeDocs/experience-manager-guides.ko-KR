@@ -35,7 +35,7 @@ ht-degree: 0%
 ## CRX 패키지 관리자를 사용한 패키지 설치
 
 1. **구성 요소 패키지 설치:**
-   1. [**CRX 패키지 관리자**](http://<your-aem-instance>/crx/packmgr)&#x200B;(으)로 이동합니다.
+   1. [**CRX 패키지 관리자**](http://&lt;your-aem-instance>/crx/packmgr)&#x200B;(으)로 이동합니다.
    2. on-prem-guides-components.all-1.x.0.zip 패키지를 업로드하고 설치합니다.
 
 2. **사이트 패키지 설치:** CRX 패키지 관리자를 사용하여 aemg-docs.all-1.x.0.zip 패키지를 업로드하고 설치합니다.
