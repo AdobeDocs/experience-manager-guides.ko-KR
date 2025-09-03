@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 살펴보십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: 45dba186e27762bae48f90f9d4edd790b9a940ce
+source-git-commit: 27cf1d90cc3fb8ad30def0cdedd71b537c21a40f
 workflow-type: tm+mt
-source-wordcount: '2363'
+source-wordcount: '2362'
 ht-degree: 8%
 
 ---
@@ -102,7 +102,7 @@ ht-degree: 8%
             - [1월 릴리스 정보](./release-info/release-notes-2022-1-0.md)
       - On-prem/Managed Services {#on-prem-release-notes}
          - [[!DNL AEM Guides] 릴리스](./release-info/latest-release-info.md)
-         - 5.1.0 SP1 릴리스 {#510-release}
+         - 5.1.0 릴리스 {#510-release}
             - [새로운 기능](./release-info/whats-new-5-1-0.md)
             - [해결된 문제](./release-info/fixed-issues-5-1-0.md)
             - [업그레이드 지침](./release-info/upgrade-instructions-5-1-0.md)
@@ -148,8 +148,8 @@ ht-degree: 8%
                - [4.2.1 릴리스 정보](./release-info/release-notes-4-2-1.md)
                - [4.2 릴리스 노트](./release-info/release-notes-4-2.md)
          - [4.1.x 릴리스 노트](./release-info/release-notes-4-1.md)
-         - [4.0.x 릴리스 노트](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x 릴리스 노트](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - 사용 안내서 (새 UI) {#user-guide}
    - 소개 {#about-aemg}
       - [ [!DNL Adobe Experience Manager Guides] 정보](./user-guide/intro.md)
@@ -346,7 +346,7 @@ ht-degree: 8%
       - 문제 해결 {#troubleshooting}
          - [세션 시간 초과](./user-guide/session-timeout-prompt.md)
 - 사용 안내서 (이전 UI) {#user-guide-old-ui}
-   - [AEM Guides 개요](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides 개요](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 설치 및 구성 {#install-guide}
    - 온프레미스 {#on-prem-ig}
       - [On-Premise 기본 사항](./install-guide/introduction.md)
