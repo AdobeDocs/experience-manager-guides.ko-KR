@@ -25,7 +25,7 @@ ht-degree: 0%
 - 버전 4.3.x, 4.2, 4.2.1(핫픽스 4.2.1.3), 4.1 또는 4.1.x를 사용하는 경우 버전 5.0.0으로 업그레이드하기 전에 버전 4.4로 업그레이드해야 합니다.
 - 버전 4.0을 사용 중인 경우 버전 4.3.x로 업그레이드하기 전에 버전 4.2로 업그레이드해야 합니다.
 - 버전 3.8.5를 사용하는 경우 버전 4.2로 업그레이드하기 전에 버전 4.0으로 업그레이드해야 합니다.
-- 3.8.5 이전 버전을 사용하는 경우 [Experience Manager Guides 도움말 PDF 보관](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)에 있는 제품별 설치 안내서의 Adobe Experience Manager Guides 업그레이드 섹션을 참조하십시오.
+- 3.8.5 이전 버전을 사용하는 경우 [Experience Manager Guides 도움말 PDF 보관](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/archive.html)에 있는 제품별 설치 안내서의 Adobe Experience Manager Guides 업그레이드 섹션을 참조하십시오.
 
 
 >[!NOTE]
@@ -59,7 +59,7 @@ Experience Manager Guides 버전 3.8.5를 사용하는 경우 Experience Manager
 
 >[!NOTE]
 >
-> 이 업그레이드 프로세스는 버전 3.8.5에서 버전 4.0으로만 적용할 수 있습니다. 버전 3.4 이상에서 3.8.5로 업그레이드하는 절차는 *Experience Manager Guides 도움말 PDF 보관*&#x200B;에 있는 제품별 설치 안내서의 [Adobe Experience Manager Guides 업그레이드](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) 섹션을 참조하십시오.
+> 이 업그레이드 프로세스는 버전 3.8.5에서 버전 4.0으로만 적용할 수 있습니다. 버전 3.4 이상에서 3.8.5로 업그레이드하는 절차는 *Experience Manager Guides 도움말 PDF 보관*&#x200B;에 있는 제품별 설치 안내서의 [Adobe Experience Manager Guides 업그레이드](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/archive.html) 섹션을 참조하십시오.
 
 
 
@@ -1299,7 +1299,7 @@ Experience Manager Guides에는 교차 맵(서로 다른 두 맵의 주제 간 �
 
 ## damAssetLucene를 다시 인덱싱하는 절차
 
-안내서가 있는 damAssetLucene에 대한 색인 정의가 업데이트되었습니다. 5.0.0 버전으로 업그레이드한 후 damAssetLucene을 다시 인덱싱하려면 [이 문서](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460)를 참조하십시오.
+안내서가 있는 damAssetLucene에 대한 색인 정의가 업데이트되었습니다. 5.0.0 버전으로 업그레이드한 후 damAssetLucene을 다시 인덱싱하려면 [이 문서](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-16460)를 참조하십시오.
 
 >[!NOTE]
 >
@@ -1463,7 +1463,7 @@ Experience Manager Guides에는 교차 맵(서로 다른 두 맵의 주제 간 �
 
 ## damAssetLucene를 다시 인덱싱하는 절차
 
-안내서가 있는 damAssetLucene에 대한 색인 정의가 업데이트되었습니다. 5.1.0 버전으로 업그레이드한 후 damAssetLucene을 다시 인덱싱하려면 [이 문서](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460)를 참조하십시오.
+안내서가 있는 damAssetLucene에 대한 색인 정의가 업데이트되었습니다. 5.1.0 버전으로 업그레이드한 후 damAssetLucene을 다시 인덱싱하려면 [이 문서](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-16460)를 참조하십시오.
 
 >[!NOTE]
 >
