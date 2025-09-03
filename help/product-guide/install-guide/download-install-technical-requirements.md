@@ -5,9 +5,9 @@ exl-id: d69245b0-bf20-43c1-b46e-b6c220319690
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: 896c9c870942edd00a115977bc658f0a99fa699b
+source-git-commit: 939991b48826df5bf760d3c59b365bfb9efa795f
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -18,10 +18,7 @@ Adobe Experience Manager Guides을 설치하기 전에 시스템이 해당 릴�
 
 >[!IMPORTANT]
 >
-> 5.0 릴리스에서 AEM 사이트 출력을 생성하려면 Adobe Experience Manager의 게시 인스턴스에 서비스 팩 22, 21, 20이 있어야 합니다.
-
-
-
+> 5.1.0 릴리스의 AEM 사이트 출력 생성의 경우 Adobe Experience Manager 게시 인스턴스는 서비스 팩 23, 22, 21을 가져야 합니다.
 
 **지원되는 브라우저**
 
@@ -35,6 +32,7 @@ Adobe Experience Manager Guides을 설치하기 전에 시스템이 해당 릴�
 
 | [!DNL AEM Guides] 릴리스 | 기술 사양 |
 |---|---|
+| **AEM Guides 5.1.0** | **UUID 5.1.0** <ul><li> AEM 6.5 SP23, SP22 또는 SP21<br><br> <li>   Java: 11 또는 8 <br><br>   <li>운영 체제: <ul><li>Microsoft Windows Server 2012 R2 <br> <li>Red Hat Linux 7 및 6</ul> |
 | **AEM Guides 5.0.0** | **UUID 5.0.0** <ul><li> AEM 6.5 SP 22, SP21 또는 SP20<br><br> <li>   Java: 11 또는 8 <br><br>   <li>운영 체제: <ul><li>Microsoft Windows Server 2012 R2 <br> <li>Red Hat Linux 7 및 6</ul> |
 | **AEM Guides 4.6.0** | **비UUID 및 UUID 4.6.0** <ul><li> AEM 6.5 SP 21, SP20 또는 SP19<br><br> <li>   Java: 11 또는 8 <br><br>   <li>운영 체제: <ul><li>Microsoft Windows Server 2012 R2 <br> <li>Red Hat Linux 7 및 6</ul> |
 | **AEM Guides 4.4.0** | **비UUID 및 UUID 4.4.0** <ul><li> AEM 6.5 SP20, SP19, SP18 또는 SP17 <br><br> <li>   Java: 11 또는 8 <br><br>   <li>운영 체제: <ul><li> Windows Server 2012 R2 <br> <li>Red Hat Linux 7 및 6</ul> |

@@ -5,9 +5,9 @@ exl-id: 3be387b9-6ac2-4b61-afdf-fbe9d8b6cc1e
 feature: Workflow Configuration
 role: Admin
 level: Experienced
-source-git-commit: 01efb1f17b39fcbc48d78dd1ae818ece167f4fe5
+source-git-commit: 439be49e8f4c8cfacb16679257352f4197574365
 workflow-type: tm+mt
-source-wordcount: '1854'
+source-wordcount: '2126'
 ht-degree: 2%
 
 ---
@@ -18,20 +18,20 @@ ht-degree: 2%
 
 AEM의 워크플로우에 대한 자세한 내용은 다음을 참조하십시오.
 
-- [워크플로우 관리](https://helpx.adobe.com/kr/experience-manager/6-5/sites/administering/using/workflows.html)
+- [워크플로우 관리](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)
 
-- 워크플로 적용 및 참여: [워크플로를 사용하여 작업](https://helpx.adobe.com/kr/experience-manager/6-5/sites/authoring/using/workflows.html).
+- 워크플로 적용 및 참여: [워크플로를 사용하여 작업](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/workflows.html).
 
-- 워크플로 모델 만들기 및 워크플로 기능 확장: [워크플로 개발 및 확장](https://helpx.adobe.com/kr/experience-manager/6-5/sites/developing/using/workflows.html).
+- 워크플로 모델 만들기 및 워크플로 기능 확장: [워크플로 개발 및 확장](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/workflows.html).
 
-- 중요한 서버 리소스를 사용하는 워크플로우의 성능을 개선합니다. [동시 워크플로우 처리](https://helpx.adobe.com/kr/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance).
+- 중요한 서버 리소스를 사용하는 워크플로우의 성능을 개선합니다. [동시 워크플로우 처리](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance).
 
 
 이 항목의 섹션에서는 AEM Guides에서 제공되는 기본 워크플로우에서 수행할 수 있는 다양한 사용자 정의에 대해 설명합니다.
 
 ## 리뷰 워크플로 사용자 지정 {#id176NE0C00HS}
 
-모든 조직의 콘텐츠 작성 팀은 비즈니스 요구 사항을 충족하기 위해 특정 방식으로 작업합니다. 일부 조직에서는 전용 편집기가 있는 반면, 다른 조직에서는 편집 검토 시스템을 자동화할 수 있습니다. 예를 들어 조직에서 일반적인 작성 및 게시 작업 과정에는 작성자가 컨텐츠 작성을 완료할 때마다 검토자에게 자동으로 전달되고 검토가 완료되면 최종 출력을 생성하기 위해 게시자에게 전달되는 등의 작업이 포함될 수 있습니다. AEM에서 컨텐츠 및 에셋에서 수행하는 활동은 프로세스 형태로 결합되어 AEM 워크플로우에 매핑될 수 있습니다. AEM의 워크플로에 대한 자세한 내용은 AEM 설명서에서 [워크플로 관리](https://helpx.adobe.com/kr/experience-manager/6-5/sites/administering/using/workflows.html)를 참조하십시오.
+모든 조직의 콘텐츠 작성 팀은 비즈니스 요구 사항을 충족하기 위해 특정 방식으로 작업합니다. 일부 조직에서는 전용 편집기가 있는 반면, 다른 조직에서는 편집 검토 시스템을 자동화할 수 있습니다. 예를 들어 조직에서 일반적인 작성 및 게시 작업 과정에는 작성자가 컨텐츠 작성을 완료할 때마다 검토자에게 자동으로 전달되고 검토가 완료되면 최종 출력을 생성하기 위해 게시자에게 전달되는 등의 작업이 포함될 수 있습니다. AEM에서 컨텐츠 및 에셋에서 수행하는 활동은 프로세스 형태로 결합되어 AEM 워크플로우에 매핑될 수 있습니다. AEM의 워크플로에 대한 자세한 내용은 AEM 설명서에서 [워크플로 관리](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)를 참조하십시오.
 
 AEM Guides을 사용하면 기본 검토 워크플로를 사용자 지정할 수 있습니다. 다른 작성 또는 게시 작업 과정에서 다음 네 가지 사용자 정의 검토 관련 프로세스를 사용할 수 있습니다.
 
@@ -64,6 +64,7 @@ workflowdata.getMetaDataMap().put("startTime", System.currentTimeMillis());
 workflowdata.getMetaDataMap().put("reviewType", "AEM");
 workflowdata.getMetaDataMap().put("versionJson", "[{\"path\":\"GUID-ca6ae229-889a-4d98-a1c6-60b08a820bb3.dita\",\"review\":true,\"version\":\"1.0\",\"reviewers\":[\"projects-samplereviewproject-owner\"]}]");
 workflowdata.getMetaDataMap().put("isDitamap","false");
+workflowdata.getMetaDataMap().put("reviewVersion","3.0");
 ```
 
 **맵용**
@@ -90,6 +91,7 @@ workflowdata.getMetaDataMap().put("isDitamap", "true");
 workflowdata.getMetaDataMap().put("ditamap", "GUID-17feb385-acf3-4113-b838-77b11fd6988d.ditamap");
 var ditamapHierarchy = "[{\"path\":\"GUID-17feb385-acf3-4113-b838-77b11fd6988d.ditamap\",\"items\":[{\"path\":\"GUID-db5787bb-5467-4dc3-b3e5-cfde562ee745.ditamap\",\"items\":[{\"path\":\"GUID-ae42f13c-7201-4453-9a3a-c87675a5868e.dita\",\"items\":[],\"title\":\"\"},{\"path\":\"GUID-28a6517b-1b62-4d3a-b7dc-0e823225b6a5.dita\",\"items\":[],\"title\":\"\"}],\"title\":\"\"},{\"path\":\"GUID-dd699e10-118d-4f1b-bf19-7f1973092227.dita\",\"items\":[],\"title\":\"\"}]}]";
 workflowdata.getMetaDataMap().put("ditamapHierarchy", ditamapHierarchy);
+workflowdata.getMetaDataMap().put("reviewVersion","3.0");
 ```
 
 `/etc/workflows/scripts` 노드에서 이 스크립트를 만들 수 있습니다. 다음 표에서는 이 ECMA 스크립트에 의해 지정되는 속성에 대해 설명합니다.
@@ -114,6 +116,7 @@ workflowdata.getMetaDataMap().put("ditamapHierarchy", ditamapHierarchy);
 | `ditamap` | 문자열 | 리뷰 작업의 ditamap 경로 지정 |
 | `allowAllReviewers` | 부울 | false/true |
 | `notifyViaEmail` | 부울 | false/true |
+| `reviewVersion` | 문자열 | 검토 워크플로의 현재 버전을 지정합니다. 기본값은 `3.0`(으)로 설정되어 있습니다.<br> [작성자](../user-guide/review-close-review-task.md) 및 [검토자](../user-guide/review-complete-review-tasks.md)에 대해 새 검토 워크플로 기능을 사용하려면 `reviewVersion`이(가) `3.0`(으)로 설정되어 있는지 확인하십시오. |
 
 
 스크립트를 만들었으면 워크플로우에서 검토 만들기 프로세스를 호출하기 전에 스크립트를 호출합니다. 그런 다음 요구 사항에 따라 다른 검토 워크플로우 프로세스를 호출할 수 있습니다.
@@ -133,29 +136,58 @@ workflowdata.getMetaDataMap().put("ditamapHierarchy", ditamapHierarchy);
 
 **Adobe Granite 워크플로 제거 구성**&#x200B;을 구성하는 방법에 대한 자세한 내용은 AEM 설명서에서 *워크플로 인스턴스 관리*&#x200B;를 참조하십시오.
 
-### 이메일 템플릿 사용자 지정
+### 이메일 및 AEM 알림 사용자 지정
 
 많은 AEM Guides 워크플로우가 이메일 알림을 사용합니다. 예를 들어 검토 작업을 시작하면 검토자에게 이메일 알림이 전송됩니다. 그러나 이메일 알림이 전송되도록 하려면 AEM에서 이 기능을 활성화해야 합니다. AEM에서 전자 메일 알림을 사용하려면 AEM 설명서의 [전자 메일 알림 구성](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=ko-KR) 문서를 참조하십시오.
 
-AEM Guides에는 사용자 지정할 수 있는 이메일 템플릿 세트가 포함되어 있습니다. 이러한 템플릿을 사용자 정의하려면 다음 단계를 수행하십시오.
+AEM Guides에는 사용자 지정할 수 있는 이메일 및 AEM 알림 세트가 포함되어 있습니다. 다음 단계를 수행하여 이러한 알림을 사용자 지정합니다.
 
-1. AEM에 로그인한 다음 CRXDE Lite 모드를 엽니다.
-
-1. 네비게이터 탭에서 다음 위치로 이동합니다.
-
-   `/libs/fmdita/mail`
+1. 패키지 관리자를 사용하여 `/libs/fmdita/mail/review` 폴더를 다운로드합니다.
 
    >[!NOTE]
    >
    > ``libs`` 노드에서 사용할 수 있는 기본 구성 파일의 사용자 지정을 만들지 마십시오. ``libs`` 노드에서 ``apps`` 노드의 오버레이를 만들고 ``apps`` 노드에서만 필요한 파일을 업데이트해야 합니다.
 
-1. 메일 폴더에는 다음과 같은 사용자 지정 가능한 템플릿이 포함되어 있습니다.
+1. `review` 폴더에는 다음 하위 폴더가 있습니다.
 
-   | 템플릿 파일 이름 | 설명 |
+   - `aem-notification`
+   - `CSS`
+   - `email-notification`
+
+   이러한 하위 폴더에 대한 자세한 설명은 아래에 설명되어 있습니다.
+
+   | 하위 폴더 검토 | 설명 |
    |-----------------|-----------|
-   | closereview.html | 이 이메일 템플릿은 리뷰 작업이 종료될 때 사용됩니다. |
-   | createreview.html | 이 이메일 템플릿은 새 검토 작업을 만들 때 사용됩니다. |
-   | reviewapproval.css | 이 CSS 파일에는 이메일 템플릿의 스타일이 포함되어 있습니다. |
+   | `aem-notification` | 사용자 지정에 사용할 수 있는 다양한 AEM 알림 유형을 포함합니다. <br> `closed` <br> `content-updated` <br> `feedback-addressed` <br> `feedback-provided` <br> `requested` <br> `reviewer-removed` <br> `tag-mention` <br> 이러한 하위 폴더 내에는 각각 AEM 알림 제목과 설명을 사용자 지정할 수 있는 `primary.vm` 및 `secondary.vm` 파일이 있습니다. |
+   | `CSS` | 전자 메일 알림의 스타일을 사용자 지정하는 `email-notification.css` 파일을 포함합니다. |
+   | `email-notification` | 사용자 지정에 사용할 수 있는 다양한 이메일 알림 유형을 포함합니다. <br> `closed` <br> `content-updated` <br> `feedback-addressed` <br> `feedback-provided` <br> `requested` <br> `reviewer-removed` <br> `tag-mention` <br> 이러한 하위 폴더 내에는 전자 메일 알림 제목과 본문을 각각 사용자 지정할 수 있는 `primary.vm` 및 `secondary.vm` 파일이 있습니다. |
+
+각 알림 유형의 정의는 다음과 같습니다.
+
+- `closed`: 검토 작업이 닫히면 트리거됩니다.
+- `content-updated`: 작성자 또는 개시자가 콘텐츠를 업데이트할 때 트리거됩니다.
+- `feedback-addressed`: 작성자 또는 개시자가 댓글에 주소를 지정하고 검토자에게 다시 검토를 요청할 때 트리거됩니다.
+- `feedback-provided` 검토자가 검토 작업의 작성자 또는 개시자에게 작업 수준 설명을 제공하여 작업을 완료로 표시할 때 트리거됩니다.
+- `requested`: 작성자 또는 개시자가 검토 작업을 만들 때 트리거됩니다.
+- `reviewer-removed`: 검토자가 검토 작업에서 할당 해제되면 트리거됩니다.
+- `tag-mention`: 리뷰 댓글에서 사용자가 언급되거나 태그 지정되면 트리거됩니다.
+
+전자 메일 또는 AEM 알림을 사용자 지정하는 동안 `primary.vm` 및 `secondary.vm` 파일에서 사용되는 미리 정의된 다음 변수 집합만 사용하도록 하십시오.
+
+
+| **변수 이름** | **설명** | **데이터 형식** |
+|-------------------------|---------------------------------------------------------------|---------------|
+| `projectPath` | 리뷰 작업이 포함된 프로젝트의 경로 | 문자열 |
+| `reviewTitle` | 리뷰 작업 제목 | 문자열 |
+| `projectName` | 프로젝트 이름 | 문자열 |
+| `commentator` | 댓글을 추가한 사용자 이름 | 문자열 |
+| `commentExcerpt` | 댓글 코드 조각 추가됨 | 문자열 |
+| `taskLink` | 리뷰 작업에 직접 연결 | URL |
+| `authorName` | 리뷰 작업을 만들거나 업데이트한 작성자 이름 | 문자열 |
+| `dueDate` | 리뷰 작업 기한 | 날짜 |
+| `reviewerName` | 작업에 할당된 검토자 이름 | 문자열 |
+| `user` | 검토 작업에 포함된 사용자(예: 작성자, 검토자 또는 관리자)입니다. | 문자열 |
+| `recipient` | 알림을 받는 특정 사용자 | 문자열 |
 
 
 ## 사후 출력 생성 워크플로 사용자 지정 {#id17A6GI004Y4}
