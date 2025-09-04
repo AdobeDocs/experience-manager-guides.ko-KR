@@ -1,9 +1,9 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides, 5.1.0 릴리스의 문제가 해결되었습니다.
 description: Adobe Experience Manager Guides 5.1.0 릴리스의 버그 수정에 대해 알아봅니다.
-source-git-commit: 64df76f371867469d738f59a174e7931176e8591
+source-git-commit: 6c29d5540f48c850416db279b4392b6042c8ca2c
 workflow-type: tm+mt
-source-wordcount: '1796'
+source-wordcount: '1789'
 ht-degree: 1%
 
 ---
@@ -109,7 +109,6 @@ Adobe은 5.1.0 릴리스에 대해 다음과 같은 알려진 문제를 확인�
 
 - 검토자가 주석을 추가하지 않고 작업을 완료하면 작업 개시자에게 보내는 전자 메일 알림에 가장 최근의 작업 수준 주석이 표시됩니다. (GUIDES-33590)
 - 병합 대화 상자에서 선택한 주제의 사용 가능한 버전을 표시하는 대신 드롭다운 목록에 주 콘텐츠가 잘못 표시됩니다. (GUIDES-30820)
-링크가 작동 상태가 되는 경우입니다. (GUIDES-30820)
 - 동일한 기준선을 사용하는 사전 설정 사이를 전환하면 현재 사전 설정에 대한 [저장] 버튼이 비활성화됩니다. (GUIDES-28025)
 - 새 콘텐츠를 codeblock 요소 내의 새 줄에 붙여 넣을 때 빈 줄이 자동으로 삽입됩니다.(GUIDES-27842)
 - 하위 맵에서 keydef와 topicref로 모두 사용되는 경우 DITA 맵 내의 주제가 AEM Sites 출력에 게시되지 않습니다. (GUIDES-22269)
