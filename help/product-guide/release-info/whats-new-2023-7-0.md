@@ -4,14 +4,14 @@ description: Adobe Experience Manager Guides as a Cloud Service 2023년 7월 릴
 exl-id: 4b907729-4fbf-48ed-a2e1-014bd1101c73
 feature: What's New
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 7d0ae0f13ab77a10beb89fcb0d8592b05c3828bd
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---
 
-# 새로운 기능 2023년 7월 Adobe Experience Manager Guides as a Cloud Service 릴리스
+# Adobe Experience Manager Guides as a Cloud Service 2023년 7월 릴리스의 새로운 기능
 
 이 문서에서는 2023년 7월 Adobe Experience Manager Guides 버전(*AEM Guides as a Cloud Service*)의 새로운 기능과 향상된 기능을 다룹니다.
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 작성자는 이 기능을 사용하여 검토 작업을 쉽게 열고, 주석을 보고, 중앙 보기에서 신속하게 주석을 처리할 수 있습니다.
 ![](assets/active-review-task-comments.png){width="800" align="left"}
-자세한 내용은 [왼쪽 패널](../user-guide/web-editor-features.md#id2051EA0M0HS) 섹션 내에서 **검토** 기능 설명을 참조하십시오.
+자세한 내용은 **왼쪽 패널** 섹션 내에서 [검토](../user-guide/web-editor-features.md#id2051EA0M0HS) 기능 설명을 참조하십시오.
 
 
 ## 맵 컬렉션 개선 사항
@@ -53,9 +53,9 @@ ht-degree: 0%
 
 자세한 내용은 [출력 생성을 위해 맵 컬렉션 사용](../user-guide/generate-output-use-map-collection-output-generation.md)을 참조하세요.
 
-## 기본 PDF 출력을 생성하는 동안 임시 HTML 파일에 액세스할 수 있습니다.
+## 기본 PDF 출력을 생성하는 동안 임시 HTML 파일에 액세스하는 기능
 
-이제 AEM Guides을 사용하여 기본 HTML 출력을 생성하는 동안 생성된 임시 PDF 파일을 다운로드할 수 있습니다. 출력 사전 설정 설정에서 임시 파일을 다운로드하는 옵션을 선택합니다.  그러면 AEM Guides에서 해당 사전 설정을 사용하여 출력을 생성하는 동안 생성된 임시 파일을 다운로드할 수 있습니다.
+이제 AEM Guides을 사용하여 기본 PDF 출력을 생성하는 동안 만든 임시 HTML 파일을 다운로드할 수 있습니다. 출력 사전 설정 설정에서 임시 파일을 다운로드하는 옵션을 선택합니다.  그러면 AEM Guides에서 해당 사전 설정을 사용하여 출력을 생성하는 동안 생성된 임시 파일을 다운로드할 수 있습니다.
 
 이 기능을 사용하면 중간 스타일 및 레이아웃에 액세스하여 생성 프로세스에 대한 통찰력을 향상시킬 수 있으며 요구 사항에 따라 CSS 스타일을 수정하거나 변경할 수 있습니다.
 
@@ -63,14 +63,14 @@ ht-degree: 0%
 
 자세한 내용은 [PDF 출력 사전 설정 만들기](../web-editor/native-pdf-web-editor.md#create-output-preset)를 참조하세요.
 
-## Microservice 기반 게시로 HTML 5 및 사용자 지정 출력 생성
+## HTML5 및 사용자 지정 출력을 생성하기 위한 마이크로서비스 기반 게시
 
-새로운 게시 서비스를 사용하면 AEM Guides as a Cloud Service 마이크로에서 동시에 대규모 게시 워크로드를 실행할 수 있으며 업계 최고의 Adobe I/O Runtime 서버를 활용할 수 있습니다. 이제 마이크로서비스를 사용하여 HTML5와 사용자 지정 출력을 생성할 수도 있습니다.
+새로운 게시 마이크로서비스를 사용하면 AEM Guides as a Cloud Service에서 동시에 대규모 게시 워크로드를 실행하고 업계 최고의 Adobe I/O Runtime 서버리스 플랫폼을 활용할 수 있습니다. 이제 마이크로서비스를 사용하여 HTML5와 사용자 지정 출력을 생성할 수도 있습니다.
 여러 게시 요청을 실행하고 향상된 성능을 통해 이러한 출력 형식을 생성할 수 있습니다.
-자세한 내용은 [AEM Guidesas a Cloud Service 에 대한 마이크로서비스 기반 게시 구성](../knowledge-base/publishing/configure-microservices.md)을 참조하십시오.
+자세한 내용은 [AEM Guides as a Cloud Service에 대한 마이크로서비스 기반 게시 구성](../knowledge-base/publishing/configure-microservices.md)을 참조하세요.
 
 ## 정보 정보에서 AEM Guides 버전 세부 사항 보기
 
 이제 AEM **정보** 정보와 함께 AEM Guides 버전 세부 정보도 볼 수 있습니다. AEM 탐색 페이지에서 **도움말**&#x200B;의 **정보** 옵션에서 현재 버전 세부 정보를 볼 수 있습니다.
 
-![](assets/about-aem-help.png)(width=&quot;800&quot; align=&quot;left&quot;)
+![](assets/about-aem-help.png){width="800" align="left"}

@@ -2,9 +2,9 @@
 title: 스마트 도움말 및 작성을 위한 AI Assistant 구성
 description: Experience Manager Guides에서 AI Assistant를 구성하는 방법 알아보기
 exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
-source-git-commit: b5b4c5484593a2f7d9121da1c7bfb28dd2c36a57
+source-git-commit: 7d0ae0f13ab77a10beb89fcb0d8592b05c3828bd
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '937'
 ht-degree: 0%
 
 ---
@@ -33,13 +33,13 @@ Adobe Developer Console에서 IMS 구성을 만들려면 다음 단계를 수행
 
 1. [Adobe Developer Console](https://developer.adobe.com/console)을(를) 시작합니다.
 1. Developer Console에 로그인하면 **홈** 화면이 표시됩니다. **홈** 화면에서 프로젝트 및 다운로드에 대한 위쪽 탐색 링크를 포함하여 정보와 빠른 링크를 쉽게 찾을 수 있습니다.
-1. 새 빈 프로젝트를 만들려면 **빠른 시작** 링크에서 **새 프로젝트 만들기**&#x200B;를 선택하십시오.
+1. 새 빈 프로젝트를 만들려면 **빠른 시작** 링크에서 **새 프로젝트 만들기**를 선택하십시오.
    ![빠른 시작 링크](assets/conf-ss-quick-start.png) {width="550" align="left"}
    *새 프로젝트를 만듭니다.*
 
 1. **프로젝트** 화면에서 **API 추가**&#x200B;를 선택합니다.  **API 추가** 화면이 나타납니다. 이 화면에는 애플리케이션을 개발할 수 있는 Adobe 제품 및 기술에 사용 가능한 모든 API, 이벤트 및 서비스가 표시됩니다.
 
-1. **I/O 관리 API**&#x200B;를 선택하여 프로젝트에 추가하십시오.
+1. **I/O 관리 API**를 선택하여 프로젝트에 추가하십시오.
    ![IO 관리 API](assets/confi-ss-io-management.png)
    *I/O 관리 API를 프로젝트에 추가합니다.*
 
@@ -79,7 +79,7 @@ OAuth 인증 세부 사항을 구성하고 JSON 서비스 세부 사항을 다�
 1. **환경** 탭으로 전환합니다.
 1. 구성할 환경 이름을 선택합니다. **환경 정보** 페이지로 이동해야 합니다.
 1. **구성** 탭으로 전환합니다.
-1. JSON 필드 `SERVICE_ACCOUNT_DETAILS`을(를) 업데이트합니다. 다음 스크린샷과 동일한 이름과 구성을 사용하고 있는지 확인합니다.
+1. 이전 섹션에서 다운로드한 JSON 서비스 세부 정보를 **에 해당하는**&#x200B;값`SERVICE_ACCOUNT_DETAILS` 필드에 붙여 넣습니다. 다음 스크린샷과 동일한 이름과 구성을 사용해야 합니다.
 
    ![ims 서비스 계정 구성](assets/ims-service-account-config.png){width="800" align="left"}
 
