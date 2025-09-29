@@ -4,9 +4,9 @@ description: Experience Manager Guides의 학습 및 교육 콘텐츠를 위한 
 feature: Authoring
 role: User
 exl-id: 18b7e018-287c-4e52-a05e-5472eedf1c54
-source-git-commit: 98a520a255c5587ac0de82685391c0fc153bc8d1
+source-git-commit: 2cb5d104c9a02feb2148018975ca51edda593634
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,10 @@ ht-degree: 0%
 | 저장소 및 컬렉션 관리 | 저장소를 탐색하고 파일 작업, 검색 및 컨텐츠 구성을 포함한 AEM Guides의 컬렉션 관리에 대한 개요입니다. | [비디오 시작](https://video.tv.adobe.com/v/3469539/learning-content-aem-guides){target="_blank"} |
 | AEM Guides에서 과정 만들기 | 템플릿, 콘텐츠 계층 구조, 퀴즈, 버전 관리 및 과정 구조를 포함하여 AEM Guides에서 과정을 만들고 관리하는 방법을 보여 줍니다. | [비디오 시작](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content){target="_blank"} |
 | 학습 컨텐츠 만들기 및 편집 | 템플릿, 서식, 미디어, 하이퍼링크, 표 및 컨텐츠 속성에 대해 다루는 AEM Guides에서 구조화된 컨텐츠를 작성하는 실습입니다. | [비디오 시작](https://video.tv.adobe.com/v/3469535/learning-content-aem-guides){target="_blank"} |
-| 퀴즈 만들기 및 편집 | 템플릿, 질문 유형, 리치 콘텐츠, 피드백 및 퀴즈 속성을 다루는 AEM Guides의 퀴즈 빌드에 대한 단계별 안내서입니다. | [비디오 시작](https://video.tv.adobe.com/v/3469541/aem-guides-learning-content){target="_blank"} |
-| 질문 은행 사용 | 삽입, 편집 동작, 무작위 지정 및 고유 ID에 대한 모범 사례를 포함하여 AEM Guides에서 질문 은행을 만들고 재사용하는 방법에 대한 개요입니다. | [비디오 시작](https://video.tv.adobe.com/v/3469313/aem-guides-learning-content){target="_blank"} |
+| 학습 항목 추가 | AEM Guides의 강의에 새로운 주제를 추가하는 시연입니다. | [비디오 시작](https://video.tv.adobe.com/v/3475211/learning-content-aem-guides){target="_blank"} |
+| 주제 제거 및 표시 설정 탐색 | 강의에서 주제를 제거하고 설정 표시 옵션을 탐색하는 방법에 대한 개요입니다. | [비디오 시작](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides){target="_blank"} |
+| 퀴즈 만들기 및 편집 | 템플릿, 질문 유형, 리치 콘텐츠, 피드백 및 퀴즈 속성을 다루는 AEM Guides의 퀴즈 빌드에 대한 단계별 안내서입니다. | [비디오 시작](https://video.tv.adobe.com/v/3475209/aem-guides-learning-content){target="_blank"} |
+| 질문 은행 사용 | 삽입, 편집 동작, 무작위 지정 및 고유 ID에 대한 모범 사례를 포함하여 AEM Guides에서 질문 은행을 만들고 재사용하는 방법에 대한 개요입니다. | [비디오 시작](https://video.tv.adobe.com/v/3475212/learning-content-aem-guides){target="_blank"} |
 | 파일 속성 이해 | 문서 상태, 태그, 학습 컨텐츠 속성, 참조 및 컨텐츠 속성과 같은 AEM Guides의 파일 수준 메타데이터에 대한 개요입니다. | [비디오 시작](https://video.tv.adobe.com/v/3469538/learning-content-aem-guides){target="_blank"} |
 | 스타일 학습 컨텐츠 및 CSS 관리 | CSS 편집기를 사용하여 학습 콘텐츠에 인라인 및 패널 기반 스타일을 적용하고, 퀴즈 스타일 제한을 관리하고, 스타일을 구성하는 방법을 보여 줍니다. | [비디오 시작](https://video.tv.adobe.com/v/3469533/aem-guides-learning-content){target="_blank"} |
 | 고급 콘텐츠 편집 | 위젯(아코디언, 회전 메뉴, 핫스팟), 멀티미디어, iframe, 코드 블록 및 블록 따옴표를 포함하여 AEM Guides에서 고급 요소를 삽입하고 구성하는 방법을 보여 줍니다. | [비디오 시작](https://video.tv.adobe.com/v/3469531/learning-content-aem-guides){target="_blank"} |

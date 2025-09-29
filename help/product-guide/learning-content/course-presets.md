@@ -1,11 +1,12 @@
 ---
 title: 지원되는 사전 설정
-description: 학습 및 교육 컨텐츠에서 과정을 게시하기 위해 지원되는 사전 설정에 대해 소개합니다
+description: 제품 교육 및 학습에서 과정을 게시하기 위해 지원되는 사전 설정에 대해 소개합니다
 feature: Authoring
 role: User
-source-git-commit: 54956963caf6384e129da97ed0f2100913893977
+exl-id: 32f30bba-4600-4d75-b0bb-1093490ec11e
+source-git-commit: 37eeecfa5683ce9de95f576b185e98bf180fab18
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
@@ -18,6 +19,4 @@ ht-degree: 0%
 
 - **PDF:** PDF 출력 사전 설정을 사용하면 인쇄할 준비가 된 전문적인 형식으로 강의 콘텐츠를 게시할 수 있습니다. PDF 형식을 사용하면 검토 또는 보관 목적으로 콘텐츠를 공유하는 데 이상적입니다.
 
-
-
-
+사전 설정에 대한 출력을 만들고, 구성하고, 생성하는 방법에 대한 비디오 개요는 [사전 설정 만들기 및 구성](https://video.tv.adobe.com/v/3469529/aem-guides-learning-content)을 참조하십시오.

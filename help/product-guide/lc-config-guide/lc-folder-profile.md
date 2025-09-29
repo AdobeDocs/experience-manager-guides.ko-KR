@@ -5,9 +5,9 @@ feature: Authoring
 role: Admin
 level: Experienced
 exl-id: dc26ae48-c953-492c-823a-5f65157b6902
-source-git-commit: f14ee85ccc49abd662a046b2bd4e7be2eece4902
+source-git-commit: 64adc89966e60823f6b46fb062b7659ed150cfc3
 workflow-type: tm+mt
-source-wordcount: '1451'
+source-wordcount: '1453'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 0%
 # 폴더 프로필 구성
 
 폴더 프로필은 기업의 다양한 부서 또는 제품에 대한 구성을 분리하는 데 필요합니다. 학습 및 교육 컨텐츠의 경우 작성 템플릿, 출력 템플릿, 출력 사전 설정 및 기타 폴더 수준 설정을 관리하는 폴더 수준 프로필을 만들고 구성할 수 있습니다.
+
+[폴더 구조를 설정하는 모범 사례](best-practices-folder-structure.md)에 대해 알아봅니다.
 
 학습 및 교육 콘텐츠에 대한 폴더 프로필 구성을 시작하려면 다음을 수행해야 합니다.
 
@@ -25,7 +27,6 @@ ht-degree: 0%
    ![](assets/create-new-folder.png){width="350" align="left"}
 2. **번역을 관리할 언어 폴더를 만듭니다**: 콘텐츠를 다른 언어로 번역하려면 각 언어에 해당하는 폴더를 만들어야 합니다. 이러한 각 언어 폴더에는 해당 언어에 해당하는 콘텐츠가 포함됩니다.
 
-   자세한 내용은 [콘텐츠 번역 모범 사례](../user-guide/translation-first-time.md)를 참조하세요.
 3. **Assets을 관리할 폴더를 만드십시오**: 폴더와 마찬가지로 부서마다 다른 요구 사항에 맞게 다른 Assets 폴더를 만들 수도 있습니다. 이렇게 하면 작성자와 게시자가 템플릿, 이미지 및 기타 에셋에 구성된 올바른 CSS에 액세스할 수도 있습니다.
 
    ![](assets/configure-assets-folder.png){width="350" align="left"}

@@ -1,9 +1,10 @@
 ---
 title: 과정 관리자 기본 사항
-description: Adobe Experience Manager Guides에서 학습 및 교육 콘텐츠를 사용할 때 Course Manager의 기본 사항을 이해합니다.
+description: Adobe Experience Manager Guides에서 제품 교육 및 학습 작업을 수행할 때 Course Manager의 기본 사항을 이해합니다.
 feature: Authoring
 role: User
-source-git-commit: 33b6080ec0a98e85f96e0ccb46c91bbffb882d2a
+exl-id: 091cd47e-558b-49d7-ae47-b600fc8fe79d
+source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 0%

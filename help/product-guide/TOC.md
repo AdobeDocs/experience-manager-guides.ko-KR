@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 살펴보십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: a437256345b923bbcdbfb3fcdd79d1e0f67bc9f7
+source-git-commit: fc250384e887f28ab22248e787d1b003d1fa966c
 workflow-type: tm+mt
-source-wordcount: '2370'
-ht-degree: 8%
+source-wordcount: '2373'
+ht-degree: 9%
 
 ---
 
@@ -151,8 +151,8 @@ ht-degree: 8%
                - [4.2.1 릴리스 정보](./release-info/release-notes-4-2-1.md)
                - [4.2 릴리스 노트](./release-info/release-notes-4-2.md)
          - [4.1.x 릴리스 노트](./release-info/release-notes-4-1.md)
-         - [4.0.x 릴리스 노트](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x 릴리스 노트](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - 사용 안내서 (새 UI) {#user-guide}
    - 소개 {#about-aemg}
       - [ [!DNL Adobe Experience Manager Guides] 정보](./user-guide/intro.md)
@@ -291,7 +291,7 @@ ht-degree: 8%
       - [출력 생성 작업의 상태 보기](./user-guide/fm-output-view-status.md)
    - AEM Guides의 AI 지원 {#ai-assistant-aem}
       - [Adobe Generative AI 사용자 공개](./user-guide/adobe-generative-ai-disclosures.md)
-      - [AI Assistant 개요](./user-guide/ai-assistant.md)
+      - [AI 어시스턴트 개요](./user-guide/ai-assistant.md)
       - [콘텐츠 검색에 대한 AI 기반 스마트 도움말](./user-guide/ai-based-smart-help.md)
       - [AI Assistant를 사용하여 문서 작성하기](./user-guide/ai-assistant-right-panel.md)
       - [콘텐츠 작성에 대한 AI 기반 스마트 제안](./user-guide/authoring-ai-based-smart-suggestions.md)
@@ -307,9 +307,9 @@ ht-degree: 8%
             - [Course Manager 기본 사항 이해](./learning-content/course-manager-basics.md)
             - [과정 관리](./learning-content/manage-course.md)
          - 학습 콘텐츠 만들기 및 사용자 지정 {#customize-lc}
-            - [학습 콘텐츠 개요](./learning-content/lc-overview.md)
-            - [학습 콘텐츠 만들기](./learning-content/create-content.md)
-            - [학습 콘텐츠 편집](./learning-content/edit-content.md)
+            - [개요](./learning-content/lc-overview.md)
+            - [주제 만들기](./learning-content/create-content.md)
+            - [주제 편집](./learning-content/edit-content.md)
             - [기본 빌딩 블록 추가](./learning-content/lc-basic-blocks.md)
             - [대화형 위젯 사용](./learning-content/lc-widgets.md)
             - [인라인 스타일 사용](./learning-content/lc-inline-styles.md)
@@ -318,10 +318,10 @@ ht-degree: 8%
             - [퀴즈 만들기](./learning-content/create-quiz.md)
             - [퀴즈 편집](./learning-content/edit-quiz.md)
             - [퀴즈에 질문 삽입](./learning-content/quiz-insert-questions.md)
+            - [퀴즈 속성](./learning-content/quiz-properties.md)
             - 문제 은행 {#question-bank}
                - [질문 은행 만들기](./learning-content/create-qb.md)
                - [질문 은행에서 질문 삽입](./learning-content/insert-questions.md)
-            - [퀴즈 속성](./learning-content/quiz-properties.md)
          - 강의 게시 {#publish-course}
             - [강의 게시 기본 정보](./learning-content/publish-overview.md)
             - [지원되는 사전 설정](./learning-content/course-presets.md)
@@ -336,6 +336,7 @@ ht-degree: 8%
       - 구성 안내서 {#config-lc}
          - [이 안내서 정보](./lc-config-guide/introduction.md)
          - [폴더 프로필 구성](./lc-config-guide/lc-folder-profile.md)
+         - [폴더 구조 설정 우수 사례](./lc-config-guide/best-practices-folder-structure.md)
          - [다른 설정 구성](./lc-config-guide/lc-other-settings.md)
       - 비디오 자습서 {#lc-video}
          - [작성 워크플로](./lc-video-tutorials/author-workflow.md)
@@ -349,7 +350,7 @@ ht-degree: 8%
       - 문제 해결 {#troubleshooting}
          - [세션 시간 초과](./user-guide/session-timeout-prompt.md)
 - 사용 안내서 (이전 UI) {#user-guide-old-ui}
-   - [AEM Guides 개요](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides 개요](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 설치 및 구성 {#install-guide}
    - 온프레미스 {#on-prem-ig}
       - [On-Premise 기본 사항](./install-guide/introduction.md)

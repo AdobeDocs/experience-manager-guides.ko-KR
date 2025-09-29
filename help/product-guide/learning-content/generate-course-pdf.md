@@ -1,9 +1,10 @@
 ---
 title: PDF 생성
-description: 학습 및 교육 콘텐츠에서 PDF 출력을 생성하는 방법에 대해 알아봅니다.
+description: 제품 교육 및 학습에서 PDF 출력을 생성하는 방법에 대해 알아봅니다.
 feature: Authoring
 role: User
-source-git-commit: 4b581043d2577545b69773d33869dcd873a2ea3b
+exl-id: 364aa6a4-4ef6-4f7d-b207-ee011b79183c
+source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 4%
@@ -26,8 +27,3 @@ PDF을 생성하려면 다음 단계를 수행하십시오.
 1. 성공 메시지와 도구 모음에서 **출력 보기**&#x200B;를 선택하여 PDF을 다운로드할 수 있습니다.
 
    ![](assets/view-output.png){width="650" align="left"}
-
-
-
-
-

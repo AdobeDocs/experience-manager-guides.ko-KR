@@ -1,9 +1,10 @@
 ---
 title: 인터페이스 및 사전 요구 사항 살펴보기
-description: Adobe Experience Manager Guides에서 학습 및 교육 콘텐츠로 작업할 때 발생하는 인터페이스와 사전 요구 사항을 살펴보십시오.
+description: Adobe Experience Manager Guides에서 제품 교육 및 학습을 사용할 때 발생하는 인터페이스와 사전 요구 사항을 살펴보십시오.
 feature: Authoring
 role: User
-source-git-commit: eda6c57d80359b1c70266708dc444f4880e1bf6c
+exl-id: b55af490-ebd5-4aa0-a5f3-84d835175dc9
+source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -44,13 +45,3 @@ ht-degree: 0%
 - **모양**: 응용 프로그램의 테마를 선택하고 학습 콘텐츠의 원본 보기를 선택할 수 있는 옵션을 제공합니다.
 
 자세한 내용은 Experience Manager Guides에서 [사용자 환경 설정](../user-guide/intro-home-page.md#user-preferences)을 확인하세요.
-
-
-
-
-
-
-
-
-
-

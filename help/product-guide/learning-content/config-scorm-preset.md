@@ -1,9 +1,10 @@
 ---
 title: SCORM 사전 설정 구성
-description: 학습 및 교육 콘텐츠의 다양한 SCORM 사전 설정 구성에 대해 알아봅니다
+description: 제품 교육 및 학습의 다양한 SCORM 사전 설정 구성에 대해 알아봅니다
 feature: Authoring
 role: User
-source-git-commit: 110082f38f170d277dfd745a4fce77ad030707c3
+exl-id: b3000708-6120-4725-bea1-0b8e58048948
+source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%
@@ -27,5 +28,3 @@ ht-degree: 0%
   ![](assets/scorm-publish-tab.png){width="650" align="left"}
 
 모든 변경 사항이 구성되면 SCORM 사전 설정 페이지의 도구 모음 오른쪽 모서리에 있는 **저장**&#x200B;을 사용하여 SCORM 사전 설정에 대한 변경 사항을 저장합니다.
-
-

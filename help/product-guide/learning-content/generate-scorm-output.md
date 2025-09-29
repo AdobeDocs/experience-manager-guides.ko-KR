@@ -1,9 +1,10 @@
 ---
 title: SCORM 출력 생성
-description: 학습 및 교육 콘텐츠에서 SCORM 출력을 생성하는 방법에 대해 알아봅니다
+description: 제품 교육 및 학습에서 SCORM 출력을 생성하는 방법에 대해 알아봅니다
 feature: Authoring
 role: User
-source-git-commit: 4b581043d2577545b69773d33869dcd873a2ea3b
+exl-id: 3de623d6-c547-42a5-9ce4-c3e09accb8b1
+source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 0%
@@ -28,6 +29,3 @@ SCORM 출력을 생성하려면 다음 단계를 수행하십시오.
    ![](assets/scorm-view-output.png){width="650" align="left"}
 
 ZIP 파일을 LMS에 업로드하여 학습자가 과정을 사용할 수 있도록 할 수 있습니다.
-
-
-

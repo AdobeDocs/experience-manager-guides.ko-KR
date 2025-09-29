@@ -1,20 +1,27 @@
 ---
-title: 학습 콘텐츠에 기본 빌딩 블록 추가
-description: 학습 및 교육 콘텐츠에서 학습 콘텐츠에 추가할 수 있는 기본 빌딩 블록에 대해 알아봅니다
+title: 기본 빌딩 블록 추가
+description: 제품 교육 및 학습에서 주제 또는 학습 콘텐츠에 추가할 수 있는 기본 구성 요소에 대해 알아봅니다
 feature: Authoring
 role: User
-source-git-commit: 4b581043d2577545b69773d33869dcd873a2ea3b
+exl-id: 171b9df9-3782-4cfa-b450-7824e5fd390d
+source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
 
-# 학습 콘텐츠에 기본 빌딩 블록 추가
+# 주제에 기본 빌딩 블록 추가
 
-아래 설명된 대로 학습 콘텐츠 도구 모음에서 사용할 수 있는 기본 편집 기능을 사용할 수 있습니다.
+학습 주제를 만들고 기본 구성 요소를 추가하는 방법을 보다 명확하게 이해하기 위해, 다음 비디오에서는 사용 가능한 기능에 대한 간단한 개요를 제공합니다.
 
-- **위젯**: 아래와 같이 **삽입** 메뉴를 사용하여 아코디언, 회전 메뉴, 핫스팟 등의 위젯을 학습 콘텐츠에 추가합니다. 대화형 위젯에 대한 자세한 내용은 [대화형 위젯 사용](./lc-widgets.md)을 참조하세요.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3469535/learning-content-aem-guides)
+
+
+아래 설명된 대로 편집기 도구 모음에서 사용할 수 있는 기본 편집 기능을 사용할 수 있습니다.
+
+- **위젯**: 아래와 같이 **삽입** 메뉴를 사용하여 주제 또는 학습 콘텐츠에 아코디언, 회전 메뉴, 핫스팟 등의 위젯을 추가합니다. 대화형 위젯에 대한 자세한 내용은 [대화형 위젯 사용](./lc-widgets.md)을 참조하세요.
 
   ![](assets/widgets-learning-content.png){width="650" align="left"}
 
@@ -50,5 +57,3 @@ ht-degree: 0%
 - **하이퍼링크**: 콘텐츠의 필요한 위치에 하이퍼링크를 추가합니다. 도구 모음의 **자세히** 메뉴에서 사용할 수 있습니다. 아래 표시된 대로 파일 참조, 웹 URL 또는 이메일 링크일 수 있습니다.
 
   ![](assets/hyperlink-learning-content.png){width="650" align="left"}
-
-
