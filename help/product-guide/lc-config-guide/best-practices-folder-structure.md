@@ -73,5 +73,5 @@ HR, 재무, 법률 등 부서별로 별도의 폴더를 생성하여 자체 컨�
 
 이러한 권한은 사용자가 지정된 폴더 내에서만 콘텐츠를 만들거나 수정할 수 있도록 해줍니다.
 
-자세한 내용은 [AEM의 사용 권한](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/security#permissions-in-aem)을 참조하세요.
+자세한 내용은 [AEM의 사용 권한](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/security/security#permissions-in-aem)을 참조하세요.
 
