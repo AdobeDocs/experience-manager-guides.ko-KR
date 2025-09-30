@@ -4,9 +4,9 @@ description: 제품 교육 및 학습에서 학습 콘텐츠를 만들 때 다�
 feature: Authoring
 role: User
 exl-id: 78b62eb3-bc61-4c39-96b2-c0511d659ebf
-source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
+source-git-commit: 6a61f404892dee8256e969a0b3433b8425f84c6c
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,8 @@ ht-degree: 0%
 # 인라인 스타일 사용
 
 인라인 스타일을 적용하여 강의 콘텐츠 내에서 직접 특정 텍스트의 모양을 맞춤화할 수 있습니다. 이렇게 하면 글꼴 크기, 색상, 정렬 등과 같은 서식을 빠르게 조정할 수 있습니다. **콘텐츠 속성** 패널을 사용하여 선택한 텍스트의 인라인 스타일을 수정할 수 있습니다.
+
+다음은 사용 가능한 다양한 인라인 스타일에 대해 보여 주는 짧은 연습 비디오입니다.
 
 >[!NOTE]
 >
@@ -23,10 +25,7 @@ ht-degree: 0%
 >[!VIDEO](https://video.tv.adobe.com/v/3469533/aem-guides-learning-content)
 
 
-다음 옵션 인라인 스타일 옵션을 사용할 수 있습니다.
-
-![](assets/content-properties-learning-content.png){width="350" align="left"}
-
+사용 가능한 인라인 스타일 옵션에 대한 설명은 다음과 같습니다.
 
 - **글꼴:** 글꼴 모음, 글꼴 두께, 텍스트 장식, 글꼴 크기 등과 같은 다양한 옵션을 사용하여 텍스트 모양을 사용자 지정할 수 있습니다. 이러한 설정은 아래 예와 같이 콘텐츠의 스타일을 지정하는 데 도움이 됩니다.
 

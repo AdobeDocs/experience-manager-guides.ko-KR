@@ -4,7 +4,7 @@ description: 과정을 효율적으로 관리할 수 있는 Experience Manager G
 feature: Authoring
 role: User
 exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
-source-git-commit: 0c3cb192391248adcca4b845b5e4237531fc0ab7
+source-git-commit: 6a61f404892dee8256e969a0b3433b8425f84c6c
 workflow-type: tm+mt
 source-wordcount: '567'
 ht-degree: 1%
@@ -48,7 +48,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->**기존 항목 추가**>**파일(리소스 전용 zip)** 옵션을 사용하여 압축 해제되고 최종 SCORM 출력의 폴더 구조에 통합되는 zip 파일을 포함할 수도 있습니다. 이를 통해 강의 게시 중 리소스 패키징을 간소화할 수 있습니다.
+>**기존 항목 추가** > **파일(리소스 전용 zip)** 옵션을 사용하여 압축 해제되고 최종 SCORM 출력의 폴더 구조에 통합되는 zip 파일을 포함할 수도 있습니다. 이를 통해 강의 게시 중 리소스 패키징을 간소화할 수 있습니다.
 
 비디오 개요가 필요하면 [과정에 기존 콘텐츠 추가](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on)를 확인하십시오.
 
