@@ -4,9 +4,9 @@ description: 원활한 콘텐츠 평가를 위해 AEM Guides에서 주제나 맵
 exl-id: 81ea0b52-52b0-4764-a6d8-a96d5c7693bf
 feature: Reviewing
 role: User
-source-git-commit: b7648fe1d36de3c243ca5a55f42a41f7523056ce
+source-git-commit: 6f18b2e4b5cd095f5b446fa9a78badfcdbefc068
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
@@ -50,9 +50,6 @@ Adobe Experience Manager Guides에서 *이니시에이터 \(또는 작성자\)*&
 - 다른 검토자가 작성한 댓글이나 작성자의 댓글에 대한 댓글을 실시간으로 봅니다.
 - 이전 버전의 주제에 대해 제공된 설명에 액세스합니다.
 
->[!NOTE]
->
-> 검토 작업 만들기에 대한 모범 사례를 보려면 모범 사례 안내서의 *검토* 섹션을 확인하십시오.
 
 - **[DITA 프로젝트 만들기](authoring-create-dita-project.md)**
 
