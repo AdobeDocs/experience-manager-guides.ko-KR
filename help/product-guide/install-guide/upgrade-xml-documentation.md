@@ -5,9 +5,9 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 1ef7379c71adcb73757ddc6d1fe34dc2f33fdc22
+source-git-commit: bece5e257370f458de8878814da290086eea344e
 workflow-type: tm+mt
-source-wordcount: '9119'
+source-wordcount: '9124'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 - 버전 4.3.x, 4.2, 4.2.1(핫픽스 4.2.1.3), 4.1 또는 4.1.x를 사용하는 경우 버전 5.0.0으로 업그레이드하기 전에 버전 4.4로 업그레이드해야 합니다.
 - 버전 4.0을 사용 중인 경우 버전 4.3.x로 업그레이드하기 전에 버전 4.2로 업그레이드해야 합니다.
 - 버전 3.8.5를 사용하는 경우 버전 4.2로 업그레이드하기 전에 버전 4.0으로 업그레이드해야 합니다.
-- 3.8.5 이전 버전을 사용하는 경우 [Experience Manager Guides 도움말 PDF 보관](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/archive.html)에 있는 제품별 설치 안내서의 Adobe Experience Manager Guides 업그레이드 섹션을 참조하십시오.
+- 3.8.5 이전 버전을 사용하는 경우 [Experience Manager Guides 도움말 PDF 보관](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)에 있는 제품별 설치 안내서의 Adobe Experience Manager Guides 업그레이드 섹션을 참조하십시오.
 
 
 >[!NOTE]
@@ -59,11 +59,11 @@ Experience Manager Guides 버전 3.8.5를 사용하는 경우 Experience Manager
 
 >[!NOTE]
 >
-> 이 업그레이드 프로세스는 버전 3.8.5에서 버전 4.0으로만 적용할 수 있습니다. 버전 3.4 이상에서 3.8.5로 업그레이드하는 절차는 *Experience Manager Guides 도움말 PDF 보관*&#x200B;에 있는 제품별 설치 안내서의 [Adobe Experience Manager Guides 업그레이드](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/archive.html) 섹션을 참조하십시오.
+> 이 업그레이드 프로세스는 버전 3.8.5에서 버전 4.0으로만 적용할 수 있습니다. 버전 3.4 이상에서 3.8.5로 업그레이드하는 절차는 *Experience Manager Guides 도움말 PDF 보관*&#x200B;에 있는 제품별 설치 안내서의 [Adobe Experience Manager Guides 업그레이드](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) 섹션을 참조하십시오.
 
 
 
-**&#x200B;**&#x200B;사전 요구 사항&#x200B;**&#x200B;**
+****사전 요구 사항****
 
 Experience Manager Guides 업그레이드 프로세스를 시작하기 전에 다음을 확인하십시오.
 
@@ -136,7 +136,7 @@ CRX 패키지 관리자를 사용하여 기존 AEM 서버 인스턴스에 패키
 
 버전 4.0, 4.1 또는 4.1.x를 사용하는 경우 버전 4.2로 바로 업그레이드할 수 있습니다.
 
-**&#x200B;**&#x200B;사전 요구 사항&#x200B;**&#x200B;**
+****사전 요구 사항****
 
 Experience Manager Guides 4.2 업그레이드 프로세스를 시작하기 전에 다음을 확인하십시오.
 
@@ -312,7 +312,7 @@ Experience Manager Guides을 설치한 후 새로 설치한 버전에서 설정�
 >
 >사후 처리 및 인덱싱에는 몇 시간이 걸릴 수 있습니다. 사용량이 적은 시간 동안 업그레이드 프로세스를 시작하는 것이 좋습니다.
 
-**&#x200B;**&#x200B;사전 요구 사항&#x200B;**&#x200B;**
+****사전 요구 사항****
 
 Experience Manager Guides 4.2.1 업그레이드 프로세스를 시작하기 전에 다음을 확인하십시오.
 
@@ -473,7 +473,7 @@ Experience Manager Guides을 설치한 후 새로 설치한 버전에서 설정�
 
 - 올바른 인증을 사용하여 서버 \- `http://<server:port\>/bin/guides/map-find/indexing`에 대한 POST 요청을 실행합니다. (선택 사항: 맵의 특정 경로를 전달하여 인덱싱할 수 있습니다. 기본적으로 모든 맵은 인덱싱됩니다. \|\| 예: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
-- 루트 폴더를 전달하여 특정 폴더(및 그 하위 폴더)의 DITA 맵을 인덱싱할 수도 있습니다. 예, `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. paths 매개 변수와 root 매개 변수가 모두 전달되면 paths 매개 변수만 고려됩니다.
+- 루트 폴더를 전달하여 특정 폴더(및 그 하위 폴더)의 DITA 맵을 인덱싱할 수도 있습니다. 예를 들어, `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`과 같이 입력합니다. paths 매개 변수와 root 매개 변수가 모두 전달되면 paths 매개 변수만 고려됩니다.
 
 - API는 jobId를 반환합니다. 작업 상태를 확인하려면 작업 ID가 포함된 GET 요청을 동일한 끝점인 `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(예: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)로 보낼 수 있습니다.
 
@@ -489,7 +489,7 @@ Experience Manager Guides을 설치한 후 새로 설치한 버전에서 설정�
 >
 >사후 처리 및 인덱싱에는 몇 시간이 걸릴 수 있습니다. 사용량이 적은 시간 동안 업그레이드 프로세스를 시작하는 것이 좋습니다.
 
-**&#x200B;**&#x200B;사전 요구 사항&#x200B;**&#x200B;**
+****사전 요구 사항****
 
 Experience Manager Guides 4.3.0 업그레이드 프로세스를 시작하기 전에 다음을 확인하십시오.
 
@@ -547,7 +547,7 @@ Experience Manager Guides을 설치한 후 새로 설치한 버전에서 설정�
 >
 >사후 처리 및 인덱싱에는 몇 시간이 걸릴 수 있습니다. 사용량이 적은 시간 동안 업그레이드 프로세스를 시작하는 것이 좋습니다.
 
-**&#x200B;**&#x200B;사전 요구 사항&#x200B;**&#x200B;**
+****사전 요구 사항****
 
 Experience Manager Guides 4.3.1 업그레이드 프로세스를 시작하기 전에 다음을 확인하십시오.
 
@@ -788,7 +788,7 @@ Experience Manager Guides을 설치한 후 새로 설치한 버전에서 설정�
 >
 >사후 처리 및 인덱싱에는 몇 시간이 걸릴 수 있습니다. 사용량이 적은 시간 동안 업그레이드 프로세스를 시작하는 것이 좋습니다.
 
-**&#x200B;**&#x200B;사전 요구 사항&#x200B;**&#x200B;**
+****사전 요구 사항****
 
 Experience Manager Guides 4.4.0 업그레이드 프로세스를 시작하기 전에 다음을 확인하십시오.
 
@@ -981,7 +981,7 @@ Experience Manager Guides에는 교차 맵(서로 다른 두 맵의 주제 간 �
 이 업그레이드 중에 `'order'` 값이 1000에서 50으로 변경되었으므로 기존 사용자 지정 재작성기가 있는 경우 `'fmdita-rewriter'`과(와) 병합해야 합니다.
 
 
-**상위 항목:**&#x200B;[&#x200B;다운로드 및 설치](download-install.md)
+**상위 항목:**[&#x200B;다운로드 및 설치](download-install.md)
 
 
 ## 버전 4.6.0으로 업그레이드
@@ -996,7 +996,7 @@ Experience Manager Guides에는 교차 맵(서로 다른 두 맵의 주제 간 �
 >
 > 사후 처리 및 인덱싱에는 몇 시간이 걸릴 수 있습니다. 사용량이 적은 시간 동안 업그레이드 프로세스를 시작하는 것이 좋습니다.
 
-**&#x200B;**&#x200B;사전 요구 사항&#x200B;**&#x200B;**
+****사전 요구 사항****
 
 Experience Manager Guides 4.6.0 업그레이드 프로세스를 시작하기 전에 다음을 확인하십시오.
 
@@ -1151,7 +1151,7 @@ Experience Manager Guides에는 교차 맵(서로 다른 두 맵의 주제 간 �
 >
 > 사후 처리 및 인덱싱에는 몇 시간이 걸릴 수 있습니다. 사용량이 적은 시간 동안 업그레이드 프로세스를 시작하는 것이 좋습니다.
 
-**&#x200B;**&#x200B;사전 요구 사항&#x200B;**&#x200B;**
+****사전 요구 사항****
 
 Experience Manager Guides 5.0.0 업그레이드 프로세스를 시작하기 전에 다음을 확인하십시오.
 
@@ -1299,7 +1299,7 @@ Experience Manager Guides에는 교차 맵(서로 다른 두 맵의 주제 간 �
 
 ## damAssetLucene를 다시 인덱싱하는 절차
 
-안내서가 있는 damAssetLucene에 대한 색인 정의가 업데이트되었습니다. 5.0.0 버전으로 업그레이드한 후 damAssetLucene을 다시 인덱싱하려면 [이 문서](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-16460)를 참조하십시오.
+안내서가 있는 damAssetLucene에 대한 색인 정의가 업데이트되었습니다. 5.0.0 버전으로 업그레이드한 후 damAssetLucene을 다시 인덱싱하려면 [이 문서](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460)를 참조하십시오.
 
 >[!NOTE]
 >
@@ -1307,15 +1307,11 @@ Experience Manager Guides에는 교차 맵(서로 다른 두 맵의 주제 간 �
 
 ## 버전 5.1.0으로 업그레이드
 
->[!TIP]
+>[!IMPORTANT]
 >
-> 버전 5.1.0으로 업그레이드하는 방법은 현재 버전의 Experience Manager Guides에 따라 다릅니다. 버전 4.6.3, 4.6.4, 5.0.0 또는 5.0.0 서비스 팩 1을 사용 중인 경우 버전 5.1.0으로 직접 업그레이드할 수 있습니다.
+> 현재 AEM 6.5를 사용 중이며 AEM 6.5 LTS로 이동할 계획이라면 Experience Manager Guides 5.1.0 업그레이드를 진행하기 전에 먼저 AEM 업그레이드를 완료해야 합니다. 자세한 내용은 [Adobe Experience Manager(AEM) 6.5 LTS로 업그레이드](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)를 참조하십시오.
 
->[!NOTE]
->
-> 사후 처리 및 인덱싱에는 몇 시간이 걸릴 수 있습니다. 사용량이 적은 시간 동안 업그레이드 프로세스를 시작하는 것이 좋습니다.
-
-**&#x200B;**&#x200B;사전 요구 사항&#x200B;**&#x200B;**
+****사전 요구 사항****
 
 Experience Manager Guides 5.1.0 업그레이드 프로세스를 시작하기 전에 다음을 확인하십시오.
 
@@ -1323,6 +1319,9 @@ Experience Manager Guides 5.1.0 업그레이드 프로세스를 시작하기 전
 1. (선택 사항) 모든 번역 작업을 마감했습니다.
 1. **클래스의 로그 수준을** INFO`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`(으)로 변경하고 이 로그를 새 로그 파일(예: `logs/translation_upgrade.log`)에 추가했습니다.
 
+>[!NOTE]
+>
+> 사후 처리 및 인덱싱에는 몇 시간이 걸릴 수 있습니다. 사용량이 적은 시간 동안 업그레이드 프로세스를 시작하는 것이 좋습니다.
 
 ## 버전 5.1.0 설치
 
@@ -1463,7 +1462,7 @@ Experience Manager Guides에는 교차 맵(서로 다른 두 맵의 주제 간 �
 
 ## damAssetLucene를 다시 인덱싱하는 절차
 
-안내서가 있는 damAssetLucene에 대한 색인 정의가 업데이트되었습니다. 5.1.0 버전으로 업그레이드한 후 damAssetLucene을 다시 인덱싱하려면 [이 문서](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-16460)를 참조하십시오.
+안내서가 있는 damAssetLucene에 대한 색인 정의가 업데이트되었습니다. 5.1.0 버전으로 업그레이드한 후 damAssetLucene을 다시 인덱싱하려면 [이 문서](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460)를 참조하십시오.
 
 >[!NOTE]
 >
