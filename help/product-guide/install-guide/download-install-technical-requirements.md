@@ -5,7 +5,7 @@ exl-id: d69245b0-bf20-43c1-b46e-b6c220319690
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: 339fc84c2c3232dbe9946c0063c13a8bbef131a5
+source-git-commit: 7964049ac3a614886630a6f0ca21d53eeecb47c5
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Adobe Experience Manager Guides을 설치하기 전에 시스템이 해당 릴�
 | **AEM Guides 4.2** | **비UUID 및 UUID 4.2.1**<br><br><ul> <li>AEM 6.5 SP15, SP14, SP13 또는 SP12 <br><br><li>Java: 11 또는 8   <br><br><li> 운영 체제: <ul><li>윈도우 서버 2012 R2  <li>Red Hat Linux 7 및 6</ul></ul> <br>**UUID가 아닌 UUID 4.2**<br><br><ul> <li>AEM 6.5 SP15, SP14, SP13 또는 SP12 <br><br><li>Java: 11 또는 8<br><br> <li> 운영 체제: <ul><li>Windows Server 2012 R2 <br> <li>Red Hat Linux 7 및 6</ul> |
 | **AEM Guides 4.1** | **비UUID 및 UUID 4.1.2**<br><br> <ul><li>AEM 6.5 SP13, SP12, SP11 또는 SP10 <br><br> <li>Java: 11 또는 8<br><br> <li>운영 체제: <ul><li>Windows Server 2012 R2 <br><li> Red Hat Linux 7 및 6 </ul></ul><br><br> **UUID가 아닌 UUID 4.1**<br><br><ul> <li>AEM 6.5 SP13, SP12, SP11 또는 SP10 <br><li>Java: 11 또는 8<li>운영 체제: <ul><li>Windows Server 2012 R2 <br> <li> Red Hat Linux 7 및 6 |
 | **AEM Guides 4.0** | **비UUID 및 UUID 4.0.3**<br><br><ul><li> AEM 6.5 SP12, SP11, SP10 또는 SP9 <br><li>Java: 11 또는 8 <br><br> <li>운영 체제: <ul><li>Windows Server 2012 R2 <br> <li>Red Hat Linux 7 및 6<br><br> </ul></ul>**비UUID 및 UUID 4.0.2** <br><br><ul><li> AEM 6.5 SP12, SP11, SP10 또는 SP9 <br><li>Java: 11 또는 8 <br><br> <li>운영 체제: <ul><li>Windows Server 2012 R2 <br> <li>Red Hat Linux 7 및 6<br><br> </ul></ul>**비UUID 및 UUID 4.0**<br> <br> <ul><li>AEM 6.5 SP11, SP10 또는 SP9 <br><li>Java: 11 또는 8<br><br><li> 운영 체제: <ul><li>Windows Server 2012 R2 <br> <li> Red Hat Linux 7 및 6 |
-| **AEM Guides 3.8.5** <br> 3.8.5는 3.8 위에 있는 SP 릴리스입니다. 3.8.5 SP에 중요한 수정 사항이 포함되어 있으므로 <br>3.8 릴리스는 독립 실행형으로 설치할 수 없습니다. <br>고객은 먼저 3.8을 설치한 다음 SP 3.8.5를 설치해야 합니다. | **비UUID** <br> <ul><li>AEM 6.5 SP9 또는 SP8 <br> AEM 6.4 SP8 <br> AEM 6.3 SP3   <br><br> <li>운영 체제: <ul><li>Windows Server 2012 R2 <br> <li> Red Hat Linux 7 및 6</ul><br> **UUID** <br><li> AEM 6.5 SP9 또는 SP8 <br><br> <li> 운영 체제: <ul><li>Windows Server 2012 R2 <br> <li>Red Hat Linux 7 및 6 |
+| **AEM Guides 3.8.5** <br><br> 3.8.5는 3.8 위에 있는 SP 릴리스입니다.  <br> 3.8 릴리스는 3.8.5 SP에 <br>이(가) 있어 독립 실행형 <br>을(를) 설치하지 않아야 합니다. <br> 고객은 먼저 3.8 <br>을 설치한 다음 SP 3.8.5를 설치해야 합니다. | **비UUID** <br> <ul><li>AEM 6.5 SP9 또는 SP8 <br> AEM 6.4 SP8 <br> AEM 6.3 SP3   <br><br> <li>운영 체제: <ul><li>Windows Server 2012 R2 <br> <li> Red Hat Linux 7 및 6</ul><br> **UUID** <br><li> AEM 6.5 SP9 또는 SP8 <br><br> <li> 운영 체제: <ul><li>Windows Server 2012 R2 <br> <li>Red Hat Linux 7 및 6 |
 
 
 **상위 항목:** [다운로드 및 설치](download-install.md)
