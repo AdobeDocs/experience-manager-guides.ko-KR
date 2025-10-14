@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: f8a8dfd3-19de-49ff-b4d4-265b3ac09488
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: 1e08dce0bd64d1a15d42baf4c9720405a9eec146
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Experience Manager Guides을 사용하면 주제 또는 해당 요소를 콘텐�
    ![폴더 속성에 클라우드 구성 세부 정보 추가](images/fragment-folder-cloud-configuration.png){width="650" align="left"}
    *폴더 속성에 클라우드 구성을 추가하여 조각 모델과 연결합니다.*
 
-1. 콘텐츠 조각을 생성하려면 주제의 **파일 속성**&#x200B;에서 **출력** 섹션에서 **새 출력** ![새 출력 아이콘](./images/Add_icon.svg)을 선택하십시오.
+1. 콘텐츠 조각을 생성하려면 주제의 **파일 속성**&#x200B;에서 ![출력](./images/Add_icon.svg) 섹션에서 **새 출력** **새 출력 아이콘**&#x200B;을 선택하십시오.
 1. **콘텐츠 조각**&#x200B;을 선택합니다.\
    ![파일 속성 옵션 탭](./images/file-properties-outputs-tab.png) {width="300" align="left"}
 
@@ -49,8 +49,7 @@ Experience Manager Guides을 사용하면 주제 또는 해당 요소를 콘텐�
    * **제목**: 콘텐츠 조각의 제목을 입력합니다. 기본적으로 제목은 주제의 제목으로 채워집니다. 편집할 수 있습니다. 이 제목은 콘텐츠 조각의 이름을 생성하는 데 사용됩니다.
    * **이름**: 콘텐츠 조각의 이름을 입력합니다. 기본적으로 이름은 주제의 제목으로 채워지고 공백은 &#39;_&#39;로 바뀝니다. 예: *sample_content_fragment*. 편집할 수 있습니다.  이 이름은 콘텐츠 조각의 URL을 생성하는 데 사용됩니다.
 
-   * 다양한 조건을 선택하여 콘텐츠 조각 변형을 만들 수 있습니다. 다음 옵션 중 하나를 선택합니다.
-
+   * 다양한 조건을 선택하여 콘텐츠 조각 변형을 만들 수 있습니다. 다음 옵션 중 하나를 선택하십시오.
      >[!NOTE]
      > 
      > 조건은 조건 속성이 주제에 정의된 경우에만 활성화됩니다.
@@ -113,4 +112,4 @@ Experience Manager Guides을 사용하면 주제 또는 해당 요소를 콘텐�
 
 새 UUID 콘텐츠 마이그레이션 스크립트가 크게 최적화되어 비 UUID에서 UUID로의 콘텐츠 마이그레이션이 이전 스크립트보다 30배 더 빨라졌습니다. 여기에는 체크포인트에서 다시 시작, 라이브 인사이트, 예상 완료 시간 및 세부 보고와 같은 기능이 포함되어 있어 조화로운 마이그레이션 프로세스를 보장합니다. 특히 마이그레이션 프로세스는 변경 사항 없이 자산 메타데이터를 유지합니다. 300만 개의 자산으로 구성된 대규모 데이터 세트에서 스크립트를 테스트하고 검증하여 대규모 마이그레이션에 대한 효율성과 안정성을 확인했습니다.
 
-[UUID가 아닌 콘텐츠를 UUID로 마이그레이션](/help/product-guide/install-guide/migrate-non-uuid-uuid.md)하는 방법에 대해 자세히 알아보십시오.
+[UUID가 아닌 콘텐츠를 UUID로 마이그레이션](/help/product-guide/install-guide/migrate-non-uuid-4-3.md)하는 방법에 대해 자세히 알아보십시오.

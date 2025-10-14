@@ -4,9 +4,9 @@ description: Adobe Experience Manager Guides에서 맵을 게시하고 관리할
 feature: Publishing
 role: User
 exl-id: b273b1ae-fbb2-4b35-abce-0df78eeb2e11
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: e14b19ff7c128899b4536d5b8c4290c476991bef
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,12 @@ Adobe Experience Manager Guides은 모든 맵 관리 및 게시 작업을 간소
 
    - **탐색 전환기**: 다른 페이지(편집기 또는 홈 페이지)로 원활하게 탐색할 수 있습니다.
    - **선택한 맵 파일**: 현재 선택한 맵 파일의 이름을 표시합니다. 편집기에서 열거나 맵 콘솔에 대해 다른 맵 파일을 선택할 수 있습니다.
-   - **추가 작업**: **Assets UI** 및 **설정** 탐색 옵션을 제공합니다. 자세한 내용은 [편집기 기능 이해](./web-editor-features.md#tab-bar) 문서의 **추가 작업** 섹션을 참조하십시오.
+   - **추가 작업**: **Assets UI** 및 **Workspace 설정** 탐색 옵션을 제공합니다. 자세한 내용은 [탭 모음](./web-editor-tab-bar.md)을 참조하세요.
+
+  >[!NOTE]
+  >
+  > 온-프레미스 설정에서 Adobe Experience Manager Guides을 사용하는 경우 Workspace 설정 옵션이 추가 작업 메뉴에 **설정**(으)로 계속 표시됩니다.
+
    - **보기 확장**: **확장** 아이콘을 사용하여 페이지 보기를 확장할 수 있습니다. 이 보기에서는 헤더 막대를 숨겨 콘텐츠 공간을 최대화합니다. 표준 보기로 돌아가려면 **확장된 보기로 끝내기** 아이콘을 사용합니다.
 
   >[!NOTE]
@@ -50,7 +55,7 @@ Adobe Experience Manager Guides은 모든 맵 관리 및 게시 작업을 간소
 
 **보고서 만들기 및 관리**
 
-조직 설정에서 기술 문서 작업을 시작하거나 문서를 라이브로 푸시하기 전에 기술 문서의 전체 완성도를 확인하려고 합니다. 이러한 요구는 다중 사용자 및 대규모 환경에서 더욱 필수적이 된다. 맵 콘솔을 사용하면 저장소에 있는 콘텐츠의 전체 상태와 설명서 프로세스에서 콘텐츠가 사용되는 방식에 대한 유용한 통찰력을 제공하는 Experience Manager Guides 보고서에 액세스할 수 있습니다.
+조직 설정에서 기술 문서 작업을 시작하거나 문서를 라이브로 푸시하기 전에 기술 문서의 전체 완성도를 확인하려고 합니다. 이러한 요구는 다중 사용자 및 대규모 환경에서 더욱 필수적이 된다. 맵 콘솔을 사용하면 저장소에 있는 콘텐츠의 전반적인 상태와 설명서 프로세스에서 콘텐츠가 사용되는 방식에 대해 유용한 insight을 제공하는 Experience Manager Guides 보고서에 액세스할 수 있습니다.
 
 자세한 내용은 [Experience Manager Guides의 보고서](./reports-intro.md)를 참조하세요.
 

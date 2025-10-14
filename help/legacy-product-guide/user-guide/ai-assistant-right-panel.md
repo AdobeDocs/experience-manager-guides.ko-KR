@@ -1,8 +1,9 @@
 ---
-title: AI Assistant를 사용하여 문서를 스마트하게 작성 &grave;
+title: AI Assistant를 사용하여 문서를 스마트하게 작성 `
 description: AI Assistant를 사용하여 웹 편집기에서 효율적인 방식으로 문서를 작성하는 방법에 대해 알아봅니다.
 hide: true
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+exl-id: c7d37da8-e838-47a2-b469-287bcd841933
+source-git-commit: 8659035c57ce2b6f760b342fa9d88d656fcabf23
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 0%
@@ -16,8 +17,8 @@ Experience Manager Guides은 보다 스마트하고 빠르게 작성할 수 있�
 
 >[!NOTE]
 >
-> 오른쪽 패널에 AI Assistant 기능을 추가하려면 시스템 관리자가 **편집기 설정** ![편집기 설정 아이콘](./images/editor_settings_icon.svg)의 **패널** 탭에서 **AI Assistant** 옵션을 선택해야 합니다.
-> 또한 AI Assistant 아이콘을 보려면 문서를 체크아웃해야 합니다.
+> 오른쪽 패널에 AI Assistant 기능을 추가하려면 시스템 관리자가 **Workspace 설정** **Workspace 설정 아이콘**&#x200B;의 **패널** 탭에서 ![AI Assistant](./images/editor_settings_icon.svg) 옵션을 선택해야 합니다.
+> > 또한 AI Assistant 아이콘을 보려면 문서를 체크아웃해야 합니다.
 
 이 기능은 DITA 주제에만 사용할 수 있습니다. 항목에서 텍스트를 선택한 후 AI Assistant 작업을 수행하도록 선택할 수 있습니다.
 
@@ -44,7 +45,7 @@ Experience Manager Guides은 보다 스마트하고 빠르게 작성할 수 있�
 
 
 1. 텍스트 프롬프트를 사용할 텍스트를 선택합니다.
-1. **AI Assistant** 패널에서 **텍스트 프롬프트 사용** ![ai 텍스트 프롬프트 사용 아이콘](./images/ai-use-text-prompt.svg)을 선택합니다.
+1. **AI Assistant** 패널에서 ![텍스트 프롬프트 사용](./images/ai-use-text-prompt.svg) **ai 텍스트 프롬프트 사용 아이콘**&#x200B;을 선택합니다.
 1. 다음 방법 중 하나로 프롬프트를 제공합니다.
 
    - 제안된 프롬프트 중에서 프롬프트를 선택합니다.

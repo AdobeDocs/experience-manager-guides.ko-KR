@@ -2,7 +2,8 @@
 title: 릴리스 정보 | Adobe Experience Manager Guides 2025.08.0 릴리스의 새로운 기능
 description: Adobe Experience Manager Guides 2025.08.0 릴리스의 새로운 기능과 향상된 기능에 대해 알아봅니다
 role: Leader
-source-git-commit: d418ffb254b11430509609b91e0174690815cf73
+exl-id: c3461d0a-6394-4275-9d54-b2b1545d7c18
+source-git-commit: 1a44af3522060ebc531393d4d01b1cd00eb02c10
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 2%
@@ -39,7 +40,7 @@ ht-degree: 2%
 
 **AI Assistant** 토글이 활성화되면 관리자는 **작성** 탭에서 볼 수 있는 빠른 작업을 선택적으로 선택하여 작성자 상호 작용을 간소화할 수 있습니다. 이러한 가시성 설정은 각 폴더 프로필에 따라 다릅니다.
 
-Experience Manager Guides의 편집기 설정에서 [AI 길잡이](../user-guide/web-editor-settings.md#general)에 대해 자세히 알아보세요.
+Experience Manager Guides의 편집기 설정에서 [AI 길잡이](../cs-install-guide/workspace-settings.md#general)에 대해 자세히 알아보세요.
 
 ![](assets/authoring-quick-actions.png){width="350" align="left"}
 
@@ -50,7 +51,7 @@ Experience Manager Guides의 편집기 설정에서 [AI 길잡이](../user-guide
 
 주요 기능은 다음과 같습니다.
 
-- **DITAVAL 파일 작성에 대한 플래그 지정 지원 향상:** Experience Manager Guides은 DITAVAL 파일의 향상된 플래그 지정 지원을 통해 콘텐츠 게시를 사용자 지정할 수 있는 새로운 기능을 제공합니다. 이제 이미지를 포함하여 특정 콘텐츠 주위에 시작 및 종료 플래그를 적용하고 굵게, 기울임체 등의 서식 옵션을 사용하여 플래그가 지정된 섹션을 보강할 수 있습니다. 조건 중복을 처리하기 위해 **스타일 충돌**&#x200B;을 구성할 수 있습니다. 여기에는 기본 배경색과 텍스트 색 설정, 출력의 명확성과 일관성이 포함됩니다. 이러한 플래그는 기본 PDF 생성에서 완전히 지원되며, 결과 출력은 적용된 모든 스타일 요소를 정확하고 종합적으로 반영합니다.
+- **DITAVAL 파일 작성에 대한 플래그 지정 지원 향상:** Experience Manager Guides은 DITAVAL 파일의 향상된 플래그 지정 지원을 통해 콘텐츠 게시를 사용자 지정할 수 있는 새로운 기능을 제공합니다. 이제 이미지를 포함하여 특정 콘텐츠 주위에 시작 및 종료 플래그를 적용하고 굵게, 기울임체 등의 서식 옵션을 사용하여 플래그가 지정된 섹션을 보강할 수 있습니다. 조건 중복을 처리하기 위해 **스타일 충돌**을 구성할 수 있습니다. 여기에는 기본 배경색과 텍스트 색 설정, 출력의 명확성과 일관성이 포함됩니다. 이러한 플래그는 기본 PDF 생성에서 완전히 지원되며, 결과 출력은 적용된 모든 스타일 요소를 정확하고 종합적으로 반영합니다.
 자세한 내용은 [DITAVAL 편집기 사용](../user-guide/ditaval-editor.md)을 참조하세요.
 
   ![](assets/ditaval-flag-style-new.png){width="350" align="left"}
@@ -93,9 +94,3 @@ Experience Manager Guides의 편집기 설정에서 [AI 길잡이](../user-guide
 또한 편집기 도구 모음에서는 변경 내용 추적, 태그 및 줄바꿈 안 함을 활성화하거나 비활성화하기 위한 빠른 액세스 토글이 이제 메뉴 드롭다운의 **표시** 옵션에 그룹화되어 사용성이 향상되었습니다.
 
 자세한 내용은 편집기에서 [도구 모음](../user-guide/web-editor-toolbar.md#menu-dropdown)을 참조하세요.
-
-
-
-
-
-

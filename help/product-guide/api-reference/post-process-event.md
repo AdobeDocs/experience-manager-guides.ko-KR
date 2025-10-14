@@ -5,9 +5,9 @@ exl-id: 3b105ff5-02d4-40e3-a713-206a7fcf18b2
 feature: Post-Processing Event Handler
 role: Developer
 level: Experienced
-source-git-commit: 8c992afc1cc56052e6c07ac3cea6e7d3412259b2
+source-git-commit: 8e57d4048f4aa13d7f77f25082d4e7aa329ee355
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '414'
 ht-degree: 5%
 
 ---
@@ -22,6 +22,9 @@ Adobe Experience Manager Guides은 사후 처리 작업을 수행하는 데 사�
 - 만들기
 - 수정
 
+>[!NOTE]
+>
+> 사후 처리 이벤트는 `fire.processing.events`의 구성 매개 변수인 `fmdita config manager` 플래그를 활성화하여 트리거됩니다. true로 설정하면 이벤트(com/adobe/guides/postprocess/complete)를 트리거하여 사후 처리 완료를 추적합니다. 기본적으로 false(비활성화)로 설정됩니다.
 
 이 이벤트에서 사용할 수 있는 속성을 읽고 추가 처리를 수행하려면 Adobe Experience Manager 이벤트 처리기를 만들어야 합니다.
 

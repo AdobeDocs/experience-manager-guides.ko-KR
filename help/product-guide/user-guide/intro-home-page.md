@@ -4,9 +4,9 @@ description: Adobe Experience Manager Guides의 홈 페이지를 알아봅니다
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
-source-git-commit: 03f117381bda7d31b50085b83f309e24f9a75210
+source-git-commit: f9b879d6d374334a08a1d3b0a47b0cb419f02140
 workflow-type: tm+mt
-source-wordcount: '1824'
+source-wordcount: '1966'
 ht-degree: 0%
 
 ---
@@ -50,6 +50,18 @@ Experience Manager Guides 홈 페이지는 다음 섹션으로 나뉩니다.
   [AI Assistant](./ai-assistant.md) 기능은 현재 Adobe Experience Manager as Cloud Service에서만 사용할 수 있습니다.
 - **개요 섹션 사용자 지정**: 위젯 섹션에서 위젯을 숨기거나 표시할 수 있습니다.
 - **사용 중인 폴더 프로필**: 현재 사용 중인 폴더 프로필을 표시합니다.
+- **추가 작업**: 추가 옵션에 대한 액세스를 제공합니다. 이 버튼을 선택하면 다음 옵션이 있는 메뉴가 열립니다.
+
+   - **Assets**: 설정에 따라 대상으로 이동합니다.
+      - **클라우드 서비스**: 클라우드 서비스를 사용하는 경우 **Assets** 옵션을 선택하면 AEM 탐색 페이지로 이동합니다.
+
+      - **온-프레미스 소프트웨어**: Adobe Experience Manager Guides(4.2.1 이상)를 사용하는 경우 **Assets** 옵션을 선택하면 Assets UI의 현재 파일 경로로 이동합니다.
+   - **Workspace 설정**: **Workspace 설정** 대화 상자로 이동합니다. 자세한 내용은 [Workspace 설정 구성](../cs-install-guide/workspace-settings.md)을 참조하세요.
+
+     >[!NOTE]
+     >
+     > 홈페이지에서 Workspace 설정 옵션은 클라우드 서비스 설정에만 사용할 수 있습니다. 온-프레미스 설정에서는 홈 페이지에서 추가 작업 옵션을 사용할 수 없습니다. 그러나 기타 옵션 > 설정으로 이동하여 편집기 인터페이스와 맵 콘솔을 통해 관련 설정에 액세스할 수 있습니다.
+
 - **보기 확장**: **확장** 아이콘을 사용하여 페이지 보기를 확장할 수 있습니다. 이 보기에서는 헤더 막대를 숨겨 콘텐츠 공간을 최대화합니다. 표준 보기로 돌아가려면 **확장된 보기로 끝내기** 아이콘을 사용합니다.
 
 ## 왼쪽 패널
@@ -169,7 +181,7 @@ Experience Manager Guides에서는 **컬렉션 매핑**&#x200B;이라는 대시�
 
 - **모양**: 모양 탭에는 응용 프로그램의 테마를 선택하고 콘텐츠 편집 영역의 원본 보기를 선택할 수 있는 옵션이 있습니다. 이 탭을 사용하여 다음 설정을 구성합니다.
 
-  ![](images/user_preference_editor_appearance-new.png){align="left"}
+  ![](images/user_preference_editor_appearance.png){align="left"}
 
    - **응용 프로그램 테마 및 Source 보기**: 응용 프로그램 및 소스 보기에 대해 밝은 테마 또는 어두운 테마 중에서 선택할 수 있습니다. 라이트 테마의 경우 도구 모음과 패널은 밝은 회색 배경색을 사용합니다. 어두운 테마의 경우 도구 모음과 패널은 검정색 배경을 사용합니다. **장치 사용** 테마를 선택하여 Experience Manager Guides에서 장치의 테마에 따라 밝은 테마와 어두운 테마를 선택할 수 있도록 합니다.
 

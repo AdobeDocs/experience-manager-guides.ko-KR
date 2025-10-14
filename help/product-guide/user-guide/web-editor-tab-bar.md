@@ -3,9 +3,10 @@ title: 편집기의 탭 모음
 description: 편집기의 탭 모음에 대해 알아봅니다. Adobe Experience Manager Guides의 편집기 인터페이스와 기능에 대해 알아봅니다.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: b3597cac602cf5a22aff9d8db108e3652591d662
+exl-id: 02e45d34-898f-411c-bd80-bd4f2364b7d7
+source-git-commit: e14b19ff7c128899b4536d5b8c4290c476991bef
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -22,7 +23,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 관리자는 탭에서 파일 이름별로 파일 목록을 보도록 선택할 수도 있습니다. [사용자 환경 설정](./intro-home-page.md#user-preferences)에서 **편집기 파일 표시 구성** 섹션의 **파일 이름** 옵션을 선택하십시오.
+> 관리자는 탭에서 파일 이름별로 파일 목록을 보도록 선택할 수도 있습니다. **사용자 환경 설정**&#x200B;에서 **편집기 파일 표시 구성** 섹션의 [파일 이름](./intro-home-page.md#user-preferences) 옵션을 선택하십시오.
 
 파일 탭을 선택하면 새 버전으로 저장, 복사, 위치, 추가, 속성, 분할, PDF으로 다운로드 및 닫기 옵션이 있는 컨텍스트 메뉴가 열립니다.
 
@@ -50,6 +51,10 @@ ht-degree: 0%
    - **클라우드 서비스**: 클라우드 서비스를 사용하는 경우 **Assets** 옵션을 선택하면 AEM 탐색 페이지로 이동합니다.
 
    - **온-프레미스 소프트웨어**: Adobe Experience Manager Guides(4.2.1 이상)를 사용하는 경우 **Assets** 옵션을 선택하면 Assets UI의 현재 파일 경로로 이동합니다.
-- **설정**: 편집기 설정 대화 상자로 이동합니다. 자세한 내용은 [편집기 설정 작업](./web-editor-settings.md)을 참조하세요.
+- **Workspace 설정**: Workspace 설정 대화 상자로 이동합니다. 자세한 내용은 [Workspace 설정 구성](../cs-install-guide/workspace-settings.md)을 참조하세요.
 
-**상위 항목:**&#x200B;[&#x200B;편집기 소개](web-editor.md)
+>[!NOTE]
+>
+> 온-프레미스 설정에서 Adobe Experience Manager Guides을 사용하는 경우 Workspace 설정 옵션이 추가 작업 메뉴에 **설정**(으)로 계속 표시됩니다.
+
+**상위 항목:**[&#x200B;편집기 소개](web-editor.md)

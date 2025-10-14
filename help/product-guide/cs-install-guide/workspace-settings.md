@@ -3,17 +3,16 @@ title: Experience Manager Guides의 Workspace 설정
 description: Experience Manager Guides의 편집기 인터페이스에서 사용할 수 있는 다양한 설정에 대해 알아봅니다.
 feature: Authoring, Features of Web Editor
 role: User
-exl-id: fad2874f-dab5-4538-8502-f7112c51d941
-source-git-commit: a1e0571e596a44ee67d49658a718e24d9ab3b467
+source-git-commit: 1e08dce0bd64d1a15d42baf4c9720405a9eec146
 workflow-type: tm+mt
-source-wordcount: '2113'
+source-wordcount: '2132'
 ht-degree: 0%
 
 ---
 
 # Workspace 설정
 
-편집기의 **탭 모음**&#x200B;에 있는 [Workspace 설정](./web-editor-tab-bar.md) 옵션은 관리자 및 폴더 프로필 관리자만 사용할 수 있으며 다음 설정을 구성할 수 있습니다.
+편집기의 **탭 모음**&#x200B;에 있는 [Workspace 설정](../user-guide/web-editor-tab-bar.md) 옵션은 관리자 및 폴더 프로필 관리자만 사용할 수 있으며 다음 설정을 구성할 수 있습니다.
 
 - [일반](#general)
 - [패널](#panels)
@@ -29,20 +28,21 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 기본 설정을 업데이트하는 경우 변경 사항을 적용하려면 문서를 다시 열어야 합니다.
+> - 온-프레미스 설정에서 Adobe Experience Manager Guides을 사용하는 경우 Workspace 설정 옵션이 추가 작업 메뉴에 **설정**(으)로 계속 표시됩니다.
+> - 기본 설정을 업데이트하는 경우 변경 사항을 적용하려면 문서를 다시 열어야 합니다.
 
 ## 일반
 
 일반 설정을 사용하면 편집기를 사용하도록 설정을 구성할 수 있습니다. 이 탭에는 **AI 길잡이**, **작성**, **인용**, **조건** 및 **맞춤법 검사**&#x200B;의 5개 섹션이 포함되어 있습니다.
 
-![](images/editor-setting-general.png){width="350" align="left"}
+![](../user-guide/images/editor-setting-general.png){width="350" align="left"}
 
 - **AI 길잡이**
-Experience Manager Guides에서 [AI Assistant](./ai-assistant.md) 기능을 활성화하려면 이 옵션을 선택하십시오. 기능을 비활성화하려면 선택 취소합니다.
+Experience Manager Guides에서 [AI Assistant](../user-guide/ai-assistant.md) 기능을 활성화하려면 이 옵션을 선택하십시오. 기능을 비활성화하려면 선택 취소합니다.
 
   **AI Assistant** 토글을 활성화한 후 아래와 같이 **빠른 작업 작성** 메뉴를 사용하여 작성자가 **작성 탭**&#x200B;에 표시할 옵션을 구성할 수 있습니다.\
   이러한 변경 사항은 작업 중인 특정 폴더 프로필에 적용됩니다. 새 폴더 프로필을 만들면 기본적으로 **전역** 폴더 프로필에 정의된 Workspace 설정을 상속합니다. **Workspace 설정**&#x200B;을 사용하여 필요에 따라 이러한 설정을 수정하고 업데이트된 구성을 저장할 수 있습니다.\
-  AI Assistant를 사용하여 작성할 수 있는 옵션에 대한 자세한 개요는 [AI Assistant를 사용하여 문서를 현명하게 작성](./ai-assistant-right-panel.md)하십시오.
+  AI Assistant를 사용하여 작성할 수 있는 옵션에 대한 자세한 개요는 [AI Assistant를 사용하여 문서를 현명하게 작성](../user-guide/ai-assistant-right-panel.md)하십시오.
 
   **빠른 작업 작성** 메뉴에서 다음을 수행할 수 있습니다.
 
@@ -50,7 +50,7 @@ Experience Manager Guides에서 [AI Assistant](./ai-assistant.md) 기능을 활�
 
    - 옵션이 표시되는 순서를 변경하고 필요에 따라 끌어서 놓습니다.
 
-  ![](images/authoring-quick-actions-new.png){width="350" align="left"}
+  ![](../user-guide/images/authoring-quick-actions-new.png){width="350" align="left"}
 
 
 
@@ -60,7 +60,7 @@ Experience Manager Guides에서 [AI Assistant](./ai-assistant.md) 기능을 활�
 
 - **인용**
 
-  인용 유형을 변경합니다. 프로젝트에서 사용할 드롭다운에서 인용 스타일을 선택합니다. 자세한 내용은 [인용 스타일 변경](./web-editor-apply-citations.md#change-citation-style)을 참조하세요.
+  인용 유형을 변경합니다. 프로젝트에서 사용할 드롭다운에서 인용 스타일을 선택합니다. 자세한 내용은 [인용 스타일 변경](../user-guide/web-editor-apply-citations.md#change-citation-style)을 참조하세요.
 
 - **조건**
 
@@ -70,7 +70,7 @@ Experience Manager Guides에서 [AI Assistant](./ai-assistant.md) 기능을 활�
 
    - **제목 구성표 패널에 제목이 있는 키 표시**: 제목 구성표의 제목과 함께 키를 표시하려면 이 항목을 선택하십시오. 이 옵션을 선택하지 않으면 제목만 표시됩니다. 예를 들어 여기에 &#39;os&#39;, &#39;audience&#39; 및 &#39;other&#39; 키도 제목과 함께 표시됩니다.
 
-     ![](images/subject-scheme-title.png){width="550" align="left"}
+     ![](../user-guide/images/subject-scheme-title.png){width="550" align="left"}
 
    - **조건 패널에 주제 구성표 표시**: 조건 패널에서 주제 구성표를 보려면 이 항목을 선택하십시오. 이 옵션을 선택 취소하면 정의된 조건이 [조건] 패널에 표시됩니다.
 
@@ -82,11 +82,11 @@ Experience Manager Guides에서 [AI Assistant](./ai-assistant.md) 기능을 활�
 
 이 설정은 편집기 및 맵 콘솔의 왼쪽 및 오른쪽 패널에 표시되는 패널을 제어합니다. 버튼을 전환하여 원하는 패널을 표시하거나 숨길 수 있습니다.
 
-![](images/editor-setting-panel.png){width="650" align="left"}
+![](../user-guide/images/editor-setting-panel.png){width="650" align="left"}
 
 패널에 있는 피쳐가 표시되는 순서를 정의할 수도 있습니다. 패널에서 사용할 수 있는 피쳐의 기본 순서를 변경하려면 점선 막대를 선택하여 피쳐 탭을 원하는 위치에 끌어다 놓습니다. 요구 사항에 따라 기능을 **자세히** 섹션에서 패널의 주 섹션으로 이동할 수도 있고 그 반대로 이동할 수도 있습니다. 재정렬되면 피쳐가 오른쪽 및 왼쪽 패널의 동일한 시퀀스에 나타납니다.
 
-![](images/panels-screen.png){width="650" align="left"}
+![](../user-guide/images/panels-screen.png){width="650" align="left"}
 
 
 한 번에 최대 8개의 패널을 표시할 수 있습니다. 패널 설정의 변경 사항은 즉시 적용됩니다.
@@ -100,23 +100,23 @@ Experience Manager Guides에서 [AI Assistant](./ai-assistant.md) 기능을 활�
 
 관리자는 작성자가 파일에 삽입할 수 있는 요소 목록을 제어하고 요소의 표시 이름도 정의할 수 있습니다. 요소 목록 설정을 사용하면 DITA 사양에 따라 요소의 이름과 DITA 정의 요소 이름 대신 사용할 레이블을 지정할 수 있습니다.
 
-![](images/editor-setting-element-list.png){width="650" align="left"}
+![](../user-guide/images/editor-setting-element-list.png){width="650" align="left"}
 
 위의 스크린샷에서 `p` 요소에는 단락 레이블이 지정되었고, `codeblock`에는 다른 일부 요소와 함께 코드 블록 레이블이 지정됩니다. **위의 요소만 사용** 옵션을 선택하면 **요소 삽입** 대화 상자에 이 목록의 유효한 요소 \(현재 삽입 지점\)만 표시됩니다.
 
 다음 스크린샷에서는 이전 스크린샷에서 구성된 4개 요소 중 3개만 현재 컨텍스트에 표시됩니다.
 
-![](images/editor-setting-insert-element-list.PNG){width="300" align="left"}
+![](../user-guide/images/editor-setting-insert-element-list.PNG){width="300" align="left"}
 
 ## 속성 목록
 
 요소 목록과 마찬가지로 속성 목록과 해당 표시 이름이 요소의 속성 목록에 표시되도록 제어할 수 있습니다. 다음 스크린샷에서는 3개의 속성만 요소의 속성 목록에 표시되도록 구성되었습니다.
 
-![](images/editor-setting-attributes-list.png){width="650" align="left"}
+![](../user-guide/images/editor-setting-attributes-list.png){width="650" align="left"}
 
 이 설정을 사용하면 요소에 속성을 추가하려고 할 때 목록에 구성된 속성 목록만 표시됩니다.
 
-![](images/editor-setting-add-attributes-list.png){width="300" align="left"}
+![](../user-guide/images/editor-setting-add-attributes-list.png){width="300" align="left"}
 
 
 ## 색상
@@ -148,7 +148,7 @@ Experience Manager Guides에서 [AI Assistant](./ai-assistant.md) 기능을 활�
 
    - Salesforce 프로필을 만들려면 **서버 유형** 드롭다운에서 **Salesforce** 기술 자료를 선택하십시오. 프로필 이름을 입력합니다. **사이트 URL**&#x200B;에서 출력을 게시하는 데 사용할 소비자 사이트를 입력한 다음 Salesforce 소비자 사이트에서 제공한 **소비자 키** 및 **소비자 암호**&#x200B;를 추가하십시오. 그런 다음 새로 만든 프로필을 **확인**&#x200B;하고 **저장**&#x200B;합니다.
 
-     ![작업 영역 설정의 salesforce 게시 프로필](./images/salesforce-publish-profile.png){width="550" align="left"}
+     ![작업 영역 설정의 salesforce 게시 프로필](../user-guide/images/salesforce-publish-profile.png){width="550" align="left"}
 
      >[!NOTE]
      >
@@ -173,7 +173,7 @@ Experience Manager Guides에서 [AI Assistant](./ai-assistant.md) 기능을 활�
 
 - 프로필을 만들려면 **서버 유형** 드롭다운에서 ServiceNow 기술 자료를 선택하십시오. **이름** 프로필을 입력하십시오. **ServiceNow URL**&#x200B;에서 출력을 게시하는 데 사용할 소비자 사이트를 입력한 다음 ServiceNow 소비자 사이트에서 제공한 **사용자 이름** 및 **암호**&#x200B;를 추가하십시오. 그런 다음 새로 만든 프로필을 **확인**&#x200B;하고 **저장**&#x200B;합니다.
 
-  ![ServiceNow 게시 프로필](./images/service-now-publish-profile.png){width="550" align="left"}
+  ![ServiceNow 게시 프로필](../user-guide/images/service-now-publish-profile.png){width="550" align="left"}
 
   유효성을 검사한 후 DITA 맵의 출력 사전 설정에서 게시 프로필을 선택하고 이를 사용하여 선택한 **Salesforce** 또는 **ServiceNow** 서버에 대한 출력을 생성할 수 있습니다.
 
@@ -190,7 +190,7 @@ Experience Manager Guides에서 [AI Assistant](./ai-assistant.md) 기능을 활�
   >
   > 선택한 Schematron 파일이 선택한 폴더 프로필에 대해 유지됩니다.
 
-  ![작업 영역 설정에서 유효성 검사](./images/editor-setting-validation.png){width="550" align="left"}
+  ![작업 영역 설정에서 유효성 검사](../user-guide/images/editor-setting-validation.png){width="550" align="left"}
 
   이렇게 하면 사용자가 선택한 Schematron 파일에 정의된 규칙을 벗어나는 파일을 저장할 수 없습니다. 이 옵션을 선택하지 않으면 변경 내용을 저장하기 전에 파일의 유효성을 검사하지 않습니다.
 
@@ -203,13 +203,13 @@ Experience Manager Guides에서 [AI Assistant](./ai-assistant.md) 기능을 활�
 
 요소에 대해 정의된 속성이 레이아웃 및 아웃라인 뷰에 표시됩니다.
 
-![](images/editor-settings-display-attributes.png){width="550" align="left"}
+![](../user-guide/images/editor-settings-display-attributes.png){width="550" align="left"}
 
 ## 번역
 
 이 탭에는 언어 그룹을 만들고, 소스 레이블을 대상 버전에 전파하고, 번역 프로젝트를 정리하는 옵션이 포함되어 있습니다.
 
-![](images/editor-setting-translation.png){width="550" align="left"}
+![](../user-guide/images/editor-setting-translation.png){width="550" align="left"}
 
 - **언어 그룹**: 관리자는 언어 그룹을 만들어 콘텐츠를 번역할 수 있습니다.
 
@@ -227,7 +227,7 @@ Experience Manager Guides에서 [AI Assistant](./ai-assistant.md) 기능을 활�
       >
       > **자세히 표시**&#x200B;에서 **간단히 표시**(으)로 전환하고 일부 언어만 봅니다.
 
-   1. 그룹의 언어 위로 마우스를 가져가 ![편집 아이콘](images/edit_pencil_icon.svg)을 편집하거나 언어 그룹을 ![삭제](images/Delete_icon.svg)합니다.
+   1. 그룹의 언어 위로 마우스를 가져가 ![편집 아이콘](../user-guide/images/edit_pencil_icon.svg)을 편집하거나 언어 그룹을 ![삭제](../user-guide/images/Delete_icon.svg)합니다.
    1. **설정**&#x200B;을 저장합니다.
 
       >[!NOTE]
@@ -250,7 +250,7 @@ Experience Manager Guides에서 [AI Assistant](./ai-assistant.md) 기능을 활�
 메타데이터 경로가 비어 있으면 오류가 표시됩니다. 레이블을 비워 두면 마지막 요소가 레이블로 선택됩니다.
 
 
-작업 영역 설정의 ![메타데이터 탭](images/editor-setting-metadata.png){width="550" align="left"}
+작업 영역 설정의 ![메타데이터 탭](../user-guide/images/editor-setting-metadata.png){width="550" align="left"}
 
 ***버전 기록**대화 상자에 대한 메타데이터를 구성합니다.*
 
@@ -259,4 +259,4 @@ Experience Manager Guides에서 [AI Assistant](./ai-assistant.md) 기능을 활�
 이러한 메타데이터 태그가 표시되는 순서를 정의할 수도 있습니다. 이러한 태그의 기본 순서를 변경하려면 점선 막대를 선택하여 원하는 위치에 태그를 드래그하여 놓습니다.
 메타데이터 레이블은 편집기의 **버전 기록** 대화 상자에서 동일한 순서로 나타납니다.
 
-**상위 항목:**[&#x200B;편집기 소개](web-editor.md)
+

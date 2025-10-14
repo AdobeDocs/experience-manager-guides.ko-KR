@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 살펴보십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: fc250384e887f28ab22248e787d1b003d1fa966c
+source-git-commit: fc262885e33f7874dd4a9a09cf3c90d3e6b805d5
 workflow-type: tm+mt
-source-wordcount: '2373'
+source-wordcount: '2401'
 ht-degree: 9%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 9%
       - 클라우드 서비스 {#cloud-release-notes}
          - [배포 지침](./release-info/deploy-xml-on-aemaacs.md)
          - 2025 릴리스 {#2025-releases}
+            - 2025.10.0 릴리스 {#2510-release}
+               - [새로운 기능](./release-info/whats-new-2025-10-0.md)
+               - [해결된 문제](./release-info/fixed-issues-2025-10-0.md)
+               - [업그레이드 지침](./release-info/upgrade-instructions-2025-10-0.md)
             - 2025.08.0 릴리스 {#2508-release}
                - [새로운 기능](./release-info/whats-new-2025-08-0.md)
                - [해결된 문제](./release-info/fixed-issues-2025-08-0.md)
@@ -151,8 +155,8 @@ ht-degree: 9%
                - [4.2.1 릴리스 정보](./release-info/release-notes-4-2-1.md)
                - [4.2 릴리스 노트](./release-info/release-notes-4-2.md)
          - [4.1.x 릴리스 노트](./release-info/release-notes-4-1.md)
-         - [4.0.x 릴리스 노트](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x 릴리스 노트](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - 사용 안내서 (새 UI) {#user-guide}
    - 소개 {#about-aemg}
       - [ [!DNL Adobe Experience Manager Guides] 정보](./user-guide/intro.md)
@@ -181,7 +185,6 @@ ht-degree: 9%
             - [콘텐츠 편집 영역](./user-guide/web-editor-content-editing-area.md)
             - [오른쪽 패널](./user-guide/web-editor-right-panel.md)
          - [편집기의 추가 기능](./user-guide/web-editor-other-features.md)
-         - [편집기 설정 작업](./user-guide/web-editor-settings.md)
          - [편집기의 키보드 단축키](./user-guide/web-editor-keyboard-shortcuts.md)
          - [편집기 보기](./user-guide/web-editor-views.md)
          - [Schematron 파일 지원](./user-guide/support-schematron-file.md)
@@ -350,7 +353,7 @@ ht-degree: 9%
       - 문제 해결 {#troubleshooting}
          - [세션 시간 초과](./user-guide/session-timeout-prompt.md)
 - 사용 안내서 (이전 UI) {#user-guide-old-ui}
-   - [AEM Guides 개요](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides 개요](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 설치 및 구성 {#install-guide}
    - 온프레미스 {#on-prem-ig}
       - [On-Premise 기본 사항](./install-guide/introduction.md)
@@ -369,8 +372,8 @@ ht-degree: 9%
       - 콘텐츠 마이그레이션 {#content-migration}
          - [비 UUID에서 UUID로의 콘텐츠 마이그레이션](./install-guide/migrate-uuid-non-uuid.md)
          - 마이그레이션 프로세스 {#migration-process}
-            - [버전을 사용하여 UUID가 아닌 콘텐츠 마이그레이션](./install-guide/migrate-non-uuid-uuid.md)
-            - [버전(레거시)을 사용하여 비 UUID 콘텐츠 마이그레이션](./install-guide/migrate-non-uuid-uuid-with-versions-legacy.md)
+            - [4.3.1 비 UUID에서 4.3.2 UUID로 콘텐츠 마이그레이션](./install-guide/migrate-non-uuid-4-3.md)
+            - [4.6.0 비 UUID에서 4.6.1 UUID 콘텐츠 마이그레이션으로](./install-guide/migrate-non-uuid-uuid-4-6.md)
          - [기존 콘텐츠 마이그레이션](./install-guide/migrate-content.md)
          - [기존 DITA 콘텐츠 업로드](./install-guide/migrate-content-upload-existing-dita-content.md)
          - [DITA가 아닌 콘텐츠 마이그레이션](./install-guide/migrate-content-non-dita.md)
@@ -475,6 +478,8 @@ ht-degree: 9%
          - [사용자 지정 DITA 맵 템플릿 구성](./cs-install-guide/conf-template-tags-custom-dita-map-templates.md)
       - 문서 상태 작업 {#doc-state-cs}
          - [문서 상태 구성](./cs-install-guide/customize-doc-state.md)
+      - Workspace 설정 구성 {#workspace-configs}
+         - [Workspace 설정](./cs-install-guide/workspace-settings.md)
       - 웹 편집기 구성 작업 {#web-editor-configs-cs}
          - [웹 편집기 사용자 지정](./cs-install-guide/conf-web-editor.md)
          - [도구 모음 사용자 지정](./cs-install-guide/conf-web-editor-customize-toolbar.md)
@@ -538,6 +543,7 @@ ht-degree: 9%
    - [폴더 프로필 작업을 위한 Java 기반 API](./api-reference/folder-profile-java.md)
    - [패키지 생성 및 활성화를 위한 Java 기반 API](./api-reference/create-activate-package-java.md)
    - [사후 처리 이벤트 핸들러](./api-reference/post-process-event.md)
+   - [폴더 또는 에셋의 사후 처리 상태를 추적하는 API](./api-reference/track-post-processing-status.md)
    - [일괄 활성화 완료 이벤트 핸들러](./api-reference/bulk-activation-complete-event.md)
    - [전환 프로세스 이벤트 핸들러](./api-reference/conversion-complete-event.md)
 - 기술 자료 {#knowledge-base}
