@@ -85,7 +85,7 @@ ht-degree: 0%
    2. OOTB 사이트 구조 아래에 새 제품 페이지를 만듭니다.
    3. **AEMG 문서** > **영어** > **문서**(으)로 이동합니다.
 
-      ![AEM 사이트 구조 ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-page.png){width="350" align="left"}에서 페이지 만들기
+      ![AEM 사이트 구조 &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-page.png){width="350" align="left"}에서 페이지 만들기
 
    4. **홈 페이지** 타일을 선택한 다음 **다음**&#x200B;을 선택합니다.
 

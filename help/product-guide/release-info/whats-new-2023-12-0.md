@@ -124,7 +124,7 @@ Experience Manager Guides은 향상된 맵 컬렉션 대시보드를 제공합�
 또한 레이블을 기반으로 기준선을 복제할 수도 있습니다. 참조 버전은 복제하는 동안 지정된 레이블(있는 경우)을 기반으로 선택되거나, 복제된 기준선에서 버전을 선택합니다.
 
 
-![기준선 ](assets/duplicate-baseline.png) {width="300" align="left"}을(를) 복제합니다.
+![기준선 &#x200B;](assets/duplicate-baseline.png) {width="300" align="left"}을(를) 복제합니다.
 
 *레이블을 기반으로 기준선을 복제하거나 정확한 복사본을 만듭니다.*
 

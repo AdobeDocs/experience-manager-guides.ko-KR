@@ -33,7 +33,7 @@ AEM Guides 및 FMPS 설치 및 구성은 다음을 참조하십시오
 
 ### FMPS
 
-FMPS 설치의 경우 제공된 [YouTube 링크](https://www.youtube.com/watch?v=2deelyM5VA8&amp;t) 또는 [FMPS 설치 및 구성](https://help.adobe.com/en_US/framemaker/server/index.html#t=fmps-user-guide%2Finstall_config_fmps.html%23install_config_fmps&amp;rhtocid=_2)을 참조할 수 있습니다.
+FMPS 설치의 경우 제공된 [YouTube 링크](https://www.youtube.com/watch?v=2deelyM5VA8&t) 또는 [FMPS 설치 및 구성](https://help.adobe.com/en_US/framemaker/server/index.html#t=fmps-user-guide%2Finstall_config_fmps.html%23install_config_fmps&amp;rhtocid=_2)을 참조할 수 있습니다.
 
 ## 필수 구성
 
@@ -95,6 +95,6 @@ FMPS2020.0.2 이상 버전으로 이미 생성된 기준선을 게시할 수 있
 
 [AEM Guides 학습 및 지원](https://helpx.adobe.com/in/support/xml-documentation-for-experience-manager.html)
 
-[FrameMaker 및 FMPS 커뮤니티](https://community.adobe.com/t5/framemaker/ct-p/ct-framemaker?page=1&amp;sort=latest_replies&amp;lang=all&amp;tabid=all)
+[FrameMaker 및 FMPS 커뮤니티](https://community.adobe.com/t5/framemaker/ct-p/ct-framemaker?page=1&sort=latest_replies&lang=all&tabid=all)
 
 [AEM Guides 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=ko)

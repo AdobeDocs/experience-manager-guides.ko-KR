@@ -34,4 +34,4 @@ Experience Manager Guides에는 구조화된 문서를 만들고 편집할 수 �
 - **[레이블 사용](web-editor-use-label.md)**
 
 
-**상위 항목:**&#x200B;[ Experience Manager Guides을 사용하여 콘텐츠 작성](authoring-content-xml-doc.md)
+**상위 항목:**&#x200B;[&#x200B; Experience Manager Guides을 사용하여 콘텐츠 작성](authoring-content-xml-doc.md)

@@ -49,7 +49,7 @@ Experience Manager Guides은 AEM Sites을 만들기 위한 사전 정의된 템�
    AEM Sites용 사전 설정이 생성됩니다.
 
 
-   ![새 ](images/new-aem-sites-dialog-box.png){width="300" align="left"}
+   ![새 &#x200B;](images/new-aem-sites-dialog-box.png){width="300" align="left"}
 
 <!-----------------------
 ### Generate the AEM Sites output using the templates
@@ -88,7 +88,7 @@ You can configure the Out-of-the-box Sites template  in two ways:
 - 주제 목록
 - 교차 맵 참조
 
-![새 ](images/aem-sites-new-config.png){width="650" align="left"}
+![새 &#x200B;](images/aem-sites-new-config.png){width="650" align="left"}
 
 **일반**
 
@@ -153,7 +153,7 @@ You can configure the Out-of-the-box Sites template  in two ways:
 - 콘텐츠
 - 교차 맵 참조
 
-![새 ](images/aem-sites-preset-legacy-config.png){width="500" align="left"}
+![새 &#x200B;](images/aem-sites-preset-legacy-config.png){width="500" align="left"}
 
 **일반**
 
@@ -171,7 +171,7 @@ You can configure the Out-of-the-box Sites template  in two ways:
 
 **콘텐츠**
 
-![새 ](images/aem-sites-content-tab.png){width="650" align="left"}
+![새 &#x200B;](images/aem-sites-content-tab.png){width="650" align="left"}
 
 **콘텐츠** 탭에는 다음 구성 옵션이 포함되어 있습니다.
 

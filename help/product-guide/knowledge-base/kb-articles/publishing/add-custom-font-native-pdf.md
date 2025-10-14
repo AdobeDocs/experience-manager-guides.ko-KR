@@ -26,15 +26,15 @@ ht-degree: 0%
 
 ## 1단계 : 사용자 지정 글꼴을 템플릿의 리소스 폴더에 업로드
 
-![사용자 지정 글꼴 업로드 및 가져오기 ](../assets/publishing/custom-font1.png)
+![사용자 지정 글꼴 업로드 및 가져오기 &#x200B;](../assets/publishing/custom-font1.png)
 
 ## 2단계 : PDF 템플릿의 스타일시트에서 필요한 변경
 
-![PDF 템플릿의 스타일시트 ](../assets/publishing/custom-font2.png)에 있는 글꼴
+![PDF 템플릿의 스타일시트 &#x200B;](../assets/publishing/custom-font2.png)에 있는 글꼴
 
 ## 3단계 (선택 사항) : 사용된 글꼴을 PDF에 포함
 
-![DITA PDF에 포함된 사용자 지정 글꼴 ](../assets/publishing/custom-font3.png)
+![DITA PDF에 포함된 사용자 지정 글꼴 &#x200B;](../assets/publishing/custom-font3.png)
 
 ## FAQ
 

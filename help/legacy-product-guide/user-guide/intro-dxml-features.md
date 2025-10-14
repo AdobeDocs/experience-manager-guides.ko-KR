@@ -76,4 +76,4 @@ FrameMaker에서 AEM 커넥터를 사용하여 FrameMaker 파일을 관리할 �
 * 빠른 시작 안내서
 * [도움말* 보관 페이지](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/archive.html)&#x200B;(이전 릴리스 설명서에 액세스)
 
-**상위 항목:**&#x200B;[ Adobe Experience Manager Guides as a Cloud Service 정보](../user-guide/intro.md)
+**상위 항목:**&#x200B;[&#x200B; Adobe Experience Manager Guides as a Cloud Service 정보](../user-guide/intro.md)

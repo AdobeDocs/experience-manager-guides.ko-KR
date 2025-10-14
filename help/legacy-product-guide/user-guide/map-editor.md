@@ -37,4 +37,4 @@ AEM Guides의 맵 편집기를 사용하면 맵 파일을 만들고 편집할 �
 - **[맵 편집기의 기타 기능](map-editor-other-features.md)**
 
 
-**상위 항목:**&#x200B;[ AEM Guides을 사용하여 콘텐츠 작성](authoring-content-xml-doc.md)
+**상위 항목:**&#x200B;[&#x200B; AEM Guides을 사용하여 콘텐츠 작성](authoring-content-xml-doc.md)

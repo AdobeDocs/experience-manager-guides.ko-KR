@@ -196,7 +196,7 @@ AEM Guides의 벌크 활성화 기능을 사용하면 작성에서 게시 인스
 
 컨텍스트 메뉴를 사용하여 파일(.dita, .xml, 오디오, 비디오 또는 이미지)을 열지 않고 빠르게 미리 볼 수 있습니다. 이제 미리 보기 창의 크기를 조정할 수 있으며, 콘텐츠에 참조 링크가 포함되어 있으면 이를 선택하여 새 탭에서 열 수 있습니다.
 
-![미리 보기 창 ](assets/quick-preview_cs.png){width="800" align="left"}
+![미리 보기 창 &#x200B;](assets/quick-preview_cs.png){width="800" align="left"}
 
 *창에서 파일을 미리 봅니다.*
 

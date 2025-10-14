@@ -31,4 +31,4 @@ FrameMaker 문서에 대한 출력을 생성하려면 다음 단계를 수행하
 >
 > 출력을 클릭하여 출력 생성 요청의 현재 상태를 볼 수 있습니다. 자세한 내용은 [출력 생성 작업의 상태 보기](fm-output-view-status.md)를 참조하십시오.
 
-**상위 항목:**&#x200B;[ FrameMaker 문서의 출력 생성](fm-output-generatation.md)
+**상위 항목:**&#x200B;[&#x200B; FrameMaker 문서의 출력 생성](fm-output-generatation.md)

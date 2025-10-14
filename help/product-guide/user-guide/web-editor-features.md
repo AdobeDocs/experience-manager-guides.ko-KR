@@ -154,7 +154,7 @@ Experience Manager Guides에서 [AI Assistant](./ai-assistant.md) 기능을 활�
 
      **전제 조건**
 
-      - Salesforce에 연결된 앱을 만듭니다. 자세한 내용은 [API 통합을 위해 OAuth 설정 사용](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&amp;type=5)을 참조하세요.
+      - Salesforce에 연결된 앱을 만듭니다. 자세한 내용은 [API 통합을 위해 OAuth 설정 사용](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&type=5)을 참조하세요.
 
       - 연결된 앱을 구성하는 동안 다음을 확인하십시오.
 
@@ -1000,7 +1000,7 @@ DAM 내에서 필요한 파일로 이동하여 편집기에서 열 수 있습니
 - **DITA 파일**: 선택한 경로에 있는 모든 **DITA 주제** 및 **DITA 맵**&#x200B;을(를) 찾을 수 있습니다. 기본적으로 선택되어 있습니다.
 - **DITA가 아닌 파일**: 선택한 경로에서 **Ditaval 파일**, **이미지 파일**, **멀티미디어**, **문서** 및 **JSON**&#x200B;을 검색할 수 있습니다.
 
-  ![빠른 검색 필터 ](images/repository-filter-search-quick.png) {width="300" align="left"}
+  ![빠른 검색 필터 &#x200B;](images/repository-filter-search-quick.png) {width="300" align="left"}
 
   *빠른 필터를 사용하여 DITA 및 비 DITA 파일을 검색합니다.*
 
@@ -1975,7 +1975,7 @@ Experience Manager Guides은 프로젝트의 모든 검토 작업을 표시하�
 
 1. **특성** 드롭다운 패널의 드롭다운 목록에서 특성을 선택하고 특성 값을 지정합니다.  **추가**&#x200B;를 선택합니다.
 
-   여러 특성이 있는 ![특성 패널 ](images/attributes-multiple-properties.png){width="300" align="left"}
+   여러 특성이 있는 ![특성 패널 &#x200B;](images/attributes-multiple-properties.png){width="300" align="left"}
 
 1. 특성을 편집하려면 해당 특성을 마우스로 가리킨 다음 **편집** ![편집 아이콘](images/edit_pencil_icon.svg)을 선택하세요.
 

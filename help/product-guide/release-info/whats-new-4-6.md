@@ -187,7 +187,7 @@ Experience Manager Guides은 웹 편집기의 요소에서 콘텐츠를 선택�
 
 관련 파일에 대한 더 빠른 액세스, 더 직관적인 사용자 인터페이스 등의 이점을 활용하여 검색 환경을 더욱 원활하고 효율적으로 만들어 보십시오.
 
-![빠른 검색 필터 ](assets/repository-filter-search-quick.png) {width="300" align="left"}
+![빠른 검색 필터 &#x200B;](assets/repository-filter-search-quick.png) {width="300" align="left"}
 
 *빠른 필터를 사용하여 DITA 및 비 DITA 파일을 검색합니다.*
 

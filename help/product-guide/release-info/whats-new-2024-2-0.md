@@ -27,7 +27,7 @@ ht-degree: 1%
 
 콘텐츠를 정확하고 일관되게 유지하기 위해 검색 및 제안은 조직이 소유한 콘텐츠로 제한되고 검색하는 키워드와 거의 일치합니다.
 
-웹 편집기의 ![스마트 제안 패널 ](assets/web-editor-smart-suggestion.png) {width="800" align="left"}
+웹 편집기의 ![스마트 제안 패널 &#x200B;](assets/web-editor-smart-suggestion.png) {width="800" align="left"}
 
 
 *스마트 제안을 보고 콘텐츠 저장소에서 일치하는 콘텐츠 참조를 찾아 추가합니다.*

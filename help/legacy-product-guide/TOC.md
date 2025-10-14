@@ -19,9 +19,9 @@ ht-degree: 3%
 - [릴리스 정보](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/release-info/aem-guides-releases-roadmap){target="_blank"}
 - 사용 안내서(이전 UI) {#user-guide}
    - 소개 {#about-aem-guide}
-      - [ [!DNL Adobe Experience Manager Guides] 정보](./user-guide/intro.md)
+      - [&#x200B; [!DNL Adobe Experience Manager Guides] 정보](./user-guide/intro.md)
       - [!DNL AEM Guides] 작업 중 및 주요 기능 {#aemg-works-features}
-         - [ [!DNL AEM Guides] 작동 방식](./user-guide/intro-how-dxml-works.md)
+         - [&#x200B; [!DNL AEM Guides] 작동 방식](./user-guide/intro-how-dxml-works.md)
          - [주요 [!DNL AEM Guides] 기능](./user-guide/intro-dxml-features.md)
    - 콘텐츠 관리{#manage-content}
       - [주요 개념, 역할 및 권한, 전제 조건](./user-guide/authoring.md)

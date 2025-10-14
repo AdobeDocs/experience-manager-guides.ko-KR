@@ -186,7 +186,7 @@ Experience Manager Guides은 MLA(Modern Language Association), APA(American Psyc
 
 ### 기본 도구 모음에서
 
-1. 기본 도구 모음에서 **인용** ![인용 아이콘 ](images/citations-icon.svg) 아이콘을 선택합니다.
+1. 기본 도구 모음에서 **인용** ![인용 아이콘 &#x200B;](images/citations-icon.svg) 아이콘을 선택합니다.
 1. **인용** 대화 상자에서 인용을 선택합니다. 여러 개의 인용을 선택할 수도 있습니다.
    ![인용 대화 상자](images/citation-dialog-main-toolbar.png){width="300" align="left"}
 1. **인용** 대화 상자의 검색 패널에 처음 몇 개의 알파벳을 입력하여 인용을 필터링할 수 있습니다.
@@ -201,7 +201,7 @@ Experience Manager Guides은 MLA(Modern Language Association), APA(American Psyc
 > 
 >왼쪽 패널에서 **인용** 아이콘을 보려면 시스템 관리자가 **설정**&#x200B;의 **패널** 탭에서 **인용** 옵션을 활성화해야 합니다.
 
-1. 왼쪽 패널에서 **인용** ![인용 아이콘 ](images/citations-icon.svg) 아이콘을 선택합니다.
+1. 왼쪽 패널에서 **인용** ![인용 아이콘 &#x200B;](images/citations-icon.svg) 아이콘을 선택합니다.
 1. **인용** 패널에서 인용을 드래그하여 주제의 적절한 위치에 놓습니다.
 
    ![](images/options.svg) **옵션**&#x200B;에서 **삽입**&#x200B;을 선택하여 인용을 삽입할 수도 있습니다.

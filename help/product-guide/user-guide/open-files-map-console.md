@@ -17,7 +17,7 @@ ht-degree: 0%
 
 1. 홈 페이지에서 **맵 콘솔**&#x200B;을 엽니다.
 
-   ![새 ](images/map-console-home-page.png){width="800"align="left"}
+   ![새 &#x200B;](images/map-console-home-page.png){width="800"align="left"}
 
 2. 맵 파일을 선택하지 않았으므로 맵 관리 및 게시 기능을 사용할 맵 파일을 선택하라는 메시지가 표시됩니다.
 
@@ -45,4 +45,4 @@ ht-degree: 0%
 
    맵 파일이 맵 콘솔에서 열립니다.
 
-   ![새 ](images/map-console.png){align="left"}
+   ![새 &#x200B;](images/map-console.png){align="left"}

@@ -45,7 +45,7 @@ ht-degree: 1%
 
 1. **특성** 드롭다운 패널의 드롭다운 목록에서 특성을 선택하고 특성 값을 지정합니다.  **추가**&#x200B;를 선택합니다.
 
-   여러 특성이 있는 ![특성 패널 ](images/attributes-multiple-properties.png){width="300" align="left"}
+   여러 특성이 있는 ![특성 패널 &#x200B;](images/attributes-multiple-properties.png){width="300" align="left"}
 
 1. 특성을 편집하려면 해당 특성을 마우스로 가리킨 다음 **편집** ![편집 아이콘](images/edit_pencil_icon.svg)을 선택하세요.
 

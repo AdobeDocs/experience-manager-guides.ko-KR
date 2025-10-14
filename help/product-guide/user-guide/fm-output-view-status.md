@@ -36,4 +36,4 @@ FrameMaker 문서에 대한 출력 생성 작업을 시작하면 Adobe Experienc
      이 목록에서 성공적으로 실행된 작업 또는 실패한 작업이 있을 수 있습니다. 성공적으로 완료된 작업의 경우 게시 프로세스는 생성된 위치 열에서 링크를 선택하여 액세스할 수 있는 로그 파일 \(logs.txt\)을 만듭니다.
 
 
-**상위 항목:**&#x200B;[ FrameMaker 문서의 출력 생성](fm-output-generatation.md)
+**상위 항목:**&#x200B;[&#x200B; FrameMaker 문서의 출력 생성](fm-output-generatation.md)

@@ -20,4 +20,4 @@ ht-degree: 0%
 워크플로우를 통해 작업하는 동안 세션이 오랫동안 비활성 상태로 유지되면 컨텐츠 손실을 방지하기 위해 세션 시간 초과 프롬프트가 트리거됩니다. 자세한 내용은 [세션 시간 초과](./session-timeout-prompt.md)를 확인하세요.
 
 
-**상위 항목:**&#x200B;[ Adobe Experience Manager Guides as a Cloud Service 정보](intro.md)
+**상위 항목:**&#x200B;[&#x200B; Adobe Experience Manager Guides as a Cloud Service 정보](intro.md)

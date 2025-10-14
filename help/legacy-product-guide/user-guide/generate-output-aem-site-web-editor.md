@@ -33,7 +33,7 @@ Experience Manager Guides은 AEM Sites을 만들기 위한 사전 정의된 템�
 1. **새 출력 사전 설정** 대화 상자의 **유형** 드롭다운에서 **AEM Sites**&#x200B;을(를) 선택합니다.
 1. **새 출력 사전 설정** 대화 상자에서 **기존 구성 요소 매핑 사용** 옵션을 선택 취소합니다.
 
-![새 ](images/new-aem-sites-dialog-box.png)
+![새 &#x200B;](images/new-aem-sites-dialog-box.png)
 
 
 
