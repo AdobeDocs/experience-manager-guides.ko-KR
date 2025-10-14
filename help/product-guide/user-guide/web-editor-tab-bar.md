@@ -57,4 +57,4 @@ ht-degree: 0%
 >
 > 온-프레미스 설정에서 Adobe Experience Manager Guides을 사용하는 경우 Workspace 설정 옵션이 추가 작업 메뉴에 **설정**(으)로 계속 표시됩니다.
 
-**상위 항목:**[&#x200B;편집기 소개](web-editor.md)
+**상위 항목:**&#x200B;[&#x200B;편집기 소개](web-editor.md)

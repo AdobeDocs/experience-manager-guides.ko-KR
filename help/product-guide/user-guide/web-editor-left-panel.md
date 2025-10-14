@@ -155,7 +155,7 @@ DAM 내에서 필요한 파일로 이동하여 편집기에서 열 수 있습니
 - **DITA 파일**: 선택한 경로에 있는 모든 **DITA 주제** 및 **DITA 맵**&#x200B;을(를) 찾을 수 있습니다. 기본적으로 선택되어 있습니다.
 - **DITA가 아닌 파일**: 선택한 경로에서 **Ditaval 파일**, **이미지 파일**, **멀티미디어**, **문서** 및 **JSON**&#x200B;을 검색할 수 있습니다.
 
-  ![빠른 검색 필터 ](images/repository-filter-search-quick.png) {width="300" align="left"}
+  ![빠른 검색 필터 &#x200B;](images/repository-filter-search-quick.png) {width="300" align="left"}
 
   *빠른 필터를 사용하여 DITA 및 비 DITA 파일을 검색합니다.*
 
@@ -1142,4 +1142,4 @@ Experience Manager Guides은 프로젝트의 모든 검토 작업을 표시하�
 
 </details>
 
-**상위 항목:**[&#x200B;편집기 소개](web-editor.md)
+**상위 항목:**&#x200B;[&#x200B;편집기 소개](web-editor.md)

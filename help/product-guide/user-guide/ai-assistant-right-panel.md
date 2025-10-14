@@ -1,5 +1,5 @@
 ---
-title: AI Assistant를 사용하여 문서를 스마트하게 작성 `
+title: AI Assistant를 사용하여 문서를 스마트하게 작성 &grave;
 description: AI Assistant를 사용하여 효율적인 방식으로 문서를 작성하는 방법에 대해 알아봅니다.
 exl-id: 47d37323-20bf-4444-a2c9-41c44b2c8daf
 source-git-commit: 8659035c57ce2b6f760b342fa9d88d656fcabf23
@@ -24,7 +24,7 @@ Adobe Experience Manager Guides은 보다 스마트하고 빠르게 작성할 �
 ## 재사용 가능한 콘텐츠 제안
 
 
-**재사용 가능한 콘텐츠 제안** ![ai 재사용 가능한 콘텐츠 제안 아이콘 ](./images/ai-suggest-reusable-content-icon.svg) 기능을 사용하여 일관되고 정확하게 콘텐츠를 작성합니다. 콘텐츠를 선택할 수 있으며 Experience Manager Guides에서는 저장소의 기존 콘텐츠를 재사용하는 방법에 대한 제안 사항을 제공합니다.
+**재사용 가능한 콘텐츠 제안** ![ai 재사용 가능한 콘텐츠 제안 아이콘 &#x200B;](./images/ai-suggest-reusable-content-icon.svg) 기능을 사용하여 일관되고 정확하게 콘텐츠를 작성합니다. 콘텐츠를 선택할 수 있으며 Experience Manager Guides에서는 저장소의 기존 콘텐츠를 재사용하는 방법에 대한 제안 사항을 제공합니다.
 [AI 기반의 스마트 제안을 사용하여 콘텐츠를 작성하는 방법](authoring-ai-based-smart-suggestions.md)에 대해 자세히 알아보세요.
 
 
