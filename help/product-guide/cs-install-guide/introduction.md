@@ -64,7 +64,7 @@ Adobe Experience Manager Guides \(나중에 *AEM Guides*\)는 강력한 클라�
 
 ## Adobe Experience Manager \(AEM\) 개요
 
-[Adobe Experience Manager \(AEM\)](https://business.adobe.com/products/experience-manager/adobe-experience-manager.html)은(는) 웹 사이트, 모바일 앱 및 양식 구축을 위한 포괄적인 콘텐츠 관리 솔루션입니다. AEM은 마케팅 콘텐츠 및 에셋을 관리하는 데 도움이 됩니다. AEM as a Cloud Service 사용 가능 AEM as a Cloud Service은 AEM 콘텐츠 관리 시스템의 강력한 기능을 AEM 디지털 에셋 관리와 결합하여 고객에게 개인화된 콘텐츠 주도 경험을 제공할 수 있도록 지원합니다.AEM as a Cloud Service을 시작하고 배포하는 데 도움이 되는 몇 가지 주요 리소스는 다음과 같습니다.
+[Adobe Experience Manager \(AEM\)](https://business.adobe.com/kr/products/experience-manager/adobe-experience-manager.html)은(는) 웹 사이트, 모바일 앱 및 양식 구축을 위한 포괄적인 콘텐츠 관리 솔루션입니다. AEM은 마케팅 콘텐츠 및 에셋을 관리하는 데 도움이 됩니다. AEM as a Cloud Service 사용 가능 AEM as a Cloud Service은 AEM 콘텐츠 관리 시스템의 강력한 기능을 AEM 디지털 에셋 관리와 결합하여 고객에게 개인화된 콘텐츠 주도 경험을 제공할 수 있도록 지원합니다.AEM as a Cloud Service을 시작하고 배포하는 데 도움이 되는 몇 가지 주요 리소스는 다음과 같습니다.
 
 - [Experience Manager as a Cloud Service 개요](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=ko)
 - [AEM as a Cloud Service으로 마이그레이션 여정 시작](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/getting-started.html?lang=ko)
