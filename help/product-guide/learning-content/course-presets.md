@@ -4,9 +4,9 @@ description: 제품 교육 및 학습에서 과정을 게시하기 위해 지원
 feature: Authoring
 role: User
 exl-id: 32f30bba-4600-4d75-b0bb-1093490ec11e
-source-git-commit: 40ce03adef1b9a50afd6698de49c09b65e565b3e
+source-git-commit: 26fe86ea790432dfef40ca404ff497722164b593
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
@@ -19,4 +19,4 @@ ht-degree: 0%
 
 - **PDF:** PDF 출력 사전 설정을 사용하면 인쇄할 준비가 된 전문적인 형식으로 강의 콘텐츠를 게시할 수 있습니다. PDF 형식을 사용하면 검토 또는 보관 목적으로 콘텐츠를 공유하는 데 이상적입니다.
 
-사전 설정에 대한 출력을 만들고 구성하고 생성하는 방법에 대한 비디오 개요는 [![](assets/Smock_VideoCheckedOut_18_N.svg)](https://video.tv.adobe.com/v/3469529/aem-guides-learning-content)을(를) 참조하십시오.
+사전 설정에 대한 출력을 만들고 구성하고 생성하는 방법에 대한 비디오 개요는 [지원되는 사전 설정](https://video.tv.adobe.com/v/3469529/aem-guides-learning-content) ![](assets/Smock_VideoCheckedOut_18_N.svg)을(를) 참조하십시오.
