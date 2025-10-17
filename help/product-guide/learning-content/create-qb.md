@@ -4,9 +4,9 @@ description: 제품 교육 및 학습에서 질문 은행을 만드는 방법에
 feature: Authoring
 role: User
 exl-id: c658af49-b0e6-4188-b3ba-8f3223b12632
-source-git-commit: 6f0643ca4b43f88ead42bbeade4e3e7252263f32
+source-git-commit: b914c69f9d29884382ce43f163a8f766567b10bf
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
@@ -20,16 +20,16 @@ ht-degree: 0%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3475212/learning-content-aem-guides)
 
+**문제 은행을 만드는 단계**
+
 다음 단계를 수행하여 문제 은행을 생성합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3469321)
-
 1. **과정 관리자**&#x200B;에서 과정을 열고 **옵션 메뉴**&#x200B;에서 **새로 추가**&#x200B;를 선택합니다.
-1. **질문 은행**&#x200B;을 선택하세요.
+1. **질문 은행**을 선택하세요.
 **새 질문 은행** 대화 상자가 열립니다. 드롭다운에서 템플릿을 선택하고, 문제 은행에 적합한 제목을 지정하고, 이 문제 은행을 저장소에 저장할 경로를 지정할 수 있습니다.
 
    ![](assets/question-bank-create.png){width="350" align="left"}
 
-1. **만들기**&#x200B;를 선택합니다.
+1. **만들기**를 선택합니다.
 질문 은행이 과정의 일부로 추가되고 [과정 관리자] 패널에 표시됩니다.
 1. 퀴즈에 대해 수행하는 것과 동일한 방식으로 질문 뱅크에 질문을 추가할 수 있으며, 프로세스 중에 각 질문의 속성을 유연하게 구성할 수도 있습니다. 자세한 내용은 [퀴즈에 질문 삽입](./quiz-insert-questions.md)을 참조하세요.
