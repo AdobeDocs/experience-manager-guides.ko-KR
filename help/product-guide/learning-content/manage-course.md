@@ -4,9 +4,9 @@ description: 과정을 효율적으로 관리할 수 있는 Experience Manager G
 feature: Authoring
 role: User
 exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
-source-git-commit: 6a61f404892dee8256e969a0b3433b8425f84c6c
+source-git-commit: 40ce03adef1b9a50afd6698de49c09b65e565b3e
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '550'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 1%
    - **그룹**: 학습 그룹을 사용하면 챕터, 주제 및 기타 모듈과 같은 관련 주제를 논리적 순서로 구성하여 교육 자료를 더 쉽게 관리하고 다시 사용할 수 있도록 명확한 계층 구조를 만들 수 있습니다.
 3. **만들기**&#x200B;를 선택합니다.
 
-선택한 콘텐츠가 만들어지고 과정에 추가됩니다. 비디오 개요가 필요하면 [과정에 새 콘텐츠 추가](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on)를 확인하십시오.
+선택한 콘텐츠가 만들어지고 과정에 추가됩니다. 비디오 개요가 필요하면 [![](assets/Smock_VideoCheckedOut_18_N.svg)](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on)을(를) 보십시오.
 
 ## 기존 콘텐츠 추가
 
@@ -50,7 +50,7 @@ ht-degree: 1%
 >
 >**기존 항목 추가** > **파일(리소스 전용 zip)** 옵션을 사용하여 압축 해제되고 최종 SCORM 출력의 폴더 구조에 통합되는 zip 파일을 포함할 수도 있습니다. 이를 통해 강의 게시 중 리소스 패키징을 간소화할 수 있습니다.
 
-비디오 개요가 필요하면 [과정에 기존 콘텐츠 추가](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on)를 확인하십시오.
+비디오 개요가 필요하면 [![](assets/Smock_VideoCheckedOut_18_N.svg)](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on)을(를) 보십시오.
 
 ## 콘텐츠 제거
 
@@ -58,7 +58,8 @@ ht-degree: 1%
 
 ![](assets/remove-learning-content.png)
 
-비디오 개요가 필요하면 [강의에서 콘텐트 제거](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides)를 확인하십시오.
+비디오 개요가 필요하면 [![](assets/Smock_VideoCheckedOut_18_N.svg)](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides)을(를) 보십시오.
+
 
 ## 과정 버전 만들기
 
@@ -82,4 +83,4 @@ ht-degree: 1%
 
 ![](assets/course-display-settings.png)
 
-비디오 개요가 필요하면 [옵션 표시](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides)를 확인하십시오.
+비디오 개요가 필요하면 [![](assets/Smock_VideoCheckedOut_18_N.svg)](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides)을(를) 보십시오.
