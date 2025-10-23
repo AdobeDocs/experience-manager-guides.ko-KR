@@ -4,7 +4,7 @@ description: 편집기의 도구 모음에 대해 알아봅니다. Adobe Experie
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
-source-git-commit: 3dee9b2c90515ff7681770247f215996dc2c8325
+source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
 workflow-type: tm+mt
 source-wordcount: '5962'
 ht-degree: 0%
@@ -84,7 +84,7 @@ Source 보기에서 **찾기 및 바꾸기** 기능은 특정 요소나 특성�
 
    **메타데이터** 탭: 새로 추가된 메타데이터는 녹색 글꼴이고 삭제된 메타데이터는 빨간색 글꼴입니다.
 
-   ![&#x200B; 버전에 대한 &#x200B;](images/metadata-version-diff.png){width="550" align="left"}메타데이터 차이점
+   ![ 버전에 대한 ](images/metadata-version-diff.png){width="550" align="left"}메타데이터 차이점
 
    *버전 기록에서 다른 버전의 메타데이터를 비교합니다.*
 
@@ -406,7 +406,7 @@ Source 필드는 삽입된 이미지 파일의 UUID를 표시합니다. 마우�
 
 >[!NOTE]
 >
->이미지에서 클릭 가능한 영역 \(image map\)을 정의할 수도 있습니다. 자세한 내용은 **왼쪽 패널** 섹션에서 [이미지 맵 삽입/편집](web-editor-features.md#left-panel) 기능 설명을 참조하십시오.
+>이미지에서 클릭 가능한 영역 \(image map\)을 정의할 수도 있습니다. 자세한 내용은 **왼쪽 패널** 섹션에서 [이미지 맵 삽입/편집](web-editor-left-panel.md) 기능 설명을 참조하십시오.
 
 **이미지 또는 미디어 파일에 대한 상황에 맞는 메뉴**
 
@@ -623,4 +623,4 @@ DITA 맵에 정의된 키워드를 삽입합니다. 키워드 옵션을 선택�
 관리자는 다른 사용자가 잠근 파일의 잠금을 해제할 수 있는 **잠금 해제 강제** 기능에 액세스할 수도 있습니다. 이 기능을 사용하여 다른 사용자가 잠근 파일의 편집 권한에 액세스할 수 있습니다.
 
 ![](images/web-editor-force-unlock-new.png){width="350" align="left"}
-**상위 항목:**&#x200B;[&#x200B;편집기 소개](web-editor.md)
+**상위 항목:**[&#x200B;편집기 소개](web-editor.md)

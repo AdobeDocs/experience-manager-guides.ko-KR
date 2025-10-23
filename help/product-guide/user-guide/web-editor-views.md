@@ -4,7 +4,7 @@ description: 작성자, 소스 및 미리보기 모드에서 주제를 봅니다
 exl-id: 74db2902-4507-4904-85d8-6b52e4af4c55
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
 workflow-type: tm+mt
 source-wordcount: '1447'
 ht-degree: 0%
@@ -17,7 +17,7 @@ Adobe Experience Manager의 편집기 인터페이스는 세 가지 다른 모�
 
 * [작성자](#author)
 * [소스](#source)
-* [미리 보기](#preview)
+* [미리보기](#preview)
 
 ## 작성자
 
@@ -49,7 +49,7 @@ Source 보기에는 항목을 구성하는 기본 XML이 표시됩니다. XML을
   위의 스크린샷에서는 잘못된 XML이 포함된 줄을 가리키는 데 상호 강조 표시가 사용됩니다.
 
 * 찾기 및 바꾸기 기능을 사용하면 Source 보기에서 텍스트, 요소 또는 속성을 검색할 수 있습니다.
-자세한 내용은 [탭 모음](web-editor-features.md#tab-bar) 섹션에서 **찾기 및 바꾸기** 기능 설명을 참조하십시오.
+자세한 내용은 **탭 모음** 섹션에서 [찾기 및 바꾸기](web-editor-tab-bar.md) 기능 설명을 참조하십시오.
 
 * Source 보기에서는 문서를 빠르게 탐색하고 작업하는 데 도움이 되는 다양한 단축키를 제공합니다. 다음 표에는 지원되는 작업과 해당 바로 가기 키가 나열되어 있습니다.
 
@@ -88,7 +88,7 @@ Source 보기에는 항목을 구성하는 기본 XML이 표시됩니다. XML을
   | 재귀적으로 현재 단어 \(역방향\) 찾기 | **Shift**+**Ctrl**+**F3** |
 
 
-## 미리 보기
+## 미리보기
 
 미리보기 모드에서 주제를 열면 브라우저에서 사용자가 주제를 볼 때 주제가 표시되는 방식이 표시됩니다. DITA 맵의 경우 맵 미리보기가 표시되고 맵 내의 모든 주제에 대한 단일 합성 문서가 표시됩니다.
 
@@ -149,4 +149,4 @@ PDF은 문서 개발 주기의 모든 단계에서 사용되는 가장 일반적
    PDF이 생성되어 새 탭에서 열거나 로컬 시스템에 PDF을 저장하는 대화 상자가 표시됩니다.
 
 
-**상위 항목:**&#x200B;[&#x200B;편집기 소개](web-editor.md)
+**상위 항목:**[&#x200B;편집기 소개](web-editor.md)

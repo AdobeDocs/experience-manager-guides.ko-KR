@@ -4,7 +4,7 @@ description: AEM Guides에서 작성자로서 검토 주석을 처리하는 방�
 exl-id: 4c969788-f700-4fd6-8afa-8e5b411b59f3
 feature: Reviewing
 role: User
-source-git-commit: 35480e842f6c05811333a14e80c0e9b6431e9176
+source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
 workflow-type: tm+mt
 source-wordcount: '1228'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 리뷰 댓글 처리 {#id2056B0X0KBI}
 
-작성자는 편집기를 사용하여 주제의 주석을 처리할 수 있습니다. 주석은 [검토] 패널에서 선택한 검토 작업을 기반으로 로드됩니다. 자세한 내용은 **왼쪽 패널** 섹션에서 ![](images/active-review-tasklist-icon.svg)검토[&#x200B; 패널 &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS) 기능 설명을 참조하십시오.
+작성자는 편집기를 사용하여 주제의 주석을 처리할 수 있습니다. 주석은 [검토] 패널에서 선택한 검토 작업을 기반으로 로드됩니다. 자세한 내용은 **왼쪽 패널** 섹션에서 ![](images/active-review-tasklist-icon.svg)검토[ 패널 ](../user-guide/web-editor-left-panel.md) 기능 설명을 참조하십시오.
 
 다음 섹션에서는 편집기에서 주석 주소를 지정하는 방법에 대해 설명합니다.
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
   목록에서 검토 작업을 선택하면 해당 작업에서 검토자가 작성한 주석을 볼 수 있습니다. 작업에서 독립적으로 검토 주석을 처리할 수 있습니다. 즉, 주석에 대한 모든 업데이트는 해당 작업의 검토자에게만 표시됩니다.
 
-- **B:** 검토 작업에 대한 자세한 내용을 보려면 **댓글** 패널에서 ![](images/active-review-info-icon.svg)검토 세부 정보&#x200B;**&#x200B;**&#x200B;을(를) 선택하십시오.
+- **B:** 검토 작업에 대한 자세한 내용을 보려면 **댓글** 패널에서 ![](images/active-review-info-icon.svg)검토 세부 정보&#x200B;****&#x200B;을(를) 선택하십시오.
 
    - **이름**: 검토 작업의 이름 .
    - **리뷰 버전**: 선택한 리뷰 작업과 연결된 버전을 표시합니다. 이렇게 하면 검토를 위해 공유한 버전을 추적하는 데 도움이 됩니다
@@ -83,7 +83,7 @@ ht-degree: 0%
 ![](images/tag-users-review.png){width="350" align="left"}
 개시자/작성자로 *캡션:Tag명의 사용자*
 
-태그가 지정된 사용자는 이메일과 AEM 알림을 모두 받아 즉시 알림을 받을 수 있습니다. 검토 알림을 트리거하는 방법에 대한 자세한 내용은 [검토 알림 이해](./review-understanding-review-notifications.md)를 참조하세요.
+태그 지정된 사용자는 이메일과 AEM 알림을 모두 수신하므로 즉시 알림을 받을 수 있습니다. 검토 알림을 트리거하는 방법에 대한 자세한 내용은 [검토 알림 이해](./review-understanding-review-notifications.md)를 참조하세요.
 
 **검토 UI를 사용하여 검토 주석에 액세스**
 
@@ -91,4 +91,4 @@ ht-degree: 0%
 
 ![](images/review-comments-toolbar-disabled.png){width="350" align="left"}
 
-**상위 항목:**&#x200B;[&#x200B;검토 소개](review.md)
+**상위 항목:**[&#x200B;검토 소개](review.md)
