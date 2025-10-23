@@ -4,7 +4,7 @@ description: Adobe Experience Manager Guides의 맵 편집기 기능을 이해�
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 6235af9bf85b2d0e2007bd2279d8ac018f82ffc1
+source-git-commit: 4cb5934fab1897bd36de33f2192ae2c4392c07eb
 workflow-type: tm+mt
 source-wordcount: '2563'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 맵 편집기 기능 {#id1942D0S0IHS}
 
-맵 편집기의 도구 모음은 주제 편집기와 유사합니다. 왼쪽 패널 전환, 맵 저장, 새 맵 버전 만들기, 마지막 작업 실행 취소/다시 실행 및 선택한 요소 삭제와 같은 기본 작업은 두 편집기에서 공통됩니다. 이러한 작업의 작동 방식에 대한 자세한 내용은 [편집기 기능 이해](web-editor-features.md#) 섹션을 참조하십시오.
+맵 편집기의 도구 모음은 주제 편집기와 유사합니다. 왼쪽 패널 전환, 맵 저장, 새 맵 버전 만들기, 마지막 작업 실행 취소/다시 실행 및 선택한 요소 삭제와 같은 기본 작업은 두 편집기에서 공통됩니다. 이러한 작업이 작동하는 방식에 대한 자세한 내용은 편집기[ 섹션에서 ](web-editor-toolbar.md#)도구 모음을 확인하세요.
 
 편집기 도구 모음에서 보는 옵션은 맵 편집기 보기를 기반으로 합니다. 맵 편집기에서 사용할 수 있는 네 가지 보기가 있습니다.
 
@@ -146,7 +146,7 @@ Keydef 삽입 대화 상자를 표시합니다. 이 대화 상자를 사용하�
 
 **다음 항목 앞에 삽입/다음 항목 뒤에 삽입** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
-**다음 항목 앞에 요소 삽입 또는 &#x200B;** 다음 항목 뒤에 요소 삽입 대화 상자를 표시합니다. 맵에 삽입할 요소를 선택합니다. 작업에 따라 새 요소는 맵에서 현재 요소의 앞 또는 뒤에 삽입됩니다.
+**다음 항목 앞에 요소 삽입 또는 **다음 항목 뒤에 요소 삽입 대화 상자를 표시합니다. 맵에 삽입할 요소를 선택합니다. 작업에 따라 새 요소는 맵에서 현재 요소의 앞 또는 뒤에 삽입됩니다.
 
 **요소** - ![](images/Add_icon.svg)
 
