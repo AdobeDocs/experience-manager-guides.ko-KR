@@ -2,9 +2,9 @@
 title: 릴리스 정보 | Adobe Experience Manager Guides 2025.10.0 릴리스의 새로운 기능
 description: Adobe Experience Manager Guides 2025.10.0 릴리스의 새로운 기능과 향상된 기능에 대해 알아봅니다
 role: Leader
-source-git-commit: f9b879d6d374334a08a1d3b0a47b0cb419f02140
+source-git-commit: bf08a48cd00170bdbe8cde312aac9776f871dbf9
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '521'
 ht-degree: 3%
 
 ---
@@ -53,5 +53,10 @@ ht-degree: 3%
 
 이제 개별 에셋 및 폴더의 사후 처리 상태를 추적하는 데 새 API를 사용할 수 있습니다. 이 기능은 콘텐츠가 완전히 처리된 후에만 게시가 수행되어야 하는 자동화된 워크플로를 사용하는 팀에 특히 유용합니다. API는 준비 상태를 확인할 수 있는 신뢰할 수 있는 방법을 제공하여 불완전한 처리로 인한 게시 실패의 위험을 줄입니다.
 
-자세한 내용은 [API를 보고 폴더 또는 에셋의 사후 처리 상태를 추적하세요](../api-reference/track-post-processing-status.md).
+또한 이 API의 도입으로 자산 사후 처리 이벤트가 자동으로 실행되지 않습니다. 대신 이제 관리자는 `fmdita config manager`의 설정을 통해 이 이벤트를 활성화할 수 있습니다.
+
+자세한 내용은 다음을 참조하십시오.
+
+- [개별 에셋 및 폴더의 사후 처리 상태를 추적하기 위한 API](../api-reference/track-post-processing-status.md)
+- [fmdita 구성 관리자의 사후 처리 이벤트 핸들러 설정](../api-reference/post-process-event.md)
 
