@@ -2,9 +2,9 @@
 title: 릴리스 정보 | Adobe Experience Manager Guides 2025.10.0 릴리스의 새로운 기능
 description: Adobe Experience Manager Guides 2025.10.0 릴리스의 새로운 기능과 향상된 기능에 대해 알아봅니다
 role: Leader
-source-git-commit: bf08a48cd00170bdbe8cde312aac9776f871dbf9
+source-git-commit: 6f212862855e5ce1125137f462b88c933d23ed26
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '522'
 ht-degree: 3%
 
 ---

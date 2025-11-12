@@ -4,9 +4,9 @@ description: 편집기에서 항목을 편집하는 방법에 대해 알아봅�
 exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
 feature: Authoring, Web Editor
 role: User
-source-git-commit: d203ca0e1a5ca90f30f33e25e425552141674fe5
+source-git-commit: bdf838da24d7e426c34265cdad454d52f657cfae
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '1029'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > `/etc/designs/fmdita/clientlibs/xmleditor/`에 있는 `ui_config.json` 파일을 구성하여 도구 모음에 표시할 아이콘을 선택할 수도 있습니다. 기능 사용자 지정에 대한 자세한 내용은 시스템 관리자에게 문의하십시오.
+   > `ui_config.json`에 있는 `/etc/designs/fmdita/clientlibs/xmleditor/` 파일을 구성하여 도구 모음에 표시할 아이콘을 선택할 수도 있습니다. 기능 사용자 지정에 대한 자세한 내용은 시스템 관리자에게 문의하십시오.
 
 1. 문서 편집이 끝나면 **모두 저장**&#x200B;을 선택합니다.
 
@@ -48,12 +48,11 @@ Experience Manager Guides에서는 여러 요소의 콘텐츠를 선택할 수�
 
    - 요소 내의 콘텐츠를 선택합니다.
    - 상단의 도구 모음에서 ![추가](images/Add_icon.svg) 아이콘을 선택하여 **요소 삽입** 대화 상자를 표시합니다. 대화 상자에는 선택한 콘텐츠에 대한 유효한 요소가 나열됩니다.
-
      >[!NOTE]
      >
      > 선택한 컨텐츠의 컨텍스트 메뉴를 선택하여 요소 삽입 대화 상자를 볼 수도 있습니다.
 
-   - 대화 상자에서 요소를 선택합니다. 선택한 콘텐츠는 해당 요소 아래에 래핑됩니다. 예를 들어, 단락의 내용을 선택한 다음 **요소 삽입** 대화 상자에서 `<note>` 요소를 선택하면 선택한 내용이 메모 아래에 나타납니다.
+   - 대화 상자에서 요소를 선택합니다. 선택한 콘텐츠는 해당 요소 아래에 래핑됩니다. 예를 들어, 단락의 내용을 선택한 다음 `<note>`요소 삽입&#x200B;**대화 상자에서** 요소를 선택하면 선택한 내용이 메모 아래에 나타납니다.
 
      ![요소 삽입 대화 상자](./images/insert-element-editor.png) {width="300" align="left"}
 
@@ -108,11 +107,14 @@ You can access the **Layout** view for read-only DITA maps. This view lets you s
 
  -->
 
-## 저장소 보기에서 열려 있는 파일을 찾습니다
+## 탐색기에서 열린 파일 찾기
 
-편집기에서 파일을 여는 동안 Experience Manager Guides에서는 저장소 보기에서 파일을 찾을 수 있는 기능을 제공합니다. 예를 들어 편집하는 동안 현재 주제를 찾습니다.
+편집기에서 파일을 여는 동안 Experience Manager Guides에서는 탐색기에서 파일을 찾는 기능을 제공합니다. 예를 들어 편집하는 동안 현재 주제를 찾습니다.
 
-**사용자 환경 설정**&#x200B;의 **모양** 탭에서 **항상 리포지토리에서 파일 찾기** 옵션을 사용하여 파일을 찾는 기능을 끌 수 있습니다.
+**사용자 환경 설정**&#x200B;의 **모양** 탭에서 **항상 탐색기에서 파일 찾기** 옵션을 사용하여 파일을 찾는 기능을 끌 수 있습니다.
 
+>[!NOTE]
+>
+>2025.11.0 릴리스부터 **저장소에서 항상 파일 찾기** 설정의 이름이 **탐색기에서 항상 파일 찾기**(으)로 바뀝니다. 온-프레미스 설정의 경우 Experience Manager Guides 5.1 릴리스까지 저장소에서 파일을 찾을 때 계속 사용할 수 있습니다.
 
-**상위 항목:**&#x200B;[&#x200B;편집기 작업](web-editor.md)
+**상위 항목:**[&#x200B;편집기 작업](web-editor.md)

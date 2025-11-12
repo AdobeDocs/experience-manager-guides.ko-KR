@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 살펴보십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: c0a75668d283458049d9b4a3bbc23335117ea660
+source-git-commit: e1b332b100cc8e3937557e4617d66352c1a0dc3c
 workflow-type: tm+mt
-source-wordcount: '2414'
+source-wordcount: '2428'
 ht-degree: 9%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 9%
       - 클라우드 서비스 {#cloud-release-notes}
          - [배포 지침](./release-info/deploy-xml-on-aemaacs.md)
          - 2025 릴리스 {#2025-releases}
+            - 2025.11.0 릴리스 {#2511-release}
+               - [새로운 기능](./release-info/whats-new-2025-11-0.md)
+               - [해결된 문제](./release-info/fixed-issues-2025-11-0.md)
+               - [업그레이드 지침](./release-info/upgrade-instructions-2025-11-0.md)
             - 2025.10.0 릴리스 {#2510-release}
                - [새로운 기능](./release-info/whats-new-2025-10-0.md)
                - [해결된 문제](./release-info/fixed-issues-2025-10-0.md)
@@ -158,16 +162,17 @@ ht-degree: 9%
                - [4.2.1 릴리스 정보](./release-info/release-notes-4-2-1.md)
                - [4.2 릴리스 노트](./release-info/release-notes-4-2.md)
          - [4.1.x 릴리스 노트](./release-info/release-notes-4-1.md)
-         - [4.0.x 릴리스 노트](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x 릴리스 노트](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - 사용 안내서 (새 UI) {#user-guide}
    - 소개 {#about-aemg}
-      - [&#x200B; [!DNL Adobe Experience Manager Guides] 정보](./user-guide/intro.md)
+      - [ [!DNL Adobe Experience Manager Guides] 정보](./user-guide/intro.md)
       - [!DNL AEM Guides] 작업 중 및 주요 기능 {#aemg-works-features}
-         - [&#x200B; [!DNL AEM Guides] 작동 방식](./user-guide/intro-how-dxml-works.md)
+         - [ [!DNL AEM Guides] 작동 방식](./user-guide/intro-how-dxml-works.md)
          - [주요 [!DNL AEM Guides] 기능](./user-guide/intro-dxml-features.md)
    - 홈 페이지 {#home-page}
       - [[!DNL AEM Guides] 홈 페이지 경험](./user-guide/intro-home-page.md)
+      - [저장소 인터페이스](./user-guide/home-page-repository-view.md)
    - 콘텐츠 작성 {#author-content}
       - [작성 개요](./user-guide/authoring-content.md)
       - [AEM Guides을 사용하여 콘텐츠를 작성하는 방법](./user-guide/authoring-content-xml-doc.md)
@@ -181,12 +186,14 @@ ht-degree: 9%
             - [주제 미리 보기](./user-guide/web-editor-preview-topics.md)
          - [편집기 기능 이해](./user-guide/web-editor-features.md)
          - 편집기 인터페이스 및 기능 이해 {#editor-interface-features}
+            - [개요](./user-guide/intro-editor-interface.md)
             - [헤더 막대](./user-guide/web-editor-header-bar.md)
             - [탭 표시줄](./user-guide/web-editor-tab-bar.md)
             - [도구 모음](./user-guide/web-editor-toolbar.md)
             - [왼쪽 패널](./user-guide/web-editor-left-panel.md)
             - [콘텐츠 편집 영역](./user-guide/web-editor-content-editing-area.md)
             - [오른쪽 패널](./user-guide/web-editor-right-panel.md)
+            - [검색 패널](./user-guide/search-panel-explorer.md)
          - [편집기의 추가 기능](./user-guide/web-editor-other-features.md)
          - [편집기의 키보드 단축키](./user-guide/web-editor-keyboard-shortcuts.md)
          - [편집기 보기](./user-guide/web-editor-views.md)
@@ -280,6 +287,7 @@ ht-degree: 9%
          - [출력 생성 프로세스 관리](./user-guide/generate-output-manage-process.md)
          - [게시 대시보드를 사용하여 게시 작업 관리](./user-guide/generate-output-publish-dashboard.md)
          - [기본 문제 해결](./user-guide/generate-output-basic-troubleshooting.md)
+         - [게시 워크플로우 및 확장성에 대한 FAQ](./user-guide/publishing-scalability-faq.md)
       - 콘텐츠의 벌크 활성화 {#bulk-activation}
          - [게시된 콘텐츠의 벌크 활성화](./user-guide/conf-bulk-activation.md)
          - [벌크 활성화 맵 컬렉션 만들기](./user-guide/conf-bulk-activation-create-map-collection.md)
@@ -352,11 +360,11 @@ ht-degree: 9%
          - [주요 개념, 역할 및 권한, 전제 조건](./user-guide/authoring.md)
          - [파일 업로드](./user-guide/authoring-upload-existing-files.md)
          - [파일 및 폴더 관리](./user-guide/authoring-file-management.md)
-         - [에셋 처리 또는 재처리](./user-guide/asset-processor.md)
+         - [자산 처리](./user-guide/asset-processor.md)
       - 문제 해결 {#troubleshooting}
          - [세션 시간 초과](./user-guide/session-timeout-prompt.md)
 - 사용 안내서 (이전 UI) {#user-guide-old-ui}
-   - [AEM Guides 개요](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides 개요](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 설치 및 구성 {#install-guide}
    - 온프레미스 {#on-prem-ig}
       - [On-Premise 기본 사항](./install-guide/introduction.md)
@@ -451,6 +459,10 @@ ht-degree: 9%
          - [콘텐츠 번역](./install-guide/translation.md)
       - AEM Assets 검색 작업 {#aem-asset-search}
          - [AEM Assets UI에 대한 검색 구성](./install-guide/conf-dita-search.md)
+      - 자산 처리 작업 {#asset-processing-on-prem}
+         - [자산 처리 기능 구성](./install-guide/configure-asset-processing.md)
+      - B 트리 정리 작업{#btree-cleanup}
+         - [B 트리 정리 구성](./install-guide/configure-btree-clean-up-job.md)
       - [부록](./install-guide/appendix.md)
    - 클라우드 서비스 {#cs-ig}
       - [이 안내서 정보](./cs-install-guide/introduction.md)
@@ -532,6 +544,10 @@ ht-degree: 9%
          - [콘텐츠 번역](./cs-install-guide/translation.md)
       - AEM Assets 검색 작업 {#aem-asset-search-cs}
          - [AEM Assets UI에 대한 검색 구성](./cs-install-guide/conf-dita-search.md)
+      - 자산 처리 작업 {#asset-processing-cloud}
+         - [자산 처리 기능 구성](./cs-install-guide/configure-asset-processing-cs.md)
+      - B 트리 정리 작업{#btree-cleanup-cs}
+         - [B-트리 정리 구성](./cs-install-guide/configure-btree-cleanup-cs.md)
       - [부록](./cs-install-guide/appendix.md)
 - API 참조 {#api-reference}
    - [소개](./api-reference/introduction.md)
@@ -540,15 +556,10 @@ ht-degree: 9%
    - [데이터 소스 커넥터를 등록하는 REST API](./api-reference/data-source-connector.md)
    - [조건부 특성으로 작업할 수 있는 REST API](./api-reference/conditional-attribute.md)
    - [전환 워크플로우에 대한 REST API](./api-reference/convert-to-dita.md)
-   - [패키지 생성 및 활성화를 위한 REST API](./api-reference/create-activate-package.md)
-   - [출력 생성 관련 Java 기반 API](./api-reference/generate-output.md)
-   - [DITA 맵에서 작동하는 Java 기반 API](./api-reference/dita-map-management-java.md)
-   - [전환 워크플로우에 대한 Java 기반 API](./api-reference/convert-to-dita-java.md)
-   - [기준 및 레이블로 작동하는 Java 기반 API](./api-reference/create-baseline-label-java.md)
-   - [폴더 프로필 작업을 위한 Java 기반 API](./api-reference/folder-profile-java.md)
-   - [패키지 생성 및 활성화를 위한 Java 기반 API](./api-reference/create-activate-package-java.md)
+   - 패키지를 만들고 활성화하기 위한 [REST API](./api-reference/create-activate-package.md)
    - [사후 처리 이벤트 핸들러](./api-reference/post-process-event.md)
    - [폴더 또는 에셋의 사후 처리 상태를 추적하는 API](./api-reference/track-post-processing-status.md)
+   - [자산에 대한 일괄 처리를 시작하기 위한 API](./api-reference/bulk-assets-processing.md)
    - [일괄 활성화 완료 이벤트 핸들러](./api-reference/bulk-activation-complete-event.md)
    - [전환 프로세스 이벤트 핸들러](./api-reference/conversion-complete-event.md)
 - 기술 자료 {#knowledge-base}

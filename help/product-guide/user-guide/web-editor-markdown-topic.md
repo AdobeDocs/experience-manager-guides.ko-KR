@@ -4,7 +4,7 @@ description: 편집기에서 Markdown 문서를 작성합니다. AEM Guides에�
 exl-id: def14e35-27c5-4b90-bc3d-eef7e8f317d2
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 779be011c078fb3c2fae4fc6a92e3e2d734672b0
+source-git-commit: 639cd235778f31b139889d615f93bde3334e4988
 workflow-type: tm+mt
 source-wordcount: '1197'
 ht-degree: 1%
@@ -20,7 +20,7 @@ Markdown은 일반 텍스트 문서에 서식 요소를 추가하는 데 도움�
 편집기에서 Markdown 주제를 만들려면 다음 단계를 수행하십시오.
 
 1. 저장소 패널에서 ![](images/Add_icon.svg)을(를) 선택한 다음 드롭다운에서 **주제**&#x200B;를 선택합니다.
-2. **새 항목** 대화 상자에서 다음 세부 정보를 제공합니다.
+1. **새 항목** 대화 상자에서 다음 세부 정보를 제공합니다.
 
    ![](images/create-markdown-dialog.png){width="300" align="left"}
 
@@ -32,7 +32,7 @@ Markdown은 일반 텍스트 문서에 서식 요소를 추가하는 데 도움�
    >[!NOTE]
    >
    > 업그레이드의 경우 사용 중인 현재 폴더 프로필에 Markdown 템플릿을 추가해야 합니다. [편집기에서 새 Markdown 템플릿을 만들거나](./web-editor-features.md#templates) Markdown 작성에 기존 템플릿을 사용할 수 있습니다. Experience Manager Guides에서 작성 템플릿을 추가하는 방법에 대한 자세한 내용은 [전역 또는 폴더 수준 프로필 구성](../cs-install-guide/conf-folder-level.md)을 참조하십시오.
-3. **만들기**&#x200B;를 선택합니다.
+1. **만들기**&#x200B;를 선택합니다.
 
    선택한 경로에 Markdown 주제가 만들어지고 편집을 위해 열려 있습니다.
 
@@ -175,4 +175,4 @@ Markdown 주제를 편집할 때 실시간으로 렌더링된 출력을 보려�
 
 
 
-**상위 항목:**&#x200B;[&#x200B;편집기 소개](web-editor.md)
+**상위 항목:**[&#x200B;편집기 소개](web-editor.md)

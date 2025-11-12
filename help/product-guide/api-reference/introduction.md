@@ -5,9 +5,9 @@ exl-id: d8ee9cf7-1d67-4b4a-aa80-64e893a99463
 feature: API Introduction
 role: Developer
 level: Experienced
-source-git-commit: 00a926e82f7d848e0c8041de758f20e79758b01b
+source-git-commit: 67e844faece8b6bb8988bb0e67f357cda1db9a4d
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -18,222 +18,113 @@ Adobe Experience Manager Guides \(나중에 *AEM Guides*\)은(는) Adobe Experie
 
 ## AEM GUIDES API
 
-AEM Guides API는 HTTP와 Java의 두 가지 형식으로 사용할 수 있습니다. 이러한 API는 AEM Guides의 주요 기능을 애플리케이션 개발자에게 노출합니다. 개발자는 이러한 기능을 사용하여 고유한 플러그인을 만들어 기본 제공 워크플로를 확장할 수 있습니다. API는 DITA 콘텐츠에 대한 출력 관리, DITA 맵 작업, 폴더 수준 프로필에 조건부 속성 추가, HTML 및 Words 문서를 DITA 형식으로 변환하는 것과 관련하여 사용할 수 있습니다.
+AEM Guides API는 두 가지 형식으로 사용할 수 있습니다.
 
-## 로컬 Apache Maven 저장소에 JAR 설치 {#install-jar-local}
+- [Java 기반 API](#java-based-apis)
+- [REST 기반 API](#rest-based-apis)
 
-AEM Guides에 의해 노출된 JAR 파일을 사용하려면 로컬 Apache Maven 저장소에 해당 파일을 설치해야 합니다. 다음 단계를 수행하여 위치 Maven 저장소에 JAR을 설치합니다.
-
-1. 로컬 시스템에서 AEM Guides 패키지 \(.zip\) 파일의 컨텐츠를 추출합니다.
-
-2. 명령 프롬프트에서 추출된 콘텐츠 경로의 다음 폴더로 이동합니다.
-
-   ```
-   \jcr_root\libs\fmdita\osgi-bundles\install
-   ```
-
-3. 다음 명령을 실행하여 로컬 Maven 저장소에 API 번들을 설치합니다.
-
-   ```
-   mvn install:install-file -Dfile=api-X.x.jar -DgroupId=com.adobe.fmdita -DartifactId=api -Dversion=X.x -Dpackaging=jar**
-   ```
-
-   >[!NOTE]
-   >
-   > 위의 명령에서 X.x는 Dfile 및 Dversion 매개 변수에서 실제 버전 번호로 대체되어야 합니다.
-
-4. \(*선택 사항*\) 로컬 Maven 프로젝트의 저장소에 종속성을 설치합니다. Maven 프로젝트에서 폴더를 만든 다음 다음 다음 추가 매개 변수를 사용하여 이전 단계에서 제공된 `mvn install` 명령을 실행하여 이를 수행할 수 있습니다.
-
-   ```
-   -DlocalRepositoryPath=<path_to_project_repository>
-   ```
-
-   그런 다음 프로젝트의 로컬 저장소 폴더를 Maven 빌드 프로세스에 노출하려면 아래와 같이 상위 pom.xml 파일에 `repository` 요소를 추가합니다.
-
-   ```XML
-   <repositories>
-      <repository>
-         <id>project-repository</id>
-         <url>file://${project.basedir}/repository</url>
-      </repository>
-   </repositories>
-   ```
+이러한 API는 AEM Guides의 주요 기능을 애플리케이션 개발자에게 노출합니다. 개발자는 이러한 기능을 사용하여 고유한 플러그인을 만들어 기본 제공 워크플로를 확장할 수 있습니다. API는 DITA 콘텐츠에 대한 출력 관리, DITA 맵 작업, 폴더 수준 프로필에 조건부 속성 추가, HTML 및 Words 문서를 DITA 형식으로 변환하는 것과 관련하여 사용할 수 있습니다.
 
 
-이 프로세스는 로컬 Maven 저장소에 API JAR을 설치합니다.
+### Java 기반 API
 
-## Maven 프로젝트에서 서비스 API JAR 사용
+Experience Manager Guides에서 사용할 수 있는 Java 기반 API를 사용하여 사용자 지정 플러그인을 만들고 기본 제공 워크플로를 확장할 수 있습니다.
 
-로컬 Maven 저장소에 API JAR을 설치한 후 다음 단계를 수행하여 프로젝트에서 JAR을 사용합니다.
+**AEM Guides as a Cloud Service에 대한 Maven 중앙 저장소에서 SDK 구성**
 
-1. JAR를 코드 베이스에 추가하고 &quot;종속성&quot;과 같은 폴더 아래의 코드 베이스 저장소에 커밋합니다. 폴더 이름은 코드 기반 계층 구조에 따라 다릅니다.
+>[!INFO]
+>
+>Experience Manager Guides as a Cloud Service용 Java 기반 API 사용에 대한 최신 및 자세한 설명서는 [![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-dox-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-dox-sdk-api/latest/index.html)을(를) 참조하십시오.
 
-2. 프로젝트 pom.xml 파일을 다음과 같이 구성합니다.
+프로젝트의 Maven 저장소에서 서비스 API JAR을 구성하고 사용하려면 아래와 같이 API SDK을 프로젝트의 `pom.xml` 파일에 프로젝트 종속성으로 추가합니다.
 
-   상위 프로젝트의 pom.xml 파일:
+    &quot;XML
+    &lt;dependency>
+    &lt;groupId>com.adobe.aem&lt;/groupId>
+    &lt;artifactId>aem-dox-sdk-api&lt;/artifactId>
+    &lt;version>${RELEASE}&lt;/version>
+    &lt;/dependency>
+    
+    &quot;
 
-   >[!IMPORTANT]
-   >
-   > 다음 코드 스니펫에서 X.x는 실제 버전 번호 및 API JAR의 파일 이름으로 대체되어야 합니다. 이 정보는 [설치 프로세스](#install-jar-local)의 3단계에 제공된 것과 같습니다.
+>[!NOTE]
+>
+> 서버에 설치된 AEM Guides 패키지와 동일한 버전의 API JAR를 사용해야 합니다.
 
-   ```XML
-   <plugin>
-   
-       <groupId>org.apache.maven.plugins</groupId>
-   
-      <artifactId>maven-install-plugin</artifactId>
-   
-       <version>2.5.2</version>
-   
-       <configuration>
-   
-               <groupId>com.adobe.fmdita</groupId>
-   
-               <artifactId>api</artifactId>
-   
-               <version>X.x</version>
-   
-               <file>${basedir}/dependencies/fmdita/api-X.x.jar</file>
-   
-               <packaging>jar</packaging>
-   
-               <generatePom>true</generatePom>
-   
-       </configuration>
-   
-       <executions>
-   
-           <execution>
-   
-               <id>inst_fmdita</id>
-   
-                   <goals>
-   
-                       <goal>install-file</goal>
-   
-                   </goals>
-   
-                   <phase>clean</phase>
-   
-           </execution>
-   
-       </executions>
-   </plugin>
-   ```
+**Maven 중앙 저장소(온-프레미스)에서 API JAR 구성 및 사용**
 
-   하위 모듈의 pom.xml 파일:
+>[!INFO]
+>
+>Experience Manager Guides 온-프레미스 설정용 Java 기반 API 사용에 대한 최신 및 자세한 설명서는 [![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-guides-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api/latest/index.html)을(를) 참조하십시오.
 
-   ```XML
-   <plugin>
-      <groupId>org.apache.maven.plugins</groupId>
-   
-      <artifactId>maven-install-plugin</artifactId>
-   
-      <configuration>
-   
-         <groupId>com.adobe.fmdita</groupId>
-   
-         <artifactId>api</artifactId>
-   
-         <version>3.6</version>
-   
-         <file>${basedir}/../dependencies/fmdita/api-3.6.jar</file>
-   
-         <packaging>jar</packaging>
-   
-         <generatePom>true</generatePom>
-   
-      </configuration>
-   
-      <executions>
-   
-         <execution>
-   
-            <id>inst_fmdita</id>
-   
-            <goals>
-   
-               <goal>install-file</goal>
-   
-            </goals>
-   
-            <phase>clean</phase>
-   
-         </execution>
-   
-      </executions>
-   
-   </plugin>
-   ```
+온-프레미스 배포를 위해 서비스 API JAR을 구성하고 사용하려면 아래와 같이 서비스 API JAR을 프로젝트의 `pom.xml` 파일에 프로젝트 종속성으로 추가합니다.
+
+    &quot;XML
+    &lt;dependency>
+    &lt;groupId>com.adobe.aem&lt;/groupId>
+    &lt;artifactId>aem-guides-sdk-api&lt;/artifactId>
+    &lt;version>${RELEASE}&lt;/version>
+    &lt;/dependency>
+    
+    &quot;
+
+>[!NOTE]
+>
+> 서버에 설치된 AEM Guides 패키지와 동일한 버전의 API JAR를 사용해야 합니다.
 
 
-## 공개 Maven 저장소에서 서비스 API JAR 구성 및 사용
+**AEM Guides 공용 Maven 저장소(온-프레미스)에서 API JAR 구성 및 사용**
 
-프로젝트의 공개 Maven 저장소에서 서비스 API JAR을 구성하고 사용하려면 다음 단계를 수행하십시오.
+>[!NOTE]
+>
+> 공개 AEM Guides Maven 저장소는 Experience Manager Guides 5.3.0 릴리스 이후 더 이상 사용되지 않습니다. API JAR는 그 후에 Maven 중앙 저장소에서만 사용할 수 있습니다.
 
-1. 프로젝트에서 서비스 API JAR을 사용하려면 pom.xml 파일에 AEM Guides 공개 Maven 저장소를 구성합니다.
-2. 다음과 같이 Maven의 settings.xml 파일에서 공개 Maven 저장소를 구성합니다.
+공개 Maven 저장소에서 서비스 API JAR을 사용하려면 다음 단계를 수행하십시오.
+
+1. 아래와 같이 `pom.xml` 또는 `settings.xml` 파일에서 AEM Guides 공용 Maven 저장소를 구성합니다.
 
    ```XML
    <repository>
-      <id>fmdita-public</id>
-      <name>fmdita-public</name>
-      <url>https://repo.aem-guides.com/repository/fmdita-public</url>
-   </repository>
+       <id>fmdita-public</id>
+       <name>fmdita-public</name>
+       <url>https://repo.aem-guides.com/repository/fmdita-public</url>
+    </repository>
    ```
 
-3. 저장소가 설정되면 프로젝트의 pom.xml 파일에 프로젝트 종속성으로 서비스 API JAR을 추가합니다.
+1. 저장소가 설정되면 프로젝트의 `pom.xml` 파일에 프로젝트 종속성으로 서비스 API JAR를 추가합니다.
+
+   ```XML
+   <dependency>
+       <groupId>com.adobe.fmdita</groupId>
+       <artifactId>api</artifactId>
+       <version>${RELEASE}</version>
+   </dependency>
+   ```
 
    >[!NOTE]
    >
    > 서버에 설치한 AEM Guides 패키지와 동일한 버전의 API JAR를 사용합니다.
 
-4. 아래와 같이 Maven 종속성을 구성합니다.
-
-   ```XML
-   <dependency>
-      <groupId>com.adobe.fmdita</groupId>
-      <artifactId>api</artifactId>
-      <version>4.0</version>
-   </dependency>
-   ```
+서비스 API JAR이 프로젝트의 `pom.xml` 파일에 프로젝트 종속성으로 추가되면 프로젝트에서 AEM Guides Java API를 빌드하고 사용할 수 있습니다.
 
 
-서비스 API JAR이 프로젝트의 pom.xml 파일에 프로젝트 종속성으로 추가되면 프로젝트에서 AEM Guides Java API를 빌드하고 사용할 수 있습니다.
+### REST 기반 API
 
-## AEM Guides as a Cloud Service용 Maven Central 저장소에서 API JAR 사용
+Experience Manager Guides은 개발자가 HTTP를 통해 핵심 기능에 액세스하고 상호 작용할 수 있도록 하는 포괄적인 REST 기반 API 세트를 제공합니다.
 
-AEM Guides as a Cloud Service의 경우 API JAR이 Maven Central에 배포되었습니다. 설정 없이 API JAR를 사용할 수 있습니다.
+이러한 API는 다음에 이상적입니다.
 
->[!NOTE]
->
-> API Jar의 명명 규칙이 클라우드 추가 기능 명명 규칙에 따라 업데이트되었습니다.
+- Experience Manager Guides과 다른 엔터프라이즈 시스템 통합
+- 게시 및 검토 워크플로우 자동화
+- 맞춤형 애플리케이션 및 확장 구축
 
-API JAR을 사용하려면 아래와 같이 프로젝트의 pom.xml에 종속성을 추가해야 합니다.
-
-```XML
-<dependency>
-   <groupId>com.adobe.aem</groupId>
-   <artifactId>aem-dox-sdk-api</artifactId>
-   <version>${RELEASE}</version>
-</dependency>
-```
-
->[!NOTE]
->
-> API JAR 내의 패키지는 여전히 동일하므로 기존 클라우드 프로젝트에서 이 API JAR를 사용하기 위해 코드를 변경할 필요가 없습니다.
-
-### Java 기반 API
-
-Experience Manager Guides에서 사용할 수 있는 Java 기반 API를 사용하여 사용자 지정 플러그인을 만들고 기본 제공 워크플로를 확장할 수 있습니다. Java 기반 API 사용에 대한 최신 및 자세한 설명서는 [![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-guides-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api)을(를) 참조하십시오.
-
-
+API 사용, 매개 변수 및 예제 요청에 대한 자세한 내용은 Experience Manager Guides 설명서의 **API 참조** 섹션에서 관련 항목을 참조하십시오.
 
 ## 추가 리소스
 
-다음은 [학습 및 지원](https://helpx.adobe.com/kr/support/xml-documentation-for-experience-manager.html) 페이지에서 사용할 수 있는 AEM Guides의 다른 유용한 리소스 목록입니다.
+다음은 [학습 및 지원](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html) 페이지에서 사용할 수 있는 AEM Guides의 다른 유용한 리소스 목록입니다.
 
 - 사용 안내서
 - 설치 및 구성 안내서
 - 빠른 시작 안내서
-- [도움말 보관 페이지](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/archive.html) \(이전 릴리스 설명서에 액세스\)
+- [도움말 보관 페이지](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \(이전 릴리스 설명서에 액세스\)

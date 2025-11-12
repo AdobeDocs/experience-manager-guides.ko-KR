@@ -3,9 +3,9 @@ title: Experience Manager Guides의 Workspace 설정
 description: Experience Manager Guides의 편집기 인터페이스에서 사용할 수 있는 다양한 설정에 대해 알아봅니다.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 1e08dce0bd64d1a15d42baf4c9720405a9eec146
+source-git-commit: d838a7d6e576e0f9317ebe8c7a811c3efebe9f72
 workflow-type: tm+mt
-source-wordcount: '2132'
+source-wordcount: '2151'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ Experience Manager Guides에서 [AI Assistant](../user-guide/ai-assistant.md) �
 
 패널에 있는 피쳐가 표시되는 순서를 정의할 수도 있습니다. 패널에서 사용할 수 있는 피쳐의 기본 순서를 변경하려면 점선 막대를 선택하여 피쳐 탭을 원하는 위치에 끌어다 놓습니다. 요구 사항에 따라 기능을 **자세히** 섹션에서 패널의 주 섹션으로 이동할 수도 있고 그 반대로 이동할 수도 있습니다. 재정렬되면 피쳐가 오른쪽 및 왼쪽 패널의 동일한 시퀀스에 나타납니다.
 
-![](../user-guide/images/panels-screen.png){width="650" align="left"}
+![](../user-guide/images/panels-screen-new.png){width="650" align="left"}
 
 
 한 번에 최대 8개의 패널을 표시할 수 있습니다. 패널 설정의 변경 사항은 즉시 적용됩니다.
@@ -188,13 +188,16 @@ Experience Manager Guides에서 [AI Assistant](../user-guide/ai-assistant.md) �
 
   >[!NOTE]
   >
-  > 선택한 Schematron 파일이 선택한 폴더 프로필에 대해 유지됩니다.
+  >- 선택한 Schematron 파일이 선택한 폴더 프로필에 대해 유지됩니다.
+  >- 잘못된 Schematron 파일이 추가되면 아래와 같이 오류 메시지가 표시됩니다.
 
-  ![작업 영역 설정에서 유효성 검사](../user-guide/images/editor-setting-validation.png){width="550" align="left"}
+  ![작업 영역 설정에서 유효성 검사](../user-guide/images/editor-setting-validation-error.png){width="550" align="left"}
 
   이렇게 하면 사용자가 선택한 Schematron 파일에 정의된 규칙을 벗어나는 파일을 저장할 수 없습니다. 이 옵션을 선택하지 않으면 변경 내용을 저장하기 전에 파일의 유효성을 검사하지 않습니다.
 
 - **모든 사용자가 유효성 검사 패널에서 스키마 원본 파일을 추가할 수 있도록 허용**: 사용자가 편집기의 유효성 검사 패널에서 스키마 원본 파일을 추가할 수 있도록 하려면 이 옵션을 선택하십시오. 이를 통해 사용자는 Schematron 파일을 추가한 다음 Schematron 파일에 대해 항목을 확인할 수 있습니다. 이 옵션을 선택하지 않으면 편집기의 **유효성 검사 패널**&#x200B;에서 사용자가 **Schematron 파일 추가** 단추를 추가하는 옵션을 사용할 수 없습니다.
+
+  ![작업 영역 설정에서 유효성 검사](../user-guide/images/editor-setting-validation.png){width="550" align="left"}
 
 
 ## 속성 표시
@@ -252,7 +255,7 @@ Experience Manager Guides에서 [AI Assistant](../user-guide/ai-assistant.md) �
 
 작업 영역 설정의 ![메타데이터 탭](../user-guide/images/editor-setting-metadata.png){width="550" align="left"}
 
-***버전 기록**&#x200B;대화 상자에 대한 메타데이터를 구성합니다.*
+***버전 기록**대화 상자에 대한 메타데이터를 구성합니다.*
 
 
 

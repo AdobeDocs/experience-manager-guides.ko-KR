@@ -4,9 +4,9 @@ description: Adobe Experience Manager Guides의 홈 페이지를 알아봅니다
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
-source-git-commit: f9b879d6d374334a08a1d3b0a47b0cb419f02140
+source-git-commit: c2dbf53040abc3e5873fd81050ed7e59c4faaaf0
 workflow-type: tm+mt
-source-wordcount: '1966'
+source-wordcount: '2099'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 홈 페이지는 Experience Manager Guides에 로그인할 때 표시되는 첫 번째 화면입니다. 최근에 액세스한 파일, 컬렉션 등을 빠르게 볼 수 있는 통합적이고 직관적인 시작 화면 경험을 제공합니다.
 
-![](images/aem-home-page.png){align="left"}
+![](images/aem-home-page-new.png){align="left"}
 
 Experience Manager Guides 홈 페이지는 다음 섹션으로 나뉩니다.
 
@@ -60,15 +60,19 @@ Experience Manager Guides 홈 페이지는 다음 섹션으로 나뉩니다.
 
      >[!NOTE]
      >
-     > 홈페이지에서 Workspace 설정 옵션은 클라우드 서비스 설정에만 사용할 수 있습니다. 온-프레미스 설정에서는 홈 페이지에서 추가 작업 옵션을 사용할 수 없습니다. 그러나 기타 옵션 > 설정으로 이동하여 편집기 인터페이스와 맵 콘솔을 통해 관련 설정에 액세스할 수 있습니다.
+     > 홈페이지에서 Workspace 설정 옵션은 Cloud Services 설정에만 사용할 수 있습니다. 온-프레미스 설정에서는 홈 페이지에서 추가 작업 옵션을 사용할 수 없습니다. 그러나 기타 옵션 > 설정으로 이동하여 편집기 인터페이스와 맵 콘솔을 통해 관련 설정에 액세스할 수 있습니다.
 
 - **보기 확장**: **확장** 아이콘을 사용하여 페이지 보기를 확장할 수 있습니다. 이 보기에서는 헤더 막대를 숨겨 콘텐츠 공간을 최대화합니다. 표준 보기로 돌아가려면 **확장된 보기로 끝내기** 아이콘을 사용합니다.
 
 ## 왼쪽 패널
 
-왼쪽 패널에서 개요, 맵 컬렉션, 벌크 게시, 게시 큐 및 사용자 환경 설정 기능에 빠르게 액세스할 수 있습니다. 인터페이스의 왼쪽 아래 모서리에 있는 **확장** 아이콘을 선택하여 패널을 확장할 수 있습니다. 확장되면 **축소** 아이콘을 사용하여 패널을 축소합니다.
+>[!NOTE]
+>
+> 저장소는 2025.11.0 릴리스의 Cloud Service 설정에 대해서만 왼쪽 패널에서 사용할 수 있습니다. 온-프레미스 설정의 경우 편집기 인터페이스에서 저장소에 계속 액세스할 수 있습니다.
 
-![](images/aem-home-left-panel.png){width="300" align="left"}
+왼쪽 패널에서 개요, 저장소, 맵 컬렉션, 벌크 게시, 게시 큐 및 사용자 환경 설정 기능에 빠르게 액세스할 수 있습니다. 인터페이스의 왼쪽 아래 모서리에 있는 **확장** 아이콘을 선택하여 패널을 확장할 수 있습니다. 확장되면 **축소** 아이콘을 사용하여 패널을 축소합니다.
+
+![](images/home-with-repository.png){width="300" align="left"}
 
 이 패널에서 보는 내용은 사용자 역할에 따라 다릅니다. 다음 표에는 왼쪽 패널에 표시되는 역할 및 해당 섹션이 나열되어 있습니다.
 
@@ -80,6 +84,7 @@ Experience Manager Guides 홈 페이지는 다음 섹션으로 나뉩니다.
 왼쪽 패널에서 사용할 수 있는 기능은 다음과 같이 설명되어 있습니다.
 
 - [개요](#overview)
+- [저장소](#repository)
 - [컬렉션 매핑](#map-collections)
 - [일괄 게시](#bulk-publish)
 - [게시 큐](#publish-queue)
@@ -151,6 +156,10 @@ Experience Manager Guides 홈 페이지는 다음 섹션으로 나뉩니다.
 >
 > 또한 관리자가 시스템에서 Adobe Workfront 통합을 구성한 경우 **작업** 위젯도 위젯 섹션에 표시됩니다. Experience Manager Guides의 [Adobe Workfront 통합](./workfront-integration.md#working-with-the-your-tasks-widget)에 대해 자세히 알아보세요.
 
+### 저장소
+
+저장소는 폴더 및 파일을 쉽게 검색할 수 있는 중앙 허브 역할을 합니다. 상황별 세부 정보와 함께 모든 파일 및 폴더에 대한 포괄적인 표 형식 목록 보기를 제공합니다. 이 통합 인터페이스를 통해 강력한 필터링 옵션을 통해 파일을 원활하게 탐색하고 검색을 수행할 수 있으므로 효율성과 향상된 경험이 보장됩니다. [저장소](./home-page-repository-view.md)에 대해 자세히 알아보세요.
+
 ### 컬렉션 매핑
 
 Experience Manager Guides에서는 **컬렉션 매핑**&#x200B;이라는 대시보드를 사용하여 게시할 콘텐츠를 구성할 수 있습니다. 이 기능을 사용하려면 왼쪽 패널에서 **컬렉션 매핑**&#x200B;을 선택하십시오. **Assets UI**&#x200B;의 맵 컬렉션 페이지로 이동하여 [출력 생성에 맵 컬렉션을 사용할 수 있습니다.](./generate-output-use-map-collection-output-generation.md)
@@ -189,4 +198,8 @@ Experience Manager Guides에서는 **컬렉션 매핑**&#x200B;이라는 대시�
 
    - **편집기 파일에 구성 표시**: 편집기에서 파일을 보는 기본 방법을 선택하십시오. 작성자 보기의 여러 패널에서 제목이나 파일 이름으로 파일 목록을 볼 수 있습니다. 기본적으로 파일은 편집기에서 제목으로 표시됩니다.
 
-   - **항상 저장소에서 파일 찾기**: 편집기에서 편집하는 동안 저장소의 파일 위치를 표시하려면 이 옵션을 선택하십시오.
+   - **항상 탐색기에서 파일 찾기**: 편집기에서 편집하는 동안 저장소의 파일 위치를 표시하려면 이 옵션을 선택하십시오.
+
+  >[!NOTE]
+  >
+  >2025.11.0 릴리스부터 **저장소에서 항상 파일 찾기** 설정의 이름이 **탐색기에서 항상 파일 찾기**(으)로 바뀝니다. 온-프레미스 설정의 경우 Experience Manager Guides 5.1 릴리스까지 저장소에서 파일을 찾을 때 계속 사용할 수 있습니다.

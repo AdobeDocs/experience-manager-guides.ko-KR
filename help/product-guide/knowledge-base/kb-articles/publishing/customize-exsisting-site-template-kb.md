@@ -4,9 +4,10 @@ description: AEM Guides용 기존 AEM 사이트 템플릿을 사용자 지정하
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 1cec8975e8aad56184793a023d066aa467d8cec5
+exl-id: d48709b8-f5b2-4545-ac65-838c5d8b1bae
+source-git-commit: 4c564a0ffaa8f287bcaf012634d49dbf1e0682b4
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '919'
 ht-degree: 1%
 
 ---
@@ -32,9 +33,9 @@ ht-degree: 1%
 
 템플릿 이름은 프로젝트 설정에 따라 달라집니다. 예를 들어 OOTB AEMG 문서 구성에서:
 
-- 설명서 컨테이너 페이지: /conf/AEMG-Docs-Site/settings/wcm/templates/kb-content
+- 설명서 컨테이너 페이지: `/conf/AEMG-Docs-Site/settings/wcm/templates/kb-content`
 
-- 주제 페이지: /conf/AEMG-Docs-Site/settings/wcm/templates/topic-content
+- 항목 페이지: `/conf/AEMG-Docs-Site/settings/wcm/templates/topic-content`
 
 **사용자 지정:** 사용자 지정 프로세스에는 다음 두 가지 주요 단계가 포함됩니다.
 
@@ -85,7 +86,7 @@ AEM 사이트에서 두 개의 편집 가능한 템플릿을 선택하고 구성
 
 >[!NOTE]
 >
-> wcm/foundation/components 아래의 sling:resourceType을(를) 사용하는 구성 요소가 해당 core/wcm/components로 마이그레이션되는지 확인하십시오.
+> :resourceType에서 sling`wcm/foundation/components`을(를) 사용하는 구성 요소가 해당 `core/wcm/components`(으)로 마이그레이션되었는지 확인하십시오.
 
 동일한 템플릿의 구조에 동일한 (컨테이너 및 텍스트 구성 요소) 추가:
 
@@ -139,4 +140,4 @@ AEM 사이트에서 두 개의 편집 가능한 템플릿을 선택하고 구성
 
 >[!NOTE]
 >
-> 프로덕션에 배포하기 전에 비프로덕션 환경에서 템플릿을 테스트해야 합니다.<br><br>자세한 내용은 공식 [AEM Guides](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/overview) 및 [AEM Sites](https://experienceleague.adobe.com/ko/docs/experience-manager-core-components/using/get-started/authoring) 설명서를 참조하십시오.
+> 프로덕션에 배포하기 전에 비프로덕션 환경에서 템플릿을 테스트해야 합니다.<br><br>자세한 내용은 공식 [AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview) 및 [AEM Sites](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/get-started/authoring) 설명서를 참조하십시오.

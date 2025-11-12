@@ -4,9 +4,9 @@ description: DITA 주제를 가져오고 유효성을 검사하는 방법, 어�
 exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: ee784edcbaef0641784cd1eb18748fc12a4f90bb
+source-git-commit: 64d2f0027c35396a549d11a0186e218dd513b22a
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
@@ -45,10 +45,19 @@ Schematron 파일을 가져온 후 편집기에서 편집할 수 있습니다. S
 
 1. Schematron 아이콘()을 선택하여 Schematron 패널을 엽니다.
 1. **Schematron 파일 추가**&#x200B;를 사용하여 Schematron 파일을 추가하십시오.
+
+   >[!NOTE]
+   >
+   > 잘못된 Schematron 파일이 추가되면 유효성 검사 패널에 오류 메시지가 표시됩니다.
+
+   ![](images/schematron-panel-error.png){width="300" align="left"}
+
 1. Schematron 파일에 오류가 없는 경우 이 파일이 추가되고 유효성 검사 패널에 나열됩니다. 오류가 포함된 Schematron 파일에 대한 오류 메시지가 표시됩니다.
+
    >[!NOTE]
    >
    >Schematron 파일 이름 근처에 있는 교차 아이콘을 사용하여 제거할 수 있습니다.
+
 1. **Validate with Schematron**&#x200B;을(를) 선택하여 항목의 유효성을 검사합니다.
 
    * 항목이 규칙을 위반하지 않으면 파일에 대한 유효성 검사 성공 메시지가 표시됩니다.
