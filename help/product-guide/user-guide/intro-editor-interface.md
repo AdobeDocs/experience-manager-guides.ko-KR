@@ -22,5 +22,5 @@ Editor 인터페이스는 다음 섹션이나 영역으로 나뉩니다.
 - **(B)** [탭 모음](./web-editor-tab-bar.md)
 - **\(C\)** [도구 모음](./web-editor-toolbar.md)
 - **(D)** [왼쪽 패널](./web-editor-left-panel.md)
-- **** [콘텐츠 편집 영역](./web-editor-content-editing-area.md)
+- **&#x200B;**&#x200B;[콘텐츠 편집 영역](./web-editor-content-editing-area.md)
 - **(앞)** [오른쪽 패널](./web-editor-right-panel.md)

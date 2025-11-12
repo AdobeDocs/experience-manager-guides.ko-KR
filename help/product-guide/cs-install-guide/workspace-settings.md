@@ -255,7 +255,7 @@ Experience Manager Guides에서 [AI Assistant](../user-guide/ai-assistant.md) �
 
 작업 영역 설정의 ![메타데이터 탭](../user-guide/images/editor-setting-metadata.png){width="550" align="left"}
 
-***버전 기록**대화 상자에 대한 메타데이터를 구성합니다.*
+***버전 기록**&#x200B;대화 상자에 대한 메타데이터를 구성합니다.*
 
 
 
