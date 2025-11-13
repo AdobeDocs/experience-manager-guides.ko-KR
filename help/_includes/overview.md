@@ -4,10 +4,10 @@ description: Experience Manager Guides(이전 XML Documentation for Adobe Experi
 feature: AEM Guides Tutorials
 role: User
 hide: true
-source-git-commit: b511f12dab6c4980091aabe57446cbbd84d79080
+source-git-commit: 67c4458180ff7e5690bc1ee51fe9e46bce57c9d5
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 1%
+source-wordcount: '220'
+ht-degree: 0%
 
 ---
 
@@ -23,8 +23,3 @@ ht-degree: 1%
 > 
 > Adobe Experience Manager Guides은 이전에 _Adobe Experience Manager용 XML Documentation_ 브랜드로 지정되었습니다. 설명서 내의 특정 참조는 이전 브랜딩을 계속 참조할 수 있지만 현재 제공에 여전히 적용할 수 있습니다.
 
-## 추가 리소스
-
-* [[!DNL AEM Guides] 사용 안내서(새 UI)](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/overview)
-* [[!DNL AEM Guides] 학습 및 지원](https://helpx.adobe.com/kr/support/xml-documentation-for-experience-manager.html)
-* [Experience League - AEM 탐색](https://business.adobe.com/kr/products/experience-manager/adobe-experience-manager.html)
