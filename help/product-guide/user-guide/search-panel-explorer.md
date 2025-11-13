@@ -3,7 +3,7 @@ title: 편집기 인터페이스의 검색 패널
 description: 편집기 인터페이스에서 검색 패널을 사용하는 방법을 알아봅니다.
 feature: Authoring
 role: User
-source-git-commit: bdf838da24d7e426c34265cdad454d52f657cfae
+source-git-commit: 5b4aebce91d6cad7c99bf97e3d6d592ad38fa373
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
   ![](images/search-icon-editor.png){align="left"}
 
-- **홈 페이지**: 홈 페이지의 저장소 인터페이스에서 이동할 때 **검색 패널에 표시** 옵션을 사용합니다. 자세히 보려면 [저장소에서 검색](#search-from-repository-interface-on-the-home-page)하세요.
+- **홈 페이지**: 홈 페이지의 저장소 인터페이스에서 이동할 때 **검색 패널에 표시** 옵션을 사용합니다. 자세히 보려면 [저장소에서 검색](#search-from-the-repository-interface-on-the-home-page)하세요.
 
   ![](images/search-panel-repo.png){align="left"}
 
