@@ -5,7 +5,7 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: c787947a-b235-4c12-a9cc-eac5136d31db
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: e5d02c6047c3ed74efa1777ce6585efc391af426
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -57,5 +57,6 @@ Revert History 보고서에 액세스하려면 다음 단계를 수행하십시�
 
    - **댓글**: 파일을 되돌린 사용자가 제공한 모든 댓글.
 
+{{test}}
 
-**상위 항목:**&#x200B;[&#x200B;보고서](reports-intro.md)
+**상위 항목:**[&#x200B;보고서](reports-intro.md)
