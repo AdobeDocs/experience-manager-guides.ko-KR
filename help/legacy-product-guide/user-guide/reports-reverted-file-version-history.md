@@ -5,7 +5,7 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: c787947a-b235-4c12-a9cc-eac5136d31db
-source-git-commit: 67c4458180ff7e5690bc1ee51fe9e46bce57c9d5
+source-git-commit: 6261e1aa1966a81830fe8e5cf14337c8be4f81cb
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -17,8 +17,6 @@ ht-degree: 0%
 여러 작성자와 함께 여러 동시 릴리스에서 작업하는 경우 컨텐츠는 여러 버전을 보유해야 합니다. 여러 릴리스에 걸쳐 서로 다른 작성자가 프로젝트에서 사용할 수 있는 몇 가지 일반적인 정보가 있을 수 있습니다. 이러한 작업 할당을 처리하기 위해 작성자가 여러 버전의 파일로 끝날 수 있습니다. 이러한 버전은 파일의 최신 버전이거나 이전 버전으로 되돌릴 수 있습니다. 파일이 되돌려진 시기와 그 이유를 식별하는 것은 복잡한 작업입니다.
 
 AEM Guides을 사용하면 개별 파일 또는 폴더에 있는 모든 파일에 대한 버전 기록 보고서를 생성할 수 있습니다. 이 버전 기록을 사용하면 되돌려진 파일의 모든 버전과 해당 버전을 만든 사람 및 해당 버전을 만든 이유를 통합적으로 볼 수 있습니다.
-
-{{$include /help/_includes/overview.md}}
 
 다음 위치에서 이 보고서에 액세스할 수 있습니다.
 
@@ -61,4 +59,4 @@ Revert History 보고서에 액세스하려면 다음 단계를 수행하십시�
 
 
 
-**상위 항목:**&#x200B;[&#x200B;보고서](reports-intro.md)
+**상위 항목:**[&#x200B;보고서](reports-intro.md)
