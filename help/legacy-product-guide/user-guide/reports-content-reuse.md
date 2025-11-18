@@ -5,14 +5,31 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: 1a61fc05-b2b4-4665-a15a-0058fbbc2942
-source-git-commit: 6261e1aa1966a81830fe8e5cf14337c8be4f81cb
+source-git-commit: f867f2deceddf46b5242163c6ea0b4cc1c4f1ca2
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
 
 # 컨텐츠 재사용 보고서 {#id205BB900OQD}
+
+<table style="border-collapse: collapse;">
+  <tr>
+    <td style="width:150px; white-space: nowrap;">적용 대상:</td>
+    <td style="width:500px; white-space: nowrap;">Experience Manager Guides as a Cloud Service, Experience Manager Guides On-Premise</td>
+  </tr>
+  <tr>
+    <td style="width:150px; white-space: nowrap;">버전:</td>
+    <td style="width:500px; white-space: nowrap;">2025.11.0, 2025.12.0</td>
+  </tr>
+  <tr>
+    <td style="width:150px; white-space: nowrap;">버전:</td>
+    <td style="width:500px; white-space: nowrap;">4.6.0, 5.1.0</td>
+  </tr>
+</table>
+
+![](./images/test-version-info-table.svg)
 
 생성할 수 있는 또 다른 유용한 보고서는 콘텐츠 재사용 보고서입니다. 이 보고서는 평균 콘텐츠 사용률을 계산합니다. 이는 재사용되는 콘텐츠의 양을 프로젝트 관리자 및 비즈니스 소유자가 확인하는 데 매우 유용합니다.
 
@@ -63,4 +80,4 @@ ht-degree: 0%
 >
 > 콘텐츠 재사용 보고서를 CSV 형식으로 내보낼 수도 있습니다. 이렇게 하려면 화면 왼쪽 상단 모서리에서 CSV로 내보내기 링크를 클릭하고 CSV 파일을 저장할 위치를 선택합니다. 그런 다음 모든 CSV 편집기에서 이 CSV 파일을 열 수 있습니다.
 
-**상위 항목:**&#x200B;[&#x200B;보고서](reports-intro.md)
+**상위 항목:**[&#x200B;보고서](reports-intro.md)
