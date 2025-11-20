@@ -32,4 +32,4 @@ AEM Guides은 Adobe 소프트웨어 배포 포털을 통해 사용할 수 있습
 
 - **[AEM Guides 제거](download-install-unistall-aemg.md)**
 
-- 성능 최적화를 위한 **[Recommendations](download-install-recommend-perf-optimiz.md)**
+- **[성능 최적화를 위한 권장 사항](download-install-recommend-perf-optimiz.md)**
