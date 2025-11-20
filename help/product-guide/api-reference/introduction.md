@@ -5,9 +5,9 @@ exl-id: d8ee9cf7-1d67-4b4a-aa80-64e893a99463
 feature: API Introduction
 role: Developer
 level: Experienced
-source-git-commit: 67e844faece8b6bb8988bb0e67f357cda1db9a4d
+source-git-commit: bf7838690d7632cd74fef0db3aaf7bdc48a50a2c
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Experience Manager Guides에서 사용할 수 있는 Java 기반 API를 사용�
 
 >[!INFO]
 >
->Experience Manager Guides as a Cloud Service용 Java 기반 API 사용에 대한 최신 및 자세한 설명서는 [![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-dox-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-dox-sdk-api/latest/index.html)을(를) 참조하십시오.
+>Experience Manager Guides as a Cloud Service용 Java 기반 API 사용에 대한 최신 및 자세한 설명서는 [![javadoc](./images/javadoc-cs-icon.svg)](https://javadoc.io/doc/com.adobe.aem/aem-dox-sdk-api/latest/index.html)을(를) 참조하십시오.
 
 프로젝트의 Maven 저장소에서 서비스 API JAR을 구성하고 사용하려면 아래와 같이 API SDK을 프로젝트의 `pom.xml` 파일에 프로젝트 종속성으로 추가합니다.
 
@@ -122,9 +122,9 @@ API 사용, 매개 변수 및 예제 요청에 대한 자세한 내용은 Experi
 
 ## 추가 리소스
 
-다음은 [학습 및 지원](https://helpx.adobe.com/kr/support/xml-documentation-for-experience-manager.html) 페이지에서 사용할 수 있는 AEM Guides의 다른 유용한 리소스 목록입니다.
+다음은 [학습 및 지원](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html) 페이지에서 사용할 수 있는 AEM Guides의 다른 유용한 리소스 목록입니다.
 
 - 사용 안내서
 - 설치 및 구성 안내서
 - 빠른 시작 안내서
-- [도움말 보관 페이지](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/archive.html) \(이전 릴리스 설명서에 액세스\)
+- [도움말 보관 페이지](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \(이전 릴리스 설명서에 액세스\)
