@@ -4,10 +4,10 @@ description: Experience Manager Guides(이전 XML Documentation for Adobe Experi
 feature: AEM Guides Tutorials
 role: User
 hide: true
-source-git-commit: 67c4458180ff7e5690bc1ee51fe9e46bce57c9d5
+source-git-commit: 5081aa032c13ca684c6882149448b05c77028a90
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 0%
+source-wordcount: '306'
+ht-degree: 1%
 
 ---
 
@@ -22,4 +22,27 @@ ht-degree: 0%
 >[!NOTE]
 > 
 > Adobe Experience Manager Guides은 이전에 _Adobe Experience Manager용 XML Documentation_ 브랜드로 지정되었습니다. 설명서 내의 특정 참조는 이전 브랜딩을 계속 참조할 수 있지만 현재 제공에 여전히 적용할 수 있습니다.
+
+## 새로운 기능
+
+- **[[!DNL Experience Manager Guides] 과정 시작](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/getting-started/overview.html){target="blank"}**
+
+  _[!DNL Adobe Experience Manager Guides]을(를) 사용하여 콘텐츠를 만들고, 구성하고, 작성하고, 게시하는 방법에 대해 알아봅니다._
+
+- **[[!DNL Experience Manager Guides] 기본 제공 편집기에서 작성](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html){target="blank"}**
+
+  _[!DNL Adobe Experience Manager Guides]에서 기본 웹 편집기를 사용하여 콘텐츠를 작성하는 방법에 대해 알아봅니다. 사용자 환경 설정, 편집기 설정, 구성, 도구 모음 등을 완벽하게 이해합니다._
+
+- **[출력 생성( [!DNL Experience Manager Guides]](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/overview.html){target="blank"}**)
+
+  _[!DNL Adobe Experience Manager Guides]을(를) 사용하여 출력을 생성하는 방법에 대해 알아봅니다. 보고서, 기준선, 조건, 문제 해결, 벌크 게시 및 활성화와 같이 출력 생성에 사용할 수 있는 다양한 기능에 대해 알아봅니다._
+
+
+## 추가 리소스
+
+- [[!DNL Experience Manager Guides] 사용 안내서(이전 UI)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+- [[!DNL AEM Guides] 학습 및 지원](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
+- [Experience League - AEM 탐색](https://business.adobe.com/products/experience-manager/adobe-experience-manager.html)
+
+
 
