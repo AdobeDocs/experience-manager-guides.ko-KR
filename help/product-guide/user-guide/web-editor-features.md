@@ -266,7 +266,7 @@ Experience Manager Guides에서 [AI Assistant](./ai-assistant.md) 기능을 활�
 
   편집기 설정의 ![메타데이터 탭](images/editor-setting-metadata.png){width="550" align="left"}
 
-  ***버전 기록**대화 상자에 대한 메타데이터를 구성합니다.*
+  ***버전 기록**&#x200B;대화 상자에 대한 메타데이터를 구성합니다.*
 
 
 
@@ -341,7 +341,7 @@ Source 보기에서 **찾기 및 바꾸기** 기능은 특정 요소나 특성�
 
    **메타데이터** 탭: 새로 추가된 메타데이터는 녹색 글꼴이고 삭제된 메타데이터는 빨간색 글꼴입니다.
 
-   ![ 버전에 대한 ](images/metadata-version-diff.png){width="550" align="left"}메타데이터 차이점
+   ![&#x200B; 버전에 대한 &#x200B;](images/metadata-version-diff.png){width="550" align="left"}메타데이터 차이점
 
    *버전 기록에서 다른 버전의 메타데이터를 비교합니다.*
 
@@ -1000,7 +1000,7 @@ DAM 내에서 필요한 파일로 이동하여 편집기에서 열 수 있습니
 - **DITA 파일**: 선택한 경로에 있는 모든 **DITA 주제** 및 **DITA 맵**&#x200B;을(를) 찾을 수 있습니다. 기본적으로 선택되어 있습니다.
 - **DITA가 아닌 파일**: 선택한 경로에서 **Ditaval 파일**, **이미지 파일**, **멀티미디어**, **문서** 및 **JSON**&#x200B;을 검색할 수 있습니다.
 
-  ![빠른 검색 필터 ](images/repository-filter-search-quick.png) {width="300" align="left"}
+  ![빠른 검색 필터 &#x200B;](images/repository-filter-search-quick.png) {width="300" align="left"}
 
   *빠른 필터를 사용하여 DITA 및 비 DITA 파일을 검색합니다.*
 
@@ -1975,7 +1975,7 @@ Experience Manager Guides은 프로젝트의 모든 검토 작업을 표시하�
 
 1. **특성** 드롭다운 패널의 드롭다운 목록에서 특성을 선택하고 특성 값을 지정합니다.  **추가**&#x200B;를 선택합니다.
 
-   여러 특성이 있는 ![특성 패널 ](images/attributes-multiple-properties.png){width="300" align="left"}
+   여러 특성이 있는 ![특성 패널 &#x200B;](images/attributes-multiple-properties.png){width="300" align="left"}
 
 1. 특성을 편집하려면 해당 특성을 마우스로 가리킨 다음 **편집** ![편집 아이콘](images/edit_pencil_icon.svg)을 선택하세요.
 

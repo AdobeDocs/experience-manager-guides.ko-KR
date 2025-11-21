@@ -15,7 +15,7 @@ ht-degree: 2%
 이 문서에서는 Adobe Experience Manager Guides 4.3.1.5 릴리스의 업그레이드 지침 및 호환성 매트릭스를 다룹니다.
 
 
-이 릴리스에서 해결된 문제 목록을 보려면 [ 릴리스에서 4.3.1.5해결된 문제](../release-info/fixed-issues-4-3-1-5.md)를 확인하십시오.
+이 릴리스에서 해결된 문제 목록을 보려면 [&#x200B; 릴리스에서 4.3.1.5해결된 문제](../release-info/fixed-issues-4-3-1-5.md)를 확인하십시오.
 
 
 

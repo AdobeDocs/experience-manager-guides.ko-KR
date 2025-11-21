@@ -287,7 +287,7 @@ Experience Manager Guides에 할당되었을 때 생성, 할당 또는 작업할
 
    ![](./images/translation-tasks-review-details.png){align="left"}
 4. 다양한 번역 옵션을 보려면 **번역** 탭으로 이동합니다. Experience Manager Guides에서 [콘텐츠를 번역](../user-guide/translation.md)하는 방법에 대해 알아봅니다.
-5. 필요한 번역을 수행하고 **번역용으로 보내기**를 선택합니다.
+5. 필요한 번역을 수행하고 **번역용으로 보내기**&#x200B;를 선택합니다.
    ![](./images/translation-tasks-send-translation.png){align="left"}
 6. **Workfront** 섹션으로 이동한 다음 **완료로 표시**&#x200B;를 선택하여 작업이 완료되었음을 나타냅니다.
 7. **댓글** 탭으로 전환하여 이 작업에 댓글을 추가하세요. 작업 수준에서 추가된 이러한 주석은 Adobe Workfront 프로젝트 대시보드에 반영됩니다.
