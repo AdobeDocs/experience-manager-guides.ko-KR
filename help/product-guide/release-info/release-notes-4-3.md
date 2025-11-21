@@ -4,9 +4,9 @@ description: 버그 수정 사항 및 Adobe Experience Manager Guides 4.3.0 릴�
 exl-id: 7fb568a0-0b88-4ea0-9b79-2625336348ff
 feature: Release Notes
 role: Leader
-source-git-commit: 5a444e88b0adba7fa3d498437df39b729b10b5eb
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1085'
 ht-degree: 1%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 1%
 | --- | --- | --- | --- | --- |
 | 4.3.0(비 UUID) | 2022년 이상 | 2020.2 이상* | 2022년 이상 | 2020.3 이상 |
 | 4.3.0(UUID) | 2022년 이상 | 2020.2 이상* | 2022년 이상 | 2020.4 이상 |
-| | | | |
+| | | | | |
 
 *AEM에서 생성된 기준 및 조건은 2020.2년부터 FMPS 릴리스에서 지원됩니다.
 
@@ -67,7 +67,7 @@ ht-degree: 1%
 | --- | --- | --- |--- |--- |
 | 4.3.0(비 UUID) | 2.3-regular-5 | 2.3-regular-5 | 1.6 | 1.6 |
 | 4.3.0(UUID) | 3.0-uuid-4 | 3.0-uuid-3 | 2.3 | 2.3 |
-|  |  |   |
+|  |  |   |  |  |
 
 ## 해결된 문제
 
@@ -79,7 +79,7 @@ ht-degree: 1%
 - 체크 인하기 전에 변경 내용을 취소하기 위해 [아니요] 옵션을 선택했지만 웹 편집기에서 파일을 체크 아웃할 수 없습니다. (12557)
 - 웹 편집기 내의 기본 도구 모음에 있는 파일 잠금 및 잠금 해제 아이콘의 도구 설명이 저장소 보기에 표시된 아이콘과 일치하지 않습니다.(12555)
 - 맵 보기에서 아직 체크 아웃되지 않은 웹 편집기의 파일에 대해 체크 아웃 취소 및 잠금 해제 옵션이 표시됩니다. (12556)
-- 기존 &quot;topicref&quot; 링크에서 PDF 자산을 선택할 수 없습니다. (12477)
+- 기존 &quot;topicref&quot; 링크에서 PDF 에셋을 선택할 수 없습니다. (12477)
 - 테이블에서 병합 및 분할을 수행할 때 AEM Guides 4.2는 추가 테이블 셀을 생성합니다. (11793)
 - 저장소 보기에서 검색/필터 기능을 사용한 후에는 주제나 이미지를 드래그할 수 없습니다. (12396)
 - 검색된 파일을 한 개 열면 찾기 및 바꾸기 패널에서 검색 결과가 비활성화됩니다. (12142)
@@ -120,8 +120,8 @@ ht-degree: 1%
 - 기본 PDF | Xref가 Xref 레이블 대신 href 주제 제목의 콘텐츠를 인쇄하고 있습니다. (11322)
 - 기본 PDF | PDF 템플릿 설정을 저장할 수 없습니다. (10751)
 - 기본 PDF | 텍스트가 여러 xref를 포함할 때 열 너비를 초과하여 확장됩니다. (10876)
-- 기본 PDF | `<note>` `</note>` 요소가 해당 형식의 추가 스팬 제목을 생성하지 않습니다. (10549)
-- JSON 출력 | JSON의 jcr:content 노드에 있는 `fmUuid` 속성이 JSON 내부의 &quot;id&quot;와 다릅니다. (11564)
+- 기본 PDF | `<note>``</note>` 요소가 해당 형식의 추가 스팬 제목을 생성하지 않습니다. (10549)
+- JSON 출력 | JSON의 jcr`fmUuid` 노드에 있는 :content 속성이 JSON 내부의 &quot;id&quot;와 다릅니다. (11564)
 - JSON 출력 | 맵과 동일한 파일 이름을 가진 주제가 있으면 맵에 대한 JSON이 제거됩니다. (11524)
 
 ## 알려진 문제
@@ -136,7 +136,7 @@ Adobe은 AEM Guides 4.3.0 릴리스에 대해 다음과 같은 알려진 문제�
 
   해결 방법:
 
-   1. `crx/de`에서 경로가 `/libs/foundation/components/search/search.jsp`인 파일 열기
+   1. `/libs/foundation/components/search/search.jsp`에서 경로가 `crx/de`인 파일 열기
    1. 줄 번호 234를 다음 코드로 바꿉니다.
 
       ```

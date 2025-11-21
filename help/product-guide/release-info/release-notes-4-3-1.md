@@ -4,9 +4,9 @@ description: 버그 수정 사항 및 Adobe Experience Manager Guides 4.3.1 릴�
 exl-id: 3fb6dc31-ec6e-40f5-ab3f-a6e591da315e
 feature: Release Notes
 role: Leader
-source-git-commit: 1b25f1df67fa2442ab79830dc2ac5a6eabd0394c
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1307'
 ht-degree: 1%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 1%
 | --- | --- | --- | --- | --- |
 | 4.3.1 (비 UUID) | 2022년 이상 | 2020.2 이상* | 2022년 이상 | 2020.3 이상 |
 | 4.3.1 (UUID) | 2022년 이상 | 2020.2 이상* | 2022년 이상 | 2020.4 이상 |
-| | | | |
+| | | | | |
 
 *AEM에서 생성된 기준 및 조건은 2020.2년부터 FMPS 릴리스에서 지원됩니다.
 
@@ -67,7 +67,7 @@ ht-degree: 1%
 | --- | --- | --- |--- |--- |
 | 4.3.1 (비 UUID) | 2.3-regular-5 | 2.3-regular-5 | 1.6 | 1.6 |
 | 4.3.1 (UUID) | 3.2-uuid-5 | 3.2-uuid-5 | 2.3 | 2.3 |
-|  |  |   |
+|  |  |   | | |
 
 
 
@@ -75,7 +75,7 @@ ht-degree: 1%
 
 | 구성 요소 패키지 이름 | 구성 요소 버전 | 템플릿 버전 |
 |---|---|---|
-| Cloud Service을 위한 Experience Manager Guides 구성 요소 컨텐츠 패키지 | dxml-components.all-1.2.2 | aem-site-template-dxml.all-1.0.15 |
+| Cloud Service용 Experience Manager Guides 구성 요소 콘텐츠 패키지 | dxml-components.all-1.2.2 | aem-site-template-dxml.all-1.0.15 |
 
 ## 해결된 문제
 
@@ -110,22 +110,22 @@ ht-degree: 1%
 - 기본 PDF | PDF 출력이 생성될 때 주제의 순서가 수정되지 않습니다. (13157)
 - 기본 PDF| `<p>`요소에 사용할 수 있는 기본 스타일 태그가 없습니다. (12559)
 - 기본 PDF | 컨텐츠 영역에 적용된 인라인 스타일은 앞면 및 뒷면 항목의 주제에 적용되지 않습니다. (13510)
-- AEM Site 출력을 생성할 때 `DeliveryTarget` 특성이 전파되지 않습니다.  (13132)
-- 특정 오류가 있는 콘텐츠에 대한 AEM Site 출력을 생성하는 동안 **Publish** 워크플로우가 중단되었습니다. (12000)
+- AEM 사이트 출력을 생성할 때 `DeliveryTarget` 특성이 전파되지 않습니다.  (13132)
+- 특정 오류가 있는 콘텐츠에 대한 AEM 사이트 출력을 생성하는 동안 **게시** 워크플로우가 중단되었습니다. (12000)
 
 - 기본 PDF | 여러 xref를 포함하면 텍스트가 열 너비를 넘어갑니다. (13004)
-- 기본 PDF | 주제와 제목이 동일한 ID를 가지면 잘못된 PDF 출력 생성이 발생합니다. (12644)
+- 기본 PDF | 주제와 제목에 동일한 ID가 있으면 잘못된 PDF 출력 생성이 발생합니다. (12644)
 - 기본 PDF | DITA 맵의 부모 `<topicref>` 요소에 outputclass를 추가하고 outputclass에 사용자 지정 스타일을 적용하면 섹션 제목을 포함하여 항목 본문 내의 요소에 스타일이 적용됩니다. (12166)
 - DITA 맵에 여러 개의 ditavalrefs가 있는 경우 증분 게시가 작동하지 않습니다. (12117)
 - AEM 사이트 | 항목을 변수로 가리키는 keydef를 사용하여 맵을 만들고 processing-role=resource-only를 추가하면 예기치 않은 페이지가 만들어집니다. (12099)
-- AEM의 DAM에 있는 에셋이 AEM 사이트 이외의 출력에 사용되는 경우 메타데이터 &quot;jcr:createdBy&quot;는 게시자의 이름이나 DITA 맵 또는 주제를 마지막으로 수정한 사용자의 이름을 반영하지 않습니다. (12090)
+- AEM의 DAM에 있는 에셋이 AEM 사이트 이외의 출력에 사용되는 경우 메타데이터 &quot;jcr:createdBy&quot;은(는) 게시자의 이름이나 DITA 맵 또는 주제를 마지막으로 수정한 사용자의 이름을 반영하지 않습니다. (12090)
 - AEM Sites | navtitle에 topichead가 있는 DITA 맵(지원되지 않는 문자 포함)은 잘못된 페이지 URL로 이어집니다. (11978)
 - 기본 PDF | Frontmatter 및 Backmatter에서 topichead/topicmeta/navtitle을 지원할 때 문제가 발생합니다. (11969)
-- 기본 PDF | 대용량 문서에 대한 PDF을 생성하는 데에는 많은 시간이 소요됩니다. (11955)
+- 기본 PDF | 대용량 문서의 PDF를 생성하는 데에는 많은 시간이 소요됩니다. (11955)
 - 기본 PDF | 사전 설정의 이름을 바꾸면 PDF 출력을 생성하는 동안 NullPointerException이 발생합니다. (11889)
 - `<conref>` 콘텐츠가 PDF 출력에 표시되지 않습니다. (11131)
 - 페이지 레이아웃 편집기에서 작성자와 Source 보기 사이를 전환할 때 `<div>` 요소 내부에 추가 공간이 추가됩니다. (10750)
-- AEM Cloud Manager에 복제된 콘텐츠는 Publish 인스턴스에 표시되지 않습니다. (9564)
+- AEM Cloud Manager에 복제된 콘텐츠는 게시 인스턴스에 표시되지 않습니다. (9564)
 
 
 ### 관리

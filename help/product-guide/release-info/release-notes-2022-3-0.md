@@ -1,28 +1,28 @@
 ---
 title: ' [!DNL AEM Guides]에 대한 릴리스 정보, 2022년 3월 릴리스'
-description: 3월 릴리스 [!DNL Adobe Experience Manager Guides] as a Cloud Service
+description: ' [!DNL Adobe Experience Manager Guides] as a Cloud Service 3월 릴리스'
 exl-id: 885edbb5-dfe4-4bdc-bb66-0df64addb094
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
 
 ---
 
-# as a Cloud Service [!DNL Adobe Experience Manager Guides]의 3월 릴리스
+# [!DNL Adobe Experience Manager Guides] as a Cloud Service 3월 릴리스
 
 ## 3월 릴리스로 업그레이드
 
-as a Cloud Service as a Cloud Service 다음 단계를 수행하여 현재 [!DNL Adobe Experience Manager Guides] (나중에 *[!DNL AEM Guides]*) 설정을 업그레이드하십시오.
-1. Cloud Service의 Git 코드를 체크아웃하고 업그레이드하려는 환경에 해당하는 Cloud Service 파이프라인에 구성된 분기로 전환합니다.
-1. Cloud Service Git 코드의 `/dox/dox.installer/pom.xml` 파일에서 `<dox.version>` 속성을 2022.3.123으로 업데이트합니다.
-1. 변경 사항을 커밋하고 Cloud Service as a Cloud Service 파이프라인을 실행하여 [!DNL AEM Guides]의 3월 릴리스로 업그레이드하십시오.
+다음 단계를 수행하여 현재 [!DNL Adobe Experience Manager Guides] as a Cloud Service(*[!DNL AEM Guides]as a Cloud Service*)를 업그레이드합니다.
+1. 클라우드 서비스의 Git 코드를 체크아웃하고 업그레이드하려는 환경에 해당하는 클라우드 서비스 파이프라인에 구성된 분기로 전환합니다.
+1. 클라우드 서비스 Git 코드의 `<dox.version>` 파일에서 `/dox/dox.installer/pom.xml` 속성을 2022.3.123으로 업데이트합니다.
+1. 변경 사항을 커밋하고 Cloud Services 파이프라인을 실행하여 [!DNL AEM Guides] as a Cloud Service의 3월 릴리스로 업그레이드합니다.
 
 ## 호환성 매트릭스
 
-이 섹션에서는 [!DNL AEM Guides] as a Cloud Service 2022년 3월 릴리스에서 지원되는 소프트웨어의 호환성 매트릭스를 나열합니다.
+이 섹션에서는 [!DNL AEM Guides] as a Cloud Service 2022년 3월 릴리스에서 지원되는 소프트웨어 응용 프로그램에 대한 호환성 매트릭스를 나열합니다.
 
 ### FrameMaker 및 FrameMaker Publishing Server
 
@@ -45,7 +45,7 @@ as a Cloud Service as a Cloud Service 다음 단계를 수행하여 현재 [!DNL
 
 ### 새 기준선 대시보드
 
-as a Cloud Service 웹 편집기 내부에 통합된 [!DNL AEM Guides] 기준선 기능을 제공합니다. 이제 웹 편집기에서 기준선을 만들고 이를 사용하여 다른 버전의 항목을 게시하거나 번역할 수 있습니다.
+[!DNL AEM Guides] as a Cloud Service 3월 릴리스에서는 웹 편집기 내에 통합된 기준선 기능을 제공합니다. 이제 웹 편집기에서 기준선을 만들고 이를 사용하여 다른 버전의 항목을 게시하거나 번역할 수 있습니다.
 
 참고: 업그레이드된 시스템의 경우 폴더 프로필에 대한 최신 **ui_config.json**&#x200B;을(를) 업데이트하십시오.
 
@@ -75,11 +75,11 @@ as a Cloud Service 웹 편집기 내부에 통합된 [!DNL AEM Guides] 기준선
 
 ### 향상된 게시 기능
 
-as a Cloud Service [!DNL AEM Guides]의 3월 릴리스를 통해 게시 프로세스가 더욱 개선되었습니다.
+[!DNL AEM Guides] as a Cloud Service의 3월 릴리스를 통해 게시 프로세스가 더욱 개선되었습니다.
 
-* AEM 사이트 출력의 메타데이터에 대한 기준선이 부여되었습니다. 기준 버전 속성을 메타데이터로 처리할 수도 있습니다. 기준선이 정의되지 않은 경우 최신 버전의 속성이 메타데이터로 처리됩니다.
+* AEM 사이트 출력의 메타데이터에 대한 기준선이 승인되었습니다. 기준 버전 속성을 메타데이터로 처리할 수도 있습니다. 기준선이 정의되지 않은 경우 최신 버전의 속성이 메타데이터로 처리됩니다.
 
-* HTML 5, EPUB 및 사용자 지정 출력 사전 설정에 대해 **파일 이름** 및 **DITA-OT 명령줄 인수** 옵션이 추가되었습니다. 이제 출력을 저장할 파일 이름을 지정할 수 있습니다. 출력을 생성하는 동안 DITA-OT에서 처리할 추가 인수를 지정할 수도 있습니다.
+* HTML5, EPUB 및 사용자 지정 출력 사전 설정에 대해 **파일 이름** 및 **DITA-OT 명령줄 인수** 옵션이 추가되었습니다. 이제 출력을 저장할 파일 이름을 지정할 수 있습니다. 출력을 생성하는 동안 DITA-OT에서 처리할 추가 인수를 지정할 수도 있습니다.
 
 ## 해결된 문제
 
@@ -95,7 +95,7 @@ as a Cloud Service [!DNL AEM Guides]의 3월 릴리스를 통해 게시 프로�
 
 ## 알려진 문제
 
-Adobe이 [!DNL AEM Guides] as a Cloud Service March 릴리스에서 다음 문제를 확인했습니다.
+Adobe은 [!DNL AEM Guides] as a Cloud Service 3월 릴리스에서 다음과 같은 알려진 문제를 확인했습니다.
 
 * 직접 참조에서 레이블을 제거하면 간접 참조에서도 레이블이 제거됩니다.
 

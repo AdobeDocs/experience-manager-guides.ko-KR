@@ -4,34 +4,34 @@ description: 버그 수정 사항 및 Adobe Experience Manager Guides as a Cloud
 exl-id: f1765c6a-cb8e-4a06-a6f4-f5c225b6bc88
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '926'
 ht-degree: 1%
 
 ---
 
-# Adobe Experience Manager Guidesas a Cloud Service 의 7월 2023 릴리스
+# 2023년 7월 Adobe Experience Manager Guides as a Cloud Service 릴리스
 
 이 릴리스 노트는 2023년 7월 Adobe Experience Manager Guides 버전(*AEM Guides as a Cloud Service*)에서 수정된 업그레이드 지침, 호환성 매트릭스 및 문제를 다룹니다.
 
-새로운 기능 및 향상된 기능에 대한 자세한 내용은 [AEM Guidesas a Cloud Service 의 2023년 7월 새로운 기능](whats-new-2023-7-0.md)을 참조하세요.
+새로운 기능 및 향상된 기능에 대한 자세한 내용은 [AEM Guides as a Cloud Service의 2023년 7월 새로운 기능](whats-new-2023-7-0.md)을 참조하세요.
 
 ## 2023년 7월 릴리스로 업그레이드
 
 다음 단계를 수행하여 현재 AEM Guides as a Cloud Service 설정을 업그레이드합니다.
 
-1. Cloud Service의 Git 코드를 체크아웃하고 업그레이드하려는 환경에 해당하는 Cloud Service 파이프라인에 구성된 분기로 전환합니다.
-2. Cloud Service Git 코드의 `/dox/dox.installer/pom.xml` 파일에서 `<dox.version>` 속성을 2023.7.0.314로 업데이트합니다.
-3. 변경 사항을 커밋하고 Cloud Service 파이프라인을 실행하여 AEM Guidesas a Cloud Service 의 2023년 7월 릴리스로 업그레이드합니다.
+1. 클라우드 서비스의 Git 코드를 체크아웃하고 업그레이드하려는 환경에 해당하는 클라우드 서비스 파이프라인에 구성된 분기로 전환합니다.
+2. 클라우드 서비스 Git 코드의 `<dox.version>` 파일에서 `/dox/dox.installer/pom.xml` 속성을 2023.7.0.314로 업데이트합니다.
+3. 변경 사항을 커밋하고 Cloud Services 파이프라인을 실행하여 AEM Guides as a Cloud Service의 2023년 7월 릴리스로 업그레이드합니다.
 
 ## 서블릿을 통해 스크립트 트리거를 활성화하는 단계
 
-(AEM Guidesas a Cloud Service 의 2023년 6월 릴리스 이전 버전인 경우에만)
+(2023년 6월 이전 버전의 AEM Guides as a Cloud Service을 사용하는 경우에만)
 
 설치를 완료한 후 트리거를 적중하여 번역 작업을 시작하도록 선택할 수 있습니다.
 
-POST:
+게시물:
 
 ```
 http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
@@ -62,14 +62,14 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 ## 끊어진 링크 보고서를 사용하기 위해 기존 콘텐츠를 게시하는 절차
 
-(AEM Guidesas a Cloud Service 의 2023년 6월 릴리스 이전 버전인 경우에만)
+(2023년 6월 이전 버전의 AEM Guides as a Cloud Service을 사용하는 경우에만)
 
 기존 콘텐츠를 후처리하고 새 끊어진 링크 보고서를 사용하려면 다음 단계를 수행하십시오.
 
-1. (선택 사항) 시스템에 100,000개 이상의 dita 파일이 있는 경우 `org.apache.jackrabbit.oak.query.QueryEngineSettingsService`의 `queryLimitReads`을(를) 더 큰 값(존재하는 에셋 수보다 큰 값(예: 200,000))으로 업데이트한 다음 다시 배포합니다.
+1. (선택 사항) 시스템에 100,000개 이상의 dita 파일이 있는 경우 `queryLimitReads`의 `org.apache.jackrabbit.oak.query.QueryEngineSettingsService`을(를) 더 큰 값(존재하는 에셋 수보다 큰 값(예: 200,000))으로 업데이트한 다음 다시 배포합니다.
 
    - Adobe Experience Manager Guides 설치 및 구성 의 *구성 재정의* 섹션에 제공된 지침을 사용하십시오.
-as a Cloud Service 구성 파일 만들기
+as a Cloud Service을 클릭하여 구성 파일을 만듭니다.
    - 구성 파일에서 다음 (속성) 세부 정보를 제공하여 queryLimitReads 옵션을 구성합니다.
 
      | PID | 속성 키 | 속성 값 |
@@ -78,7 +78,7 @@ as a Cloud Service 구성 파일 만들기
 
 1. 올바른 인증으로 서버에 대한 POST 요청을 실행합니다. `http://<server:port>//bin/guides/reports/upgrade`.
 
-1. API는 jobId를 반환합니다. 작업 상태를 확인하려면 작업 ID가 포함된 GET 요청을 동일한 끝점으로 보낼 수 있습니다. `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
+1. API는 jobId를 반환합니다. 작업 상태를 확인하려면 작업 ID가 있는 GET 요청을 동일한 끝점으로 보낼 수 있습니다. `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
 (예: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
 1. 작업이 완료되면 이전 GET 요청이 성공으로 응답합니다. 어떤 이유로 작업이 실패하면 서버 로그에서 오류가 표시될 수 있습니다.
@@ -87,13 +87,13 @@ as a Cloud Service 구성 파일 만들기
 
 ## 보고서 탭 아래에 있는 새 찾기 및 바꾸기 및 주제 목록을 사용할 기존 콘텐츠를 색인화하는 단계입니다.
 
-(AEM Guidesas a Cloud Service 의 2023년 6월 릴리스 이전 버전인 경우에만)
+(2023년 6월 이전 버전의 AEM Guides as a Cloud Service을 사용하는 경우에만)
 
 기존 콘텐츠를 색인화하기 위해 다음 단계를 수행하고 보고서 탭 아래의 맵 수준 및 주제 목록에서 새 찾기 및 바꾸기 텍스트를 사용합니다.
 
 1. 올바른 인증을 사용하여 서버 \- `http://<server:port\>/bin/guides/map-find/indexing`에 대한 POST 요청을 실행합니다. (선택 사항: 맵의 특정 경로를 전달하여 인덱싱할 수 있습니다. 기본적으로 모든 맵은 인덱싱됩니다. \|\| 예: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
-1. 루트 폴더를 전달하여 특정 폴더(및 그 하위 폴더)의 DITA 맵을 인덱싱할 수도 있습니다. 예, `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. paths 매개 변수와 root 매개 변수가 모두 전달되면 paths 매개 변수만 고려됩니다.
+1. 루트 폴더를 전달하여 특정 폴더(및 그 하위 폴더)의 DITA 맵을 인덱싱할 수도 있습니다. 예를 들어, `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`과 같이 입력합니다. paths 매개 변수와 root 매개 변수가 모두 전달되면 paths 매개 변수만 고려됩니다.
 
 1. API는 jobId를 반환합니다. 작업 상태를 확인하려면 작업 ID가 포함된 GET 요청을 동일한 끝점인 `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(예: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)로 보낼 수 있습니다.
 
@@ -102,7 +102,7 @@ as a Cloud Service 구성 파일 만들기
 
 ## 호환성 매트릭스
 
-이 섹션에서는 AEM Guides as a Cloud Service 2023년 7월 릴리스에서 지원되는 소프트웨어 응용 프로그램에 대한 호환성 매트릭스를 나열합니다.
+이 섹션에서는 2023년 7월 AEM Guides as a Cloud Service 릴리스에서 지원되는 소프트웨어 애플리케이션에 대한 호환성 매트릭스를 나열합니다.
 
 ### FrameMaker 및 FrameMaker Publishing Server
 
@@ -117,7 +117,7 @@ as a Cloud Service 구성 파일 만들기
 | AEM Guides as a Cloud 릴리스 | 산소 커넥터 창 | 산소 커넥터 Mac | Oxygen 창에서 편집 | Oxygen Mac에서 편집 |
 | --- | --- | --- | --- | --- |
 | 2023.07.0 | 2.9-uuid-2 | 2.9-uuid-2 | 2.3 | 2.3 |
-|  |  |  |  |
+|  |  |  |  |  |
 
 
 ## 해결된 문제

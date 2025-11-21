@@ -1,7 +1,7 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides 5.0.0 릴리스에 대한 업그레이드 지침
 description: 호환성 매트릭스와 Adobe Experience Manager Guides 5.0.0 릴리스로 업그레이드하는 방법에 대해 알아봅니다.
-source-git-commit: 410d7c059ff1219b73f2dc6199690c77d1ba0e48
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 6%
@@ -62,7 +62,7 @@ ht-degree: 6%
 - 버전 4.2, 4.2.1(핫픽스 4.2.1.3), 4.1 또는 4.1.x를 사용하는 경우 버전 5.0.0으로 업그레이드하기 전에 버전 4.4로 업그레이드해야 합니다.
 - 버전 4.0을 사용 중인 경우 버전 4.3.x로 업그레이드하기 전에 버전 4.2로 업그레이드해야 합니다.
 - 버전 3.8.5를 사용하는 경우 버전 4.2로 업그레이드하기 전에 버전 4.0으로 업그레이드해야 합니다.
-- 3.8.5 이전 버전을 사용하는 경우 [Experience Manager Guides 도움말 PDF 보관](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/archive.html)에 있는 제품별 설치 안내서의 Adobe Experience Manager Guides 업그레이드 섹션을 참조하십시오.
+- 3.8.5 이전 버전을 사용하는 경우 [Experience Manager Guides 도움말 PDF 보관](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)에 있는 제품별 설치 안내서의 Adobe Experience Manager Guides 업그레이드 섹션을 참조하십시오.
 
 >[!NOTE]
 >

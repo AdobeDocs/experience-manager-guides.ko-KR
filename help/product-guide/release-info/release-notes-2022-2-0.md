@@ -1,28 +1,28 @@
 ---
 title: ' [!DNL AEM Guides]에 대한 릴리스 정보, 2022년 2월 릴리스'
-description: as a Cloud Service 2월 [!DNL Adobe Experience Manager Guides] 릴리스
+description: ' [!DNL Adobe Experience Manager Guides] as a Cloud Service 2월 릴리스'
 exl-id: eb7ff475-bb5b-4d32-b291-024147fbfed1
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '974'
 ht-degree: 0%
 
 ---
 
-# as a Cloud Service [!DNL Adobe Experience Manager Guides]의 2월 릴리스
+# [!DNL Adobe Experience Manager Guides] as a Cloud Service 2월 릴리스
 
 ## 2월 릴리스로 업그레이드
 
-as a Cloud Service as a Cloud Service 다음 단계를 수행하여 현재 [!DNL Adobe Experience Manager Guides] (이후 [!DNL AEM Guides]) 설정을 업그레이드하십시오.
-1. Cloud Service의 Git 코드를 체크아웃하고 업그레이드하려는 환경에 해당하는 Cloud Service 파이프라인에 구성된 분기로 전환합니다.
-1. Cloud Service Git 코드의 `/dox/dox.installer/pom.xml` 파일에서 `<dox.version>` 속성을 2022.2.114로 업데이트합니다.
-1. 변경 사항을 커밋하고 Cloud Service as a Cloud Service 파이프라인을 실행하여 [!DNL AEM Guides]의 2월 릴리스로 업그레이드하십시오.
+다음 단계를 수행하여 현재 [!DNL Adobe Experience Manager Guides] as a Cloud Service(나중에 [!DNL AEM Guides] as a Cloud Service으로 지칭됨) 설정을 업그레이드합니다.
+1. 클라우드 서비스의 Git 코드를 체크아웃하고 업그레이드하려는 환경에 해당하는 클라우드 서비스 파이프라인에 구성된 분기로 전환합니다.
+1. 클라우드 서비스 Git 코드의 `<dox.version>` 파일에서 `/dox/dox.installer/pom.xml` 속성을 2022.2.114로 업데이트합니다.
+1. 변경 사항을 커밋하고 Cloud Services 파이프라인을 실행하여 [!DNL AEM Guides] as a Cloud Service의 2월 릴리스로 업그레이드합니다.
 
 ## 호환성 매트릭스
 
-이 섹션에서는 [!DNL AEM Guides] as a Cloud Service 2022년 2월 릴리스에서 지원되는 소프트웨어의 호환성 매트릭스를 나열합니다.
+이 섹션에서는 [!DNL AEM Guides] as a Cloud Service 2022년 2월 릴리스에서 지원되는 소프트웨어 응용 프로그램에 대한 호환성 매트릭스를 나열합니다.
 
 ### FrameMaker 및 FrameMaker Publishing Server
 
@@ -44,15 +44,15 @@ as a Cloud Service as a Cloud Service 다음 단계를 수행하여 현재 [!DNL
 
 ### 기본 PDF 게시
 
-[!DNL AEM Guides]의 2월 릴리스에도 네이티브 PDF as a Cloud Service 만들기에 대한 지원이 추가되었습니다. 새 게시 엔진에 다음과 같은 기능이 도입되었습니다.
+[!DNL AEM Guides] as a Cloud Service의 2월 릴리스에도 기본 PDF 만들기에 대한 지원이 추가되었습니다. 새 게시 엔진에 다음과 같은 기능이 도입되었습니다.
 * CSS 템플릿 만들기
 * 다른 페이지 템플릿 만들기
 * CSS 및 페이지 템플릿으로 구성된 PDF 템플릿 디자인
-* PDF 형식의 Publish 맵 및 주제 콘텐츠
+* PDF 형식으로 맵 및 주제 콘텐츠 게시
 
 ### 문서 기반 게시의 기술 자료 사이트 경로 지원
 
-as a Cloud Service [!DNL AEM Guides]은(는) 문서 기반 게시 기능을 점진적으로 제공하여 하나 이상의 주제를 생성하거나 콘텐츠를 knowledgebase 플랫폼에 게시합니다. 2월 릴리스에는 주제/맵을 게시해야 하는 기술 자료 사이트 경로를 선택할 수 있는 추가 옵션이 있습니다. 경로를 선택하면 지정된 경로에서 출력이 생성됩니다.
+[!DNL AEM Guides] as a Cloud Service은 하나 이상의 주제에 대한 출력을 증분 생성하거나 콘텐츠를 기술 자료 플랫폼에 게시하는 문서 기반 게시 기능을 제공합니다. 2월 릴리스에는 주제/맵을 게시해야 하는 기술 자료 사이트 경로를 선택할 수 있는 추가 옵션이 있습니다. 경로를 선택하면 지정된 경로에서 출력이 생성됩니다.
 
 ### 웹 편집기 개선 사항
 
@@ -60,7 +60,7 @@ as a Cloud Service [!DNL AEM Guides]은(는) 문서 기반 게시 기능을 점�
 
 * **파일 닫기 대화 상자 개선**
 
-as a Cloud Service 웹 편집기에서 연 파일을 닫을 때 변경 내용을 저장할 것인지 묻는 메시지를 [!DNL AEM Guides]에 표시합니다. 프롬프트는 관리자가 구성한 **닫을 때 체크 인 요청** 및 **닫을 때 새 버전 요청** 설정을 기반으로 표시됩니다.
+웹 편집기에서 연 파일을 닫으려고 할 때 변경 내용을 저장하고 잠긴 파일의 잠금을 해제하라는 메시지가 [!DNL AEM Guides] as a Cloud Service에 표시됩니다. 프롬프트는 관리자가 구성한 **닫을 때 체크 인 요청** 및 **닫을 때 새 버전 요청** 설정을 기반으로 표시됩니다.
 
 구성을 기반으로 변경 사항을 저장하고 새 버전의 문서를 만들 수 있는 옵션이 제공됩니다. 또는 파일을 체크 인하고 변경 내용을 현재 버전에 저장할 수도 있습니다.
 
@@ -68,7 +68,7 @@ as a Cloud Service 웹 편집기에서 연 파일을 닫을 때 변경 내용을
 
 자세한 내용은 사용 안내서에서 *파일 닫기 및 저장 시나리오*&#x200B;를 참조하십시오.
 
-* 문자 팔레트에 단어 잘림 방지 공백이 추가되었습니다.  **줄바꿈을 하지 않는** 공백은 HTML 문서의 특정 지점에서 자동 줄 바꿈을 방지합니다. 웹 편집기는 AEM Site와 HTML5 출력 모두에 대해 줄바꿈하지 않는 공간을 지원합니다.
+* 문자 팔레트에 단어 잘림 방지 공백이 추가되었습니다.  **줄바꿈을 하지 않는** 공백은 HTML 문서의 특정 지점에서 자동 줄 바꿈을 방지합니다. 웹 편집기는 AEM 사이트와 HTML5 출력 모두에 대해 끊김 없는 공간을 지원합니다.
 
 * 웹 편집기에서 이미지를 업로드할 때 동일한 이름의 이미지가 이미 있으면 확인 대화 상자가 표시됩니다. 기존 파일과 새 파일을 모두 유지하거나 기존 파일을 덮어쓰고 새 파일만 저장할 수 있습니다.
 

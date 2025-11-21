@@ -1,44 +1,44 @@
 ---
-title: 릴리스 정보 | Adobe Experience Manager Guides as a Cloud Service 2003년 2월 릴리스
-description: 2월 Adobe Experience Manager Guides as a Cloud Service 릴리스
+title: 릴리스 정보 | Adobe Experience Manager Guides as a Cloud Service, 2023년 2월 릴리스
+description: Adobe Experience Manager Guides as a Cloud Service 2월 릴리스
 exl-id: c639b136-11ed-4a8b-a595-4bb5da879747
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '869'
 ht-degree: 0%
 
 ---
 
-# 2월 2023 릴리스 의 Adobe Experience Manager Guides as a Cloud Service
+# 2023년 2월 Adobe Experience Manager Guides as a Cloud Service 릴리스
 
-이 릴리스 노트는 2023년 2월 Adobe Experience Manager Guides 버전(*AEM Guides as a Cloud Service*)에서 수정된 업그레이드 지침, 호환성 매트릭스 및 문제를 다룹니다.
+이 릴리스 노트는 2023년 2월 Adobe Experience Manager Guides(이후 *AEM Guides as a Cloud Service*)에서 수정된 업그레이드 지침, 호환성 매트릭스 및 문제를 다룹니다.
 
-새로운 기능 및 향상된 기능에 대한 자세한 내용은 [2023년 2월 새로운 기능{AEM Guides as a Cloud Service 1}을 참조하세요.](whats-new-2023-2-0.md)
+새로운 기능 및 향상된 기능에 대한 자세한 내용은 [2023년 2월 AEM Guides as a Cloud Service의 새로운 기능](whats-new-2023-2-0.md)을 참조하세요.
 
 ## 2023년 2월 릴리스로 업그레이드
 
 다음 단계를 수행하여 현재 AEM Guides as a Cloud Service 설정을 업그레이드합니다.
-1. Cloud Service의 Git 코드를 체크아웃하고 업그레이드하려는 환경에 해당하는 Cloud Service 파이프라인에 구성된 분기로 전환합니다.
-2. Cloud Service Git 코드의 `/dox/dox.installer/pom.xml` 파일에서 `<dox.version>` 속성을 2023.2.235로 업데이트합니다.
-3. 변경 사항을 커밋하고 Cloud Service 파이프라인을 실행하여 AEM Guidesas a Cloud Service 의 2023년 2월 릴리스로 업그레이드합니다.
+1. 클라우드 서비스의 Git 코드를 체크아웃하고 업그레이드하려는 환경에 해당하는 클라우드 서비스 파이프라인에 구성된 분기로 전환합니다.
+2. 클라우드 서비스 Git 코드의 `<dox.version>` 파일에서 `/dox/dox.installer/pom.xml` 속성을 2023.2.235로 업데이트합니다.
+3. 변경 사항을 커밋하고 Cloud Services 파이프라인을 실행하여 AEM Guides as a Cloud Service의 2023년 2월 릴리스로 업그레이드합니다.
 
-## 기존 콘텐츠를 색인화하는 단계(AEM Guidesas a Cloud Service 의 9월 릴리스 이전 버전인 경우에만 해당)
+## 기존 콘텐츠를 색인화하는 단계(AEM Guides as a Cloud Service의 9월 이전 버전을 사용하는 경우에만)
 
 기존 콘텐츠를 색인화하기 위해 다음 단계를 수행하고 맵 수준에서 새 찾기 및 바꾸기 텍스트를 사용합니다.
 
 * 올바른 인증으로 서버에 대한 POST 요청을 실행합니다. `http://<server:port>/bin/guides/map-find/indexing`.
 (선택 사항: 맵의 특정 경로를 전달하여 인덱싱할 수 있습니다. 기본적으로 모든 맵이 인덱싱됩니다 || 예: `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
-* API는 jobId를 반환합니다. 작업 상태를 확인하려면 작업 ID가 포함된 GET 요청을 동일한 끝점으로 보낼 수 있습니다. `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
+* API는 jobId를 반환합니다. 작업 상태를 확인하려면 작업 ID가 있는 GET 요청을 동일한 끝점으로 보낼 수 있습니다. `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
 (예: http://&lt;_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
 
 * 작업이 완료되면 위의 GET 요청은 성공으로 응답하고 맵이 실패한 경우 언급됩니다. 인덱싱된 맵은 서버 로그에서 확인할 수 있습니다.
 
 ## 호환성 매트릭스
 
-이 섹션에서는 AEM Guides as a Cloud Service 2023년 2월 릴리스에서 지원되는 소프트웨어 응용 프로그램에 대한 호환성 매트릭스를 나열합니다.
+이 섹션에서는 2023년 2월 AEM Guides as a Cloud Service 릴리스에서 지원되는 소프트웨어 애플리케이션에 대한 호환성 매트릭스를 나열합니다.
 
 ### FrameMaker 및 FrameMaker Publishing Server
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 | AEM Guides as a Cloud 릴리스 | 산소 커넥터 창 | 산소 커넥터 Mac | Oxygen 창에서 편집 | Oxygen Mac에서 편집 |
 | --- | --- | --- | --- | --- |
 | 2023.02.0 | 2.8-uuid-8 | 2.8-uuid-8 | 2.3 | 2.3 |
-|  |  |  |  |
+|  |  |  |  |  |
 
 ## 해결된 문제
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 * 웹 편집기 기준선 | 최근 열의 비헤이비어는 웹 편집기 내의 새 기준선 대시보드에서 다릅니다. (10808)
 * 번역 | 잘못된 /libs/fmdita/i18n/ja.json으로 인해 번역 작업이 시작되지 않습니다. (10543)
 * 번역 | 번역 대시보드(사람 번역)에서 생성된 범위 번역 프로젝트에서 오류가 발생합니다. (10526)
-* 번역 | 활성 번역 프로젝트에 자산이 있는 전체 언어 폴더에 대해 Post 처리가 차단됩니다. (10332)
+* 번역 | 활성 번역 프로젝트에 자산이 있는 전체 언어 폴더에 대한 사후 처리가 차단됩니다. (10332)
 * 버전이 변경되고 기준 편집기에 저장된 경우 모든 에셋에 대해 여러 팝업이 나타납니다. (10399)
 * `com.day.cq.search.impl.builder.QueryBuilderImpl.createResourceResolver(QueryBuilderImpl.java:210)`에서 세션 누수가 발생합니다. (10279)
 
@@ -91,7 +91,7 @@ ht-degree: 0%
 
 * 일부 시나리오에서는 주제 재생성이 작동하지 않습니다. (10635)
 * Publishlistener는 요청된 데이터를 정보 로그에 표시하지 않으며 일부 정크 로그도 포함합니다.( 10567)
-* 기본 PDF | 폴더 프로필에 추가 옵션을 사용하여 출력 사전 설정을 만들 때 Null 포인터 예외가 발생하여 PDF 생성이 실패합니다. (10950)
+* 기본 PDF | &quot;폴더 프로필에 추가&quot; 옵션을 사용하여 출력 사전 설정을 만들 때 PDF 생성이 실패하고 Null 포인터 예외가 발생합니다. (10950)
 * 기본 PDF | 테이블 헤더 회전 시 문제가 발생합니다. (10555)
 * 기본 PDF | 중첩된 `<indexterm>`은(는) 기본 PDF 내보내기에서 중첩되지 않습니다. (10521)
 * 기본 PDF | 부록의 중첩된 topicref는 모두 임시 HTML에서 h1로 변환됩니다. (10454)

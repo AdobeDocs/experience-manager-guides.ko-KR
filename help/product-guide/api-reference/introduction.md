@@ -5,10 +5,10 @@ exl-id: d8ee9cf7-1d67-4b4a-aa80-64e893a99463
 feature: API Introduction
 role: Developer
 level: Experienced
-source-git-commit: bf7838690d7632cd74fef0db3aaf7bdc48a50a2c
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 0%
+source-wordcount: '594'
+ht-degree: 1%
 
 ---
 
@@ -38,14 +38,13 @@ Experience Manager Guides에서 사용할 수 있는 Java 기반 API를 사용�
 
 프로젝트의 Maven 저장소에서 서비스 API JAR을 구성하고 사용하려면 아래와 같이 API SDK을 프로젝트의 `pom.xml` 파일에 프로젝트 종속성으로 추가합니다.
 
-    &quot;XML
-    &lt;dependency>
-    &lt;groupId>com.adobe.aem&lt;/groupId>
-    &lt;artifactId>aem-dox-sdk-api&lt;/artifactId>
-    &lt;version>${RELEASE}&lt;/version>
-    &lt;/dependency>
-    
-    &quot;
+```XML
+<dependency>
+<groupId>com.adobe.aem</groupId>
+<artifactId>aem-dox-sdk-api</artifactId>
+<version>${RELEASE}</version>
+</dependency>
+```
 
 >[!NOTE]
 >
@@ -59,14 +58,13 @@ Experience Manager Guides에서 사용할 수 있는 Java 기반 API를 사용�
 
 온-프레미스 배포를 위해 서비스 API JAR을 구성하고 사용하려면 아래와 같이 서비스 API JAR을 프로젝트의 `pom.xml` 파일에 프로젝트 종속성으로 추가합니다.
 
-    &quot;XML
-    &lt;dependency>
-    &lt;groupId>com.adobe.aem&lt;/groupId>
-    &lt;artifactId>aem-guides-sdk-api&lt;/artifactId>
-    &lt;version>${RELEASE}&lt;/version>
-    &lt;/dependency>
-    
-    &quot;
+```XML
+<dependency>
+<groupId>com.adobe.aem</groupId>
+<artifactId>aem-guides-sdk-api</artifactId>
+<version>${RELEASE}</version>
+</dependency>
+```
 
 >[!NOTE]
 >
@@ -122,9 +120,9 @@ API 사용, 매개 변수 및 예제 요청에 대한 자세한 내용은 Experi
 
 ## 추가 리소스
 
-다음은 [학습 및 지원](https://helpx.adobe.com/kr/support/xml-documentation-for-experience-manager.html) 페이지에서 사용할 수 있는 AEM Guides의 다른 유용한 리소스 목록입니다.
+다음은 [학습 및 지원](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html) 페이지에서 사용할 수 있는 AEM Guides의 다른 유용한 리소스 목록입니다.
 
 - 사용 안내서
 - 설치 및 구성 안내서
 - 빠른 시작 안내서
-- [도움말 보관 페이지](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/archive.html) \(이전 릴리스 설명서에 액세스\)
+- [도움말 보관 페이지](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \(이전 릴리스 설명서에 액세스\)

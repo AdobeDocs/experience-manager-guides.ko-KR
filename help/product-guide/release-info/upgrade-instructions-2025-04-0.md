@@ -1,7 +1,8 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides, 2025.04.0 릴리스의 업그레이드 지침 및 해결된 문제
 description: 호환성 매트릭스와 Adobe Experience Manager Guides as a Cloud Service 2025.04.0 릴리스로 업그레이드하는 방법에 대해 알아보십시오.
-source-git-commit: 294fd2a8fdadbac87926e1fda774116ddbf6db12
+exl-id: 6e509216-63c9-4ede-988f-26b0df4313e2
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 3%
@@ -101,7 +102,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 기존 콘텐츠를 후처리하고 새 끊어진 링크 보고서를 사용하려면 다음 단계를 수행하십시오.
 
-1. (선택 사항) 시스템에 100,000개 이상의 DITA 파일이 있는 경우 `org.apache.jackrabbit.oak.query.QueryEngineSettingsService`의 `queryLimitReads` 및 `queryLimitInMemory`을(를) 더 큰 값(존재하는 에셋 수보다 큰 값(예: 200,000))으로 업데이트한 다음 다시 배포합니다.
+1. (선택 사항) 시스템에 100,000개 이상의 DITA 파일이 있는 경우 `queryLimitReads`의 `queryLimitInMemory` 및 `org.apache.jackrabbit.oak.query.QueryEngineSettingsService`을(를) 더 큰 값(존재하는 에셋 수보다 큰 값(예: 200,000))으로 업데이트한 다음 다시 배포합니다.
 
    - Adobe Experience Manager Guides as a Cloud Service 설치 및 구성 의 *구성 재정의* 섹션에 제공된 지침을 사용하여 구성 파일을 만듭니다.
    - 구성 파일에서 `queryLimitReads` 및 `queryLimitInMemory` 옵션을 구성하려면 다음(속성) 세부 정보를 제공합니다.
@@ -128,7 +129,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 1. 올바른 인증으로 서버에 대한 POST 요청을 실행합니다. `http://<server:port>/bin/guides/map-find/indexing`. (선택 사항: 맵의 특정 경로를 전달하여 인덱싱할 수 있습니다. 기본적으로 모든 맵이 인덱싱됩니다.| 예: `https://<Server:port>/bin/guides/map-find/indexing?paths=<path of the MAP in repository>`)
 
-1. 루트 폴더를 전달하여 특정 폴더(및 그 하위 폴더)의 DITA 맵을 인덱싱할 수도 있습니다. 예, `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. paths 매개 변수와 root 매개 변수가 모두 전달되면 paths 매개 변수만 고려됩니다.
+1. 루트 폴더를 전달하여 특정 폴더(및 그 하위 폴더)의 DITA 맵을 인덱싱할 수도 있습니다. 예를 들어, `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`과 같이 입력합니다. paths 매개 변수와 root 매개 변수가 모두 전달되면 paths 매개 변수만 고려됩니다.
 
 1. API가 jobId를 반환합니다. 작업 상태를 확인하려면 작업 ID가 있는 GET 요청을 동일한 끝점인 `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`(예: `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)에 보낼 수 있습니다.
 

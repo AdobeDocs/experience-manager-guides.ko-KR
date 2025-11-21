@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 9a9ae44f-8fed-4a4e-812c-451bcf138d0a
-source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '2732'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Experience Manager Guides은 AEM Sites을 만들기 위한 사전 정의된 템�
 1. **새 출력 사전 설정** 대화 상자의 **유형** 드롭다운에서 **AEM Sites**&#x200B;을(를) 선택합니다.
 1. **새 출력 사전 설정** 대화 상자에서 **기존 구성 요소 매핑 사용** 옵션을 선택 취소합니다.
 
-![새 &#x200B;](images/new-aem-sites-dialog-box.png)
+![새 ](images/new-aem-sites-dialog-box.png)
 
 
 
@@ -42,8 +42,8 @@ Experience Manager Guides은 AEM Sites을 만들기 위한 사전 정의된 템�
 >[!NOTE]
 >
 >Experience Manager Guides에 대한 AEM Sites 사전 설정을 구성하기 전에 관리자가 템플릿을 사용하여 AEM Sites 구조를 만들어야 합니다.
->- **온-프레미스 소프트웨어**: 온-프레미스 소프트웨어용 [AEM Sites 템플릿을 다운로드하고 설치](/help/product-guide/install-guide/download-install-aem-sites-templates.md)하는 방법에 대해 자세히 알아보세요.
->- **Cloud Service**: Cloud Service용 [AEM Sites 템플릿을 다운로드하고 설치](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md)하는 방법에 대해 자세히 알아보세요.
+- **온-프레미스 소프트웨어**: 온-프레미스 소프트웨어용 [AEM Sites 템플릿을 다운로드하고 설치](/help/product-guide/install-guide/download-install-aem-sites-templates.md)하는 방법에 대해 자세히 알아보세요.
+- **Cloud Service**: Cloud Service용 [AEM Sites 템플릿을 다운로드하고 설치](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md)하는 방법에 대해 자세히 알아보세요.
 
 
 
@@ -123,8 +123,8 @@ AEM Sites 출력에 사용할 수 있는 옵션은 다음과 같습니다.
 | --- | --- |
 | 사이트 경로 사용 | 이 옵션을 사용하여 콘텐츠를 Experience Manager 사이트에 게시합니다. 출력을 게시할 정확한 사이트 경로를 알고 있는 경우 이 옵션을 선택합니다. 또한 사이트 경로 필드에 전체 경로를 언급하십시오. |
 | 사이트 경로 | 이 옵션은 **사이트 경로 사용** 옵션을 선택한 경우에 나타납니다. 출력을 게시할 정확한 Experience Manager 사이트 경로를 찾습니다. |
-| Site | 콘텐츠를 게시할 Experience Manager Sites의 이름입니다. 드롭다운의 옵션은 AEM Sites에서 사용할 수 있는 사이트 목록을 기반으로 채워집니다. <br>새로 고침&#x200B;**![새로 고침 아이콘](images/navtitle-refresh-icon.svg)을 선택하여 새로운 옵션 목록을 가져오고 업데이트된 데이터를 반영합니다.** |
-| 게시 경로 | 출력이 저장되는 AEM 저장소 내의 경로입니다. 게시 경로는 홈 페이지 템플릿을 기반으로 생성된 페이지를 포함하는 모든 경로로 채워집니다. DITA 맵의 AEM Sites 출력이 이 경로 아래에 생성됩니다.  예를 들어 사이트를 `AEMG-Docs`(으)로 지정하고 게시 경로를 `aemg-docs-en/docs/product-abc.`(으)로 지정하면 AEM Sites 출력이 `crx/de`의 `aemg-docs-en/docs/product-abc/` 노드 아래에 생성됩니다. |
+| Site | 콘텐츠를 게시할 Experience Manager Sites의 이름입니다. 드롭다운의 옵션은 AEM Sites에서 사용할 수 있는 사이트 목록을 기반으로 채워집니다. <br>새로 고침&#x200B;****&#x200B;새로 고침 아이콘![을 선택하여 새로운 옵션 목록을 가져오고 업데이트된 데이터를 반영합니다.](images/navtitle-refresh-icon.svg) |
+| 게시 경로 | 출력이 저장되는 AEM 저장소 내의 경로입니다. 게시 경로는 홈 페이지 템플릿을 기반으로 생성된 페이지를 포함하는 모든 경로로 채워집니다. DITA 맵의 AEM Sites 출력이 이 경로 아래에 생성됩니다.  예를 들어 사이트를 `AEMG-Docs`(으)로 지정하고 게시 경로를 `aemg-docs-en/docs/product-abc.`(으)로 지정하면 AEM Sites 출력이 `aemg-docs-en/docs/product-abc/`의 `crx/de` 노드 아래에 생성됩니다. |
 | 주제 페이지 템플릿 | 여러 문서에서 일관되게 컨텐츠를 구성하는 데 사용할 수 있는 구조적 구성 요소입니다. 이러한 템플릿은 Adobe Experience Manager 사이트 템플릿에 사전 정의되어 있습니다. 옵션은 선택한 사이트에서 사용할 수 있는 모든 주제 페이지 템플릿으로 채워집니다. 모든 출력 주제에 적용할 템플릿을 선택합니다. |
 | 다음을 기반으로 페이지 이름 생성 | **주제 파일 이름**: DITA 주제의 파일 이름을 사용하여 사이트 URL을 만듭니다. <br> **주제 제목**: DITA 주제의 제목을 사용하여 Experience Manager 사이트 이름을 만듭니다. |
 | 이전에 생성된 페이지 정리 | - **맵에서 제거된 항목에 대해 이전에 생성된 페이지를 삭제합니다**: DTIA 맵의 구조가 변경되면 이 옵션을 사용하여 제거된 항목에 대해 이전에 생성된 페이지를 제거할 수 있습니다. 이 기능은 전체 맵 게시에만 사용할 수 있습니다.<br><br>항목 a.dita, b.dita 및 c.dita가 포함된 DITA 맵을 게시했다고 가정합니다. 맵을 다시 게시하기 전에 맵에서 b.dita 주제를 제거했습니다. 이제 이 옵션을 선택하면 b.dita와 관련된 모든 컨텐츠가 AEM Sites 출력에서 제거되고 a.dita 및 c.dita만 게시됩니다.<br><br>**참고**: 삭제된 페이지에 대한 정보도 출력 생성 로그에 캡처됩니다. 로그 파일에 액세스하는 방법에 대한 자세한 내용은 [로그 파일을 보고 확인](generate-output-basic-troubleshooting.md#id1821I0Y0G0A__id1822G0P0CHS)하세요. <br><br>**주의**: 항목을 삭제하면 게시된 사이트에서 페이지를 사용할 수 없게 됩니다. 따라서 주제가 삭제되기 전에 경고가 나타납니다. 삭제를 확인해야 합니다.<br><br>- **이 경로에 있는 다른 원본에서 만든 모든 페이지를 삭제**: 이 옵션을 선택하면 다른 지도, 개별 항목 또는 다른 원본에서 이 경로에 게시된 모든 페이지가 삭제됩니다. 또한 게시된 사이트에서 페이지를 사용할 수 없게 됩니다. 따라서 주제가 삭제되기 전에 경고가 나타납니다. 삭제를 확인해야 합니다. |
@@ -208,7 +208,7 @@ Experience Manager Guides에서는 `peer @scope`을(를) 사용하여 주제 참
 
    ![교차 맵 참조](images/aem-sites-cross-map-references.png)
 
-1. 맵에서 각 종속 파일의 가장 최근에 게시된 출력을 사용하려면 모든 종속 항목에 대해 **가장 최근에 생성된 게시 컨텍스트 사용**&#x200B;을 선택합니다.
+1. 맵에서 각 종속 파일의 가장 최근에 게시된 출력을 사용하려면 모든 종속 항목에 대해 **가장 최근에 생성된 게시 컨텍스트 사용**을 선택합니다.
 연결된 항목이 들어 있는 맵을 게시하기 전에 상위 맵으로 선택한 맵을 게시해야 합니다. 연결된 주제가 있는 맵이 게시되지 않으면 해당 링크는 AEM Sites 출력에 하이퍼링크 대신 일반 텍스트로 표시됩니다.
 연결된 주제에 대해 동일한 유형의 AEM Sites 사전 설정을 선택해야 합니다. 예를 들어 현재 AEM Sites 사전 설정이 기존 구성 요소 매핑을 사용하는 경우 연결된 주제의 유사한 AEM Sites 사전 설정을 선택합니다.
 1. 상위 맵 드롭다운 목록에서 현재 맵의 출력을 연결할 출력이 있는 맵 파일을 선택합니다.

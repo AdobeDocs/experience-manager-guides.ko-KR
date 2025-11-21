@@ -5,9 +5,9 @@ exl-id: ba82af48-9357-4f29-90ce-6793366ab432
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 5778ed2855287d1010728e689abbe6020ad56574
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '989'
 ht-degree: 0%
 
 ---
@@ -18,12 +18,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 이전 UI에서 새 AEM Guides UI(AEM Guides의 2502 및 5.0 릴리스에서 적용 가능)로 마이그레이션할 때 `ui_config`에 대한 업데이트를 보다 유연하고 모듈식 UI 구성으로 변환해야 합니다. 이 프레임워크를 사용하면 해당하는 경우 editor_toolbar 및 기타 대상 위젯에 변경 사항을 원활하게 적용할 수 있습니다. 자세한 내용은 [UI 구성 전환 개요](https://experienceleague.adobe.com/ko/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config)를 참조하세요.
+> 이전 UI에서 새 AEM Guides UI(AEM Guides의 2502 및 5.0 릴리스에서 적용 가능)로 마이그레이션할 때 `ui_config`에 대한 업데이트를 보다 유연하고 모듈식 UI 구성으로 변환해야 합니다. 이 프레임워크를 사용하면 해당하는 경우 editor_toolbar 및 기타 대상 위젯에 변경 사항을 원활하게 적용할 수 있습니다. 자세한 내용은 [UI 구성 전환 개요](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config)를 참조하세요.
 
 웹 편집기의 도구 모음을 사용자 지정하는 방법에는 두 가지가 있습니다.
 
 - 도구 모음에 새 기능 추가
-
 - 도구 모음에서 기존 기능 제거
 
 
@@ -48,21 +47,21 @@ ht-degree: 0%
 
    **추출 클래스**:   공백으로 구분된 클래스의 이름입니다.
 
-   **항목**:   도구 모음에서 모든 그룹의 정의를 지정합니다. 각 그룹에는 하나 이상의 도구 모음 아이콘이 포함될 수 있습니다. 도구 모음 그룹 내에서 아이콘을 정의하려면 `items` 내에서 `type` 특성을 다시 정의하고 해당 값을 `buttonGroup`(으)로 설정해야 합니다. `extraclass` 속성에 하나 이상의 클래스 이름을 지정하십시오. `label` 속성에 기능 이름을 지정하십시오. `ui_config.json` 파일의 다음 코드 조각은 기본 도구 모음 블록에 대한 정의 다음에 `buttonGroup` 정의를 표시합니다.
+   **항목**:   도구 모음에서 모든 그룹의 정의를 지정합니다. 각 그룹에는 하나 이상의 도구 모음 아이콘이 포함될 수 있습니다. 도구 모음 그룹 내에서 아이콘을 정의하려면 `type` 내에서 `items` 특성을 다시 정의하고 해당 값을 `buttonGroup`(으)로 설정해야 합니다. `extraclass` 속성에 하나 이상의 클래스 이름을 지정하십시오. `label` 속성에 기능 이름을 지정하십시오. `ui_config.json` 파일의 다음 코드 조각은 기본 도구 모음 블록에 대한 정의 다음에 `buttonGroup` 정의를 표시합니다.
 
-       &quot;
-       &quot;toolbar&quot;: &lbrace;
-       &quot;type&quot;: &quot;blockGroup&quot;,
-       &quot;extraclass&quot;:
-       &quot;도구 모음 작업&quot;,
-       &quot;항목&quot;: &lbrack;
-       &lbrace;
-       &quot;type&quot;: &quot;buttonGroup&quot;,
-       &quot;extraclass&quot;: &quot;left-controls&quot;,
-       &quot;label&quot;: &quot;왼쪽 컨트롤&quot;,
-       &quot;항목&quot;: &lbrack;
-       &quot;
-   
+   ```
+   "toolbar": {    
+   "type": "blockGroup",    
+   "extraclass": 
+   "toolbar operations",    
+   "items": [      
+   {        
+       "type": "buttonGroup",        
+       "extraclass": "left-controls",        
+       "label": "Left Controls",        
+       "items": [
+   ```
+
    `items` 컬렉션 내에서 하나 이상의 도구 모음 아이콘에 대한 정의를 지정해야 합니다.
 
    도구 모음 아이콘을 추가하려면 다음 속성을 정의해야 합니다.
@@ -77,10 +76,10 @@ ht-degree: 0%
 
    **클릭 시**:   JavaScript 파일의 기능에 대해 정의된 명령 이름을 지정합니다. 명령에 입력 매개 변수가 필요한 경우 다음과 같이 명령 이름을 지정합니다.
 
-       &quot;Javascript
-       &quot;on-click&quot;: {&quot;name&quot;: &quot;AUTHOR_INSERT_ELEMENT&quot;, &quot;args&quot;: &quot;simpletable&quot;}
-       &quot;
-   
+   ```Javascript
+   "on-click": {"name": "AUTHOR_INSERT_ELEMENT", "args": "simpletable"}
+   ```
+
    **표시 또는 숨기기**:   `show` 속성을 정의하는 경우 아이콘이 표시되는 모드를 지정하십시오. 가능한 값은 `@isAuthorMode`, `@isSourceMode`, `@isPreviewMode`, `true` \(모든 모드에서 표시\) 또는 `false` \(모든 모드에서 숨기기\)입니다.
 
    `show` 대신 `hide` 속성을 정의할 수도 있습니다. 가능한 값은 `show` 속성과 같고 지정된 모드에 대해 아이콘이 표시되지 않는 유일한 차이점이 있습니다.
@@ -134,7 +133,7 @@ ht-degree: 0%
 
    1. **바로 가기**:   이 섹션에는 편집기의 특정 기능에 할당된 키보드 단축키의 정의가 포함되어 있습니다.
 
-   1. **템플릿**:   이 섹션에는 문서에서 사용할 수 있는 DITA 요소의 미리 정의된 구조가 포함되어 있습니다. 기본적으로 템플릿 섹션에는 단락, 간단한 표, 표 및 본문 요소에 대한 템플릿 정의가 포함되어 있습니다. 원하는 요소에 대한 유효한 XML 구조를 추가하여 모든 요소에 대한 템플릿 정의를 생성할 수 있습니다. 예를 들어 목록에 있는 모든 새 `li` 요소와 함께 `p` 요소를 추가하려면 템플릿 섹션의 끝에 다음 코드를 추가하여 이를 수행할 수 있습니다.
+   1. **템플릿**:   이 섹션에는 문서에서 사용할 수 있는 DITA 요소의 미리 정의된 구조가 포함되어 있습니다. 기본적으로 템플릿 섹션에는 단락, 간단한 표, 표 및 본문 요소에 대한 템플릿 정의가 포함되어 있습니다. 원하는 요소에 대한 유효한 XML 구조를 추가하여 모든 요소에 대한 템플릿 정의를 생성할 수 있습니다. 예를 들어 목록에 있는 모든 새 `p` 요소와 함께 `li` 요소를 추가하려면 템플릿 섹션의 끝에 다음 코드를 추가하여 이를 수행할 수 있습니다.
 
    ```css
    "li": "<li><p></p></li>"
@@ -145,4 +144,4 @@ ht-degree: 0%
 1. *ui\_config.json* 파일을 저장하고 웹 편집기를 다시 로드합니다.
 
 
-**상위 항목:**&#x200B;[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)
+**상위 항목:**[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)

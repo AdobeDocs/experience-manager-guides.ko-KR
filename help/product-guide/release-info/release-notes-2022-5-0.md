@@ -1,28 +1,28 @@
 ---
-title: 릴리스 정보 | Adobe Experience Manager Guides as a Cloud Service 2002년 5월 릴리스
-description: Adobe Experience Manager Guidesas a Cloud Service 의 5월
+title: 릴리스 정보 | Adobe Experience Manager Guides as a Cloud Service, 2022년 5월 릴리스
+description: Adobe Experience Manager Guides as a Cloud Service 5월 릴리스
 exl-id: 7928a300-5ec9-492c-b9be-02b6f87638c6
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 0%
 
 ---
 
-# Adobe Experience Manager Guidesas a Cloud Service 의 5월
+# Adobe Experience Manager Guides as a Cloud Service 5월 릴리스
 
 ## 5월 릴리스로 업그레이드
 
-다음 단계를 수행하여 최신 Adobe Experience Manager Guides as a Cloud Service(나중에 *AEM Guides as a Cloud Service*) 설정을 업그레이드합니다.
-1. Cloud Service의 Git 코드를 체크아웃하고 업그레이드하려는 환경에 해당하는 Cloud Service 파이프라인에 구성된 분기로 전환합니다.
-1. Cloud Service Git 코드의 `/dox/dox.installer/pom.xml` 파일에서 `<dox.version>` 속성을 2022.5.144로 업데이트합니다.
-1. 변경 사항을 커밋하고 Cloud Service 파이프라인을 실행하여 AEM Guidesas a Cloud Service 의 5월 릴리스를 업그레이드합니다.
+다음 단계를 수행하여 현재 Adobe Experience Manager Guides as a Cloud Service(*AEM Guides as a Cloud Service*)를 업그레이드합니다.
+1. 클라우드 서비스의 Git 코드를 체크아웃하고 업그레이드하려는 환경에 해당하는 클라우드 서비스 파이프라인에 구성된 분기로 전환합니다.
+1. 클라우드 서비스 Git 코드의 `<dox.version>` 파일에서 `/dox/dox.installer/pom.xml` 속성을 2022.5.144로 업데이트합니다.
+1. 변경 사항을 커밋하고 클라우드 서비스 파이프라인을 실행하여 AEM Guides as a Cloud Service의 5월 릴리스로 업그레이드합니다.
 
 ## 호환성 매트릭스
 
-이 섹션에서는 AEM Guides as a Cloud Service 2022년 5월 릴리스에서 지원되는 소프트웨어 응용 프로그램에 대한 호환성 매트릭스를 나열합니다.
+이 섹션에서는 2022년 5월 AEM Guides as a Cloud Service 릴리스에서 지원되는 소프트웨어 애플리케이션에 대한 호환성 매트릭스를 나열합니다.
 
 ### FrameMaker 및 FrameMaker Publishing Server
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ## 새로운 기능 및 향상된 기능
 
-5월 릴리스의 AEM Guides as a Cloud Service 개선 사항 및 새로운 기능:
+AEM Guides as a Cloud Service은 5월 릴리스에서 많은 개선 사항 및 새로운 기능을 제공합니다.
 
 ### 향상된 웹 편집기
 
@@ -93,18 +93,18 @@ ht-degree: 0%
 
 ### 향상된 게시
 
-* 맵 대시보드에서 출력을 생성하는 동안 출력 탭에서 **Publish 대시보드**&#x200B;에 액세스할 수도 있습니다. Publish 대시보드에서 모든 활성 게시 작업 목록을 사용할 수 있습니다.
+* 맵 대시보드에서 출력을 생성하는 동안 출력 탭에서 **대시보드 게시**&#x200B;에 액세스할 수도 있습니다. 게시 대시보드에서 모든 활성 게시 작업 목록을 사용할 수 있습니다.
 
 ![큐에 있는 출력](assets/queued-output.png)
 
 * 맵 대시보드에서 여러 DITAVAL 파일을 선택하여 조건부 콘텐츠를 생성할 수 있습니다. 파일을 추가하거나 삭제하여 파일 순서를 유지할 수 있습니다. 파일 이름 위로 마우스를 가져가면 파일이 저장된 AEM 저장소의 경로를 볼 수도 있습니다.
 
 * **사용되지 않는 기능**
-AEM as a Cloud Service에서는 더 이상 FrameMaker 문서에 대한 DITA 출력 형식 생성을 지원하지 않습니다. 이 DITA 옵션은 맵 대시보드의 출력 사전 설정에서도 제거되었습니다.
+AEM as a Cloud Service은 더 이상 FrameMaker 문서에 대한 DITA 출력 형식 생성을 지원하지 않습니다. 이 DITA 옵션은 맵 대시보드의 출력 사전 설정에서도 제거되었습니다.
 
 ### 향상된 문서 기반 게시
 
-XML 편집기는 Salesforce 프로필에 게시하는 동안 둘 이상의 제품 카테고리를 문서에 매핑하는 기능을 제공합니다.
+XML 편집기는 Salesforce 프로필에 게시하는 동안 문서에 둘 이상의 제품 카테고리를 매핑하는 기능을 제공합니다.
 
 ### 기타 향상된 기능
 
@@ -119,7 +119,7 @@ XML 편집기는 Salesforce 프로필에 게시하는 동안 둘 이상의 제�
 * [옵션] 메뉴를 통해 새로 고친 후 빈 폴더를 클릭하면 응용 프로그램이 비어 있게 됩니다. (9639)
 * 체크 인된 파일을 **저장 및 닫기**&#x200B;할 때 새 버전이 만들어집니다. (9638)
 * **새 버전으로 저장** 확인란이 활성화되면 닫기 단추가 표시되지 않습니다. (9637)
-* 각 장에 대해 별도의 PDF을 통해 처음 게시된 다음 단일 PDF 파일을 통해 게시되는 경우 올바른 PDF이 게시되지 않습니다(별도의 PDF 파일 만들기 가 선택 취소됨). (9632)
+* 각 장에 대해 별도의 PDF을 통해 처음 게시된 다음 단일 PDF 파일을 통해 게시된 경우 올바른 PDF이 게시되지 않습니다(별도의 PDF 파일 만들기 가 선택 취소됨). (9632)
 * 맵 대시보드에서 관리자가 아닌 사용자에 대한 메타데이터 문제가 발생합니다. (9620)
 * 10000 기준선이 만들어지면 서버에 둘 이상의 파일이 있는 경우 UI에서 상태가 실패 로 설정됩니다(상태 가져오기 호출이 실패함). (9608)
 * 속성에 큰 데이터를 저장하면 분할 게시 워크플로우가 실패하여 게시 오류가 발생합니다. (9586)
@@ -152,7 +152,7 @@ XML 편집기는 Salesforce 프로필에 게시하는 동안 둘 이상의 제�
 * **추가 옵션** 메뉴에서 **폴더에서 파일 찾기**&#x200B;를 사용하여 파일을 검색할 수 없으며 앱이 응답하지 않습니다. (9337)
 * 키가 너무 많으면 찾아보기 대화 상자가 중단됩니다. (9332)
 * 문서 기반 게시를 수행하는 동안 DITAVAL 파일이 작동하지 않습니다. (9330)
-* AEM Site 출력에서 각주 순서가 올바르지 않습니다. (9327)
+* AEM 사이트 출력의 각주 순서가 잘못되었습니다. (9327)
 * 선택 경로가 변경되면 검색이 자동으로 수행되지 않습니다. (9323)
 * 번역이 완료되면 번역된 에셋에 대한 추가 버전이 만들어집니다. (9310)
 * 폴더 프로필에서 관리자 사용자를 삭제할 수 없습니다. (9306)
@@ -169,12 +169,12 @@ XML 편집기는 Salesforce 프로필에 게시하는 동안 둘 이상의 제�
 * 텍스트가 없는 `xref`은(는) 문서 기반 게시 출력에 표시되지 않습니다. (8764)
 * 파일 이름에 공백이 있는 동영상 또는 멀티미디어 파일에 대한 참조를 중단합니다. (8624)
 * `Select All`을(를) 선택하고 멀티미디어 파일이나 DITA 콘텐츠를 다른 폴더로 이동하는 동안 참조가 중단됩니다. (8622)
-* &#39;대기 중&#39; 또는 &#39;실행 중&#39; 상태의 출력 작업은 Publish 대시보드에서 정리되지 않습니다.  (8569)
+* &#39;대기 중&#39; 또는 &#39;실행 중&#39; 상태의 출력 작업은 게시 대시보드에서 정리되지 않습니다.  (8569)
 * 남은 출력 기록 노드가 많으면 출력 제거 기능이 실패합니다. (8568)
 * DITA Add on 패키지를 사용하면 DAM 에셋 중복 검색을 방지할 수 있습니다. (8417)
 * 비 DITA 파일에 대해 검토 작업 만들기 버튼을 사용할 수 있습니다. (8401)
 * UI를 사용하여 맵에 Subjectref를 추가하면 참조 삽입 대화 상자가 열립니다. (8212)
-* outputclass 특성을 `tgroup` 요소에 추가할 때 각 빈 `entry` 요소에 예기치 않은 공백이 있습니다. (7532)
+* outputclass 특성을 `entry` 요소에 추가할 때 각 빈 `tgroup` 요소에 예기치 않은 공백이 있습니다. (7532)
 * 작업이 완료되는 즉시 저장소 패널에 체크 인 또는 체크 아웃된 파일 잠금 아이콘이 표시되지 않습니다. (5817)
 * 편집기에서 파일을 체크 인해도 저장소 보기에 잠금 아이콘이 표시됩니다.  (5756)
 * [출력] 탭 아래의 AEM 사전 설정에서 사이트가 누락되었습니다. (9567)
@@ -183,7 +183,7 @@ XML 편집기는 Salesforce 프로필에 게시하는 동안 둘 이상의 제�
 * 콘텐츠가 다른 폴더로 이동되는 경우, 베이스라인이 있는 다운로드 맵이 작동하지 않습니다. (9331)
 * 동일한 위치의 AEM에 파일이 이미 있으면 Oxygen에서 재업로드에 실패합니다. (9328)
 * 나란히 보기에서 강조 표시 위치가 잘못되었습니다. (9305)
-* Oxygen에서 AEM으로 문서를 체크 인하면 문서의 일본어 내용이 물음표(???)로 바뀝니다. (9276)
+* Oxygen에서 AEM으로 문서를 체크인하면 문서의 일본어 내용이 물음표(???)로 바뀝니다. (9276)
 * Oxygen에서 AEM으로 파일을 업로드할 수 없습니다. (9157)
 * 받은 편지함에서 검토 작업을 다시 할당할 때 이메일 알림이 전송되지 않습니다. (8376)
 

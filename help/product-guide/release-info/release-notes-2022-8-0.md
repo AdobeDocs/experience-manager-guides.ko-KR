@@ -1,10 +1,10 @@
 ---
-title: 릴리스 정보 | Adobe Experience Manager Guides as a Cloud Service 2002년 8월 릴리스
+title: 릴리스 정보 | Adobe Experience Manager Guides as a Cloud Service, 2022년 8월 릴리스
 description: Adobe Experience Manager Guides as a Cloud Service 8월 릴리스
 exl-id: a01bfe8a-4715-438c-bb94-aa1d31f6662d
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 0%
@@ -15,14 +15,14 @@ ht-degree: 0%
 
 ## 8월 릴리스로 업그레이드
 
-다음 단계를 수행하여 최신 Adobe Experience Manager Guides as a Cloud Service(나중에 *AEM Guides as a Cloud Service*) 설정을 업그레이드합니다.
-1. Cloud Service의 Git 코드를 체크아웃하고 업그레이드하려는 환경에 해당하는 Cloud Service 파이프라인에 구성된 분기로 전환합니다.
-1. Cloud Service Git 코드의 `/dox/dox.installer/pom.xml` 파일에서 `<dox.version>` 속성을 2022.8.167로 업데이트합니다.
-1. 변경 사항을 커밋하고 Cloud Service 파이프라인을 실행하여 AEM Guides as a Cloud Service 8월 릴리스로 업그레이드합니다.
+다음 단계를 수행하여 현재 Adobe Experience Manager Guides as a Cloud Service(*AEM Guides as a Cloud Service*)를 업그레이드합니다.
+1. 클라우드 서비스의 Git 코드를 체크아웃하고 업그레이드하려는 환경에 해당하는 클라우드 서비스 파이프라인에 구성된 분기로 전환합니다.
+1. 클라우드 서비스 Git 코드의 `<dox.version>` 파일에서 `/dox/dox.installer/pom.xml` 속성을 2022.8.167로 업데이트합니다.
+1. 변경 사항을 커밋하고 Cloud Services 파이프라인을 실행하여 AEM Guides as a Cloud Service의 8월 릴리스로 업그레이드합니다.
 
 ## 호환성 매트릭스
 
-이 섹션에서는 AEM Guides as a Cloud Service 2022년 8월 릴리스에서 지원되는 소프트웨어 응용 프로그램에 대한 호환성 매트릭스를 나열합니다.
+이 섹션에서는 2022년 8월 AEM Guides as a Cloud Service 릴리스에서 지원되는 소프트웨어 애플리케이션에 대한 호환성 매트릭스를 나열합니다.
 
 ### FrameMaker 및 FrameMaker Publishing Server
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ## 새로운 기능 및 향상된 기능
 
-8월 릴리스의 AEM Guides as a Cloud Service 개선 사항 및 새로운 기능:
+AEM Guides as a Cloud Service은 8월 릴리스에 다양한 개선 사항 및 새로운 기능을 제공합니다.
 
 ### 맵 편집기의 레이아웃 보기
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 ![레이아웃 보기 오른쪽 패널](assets/layout-inline-attributes.png)
 
-자세한 내용은 Adobe Experience Manager Guides as a Cloud Service 사용 의 *레이아웃 보기* 섹션을 참조하십시오.
+자세한 내용은 Adobe Experience Manager Guides as a Cloud Service 사용의 *레이아웃 보기* 섹션을 참조하십시오.
 
 ### 편집기 설정의 인라인 속성
 
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 ### 저장소 보기의 추가 필터
 
-이제 저장소 보기의 필터 검색이 보다 강력해졌습니다. 파일을 필터링하고 AEM 저장소에서 검색 범위를 좁히기 위해 **마지막 수정 날짜** 및 **태그**&#x200B;라는 두 개의 새 검색 기준이 추가되었습니다.
+이제 저장소 보기의 필터 검색이 보다 강력해졌습니다. 파일을 필터링하고 AEM 저장소에서 검색 범위를 좁히기 위해 **마지막으로 수정한 날짜** 및 **태그**&#x200B;라는 두 개의 새 검색 기준이 추가되었습니다.
 * **마지막 수정일**: 선택한 날짜 이후에 선택한 날짜 이전에 마지막으로 수정된 파일을 찾을 수 있습니다. 또한 사전 정의된 기준을 사용하고 지난 2시간, 지난 주, 지난 달 또는 작년에 마지막으로 수정된 파일을 찾는 옵션이 있습니다.
 * **태그**: 특정 태그가 적용된 파일을 찾을 수도 있습니다. 태그를 입력하거나 드롭다운 목록에서 선택할 수 있습니다.
 
@@ -100,7 +100,7 @@ ht-degree: 0%
 * 기본 PDF | 빈 요소를 선택한 경우 여러 파일에 대해 **빠른 생성**&#x200B;을 사용할 때 빈 PDF이 생성됩니다. (9822)
 * 기본 PDF | 부록은 PDF 출력의 한 장으로 게시됩니다. (9829)
 * 기본 PDF | SVG 이미지를 편집할 때 페이지 레이아웃에 업데이트되어 표시되지 않습니다. (9069)
-* **특수 문자 삽입** 대화 상자를 사용하여 `Nonbreaking Hyphen` 문자를 삽입하면 일반 하이픈 문자가 삽입됩니다. (8919)
+* `Nonbreaking Hyphen`특수 문자 삽입&#x200B;**대화 상자를 사용하여** 문자를 삽입하면 일반 하이픈 문자가 삽입됩니다. (8919)
 * 업데이트된 이미지가 편집된 경우 XML 편집기는 해당 항목을 표시하지 않습니다. (9500)
 * 편집기를 통해 출력을 게시하는 동안 **출력** 탭에서 사전 설정을 삭제할 수 없습니다. (9100)
 * DITA 맵의 하위 맵은 줄임표 메뉴에서 **모두 선택** 옵션을 사용하여 체크 아웃되지 않습니다. (9814)

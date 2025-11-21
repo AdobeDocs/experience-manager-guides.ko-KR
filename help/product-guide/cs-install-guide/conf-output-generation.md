@@ -5,9 +5,9 @@ exl-id: b5cf4f6c-dc56-428e-a514-6c9f879ac03d
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: a2e52572edf0915c1701a384d396a32de2429f53
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '5620'
+source-wordcount: '5615'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ DITA 콘텐츠가 포함된 AEM 사이트가 있는 경우 DITA 콘텐츠를 사
 
    >[!NOTE]
    >
-   > `libs` 노드에서 사용할 수 있는 기본 구성 파일의 사용자 지정을 만들지 마십시오. `apps` 노드에서 `libs` 노드의 오버레이를 만들고 `apps` 노드에서만 필요한 파일을 업데이트해야 합니다.
+   > `libs` 노드에서 사용할 수 있는 기본 구성 파일의 사용자 지정을 만들지 마십시오. `libs` 노드에서 `apps` 노드의 오버레이를 만들고 `apps` 노드에서만 필요한 파일을 업데이트해야 합니다.
 
 1. 다음 속성을 추가합니다.
 
@@ -128,7 +128,7 @@ AEM 사이트 출력 생성에 사용할 디자인 템플릿을 지정하려면 
 >
 > 사용자 지정 디자인 템플릿 노드를 만든 후 AEM 사이트 출력 사전 설정에서 디자인 옵션을 업데이트하여 사용자 지정 디자인 템플릿 노드를 사용해야 합니다.
 
-자세한 내용은 [첫 번째 Adobe Experience Manager 웹 사이트 만들기](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=ko) 및 AEM에서 자체 웹 사이트 개발 [기본 사항](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=ko)을 참조하십시오.
+자세한 내용은 [첫 번째 Adobe Experience Manager 웹 사이트 만들기](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=en) 및 AEM에서 자체 웹 사이트 개발 [기본 사항](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=en)을 참조하십시오.
 
 ### AEM 사이트 출력 생성에 문서 제목 사용
 
@@ -158,7 +158,7 @@ AEM 사이트 출력의 URL에서 문서 제목을 사용할 수 있습니다. �
 |---|------------|--------------|
 | `com.adobe.fmdita.common.SanitizeNodeName` | `nodename.systemDefinedPageName` | 부울(`true/false`). **기본값**: `false` |
 
-예를 들어 `<topichead>`의 *@navtitle*&#x200B;에 모든 특수 문자가 있고 `aemsite.pagetitle` 속성을 true로 설정한 경우 기본적으로 구분 기호를 사용합니다. `nodename.systemDefinedPageName` 속성을 true로 설정하면 첫 번째 하위 주제의 이름이 표시됩니다.
+예를 들어 *의*@navtitle`<topichead>`에 모든 특수 문자가 있고 `aemsite.pagetitle` 속성을 true로 설정한 경우 기본적으로 구분 기호를 사용합니다. `nodename.systemDefinedPageName` 속성을 true로 설정하면 첫 번째 자식 주제의 이름이 표시됩니다.
 
 
 ### AEM Sites 및 기타 형식으로 항목을 만들고 출력을 게시하기 위한 파일 이름 정리 규칙 구성 {#id2164D0KD0XA}
@@ -207,7 +207,7 @@ AEM 사이트 노드 구조를 병합하려면 다음 단계를 수행하십시�
 
 1. 노드 구조를 평면화할 요소를 식별합니다.
 
-1. `apps` 노드의 `libs` 노드를 오버레이하고 elementmapping.xml 파일을 엽니다.
+1. `libs` 노드의 `apps` 노드를 오버레이하고 elementmapping.xml 파일을 엽니다.
 
 1. 노드 구조를 평면화할 요소의 정의에 `<flatten>true</flatten>` 속성을 추가합니다. 예를 들어 `p` 요소에서 노드 구조를 병합하려면 아래와 같이 `p` 요소의 정의에 병합된 특성을 추가합니다.
 
@@ -261,7 +261,7 @@ AEM 사이트 노드 구조를 병합하려면 다음 단계를 수행하십시�
 
 **AEM 사이트 노드 구조의 병합을 방지합니다**
 
-AEM 사이트 출력에서 평면화할 노드를 지정하는 것과 마찬가지로 이 구성에서 제외할 요소를 지정할 수도 있습니다. 예를 들어 `body` 요소의 노드를 병합하려고 하지만 `body` 내의 `table` 요소를 병합하지 않으려는 경우 `table` 요소의 정의 내에 exclude 속성을 추가할 수 있습니다.
+AEM 사이트 출력에서 평면화할 노드를 지정하는 것과 마찬가지로 이 구성에서 제외할 요소를 지정할 수도 있습니다. 예를 들어 `body` 요소의 노드를 병합하려고 하지만 `table` 내의 `body` 요소를 병합하지 않으려는 경우 `table` 요소의 정의 내에 exclude 속성을 추가할 수 있습니다.
 
 병합에서 `table` 요소를 제외하려면 `table` 요소의 정의에 다음 속성을 추가하십시오.
 
@@ -269,7 +269,7 @@ AEM 사이트 출력에서 평면화할 노드를 지정하는 것과 마찬가�
 
 ### AEM 사이트 출력에서 삭제된 페이지에 대한 버전 관리 구성
 
-기존 출력 페이지 설정에 대해 **삭제 및**&#x200B;만들기&#x200B;**&#x200B;**&#x200B;옵션이 선택된 AEM 사이트 출력을 생성하면 삭제되는 페이지에 대한 버전이 만들어집니다. 삭제하기 전에 버전 생성을 중단하도록 시스템을 구성할 수 있습니다.
+기존 출력 페이지 설정에 대해 **삭제 및**&#x200B;만들기&#x200B;****옵션이 선택된 AEM 사이트 출력을 생성하면 삭제되는 페이지에 대한 버전이 만들어집니다. 삭제하기 전에 버전 생성을 중단하도록 시스템을 구성할 수 있습니다.
 
 삭제할 페이지에 대한 버전 만들기를 중지하려면 다음 단계를 수행하십시오.
 
@@ -330,7 +330,7 @@ AEM Guides에서는 DITA-OT를 사용하여 출력을 게시하는 동안 사용
 
    3. **필드 레이블**&#x200B;에 메타데이터 이름(대상)을 입력합니다.
 
-   4. **속성에 매핑** 설정에서 을(를) 지정합니다./jcr:content/metadata/&lt;메타데이터의 이름\>. 이 예제에서는 를 로 설정합니다./jcr:content/metadata/audience.
+   4. **속성에 매핑** 설정에서 을(를) 지정합니다./jcr:content/metadata/&lt;메타데이터의 이름\>. 이 예제에서는 를 로 설정합니다./jcr:content/metadata/audience
 
    다음 단계를 사용하여 필요한 모든 메타데이터 매개 변수를 추가합니다.
 
@@ -349,7 +349,7 @@ AEM Guides에서는 DITA-OT를 사용하여 출력을 게시하는 동안 사용
 
    >[!NOTE]
    >
-   > metadataList 파일에는 맵 대시보드에 있는 DITA 맵의 **속성** 드롭다운 목록에 표시되는 속성 목록이 포함되어 있습니다. 기본적으로 이 파일에는 doctstate, dc:language, dc:description, dc:title 등 네 가지 속성이 나열됩니다.
+   > metadataList 파일에는 맵 대시보드에 있는 DITA 맵의 **속성** 드롭다운 목록에 표시되는 속성 목록이 포함되어 있습니다. 기본적으로 이 파일에는 doctstate, dc:language, dc:description, dc:title 등 네 가지 속성이 있습니다.
 
 1. 메타데이터 스키마 Forms 페이지에서 추가한 사용자 지정 메타데이터를 추가합니다. 이 예제에서는 기본 목록의 끝에 대상 매개 변수를 추가합니다.
 
@@ -446,7 +446,7 @@ AEM Guides의 DITA 요소는 해당 AEM 구성 요소에 매핑됩니다. AEM Gu
 
 >[!NOTE]
 >
-> ``libs`` 노드에서 사용할 수 있는 기본 구성 파일의 사용자 지정을 만들지 마십시오. ``apps`` 노드에서 ``libs`` 노드의 오버레이를 만들고 ``apps`` 노드에서만 필요한 파일을 업데이트해야 합니다.
+> ``libs`` 노드에서 사용할 수 있는 기본 구성 파일의 사용자 지정을 만들지 마십시오. ``libs`` 노드에서 ``apps`` 노드의 오버레이를 만들고 ``apps`` 노드에서만 필요한 파일을 업데이트해야 합니다.
 
 미리 정의된 DITA 요소 매핑을 사용하거나 DITA 요소를 사용자 정의 AEM 구성 요소에 매핑할 수 있습니다. 사용자 지정 AEM 구성 요소를 사용하려면 `elementmapping.xml` 파일의 구조를 이해해야 합니다.
 
@@ -483,7 +483,7 @@ AEM Guides의 DITA 요소는 해당 AEM 구성 요소에 매핑됩니다. AEM Gu
    </ditaelement>
    ```
 
-   위의 예에서 `task` 요소에 대해 정의된 매핑이 없으면 `task`이(가) `topic` 구성 요소에서 상속되므로 `task` 요소가 위 구성 요소에 매핑됩니다.
+   위의 예에서 `task` 요소에 대해 정의된 매핑이 없으면 `task`이(가) `task` 구성 요소에서 상속되므로 `topic` 요소가 위 구성 요소에 매핑됩니다.
 
 1. 요소에 해당 구성 요소 매핑이 있는 경우 자식 요소의 추가 처리는 `type`에 의해 결정됩니다. 예:
 
@@ -595,7 +595,7 @@ AEM Guides의 DITA 요소는 해당 AEM 구성 요소에 매핑됩니다. AEM Gu
 | `<class>` | 구성 요소를 작성할 대상 DITA 요소의 클래스 특성입니다.<br> 예를 들어 DITA 주제의 클래스 특성은 <br>입니다. `- topic/topic` |
 | `<componentpath>` | 매핑된 AEM 구성 요소의 CRXDE 경로. |
 | `<type>` | 가능한 값: <br> -   **COMPOSITE**: 하위 요소와 <br> -   **독립 실행형**: 하위 요소의 처리를 건너뜁니다. |
-| `<attributeprop>` | 직렬화된 DITA 속성 및 값을 AEM 노드에 속성으로 매핑하는 데 사용됩니다. 예를 들어, 요소가 `<note type="Caution">`이고 이 요소에 대해 매핑된 구성 요소에 `<attributeprop>attr_t</ attributeprop>`이(가) 있으면 노드의 특성 및 값이 해당 AEM 노드 \( `attr_t->type="caution"`\)의 `attr_t` 속성으로 serialize됩니다. |
+| `<attributeprop>` | 직렬화된 DITA 속성 및 값을 AEM 노드에 속성으로 매핑하는 데 사용됩니다. 예를 들어, 요소가 `<note type="Caution">`이고 이 요소에 대해 매핑된 구성 요소에 `<attributeprop>attr_t</ attributeprop>`이(가) 있으면 노드의 특성 및 값이 해당 AEM 노드 \( `attr_t`\)의 `attr_t->type="caution"` 속성으로 serialize됩니다. |
 | `<textprop>propname_t</textprop>` | `getTextContent()` 출력을 `propname_t.` <br>에 의해 정의된 속성에 저장 **참고:** 최적화된 속성입니다. |
 | `<xmlprop>propname_x </xmlprop>` | 이 노드의 serialize된 XML을 `propname_x.<br> `**에 의해 정의된 속성에 저장합니다. 참고:** 최적화된 속성입니다. |
 | `<xpath>` | 요소 매핑에 XPath 요소가 제공된 경우 요소 이름 및 클래스와 함께 사용할 구성 요소 매핑에 대해 XPath 조건도 충족해야 합니다. |
@@ -603,7 +603,7 @@ AEM Guides의 DITA 요소는 해당 AEM 구성 요소에 매핑됩니다. AEM Gu
 | `<wrapelement>` | 내에서 콘텐츠를 래핑할 HTML 요소입니다. |
 | `<wrapclass>` | 속성 `wrapclass.`에 대한 요소 값 |
 | `<attributemap>` | 하나 이상의 `<attribute>` 노드가 포함된 컨테이너 노드입니다. |
-| `<attribute from="attrname" to="propname" ispath="true|false" rel="source|target" />` | DITA 특성을 AEM 속성에 매핑합니다. <br> -   **`from`**: DITA 특성 이름 <br> -   **`to`**: AEM 구성 요소 속성 이름 <br> -   **`ispath`**: 속성이 경로 값인 경우 \(예: *image*\) <br> -   **`rel`**: 경로가 원본 또는 대상 <br>인 경우 **참고:** `attrname`이(가) `%`(으)로 시작하는 경우 `attrname minus '%'`을(를) prop &#39; `propname`&#39;에 매핑합니다. |
+| `<attribute from="attrname" to="propname" ispath="true\|false" rel="source\|target" />` | DITA 특성을 AEM 속성에 매핑합니다. <br> -   **`from`**: DITA 특성 이름 <br> -   **`to`**: AEM 구성 요소 속성 이름 <br> -   **`ispath`**: 속성이 경로 값인 경우 \(예: *image*\) <br> -   **`rel`**: 경로가 원본 또는 대상 <br>인 경우 **참고:** `attrname`이(가) `%`(으)로 시작하는 경우 `attrname minus '%'`을(를) prop &#39; `propname`&#39;에 매핑합니다. |
 
 **추가 참고 사항**
 
@@ -615,7 +615,7 @@ AEM Guides의 DITA 요소는 해당 AEM 구성 요소에 매핑됩니다. AEM Gu
 
 - 일부 \(전체가 아님\)의 요소 매핑을 재정의하려는 경우 전체 `elementmapping.xml` 파일을 복제하지 않아도 됩니다. 새 XML 매핑 파일을 만들고 재정의하는 요소만 정의해야 합니다.
 
-- 사용자 지정 위치에서 XML 파일을 만든 후 `com.adobe.fmdita.config.ConfigManager` 번들의 `Override Element Mapping` 설정을 업데이트합니다.
+- 사용자 지정 위치에서 XML 파일을 만든 후 `Override Element Mapping` 번들의 `com.adobe.fmdita.config.ConfigManager` 설정을 업데이트합니다.
 
 
 ## DITA 맵 콘솔 사용자 정의 {#id188HC08M0CZ}
@@ -630,17 +630,17 @@ AEM Guides은 맵 콘솔을 사용자 지정할 `apps.fmdita.dashboard-extn` 범
 
 >[!NOTE]
 >
-> AEM 클라이언트 라이브러리를 만드는 방법에 대한 자세한 내용은 [클라이언트측 라이브러리 사용](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=ko)을 참조하십시오.
+> AEM 클라이언트 라이브러리를 만드는 방법에 대한 자세한 내용은 [클라이언트측 라이브러리 사용](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=en)을 참조하십시오.
 
 ## 출력 생성 중 이미지 렌디션 처리 {#id177BF0G0VY4}
 
-AEM에는 자산을 처리하는 기본 워크플로우 및 미디어 핸들 세트가 포함되어 있습니다. AEM에는 가장 일반적인 MIME 유형에 대한 에셋 처리를 처리하는 미리 정의된 워크플로가 있습니다. 일반적으로 AEM은 업로드하는 모든 이미지에 대해 동일한 여러 렌디션을 이진 형식으로 만듭니다. 이러한 렌디션은 크기가 다르고 해상도가 다르며 워터마크가 추가되거나 다른 특성이 변경될 수 있습니다. AEM에서 자산을 처리하는 방법에 대한 자세한 내용은 AEM 설명서에서 [미디어 핸들러 및 워크플로우를 사용하여 Assets 처리](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=ko)를 참조하십시오.
+AEM에는 자산을 처리하는 기본 워크플로우 및 미디어 핸들 세트가 포함되어 있습니다. AEM에는 가장 일반적인 MIME 유형에 대한 에셋 처리를 처리하는 미리 정의된 워크플로가 있습니다. 일반적으로 AEM은 업로드하는 모든 이미지에 대해 동일한 여러 렌디션을 이진 형식으로 만듭니다. 이러한 렌디션은 크기가 다르고 해상도가 다르며 워터마크가 추가되거나 다른 특성이 변경될 수 있습니다. AEM에서 자산을 처리하는 방법에 대한 자세한 내용은 AEM 설명서에서 [미디어 핸들러 및 워크플로우를 사용하여 Assets 처리](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=en)를 참조하십시오.
 
 AEM Guides을 사용하면 문서에 대한 출력을 생성할 때 사용할 이미지 렌디션을 구성할 수 있습니다. 예를 들어 기본 이미지 표현물 중 하나를 선택하거나 표현물을 만들어 이를 사용하여 문서를 게시할 수 있습니다. 문서를 게시하기 위한 이미지 렌디션 매핑은 `/libs/fmdita/config/ **renditionmap.xml**` 파일에 저장됩니다. `renditionmap.xml` 파일의 스니펫은 다음과 같습니다.
 
 >[!NOTE]
 >
-> 모든 사용자 지정에 대해 `apps` 폴더에 `renditionmap.xml` 파일의 복사본을 만드는 것이 좋습니다.
+> 모든 사용자 지정에 대해 `renditionmap.xml` 폴더에 `apps` 파일의 복사본을 만드는 것이 좋습니다.
 
 ```XML
 <renditionmap>
@@ -686,8 +686,8 @@ AEM Guides을 사용하면 문서에 대한 출력을 생성할 때 사용할 �
 
 | PID | 속성 키 | 속성 값 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `output.history.purgeperiod` | 출력 로그와 함께 출력 기록이 삭제되는 일 수를 지정합니다. 이 기능을 사용하지 않으려면 이 속성을 0.Everyday로 설정합니다. 지정된 시간에 이 속성에 지정된 일 수 전에 생성된 출력에서 제거 프로세스가 실행됩니다. <br> **기본값**: 5 |
-| `output.history.purgetime` | 삭제 프로세스가 시작되는 시간을 지정합니다. <br> **기본값**: 0:00 \(또는 12:00 자정\) |
+| `com.adobe.fmdita.config.ConfigManager\|output.history.purgeperiod` | 출력 로그와 함께 출력 기록이 삭제되는 일 수를 지정합니다. 이 기능을 사용하지 않으려면 이 속성을 0.Everyday로 설정합니다. 지정된 시간에 이 속성에 지정된 일 수 전에 생성된 출력에서 제거 프로세스가 실행됩니다. | **기본값**: 5 |
+| `output.history.purgetime` | 삭제 프로세스가 시작되는 시간을 지정합니다. | **기본값**: 0:00 \(또는 12:00 자정\) |
 
 ## 최근에 생성된 출력 목록 제한 변경 {#id1679JH0H0O2}
 

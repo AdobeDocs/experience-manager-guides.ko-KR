@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 41c0d4d5-5c46-4d2b-90b3-8c441fee8e99
-source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '2404'
 ht-degree: 0%
@@ -115,4 +115,4 @@ AEM Sites 출력에서 문자열을 검색할 수 있습니다. 기본적으로 
 
 자세한 내용은 Adobe Experience Manager Guides 설치 및 구성 안내서의 *AEM 사이트 노드 구조 병합 구성* 섹션을 참조하십시오.
 
-**상위 항목:**&#x200B;[&#x200B;출력 사전 설정 이해](generate-output-understand-presets.md)
+**상위 항목:**[&#x200B;출력 사전 설정 이해](generate-output-understand-presets.md)

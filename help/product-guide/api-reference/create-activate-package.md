@@ -5,9 +5,9 @@ exl-id: 90686f77-a769-44bc-90eb-116cf9d0341e
 feature: Rest API Packages
 role: Developer
 level: Experienced
-source-git-commit: b95a64ca2e8ebffebec3d8ff8704f76f7faceca2
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
@@ -46,14 +46,13 @@ Cloud Service의 경우 `preview` 또는 `publish`, 온-프레미스 소프트�
 
 - On-premise Software의 경우 매개 변수에 잘못된 값이 있으면 오류가 기록되고 기본값 `publish`을(를) 사용하여 게시가 수행됩니다.
 
-선택적 매개 변수 `activationTarget`을(를) 정의하지 않으면 Cloud Service 및 온-프레미스 소프트웨어 모두에 대해 기본 게시 에이전트를 사용하여 활성화됩니다.
+선택적 매개 변수 `activationTarget`을(를) 정의하지 않으면 Cloud Service 및 On-premise Software 모두에 대해 기본 게시 에이전트를 사용하여 활성화됩니다.
 
 
 
 다음 예는 선택적 매개 변수와 함께 curl 명령을 사용하는 API 호출을 보여줍니다.
 
 
-    &quot;XML
-    
-    curl -u &lt;*username*>:&lt;*password*> -H &quot;Content-Type: application/json; charset=UTF-8&quot; -k -X POST -d &quot;{[JSON rules string](create-activate-package-java.md#example-create-activate-package-id198JH0B905Z)}&quot; http://&lt;*aem-guides-server*>:&lt;*port-number*>/bin/fmdita/activate?activationTarget=`&lt;validActivationTargetValue>`
-    &quot;
+```XML
+curl -u <*username*>:<*password*> -H "Content-Type: application/json; charset=UTF-8"  -k -X POST -d "{[JSON rules string](create-activate-package-java.md#example-create-activate-package-id198JH0B905Z)}" http://<*aem-guides-server*>:<*port-number*>/bin/fmdita/activate?activationTarget=`<validActivationTargetValue>`
+```

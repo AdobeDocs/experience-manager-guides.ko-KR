@@ -5,7 +5,7 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: f53f4eef-5e99-4342-9919-508b90ee3571
-source-git-commit: dfac88a4a1ca0247a4b1f07982e178fd7126d2e2
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1507'
 ht-degree: 1%
@@ -179,10 +179,10 @@ UUID가 아닌 버전 4.3.1에서 다음 검사를 수행합니다.
 
 | 프로세스 완료 후 요약 | 어떻게 해석합니까? | 작업 |
 |---|---|---|
-| 총 파일 수: 4833 | 기준선이 1개 이상인 DITA 맵 수. |
-| 성공적으로 업그레이드된 파일 수: 4705 | 모든 기준선을 사용하여 성공적으로 업그레이드된 DITA 맵 수입니다. |
-| 오류가 발생하여 업그레이드된 파일 수: 0 | 기준선이 업그레이드되지 않은 DITA 맵 수입니다. |
-| 건너뛴 파일 수: 1647 | 기준선이 없는 DITA 맵 수입니다. |
+| 총 파일 수: 4833 | 기준선이 1개 이상인 DITA 맵 수. |  |
+| 성공적으로 업그레이드된 파일 수: 4705 | 모든 기준선을 사용하여 성공적으로 업그레이드된 DITA 맵 수입니다. |  |
+| 오류가 발생하여 업그레이드된 파일 수: 0 | 기준선이 업그레이드되지 않은 DITA 맵 수입니다. |  |
+| 건너뛴 파일 수: 1647 | 기준선이 없는 DITA 맵 수입니다. |  |
 | 업그레이드하지 못한 파일 수: 128 | 유효하지 않은(비어 있는) 기준선 개체의 수가 보고서(Excel)에 나열됩니다. | `baselineObj not found on` 이외의 오류가 있는지 확인 |
 
 
@@ -220,5 +220,5 @@ UUID가 아닌 버전 4.3.1에서 다음 검사를 수행합니다.
    > 마이그레이션 전에 **내의** AEM 사이트 페이지 이름에 제목 사용`com.adobe.fmdita.config.ConfigManager` 속성이 *False*(으)로 설정된 경우 마이그레이션 후에 이 속성을 업데이트해야 합니다.
 
 
-1. 유효성 검사가 완료되면 압축을 실행하여 대부분의 디스크 공간을 회수할 수 있습니다(`https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=ko` 참조).
+1. 유효성 검사가 완료되면 압축을 실행하여 대부분의 디스크 공간을 회수할 수 있습니다(`https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en` 참조).
 

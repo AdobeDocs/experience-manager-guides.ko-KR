@@ -2,7 +2,8 @@
 title: 릴리스 정보 | Adobe Experience Manager Guides 4.6.0 서비스 팩 4 릴리스의 업그레이드 지침
 description: Adobe Experience Manager Guides 4.6.0 서비스 팩 4 릴리스로 업그레이드하는 방법에 대해 알아봅니다
 role: Leader
-source-git-commit: f6d5b1abb9e9a50d2564e8199b04129e3bc0f256
+exl-id: d0914e8a-7c7f-47da-9655-697f95f7d4ff
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 1%
@@ -11,7 +12,7 @@ ht-degree: 1%
 
 # 4.6.0 서비스 팩 4 릴리스(2025년 4월)의 업그레이드 지침
 
-이 문서에서는 Adobe Experience Manager Guides의 4.6.0 서비스 팩 4 릴리스에 대한 업그레이드 지침 및 호환성 매트릭스에 대해 설명합니다.
+이 문서에서는 Adobe Experience Manager Guides 4.6.0 서비스 팩 4 릴리스의 업그레이드 지침 및 호환성 매트릭스를 다룹니다.
 
 이 릴리스에서 해결된 문제 목록을 보려면 [4.6.0 서비스 팩 4 릴리스에서 해결된 문제](fixed-issues-4-6-0-sp4.md)를 확인하십시오.
 
@@ -27,15 +28,15 @@ ht-degree: 1%
 **4.6.0 서비스 팩 4 UUID**
 버전 6.5 서비스 팩 21, 20 및 19
 
-자세한 내용은 On-Premise 설치 및 구성 안내서의 기술 요구 사항[&#128279;](../install-guide/download-install-technical-requirements.md) 섹션을 참조하십시오.
+자세한 내용은 On-Premise 설치 및 구성 안내서의 [기술 요구 사항](../install-guide/download-install-technical-requirements.md) 섹션을 참조하십시오.
 
-### FrameMaker 및 FrameMaker 퍼블리싱 서버
+### FrameMaker 및 FrameMaker Publishing Server
 
-| 릴리스 | FMPS 2022 | FMPS 2020 | 에프엠 2022 | 에프엠 2020 |
+| 릴리스 | FMPS 2022 | FMPS 2020 | FM | FM |
 | --- | --- | --- | --- | --- |
-| 4.6.0 서비스 팩 4(비UUID) | 2022년 이상 | 2020.2 이상* | 2022년 이상 | 2020.3 이상 |
+| 4.6.0 서비스 팩 4(비 UUID) | 2022년 이상 | 2020.2 이상* | 2022년 이상 | 2020.3 이상 |
 | 4.6.0 서비스 팩 4(UUID) | 2022년 이상 | 2020.2 이상* | 2022년 이상 | 2020.4 이상 |
-| | | | |
+| | | | | |
 
 *AEM에서 생성된 기준 및 조건은 2020.2년부터 FMPS 릴리스에서 지원됩니다.
 
@@ -45,21 +46,21 @@ ht-degree: 1%
 | --- | --- | --- |--- |--- |
 | 4.6.0 서비스 팩 4(비 UUID) | 2.8-regular-10 | 2.8-regular-10 | 1.6 | 1.6 |
 | 4.6.0 서비스 팩 4(UUID) | 3.6-uuid.9 | 3.6-uuid.9 | 2.3 | 2.3 |
-|  |  |   |
+|  |  |   |  |  |
 
 ### 기술 자료 템플릿 버전
 
 | 구성 요소 패키지 이름 | 구성 요소 버전 | 템플릿 버전 |
 |---|---|---|
-| Experience Manager 안내서 구성 요소 Cloud Service용 컨텐츠 패키지 | dxml-components.all-1.2.2 | aem-site-template-dxml.all-1.0.15 |
+| Cloud Service용 Experience Manager Guides 구성 요소 콘텐츠 패키지 | dxml-components.all-1.2.2 | aem-site-template-dxml.all-1.0.15 |
 
-### AEM Site 템플릿 버전 새로 만들기
+### 새 AEM 사이트 템플릿 버전
 
 | 구성 요소 버전 | 사이트 버전 |
 |---|---|
 | guides-components.all-1.0.0 | aemg-docs.all-1.0.0 |
 
-## Experience Manager Guides의 4.6.0 서비스 팩 4 릴리스로 업그레이드
+## Experience Manager Guides 4.6.0 서비스 팩 4 릴리스로 업그레이드
 
 현재 버전의 Guides를 4.6.0 서비스 팩 4로 쉽게 업그레이드할 수 있습니다. 업그레이드를 진행하기 전에 다음 사항을 고려해야 합니다.
 
@@ -68,7 +69,7 @@ ht-degree: 1%
 - 버전 4.2, 4.2.1(핫픽스 4.2.1.3), 4.1 또는 4.1.x를 사용하는 경우 버전 4.6.0으로 업그레이드하기 전에 버전 4.4로 업그레이드해야 합니다.
 - 버전 4.0을 사용 중인 경우 버전 4.3.x로 업그레이드하기 전에 버전 4.2로 업그레이드해야 합니다.
 - 버전 3.8.5를 사용하는 경우 버전 4.2로 업그레이드하기 전에 버전 4.0으로 업그레이드해야 합니다.
-- 3.8.5 이전 버전을 사용하는 경우 Adobe Experience Manager 안내서 도움말 PDF 아카이브[&#128279;](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/archive.html)에서 사용할 수 있는 제품별 설치 안내서의 업그레이드 Experience Manager 안내서 섹션을 참조하십시오.
+- 3.8.5 이전 버전을 사용하는 경우 [Experience Manager Guides 도움말 PDF 보관](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)에 있는 제품별 설치 안내서의 Adobe Experience Manager Guides 업그레이드 섹션을 참조하십시오.
 
 >[!NOTE]
 >

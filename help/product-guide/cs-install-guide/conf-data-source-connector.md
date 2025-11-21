@@ -5,7 +5,7 @@ exl-id: 6e01098b-53fe-41e0-bffe-9ad056d4a9b3
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 0%
@@ -26,17 +26,17 @@ JSON 파일을 업로드하여 기본 제공 커넥터를 구성할 수 있습�
 
 ```
 {
-	"connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.rest.JiraConnector",
-	"configName": "Jira",
-	"templateFolders": ["/content/dam/dita-templates/konnect/jira"],
-	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthUserNamePasswordRestConfig",
-		"configData": {
-			"username": "jirausername",
-			"password": "jirapassword",
-			"url": "https://jira.corp.adobe.com/rest/api/latest/search"
-		}
-	}
+    "connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.rest.JiraConnector",
+    "configName": "Jira",
+    "templateFolders": ["/content/dam/dita-templates/konnect/jira"],
+    "connectionConfig": {
+        "configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthUserNamePasswordRestConfig",
+        "configData": {
+            "username": "jirausername",
+            "password": "jirapassword",
+            "url": "https://jira.corp.adobe.com/rest/api/latest/search"
+        }
+    }
 }
 ```
 
@@ -46,16 +46,16 @@ JSON 파일을 업로드하여 기본 제공 커넥터를 구성할 수 있습�
 
 ```
 {
-	"connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.rest.JiraConnector",
-	"configName": "Jira",
-	"templateFolders": ["/content/dam/dita-templates/konnect/jira"],
-	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthTokenRestConfig",
-		"configData": {
-			"token": "jiraauthtoken",
-			"url": "https://jira.corp.adobe.com/rest/api/latest/search"
-		}
-	}
+    "connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.rest.JiraConnector",
+    "configName": "Jira",
+    "templateFolders": ["/content/dam/dita-templates/konnect/jira"],
+    "connectionConfig": {
+        "configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthTokenRestConfig",
+        "configData": {
+            "token": "jiraauthtoken",
+            "url": "https://jira.corp.adobe.com/rest/api/latest/search"
+        }
+    }
 }
 ```
 
@@ -65,16 +65,16 @@ JSON 파일을 업로드하여 기본 제공 커넥터를 구성할 수 있습�
 
 ```
 {
-	"connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.rest.JiraConnector",
-	"configName": "Jira",
-	"templateFolders": ["/content/dam/dita-templates/konnect/jira"],
-	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthTokenRestConfig",
-		"configData": {
-			"token": "Basic jiraauthtoken",
-			"url": "https://jira.corp.adobe.com/rest/api/latest/search"
-		}
-	}
+    "connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.rest.JiraConnector",
+    "configName": "Jira",
+    "templateFolders": ["/content/dam/dita-templates/konnect/jira"],
+    "connectionConfig": {
+        "configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthTokenRestConfig",
+        "configData": {
+            "token": "Basic jiraauthtoken",
+            "url": "https://jira.corp.adobe.com/rest/api/latest/search"
+        }
+    }
 }
 ```
 
@@ -84,18 +84,18 @@ MySql의 기본 인증을 위한 샘플 설치 파일:
 
 ```
 {
-	"connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.sql.MySqlConnector",
-	"configName": "MySQL",
-	"templateFolders": ["/content/dam/dita-templates/konnect/sql"],
-	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.sql.UserPassSqlConfig",
-		"configData": {
-			"username": "admin",
-			"password": "admin",
-			"driver": "com.mysql.jdbc.Driver",
-			"connectionString": "jdbc:mysql://host.corp.adobe.com:3306/plm"
-		}
-	}
+    "connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.sql.MySqlConnector",
+    "configName": "MySQL",
+    "templateFolders": ["/content/dam/dita-templates/konnect/sql"],
+    "connectionConfig": {
+        "configClazz": "com.adobe.guides.konnect.definitions.ootb.config.sql.UserPassSqlConfig",
+        "configData": {
+            "username": "admin",
+            "password": "admin",
+            "driver": "com.mysql.jdbc.Driver",
+            "connectionString": "jdbc:mysql://host.corp.adobe.com:3306/plm"
+        }
+    }
 }
 ```
 
@@ -105,18 +105,18 @@ PostgreSQL의 기본 인증을 위한 샘플 설치 파일:
 
 ```
 {
-	"connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.sql.PostgreSqlConnector",
-	"configName": "PostgreSQL",
-	"templateFolders": ["/content/dam/dita-templates/konnect/sql"],
-	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.sql.UserPassSqlConfig",
-		"configData": {
-			"username": "admin",
-			"password": "admin",
-			"driver": "org.postgresql.Driver",
-			"connectionString": "jdbc:postgresql://host:port/database"
-		}
-	}
+    "connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.sql.PostgreSqlConnector",
+    "configName": "PostgreSQL",
+    "templateFolders": ["/content/dam/dita-templates/konnect/sql"],
+    "connectionConfig": {
+        "configClazz": "com.adobe.guides.konnect.definitions.ootb.config.sql.UserPassSqlConfig",
+        "configData": {
+            "username": "admin",
+            "password": "admin",
+            "driver": "org.postgresql.Driver",
+            "connectionString": "jdbc:postgresql://host:port/database"
+        }
+    }
 }
 ```
 
@@ -126,18 +126,18 @@ Microsoft SQL Server의 기본 인증을 위한 샘플 설치 파일:
 
 ```
 {
-	"connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.sql.MsSqlServerConnector",
-	"configName": "MSSQLServer",
-	"templateFolders": ["/content/dam/dita-templates/konnect/sql"],
-	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.sql.UserPassSqlConfig",
-		"configData": {
-			"username": "admin",
-			"password": "admin",
-			"driver": "com.microsoft.sqlserver.jdbc.SQLServerDriver",
-			"connectionString": "jdbc:sqlserver://10.10.10.10\\SQLEXPRESS01:1433;database=TutorialDB;encrypt=false;trustServerCertificate=true"
-		}
-	}
+    "connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.sql.MsSqlServerConnector",
+    "configName": "MSSQLServer",
+    "templateFolders": ["/content/dam/dita-templates/konnect/sql"],
+    "connectionConfig": {
+        "configClazz": "com.adobe.guides.konnect.definitions.ootb.config.sql.UserPassSqlConfig",
+        "configData": {
+            "username": "admin",
+            "password": "admin",
+            "driver": "com.microsoft.sqlserver.jdbc.SQLServerDriver",
+            "connectionString": "jdbc:sqlserver://10.10.10.10\\SQLEXPRESS01:1433;database=TutorialDB;encrypt=false;trustServerCertificate=true"
+        }
+    }
 }
 ```
 
@@ -147,18 +147,18 @@ SQLite의 기본 인증을 위한 샘플 설치 파일:
 
 ```
 {
-	"connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.sql.SqliteConnector",
-	"configName": "SQLiteServer",
-	"templateFolders": ["/content/dam/dita-templates/konnect/sql"],
-	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.sql.UserPassSqlConfig",
-		"configData": {
-			"username": "admin",
-			"password": "admin",
-			"driver": "org.sqlite.JDBC",
-			"connectionString": "jdbc:sqlite:sample.db"
-		}
-	}
+    "connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.sql.SqliteConnector",
+    "configName": "SQLiteServer",
+    "templateFolders": ["/content/dam/dita-templates/konnect/sql"],
+    "connectionConfig": {
+        "configClazz": "com.adobe.guides.konnect.definitions.ootb.config.sql.UserPassSqlConfig",
+        "configData": {
+            "username": "admin",
+            "password": "admin",
+            "driver": "org.sqlite.JDBC",
+            "connectionString": "jdbc:sqlite:sample.db"
+        }
+    }
 }
 ```
 
@@ -170,18 +170,18 @@ H2DB용 샘플 설정 파일:
 
 ```
 {
-	"connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.sql.H2DBConnector",
-	"configName": "H2DBConnector",
-	"templateFolders": ["/content/dam/dita-templates/konnect/sql"],
-	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.sql.UserPassSqlConfig",
-		"configData": {
-			"username": "admin",
-			"password": "admin",
-			"driver": "org.h2.Driver",
-			"connectionString": "jdbc:h2:file:D:/h2db/db"
-		}
-	}
+    "connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.sql.H2DBConnector",
+    "configName": "H2DBConnector",
+    "templateFolders": ["/content/dam/dita-templates/konnect/sql"],
+    "connectionConfig": {
+        "configClazz": "com.adobe.guides.konnect.definitions.ootb.config.sql.UserPassSqlConfig",
+        "configData": {
+            "username": "admin",
+            "password": "admin",
+            "driver": "org.h2.Driver",
+            "connectionString": "jdbc:h2:file:D:/h2db/db"
+        }
+    }
 }
 ```
 
@@ -193,18 +193,18 @@ MariaDb의 기본 인증을 위한 샘플 설정 파일:
 
 ```
 {
-	"connectorClazz": "com.adobe.guides.sample.konnect.connector.MariaDBConnector",
-	"configName": "SampleMariaDbConnector",
-	"templateFolders": ["/content/dam/dita-templates/konnect/sql"],
-	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.sql.UserPassSqlConfig",
-		"configData": {
-			"username": "admin",
-			"password": "admin",
-			"driver": "org.mariadb.jdbc.Driver",
-			"connectionString": "jdbc:mariadb://no1010042073107.corp.adobe.com:3308/mysql"
-		}
-	}
+    "connectorClazz": "com.adobe.guides.sample.konnect.connector.MariaDBConnector",
+    "configName": "SampleMariaDbConnector",
+    "templateFolders": ["/content/dam/dita-templates/konnect/sql"],
+    "connectionConfig": {
+        "configClazz": "com.adobe.guides.konnect.definitions.ootb.config.sql.UserPassSqlConfig",
+        "configData": {
+            "username": "admin",
+            "password": "admin",
+            "driver": "org.mariadb.jdbc.Driver",
+            "connectionString": "jdbc:mariadb://no1010042073107.corp.adobe.com:3308/mysql"
+        }
+    }
 }
 ```
 
@@ -215,16 +215,16 @@ Elasticsearch의 기본 인증을 위한 샘플 설정 파일:
 
 ```
 {
-	"connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.rest.ElasticsearchConnector",
-	"configName": "SampleES",
-	"templateFolders": ["/content/dam/dita-templates/konnect/sql"],
-	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthUserNamePasswordRestConfig",
-		"configData": {
-			"username": "admin",
-			"password": "admin",    	
-			"url": "https://testsearch-1370045986.us-east-1.bonsaisearch.net:443"   }
-	}
+    "connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.rest.ElasticsearchConnector",
+    "configName": "SampleES",
+    "templateFolders": ["/content/dam/dita-templates/konnect/sql"],
+    "connectionConfig": {
+        "configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthUserNamePasswordRestConfig",
+        "configData": {
+            "username": "admin",
+            "password": "admin",        
+            "url": "https://testsearch-1370045986.us-east-1.bonsaisearch.net:443"   }
+    }
 }
 ```
 
@@ -249,14 +249,14 @@ AdobeCommerce NoAuth에 대한 샘플 설정 파일:
 
 ```
 {
-	"connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.graphql.AdobeCommerceConnector",
-	"configName": "SampleCommerce",
-	"templateFolders": ["/content/dam/dita-templates/konnect"],
-	"connectionConfig": {   "configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.NoAuthRestConfig",
+    "connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.graphql.AdobeCommerceConnector",
+    "configName": "SampleCommerce",
+    "templateFolders": ["/content/dam/dita-templates/konnect"],
+    "connectionConfig": {   "configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.NoAuthRestConfig",
    "configData": {
-   			"url": "http://host/graphql"   
-		}
-	}
+               "url": "http://host/graphql"   
+        }
+    }
 }
 ```
 
@@ -264,7 +264,7 @@ AdobeCommerce NoAuth에 대한 샘플 설정 파일:
 
 ### 커넥터 구성 사용자 정의
 
-AEM Guides을 사용하면 사용자의 요구 사항에 맞게 구성 파일의 일부 값을 사용자 지정할 수 있습니다.
+AEM Guides을 사용하면 사용자의 요구 사항에 맞게 구성 파일의 일부 값을 사용자 정의할 수 있습니다.
 
 | 속성 이름 | 설명 |
 |---|---|

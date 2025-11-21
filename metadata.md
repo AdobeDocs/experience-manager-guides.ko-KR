@@ -6,9 +6,11 @@ product: Experience Manager
 type: Documentation
 solution: Experience Manager, Experience Manager Guides
 feature-set: Experience Manager Guides
+landing-page-name: experience-manager-guides
+landing-page-breadcrumb-title: AEM Guides
 role: User
 index: true
-source-git-commit: 2e9ef1c687a2bf5b027d83e5ca8132b61aad0e5b
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '53'
 ht-degree: 98%

@@ -5,9 +5,9 @@ exl-id: 4d3e0fc1-b684-44f9-ab0d-411033024019
 feature: DITA-OT Configuration
 role: Admin
 level: Experienced
-source-git-commit: 3119ef32a753afac9405af31a241ae508f922ea7
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '1701'
+source-wordcount: '1700'
 ht-degree: 0%
 
 ---
@@ -48,11 +48,11 @@ AEM Guides에서 사용할 수 있는 기본 DITA-OT 패키지에는 MathML 방�
 
    - Mac/Linux OS에서 통합자 \(사용자 정의 플러그인\ 설치)를 실행하여 파일 구분 기호 관련 문제를 방지합니다. Windows 및 Linux OS의 파일 구분 기호가 다르므로 Mac/Linux OS에 통합된 플러그인은 Windows 및 Linux 설치와 모두 호환됩니다.
    - `DITA-OT.ZIP` 파일에 관련된 모든 플러그인 및 파일이 있는 &quot;DITA-OT&quot;라는 폴더가 있는지 확인하십시오.
-   - 만든 `DITA-OT.ZIP` 파일이 mimeType: &quot;nt:file&quot; \(AEM에 업로드할 때 ZIP 파일의 기본 유형에 해당됨\)인지 확인하십시오. WebDAV 도구 또는 코드 배포를 사용하여 이 ZIP 파일을 AEM의 원하는 경로로 업로드합니다. \(이 ZIP은 AEM 컨텐츠 패키지가 아니라 아카이브 파일이므로 AEM 패키지 관리자를 사용하여 이 ZIP 파일을 배포하지 마십시오.\)
+   - 만든 `DITA-OT.ZIP` 파일이 mimeType인지 확인하십시오: &quot;nt:file&quot; \(AEM에 업로드할 때 기본 ZIP 파일 형식에 해당\). WebDAV 도구 또는 코드 배포를 사용하여 이 ZIP 파일을 AEM의 원하는 경로로 업로드합니다. \(이 ZIP은 AEM 컨텐츠 패키지가 아니라 아카이브 파일이므로 AEM 패키지 관리자를 사용하여 이 ZIP 파일을 배포하지 마십시오.\)
 
    >[!NOTE]
    >
-   > 기본 DITA-OT 패키지를 덮어쓰지 않는 것이 좋습니다. 플러그인 /var/dxml/dita\_resources/dita-ot 폴더가 포함된 사용자 지정 DITA-OT 패키지를 업로드해야 합니다. Cloud Manager 파이프라인을 사용하여 수행할 수도 있습니다. 자세한 내용은 AEM 설명서에서 [AEM as a Cloud Service에 배포](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=ko)를 참조하십시오.
+   > 기본 DITA-OT 패키지를 덮어쓰지 않는 것이 좋습니다. 플러그인 /var/dxml/dita\_resources/dita-ot 폴더가 포함된 사용자 지정 DITA-OT 패키지를 업로드해야 합니다. Cloud Manager 파이프라인을 사용하여 수행할 수도 있습니다. 자세한 내용은 AEM 설명서에서 [AEM as a Cloud Service에 배포](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html)를 참조하십시오.
 
 1. 기본 프로파일을 편집하거나, 새 프로파일을 만들거나, 기본 프로파일에서 설정을 복제하여 새 프로파일을 만들 수 있습니다.
 
@@ -64,19 +64,19 @@ AEM Guides에서 사용할 수 있는 기본 DITA-OT 패키지에는 MathML 방�
 
    | 속성 이름 | 설명 |
    |-------------|-----------|
-   | **프로필 속성** |
+   | **프로필 속성** |  |
    | 프로필 이름 | 이 프로필의 고유한 이름을 제공하십시오. |
    | 출력 재사용 | *\(선택 사항\)* 프로필이 기존 프로필을 기반으로 하는 경우 이 옵션을 선택합니다. 이 옵션을 선택하면 AEM Guides에서 DITA-OT 패키지의 내용을 다시 추출하지 않고 기존 DITA-OT 패키지를 다시 사용합니다. |
    | 프로필 추출 경로 | *\(선택 사항\)* DITA-OT가 디스크에 보관되는 경로를 지정합니다. 기본적으로 AEM Guides은 저장소의 DITA-OT 패키지를 번들로 제공하고 이 경로의 디스크에서 추출됩니다. <br> **참고** 기존 시스템 변수 또는 속성을 사용하여 이 경로를 정의할 수 있습니다. 자세한 내용은 [DITA-OT 환경 변수](#id181NH0YN0AX) 속성에 대한 설명을 참조하십시오. |
    | 할당된 경로 | \(*선택 사항*\) 이 프로필을 적용할 수 있는 콘텐츠 저장소의 경로를 지정합니다. 여러 위치를 지정할 수 있습니다. |
-   | **DITA-OT 속성** |
+   | **DITA-OT 속성** |  |
    | DITA-OT 시간 초과 | \(*선택 사항*\) AEM Guides이 DITA-OT 플러그인의 응답을 기다리는 시간 \(초)을 지정합니다. 지정된 시간 내에 응답이 수신되지 않으면 AEM Guides이 게시 작업을 종료하고 작업이 실패로 플래그가 지정됩니다. 또한 출력 생성 로그 파일에서 오류 로그를 사용할 수 있습니다. <br> 기본값: 300초 \(5분\) |
    | DITA-OT PDF 인수 | PDF 출력을 생성하기 위해 사용자 지정 DITA-OT 플러그인에서 처리하는 명령줄 인수를 지정합니다. 모든 사용자 지정 DITA-OT 프로필에 대해 다음 명령줄 인수를 지정하십시오. `-lib plugins/org.dita.pdf2.fop/lib/` |
    | DITA-OT AEM 인수 | \(*선택 사항*\) AEM 사이트 출력을 생성하기 위해 사용자 지정 DITA-OT 플러그인에 의해 처리되는 사용자 지정 명령줄 인수를 지정합니다. |
    | DITA-OT 라이브러리 경로 | \(*선택 사항*\) DITA-OT 플러그인의 추가 라이브러리 경로를 지정합니다. |
    | DITA-OT 빌드 XML | \(*선택 사항*\) 사용자 지정된 DITA-OT 플러그인과 함께 번들로 제공되는 사용자 지정 Ant 빌드 스크립트의 경로를 지정합니다. 이 경로는 파일 시스템의 DITA-OT 디렉토리에 상대적입니다. |
    | DITA-OT Ant 스크립트 폴더 | \(선택 사항\) DITA-OT Ant 스크립트 폴더의 경로를 지정합니다. 이 경로는 파일 시스템의 DITA-OT 디렉토리에 상대적입니다. |
-   | DITA-OT 환경 변수 | *\(선택 사항\)* DITA-OT 프로세스에 전달할 환경 변수를 지정합니다. 기본적으로 AEM Guides에서는 `ANT_OPTS`, `ANT_HOME`, `PATH` 및 `CLASSPATH`의 네 가지 변수를 추가합니다. <br> 기존 시스템 환경 변수 또는 속성을 사용하여 새 환경 변수를 작성할 수 있습니다. 예를 들어 시스템에 `JAVA_HOME` 시스템 변수가 정의되어 있고 `JAVA_HOME`을(를) 사용하여 빌드된 `JAVA_BIN`이라는 새 환경 변수를 정의하려는 경우 `JAVA_BIN`의 정의를 `JAVA_BIN= ${JAVA_HOME}/bin` <br>(으)로 추가할 수 있습니다. **참고:** Java 시스템 속성을 사용하여 환경 변수를 작성할 수도 있습니다. 예를 들어 AEM 시작 스크립트가 임시 디렉터리에 Java 시스템 속성 `java.io.tmpdir`을(를) 정의하는 경우 이 속성을 사용하여 새 변수를 정의할 수 있습니다. `${java.io.tmpdir}/fmdita/dita_ot`. <br> **중요:** 기존 시스템 변수 또는 속성을 다시 사용하려면 `${}` 내에 묶어야 합니다. |
+   | DITA-OT 환경 변수 | *\(선택 사항\)* DITA-OT 프로세스에 전달할 환경 변수를 지정합니다. 기본적으로 AEM Guides에서는 `ANT_OPTS`, `ANT_HOME`, `PATH` 및 `CLASSPATH`의 네 가지 변수를 추가합니다. <br> 기존 시스템 환경 변수 또는 속성을 사용하여 새 환경 변수를 작성할 수 있습니다. 예를 들어 시스템에 `JAVA_HOME` 시스템 변수가 정의되어 있고 `JAVA_BIN`을(를) 사용하여 빌드된 `JAVA_HOME`이라는 새 환경 변수를 정의하려는 경우 `JAVA_BIN`의 정의를 `JAVA_BIN= ${JAVA_HOME}/bin` <br>(으)로 추가할 수 있습니다. **참고:** Java 시스템 속성을 사용하여 환경 변수를 작성할 수도 있습니다. 예를 들어 AEM 시작 스크립트가 임시 디렉터리에 Java 시스템 속성 `java.io.tmpdir`을(를) 정의하는 경우 이 속성을 사용하여 새 변수를 정의할 수 있습니다. `${java.io.tmpdir}/fmdita/dita_ot`. <br> **중요:** 기존 시스템 변수 또는 속성을 다시 사용하려면 `${}` 내에 묶어야 합니다. |
    | DITA-OT 출력 덮어쓰기 | DITA-OT 출력을 덮어쓸지 여부를 선택합니다. 이 옵션을 선택한 상태로 유지합니다. |
    | AEM DITA-OT Zip 경로 | 사용자 지정 DITA-OT.zip 파일이 AEM 저장소에 저장되는 전체 경로를 지정합니다. |
    | DITA-OT 플러그인 경로 | 사용자 지정 플러그인의 경로입니다. 이 플러그인은 기본 DITA-OT 패키지와 자동으로 통합됩니다. |
@@ -141,6 +141,6 @@ DITA 특수화는 새 요소를 추가하거나 기존 요소를 제거하여 �
    >
    > 카탈로그에 누락된 공용 ID 항목이 있거나 DITA 파일이 업로드된 로컬 파일 경로를 기준으로 하는 시스템 ID만 사용하는 경우에만 이 옵션을 선택합니다.
 
-   프로필 페이지의 다른 속성에 대한 자세한 내용은 [사용자 지정 DITA-OT 플러그인 사용](#id181NH1020L7) 섹션의 [6](#id17A9F0D075Z)단계에서 속성 표를 참조하십시오.
+   프로필 페이지의 다른 속성에 대한 자세한 내용은 [사용자 지정 DITA-OT 플러그인 사용](#id17A9F0D075Z) 섹션의 [6](#id181NH1020L7)단계에서 속성 표를 참조하십시오.
 
 1. **완료**&#x200B;를 클릭하여 프로필을 저장합니다.

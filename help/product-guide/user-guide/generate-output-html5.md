@@ -4,7 +4,7 @@ description: 맵 콘솔 및 맵 대시보드에서 HTML5 사전 설정을 만드
 exl-id: b54bf3a0-7a13-41a0-ae72-cdf2caf8d974
 feature: Publishing
 role: User
-source-git-commit: a953de289530457b257259bda3d9af2b68790592
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1516'
 ht-degree: 0%
@@ -108,4 +108,4 @@ DITA-OT 및 FMPS를 사용하여 출력을 게시하도록 HTML5 출력 사전 �
 
 
 
-**상위 항목:**&#x200B;[&#x200B;출력 사전 설정 이해](generate-output-understand-presets.md)
+**상위 항목:**[&#x200B;출력 사전 설정 이해](generate-output-understand-presets.md)

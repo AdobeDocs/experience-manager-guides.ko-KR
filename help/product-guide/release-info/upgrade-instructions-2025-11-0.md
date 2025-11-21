@@ -1,7 +1,7 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides, 2025.11.0 릴리스의 업그레이드 지침 및 해결된 문제
 description: 호환성 매트릭스와 Adobe Experience Manager Guides as a Cloud Service 2025.11.0 릴리스로 업그레이드하는 방법에 대해 알아보십시오.
-source-git-commit: b33f9385cd0364009a70c1a5fddcc1a5c118b08b
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 3%

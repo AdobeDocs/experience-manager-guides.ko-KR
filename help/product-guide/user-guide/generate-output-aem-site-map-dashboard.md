@@ -4,7 +4,7 @@ description: 맵 대시보드에서 AEM Guides의 AEM 사이트 사전 설정을
 feature: Publishing
 role: User
 exl-id: 641c98ca-b815-4176-abf5-a12c31ff4496
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '2404'
 ht-degree: 0%
@@ -114,4 +114,4 @@ AEM Sites 출력에서 문자열을 검색할 수 있습니다. 기본적으로 
 
 자세한 내용은 Adobe Experience Manager Guides 설치 및 구성 안내서에서 *AEM 사이트 노드 구조의 병합 구성* 섹션을 참조하십시오.
 
-**상위 항목:**&#x200B;[&#x200B;출력 사전 설정 이해](generate-output-understand-presets.md)
+**상위 항목:**[&#x200B;출력 사전 설정 이해](generate-output-understand-presets.md)

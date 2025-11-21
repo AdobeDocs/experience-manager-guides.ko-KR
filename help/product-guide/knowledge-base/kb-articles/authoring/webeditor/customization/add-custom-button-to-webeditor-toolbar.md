@@ -4,9 +4,9 @@ description: 웨비저 도구 모음에 새 사용자 지정 단추를 추가하
 exl-id: 34999db6-027a-4d93-944f-b285b4a44288
 feature: Web Editor
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '527'
 ht-degree: 0%
 
 ---
@@ -57,15 +57,15 @@ JIRA ID가 포함된 &quot;change-request-id&quot; 요소는 API에서 검색해
 }
 ```
 
-[이 링크를 사용하여 폴더 프로필 및 ui_config.json 구성에 대해 자세히 알아보세요](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=ko)
+[이 링크를 사용하여 폴더 프로필 및 ui_config.json 구성에 대해 자세히 알아보세요](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en)
 
 
 ### 새 단추에 대한 클릭 이벤트를 처리합니다.
 
-    참고: 아래에 언급된 단계는 이 게시물에 첨부된 패키지로 사용할 수 있습니다
+참고: 아래에 언급된 단계는 이 게시물에 첨부된 패키지로 사용할 수 있습니다
 
 
-- 폴더 프로필을 저장한 후 프로젝트 디렉터리(*/apps*에 있을 수 있음) 아래에 &quot;cq:ClientLibraryFolder&quot;를 만들고 아래 스크린샷과 같이 속성을 추가합니다.
+- 폴더 프로필을 저장한 후 프로젝트 디렉터리(:ClientLibraryFolder/apps *에 있을 수 있음) 아래에 &quot;cq*&quot;을(를) 만들고 아래 스크린샷과 같이 속성을 추가합니다.
   ![웨비터용 클라이언트 라이브러리 설정](../../../assets/authoring/webeditor-add-customtoolbarbutton-clientlibrarysettings.png)
 
 ```

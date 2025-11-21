@@ -1,10 +1,10 @@
 ---
-title: 릴리스 정보 | Adobe Experience Manager Guides as a Cloud Service 2002년 9월 릴리스
+title: 릴리스 정보 | Adobe Experience Manager Guides as a Cloud Service, 2022년 9월 릴리스
 description: Adobe Experience Manager Guides as a Cloud Service 9월 릴리스
 exl-id: f6247f91-43cc-43a4-a6f8-3b1f09d0533f
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1299'
 ht-degree: 0%
@@ -15,24 +15,24 @@ ht-degree: 0%
 
 ## 9월 릴리스로 업그레이드
 
-다음 단계를 수행하여 최신 Adobe Experience Manager Guides as a Cloud Service(나중에 *AEM Guides as a Cloud Service*) 설정을 업그레이드합니다.
-1. Cloud Service의 Git 코드를 체크아웃하고 업그레이드하려는 환경에 해당하는 Cloud Service 파이프라인에 구성된 분기로 전환합니다.
-1. Cloud Service Git 코드의 `/dox/dox.installer/pom.xml` 파일에서 `<dox.version>` 속성을 2022.9.178로 업데이트합니다.
-1. 변경 사항을 커밋하고 Cloud Service 파이프라인을 실행하여 AEM Guides as a Cloud Service 9월 릴리스로 업그레이드합니다.
+다음 단계를 수행하여 현재 Adobe Experience Manager Guides as a Cloud Service(*AEM Guides as a Cloud Service*)를 업그레이드합니다.
+1. 클라우드 서비스의 Git 코드를 체크아웃하고 업그레이드하려는 환경에 해당하는 클라우드 서비스 파이프라인에 구성된 분기로 전환합니다.
+1. 클라우드 서비스 Git 코드의 `<dox.version>` 파일에서 `/dox/dox.installer/pom.xml` 속성을 2022.9.178로 업데이트합니다.
+1. 변경 사항을 커밋하고 Cloud Services 파이프라인을 실행하여 AEM Guides as a Cloud Service의 9월 릴리스로 업그레이드합니다.
 
 ## 기존 콘텐츠를 색인화하는 단계
 
 기존 콘텐츠를 색인화하기 위해 다음 단계를 수행하고 맵 수준에서 새 찾기 및 바꾸기 텍스트를 사용합니다.
 * 올바른 인증으로 서버에 대한 POST 요청을 실행합니다. `http://<server:port>/bin/guides/map-find/indexin`.
 (선택 사항: 맵의 특정 경로를 전달하여 인덱싱할 수 있습니다. 기본적으로 모든 맵이 인덱싱됩니다 ||  예 :   `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
-* API는 jobId를 반환합니다. 작업 상태를 확인하려면 작업 ID가 포함된 GET 요청을 동일한 끝점으로 보낼 수 있습니다. `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
+* API는 jobId를 반환합니다. 작업 상태를 확인하려면 작업 ID가 있는 GET 요청을 동일한 끝점으로 보낼 수 있습니다. `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
 (예: `http://<_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)`
 * 작업이 완료되면 위의 GET 요청은 성공으로 응답하고 맵이 실패한 경우 언급됩니다. 인덱싱된 맵은 서버 로그에서 확인할 수 있습니다.
 
 
 ## 호환성 매트릭스
 
-이 섹션에서는 AEM Guides as a Cloud Service 2022년 9월 릴리스에서 지원되는 소프트웨어 응용 프로그램에 대한 호환성 매트릭스를 나열합니다.
+이 섹션에서는 2022년 9월 AEM Guides as a Cloud Service 릴리스에서 지원되는 소프트웨어 애플리케이션에 대한 호환성 매트릭스를 나열합니다.
 
 ### FrameMaker 및 FrameMaker Publishing Server
 
@@ -48,12 +48,12 @@ ht-degree: 0%
 | AEM Guides as a Cloud 릴리스 | 산소 커넥터 창 | 산소 커넥터 Mac | Oxygen 창에서 편집 | Oxygen Mac에서 편집 |
 | --- | --- | --- | --- | --- |
 | 2022.9.0 | 2.7.13 | 2.7.13 | 2.3 | 2.3 |
-|  |  |  |  |
+|  |  |  |  |  |
 
 
 ## 새로운 기능 및 향상된 기능
 
-AEM Guidesas a Cloud Service 의 다양한 개선 사항 및 새로운 기능:
+AEM Guides as a Cloud Service은 9월 릴리스에서 많은 개선 사항 및 새로운 기능을 제공합니다.
 
 
 ### 레이블을 기반으로 동적 기준선 만들기
@@ -112,15 +112,15 @@ DITA 맵의 출력 사전 설정에서 메타데이터를 설정할 수 있습�
 * 찾기 및 바꾸기 | 웹 편집기에서 검색 결과에 대해 다크 모드를 읽을 수 없습니다. (9978)
 * 번역 | 메타데이터 및 태그는 번역된 사본에 전파되지 않습니다. (4696)
 * 복사 붙여넣기(ctrl+c/ctrl+v) 컨텐츠에서 작성자 모드에 오류가 발생합니다. (10304)
-* PDF 템플릿 | 배경 이미지를 PDF 레이아웃에 추가하면 이미지 경로 절대값이 표시되고 이미지가 출력 페이지에 표시되지 않습니다. (10297)
+* PDF 템플릿 | 페이지 레이아웃에 배경 이미지를 추가하면 이미지 경로 절대값이 표시되고 이미지가 출력 PDF에 표시되지 않습니다. (10297)
 * 기본 PDF | 챕터 제목과 챕터 제목이 PDF 게시에서 작동하지 않습니다. (9947)
 * 기본 PDF | 특정 DITA 주제에 대한 개념의 `xref`이(가) 올바르게 확인되지 않습니다. (10229)
-* 기본 PDF | 생성된 PDF 출력의 표에 대한 캡션 텍스트를 볼 수 없습니다. (9827)
+* 기본 PDF | 생성된 PDF 출력에서 표에 대한 캡션 텍스트를 볼 수 없습니다. (9827)
 * 기본 PDF | 부록의 참조는 PDF 출력에 부록으로 표시되지 않습니다. (10182)
-* 기본 PDF | 테이블에 대한 Frame 속성이 임시 HTML(클래스로 전파되지 않습니다. (10353)
+* 기본 PDF | 테이블에 대한 Frame 속성이 임시 HTML(클래스로)에 전파되지 않습니다. (10353)
 * 기본 PDF | 임시 HTML 파일은 소스 DITA에서 값이 0인 경우에도 colsep 및 rowsep 클래스를 td 및 th에 추가합니다. (10352)
 * 기본 PDF |  페이지 레이아웃에 추가된 critdate에 대한 메타데이터가 적용되지 않습니다. (10377)
-* 기본 PDF |  특정 콘텐츠에 대한 PDF 생성에 실패합니다. (9927)
+* 기본 PDF |  특정 컨텐츠에 대해서는 PDF 생성에 실패합니다. (9927)
 * 기본 PDF | conkeyref를 통한 콘텐츠가 PDF 출력에 표시되지 않습니다. (9836)
 * 기본 PDF | 이미지 또는 외부 링크가 있는 키 정의에 대한 키 참조는 확인되지 않습니다. (10063)
 * 맵의 작성자 보기에 표 목록 및 그림 목록에 대한 자리 표시자 텍스트가 표시되지 않습니다. (10330)

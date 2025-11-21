@@ -4,9 +4,9 @@ description: 편집기의 왼쪽 패널에 대해 알아봅니다. Adobe Experie
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
-source-git-commit: 565f7b9b8139bfa3e21c91c4b60b6c9757b67429
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '9769'
+source-wordcount: '9768'
 ht-degree: 0%
 
 ---
@@ -160,7 +160,7 @@ DAM 내에서 필요한 파일로 이동하여 편집기에서 열 수 있습니
 - **DITA 파일**: 선택한 경로에 있는 모든 **DITA 주제** 및 **DITA 맵**&#x200B;을(를) 찾을 수 있습니다. 기본적으로 선택되어 있습니다.
 - **DITA가 아닌 파일**: 선택한 경로에서 **Ditaval 파일**, **이미지 파일**, **멀티미디어**, **문서** 및 **JSON**&#x200B;을 검색할 수 있습니다.
 
-  ![빠른 검색 필터 &#x200B;](images/repository-filter-search-quick.png) {width="300" align="left"}
+  ![빠른 검색 필터 ](images/repository-filter-search-quick.png) {width="300" align="left"}
 
   *빠른 필터를 사용하여 DITA 및 비 DITA 파일을 검색합니다.*
 
@@ -1093,9 +1093,9 @@ Experience Manager Guides을 사용하면 기본 PDF 게시를 위한 변수를 
 
 **모두 바꾸기** 아이콘을 활성화하려면 시스템 관리자가 **Workspace 설정**&#x200B;의 **일반** 탭에서 **모두 바꾸기** 옵션을 선택해야 합니다(**On-Prem**&#x200B;에 대해 **설정**).
 
-    >[!NOTE]
-    >
-    > 검색 결과 목록의 파일을 마우스로 가리키면 오른쪽의 파일에서 모두 바꾸기 아이콘을 볼 수 있습니다. 또한 파일 무시 아이콘을 클릭하여 검색 결과에서 파일을 제거할 수도 있습니다. 무시하는 파일은 목록에서 제거되며 검색된 용어가 대체되지 않습니다.
+>[!NOTE]
+>
+> 검색 결과 목록의 파일 위로 마우스를 가져가면 오른쪽의 파일에서 모두 바꾸기 아이콘을 볼 수 있습니다. 또한 파일 무시 아이콘을 클릭하여 검색 결과에서 파일을 제거할 수도 있습니다. 무시하는 파일은 목록에서 제거되고 검색된 용어는 대체되지 않습니다.
 
 전체 시스템에서 한 번에 하나의 모두 바꾸기 작업만 수행할 수 있으며 작업이 수행될 때까지 &quot;모두 바꾸기 진행 중&quot; 상태를 볼 수 있습니다. 사이 또는 로그 보고서 보기에서 모두 바꾸기 작업을 중단할 수도 있습니다. 작업을 중단하면 받은 편지함에 작업에 대한 알림이 표시됩니다. 선택한 파일에서 모든 발생 항목을 바꾼 후에 성공 알림이 표시됩니다.
 
@@ -1170,4 +1170,4 @@ Experience Manager Guides은 프로젝트의 모든 검토 작업을 표시하�
 
 </details>
 
-**상위 항목:**&#x200B;[&#x200B;편집기 소개](web-editor.md)
+**상위 항목:**[&#x200B;편집기 소개](web-editor.md)

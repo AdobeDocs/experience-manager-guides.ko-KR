@@ -4,7 +4,8 @@ description: 데이터 소스에 대해 사용자 지정 커넥터를 구성하�
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: fdd19363c6768860ffa2f70c934b6f71c811c08b
+exl-id: ef7ab117-7541-4e89-9ba4-22254a17efc0
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 0%
@@ -120,6 +121,6 @@ Experience Manager Guides을 사용하면 요구 사항에 따라 커넥터를 �
 커넥터에서 사용할 수 있도록 하려면 다음 커넥터 기능을 구현해야 합니다.
 
 
-- `getLogoSvg` - 로고 SVG을 문자열로 반환합니다.
+- `getLogoSvg` - SVG 로고를 문자열로 반환합니다.
 
 - `getTemplates` - 지정된 형식의 템플릿 목록을 반환합니다.

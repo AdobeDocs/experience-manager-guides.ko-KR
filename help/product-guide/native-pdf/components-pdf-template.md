@@ -5,9 +5,9 @@ exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 47a6819654877e9a4e3e542fa6e5e360b3f3938f
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '4716'
+source-wordcount: '4702'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ PDF 템플릿에는 페이지 레이아웃, 스타일시트, 리소스 및 설�
 
 1. _레이아웃 복제_ 대화 상자에서 페이지 레이아웃의 이름을 입력합니다.
 
-1. **완료**&#x200B;를 클릭합니다.
+1. **완료**를 클릭합니다.
 선택한 페이지 레이아웃의 복사본이 생성되어 페이지 레이아웃 아래에 추가됩니다.
 
 ### 페이지 레이아웃 사용자 지정 {#customize-page-layout}
@@ -113,14 +113,14 @@ CSS 파일이 컨텐츠와 레이아웃에 제공되면 새 스타일시트를 �
 기본적으로 템플릿과 함께 제공되는 CSS 파일에는 제목, 단락, 문자, 하이퍼링크, 이미지, 표, div, 페이지 및 기타 스타일의 스타일이 포함되어 있습니다. 기본 스타일 형식을 재정의하거나 새 스타일을 만들 수 있습니다.
 
 
-템플릿의 페이지 레이아웃에서 사용할 새 스타일을 만들거나 DITA 요소에 사용자 정의 스타일을 적용할 수 있습니다. 이러한 사용자 지정 스타일을 DITA 요소에 적용하려면 스타일의 클래스 이름이 DITA 요소의 이름 또는 `outputclass` 속성과 동일한지 확인해야 합니다.  예를 들어 DITA의 `<div>`은(는) CSS의 `.div {}` 또는 해당 `outputclass` 특성에 의해 제어됩니다. DITA에서 `<div outputclass="my-div">`을(를) 적용하면 CSS에서 `.div {}` 또는 `.my-div {}`이(가) 제어합니다.
+템플릿의 페이지 레이아웃에서 사용할 새 스타일을 만들거나 DITA 요소에 사용자 정의 스타일을 적용할 수 있습니다. 이러한 사용자 지정 스타일을 DITA 요소에 적용하려면 해당 스타일의 클래스 이름이 DITA 요소의 이름 또는 `outputclass` 속성과 동일한지 확인해야 합니다.  예를 들어 DITA의 `<div>`은(는) CSS의 `.div {}` 또는 해당 `outputclass` 특성에 의해 제어됩니다. DITA에서 `<div outputclass="my-div">`을(를) 적용하면 CSS에서 `.div {}` 또는 `.my-div {}`이(가) 제어합니다.
 
 
 
 새 스타일을 만들려면 아래 단계를 수행하십시오.
 1. 왼쪽 사이드바를 확장하고 스타일을 만들 템플릿을 두 번 클릭합니다.
 1. **스타일시트** 섹션을 확장합니다. 모든 스타일 옵션이 포함된 **스타일** 패널이 열립니다.
-1. &#x200B;+ 아이콘을 선택하여 새 스타일을 추가합니다.
+1. + 아이콘을 선택하여 새 스타일을 추가합니다.
 
    **스타일 추가** 대화 상자가 열립니다.
 
@@ -190,7 +190,7 @@ Resources 폴더에 자산 파일을 추가하려면 아래 단계를 수행합�
 
 1. 로컬 컴퓨터에서 자산 파일을 찾아보려면 **파일 선택**&#x200B;을 클릭하십시오.
 
-1. **업로드**&#x200B;를 클릭합니다.
+1. **업로드**를 클릭합니다.
 선택한 파일을 가져와서 Resources 폴더 아래에 나열됩니다.
 
 ## 고급 PDF 설정 {#advanced-pdf-settings}
@@ -198,7 +198,7 @@ Resources 폴더에 자산 파일을 추가하려면 아래 단계를 수행합�
 설정 섹션을 사용하여 PDF의 페이지 레이아웃에 대한 고급 설정을 구성하고 홀수 또는 짝수 페이지에서 PDF을 시작하고, 상호 참조에 대한 형식을 지정하며, 생성된 최종 PDF에서 인쇄 표시를 활성화합니다
 템플릿을 사용합니다.
 
->
+>[!NOTE]
 >
 > Experience Manager Guides 5.0/2025.02.0 릴리스부터 고급 PDF 설정의 **인쇄** 섹션이 **출력 사전 설정** 패널로 이동되었습니다. 인쇄 설정을 구성하려면 [PDF 출력 게시](../web-editor/native-pdf-web-editor.md#print)를 확인하십시오.
 
@@ -236,7 +236,7 @@ TOC 구조인 홀수 또는 짝수 페이지에서 챕터를 시작하기 위한
   >CSS 개발자인 경우 CSS 파일에서 직접 지시선 형식을 정의할 수도 있습니다.
 
 * **표 연속 표식 사용**: 여러 페이지에 걸쳐 있는 긴 표의 표식을 정의하려면 이 옵션을 선택하십시오.
-브레이크 전후에 표시할 텍스트를 정의할 수 있습니다. 예를 들어 5페이지에서 테이블이 중단되고 **Text Before Break**&#x200B;에 대해 `<Continued on page %page-num%>`을(를) 정의합니다.  텍스트는 5페이지 하단에 &quot;6페이지에서 계속&quot;을 표시합니다.
+브레이크 전후에 표시할 텍스트를 정의할 수 있습니다. 예를 들어 5페이지에서 테이블이 중단되고 `<Continued on page %page-num%>`Text Before Break **에 대해**&#x200B;을(를) 정의합니다.  텍스트는 5페이지 하단에 &quot;6페이지에서 계속됨&quot;을 표시합니다.
 
   언어 변수를 사용하여 중단 전후의 연속 마커 텍스트를 정의합니다. 선택한 언어에 따라 현지화된 값이 PDF 출력에서 자동으로 선택됩니다. 예를 들어 `Continued on page %page-num%`은(는) 영어로, `Fortsetzung auf Seite %page-num%`은(는) 독일어로 게시할 수 있습니다.
 
@@ -277,7 +277,7 @@ TOC 구조인 홀수 또는 짝수 페이지에서 챕터를 시작하기 위한
 
   PDF 출력의 용어집에 있는 용어는 항상 알파벳순으로 정렬됩니다.
 
-  `sort-as` 태그를 추가하여 용어집 용어에 대한 정렬 키를 정의할 수도 있습니다. 그런 다음 Experience Manager Guides은 sort 키를 사용하여 용어집 용어 대신 용어집 용어를 정렬합니다. 정렬 키를 정의하지 않은 경우 정렬에 용어집 용어를 사용합니다. 예를 들어, 태그 `sort-as`을(를) `glossterm`에 추가하고 &quot;USB&quot;라는 용어(예: `<glossterm>USB<sort-as>A</sort-as></glossterm>`)에 대해 해당 값을 `A`(으)로 설정할 수 있습니다. 마찬가지로 `sort-as` 태그를 추가하고 &quot;Pen Drive&quot;라는 용어에 대해 값을 `B`(으)로 설정할 수 있습니다. 이 용어집 용어를 정렬할 때 용어집 용어 &quot;USB&quot;에 대한 정렬 키 `A`이(가) 용어집 용어 &quot;Pen Drive&quot;에 대한 정렬 키 `B` 앞에 나타납니다. 따라서 PDF 출력에서는 용어집 페이지의 &quot;펜 드라이브&quot; 앞에 &quot;USB&quot;가 표시됩니다.
+  `sort-as` 태그를 추가하여 용어집 용어에 대한 정렬 키를 정의할 수도 있습니다. 그런 다음 Experience Manager Guides은 sort 키를 사용하여 용어집 용어 대신 용어집 용어를 정렬합니다. 정렬 키를 정의하지 않은 경우 정렬에 용어집 용어를 사용합니다. 예를 들어, 태그 `sort-as`을(를) `glossterm`에 추가하고 &quot;USB&quot;라는 용어(예: `A`)에 대해 해당 값을 `<glossterm>USB<sort-as>A</sort-as></glossterm>`(으)로 설정할 수 있습니다. 마찬가지로 `sort-as` 태그를 추가하고 &quot;Pen Drive&quot;라는 용어에 대해 값을 `B`(으)로 설정할 수 있습니다. 이 용어집 용어를 정렬할 때 용어집 용어 &quot;USB&quot;에 대한 정렬 키 `A`이(가) 용어집 용어 &quot;Pen Drive&quot;에 대한 정렬 키 `B` 앞에 나타납니다. 따라서 PDF 출력에서는 용어집 페이지의 &quot;펜 드라이브&quot; 앞에 &quot;USB&quot;가 표시됩니다.
 
   스타일시트를 사용하여 PDF 출력에서 다양한 용어집 요소의 스타일을 지정할 수 있습니다. 용어집 스타일 `.glo-header`, `.glo-footer`, `.glo-body`, `.glo-title`, `.glo-unit`, `.glo-link` 및 `.glo-term`을(를) 사용하여 용어집 요소의 스타일을 사용자 지정합니다.
 
@@ -420,8 +420,8 @@ AEM Guides은 다음과 같은 기본 변수를 제공합니다.
 * {chapter}: 챕터 번호에 상호 참조를 추가합니다. 예를 들어 1장의 을 참조하십시오.
 * {bookmarkText}: 책갈피가 지정된 텍스트에 대한 상호 참조를 만듭니다. 예를 들어 5페이지의 stop_words 를 참조하십시오.
 * {captionText}: 주제 내의 그림 또는 표의 캡션에 대한 상호 참조를 만듭니다. 예를 들어 2페이지의 공기 흐름 을 참조하십시오.
-* {figure}: 그림 번호에 상호 참조를 추가합니다. 피규명에 대해 정의한 자동 번호 스타일에서 숫자 번호를 선택합니다.  예를 들어 &quot;페이지 {page}의 {figure} 보기&quot;를 사용할 수 있습니다. 출력의 상호 참조에는 자동 생성된 그림 번호와 해당 페이지 번호 &quot;5페이지의 그림 1 참조&quot;가 포함됩니다.
-* {table}: 테이블 번호에 상호 참조를 추가합니다. 캡션에 대해 정의한 자동 번호 스타일에서 테이블 번호를 선택합니다. 예를 들어 &quot;페이지 {page}의 {table} 보기&quot;를 사용할 수 있습니다. 출력의 상호 참조에는 자동 생성된 테이블 번호와 해당 페이지 번호 &quot;5페이지의 테이블 1 참조&quot;가 포함됩니다.
+* {figure}: 그림 번호에 상호 참조를 추가합니다. 그림용으로 정의한 자동 번호 스타일에서 숫자 번호를 선택합니다.  예를 들어 &quot;페이지 {figure}의 {page} 보기&quot;를 사용할 수 있습니다. 출력의 상호 참조에는 자동 생성된 그림 번호와 페이지 번호 &quot;5페이지의 그림 1 참조&quot;가 포함되어 있습니다.
+* {table}: 테이블 번호에 상호 참조를 추가합니다. 캡션에 대해 정의한 자동 번호 스타일에서 테이블 번호를 선택합니다. 예를 들어 &quot;페이지 {table}의 {page} 보기&quot;를 사용할 수 있습니다. 출력의 상호 참조에는 자동 생성된 테이블 번호와 해당 페이지 번호 &quot;5페이지의 테이블 1 참조&quot;가 포함됩니다.
 
 
 
@@ -457,13 +457,13 @@ AEM Guides은 다음과 같은 기본 변수를 제공합니다.
 
 
 단락 섹션에 `${lng:<variable name>}`을(를) 추가하면 출력의 단락에 있는 상호 참조에 지역화된 텍스트와 페이지 번호가 포함됩니다.\
-예를 들어 다음 스크린샷은 영어로 된 &quot;View on page 1&quot; 및 독일어로 된 &quot;Einzelheiten finden Sie auf der Seite 1&quot; 상호 참조를 보여줍니다.
+예를 들어 다음 스크린샷은 상호 참조된 &quot;View on page 1&quot;(영어) 및 &quot;Einzelheiten finden Sie auf der Seite 1&quot;(독일어)을 보여 줍니다.
 
-<img src="./assets/english-output-corss-reference.png" alt="프라그라에 있는 상호 참조의 영어 출력&quot; width =&quot;800" border="2px">
+<img src="./assets/english-output-corss-reference.png" alt="프라그라에 있는 상호 참조의 영어 출력" width ="800" border="2px">
 
 *영어로 게시할 때 단락 내의 상호 참조입니다.*
 
-<img src="./assets/german-output-corss-reference.png" alt="프라그라에서 상호 참조에 대한 독일어 출력&quot; width =&quot;800" border="2px">
+<img src="./assets/german-output-corss-reference.png" alt="프라그라에서 상호 참조에 대한 독일어 출력" width ="800" border="2px">
 
 
 *독일어로 게시할 때 단락 내의 상호 참조입니다.*

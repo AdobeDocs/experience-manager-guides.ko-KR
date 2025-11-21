@@ -3,9 +3,9 @@ title: 릴리스 정보 | Adobe Experience Manager Guides 4.4.0 릴리스에 대
 description: Adobe Experience Manager Guides 4.4.0 릴리스로 업그레이드하는 방법 알아보기
 role: Leader
 exl-id: 884178b6-7a72-471a-a6e3-238a543fb227
-source-git-commit: 47c06dcc30b34780cbd26ded1ca400a5056a59ba
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '459'
 ht-degree: 5%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 5%
 | --- | --- | --- | --- | --- |
 | 4.4.0(비 UUID) | 2022년 이상 | 2020.2 이상* | 2022년 이상 | 2020.3 이상 |
 | 4.4.0(UUID) | 2022년 이상 | 2020.2 이상* | 2022년 이상 | 2020.4 이상 |
-| | | | |
+| | | | | |
 
 *AEM에서 생성된 기준 및 조건은 2020.2년부터 FMPS 릴리스에서 지원됩니다.
 
@@ -52,7 +52,7 @@ ht-degree: 5%
 | --- | --- | --- |--- |--- |
 | 4.4.0(비 UUID) | 2.7-regular-1 | 2.7-regular-1 | 1.6 | 1.6 |
 | 4.4.0(UUID) | 3.4-uuid-1 | 3.4-uuid-1 | 2.3 | 2.3 |
-|  |  |   |
+|  |  |   | |  |
 
 
 
@@ -60,7 +60,7 @@ ht-degree: 5%
 
 | 구성 요소 패키지 이름 | 구성 요소 버전 | 템플릿 버전 |
 |---|---|---|
-| Cloud Service을 위한 Experience Manager Guides 구성 요소 컨텐츠 패키지 | dxml-components.all-1.2.2 | aem-site-template-dxml.all-1.0.15 |
+| Cloud Service용 Experience Manager Guides 구성 요소 콘텐츠 패키지 | dxml-components.all-1.2.2 | aem-site-template-dxml.all-1.0.15 |
 
 
 
@@ -71,10 +71,10 @@ ht-degree: 5%
 
 
 - 버전 4.3.1, 4.3.0 또는 4.2.1(핫픽스 4.2.1.3)을 사용하는 경우 버전 4.4.0으로 바로 업그레이드할 수 있습니다.
-- 버전 4.2, 4.1 또는 4.1.x를 사용 중인 경우 버전 4.4.0으로 업그레이드하기 전에 버전 4.3.1, 4.3.0 또는 4.2.1(핫픽스 4.2.1.3)로 업그레이드해야 합니다.
+- 버전 4.2, 4.1 또는 4.1.x를 사용하는 경우 버전 4.4.0으로 업그레이드하기 전에 버전 4.3.1, 4.3.0 또는 4.2.1(핫픽스 4.2.1.3)로 업그레이드해야 합니다.
 - 버전 4.0을 사용 중인 경우 버전 4.3.x로 업그레이드하기 전에 버전 4.2로 업그레이드해야 합니다.
 - 버전 3.8.5를 사용하는 경우 버전 4.2로 업그레이드하기 전에 버전 4.0으로 업그레이드해야 합니다.
-- 3.8.5 이전 버전을 사용하는 경우 [Experience Manager Guides 도움말 PDF 보관](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/archive.html)에 있는 제품별 설치 안내서의 Adobe Experience Manager Guides 업그레이드 섹션을 참조하십시오.
+- 3.8.5 이전 버전을 사용하는 경우 [Experience Manager Guides 도움말 PDF 보관](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)에 있는 제품별 설치 안내서의 Adobe Experience Manager Guides 업그레이드 섹션을 참조하십시오.
 
 
 

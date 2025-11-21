@@ -4,7 +4,7 @@ description: 웨비저에서 Schematron 작업
 exl-id: 3e61432f-d81e-446e-b0ad-560f5b9fa91a
 feature: Web Editor
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 0%
@@ -20,7 +20,7 @@ DITA 규칙에 대한 지원 외에도 웹 편집기는 &quot;*Schematron*&quot;
 
 &quot;*Schematron*&quot;은(는) XML 파일에 대한 테스트를 정의하는 데 사용되는 규칙 기반 유효성 검사 언어를 나타냅니다. Schematron 파일을 가져와서 웹 편집기에서 편집할 수도 있습니다. &quot;Schematron&quot; 파일을 사용하여 특정 규칙을 정의한 다음 DITA 주제 또는 맵에 대해 유효성을 검사할 수 있습니다. Schematron 규칙은 규칙으로 정의된 제한을 적용하여 XML 구조의 일관성을 보장할 수 있습니다. 이러한 제약은 콘텐츠의 품질과 일관성을 소유한 중소기업에 의해 이루어진다.
 
-    참고: 웹 편집기에서 ISO 스키마를 지원합니다.
+참고: 웹 편집기는 ISO Schematron을 지원합니다.
 
 
 ## 웹 편집기에서 &quot;Schematron&quot;이 작동하는 방법 알아보기
@@ -41,7 +41,7 @@ Webeditor 설정을 사용하면 사용자가 콘텐츠를 업데이트할 때�
 
 예. 콘텐츠를 만드는 동안 작성자/사용자로서 웹 편집기의 Schematron 패널을 사용하여 schematron 파일을 업로드하고 편집기에서 열려 있는 파일에 유효성 검사를 실행할 수 있습니다.
 
-    이 작업을 수행하려면 폴더 프로필 관리자는 모든 사용자가 유효성 검사 패널에서 Schemtron 파일을 추가하도록 허용해야 합니다. 편집기 설정(위의 스크린샷)을 참조하십시오
+이 작업을 수행하려면 폴더 프로필 관리자는 모든 사용자가 유효성 검사 패널에서 Schemtron 파일을 추가하도록 허용해야 합니다. 편집기 설정(위의 스크린샷)을 참조하십시오.
 
 ![스키마 파일 선택](../../../assets/authoring/schematron-rightpanel-validation-addsch.png)
 ![유효성 검사 실행](../../../assets/authoring/schematron-rightpanel-validation-runsch.png)

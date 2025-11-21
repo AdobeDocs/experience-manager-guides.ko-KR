@@ -1,28 +1,28 @@
 ---
-title: 릴리스 정보 | Adobe Experience Manager Guides as a Cloud Service 2002년 4월 릴리스
-description: Adobe Experience Manager Guidesas a Cloud Service 의 4월 릴리스
+title: 릴리스 정보 | Adobe Experience Manager Guides as a Cloud Service, 2022년 4월 릴리스
+description: Adobe Experience Manager Guides as a Cloud Service 4월 릴리스
 exl-id: c735ba24-a803-454b-8723-57dacf90061b
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '809'
 ht-degree: 0%
 
 ---
 
-# Adobe Experience Manager Guidesas a Cloud Service 의 4월 릴리스
+# Adobe Experience Manager Guides as a Cloud Service 4월 릴리스
 
 ## 4월 릴리스로 업그레이드
 
-as a Cloud Service as a Cloud Service 다음 단계를 수행하여 현재 [!DNL Adobe Experience Manager Guides] (나중에 *[!DNL AEM Guides]*) 설정을 업그레이드하십시오.
-1. Cloud Service의 Git 코드를 체크아웃하고 업그레이드하려는 환경에 해당하는 Cloud Service 파이프라인에 구성된 분기로 전환합니다.
-1. Cloud Service Git 코드의 `/dox/dox.installer/pom.xml` 파일에서 `<dox.version>` 속성을 2022.4.133으로 업데이트합니다.
-1. 변경 사항을 커밋하고 Cloud Service as a Cloud Service 파이프라인을 실행하여 [!DNL AEM Guides]의 4월 릴리스로 업그레이드하십시오.
+다음 단계를 수행하여 현재 [!DNL Adobe Experience Manager Guides] as a Cloud Service(*[!DNL AEM Guides]as a Cloud Service*)를 업그레이드합니다.
+1. 클라우드 서비스의 Git 코드를 체크아웃하고 업그레이드하려는 환경에 해당하는 클라우드 서비스 파이프라인에 구성된 분기로 전환합니다.
+1. 클라우드 서비스 Git 코드의 `<dox.version>` 파일에서 `/dox/dox.installer/pom.xml` 속성을 2022.4.133으로 업데이트합니다.
+1. 변경 사항을 커밋하고 Cloud Services 파이프라인을 실행하여 [!DNL AEM Guides] as a Cloud Service의 4월 릴리스로 업그레이드합니다.
 
 ## 호환성 매트릭스
 
-이 섹션에서는 [!DNL AEM Guides] as a Cloud Service 2022년 4월 릴리스에서 지원되는 소프트웨어의 호환성 매트릭스를 나열합니다.
+이 섹션에서는 [!DNL AEM Guides] as a Cloud Service 2022년 4월 릴리스에서 지원되는 소프트웨어 응용 프로그램의 호환성 매트릭스를 나열합니다.
 
 ### FrameMaker 및 FrameMaker Publishing Server
 
@@ -86,21 +86,21 @@ DITA 콘텐츠 키 참조는 한 주제의 콘텐츠 일부를 다른 주제에 
 * 입력한 대로 검색하면 저장소 보기에서 원치 않는 검색 요청이 발생합니다. (9307)
 * 탭의 제목에 키워드가 사용될 때 문제가 발생합니다. (9318)
 * 공백이 있는 레이블을 추가할 때 기준선이 실패합니다. (9362)
-* AEM 사이트 출력에 glossusage 요소가 올바르게 표시되지 않습니다. (8936)
+* AEM 사이트 출력에 전역 요소가 올바르게 표시되지 않습니다. (8936)
 * 웹 편집기에서 **출력** 탭을 열 때 콘솔 오류가 발생합니다. (8715)
-* Salesforce를 통해 수동 레코드 유형을 게시할 때 표시되는 오류 메시지가 직관적이지 않습니다. (8952)
+* Salesforce을 통해 수동 레코드 유형을 게시할 때 표시되는 오류 메시지는 직관적이지 않습니다. (8952)
 * 조건 속성으로 유효성 검사 설정은 즉시 열리지 않습니다. 대신 사용자가 유효성 검사를 보려면 파일을 다시 열어야 합니다. (9300)
 * DITA 맵이 메타데이터와 함께 게시되면 메타데이터를 제거할 수 없습니다.  (9178)
 * 맵 편집기에서 DITA 맵을 여는 경우에도 변환 패널이 표시됩니다. (9053)
 * 사용자가 정의한 사용자 정의 DTD가 DITA-OT에 포함된 표준 DITA DTD보다 우선하지 않습니다. (9104)
-* 기본 PDF 기능에서 템플릿에서의 업로드는 DITA 및 이미지가 아닌 파일에 대해 실패합니다. (9070)
+* 기본 PDF 기능에서 템플릿의 업로드가 DITA가 아닌 파일과 이미지가 아닌 파일에 대해 실패합니다. (9070)
 * 인증 메커니즘은 일부 특수한 시나리오에서 하나 대신 두 개의 쿼리를 실행합니다. (9221)
-* 사용자 지정 DTD를 사용하면 AEM 사이트 출력을 게시할 수 없습니다. (9243)
+* 사용자 지정 DTD를 사용할 때 AEM 사이트 출력 게시가 실패합니다. (9243)
 * 참조별 각주는 AEM 사이트 출력의 각주 섹션으로 스크롤되지 않습니다. (9234)
 
 ## 알려진 문제
 
-Adobeas a Cloud Service 는 [!DNL AEM Guides] 알려진 4월 릴리스에서 다음 문제를 확인했습니다.
+Adobe은 [!DNL AEM Guides] as a Cloud Service 4월 릴리스에서 다음과 같은 알려진 문제를 확인했습니다.
 
 * 이름이 같지만 공백이나 대/소문자가 다른 두 개 이상의 기준선을 만들 때 웹 편집기에서 오류를 보고하지 않습니다. 예: &quot;adobe&quot; 및 &quot;Adobe &quot; 또는 &quot;Adobe&quot;.
 * 서로 다른 인증 유형 간에 자주 로그인하거나 로그아웃하거나 전환하는 동안 산소 커넥터가 간헐적으로 중단됩니다.

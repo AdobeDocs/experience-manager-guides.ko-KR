@@ -5,7 +5,7 @@ feature: Content Management
 role: User
 hide: true
 exl-id: 54b960cf-fb00-4d4a-a836-9de4738c49a8
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 10%
@@ -22,7 +22,7 @@ AEM에서 컨텐츠 관리의 몇 가지 주요 개념은 다음과 같습니다
 
 **자산 관리**
 
-AEM Guides은 AEM의 DAM\(디지털 에셋 관리)을 사용하여 DITA 파일을 관리합니다. 업로드하거나 DAM에 체크 인하는 파일은 디지털 에셋으로 저장됩니다. AEM Assets에서 에셋을 관리하고 편집할 수 있습니다. 자산 관리에 대한 자세한 내용은 [자산 관리](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=ko)를 참조하십시오.
+AEM Guides은 AEM의 DAM\(디지털 에셋 관리)을 사용하여 DITA 파일을 관리합니다. 업로드하거나 DAM에 체크 인하는 파일은 디지털 에셋으로 저장됩니다. AEM Assets에서 에셋을 관리하고 편집할 수 있습니다. 자산 관리에 대한 자세한 내용은 [자산 관리](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=en)를 참조하십시오.
 
 **링크 관리**
 
@@ -63,27 +63,27 @@ AEM Guides은 세 가지 기본 제공 그룹을 제공합니다. 이러한 그�
 | 복사 | 예 |   | 예 |
 | 삭제 | 예 |   | 예 |
 | 공유 | 예 |   | 예 |
-| **문서 상태** |
+| **문서 상태** |  |  |  |
 | 문서 상태 프로필 만들기/편집 |   |   | 예 |
 | 문서 상태 변경[2](#fntarg_2) | 예 | 예 | 예 |
-| **DITA 맵 콘솔에서 사용할 수 있는 기능 \(출력 사전 설정 탭\)** |
+| **DITA 맵 콘솔에서 사용할 수 있는 기능 \(출력 사전 설정 탭\)** |  |  |  |
 | 생성 |   |   | 예 |
 | 편집 |   |   | 예 |
 | 복제 |   |   | 예 |
 | 만들기 |   |   | 예 |
 | 사전 설정 삭제 |   |   | 예 |
-| **DITA 맵 콘솔에서 사용할 수 있는 기능 \(출력 탭\)** |
+| **DITA 맵 콘솔에서 사용할 수 있는 기능 \(출력 탭\)** |  |  |  |
 | 생성된 출력 보기 | 예 |   | 예 |
-| **DITA 맵 콘솔에서 사용할 수 있는 기능 \(항목 탭\)** |
+| **DITA 맵 콘솔에서 사용할 수 있는 기능 \(항목 탭\)** |  |  |  |
 | 리뷰 작업 만들기 | 예 |   | 예 |
 | 편집 | 예 |   | 예 |
-| **DITA 맵 콘솔에서 사용할 수 있는 기능 \(기준선 탭\)** |
+| **DITA 맵 콘솔에서 사용할 수 있는 기능 \(기준선 탭\)** |  |  |  |
 | 만들기 |   |   | 예 |
 | 편집 |   |   | 예 |
 | 복제 |   |   | 예 |
 | 제거 |   |   | 예 |
 | DITA 맵 콘솔 \(보고서 탭\) | 예 |   | 예 |
-| **DITA 맵 콘솔에서 사용할 수 있는 기능 \(조건 사전 설정\)** |
+| **DITA 맵 콘솔에서 사용할 수 있는 기능 \(조건 사전 설정\)** |  |  |  |
 | 조건 사전 설정 만들기/편집 |   |   | 예 |
 
 [1](#fnsrc_1) *작성자* 및 *게시자*&#x200B;가 리뷰를 위해 초대된 경우

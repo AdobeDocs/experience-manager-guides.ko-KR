@@ -5,7 +5,7 @@ exl-id: 10ab0f3c-97dc-4293-ab73-75b438c03d99
 feature: User Management
 role: Admin
 level: Experienced
-source-git-commit: 6aaa5c1eeb9b74ababc7ebf427babfff101acc70
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 10%
@@ -18,9 +18,9 @@ AEM Guides에서 기능에 액세스하고 구성하려면 사용자를 생성�
 
 AEM 설명서의 다음 항목은 사용자 관리 및 보안 관련 개념과 기능을 이해하는 데 도움이 됩니다.
 
-- [AEM 사용자, 그룹 및 권한](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html?lang=ko)
+- [AEM 사용자, 그룹 및 권한](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html)
 
-- [사용자 관리 및 보안](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=ko)
+- [사용자 관리 및 보안](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html)
 
 
 ## AEM Guides에서 만든 사용자 그룹 {#id181TF0K0MHT}
@@ -48,27 +48,27 @@ AEM Guides은 세 가지 기본 제공 그룹을 제공합니다. 이러한 그�
 | 복사 | 예 |   | 예 |
 | 삭제 | 예 |   | 예 |
 | 공유 | 예 |   | 예 |
-| **문서 상태** |
+| **문서 상태** |  |  |  |
 | 문서 상태 프로필 만들기/편집 |   |   | 예 |
 | 문서 상태 변경[2](#fntarg_2) | 예 | 예 | 예 |
-| **DITA 맵 콘솔에서 사용할 수 있는 기능 \(출력 사전 설정 탭\)** |
+| **DITA 맵 콘솔에서 사용할 수 있는 기능 \(출력 사전 설정 탭\)** |  |  |  |
 | 생성 |   |   | 예 |
 | 편집 |   |   | 예 |
 | 복제 |   |   | 예 |
 | 만들기 |   |   | 예 |
 | 사전 설정 삭제 |   |   | 예 |
-| **DITA 맵 콘솔에서 사용할 수 있는 기능 \(출력 탭\)** |
+| **DITA 맵 콘솔에서 사용할 수 있는 기능 \(출력 탭\)** |  |  |  |
 | 생성된 출력 보기 | 예 |   | 예 |
-| **DITA 맵 콘솔에서 사용할 수 있는 기능 \(항목 탭\)** |
+| **DITA 맵 콘솔에서 사용할 수 있는 기능 \(항목 탭\)** |  |  |  |
 | 리뷰 작업 만들기 | 예 |   | 예 |
 | 편집 | 예 |   | 예 |
-| **DITA 맵 콘솔에서 사용할 수 있는 기능 \(기준선 탭\)** |
+| **DITA 맵 콘솔에서 사용할 수 있는 기능 \(기준선 탭\)** |  |  |  |
 | 만들기 |   |   | 예 |
 | 편집 |   |   | 예 |
 | 복제 |   |   | 예 |
 | 제거 |   |   | 예 |
 | DITA 맵 콘솔 \(보고서 탭\) | 예 |   | 예 |
-| **DITA 맵 콘솔에서 사용할 수 있는 기능 \(조건 사전 설정\)** |
+| **DITA 맵 콘솔에서 사용할 수 있는 기능 \(조건 사전 설정\)** |  |  |  |
 | 조건 사전 설정 만들기/편집 |   |   | 예 |
 
 ## 사용자 그룹에 대한 추가 참고 사항

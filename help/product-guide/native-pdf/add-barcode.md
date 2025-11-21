@@ -1,10 +1,10 @@
 ---
-title: 기본 PDF Publish 기능 | 바코드 추가
+title: 기본 PDF 게시 기능 | 바코드 추가
 description: 바코드를 추가하는 방법을 알아봅니다.
 exl-id: 206bdcf9-2bcd-4bf1-815a-c97cdf0dc415
-source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ margin-top: 2mm;
 
 1. `<Sample barcode>`을(를) 바코드 스캐너에서 읽을 값으로 바꾸십시오.
 
-페이지 레이아웃이 포함된 템플릿을 사용하여 출력 PDF 생성 시 바코드를 볼 수 있습니다. 이전 단계를 수행한 후에는 바코드로 PDF 출력을 생성할 수 있습니다.
+페이지 레이아웃이 포함된 템플릿을 사용하여 출력 PDF을 생성할 때 바코드를 볼 수 있습니다. 이전 단계를 수행한 후에는 바코드로 PDF 출력을 생성할 수 있습니다.
 
 다음 스크린샷에는 PDF 출력에 샘플 바코드가 표시됩니다.
 
@@ -70,9 +70,9 @@ margin-top: 2mm;
 
 **예 2**
 
-프로젝트 제목 뒤에 바코드를 추가하려면 **기본** 템플릿에서 `Common.plt` 파일을 수정하십시오.
+프로젝트 제목 뒤에 바코드를 추가하려면 `Common.plt`기본&#x200B;**템플릿에서** 파일을 수정하십시오.
 
-ISBN 번호에 대한 바코드를 만들려면 ISBN 번호를 추가합니다. 그런 다음 ISBN 번호를 사용하여 바코드를 생성합니다.
+ISBN 번호에 대한 바코드를 만들려면 ISBN 번호를 추가하십시오. 그런 다음 ISBN 번호를 사용하여 바코드를 생성합니다.
 
 ```html
 ...
@@ -89,7 +89,7 @@ ISBN 번호에 대한 바코드를 만들려면 ISBN 번호를 추가합니다. 
 
 맵 메타데이터를 사용하여 바코드를 생성하려면 다음을 수행합니다.
 
-DITA 맵의 `<topicmeta>` 요소에 있는 모든 메타데이터를 사용하여 바코드로 표시합니다. 올바른 XPath를 사용해야 합니다. 예를 들어 DITA 맵의 `<topicmeta>`에 `<resourceid>`을(를) 추가할 수 있습니다.
+DITA 맵의 `<topicmeta>` 요소에 있는 모든 메타데이터를 사용하여 바코드로 표시합니다. 올바른 XPath를 사용해야 합니다. 예를 들어 DITA 맵의 `<resourceid>`에 `<topicmeta>`을(를) 추가할 수 있습니다.
 
 다음 예제에서는 리소스 ID가 바코드를 생성하는 주 입력 역할을 합니다.
 
@@ -134,25 +134,25 @@ DITA 맵의 `<topicmeta>` 요소에 있는 모든 메타데이터를 사용하�
 | 코드 93 | code93 |                            |
 | 코드16k | code16k |                            |
 | PDF417 | pdf417 | ISO/IEC 15438:2006 및 ISO/IEC 24728:2006에 따른 PDF417/MicroPDF417 바코드 기호. |
-| 코드 3/9 | code39 | ISO/IEC 16388:2007에 따라 9 바코드 기호 코드 3. |
+| 코드 3/9 | code39 | ISO/IEC 16388:2007에 따른 9개의 바코드 기호 코드 3. |
 | 플레시 | 매시플레시 |                            |
 | 채널 코드 | 채널코드 | ANSI/AIM BC12-1998에 따른 채널 코드. |
 | 코다바르 | 코다바 | BS EN 798:1996에 따른 코다바 바코드 기호. |
-| EAN-8 | ean-8 | EAN 바코드 기호 BS EN 797:1996. |
-| EAN-13 | ean- | EAN 바코드 기호 BS EN 797:1996. |
-| UPC-A | upc-a | UPC 바코드 기호 BS EN 797:1996. |
-| UPC-E | upc-e | UPC 바코드 기호 BS EN 797:1996. |
-| Ean/UPC 추가 | 어미 | EAN/UPC 추가 기능 바코드 기호, BS EN 797:1996. |
+| EAN-8 | ean-8 | BS EN 797:1996에 따른 EAN 바코드 기호. |
+| EAN-13 | ean- | BS EN 797:1996에 따른 EAN 바코드 기호. |
+| UPC-A | upc-a | BS EN 797:1996에 따른 UPC 바코드 기호. |
+| UPC-E | upc-e | BS EN 797:1996에 따른 UPC 바코드 기호. |
+| Ean/UPC 추가 | 어미 | BS EN 797:1996에 따른 EAN/UPC 추가 기능 바코드 기호. |
 | 텔레펜 | 텔레펜 | 텔레펜 Alpha 라고도 합니다. |
-| GS1 데이터베이스 / 데이터베이스 14 | 데이터 베이스 | ISO/IEC 24724:2011에 따른 GS1 DataBar |
+| GS1 데이터베이스 / 데이터베이스 14 | 데이터 베이스 | ISO/IEC 24724:2011에 따른 GS1 데이터 막대 |
 | GS1 Databar Expanded / Databar 14 Expanded | 데이터 베이스로 확장됨 | GS1 DataBar는 ISO/IEC 24724:2011에 따라 확장되었습니다. |
-| GS1 데이터베이스 제한 | 데이터 베이스 제한 | ISO/IEC 24724:2011에 따라 GS1 DataBar 제한 |
+| GS1 데이터베이스 제한 | 데이터 베이스 제한 | ISO/IEC 24724:2011에 따라 GS1 DataBar가 제한됩니다. |
 | POSTNET(우편 번호 인코딩 기술) | postnet | 미국 우편 서비스에서 사용하는 POSTNET(우편 번호 인코딩 기법) 바코드 기호. |
 | 파마젠트랄머(PZN-8) | pzn8 | 독일 제약업계가 사용하는 코드39 기반 상징물이다. |
 | 약전 | 약전 |                            |
 | 코다블락 | 코다블락 | 기호학 AIM Europe &quot;Uniform Symbology Specification Codablock F&quot;, 1995. |
 | 로그마르스 | 로그마르스 | 미국 국방부에서 사용하는 LOGMARS(Logistics Applications of Automated Marking and Reading Symbols) 표준. |
-| 아즈텍 룬스 | 아즈텍룬 | ISO/IEC 24778:2008 Annex A에 따른 Aztec Runes 바코드 기호. |
-| Aztec 코드 | aztec-code | ISO/IEC 24778:2008에 따른 Aztec 코드 바코드 기호. |                            |
+| 아즈텍 룬스 | 아즈텍룬 | Aztec은 ISO/IEC 24778:2008 Annex A에 따라 바코드 기호를 실행합니다. |
+| Aztec 코드 | aztec-code | ISO/IEC 24778:2008에 따른 Aztec 코드 바코드 기호. |
 | 데이터 매트릭스 | 자료 행렬 | ISO/IEC 16022:2006에 따른 데이터 매트릭스 ECC 200 바코드 기호. |
 | 코드 1 | code-one |                            |
