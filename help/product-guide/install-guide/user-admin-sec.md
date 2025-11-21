@@ -18,13 +18,13 @@ AEM Guides의 기능에 액세스하고 구성하려면 사용자를 생성해�
 
 AEM 설명서의 다음 항목은 사용자 관리 및 보안 관련 개념과 기능을 이해하는 데 도움이 됩니다.
 
-- AEM의 [사용자 및 그룹](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)
+- AEM의 [사용자 및 그룹](https://helpx.adobe.com/kr/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)
 
-- AEM의 [권한](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)
+- AEM의 [권한](https://helpx.adobe.com/kr/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)
 
-- [사용자 및 그룹 관리](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)
+- [사용자 및 그룹 관리](https://helpx.adobe.com/kr/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)
 
-- [권한 관리](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions)
+- [권한 관리](https://helpx.adobe.com/kr/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions)
 
 
 ## AEM Guides에서 만든 사용자 그룹 {#id181TF0K0MHT}

@@ -18,9 +18,9 @@ AEM Guides에서 기능에 액세스하고 구성하려면 사용자를 생성�
 
 AEM 설명서의 다음 항목은 사용자 관리 및 보안 관련 개념과 기능을 이해하는 데 도움이 됩니다.
 
-- [AEM 사용자, 그룹 및 권한](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html)
+- [AEM 사용자, 그룹 및 권한](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html?lang=ko)
 
-- [사용자 관리 및 보안](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html)
+- [사용자 관리 및 보안](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=ko)
 
 
 ## AEM Guides에서 만든 사용자 그룹 {#id181TF0K0MHT}

@@ -52,7 +52,7 @@ AEM Guides에서 사용할 수 있는 기본 DITA-OT 패키지에는 MathML 방�
 
    >[!NOTE]
    >
-   > 기본 DITA-OT 패키지를 덮어쓰지 않는 것이 좋습니다. 플러그인 /var/dxml/dita\_resources/dita-ot 폴더가 포함된 사용자 지정 DITA-OT 패키지를 업로드해야 합니다. Cloud Manager 파이프라인을 사용하여 수행할 수도 있습니다. 자세한 내용은 AEM 설명서에서 [AEM as a Cloud Service에 배포](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html)를 참조하십시오.
+   > 기본 DITA-OT 패키지를 덮어쓰지 않는 것이 좋습니다. 플러그인 /var/dxml/dita\_resources/dita-ot 폴더가 포함된 사용자 지정 DITA-OT 패키지를 업로드해야 합니다. Cloud Manager 파이프라인을 사용하여 수행할 수도 있습니다. 자세한 내용은 AEM 설명서에서 [AEM as a Cloud Service에 배포](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=ko)를 참조하십시오.
 
 1. 기본 프로파일을 편집하거나, 새 프로파일을 만들거나, 기본 프로파일에서 설정을 복제하여 새 프로파일을 만들 수 있습니다.
 
