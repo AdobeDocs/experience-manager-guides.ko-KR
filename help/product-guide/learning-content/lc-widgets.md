@@ -4,9 +4,9 @@ description: 학습 콘텐츠에서 사용할 수 있는 대화형 위젯에 대
 feature: Authoring
 role: User
 exl-id: e7ca2df1-9d15-4718-9698-8a0f059a86d7
-source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
+source-git-commit: d4fd08c70c590496fef7a047745d4403546664fe
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -32,29 +32,18 @@ ht-degree: 0%
 
   ![](assets/hotspot-learning-content.png){width="650" align="left"}
 
-- **블록 따옴표:** 인용과 함께 블록 따옴표를 콘텐츠에 추가합니다.
+- **탭:** 대화형 섹션으로 콘텐츠를 구성할 수 있습니다.  각 탭은 개별 주제나 카테고리를 나타낼 수 있으며, 학습자는 탭을 클릭하거나 탭하여 해당 콘텐츠를 표시할 수 있습니다. 컨텐츠에 탭 위젯을 표시할 위치에 커서를 놓은 다음 **삽입 > 위젯 > 탭**&#x200B;으로 이동합니다. 이렇게 하면 콘텐츠에 탭 컨테이너가 추가됩니다. 이제 탭 제목과 해당 콘텐츠가 포함된 탭에 콘텐츠를 추가하기 시작합니다.
 
-  ![](assets/block-quote-learning-content.png){width="650" align="left"}
+  ![](assets/insert-tab-lc.png)
 
-- **코드 블록:** 콘텐츠에 코드 블록을 추가합니다.
+  탭 레이아웃(세로 탭 또는 가로 탭)을 추가, 삭제 및 전환하려면 오른쪽 패널의 **콘텐츠 속성** 섹션을 사용합니다.
+- **카드 뒤집기:** 뒤집는 콘텐츠에 대화형 카드를 추가하여 추가 정보를 표시합니다. 각 카드에는 앞면과 뒷면의 두 가지 측면이 있어 학습자가 매력적인 방식으로 정보를 탐색할 수 있습니다.  뒤집기 카드를 삽입하려면 원하는 위치에 커서를 놓고 **삽입 > 위젯 > 뒤집기 카드**&#x200B;로 이동하여 콘텐츠에 뒤집기 카드 컨테이너를 추가합니다. 그런 다음 제목과 선택적 이미지를 앞면에 추가하고 뒷면에 해당 콘텐츠를 입력할 수 있습니다.
 
-  ![](assets/code-block-learning-content.png){width="650" align="left"}
+  ![](assets/insert-flip-card-lc.png)
 
-- **Iframe:** 콘텐츠에 iframe을 삽입하여 외부 웹 페이지 또는 대화형 리소스를 포함합니다. 소스 URL, 너비, 높이, 정렬 및 제목을 포함하여 **콘텐츠 속성** 패널을 사용하여 iframe 속성을 구성할 수 있습니다. 아래와 같이 **미리 보기** 모드로 전환하면 iframe에 추가된 콘텐츠를 볼 수 있습니다.
+  카드를 추가 또는 삭제하거나 레이아웃을 변경하려면 오른쪽 패널의 **콘텐츠 속성** 섹션을 사용하십시오.
+- **클릭하여 표시:** 학습자가 클릭하여 표시할 때까지 콘텐츠를 숨기는 대화형 위젯을 콘텐츠에 삽입합니다. 이는 어수선함을 줄이고 탐색을 장려하는 데 도움이 됩니다. 원하는 위치에 커서를 놓고 **삽입 > 위젯 > 클릭하여 표시**&#x200B;를 선택하여 위젯을 삽입합니다. 삽입되면 위젯 헤더의 제목을 입력하고 학습자의 상호 작용 시 표시되는 숨겨진 콘텐츠를 정의합니다.
 
-  **작성자** 보기:
+  ![](assets/insert-click-to-reveal-lc.png)
 
-  ![](assets/iframe-learning-content.png){width="650" align="left"}
-
-
-  **미리 보기** 모드:
-
-  ![](assets/iframe-learning-content-preview.png){width="650" align="left"}
-
-- **입력 필드:** 콘텐츠에 단추와 함께 텍스트 입력 필드를 추가합니다. 이 조합을 사용하여 사용자 입력을 캡처하고 특정 작업을 트리거할 수 있습니다. 아래 표시된 대로 재생 버튼이 콘텐츠에 추가됩니다.
-
-  ![](assets/button-learning-content.png){width="650" align="left"}
-
-- **추가 옵션:** 가로줄, 줄 바꿈, 텍스트 상자, 배치된 텍스트 상자 및 포함된 HTML 삽입을 포함하여 학습 내용을 향상시킬 수 있는 추가 옵션이 있습니다.
-
-  ![](assets/more-options-learning-content.png){width="650" align="left"}
+  위젯을 추가 또는 삭제하거나 위젯 방향을 관리하려면 오른쪽 패널의 **콘텐츠 속성** 섹션을 사용하십시오.

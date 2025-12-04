@@ -4,9 +4,9 @@ description: 제품 교육 및 학습에서 퀴즈에 질문을 삽입하는 방
 feature: Authoring
 role: User
 exl-id: dff38476-c078-4970-b967-05a902430015
-source-git-commit: 40c12185223cdc35c069d44ceb66a38cecacf84f
+source-git-commit: 41ea5e91b5ee096ede2eb06dae7a44f01e0c0571
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 퀴즈에 질문을 삽입하려면 다음 단계를 수행하십시오.
 
-1. 도구 모음의 **질문** 드롭다운 메뉴에서 원하는 질문 유형을 선택합니다. 요구 사항에 따라 True 또는 False, Single Correct 및 Multiple Correct의 세 가지 형식 중 하나를 사용하여 질문을 추가할 수 있습니다.
+1. 도구 모음의 **질문** 드롭다운 메뉴에서 원하는 질문 유형을 선택합니다. 요구 사항에 따라 True 또는 False, Single correct, Multiple correct 및 Match의 네 가지 형식 중 하나를 사용하여 질문을 추가할 수 있습니다. 자세한 내용은 [질문 유형](#question-types)을 참조하세요.
 
    ![](assets/question-types.png){width="650" align="left"}
 
@@ -48,3 +48,28 @@ ht-degree: 0%
 1. 컨텍스트 메뉴에서 **질문 삭제**(전체 질문을 제거하려면) 또는 **삭제 옵션**(선택한 옵션만 제거하려면)을 선택합니다.
 
 ![](assets/delete-options-lc.png){width="650" align="left"}
+
+## 질문 유형
+
+퀴즈에서는 다음 질문 유형이 지원됩니다.
+
+- **단일 정답**: 하나의 정답만 맞는 여러 옵션이 있는 질문입니다.
+
+  ![](assets/single-correct.png){width="650" align="left"}
+
+- **True/False**: 학습자가 True 또는 False를 선택하는 문장 기반 질문입니다.
+
+  ![](assets/true-false.png){width="650" align="left"}
+
+
+- **여러 정답**: 두 개 이상의 정답을 입력할 수 있는 여러 옵션이 있는 질문입니다.
+
+  ![](assets/multi-correct.png){width="650" align="left"}
+
+- **다음 항목과 일치**: 학습자가 두 목록의 항목을 일치시켜 올바른 쌍을 구성할 수 있도록 허용합니다. **콘텐츠 속성** 패널에서 새 옵션 집합을 추가할 수 있습니다. 복잡성을 높이기 위해 첫 번째 목록에서 옵션 하나를 제거하고 일치 열에 추가 일치를 포함할 수 있습니다. 이는 학습자에게 어떤 선택지가 직접적인 짝을 이루지 못하는지에 대해 비판적으로 생각하게 함으로써 난이도의 요소를 창출한다.
+
+  ![](assets/match-the-following.png){width="650" align="left"}
+
+  게시된 출력에서 각 항목에 대한 드롭다운 메뉴와 함께 **다음 항목과 일치** 질문이 표시되어 사용 가능한 옵션에서 올바른 일치를 선택할 수 있습니다.
+
+  ![](assets/question-type-publishing.png){width="650" align="left"}

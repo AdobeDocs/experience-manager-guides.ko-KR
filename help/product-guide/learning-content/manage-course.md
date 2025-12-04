@@ -4,10 +4,10 @@ description: 과정을 효율적으로 관리할 수 있는 Experience Manager G
 feature: Authoring
 role: User
 exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
-source-git-commit: 17d71e65e2f4f79a764d822f6f1ada136a7379d7
+source-git-commit: 0171f7b798686a0a16942e98133001a4c05bb76b
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 1%
+source-wordcount: '708'
+ht-degree: 0%
 
 ---
 
@@ -84,3 +84,15 @@ ht-degree: 1%
 ![](assets/course-display-settings.png)
 
 비디오 개요가 필요하면 [설정 표시](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides) ![](assets/Smock_VideoCheckedOut_18_N.svg)를 확인하십시오.
+
+## 리뷰 작업 만들기
+
+학습 과정 작성자 또는 관리자는 과정에 대한 검토 작업을 만들고 피드백을 위해 검토자에게 할당할 수 있습니다. **과정 관리자** 패널에서 과정을 연 다음 아래와 같이 **옵션** 메뉴에서 **검토 작업 만들기**&#x200B;를 선택합니다.
+
+![](assets/create-review-task-lc.png)
+
+**검토 작업 만들기** 페이지로 이동합니다. 이 페이지에서는 검토 작업의 제목과 같은 작업 세부 정보를 추가하고, 검토 작업이 포함된 DITA 프로젝트를 지정하고, 작업 타임라인을 정의하고, 검토자를 할당하는 등의 작업을 수행해야 합니다. 완료되면 검토자는 이 작업에 대한 알림을 받게 됩니다. 선택한 강의 주제가 검토 UI에서 열리고 검토자가 주석을 추가하고 업데이트를 위해 주제를 다시 보낼 수 있습니다.
+
+Experience Manager Guides의 검토 워크플로를 이해하려면 [검토할 항목 보내기](../user-guide/review-send-topics-for-review.md)를 참조하세요.
+
+
