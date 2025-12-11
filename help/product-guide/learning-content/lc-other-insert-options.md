@@ -3,9 +3,9 @@ title: 삽입 메뉴의 기타 옵션
 description: 학습 콘텐츠에서 사용할 수 있는 삽입 메뉴 옵션에 대해 알아봅니다.
 feature: Authoring
 role: User
-source-git-commit: 1fe46636a82b87b65fb5b29e7282636e7dec2358
+source-git-commit: e31f7744d4c01a2924a710f547375b1b497163ee
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -48,13 +48,13 @@ ht-degree: 0%
   > Adobe Experience Manager Guides 내에서는 H5P 콘텐츠를 편집하거나 만들 수 없습니다. 업로드하기 전에 외부에서 H5P 패키지를 준비합니다.
 
 
-- **수식:** 콘텐츠에 MathML 수식을 삽입합니다. MathML 방정식을 만들고 **삽입**&#x200B;을 선택하여 문서에 추가할 수 있습니다.
+- **MathML 수식:** 콘텐츠에 MathML 수식을 삽입합니다. MathML 방정식을 만들고 **삽입**&#x200B;을 선택하여 문서에 추가할 수 있습니다.
 
   ![](./assets/insert-mathml.png){width="350" align="left"}
 
   방정식은 밝은 회색 배경과 함께 삽입됩니다. 언제든지 기존 방정식을 마우스 오른쪽 단추로 클릭하고 상황에 맞는 메뉴에서 **수식 편집**&#x200B;을 선택하여 방정식을 업데이트할 수 있습니다. Experience Manager Guides에서 MathML 방정식 유효성 검사에 대한 자세한 내용은 MathML 편집기에서 [방정식 유효성 검사](../user-guide/web-editor-other-features.md#validation-of-equations-in-the-mathml-editor)를 참조하십시오.
 
-- **기술 자료 확인:** 채점 또는 보고 없이 주제를 검토하고 이해를 확인하기 위해 사용 가능한 형식(단일 수정, 다중 수정, 참/거짓, 다음 내용과 일치 또는 문제 은행에서 삽입)의 질문을 주제에 추가할 수 있습니다. 이러한 질문은 표준 형식을 반영하고 점수를 제외하므로 자체 평가에 적합하며 필요에 따라 나중에 퀴즈나 평가 전에 과정 내용 또는 주제의 일부로 적합합니다.
+- **지식 확인:** 주제에 사용 가능한 형식(단일 수정, 다중 수정, True/False, 다음 항목과 일치 또는 문제 은행에서 삽입)의 질문을 추가하여 검토하고 채점 없이 이해를 확인할 수 있습니다. 이러한 질문은 표준 형식을 반영하며 점수를 제외하므로 자체 평가에 적합하고 나중에 퀴즈나 평가 전에 강의 내용이나 주제의 일부로 적합합니다.
 
   ![](assets/knowledge-check-topic.png){width="650" align="left"}
 
