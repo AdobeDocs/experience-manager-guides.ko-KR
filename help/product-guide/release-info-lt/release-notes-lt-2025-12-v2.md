@@ -3,7 +3,7 @@ title: 릴리스 정보 | 제품 교육 및 학습 컨텐츠의 2025년 12월 �
 description: 제품 교육 및 학습 컨텐츠의 2025년 12월 릴리스의 새로운 기능과 향상된 기능에 대해 알아보십시오
 role: Leader
 hidefromtoc: true
-source-git-commit: fe7e1605933f925530d7767af22770dcde90b6df
+source-git-commit: a5a5202d652096ef4de1db78b8638e605e9d80f4
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
   자세한 내용은 삽입 메뉴의 [기타 옵션](../learning-content/lc-other-insert-options.md)을 참조하세요.
 
-  ![](assets/knowledge-check-topic.png){width="350" align="left"}
+  ![](assets/knowledge-check-topic.png){width="650" align="left"}
 
 - **새로운 대화형 위젯**: 콘텐츠를 더욱 몰입하게 만드는 새로운 대화형 위젯으로 학습자를 참여시킬 수 있습니다. **클릭하여 표시**, **카드 뒤집기**, **탭**.
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
   자세한 내용은 [퀴즈 질문 유형](../learning-content/quiz-insert-questions.md#question-types)을 참조하세요.
 
-  ![](assets/question-types.png){width="350" align="left"}
+  ![](assets/question-types.png){width="650" align="left"}
 
 ## 검토
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
   자세한 내용은 [검토 작업 만들기](../learning-content/manage-course.md#create-review-task)를 참조하세요.
 
-  ![](assets/create-review-task-lc.png){width="350" align="left"}
+  ![](assets/create-review-task-lc.png){width="650" align="left"}
 
 ## 콘텐츠 관리
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
   자세한 내용은 [기본 빌딩 블록 추가](../learning-content/lc-basic-blocks.md)를 참조하십시오.
 
-  ![](assets/reusable-content.png){width="350" align="left"}
+  ![](assets/reusable-content.png){width="650" align="left"}
 
 
 
