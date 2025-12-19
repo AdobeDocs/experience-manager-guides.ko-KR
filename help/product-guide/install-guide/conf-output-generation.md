@@ -5,9 +5,9 @@ exl-id: 6df31e3c-683c-4188-b917-9c1855d9b95b
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: 9769a196346117237f2f72b6c88f8ac14fece740
 workflow-type: tm+mt
-source-wordcount: '5756'
+source-wordcount: '5824'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ FMPS를 사용하도록 AEM Guides을 구성하려면 웹 콘솔에서 `com.adob
 
 >[!NOTE]
 >
-> http://&lt;server name\>:<port\>/system/console/configMgr URL에 액세스하여 웹 콘솔을 엽니다.
+> http://<server name\>:<port\>/system/console/configMgr URL에 액세스하여 웹 콘솔을 엽니다.
 
 | 속성 | 설명 |
 |--------|-----------|
@@ -185,7 +185,7 @@ AEM 사이트 출력 생성에 사용할 디자인 템플릿을 지정하려면 
 >
 > 사용자 지정 디자인 템플릿 노드를 만든 후 AEM 사이트 출력 사전 설정에서 디자인 옵션을 업데이트하여 사용자 지정 디자인 템플릿 노드를 사용해야 합니다.
 
-자세한 내용은 [첫 번째 Adobe Experience Manager 6.3 웹 사이트 만들기](https://helpx.adobe.com/experience-manager/using/first_aem63_website.html) 및 AEM에서 자체 웹 사이트 개발 [기본 사항](https://helpx.adobe.com/kr/experience-manager/6-3/sites/developing/using/the-basics.html)을 참조하십시오.
+자세한 내용은 [첫 번째 Adobe Experience Manager 6.3 웹 사이트 만들기](https://helpx.adobe.com/experience-manager/using/first_aem63_website.html) 및 AEM에서 자체 웹 사이트 개발 [기본 사항](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/the-basics.html)을 참조하십시오.
 
 ### AEM 사이트 출력 생성에 문서 제목 사용
 
@@ -332,7 +332,7 @@ AEM 사이트 출력에서 평면화할 노드를 지정하는 것과 마찬가�
 
 ### AEM 사이트 출력에서 삭제된 페이지에 대한 버전 관리 구성
 
-기존 출력 페이지 설정에 대해 **삭제 및**&#x200B;만들기&#x200B;**&#x200B;**&#x200B;옵션이 선택된 AEM 사이트 출력을 생성하면 삭제되는 페이지에 대한 버전이 만들어집니다. 삭제하기 전에 버전 생성을 중단하도록 시스템을 구성할 수 있습니다.
+기존 출력 페이지 설정에 대해 **삭제 및**&#x200B;만들기&#x200B;****옵션이 선택된 AEM 사이트 출력을 생성하면 삭제되는 페이지에 대한 버전이 만들어집니다. 삭제하기 전에 버전 생성을 중단하도록 시스템을 구성할 수 있습니다.
 
 삭제할 페이지에 대한 버전 만들기를 중지하려면 다음 단계를 수행하십시오.
 
@@ -642,11 +642,11 @@ AEM Guides은 맵 콘솔을 사용자 지정할 `apps.fmdita.dashboard-extn` 범
 
 >[!NOTE]
 >
-> AEM 클라이언트 라이브러리를 만드는 방법에 대한 자세한 내용은 [클라이언트측 라이브러리 사용](https://helpx.adobe.com/kr/experience-manager/6-4/sites/developing/using/clientlibs.html)을 참조하십시오.
+> AEM 클라이언트 라이브러리를 만드는 방법에 대한 자세한 내용은 [클라이언트측 라이브러리 사용](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/clientlibs.html)을 참조하십시오.
 
 ## 출력 생성 중 이미지 렌디션 처리 {#id177BF0G0VY4}
 
-AEM에는 자산을 처리하는 기본 워크플로우 및 미디어 핸들 세트가 포함되어 있습니다. AEM에는 가장 일반적인 MIME 유형에 대한 에셋 처리를 처리하는 미리 정의된 워크플로가 있습니다. 일반적으로 AEM은 업로드하는 모든 이미지에 대해 동일한 여러 렌디션을 이진 형식으로 만듭니다. 이러한 렌디션은 크기가 다르고 해상도가 다르며 워터마크가 추가되거나 다른 특성이 변경될 수 있습니다. AEM에서 자산을 처리하는 방법에 대한 자세한 내용은 AEM 설명서에서 [미디어 핸들러 및 워크플로우를 사용하여 Assets 처리](https://helpx.adobe.com/kr/experience-manager/6-5/assets/using/media-handlers.html)를 참조하십시오.
+AEM에는 자산을 처리하는 기본 워크플로우 및 미디어 핸들 세트가 포함되어 있습니다. AEM에는 가장 일반적인 MIME 유형에 대한 에셋 처리를 처리하는 미리 정의된 워크플로가 있습니다. 일반적으로 AEM은 업로드하는 모든 이미지에 대해 동일한 여러 렌디션을 이진 형식으로 만듭니다. 이러한 렌디션은 크기가 다르고 해상도가 다르며 워터마크가 추가되거나 다른 특성이 변경될 수 있습니다. AEM에서 자산을 처리하는 방법에 대한 자세한 내용은 AEM 설명서에서 [미디어 핸들러 및 워크플로우를 사용하여 Assets 처리](https://helpx.adobe.com/experience-manager/6-5/assets/using/media-handlers.html)를 참조하십시오.
 
 AEM Guides을 사용하면 문서에 대한 출력을 생성할 때 사용할 이미지 렌디션을 구성할 수 있습니다. 예를 들어 기본 이미지 표현물 중 하나를 선택하거나 표현물을 만들어 이를 사용하여 문서를 게시할 수 있습니다. 문서를 게시하기 위한 이미지 렌디션 매핑은 `/libs/fmdita/config/ **renditionmap.xml**` 파일에 저장됩니다. `renditionmap.xml` 파일의 스니펫은 다음과 같습니다.
 
@@ -661,6 +661,7 @@ AEM Guides을 사용하면 문서에 대한 출력을 생성할 때 사용할 �
       <rendition output="AEMSITE">cq5dam.web.1280.1280.jpeg</rendition>
       <rendition output="PDF">original</rendition>
       <rendition output="HTML5">cq5dam.web.1280.1280.jpeg</rendition>
+      <rendition output="HTML5" outputName="ditahtml5">cq5dam.thumbnail.319.319.png</rendition>
       <rendition output="EPUB">cq5dam.web.1280.1280.jpeg</rendition>
       <rendition output="CUSTOM">cq5dam.web.1280.1280.jpeg</rendition>
    </mapelement>
@@ -669,6 +670,26 @@ AEM Guides을 사용하면 문서에 대한 출력을 생성할 때 사용할 �
 ```
 
 `mimetype` 요소는 파일 형식의 MIME 형식을 지정합니다. `rendition output` 요소는 지정된 출력을 게시하는 데 사용해야 하는 출력 형식 및 렌디션의 이름 \(예: `cq5dam.web.1280.1280.jpeg`\)을 지정합니다. 지원되는 모든 출력 형식(AEMSITE, PDF, HTML5, EPUB 및 CUSTOM)에 사용할 이미지 렌디션을 지정할 수 있습니다.
+
+출력 사전 설정에 다른 이미지 변환을 지정하려면 `outputName` 특성을 사용하여 동일한 출력 유형에서 특정 출력 사전 설정에 대한 사용자 지정 변환을 정의할 수 있습니다. 이 기능은 다양한 게시 시나리오에 대해 다양한 이미지 크기나 형식이 필요한 경우에 유용합니다.
+
+예:
+
+
+```XML
+<renditionmap>
+   <mapelement>
+      <mimetype>image/png</mimetype>
+      
+      <rendition output="HTML5">cq5dam.web.1280.1280.jpeg</rendition>
+      <rendition output="HTML5" outputName="ditahtml5">cq5dam.thumbnail.319.319.png</rendition>
+      
+   </mapelement>
+...
+</renditionmap>
+```
+
+위의 변환에서 `outputName` 특성이 변환에 정의되어 있으면 ditahtml5 사전 설정은 `cq5dam.thumbnail.319.319.png`을(를) 사용하고 `outputName`이(가) 없으면 모든 HTML5 출력에서 `cq5dam.web.1280.1280.jpeg`을(를) 사용합니다.
 
 지정된 렌디션이 없으면 AEM Guides 게시 프로세스는 먼저 지정된 이미지의 웹 렌디션을 찾습니다. 웹 렌디션도 찾을 수 없는 경우에는 이미지의 원본 렌디션이 사용됩니다.
 
