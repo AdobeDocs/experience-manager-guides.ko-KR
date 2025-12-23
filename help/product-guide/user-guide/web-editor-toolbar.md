@@ -4,9 +4,9 @@ description: 편집기의 도구 모음에 대해 알아봅니다. Adobe Experie
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
-source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
+source-git-commit: 172599c2bd99f1779b04255aac5e7d505614b463
 workflow-type: tm+mt
-source-wordcount: '5962'
+source-wordcount: '6011'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ Source 보기에서 **찾기 및 바꾸기** 기능은 특정 요소나 특성�
 
    **메타데이터** 탭: 새로 추가된 메타데이터는 녹색 글꼴이고 삭제된 메타데이터는 빨간색 글꼴입니다.
 
-   ![&#x200B; 버전에 대한 &#x200B;](images/metadata-version-diff.png){width="550" align="left"}메타데이터 차이점
+   ![ 버전에 대한 ](images/metadata-version-diff.png){width="550" align="left"}메타데이터 차이점
 
    *버전 기록에서 다른 버전의 메타데이터를 비교합니다.*
 
@@ -471,6 +471,10 @@ Source 필드는 삽입된 이미지 파일의 UUID를 표시합니다. 마우�
 
 관리자가 *XMLEditorConfig*&#x200B;에서 UUID 옵션을 활성화한 경우 **Link** 속성에서 참조된 콘텐츠의 UUID를 보게 됩니다.
 
+>[!IMPORTANT]
+>
+> 표준 DITA 동작에 따라 범위=`external` 특성은 외부 리소스에 대한 참조용으로만 사용되므로 내부 링크에 적용할 수 없습니다. 이 속성을 내부 링크에 적용하면 워크플로우가 중단될 수 있습니다. Experience Manager Guides에서 관리되는 콘텐츠의 경우 기본 범위=`local` 또는 키 기반 참조를 대신 사용하십시오.
+
 ![](images/ref-link-uuid_cs.png){align="left"}
 
 >[!NOTE]
@@ -623,4 +627,4 @@ DITA 맵에 정의된 키워드를 삽입합니다. 키워드 옵션을 선택�
 관리자는 다른 사용자가 잠근 파일의 잠금을 해제할 수 있는 **잠금 해제 강제** 기능에 액세스할 수도 있습니다. 이 기능을 사용하여 다른 사용자가 잠근 파일의 편집 권한에 액세스할 수 있습니다.
 
 ![](images/web-editor-force-unlock-new.png){width="350" align="left"}
-**상위 항목:**&#x200B;[&#x200B;편집기 소개](web-editor.md)
+**상위 항목:**[&#x200B;편집기 소개](web-editor.md)
