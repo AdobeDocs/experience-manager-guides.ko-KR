@@ -2,9 +2,9 @@
 title: 릴리스 정보 | Adobe Experience Manager Guides 5.1.0 서비스 팩 3 릴리스의 문제가 해결되었습니다
 description: Adobe Experience Manager Guides 5.1.0 서비스 팩 3 릴리스의 버그 수정에 대해 알아봅니다
 role: Leader
-source-git-commit: 64d7e4f8028ade36c4fee9bb3407e70b10da6869
+source-git-commit: 82eb0e18eb285006c66b1fe2b6ecc3ca86fefe61
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '302'
 ht-degree: 1%
 
 ---
@@ -40,6 +40,12 @@ ht-degree: 1%
 ## Platform
 
 - 항목 또는 맵 내에서 DAM 콘텐츠에 대한 참조에 `scope="external"`을(를) 사용하면 자산의 상대 경로가 GUID로 대체됩니다. (GUIDES-35605)
+
+## 알려진 문제
+
+Adobe은 5.1.0 서비스 팩 3 릴리스에 대해 다음과 같은 알려진 문제를 확인했습니다.
+
+- 작업 세부 정보 페이지에서 검토 작업을 완료로 표시하면 작업이 완료되고 닫힙니다. 그러나 검토 대시보드에서는 상태가 **진행 중**&#x200B;으로 계속 표시됩니다. (GUIDES-39375)
 
 
 

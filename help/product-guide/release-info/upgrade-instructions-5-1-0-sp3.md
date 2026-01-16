@@ -1,10 +1,10 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides 5.1.0 서비스 팩 3 릴리스의 업그레이드 지침
 description: 호환성 매트릭스와 Adobe Experience Manager Guides 5.1.0 서비스 팩 3 릴리스로 업그레이드하는 방법에 대해 알아봅니다.
-source-git-commit: 172599c2bd99f1779b04255aac5e7d505614b463
+source-git-commit: 7ffaa292f2323a9d4b166ab20d20c986752c1c1d
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 1%
+source-wordcount: '587'
+ht-degree: 3%
 
 ---
 
@@ -16,13 +16,12 @@ ht-degree: 1%
 
 ## 호환성 매트릭스
 
-이 섹션에서는 Experience Manager Guides 5.1.0 릴리스에서 지원하는 소프트웨어 응용 프로그램에 대한 호환성 매트릭스를 나열합니다.
+이 섹션에서는 Experience Manager Guides 5.1.0 서비스 팩 3 릴리스에서 지원하는 소프트웨어 응용 프로그램에 대한 호환성 매트릭스를 나열합니다.
 
-### Adobe Experience Manager
-
-**5.1.0 서비스 팩 3 UUID**
-
-버전 6.5 서비스 팩 23, 서비스 팩 22 및 서비스 팩 21
+| AEM Guides | AEM 버전 | 서비스 팩 |
+| --- | --- | --- |
+| 5.1.0 서비스 팩 3(UUID) | 6.5 LTS | 1 |
+| 5.1.0 서비스 팩 3(UUID) | 6.5 | 23,22,21 |
 
 자세한 내용은 On-Premise 설치 및 구성 안내서의 [기술 요구 사항](../install-guide/download-install-technical-requirements.md) 섹션을 참조하십시오.
 
@@ -46,10 +45,11 @@ ht-degree: 1%
 
 ### 새 AEM 사이트 템플릿 버전
 
+| AEM Guides | AEM 버전 | 구성 요소 버전 | 사이트 버전 |
+|---|---|---| ---|
+| 5.1.0 서비스 팩 3 UUID | 6.5 LTS | guides-components.all-1.4.1 | aemg-docs.all-1.2.0 |
+| 5.1.0 서비스 팩 3 UUID | 6.5 | guides-components.all-1.4.0 | aemg-docs.all-1.2.0 |
 
-| 구성 요소 버전 | 사이트 버전 |
-|---|---|
-| guides-components.all-1.4.0 | aemg-docs.all-1.2.0 |
 
 ## 사전 요구 사항
 
@@ -57,7 +57,13 @@ ht-degree: 1%
 
 ## Experience Manager Guides 5.1.0 서비스 팩 3 릴리스로 업그레이드
 
-현재 버전의 Guides를 버전 5.1.0 서비스 팩 3으로 쉽게 업그레이드할 수 있습니다. Experience Manager Guides 버전 5.1.0 서비스 팩 3으로 업그레이드하기 전에 다음 사항을 고려해야 합니다.
+현재 버전의 Experience Manager Guides을 **AEM 6.5** 또는 **AEM 6.5 LTS**&#x200B;의 버전 5.1.0 서비스 팩 3으로 쉽게 업그레이드할 수 있습니다.
+
+>[!NOTE]
+>
+> 현재 AEM 6.5를 사용하고 있으며 AEM 6.5 LTS로 이동하려면 [Adobe Experience Manager(AEM) 6.5 LTS로 업그레이드](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)를 참조하십시오.
+
+Experience Manager Guides 버전 5.1.0 서비스 팩 3으로 업그레이드하기 전에 다음 사항을 고려해야 합니다.
 
 - 버전 5.1.0 또는 5.1.x 를 사용 중인 경우 버전 5.1.0 서비스 팩 3으로 바로 업그레이드할 수 있습니다.
 - 버전 4.6.0, 4.6.x, 5.0.0 또는 5.0.x를 사용하는 경우 버전 5.1.0으로 업그레이드해야 합니다.
@@ -65,7 +71,7 @@ ht-degree: 1%
 - 버전 4.3.x, 4.2, 4.2.1(핫픽스 4.2.1.3), 4.1 또는 4.1.x를 사용하는 경우 버전 5.0.0으로 업그레이드하기 전에 버전 4.4로 업그레이드해야 합니다.
 - 버전 4.0을 사용 중인 경우 버전 4.3.x로 업그레이드하기 전에 버전 4.2로 업그레이드해야 합니다.
 - 버전 3.8.5를 사용하는 경우 버전 4.2로 업그레이드하기 전에 버전 4.0으로 업그레이드해야 합니다.
-- 3.8.5 이전 버전을 사용하는 경우 [Experience Manager Guides 도움말 PDF 보관](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/archive.html)에 있는 제품별 설치 안내서의 Adobe Experience Manager Guides 업그레이드 섹션을 참조하십시오.
+- 3.8.5 이전 버전을 사용하는 경우 [Experience Manager Guides 도움말 PDF 보관](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)에 있는 제품별 설치 안내서의 Adobe Experience Manager Guides 업그레이드 섹션을 참조하십시오.
 
 >[!NOTE]
 >
