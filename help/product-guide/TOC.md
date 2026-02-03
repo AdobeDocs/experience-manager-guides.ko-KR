@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 살펴보십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: 2aa07c096b9479ee42b61a740c99b631e0c0cb97
+source-git-commit: d56c5d92a05e8652e9ce1e8b5d508c1441daf012
 workflow-type: tm+mt
-source-wordcount: '2447'
+source-wordcount: '2452'
 ht-degree: 9%
 
 ---
@@ -169,13 +169,13 @@ ht-degree: 9%
                - [4.2.1 릴리스 정보](./release-info/release-notes-4-2-1.md)
                - [4.2 릴리스 노트](./release-info/release-notes-4-2.md)
          - [4.1.x 릴리스 노트](./release-info/release-notes-4-1.md)
-         - [4.0.x 릴리스 노트](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x 릴리스 노트](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - 사용 안내서 (새 UI) {#user-guide}
    - 소개 {#about-aemg}
-      - [&#x200B; [!DNL Adobe Experience Manager Guides] 정보](./user-guide/intro.md)
+      - [ [!DNL Adobe Experience Manager Guides] 정보](./user-guide/intro.md)
       - [!DNL AEM Guides] 작업 중 및 주요 기능 {#aemg-works-features}
-         - [&#x200B; [!DNL AEM Guides] 작동 방식](./user-guide/intro-how-dxml-works.md)
+         - [ [!DNL AEM Guides] 작동 방식](./user-guide/intro-how-dxml-works.md)
          - [주요 [!DNL AEM Guides] 기능](./user-guide/intro-dxml-features.md)
    - 홈 페이지 {#home-page}
       - [[!DNL AEM Guides] 홈 페이지 경험](./user-guide/intro-home-page.md)
@@ -374,7 +374,7 @@ ht-degree: 9%
       - 문제 해결 {#troubleshooting}
          - [세션 시간 초과](./user-guide/session-timeout-prompt.md)
 - 사용 안내서 (이전 UI) {#user-guide-old-ui}
-   - [AEM Guides 개요](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides 개요](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 설치 및 구성 {#install-guide}
    - 온프레미스 {#on-prem-ig}
       - [On-Premise 기본 사항](./install-guide/introduction.md)
@@ -564,7 +564,7 @@ ht-degree: 9%
    - [데이터 소스 커넥터를 등록하는 REST API](./api-reference/data-source-connector.md)
    - [조건부 특성으로 작업할 수 있는 REST API](./api-reference/conditional-attribute.md)
    - [전환 워크플로우에 대한 REST API](./api-reference/convert-to-dita.md)
-   - [패키지를 만들고 활성화하기 위한 REST API](./api-reference/create-activate-package.md)
+   - 패키지를 만들고 활성화하기 위한 [REST API](./api-reference/create-activate-package.md)
    - [사후 처리 이벤트 핸들러](./api-reference/post-process-event.md)
    - [폴더 또는 에셋의 사후 처리 상태를 추적하는 API](./api-reference/track-post-processing-status.md)
    - [자산에 대한 일괄 처리를 시작하기 위한 API](./api-reference/bulk-assets-processing.md)
@@ -654,6 +654,7 @@ ht-degree: 9%
          - [마이크로서비스 아키텍처 및 성능](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          - [JWT 인증을 사용하여 마이크로서비스 기반 게시 구성](./knowledge-base/publishing/configure-microservices.md)
          - [OAuth 인증을 통해 마이크로서비스 기반 게시 구성](./knowledge-base/publishing/configure-microservices-imt-config.md)
+         - [Edge Delivery Services 구성(Beta)](./knowledge-base/publishing/configure-eds.md)
          - [AEM 클라우드에서 벤치마크 게시](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
       - 워크플로 {#workflows}
          - [사후 생성 워크플로](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
