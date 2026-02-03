@@ -4,9 +4,9 @@ description: Experience Manager Guides에서 검토 작업을 닫거나 작성�
 feature: Reviewing
 role: User
 exl-id: d2119bbe-3a0c-4da3-b4f8-7872496fa61f
-source-git-commit: e38cd858201ea657ce276eb4b358b0d4eff502b2
+source-git-commit: 6f9265b341b4122e7f13a429cc2fecacb14ae39c
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -33,9 +33,9 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > 작업 대시보드에서 작업을 열어 보다 포괄적인 보기를 확인할 수도 있습니다. 이렇게 하려면 활성 검토 작업의 옵션 메뉴에서 **작업 대시보드에서 열기**&#x200B;를 선택합니다. 프로젝트 콘솔에서 작업 세부 정보가 열립니다.
+   > **작업 세부 정보** 페이지에 액세스하여 검토 작업을 관리할 수 있습니다. 이렇게 하려면 활성 검토 작업의 옵션 메뉴에서 **작업 세부 정보 열기**&#x200B;를 선택합니다. 프로젝트 콘솔에서 작업 세부 정보가 열립니다.
 
-   ![](images/task-dashboard-selection-author-view.png)
+   ![](images/task-details-selection-author-view.png)
 3. 검토자가 추가한 작업 수준 댓글에 액세스하고 검토하려면 **작업 댓글** 아이콘을 선택하십시오.
 
    ![](images/task-comments-selection-author-view.png)

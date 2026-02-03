@@ -4,7 +4,7 @@ description: AEM Guides에서 파일 및 폴더를 관리하는 방법에 대해
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: 14bbb3a055d8b528b6ed657be797c5fa96dd3e7e
+source-git-commit: 9e4fc7d482b6a37552d31ba2b07fae53018b4dc6
 workflow-type: tm+mt
 source-wordcount: '3263'
 ht-degree: 0%
@@ -104,7 +104,6 @@ Assets UI의 폴더에 대한 복사-붙여넣기 작업은 백그라운드에�
 **새 위치로 파일 이동** 옵션을 선택하면 기존 파일이 현재 위치로 이동되고 업로드 중인 파일로 덮어쓰기됩니다. 파일을 새 위치로 이동해도 파일에 대한 기존 참조는 손상되지 않습니다.
 
 파일을 바꾸거나 이동할 때 기존 복사본에서 버전을 만드는 옵션을 선택하면 문서의 작업 복사본에서 새 버전이 만들어집니다. 새 파일은 기존 위치에서 바꾸거나 새 위치로 이동합니다.
-
 
 ## 파일을 일괄적으로 이동 {#move-files-bulk}
 
@@ -326,4 +325,4 @@ Adobe Experience Manager 저장소에서 파일을 삭제하는 것은 시스템
    ![](images/media-version-preview.png){width="650" align="center"}
 
 
-**상위 항목:**&#x200B;[&#x200B;콘텐츠 관리](authoring.md)
+**상위 항목:**[&#x200B;콘텐츠 관리](authoring.md)

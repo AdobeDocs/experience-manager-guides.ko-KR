@@ -1,13 +1,13 @@
 ---
 title: 예
 description: 사용자 지정 예 목록
-source-git-commit: fc0b19ac44ca9cbc1e9c5cf046f9a0a24f2a1794
+exl-id: 40cdc703-7a78-4979-a7b5-1158558d4868
+source-git-commit: 924c34a2ec6249b81cbdddf72392dac600e22e9f
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
-
 
 # 예
 
@@ -17,15 +17,18 @@ ht-degree: 0%
 이 예제에서는 `file_options` 컨텍스트 메뉴를 사용자 지정하여 `Delete` 및 `Edit` 옵션을 제거하고 `Duplicate` 옵션을 `Download` 옵션으로 바꾸었습니다.
 
 2. [왼쪽 패널](./examples/left_panel_container.ts)
-이 예제에서는 &quot;TEST EXTENSION&quot;이라는 다른 `tab` 및 레이블이 있는 해당 `tab panel`을(를) 포함하도록 `left tab panel`을(를) 사용자 지정했습니다. `Test Tab Panel`
+이 예제에서는 &quot;TEST EXTENSION&quot;이라는 다른 `left tab panel` 및 레이블이 있는 해당 `tab`을(를) 포함하도록 `tab panel`을(를) 사용자 지정했습니다. `Test Tab Panel`
 
 3. [오른쪽 패널](./examples/right_panel_container.ts)
-이 예제에서는 &quot;TEST EXTENSION&quot;이라는 다른 `tab` 및 레이블이 있는 해당 `tab panel`을(를) 갖도록 `right tab panel`을(를) 사용자 지정했습니다. `New Tab Panel`
+이 예제에서는 &quot;TEST EXTENSION&quot;이라는 다른 `right tab panel` 및 레이블이 있는 해당 `tab`을(를) 갖도록 `tab panel`을(를) 사용자 지정했습니다. `New Tab Panel`
 
 4. [저장소 패널](./examples/repository_panel.ts)
 
 5. [도구 모음](./examples/toolbar.ts)
 이 예제에서는 `Insert Element`, `Insert Paragraph`, `Insert Numbered List`, `Insert Bulleted List` 단추를 모두 포함하는 하나의 `More Insert Options` 단추로 대체했습니다.
+
+6. [메타데이터 패널의 관리 단추](./examples/metadata_report_manage_button.ts)
+이 예제에서는 선택한 파일이 읽기 전용 모드에 있을 때 비활성화되도록 **관리** 단추(보고서 페이지의 메타데이터 패널에 있음)를 사용자 지정했습니다. 이렇게 하면 편집용이 아닌 파일에서 실수로 메타데이터를 편집하는 것을 방지할 수 있습니다.
 
 [앱 예제 검토]
 

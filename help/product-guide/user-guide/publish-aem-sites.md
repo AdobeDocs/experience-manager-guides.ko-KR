@@ -4,9 +4,9 @@ description: 주제 또는 주제 내의 요소를 Adobe Experience Manager Site
 feature: Publishing
 role: User
 exl-id: acbc48b7-93a2-41c6-8565-359fbbdd1fb9
-source-git-commit: 144ecbea83b2c649a00c6b88e533327f3ce111f4
+source-git-commit: e1bac3680afda837393d86ee5f19d5877237ffe9
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -21,13 +21,11 @@ Experience Manager Sites 페이지는 Adobe Experience Manager 웹 사이트에 
 사이트 페이지를 생성하려면 다음 단계를 수행하십시오.
 
 
-1. 편집기에서 항목을 열고 오른쪽 패널에서 파일 속성 을 선택합니다.
-1. **출력** 섹션에서 **새 출력** 아이콘![새 출력 아이콘](./images/Add_icon.svg)을 선택합니다.
+1. 편집기에서 항목을 열고 오른쪽 패널에서 **파일 속성**&#x200B;을 선택합니다.
+1. **출력** 섹션에서 ![새 출력](./images/Add_icon.svg) 아이콘&#x200B;**새 출력 아이콘**&#x200B;을 선택합니다.
 1. **사이트 페이지**&#x200B;를 선택하십시오.
 1. **사이트 생성 페이지** 대화 상자에서 다음 세부 정보를 입력합니다.
    ![사이트 생성 페이지에서 경로 및 템플릿 세부 정보 추가](images/aem-sites-page-generate.png){width="500" align="left"}
-
-   *경로, 제목, 이름 및 템플릿 세부 정보를 추가하여 주제 또는 해당 요소를 Sites 페이지로 게시합니다. *
 
    * **경로**: Sites 페이지를 게시하려는 폴더의 경로를 검색하여 선택하십시오.
    * **제목**: Sites 페이지의 제목을 입력합니다. 기본적으로 제목은 주제의 제목으로 채워집니다. 편집할 수 있습니다. 이 제목은 Sites 페이지의 이름을 생성하는 데 사용됩니다.
@@ -35,7 +33,7 @@ Experience Manager Sites 페이지는 Adobe Experience Manager 웹 사이트에 
    * **페이지 템플릿**: 사이트 페이지를 만들 사이트 페이지 템플릿을 선택하십시오. 선택한 경로의 폴더에서 템플릿을 볼 수 있습니다. 관리자가 사용자 지정 템플릿을 업로드할 수도 있습니다.
 
 
-   * 다른 조건을 선택하여 콘텐츠를 게시할 수도 있습니다.  다음 옵션 중 하나를 선택합니다.
+   * 다른 조건을 선택하여 콘텐츠를 게시할 수도 있습니다. 다음 옵션 중 하나를 선택하십시오.
 
 
       * **없음**: 게시된 출력에 조건을 적용하지 않으려면 이 옵션을 선택하십시오.
@@ -51,11 +49,11 @@ Experience Manager Sites 페이지는 Adobe Experience Manager 웹 사이트에 
 1. 사이트 페이지를 게시하려면 **생성**&#x200B;을 선택하십시오.
 1. **파일 속성**&#x200B;의 **출력** 섹션 아래에서 주제에 대한 사이트 페이지를 볼 수 있습니다. Sites 페이지는 게시 날짜 및 시간에 따라 나타나며 최신 페이지를 첫 번째 페이지로 합니다.
 
-   ![주제에 대한 사이트 페이지 보기](images/aem-sites-output-new.png){width=300 align=&quot;left&quot;}
+   ![주제에 대한 사이트 페이지 보기](images/aem-sites-output-new.png){width=300 align="left"}
 
    *주제에 대한 사이트 페이지를 보고 다시 게시합니다.*
 
-Sites 페이지를 게시하면 모든 Adobe Experience Manager 사이트에서도 사용할 수 있습니다.
+사이트 페이지를 게시하면 모든 Adobe Experience Manager 사이트에서도 사용할 수 있습니다.
 
 
 ## Experience Manager Sites용 옵션 메뉴

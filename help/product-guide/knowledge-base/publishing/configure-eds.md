@@ -4,7 +4,7 @@ description: Edge Delivery Services(Beta)가 Experience Manager Guides의 작성
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 5808d42c530e55e309f192c99a0e71334c888b57
+source-git-commit: 7ca2eeb0356f3c82a8d970f291006fc6d19aca23
 workflow-type: tm+mt
 source-wordcount: '1532'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Experience Manager Guides에서 EDS(Beta)로 게시를 활성화하려면 GitHub
 2. [Experience Manager Guides에서 EDS(Beta)에 대한 게시 프로필 만들기 및 구성](#create-and-configure-a-publish-profile-for-eds-beta-in-experience-manager)
 3. [EDS 블록을 사용하여 출력 사용자 지정](#customize-output-using-eds-blocks)
 
-빠른 비디오 연습이 필요하면 [AEM Guides에서 게시](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25)를 참조하십시오.
+빠른 비디오 연습이 필요하면 [AEM Guides에서 게시](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25)를 참조하십시오.
 
 
 
@@ -57,7 +57,7 @@ Adobe Experience Manager은 **AEM 코드 동기화**&#x200B;라는 GitHub 애플
 1. [AEM 코드 동기화](https://github.com/apps/aem-code-sync) 페이지로 이동하고 **설치**&#x200B;를 선택합니다.
 2. *AEM 코드 동기화*&#x200B;는 저장소 변경 내용을 모니터링하고 업데이트가 GitHub로 올바르게 푸시되도록 합니다.
 
-   >
+   >[!NOTE]
    >
    > 애플리케이션을 설치하는 동안 저장소를 소유하는 동일한 GitHub 계정을 사용해야 합니다.
 
@@ -128,7 +128,7 @@ EDS(Beta)는 *파일의* mountpoint`fstab.yaml` URL로 정의된 GitHub 저장�
    - `your-user-name`
    - `your-repo-name`
 
-   >
+   >[!NOTE]
    >
    > 탑재 지점 URL에서 `main`은(는) 콘텐츠를 게시하려는 분기를 나타내며, `docs`은(는) 작업 중인 EDS(Beta) 저장소의 루트 폴더를 나타냅니다. GitHub에서 분기 이름을 변경하려면 *mountpoint* URL(`fstab.yaml` 파일)에서 동일한 분기 이름 및 Experience Manager Guides의 해당 EDS 게시 프로필을 업데이트해야 합니다.
 
@@ -148,7 +148,7 @@ EDS(Beta)는 *파일의* mountpoint`fstab.yaml` URL로 정의된 GitHub 저장�
 
 ### EDS(Beta) 게시 프로필 만들기
 
-1. **[Workspace 설정]** **>** **프로필 게시**&#x200B;로 이동합니다.
+1. **[Workspace 설정](/help/product-guide/cs-install-guide/workspace-settings.md)** **>** **프로필 게시**&#x200B;로 이동합니다.
 2. **+** 아이콘을 선택하여 새 게시 프로필을 만들고 다음 세부 정보를 제공합니다.
    - **서버 유형**: 드롭다운에서 **GitHub Edge Delivery Services(Beta)**&#x200B;을(를) 선택합니다.
    - **이름**: 이 프로필의 이름을 입력하십시오.
@@ -184,7 +184,7 @@ EDS(Beta)는 *파일의* mountpoint`fstab.yaml` URL로 정의된 GitHub 저장�
 
 6. **저장**&#x200B;을 선택한 다음 **출력 생성**&#x200B;을 선택하십시오.
 
->
+>[!NOTE]
 >
 > 생성된 출력은 EDS(Beta) 저장소의 **docs** 폴더에 저장됩니다.
 
@@ -224,7 +224,7 @@ EDS는 `blocks`을(를) 사용하여 콘텐츠의 다양한 부분을 어떻게 
    - **콘텐츠 속성**(으)로 이동합니다.
    - `outputclass` 특성을 추가합니다.
    - 값을 `example eds-force-block`(으)로 설정합니다.
-   - **추가**&#x200B;를 선택합니다.
+   - **추가**를 선택합니다.
      ![](assets/eds-example-tag.png){width="650" align="left"}
 3. 출력을 저장하고 재생성합니다.
 4. `outputclass` 디렉터리 내에서 `blocks`과(와) 같은 이름의 새 폴더를 만듭니다. [저장소에 파일 추가](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository#adding-a-file-to-a-repository-using-the-command-line)에 대해 알아봅니다.

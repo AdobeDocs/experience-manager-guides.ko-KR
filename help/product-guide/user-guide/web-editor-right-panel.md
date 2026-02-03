@@ -4,10 +4,10 @@ description: 편집기의 올바른 패널에 대해 알아봅니다. Adobe Expe
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 6a0f4ed2-6eca-4b3c-bd3a-3f72f6919b36
-source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
+source-git-commit: 05a44af6982a9a23e6bbddeaac52b0700e2e2170
 workflow-type: tm+mt
-source-wordcount: '965'
-ht-degree: 1%
+source-wordcount: '1095'
+ht-degree: 0%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 1%
 
 1. **특성** 드롭다운 패널의 드롭다운 목록에서 특성을 선택하고 특성 값을 지정합니다.  **추가**&#x200B;를 선택합니다.
 
-   여러 특성이 있는 ![특성 패널 &#x200B;](images/attributes-multiple-properties.png){width="300" align="left"}
+   여러 특성이 있는 ![특성 패널 ](images/attributes-multiple-properties.png){width="300" align="left"}
 
 1. 특성을 편집하려면 해당 특성을 마우스로 가리킨 다음 **편집** ![편집 아이콘](images/edit_pencil_icon.svg)을 선택하세요.
 
@@ -76,8 +76,20 @@ ht-degree: 1%
 
 - **파일 이름**: 선택한 항목의 파일 이름을 표시합니다. 파일 이름이 선택한 파일의 속성 페이지에 하이퍼링크됩니다.
 - **ID**: 선택한 주제의 ID를 표시합니다.
+- **단어 수**: 해당 DITA 주제의 총 단어 수를 표시합니다. 공백으로 구분된 단어는 개별 단어로 계산됩니다. 카운트는 주제에 대한 변경 사항을 저장할 때마다 새로 고쳐집니다. 상호 참조의 경우 표시 텍스트만 카운트에 포함되고 키는 제외됩니다.
+
+  >[!NOTE]
+  >
+  > **Word 개수** 기능은 Experience Manager Guides as a Cloud Service의 2026.01.0 릴리스에 도입되었습니다. 이 릴리스로 업그레이드한 후 만드는 모든 새 DITA 주제의 오른쪽 패널에 계산된 단어 수가 자동으로 계산됩니다. 기존 항목의 경우 [자산을 다시 처리](./asset-processor.md)해야 합니다.
+
 - **태그**: 주제의 메타데이터 태그입니다. 속성 페이지의 태그 필드에서 설정됩니다. 드롭다운에서 입력하거나 선택할 수 있습니다.  드롭다운 아래에 태그가 표시됩니다. 태그를 삭제하려면 태그 옆에 있는 교차 아이콘을 선택합니다.
-- **추가 속성 편집**: 파일 속성 페이지에서 추가 속성을 편집할 수 있습니다.
+- **추가 속성 편집**: 파일 속성 페이지에서 추가 속성(**읽기 전용** 모드에 있지 않은 파일의 경우)을 편집할 수 있습니다.
+
+  >[!NOTE]
+  >
+  > 메타데이터 속성(기본 또는 사용자 지정)을 추가, 삭제 또는 수정하면 문서 버전에서 [작업 복사본 표시기](./web-editor-edit-topics.md#working-copy-indicator)가 트리거됩니다.
+
+
 - **언어**: 주제의 언어를 표시합니다. 속성 페이지의 언어 필드에서 설정됩니다.
 - **만든 날짜**: 항목을 만든 날짜와 시간을 표시합니다.
 - **수정일**: 주제를 수정한 날짜와 시간을 표시합니다.
@@ -141,4 +153,4 @@ Experience Manager Guides에서 Schematron 파일로 작업하는 방법에 대�
 
 
 
-**상위 항목:**&#x200B;[&#x200B;편집기 소개](web-editor.md)
+**상위 항목:**[&#x200B;편집기 소개](web-editor.md)

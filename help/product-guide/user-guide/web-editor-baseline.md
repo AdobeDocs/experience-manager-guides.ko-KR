@@ -4,7 +4,7 @@ description: Adobe Experience Manager Guides의 맵 콘솔에서 기준선을 �
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: c7e76de14a3dd63eff794ecca16ebbccb3cb2d8a
+source-git-commit: eb68e4583083ff209fd717049c6e50b996cba8e8
 workflow-type: tm+mt
 source-wordcount: '1881'
 ht-degree: 0%
@@ -109,7 +109,7 @@ ht-degree: 0%
   >
   >동적 기준선의 경우 편집 작업을 사용하면 동적 기준선에 대한 참조가 런타임 시 레이블을 사용하여 생성되므로 기준선의 속성을 편집할 수 있습니다.
 
-  ![기준선의 옵션](images/baseline-options.png){width="500" align="left"}
+  ![기준선의 옵션](images/baseline-options.png){align="left"}
 
 ### 기존 베이스라인에 사용 가능한 작업
 
@@ -133,7 +133,7 @@ ht-degree: 0%
    - **레이블**: 드롭다운을 사용하여 [나열된 레이블](#labels-list) 중 하나를 선택할 수 있습니다. Experience Manager Guides은 선택된 레이블이 정의된 항목의 해당 버전을 선택하고 나머지 항목의 경우 복제된 기준선에서 버전을 선택합니다. 예를 들어 드롭다운에서 레이블 `Release 1.0`을(를) 선택한 다음 이 레이블을 정의한 항목의 버전을 선택합니다. 다른 모든 항목의 경우 복제된 기준선에서 버전이 선택됩니다.
 1. **복제**&#x200B;를 선택합니다.
 
-- **이름을 바꾸거나** 기존 기준선을 **삭제**&#x200B;**.
+- **이름을 바꾸거나** 기존 기준선을 **삭제****.
 - 정적 기준선의 기존 레이블을 추가, 제거 또는 변경할 수 있는 **레이블을 관리합니다**. 관리자가 사전 정의된 레이블을 구성한 경우 레이블 추가 드롭다운 목록에 해당 레이블이 표시됩니다. 레이블 추가에 대한 자세한 내용은 [레이블 사용](web-editor-use-label.md#)을 참조하십시오.
 
   >[!NOTE]
@@ -168,5 +168,5 @@ ht-degree: 0%
 
 기준선을 편집한 후에는 **저장**&#x200B;을 선택하여 변경 내용을 기준선에 저장합니다. 변경 내용을 저장하고 기준선을 다시 설정하지 않으려면 **다시 설정**&#x200B;을 선택할 수 있습니다. **재설정**&#x200B;을 선택하면 저장하지 않은 변경 내용이 손실된다는 경고가 표시됩니다.
 
-**상위 항목:**&#x200B;[&#x200B;출력 생성](generate-output.md)
+**상위 항목:**[&#x200B;출력 생성](generate-output.md)
 

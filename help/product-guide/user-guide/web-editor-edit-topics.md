@@ -4,9 +4,9 @@ description: 편집기에서 항목을 편집하는 방법에 대해 알아봅�
 exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
 feature: Authoring, Web Editor
 role: User
-source-git-commit: bdf838da24d7e426c34265cdad454d52f657cfae
+source-git-commit: df3da8a0b4dd50ac177c3b51f04a855e9638058e
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1050'
 ht-degree: 0%
 
 ---
@@ -74,8 +74,11 @@ Experience Manager Guides은 파일의 현재 \(working copy\)가 저장된 버�
 
 Experience Manager Guides은 또한 파일의 마지막으로 저장된 \(작업\) 복사본이 저장된 버전과 동기화되고 있는지 여부를 나타냅니다. 작업 복사본과 마지막으로 저장된 버전 사이에 저장되지 않은 변경 사항이 있는 경우 항목의 파일 탭 오른쪽 상단 모서리에 표시된 버전 정보와 함께 \* 표시가 나타납니다. 이 표시기는 파일의 현재 \(작업\) 복사본에서 버전을 저장하고 만드는 알림 메시지 역할을 합니다.
 
-![버전 업데이트 표시기](images/version-update-indicator.png){width="550" align="left"}
+>[!NOTE]
+>
+> [파일 속성](./web-editor-right-panel.md#file-properties)에서 사용할 수 있는 메타데이터 필드를 변경하면 문서 버전에서 작업 복사 표시기도 트리거됩니다.
 
+![버전 업데이트 표시기](images/version-update-indicator.png){width="550" align="left"}
 
 ## 작성자 및 Source 모드에서 잠긴 파일에 액세스
 
@@ -117,4 +120,4 @@ You can access the **Layout** view for read-only DITA maps. This view lets you s
 >
 >2025.11.0 릴리스부터 **저장소에서 항상 파일 찾기** 설정의 이름이 **탐색기에서 항상 파일 찾기**(으)로 바뀝니다. 온-프레미스 설정의 경우 Experience Manager Guides 5.1 릴리스까지 저장소에서 파일을 찾을 때 계속 사용할 수 있습니다.
 
-**상위 항목:**&#x200B;[&#x200B;편집기 작업](web-editor.md)
+**상위 항목:**[&#x200B;편집기 작업](web-editor.md)

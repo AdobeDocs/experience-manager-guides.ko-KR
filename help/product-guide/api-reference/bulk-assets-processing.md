@@ -4,10 +4,10 @@ description: 자산에 대한 일괄 처리를 시작하기 위한 API에 대해
 feature: Post-Processing Event Handler
 role: Developer
 level: Experienced
-source-git-commit: e2eca63a5dd56e358aeea047b37f4b0f88dc720b
+source-git-commit: 8671a26bfee2d9e3b4e70a8f2615568c08c0a370
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 8%
+source-wordcount: '587'
+ht-degree: 9%
 
 ---
 
@@ -26,6 +26,15 @@ ht-degree: 8%
 | `path` | 문자열 | 예 | 처리할 AEM 저장소의 폴더 또는 에셋의 절대 경로입니다. |
 | `excludedPaths` | 문자열 | 아니요 | 처리에서 제외할 경로 목록 |
 | `type` | 문자열 | 예 | 수행할 처리 유형입니다. 예: ASSET_PROCESSING. |
+| `filter` | 오브젝트 | 아니요 | 선택한 자산에 적용된 필터 |
+
+**개체 필드 필터링**
+
+| 이름 | 유형 | 설명 |
+|----|----|-----------|
+| 파일 유형 | 문자열 | 처리할 자산 유형. 허용되는 값: DITATOPIC, DITAMAP, MARKDOWN, HTML/CSS, DITAVAL, OTHER. |
+| startTime | 정수 | 자산 생성 시간에 대한 하한 |
+| endTime | 정수 | 자산 생성 시간에 대한 상한 |
 
 **요청 예제**
 
@@ -35,7 +44,12 @@ ht-degree: 8%
   "excludedPaths": [
     "content/dam/status-fetch1/excluded-folder"
   ],
-  "type": "ASSET_PROCESSING"
+  "type": "ASSET_PROCESSING",
+  "filter": {
+        "fileTypes": ["DITAMAP", "DITATOPIC"],
+        "startTime": 1758876933000
+        "endTime": 1764932039000
+    }
 }
 ```
 
