@@ -224,7 +224,7 @@ EDS는 `blocks`을(를) 사용하여 콘텐츠의 다양한 부분을 어떻게 
    - **콘텐츠 속성**(으)로 이동합니다.
    - `outputclass` 특성을 추가합니다.
    - 값을 `example eds-force-block`(으)로 설정합니다.
-   - **추가**를 선택합니다.
+   - **추가**&#x200B;를 선택합니다.
      ![](assets/eds-example-tag.png){width="650" align="left"}
 3. 출력을 저장하고 재생성합니다.
 4. `outputclass` 디렉터리 내에서 `blocks`과(와) 같은 이름의 새 폴더를 만듭니다. [저장소에 파일 추가](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository#adding-a-file-to-a-repository-using-the-command-line)에 대해 알아봅니다.
