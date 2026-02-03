@@ -23,7 +23,7 @@ Experience Manager Guides에서 EDS(Beta)로 게시를 활성화하려면 GitHub
 2. [Experience Manager Guides에서 EDS(Beta)에 대한 게시 프로필 만들기 및 구성](#create-and-configure-a-publish-profile-for-eds-beta-in-experience-manager)
 3. [EDS 블록을 사용하여 출력 사용자 지정](#customize-output-using-eds-blocks)
 
-빠른 비디오 연습이 필요하면 [AEM Guides에서 게시](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25)를 참조하십시오.
+빠른 비디오 연습이 필요하면 [AEM Guides에서 게시](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25)를 참조하십시오.
 
 
 

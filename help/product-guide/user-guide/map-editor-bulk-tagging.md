@@ -18,7 +18,7 @@ ht-degree: 0%
 
 태그를 사용하여 콘텐츠 저장소 내 및 게시된 출력에서 콘텐츠를 그룹화하거나 분류할 수 있습니다. 컨텐트에 태그를 적용한 경우 DITA 맵에서 컨텐트를 작성하는 데 도움이 되는 관련 주제를 쉽게 찾을 수 있습니다. 게시된 출력을 사용하면 최종 사용자가 적절한 태그를 사용하여 적절한 콘텐츠를 더 빨리 찾을 수 있습니다.
 
-Adobe Experience Manager Guides을 사용하면 몇 가지 단계에서 DITA 콘텐츠에 태그를 지정할 수 있습니다. 벌크 태그 지정 기능을 사용하여 여러 주제, DITA 맵 또는 하위 맵에 여러 태그를 적용할 수 있습니다. 또는 개별 주제에 태그를 적용할 수도 있습니다. 태깅은 Adobe Experience Manager의 기본 기능으로, Adobe Experience Manager 설명서의 [태그 관리](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) 섹션에서 태그 만들기 및 관리에 대한 자세한 내용을 찾을 수 있습니다.
+Adobe Experience Manager Guides을 사용하면 몇 가지 단계에서 DITA 콘텐츠에 태그를 지정할 수 있습니다. 벌크 태그 지정 기능을 사용하여 여러 주제, DITA 맵 또는 하위 맵에 여러 태그를 적용할 수 있습니다. 또는 개별 주제에 태그를 적용할 수도 있습니다. 태깅은 Adobe Experience Manager의 기본 기능으로, Adobe Experience Manager 설명서의 [태그 관리](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=ko) 섹션에서 태그 만들기 및 관리에 대한 자세한 내용을 찾을 수 있습니다.
 
 기본적으로 Experience Manager Guides은 Adobe Experience Manager 저장소의 모든 태그가 저장된 폴더에 있는 모든 사용자에게 읽기 액세스 권한을 부여하지 않습니다. Adobe Experience Manager 저장소에 정의된 태그를 사용하려면 시스템 관리자에게 태그가 저장된 폴더에 대한 액세스 권한을 부여하도록 요청해야 합니다.
 
