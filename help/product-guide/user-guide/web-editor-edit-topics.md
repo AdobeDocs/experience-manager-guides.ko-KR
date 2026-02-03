@@ -120,4 +120,4 @@ You can access the **Layout** view for read-only DITA maps. This view lets you s
 >
 >2025.11.0 릴리스부터 **저장소에서 항상 파일 찾기** 설정의 이름이 **탐색기에서 항상 파일 찾기**(으)로 바뀝니다. 온-프레미스 설정의 경우 Experience Manager Guides 5.1 릴리스까지 저장소에서 파일을 찾을 때 계속 사용할 수 있습니다.
 
-**상위 항목:**[&#x200B;편집기 작업](web-editor.md)
+**상위 항목:**&#x200B;[&#x200B;편집기 작업](web-editor.md)

@@ -27,38 +27,38 @@ Adobe Experience Manager Guides에서는 현재 문서 상태를 기반으로 �
 다운로드한 `ui\_config.json` 파일에서 다음 섹션을 참조하십시오.
 
        &quot;
-       &quot;repositoryFilters&quot;: [
-       {
+       &quot;repositoryFilters&quot;: &lbrack;
+       &lbrace;
        &quot;title&quot;: &quot;문서 상태&quot;,
        &quot;property&quot;: &quot;jcr:content/metadata/doctstate&quot;,
-       &quot;자식&quot;: [
-       {
+       &quot;자식&quot;: &lbrack;
+       &lbrace;
        &quot;title&quot;: &quot;초안&quot;,
        &quot;value&quot;: &quot;초안&quot;
        ,
-       {
+       &lbrace;
        &quot;title&quot;: &quot;편집&quot;,
        &quot;value&quot;: &quot;편집&quot;
        ,
-       {
+       &lbrace;
        &quot;title&quot;: &quot;In-Review&quot;,
        &quot;value&quot;: &quot;In-Review&quot;
        ,
-       {
+       &lbrace;
        &quot;title&quot;: &quot;승인됨&quot;,
        &quot;value&quot;: &quot;승인됨&quot;
        ,
-       {
+       &lbrace;
        &quot;title&quot;: &quot;검토됨&quot;,
        &quot;value&quot;: &quot;검토됨&quot;
        ,
-       {
+       &lbrace;
        &quot;title&quot;: &quot;완료&quot;,
        &quot;value&quot;: &quot;완료&quot;
        
-       ]
+       &rbrack;
        
-       ]
+       &rbrack;
        &quot;
    이 코드 조각은 Experience Manager Guides에서 사용할 수 있는 기본 문서 상태 필터를 나타냅니다.
 
@@ -75,4 +75,4 @@ Adobe Experience Manager Guides에서는 현재 문서 상태를 기반으로 �
 
 구성된 필터는 홈 페이지의 저장소에 있는 **필터** 패널에 표시됩니다.
 
-**상위 항목:**[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)
+**상위 항목:**&#x200B;[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)
