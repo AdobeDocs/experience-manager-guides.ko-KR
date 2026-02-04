@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 살펴보십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: 34a9fcb414831c3a6437ea39fa3541ef7994dd1c
+source-git-commit: cb3b06e18391fdfc53eb5abd4096553781eab0b8
 workflow-type: tm+mt
-source-wordcount: '2492'
+source-wordcount: '2497'
 ht-degree: 9%
 
 ---
@@ -174,13 +174,13 @@ ht-degree: 9%
                - [4.2.1 릴리스 정보](./release-info/release-notes-4-2-1.md)
                - [4.2 릴리스 노트](./release-info/release-notes-4-2.md)
          - [4.1.x 릴리스 노트](./release-info/release-notes-4-1.md)
-         - [4.0.x 릴리스 노트](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x 릴리스 노트](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - 사용 안내서 (새 UI) {#user-guide}
    - 소개 {#about-aemg}
-      - [&#x200B; [!DNL Adobe Experience Manager Guides] 정보](./user-guide/intro.md)
+      - [ [!DNL Adobe Experience Manager Guides] 정보](./user-guide/intro.md)
       - [!DNL AEM Guides] 작업 중 및 주요 기능 {#aemg-works-features}
-         - [&#x200B; [!DNL AEM Guides] 작동 방식](./user-guide/intro-how-dxml-works.md)
+         - [ [!DNL AEM Guides] 작동 방식](./user-guide/intro-how-dxml-works.md)
          - [주요 [!DNL AEM Guides] 기능](./user-guide/intro-dxml-features.md)
    - 홈 페이지 {#home-page}
       - [[!DNL AEM Guides] 홈 페이지 경험](./user-guide/intro-home-page.md)
@@ -379,7 +379,7 @@ ht-degree: 9%
       - 문제 해결 {#troubleshooting}
          - [세션 시간 초과](./user-guide/session-timeout-prompt.md)
 - 사용 안내서 (이전 UI) {#user-guide-old-ui}
-   - [AEM Guides 개요](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides 개요](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 설치 및 구성 {#install-guide}
    - 온프레미스 {#on-prem-ig}
       - [On-Premise 기본 사항](./install-guide/introduction.md)
@@ -549,6 +549,7 @@ ht-degree: 9%
       - 출력 생성 설정을 사용한 작업 {#output-gen-config-cs}
          - [출력 생성 설정 구성](./cs-install-guide/conf-output-generation.md)
          - [AEM Sites 템플릿 다운로드 및 설치](./cs-install-guide/download-install-aem-sites-templates-cs.md)
+         - [AEM Sites에 대한 구성 요소 매핑](./cs-install-guide/component-mapping.md)
          - [기본 PDF 게시](./cs-install-guide/native-pdf-publishing.md)
          - [기본 PDF 게시를 위한 노드 프로세스 구성](./native-pdf/configure-node-options.md)
          - [주제와 컨텐츠 조각 간의 매핑 만들기](./cs-install-guide/conf-content-fragment-mapping-cs.md)
@@ -574,7 +575,7 @@ ht-degree: 9%
    - [데이터 소스 커넥터를 등록하는 REST API](./api-reference/data-source-connector.md)
    - [조건부 특성으로 작업할 수 있는 REST API](./api-reference/conditional-attribute.md)
    - [전환 워크플로우에 대한 REST API](./api-reference/convert-to-dita.md)
-   - [패키지를 만들고 활성화하기 위한 REST API](./api-reference/create-activate-package.md)
+   - 패키지를 만들고 활성화하기 위한 [REST API](./api-reference/create-activate-package.md)
    - [사후 처리 이벤트 핸들러](./api-reference/post-process-event.md)
    - [폴더 또는 에셋의 사후 처리 상태를 추적하는 API](./api-reference/track-post-processing-status.md)
    - [자산에 대한 일괄 처리를 시작하기 위한 API](./api-reference/bulk-assets-processing.md)

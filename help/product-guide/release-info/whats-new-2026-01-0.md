@@ -2,9 +2,9 @@
 title: 릴리스 정보 | Adobe Experience Manager Guides 2026.01.0 릴리스의 새로운 기능
 description: Adobe Experience Manager Guides 2026.01.0 릴리스의 새로운 기능과 향상된 기능에 대해 알아봅니다
 role: Leader
-source-git-commit: f0ba8dce38a6eef5dedc8a81107c8e31ea6b26b3
+source-git-commit: cb3b06e18391fdfc53eb5abd4096553781eab0b8
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1551'
 ht-degree: 1%
 
 ---
@@ -156,6 +156,8 @@ Experience Manager Guides은 편집기 인터페이스의 왼쪽 패널에서 �
 ### 새 AEM Sites(복합 구성 요소 매핑 사용) 게시에서 요소 수준 구성 요소 매핑 지원
 
 Experience Manager Guides은 이제 AEM Sites 출력에서 요소 수준 구성 요소 매핑을 지원하므로(복합 구성 요소 매핑 사용) 팀에게 `componentmapping.json`을(를) 사용하여 DITA 요소가 렌더링되는 방법을 정확하게 제어할 수 있습니다. `topicref`, 제목, 이미지, 표 등을 적절한 AEM 핵심 구성 요소에 매핑하면 텍스트 구성 요소에 기본값으로 설정되는 모든 것 대신 더 깔끔한 구조를 얻을 수 있습니다. 이렇게 하면 성능이 향상되고 보다 풍부하고 현대적인 Sites 환경이 잠금 해제됩니다.
+
+자세한 내용은 [AEM Sites의 구성 요소 매핑](../cs-install-guide/component-mapping.md)을 참조하세요.
 
 ## 자산 처리 개선 사항
 
