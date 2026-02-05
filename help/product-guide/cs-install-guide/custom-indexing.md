@@ -4,7 +4,7 @@ description: 콘텐츠를 사용자 지정하는 방법 알아보기
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 7d2d0c21001cd53244588f6b700db184a73ffa77
+source-git-commit: 9a4f0391c464d69ea65ecfdaac6ecdcb17d1a3da
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 3%
@@ -52,9 +52,6 @@ guidesAssetLucene-1-custom-1
           compatVersion="{Long}2"
           evaluatePathRestrictions="{Boolean}true"
           includedPaths="[/content/dam]"
-          reindex="{Boolean}false"
-          reindexCount="{Long}1"
-          seed="{Long}958982603885135223"
           selectionPolicy="tag"
           tags="[ditaSearch]"
           type="lucene">
@@ -213,5 +210,5 @@ AEM as a Cloud Service에 사용자 지정 색인을 배포하는 방법에 대�
 
 - [AEM as a Cloud Service 인덱싱 문서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/operations/indexing)
 - [Apache Jackrabbit Oak 색인화 안내서](https://jackrabbit.apache.org/oak/docs/query/indexing.html)
-- [AEM Guides 설명서](https://experienceleague.adobe.com/ko/docs/experience-manager-guides)
+- [AEM Guides 설명서](https://experienceleague.adobe.com/en/docs/experience-manager-guides)
 - [Cloud Manager 설명서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager)
