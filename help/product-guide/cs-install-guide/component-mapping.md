@@ -4,14 +4,15 @@ description: AEM Sites에 대한 구성 요소 매핑을 수행하는 방법 알
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: c7157e04f758d08b6402a969a35d0c231a1ca476
+exl-id: f59e3ad5-bf9c-468d-aab7-144c8c2335ac
+source-git-commit: beb1ca15fdfb0e7ea30e6e685ac67a2a398cc064
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1042'
 ht-degree: 0%
 
 ---
 
-# AEM Sites에 대한 구성 요소 매핑(복합 구성 요소 매핑 사용)
+# AEM Sites에 대한 구성 요소 매핑
 
 이 문서에서는 AEM 사이트에 대한 구성 요소 매핑의 다양한 측면에 대해 설명합니다(복합 구성 요소 매핑 사용).
 
