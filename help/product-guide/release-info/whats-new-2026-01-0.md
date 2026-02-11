@@ -2,9 +2,10 @@
 title: 릴리스 정보 | Adobe Experience Manager Guides 2026.01.0 릴리스의 새로운 기능
 description: Adobe Experience Manager Guides 2026.01.0 릴리스의 새로운 기능과 향상된 기능에 대해 알아봅니다
 role: Leader
-source-git-commit: cb3b06e18391fdfc53eb5abd4096553781eab0b8
+exl-id: f24a6f4a-2754-48d9-b0ce-79229dc8dba9
+source-git-commit: 2c20191ba998ad7da98587f1832e1fe8499d023c
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1591'
 ht-degree: 1%
 
 ---
@@ -106,9 +107,18 @@ Experience Manager Guides은 편집기 인터페이스의 왼쪽 패널에서 �
 
 자세한 내용은 편집기의 [오른쪽 패널](../user-guide/web-editor-right-panel.md#file-properties)을 참조하세요.
 
-### 읽기 전용 파일에 대한 처리가 개선되었습니다.
+### 읽기 전용 파일에 대해 메타데이터 속성을 더 이상 편집할 수 없습니다.
 
-이제 **읽기 전용** 모드에 있는 파일에 대한 파일 속성 편집이 제한됩니다. 다른 사용자가 파일을 잠근 경우(읽기 전용 모드에서 사용 가능), [오른쪽 패널](../user-guide/web-editor-right-panel.md#file-properties), **파일의 컨텍스트 메뉴**&#x200B;에 있는 [속성](../user-guide/web-editor-other-features.md#context-menu-functions-on-a-files-tab) 옵션 또는 [메타데이터 보고서](../user-guide/reports-web-editor.md#metadata-report)에서 메타데이터 속성을 변경할 수 없습니다. 이렇게 하면 읽기 전용 파일에 대한 우발적 변경을 방지할 수 있습니다.
+이번 릴리스에서는 `Disable Edit Without Checkout` 설정을 사용할 경우 파일이 **읽기 전용** 모드에 있는 경우 파일 속성을 더 이상 편집할 수 없습니다.
+
+이 제한은 다음을 포함하여 속성을 수정할 수 있는 모든 진입점에 적용됩니다.
+
+- 편집기 인터페이스의 **오른쪽 패널**
+- 파일 컨텍스트 메뉴의 **속성** 옵션
+- 맵의 메타데이터 보고서
+- ASSETS UI
+
+파일이 읽기 전용인 경우 속성을 변경하기 전에 먼저 파일을 체크 아웃해야 합니다. 이 변경 사항은 더 엄격한 권한 제어를 적용하고 속성 업데이트가 컨텐츠 편집과 동일한 체크아웃 및 잠금 규칙을 따르도록 합니다.
 
 ## 향상된 기능 검토
 
@@ -176,19 +186,3 @@ Experience Manager Guides은 이제 AEM Sites 출력에서 요소 수준 구성 
 
 - 새 API는 새 번역 프로젝트를 만들고 상태를 추적하기 위해 도입되었습니다. 이러한 API는 번역 프로세스를 자동화하여 수작업을 줄이고 효율성을 개선하는 데 도움이 됩니다. 자세한 내용은 [번역 프로젝트 만들기](../api-reference/translation-project.md)를 참조하세요.
 - 파일 및 폴더에 대한 향상된 필터링 기능으로 자산 처리 API를 개선했습니다. 자세한 내용은 [자산 처리](../api-reference/bulk-assets-processing.md)를 참조하세요.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
