@@ -5,9 +5,9 @@ exl-id: 4597d1be-5426-4eba-8490-e42d0e565427
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: d3b156b8617cab8cf0702a483aef0fde7889e6a7
+source-git-commit: 77756fe76c3d615683dcd62627adfcf18bcbb633
 workflow-type: tm+mt
-source-wordcount: '2351'
+source-wordcount: '2393'
 ht-degree: 0%
 
 ---
@@ -284,7 +284,7 @@ ZIP 파일을 만들기 위한 고려 사항 외에도 XHTML 문서 또한 잘 �
 
 ## 구조화되지 않은 FrameMaker 문서 마이그레이션 {#id1949B050VUI}
 
-AEM Guides을 사용하면 기존의 구조화되지 않은 FrameMaker \(`.fm` 및 `.book`\) 문서를 DITA 문서로 변환할 수 있습니다. 프로세스에 대한 자세한 내용을 보려면 [Adobe FrameMaker의 비정형에서 DITA로의 기술 문서 마이그레이션](https://migrate-from-unstructured-to-dita-step-by-step-guide.meetus.adobeevents.com/)을 참조하십시오.
+AEM Guides에서는 구조화되지 않은 Adobe FrameMaker 컨텐츠(.fm 및 .book)를 구조화된 DITA로 마이그레이션할 수 있습니다. 이 프로세스는 템플릿 기반 접근 방식을 사용하여 기존 콘텐츠를 평가하고 변환 테이블을 통해 FrameMaker 스타일을 DITA에 매핑하는 데 중점을 둡니다. 변환 후 출력 사용자 지정을 지원하여 구조화된 콘텐츠를 편집하고, 유효성을 검사하고, PDF 및 모바일용 HTML5와 같은 형식으로 게시할 수 있습니다. 자세한 내용은 [Adobe FrameMaker의 비정형에서 DITA로 기술 문서 마이그레이션](https://migrate-from-unstructured-to-dita-step-by-step-guide.meetus.adobeevents.com/)을 참조하십시오.
 
 <!-- Deprecated information -
  //The first step is to create style mappings using FrameMaker and save those settings in a .sts file. Next, if you are using custom DITA, then you can map your custom elements with the source FrameMaker formats in the `ditaElems.xml` file. For example, if you have created a custom element named `impnote` to handle all important notes, then you can define this custom element in the `ditaElems.xml` file. Once this custom element is defined, AEM Guides would not raise an error while converting FrameMaker document containing `impnote` element.
@@ -395,4 +395,4 @@ AEM Guides을 사용하면 기존의 구조화된 문서를 유효한 DITA 문�
 
 `<config> </config>` 블록을 사용하여 변환을 위해 하나 이상의 구성 블록을 정의할 수 있습니다. 변환 워크플로우가 실행되고 DITA 주제 형식의 최종 출력이 `outputDir` 요소에 지정된 위치에 저장됩니다.
 
-**상위 항목:**&#x200B;[&#x200B;기존 콘텐츠 마이그레이션](migrate-content.md)
+**상위 항목:**[&#x200B;기존 콘텐츠 마이그레이션](migrate-content.md)
