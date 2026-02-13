@@ -38,11 +38,11 @@ AEM Guides 검토 워크플로를 사용하면 작성자, SME 및 검토자가 A
 
 ## 관련 리소스
 
-- [워크플로 설명서 검토](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/review/review)
+- [워크플로 설명서 검토](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/user-guide/review/review)
 
-- [Workfront과 AEM Guides 통합](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/workfront-integration/workfront-integration)
+- [Workfront과 AEM Guides 통합](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/user-guide/workfront-integration/workfront-integration)
 
-- [검토 UI 사용자 지정](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/extention-framework/customisations/review-app-customisations/customisation)
+- [검토 UI 사용자 지정](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/knowledge-base/kb-articles/extention-framework/customisations/review-app-customisations/customisation)
 
 
 
@@ -55,7 +55,7 @@ AEM Guides 검토 워크플로를 사용하면 작성자, SME 및 검토자가 A
 
 ### 커뮤니티 포럼
 
-- Experience League에서 세션별 커뮤니티 상호 작용을 보려면 [AEM Guides 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)을 방문하십시오.
+- Experience League에서 세션별 커뮤니티 상호 작용을 보려면 [AEM Guides 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=ko)을 방문하십시오.
 
 
 ## 연락처
