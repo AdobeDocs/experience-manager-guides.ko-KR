@@ -4,7 +4,7 @@ description: 제품 교육 및 학습을 위한 퀴즈의 문제 은행 질문�
 feature: Authoring
 role: User
 exl-id: dfc247f7-31f9-4bcf-84e2-151993603b89
-source-git-commit: 757582f6bdcb64b004d430679eaf6e8a5fbdc807
+source-git-commit: cb8789b0ee0ebdfb864ecac8b00a22c62faf3823
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 1. 아래 표시된 대로 도구 모음의 **질문** 드롭다운 메뉴에서 **질문 은행에서 삽입** 옵션을 선택합니다.
 
-   ![](assets/insert-from-question-bank.png){width="350" align="left"}
+   ![](assets/question-types.png){width="350" align="left"}
 
    **HTML 문제 은행에서 삽입** 대화 상자가 표시됩니다.
 
