@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 파일 다운로드 {#id216MC0H0BE8}
 
-DITA 및 비 DITA 파일을 포함하는 에셋을 다운로드할 수 있습니다. 에셋을 다운로드할 수 있는 방법에는 여러 가지가 있으며, 일부 메서드는 Adobe Experience Manager에 고유하고 다른 메서드는 Adobe Experience Manager Guides에서 지원합니다. 기본 Adobe Experience Manager 에셋 다운로드 정보는 Adobe Experience Manager 설명서에서 [Adobe Experience Manager에서 에셋 다운로드](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html)를 참조하십시오. 다음 섹션에서는 Experience Manager Guides에서 파일을 다운로드하는 메커니즘에 대해 설명합니다.
+DITA 및 비 DITA 파일을 포함하는 에셋을 다운로드할 수 있습니다. 에셋을 다운로드할 수 있는 방법에는 여러 가지가 있으며, 일부 메서드는 Adobe Experience Manager에 고유하고 다른 메서드는 Adobe Experience Manager Guides에서 지원합니다. 기본 Adobe Experience Manager 에셋 다운로드 정보는 Adobe Experience Manager 설명서에서 [Adobe Experience Manager에서 에셋 다운로드](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html?lang=ko)를 참조하십시오. 다음 섹션에서는 Experience Manager Guides에서 파일을 다운로드하는 메커니즘에 대해 설명합니다.
 
 ## 편집기에서 DITA 맵 파일 다운로드
 
