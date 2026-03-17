@@ -4,7 +4,7 @@ description: 과정을 효율적으로 관리할 수 있는 Experience Manager G
 feature: Authoring
 role: User
 exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
-source-git-commit: 0171f7b798686a0a16942e98133001a4c05bb76b
+source-git-commit: f758ef6f2d238cbb71dc395add12fc7e30172871
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 0%
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 1. **옵션** 메뉴 > **기존 항목 추가**&#x200B;를 선택합니다.
 2. 만들려는 강의 컨텐츠 유형을 선택합니다.
-3. **경로 선택** 대화 상자에서 콘텐츠 위치로 이동하여 원하는 학습 콘텐츠를 선택합니다.
+3. **파일 선택** 대화 상자에서 콘텐츠 위치로 이동하여 원하는 학습 콘텐츠를 선택합니다.
 
    ![](assets/add-existing-learning-content.png)
 4. **선택**&#x200B;을 선택하세요.

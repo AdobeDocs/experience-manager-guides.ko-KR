@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 살펴보십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: c034a95570c4e580bd4811684daaefc191e5ca84
+source-git-commit: a4cb2e65813a0ee31d5f5a7a267be73dd0212534
 workflow-type: tm+mt
-source-wordcount: '2509'
+source-wordcount: '2559'
 ht-degree: 9%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 9%
       - 클라우드 서비스 {#cloud-release-notes}
          - [배포 지침](./release-info/deploy-xml-on-aemaacs.md)
          - 2026 릴리스 {#2026-releases}
+            - 2026.03.0 릴리스 {#2603-release}
+               - [새로운 기능](./release-info/whats-new-2026-03-0.md)
+               - [해결된 문제](./release-info/fixed-issues-2026-03-0.md)
+               - [업그레이드 지침](./release-info/upgrade-instructions-2026-03-0.md)
             - 2026.01.0 릴리스 {#2601-release}
                - [새로운 기능](./release-info/whats-new-2026-01-0.md)
                - [해결된 문제](./release-info/fixed-issues-2026-01-0.md)
@@ -174,13 +178,13 @@ ht-degree: 9%
                - [4.2.1 릴리스 정보](./release-info/release-notes-4-2-1.md)
                - [4.2 릴리스 노트](./release-info/release-notes-4-2.md)
          - [4.1.x 릴리스 노트](./release-info/release-notes-4-1.md)
-         - [4.0.x 릴리스 노트](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x 릴리스 노트](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - 사용 안내서 (새 UI) {#user-guide}
    - 소개 {#about-aemg}
-      - [&#x200B; [!DNL Adobe Experience Manager Guides] 정보](./user-guide/intro.md)
+      - [ [!DNL Adobe Experience Manager Guides] 정보](./user-guide/intro.md)
       - [!DNL AEM Guides] 작업 중 및 주요 기능 {#aemg-works-features}
-         - [&#x200B; [!DNL AEM Guides] 작동 방식](./user-guide/intro-how-dxml-works.md)
+         - [ [!DNL AEM Guides] 작동 방식](./user-guide/intro-how-dxml-works.md)
          - [주요 [!DNL AEM Guides] 기능](./user-guide/intro-dxml-features.md)
    - 홈 페이지 {#home-page}
       - [[!DNL AEM Guides] 홈 페이지 경험](./user-guide/intro-home-page.md)
@@ -284,6 +288,7 @@ ht-degree: 9%
          - 기준선 사용 {#work-with-baseline}
             - [맵 콘솔에서 기준선 만들기 및 관리](./user-guide/web-editor-baseline.md)
             - [맵 대시보드에서 기준선 만들기 및 관리](./user-guide/generate-output-use-baseline-for-publishing.md)
+            - [맵 콘솔에서 새 기준선 만들기 및 관리](./user-guide/web-editor-baseline-v2.md)
          - [글로벌 및 폴더 프로필 출력 사전 설정 관리](./user-guide/web-editor-manage-output-presets.md)
          - [대상 경로, 사이트 이름 또는 파일 이름 옵션 설정에 변수 사용](./user-guide/generate-output-use-variables.md)
          - [DITA-OT를 사용하여 메타데이터를 출력에 전달](./user-guide/pass-metadata-dita-ot.md)
@@ -306,6 +311,7 @@ ht-degree: 9%
          - [출력 활성화](./user-guide/conf-bulk-activation-publish-map-collection.md)
          - [벌크 활성화 맵 컬렉션 편집](./user-guide/conf-bulk-activation-edit-map-collection.md)
          - [벌크 활성화 맵 컬렉션 삭제](./user-guide/conf-bulk-activation-delete-map-collection.md)
+         - [DITA 소스 자산의 복제 관리](./user-guide/dita-assets-replication-aem-sites.md)
    - FrameMaker 문서의 출력 생성 {#generate-fm-output}
       - [FrameMaker 출력 생성 기본 사항](./user-guide/fm-output-generatation.md)
       - 지원되는 사전 설정 {#fm-docs-generating-presets}
@@ -380,7 +386,7 @@ ht-degree: 9%
       - 문제 해결 {#troubleshooting}
          - [세션 시간 초과](./user-guide/session-timeout-prompt.md)
 - 사용 안내서 (이전 UI) {#user-guide-old-ui}
-   - [AEM Guides 개요](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides 개요](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 설치 및 구성 {#install-guide}
    - 온프레미스 {#on-prem-ig}
       - [On-Premise 기본 사항](./install-guide/introduction.md)
@@ -480,6 +486,8 @@ ht-degree: 9%
          - [B 트리 정리 구성](./install-guide/configure-btree-clean-up-job.md)
       - 사용자 지정 색인화{#custom-indexing}
          - [찾기 및 바꾸기를 위한 사용자 지정 인덱스 배포(Source 보기)](./install-guide/custom-indexing-prem.md)
+      - DITA 에셋 복제 작업{#dita-assets-replication}
+         - [DITA 에셋 복제 구성](./install-guide/configure-dita-asset-replication.md)
       - [부록](./install-guide/appendix.md)
    - 클라우드 서비스 {#cs-ig}
       - [이 안내서 정보](./cs-install-guide/introduction.md)
@@ -489,6 +497,7 @@ ht-degree: 9%
          - [Dispatcher 구성](./cs-install-guide/download-install-configure-dispatcher.md)
          - [AEM Guides 설치 확인](./cs-install-guide/download-install-verify-dxml-installation.md)
          - [AEM Guides 업그레이드](./cs-install-guide/download-install-upgrade-dxml.md)
+         - [AEM Guides as Cloud Service 업그레이드를 위한 추가 구성](./cs-install-guide/additional-config-for-cloud-service.md)
          - [구성 재정의](./cs-install-guide/download-install-additional-config-override.md)
          - [성능 최적화를 위한 권장 사항](./cs-install-guide/download-install-recommend-perf-optimiz.md)
       - 사용자 그룹 및 보안 작업 {#user-group-sec-cs}
@@ -569,6 +578,8 @@ ht-degree: 9%
          - [B-트리 정리 구성](./cs-install-guide/configure-btree-cleanup-cs.md)
       - 사용자 지정 색인화{#custom-indexing-cs}
          - [찾기 및 바꾸기를 위한 사용자 지정 인덱스 배포(Source 보기)](./cs-install-guide/custom-indexing.md)
+      - DITA 에셋 복제 작업{#dita-assets-replication-cs}
+         - [DITA 에셋 복제 구성](./cs-install-guide/configure-dita-assets-replication.md)
       - [부록](./cs-install-guide/appendix.md)
 - API 참조 {#api-reference}
    - [소개](./api-reference/introduction.md)
@@ -577,7 +588,7 @@ ht-degree: 9%
    - [데이터 소스 커넥터를 등록하는 REST API](./api-reference/data-source-connector.md)
    - [조건부 특성으로 작업할 수 있는 REST API](./api-reference/conditional-attribute.md)
    - [전환 워크플로우에 대한 REST API](./api-reference/convert-to-dita.md)
-   - [패키지를 만들고 활성화하기 위한 REST API](./api-reference/create-activate-package.md)
+   - 패키지를 만들고 활성화하기 위한 [REST API](./api-reference/create-activate-package.md)
    - [사후 처리 이벤트 핸들러](./api-reference/post-process-event.md)
    - [폴더 또는 에셋의 사후 처리 상태를 추적하는 API](./api-reference/track-post-processing-status.md)
    - [자산에 대한 일괄 처리를 시작하기 위한 API](./api-reference/bulk-assets-processing.md)
