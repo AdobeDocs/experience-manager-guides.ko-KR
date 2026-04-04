@@ -82,7 +82,7 @@ ht-degree: 1%
 
 * **XMP 파일 제공**
 
-  [XMP](https://www.adobe.com/products/xmp.html)&#x200B;(Extensible Metadata Platform) 파일을 가져와서 메타데이터 필드를 직접 채울 수도 있습니다. 여기에서 샘플 XMP 파일을 다운로드할 수 있습니다.
+  [XMP](https://www.adobe.com/kr/products/xmp.html)&#x200B;(Extensible Metadata Platform) 파일을 가져와서 메타데이터 필드를 직접 채울 수도 있습니다. 여기에서 샘플 XMP 파일을 다운로드할 수 있습니다.
 
 [다운로드](assets/SampleXMP.xmp)
 
