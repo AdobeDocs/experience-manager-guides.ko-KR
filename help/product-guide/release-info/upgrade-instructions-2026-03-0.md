@@ -1,7 +1,9 @@
 ---
-title: 릴리스 정보 | Adobe Experience Manager Guides, 2026.03.0 릴리스의 업그레이드 지침 및 해결된 문제
+title: 릴리스 노트 | Adobe Experience Manager Guides, 2026.03.0 릴리스의 업그레이드 지침 및 수정 문제
 description: 호환성 매트릭스와 Adobe Experience Manager Guides as a Cloud Service 2026.03.0 릴리스로 업그레이드하는 방법에 대해 알아보십시오.
-source-git-commit: 91befea8c232cd487762ea71f522004e5ca63ee0
+exl-id: 5700e649-104d-4caf-a195-6e667a71faee
+hidefromtoc: true
+source-git-commit: 22ea3fe3ccb974fe3795299f7815e7aae78d41e7
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 11%
@@ -55,4 +57,3 @@ Experience Manager Guides은 Experience Manager as a Cloud Service 최신 릴리
 > 이 릴리스에는 폴더 프로필 설정(ui_config.json)에 대한 업데이트가 포함되어 있습니다. 사용자 지정 설정을 사용 중인 경우 업그레이드하기 전에 해당 설정을 백업해야 합니다. 업데이트 후 설정을 검토하고 조정하여 최신 버전에 도입된 변경 내용에 맞게 조정합니다.
 
 설정 구성을 검토하고 유효성을 검사하여 올바르게 구현되었는지 확인합니다. 사용자 지정 구성 변경 내용을 적용한 경우 [Cloud Service 업그레이드를 위한 추가 구성](../cs-install-guide/additional-config-for-cloud-service.md)을 참조하여 업그레이드 중인 버전에 적용할 수 있는 추가 절차를 확인하십시오.
-
