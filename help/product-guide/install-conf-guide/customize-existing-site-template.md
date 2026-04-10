@@ -139,4 +139,4 @@ AEM 사이트에서 두 개의 편집 가능한 템플릿을 선택하고 구성
 
 >[!NOTE]
 >
-> 프로덕션에 배포하기 전에 비프로덕션 환경에서 템플릿을 테스트해야 합니다.<br><br>자세한 내용은 공식 [AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview) 및 [AEM Sites](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/get-started/authoring) 설명서를 참조하십시오.
+> 프로덕션에 배포하기 전에 비프로덕션 환경에서 템플릿을 테스트해야 합니다.<br><br>자세한 내용은 공식 [AEM Guides](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/overview) 및 [AEM Sites](https://experienceleague.adobe.com/ko/docs/experience-manager-core-components/using/get-started/authoring) 설명서를 참조하십시오.

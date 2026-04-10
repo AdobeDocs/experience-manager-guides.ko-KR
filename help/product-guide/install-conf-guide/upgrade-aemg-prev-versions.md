@@ -15,7 +15,7 @@ ht-degree: 0%
 
 이 문서에서는 **Adobe Experience Manager Guides** 버전을 **4.6.0** 이전 버전(**4.4.0**&#x200B;까지)으로 업그레이드하는 지침을 제공합니다.
 
-**3.8.5** 이전 버전을 사용하는 경우 **Experience Manager Guides 도움말 PDF 보관**&#x200B;에 있는 제품별 설치 안내서의 [Adobe Experience Manager Guides 업그레이드](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) 섹션을 참조하십시오.
+**3.8.5** 이전 버전을 사용하는 경우 **Experience Manager Guides 도움말 PDF 보관**&#x200B;에 있는 제품별 설치 안내서의 [Adobe Experience Manager Guides 업그레이드](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/archive.html) 섹션을 참조하십시오.
 
 최신 릴리스에 대한 업그레이드 지침은 [버전 4.6.0 이상의 Adobe Experience Manager Guides 업그레이드](./upgrade-aemg-latest-version.md)를 참조하십시오.
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 이 업그레이드 프로세스는 **3.8.5**&#x200B;에서 **4.0**(으)로 **전용**&#x200B;에 적용됩니다. **3.4 이상**&#x200B;에서 **3.8.5**(으)로 업그레이드하는 경우 [Adobe Experience Manager Guides 도움말 PDF 보관](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)에 있는 제품별 설치 안내서를 참조하세요.
+> 이 업그레이드 프로세스는 **3.8.5**&#x200B;에서 **4.0**(으)로 **전용**&#x200B;에 적용됩니다. **3.4 이상**&#x200B;에서 **3.8.5**(으)로 업그레이드하는 경우 [Adobe Experience Manager Guides 도움말 PDF 보관](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/archive.html)에 있는 제품별 설치 안내서를 참조하세요.
 
 Experience Manager Guides 버전 **3.8.5**&#x200B;을(를) 사용하는 경우 이전 버전을 제거하지 않고 버전 **4.0**(으)로 업그레이드할 수 있습니다.
 

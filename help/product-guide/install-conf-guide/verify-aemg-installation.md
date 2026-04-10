@@ -25,11 +25,11 @@ Cloud Service 또는 온프레미스 탭에서 Experience Manager Guides 설정�
 
 1. Cloud Service Developer Console에 액세스합니다.
 
-   Developer Console 액세스에 대한 자세한 내용은 AEM 설명서에서 [Developer Console 액세스](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html)를 참조하십시오.
+   Developer Console 액세스에 대한 자세한 내용은 AEM 설명서에서 [Developer Console 액세스](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=ko)를 참조하십시오.
 
 1. AEM의 OSGi 번들 목록에 액세스합니다.
 
-   번들에 액세스하는 방법에 대한 자세한 내용은 AEM 설명서의 [번들](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=en#bundles)을 참조하십시오.
+   번들에 액세스하는 방법에 대한 자세한 내용은 AEM 설명서의 [번들](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=ko#bundles)을 참조하십시오.
 
 1. 번들 목록에서 fmdita를 검색하고 상태를 확인합니다.
 
