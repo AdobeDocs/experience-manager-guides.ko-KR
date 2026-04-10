@@ -1,11 +1,12 @@
 ---
-title: 기본 PDF Publish 기능 | 사용자 정의 변경 막대 스타일 작업
+title: 기본 PDF 게시 기능 | 사용자 지정 변경 막대 스타일 작업
 description: 변경 막대에 스타일을 적용하는 방법에 대해 알아봅니다.
 exl-id: a81ec56c-ccbb-4599-a696-8edef7a73cdd
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -14,9 +15,9 @@ ht-degree: 0%
 
 # 사용자 정의 변경 막대 스타일 작업
 
-변경 막대는 새 콘텐츠 또는 수정된 콘텐츠를 시각적으로 식별하는 세로선입니다. AEM Guides을 사용하면 항목 내의 변경된 콘텐츠 왼쪽에 변경 막대를 표시할 수 있으며 PDF 출력의 목차에도 변경된 항목을 표시할 수 있습니다.
+변경 막대는 새 콘텐츠 또는 수정된 콘텐츠를 시각적으로 식별하는 세로선입니다. AEM Guides을 사용하면 항목 내의 변경된 콘텐츠 왼쪽의 변경 표시줄과 PDF 출력의 목차에 변경된 항목을 표시할 수 있습니다.
 
-변경 막대 표시에 대한 자세한 내용은 [Publish PDF 출력](../web-editor/native-pdf-web-editor.md)에서 *게시된 버전 사이에 변경 막대를 사용하여 PDF 만들기* 설정을 참조하십시오.
+변경 막대 표시에 대한 자세한 내용은 *PDF 출력 게시*&#x200B;에서 [게시된 버전 사이에 변경 막대를 사용하여 PDF 만들기](../web-editor/native-pdf-web-editor.md) 설정을 참조하십시오.
 
 ## 주제 내 콘텐츠 변경됨
 
@@ -65,7 +66,7 @@ ht-degree: 0%
 
 `.inserted-change-bar` 및 `.deleted-change-bar` 스타일을 사용하여 업데이트된 콘텐츠의 왼쪽에 나타나는 변경 막대의 모양을 수정할 수 있습니다.
 
-예를 들어 `.inserted-change-bar` 스타일의 `-ro-change-bar-color` 특성을 사용하여 삽입된 변경 막대를 녹색으로 표시할 수 있습니다. `.deleted-change-bar` 스타일에서 `-ro-change-bar-color` 특성을 사용하여 삭제된 변경 막대를 빨간색으로 표시할 수도 있습니다.
+예를 들어 `-ro-change-bar-color` 스타일의 `.inserted-change-bar` 특성을 사용하여 삽입된 변경 막대를 녹색으로 표시할 수 있습니다. `-ro-change-bar-color` 스타일에서 `.deleted-change-bar` 특성을 사용하여 삭제된 변경 막대를 빨간색으로 표시할 수도 있습니다.
 
 ```css
 ...
@@ -83,7 +84,7 @@ ht-degree: 0%
 
 ## 목차(TOC)에서 변경된 주제
 
-PDF 출력의 목차에서 변경된 주제 왼쪽에 변경 막대를 추가할 수도 있습니다. `.changed-topic` 스타일에서 `-ro-change-bar-color` 특성을 사용하여 목차 목록의 업데이트된 주제에 대해 선택한 색상의 변경 막대를 추가할 수 있습니다.
+PDF 출력의 TOC에서 변경된 주제 왼쪽에 변경 막대를 추가할 수도 있습니다. `-ro-change-bar-color` 스타일에서 `.changed-topic` 특성을 사용하여 목차 목록의 업데이트된 주제에 대해 선택한 색상의 변경 막대를 추가할 수 있습니다.
 
 예를 들어 녹색 변경 막대를 추가할 수 있습니다.
 

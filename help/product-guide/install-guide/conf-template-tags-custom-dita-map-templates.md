@@ -5,7 +5,8 @@ exl-id: ea8a6687-1a7b-45c7-8cbc-161f9e88a8be
 feature: Template Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 1%

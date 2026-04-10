@@ -1,24 +1,25 @@
 ---
-title: ' [!DNL Experience Manager as a Cloud Service] 환경에  [!DNL Experience Manager Guides] 을(를) 추가하는 방법'
-description: ' [!DNL AEM as a Cloud Service] 환경에  [!DNL AEM Guides] 을(를) 추가하는 방법 알아보기'
+title: ' [!DNL Experience Manager Guides] 환경에  [!DNL Experience Manager as a Cloud Service] 을(를) 추가하는 방법'
+description: ' [!DNL AEM Guides] 환경에  [!DNL AEM as a Cloud Service] 을(를) 추가하는 방법 알아보기'
 exl-id: a1e020c2-360c-4d71-b5fd-8179d9ceacda
 feature: Installation
 role: Leader
-source-git-commit: 1b25f1df67fa2442ab79830dc2ac5a6eabd0394c
+hidefromtoc: true
+source-git-commit: 55edd53d1dda7a68352e53b2e59eafd15b677fdd
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%
 
 ---
 
-# as a Cloud Service [!DNL Adobe Experience Manager Guides] 배포
+# [!DNL Adobe Experience Manager Guides] as a Cloud Service 배포
 
-[!DNL Experience Manager as a Cloud Service] 환경에 [!DNL Experience Manager Guides]을(를) 추가하는 방법을 알아봅니다.
+[!DNL Experience Manager Guides] 환경에 [!DNL Experience Manager as a Cloud Service]을(를) 추가하는 방법을 알아봅니다.
 
 
 >[!NOTE]
 >
-> 2024.2.0 릴리스부터 Experience Manager Guides은 Experience Manager as a Cloud Service용 자동 추가 기능으로만 사용할 수 있습니다. Experience Manager Guides에 대해 수동 배포를 사용하는 경우 프로그램에 대해 Experience Manager Guides을 활성화하기 전에 cloud manage git codebase에서 `<module>dox.installer</module> from file dox/pom.xml` 줄을 제거하십시오.
+> 2024.2.0 릴리스부터 Experience Manager Guides은 Experience Manager as a Cloud Service용 자동화된 추가 기능으로만 사용할 수 있습니다. Experience Manager Guides에 대해 수동 배포를 사용하는 경우 프로그램에 대해 Experience Manager Guides을 활성화하기 전에 cloud manage git codebase에서 `<module>dox.installer</module> from file dox/pom.xml` 줄을 제거하십시오.
 
 1. [!UICONTROL Cloud Manager]에 로그인합니다.
 

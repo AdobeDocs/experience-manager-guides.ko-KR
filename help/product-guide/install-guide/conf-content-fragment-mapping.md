@@ -5,7 +5,8 @@ exl-id: 21446bcb-e7df-4823-acc3-1fdc7473f0d1
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
@@ -94,4 +95,4 @@ AEM Guides은 주제와 콘텐츠 조각 모델 간에 JSON 기반 매핑을 만
 ]
 ```
 
-기본 매핑을 사용하여 전체 주제를 게시할 수 있습니다. **콘텐츠 조각으로 Publish** 대화 상자의 드롭다운에서 `Full Topic` 매핑을 선택하고 콘텐츠 조각 모델에 &quot;topicData&quot; 필드를 포함하십시오.
+기본 매핑을 사용하여 전체 주제를 게시할 수 있습니다. `Full Topic`콘텐츠 조각으로 게시&#x200B;**대화 상자의 드롭다운에서** 매핑을 선택하고 콘텐츠 조각 모델에 &quot;topicData&quot; 필드를 포함하십시오.

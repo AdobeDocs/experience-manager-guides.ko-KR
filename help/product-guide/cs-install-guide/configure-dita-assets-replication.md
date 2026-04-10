@@ -4,7 +4,9 @@ description: 클라우드 서비스용 dita assets 복제를 구성하는 방법
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 356ea6edd5e688fb1f77e737c705ed0bd4d2e7f0
+exl-id: 1eafc6b2-2b85-486a-bb2c-0038fae1fef9
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '60'
 ht-degree: 3%

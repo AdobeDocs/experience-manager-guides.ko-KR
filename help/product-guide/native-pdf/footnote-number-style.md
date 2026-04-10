@@ -1,11 +1,12 @@
 ---
-title: 기본 PDF Publish 기능 | 각주에서 사용자 정의 스타일 사용
+title: 네이티브 PDF 게시 기능 | 각주에서 사용자 지정 스타일 사용
 description: 각주의 숫자에 스타일을 적용하는 방법에 대해 알아봅니다.
 exl-id: f1068f2f-2ace-4bdb-b5a4-46b03d4e43d6
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 0%
@@ -24,7 +25,7 @@ ht-degree: 0%
 
 ## 각주 통화 및 표식 스타일 변경
 
-각주 호출과 표식의 스타일을 변경하고 PDF 출력에서 모양을 관리할 수 있습니다. 이러한 스타일을 사용하면 문서의 각주를 빠르게 식별할 수 있습니다.
+각주 호출과 마커의 스타일을 변경하고 PDF 출력에서의 모양을 관리할 수 있습니다. 이러한 스타일을 사용하면 문서의 각주를 빠르게 식별할 수 있습니다.
 
 
 **예 1**:
@@ -80,7 +81,7 @@ content: "(" counter(footnote, decimal) ")";
 
 ```css
 .fn[id]::footnote-call {
-		display: none;
+        display: none;
                         }
 ```
 
@@ -100,13 +101,13 @@ content: "(" counter(footnote, decimal) ")";
 PDF 문서에서 스타일을 적용하고 각주 영역의 서식을 지정할 수 있습니다. 예를 들어 테두리 길이, 스타일, 색상 및 너비를 변경할 수 있습니다.
 
 ```css
-	@page {
-	  @footnote {
-   		border-top-style: solid;
-   		border-top-color: #FF0000;
-   		border-top-width: 3px;
- 		        }
-	      }
+   @page {
+     @footnote {
+           border-top-style: solid;
+           border-top-color: #FF0000;
+           border-top-width: 3px;
+                 }
+         }
 ```
 
 ## 각주 번호 매기기 다시 시작
@@ -120,7 +121,7 @@ PDF 문서에서 스타일을 적용하고 각주 영역의 서식을 지정할 
 
 ### CSS 스타일
 
-다음 스타일을 사용하여 PDF 출력의 각 페이지에서 각주 번호 매기기를 재설정합니다.
+PDF 출력의 각 페이지에서 각주 번호 매기기를 재설정하려면 다음 스타일을 사용하십시오.
 
 ```css
 @page
@@ -137,7 +138,7 @@ counter-reset: footnote
 
 ```css
 .fn{
-  	display: inline;
+      display: inline;
               }
 ```
 
@@ -158,8 +159,8 @@ CSS 스타일을 사용하여 각주에 대한 상호 참조의 서식을 지정
 
 ```css
     .xref-fn{
-	background-color: red;
-	}
+    background-color: red;
+    }
 ```
 
 

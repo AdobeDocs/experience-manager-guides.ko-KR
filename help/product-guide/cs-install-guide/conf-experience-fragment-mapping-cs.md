@@ -5,7 +5,8 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 2b59db60-61b5-4a7e-bbf1-35cab8b89323
-source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%
@@ -46,7 +47,7 @@ Adobe Experience Manager Guides은 주제와 경험 조각 템플릿 간에 JSON
 
 1. 파일을 저장하고 업로드합니다.
 
-Experience Manager Guides은 전체 주제를 HTML으로 전환한 다음 경험 조각에 사용되는 핵심 구성 요소에 매핑할 수 있습니다. 예를 들어 `<p>` 태그의 콘텐츠를 매핑하여 경험 조각의 텍스트 구성 요소를 만들 수 있습니다.
+Experience Manager Guides은 전체 항목을 HTML으로 변환한 다음 경험 조각에 사용되는 핵심 구성 요소에 매핑할 수 있습니다. 예를 들어 `<p>` 태그의 콘텐츠를 매핑하여 경험 조각의 텍스트 구성 요소를 만들 수 있습니다.
 * `name`: HTML 요소를 지정합니다. 예: `<div>`, `<img>`
 * `class`: HTML 요소에 해당하는 DITA 요소 태그를 지정합니다. 예: `<p>` `<image>`
 * `resourceType`: 경험 조각에 사용된 구성 요소에 적용할 수 있는 리소스 유형을 지정하십시오. 예를 들어 `wcm/foundation/components/text`은(는) wcm `text` 구성 요소에 대한 resourceType입니다.
@@ -157,6 +158,6 @@ Experience Manager Guides은 전체 주제를 HTML으로 전환한 다음 경험
 
 
 
-웹 편집기에서 경험 조각을 게시하는 동안 **경험 조각 생성** 대화 상자의 드롭다운에서 `Template`을(를) 선택하여 **매핑** 필드에서 템플릿에 사용할 수 있는 매핑을 봅니다. 템플릿에 대한 사용자 지정 매핑이 없는 경우 기본 매핑이 나열됩니다. 기본 매핑을 사용하여 전체 주제를 경험 조각으로 게시할 수 있습니다.
+웹 편집기에서 경험 조각을 게시하는 동안 `Template`경험 조각 생성&#x200B;**대화 상자의 드롭다운에서**&#x200B;을(를) 선택하여 **매핑** 필드에서 템플릿에 사용할 수 있는 매핑을 봅니다. 템플릿에 대한 사용자 지정 매핑이 없는 경우 기본 매핑이 나열됩니다. 기본 매핑을 사용하여 전체 주제를 경험 조각으로 게시할 수 있습니다.
 
-자세한 내용은 [Publish 경험 조각](../user-guide/publish-experience-fragment.md)을 참조하세요.
+자세한 내용은 [경험 조각 게시](../user-guide/publish-experience-fragment.md)를 참조하십시오.

@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 살펴보십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: 22ea3fe3ccb974fe3795299f7815e7aae78d41e7
+source-git-commit: 7b9efe58b04b6b4bf5b9c3eb9772aa88a3aa7bfd
 workflow-type: tm+mt
-source-wordcount: '2584'
-ht-degree: 9%
+source-wordcount: '3232'
+ht-degree: 8%
 
 ---
 
@@ -188,13 +188,13 @@ ht-degree: 9%
                - [4.2.1 릴리스 정보](./release-info/release-notes-4-2-1.md)
                - [4.2 릴리스 노트](./release-info/release-notes-4-2.md)
          - [4.1.x 릴리스 노트](./release-info/release-notes-4-1.md)
-         - [4.0.x 릴리스 노트](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x 릴리스 노트](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - 사용 안내서 (새 UI) {#user-guide}
    - 소개 {#about-aemg}
-      - [&#x200B; [!DNL Adobe Experience Manager Guides] 정보](./user-guide/intro.md)
+      - [ [!DNL Adobe Experience Manager Guides] 정보](./user-guide/intro.md)
       - [!DNL AEM Guides] 작업 중 및 주요 기능 {#aemg-works-features}
-         - [&#x200B; [!DNL AEM Guides] 작동 방식](./user-guide/intro-how-dxml-works.md)
+         - [ [!DNL AEM Guides] 작동 방식](./user-guide/intro-how-dxml-works.md)
          - [주요 [!DNL AEM Guides] 기능](./user-guide/intro-dxml-features.md)
    - 홈 페이지 {#home-page}
       - [[!DNL AEM Guides] 홈 페이지 경험](./user-guide/intro-home-page.md)
@@ -396,7 +396,7 @@ ht-degree: 9%
       - 문제 해결 {#troubleshooting}
          - [세션 시간 초과](./user-guide/session-timeout-prompt.md)
 - 사용 안내서 (이전 UI) {#user-guide-old-ui}
-   - [AEM Guides 개요](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides 개요](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 설치 및 구성 {#install-guide}
    - 온프레미스 {#on-prem-ig}
       - [On-Premise 기본 사항](./install-guide/introduction.md)
@@ -584,13 +584,135 @@ ht-degree: 9%
          - [AEM Assets UI에 대한 검색 구성](./cs-install-guide/conf-dita-search.md)
       - 자산 처리 작업 {#asset-processing-cloud}
          - [자산 처리 기능 구성](./cs-install-guide/configure-asset-processing-cs.md)
-      - B 트리 정리 작업{#btree-cleanup-cs}
+      - B 트리 정리 작업 {#btree-cleanup-cs}
          - [B-트리 정리 구성](./cs-install-guide/configure-btree-cleanup-cs.md)
-      - 사용자 지정 색인화{#custom-indexing-cs}
+      - 사용자 지정 색인화 {#custom-indexing-cs}
          - [찾기 및 바꾸기를 위한 사용자 지정 인덱스 배포(Source 보기)](./cs-install-guide/custom-indexing.md)
-      - DITA 에셋 복제 작업{#dita-assets-replication-cs}
+      - DITA 에셋 복제 작업 {#dita-assets-replication-cs}
          - [DITA 에셋 복제 구성](./cs-install-guide/configure-dita-assets-replication.md)
       - [부록](./cs-install-guide/appendix.md)
+- 설치 및 구성 {#install-conf-guide}
+   - [다운로드, 설치 및 업그레이드](./install-conf-guide/introduction.md)
+   - Cloud Service 설치 프로세스 {#deploy-conf-aemg-cs}
+      - [배포 및 Dispatcher 구성](./install-conf-guide/conf-deployment-dispatcher-cs.md)
+   - On-Premise 설치 프로세스 {#deploy-conf-aemg-on-prem}
+      - [기술 요구 사항](./install-conf-guide/aemg-technical-requirements.md)
+      - [Adobe Experience Manager 설치](./install-conf-guide/download-install-aem.md)
+      - [처음으로 AEM Guides 다운로드 및 설치](./install-conf-guide/download-install-aemg-first-time.md)
+      - [Dispatcher 구성](./install-conf-guide/conf-dispatcher.md)
+      - [AEM Guides 제거](./install-conf-guide/unistall-aemg.md)
+   - [AEM Guides 설치 확인](./install-conf-guide/verify-aemg-installation.md)
+   - AEM Guides 업그레이드 {#upgrade-aemg}
+      - Cloud Service {#cloud-service}
+         - [AEM Guides Cloud Service 업그레이드](./install-conf-guide/download-install-upgrade-aemg.md)
+         - [AEM Guides as Cloud Service 업그레이드를 위한 추가 구성](./install-conf-guide/additional-config-for-upgrade.md)
+         - [Cloud Service에 대한 구성 무시](./install-conf-guide/download-install-config-override.md)
+      - AEM 온프레미스 {#on-prem}
+         - [AEM Guides On-Premise 4.6.0 이상 업그레이드](./install-conf-guide/upgrade-aemg-latest-version.md)
+         - [AEM Guides On-Premise 이전 버전 업그레이드](./install-conf-guide/upgrade-aemg-prev-versions.md)
+   - 성능 최적화를 위한 권장 사항 {#performance-optimization-aemg}
+      - [Cloud Service을 위한 성능 최적화](./install-conf-guide/perf-optimization-cs.md)
+      - [On-Premise에 대한 성능 최적화](./install-conf-guide/perf-optimization-on-prem.md)
+   - 컨텐츠 마이그레이션 {#migrate-content-cs}
+      - [기존 콘텐츠 마이그레이션](./install-conf-guide/migrate-content.md)
+      - [Framemaker 및 WebDav 도구를 사용하여 기존 DITA 콘텐츠 업로드(On-Prem)](./install-conf-guide/upload-dita-content.md)
+      - [Curl 명령을 사용하여 DITA 컨텐트 업로드](./install-conf-guide/use-curl-command.md)
+      - [UUID 파일 패턴 구성](./install-conf-guide/conf-uuid-filename-pattern.md)
+      - [DITA가 아닌 콘텐츠 마이그레이션](./install-conf-guide/non-dita-content.md)
+      - [온-프레미스에서 Cloud Service으로 콘텐츠 마이그레이션](./install-conf-guide/migrate-on-premise-content-cloud.md)
+      - On-Premise용 마이그레이션 프로세스 {#migration-process-on-prem}
+         - [비 UUID에서 UUID로의 콘텐츠 마이그레이션](./install-conf-guide/uuid-non-uuid.md)
+         - [4.3.1 비 UUID에서 4.3.2 UUID로 콘텐츠 마이그레이션](./install-conf-guide/non-uuid-4-3.md)
+         - [4.6.0 비 UUID에서 4.6.1 UUID 콘텐츠 마이그레이션으로](./install-conf-guide/non-uuid-uuid-4-6.md)
+   - 사용자 지정 DITA-OT 및 특수화 {#custom-dita-ot-cs}
+      - [사용자 지정 DITA-OT 및 DITA 특수화 사용](./install-conf-guide/dita-ot-specialization.md)
+   - 사용자 그룹 및 보안 {#user-group-sec-cs}
+      - [사용자 관리](./install-conf-guide/user-admin-sec.md)
+   - 시스템 설정 {#aemg-system-settings}
+      - UUID 및 비 UUID 기반 파일 이름 구성 {#conf-filename}
+         - [파일 이름 구성](./install-conf-guide/conf-file-names-overview.md)
+         - [UUID를 기반으로 자동 파일 이름 구성](./install-conf-guide/auto-uuid-filenames.md)
+         - [올바른 파일 이름 문자에 대한 Regx 구성](./install-conf-guide/file-names-valid-regx.md)
+      - 자산 처리 {#asset-processing}
+         - [자산 처리 기능 구성](./install-conf-guide/conf-asset-processing.md)
+         - [폴더에 대한 후 처리 구성](./install-conf-guide/conf-folder-post-processing.md)
+      - [버전 관리](./install-conf-guide/version-management.md)
+      - [B-트리 정리 구성](./install-conf-guide/conf-btree-cleanup.md)
+      - [DITA 에셋 복제 구성](./install-conf-guide/conf-dita-asset-replication.md)
+   - 편집기 구성 {#editor-configs}
+      - [편집기 사용자 지정](./install-conf-guide/customize-overview.md)
+      - [도구 모음 사용자 지정](./install-conf-guide/customize-toolbar.md)
+      - [왼쪽 패널에서 사용자 정의 패널 구성](./install-conf-guide/conf-custom-panel.md)
+      - [태그 보기에 대한 기본값 구성](./install-conf-guide/conf-default-value-tags-view.md)
+      - [요소 ID 자동 생성](./install-conf-guide/auto-generate-element-ids.md)
+      - [기본적@navtitle 속성 포함](./install-conf-guide/auto-add-navtitle.md)
+      - [UUID 기반 링크 표시 구성](./install-conf-guide/conf-uuid-based-links.md)
+      - [동일한 탭에서 DITA 주제 또는 맵 파일 열기](./install-conf-guide/open-dita-files-same-tab.md)
+      - [고급 맵 편집기를 기본값으로 설정](./install-conf-guide/conf-default-map-editor.md)
+      - [웹 편집기에서 파일 자동 저장 구성](./install-conf-guide/conf-auto-save-in-editor.md)
+      - [닫을 때 새 버전으로 저장하라는 메시지 구성](./install-conf-guide/conf-save-as-new-version-close.md)
+      - [닫을 때 파일을 체크 인하도록 프롬프트 구성](./install-conf-guide/conf-checkin-file-close.md)
+      - [허용되는 특수 문자 구성](./install-conf-guide/conf-special-chars.md)
+      - [AEM의 기본 사전 사용자 지정](./install-conf-guide/customize-aem-default-dictionary.md)
+      - [텍스트 필터 구성](./install-conf-guide/conf-text-filters.md)
+      - [파일 검색 대화 상자에 대한 필터 구성](./install-conf-guide/conf-custom-file-filters.md)
+      - [문서 기반 게시용 패키지 설치](./install-conf-guide/conf-article-based-publishing.md)
+      - Cloud Service용 편집기 설정 {#editor-cloud-settings}
+         - [Cloud Service 작성을 위한 AI 기반 스마트 제안 구성](./install-conf-guide/conf-smart-suggestions.md)
+         - [Cloud Service에 대한 콘텐츠를 검색하도록 AI 기반 스마트 도움말을 구성합니다](./install-conf-guide/conf-smart-help.md)
+         - [Cloud Service용 Oxygen에서 편집할 옵션 구성](./install-conf-guide/conf-edit-in-oxygen.md)
+         - [Cloud Service에 붙여 넣은 테이블 표시 구성](./install-conf-guide/conf-pasted-tables.md)
+         - [Cloud Service에 대한 단일 주제 PDF 생성 구성](./install-conf-guide/conf-pdf-generation-dita-ot.md)
+         - [Cloud Service용 웹 편집기에서 번역 기능 구성](./install-conf-guide/conf-translation-editor.md)
+      - On-Premise용 편집기 설정 {#editor-on-prem-settings}
+         - [온프레미스에 대한 추가 특수 문자 구성](/help/product-guide/web-editor/conf-additional-special-characters.md)
+         - [온-프레미스의 체크인 및 체크아웃 아이콘 제목 구성](./install-conf-guide/conf-checkin-checkout-title.md)
+         - [온-프레미스에 대한 쿼리에 대한 LimitReads 수를 구성합니다.](./install-conf-guide/conf-query-limitreads.md)
+      - 데이터 소스 커넥터 {#data-source}
+         - [사용자 인터페이스에서 데이터 소스 커넥터 구성](./install-conf-guide/conf-data-source-connector-tools.md)
+         - [Cloud Service용 데이터 소스 커넥터 구성](./install-conf-guide/conf-data-source-connector-cs.md)
+   - 글로벌 및 폴더 수준 프로필 {#global-folder-profiles}
+      - [전역 또는 폴더 수준 프로필 구성](./install-conf-guide/conf-profiles.md)
+   - 주제 및 맵 템플릿 {#topic-map-template}
+      - [주제 구성 및 템플릿 매핑](./install-conf-guide/conf-template-tags.md)
+      - [사용자 지정 DITA 주제 템플릿 구성](./install-conf-guide/conf-template-tags-custom-dita-topic-template.md)
+      - [사용자 지정 DITA 맵 템플릿 구성](./install-conf-guide/conf-template-tags-custom-dita-map-templates.md)
+   - 문서 상태 {#doc-state}
+      - [문서 상태 구성](./install-conf-guide/customize-doc-state.md)
+      - [Cloud Service에 대한 문서 상태 필터 구성](./install-conf-guide/conf-doc-state-filters.md)
+   - Workspace 설정 구성 {#workspace-configs}
+      - [Workspace 설정](./install-conf-guide/workspace-settings.md)
+   - AEM Assets 검색 {#aem-asset-search}
+      - [AEM Assets UI 검색 구성](./install-conf-guide/conf-dita-search.md)
+   - 출력 생성 설정 {#output-gen-config}
+      - [출력 생성 설정 구성](./install-conf-guide/conf-output-generation.md)
+      - AEM 사이트 출력 설정 구성 {#conf-aem-sites-output}
+         - [AEM Sites 템플릿 다운로드 및 설치](./install-conf-guide/download-install-aem-sites-templates.md)
+         - [기존 AEM 사이트 템플릿을 맞춤화하는 일반 지침](./install-conf-guide/customize-existing-site-template.md)
+         - [새 AEM 사이트 출력 사용자 지정](./install-conf-guide/customize-aem-site-output.md)
+         - [레거시 AEM 사이트 출력을 위해 AEM 구성 요소를 사용하여 DITA 요소 매핑을 사용자 지정합니다](./install-conf-guide/customize-dita-element-mapping-aem-components.md)
+         - [온-프레미스를 위한 AEM Sites 출력의 HTML 태그 오버레이](./install-conf-guide/overlay-html-tags-aem-sites-on-prem.md)
+         - [AEM 사이트 출력에 대한 유효한 파일 이름 구성](./install-conf-guide/conf-file-names-valid-regx-aem-site-output.md)
+      - 기본 PDF 게시 {#config-native-pdf-publish}
+         - [기본 PDF 게시 템플릿 및 컨텐츠 스타일](./install-conf-guide/template-content-styles.md)
+         - [Cloud Service의 기본 PDF 게시를 위한 노드 프로세스 구성](./native-pdf/conf-node-options-cs.md)
+         - [온프레미스를 위한 기본 PDF 게시를 위한 JVM 플래그 구성](./native-pdf/conf-jvm-flags-on-prem.md)
+      - Cloud Service에 대한 컨텐츠 및 경험 조각 구성 {#conf-content-exp-fragment}
+         - [주제와 컨텐츠 조각 간의 매핑 만들기](./install-conf-guide/conf-mapping-topic-content-fragment-cs.md)
+         - [주제와 경험 조각 간의 매핑 만들기](./install-conf-guide/conf-mapping-topic-content-exp-cs.md)
+   - 워크플로 사용자 정의 {#workflow}
+      - [워크플로 구성 및 사용자 지정](./install-conf-guide/conf-customize-workflows.md)
+   - 통합 {#aemg-integrations}
+      - [데스크탑 기반 XML 편집기 통합](./install-conf-guide/integrate-desktop-editors.md)
+      - [Cloud Service용 Workfront 구성](./install-conf-guide/conf-workfront.md)
+      - [번역 구성](./install-conf-guide/conf-translation.md)
+   - 피쳐 확장 {#aemg-customization}
+      - [Cloud Service의 찾기 및 바꾸기 기능에 대한 사용자 지정 인덱스 배포](./install-conf-guide/custom-indexing-cs.md)
+      - [온-프레미스의 찾기 및 바꾸기 기능에 대한 다시 인덱싱](./install-conf-guide/custom-indexing-on-prem.md)
+      - [AEM Sites에 대한 구성 요소 매핑](./install-conf-guide/component-mapping.md)
+   - 부록 {#appendix}
+      - [부록](./install-conf-guide/aemg-appendix.md)
+
 - API 참조 {#api-reference}
    - [소개](./api-reference/introduction.md)
    - [출력 관리를 위한 REST API](./api-reference/output-management.md)
@@ -598,7 +720,7 @@ ht-degree: 9%
    - [데이터 소스 커넥터를 등록하는 REST API](./api-reference/data-source-connector.md)
    - [조건부 특성으로 작업할 수 있는 REST API](./api-reference/conditional-attribute.md)
    - [전환 워크플로우에 대한 REST API](./api-reference/convert-to-dita.md)
-   - [패키지를 만들고 활성화하기 위한 REST API](./api-reference/create-activate-package.md)
+   - 패키지를 만들고 활성화하기 위한 [REST API](./api-reference/create-activate-package.md)
    - [사후 처리 이벤트 핸들러](./api-reference/post-process-event.md)
    - [폴더 또는 에셋의 사후 처리 상태를 추적하는 API](./api-reference/track-post-processing-status.md)
    - [자산에 대한 일괄 처리를 시작하기 위한 API](./api-reference/bulk-assets-processing.md)

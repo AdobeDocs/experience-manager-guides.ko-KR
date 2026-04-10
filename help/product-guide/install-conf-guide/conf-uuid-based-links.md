@@ -1,0 +1,51 @@
+---
+title: UUID 기반 링크 표시 구성
+description: UUID 기반 링크 표시를 구성하는 방법 알아보기
+feature: Web Editor Configuration
+role: Admin
+level: Experienced
+source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+workflow-type: tm+mt
+source-wordcount: '305'
+ht-degree: 1%
+
+---
+
+# UUID 기반 링크 표시 구성 {#id2035G20M0QN}
+
+기본적으로 편집기에서 참조 삽입 또는 재사용 콘텐츠 삽입 옵션을 사용하여 링크를 만들면 참조된 콘텐츠의 UUID를 사용하여 링크가 만들어집니다. 참조된 콘텐츠의 **Link** 속성 \( 속성 패널\)은 참조된 콘텐츠의 상대 파일 경로 또는 UUID를 표시하도록 구성할 수 있습니다. Cloud Service의 경우 기본적으로 참조된 콘텐츠의 UUID가 속성 패널에 표시됩니다. 온-프레미스의 경우 이 표시는 **의** UUID 사용`configMgr` 옵션에 의해 제어됩니다. 기본적으로 켜져 있으며, 이는 참조된 콘텐츠의 UUID가 속성 패널에 표시됨을 의미합니다.
+
+Experience Manager Guides 설정을 기반으로 편집기에서 참조된 콘텐츠의 상대 경로 또는 UUID를 표시하기 위한 지침을 제공합니다(Cloud Service 또는 온프레미스).
+
+>[!BEGINTABS]
+
+>[!TAB Cloud Service]
+
+구성 파일을 만들려면 [구성 재정의](download-install-config-override.md#)의 지침을 사용하십시오. 구성 파일에서 다음 \(property\) 세부 정보를 입력하여 편집기에서 참조된 콘텐츠의 상대 경로 또는 UUID를 표시합니다.
+
+| PID | 속성 키 | 속성 값 |
+|---|------------|--------------|
+| `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.uuid` | 부울 \(true/false\). 연결된 콘텐츠의 상대 경로를 표시하려면 이 속성을 false로 설정하십시오. <br> **기본값**: true |
+
+
+>[!TAB 온-프레미스]
+
+1. Adobe Experience Manager 웹 콘솔 구성 페이지를 엽니다.
+
+   구성 페이지에 액세스하기 위한 기본 URL은 다음과 같습니다.
+
+   ```http
+   http://<server name>:<port>/system/console/configMgr
+   ```
+
+1. **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** 번들을 검색하고 클릭합니다.
+
+1. *XmlEditorConfig* 설정에서 **UUID 사용** 옵션이 기본적으로 활성화되어 있습니다. 이는 참조된 콘텐츠의 UUID가 속성 패널의 **Link** 속성에 표시됨을 의미합니다.
+
+   연결된 콘텐츠의 상대 경로를 표시하려면 **UUID 사용** 옵션의 선택을 취소하십시오.
+
+1. **저장**&#x200B;을 클릭합니다.
+
+>[!ENDTABS]
+
+**상위 항목:**[&#x200B;웹 편집기 사용자 지정](customize-overview.md)

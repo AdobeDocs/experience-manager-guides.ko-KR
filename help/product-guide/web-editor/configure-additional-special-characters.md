@@ -3,15 +3,15 @@ title: 웹 편집기 도구 모음에서 추가 특수 문자 구성
 description: AEM Guides 웹 편집기에서 추가 특수 문자를 구성하는 방법에 대해 알아봅니다.
 feature: Web Editor
 role: User
-exl-id: 0fbc05a5-a6b0-4f6b-bbc4-8fca03581d90
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
 
-# 웹 편집기 도구 모음에서 추가 특수 문자를 구성하는 방법
+# 온프레미스용 웹 편집기 도구 모음에서 추가 특수 문자를 구성하는 방법
 
 웹 편집기 도구 모음에는 작성자가 이미 특수 문자를 삽입할 수 있는 바로 가기 옵션이 있습니다.
 아래 스크린샷에서도 동일한 내용을 볼 수 있습니다.
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 이러한 문자 목록은 여기에서 구성할 수 있습니다. 여기에 문자를 더 추가해야 하는 경우 아래 단계를 따르십시오.
 
-+ AEM에 로그인하고 CRXDE Lite 모드를 엽니다.
++ AEM에 로그인한 다음 CRXDE Lite 모드를 엽니다.
 
 + &#39;/apps/fmdita/xmleditor/&#39; 위치에 symbols.json 파일을 만듭니다. (&#39;/libs/fmdita/clientlibs/clientlibs/xmleditor/symbols.json&#39; 위치에서 기본값을 복사할 수 있습니다.)
 

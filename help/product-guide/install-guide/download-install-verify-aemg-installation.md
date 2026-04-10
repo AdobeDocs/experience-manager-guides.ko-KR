@@ -5,7 +5,8 @@ exl-id: 8e0afe18-5675-4c7e-b216-6de1a752bd01
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 0%
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 AEM Guides을 설치한 후에는 설치 성공 여부를 확인해야 합니다. 다음 단계를 수행하여 설치 프로세스를 확인합니다.
 
-1. AEM 인스턴스에 로그인하고 AEM Web Console 번들 페이지로 이동합니다. 번들 페이지에 액세스하기 위한 기본 URL은 다음과 같습니다.
+1. AEM 인스턴스에 로그인하고 AEM 웹 콘솔 번들 페이지로 이동합니다. 번들 페이지에 액세스하기 위한 기본 URL은 다음과 같습니다.
 
    ```http
    http://<server name>:<port>/system/console/bundles
@@ -33,6 +34,6 @@ AEM Guides을 설치한 후에는 설치 성공 여부를 확인해야 합니다
 
 >[!IMPORTANT]
 >
-> 시스템 성능을 개선하기 위해 고려할 수 있는 다양한 성능 최적화 권장 사항이 있습니다. 자세한 내용은 [성능 최적화를 위한 Recommendations](download-install-recommend-perf-optimiz.md#)을 참조하십시오.
+> 시스템 성능을 개선하기 위해 고려할 수 있는 다양한 성능 최적화 권장 사항이 있습니다. 자세한 내용은 [성능 최적화를 위한 권장 사항](download-install-recommend-perf-optimiz.md#)을 참조하십시오.
 
-**상위 항목:**&#x200B;[&#x200B;다운로드 및 설치](download-install.md)
+**상위 항목:**[&#x200B;다운로드 및 설치](download-install.md)

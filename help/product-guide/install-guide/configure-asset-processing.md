@@ -4,7 +4,9 @@ description: On-Premise 서비스에 대한 자산 처리 구성
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: e1b332b100cc8e3937557e4617d66352c1a0dc3c
+exl-id: 9d771bba-aa90-4726-a75f-1cb7b804a192
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '66'
 ht-degree: 3%

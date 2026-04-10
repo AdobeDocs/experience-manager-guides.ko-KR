@@ -5,7 +5,8 @@ exl-id: 365264ab-f990-42c1-ab79-61a40ecea42f
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 126cecdaa481b9da1add4ba3664c26c2bc5da068
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
@@ -33,4 +34,4 @@ ht-degree: 0%
 >
 > 기본적으로 작성자가 맵 파일을 만들고 편집할 수 있도록 열도록 선택하면 기본 맵 편집기가 실행됩니다. Assets UI에서 맵 파일에 대해 [편집] 옵션을 선택하면 기본 맵 편집기에서도 열립니다.
 
-**상위 항목:**&#x200B;[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)
+**상위 항목:**[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)

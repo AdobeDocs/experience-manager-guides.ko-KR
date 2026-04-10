@@ -5,7 +5,8 @@ exl-id: 8bfd3ea7-0be8-4e7a-b389-5face043200b
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 2%
@@ -18,7 +19,7 @@ ht-degree: 2%
 
 다음 단계를 수행하여 AEM 사전에 추가된 사용자 정의 단어 목록을 만듭니다.
 
-1. AEM에 로그인하고 CRXDE Lite 모드를 엽니다.
+1. AEM에 로그인한 다음 CRXDE Lite 모드를 엽니다.
 
 1. 다음 노드로 이동합니다.
 
@@ -37,4 +38,4 @@ ht-degree: 2%
 
 작성자는 웹 편집기 세션을 다시 시작하여 AEM 사전에 업데이트된 사용자 정의 단어 목록을 가져와야 합니다.
 
-**상위 항목:**&#x200B;[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)
+**상위 항목:**[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)

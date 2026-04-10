@@ -5,7 +5,8 @@ exl-id: 2a599228-6d46-494f-a57a-96c3f30e073a
 feature: Filename Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 0%
@@ -37,4 +38,4 @@ ht-degree: 0%
 >
 > 기본적으로 이 옵션은 꺼져 있습니다. 이 옵션을 켜면 작성자가 새 주제 또는 맵 파일을 만드는 동안 파일 이름을 지정하는 옵션이 표시되지 않습니다. Assets UI 및 웹 편집기에서 새 주제 또는 맵 파일을 만들 수 있습니다.
 
-**상위 항목:**&#x200B;[&#x200B;파일 이름 구성](conf-file-names.md)
+**상위 항목:**[&#x200B;파일 이름 구성](conf-file-names.md)

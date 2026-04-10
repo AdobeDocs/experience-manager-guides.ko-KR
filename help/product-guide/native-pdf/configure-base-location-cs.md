@@ -4,7 +4,9 @@ description: 클라우드 서비스용 PDF 게시를 위한 기본 출력 위치
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: ab6f1f09de2ef758d7f05ba0a49194ac9f387dea
+exl-id: d79085d6-938a-4e80-84a2-03562e6b76e0
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 2%

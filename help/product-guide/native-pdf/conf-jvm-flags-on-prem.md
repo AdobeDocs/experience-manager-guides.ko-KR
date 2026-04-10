@@ -1,0 +1,34 @@
+---
+title: 기본 PDF | 기본 PDF 게시를 위한 JVM 플래그 구성
+description: 기본 PDF 게시를 위한 JVM 플래그 구성
+feature: Output Generation
+role: Admin
+level: Experienced
+source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+workflow-type: tm+mt
+source-wordcount: '127'
+ht-degree: 1%
+
+---
+
+# 온프레미스를 위한 기본 PDF 게시를 위한 JVM 플래그 구성
+
+기본 PDF 게시는 별도의 JVM 프로세스를 시작하여 PDF을 생성합니다. 다른 시나리오를 지원하려면 이 JVM의 구성을 수정해야 할 수 있습니다. 예를 들어 더 큰 워크로드를 실행하려면 생성된 JVM 프로세스에 사용할 수 있는 최대 힙 크기를 늘려야 합니다.
+
+AEM Guides 기본 PDF 게시 JVM 플래그를 구성하려면 다음 단계를 수행하십시오.
+
+1. Adobe Experience Manager 웹 콘솔 구성 페이지를 엽니다.
+
+   구성 페이지에 액세스하기 위한 기본 URL은 다음과 같습니다.
+
+   ```http
+   http://<server name>:<port>/system/console/configMgr
+   ```
+
+1. *com.adobe.fmdita.config.ConfigManager* 번들을 검색하고 선택합니다.
+
+1. 표준 JVM 플래그를 전달하려면 **기본 pdf에 대한 Java 명령줄 옵션**(*native.pdf.java.opts*)을 업데이트하십시오.
+
+
+
+1. **저장**&#x200B;을 클릭합니다.

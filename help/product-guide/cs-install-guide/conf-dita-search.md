@@ -5,9 +5,10 @@ exl-id: 125d247f-1017-4450-9e3f-9ecc7188ca8f
 feature: Search Configuration
 role: Admin
 level: Experienced
-source-git-commit: 8ee4863470f69bca52a9b36cde52703e4d6643bc
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
-source-wordcount: '1578'
+source-wordcount: '1576'
 ht-degree: 1%
 
 ---
@@ -158,7 +159,7 @@ XPath 쿼리에는 문서 유형의 클래스 이름이 들어 있습니다. `to
 
 1. 패키지 관리자를 사용하여 /libs/fmdita/config/serializationconfig.xml 파일을 다운로드합니다.
 
-1. `apps` 노드 내에 `config` 폴더의 오버레이 노드를 만듭니다.
+1. `config` 노드 내에 `apps` 폴더의 오버레이 노드를 만듭니다.
 
 1. `apps` 노드에서 사용할 수 있는 구성 파일로 이동합니다.
 
@@ -219,7 +220,7 @@ AEM Guides에서 임시 번역 폴더 위치를 검색하지 못하게 하려면
 
 >[!NOTE]
 >
-> 이 절차를 사용하여 제외 목록에 다른 폴더 위치를 추가할 수 있습니다. 인덱스 작업에 대한 자세한 내용은 [콘텐츠 검색 및 색인화](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html?lang=ko)를 참조하십시오.
+> 이 절차를 사용하여 제외 목록에 다른 폴더 위치를 추가할 수 있습니다. 인덱스 작업에 대한 자세한 내용은 [콘텐츠 검색 및 색인화](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html)를 참조하십시오.
 
 1. 사용자 지정 damAssetLucene 인덱스에 다음 속성을 추가합니다.
 

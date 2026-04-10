@@ -1,23 +1,24 @@
 ---
-title: 성능 최적화를 위한 Recommendations
-description: 성능 최적화를 위한 Recommendations 알아보기
+title: 성능 최적화를 위한 권장 사항
+description: 성능 최적화를 위한 권장 사항 알아보기
 exl-id: b2a836a0-de82-4d89-aae3-43276997da74
 feature: Performance Optimization
 role: Admin
 level: Experienced
-source-git-commit: b28b7d96cce69f677b0bcf891b94d7ac84eb1eb0
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '904'
 ht-degree: 0%
 
 ---
 
-# 성능 최적화를 위한 Recommendations {#id213BD0JG0XA}
+# 성능 최적화를 위한 권장 사항 {#id213BD0JG0XA}
 
 ## 데이터 저장소 구성 \(필수\)
 
 **변경 내용**
-`minRecordLength` 속성을 `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.` 구성 아래의 `100` 값으로 설정합니다. 파일 날짜 저장소 및 S3 데이터 저장소에 대한 자세한 내용은 [AEM 6](https://helpx.adobe.com/kr/experience-manager/6-5/sites/deploying/using/data-store-config.html)에서 노드 저장소 및 데이터 저장소 구성 문서를 참조하십시오.
+`minRecordLength` 속성을 `100` 구성 아래의 `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.` 값으로 설정합니다. 파일 날짜 저장소 및 S3 데이터 저장소에 대한 자세한 내용은 [AEM 6](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/data-store-config.html)에서 노드 저장소 및 데이터 저장소 구성 문서를 참조하십시오.
 
 >[!NOTE]
 >
@@ -51,7 +52,7 @@ JVM 시작 매개변수는 인프라 및 디스크 크기에 따라 신중하게
 
 - JVM 힙 크기를 사용 가능한 총 메모리의 1/4 이상으로 설정합니다. `-Xmx<size>` 매개 변수를 사용하여 힙 메모리 크기를 설정합니다. -`Xms`의 값을 `-Xmx`과(와) 동일하게 설정합니다.
 
-- `-XX:+HeapDumpOnOutOfMemoryError`을(를) 사용하도록 설정하고 `-XX:HeapDumpPath=</path/to/folder` `>`의 경로를 설정합니다.
+- `-XX:+HeapDumpOnOutOfMemoryError`을(를) 사용하도록 설정하고 `-XX:HeapDumpPath=</path/to/folder``>`의 경로를 설정합니다.
 
 - 다음과 같이 Java GC 로그 활성화:
 
@@ -93,7 +94,7 @@ JVM 시작 매개변수는 인프라 및 디스크 크기에 따라 신중하게
 **변경 내용**
 DITA-OT를 사용하여 출력을 게시하고 여러 동시 게시 스레드도 정의된 경우 이 변경이 필요합니다.
 
-기본적으로 AEM Guides은 게시 스레드를 CPU+1의 수로 설정합니다. 그러나 이 값을 전체 CPU 수의 절반 \(1/2\) 또는 1/3 \(1/3\)로 설정하는 것이 좋습니다. 이렇게 하려면 권장 사항에 따라 `com.adobe.fmdita.publish.manager.PublishThreadManagerImpl` 구성 아래의 **생성 풀 크기** 속성을 설정하십시오.
+기본적으로 AEM Guides은 게시 스레드를 CPU+1의 수로 설정합니다. 그러나 이 값을 전체 CPU 수의 절반 \(1/2\) 또는 1/3 \(1/3\)로 설정하는 것이 좋습니다. 이렇게 하려면 권장 사항에 따라 **구성 아래의**&#x200B;생성 풀 크기`com.adobe.fmdita.publish.manager.PublishThreadManagerImpl` 속성을 설정하십시오.
 
 **구성할 때**
 이 작업은 런타임에 Felix 콘솔을 통해 수행하거나 코드 배포를 통해 수행할 수 있습니다.
@@ -106,13 +107,13 @@ DITA-OT를 사용하여 출력을 게시하고 여러 동시 게시 스레드도
 **변경 내용**
 AEM Sites 출력을 생성하는 경우 이 변경이 필요합니다.
 
-`com.adobe.fmdita.config.ConfigManager` 아래의 **힙에서 AEM 사이트 페이지 제한** 속성을 시스템 구성에 따라 숫자로 설정합니다. 이 속성은 사이트 페이지가 생성될 때 커밋될 노드의 배치 크기를 정의합니다. 예를 들어, CPU 수와 힙 크기가 더 큰 시스템에서는 기본값을 `500`에서 더 큰 수로 늘릴 수 있습니다. 이 속성에 대한 최적의 값을 얻으려면 변경된 값으로 실행을 테스트해야 합니다.
+**아래의**&#x200B;힙에서 AEM 사이트 페이지 제한`com.adobe.fmdita.config.ConfigManager` 속성을 시스템 구성에 따라 숫자로 설정합니다. 이 속성은 사이트 페이지가 생성될 때 커밋될 노드의 배치 크기를 정의합니다. 예를 들어, CPU 수와 힙 크기가 더 큰 시스템에서는 기본값을 `500`에서 더 큰 수로 늘릴 수 있습니다. 이 속성에 대한 최적의 값을 얻으려면 변경된 값으로 실행을 테스트해야 합니다.
 
 **구성할 때**
 이 작업은 런타임에 Felix 콘솔을 통해 수행하거나 코드 배포를 통해 수행할 수 있습니다.
 
 **이 변경 결과**
-**힙에서 AEM 사이트 페이지 제한** 속성의 수를 늘리면 AEM 사이트 출력 생성 프로세스를 최적화합니다.
+**힙에서 AEM 사이트 페이지 제한** 속성의 수가 증가하면 AEM 사이트 출력 생성 프로세스가 최적화됩니다.
 
 
-**상위 항목:**&#x200B;[&#x200B;다운로드 및 설치](download-install.md)
+**상위 항목:**[&#x200B;다운로드 및 설치](download-install.md)

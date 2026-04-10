@@ -4,7 +4,9 @@ description: 클라우드 서비스에 대한 B-트리 정리 작업 구성
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 5b29b2b5f725b5d9a2029fb232e62f387a5338fd
+exl-id: de464e92-f17b-4c99-98f2-fdba8d214129
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 3%

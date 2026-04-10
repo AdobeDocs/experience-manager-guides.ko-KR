@@ -5,7 +5,8 @@ exl-id: ba82af48-9357-4f29-90ce-6793366ab432
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '989'
 ht-degree: 0%
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 이전 UI에서 새 AEM Guides UI(AEM Guides의 2502 및 5.0 릴리스에서 적용 가능)로 마이그레이션할 때 `ui_config`에 대한 업데이트를 보다 유연하고 모듈식 UI 구성으로 변환해야 합니다. 이 프레임워크를 사용하면 해당하는 경우 editor_toolbar 및 기타 대상 위젯에 변경 사항을 원활하게 적용할 수 있습니다. 자세한 내용은 [UI 구성 전환 개요](https://experienceleague.adobe.com/ko/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config)를 참조하세요.
+> 이전 UI에서 새 AEM Guides UI(AEM Guides의 2502 및 5.0 릴리스에서 적용 가능)로 마이그레이션할 때 `ui_config`에 대한 업데이트를 보다 유연하고 모듈식 UI 구성으로 변환해야 합니다. 이 프레임워크를 사용하면 해당하는 경우 editor_toolbar 및 기타 대상 위젯에 변경 사항을 원활하게 적용할 수 있습니다. 자세한 내용은 [UI 구성 전환 개요](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config)를 참조하세요.
 
 웹 편집기의 도구 모음을 사용자 지정하는 방법에는 두 가지가 있습니다.
 
@@ -144,4 +145,4 @@ ht-degree: 0%
 1. *ui\_config.json* 파일을 저장하고 웹 편집기를 다시 로드합니다.
 
 
-**상위 항목:**&#x200B;[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)
+**상위 항목:**[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)

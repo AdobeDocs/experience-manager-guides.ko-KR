@@ -5,7 +5,8 @@ exl-id: 96081a6d-39cf-4697-8b43-6494543ea187
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 1%
@@ -28,4 +29,4 @@ AEM Guides을 사용하면 Oxygen 커넥터 플러그인에서 DITA 주제 및 D
 >
 > 이 구성은 기본적으로 비활성화되며 옵션은 웹 편집기에서 사용할 수 없습니다.
 
-**상위 항목:**&#x200B;[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)
+**상위 항목:**[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)

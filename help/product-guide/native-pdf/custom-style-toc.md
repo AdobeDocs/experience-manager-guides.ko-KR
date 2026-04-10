@@ -1,11 +1,12 @@
 ---
-title: 기본 PDF Publish 기능 | 목차 항목 및 주제 콘텐츠에 사용자 지정 스타일 적용
+title: 네이티브 PDF 게시 기능 | 목차 항목 및 주제 컨텐츠에 사용자 지정 스타일 적용
 description: 사용 스타일시트를 만들고 콘텐츠의 스타일을 만드는 방법에 대해 알아봅니다.
 exl-id: f65c9683-a1fc-432a-854b-83e8f39d7dae
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: db4c823e592e249e1d828a7071fc0848a5e68c0f
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 0%
@@ -16,9 +17,9 @@ ht-degree: 0%
 
 경우에 따라 목차 항목 또는 특정 주제에 사용자 지정 스타일을 적용할 수 있습니다. `outputclass` 특성을 DITA 맵의 `<topicref>` 요소와 연결하면 이를 수행할 수 있습니다. 또한 전체 주제에 사용자 지정 형식을 적용하려는 경우 CSS에서 속성의 스타일 정의를 확장하여 적용할 수도 있습니다.
 
-검토를 위해 보낼 새 주제의 예를 살펴보겠습니다. 업데이트된 주제를 쉽게 식별하려면 DITA 맵의 `<topicref>` 요소에 `outputclass` 특성을 추가한 다음 CSS에서 해당 요소에 대한 사용자 지정 스타일을 정의해야 합니다.
+검토를 위해 보낼 새 주제의 예를 살펴보겠습니다. 업데이트된 주제를 쉽게 식별하려면 DITA 맵의 `outputclass` 요소에 `<topicref>` 특성을 추가한 다음 CSS에서 해당 요소에 대한 사용자 지정 스타일을 정의해야 합니다.
 
-다음 예제에서는 *비행 기록* 주제에 값이 `new-topic`인 `outputclass` 특성이 할당되었습니다.
+다음 예제에서는 *비행 기록* 주제에 값이 `outputclass`인 `new-topic` 특성이 할당되었습니다.
 
 <img src="./assets/new-topic-attribute-in-map.png" width="500">
 

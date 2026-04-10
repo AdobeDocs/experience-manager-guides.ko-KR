@@ -1,0 +1,178 @@
+---
+title: 도구를 사용하여 데이터 소스 커넥터 구성
+description: 도구를 사용하여 데이터 소스 커넥터를 구성하는 방법을 알아봅니다.
+feature: Web Editor Configuration
+role: Admin
+level: Experienced
+source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+workflow-type: tm+mt
+source-wordcount: '1204'
+ht-degree: 0%
+
+---
+
+# 사용자 인터페이스에서 데이터 소스 커넥터 구성
+
+Experience Manager Guides에는 데이터 소스에 대한 기본 제공 커넥터를 구성하는 데 도움이 되는 **데이터 소스** 도구가 포함되어 있습니다. JIRA, SQL(MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce, Elasticsearch 및 Generic REST 클라이언트 커넥터를 설정할 수 있습니다.
+
+Cloud Service 설치의 경우에만 이러한 기본 커넥터 외에도 Experience Manager Guides은 Salsify, Akeneo 및 Microsoft Azure ADO(DevOps Boards) 데이터 소스에 대한 커넥터를 제공합니다. 이러한 오픈 소스 커넥터는 [Maven 중앙 저장소](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides)에서 다운로드하여 설치할 수 있습니다. 그런 다음 사용자는 이러한 커넥터를 구성할 수 있습니다.
+[오픈 소스 커넥터를 설치](#install-open-source-connector)하는 방법을 알아보세요.
+
+파일 커넥터를 사용하여 JSON 데이터 파일에 연결할 수도 있습니다. 컴퓨터에서 JSON 파일을 업로드하거나 Adobe Experience Manager 자산에서 해당 파일을 찾아봅니다. 그런 다음 생성기를 사용하여 콘텐츠 조각 또는 주제를 만듭니다.
+
+Experience Manager Guides 설정을 기반으로 커넥터를 구성하는 지침은 Cloud Service 또는 온프레미스입니다.
+
+>[!BEGINTABS]
+
+>[!TAB Cloud Service]
+
+1. 맨 위에 있는 **Adobe Experience Manager** 링크를 선택하고 [도구]를 선택합니다.
+1. 도구 목록에서 **안내서**&#x200B;를 선택합니다.
+1. **데이터 원본** 타일을 선택하십시오. **데이터 원본** 페이지가 표시됩니다. 연결된 데이터 소스를 볼 수 있습니다.
+
+   **목록 보기** 또는 **타일 보기** 간을 전환하여 연결된 다양한 데이터 원본을 목록 또는 타일로 볼 수 있습니다.
+
+   <img src="./assets/data-sources-create-window.png" alt= "데이터 소스 페이지에 나열된 데이터 소스" width="800">
+
+   *데이터 원본 커넥터를 보거나 만듭니다.*
+1. **만들기**&#x200B;를 클릭합니다.
+1. 커넥터를 생성할 데이터베이스를 선택합니다. (예: Elasticsearch 커넥터)
+   >[!NOTE]
+   >
+   >기본적으로 사용할 수 있는 모든 데이터베이스가 나열됩니다.
+
+1. **다음**&#x200B;을 클릭합니다.
+1. 데이터베이스에 따라 구성 및 연결 세부 정보를 입력합니다.
+
+   >[!TIP]
+   >
+   >* 마우스로 가리키기 자세한 내용을 보려면 필드 근처 <img src="./assets/info-details.svg" alt= "정보 아이콘" width="25">에서 확인하십시오.
+   > * *가 있는 필드는 필수입니다. 예를 들어 Elasticsearch 커넥터에 대해 다음 세부 정보를 입력할 수 있습니다.
+
+   * **이름**: 데이터 원본 이름을 입력하십시오.
+   * **인증 유형**: 드롭다운에서 인증 유형을 선택합니다. 예: 기본 사용자 이름-암호 인증
+   * **사용자 이름**: 사용자 이름을 입력하십시오.
+   * **암호**: 사용자 이름과 암호를 입력하십시오.
+   * **URL**: API URL을 추가합니다.
+
+
+1. **팩터리 템플릿 제외** 옵션을 선택하여 팩터리 템플릿을 주제 및 코드 조각 생성에 사용하지 않도록 제외합니다. **콘텐츠 조각 생성기 추가** 또는 **주제 생성기 추가** 대화 상자의 **데이터 매핑 템플릿** 드롭다운에 나타나지 않습니다.
+
+
+1. **연결 테스트**&#x200B;를 선택하십시오. 필요한 세부 정보를 추가한 후에만 활성화된 **연결 테스트** 단추를 볼 수 있습니다. 연결 세부 사항이 올바른 경우 성공 메시지를 표시합니다. 그렇지 않으면 오류 메시지가 표시될 수 있습니다.
+
+
+
+1. 맨 위에 있는 **저장**&#x200B;을 선택하여 커넥터를 저장합니다.     모든 세부 정보를 입력한 후 연결이 성공하면 활성화된 **저장** 단추를 봅니다.
+
+
+   커넥터가 성공적으로 저장되면 페이지에서 연결된 데이터 소스를 볼 수 있습니다.
+
+**여러 리소스에 연결**
+
+일반 REST 클라이언트, Salsify, Akeneo 및 Microsoft Azure ADO(DevOps Boards)와 같은 일부 커넥터에 대해 서로 다른 URL을 기반으로 여러 리소스를 추가하거나 사용할 수 있습니다. 그런 다음 콘텐츠 조각을 연결하여 콘텐츠 조각 생성기를 사용하여 콘텐츠 조각 또는 주제를 만듭니다.
+
+리소스를 만들려면 다음 단계를 수행하십시오.
+
+1. ![URL 리소스 섹션](assets/Add_icon.svg)에서 **추가 아이콘**&#x200B;을 선택하여 각 URL에 대한 리소스를 추가합니다.
+1. **리소스 추가** 대화 상자에서 모든 세부 정보를 구성합니다.
+1. **추가**&#x200B;를 클릭합니다.
+1. URL 리소스 목록에서 ![편집 아이콘](assets/edit_pencil_icon.svg)을 편집하거나 ![삭제](assets/Delete_icon.svg)할 수 있습니다.
+
+1. Salsify, Akeneo 및 Microsoft ADO와 같은 데이터 소스에 사용할 수 있는 기본 리소스를 사용할 수도 있습니다. 데이터 소스에 대해 구성하지 않으려는 리소스에 대해 옵션 OFF를 전환합니다.
+
+이렇게 하면 단일 콘텐츠 조각 또는 주제의 특정 데이터 소스에 대한 리소스에서 데이터를 빠르게 가져올 수 있습니다.
+
+**오픈 소스 커넥터 설치{#install-open-source-connector}**
+
+[Maven 중앙 저장소](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides)에 있는 종속성을 클라우드 서비스에 게시하려면 오픈 소스 커넥터에 종속성을 포함하고 포함해야 합니다.
+
+1. 클라우드 관리자 Git 프로젝트 코드의 `all/pom.xml`에 종속성을 추가하십시오. 예를 들어 Microsoft Azure DevOps Boards 데이터 소스 커넥터에 대해 다음 종속성을 추가할 수 있습니다.
+
+
+   ```
+   <dependency>
+       <groupId>com.adobe.aem.addon.guides</groupId>
+       <artifactId>konnect-azure-devops</artifactId>
+       <version>1.0.0</version>
+       <type>jar</type>
+   </dependency> 
+   ```
+
+1. 추가된 종속성을 포함합니다.
+
+       &quot;
+       &lt;embedded>
+       &lt;groupId>com.adobe.aem.addon.guides&lt;/groupId>
+       &lt;artifactId>konnect-azure-devops&lt;/artifactId>
+       &lt;type>jar&lt;/type>
+       &lt;target>/apps/aemdoxonaemcsstageprogram-vendor-packages/content/install&lt;/target>
+       &lt;/embedded>
+       &quot;
+   
+1. 파이프라인을 실행하여 클라우드 서비스의 변경 사항을 적용합니다.
+커넥터가 환경에 설치됩니다.
+
+>[!TAB 온-프레미스]
+
+1. 맨 위에 있는 **Adobe Experience Manager** 링크를 선택하고 [도구]를 선택합니다.
+1. 도구 목록에서 **안내서**&#x200B;를 선택합니다.
+1. **데이터 원본** 타일을 선택하십시오. **데이터 원본** 페이지가 표시됩니다. 연결된 데이터 소스를 볼 수 있습니다.
+
+   **목록 보기** 또는 **타일 보기** 간을 전환하여 연결된 다양한 데이터 원본을 목록 또는 타일로 볼 수 있습니다.
+
+   <img src="./assets/data-sources-create-window.png" alt= "데이터 소스 페이지에 나열된 데이터 소스" width="800">
+
+   *데이터 원본 커넥터를 보거나 만듭니다.*
+1. **만들기**&#x200B;를 클릭합니다.
+1. 커넥터를 생성할 데이터베이스를 선택합니다. (예: Elasticsearch 커넥터)
+   >[!NOTE]
+   >
+   >기본적으로 사용할 수 있는 모든 데이터베이스가 나열됩니다.
+
+1. **다음**&#x200B;을 클릭합니다.
+1. 데이터베이스에 따라 구성 및 연결 세부 정보를 입력합니다.
+
+   >[!TIP]
+   >* 마우스로 가리키기 자세한 내용을 보려면 필드 근처 <img src="./assets/info-details.svg" alt= "정보 아이콘" width="25">에서 확인하십시오.
+   > * *가 있는 필드는 필수입니다. 예를 들어 Elasticsearch 커넥터에 대해 다음 세부 정보를 입력할 수 있습니다.
+
+   * **이름**: 데이터 원본 이름을 입력하십시오.
+   * 인증 유형: 드롭다운에서 인증 유형을 선택합니다. 예: 기본 사용자 이름-암호 인증
+   * **사용자 이름**: 사용자 이름을 입력하십시오.
+   * **암호**: 사용자 이름과 암호를 입력하십시오.
+   * **URL**: API URL을 추가합니다.
+
+1. **연결 테스트**&#x200B;를 선택하십시오. 필요한 세부 정보를 추가한 후에만 활성화된 **연결 테스트** 단추를 볼 수 있습니다. 연결 세부 사항이 올바른 경우 성공 메시지를 표시합니다. 그렇지 않으면 오류 메시지가 표시될 수 있습니다.
+
+1. 맨 위에 있는 **저장**&#x200B;을 선택하여 커넥터를 저장합니다.     모든 세부 정보를 입력한 후 연결이 성공하면 활성화된 **저장** 단추를 봅니다.
+
+
+   커넥터가 성공적으로 저장되면 페이지에서 연결된 데이터 소스를 볼 수 있습니다.
+
+>[!ENDTABS]
+
+## 커넥터에 사용할 수 있는 기능
+
+* **목록 보기** 또는 **타일 보기** 사이를 전환하여 연결된 다양한 데이터 원본을 목록 또는 타일로 봅니다.
+* 단일 커넥터에 대한 확인란을 선택합니다. 모든 커넥터를 선택하려면 **모두 선택**&#x200B;을 클릭하십시오. 모든 커넥터를 선택하면 **모두 선택 해제**&#x200B;를 클릭할 수 있습니다.
+
+<img src="./assets/data-sources-features.png" alt= "데이터 소스 페이지의 데이터 소스 기능" width="800">
+
+*데이터 원본 커넥터를 편집, 다시 연결, 복제 또는 삭제합니다.*
+
+**데이터 원본** 페이지에서 커넥터에 대해 다음 기능을 사용할 수 있습니다.
+
+* **편집**: 선택한 커넥터에 대한 구성 세부 정보를 편집합니다.
+
+* **다시 연결**: 연결이 끊어진 커넥터에 다시 연결합니다.
+
+* **복제**: 현재 커넥터를 기준으로 새 복제 커넥터를 만듭니다. 중복 커넥터는 기본적으로 접미사(예: connectorname_1)로 생성됩니다. 예: sample-elastic-search_1.
+동일한 이름의 커넥터가 있는 경우 오류가 표시됩니다.
+
+* **삭제**: 선택한 커넥터를 삭제합니다.
+
+
+데이터 소스를 구성하면 커넥터가 웹 편집기의 **데이터 소스 패널** 아래에 나열됩니다. 그런 다음 데이터 소스에 연결하고 주제에 콘텐츠 스니펫을 삽입할 수 있습니다. 자세한 내용은 [데이터 원본에서 콘텐츠 조각 삽입](../user-guide/web-editor-content-snippet.md)을 참조하세요.
+
+온-프레미스 설정에서만 사용자 지정 커넥터를 만들고 다른 데이터 소스와 함께 사용할 수 있습니다. [사용자 지정 커넥터를 구성](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/external-data-source/conf-custom-data-source-connector)하는 방법을 알아봅니다.

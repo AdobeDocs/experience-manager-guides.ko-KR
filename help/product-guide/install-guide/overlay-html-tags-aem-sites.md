@@ -5,7 +5,8 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: 726420e0-fe52-4334-b72a-8eb8bcae4d6c
-source-git-commit: e0b0df19b7ec691a894130eb42df827921b4890c
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%
@@ -143,4 +144,4 @@ ht-degree: 0%
 
 
 
-[보안](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/developing/introduction/security)의 모범 사례에 대해 자세히 알아보세요.
+[보안](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/security)의 모범 사례에 대해 자세히 알아보세요.

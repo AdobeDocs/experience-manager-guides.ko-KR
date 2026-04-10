@@ -5,7 +5,8 @@ exl-id: d7cd412b-89ea-43a5-97b3-09944863bbee
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: c790d5edd1ab799564aebfa96f4a41288c977a6c
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 0%
@@ -17,7 +18,7 @@ ht-degree: 0%
 Experience Manager Guides에는 데이터 소스에 대한 기본 제공 커넥터를 구성하는 데 도움이 되는 **데이터 소스** 도구가 포함되어 있습니다. JIRA, SQL(MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce, Elasticsearch 및 Generic REST 클라이언트 커넥터를 설정할 수 있습니다.
 
 
-Experience Manager Guides은 이러한 기본 커넥터 외에도 Salsify, Akeneo 및 Microsoft Azure ADO(DevOps Boards) 데이터 소스에 대한 커넥터를 제공합니다. 이러한 오픈 소스 커넥터는 [Maven 중앙 저장소](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides)에서 다운로드하여 설치할 수 있습니다. 그런 다음 사용자는 이러한 커넥터를 구성할 수 있습니다.
+Experience Manager Guides은 이러한 즉시 사용 가능한 커넥터 외에도 Salsify, Akeneo 및 Microsoft Azure ADO(DevOps Boards) 데이터 소스에 대한 커넥터를 제공합니다. 이러한 오픈 소스 커넥터는 [Maven 중앙 저장소](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides)에서 다운로드하여 설치할 수 있습니다. 그런 다음 사용자는 이러한 커넥터를 구성할 수 있습니다.
 [오픈 소스 커넥터를 설치](#install-open-source-connector)하는 방법을 알아보세요.
 
 
