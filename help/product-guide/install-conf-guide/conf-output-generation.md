@@ -498,7 +498,7 @@ FMPS를 사용하도록 AEM Guides을 구성하려면 웹 콘솔에서 `com.adob
 
 >[!NOTE]
 >
-> http://<server name\>:<port\>/system/console/configMgr URL에 액세스하여 웹 콘솔을 엽니다.
+> http://&lt;server name\>:<port\>/system/console/configMgr URL에 액세스하여 웹 콘솔을 엽니다.
 
 | 속성 | 설명 |
 |--------|-----------|

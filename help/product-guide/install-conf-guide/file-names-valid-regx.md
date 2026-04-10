@@ -52,7 +52,7 @@ Experience Manager Guides 설정에 따라 유효한 파일 이름 문자에 대
 
 1. *com.adobe.fmdita.config.ConfigManager* 번들을 검색하고 클릭합니다.
 
-1. **Regex for Valid Characters** 속성에서 속성이 \[-a-zA-Z0-9\_\](으)로 설정되어 있는지 확인하십시오. 이 목록에 문자를 더 추가할 수 있지만 기본 문자는 이러한 것이고 목록은 하이픈 &quot;-&quot;로 시작해야 합니다.
+1. **Regex for Valid Characters** 속성에서 속성이 \[-a-zA-Z0-9\_\] (으)로 설정되어 있는지 확인하십시오. 이 목록에 문자를 더 추가할 수 있지만 기본 문자는 이러한 것이고 목록은 하이픈 &quot;-&quot;로 시작해야 합니다.
 
    >[!NOTE]
    >

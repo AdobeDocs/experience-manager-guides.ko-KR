@@ -99,4 +99,4 @@ Experience Manager Guides 설정을 기반으로 사용자 지정 DITA 템플릿
 >[!ENDTABS]
 
 
-**상위 항목:**[&#x200B;항목 및 맵 템플릿 구성](conf-template-tags.md)
+**상위 항목:**&#x200B;[&#x200B;항목 및 맵 템플릿 구성](conf-template-tags.md)

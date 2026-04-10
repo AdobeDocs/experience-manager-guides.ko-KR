@@ -81,4 +81,4 @@ Experience Manager Guides 설정을 기반으로 하는 특수 문자의 기본 
 
 >[!ENDTABS]
 
-**상위 항목:**[&#x200B;웹 편집기 사용자 지정](customize-overview.md)
+**상위 항목:**&#x200B;[&#x200B;웹 편집기 사용자 지정](customize-overview.md)

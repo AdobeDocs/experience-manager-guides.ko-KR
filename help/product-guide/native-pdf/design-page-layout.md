@@ -179,10 +179,10 @@ PDF 문서에는 일반적으로 다음 섹션이 포함되어 있습니다.
 
       편집을 위해 레이아웃 스타일시트가 열립니다.
 
-   1. **다른 스타일**&#x200B;을 마우스 오른쪽 단추로 클릭하고 **새 스타일**을 선택하세요.
+   1. **다른 스타일**&#x200B;을 마우스 오른쪽 단추로 클릭하고 **새 스타일**&#x200B;을 선택하세요.
       <img src="./assets/stylesheet-other-new-style.png" width="300">
 
-   1. 스타일 추가 팝업에서 **classname**&#x200B;에 **landscape-style**을(를) 입력합니다.
+   1. 스타일 추가 팝업에서 **classname**&#x200B;에 **landscape-style**&#x200B;을(를) 입력합니다.
       <img src="./assets/stylesheet-new-landscape-style.png" width="400">
 
    1. **완료**&#x200B;를 클릭합니다.
