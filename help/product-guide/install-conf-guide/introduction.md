@@ -4,7 +4,8 @@ description: 이 안내서에 대해 알아보기
 feature: Introduction
 role: Admin
 level: Experienced
-source-git-commit: 7e44e947348180c3954461a572efec84f34f7bf5
+exl-id: 43167f0e-158e-4599-8451-303750076731
+source-git-commit: 83ccc46ef8b3c2590fa769e43930181578ad96f9
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 1%
@@ -28,5 +29,4 @@ Adobe Experience Manager Guides \(나중에 *AEM Guides*\)는 강력한 클라�
 
 | Cloud Service | AEM 온프레미스 |
 |-------------|------------|
-| <ul><li>[배포 및 Dispatcher 구성](./conf-deployment-dispatcher-cs.md)</li><li>[AEM Guides 확인](./verify-aemg-installation.md)</li><li>[AEM Guides 업그레이드](./download-install-upgrade-aemg.md)</li><li> [성능 최적화를 위한 권장 사항](./perf-optimization-cs.md)</li></ul> | <ul><li>[기술 요구 사항](./aemg-technical-requirements.md)</li><li>[AEM 설치](./download-install-aem.md)</li><li>[처음으로 AEM Guides 다운로드 및 설치](./download-install-aemg-first-time.md)</li><li>[Dispatcher 구성](./conf-dispatcher.md)</li><li>[AEM Guides 확인](./verify-aemg-installation.md)</li><li>[AEM Guides 제거](./unistall-aemg.md)</li><li>[AEM Guides 업그레이드](./download-install-upgrade-aemg.md)</li><li>[성능 최적화를 위한 권장 사항](./perf-optimization-on-prem.md)</li></ul> |
-
+| <ul><li>[배포 및 Dispatcher 구성](./conf-deployment-dispatcher-cs.md)</li><li>[AEM Guides 확인](./verify-aemg-installation.md)</li><li>[AEM Guides 업그레이드](./download-install-upgrade-aemg.md)</li><li> [성능 최적화를 위한 권장 사항](./perf-optimization-cs.md)</li></ul> | <ul><li>[기술 요구 사항](./aemg-technical-requirements.md)</li><li>[AEM 설치](./download-install-aem.md)</li><li>[처음으로 AEM Guides 다운로드 및 설치](./download-install-aemg-first-time.md)</li><li>[Dispatcher 구성](./conf-dispatcher.md)</li><li>[AEM Guides 확인](./verify-aemg-installation.md)</li><li>[AEM Guides 제거](./uninstall-aemg.md)</li><li>[AEM Guides 업그레이드](./download-install-upgrade-aemg.md)</li><li>[성능 최적화를 위한 권장 사항](./perf-optimization-on-prem.md)</li></ul> |
