@@ -21,7 +21,7 @@ Adobe Experience Manager에서 컨텐츠 관리의 몇 가지 주요 개념은 �
 
 **자산 관리**
 
-Experience Manager Guides은 Adobe Experience Manager의 DAM\(디지털 에셋 관리)을 사용하여 DITA 파일을 관리합니다. 업로드하거나 DAM에 체크 인하는 파일은 디지털 에셋으로 저장됩니다. Adobe Experience Manager Assets에서 에셋을 관리하고 편집할 수 있습니다. 자산 관리에 대한 자세한 내용은 [자산 관리](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=en)를 참조하세요.
+Experience Manager Guides은 Adobe Experience Manager의 DAM\(디지털 에셋 관리)을 사용하여 DITA 파일을 관리합니다. 업로드하거나 DAM에 체크 인하는 파일은 디지털 에셋으로 저장됩니다. Adobe Experience Manager Assets에서 에셋을 관리하고 편집할 수 있습니다. 자산 관리에 대한 자세한 내용은 [자산 관리](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=ko)를 참조하세요.
 
 **링크 관리**
 
