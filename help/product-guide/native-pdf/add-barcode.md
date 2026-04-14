@@ -3,7 +3,7 @@ title: 기본 PDF 게시 기능 | 바코드 추가
 description: 바코드를 추가하는 방법을 알아봅니다.
 exl-id: 206bdcf9-2bcd-4bf1-815a-c97cdf0dc415
 hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 0%

@@ -5,7 +5,7 @@ exl-id: 05d4d876-f83b-473c-bf31-14d6565e80e2
 feature: AEM Guides FrameMaker Publishing Server
 author: Pulkit Nagpal(punagpal)
 role: User, Admin
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -19,9 +19,9 @@ ht-degree: 0%
 
 ## FMPS와 AEM Guides의 호환성
 
-- 4.1 AEM Guides과의 호환성: [4.1 호환성 매트릭스](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=ko/#compatibility-matrix)
+- 4.1 AEM Guides과의 호환성: [4.1 호환성 매트릭스](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=en/#compatibility-matrix)
 - 4.0 AEM Guides과의 호환성: [4.0 호환성 매트릭스](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html/#Compatibility%20matrix)
-- 최신 릴리스: [최신 릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=ko)
+- 최신 릴리스: [최신 릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=en)
 
 ## 설치
 
@@ -66,37 +66,37 @@ FMPS2020.0.2 이상 버전으로 이미 생성된 기준선을 게시할 수 있
 
 ## FAQ 및 문제 해결:
 
-- ### FMPS 게시가 &quot;시간 초과 예외&quot;로 실패합니다.
+### FMPS 게시가 &quot;시간 초과 예외&quot;로 실패합니다.
 
 >/system/console/configMgr/com.adobe.fmdita.config.ConfigManager에서 &quot;FMPS 시간 초과&quot;(초) 값을 확인하고 늘립니다.&quot;
 
-- ### 드롭다운에서 FMPS 사전 설정을 가져올 수 없음
+### 드롭다운에서 FMPS 사전 설정을 가져올 수 없음
 
 >서버에 사전 정의된 FMPS 사전 설정이 만들어져 있고 연결 설정이 올바른지 확인하십시오.
 
-- ### 게시할 때 빈 PDF가 표시됨
+### 게시할 때 빈 PDF가 표시됨
 
 >UUID를 사용하는 경우 FrameMaker 편집 환경 설정에서 &quot;UUID 기반 참조 사용&quot;을 선택하고 반대로 UUID가 아닌 AEM 안내서를 선택했는지 확인합니다.
 
-- ### 내 설정/distaval이 최종 게시된 출력에 적용되지 않음
+### 내 설정/distaval이 최종 게시된 출력에 적용되지 않음
 
 >FMPS 사전 설정과 설정/diaval 파일을 동시에 선택하지 않는지 확인합니다. FrameMaker을 사용하여 출력을 수동으로 확인합니다.
 
-- ### 기준선이 FMPS에서 게시되지 않음
+### 기준선이 FMPS에서 게시되지 않음
 
 >FMPS2020.0.2 이상 버전은 기준 게시와 호환됩니다.
 >기준선이 제대로 생성되었는지 확인합니다. 확인하려면 맵 대시보드— 항목으로 이동합니다. 다운로드  &quot;기준선 사용&quot;을 매핑하고 선택합니다.
 
-- ### FMPS에서 작업을 게시하는 데 다른 엔진보다 시간이 더 걸립니다.
+### FMPS에서 작업을 게시하는 데 다른 엔진보다 시간이 더 걸립니다.
 
 >FMPS에서 게시할 때 이상적인 고정 헤더 시간은 약 3~4분입니다. 더 길다고 생각되면 FMPS 관리자에게 문의하거나 Adobe 지원 팀에 문의하십시오.
 
 ## 기타 리소스:
 
-[FMPS 학습 및 지원](https://helpx.adobe.com/kr/support/framemaker-publishing-server.html)
+[FMPS 학습 및 지원](https://helpx.adobe.com/support/framemaker-publishing-server.html)
 
 [AEM Guides 학습 및 지원](https://helpx.adobe.com/in/support/xml-documentation-for-experience-manager.html)
 
 [FrameMaker 및 FMPS 커뮤니티](https://community.adobe.com/t5/framemaker/ct-p/ct-framemaker?page=1&sort=latest_replies&lang=all&tabid=all)
 
-[AEM Guides 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=ko)
+[AEM Guides 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)
