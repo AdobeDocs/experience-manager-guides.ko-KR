@@ -4,14 +4,15 @@ description: AEM Guides용 기존 AEM 사이트 템플릿을 사용자 지정하
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: eabaec57-e717-45a9-8321-4057b993d7fb
+source-git-commit: d5dbd67ba44735cf1545291e9a03e3096acd8166
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '944'
 ht-degree: 1%
 
 ---
 
-# 기존 AEM 사이트 템플릿 맞춤화
+# 새 AEM 사이트 템플릿 맞춤화
 
 이 안내서에서는 AEM Guides과 함께 사용하여 DITA 맵 및 주제에서 AEM Sites을 생성할 수 있도록 기존 AEM 사이트 템플릿을 사용자 지정하는 단계별 지침을 제공합니다.
 
@@ -85,7 +86,7 @@ AEM 사이트에서 두 개의 편집 가능한 템플릿을 선택하고 구성
 
 >[!NOTE]
 >
-> :resourceType에서 sling`wcm/foundation/components`을(를) 사용하는 구성 요소가 해당 `core/wcm/components`(으)로 마이그레이션되었는지 확인하십시오.
+> `wcm/foundation/components`에서 sling:resourceType을(를) 사용하는 구성 요소가 해당 `core/wcm/components`(으)로 마이그레이션되었는지 확인하십시오.
 
 동일한 템플릿의 구조에 동일한 (컨테이너 및 텍스트 구성 요소) 추가:
 
@@ -139,4 +140,4 @@ AEM 사이트에서 두 개의 편집 가능한 템플릿을 선택하고 구성
 
 >[!NOTE]
 >
-> 프로덕션에 배포하기 전에 비프로덕션 환경에서 템플릿을 테스트해야 합니다.<br><br>자세한 내용은 공식 [AEM Guides](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/overview) 및 [AEM Sites](https://experienceleague.adobe.com/ko/docs/experience-manager-core-components/using/get-started/authoring) 설명서를 참조하십시오.
+> 프로덕션에 배포하기 전에 비프로덕션 환경에서 템플릿을 테스트해야 합니다.<br><br>자세한 내용은 공식 [AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview) 및 [AEM Sites](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/get-started/authoring) 설명서를 참조하십시오.
