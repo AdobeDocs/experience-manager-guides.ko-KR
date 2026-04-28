@@ -253,4 +253,4 @@ In addition to the context menu of the breadcrumb, the Rename Element dialog can
    Alternatively you can right-click in the breadcrumb and select **Generate IDs**.
 
 
-**상위 항목:**[&#x200B;웹 편집기에서 작업](web-editor.md)
+**상위 항목:**&#x200B;[&#x200B;웹 편집기에서 작업](web-editor.md)

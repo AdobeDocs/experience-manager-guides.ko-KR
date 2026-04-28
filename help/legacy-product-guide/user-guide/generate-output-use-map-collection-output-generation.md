@@ -88,7 +88,7 @@ To create a Map Collection and add DITA maps to the collection, perform the foll
 
    - 개별 사전 설정을 활성화합니다.
    - DITA 맵에 대해 **모든 사전 설정**&#x200B;을 활성화하여 한 번에 모든 사전 설정을 선택합니다. 이 옵션은 기본적으로 비활성화되어 있습니다.
-   - DITA 맵에 대해 **폴더 프로필 사전 설정**을 활성화하여 모든 폴더 프로필 사전 설정을 선택합니다. 이 옵션은 기본적으로 비활성화되어 있습니다.
+   - DITA 맵에 대해 **폴더 프로필 사전 설정**&#x200B;을 활성화하여 모든 폴더 프로필 사전 설정을 선택합니다. 이 옵션은 기본적으로 비활성화되어 있습니다.
      ![클라우드 서비스에서 맵 컬렉션 편집](images/edit-map-collection-cs.png){width="800" align="left"}
 
 
@@ -118,7 +118,7 @@ To create a Map Collection and add DITA maps to the collection, perform the foll
 
 1. 업데이트를 저장하려면 맨 위에 있는 **저장 및 닫기**&#x200B;를 클릭합니다.
 1. (선택 사항) 태그를 업데이트할 때 **저장 및 닫기** 드롭다운에서 추가를 선택하여 새 태그를 기존 목록에 추가할 수도 있습니다.
-1. **저장 및 닫기** 드롭다운에서 **제출**을 클릭합니다.
+1. **저장 및 닫기** 드롭다운에서 **제출**&#x200B;을 클릭합니다.
 맵 컬렉션에서 일괄 선택하는 DITA 맵에 대해 메타데이터 속성이 업데이트됩니다.
 
 >[!NOTE]
@@ -143,4 +143,4 @@ To create a Map Collection and add DITA maps to the collection, perform the foll
 
 ![](images/cancel-publish-task-map-collection.png){width="800" align="left"}
 
-**상위 항목:**[&#x200B;출력 생성](generate-output.md)
+**상위 항목:**&#x200B;[&#x200B;출력 생성](generate-output.md)

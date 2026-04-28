@@ -74,4 +74,4 @@ ht-degree: 0%
 - **I**: 댓글에 필터를 적용합니다. 검토 유형 \(all, highlight, deleted, inserted 또는 sticky note\), 검토 상태 \(all, accepted, rejected 또는 none\), 검토자 \(all 또는 특정 검토자\\)\) 또는 주제 버전 을 기준으로 설명을 표시하도록 필터링할 수 있습니다.
 
 
-**상위 항목:**[&#x200B;항목 또는 맵 검토](review.md)
+**상위 항목:**&#x200B;[&#x200B;항목 또는 맵 검토](review.md)

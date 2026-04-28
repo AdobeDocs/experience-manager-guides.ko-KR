@@ -250,4 +250,4 @@ Select one or more of the following filtering options from the **Filter Type** d
 
 To remove the filter and view all the comments, deselelect all filters from the **Filter Type** dialog and click **Apply**.
 
-**상위 항목:**[&#x200B;항목 또는 맵 검토](review.md)
+**상위 항목:**&#x200B;[&#x200B;항목 또는 맵 검토](review.md)

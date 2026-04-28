@@ -21,4 +21,4 @@ AEM Guides에는 Assets UI에서 DITA 주제를 생성하는 강력한 기능이
 - **[주제 미리 보기](web-editor-preview-topics.md)**
 
 
-**상위 항목:**[&#x200B;콘텐츠 작성자](authoring-content.md)
+**상위 항목:**&#x200B;[&#x200B;콘텐츠 작성자](authoring-content.md)

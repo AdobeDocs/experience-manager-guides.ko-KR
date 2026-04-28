@@ -79,4 +79,4 @@ ht-degree: 0%
 1. Assets UI의 소스 언어 폴더에서 DITA 맵 파일로 다시 이동합니다. 다시 번역된 주제가 이제 동기화되었습니다.
 
 
-**상위 항목:**[&#x200B;콘텐츠 번역](translation.md)
+**상위 항목:**&#x200B;[&#x200B;콘텐츠 번역](translation.md)

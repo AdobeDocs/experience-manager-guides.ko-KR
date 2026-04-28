@@ -196,4 +196,4 @@ If you want to delete a topic from your table, click the cross icon next to the 
 
 If you want to delete the relationship table, click anywhere outside the relationship table and click Delete.
 
-**상위 항목:**[&#x200B;맵 편집기 작업](map-editor.md)
+**상위 항목:**&#x200B;[&#x200B;맵 편집기 작업](map-editor.md)

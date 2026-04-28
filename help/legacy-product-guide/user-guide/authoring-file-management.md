@@ -318,4 +318,4 @@ If your media file has undergone any changes, you can find and preview the files
    ![](images/media-version-preview.png){width="650" align="center"}
 
 
-**상위 항목:**[&#x200B;콘텐츠 관리](authoring.md)
+**상위 항목:**&#x200B;[&#x200B;콘텐츠 관리](authoring.md)

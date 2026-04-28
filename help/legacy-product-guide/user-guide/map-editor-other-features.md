@@ -42,4 +42,4 @@ DITA 주제에 연관된 키 참조가 있는 경우 주제를 미리 보거나,
 
 **Topic edit view** - Click on Key Resolution icon while editing a DITA topic and select the DITA file to use for resolving the key references.
 
-**상위 항목:**[&#x200B;맵 편집기 작업](map-editor.md)
+**상위 항목:**&#x200B;[&#x200B;맵 편집기 작업](map-editor.md)

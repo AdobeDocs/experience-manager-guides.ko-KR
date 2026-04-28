@@ -115,4 +115,4 @@ AEM Sites 출력에서 문자열을 검색할 수 있습니다. 기본적으로 
 
 For more details see *Configure flattening of AEM Site node structure* section in the Install and configure Adobe Experience Manager Guides guide.
 
-**상위 항목:**[&#x200B;출력 사전 설정 이해](generate-output-understand-presets.md)
+**상위 항목:**&#x200B;[&#x200B;출력 사전 설정 이해](generate-output-understand-presets.md)
