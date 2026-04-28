@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> AEM에서 작성자 및 게시 인스턴스를 설정하는 방법에 대한 자세한 내용은 [작성자 및 게시 아키텍처 개요](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites)를 참조하십시오.
+> AEM에서 작성자 및 게시 인스턴스를 설정하는 방법에 대한 자세한 내용은 [작성자 및 게시 아키텍처 개요](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=ko#prerequisites)를 참조하십시오.
 
 AEM Guides의 벌크 활성화 기능을 사용하면 작성에서 게시 인스턴스로 콘텐츠를 빠르고 쉽게 활성화할 수 있습니다. 벌크 활성화 기능을 사용하면 다음과 같은 유연성을 얻을 수 있습니다.
 
