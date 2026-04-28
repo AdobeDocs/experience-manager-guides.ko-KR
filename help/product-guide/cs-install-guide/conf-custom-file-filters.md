@@ -5,10 +5,9 @@ exl-id: 1ef2cec8-2e77-40c1-9ed2-324048bf65fb
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -52,13 +51,13 @@ ht-degree: 0%
    위의 코드 스니펫에서 첫 번째 필터는 DITA 파일용입니다. 필터 정의는 다음 매개 변수를 사용합니다.
 
    제목
-:   필터의 표시 이름입니다. 이 제목은 파일 찾아보기 대화 상자에 필터링 옵션으로 나타납니다.
+: 필터의 표시 이름입니다. 이 제목은 파일 찾아보기 대화 상자에 필터링 옵션으로 나타납니다.
 
    속성
-:   파일 메타데이터에서 일치시킬 속성입니다. 예를 들어 속성에 `dita_class` 메타데이터가 있는 파일만 허용하려면 속성 필터에서 &quot; `jcr:content/metadata/dita_class`&quot;을(를) 값으로 사용합니다.
+: 파일 메타데이터에서 일치하는 속성입니다. 예를 들어 속성에 `dita_class` 메타데이터가 있는 파일만 허용하려면 속성 필터에서 &quot; `jcr:content/metadata/dita_class`&quot;을(를) 값으로 사용합니다.
 
    작업
-:   속성 매개 변수에 지정된 값이 있는지 확인하려면 &quot; `exists`&quot;을(를) 지정하십시오.
+: 속성 매개 변수에 지정된 값이 있는지 확인하려면 &quot; `exists`&quot;을(를) 지정하십시오.
 
    두 번째 필터는 이미지 파일에 대한 것입니다. 매개 변수는 `value` 매개 변수를 제외하고 첫 번째 필터와 유사합니다. `value` 매개 변수는 이미지 형식의 배열을 해당 값으로 사용합니다. 값 매개변수에 지정된 모든 파일 유형이 검색되어 파일 찾아보기 대화 상자에 표시되고 다른 모든 파일 유형은 무시됩니다.
 

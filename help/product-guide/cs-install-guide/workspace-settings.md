@@ -4,17 +4,16 @@ description: Experience Manager Guides의 편집기 인터페이스에서 사용
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 3c3880af-8d32-4d8a-9dca-8be12e9a5fd5
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '2440'
+source-wordcount: '2470'
 ht-degree: 0%
 
 ---
 
 # Workspace 설정
 
-편집기의 **탭 모음**&#x200B;에 있는 [Workspace 설정](../user-guide/web-editor-tab-bar.md) 옵션은 관리자 및 폴더 프로필 관리자만 사용할 수 있으며 다음 설정을 구성할 수 있습니다.
+편집기의 [탭 모음](../user-guide/web-editor-tab-bar.md)에 있는 **Workspace 설정** 옵션은 관리자 및 폴더 프로필 관리자만 사용할 수 있으며 다음 설정을 구성할 수 있습니다.
 
 - [일반](#general)
 - [패널](#panels)
@@ -39,7 +38,7 @@ ht-degree: 0%
 
 ![](assets/workspace-settings.png){width="350" align="left"}
 
-- **AI 길잡이**
+- **AI 도우미**
 Experience Manager Guides에서 [AI Assistant](../user-guide/ai-assistant.md) 기능을 활성화하려면 이 옵션을 선택하십시오. 기능을 비활성화하려면 선택 취소합니다.
 
   **AI Assistant** 토글을 활성화한 후 아래와 같이 **빠른 작업 작성** 메뉴를 사용하여 작성자가 **작성 탭**&#x200B;에 표시할 옵션을 구성할 수 있습니다.\

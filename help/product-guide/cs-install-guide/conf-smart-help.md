@@ -2,10 +2,9 @@
 title: 콘텐츠를 검색하도록 스마트 도움말 구성
 description: 콘텐츠 검색을 위한 Smart Help를 구성하는 방법을 알아봅니다
 exl-id: b5836c02-027e-459a-a7f0-f7d631f999dc
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---

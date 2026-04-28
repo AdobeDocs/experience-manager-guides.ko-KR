@@ -5,10 +5,9 @@ exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1181'
 ht-degree: 0%
 
 ---
@@ -40,7 +39,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >  템플릿을 만들고 복제하는 동안 템플릿에 대한 썸네일을 미리 볼 수도 있습니다. 템플릿을 만든 후 [**옵션**](#properties-option) 메뉴에서 **속성**&#x200B;을 사용하여 축소판을 편집하거나 삭제합니다.
+   >  템플릿을 만들고 복제하는 동안 템플릿에 대한 썸네일을 미리 볼 수도 있습니다. 템플릿을 만든 후 **옵션** 메뉴에서 [**속성**](#properties-option)&#x200B;을 사용하여 축소판을 편집하거나 삭제합니다.
 
 1. **만들기**&#x200B;를 클릭합니다.
 
@@ -164,6 +163,6 @@ PDF 템플릿을 사용자 정의하려면 다음 단계를 수행하십시오.
 
    >[!NOTE]
    >
-   >[**옵션**](#properties-option) 메뉴의 **속성**&#x200B;을 사용하여 템플릿에 대한 미리 보기와 설명을 업데이트할 수도 있습니다.
+   >**옵션** 메뉴의 [**속성**](#properties-option)&#x200B;을 사용하여 템플릿에 대한 미리 보기와 설명을 업데이트할 수도 있습니다.
 
 1. 원하는 대로 변경하고 나면 *모두 저장*(또는 `Ctrl+S`)을 선택합니다.

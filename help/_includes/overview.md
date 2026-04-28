@@ -4,7 +4,7 @@ description: 'Experience Manager Guides(이전 명칭: Adobe Experience Manager�
 feature: AEM Guides Tutorials
 role: User
 hide: true
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 9%

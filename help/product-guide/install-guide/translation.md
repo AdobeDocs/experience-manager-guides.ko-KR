@@ -5,11 +5,10 @@ exl-id: 0d3a909c-3499-4ef4-b033-02e412dae959
 feature: Translation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 7%
+source-wordcount: '1088'
+ht-degree: 6%
 
 ---
 
@@ -83,9 +82,9 @@ ht-degree: 7%
 
 1. 설정에 따라 **구성 요소 기반 DITA 번역 워크플로** 옵션을 구성합니다.
 
-   - 사람 번역을 사용하는 경우 *구성 요소 기반 번역 워크플로* 옵션을 **사용 안 함**&#x200B;합니다.
+   - 사람 번역을 사용하는 경우 **구성 요소 기반 번역 워크플로** 옵션을 *사용 안 함*&#x200B;합니다.
 
-   - 기계 번역을 사용하는 경우 *구성 요소 기반 번역 워크플로* 옵션을 **사용**&#x200B;하십시오.
+   - 기계 번역을 사용하는 경우 **구성 요소 기반 번역 워크플로** 옵션을 *사용*&#x200B;하십시오.
 
    >[!NOTE]
    >
@@ -206,8 +205,8 @@ Based on the translation workflow used in your setup, provide the following (pro
 
 1. 설정에 따라 **사후 처리 언어 사본** 옵션을 구성합니다.
 
-   - \(*기본*\) 임시 파일에서 후처리 작업을 실행하지 않으려면 *언어 사본*&#x200B;후처리&#x200B;**옵션을 비활성화**&#x200B;하십시오.
+   - \(*기본*\) 임시 파일에서 후처리 작업을 실행하지 않으려면 *언어 사본&#x200B;**후처리**&#x200B;옵션을 비활성화*&#x200B;하십시오.
 
-   - 임시 파일에서 사후 처리 작업을 실행하려면 *사후 처리 언어 사본* 옵션을 **사용**&#x200B;합니다.
+   - 임시 파일에서 사후 처리 작업을 실행하려면 **사후 처리 언어 사본** 옵션을 *사용*&#x200B;합니다.
 
 1. **저장**&#x200B;을 클릭합니다.

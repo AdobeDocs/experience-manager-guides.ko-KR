@@ -5,11 +5,10 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: da3a6f83-b21a-4b19-8b54-ee96f11e7c09
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 1%
+source-wordcount: '1034'
+ht-degree: 2%
 
 ---
 
@@ -42,7 +41,7 @@ Experience Manager as a Cloud Service을 사용하면 팀이 제품 업그레이
 1. 목록에서 **콘텐츠 전송 도구**&#x200B;을(를) 선택하고 다운로드하십시오.
 
 ![콘텐츠 전송 도구 다운로드](./assets/content-transfer-tool-software-portal.png)
-그런 다음 소스 Adobe Experience Manager 인스턴스에서 **패키지 관리자**&#x200B;를 통해 패키지를 설치합니다. 최신 버전을 다운로드해야 합니다.
+그런 다음 소스 Adobe Experience Manager 인스턴스에서 **패키지 관리자**&#x200B;를 통해 패키지를 설치합니다. 최신 버전을 다운로드하십시오.
 최신 버전에 대한 자세한 내용은 [릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=ko)를 참조하세요.
 
 >[!NOTE]
@@ -96,7 +95,7 @@ Experience Manager Guides 콘텐츠를 Experience Manager as a cloud service로 
    >
    >  최신 버전을 다운로드하십시오.
 
-1. 온-프레미스 인스턴스의 `content-transfer.all-3.0.10.zip`패키지 관리자&#x200B;**에서** 패키지를 업로드하고 설치합니다.
+1. 온-프레미스 인스턴스의 **패키지 관리자**&#x200B;에서 `content-transfer.all-3.0.10.zip` 패키지를 업로드하고 설치합니다.
    ![콘텐츠 전송 도구 다운로드](./assets/content-transfer-tool-software-portal.png)
 
 
@@ -109,7 +108,7 @@ Experience Manager Guides 콘텐츠를 Experience Manager as a cloud service로 
    ![](./assets/migration-create-migration-set.png)
 
 1. 마이그레이션할 경로를 입력하고 **저장**&#x200B;을 클릭합니다.
-예: `/content/sites`
+예:  `/content/sites`
 또는
    `/content/dam/tech-docs`
    ![포함된 경로](./assets/migration-included-paths.png)

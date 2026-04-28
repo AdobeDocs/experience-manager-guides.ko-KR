@@ -5,10 +5,9 @@ exl-id: b920ba7f-e8fc-4af6-aa8a-b8516b1cffc0
 feature: Search Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '1692'
+source-wordcount: '1704'
 ht-degree: 1%
 
 ---
@@ -167,7 +166,7 @@ XPath 쿼리에는 문서 유형의 클래스 이름이 들어 있습니다. `to
 
    /libs/fmdita/config/serializationconfig.xml
 
-1. `config` 노드 내에 `apps` 폴더의 오버레이 노드를 만듭니다.
+1. `apps` 노드 내에 `config` 폴더의 오버레이 노드를 만듭니다.
 
 1. `apps` 노드에서 사용할 수 있는 구성 파일로 이동합니다.
 

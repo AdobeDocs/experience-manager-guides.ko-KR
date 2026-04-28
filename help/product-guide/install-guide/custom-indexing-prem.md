@@ -5,10 +5,9 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 5b9e4936-f674-41d3-a7b2-3d42a2523693
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '132'
 ht-degree: 0%
 
 ---
@@ -21,6 +20,6 @@ ht-degree: 0%
 
 온-프레미스 설정의 경우 색인 정의가 패키지에 포함됩니다. 기능을 활성화하려면 콘텐츠를 다시 색인화해야 합니다.
 
-`reindex=true (Boolean)` 노드에서 ` /oak:index/guidesAssetLucene` 속성을 설정하여 이전에 캡처한 콘텐츠를 다시 인덱싱하여 다시 인덱싱을 시작합니다.
+` /oak:index/guidesAssetLucene` 노드에서 `reindex=true (Boolean)` 속성을 설정하여 이전에 캡처한 콘텐츠를 다시 인덱싱하여 다시 인덱싱을 시작합니다.
 
 리인덱싱 프로세스는 시스템이 이 속성을 자동으로 다시 false로 변경할 때까지 계속됩니다. 시스템 로그에서 리인덱싱 작업의 진행 상황을 모니터링할 수 있습니다.

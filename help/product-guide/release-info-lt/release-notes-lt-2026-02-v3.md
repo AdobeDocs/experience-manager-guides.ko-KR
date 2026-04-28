@@ -2,10 +2,10 @@
 title: 릴리스 정보 | 제품 교육 및 학습 컨텐츠의 2026년 2월 새로운 기능
 description: 제품 교육 및 학습 컨텐츠의 2026년 2월 릴리스의 새로운 기능과 향상된 기능에 대해 알아보십시오
 role: Leader
-hidefromtoc: true
-source-git-commit: 16e7f12ddc9e72e4344bf98e65718c0f3681b348
+exl-id: aef24b0c-0cb8-4646-9d8b-92d3460a7faa
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
@@ -67,4 +67,3 @@ ht-degree: 0%
 - 과정 왼쪽 창에서 목차(TOC)를 클릭하면 퀴즈에 실패했더라도 과정 완료 상태가 계속 표시됩니다. (GUIDES-40398)
 - ALM에서 퀴즈의 다음 질문 유형과 일치시키려고 하면 선택한 옵션이 보고서에 표시되지 않습니다. (GUIDES-38640)
 - PDF 출력을 생성할 때 적용된 작성 스타일이 유지되지 않으므로 디자인이 일치하지 않습니다. (GUIDES-38642)
-

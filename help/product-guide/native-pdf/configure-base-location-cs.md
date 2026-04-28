@@ -1,14 +1,13 @@
 ---
-title: 기본 PDF | 클라우드 서비스용 PDF 게시를 위한 기본 출력 위치 구성
+title: 기본 PDF | Cloud Services용 PDF 게시를 위한 기본 출력 위치 구성
 description: 클라우드 서비스용 PDF 게시를 위한 기본 출력 위치 구성
 feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: d79085d6-938a-4e80-84a2-03562e6b76e0
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '80'
 ht-degree: 2%
 
 ---

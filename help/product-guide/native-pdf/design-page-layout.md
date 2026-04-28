@@ -5,10 +5,9 @@ exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 34687ac8f8877d05e545b23cf0830aa0345a25f7
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '5016'
+source-wordcount: '5060'
 ht-degree: 0%
 
 ---
@@ -193,7 +192,7 @@ PDF 문서에는 일반적으로 다음 섹션이 포함되어 있습니다.
 
    1. **페이지 매김** 속성을 확장합니다.
 
-   1. `Landscape`페이지 레이아웃&#x200B;**속성에**&#x200B;을(를) 입력하십시오.
+   1. **페이지 레이아웃** 속성에 `Landscape`을(를) 입력하십시오.
 
       <img src="./assets/new-style-with-landscape-layout.png" width="500">
 
@@ -511,7 +510,7 @@ CSS 및 HTML 코드를 직접 사용하는 것을 좋아하는 경우 페이지 
    >
    >마지막으로 게시된 PDF은 챕터의 콘텐츠를 기반으로 하는 목차 항목만 표시합니다. 챕터에 수준 5 제목이 없는 경우 최종 출력에 표시되지 않습니다.
 
-스타일시트를 사용하여 기본 TOC의 모양과 느낌을 사용자 지정할 수 있습니다. `chaptoc-level-#`(예: `chaptoc-level-1`, `chaptoc-level-2` 등)으로 시작하는 스타일을 사용하여 장 목차 <!--For more details on the stylesheet elements used in the TOC and how to customize them, see _Customize default chapter TOC_-->의 스타일을 사용자 지정합니다.
+스타일시트를 사용하여 기본 TOC의 모양과 느낌을 사용자 지정할 수 있습니다. `chaptoc-level-#`(예: `chaptoc-level-1`, `chaptoc-level-2` 등)으로 시작하는 스타일은 장 목차의 스타일을 사용자 지정하는 데 사용됩니다. <!--For more details on the stylesheet elements used in the TOC and how to customize them, see _Customize default chapter TOC_-->.
 
 >[!IMPORTANT]
 >
