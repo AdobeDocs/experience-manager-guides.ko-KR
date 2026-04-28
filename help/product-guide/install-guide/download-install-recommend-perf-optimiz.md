@@ -17,7 +17,7 @@ ht-degree: 0%
 ## 데이터 저장소 구성 \(필수\)
 
 **변경 내용**
-`minRecordLength` 속성을 `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.` 구성 아래의 `100` 값으로 설정합니다. 파일 날짜 저장소 및 S3 데이터 저장소에 대한 자세한 내용은 [AEM 6](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/data-store-config.html)에서 노드 저장소 및 데이터 저장소 구성 문서를 참조하십시오.
+`minRecordLength` 속성을 `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.` 구성 아래의 `100` 값으로 설정합니다. 파일 날짜 저장소 및 S3 데이터 저장소에 대한 자세한 내용은 [AEM 6](https://helpx.adobe.com/kr/experience-manager/6-5/sites/deploying/using/data-store-config.html)에서 노드 저장소 및 데이터 저장소 구성 문서를 참조하십시오.
 
 >[!NOTE]
 >
