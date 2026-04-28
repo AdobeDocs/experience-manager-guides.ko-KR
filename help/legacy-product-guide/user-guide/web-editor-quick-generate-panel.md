@@ -1,33 +1,33 @@
 ---
-title: 빠른 생성 패널 사용
-description: AEM Guides의 빠른 생성 패널을 사용합니다. 빠른 생성 패널에서 출력을 생성하고 보는 방법에 대해 알아봅니다.
+title: Use Quick Generate panel
+description: Use the quick generate panel in AEM Guides. Learn how to generate and view output from the quick generate panel.
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: 8ba8eaa2-9ab0-4132-a751-48d2a527faf4
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
 
-# 빠른 생성 패널을 사용하여 출력 생성 및 보기 {#id22AKE050F5L}
+# Use Quick Generate panel to generate and view output {#id22AKE050F5L}
 
-AEM Guides은 웹 편집기 내에 통합된 **빠른 생성** 패널을 제공합니다. 이 패널을 사용하면 DITA 맵에 대해 만든 출력 사전 설정에 대한 출력을 동시에 생성할 수 있습니다. 하나 이상의 사전 설정 또는 DITA 맵에 대해 만들어진 모든 사전 설정에 대한 출력을 생성할 수 있습니다. **빠른 생성** 패널을 사용하여 나중에 사전 설정에 대해 생성된 출력을 볼 수도 있습니다.
+AEM Guides provides a **Quick Generate** panel integrated inside the Web Editor. This panel allows you to simultaneously generate the output for the output presets created for a DITA map. You can generate the output for one or more presets, or all presets created for a DITA map. You can also use the **Quick Generate** panel to later view the output generated for the presets.
 
 >[!NOTE]
 >
-> 맵 보기 패널에서 연 DITA 맵에 대해 **빠른 생성** 패널이 나타납니다.
+> The **Quick Generate** panel appears for the DITA map opened in the Map View panel.
 
 ![](images/quick-generate-map-view.png){width="800" align="left"}
 
-**빠른 생성** 패널에서 출력을 생성하려면 다음 단계를 수행하십시오.
+Perform the following steps to generate the output from the **Quick Generate** panel:
 
-1. 맵 보기에서 DITA 맵을 엽니다. 빠른 생성 아이콘이 표시됩니다. **작성자** 및 **관리** 탭에 표시됩니다.
-1. **빠른 생성** 아이콘 \(![](images/quick-generate-icon.svg)\)을 클릭하여 **빠른 생성** 패널을 엽니다. **빠른 생성** 패널에서 DITA 맵에 대해 만들어진 모든 출력 사전 설정 목록을 볼 수 있습니다.
-1. 출력을 생성할 사전 설정을 하나 이상 선택합니다.
-1. **생성**&#x200B;을 클릭하여 선택한 사전 설정에 대한 출력을 생성합니다. 출력 생성에 성공 메시지가 표시됩니다. 생성에 실패하면 오류 메시지가 표시됩니다. 오류 로그를 보고 생성 프로세스에서 발생한 오류의 세부 정보를 확인할 수도 있습니다.
-1. 사전 설정에 대해 생성된 출력을 보려면 특정 사전 설정의 **출력 보기** \(![](images/view-output-icon.svg)\) 아이콘을 클릭합니다.
+1. Open your DITA map in Map View. Quick Generate icon appears. It appears in **Author** and **Manage** tabs.
+1. Click the **Quick Generate** icon \( ![](images/quick-generate-icon.svg)\) to open the **Quick Generate** panel. In the **Quick Generate** panel, you can see the list of all the output presets created for your DITA map.
+1. Select one or more presets for which you want to generate the output.
+1. Click **Generate** to generate the output for the selected presets. A success message is displayed on the generation of the output. An error message is shown if the generation fails. You can also view the error log to see the details of the error that occurred in the generation process.
+1. Click **View Output** \( ![](images/view-output-icon.svg)\) icon of a specific preset to view the output generated for the preset.
 
-**상위 항목:**&#x200B;[&#x200B;웹 편집기에서 작업](web-editor.md)
+**상위 항목:**[&#x200B;웹 편집기에서 작업](web-editor.md)

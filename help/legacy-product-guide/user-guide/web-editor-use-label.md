@@ -5,9 +5,9 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: bd488298-57d7-46fb-9820-cec8d0db8bd5
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
@@ -58,4 +58,4 @@ AEM Guides을 사용하면 파일의 다른 버전에 레이블을 추가할 수
    ![](images/delete-labels.png){width="300" align="left"}
 
 
-**상위 항목:**&#x200B;[&#x200B;웹 편집기에서 작업](web-editor.md)
+**상위 항목:**[&#x200B;웹 편집기에서 작업](web-editor.md)

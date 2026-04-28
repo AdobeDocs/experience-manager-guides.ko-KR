@@ -5,9 +5,9 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: 3e43206b-c1a3-43ba-a4e5-c45c68c8b941
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
@@ -39,4 +39,4 @@ ht-degree: 0%
 
 할당된 검토자는 다시 할당된 검토 작업에 대한 알림을 받은 편지함에 받게 됩니다.
 
-**상위 항목:**&#x200B;[&#x200B;항목 또는 맵 검토](review.md)
+**상위 항목:**[&#x200B;항목 또는 맵 검토](review.md)

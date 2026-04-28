@@ -5,9 +5,9 @@ feature: Authoring, Web Editor
 role: User
 hide: true
 exl-id: a5b0d107-4e17-4d0c-99dd-0228189e2449
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
@@ -47,4 +47,4 @@ AEM Guides에는 구조화된 문서를 만들고 편집할 수 있는 사용하
 - **[레이블 사용](web-editor-use-label.md)**
 
 
-**상위 항목:**&#x200B;[&#x200B; AEM Guides을 사용하여 콘텐츠 작성](authoring-content-xml-doc.md)
+**상위 항목:**[ AEM Guides을 사용하여 콘텐츠 작성](authoring-content-xml-doc.md)

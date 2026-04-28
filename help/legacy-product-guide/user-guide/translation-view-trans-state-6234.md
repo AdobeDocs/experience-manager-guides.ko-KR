@@ -5,9 +5,9 @@ feature: Translation
 role: User
 hide: true
 exl-id: 261c24f2-be9e-4a6b-9b1f-0850d960d49e
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
@@ -26,4 +26,4 @@ DITA 맵의 변환 상태를 보려면 다음 단계를 수행하십시오.
    >
    > 번역 상태 \(동기화되지 않은 사본, 진행 중 또는 동기화 중\), Source 유형 \(모두, DITA, DITA 맵 또는 리소스\), 수정 날짜를 기준으로 콘텐츠를 추가로 필터링할 수 있습니다. 키워드를 입력하여 특정 주제를 검색할 수도 있습니다.
 
-**상위 항목:**&#x200B;[&#x200B;콘텐츠 번역](translation.md)
+**상위 항목:**[&#x200B;콘텐츠 번역](translation.md)

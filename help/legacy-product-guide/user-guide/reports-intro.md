@@ -5,16 +5,16 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: 377664ec-b7e5-48b9-ae47-ddae8968736b
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '191'
 ht-degree: 1%
 
 ---
 
 # 보고서 {#id1645H9007MZ}
 
-조직 설정에서 기술 문서 작업을 시작하거나 문서를 라이브로 푸시하기 전에 기술 문서의 전체 완성도를 확인하려고 합니다. 이러한 요구는 다중 사용자 및 대규모 환경에서 더욱 필수적이 된다. AEM Guides은 저장소에 있는 콘텐츠의 전반적인 상태와 설명서 프로세스에서 콘텐츠가 사용되는 방식에 대한 유용한 통찰력을 제공하는 몇 가지 보고서를 제공합니다.
+조직 설정에서 기술 문서 작업을 시작하거나 문서를 라이브로 푸시하기 전에 기술 문서의 전체 완성도를 확인하려고 합니다. 이러한 요구는 다중 사용자 및 대규모 환경에서 더욱 필수적이 된다. AEM Guides은 저장소에 있는 컨텐츠의 전반적인 상태와 설명서 프로세스에서 컨텐츠가 사용되는 방식에 대해 유용한 insight을 제공하는 몇 가지 보고서를 제공합니다.
 
 다음 두 가지 방법으로 DITA 맵 보고서를 만들 수 있습니다.
 

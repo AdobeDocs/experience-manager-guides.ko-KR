@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: c3c6c063-441c-413b-a63e-0acbd126ca6d
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 0%
@@ -37,8 +37,7 @@ Experience Manager Guides을 사용하면 주제 또는 해당 요소를 경험 
 
      폴더에 대해 허용된 템플릿을 정의하지 않으면 기본적으로 상위 폴더 또는 템플릿 폴더에서 템플릿이 선택됩니다.
    * **정렬 가능**: 폴더 내의 자산 순서를 변경할 수 있습니다.
-
-     ![폴더 속성에 클라우드 구성 세부 정보 추가](images/experience-fragment-folder-properties.png){width="650" align="left"}
+     ![폴더 속성에서 클라우드 구성 세부 정보 추가](images/experience-fragment-folder-properties.png){width="650" align="left"}
      *폴더 속성에 클라우드 구성을 추가하여 조각 템플릿과 연결합니다.*
 1. 경험 조각을 생성하려면 주제의 **파일 속성**&#x200B;에서 **출력** 섹션에서 **새 출력** ![새 출력 아이콘](./images/Add_icon.svg)을 선택하십시오.
 1. **경험 조각**&#x200B;을 선택합니다.\
@@ -65,7 +64,7 @@ Experience Manager Guides을 사용하면 주제 또는 해당 요소를 경험 
 
      관리자가 *experienceFragmentMapping.json* 파일에 매핑을 추가할 수 있습니다.  설치 및 구성 안내서에서 [주제와 경험 조각 간의 매핑을 만들기](/help/product-guide/cs-install-guide/conf-experience-fragment-mapping-cs.md)하는 방법에 대해 자세히 알아보십시오.
 
-   * 다른 조건을 선택하여 콘텐츠를 게시할 수도 있습니다.  다음 옵션 중 하나를 선택합니다.
+   * 다른 조건을 선택하여 콘텐츠를 게시할 수도 있습니다.  다음 옵션 중 하나를 선택하십시오.
 
 
       * **없음**: 게시된 출력에 조건을 적용하지 않으려면 이 옵션을 선택하십시오.
@@ -81,7 +80,7 @@ Experience Manager Guides을 사용하면 주제 또는 해당 요소를 경험 
 1. 경험 조각을 게시하려면 **생성**&#x200B;을 클릭합니다.
 1. **파일 속성**&#x200B;의 **출력** 섹션 아래에서 주제에 대한 경험 조각을 볼 수 있습니다. 경험 조각은 게시 날짜 및 시간에 따라 나타나며 최신 항목을 첫 번째 조각으로 합니다.
 
-   ![주제에 대한 경험 조각 보기](images/experience-fragment-outputs.png){width=300 align=&quot;left&quot;}
+   ![주제에 대한 경험 조각 보기](images/experience-fragment-outputs.png){width=300 align="left"}
 
    *주제에 대한 경험 조각을 보고 다시 게시합니다.*
 

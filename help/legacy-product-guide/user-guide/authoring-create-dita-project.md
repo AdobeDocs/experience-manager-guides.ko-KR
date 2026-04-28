@@ -5,9 +5,9 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: 1b29c50a-04d0-4052-b893-44fb8bcc3c97
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -77,4 +77,4 @@ DITA 프로젝트를 만들려면 다음 단계를 수행하십시오.
 1. 프로젝트 페이지를 열려면 **열기**&#x200B;를 클릭하세요.
 
 
-**상위 항목:**&#x200B;[&#x200B;항목 또는 맵 검토](review.md)
+**상위 항목:**[&#x200B;항목 또는 맵 검토](review.md)

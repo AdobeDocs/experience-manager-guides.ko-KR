@@ -5,10 +5,10 @@ feature: Publishing, Bulk Activation
 role: User
 hide: true
 exl-id: de1fd057-60c6-4b1a-9e55-f32969eb0079
-source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 1%
+source-wordcount: '449'
+ht-degree: 2%
 
 ---
 
@@ -73,8 +73,8 @@ ht-degree: 1%
 
 다음 중 하나를 수행하십시오.
 
-* 선택한 맵의 출력을 활성화하려면 미리 생성된 맵 출력을 선택하고 **빠른 게시**&#x200B;를 선택합니다.
-* 구성된 사전 설정으로 모든 DITA 맵의 출력을 활성화하려면 맵(열) 옆에 있는 확인란을 선택한 다음 **빠른 게시**&#x200B;를 선택합니다.
+* To activate the output of selected maps, select the pregenerated map output and select **Quick Publish**.
+* To activate the output of all DITA maps with their configured presets, select the checkbox next to the Map (column), and then select **Quick Publish.**
   ![bulk-collection-publish](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
 
   >[!NOTE]
@@ -86,4 +86,4 @@ ht-degree: 1%
 
 선택한 맵 파일에 대해 출력이 활성화되면 감사 기록 탭이 업데이트되고 가장 최근에 활성화된 출력이 맨 위에 표시됩니다. **게시됨** 열이 게시 날짜 및 시간으로 업데이트되었습니다.
 
-**상위 항목: &#x200B;** [게시된 콘텐츠의 일괄 활성화](conf-bulk-activation.md)
+**상위 항목: **[게시된 콘텐츠의 일괄 활성화](conf-bulk-activation.md)

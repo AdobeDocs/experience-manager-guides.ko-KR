@@ -5,9 +5,9 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: 371d89b8-fe05-4477-9bf8-cc47c0899108
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '2351'
+source-wordcount: '2362'
 ht-degree: 0%
 
 ---
@@ -163,91 +163,91 @@ ht-degree: 0%
 
 위의 스크린샷에서 문서에는 강조 표시 주석의 팝업이 포함되어 있으며 주석은 [주석] 패널에도 추가됩니다. 첨부 파일 아이콘 ![](images/file-attach-review.svg)을(를) 두 위치에서 댓글과 함께 사용할 수 있습니다.
 
-댓글에 첨부 파일을 추가하려면 다음 단계를 수행하십시오.
+Perform the following steps to add attachment to your comment:
 
-1. 첨부 파일을 추가할 댓글에서 *첨부 파일 추가* 아이콘 ![](images/file-attach-review.svg)을(를) 클릭합니다.
+1. Click the *Add Attachment* icon ![](images/file-attach-review.svg) on the comment with which you want to add an attachment.
 
-   파일 열기 대화 상자가 나타납니다.
+   The file Open dialog appears.
 
-1. 첨부할 파일을 하나 이상 선택합니다.
+1. Select one or multiple files you want to attach.
 
-   선택한 파일이 [주석] 패널에 주석과 함께 표시됩니다.
+   The selected files are shown along with the comment in the Comments panel.
 
-   [주석] 패널에서 파일 이름과 크기를 볼 수 있습니다. 파일 이름과 연결된 삭제 아이콘 ![](images/Delete_icon.svg)을(를) 클릭하여 파일을 제거하는 옵션도 있습니다.
+   In the Comments panel you can see the file name and its size. You also have an option to remove a file by clicking the delete icon ![](images/Delete_icon.svg) associated with the file name.
 
 1. **제출**&#x200B;을 클릭합니다.
 
-   첨부 파일이 업로드되고 댓글에 추가됩니다.
+   The attachments are uploaded and added to the comment.
 
 
-**첨부 파일 작업에 대한 추가 참고 사항:**
+**Additional notes on working with attachments:**
 
-- 기본적으로 댓글이 첨부된 파일은 두 개만 표시됩니다. 파일이 더 있으면 오른쪽에 있는 **첨부 파일 보기** 단추에 주석과 연결된 모든 첨부 파일의 수 \(둘 이상\)가 표시됩니다. 번호를 클릭하여 모든 첨부 파일을 볼 수 있습니다. 예를 들어 댓글이 있는 첨부 파일이 4개 있는 경우 버튼에 +2가 표시됩니다.
+- By default, only two files attached with a comment are shown. If there are more files, then **View Attachment** button on the right shows the number of all attachments \(which are more than two\) associated with the comment. You can click the number to view all attachments. For example, if you have four attachments with a comment, you will see +2 on the button.
 
 ![](images/review-view-attachment.png){width="550" align="left"}
 
-- 첨부 파일 위로 마우스 포인터를 가져가면 첨부 파일을 다운로드하거나 제거할 수 있는 옵션이 제공됩니다. 다음 스크린샷과 같이 현재 검토자가 해당 주석을 추가한 경우에만 첨부 파일을 제거할 수 있습니다.
+- Hovering the mouse pointer over an attachment gives the options to download or remove the attachment. Removing the attachment is available only if the current reviewer has added that comment, as shown the following screenshot:
 
 ![](images/current-user-comment-options.png){width="550" align="left"}
 
-다른 검토자 또는 작성자는 첨부 파일 다운로드 옵션만 받습니다.
+The other reviewers or authors get only the download attachment option.
 
 ![](images/other-reviewer-download.png){width="550" align="left"}
 
-- **첨부 파일 보기** 대화 상자에서 댓글과 관련된 모든 첨부 파일을 다운로드할 수 있습니다. 첨부 파일을 선택하고 댓글 수준에서 **다운로드** 아이콘을 클릭합니다.
+- You can download all attachments associated with a comment from the **View Attachments** dialog. Select the attachments and click the **Download** icon at the comment level.
 
-- **첨부 파일 보기** 대화 상자에서 댓글과 연결된 첨부 파일을 삭제할 수도 있습니다. 첨부 파일을 선택하고 **삭제** 아이콘을 클릭합니다.
+- You can also delete the attachments associated with a comment from the **View Attachments** dialog. Select the attachments and click the **Delete** icon.
 
 ![](images/attach-files-comments-panel.png){width="550" align="left"}
 
 
-**조건 패널** -   주제에 조건부 콘텐츠가 있으면 오른쪽에 **조건** \(![](images/conditions-icon.svg)\) 아이콘이 표시됩니다. **조건** 아이콘을 클릭하면 항목의 사용 가능한 조건에 따라 콘텐츠를 강조 표시할 수 있는 조건 패널이 열립니다.
+**Conditions panel** -   If your topic has conditional content, then you will see the **Conditions** \(![](images/conditions-icon.svg)\) icon on the right. Clicking on **Conditions** icon opens the Conditions panel that allows you to highlight the content as per the available conditions in the topic.
 
-:   기본적으로 **모든 조건 강조** 옵션이 활성화되어 있고, 모든 조건이 선택되어 있고, 전체 콘텐츠가 표시되고, 조건화된 콘텐츠는 검토 및 미리 보기 모드에서 모두 강조 표시된 상태로 표시됩니다.
+:   By default **Highlight All Conditions** option is enabled, all conditions are selected, the entire content is displayed, and the conditionalized content is shown as highlighted both in review and preview mode.
 
-:   **모든 조건 강조** 옵션을 비활성화하고 주제의 모든 내용을 강조 표시 없이 일반 텍스트로 볼 수 있습니다.
+:   You can disable **Highlight All Conditions** option and see all the content present in the topic as normal text without any highlights.
 
 ![](images/review-conditions-panel.png){width="350" align="left"}
 
-특정 조건을 숨기거나 표시하도록 선택할 수 있습니다.
+You can choose to hide or show a specific condition.
 
-- 조건을 숨기면 해당 조건이 있는 콘텐츠가 검토 모드에서 강조 표시되지 않습니다.
-- 조건을 표시하는 경우 검토 모드에서 조건이 지정된 콘텐츠가 강조 표시됩니다. 예를 들어 다음 스크린샷에서는 콘텐츠에 두 가지 조건을 사용하는 `win`과(와) `mac`만 강조 표시됩니다.
+- If you hide a condition, the content having that condition is not highlighted in the review mode.
+- If you show a condition conditionalized content is highlighted in the review mode. For example, in the following screenshot, only the content uses two conditions - `win` and `mac` is highlighted.
 
 
 ![](images/review-condition-normal-mode.png){width="650" align="left"}
 
-미리 보기 모드에서는 표시된 두 조건(`win` 및 `mac`)을 사용하는 비조건부 콘텐츠 및 조건부 콘텐츠가 표시됩니다. 조건이 숨겨진 나머지 조건부 콘텐츠는 표시되지 않습니다.
+In the preview mode, the non-conditionalized content and the conditionalized content that uses the two shown conditions - `win` and `mac` is displayed. The remaining conditionalized content for which the conditions are hidden is not displayed.
 
-**실시간 검토** -   댓글 패널은 댓글과 댓글에 대한 작성자의 피드백 또는 작업으로 실시간으로 업데이트됩니다.
+**Real-time review** -   The Comments panel updates in real time with comments and the feedback or action taken by the author on the comments.
 
-- 여러 검토자가 동일한 문서에 동시에 댓글을 달거나 댓글에 답글을 달 수 있습니다. 화면 오른쪽 상단의 사용자 아이콘 위에 마우스를 올려 놓으면 현재 문서를 검토하고 있는 사용자를 확인할 수 있습니다.
+- Multiple reviewers will be able to leave comments or reply to comments simultaneously on the same document. You can find out who is currently reviewing the document by hovering the mouse over the user icon at the top-right corner of the screen.
 
-- 주제가 여러 검토 작업의 일부인 경우 한 작업에서 작성한 댓글은 다른 작업에 표시되지 않습니다.
+- If a topic is a part of multiple review tasks, then the comments made in one task are not shown in the other task.
 
-- 오래된 설명 아이콘 \(![](images/outdated-comment-icon.svg)\)을 클릭하면 문서의 최신 버전과 주석 버전 간의 차이점이 표시됩니다. 비교 중인 버전의 버전 번호 \(은)가 문서 맨 위에 표시됩니다.
+- Clicking Outdated Comment icon \(![](images/outdated-comment-icon.svg)\) displays the differences in between the latest and the commented version of the document. The version numbers \(of the versions that are being compared\) are displayed at the top of the documents.
 
   ![](images/comments-page-review-mode.png){width="800" align="left"}
 
   >[!NOTE]
   >
-  > 오래된 설명 아이콘 위로 마우스를 가져가면 설명이 추가된 주제의 버전 번호가 표시됩니다. 예를 들어 버전 1.0에서 댓글이 제공되면 동일한 내용이 표시됩니다.
+  > When you hover over the Outdated Comment icon, the version number of the topic on which the comment was added, is displayed. For example, if a comment was given on version 1.0, the same is displayed.
 
-- 오래된 설명을 클릭하면 왼쪽 패널에서 해당 주석의 버전이 열립니다. 이전 버전은 왼쪽 패널에 표시되고 현재 버전은 오른쪽 패널에 표시됩니다. 오래된 버전의 모든 주석을 왼쪽에 가져옵니다. 이전 버전과 현재 버전을 비교할 수 있습니다.
+- Clicking an outdated comment opens the version of that comment in the left panel. The previous version is shown in the left panel and the current version is displayed in the right panel. All comments on the outdated version are imported on the left side. You can compare the previous version with the current version.
 
-**댓글 필터링** -   문서에서 주석을 필터링하여 특정 주석을 볼 수 있습니다. 주석을 필터링하려면 [주석] 패널의 [주석 검색] 텍스트 상자 오른쪽에 있는 메뉴에 나타나는 **필터** 아이콘 \(![](images/filter-search-icon.svg)\)을 클릭합니다.
+**Filter comments** -   You can filter comments in a document to view specific comments as required. To filter comments, click the **Filter** icon \(![](images/filter-search-icon.svg)\) that appears in the menu on the right of the Search Comments text box in the Comments panel.
 
-**필터 유형** 대화 상자에서 다음 필터링 옵션 중 하나 이상을 선택하고 **적용**&#x200B;을 클릭합니다.
+Select one or more of the following filtering options from the **Filter Type** dialog and click **Apply**.
 
-- **검토 유형** - 설명 유형(강조, 삭제, 삽입 또는 설명)을 기준으로 필터링합니다.
-- **상태 검토** - 수락됨, 거부됨 또는 없음 등 댓글의 상태를 기준으로 필터링합니다.
-- **검토자** - 검토자 이름을 기준으로 필터링합니다.
+- **Review Type** - Filter on the basis of the comments type – Highlight, Deletion, Insertion, or Comment.
+- **Review Status** - Filter on the basis of the status of the comment like Accepted, Rejected, or None.
+- **Reviewers** - Filter on the basis of the reviewer&#39;s name.
 
-- **버전** - 주제의 특정 버전에서 받은 댓글을 기준으로 필터링합니다.
+- **Versions** - Filter on the basis of the comments received on a particular version of the topic.
 
-  필터를 사용할 때 오른쪽 패널의 주석이 선택에 따라 필터링되고 왼쪽 패널의 주석 수가 그에 따라 업데이트됩니다.
+  On using the filters the comments on the right panel get filtered according to the selection, and the number of comments in the left panel is updated accordingly.
 
 
-필터를 제거하고 모든 주석을 보려면 **필터 유형** 대화 상자에서 모든 필터를 선택 취소하고 **적용**&#x200B;을 클릭하십시오.
+To remove the filter and view all the comments, deselelect all filters from the **Filter Type** dialog and click **Apply**.
 
-**상위 항목:**&#x200B;[&#x200B;항목 또는 맵 검토](review.md)
+**상위 항목:**[&#x200B;항목 또는 맵 검토](review.md)

@@ -5,9 +5,9 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: ca557b73-8608-4fdd-8e11-adc6de2ad82a
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '2389'
+source-wordcount: '2408'
 ht-degree: 0%
 
 ---
@@ -125,7 +125,6 @@ AEM Guides은 데이터 소스와 연결하는 기능을 제공합니다. 데이
       - jira 순차 목록 템플릿을 선택한 경우 Jira 문제에 대한 순차 목록을 볼 수 있습니다.
 
    1. 소스 뷰에는 DITA 소스 뷰의 데이터가 표시됩니다.
-
       ![](images/add-content-snippet-generator.png){width="800" align="left"}
       *콘텐츠 조각 생성기를 추가합니다. 원본 또는 미리 보기 모드에서 데이터를 봅니다.*
 
@@ -211,50 +210,50 @@ AEM Guides은 데이터 소스와 연결하는 기능을 제공합니다. 데이
    1. **루트 노드**&#x200B;를 입력하십시오. 데이터에 액세스하려는 노드입니다. 그런 다음 주제 생성기는 루트 노드에 정의된 수준에서 각 주제를 생성합니다. 예를 들어 &#39;issues&#39;를 Jira의 루트 노드로 추가할 수 있습니다. 따라서 쿼리가 13개의 문제를 반환하는 경우 각 문제에 대해 1개의 주제씩 13개의 주제가 제공됩니다.
 
    1. 데이터 원본에서 데이터를 가져오고 SQL 쿼리에서 얻은 데이터에 템플릿을 적용하려면 **가져오기**&#x200B;를 클릭하십시오. 미리 보기에는 주제가 선택한 템플릿의 형식으로 표시되는 방식이 일부 표시됩니다. 예를 들어 쿼리의 결과로 발생하는 모든 필드에 대한 단일 Jira 문제를 볼 수 있습니다.
-   1. 주제 생성기의 이름을 입력합니다.
+   1. Enter the name of the topic generator.
 
       >[!NOTE]
       > 
-      > 새 주제 생성기의 이름에 대한 파일 이름 지정 규칙을 따라야 합니다. 주제 생성기 이름에는 공백을 사용할 수 없습니다. 또한 기존 주제 생성기의 이름으로 새 주제 생성기를 저장할 수 없습니다. 오류가 발생했습니다.
+      > You need to follow the file naming convention for the name of the new topic generator. You cannot have a space in the name of the topic generator. Also, you cannot save a new topic generator with the name of an existing topic generator. 오류가 발생했습니다.
 
-   **출력 구성**
+   **Output Configuration**
 
    ![](images/topic-generator-output-configuration.png){width="300" align="left"}
 
-   *[출력 구성] 패널에 [출력 경로] 및 [항목 명명 규칙] 세부 정보를 입력합니다. DITA 맵을 생성하고 이름을 지정합니다.*
+   *Enter the Output path and Topic naming convention details in the Output Configuration panel. Generate a DITA map and name it.*
 
-   1. 항목을 저장할 **출력 경로** 세부 정보를 입력하십시오.
-   1. **항목 명명 규칙**&#x200B;에서 속도 태그가 있는 값 또는 변수를 입력할 수 있습니다. 새 주제는 규칙을 따릅니다. 예를 들어 `$key`을(를) 입력하여 Jira 키를 기반으로 주제를 만들 수 있습니다.
-   1. 생성된 모든 항목이 포함된 맵을 만들려면 **맵 생성** 옵션을 활성화합니다.
-   1. 새 DITA 맵의 이름을 입력합니다.
+   1. Enter the **Output path** details where you want to save your topics.
+   1. In the **Topic naming convention**, you can enter a value or a variable with velocity tags. The new topics will follow the convention. For example, you can enter the `$key` to create topics based on Jira keys.
+   1. Enable the option **Generate a map** if you want to create a map that contains all the generated topics.
+   1. Enter the name of the new DITA map.
 
    >[!NOTE]
    >
-   > 주제 생성기는 주제와 동일한 출력 경로에서 DITA 맵을 생성합니다.
+   > The Topic generator generates the DITA map on the same output path as the topics.
 
    **메타데이터**
 
-   드롭다운에서 메타데이터 속성을 선택하여 주제에 전달합니다. **이름** 드롭다운에 사용자 지정 속성과 기본 속성이 모두 나열됩니다.
+   Select the metadata properties from the drop-down to pass to the topics. **Name** dropdown lists both the custom and the default properties.
 
-   예를 들어 다음 스크린샷에서 `dc:description`, `dc:language`, `dc:title` 및 `docstate`은 값을 정의할 수 있는 기본 속성입니다. 작성자와 같은 사용자 지정 속성을 만들고 해당 값을 정의할 수 있습니다.
+   For example, in the following screenshot, `dc:description`, `dc:language`, `dc:title`, and `docstate` are the default properties for which you can define the values. You can create a custom property like author and define its value.
 
    ![](images/topic-generator-metadata.png){width="300" align="left"}
 
-   *주제에 전달할 메타데이터 패널의 메타데이터 속성을 추가하십시오.*
+   *Add the metadata properties in the Metadata panel to pass to the topics.*
 
-1. 생성기 이름을 입력하고 **저장**&#x200B;을 클릭하여 쿼리 결과를 저장합니다. 새 주제 생성기가 목록에 추가됩니다.
+1. Enter the generator&#39;s name and click **Save** to save the query results. A new topic generator is added to the list.
 
-1. **저장 및 생성**&#x200B;을 클릭하여 주제 생성기를 저장하고 주제 생성기에서 새 주제를 생성합니다.
+1. Click **Save and Generate** to save the topic generator and generate new topics from the topic generator.
 
 
 
    ![](images/edit-topic-generator.png){width="650" align="left"}
 
-   *기존 항목 생성기에서 새 항목을 생성합니다.*
+   *Generate new topics from an existing topic generator.*
 
    >[!NOTE]
    >
-   > 주제가 이미 있는 경우 생성기는 기존 주제의 데이터를 업데이트합니다.
+   > If the topics already exist, then the generator updates the data in the existing topics.
 
 ### 주제 생성기 옵션
 

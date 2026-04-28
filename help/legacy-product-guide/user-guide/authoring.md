@@ -5,9 +5,9 @@ feature: Content Management
 role: User
 hide: true
 exl-id: 54b960cf-fb00-4d4a-a836-9de4738c49a8
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '741'
 ht-degree: 10%
 
 ---
@@ -22,7 +22,7 @@ AEM에서 컨텐츠 관리의 몇 가지 주요 개념은 다음과 같습니다
 
 **자산 관리**
 
-AEM Guides은 AEM의 DAM\(디지털 에셋 관리)을 사용하여 DITA 파일을 관리합니다. 업로드하거나 DAM에 체크 인하는 파일은 디지털 에셋으로 저장됩니다. AEM Assets에서 에셋을 관리하고 편집할 수 있습니다. 자산 관리에 대한 자세한 내용은 [자산 관리](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=ko)를 참조하십시오.
+AEM Guides은 AEM의 DAM\(디지털 에셋 관리)을 사용하여 DITA 파일을 관리합니다. 업로드하거나 DAM에 체크 인하는 파일은 디지털 에셋으로 저장됩니다. AEM Assets에서 에셋을 관리하고 편집할 수 있습니다. 자산 관리에 대한 자세한 내용은 [자산 관리](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=en)를 참조하십시오.
 
 **링크 관리**
 

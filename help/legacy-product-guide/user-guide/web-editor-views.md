@@ -5,9 +5,9 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: dbc27856-6903-4694-9875-77dc778c80bd
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1460'
 ht-degree: 0%
 
 ---
@@ -152,4 +152,4 @@ PDF은 문서 개발 주기의 모든 단계에서 사용되는 가장 일반적
    PDF이 생성되어 새 탭에서 열거나 로컬 시스템에 PDF을 저장하는 대화 상자가 표시됩니다.
 
 
-**상위 항목:**&#x200B;[&#x200B;웹 편집기에서 작업](web-editor.md)
+**상위 항목:**[&#x200B;웹 편집기에서 작업](web-editor.md)

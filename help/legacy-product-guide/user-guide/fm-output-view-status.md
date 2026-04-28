@@ -5,9 +5,9 @@ feature: Publishing FrameMaker Documents
 role: User
 hide: true
 exl-id: bf5a4365-0183-43d5-a39a-b9eb8a34b27d
-source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -37,4 +37,4 @@ FrameMaker 문서에 대한 출력 생성 작업을 시작하면 AEM Guides은 �
      이 목록에서 성공적으로 실행된 작업 또는 실패한 작업이 있을 수 있습니다. 성공적으로 완료된 작업의 경우 게시 프로세스는 생성된 위치 열의 링크를 클릭하여 액세스할 수 있는 로그 파일 \(logs.txt\)을 만듭니다.
 
 
-**상위 항목:**&#x200B;[&#x200B; FrameMaker 문서의 출력 생성](fm-output-generatation.md)
+**상위 항목:**[ FrameMaker 문서의 출력 생성](fm-output-generatation.md)

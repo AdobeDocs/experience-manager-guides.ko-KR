@@ -1,14 +1,14 @@
 ---
 title: Experience Manager Guides용 자습서
-description: Experience Manager Guides(이전 XML Documentation for Adobe Experience Manager)에 대한 자습서 비디오를 찾으십시오. Experience Manager의 기본 DITA 지원 및 구조화된 작성에 대해 알아봅니다.
+description: 'Experience Manager Guides(이전 명칭: Adobe Experience Manager용 XML Documentation)에 대한 튜토리얼 비디오를 확인하십시오. Experience Manager의 기본 DITA 지원 및 구조화된 작성에 대해 알아봅니다.'
 feature: AEM Guides Tutorials
 role: User
 hide: true
 exl-id: de7bda03-371b-4414-846b-86787f98fda8
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 1%
+source-wordcount: '269'
+ht-degree: 13%
 
 ---
 
@@ -26,6 +26,6 @@ ht-degree: 1%
 
 ## 추가 리소스
 
-* [[!DNL AEM Guides] 사용 안내서(새 UI)](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/overview)
-* [[!DNL AEM Guides] 학습 및 지원](https://helpx.adobe.com/kr/support/xml-documentation-for-experience-manager.html)
-* [Experience League - AEM 탐색](https://business.adobe.com/kr/products/experience-manager/adobe-experience-manager.html)
+* [[!DNL AEM Guides] 사용 안내서(새 UI)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)
+* [[!DNL AEM Guides] 학습 및 지원](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
+* [Experience League - AEM 살펴보기](https://business.adobe.com/products/experience-manager/adobe-experience-manager.html)

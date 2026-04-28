@@ -5,9 +5,9 @@ feature: Publishing, Bulk Activation
 role: User
 hide: true
 exl-id: 4b60bf50-f6c2-4e87-8af6-fd1c26d4898f
-source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> AEM에서 작성자 및 게시 인스턴스를 설정하는 방법에 대한 자세한 내용은 [작성자 및 게시 아키텍처 개요](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=ko#prerequisites)를 참조하십시오.
+> AEM에서 작성자 및 게시 인스턴스를 설정하는 방법에 대한 자세한 내용은 [작성자 및 게시 아키텍처 개요](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites)를 참조하십시오.
 
 AEM Guides의 벌크 활성화 기능을 사용하면 작성에서 게시 인스턴스로 콘텐츠를 빠르고 쉽게 활성화할 수 있습니다. 벌크 활성화 기능을 사용하면 다음과 같은 유연성을 얻을 수 있습니다.
 
@@ -42,4 +42,4 @@ JSON 출력 사전 설정.
 - **[일괄 활성화 맵 컬렉션 삭제](conf-bulk-activation-delete-map-collection.md)**
 
 
-**상위 항목:**&#x200B;[&#x200B;출력 생성](generate-output.md)
+**상위 항목:**[&#x200B;출력 생성](generate-output.md)

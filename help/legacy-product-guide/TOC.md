@@ -4,10 +4,10 @@ user-guide-description: 이전 사용자 인터페이스를 사용하여 Adobe E
 breadcrumb-title: AEM Guides 설명서
 hide: true
 badgeAll: label="이전 UI 안내서 - 추가 정보" type="Informative" url="/help/legacy-product-guide/disclaimer.md" tooltip="이전 UI 안내서"
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 3%
+source-wordcount: '599'
+ht-degree: 6%
 
 ---
 
@@ -17,24 +17,24 @@ ht-degree: 3%
 - [면책 조항](disclaimer.md)
 - [[!DNL AEM Guides] 개요](overview.md)
 - [릴리스 정보](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/release-info/aem-guides-releases-roadmap){target="_blank"}
-- 사용 안내서(이전 UI) {#user-guide}
+- 사용 안내서 (이전 UI) {#user-guide}
    - 소개 {#about-aem-guide}
-      - [&#x200B; [!DNL Adobe Experience Manager Guides] 정보](./user-guide/intro.md)
+      - [ [!DNL Adobe Experience Manager Guides] 정보](./user-guide/intro.md)
       - [!DNL AEM Guides] 작업 중 및 주요 기능 {#aemg-works-features}
-         - [&#x200B; [!DNL AEM Guides] 작동 방식](./user-guide/intro-how-dxml-works.md)
+         - [ [!DNL AEM Guides] 작동 방식](./user-guide/intro-how-dxml-works.md)
          - [주요 [!DNL AEM Guides] 기능](./user-guide/intro-dxml-features.md)
-   - 콘텐츠 관리{#manage-content}
+   - 컨텐츠 관리 {#manage-content}
       - [주요 개념, 역할 및 권한, 전제 조건](./user-guide/authoring.md)
       - [파일 업로드](./user-guide/authoring-upload-existing-files.md)
       - [파일 및 폴더 관리](./user-guide/authoring-file-management.md)
       - [파일 다운로드](./user-guide/authoring-download-assets.md)
-   - 작성자 콘텐츠 {#author-content}
+   - 콘텐츠 작성 {#author-content}
       - [작성 개요](./user-guide/authoring-content.md)
-      - 항목 만들기 및 미리 보기 {#create-preview-topics}
+      - 주제 생성 및 미리보기 {#create-preview-topics}
          - [주제 만들기 및 미리 보기](./user-guide/create-preview-topics.md)
          - [주제 만들기](./user-guide/web-editor-create-topics.md)
          - [주제 미리 보기](./user-guide/web-editor-preview-topics.md)
-         - 콘텐츠 작성자 {#author-content-aem-guides}
+         - 콘텐츠 작성 {#author-content-aem-guides}
             - [AEM Guides을 사용하여 콘텐츠를 작성하는 방법](./user-guide/authoring-content-xml-doc.md)
             - 웹 편집기 {#work-with-web-editor}
                - [웹 편집기 작업](./user-guide/web-editor.md)
@@ -70,7 +70,7 @@ ht-degree: 3%
                - [맵 편집기의 기타 기능](./user-guide/map-editor-other-features.md)
             - DITAVAL 편집기 {#ditaval-editor}
                - [DITAVAL 편집기 작업](./user-guide/ditaval-editor.md)
-         - 콘텐츠을(를) 작성하기 위한 데스크톱 도구 {#author-using-desktop-tools}
+         - 콘텐츠 작성을 위한 데스크톱 도구 {#author-using-desktop-tools}
             - [데스크탑 도구를 사용하여 콘텐츠 작성](./user-guide/author-desktop-tools.md)
             - [FrameMaker 작업](./user-guide/author-desktop-framemaker.md)
             - [산소를 사용한 작업](./user-guide/author-desktop-oxygen.md)
@@ -120,7 +120,7 @@ ht-degree: 3%
       - [콘텐츠 조각 게시](./user-guide/publish-content-fragment.md)
       - [경험 조각 게시](./user-guide/publish-experience-fragment.md)
       - [AEM Sites 페이지 게시](./user-guide/publish-aem-sites.md)
-      - 컨텐츠의 일괄 활성화{#bulk-activation}
+      - 콘텐츠의 벌크 활성화 {#bulk-activation}
          - [게시된 콘텐츠의 벌크 활성화](./user-guide/conf-bulk-activation.md)
          - [벌크 활성화 맵 컬렉션 만들기](./user-guide/conf-bulk-activation-create-map-collection.md)
          - [출력 활성화](./user-guide/conf-bulk-activation-publish-map-collection.md)
@@ -142,5 +142,5 @@ ht-degree: 3%
       - [컨텐츠 재사용 보고서](./user-guide/reports-content-reuse.md)
       - [전환 상태 보고서](./user-guide/reports-convertion-status.md)
       - [파일 버전 기록 보고서를 되돌렸습니다.](./user-guide/reports-reverted-file-version-history.md)
-- [사용 안내서(새 UI)](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/user-guide/about-aemg/intro)
+- [사용 안내서 (새 UI)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/about-aemg/intro)
 

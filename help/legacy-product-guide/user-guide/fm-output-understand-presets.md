@@ -5,9 +5,9 @@ feature: Publishing FrameMaker Documents
 role: User
 hide: true
 exl-id: 691773e5-547f-4638-9ce0-f6d08e1153d7
-source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
@@ -18,4 +18,4 @@ AEM Guides은 PDF, HTML5 및 EPUB 형식으로 FrameMaker 문서에 대한 출�
 
 다음 섹션에서는 지원되는 출력 형식에 사용할 수 있는 옵션에 대해 설명합니다.
 
-**상위 항목:**&#x200B;[&#x200B; FrameMaker 문서의 출력 생성](fm-output-generatation.md)
+**상위 항목:**[ FrameMaker 문서의 출력 생성](fm-output-generatation.md)

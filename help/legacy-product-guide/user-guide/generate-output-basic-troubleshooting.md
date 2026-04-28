@@ -5,7 +5,7 @@ feature: Publishing, Troubleshooting
 role: User
 hide: true
 exl-id: f85fee0f-30d1-453f-8700-781e0be8f616
-source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%
@@ -92,4 +92,4 @@ DITA 주제가 너무 큰 경우 브라우저에 JSP 컴파일 오류 \(`org.apa
 1. 요구 사항에 따라 *요청당 호출 수* 매개 변수의 값을 늘립니다.
 
 
-**상위 항목:**&#x200B;[&#x200B;출력 생성](generate-output.md)
+**상위 항목:**[&#x200B;출력 생성](generate-output.md)

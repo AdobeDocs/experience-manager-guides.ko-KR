@@ -5,9 +5,9 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: f6bf1033-9c2f-42c7-9ad5-e1060e2c9770
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
@@ -57,4 +57,4 @@ AEM Guides은 다양한 형식의 문서를 DITA로 변환하는 강력한 변�
       - **출력**: 성공적으로 변환된 문서의 경로입니다. 출력(Output) 링크를 클릭하면 출력이 저장된 위치로 이동합니다.
 
 
-**상위 항목:**&#x200B;[&#x200B;보고서](reports-intro.md)
+**상위 항목:**[&#x200B;보고서](reports-intro.md)

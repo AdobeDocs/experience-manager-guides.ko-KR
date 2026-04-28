@@ -5,9 +5,9 @@ feature: Authoring
 role: User
 hide: true
 exl-id: 6d898419-b8f9-4a22-a6be-8b7b0e96a461
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '96'
 ht-degree: 0%
 
 ---
@@ -27,4 +27,4 @@ AEM Guides에는 세 가지 기본 편집기가 포함되어 있습니다. 이�
 - **[DITAVAL 편집기](ditaval-editor.md)**
 
 
-**상위 항목:**&#x200B;[&#x200B;콘텐츠 작성자](authoring-content.md)
+**상위 항목:**[&#x200B;콘텐츠 작성자](authoring-content.md)
