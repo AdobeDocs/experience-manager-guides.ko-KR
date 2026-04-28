@@ -5,11 +5,10 @@ exl-id: 92ac1f81-2f51-44b0-82c3-56b39e8f3027
 feature: Performance Optimization
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 0%
+source-wordcount: '162'
+ht-degree: 5%
 
 ---
 
@@ -17,7 +16,7 @@ ht-degree: 0%
 
 성능 최적화를 위해 다음 사항을 고려하십시오.
 
-- 콘텐츠 및 색인화 환경을 최적화하려면 AEM 설명서에서 [콘텐츠 검색 및 색인화 최적화](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html?lang=ko)를 참조하십시오.
+- 콘텐츠 및 색인화 환경을 최적화하려면 AEM 설명서에서 [콘텐츠 검색 및 색인화 최적화](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html)를 참조하십시오.
 
 - 게시에 사용자 지정 DITA-OT를 사용하는 동안 Patch Xerces Jar가 발생했습니다. 사용 사례에 따라 필수 구성입니다. 이 변경 사항은 게시 출력에 사용자 지정 DITA-OT를 사용하는 경우에만 필요합니다.
 
@@ -26,4 +25,4 @@ ht-degree: 0%
   이렇게 하면 주제가 많은 DITA 맵을 게시하는 동안 게시 시간과 메모리 활용도가 줄어듭니다.
 
 
-**상위 항목:**&#x200B;[&#x200B;다운로드 및 설치](download-install.md)
+**상위 항목:**[&#x200B;다운로드 및 설치](download-install.md)

@@ -5,10 +5,9 @@ exl-id: 3dd7752e-0836-480a-b1e1-6fa2099d404f
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
@@ -49,4 +48,4 @@ ht-degree: 0%
   범주 내에서 특수 문자에 대한 여러 정의를 정의할 수 있습니다.
 
 
-**상위 항목:**&#x200B;[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)
+**상위 항목:**[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)

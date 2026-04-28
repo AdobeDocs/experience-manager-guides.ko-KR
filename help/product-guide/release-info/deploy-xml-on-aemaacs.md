@@ -1,20 +1,19 @@
 ---
-title: ' [!DNL Experience Manager Guides] 환경에  [!DNL Experience Manager as a Cloud Service] 을(를) 추가하는 방법'
-description: ' [!DNL AEM Guides] 환경에  [!DNL AEM as a Cloud Service] 을(를) 추가하는 방법 알아보기'
+title: ' [!DNL Experience Manager as a Cloud Service] 환경에  [!DNL Experience Manager Guides] 을(를) 추가하는 방법'
+description: ' [!DNL AEM as a Cloud Service] 환경에  [!DNL AEM Guides] 을(를) 추가하는 방법 알아보기'
 exl-id: a1e020c2-360c-4d71-b5fd-8179d9ceacda
 feature: Installation
 role: Leader
-hidefromtoc: true
-source-git-commit: 55edd53d1dda7a68352e53b2e59eafd15b677fdd
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Experience Manager Guides] as a Cloud Service 배포
 
-[!DNL Experience Manager Guides] 환경에 [!DNL Experience Manager as a Cloud Service]을(를) 추가하는 방법을 알아봅니다.
+[!DNL Experience Manager as a Cloud Service] 환경에 [!DNL Experience Manager Guides]을(를) 추가하는 방법을 알아봅니다.
 
 
 >[!NOTE]

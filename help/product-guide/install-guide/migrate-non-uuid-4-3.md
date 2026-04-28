@@ -5,10 +5,9 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: f53f4eef-5e99-4342-9919-508b90ee3571
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1696'
 ht-degree: 1%
 
 ---
@@ -117,7 +116,7 @@ UUID가 아닌 버전 4.3.1에서 다음 검사를 수행합니다.
    * `com.adobe.guides.uuid`
 
 
-1. (이전에 수행하지 않은 경우) 시스템에 100,000개 이상의 DITA 파일이 있는 경우 `queryLimitReads`의 `org.apache.jackrabbit.oak.query.QueryEngineSettingsService`을(를) 더 큰 값(존재하는 에셋 수보다 큰 값(예: 200,000))으로 업데이트합니다.
+1. (이전에 수행하지 않은 경우) 시스템에 100,000개 이상의 DITA 파일이 있는 경우 `org.apache.jackrabbit.oak.query.QueryEngineSettingsService`의 `queryLimitReads`을(를) 더 큰 값(존재하는 에셋 수보다 큰 값(예: 200,000))으로 업데이트합니다.
 
    | PID | 속성 키 | 속성 값 |
    |---|---|---|
@@ -218,8 +217,8 @@ UUID가 아닌 버전 4.3.1에서 다음 검사를 수행합니다.
 
    >[!NOTE]
    >
-   > 마이그레이션 전에 **내의** AEM 사이트 페이지 이름에 제목 사용`com.adobe.fmdita.config.ConfigManager` 속성이 *False*(으)로 설정된 경우 마이그레이션 후에 이 속성을 업데이트해야 합니다.
+   > 마이그레이션 전에 `com.adobe.fmdita.config.ConfigManager` 내의 **AEM 사이트 페이지 이름에 제목 사용** 속성이 *False*(으)로 설정된 경우 마이그레이션 후에 이 속성을 업데이트해야 합니다.
 
 
-1. 유효성 검사가 완료되면 압축을 실행하여 대부분의 디스크 공간을 회수할 수 있습니다(`https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=ko` 참조).
+1. 유효성 검사가 완료되면 압축을 실행하여 대부분의 디스크 공간을 회수할 수 있습니다(`https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en` 참조).
 

@@ -5,11 +5,10 @@ exl-id: 57ae906f-69e3-4319-89f6-0fa9ddb7a3ff
 feature: Installation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 3%
+source-wordcount: '114'
+ht-degree: 2%
 
 ---
 
@@ -26,10 +25,10 @@ ht-degree: 3%
 
 >[!NOTE]
 >
-> CI/CD 파이프라인 사용에 대한 자세한 내용은 [Adobe Cloud Manager에서 CI/CD 파이프라인 사용](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/cloud-manager/use-the-cicd-pipeline-in-cloud-manager-for-aem.html?lang=ko)을 참조하십시오.
+> CI/CD 파이프라인 사용에 대한 자세한 내용은 [Adobe Cloud Manager에서 CI/CD 파이프라인 사용](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/cloud-manager/use-the-cicd-pipeline-in-cloud-manager-for-aem.html)을 참조하십시오.
 
 ## 브라우저 캐시를 지웁니다.
 
 업그레이드 프로세스를 완료한 후 업그레이드된 AEM Guides 버전을 사용하기 전에 모든 사용자가 브라우저 캐시를 지워야 합니다.
 
-**상위 항목:**&#x200B;[&#x200B;다운로드 및 설치](download-install.md)
+**상위 항목:**[&#x200B;다운로드 및 설치](download-install.md)

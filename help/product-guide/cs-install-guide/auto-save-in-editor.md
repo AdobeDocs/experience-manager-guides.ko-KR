@@ -5,10 +5,9 @@ exl-id: 4d99c3d8-cf6a-4cf3-aaec-9009a0376c1e
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '190'
 ht-degree: 1%
 
 ---
@@ -26,4 +25,4 @@ ht-degree: 1%
 | `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.autosave` | 부울 \(true/false\).<br> **기본값**: false |
 | `xmleditor.autosaveinterval` | 자동 저장 기능을 트리거할 시간 간격(초)을 지정합니다. |  |
 
-**상위 항목:**&#x200B;[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)
+**상위 항목:**[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)

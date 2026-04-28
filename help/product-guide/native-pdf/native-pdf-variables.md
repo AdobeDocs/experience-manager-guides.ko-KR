@@ -1,14 +1,13 @@
 ---
-title: 네이티브 PDF | PDF 출력에서 변수 사용
+title: 기본 PDF | PDF 출력에서 변수 사용
 description: PDF 출력 및 출력 템플릿에서 변수 사용
 feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 96e54aee-52df-4af1-97fd-34986f553be4
-hidefromtoc: true
-source-git-commit: 34687ac8f8877d05e545b23cf0830aa0345a25f7
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '1450'
+source-wordcount: '1465'
 ht-degree: 0%
 
 ---
@@ -90,7 +89,7 @@ ht-degree: 0%
 **변수 편집기에서**
 
 1. **옵션** 메뉴를 보려면 목록의 변수 위로 마우스를 가져갑니다.
-1. **미리 보기**&#x200B;를 선택합니다.
+1. **미리보기**&#x200B;를 선택합니다.
 
 ### 변수 복제
 

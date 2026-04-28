@@ -4,10 +4,10 @@ description: 기본 PDF 게시를 위한 JVM 플래그 구성
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+exl-id: d5432913-4b5a-48e7-9467-7f6c6e0adbe4
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '128'
 ht-degree: 1%
 
 ---

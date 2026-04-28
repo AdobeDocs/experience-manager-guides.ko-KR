@@ -1,12 +1,11 @@
 ---
-title: 네이티브 PDF 게시 기능 | JavaScript을 사용하여 콘텐츠 또는 스타일 작업
+title: 기본 PDF 게시 기능 | JavaScript을 사용하여 콘텐츠 또는 스타일 작업
 description: 사용 스타일시트를 만들고 콘텐츠의 스타일을 만드는 방법에 대해 알아봅니다.
 exl-id: 2f301f6a-0d1c-4194-84c2-0fddaef8d3ec
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: ad12cac61d14bc68bf73dc407a74a22c8248d7b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 0%
@@ -66,7 +65,7 @@ window.addEventListener('DOMContentLoaded', function () {
 >
 >콜백 함수를 사용하려면 먼저 `window.addEventListener('DOMContentLoaded', function ()` 함수를 호출해야 합니다.
 
-그런 다음 PDF 출력을 생성하는 데 사용되는 템플릿 파일에서 이 스크립트를 호출해야 합니다. 이 예제에서는 TOC 템플릿에 추가합니다. `<script>` 태그가 `<div>` 태그의 미리 정의된 `<body>` 태그 내에 추가되어 있는지 확인하십시오. `<head>` 태그 또는 `<body>` 태그 외부에 추가하면 스크립트가 실행되지 않습니다.
+그런 다음 PDF 출력을 생성하는 데 사용되는 템플릿 파일에서 이 스크립트를 호출해야 합니다. 이 예제에서는 TOC 템플릿에 추가합니다. `<script>` 태그가 `<body>` 태그의 미리 정의된 `<div>` 태그 내에 추가되어 있는지 확인하십시오. `<head>` 태그 또는 `<body>` 태그 외부에 추가하면 스크립트가 실행되지 않습니다.
 
 <img src="./assets/js-added-resources-template.png" width="500">
 

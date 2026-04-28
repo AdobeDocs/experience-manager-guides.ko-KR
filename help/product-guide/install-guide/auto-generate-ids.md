@@ -5,10 +5,9 @@ exl-id: 8d09ab89-4be5-49f1-9831-9f01c92dc472
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -46,4 +45,4 @@ AEM Guides에서는 ID가 자동 생성되는 요소와 ID에 대한 패턴을 �
 1. **저장**&#x200B;을 클릭합니다.
 
 
-**상위 항목:**&#x200B;[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)
+**상위 항목:**[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)

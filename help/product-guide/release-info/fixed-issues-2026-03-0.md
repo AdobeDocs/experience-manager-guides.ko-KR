@@ -1,12 +1,11 @@
 ---
-title: 릴리스 노트 | Adobe Experience Manager Guides, 2026.03.0 릴리스의 해결된 문제
+title: 릴리스 정보 | Adobe Experience Manager Guides, 2026.03.0 릴리스의 문제가 해결되었습니다.
 description: Adobe Experience Manager Guides as a Cloud Service 2026.03.0 릴리스의 버그 수정에 대해 알아봅니다.
 exl-id: 6eca85f5-d7d3-4486-8b32-8af3a6cce4ee
-hidefromtoc: true
-source-git-commit: 22ea3fe3ccb974fe3795299f7815e7aae78d41e7
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
 source-wordcount: '816'
-ht-degree: 3%
+ht-degree: 0%
 
 ---
 
@@ -14,7 +13,7 @@ ht-degree: 3%
 
 이 문서에서는 Adobe Experience Manager Guides as a Cloud Service의 2026.03.0 릴리스의 다양한 영역에서 수정된 버그를 다룹니다.
 
-새로운 기능 및 개선 사항에 대한 자세한 내용은 [2026.03.0 릴리스의 새로운 기능](whats-new-2026-03-0.md)을 참조하십시오.
+새로운 기능 및 향상된 기능에 대한 자세한 내용은 [2026.03.0 릴리스의 새로운 기능](whats-new-2026-03-0.md)을 참조하세요.
 
 [2026.03.0 릴리스의 업그레이드 지침](upgrade-instructions-2026-03-0.md)에 대해 알아봅니다.
 
@@ -29,7 +28,7 @@ ht-degree: 3%
 - `map_title` 변수가 출력 경로에 있는 경우 맵에 대한 AEM 사이트 출력(복합 구성 요소 매핑 사용)을 생성하지 못하고 오류가 발생합니다. (GUIDES-36968)
 - 기본 PDF 출력 사전 설정에서 후행 슬래시가 있는 출력 경로를 지정하면 UI에서 후행 슬래시를 자동으로 추가하여 특정 시나리오에서 PDF 업로드가 실패하는 이중 슬래시 경로를 생성합니다. (GUIDES-34932)
 - 빠른 게시 또는 게시 관리를 통해 DITA 콘텐츠에서 생성된 AEM Sites 페이지를 게시하면 관련 DITA 에셋이 실수로 게시됩니다. (GUIDES-27967)
-- 기존 구성 요소 매핑을 사용하여 AEM Sites에 맵을 게시할 때 다른 맵에서 항목(예: 단락)의 하위 요소를 타겟팅하는 `xrefs`을(를) 사용하는 상호 참조(`scope = peer`)는 특정 요소 ID로 확인되지 않고 대신 상위 항목으로만 확인되므로 페이지가 의도한 섹션으로 스크롤되지 않고 항목 시작 시 로드됩니다. (GUIDES-21802)
+- 기존 구성 요소 매핑을 사용하여 AEM Sites에 맵을 게시할 때 다른 맵에서 항목(예: 단락)의 하위 요소를 타겟팅하는 `scope = peer`을(를) 사용하는 상호 참조(`xrefs`)는 특정 요소 ID로 확인되지 않고 대신 상위 항목으로만 확인되므로 페이지가 의도한 섹션으로 스크롤되지 않고 항목 시작 시 로드됩니다. (GUIDES-21802)
 
 
 ## 번역

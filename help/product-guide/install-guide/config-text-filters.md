@@ -5,8 +5,7 @@ exl-id: 180e4ab5-5259-4a00-ac3c-bb1d6814ce0d
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 0%
@@ -103,4 +102,4 @@ AEM Guides은 AEM 저장소의 선택한 경로에 있는 파일에서 텍스트
 
 구성된 필터는 필터 패널에서 사용할 수 있습니다.
 
-**상위 항목:**&#x200B;[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)
+**상위 항목:**[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)

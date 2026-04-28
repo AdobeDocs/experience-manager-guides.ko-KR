@@ -5,11 +5,10 @@ exl-id: 830a4381-303c-419c-b87f-9563352a7eeb
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 0%
+source-wordcount: '262'
+ht-degree: 3%
 
 ---
 
@@ -33,7 +32,7 @@ ht-degree: 0%
    http://<server name>:<port>/crx/packmgr/index.jsp
    ```
 
-   패키지 관리자는 로컬 AEM 설치에서 패키지를 관리합니다. 패키지 관리자 작업에 대한 자세한 내용은 AEM 설명서에서 [패키지 작업 방법](https://helpx.adobe.com/kr/experience-manager/6-5/sites/administering/using/package-manager.html)을 참조하십시오.
+   패키지 관리자는 로컬 AEM 설치에서 패키지를 관리합니다. 패키지 관리자 작업에 대한 자세한 내용은 AEM 설명서에서 [패키지 작업 방법](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html)을 참조하십시오.
 
    ![](assets/package-manager.png){width="650" align="left"}
 
@@ -56,4 +55,4 @@ ht-degree: 0%
 >
 > 설정에서 AEM 서버의 모든 인스턴스에 설치 절차를 수행합니다.
 
-**상위 항목:**&#x200B;[&#x200B;다운로드 및 설치](download-install.md)
+**상위 항목:**[&#x200B;다운로드 및 설치](download-install.md)

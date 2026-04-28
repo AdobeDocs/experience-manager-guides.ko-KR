@@ -5,10 +5,9 @@ feature: Filename Configuration
 role: Admin
 level: Experienced
 exl-id: ff6e1322-9655-42aa-b353-199c70c9de49
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
@@ -58,7 +57,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> OSGi 구성을 통해 구성된 무시되고 활성화된 경로 외에도 사후 처리 동작은 `/var/dxml/postprocess/ignoredPaths`에 있는 저장소 수준 노드의 영향을 받습니다. <br> 폴더가 사후 처리에서 예기치 않게 제외되고 OSGi 구성에 나열되지 않은 경우 이 저장소 노드를 확인하는 것이 좋습니다. 경로가 표시되고 `true`(으)로 설정된 경우 무시됩니다. 처리를 다시 활성화하려면 노드에서 해당 속성을 수동으로 제거할 수 있습니다.
+> OSGi 구성을 통해 구성된 무시되고 활성화된 경로 외에도 사후 처리 동작은 `/var/dxml/postprocess/ignoredPaths`에 있는 저장소 수준 노드의 영향을 받습니다. <br> 폴더가 사후 처리에서 예기치 않게 제외되고 OSGi 구성에 나열되지 않는 경우 이 저장소 노드를 확인하는 것이 좋습니다. 경로가 표시되고 `true`(으)로 설정된 경우 무시됩니다. 처리를 다시 활성화하려면 노드에서 해당 속성을 수동으로 제거할 수 있습니다.
 
 ## 후처리를 활성화 또는 비활성화하는 규칙
 

@@ -1,14 +1,13 @@
 ---
-title: 네이티브 PDF 게시 기능 | 각주에서 사용자 지정 스타일 사용
+title: 기본 PDF 게시 기능 | 각주에서 사용자 지정 스타일 사용
 description: 각주의 숫자에 스타일을 적용하는 방법에 대해 알아봅니다.
 exl-id: f1068f2f-2ace-4bdb-b5a4-46b03d4e43d6
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '673'
 ht-degree: 0%
 
 ---
