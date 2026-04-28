@@ -65,4 +65,4 @@ Experience Manager Guides UI를 구성하려면 다음 단계를 수행하십시
 
 
 
-**상위 항목:**[&#x200B;다운로드 및 설치](download-install.md)
+**상위 항목:**&#x200B;[&#x200B;다운로드 및 설치](download-install.md)

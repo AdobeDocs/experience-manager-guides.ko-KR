@@ -64,4 +64,4 @@ AEM Guides을 사용하면 사용자 정의된 DITA 맵 및 템플릿을 저장�
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `topic.templates` | 사용자 지정 템플릿을 저장할 위치를 지정하십시오.<br> 지정된 위치가 DAM에 있으면 모든 기본 맵 및 주제 템플릿이 해당 폴더에 복사됩니다. 위치가 존재하지 않으면 모든 기본 맵 및 주제 템플릿으로 폴더가 생성됩니다. |
 
-**상위 항목:**[&#x200B;항목 및 맵 템플릿 구성](conf-template-tags.md)
+**상위 항목:**&#x200B;[&#x200B;항목 및 맵 템플릿 구성](conf-template-tags.md)

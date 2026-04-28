@@ -144,4 +144,4 @@ ht-degree: 0%
 1. *ui\_config.json* 파일을 저장하고 웹 편집기를 다시 로드합니다.
 
 
-**상위 항목:**[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)
+**상위 항목:**&#x200B;[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)

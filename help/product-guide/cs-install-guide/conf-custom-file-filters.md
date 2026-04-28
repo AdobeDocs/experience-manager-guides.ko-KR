@@ -68,4 +68,4 @@ ht-degree: 0%
    ![](assets/file-browse-custom-filters.png)
 
 
-**상위 항목:**[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)
+**상위 항목:**&#x200B;[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)
