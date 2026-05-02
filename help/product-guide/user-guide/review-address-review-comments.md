@@ -91,4 +91,4 @@ ht-degree: 0%
 
 ![](images/review-comments-toolbar-disabled.png){width="350"}
 
-**상위 항목:**[&#x200B;검토 소개](review.md)
+**상위 항목:**&#x200B;[&#x200B;검토 소개](review.md)

@@ -39,4 +39,4 @@ Adobe Experience Manager Guides에는 스마트 태그를 추가하는 기능이
 
 *고객 지원 팀에 문의하여 환경에서 이 기능을 활성화하십시오. 기본 지원의 일부로 사용할 수 없습니다.*
 
-**상위 항목:**[&#x200B;메타데이터 관리](manage-metadata.md)
+**상위 항목:**&#x200B;[&#x200B;메타데이터 관리](manage-metadata.md)

@@ -115,4 +115,4 @@ AEM Sites 출력에서 문자열을 검색할 수 있습니다. 기본적으로 
 
 자세한 내용은 Adobe Experience Manager Guides 설치 및 구성 안내서의 *AEM 사이트 노드 구조 병합 구성* 섹션을 참조하십시오.
 
-**상위 항목:**[&#x200B;출력 사전 설정 이해](generate-output-understand-presets.md)
+**상위 항목:**&#x200B;[&#x200B;출력 사전 설정 이해](generate-output-understand-presets.md)

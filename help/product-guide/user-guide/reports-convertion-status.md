@@ -56,4 +56,4 @@ Adobe Experience Manager Guides은 다양한 형식의 문서를 DITA로 변환�
       - **출력**: 성공적으로 변환된 문서의 경로입니다. 출력(Output) 링크를 선택하면 출력이 저장된 위치로 이동합니다.
 
 
-**상위 항목:**[&#x200B;보고서 소개](reports-intro.md)
+**상위 항목:**&#x200B;[&#x200B;보고서 소개](reports-intro.md)

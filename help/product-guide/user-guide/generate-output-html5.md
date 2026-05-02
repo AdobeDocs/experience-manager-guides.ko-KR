@@ -108,4 +108,4 @@ DITA-OT 및 FMPS를 사용하여 출력을 게시하도록 HTML5 출력 사전 �
 
 
 
-**상위 항목:**[&#x200B;출력 사전 설정 이해](generate-output-understand-presets.md)
+**상위 항목:**&#x200B;[&#x200B;출력 사전 설정 이해](generate-output-understand-presets.md)
