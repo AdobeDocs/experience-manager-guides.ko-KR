@@ -3,7 +3,7 @@ title: 콘텐츠를 작성할 AI 기반 스마트 제안
 description: 웹 편집기에서 AI 기반 스마트 제안을 보고 활용하는 방법에 대해 알아봅니다.
 hide: true
 exl-id: 30c85d46-61ba-486c-979c-1a2ed95f5a32
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Experience Manager Guides에서는 일관되고 정확한 콘텐츠를 만드는
 1. 제안 패널에서 스마트 제안을 볼 수 있습니다.  Experience Manager Guides은 컨텍스트적으로 유사하거나 동일한 의미를 갖는 제안 콘텐츠를 제공합니다. 예를 들어 &quot;릴리스 버전 2023.03.12&quot;와 같은 정확한 버전 번호가 포함된 주제를 검색할 수 있습니다. 또한 &quot;Adobe은 캘리포니아 주 산호세에 본사가 있습니다.&quot;를 검색하고 &quot;산호세에는 Adobe과 같은 많은 소프트웨어 회사의 4분의 1이 있습니다.&quot;와 같은 유사한 콘텐츠를 찾을 수 있습니다.
 1. 세부 정보를 보려면 **콘텐츠 정보** ![콘텐츠 정보](images/smart-suggestions-content-info-icon.svg)를 선택하십시오.
 
-   ![콘텐츠 정보 패널](images/smart-suggestions-content-information.png){width="300" align="left"}
+   ![콘텐츠 정보 패널](images/smart-suggestions-content-information.png){width="300"}
 
    *콘텐츠 참조에 대한 자세한 정보를 봅니다.*
 

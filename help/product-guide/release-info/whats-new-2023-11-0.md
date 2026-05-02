@@ -1,17 +1,17 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides의 새로운 기능, 2023년 11월 릴리스
-description: Adobe Experience Manager Guidesas a Cloud Service 의 2023년 11월 릴리스의 새로운 기능과 향상된 기능에 대해 알아보십시오.
+description: Adobe Experience Manager Guides as a Cloud Service의 2023년 11월 릴리스의 새로운 기능과 향상된 기능을 알아보십시오.
 exl-id: 83c04e01-92f1-41b0-8866-a202f4106b51
 feature: What's New
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: '811'
 ht-degree: 0%
 
 ---
 
-# Adobe Experience Manager Guidesas a Cloud Service 의 2023년 11월 릴리스의 새로운 기능
+# Adobe Experience Manager Guides as a Cloud Service 2023년 11월 릴리스의 새로운 기능
 
 이 문서에서는 2023년 11월 Adobe Experience Manager Guides 버전(*Experience Manager Guides as a Cloud Service*)의 새로운 기능과 향상된 기능을 다룹니다.
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## 기본 PDF 개선 사항
 
-2023년 11월 릴리스에서는 다음과 같은 네이티브 PDF 개선이 수행되었습니다.
+2023년 11월 릴리스에서는 다음과 같은 네이티브 PDF 개선 사항이 수행되었습니다.
 
 ### 기본 제공 PDF 템플릿 사용 및 복제
 
@@ -28,7 +28,7 @@ Experience Manager Guides은 기본 제공 또는 팩토리 PDF 템플릿을 제
 이제 템플릿을 만들고 복제하는 동안 템플릿에 대한 썸네일 이미지를 미리 볼 수도 있습니다. 이 이미지를 편집하거나 삭제할 수도 있습니다. 이 기능은 유사한 이름의 템플릿을 브랜딩하거나 구별하는 데 유용합니다.
 [PDF 템플릿](../native-pdf/pdf-template.md)에 대해 자세히 알아보세요.
 
-![PDF 템플릿 대화 상자 복제](assets/duplicate-template.png){width="550" align="left"}
+![PDF 템플릿 복제 대화 상자](assets/duplicate-template.png){width="550"}
 
 *기존 PDF 템플릿을 복제합니다.*
 
@@ -45,8 +45,8 @@ Experience Manager Guides은 기본 제공 또는 팩토리 PDF 템플릿을 제
 
 ### 기본 PDF 템플릿에 대한 리소스 관리 개선
 
-이제 Experience Manager Guides에서 기본 PDF 템플릿에 대한 리소스 관리를 개선했습니다. 이제 여러 기본 PDF 템플릿에서 이미지, CSS 파일 및 글꼴 파일과 같은 리소스를 공유하고 재사용할 수 있습니다. 이러한 향상된 기능을 통해 대규모 템플릿 세트에 대한 리소스를 훨씬 간편하게 관리할 수 있습니다. 각 템플릿에 대해 중복 리소스를 만들 필요가 없으며, 이러한 리소스를 공유 폴더에 보관하고 모든 기본 PDF 템플릿에서 사용할 수 있습니다.
-자세한 내용은 [PDF 템플릿](../native-pdf/pdf-template.md)을(를) 참조하세요.
+이제 Experience Manager Guides은 기본 PDF 템플릿에 대한 리소스 관리를 개선했습니다. 이제 여러 네이티브 PDF 템플릿에서 이미지, CSS 파일 및 글꼴 파일과 같은 리소스를 공유하고 재사용할 수 있습니다. 이러한 향상된 기능을 통해 대규모 템플릿 세트에 대한 리소스를 훨씬 간편하게 관리할 수 있습니다. 각 템플릿에 대해 중복 리소스를 만들 필요가 없으며, 이러한 리소스를 공유 폴더에 보관하고 모든 기본 PDF 템플릿에서 사용할 수 있습니다.
+자세한 내용은 [PDF 템플릿](../native-pdf/pdf-template.md)을(를) 참조하십시오.
 
 ## 웹 편집기 개선 사항
 
@@ -57,7 +57,7 @@ Experience Manager Guides은 기본 제공 또는 팩토리 PDF 템플릿을 제
 
 이제 웹 편집기에서 파일을 보는 기본 방법을 선택할 수 있습니다. 작성자 보기의 여러 패널에서 제목 또는 파일 이름별로 파일 목록을 볼 수 있습니다.
 
-![사용자 환경 설정 대화 상자](assets/user-preferences-2311.png){width="550" align="left"}
+![사용자 환경 설정 대화 상자](assets/user-preferences-2311.png){width="550"}
 
 ***사용자 환경 설정**&#x200B;대화 상자에서 파일을 보는 기본 방법을 변경합니다.*
 
@@ -66,7 +66,7 @@ Experience Manager Guides은 기본 제공 또는 팩토리 PDF 템플릿을 제
 
 DITA 주제에서 조건 속성을 정의할 수 있습니다. 그런 다음 조건 사전 설정에서 조건 속성을 사용하여 DITA 맵의 콘텐츠를 게시합니다. 이제 Experience Manager Guides을 사용하여 웹 편집기에서 조건 사전 설정을 만들고 관리할 수도 있습니다. 쉽게 편집, 복제 또는 삭제할 수도 있습니다.
 
-웹 편집기 ![&#128279;](assets/web-editor-manage-condition-presets.png){width="550" align="left"}의 관리 탭에서 조건 사전 설정
+웹 편집기 ![&#128279;](assets/web-editor-manage-condition-presets.png){width="550"}의 관리 탭에서 조건 사전 설정
 
 자세한 내용은 [조건 사전 설정 사용](../user-guide/generate-output-use-condition-presets.md)을 참조하세요.
 

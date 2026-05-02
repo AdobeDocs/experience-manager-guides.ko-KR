@@ -5,7 +5,7 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 0849544d-fa7b-4c66-b418-1ffcd1ca09df
-source-git-commit: d5dbd67ba44735cf1545291e9a03e3096acd8166
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '3190'
 ht-degree: 1%
@@ -65,7 +65,7 @@ Experience Manager Guides 설정을 기반으로 AEM 사이트 출력 생성에 
 
    `/libs/fmdita/config/templates/`
 
-   ![](assets/templates-node.png){width="300" align="left"}
+   ![](assets/templates-node.png){width="300"}
 
    >[!NOTE]
    >
@@ -329,7 +329,7 @@ AEM 설정을 기반으로 Experience Manager Guides 사이트 노드 구조를 
 
 이제 AEM 사이트 출력을 생성하면 `p` 요소 내의 노드가 병합되어 `p` 요소 자체에 저장됩니다. CRXDE에서 `p` 요소에 대한 새 병합 속성을 찾을 수 있습니다.
 
-![](assets/flatten-aem-site-note-props-crxde.png){width="650" align="left"}
+![](assets/flatten-aem-site-note-props-crxde.png){width="650"}
 
 >[!ENDTABS]
 

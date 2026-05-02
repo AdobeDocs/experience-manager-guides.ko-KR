@@ -5,7 +5,7 @@ feature: Publishing FrameMaker Documents
 role: User
 hide: true
 exl-id: bf5a4365-0183-43d5-a39a-b9eb8a34b27d
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 0%
@@ -22,7 +22,7 @@ FrameMaker 문서에 대한 출력 생성 작업을 시작하면 AEM Guides은 �
 
 1. 출력을 클릭합니다.
 
-   ![](images/output-queued-fm.png){width="800" align="left"}
+   ![](images/output-queued-fm.png){width="800"}
 
 1. [출력] 페이지는 두 부분으로 나뉩니다.
 

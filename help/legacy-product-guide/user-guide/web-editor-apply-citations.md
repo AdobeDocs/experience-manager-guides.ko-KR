@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: 832dbc5d-85f7-41fd-8f5d-789732b46f80
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1896'
 ht-degree: 1%
@@ -36,14 +36,14 @@ AEM Guides은 MLA(Modern Language Association), APA(American Psychological Assoc
 1. 왼쪽 패널에서 **인용** ![인용 아이콘](images/citations-icon.svg) 아이콘을 선택합니다.
 **인용** 패널이 열립니다.
 
-   ![](images/citation-panel.png){width="300" align="left"}
+   ![](images/citation-panel.png){width="300"}
 
 1. **인용** 패널에서 ![아이콘 추가](images/Add_icon.svg)를 선택합니다. 드롭다운에서 새 인용을 추가하거나 인용을 가져오도록 선택할 수 있습니다.
 
 1. 새 인용을 추가하려면 **새 인용**&#x200B;을 선택하십시오.
 **인용 추가** 대화 상자가 열립니다.
 
-   웹 편집기의 ![인용 패널](images/citation-add.png) {width="300" align="left"}
+   웹 편집기의 ![인용 패널](images/citation-add.png) {width="300"}
 
 
 1. **인용 추가** 대화 상자의 필드를 채웁니다.
@@ -160,7 +160,7 @@ AEM Guides은 MLA(Modern Language Association), APA(American Psychological Assoc
 
 인용을 미리 보려면 다음 단계를 수행합니다.
 
-목록에서 인용구의 이름 위로 마우스를 가져갑니다. 선택     ![](images/options.svg) **옵션** 아이콘.
+목록에서 인용구의 이름 위로 마우스를 가져갑니다. ![](images/options.svg) **옵션** 아이콘을 선택하십시오.
 
 1. **미리보기**&#x200B;를 선택합니다.
 미리보기 창에서 인용의 내용과 형식을 미리 볼 수 있습니다.
@@ -171,7 +171,7 @@ AEM Guides은 MLA(Modern Language Association), APA(American Psychological Assoc
 
 1. 화면의 아무 곳이나 클릭하여 미리 보기 상자를 닫습니다.
 
-   ![](images/citation-preview.png){width="550" align="left"}
+   ![](images/citation-preview.png){width="550"}
 
 >[!NOTE]
 >
@@ -191,7 +191,7 @@ AEM Guides은 MLA(Modern Language Association), APA(American Psychological Assoc
 
 1. 기본 도구 모음에서 **인용** ![인용 아이콘 &#x200B;](images/citations-icon.svg) 아이콘을 선택합니다.
 1. **인용** 대화 상자에서 인용을 선택합니다. 여러 개의 인용을 선택할 수도 있습니다.
-   ![인용 대화 상자](images/citation-dialog-main-toolbar.png){width="300" align="left"}
+   ![인용 대화 상자](images/citation-dialog-main-toolbar.png){width="300"}
 1. **인용** 대화 상자의 검색 패널에 처음 몇 개의 알파벳을 입력하여 인용을 필터링할 수 있습니다.
 
 1. **완료**&#x200B;를 클릭합니다.
@@ -228,7 +228,7 @@ AEM Guides은 MLA(Modern Language Association), APA(American Psychological Assoc
 
 1. 목록에서 인용구의 이름 위로 마우스를 가져갑니다.
 1. ![](images/options.svg) **옵션** 아이콘을 선택합니다.
-1. 다음 항목 선택   **삭제** ![](images/Delete_icon.svg).
+1. **삭제** ![](images/Delete_icon.svg)을(를) 선택하십시오.
 확인(confirmation) 대화상자가 열립니다.
 1. **예**&#x200B;를 선택합니다.
 선택한 인용이 인용 패널에서 삭제됩니다.

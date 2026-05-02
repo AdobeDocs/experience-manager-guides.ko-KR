@@ -4,9 +4,9 @@ description: 제품 교육 및 학습의 다양한 SCORM 사전 설정 구성에
 feature: Authoring
 role: User
 exl-id: b3000708-6120-4725-bea1-0b8e58048948
-source-git-commit: 3fdedee6e07908632bcf1b804805fcac7925c4e0
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 - **일반:** 지원되는 버전, 출력 경로, ZIP 파일 이름, 출력 템플릿 및 학습자 경험과 관련된 기타 옵션과 같은 기본 출력 설정을 지정하는 데 사용됩니다.
 
-  ![](assets/scorm-general-tab-v3.png){width="650" align="left"}
+  ![](assets/scorm-general-tab-v3.png){width="650"}
 
   **학습자의 경험**
 
@@ -30,10 +30,10 @@ ht-degree: 0%
 
 - **콘텐츠:** 사용 가능한 조건부 필터링(DITAVAL 사용 또는 일부 조건 사전 설정 사용)과 변수 집합을 지정하는 데 사용합니다.
 
-  ![](assets/scorm-content-tab.png){width="650" align="left"}
+  ![](assets/scorm-content-tab.png){width="650"}
 
 - **게시:** 직접 액세스를 위해 출력을 SCORM Cloud에 게시하려는 경우에만 이 설정을 사용합니다.
 
-  ![](assets/scorm-publish-tab.png){width="650" align="left"}
+  ![](assets/scorm-publish-tab.png){width="650"}
 
 모든 변경 사항이 구성되면 SCORM 사전 설정 페이지의 도구 모음 오른쪽 모서리에 있는 **저장**&#x200B;을 사용하여 SCORM 사전 설정에 대한 변경 사항을 저장합니다.

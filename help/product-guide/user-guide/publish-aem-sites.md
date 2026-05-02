@@ -4,9 +4,9 @@ description: 주제 또는 주제 내의 요소를 Adobe Experience Manager Site
 feature: Publishing
 role: User
 exl-id: acbc48b7-93a2-41c6-8565-359fbbdd1fb9
-source-git-commit: e1bac3680afda837393d86ee5f19d5877237ffe9
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -22,10 +22,10 @@ Experience Manager Sites 페이지는 Adobe Experience Manager 웹 사이트에 
 
 
 1. 편집기에서 항목을 열고 오른쪽 패널에서 **파일 속성**&#x200B;을 선택합니다.
-1. **출력** 섹션에서 ![새 출력](./images/Add_icon.svg) 아이콘&#x200B;**새 출력 아이콘**&#x200B;을 선택합니다.
+1. **출력** 섹션에서 **새 출력** 아이콘![새 출력 아이콘](./images/Add_icon.svg)을 선택합니다.
 1. **사이트 페이지**&#x200B;를 선택하십시오.
 1. **사이트 생성 페이지** 대화 상자에서 다음 세부 정보를 입력합니다.
-   ![사이트 생성 페이지에서 경로 및 템플릿 세부 정보 추가](images/aem-sites-page-generate.png){width="500" align="left"}
+   ![사이트 생성 페이지에서 경로 및 템플릿 세부 정보 추가](images/aem-sites-page-generate.png){width="500"}
 
    * **경로**: Sites 페이지를 게시하려는 폴더의 경로를 검색하여 선택하십시오.
    * **제목**: Sites 페이지의 제목을 입력합니다. 기본적으로 제목은 주제의 제목으로 채워집니다. 편집할 수 있습니다. 이 제목은 Sites 페이지의 이름을 생성하는 데 사용됩니다.
@@ -49,7 +49,7 @@ Experience Manager Sites 페이지는 Adobe Experience Manager 웹 사이트에 
 1. 사이트 페이지를 게시하려면 **생성**&#x200B;을 선택하십시오.
 1. **파일 속성**&#x200B;의 **출력** 섹션 아래에서 주제에 대한 사이트 페이지를 볼 수 있습니다. Sites 페이지는 게시 날짜 및 시간에 따라 나타나며 최신 페이지를 첫 번째 페이지로 합니다.
 
-   ![주제에 대한 사이트 페이지 보기](images/aem-sites-output-new.png){width=300 align="left"}
+   ![주제에 대한 사이트 페이지 보기](images/aem-sites-output-new.png){width=300}
 
    *주제에 대한 사이트 페이지를 보고 다시 게시합니다.*
 

@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: ffdc2426-dc78-4deb-93cc-3292fd4fcbd8
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
@@ -31,16 +31,16 @@ DITA 맵에 대해 만든 출력 사전 설정을 사용하여 저장소 패널 
 1. **작성자** 탭에서 게시할 DITA 맵의 주제를 선택합니다.
 
 1. 선택한 주제의 옵션 메뉴에서 **빠른 생성**&#x200B;을 선택합니다.
-   ![](images/select-topic-options-menu_cs.png){width="650" align="left"}
+   ![](images/select-topic-options-menu_cs.png){width="650"}
 
 1. 단일 DITA 맵에 사용된 주제를 게시하려면 게시할 맵의 출력 사전 설정을 선택하고 **생성**&#x200B;을 클릭합니다.
-   ![](images/select-preset_cs.png){width="350" align="left"}
+   ![](images/select-preset_cs.png){width="350"}
 
 1. 출력 생성 프로세스의 상태가 표시됩니다. 출력을 보려면 마우스 포인터를 주제 위로 가져간 다음 출력 보기 를 클릭합니다.
 
 1. 여러 주제에 사용되는 공통 주제가 있는 경우 다양한 DITA 맵과 게시할 때 사용할 출력 사전 설정을 선택하고 **생성.**&#x200B;을 클릭합니다
 
-   ![](images/select-preset-multiple-maps_cs.png){width="350" align="left"}
+   ![](images/select-preset-multiple-maps_cs.png){width="350"}
 
 1. 출력 생성 프로세스의 상태가 표시됩니다.
 
@@ -49,7 +49,7 @@ DITA 맵에 대해 만든 출력 사전 설정을 사용하여 저장소 패널 
    - **맵**: 선택한 주제가 포함된 DITA 맵을 나열합니다.
    - **상태**: 각 항목의 게시 상태를 표시합니다.
 출력을 보려면 마우스 포인터를 주제 위로 가져간 다음 출력 보기 를 클릭합니다.
-     ![](images/output-multiple-maps_cs.png){width="800" align="left"}
+     ![](images/output-multiple-maps_cs.png){width="800"}
 
 
 ## 웹 편집기에서 DITA 맵에 대한 출력 생성
@@ -60,7 +60,7 @@ DITA 맵에 대해 만든 출력 사전 설정을 사용하여 저장소 패널 
 
 1. DITA 맵의 옵션 메뉴에서 **빠른 생성**&#x200B;을 선택합니다.
 
-   ![](images/select-map-options-menu_cs.png){width="650" align="left"}
+   ![](images/select-map-options-menu_cs.png){width="650"}
 
 1. 게시할 때 사용할 DITA 맵의 출력 사전 설정을 선택하고 **생성.**&#x200B;을 클릭합니다.
 
@@ -81,7 +81,7 @@ DITA 맵에 대해 만든 출력 사전 설정을 사용하여 저장소 패널 
    >
    > 선택한 모든 주제가 포함된 현재 DITA 맵의 출력 사전 설정만 표시됩니다.
 
-   ![](images/generate-output-multiple-topics_cs.png){width="650" align="left"}
+   ![](images/generate-output-multiple-topics_cs.png){width="650"}
 
 1. 출력 생성 프로세스의 상태가 표시됩니다.출력을 보려면 마우스 포인터를 주제 위로 가져간 다음 출력 보기 를 클릭합니다.
 

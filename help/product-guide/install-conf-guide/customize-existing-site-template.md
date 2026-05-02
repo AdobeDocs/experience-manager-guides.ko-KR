@@ -5,7 +5,7 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: eabaec57-e717-45a9-8321-4057b993d7fb
-source-git-commit: d5dbd67ba44735cf1545291e9a03e3096acd8166
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 1%
@@ -53,11 +53,11 @@ AEM 사이트에서 두 개의 편집 가능한 템플릿을 선택하고 구성
 - 특정 설명서 세트(예: 제품 설명서나 안내서)의 진입점 또는 홈 페이지 역할을 합니다.
 - id=&quot;category-page&quot; 속성을 템플릿의 초기 노드의 jcr:content에 추가합니다. 이렇게 하면 이 템플릿에서 만든 모든 페이지가 AEM Guides에서 문서 컨테이너로 자동으로 처리됩니다.
 
-  ![id=&quot;category-page&quot;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-id-category-page.png){width="650" align="left"} 추가 중
+  ![id=&quot;category-page&quot;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-id-category-page.png){width="650"} 추가 중
 
 - 필수 속성인 text=&quot;$category.html$&quot;을 사용하여 텍스트 구성 요소를 추가합니다.
 
-  ![텍스트 구성 요소 추가](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component.png){width="650" align="left"}
+  ![텍스트 구성 요소 추가](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component.png){width="650"}
 
 - 일반적으로 에는 설명서 내의 섹션 또는 항목에 대한 링크와 같은 탐색 요소가 포함됩니다.
 - 브랜딩, 머리글, 바닥글 및 기타 디자인 요소를 포함하도록 사용자 지정할 수 있습니다.
@@ -71,7 +71,7 @@ AEM 사이트에서 두 개의 편집 가능한 템플릿을 선택하고 구성
 - DITA 맵의 각 항목은 이 템플릿을 사용하여 별도의 페이지로 렌더링됩니다.
 - 필수 속성: text=&quot;$topic.content$&quot;이(가) 있는 **Text 구성 요소**&#x200B;를 포함합니다.
 
-  ![필수 속성이 있는 텍스트 구성 요소 추가](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component-mandatory-property.png){width="650" align="left"}
+  ![필수 속성이 있는 텍스트 구성 요소 추가](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component-mandatory-property.png){width="650"}
 
 - 이 자리 표시자는 사이트 생성 중 DITA 주제의 실제 콘텐츠로 대체됩니다.
    - 텍스트 구성 요소는 일반적으로 적절한 레이아웃과 스타일을 위해 **컨테이너 구성 요소** 내부에 배치됩니다.
@@ -82,7 +82,7 @@ AEM 사이트에서 두 개의 편집 가능한 템플릿을 선택하고 구성
 
 **컨테이너 구성 요소:**
 
-![컨테이너 구성 요소 추가](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-component.png){width="650" align="left"}
+![컨테이너 구성 요소 추가](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-component.png){width="650"}
 
 >[!NOTE]
 >
@@ -90,7 +90,7 @@ AEM 사이트에서 두 개의 편집 가능한 템플릿을 선택하고 구성
 
 동일한 템플릿의 구조에 동일한 (컨테이너 및 텍스트 구성 요소) 추가:
 
-![컨테이너 및 텍스트 구성 요소 추가](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-and-text-component.png){width="650" align="left"}
+![컨테이너 및 텍스트 구성 요소 추가](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-and-text-component.png){width="650"}
 
 ## 사용자 지정된 템플릿의 렌더링 안내선 구성 요소
 
@@ -124,7 +124,7 @@ AEM 사이트에서 두 개의 편집 가능한 템플릿을 선택하고 구성
    1. **편집기 모드**&#x200B;에서 **제품 페이지**&#x200B;를 엽니다.
    2. **템플릿 편집**&#x200B;을 선택합니다. 그러면 conf/settings/wcm/templates/structure.html과 같은 URL이 열립니다.
 
-      ![템플릿 편집](/help/product-guide/knowledge-base/kb-articles/assets/publishing/edit-template.png){width="650" align="left"}
+      ![템플릿 편집](/help/product-guide/knowledge-base/kb-articles/assets/publishing/edit-template.png){width="650"}
 
 2. **페이지 정책 업데이트:**
 
@@ -135,7 +135,7 @@ AEM 사이트에서 두 개의 편집 가능한 템플릿을 선택하고 구성
 
 3. **변경 내용 저장:** 필요한 클라이언트 라이브러리를 추가한 후 템플릿을 저장합니다.
 
-   ![클라이언트 라이브러리 추가](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-client-libraries.png){width="650" align="left"}
+   ![클라이언트 라이브러리 추가](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-client-libraries.png){width="650"}
 
 
 >[!NOTE]

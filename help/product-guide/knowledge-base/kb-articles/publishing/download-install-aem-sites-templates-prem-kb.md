@@ -5,9 +5,9 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: aa843a72-ff0d-4c9a-a87d-48d099087b5e
-source-git-commit: 4c564a0ffaa8f287bcaf012634d49dbf1e0682b4
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 0%
    5. **기존 구성 요소 매핑 사용** 설정을 선택 취소합니다.
    6. **추가**&#x200B;를 선택하여 사전 설정을 만드십시오.
 
-      ![새 출력 사전 설정 대화 상자](/help/product-guide/knowledge-base/kb-articles/assets/publishing/new-output-preset.png){width="350" align="left"}
+      ![새 출력 사전 설정 대화 상자](/help/product-guide/knowledge-base/kb-articles/assets/publishing/new-output-preset.png){width="350"}
 
 
 2. **AEM 사이트 사전 설정 구성:** 기본 제공(OOTB) 사이트를 구성하는 두 가지 옵션이 있습니다.
@@ -64,14 +64,14 @@ ht-degree: 0%
       - 게시 경로: `aemg-docs/en/docs/product1`
       - 주제 페이지 템플릿: 주제 페이지
 
-      ![사이트 드롭다운 사용](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown.png){width="350" align="left"}
+      ![사이트 드롭다운 사용](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown.png){width="350"}
 
    **옵션 2: 사이트 경로 사용**
 
    1. **사이트 경로**&#x200B;을(를) 수동으로 `/content/aemg-docs/en/docs/product1`(으)로 설정하십시오.
    2. **주제 페이지 템플릿**&#x200B;이(가) 자동으로 주제 페이지로 설정되어 있는지 확인하십시오.
 
-      ![사이트 경로 사용](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path.png){width="350" align="left"}
+      ![사이트 경로 사용](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path.png){width="350"}
 
 3. **사전 설정 저장:** 사전 설정 변경 내용을 저장합니다.
 
@@ -86,11 +86,11 @@ ht-degree: 0%
    2. OOTB 사이트 구조 아래에 새 제품 페이지를 만듭니다.
    3. **AEMG 문서** > **영어** > **문서**(으)로 이동합니다.
 
-      ![AEM 사이트 구조 &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-page.png){width="350" align="left"}에서 페이지 만들기
+      ![AEM 사이트 구조 &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-page.png){width="350"}에서 페이지 만들기
 
    4. **홈 페이지** 타일을 선택한 다음 **다음**&#x200B;을 선택합니다.
 
-      ![홈 페이지 타일 선택](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-page-tile.png){width="350" align="left"}
+      ![홈 페이지 타일 선택](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-page-tile.png){width="350"}
 
    5. 페이지의 **제목** 및 **이름**&#x200B;을 입력하십시오.
    6. **만들기**&#x200B;를 선택합니다.

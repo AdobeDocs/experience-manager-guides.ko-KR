@@ -4,9 +4,9 @@ description: AEM Guides에서 수정된 주제를 다시 번역하는 방법을 
 exl-id: b3228ea9-24a8-44aa-8ba4-e8f44754ffe4
 feature: Translation
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '595'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
    추가 세부 정보를 보려면 화살표를 선택하면 동기화되지 않은 특정 언어 사본을 볼 수 있습니다.
 
-   ![](images/out-of-sync-uuid-new.png){align="left"}
+   ![](images/out-of-sync-uuid-new.png)
 
 1. 재번역을 위해 보낼 항목을 선택하려면 확인란을 선택합니다.
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 1. 프로젝트 콘솔에서 번역 프로젝트로 이동합니다. 새 번역 작업 카드가 폴더에 생성됩니다. 폴더의 자산을 보려면 줄임표를 선택하십시오.
 
-   ![](images/incremental-job-new.png){width="300" align="left"}
+   ![](images/incremental-job-new.png){width="300"}
 
 1. 번역을 시작하려면 번역 작업 카드에서 화살표를 선택하고 목록에서 **시작**&#x200B;을 선택합니다. 작업이 시작되었음을 알리는 메시지가 표시됩니다.
 

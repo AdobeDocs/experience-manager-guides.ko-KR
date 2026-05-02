@@ -5,7 +5,7 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: 1b29c50a-04d0-4052-b893-44fb8bcc3c97
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%
@@ -36,7 +36,7 @@ DITA 프로젝트를 만들려면 다음 단계를 수행하십시오.
 
 1. **만들기** \> **프로젝트**&#x200B;를 클릭하여 프로젝트 만들기 마법사를 시작합니다.
 
-   ![](images/project-console-63.png){width="650" align="left"}
+   ![](images/project-console-63.png){width="650"}
 
 1. 프로젝트 만들기 페이지에서 **DITA 프로젝트** 템플릿을 선택하고 **다음**&#x200B;을 클릭합니다.
 
@@ -44,7 +44,7 @@ DITA 프로젝트를 만들려면 다음 단계를 수행하십시오.
 
    **기본** 탭의 정보:
 
-   ![](images/create-project.png){width="650" align="left"}
+   ![](images/create-project.png){width="650"}
 
    - 프로젝트의 **제목**, **설명** 및 **기한**&#x200B;을 입력하십시오.
 

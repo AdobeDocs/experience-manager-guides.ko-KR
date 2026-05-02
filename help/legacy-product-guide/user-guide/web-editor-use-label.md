@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: bd488298-57d7-46fb-9820-cec8d0db8bd5
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 0%
@@ -36,7 +36,7 @@ AEM Guides을 사용하면 파일의 다른 버전에 레이블을 추가할 수
 
    선택한 주제의 버전 내역에 레이블이 표시됩니다. 다음 스크린샷에는 강조 표시된 버전의 주제에 추가된 레이블 *x.x 릴리스* 및 *사용 안내서*&#x200B;가 표시됩니다.
 
-   ![](images/labels.png){width="300" align="left"}
+   ![](images/labels.png){width="300"}
 
 >[!NOTE]
 >
@@ -51,11 +51,11 @@ AEM Guides을 사용하면 파일의 다른 버전에 레이블을 추가할 수
 
    버전 내역에서 주제의 모든 버전과 여기에 첨부된 레이블을 볼 수 있습니다. 다음 이미지는 주제의 다른 버전 및 한 버전에 추가된 레이블의 예를 보여 줍니다.
 
-   ![](images/labels.png){width="300" align="left"}
+   ![](images/labels.png){width="300"}
 
 1. 레이블을 삭제하려면 삭제 단추 \(**X**\)를 클릭합니다.
 
-   ![](images/delete-labels.png){width="300" align="left"}
+   ![](images/delete-labels.png){width="300"}
 
 
 **상위 항목:**&#x200B;[&#x200B;웹 편집기에서 작업](web-editor.md)

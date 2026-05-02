@@ -5,7 +5,7 @@ exl-id: 830a4381-303c-419c-b87f-9563352a7eeb
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 3%
@@ -34,7 +34,7 @@ ht-degree: 3%
 
    패키지 관리자는 로컬 AEM 설치에서 패키지를 관리합니다. 패키지 관리자 작업에 대한 자세한 내용은 AEM 설명서에서 [패키지 작업 방법](https://helpx.adobe.com/kr/experience-manager/6-5/sites/administering/using/package-manager.html)을 참조하십시오.
 
-   ![](assets/package-manager.png){width="650" align="left"}
+   ![](assets/package-manager.png){width="650"}
 
 1. AEM Guides 패키지를 업로드하려면 **패키지 업로드**&#x200B;를 클릭하세요.
 
@@ -44,7 +44,7 @@ ht-degree: 3%
 
 1. 패키지를 설치하려면 **설치**&#x200B;를 클릭합니다.
 
-   ![](assets/install-package.png){width="650" align="left"}
+   ![](assets/install-package.png){width="650"}
 
 1. 패키지 설치 대화 상자에서 **설치**&#x200B;를 클릭합니다.
 

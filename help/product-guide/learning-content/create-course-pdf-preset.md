@@ -4,7 +4,7 @@ description: 제품 교육 및 학습에서 PDF 사전 설정 만들기
 feature: Authoring
 role: User
 exl-id: c353cee7-eee1-4e6d-92b4-73016cb8cfa3
-source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 1%
@@ -17,7 +17,7 @@ PDF 출력 사전 설정을 만들려면 다음 단계를 수행하십시오.
 
 1. **맵 콘솔**&#x200B;에서 과정을 엽니다.
 
-   ![](assets/open-in-map-console.png){width="350" align="left"}
+   ![](assets/open-in-map-console.png){width="350"}
 
 1. **출력 사전 설정** 패널에서 + 아이콘을 선택하여 출력 사전 설정을 만듭니다.
 1. 새 출력 사전 설정 대화 상자의 **유형** 드롭다운에서 **PDF**&#x200B;을(를) 선택합니다.
@@ -28,4 +28,4 @@ PDF 출력 사전 설정을 만들려면 다음 단계를 수행하십시오.
 
 필요한 구성을 수행할 수 있는 PDF 사전 설정 페이지가 열립니다.
 
-![](assets/learning-pdf-preset.png){width="650" align="left"}
+![](assets/learning-pdf-preset.png){width="650"}

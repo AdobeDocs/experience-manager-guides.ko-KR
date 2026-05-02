@@ -5,7 +5,7 @@ feature: Authoring
 role: Admin
 level: Experienced
 exl-id: 15a0cd40-45be-4631-8d60-4a9474bc431c
-source-git-commit: f14ee85ccc49abd662a046b2bd4e7be2eece4902
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 0%
@@ -20,12 +20,12 @@ ht-degree: 0%
 
   편집기의 왼쪽 패널에서 코드 조각에 액세스할 수 있습니다.
 
-  ![](assets/create-snippets.png){width="350" align="left"}
+  ![](assets/create-snippets.png){width="350"}
 - **조건**: 관리자는 전역 또는 폴더 수준에서 표준 DITA 지원 조건부 특성을 구성할 수 있습니다. 그런 다음 작성자는 원하는 조건을 콘텐츠에 끌어다 놓기만 하면 구성된 조건을 사용합니다.
 
   편집기의 왼쪽 패널에서 조건에 액세스할 수 있습니다.
 
-  ![](assets/create-conditions.png){width="350" align="left"}
+  ![](assets/create-conditions.png){width="350"}
 - **변수**: 콘텐츠를 더 휴대하고 일관되고 쉽게 업데이트할 수 있도록 변수를 정의할 수 있습니다. 출력을 생성하는 동안 변수가 선택한 변수 세트의 값으로 대체되므로 사용자 정의된 출력을 효율적으로 생성할 수 있습니다.
 
   자세한 내용은 [새 변수 만들기](../native-pdf/native-pdf-variables.md#create-a-new-variable)를 참조하세요.

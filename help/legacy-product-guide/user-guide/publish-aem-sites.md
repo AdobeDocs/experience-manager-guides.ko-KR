@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 3e77747d-ff04-465c-9305-fd6f1c74df04
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Experience Manager Sites 페이지는 Adobe Experience Manager 웹 사이트에 
 
 
 1. **사이트 생성 페이지** 대화 상자에서 다음 세부 정보를 입력합니다.
-   ![사이트 생성 페이지에서 경로 및 템플릿 세부 정보 추가](images/aem-sites-page-generate.png){width="500" align="left"}
+   ![사이트 생성 페이지에서 경로 및 템플릿 세부 정보 추가](images/aem-sites-page-generate.png){width="500"}
 
    *경로, 제목, 이름 및 템플릿 세부 정보를 추가하여 주제 또는 해당 요소를 Sites 페이지로 게시합니다. *
 
@@ -59,7 +59,7 @@ Experience Manager Sites 페이지는 Adobe Experience Manager 웹 사이트에 
 1. 사이트 페이지를 게시하려면 **생성**&#x200B;을 클릭하세요.
 1. **파일 속성**&#x200B;의 **출력** 섹션 아래에서 주제에 대한 사이트 페이지를 볼 수 있습니다. Sites 페이지는 게시 날짜 및 시간에 따라 나타나며 최신 페이지를 첫 번째 페이지로 합니다.
 
-   ![주제에 대한 사이트 페이지 보기](images/aem-sites-outputs.png){width=300 align="left"}
+   ![주제에 대한 사이트 페이지 보기](images/aem-sites-outputs.png){width=300}
 
    *주제에 대한 사이트 페이지를 보고 다시 게시합니다.*
 
@@ -77,6 +77,6 @@ Experience Manager Sites 페이지는 Adobe Experience Manager 웹 사이트에 
 
 * **복제**: 사이트 페이지를 복제합니다. 경로, 이름, 제목 및 템플릿을 변경할 수 있습니다. Sites 페이지를 복제할 때 다른 조건을 선택할 수도 있습니다.
 
-* **제거**: 출력 목록에서 사이트 페이지를 제거합니다. 확인 프롬프트가 나타납니다. Once you confirm, the Sites page is removed from the **Outputs** list. But the Sites page is not deleted permanently.
+* **제거**: 출력 목록에서 사이트 페이지를 제거합니다. 확인 프롬프트가 나타납니다. 확인하면 사이트 페이지가 **출력** 목록에서 제거됩니다. 그러나 사이트 페이지는 영구적으로 삭제되지 않습니다.
 
-* **View**: View the Sites page editor. 변경 작업을 수행한 후 저장할 수도 있습니다.
+* **보기**: 사이트 페이지 편집기를 봅니다. 변경 작업을 수행한 후 저장할 수도 있습니다.

@@ -3,10 +3,10 @@ title: 릴리스 정보 | Adobe Experience Manager Guides 2025.08.0 릴리스의
 description: Adobe Experience Manager Guides 2025.08.0 릴리스의 새로운 기능과 향상된 기능에 대해 알아봅니다
 role: Leader
 exl-id: c3461d0a-6394-4275-9d54-b2b1545d7c18
-source-git-commit: 1a44af3522060ebc531393d4d01b1cd00eb02c10
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 2%
+source-wordcount: '844'
+ht-degree: 1%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 2%
 
 Experience Manager Guides의 편집기 설정에서 [AI 길잡이](../cs-install-guide/workspace-settings.md#general)에 대해 자세히 알아보세요.
 
-![](assets/authoring-quick-actions.png){width="350" align="left"}
+![](assets/authoring-quick-actions.png){width="350"}
 
 
 ## DITAVAL 파일 생성 및 사용 환경 개선
@@ -54,7 +54,7 @@ Experience Manager Guides의 편집기 설정에서 [AI 길잡이](../cs-install
 - **DITAVAL 파일 작성에 대한 플래그 지정 지원 향상:** Experience Manager Guides은 DITAVAL 파일의 향상된 플래그 지정 지원을 통해 콘텐츠 게시를 사용자 지정할 수 있는 새로운 기능을 제공합니다. 이제 이미지를 포함하여 특정 콘텐츠 주위에 시작 및 종료 플래그를 적용하고 굵게, 기울임체 등의 서식 옵션을 사용하여 플래그가 지정된 섹션을 보강할 수 있습니다. 조건 중복을 처리하기 위해 **스타일 충돌**&#x200B;을 구성할 수 있습니다. 여기에는 기본 배경색과 텍스트 색 설정, 출력의 명확성과 일관성이 포함됩니다. 이러한 플래그는 기본 PDF 생성에서 완전히 지원되며, 결과 출력은 적용된 모든 스타일 요소를 정확하고 종합적으로 반영합니다.
 자세한 내용은 [DITAVAL 편집기 사용](../user-guide/ditaval-editor.md)을 참조하세요.
 
-  ![](assets/ditaval-flag-style-new.png){width="350" align="left"}
+  ![](assets/ditaval-flag-style-new.png){width="350"}
 
 - **기본 PDF에 대한 여러 DITAVAL 파일 지원:** 이제 기본 PDF에 대해 여러 DITAVAL 파일을 추가할 수 있습니다. 각 파일은 태그된 항목으로 표시되어 쉽게 식별 및 제거할 수 있으므로 PDF 출력의 조건부 콘텐츠에 대한 보다 큰 유연성과 제어를 제공합니다
 
@@ -68,7 +68,7 @@ Experience Manager Guides의 편집기 설정에서 [AI 길잡이](../cs-install
 
 자세한 내용은 [기본 문제 해결](../user-guide/generate-output-basic-troubleshooting.md)을 참조하세요.
 
-![](./assets/log-file-new.png){align="left"}
+![](./assets/log-file-new.png)
 
 
 ## 이제 게시된 출력에 대한 임시 파일에는 작성자 및 게시 URL이 새 구성 파일에 포함됩니다

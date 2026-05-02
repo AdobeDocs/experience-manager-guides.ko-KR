@@ -5,7 +5,7 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: f74269fe-a7a9-4bb3-b476-f8214387ffd0
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 그러나 모든 주석을 검색하거나 필터링할 수 있습니다. 조건을 표시하거나 숨기고 그에 따라 조건화된 콘텐츠를 표시하도록 선택할 수도 있습니다. 첨부 파일은 다운로드할 수 있지만 댓글에 대한 첨부 파일은 업로드하거나 삭제할 수 없습니다.
 
-![](images/complete-task-reviewer.png){width="800" align="left"}
+![](images/complete-task-reviewer.png){width="800"}
 
 
 ## 작성자
@@ -31,6 +31,6 @@ ht-degree: 0%
 
 그러나 모든 주석을 검색하거나 필터링할 수 있습니다. 첨부 파일은 다운로드할 수 있지만 댓글에 대한 첨부 파일은 업로드하거나 삭제할 수 없습니다.
 
-![](images/completed-task-author.png){width="800" align="left"}
+![](images/completed-task-author.png){width="800"}
 
 따라서 검토자 또는 작성자 모두 댓글과 함께 검토된 콘텐츠를 볼 수는 있지만 완료된 검토 작업에서는 변경할 수 없습니다.

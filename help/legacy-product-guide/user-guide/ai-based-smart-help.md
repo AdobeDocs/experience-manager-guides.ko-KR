@@ -3,7 +3,7 @@ title: 콘텐츠 검색에 대한 AI 기반 스마트 도움말
 description: 웹 편집기에서 AI 기반 스마트 도움말을 보고 활용하는 방법에 대해 알아봅니다.
 hide: true
 exl-id: cf08f6a9-bf92-47d9-9952-da0301ea7023
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Experience Manager Guides은 [Adobe Experience Manager Guides 설명서](https:/
 >
 > 관리자가 **스마트 도움말** 기능을 구성해야 합니다. 자세한 내용은 클라우드 서비스 설치 및 구성 안내서의 [콘텐츠를 검색하도록 AI 기반 스마트 도움말 구성](/help/product-guide/cs-install-guide/conf-smart-help.md) 섹션을 참조하십시오.
 
-![고급 도움말 패널](images/smart-help-panel.png){width="300" align="left"}
+![고급 도움말 패널](images/smart-help-panel.png){width="300"}
 
 ***스마트 도움말**&#x200B;패널을 봅니다.*
 
@@ -49,7 +49,7 @@ Experience Manager Guides은 [Adobe Experience Manager Guides 설명서](https:/
 
    질문에 따라 콘텐츠, 적용 가능한 이미지 및 기사 링크를 볼 수 있습니다.
 
-   ![고급 도움말 패널 응답](images/smart-help-panel-response.png){width="300" align="left"}
+   ![고급 도움말 패널 응답](images/smart-help-panel-response.png){width="300"}
 
 
    *샘플 질문을 선택하고 응답으로 콘텐츠와 이미지를 봅니다.*

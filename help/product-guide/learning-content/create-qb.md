@@ -4,9 +4,9 @@ description: 제품 교육 및 학습에서 질문 은행을 만드는 방법에
 feature: Authoring
 role: User
 exl-id: c658af49-b0e6-4188-b3ba-8f3223b12632
-source-git-commit: b914c69f9d29884382ce43f163a8f766567b10bf
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 1. **질문 은행**&#x200B;을 선택하세요.
 **새 질문 은행** 대화 상자가 열립니다. 드롭다운에서 템플릿을 선택하고, 문제 은행에 적합한 제목을 지정하고, 이 문제 은행을 저장소에 저장할 경로를 지정할 수 있습니다.
 
-   ![](assets/question-bank-create.png){width="350" align="left"}
+   ![](assets/question-bank-create.png){width="350"}
 
 1. **만들기**&#x200B;를 선택합니다.
 질문 은행이 과정의 일부로 추가되고 [과정 관리자] 패널에 표시됩니다.

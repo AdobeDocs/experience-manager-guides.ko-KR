@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: 4e9cd1d5-1c28-4363-917d-f58511c4f809
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 1. 맵 파일의 **옵션** 메뉴에서 **항목 편집** 옵션을 선택합니다. 웹 편집기에서 편집할 수 있도록 맵 파일이 열립니다.
 1. **출력** 탭에서 + 아이콘을 선택하여 DITA 맵에 대한 출력 사전 설정을 만듭니다.
 
-   ![](images/add-global-output-preset.png){width="350" align="left"}
+   ![](images/add-global-output-preset.png){width="350"}
 
 1. **사전 설정 추가** 대화 상자에 다음 세부 정보를 입력하십시오.
    - 유형

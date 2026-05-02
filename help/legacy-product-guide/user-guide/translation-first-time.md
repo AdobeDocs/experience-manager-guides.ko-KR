@@ -5,7 +5,7 @@ feature: Translation
 role: User
 hide: true
 exl-id: 09e813fd-ec22-4d2e-9ee7-098d562ad44f
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1315'
 ht-degree: 1%
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 다음 그림은 콘텐츠 및 세 개의 언어 사본을 전역적으로 사용한 경우 AEM의 폴더 구조 예를 보여 줍니다.
 
-![](images/aem-directory_structure.png){width="800" align="left"}
+![](images/aem-directory_structure.png){width="800"}
 
 ## 번역 서비스 구성
 
@@ -107,7 +107,7 @@ ht-degree: 1%
 
    선택한 버전의 주제로 새 번역 프로젝트가 만들어집니다. 이때 번역 프로젝트가 생성되었음을 확인하는 팝업 메시지가 표시됩니다. 번역 프로젝트에서 모든 타겟 언어 사본을 사용할 수 있게 되면 받은 편지함에서 알림을 받게 됩니다. 번역 프로젝트에서 타겟 언어 사본 영역을 사용할 수 있으면 번역 작업을 시작할 수 있습니다.
 
-   ![](images/status-translation-uuid.png){width="800" align="left"}
+   ![](images/status-translation-uuid.png){width="800"}
 
 
 번역 탭에는 다음 섹션이 있습니다.

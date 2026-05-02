@@ -4,9 +4,9 @@ description: 편집기의 올바른 패널에 대해 알아봅니다. Adobe Expe
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 6a0f4ed2-6eca-4b3c-bd3a-3f72f6919b36
-source-git-commit: ddf28ee20b15ea8bb50c555d1196532ee00d34a5
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1290'
+source-wordcount: '1297'
 ht-degree: 0%
 
 ---
@@ -41,11 +41,11 @@ ht-degree: 0%
 
 1. **추가**&#x200B;를 선택합니다.
 
-   콘텐츠 속성의 ![속성](images/properties-tab-attributes_cs.png){width="300" align="left"}
+   콘텐츠 속성의 ![속성](images/properties-tab-attributes_cs.png){width="300"}
 
 1. **특성** 드롭다운 패널의 드롭다운 목록에서 특성을 선택하고 특성 값을 지정합니다.  **추가**&#x200B;를 선택합니다.
 
-   여러 특성이 있는 ![특성 패널 &#x200B;](images/attributes-multiple-properties.png){width="300" align="left"}
+   여러 특성이 있는 ![특성 패널 &#x200B;](images/attributes-multiple-properties.png){width="300"}
 
 1. 특성을 편집하려면 해당 특성을 마우스로 가리킨 다음 **편집** ![편집 아이콘](images/edit_pencil_icon.svg)을 선택하세요.
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 일반 사항 섹션에서는 다음 기능에 액세스할 수 있습니다.
 
-![파일 속성](images/file-properties-general.png){width="300" align="left"}
+![파일 속성](images/file-properties-general.png){width="300"}
 
 - **파일 이름**: 선택한 항목의 파일 이름을 표시합니다. 파일 이름이 선택한 파일의 속성 페이지에 하이퍼링크됩니다.
 - **ID**: 선택한 주제의 ID를 표시합니다.
@@ -104,7 +104,7 @@ ht-degree: 0%
 
 참조(References) 섹션에서는 다음 기능에 액세스할 수 있습니다.
 
-![](images/file-properties-references.png){width="300" align="left"}
+![](images/file-properties-references.png){width="300"}
 
 - **다음에서 사용됨**: 참조에서 사용됨 목록에는 현재 파일이 참조되거나 사용되는 문서가 있습니다.
 - **송신 링크:** 송신 링크는 현재 문서에서 참조되는 문서를 나열합니다.
@@ -129,11 +129,11 @@ ht-degree: 0%
 >
 > 번역을 위해 에셋을 전송하면 언어 사본이 만들어집니다. 영어(`en`)는 소스 언어 역할을 하며, 번역된 복사본은 해당 대상 언어 폴더에 생성됩니다(예: 독일어의 경우 `de`, 프랑스어의 경우 `fr`). 에셋이 `en` 폴더에만 있는 경우 대상 언어에 대한 번역을 시작하고 완료할 때까지 추가 언어 사본이 표시되지 않습니다. 에셋이 언어 폴더에 없으면 **사용할 수 있는 번역이 없습니다**. 자세한 내용은 [콘텐츠 번역 모범 사례](./translation-first-time.md)를 참조하세요.
 
-![](images/translations-right-panel.png){width="300" align="left"}
+![](images/translations-right-panel.png){width="300"}
 
 각 언어 사본에 대해 파일 위로 마우스를 가져가 저장소에서 해당 경로를 찾거나 편집기에서 열도록 선택하면 됩니다. 파일을 여는 것 외에도 번역 섹션에서 **옵션** 메뉴를 사용하여 다양한 작업을 수행할 수 있습니다. 수행할 수 있는 작업에는 편집, 미리보기, UUID 복사, 경로 복사, 컬렉션에 추가 및 속성이 포함됩니다.
 
-![](images/translations-right-panel-options-menu.png){width="300" align="left"}
+![](images/translations-right-panel-options-menu.png){width="300"}
 
 
 
@@ -141,7 +141,7 @@ ht-degree: 0%
 
 검토 아이콘을 선택하면 현재 열려 있는 문서에 대한 검토 작업을 선택하고 주석을 볼 수 있는 검토 패널이 열립니다.
 
-![](images/review-panel-before-opening.png){width="300" align="left"}
+![](images/review-panel-before-opening.png){width="300"}
 
 여러 검토 프로젝트를 만든 경우 드롭다운에서 하나를 선택하고 검토 설명에 액세스할 수 있습니다.
 

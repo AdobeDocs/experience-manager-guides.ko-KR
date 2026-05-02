@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: fe7b3b8d-a4bd-43d2-ad20-49fa6c258b7d
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 0%
@@ -24,15 +24,15 @@ Markdown은 일반 텍스트 문서에 서식 요소를 추가하는 데 도움�
 1. 다음 방법 중 하나로 **Markdown 항목**&#x200B;을 만듭니다.
    1. 저장소 패널의 오른쪽 상단에 있는 **DITA 파일 만들기** 아이콘을 클릭한 다음 드롭다운에서 **Markdown 항목**&#x200B;을 선택합니다.
 
-   ![](images/create-markdown-dita-topic.png){width="550" align="left"}
+   ![](images/create-markdown-dita-topic.png){width="550"}
 
    1. 선택한 폴더의 옵션 메뉴에서 **만들기**&#x200B;를 선택한 다음 드롭다운에서 **Markdown 항목**&#x200B;을 선택합니다.
 
-   ![](images/create-markdown-options-menu.png){width="550" align="left"}
+   ![](images/create-markdown-options-menu.png){width="550"}
 
 1. **새 Markdown 항목 만들기** 대화 상자에 Markdown 항목의 이름과 경로를 입력합니다.
 
-![](images/create-markdown-dialog.png){width="350" align="left"}
+![](images/create-markdown-dialog.png){width="350"}
 
 1. **만들기**&#x200B;를 클릭합니다.
 

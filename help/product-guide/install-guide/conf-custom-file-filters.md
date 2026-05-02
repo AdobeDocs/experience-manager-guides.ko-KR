@@ -5,7 +5,7 @@ exl-id: 1ef09820-3b18-4762-b177-4d40926e21f0
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%
@@ -67,4 +67,4 @@ ht-degree: 0%
 
    파일 찾아보기 대화 상자를 시작하면 ui\_config.json 파일에 구성된 필터 옵션이 표시됩니다.
 
-   ![](assets/file-browse-custom-filters.png){width="300" align="left"}
+   ![](assets/file-browse-custom-filters.png){width="300"}

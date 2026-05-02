@@ -1,11 +1,11 @@
 ---
 title: .book 또는 .fm 파일의 출력 생성
-description: Learn how to generate output of .book or .fm files in AEM Guides.
+description: AEM Guides에서 .book 또는 .fm 파일의 출력을 생성하는 방법에 대해 알아봅니다.
 feature: Publishing FrameMaker Documents
 role: User
 hide: true
 exl-id: 9b5760bd-817c-4d8d-ab37-ab8699ac62fa
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # .book 또는 .fm 파일의 출력 생성 {#generating_output_fm_docs}
 
-Perform the following steps to generate output for FrameMaker documents:
+FrameMaker 문서에 대한 출력을 생성하려면 다음 단계를 수행하십시오.
 
-1. In the Assets UI, navigate to and click on the `.book` or `.fm` file that you want to publish.
+1. Assets UI에서 로 이동하고 게시할 `.book` 또는 `.fm` 파일을 클릭합니다.
 
    DITA 맵 콘솔이 나타나고 출력을 생성하는 데 사용할 수 있는 출력 사전 설정 목록이 표시됩니다.
 
-   ![](images/publish-fm-doc.png){width="800" align="left"}
+   ![](images/publish-fm-doc.png){width="800"}
 
 1. 출력을 생성하는 데 사용할 [출력 사전 설정]을 하나 이상 선택합니다.
 

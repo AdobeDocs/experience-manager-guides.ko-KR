@@ -4,9 +4,9 @@ description: Adobe Experience Manager Guides as a Cloud Service 2023년 7월 릴
 exl-id: 4b907729-4fbf-48ed-a2e1-014bd1101c73
 feature: What's New
 role: Leader
-source-git-commit: 7d0ae0f13ab77a10beb89fcb0d8592b05c3828bd
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '696'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 추가되면 웹 편집기의 **데이터 원본** 패널 아래에 나열된 구성된 커넥터를 볼 수 있습니다.
 
-![](assets/code-snippet-generator.png){width="300" align="left"}
+![](assets/code-snippet-generator.png){width="300"}
 
 콘텐츠 조각 생성기를 만들어 연결된 데이터 소스에서 데이터를 가져올 수 있습니다. 그런 다음 주제에 데이터를 삽입하고 편집할 수 있습니다.
 
@@ -38,8 +38,8 @@ ht-degree: 0%
 이제 AEM Guides을 통해 더욱 원활하게 리뷰를 작성할 수 있습니다. 웹 편집기 내의 검토 패널을 제공합니다. 검토 패널에는 사용자가 속한 검토 프로젝트 내의 모든 검토 프로젝트 및 활성 검토 작업이 표시됩니다.
 
 작성자는 이 기능을 사용하여 검토 작업을 쉽게 열고, 주석을 보고, 중앙 보기에서 신속하게 주석을 처리할 수 있습니다.
-![](assets/active-review-task-comments.png){width="800" align="left"}
-자세한 내용은 **왼쪽 패널** 섹션 내에서 [검토](../user-guide/web-editor-features.md#id2051EA0M0HS) 기능 설명을 참조하십시오.
+![](assets/active-review-task-comments.png){width="800"}
+자세한 내용은 [왼쪽 패널](../user-guide/web-editor-features.md#id2051EA0M0HS) 섹션 내에서 **검토** 기능 설명을 참조하십시오.
 
 
 ## 맵 컬렉션 개선 사항
@@ -49,7 +49,7 @@ ht-degree: 0%
 - 이제 기본 PDF 출력 사전 설정을 맵 컬렉션에 추가하고 이를 사용하여 PDF 출력을 생성할 수도 있습니다.
 - 관리자가 만든 전역 및 폴더 프로필 사전 설정을 보고 이를 사용하여 PDF 출력을 생성할 수 있습니다.
 - 이제 개별 사전 설정을 선택할 수 있을 뿐만 아니라 한 번에 DITA 맵에 대한 모든 폴더 프로필 사전 설정을 활성화할 수도 있습니다.
-  ![](assets/edit-map-collection.png){width="800" align="left"}
+  ![](assets/edit-map-collection.png){width="800"}
 
 자세한 내용은 [출력 생성을 위해 맵 컬렉션 사용](../user-guide/generate-output-use-map-collection-output-generation.md)을 참조하세요.
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 이 기능을 사용하면 중간 스타일 및 레이아웃에 액세스하여 생성 프로세스에 대한 통찰력을 향상시킬 수 있으며 요구 사항에 따라 CSS 스타일을 수정하거나 변경할 수 있습니다.
 
-![](assets/native-pdf-advanced-settings.png){width="800" align="left"}
+![](assets/native-pdf-advanced-settings.png){width="800"}
 
 자세한 내용은 [PDF 출력 사전 설정 만들기](../web-editor/native-pdf-web-editor.md#create-output-preset)를 참조하세요.
 
@@ -73,4 +73,4 @@ ht-degree: 0%
 
 이제 AEM **정보** 정보와 함께 AEM Guides 버전 세부 정보도 볼 수 있습니다. AEM 탐색 페이지에서 **도움말**&#x200B;의 **정보** 옵션에서 현재 버전 세부 정보를 볼 수 있습니다.
 
-![](assets/about-aem-help.png){width="800" align="left"}
+![](assets/about-aem-help.png){width="800"}

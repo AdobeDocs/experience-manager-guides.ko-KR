@@ -4,7 +4,7 @@ description: Adobe Experience Manager Guides의 맵 콘솔 인터페이스에서
 feature: Publishing
 role: User
 exl-id: 9443ffe8-77db-454a-b2cb-a135ada24d10
-source-git-commit: 1bde45c92d543f47a3a4482dad5aecfbf5753808
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 1. 홈 페이지에서 **맵 콘솔**&#x200B;을 엽니다.
 
-   ![새 &#x200B;](images/map-console-home-page.png){width="800"align="left"}
+   ![새 &#x200B;](images/map-console-home-page.png){width="800"}
 
 2. 맵 파일을 선택하지 않았으므로 맵 관리 및 게시 기능을 사용할 맵 파일을 선택하라는 메시지가 표시됩니다.
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
    맵 파일이 맵 콘솔에서 열립니다. 기본적으로 **출력 사전 설정** 탭이 선택되어 있습니다.
 
-   ![새로 만들기](images/map-console-screen.png){width="800"align="left"}
+   ![새로 만들기](images/map-console-screen.png){width="800"}
 
    >[!NOTE]
    >
@@ -45,4 +45,4 @@ ht-degree: 0%
 
    맵 파일이 맵 콘솔에서 열립니다.
 
-   ![새 &#x200B;](images/map-console.png){align="left"}
+   ![새 &#x200B;](images/map-console.png)

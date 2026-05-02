@@ -5,7 +5,7 @@ feature: Publishing, Bulk Activation
 role: User
 hide: true
 exl-id: a242efde-2b29-4d2b-8a50-fd4ae7e8f239
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '735'
 ht-degree: 0%
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 DITA 맵 파일이 벌크 활성화 맵 컬렉션에 추가됩니다.
 
-![이(가) 일괄 활성화 컬렉션을 만들었습니다](images/bulk-activation-collection-created.png){width="800" align="left"}
+![이(가) 일괄 활성화 컬렉션을 만들었습니다](images/bulk-activation-collection-created.png){width="800"}
 
 ## 맵 및 사전 설정 탭
 
@@ -85,7 +85,7 @@ DITA 맵 파일이 벌크 활성화 맵 컬렉션에 추가됩니다.
 
 - **수정됨**: 마지막 게시 후 DITA 맵이 업데이트되었는지 여부를 나타냅니다. 이 정보를 기반으로 이 DITA 맵에 대한 출력을 활성화할지 여부를 결정할 수 있습니다.
 - **게시됨**: 마지막으로 게시된(또는 활성화된) 출력의 날짜와 시간을 표시합니다. 링크를 선택하면 콘텐츠가 활성화된 루트 경로에 대한 정보와 함께 로그가 포함된 활성화 결과 페이지가 표시됩니다.
-  ![이(가) 일괄 활성화 컬렉션 감사 기록 탭을 만들었습니다](images/bulk-collection-audit-history.png){width="800" align="left"}
+  ![이(가) 일괄 활성화 컬렉션 감사 기록 탭을 만들었습니다](images/bulk-collection-audit-history.png){width="800"}
 
   ***감사 기록**&#x200B;탭에서 활성화된 맵 출력에 대한 정보를 봅니다.*
 

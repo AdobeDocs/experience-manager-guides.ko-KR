@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: dbc27856-6903-4694-9875-77dc778c80bd
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1460'
 ht-degree: 0%
@@ -30,18 +30,18 @@ Source 보기에는 항목을 구성하는 기본 XML이 표시됩니다. XML을
 
 - 스마트 카탈로그를 호출하려면 새 요소를 삽입할 요소 태그의 끝에 커서를 놓고 &quot;&lt;&quot;를 입력합니다. 해당 위치에 삽입할 수 있는 모든 유효한 XML 요소 목록이 편집기에 표시됩니다. 화살표 키를 사용하여 삽입할 요소를 선택하고 Enter 키를 누릅니다. 닫는 대괄호 &quot;\>를 입력하면 요소에 대한 닫는 태그가 자동으로 추가됩니다.
 
-  ![](images/smart-catalog-elements.png){width="400" align="left"}
+  ![](images/smart-catalog-elements.png){width="400"}
 
 - Source 보기에서 요소를 쉽게 변경할 수도 있습니다. 예를 들어 `p` 요소의 여는 태그를 `note`(으)로 변경하면 닫는 `p` 태그가 자동으로 `/note`(으)로 변경됩니다. 요소를 잘못된 요소로 바꾸는 경우 즉시 유효성 검사 오류가 표시됩니다.
 
 - 요소에 속성을 추가하려면 요소 태그 내에 커서를 놓고 스페이스 바를 누릅니다. 해당 요소에 대한 유효한 속성 목록이 스마트 카탈로그에 표시됩니다. 화살표 키를 사용하여 원하는 요소를 선택하고 Enter 키를 눌러 요소를 삽입합니다. 속성 값을 지정하려면 equals 기호 \(=\)를 입력하고 편집기에서 속성 값을 지정할 수 있는 여는 따옴표와 닫는 따옴표 &quot;&quot;를 자동으로 입력합니다.
 
-  ![](images/smart-catalog-attribute.png){width="350" align="left"}
+  ![](images/smart-catalog-attribute.png){width="350"}
 
 - Source 보기에는 XML 코드를 프레젠테이션 가능하고 읽기 쉬운 형식으로 재구성하는 자동 들여쓰기 옵션이 있습니다. 또한 텍스트를 선택하고 작성자에서 Source 또는 Source에서 작성자 보기로 전환하는 경우 선택한 텍스트가 다른 보기에서도 강조 표시됩니다.
 - Source 보기의 또 다른 강력한 기능은 문서의 XML 유효성 검사입니다. 잘못된 XML이 들어 있는 문서를 열면 잘못된 XML에 대한 정보가 있는 Source 보기에서 열립니다. 예를 들어 다음 스크린샷에서는 구문 분석 오류 팝업에 잘못된 XML에 대한 정확한 정보가 표시됩니다.
 
-  ![](images/invalid-topic-xml.png){width="650" align="left"}
+  ![](images/invalid-topic-xml.png){width="650"}
 
   위의 스크린샷에서는 잘못된 XML이 포함된 줄을 가리키는 데 상호 강조 표시가 사용됩니다.
 
@@ -101,13 +101,13 @@ Source 보기에는 항목을 구성하는 기본 XML이 표시됩니다. XML을
 
 다음 이미지는 `Audience`과(와) `Product`의 두 조건을 사용하는 주제를 보여 줍니다. 조건화된 콘텐츠는 노란색 배경으로 강조 표시됩니다.
 
-![](images/preview-filters.png){width="800" align="left"}
+![](images/preview-filters.png){width="800"}
 
 ### 변경 내용 추적 마크업 보기 {#id2114BJ00CE8}
 
 문서에 변경 내용 추적 마크업 \(또는 시각적 큐\)이 포함되어 있으면 해당 마크업을 사용하거나 사용하지 않고 문서를 미리 볼 수도 있습니다. 문서를 미리 보는 동안 오른쪽 패널에는 필터 및 추적 옵션이 있습니다.
 
-![](images/preview-tracking_cs.png){width="400" align="left"}
+![](images/preview-tracking_cs.png){width="400"}
 
 다음 중 선택할 수 있는 세 가지 **추적** 옵션이 있습니다.
 
@@ -117,7 +117,7 @@ Source 보기에는 항목을 구성하는 기본 XML이 표시됩니다. XML을
 
   다음 이미지는 마크업이 있는 맵 파일의 미리보기를 보여 줍니다.
 
-  ![](images/preview-map-with-track-changes.PNG){width="800" align="left"}
+  ![](images/preview-map-with-track-changes.PNG){width="800"}
 
 
 ### 주제를 PDF으로 내보내기 {#id2114BL00B5U}
@@ -139,7 +139,7 @@ PDF은 문서 개발 주기의 모든 단계에서 사용되는 가장 일반적
 
    PDF으로 내보내기 대화 상자가 표시됩니다.
 
-   ![](images/export-as-pdf-dialog.png){width="350" align="left"}
+   ![](images/export-as-pdf-dialog.png){width="350"}
 
 1. *\(선택 사항\)* 사용할 DITA-OT 변환 이름과 명령줄 인수를 지정합니다.
 

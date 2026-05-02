@@ -4,9 +4,9 @@ description: AEM Guides에서 컨텐츠 재사용 보고서를 보는 방법에 
 exl-id: ccae4303-75b1-4077-829a-7ef6a14fd8ad
 feature: Report Generation
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 1. 콘텐츠 재사용 보고서를 가져오려면 **보고서 생성**&#x200B;을 선택하십시오.
 
-   ![](images/content-reuse-uuid.png){align="left"}
+   ![](images/content-reuse-uuid.png)
 
    보고서 페이지는 두 부분으로 나뉘어져 있습니다.
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
       - **다시 사용한 횟수**: 해당 주제가 다시 사용된 횟수입니다. 참조자 열의 항목 합계에서 1을 뺀 값으로 계산됩니다.
 
-      - **참조자**: 해당 항목이 참조된 항목입니다. 여기서는 직접 \(첫 번째 수준\) 참조만 고려합니다. 여러 주제는 쉼표로 구분됩니다. 참조된 파일의 UUID도 대괄호 안에 표시됩니다.주제의 제목 링크를 선택하면 주제 미리 보기가 열립니다.
+      - **참조자**: 해당 항목이 참조된 항목입니다. 여기서는 직접 \(첫 번째 수준\) 참조만 고려합니다. 여러 주제는 쉼표로 구분됩니다. 참조된 파일의 UUID도 대괄호 안에 언급되어 있습니다.주제의 제목 링크를 선택하면 주제 미리 보기가 열립니다.
 
 
 >[!NOTE]

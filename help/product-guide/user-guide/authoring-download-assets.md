@@ -4,9 +4,9 @@ description: AEM Guides의 DITA 맵 콘솔에서 파일을 다운로드하고 AE
 exl-id: ae9eb355-d3ac-446a-958b-5f2da43f5533
 feature: Content Management
 role: User
-source-git-commit: 5deb4411c82f07aa82e52b4608a71a78136c128d
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '864'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ DITA 및 비 DITA 파일을 포함하는 에셋을 다운로드할 수 있습니
 
    **맵 다운로드** 대화 상자가 표시됩니다.
 
-   ![](images/download-map-dialog-new.png){width="300" align="left"}
+   ![](images/download-map-dialog-new.png){width="300"}
 
 1. 맵 다운로드 대화 상자에서 다음 옵션을 선택할 수 있습니다.
 
@@ -57,9 +57,9 @@ DITA 및 비 DITA 파일을 포함하는 에셋을 다운로드할 수 있습니
 
    맵을 다운로드할 준비가 되면 다음 알림을 받게 됩니다.
 
-   ![](images/download-map-success-message.png){width="550" align="left"}
+   ![](images/download-map-success-message.png){width="550"}
 
-1. 맵 파일을 **형식으로 다운로드하려면**&#x200B;다운로드`.zip`를 선택하십시오. 또는 나중에 AEM 받은 편지함에서 다운로드합니다.
+1. 맵 파일을 `.zip` 형식으로 다운로드하려면 **다운로드**&#x200B;를 선택하십시오. 또는 나중에 AEM 받은 편지함에서 다운로드합니다.
 
    >[!NOTE]
    >
@@ -83,7 +83,7 @@ Adobe Experience Manager 저장소에 DITA 맵 파일이 있으면 해당 종속
 
    맵 다운로드 대화 상자가 나타납니다.
 
-   ![](images/download-map.png){width="300" align="left"}
+   ![](images/download-map.png){width="300"}
 
 1. **다운로드**&#x200B;를 선택합니다. 맵 다운로드 대화 상자에서 다음 옵션을 선택할 수 있습니다.
 
@@ -98,7 +98,7 @@ Adobe Experience Manager 저장소에 DITA 맵 파일이 있으면 해당 종속
 
 1. **다운로드** 단추를 선택하면 맵 다운로드 요청이 큐에 대기됩니다. 맵을 다운로드할 준비가 되면 다음 알림을 받게 됩니다.
 
-   ![](images/download-map-prompt.png){width="550" align="left"}
+   ![](images/download-map-prompt.png){width="550"}
 
    - 맵 파일을 .zip 형식으로 다운로드하려면 **다운로드**&#x200B;를 선택하십시오.
 
@@ -108,7 +108,7 @@ Adobe Experience Manager 저장소에 DITA 맵 파일이 있으면 해당 종속
    >
    > 기본적으로 다운로드한 맵은 Adobe Experience Manager 알림 받은 편지함에 5일 동안 유지됩니다.
 
-![](images/download-map-inbox.png){width="300" align="left"}
+![](images/download-map-inbox.png){width="300"}
 
 맵이 다운로드되면 맵을 선택하고 상단에 있는 열기 아이콘을 사용하여 다운로드한 콘텐츠를 열 수 있습니다.
 

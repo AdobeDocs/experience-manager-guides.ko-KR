@@ -4,9 +4,9 @@ description: Adobe Experience Manager Guides의 맵 콘솔에서 새 기준선(B
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 exl-id: 574806bb-21c5-41fe-b8be-4c6506ce8cce
-source-git-commit: d7e5af83e88de18cd8ac2e849c9d6e1807988099
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '1315'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 0%
 1. **도구** 패널에서 **안내서**&#x200B;를 선택합니다.
 1. **일괄 프로세서** 타일을 선택하십시오.
 
-   ![흐름 자산 프로세서](images/flow-asset-processor.png){align="left"}
+   ![흐름 자산 프로세서](images/flow-asset-processor.png)
 
    **Guides 대량 프로세서** 페이지가 표시됩니다.
 
@@ -87,7 +87,7 @@ ht-degree: 0%
    1. **폴더 및 파일 선택**: 처리할 하나 이상의 폴더 및 파일을 탐색하고 선택합니다.
    1. **무시할 폴더 선택**: 선택적으로 선택한 상위 폴더 내에서 마이그레이션에서 제외할 하위 폴더를 선택하십시오.
 
-   ![new-process-baseline](images/new-process-baseline.png){align="left"}
+   ![new-process-baseline](images/new-process-baseline.png)
 
 1. **만들기**&#x200B;를 선택합니다.
 
@@ -95,11 +95,11 @@ ht-degree: 0%
 
 **로그 보기**&#x200B;를 선택하여 마이그레이션 작업에 대한 로그를 확인하고 다운로드할 수도 있습니다.
 
-![view-logs-baseline](images/view-logs-baseline.png){align="left"}
+![view-logs-baseline](images/view-logs-baseline.png)
 
 로그 보고서는 마이그레이션된 맵 수, 마이그레이션된 기준선 및 관련 세부 정보를 포함하여 마이그레이션에 대한 세부 정보를 제공합니다.
 
-![logs-detail-baseline](images/logs-detail-baseline.png){align="left"}
+![logs-detail-baseline](images/logs-detail-baseline.png)
 
 >[!NOTE]
 >
@@ -131,7 +131,7 @@ ht-degree: 0%
    - **속성 편집**: 기존 기준선의 속성을 편집할 수 있습니다.
    - **다시 빌드**: 변경 사항이 발생할 때마다 동적 기준선을 다시 빌드할 수 있습니다.
 
-     ![다시 빌드-기준선](images/rebuild-baseline.png){align="left"}
+     ![다시 빌드-기준선](images/rebuild-baseline.png)
 
 - **다운로드** 작업은 페이지 매김된 다운로드를 지원합니다. 적용된 필터와 일치하는 모든 기준선 콘텐츠는 현재 페이지에 표시되는 콘텐츠뿐만 아니라 다운로드에 포함됩니다.
 - 파일 이름 또는 파일 위치 외에 GUID로 파일을 필터링합니다. **레이블이 없는 파일을 필터링**&#x200B;하는 추가 옵션도 사용할 수 있습니다.
@@ -150,13 +150,13 @@ ht-degree: 0%
    - 편집할 파일로 이동하여 그 위에 놓습니다.
    - **편집** 아이콘을 선택합니다.
 
-     ![edit-baseline-icon](images/edit-baseline-icon.png){align="left"}
+     ![edit-baseline-icon](images/edit-baseline-icon.png)
 
      **버전 편집** 대화 상자가 표시됩니다.
    - **버전** 드롭다운에서 필요한 버전을 선택합니다(예: 버전 1.0에서 1.1로 변경).
 
 
-     ![edit-version-baseline](images/edit-version-baseline.png){align="left"}
+     ![edit-version-baseline](images/edit-version-baseline.png)
 
      추가되고 제거된 종속성은 평가되어 미리보기로 표시됩니다. 변경 사항을 적용하기 전에 검토하십시오.
 

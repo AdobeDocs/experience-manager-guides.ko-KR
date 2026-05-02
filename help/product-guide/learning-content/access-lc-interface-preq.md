@@ -4,9 +4,9 @@ description: Adobe Experience Manager Guides에서 제품 교육 및 학습을 �
 feature: Authoring
 role: User
 exl-id: b55af490-ebd5-4aa0-a5f3-84d835175dc9
-source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
    자세한 내용은 [Adobe Experience Manager Guides 홈 페이지 경험](../user-guide/intro-home-page.md)을 참조하세요.
 
-   ![](assets/aem-navigation-switcher.png){width="350" align="left"}
+   ![](assets/aem-navigation-switcher.png){width="350"}
 
 ## 사전 요구 사항
 

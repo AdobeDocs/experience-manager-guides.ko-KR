@@ -5,7 +5,7 @@ feature: Metadata Management
 role: User
 hide: true
 exl-id: b320e34f-ee0a-4cc3-b4f6-d322fbb29844
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 0%
@@ -34,7 +34,7 @@ AEM Guides을 사용하면 몇 번의 클릭만으로 DITA 콘텐츠에 태그�
 
 1. 태그를 적용할 주제 또는 하위 맵을 선택합니다.
 
-   ![](images/apply-tags-uuid.png){width="650" align="left"}
+   ![](images/apply-tags-uuid.png){width="650"}
 
 
    >[!NOTE]

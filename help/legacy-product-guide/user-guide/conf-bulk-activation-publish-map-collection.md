@@ -5,7 +5,7 @@ feature: Publishing, Bulk Activation
 role: User
 hide: true
 exl-id: de1fd057-60c6-4b1a-9e55-f32969eb0079
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 2%
@@ -26,7 +26,7 @@ ht-degree: 2%
 
 1. 게시할 컬렉션을 선택하고 **열기**&#x200B;를 클릭합니다.
 
-   ![](images/bulk-activation-collection-open.png){width="800" align="left"}
+   ![](images/bulk-activation-collection-open.png){width="800"}
 
 1. \(*선택 사항*\) 왼쪽 레일에서 필요한 필터를 적용하여 수정된 \(status\), 출력 사전 설정 또는 언어를 기반으로 필터 맵을 필터링합니다.
 
@@ -40,7 +40,7 @@ ht-degree: 2%
 <details>
 <summary> 클라우드 서비스 </summary>
 
-클라우드 서비스에 ![bulk-collection-publish](images/bulk-activation-collection-quick-publish-CS.png){width="650" align="left"}
+클라우드 서비스에 ![bulk-collection-publish](images/bulk-activation-collection-quick-publish-CS.png){width="650"}
 
 **미리 보기** 또는 **게시** 인스턴스에 대한 출력을 활성화할 수 있습니다.
 
@@ -73,9 +73,9 @@ ht-degree: 2%
 
 다음 중 하나를 수행하십시오.
 
-* To activate the output of selected maps, select the pregenerated map output and select **Quick Publish**.
-* To activate the output of all DITA maps with their configured presets, select the checkbox next to the Map (column), and then select **Quick Publish.**
-  ![bulk-collection-publish](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
+* 선택한 맵의 출력을 활성화하려면 미리 생성된 맵 출력을 선택하고 **빠른 게시**&#x200B;를 선택합니다.
+* 구성된 사전 설정으로 모든 DITA 맵의 출력을 활성화하려면 맵(열) 옆에 있는 확인란을 선택한 다음 **빠른 게시를 선택합니다.**
+  ![bulk-collection-publish](images/bulk-activation-collection-quick-publish.png){width="650"}
 
   >[!NOTE]
   > 

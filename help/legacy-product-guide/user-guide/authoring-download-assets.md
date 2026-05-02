@@ -5,7 +5,7 @@ feature: Content Management
 role: User
 hide: true
 exl-id: b04a0abe-a029-44ac-b8f4-138d78908d44
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 0%
@@ -32,7 +32,7 @@ AEM 저장소에 DITA 맵 파일이 있으면 해당 종속 항목과 함께 맵
 
    맵 다운로드 대화 상자가 나타납니다.
 
-   ![](images/download-map.png){width="300" align="left"}
+   ![](images/download-map.png){width="300"}
 
 1. **다운로드**&#x200B;를 클릭합니다. 맵 다운로드 대화 상자에서 다음 옵션을 선택할 수 있습니다.
 
@@ -44,7 +44,7 @@ AEM 저장소에 DITA 맵 파일이 있으면 해당 종속 항목과 함께 맵
 
 1. **다운로드** 단추를 클릭하면 맵 다운로드 요청이 큐에 있습니다. 맵을 다운로드할 준비가 되면 다음 알림을 받게 됩니다.
 
-   ![](images/download-map-prompt.png){width="550" align="left"}
+   ![](images/download-map-prompt.png){width="550"}
 
    - **다운로드**&#x200B;를 클릭하여 맵 파일을 in.zip 형식으로 다운로드합니다.
 
@@ -54,7 +54,7 @@ AEM 저장소에 DITA 맵 파일이 있으면 해당 종속 항목과 함께 맵
    >
    > 기본적으로 다운로드한 맵은 AEM 알림 받은 편지함에 5일 동안 유지됩니다.
 
-![](images/download-map-inbox.png){width="300" align="left"}
+![](images/download-map-inbox.png){width="300"}
 
 맵이 다운로드되면 맵을 선택하고 맨 위의 열기 아이콘을 사용하여 선택한 보고서를 열 수 있습니다.
 

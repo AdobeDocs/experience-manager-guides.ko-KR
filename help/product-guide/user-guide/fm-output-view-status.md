@@ -4,9 +4,9 @@ description: FrameMaker 문서의 출력 생성 큐를 봅니다. 출력 생성 
 exl-id: c358f747-f0a5-4d9e-a96f-20f30663101f
 feature: Publishing FrameMaker Documents
 role: User
-source-git-commit: b78a34430476c15cadacb23d65bd978b3c25bd23
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '248'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ FrameMaker 문서에 대한 출력 생성 작업을 시작하면 Adobe Experienc
 
 1. 출력을 선택합니다.
 
-   ![](images/output-queued-fm.png){align="left"}
+   ![](images/output-queued-fm.png)
 
 1. [출력] 페이지는 두 부분으로 나뉩니다.
 

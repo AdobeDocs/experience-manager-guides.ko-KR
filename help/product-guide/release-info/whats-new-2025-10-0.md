@@ -2,9 +2,10 @@
 title: 릴리스 정보 | Adobe Experience Manager Guides 2025.10.0 릴리스의 새로운 기능
 description: Adobe Experience Manager Guides 2025.10.0 릴리스의 새로운 기능과 향상된 기능에 대해 알아봅니다
 role: Leader
-source-git-commit: 6f212862855e5ce1125137f462b88c933d23ed26
+exl-id: 5bc6f1f6-225b-46c0-a05a-099583e402d8
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '523'
 ht-degree: 3%
 
 ---
@@ -33,7 +34,7 @@ ht-degree: 3%
 
 자세한 내용은 [편집기의 추가 기능](../user-guide/web-editor-other-features.md)을 참조하세요.
 
-![](assets/duplicate-element-IDs.png){width="350" align="left"}
+![](assets/duplicate-element-IDs.png){width="350"}
 
 ## 저장소 및 보고서 필터 개선 사항
 
@@ -45,7 +46,7 @@ ht-degree: 3%
 
 자세한 내용은 [작성자로 리뷰 요청 또는 리뷰 작업 닫기](../user-guide/review-close-review-task.md)를 참조하십시오.
 
-![](assets/check-review-status-icon.png){width="350" align="left"}
+![](assets/check-review-status-icon.png){width="350"}
 
 
 
@@ -59,4 +60,3 @@ ht-degree: 3%
 
 - [개별 에셋 및 폴더의 사후 처리 상태를 추적하기 위한 API](../api-reference/track-post-processing-status.md)
 - [fmdita 구성 관리자의 사후 처리 이벤트 핸들러 설정](../api-reference/post-process-event.md)
-
