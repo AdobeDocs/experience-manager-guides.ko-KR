@@ -5,7 +5,7 @@ feature: Translation
 role: User
 hide: true
 exl-id: b623b109-8695-40e5-9e28-78f78cf57ad6
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 
    화살표를 클릭하여 자세한 내용을 확인합니다. 오래된 특정 언어 사본을 볼 수 있습니다.
 
-   ![](images/out-of-sync-uuid.png){width="800" align="left"}
+   ![](images/out-of-sync-uuid.png){width="800"}
 
 1. 재번역을 위해 전송할 항목을 선택하려면 확인란을 클릭하십시오.
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 1. 프로젝트 콘솔에서 번역 프로젝트로 이동합니다. 새 번역 작업 카드가 폴더에 생성됩니다. 폴더의 자산을 보려면 줄임표를 클릭하십시오.
 
-   ![](images/incremental-job.PNG){width="300" align="left"}
+   ![](images/incremental-job.PNG){width="300"}
 
 1. 번역을 시작하려면 번역 작업 카드에서 화살표를 클릭하고 목록에서 **시작**&#x200B;을 선택합니다. 작업이 시작되었음을 알리는 메시지가 표시됩니다.
 
@@ -79,4 +79,4 @@ ht-degree: 0%
 1. Assets UI의 소스 언어 폴더에서 DITA 맵 파일로 다시 이동합니다. 다시 번역된 주제가 이제 동기화되었습니다.
 
 
-**상위 항목:**&#x200B;[&#x200B;콘텐츠 번역](translation.md)
+**상위 항목:**[&#x200B;콘텐츠 번역](translation.md)

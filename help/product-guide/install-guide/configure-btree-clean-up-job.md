@@ -5,7 +5,7 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: ff6f968c-3440-4757-882a-676711ad05c3
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 2%
@@ -34,7 +34,7 @@ B-트리 정리 작업을 구성하려면 다음 단계를 수행하십시오.
 
 1. 아래 표시된 대로 B 트리 정리 스케줄러를 구성합니다.
 
-   ![](assets/btree-cleanup-config.png){align="left"}
+   ![](assets/btree-cleanup-config.png)
 
 1. **저장**&#x200B;을 선택합니다.
 
@@ -54,6 +54,6 @@ B-트리 정리 작업을 구성하려면 다음 단계를 수행하십시오.
 1. *com.adobe.fmdita.config.ConfigManager* 번들을 검색하고 선택합니다.
 1. `Guides btree deletion enabled` 설정을 사용하도록 설정합니다.
 
-   ![](assets/btree-cleanup-setting.png){align="left"}
+   ![](assets/btree-cleanup-setting.png)
 
 1. **저장**&#x200B;을 선택합니다.

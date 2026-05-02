@@ -4,9 +4,9 @@ description: AEM Guides에서 템플릿을 사용하여 DITA 프로젝트를 만
 exl-id: 0cd83fe3-1764-4f04-ae11-0b71b6ac576c
 feature: Reviewing
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ DITA 프로젝트를 만들려면 다음 단계를 수행하십시오.
 
 1. **만들기** \> **프로젝트**&#x200B;를 선택하여 프로젝트 만들기 마법사를 시작합니다.
 
-   ![](images/project-console-63.png){width="650" align="left"}
+   ![](images/project-console-63.png){width="650"}
 
 1. 프로젝트 만들기 페이지에서 **DITA 프로젝트** 템플릿을 선택하고 **다음**&#x200B;을 선택합니다.
 
@@ -43,7 +43,7 @@ DITA 프로젝트를 만들려면 다음 단계를 수행하십시오.
 
    **기본** 탭의 정보:
 
-   ![](images/create-project.png){width="650" align="left"}
+   ![](images/create-project.png){width="650"}
 
    - 프로젝트의 **제목**, **설명** 및 **기한**&#x200B;을 입력하십시오.
 
@@ -76,4 +76,4 @@ DITA 프로젝트를 만들려면 다음 단계를 수행하십시오.
 1. 프로젝트 페이지를 열려면 **열기**&#x200B;를 선택하십시오.
 
 
-**상위 항목:**&#x200B;[&#x200B;검토 소개](review.md)
+**상위 항목:**[&#x200B;검토 소개](review.md)

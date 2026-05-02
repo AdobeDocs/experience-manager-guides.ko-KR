@@ -5,7 +5,7 @@ exl-id: 6e6dbba3-da41-4066-b7b2-735a3d92b70a
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 0%
@@ -38,7 +38,7 @@ CSS 파일에 `custom-bookmark` 클래스의 다음 정의가 추가됩니다.
 
 PDF 출력에서는 아래와 같이 *연락처 목록* 표가 PDF 책갈피 목록의 두 번째 수준에 추가됩니다.
 
-![](assets/custom-bookmark-in-pdf-output.png) {width="300" align="left"}
+![](assets/custom-bookmark-in-pdf-output.png) {width="300"}
 
 >[!NOTE]
 >
@@ -51,7 +51,7 @@ PDF 출력에 **Contents** 제목을 포함하지 않으려면 `<h1>` 요소 대
 책갈피에서 컨텐츠 제목을 제거하는 단계별 프로세스는 다음과 같습니다.
 
 1. PDF 출력에 사용할 PDF 템플릿을 엽니다.
-2. **페이지 레이아웃**&#x200B;에서 **목차 페이지**&#x200B;를 엽니다.
+2. **페이지 레이아웃**&#x200B;에서 **목차 페이지**를 엽니다.
 목차 페이지가 오른쪽에 표시됩니다.
 3. **Source** 모드로 전환하고 Contents가 있는 요소를 `<h1>`에서 `<p>`(으)로 변경합니다.
 

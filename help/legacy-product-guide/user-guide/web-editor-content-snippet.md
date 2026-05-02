@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: ca557b73-8608-4fdd-8e11-adc6de2ad82a
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '2408'
 ht-degree: 0%
@@ -56,13 +56,13 @@ ht-degree: 0%
 
 ### 목록 보기 ![](images/data-sources-list-view-icon.svg)
 
-![](images/data-sources-list-view.png){width="300" align="left"}
+![](images/data-sources-list-view.png){width="300"}
 
 *연결된 데이터 원본 목록입니다.*
 
-### 타일 보기   ![](images/data-sources-tile-view-icon.svg)
+### 타일 보기 ![](images/data-sources-tile-view-icon.svg)
 
-![](images/data-sources-tile-view.png){width="300" align="left"}
+![](images/data-sources-tile-view.png){width="300"}
 
 *연결된 데이터 원본을 타일로 봅니다.*
 
@@ -78,11 +78,11 @@ AEM Guides은 데이터 소스와 연결하는 기능을 제공합니다. 데이
 
 콘텐츠 조각 생성기를 사용하여 콘텐츠 조각을 만들고 항목에 삽입하려면 다음 단계를 수행하십시오.
 
-1. **데이터 원본** ![](images/data-source-icon.svg) 선택   왼쪽 패널에서 연결된 데이터 소스를 볼 수 있습니다.
+1. 연결된 데이터 원본을 보려면 왼쪽 패널에서 **데이터 원본** ![](images/data-source-icon.svg)을(를) 선택하십시오.
 
 1. 선택한 데이터 소스에 사용할 수 있는 콘텐츠 조각 생성기를 보려면 데이터 소스를 선택하십시오.
 
-   ![](images/code-snippet-generator.png){width="300" align="left"}
+   ![](images/code-snippet-generator.png){width="300"}
 
    *데이터 원본 패널에 사용 가능한 콘텐츠 조각 생성기가 나열됩니다.*
 
@@ -125,7 +125,7 @@ AEM Guides은 데이터 소스와 연결하는 기능을 제공합니다. 데이
       - jira 순차 목록 템플릿을 선택한 경우 Jira 문제에 대한 순차 목록을 볼 수 있습니다.
 
    1. 소스 뷰에는 DITA 소스 뷰의 데이터가 표시됩니다.
-      ![](images/add-content-snippet-generator.png){width="800" align="left"}
+      ![](images/add-content-snippet-generator.png){width="800"}
       *콘텐츠 조각 생성기를 추가합니다. 원본 또는 미리 보기 모드에서 데이터를 봅니다.*
 
 1. 쿼리 결과를 저장하려면 생성기의 이름을 입력한 다음 **추가**&#x200B;를 클릭합니다.   새 콘텐츠 조각 생성기가 목록에 추가됩니다.
@@ -151,9 +151,9 @@ AEM Guides은 데이터 소스와 연결하는 기능을 제공합니다. 데이
 
 ### 쿼리 코드 조각 삽입
 
-**쿼리 코드 조각 삽입** ![](images/data-source-icon.svg)을 사용할 수도 있습니다.   을 클릭하여 데이터 스니펫을 주제에 삽입합니다.  드롭다운에서 생성기를 선택하거나 쿼리를 편집하거나 템플릿을 변경하고 주제에 데이터를 삽입할 수 있습니다.
+기본 도구 모음에서 **쿼리 코드 조각 삽입** ![](images/data-source-icon.svg)을(를) 사용하여 데이터 코드 조각을 주제에 삽입할 수도 있습니다.  드롭다운에서 생성기를 선택하거나 쿼리를 편집하거나 템플릿을 변경하고 주제에 데이터를 삽입할 수 있습니다.
 
-![](images/insert-content-snippet.png){width="800" align="left"}
+![](images/insert-content-snippet.png){width="800"}
 
 *데이터 코드 조각을 편집하고 삽입하십시오.*
 
@@ -173,7 +173,7 @@ AEM Guides은 데이터 소스와 연결하는 기능을 제공합니다. 데이
 
 1. 데이터 소스를 선택하여 선택한 데이터 소스에 사용할 수 있는 콘텐츠 조각 생성기 및 주제 생성기를 확인합니다.
 
-   ![](images/data-sources.png){width="300" align="left"}
+   ![](images/data-sources.png){width="300"}
 
    *연결된 데이터 원본에 대한 항목 생성기를 추가합니다.*
 
@@ -185,7 +185,7 @@ AEM Guides은 데이터 소스와 연결하는 기능을 제공합니다. 데이
 
    **구성 가져오기**
 
-   ![](images/topic-generator-fetch-configuration.png){width="300" align="left"}
+   ![](images/topic-generator-fetch-configuration.png){width="300"}
 
    *항목 생성기에 대한 데이터 쿼리, 데이터 매핑 템플릿 및 루트 노드 세부 정보를 추가하고 [구성 가져오기] 패널에서 고유한 이름을 지정합니다.*
 
@@ -210,50 +210,50 @@ AEM Guides은 데이터 소스와 연결하는 기능을 제공합니다. 데이
    1. **루트 노드**&#x200B;를 입력하십시오. 데이터에 액세스하려는 노드입니다. 그런 다음 주제 생성기는 루트 노드에 정의된 수준에서 각 주제를 생성합니다. 예를 들어 &#39;issues&#39;를 Jira의 루트 노드로 추가할 수 있습니다. 따라서 쿼리가 13개의 문제를 반환하는 경우 각 문제에 대해 1개의 주제씩 13개의 주제가 제공됩니다.
 
    1. 데이터 원본에서 데이터를 가져오고 SQL 쿼리에서 얻은 데이터에 템플릿을 적용하려면 **가져오기**&#x200B;를 클릭하십시오. 미리 보기에는 주제가 선택한 템플릿의 형식으로 표시되는 방식이 일부 표시됩니다. 예를 들어 쿼리의 결과로 발생하는 모든 필드에 대한 단일 Jira 문제를 볼 수 있습니다.
-   1. Enter the name of the topic generator.
+   1. 주제 생성기의 이름을 입력합니다.
 
       >[!NOTE]
       > 
-      > You need to follow the file naming convention for the name of the new topic generator. You cannot have a space in the name of the topic generator. Also, you cannot save a new topic generator with the name of an existing topic generator. 오류가 발생했습니다.
+      > 새 주제 생성기의 이름에 대한 파일 이름 지정 규칙을 따라야 합니다. 주제 생성기 이름에는 공백을 사용할 수 없습니다. 또한 기존 주제 생성기의 이름으로 새 주제 생성기를 저장할 수 없습니다. 오류가 발생했습니다.
 
-   **Output Configuration**
+   **출력 구성**
 
-   ![](images/topic-generator-output-configuration.png){width="300" align="left"}
+   ![](images/topic-generator-output-configuration.png){width="300"}
 
-   *Enter the Output path and Topic naming convention details in the Output Configuration panel. Generate a DITA map and name it.*
+   *[출력 구성] 패널에 [출력 경로] 및 [항목 명명 규칙] 세부 정보를 입력합니다. DITA 맵을 생성하고 이름을 지정합니다.*
 
-   1. Enter the **Output path** details where you want to save your topics.
-   1. In the **Topic naming convention**, you can enter a value or a variable with velocity tags. The new topics will follow the convention. For example, you can enter the `$key` to create topics based on Jira keys.
-   1. Enable the option **Generate a map** if you want to create a map that contains all the generated topics.
-   1. Enter the name of the new DITA map.
+   1. 항목을 저장할 **출력 경로** 세부 정보를 입력하십시오.
+   1. **항목 명명 규칙**&#x200B;에서 속도 태그가 있는 값 또는 변수를 입력할 수 있습니다. 새 주제는 규칙을 따릅니다. 예를 들어 `$key`을(를) 입력하여 Jira 키를 기반으로 주제를 만들 수 있습니다.
+   1. 생성된 모든 항목이 포함된 맵을 만들려면 **맵 생성** 옵션을 활성화합니다.
+   1. 새 DITA 맵의 이름을 입력합니다.
 
    >[!NOTE]
    >
-   > The Topic generator generates the DITA map on the same output path as the topics.
+   > 주제 생성기는 주제와 동일한 출력 경로에서 DITA 맵을 생성합니다.
 
    **메타데이터**
 
-   Select the metadata properties from the drop-down to pass to the topics. **Name** dropdown lists both the custom and the default properties.
+   드롭다운에서 메타데이터 속성을 선택하여 주제에 전달합니다. **이름** 드롭다운에 사용자 지정 속성과 기본 속성이 모두 나열됩니다.
 
-   For example, in the following screenshot, `dc:description`, `dc:language`, `dc:title`, and `docstate` are the default properties for which you can define the values. You can create a custom property like author and define its value.
+   예를 들어 다음 스크린샷에서 `dc:description`, `dc:language`, `dc:title` 및 `docstate`은 값을 정의할 수 있는 기본 속성입니다. 작성자와 같은 사용자 지정 속성을 만들고 해당 값을 정의할 수 있습니다.
 
-   ![](images/topic-generator-metadata.png){width="300" align="left"}
+   ![](images/topic-generator-metadata.png){width="300"}
 
-   *Add the metadata properties in the Metadata panel to pass to the topics.*
+   *주제에 전달할 메타데이터 패널의 메타데이터 속성을 추가하십시오.*
 
-1. Enter the generator&#39;s name and click **Save** to save the query results. A new topic generator is added to the list.
+1. 생성기 이름을 입력하고 **저장**&#x200B;을 클릭하여 쿼리 결과를 저장합니다. 새 주제 생성기가 목록에 추가됩니다.
 
-1. Click **Save and Generate** to save the topic generator and generate new topics from the topic generator.
+1. **저장 및 생성**&#x200B;을 클릭하여 주제 생성기를 저장하고 주제 생성기에서 새 주제를 생성합니다.
 
 
 
-   ![](images/edit-topic-generator.png){width="650" align="left"}
+   ![](images/edit-topic-generator.png){width="650"}
 
-   *Generate new topics from an existing topic generator.*
+   *기존 항목 생성기에서 새 항목을 생성합니다.*
 
    >[!NOTE]
    >
-   > If the topics already exist, then the generator updates the data in the existing topics.
+   > 주제가 이미 있는 경우 생성기는 기존 주제의 데이터를 업데이트합니다.
 
 ### 주제 생성기 옵션
 

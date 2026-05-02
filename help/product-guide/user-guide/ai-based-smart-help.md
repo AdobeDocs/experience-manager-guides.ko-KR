@@ -2,26 +2,26 @@
 title: 콘텐츠 검색에 대한 AI 기반 스마트 도움말
 description: AI 기반 스마트 도움말을 보고 활용하는 방법에 대해 알아봅니다.
 exl-id: 61a15208-9600-4bb8-adc0-feca1a0ffef3
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
 
 # AI Assistant(Beta)의 스마트 도움말로 효율성 향상
 
-Experience Manager Guides은 [Adobe Experience Manager Guides 설명서](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/overview)에서 관련 콘텐츠를 찾는 데 도움이 되는 대화형 검색 기능인 GenAI 기반 스마트 도움말을 제공합니다.
+Experience Manager Guides은 [Adobe Experience Manager Guides 설명서](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)에서 관련 콘텐츠를 찾는 데 도움이 되는 대화형 검색 기능인 GenAI 기반 스마트 도움말을 제공합니다.
 
 질문을 하고 유익한 방법으로 답변을 얻을 수 있다. 쿼리에 대한 답변은 제품 설명서의 콘텐츠를 기반으로 합니다. 이 검색은 완전히 대화형입니다. Experience Manager Guides의 다양한 기능에 대해 질문하거나 문제 해결 쿼리를 선택하도록 할 수 있습니다. 응답을 기반으로 추가 질문을 할 수도 있습니다. 이 응답에는 소스 문서에 대한 링크도 포함되어 있습니다. 자세한 내용은 을 참조하십시오.
 
-예를 들어 *맵을 게시하는 방법 등의 질문을 할 수 있습니다.* 응답 및 관련 문서에 대한 링크를 받습니다. 그런 다음 특정 방법을 사용하여 출력을 게시하는 방법을 배우려면 해당 방법에 대해 질문할 수 있습니다. 예를 들어 *PDF에 맵을 게시하려면 어떻게 해야 합니까?*
+예를 들어 *맵을 게시하는 방법*&#x200B;과 같은 질문을 할 수 있습니다. 응답 및 관련 문서에 대한 링크를 받습니다. 그런 다음 특정 방법을 사용하여 출력을 게시하는 방법을 배우려면 해당 방법에 대해 질문할 수 있습니다. 예를 들어 *PDF에 맵을 게시하려면 어떻게 해야 합니까?*
 
 홈 페이지, 맵 콘솔 또는 편집기에서 **AI 길잡이**&#x200B;를 열면 오른쪽에 **도움말** 패널이 열립니다. 편집기의 경우 스마트 작성 기능을 제공하는 작성 패널도 표시됩니다. 자세한 내용은 [AI Assistant를 보고 문서를 작성하십시오](./ai-assistant-right-panel.md)
 
-![고급 도움말 패널](images/smart-help-panel.png){width="300" align="left"}
+![고급 도움말 패널](images/smart-help-panel.png){width="300"}
 
-***도움말**&#x200B;패널을 봅니다.*
+***도움말**패널을 봅니다.*
 
 도움말 패널을 사용하여 적절한 콘텐츠를 찾고 쿼리를 해결하려면 다음 단계를 수행하십시오.
 
@@ -37,7 +37,7 @@ Experience Manager Guides은 [Adobe Experience Manager Guides 설명서](https:/
 
    질문에 따라 콘텐츠, 적용 가능한 이미지 및 기사 링크를 볼 수 있습니다.
 
-   ![고급 도움말 패널 응답](images/smart-help-panel-response.png){width="300" align="left"}
+   ![고급 도움말 패널 응답](images/smart-help-panel-response.png){width="300"}
 
 
    *샘플 질문을 선택하고 응답으로 콘텐츠와 이미지를 봅니다.*
@@ -55,7 +55,7 @@ Experience Manager Guides은 [Adobe Experience Manager Guides 설명서](https:/
 
 다음 옵션은 AI Assistant **도움말** 패널에서 제공하는 응답에 참여하거나 피드백을 제공하는 데 사용할 수 있습니다.
 
-![](images/ai-assistant-response-options.png){width="300" align="left"}
+![](images/ai-assistant-response-options.png){width="300"}
 
 - **복사**: 문서에 사용할 응답을 복사합니다.
 - **비슷함**: 응답이 유용하거나 정확함을 나타냅니다. 좋아요 아이콘을 선택하여 응답을 좋아하게 하고 **자세히 알리기** 옵션을 사용하여 자세한 피드백을 제공하세요.

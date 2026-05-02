@@ -5,7 +5,7 @@ exl-id: 8bfd3ea7-0be8-4e7a-b389-5face043200b
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 2%
@@ -30,11 +30,11 @@ ht-degree: 2%
 
    다음 스크린샷은 user\_dictionary.txt 파일에 추가된 사용자 정의 단어 목록을 보여 줍니다.
 
-   ![](assets/custom-words-list-dictionary.png){width="650" align="left"}
+   ![](assets/custom-words-list-dictionary.png){width="650"}
 
 1. 파일을 저장하고 닫습니다.
 
 
 작성자는 웹 편집기 세션을 다시 시작하여 AEM 사전에 업데이트된 사용자 정의 단어 목록을 가져와야 합니다.
 
-**상위 항목:**&#x200B;[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)
+**상위 항목:**[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)

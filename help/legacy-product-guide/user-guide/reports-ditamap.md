@@ -5,7 +5,7 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: 044fb5df-166d-44a2-9ed6-6db47e4f125e
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 0%
@@ -26,7 +26,7 @@ DITA 맵 보고서를 보려면 다음 단계를 수행하십시오.
 
 1. **보고서**&#x200B;를 클릭합니다.
 
-   ![](images/reports-page-uuid.png){width="800" align="left"}
+   ![](images/reports-page-uuid.png){width="800"}
 
    보고서 페이지는 두 부분으로 나뉘어져 있습니다.
 
@@ -38,7 +38,7 @@ DITA 맵 보고서를 보려면 다음 단계를 수행하십시오.
 
      항목을 클릭하면 선택한 항목에 대한 자세한 보고서가 표시됩니다.
 
-     ![](images/detailed-report-uuid.png){width="800" align="left"}
+     ![](images/detailed-report-uuid.png){width="800"}
 
      **A**, **B**, **C** 및 **D**&#x200B;에 강조 표시된 항목은 아래에 설명되어 있습니다.
 
@@ -81,19 +81,19 @@ DITA 맵 보고서의 CSV를 생성하려면 다음 단계를 수행하십시오
 
 1. 왼쪽 상단의 **보고서 생성**&#x200B;을 클릭하여 DITA 맵 보고서를 생성합니다.
 
-   ![](images/generate-DITA-map-report.png){width="800" align="left"}
+   ![](images/generate-DITA-map-report.png){width="800"}
 
 1. 보고서를 다운로드할 준비가 되면 알림을 받게 됩니다. 생성된 보고서의 CSV를 다운로드하려면 **다운로드**&#x200B;를 클릭하십시오.
 
-   ![](images/download-report-dialog.png){width="550" align="left"}
+   ![](images/download-report-dialog.png){width="550"}
 
 
    나중에 AEM 알림 받은 편지함에서 생성된 보고서의 CSV를 다운로드할 수도 있습니다.
 
    받은 편지함에서 생성된 보고서를 클릭하여 보고서를 다운로드합니다.
 
-   ![](images/report-inbox--notification.png){width="300" align="left"}
+   ![](images/report-inbox--notification.png){width="300"}
 
 받은 편지함에서 보고서가 다운로드되면 보고서를 선택하고 맨 위의 열기 아이콘을 사용하여 선택한 보고서를 열 수도 있습니다.
 
-**상위 항목:**&#x200B;[&#x200B;보고서](reports-intro.md)
+**상위 항목:**[&#x200B;보고서](reports-intro.md)

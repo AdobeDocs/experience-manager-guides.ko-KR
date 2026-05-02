@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: c3c6c063-441c-413b-a63e-0acbd126ca6d
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 0%
@@ -37,11 +37,11 @@ Experience Manager Guides을 사용하면 주제 또는 해당 요소를 경험 
 
      폴더에 대해 허용된 템플릿을 정의하지 않으면 기본적으로 상위 폴더 또는 템플릿 폴더에서 템플릿이 선택됩니다.
    * **정렬 가능**: 폴더 내의 자산 순서를 변경할 수 있습니다.
-     ![폴더 속성에서 클라우드 구성 세부 정보 추가](images/experience-fragment-folder-properties.png){width="650" align="left"}
+     ![폴더 속성에서 클라우드 구성 세부 정보 추가](images/experience-fragment-folder-properties.png){width="650"}
      *폴더 속성에 클라우드 구성을 추가하여 조각 템플릿과 연결합니다.*
 1. 경험 조각을 생성하려면 주제의 **파일 속성**&#x200B;에서 **출력** 섹션에서 **새 출력** ![새 출력 아이콘](./images/Add_icon.svg)을 선택하십시오.
 1. **경험 조각**&#x200B;을 선택합니다.\
-   ![파일 속성 옵션 탭](./images/file-properties-outputs.png){width="300" align="left"}
+   ![파일 속성 옵션 탭](./images/file-properties-outputs.png){width="300"}
 
    *주제의 파일 속성에서 새 경험 조각을 추가합니다*.
 
@@ -50,7 +50,7 @@ Experience Manager Guides을 사용하면 주제 또는 해당 요소를 경험 
    > **저장소 보기**&#x200B;에서 경험 조각을 게시할 수도 있습니다. 경험 조각으로 게시할 주제를 선택합니다. 그런 다음 **옵션** 메뉴에서 **다음으로 게시** > **경험 조각**&#x200B;을 선택합니다.
 
 1. **경험 조각 생성** 대화 상자에서 다음 세부 정보를 입력합니다.
-   ![경험 조각으로 게시 대화 상자에서 조각 모델 및 매핑 세부 정보 추가](images/experience-fragment-generate.png){width="500" align="left"}
+   ![경험 조각으로 게시 대화 상자에서 조각 모델 및 매핑 세부 정보 추가](images/experience-fragment-generate.png){width="500"}
 
    *경로, 템플릿 및 매핑 세부 정보를 추가하여 주제 또는 해당 요소를 경험 조각으로 게시합니다. 기존 경험 조각을 덮어쓸 수 있습니다.*
 
@@ -80,7 +80,7 @@ Experience Manager Guides을 사용하면 주제 또는 해당 요소를 경험 
 1. 경험 조각을 게시하려면 **생성**&#x200B;을 클릭합니다.
 1. **파일 속성**&#x200B;의 **출력** 섹션 아래에서 주제에 대한 경험 조각을 볼 수 있습니다. 경험 조각은 게시 날짜 및 시간에 따라 나타나며 최신 항목을 첫 번째 조각으로 합니다.
 
-   ![주제에 대한 경험 조각 보기](images/experience-fragment-outputs.png){width=300 align="left"}
+   ![주제에 대한 경험 조각 보기](images/experience-fragment-outputs.png){width=300}
 
    *주제에 대한 경험 조각을 보고 다시 게시합니다.*
 

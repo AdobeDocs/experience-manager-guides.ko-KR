@@ -5,7 +5,7 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: 1a61fc05-b2b4-4665-a15a-0058fbbc2942
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 0%
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 1. 콘텐츠 재사용 보고서를 가져오려면 **보고서 생성**&#x200B;을 클릭하십시오.
 
-   ![](images/content-reuse-uuid.png){width="800" align="left"}
+   ![](images/content-reuse-uuid.png){width="800"}
 
    보고서 페이지는 두 부분으로 나뉘어져 있습니다.
 
@@ -65,4 +65,4 @@ ht-degree: 0%
 >
 > 콘텐츠 재사용 보고서를 CSV 형식으로 내보낼 수도 있습니다. 이렇게 하려면 화면 왼쪽 상단 모서리에서 CSV로 내보내기 링크를 클릭하고 CSV 파일을 저장할 위치를 선택합니다. 그런 다음 모든 CSV 편집기에서 이 CSV 파일을 열 수 있습니다.
 
-**상위 항목:**&#x200B;[&#x200B;보고서](reports-intro.md)
+**상위 항목:**[&#x200B;보고서](reports-intro.md)

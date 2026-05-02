@@ -1,9 +1,10 @@
 ---
 title: AEM Guides 외부 데이터 소스 통합 아키텍처
 description: AEM Guides의 외부 데이터 소스 통합 아키텍처에 대해 알아봅니다.
-source-git-commit: b0cf652023770eda24ea27ff105ed6dc2cdd1f08
+exl-id: ce99033a-0ce1-4696-9d4c-89187273b0bd
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '653'
 ht-degree: 0%
 
 ---
@@ -35,7 +36,7 @@ Experience Manager Guides에서 연결할 수 있는 일부 데이터 소스는 
 - PIM(제품 정보 관리) / PLM(제품 수명주기 관리)
    - Pimcore, Salsify, Akeneo 및 Informatica
 - 제품 관리 시스템
-   - JIRA 및 Microsoft Azure DevOps 보드(ADO)
+   - JIRA 및 Microsoft Azure DevOps 보드 (ADO)
 - OLAP(온라인 분석 처리) 및 Analytics 시스템
 
 ### Experience Manager Guides의 통합
@@ -53,7 +54,6 @@ Experience Manager Guides에서 연결할 수 있는 일부 데이터 소스는 
 1. **데이터 원본 커넥터 설정**
    - 데이터 소스 커넥터는 외부 데이터 소스와의 연결을 설정하는 인터페이스 역할을 합니다. 연결을 설정하고 `Basic Auth` 또는 `API key Auth`과(와) 같은 인증 방법을 포함하도록 커넥터를 구성해야 합니다. 암호화된 정보를 포함한 모든 구성 세부 정보는 Adobe Experience Manager에 안전하게 저장됩니다.
    - 커넥터 계층은 확장 가능하도록 설계되어 Experience Manager Guides에서 즉시 제공하지 않는 다양한 시스템에 연결하기 위한 구현을 만들 수 있습니다.
-
      ![커넥터 레이어](assets/data-source-connector-layer.jpg)
    >[!NOTE]
    >
@@ -99,11 +99,9 @@ Experience Manager Guides에서 연결할 수 있는 일부 데이터 소스는 
         ```
 
       - 템플릿
-
-        ![템플릿 엔진](assets/data-source-TemplatingEngine.png){width="800" align="left"}
+        ![템플릿 엔진](assets/data-source-TemplatingEngine.png){width="800"}
       - 동일한 데이터 소스에서 생성되었지만 다른 템플릿에서 생성된 데이터
-
-        ![데이터 생성됨](assets/data-source-templates-topics.png){width="800" align="left"}
+        ![데이터 생성됨](assets/data-source-templates-topics.png){width="800"}
 
 1. **템플릿을 사용하여 콘텐츠 생성**
    - 작성한 템플릿에서 콘텐츠를 생성할 수 있습니다.
@@ -113,8 +111,8 @@ Experience Manager Guides에서 연결할 수 있는 일부 데이터 소스는 
       - DITA 주제 + 맵: 주제와 함께 전체 맵을 생성한 다음 데이터를 직접 게시하거나 다른 데이터에서 *재사용 가능한 구성 요소*(으)로 사용할 수도 있습니다.
 
 
-1. **통합 콘텐츠 Publish**
-   - 게시는 Experience Manager Guides의 OOTB 기능이며 외부 시스템에서 생성된 모든 데이터를 PDF 또는 AEM Site 출력으로 직접 게시할 수 있습니다.
+1. **통합 콘텐츠 게시**
+   - 게시는 Experience Manager Guides의 OOTB 기능이며 외부 시스템에서 생성된 모든 데이터를 PDF 또는 AEM 사이트 출력으로 직접 게시할 수 있습니다.
 
 >[!MORELIKETHIS]
 >

@@ -3,9 +3,10 @@ title: 편집기 인터페이스의 검색 패널
 description: 편집기 인터페이스에서 검색 패널을 사용하는 방법을 알아봅니다.
 feature: Authoring
 role: User
-source-git-commit: 5b4aebce91d6cad7c99bf97e3d6d592ad38fa373
+exl-id: cf3c03b5-383c-464c-8ef1-2f0f825c4e56
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -18,11 +19,11 @@ ht-degree: 0%
 
 - **편집기 인터페이스**: **탐색기 패널**&#x200B;에서 **검색 아이콘**&#x200B;을 선택하거나 **콘텐츠 편집 영역**&#x200B;의 왼쪽 아래 모서리에서 **검색 아이콘**&#x200B;을 사용합니다. 자세한 내용은 [탐색기 패널에서 검색](#search-from-the-explorer-panel)을 참조하십시오.
 
-  ![](images/search-icon-editor.png){align="left"}
+  ![](images/search-icon-editor.png)
 
 - **홈 페이지**: 홈 페이지의 저장소 인터페이스에서 이동할 때 **검색 패널에 표시** 옵션을 사용합니다. 자세히 보려면 [저장소에서 검색](#search-from-the-repository-interface-on-the-home-page)하세요.
 
-  ![](images/search-panel-repo.png){align="left"}
+  ![](images/search-panel-repo.png)
 
 ## 주요 이점
 
@@ -40,21 +41,21 @@ ht-degree: 0%
    >
    >현재 세션에서 검색 결과가 이미 있는 경우 탐색기에서 **검색 아이콘**&#x200B;을 선택하거나 콘텐츠 편집 영역의 왼쪽 하단에 있는 검색 아이콘을 선택하면 이전 결과가 표시되는 패널이 열립니다. 검색을 업데이트하거나 세분화하려면 **검색 수정**&#x200B;을 선택하세요.
 
-   ![](images/search-repo-dialog.png){align="left"}
+   ![](images/search-repo-dialog.png)
 
 2. 검색을 수행하고 필요에 따라 필터를 적용합니다. 검색 및 필터 옵션에 대한 자세한 지침은 [검색 및 필터 경험](./home-page-repository-view.md#search-and-filter-experience)을 참조하세요.
 
 3. 검색이 완료되면 **검색 패널에 표시**&#x200B;를 선택합니다. 그러면 편집기 하단의 검색 패널에 최근 검색이 나타납니다.
 
-   ![](images/show-search-explorer.png){align="left"}
+   ![](images/show-search-explorer.png)
 
 4. 검색 결과를 업데이트하려면 [검색] 패널에서 **검색 수정** 옵션을 선택하고 기준을 업데이트하여 새 결과를 얻으십시오.
 
-   ![](images/modify-search.png){align="left"}
+   ![](images/modify-search.png)
 
 검색 결과가 [검색] 패널에 표시되면 패널에서 하나 또는 여러 파일을 직접 열고 편집하거나 선택한 파일을 기존 주제 또는 맵으로 끌어다 놓아 참조를 추가하여 검색 결과를 사용할 수 있습니다.
 
-![](images/edit-search-panel.png){align="left"}
+![](images/edit-search-panel.png)
 
 ## 홈 페이지의 저장소 인터페이스에서 검색
 
@@ -62,13 +63,4 @@ ht-degree: 0%
 
 [검색] 패널에서 현재 항목으로 파일을 **끌어다 놓아**&#x200B;하여 참조를 원활하게 첨부하거나 여러 파일을 동시에 편집할 수 있습니다. 또한 검색 패널에서 사용할 수 있는 **검색 수정** 옵션을 사용하여 검색 결과를 구체화할 수 있습니다.
 
-![](images/search-panel-from-home.png){align="left"}
-
-
-
-
-
-
-
-
-
+![](images/search-panel-from-home.png)

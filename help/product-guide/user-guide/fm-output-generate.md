@@ -4,9 +4,9 @@ description: AEM Guides에서 .book 또는 .fm 파일의 출력을 생성하는 
 exl-id: 24132198-52da-4c0b-bee3-5c728ec96995
 feature: Publishing FrameMaker Documents
 role: User
-source-git-commit: b78a34430476c15cadacb23d65bd978b3c25bd23
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '125'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ FrameMaker 문서에 대한 출력을 생성하려면 다음 단계를 수행하
 
    DITA 맵 콘솔이 나타나고 출력을 생성하는 데 사용할 수 있는 출력 사전 설정 목록이 표시됩니다.
 
-   ![](images/publish-fm-doc.png){align="left"}
+   ![](images/publish-fm-doc.png)
 
 1. 출력을 생성하는 데 사용할 [출력 사전 설정]을 하나 이상 선택합니다.
 
@@ -30,4 +30,4 @@ FrameMaker 문서에 대한 출력을 생성하려면 다음 단계를 수행하
 >
 > 출력을 선택하여 출력 생성 요청의 현재 상태를 볼 수 있습니다. 자세한 내용은 [출력 생성 작업의 상태 보기](fm-output-view-status.md)를 참조하십시오.
 
-**상위 항목:**&#x200B;[&#x200B; FrameMaker 문서의 출력 생성](fm-output-generatation.md)
+**상위 항목:**[ FrameMaker 문서의 출력 생성](fm-output-generatation.md)

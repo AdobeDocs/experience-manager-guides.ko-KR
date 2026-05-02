@@ -5,7 +5,7 @@ feature: Authoring, Map Editor
 role: User
 hide: true
 exl-id: 981ecaeb-9b1f-4c7a-8336-7746a739bedc
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%
@@ -28,7 +28,7 @@ AEM Guides은 DITA 맵과 북맵이라는 두 가지 기본 맵 템플릿을 제
    >
    > 맵 파일에서 주제가 참조되는 방식은 맵 템플릿에 따라 다릅니다. 예를 들어 맵 템플릿을 선택하면 항목 참조 \(`topicref`\)가 항목을 참조하는 데 사용됩니다. 북맵의 경우 DITA의 `chapter` 요소를 사용하여 주제 참조를 만듭니다.
 
-   ![](images/map-template.png){width="650" align="left"}
+   ![](images/map-template.png){width="650"}
 
 1. 속성 페이지에서 맵 **제목**&#x200B;을 지정하십시오.
 
@@ -44,7 +44,7 @@ AEM Guides은 DITA 맵과 북맵이라는 두 가지 기본 맵 템플릿을 제
 
    Assets UI **만들기** \> **DITA 맵** 또는 웹 편집기에서 만드는 모든 새 맵 파일에는 고유한 맵 ID가 할당됩니다. 또한 새 맵이 DAM에 최신 작업 복사본으로 저장됩니다. 새로 생성된 맵의 개정 버전을 저장하기 전까지는 버전 기록에 버전 번호가 표시되지 않습니다. 편집할 맵을 열면 맵 파일의 탭 오른쪽 상단 모서리에 버전 정보가 표시됩니다.
 
-   ![](images/first-version-map-none.png){width="650" align="left"}
+   ![](images/first-version-map-none.png){width="650"}
 
    새로 만든 맵의 버전 정보가 *없음*(으)로 표시됩니다. 새 버전을 저장하면 버전 번호가 1.0으로 지정됩니다. 새 버전을 저장하는 방법에 대한 자세한 내용은 [새 버전으로 저장](web-editor-features.md#save-as-new-version-id209ME400GXA)을 참조하십시오.
 
@@ -55,4 +55,4 @@ AEM Guides은 DITA 맵과 북맵이라는 두 가지 기본 맵 템플릿을 제
    > 고급 맵 편집기를 사용하려면 웹 편집기에서 맵 파일에 액세스합니다. 관리자가 고급 맵 편집기를 맵 파일의 기본 편집기로 구성한 경우 맵 파일은 편집을 위해 고급 맵 편집기에서 직접 열립니다. Adobe Experience Manager Guides as a Cloud Service 설치 및 구성에서 *고급 맵 편집기를 기본값으로 설정* 섹션을 참조하십시오.
 
 
-**상위 항목:**&#x200B;[&#x200B;맵 편집기 작업](map-editor.md)
+**상위 항목:**[&#x200B;맵 편집기 작업](map-editor.md)

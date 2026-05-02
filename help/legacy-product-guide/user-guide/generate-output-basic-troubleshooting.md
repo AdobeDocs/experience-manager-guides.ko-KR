@@ -5,7 +5,7 @@ feature: Publishing, Troubleshooting
 role: User
 hide: true
 exl-id: f85fee0f-30d1-453f-8700-781e0be8f616
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%
@@ -24,7 +24,7 @@ AEM Guides으로 작업하는 동안 문서를 게시하거나 여는 동안 오
 
    **생성된 출력**&#x200B;의 **일반** 열은 출력 생성의 성공 또는 실패에 대한 시각적 단서를 제공하는 아이콘을 표시합니다.
 
-   ![](images/output-general-settings.png){width="300" align="left"}
+   ![](images/output-general-settings.png){width="300"}
 
    위의 스크린샷에서 첫 번째 및 세 번째 아이콘은 실패한 출력 생성을 보여 줍니다. 두 번째 아이콘은 메시지가 있는 성공적인 출력 생성을 보여 줍니다. 마지막은 메시지가 없는 성공적인 출력 생성입니다.
 
@@ -32,7 +32,7 @@ AEM Guides으로 작업하는 동안 문서를 게시하거나 여는 동안 오
 
    로그 파일이 새 탭에서 열립니다.
 
-   ![](images/log-file.png){width="800" align="left"}
+   ![](images/log-file.png){width="800"}
 
 1. 다음 필터를 적용하여 로그 파일의 텍스트를 강조 표시합니다.
    - 치명적: 로그 파일의 치명적인 오류를 분홍색으로 강조 표시합니다.
@@ -66,13 +66,13 @@ AEM Guides으로 작업하는 동안 문서를 게시하거나 여는 동안 오
 
    다음 샘플 로그 파일 코드 조각에서는 오류 원인과 함께 `BUILD FAILED` 메시지를 볼 수 있습니다.
 
-   ![](images/dita-error-in-log-file.png){width="650" align="left"}
+   ![](images/dita-error-in-log-file.png){width="650"}
 
    - *AEM Guides 관련 오류*: 로그 파일에서 식별할 수 있는 다른 유형의 오류는 AEM Guides 프로세스 자체와 관련되어 있습니다. 이 경우 DITA 맵 파일을 구문 분석했지만 AEM Guides의 내부 오류로 인해 출력 생성 프로세스가 실패합니다. 이러한 오류의 경우 기술 지원 팀에 도움을 요청해야 합니다.
 
    다음 샘플 로그 파일 코드 조각에서는 `BUILD SUCCESSFUL` 메시지와 다른 기술 오류를 볼 수 있습니다.
 
-   ![](images/process-error-in-log-file.png){width="650" align="left"}
+   ![](images/process-error-in-log-file.png){width="650"}
 
 
 ## JSP 컴파일 오류 해결
@@ -92,4 +92,4 @@ DITA 주제가 너무 큰 경우 브라우저에 JSP 컴파일 오류 \(`org.apa
 1. 요구 사항에 따라 *요청당 호출 수* 매개 변수의 값을 늘립니다.
 
 
-**상위 항목:**&#x200B;[&#x200B;출력 생성](generate-output.md)
+**상위 항목:**[&#x200B;출력 생성](generate-output.md)

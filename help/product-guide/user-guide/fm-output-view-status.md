@@ -4,9 +4,9 @@ description: FrameMaker 문서의 출력 생성 큐를 봅니다. 출력 생성 
 exl-id: c358f747-f0a5-4d9e-a96f-20f30663101f
 feature: Publishing FrameMaker Documents
 role: User
-source-git-commit: b78a34430476c15cadacb23d65bd978b3c25bd23
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '248'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ FrameMaker 문서에 대한 출력 생성 작업을 시작하면 Adobe Experienc
 
 1. 출력을 선택합니다.
 
-   ![](images/output-queued-fm.png){align="left"}
+   ![](images/output-queued-fm.png)
 
 1. [출력] 페이지는 두 부분으로 나뉩니다.
 
@@ -36,4 +36,4 @@ FrameMaker 문서에 대한 출력 생성 작업을 시작하면 Adobe Experienc
      이 목록에서 성공적으로 실행된 작업 또는 실패한 작업이 있을 수 있습니다. 성공적으로 완료된 작업의 경우 게시 프로세스는 생성된 위치 열에서 링크를 선택하여 액세스할 수 있는 로그 파일 \(logs.txt\)을 만듭니다.
 
 
-**상위 항목:**&#x200B;[&#x200B; FrameMaker 문서의 출력 생성](fm-output-generatation.md)
+**상위 항목:**[ FrameMaker 문서의 출력 생성](fm-output-generatation.md)

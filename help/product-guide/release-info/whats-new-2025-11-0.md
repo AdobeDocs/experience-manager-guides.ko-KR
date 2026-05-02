@@ -2,9 +2,10 @@
 title: 릴리스 정보 | Adobe Experience Manager Guides 2025.11.0 릴리스의 새로운 기능
 description: Adobe Experience Manager Guides 2025.11.0 릴리스의 새로운 기능과 향상된 기능에 대해 알아봅니다
 role: Leader
-source-git-commit: a13fdb36efb5cfb548f8e128977469763836537a
+exl-id: 270a5faa-a16f-4939-900e-3c6c54660d2c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '512'
 ht-degree: 3%
 
 ---
@@ -22,11 +23,11 @@ ht-degree: 3%
 
 이제 홈 페이지에서 바로 액세스할 수 있는 저장소는 폴더 및 파일의 검색 기능을 개선하기 위한 중앙 집중식 공간 역할을 합니다. 전용 **폴더 탐색 패널**&#x200B;과(와) 사용자 지정 가능한 **리포지토리 표 형식 보기**&#x200B;를 제공합니다. 향상된 검색 및 필터 환경을 통해 파일을 훨씬 쉽게 찾고 찾을 수 있습니다. 자세한 내용은 [저장소 인터페이스 정보](../user-guide/home-page-repository-view.md)를 참조하세요.
 
-![](assets/repository-view-home.png){align="left"}
+![](assets/repository-view-home.png)
 
 이제 편집기 내에서 파일에 대한 검색 및 필터 환경이 홈 페이지와 일치합니다. 편집기 인터페이스의 아래쪽에 있는 새 [검색 패널](../user-guide/search-panel-explorer.md)을 사용하여 검색 결과를 표시할 수 있습니다. 또한 편집기에서 저장소의 이름이 **탐색기**(으)로 변경되어 이전과 같이 폴더 및 파일을 검색할 수 있습니다.
 
-![](assets/search-panel-explorer.png){align="left"}
+![](assets/search-panel-explorer.png)
 
 
 ## AI Assistant의 스마트 제안에 대한 색인화 개선
@@ -56,7 +57,3 @@ ht-degree: 3%
 `/content/dam`의 자산을 최신 상태로 유지하기 위해 자동화된 프로세스가 도입되었습니다. 시스템이 15분마다 자산 재처리를 트리거합니다. 각 주기 동안 가장 최근 15분 간격 내에 새로 추가되거나 처리되지 않은 상태로 유지된 에셋이 선택되어 재처리되므로 콘텐츠 저장소 전반에서 효율성과 일관성이 향상됩니다.
 
 자세한 내용은 [자산 처리](../user-guide/asset-processor.md)를 참조하세요.
-
-
-
-

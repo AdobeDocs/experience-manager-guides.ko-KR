@@ -5,10 +5,10 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: 67f7ff26-fbc7-426c-aa7d-9bf4debf05d8
-source-git-commit: 4c564a0ffaa8f287bcaf012634d49dbf1e0682b4
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 1%
+source-wordcount: '705'
+ht-degree: 0%
 
 ---
 
@@ -41,14 +41,14 @@ ht-degree: 1%
    1. Cloud Manager의 왼쪽 패널에서 **저장소**(으)로 이동합니다.
    2. **저장소 정보 액세스**&#x200B;를 선택하고 git clone 명령을 복사합니다.
 
-      ![저장소 정보 액세스 선택](/help/product-guide/knowledge-base/kb-articles/assets/publishing/access-repo.png){width="350" align="left"}
+      ![저장소 정보 액세스 선택](/help/product-guide/knowledge-base/kb-articles/assets/publishing/access-repo.png){width="350"}
 
    3. 제공된 사용자 이름과 암호를 사용하여 로컬 시스템에 저장소를 복제합니다(필요한 경우 암호 생성).
 2. **Maven 번들에 패키지 추가:**
    1. 로컬로 복제된 저장소에서 새 Maven 번들을 생성하거나 기존 번들에 추가합니다.
    2. Maven 프로젝트에 `/jcr_root/apps/fmdita/` 설치 구조가 있는지 확인하십시오.
 
-      Maven 프로젝트의 ![구조](/help/product-guide/knowledge-base/kb-articles/assets/publishing/maven-structure.png){width="650" align="left"}
+      Maven 프로젝트의 ![구조](/help/product-guide/knowledge-base/kb-articles/assets/publishing/maven-structure.png){width="650"}
 
 
    3. 다운로드한 guides-components.all-1.x.x.zip 파일을 설치 폴더에 넣습니다.
@@ -59,7 +59,7 @@ ht-degree: 1%
    2. 필터 루트=`/apps/fmdita` 모드=`merge`/
 
 
-      ![필터 추가](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-filter-xml.png){width="650" align="left"}
+      ![필터 추가](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-filter-xml.png){width="650"}
 
 
 4. **pom.xml 구성:** 환경 요구 사항에 따라 pom.xml 파일을 업데이트합니다.
@@ -77,7 +77,7 @@ ht-degree: 1%
 2. **템플릿 선택:** **AEMG 문서 1.x.x**&#x200B;을 선택한 후 **다음**&#x200B;을 선택합니다.
 3. **사이트 세부 정보 입력:** **사이트 제목** 및 **사이트 이름**&#x200B;을 입력하십시오.
 
-   ![사이트 만들기](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-site.png){width="350" align="left"}
+   ![사이트 만들기](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-site.png){width="350"}
 
 4. **만들기**&#x200B;를 선택합니다.
 
@@ -90,7 +90,7 @@ ht-degree: 1%
    4. 사전 설정의 이름을 입력합니다.
    5. **기존 구성 요소 매핑 사용** 설정을 선택 취소합니다.
 
-      ![새 AEM 사이트 사전 설정 만들기](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-output-preset.png){width="350" align="left"}
+      ![새 AEM 사이트 사전 설정 만들기](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-output-preset.png){width="350"}
 
    6. **추가**&#x200B;를 선택하여 사전 설정을 만드십시오.
 2. **AEM 사이트 사전 설정 구성:** 기본 제공(OOTB) 사이트를 구성하는 두 가지 옵션이 있습니다.
@@ -102,14 +102,14 @@ ht-degree: 1%
       - 게시 경로: `/content/AEMG-Docs-Site/en/docs/product`
       - 주제 페이지 템플릿: 주제 페이지
 
-      ![사이트 드롭다운을 사용하여 AEM 사이트 구성](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown-cs.png){width="350" align="left"}
+      ![사이트 드롭다운을 사용하여 AEM 사이트 구성](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown-cs.png){width="350"}
 
    **옵션 2: 사이트 경로 사용**
 
    1. **사이트 경로**&#x200B;을(를) 수동으로 `/content/AEMG-Docs-Site/en/docs/product`(으)로 설정하십시오.
    2. **주제 페이지** 템플릿이 자동으로 주제 페이지로 설정되어 있는지 확인하십시오.
 
-      ![사이트 경로를 사용하여 AEM 사이트를 구성하십시오](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path-cs.png){width="650" align="left"}
+      ![사이트 경로를 사용하여 AEM 사이트를 구성하십시오](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path-cs.png){width="650"}
 
 3. **사전 설정 저장:** 사전 설정 변경 내용을 저장합니다.
 
@@ -123,15 +123,15 @@ ht-degree: 1%
    2. OOTB 사이트 구조 아래에 새 제품 페이지를 만듭니다.
    3. **AEMG 문서** > **영어** > **문서**(으)로 이동합니다.
 
-      ![페이지 제작](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-page-cs.png){width="650" align="left"}
+      ![페이지 제작](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-page-cs.png){width="650"}
 
    4. **홈 페이지** 타일을 선택한 다음 **다음**&#x200B;을 선택합니다.
 
-      ![홈 타일 선택](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-tile-cs.png){width="650" align="left"}
+      ![홈 타일 선택](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-tile-cs.png){width="650"}
 
    5. 페이지의 **제목** 및 **이름**&#x200B;을 입력하십시오.
    6. **만들기**&#x200B;를 선택합니다.
 
 >[!NOTE]
 >
-> 프로덕션에 배포하기 전에 모든 구성을 비프로덕션 환경에서 테스트하십시오. <br><br> 자세한 내용은 공식 [AEM as a Cloud Service에 배포](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/deploying/overview)를 참조하십시오.
+> 프로덕션에 배포하기 전에 모든 구성을 비프로덕션 환경에서 테스트하십시오. <br><br> 자세한 내용은 공식 [AEM as a Cloud Service에 배포 설명서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview)를 참조하십시오.

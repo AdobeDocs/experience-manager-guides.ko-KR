@@ -4,9 +4,9 @@ description: Adobe Experience Manager Guides 4.2.1 릴리스의 새로운 기능
 exl-id: 441aa7ec-d88c-42cb-83f0-d0f6e58bfa41
 feature: What's New
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '706'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 0%
 
 이제 웹 편집기에서 AEM 탐색 페이지로 쉽게 이동할 수 있습니다.
 
-![](assets/web-editor-launch-page.png){width="800" align="left"}
+![](assets/web-editor-launch-page.png){width="800"}
 
-* AEM 탐색 페이지로 돌아가려면 **안내서** 아이콘(![](assets/aem-guides-icon.png))을 클릭하십시오.
+* **안내서** 아이콘(![](assets/aem-guides-icon.png))을 클릭하여 AEM 탐색 페이지로 돌아갑니다.
 
 
 자세한 내용은 [AEM 탐색 페이지](../user-guide/web-editor-launch-editor.md#id2056BG00RZJ)를 참조하십시오.
@@ -65,7 +65,7 @@ CSV를 생성하여 DITA 맵에 사용된 멀티미디어의 현재 스냅샷을
 
 ## 기본 PDF | 목차에서 변경된 주제를 나타내도록 막대 변경
 
-이제 AEM Guides을 통해 PDF 출력의 TOC에서 변경된 주제를 빠르게 식별할 수 있습니다.  목차에서 변경된 주제 왼쪽에 변경 막대가 표시됩니다. 목차에서 항목을 클릭하고 자세한 변경 내용을 볼 수 있습니다.
+이제 AEM Guides을 사용하여 PDF 출력의 TOC에서 변경된 주제를 빠르게 식별할 수 있습니다.  목차에서 변경된 주제 왼쪽에 변경 막대가 표시됩니다. 목차에서 항목을 클릭하고 자세한 변경 내용을 볼 수 있습니다.
 
 <img src="assets/change-marker-toc.png" alt="목차의 마커 변경 " width="500">
 

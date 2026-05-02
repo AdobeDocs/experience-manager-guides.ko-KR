@@ -4,9 +4,9 @@ description: AEM Guides에서 검토 작업을 만들고 검토할 항목을 보
 exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 feature: Reviewing
 role: User
-source-git-commit: c36dbb3861f904bda1aee176fc5f4c0dd69b97dc
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '3135'
+source-wordcount: '3161'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Assets UI에서 작성자/게시자가 검토 작업을 만들 수 있는 방법
 
 1. 빠른 작업에서 **선택** 아이콘을 선택하고 검토를 위해 보낼 항목을 선택합니다.
 
-   ![](images/select-asset-62.png){width="300" align="left"}
+   ![](images/select-asset-62.png){width="300"}
 
 1. 도구 모음에서 **검토 작업 만들기**&#x200B;를 선택합니다. [검토 작업 생성] 페이지가 표시됩니다.
 
@@ -100,7 +100,7 @@ Assets UI에서 작성자/게시자가 검토 작업을 만들 수 있는 방법
 
    콘텐츠 페이지가 표시됩니다.
 
-   ![](images/content_page_review.png){align="left"}
+   ![](images/content_page_review.png)
 
 1. 컨텐트 페이지에서 검토를 위해 공유할 주제의 버전을 선택합니다.
 
@@ -121,7 +121,7 @@ Assets UI에서 작성자/게시자가 검토 작업을 만들 수 있는 방법
 
    검토자를 추가하거나 제거할 수 있는 검토자 페이지가 표시됩니다. 할당 대상 필드에 추가된 검토자는 기본적으로 검토를 위해 선택한 각 주제에 자동으로 추가됩니다.
 
-   ![](images/add-reviewers-topics.png){width="650" align="left"}
+   ![](images/add-reviewers-topics.png){width="650"}
 
 1. 검토자 페이지에서 검토자를 추가하거나 제거할 수 있습니다. 검토자 페이지에서 다음 작업을 사용할 수 있습니다.
 
@@ -219,7 +219,7 @@ Experience Manager Guides을 사용하면 DITA 맵에서 하나 이상의 주제
 
    맵 파일에서 참조된 모든 주제가 포함된 컨텐트 페이지가 표시됩니다. DITA 맵에 중첩된 맵이 포함된 경우 중첩된 맵의 항목도 여기에 나열됩니다.
 
-   ![](images/content-page-map-review.png){align="left"}
+   ![](images/content-page-map-review.png)
 
 1. 컨텐트 페이지에서 검토를 위해 공유할 주제의 버전을 선택합니다.
 
@@ -311,4 +311,4 @@ Experience Manager Guides을 사용하면 DITA 맵에서 하나 이상의 주제
 자세한 내용은 [검토 알림 이해](./review-understanding-review-notifications.md)를 참조하세요.
 
 
-**상위 항목:**&#x200B;[&#x200B;검토 소개](review.md)
+**상위 항목:**[&#x200B;검토 소개](review.md)

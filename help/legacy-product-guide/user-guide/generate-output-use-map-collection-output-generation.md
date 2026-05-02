@@ -1,11 +1,11 @@
 ---
 title: 출력 생성을 위해 맵 컬렉션 사용
-description: Learn how to create and delete a map collection and add or delete a DITA map. Configure, generate and cancel an output generation task from a map collection in AEM Guides.
+description: 맵 컬렉션을 만들고 삭제하고 DITA 맵을 추가하거나 삭제하는 방법에 대해 알아봅니다. AEM Guides의 맵 컬렉션에서 출력 생성 작업을 구성, 생성 및 취소합니다.
 feature: Publishing
 role: User
 hide: true
 exl-id: 4215618f-2203-4c55-adba-cdec76322e9e
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1211'
 ht-degree: 1%
@@ -14,34 +14,34 @@ ht-degree: 1%
 
 # 출력 생성을 위해 맵 컬렉션 사용 {#id1723F20G0HS}
 
-In any organization, a product can have multiple types of documentation. As a publishing specialist, you would like to control what output you want to generate for which document. Also, there should be a way to batch publish multiple documents with a single click.
+어느 조직에서나 제품에는 여러 유형의 설명서가 있을 수 있습니다. 게시 전문가는 어떤 문서에 대해 생성할 출력을 제어하려고 합니다. 또한 한 번의 클릭으로 여러 문서를 일괄 게시할 수 있는 방법이 있어야 합니다.
 
-AEM Guides provides you the ability to organize your content for publishing by using a dashboard called Map Collection. A Map Collection allows you to assemble all different types of documents in a single unit. You can choose what type of output you want to generate for each document in your Map Collection. In addition, you can also generate output and see the output generation progress from the publishing dashboard.
+AEM Guides에서는 맵 컬렉션이라는 대시보드를 사용하여 게시할 콘텐츠를 구성할 수 있습니다. 맵 컬렉션을 사용하면 서로 다른 모든 유형의 문서를 단일 단위로 조합할 수 있습니다. 맵 컬렉션의 각 문서에 대해 생성할 출력 유형을 선택할 수 있습니다. 또한 출력을 생성하고 게시 대시보드에서 출력 생성 진행 상황을 확인할 수도 있습니다.
 
-Map Collection gives you an option to view if there is any change in any map from the last published output. You can view the details in the Maps and Presets tab of your Map Collection and then republish the output if required. For more information, see Adding a map to a map collection.
+맵 컬렉션 은 마지막으로 게시된 출력에서 맵이 변경된 경우 볼 수 있는 옵션을 제공합니다. 맵 컬렉션의 맵 및 사전 설정 탭에서 세부 정보를 확인한 다음 필요한 경우 출력을 다시 게시할 수 있습니다. 자세한 내용은 맵 컬렉션에 맵 추가 를 참조하십시오.
 
-## Create a map collection and add DITA maps
+## 맵 컬렉션 만들기 및 DITA 맵 추가
 
-To create a Map Collection and add DITA maps to the collection, perform the following steps:
+맵 컬렉션을 만들고 DITA 맵을 컬렉션에 추가하려면 다음 단계를 수행하십시오.
 
-1. On the Assets UI, click **Map Collections**.
+1. Assets UI에서 **컬렉션 매핑**&#x200B;을 클릭합니다.
 
-   If the Map Collections link is not available, then select the **Navigation** option in the left rail, and then click **Map Collections**.
+   컬렉션 매핑 링크를 사용할 수 없는 경우 왼쪽 레일에서 **탐색** 옵션을 선택한 다음 **컬렉션 매핑**&#x200B;을 클릭합니다.
 
-   ![](images/access-map-collection-left-rail.png){width="350" align="left"}
+   ![](images/access-map-collection-left-rail.png){width="350"}
 
-1. Enter a Title for your map collection.
+1. 맵 컬렉션의 제목 을 입력합니다.
 1. **만들기**&#x200B;를 클릭합니다.
 
-   A Success message is displayed on creation of the map collection.
+   맵 컬렉션을 만들면 성공 메시지가 표시됩니다.
 
-1. Click **Close** on the Success message.
+1. 성공 메시지에서 **닫기**&#x200B;를 클릭합니다.
 
-   The newly created map file is shown on the Map Collections page.
+   새로 생성된 맵 파일은 [맵 컬렉션] 페이지에 표시됩니다.
 
-1. Click the gray box in the tile of the collection that you want to edit.
-1. Click **Edit** and then click **Add Maps**.
-1. Locate and add the DITA maps that you want to add to the Map Collection.
+1. 편집할 컬렉션의 타일에서 회색 상자를 클릭합니다.
+1. **편집**&#x200B;을 클릭한 다음 **맵 추가**&#x200B;를 클릭합니다.
+1. 맵 컬렉션에 추가할 DITA 맵을 찾아 추가합니다.
 
    기본적으로 맵과 연결된 모든 사전 설정 및 로케일이 자동으로 추가됩니다.
 
@@ -50,7 +50,7 @@ To create a Map Collection and add DITA maps to the collection, perform the foll
 
    DITA 맵 파일이 맵 컬렉션에 추가됩니다.
 
-   ![맵 컬렉션 대시보드](./images/map-collection-dashboard.png){width="800" align="left"}
+   ![맵 컬렉션 대시보드](./images/map-collection-dashboard.png){width="800"}
 
 다음 필터링 옵션 및 맵 세부 사항이 컬렉션 페이지에 표시됩니다.
 
@@ -88,8 +88,8 @@ To create a Map Collection and add DITA maps to the collection, perform the foll
 
    - 개별 사전 설정을 활성화합니다.
    - DITA 맵에 대해 **모든 사전 설정**&#x200B;을 활성화하여 한 번에 모든 사전 설정을 선택합니다. 이 옵션은 기본적으로 비활성화되어 있습니다.
-   - DITA 맵에 대해 **폴더 프로필 사전 설정**&#x200B;을 활성화하여 모든 폴더 프로필 사전 설정을 선택합니다. 이 옵션은 기본적으로 비활성화되어 있습니다.
-     ![클라우드 서비스에서 맵 컬렉션 편집](images/edit-map-collection-cs.png){width="800" align="left"}
+   - DITA 맵에 대해 **폴더 프로필 사전 설정**을 활성화하여 모든 폴더 프로필 사전 설정을 선택합니다. 이 옵션은 기본적으로 비활성화되어 있습니다.
+     ![클라우드 서비스에서 맵 컬렉션 편집](images/edit-map-collection-cs.png){width="800"}
 
 
 
@@ -106,7 +106,7 @@ To create a Map Collection and add DITA maps to the collection, perform the foll
 
 맵 컬렉션에서 DITA 맵에 대한 메타데이터 속성을 일괄적으로 구성할 수 있습니다. **메타데이터 구성**&#x200B;을 선택하여 **자산 메타데이터** 페이지를 엽니다. **자산 메타데이터** 페이지에서 컬렉션에 있는 모든 맵이 왼쪽에 나열됩니다.
 
-![메타데이터 구성](images/map-collection-asset-metadata.png){width="800" align="left"}
+![메타데이터 구성](images/map-collection-asset-metadata.png){width="800"}
 
 메타데이터 속성을 구성하려면 다음 단계를 수행하십시오.
 
@@ -118,7 +118,7 @@ To create a Map Collection and add DITA maps to the collection, perform the foll
 
 1. 업데이트를 저장하려면 맨 위에 있는 **저장 및 닫기**&#x200B;를 클릭합니다.
 1. (선택 사항) 태그를 업데이트할 때 **저장 및 닫기** 드롭다운에서 추가를 선택하여 새 태그를 기존 목록에 추가할 수도 있습니다.
-1. **저장 및 닫기** 드롭다운에서 **제출**&#x200B;을 클릭합니다.
+1. **저장 및 닫기** 드롭다운에서 **제출**을 클릭합니다.
 맵 컬렉션에서 일괄 선택하는 DITA 맵에 대해 메타데이터 속성이 업데이트됩니다.
 
 >[!NOTE]
@@ -141,6 +141,6 @@ To create a Map Collection and add DITA maps to the collection, perform the foll
 
 [DITA 맵 콘솔](generate-output-for-a-dita-map.md#id2061H100T5Z) 또는 [대시보드 게시](generate-output-publish-dashboard.md#)에서 출력 생성 작업을 취소하는 방법과 마찬가지로 맵 컬렉션에서 출력 생성 작업을 취소할 수 있습니다. 맵 컬렉션의 출력 탭에 액세스하여 취소할 게시 작업으로 이동한 다음 **이 작업 취소** 아이콘을 클릭하여 게시 작업을 취소합니다.
 
-![](images/cancel-publish-task-map-collection.png){width="800" align="left"}
+![](images/cancel-publish-task-map-collection.png){width="800"}
 
-**상위 항목:**&#x200B;[&#x200B;출력 생성](generate-output.md)
+**상위 항목:**[&#x200B;출력 생성](generate-output.md)

@@ -5,9 +5,9 @@ feature: Authoring
 role: Admin
 level: Experienced
 exl-id: dc26ae48-c953-492c-823a-5f65157b6902
-source-git-commit: dedd253dba3d93beed162eb5258125928f6d315c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '1666'
 ht-degree: 0%
 
 ---
@@ -24,16 +24,16 @@ ht-degree: 0%
 
    저장소 패널에서 새 폴더를 만들 수 있습니다.
 
-   ![](assets/create-new-folder.png){width="350" align="left"}
+   ![](assets/create-new-folder.png){width="350"}
 2. **번역을 관리할 언어 폴더를 만듭니다**: 콘텐츠를 다른 언어로 번역하려면 각 언어에 해당하는 폴더를 만들어야 합니다. 이러한 각 언어 폴더에는 해당 언어에 해당하는 콘텐츠가 포함됩니다.
 
 3. **Assets을 관리할 폴더를 만드십시오**: 폴더와 마찬가지로 부서마다 다른 요구 사항에 맞게 다른 Assets 폴더를 만들 수도 있습니다. 이렇게 하면 작성자와 게시자가 템플릿, 이미지 및 기타 에셋에 구성된 올바른 CSS에 액세스할 수도 있습니다.
 
-   ![](assets/configure-assets-folder.png){width="350" align="left"}
+   ![](assets/configure-assets-folder.png){width="350"}
 4. 다른 폴더를 매핑하려면 [폴더 프로필을 만듭니다](../cs-install-guide/conf-folder-level.md#create-and-configure-a-folder-level-profile).
 5. **구성할 폴더 프로필 선택**: 폴더 프로필이 만들어지면 [사용자 환경 설정](../user-guide/intro-home-page.md#user-preferences) 페이지에서 폴더 프로필을 선택하여 작성자와 게시자가 올바른 템플릿에 액세스할 수 있도록 해야 합니다.
 
-   ![](assets/folder-profile.png){width="650" align="left"}
+   ![](assets/folder-profile.png){width="650"}
 
 6. **폴더 프로필 설정 구성**: 학습 및 교육 컨텐츠의 경우 폴더 수준에서 다음 설정을 구성할 수 있습니다.
    - [일반](#general)
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 일반 탭에서 제품 교육 및 학습 콘텐츠 기능과 관련된 다음 설정을 구성할 수 있습니다.
 
-![](assets/lc-config-settings-general.png){width="350" align="left"}
+![](assets/lc-config-settings-general.png){width="350"}
 
 - **학습 콘텐츠**: **학습 콘텐츠 활성화** 전환을 사용하여 폴더 프로필 수준에서 기능을 활성화하거나 비활성화합니다.
 - **HTML 편집기**: 이 설정을 사용하면 HTML 기반 작성에 대한 편집기를 구성할 수 있습니다. 이 설정에 있는 주요 구성 옵션은 다음과 같습니다.
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 학습 및 교육 콘텐츠의 경우, 편집기 및 맵 콘솔에 대해 다음 기능만 활성화되어야 합니다.
 
-![](assets/panels-settings.png){width="350" align="left"}
+![](assets/panels-settings.png){width="350"}
 
 
 ### 편집기
@@ -120,11 +120,11 @@ ht-degree: 0%
 
 이 설정을 사용하면 편집기의 [왼쪽 패널](../user-guide/web-editor-left-panel.md)에 있는 작성 및 게시 템플릿을 관리할 수 있습니다. 작성 및 출력 템플릿을 추가, 제거 또는 재정렬하여 작성자 및 게시자가 액세스할 수 있습니다.
 
-![](assets/templates-settings.png){width="350" align="left"}
+![](assets/templates-settings.png){width="350"}
 
 작성 템플릿은 학습 과정, 학습 컨텐츠, 퀴즈 및 질문 은행의 네 가지 범주로 사용할 수 있습니다. 인스턴스에 사전 정의된 템플릿이 구성되어 있는 경우 기본적으로 표시됩니다.
 
-![](assets/templates-list.png){width="350" align="left"}
+![](assets/templates-list.png){width="350"}
 
 ### 템플릿 추가
 
@@ -134,13 +134,13 @@ ht-degree: 0%
 2. 경로 선택 대화 상자에서 원하는 템플릿을 선택합니다.
 3. **선택**&#x200B;을 선택하세요.
 
-   ![](assets/add-templates.png){width="350" align="left"}
+   ![](assets/add-templates.png){width="350"}
 
 템플릿이 설정 패널의 각 카테고리에 추가됩니다.
 
 마찬가지로 다른 작성 및 출력 템플릿을 추가할 수 있습니다. 이 템플릿을 추가하면 작성자 및 게시자는 해당 과정 대화 상자에서 해당 템플릿을 사용할 수 있습니다. 예를 들어 관리자가 추가한 학습 과정 템플릿은 작성자가 새 과정을 만들 때 사용할 수 있습니다.
 
-![](assets/templates-added-course.png){width="350" align="left"}
+![](assets/templates-added-course.png){width="350"}
 
 ### 새로운 작성 및 출력 템플릿 작업
 
@@ -152,7 +152,7 @@ ht-degree: 0%
 
 자세한 내용은 [편집기에서 사용자 지정된 템플릿 만들기](../user-guide/create-maps-customized-templates.md)를 참조하세요.
 
-![](assets/authoring-templates-editor.png){width="350" align="left"}
+![](assets/authoring-templates-editor.png){width="350"}
 
 **새 출력 템플릿 만들기**
 
@@ -162,17 +162,17 @@ ht-degree: 0%
 
    [출력 템플릿] 패널이 표시됩니다.
 
-   ![](assets/output-templates-editor.png){width="350" height="" align="left"}
+   ![](assets/output-templates-editor.png){width="350" height=""}
 2. [출력 템플릿] 패널에서 (+)를 선택하여 새 출력 템플릿을 만듭니다.
 
-   ![](assets/create-new-output-template.png){width="350" align="left"}
+   ![](assets/create-new-output-template.png){width="350"}
 3. 드롭다운 메뉴에서 출력 템플릿을 선택합니다.
 
 
-   ![](assets/output-template-types.png){width="650" align="left"}
+   ![](assets/output-template-types.png){width="650"}
 4. 선택한 출력 템플릿 유형에 따라 사용 가능한 템플릿을 기반으로 새 템플릿을 만들 수 있는 대화 상자가 표시됩니다.
 
-   ![](assets/new-scorm-template-dialog.png){width="350" align="left"}
+   ![](assets/new-scorm-template-dialog.png){width="350"}
 
 5. **만들기**&#x200B;를 선택합니다.
 
@@ -180,16 +180,16 @@ ht-degree: 0%
 
 6. 게시자용 출력 템플릿에 액세스하여 추가하려면 **설정** > **템플릿** > **출력 템플릿**&#x200B;으로 이동한 다음 **추가**&#x200B;를 선택합니다.
 
-   ![](assets/add-output-template-settings-panel.png){width="350" align="left"}
+   ![](assets/add-output-template-settings-panel.png){width="350"}
 
    출력 템플릿이 경로 선택 대화 상자에 표시됩니다.
 7. 템플릿을 선택하고 **확인**&#x200B;을 선택합니다.
 
-   ![](assets/select-scorm-template-dialog.png){width="350" align="left"}
+   ![](assets/select-scorm-template-dialog.png){width="350"}
 
    선택한 출력 템플릿이 이제 설정 패널에 추가됩니다.
 
-   ![](assets/scorm-template-added.png){width="350" align="left"}
+   ![](assets/scorm-template-added.png){width="350"}
 
 ### 템플릿 제거 또는 순서 바꾸기
 
@@ -197,11 +197,11 @@ ht-degree: 0%
 
 템플릿을 제거하려면 해당 템플릿 옆에 있는 **제거** 아이콘을 선택하십시오.
 
-![](assets/remove-teamplates.png){width="350" align="left"}
+![](assets/remove-teamplates.png){width="350"}
 
 범주 내에 있는 템플릿이 표시되는 순서를 정의할 수도 있습니다. 템플릿의 표시 순서를 변경하려면 점선 막대를 선택하고 템플릿을 원하는 위치로 드래그합니다.
 
-![](assets/reorder-templates.png){width="350" align="left"}
+![](assets/reorder-templates.png){width="350"}
 
 
 ## 출력 사전 설정 구성
@@ -212,15 +212,15 @@ ht-degree: 0%
 
 [출력 사전 설정] 탭에서는 과정을 게시하는 데 사용할 수 있는 출력 형식을 정의할 수 있습니다. 여기에는 **허용된 출력 사전 설정 유형** 및 **일반적인 출력 사전 설정**&#x200B;의 두 섹션이 포함되어 있습니다.
 
-![](assets/configure-course-output-presets.png){width="350" align="left"}
+![](assets/configure-course-output-presets.png){width="350"}
 
 - **허용되는 출력 사전 설정 유형**: 이 섹션에는 Experience Manager Guides 인스턴스에서 지원되는 모든 출력 사전 설정이 나열됩니다. 강의 게시의 경우 **SCORM** 및 **PDF** 형식만 적용할 수 있습니다. 하나 또는 두 옵션을 모두 선택할 수 있습니다. 선택한 사전 설정은 과정 출력을 생성할 때 게시자가 사용할 수 있습니다.
 
-  ![](assets/allowed-output-presets.png){width="350" align="left"}
+  ![](assets/allowed-output-presets.png){width="350"}
 
 - **일반적인 출력 사전 설정**: 이 섹션에는 게시자가 일반적으로 만들고 추가한 출력 사전 설정이 특정 폴더 프로필에 표시됩니다. 더 이상 필요하지 않은 사전 설정을 제거할 수도 있습니다.
 
-  ![](assets/common-output-presets.png){width="350" align="left"}
+  ![](assets/common-output-presets.png){width="350"}
 
 ## 게시 프로필 관리
 
@@ -230,4 +230,4 @@ ht-degree: 0%
 
 SCORM 클라우드에 대한 게시 프로필을 구성하려면 연결된 SCORM 클라우드 애플리케이션의 클라이언트 ID 및 클라이언트 암호와 함께 서버 세부 정보를 제공합니다.
 
-![](assets/configure-publish-profiles.png){width="350" align="left"}
+![](assets/configure-publish-profiles.png){width="350"}

@@ -3,9 +3,10 @@ title: 홈 페이지의 저장소
 description: 홈 페이지의 저장소에 대해 알아봅니다. 홈 페이지의 Adobe Experience Manager Guides에 있는 저장소 인터페이스 및 기능에 대해 알아봅니다.
 feature: Authoring
 role: User
-source-git-commit: e45343812a67c6755c76f1b31b68c7201cdd8772
+exl-id: 1466c263-d24b-4653-8361-098831002f4e
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1412'
+source-wordcount: '1423'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 이 통합 인터페이스는 강력한 필터링 옵션을 통해 새 파일 또는 폴더 만들기, 파일 편집, 에셋 업로드 및 파일 검색 등 여러 기능을 간소화하므로 효율성과 사용 편의성을 보장합니다.
 
-![](images/repository-view-home.png){align="left"}
+![](images/repository-view-home.png)
 
 저장소 인터페이스는 다음 섹션으로 나뉩니다.
 
@@ -27,16 +28,16 @@ ht-degree: 0%
 
 저장소 인터페이스 맨 위에 있는 저장소 탐색 모음을 사용하면 나열된 필수 작업에 빠르게 액세스할 수 있습니다.
 
-![](images/tab-bar-repository-view.png){align="left"}
+![](images/tab-bar-repository-view.png)
 
 
 - **폴더 탐색 패널**: 저장소 내의 폴더에 대한 계층적 트리 보기를 표시하여 원활한 탐색이 가능합니다. 이 패널에는 폴더 수준 정보만 표시됩니다. 여기에서 폴더를 선택하면 해당 컨텐츠, 파일 및 하위 폴더가 저장소 보기에 표시됩니다. 아래 강조 표시된 아이콘을 사용하여 이 패널을 표시하거나 숨길 수 있습니다.
 
-  ![](images/folder-navigation-panel.png){align="left"}
+  ![](images/folder-navigation-panel.png)
 
 - **탐색 표시**: 저장소 내의 현재 경로를 나타내며 현재 폴더로 이어지는 폴더의 계층 구조를 표시합니다. 계층 내 특정 폴더로 돌아가도록 선택할 수 있습니다.
 
-  ![](images/breadcrumbs.png){width="650" align="left"}
+  ![](images/breadcrumbs.png){width="650"}
 
 - **새로 고침**: 최신 변경 내용을 반영하도록 저장소를 업데이트합니다.
 - **Assets 업로드**: 이동 경로에서 강조 표시된 대로 자산을 현재 폴더에 직접 업로드할 수 있습니다.
@@ -55,7 +56,7 @@ ht-degree: 0%
 
 - **사용자 지정**: 저장소 보기의 오른쪽 상단 모서리에 있는 **사용자 지정** 옵션을 사용하여 표시되는 열을 수정할 수 있습니다. 이 옵션을 사용하면 열을 표시하거나 숨기고 필요에 따라 열을 다시 정렬할 수 있습니다. **Name** 또는 **Title** 열은 필수이므로 둘 다 함께 비활성화할 수 없습니다. 필요에 따라 **파일 형식**, **UUID**, **문서 상태**, **잠근 사용자**, **만든 날짜**, **수정한 날짜** 등의 다른 필드를 활성화하거나 비활성화할 수 있습니다. 끌어서 놓기만 하면 다시 정렬할 수 있습니다.
 
-  ![](images/customize-repo-view.png){width="350" align="left"}
+  ![](images/customize-repo-view.png){width="350"}
 
 - **열 크기 조정**: 열 드롭다운 메뉴에서 옵션을 선택하여 열 크기를 조정할 수 있습니다.
 
@@ -67,11 +68,11 @@ ht-degree: 0%
    - 확인란을 사용하여 원하는 파일을 선택하면 저장소 보기의 오른쪽 상단 모서리에서 **편집** 옵션을 사용할 수 있습니다.
    - **편집**&#x200B;을 선택하면 선택한 파일이 편집기 인터페이스에서 열리고 파일 편집을 시작할 수 있습니다.
 
-     ![](images/edit-repo-view.png){align="left"}
+     ![](images/edit-repo-view.png)
 
 - **폴더의 옵션 메뉴**: 폴더에 사용할 수 있는 **옵션** 메뉴를 사용하여 다음 작업을 수행할 수 있습니다.
 
-  ![](images/options-folder-repo.png){width="350" align="left"}
+  ![](images/options-folder-repo.png){width="350"}
 
    - **새로 만들기**: 새 DITA 주제, DITA 맵 또는 폴더를 만듭니다.
    - **Assets 업로드**: 로컬 시스템에서 저장소의 선택한 폴더로 파일을 업로드합니다.
@@ -80,7 +81,7 @@ ht-degree: 0%
 
 - **파일에 대한 옵션 메뉴**: 파일에 대한 **옵션** 메뉴를 사용하여 다음 작업을 수행할 수 있습니다.
 
-  ![](images/options-file-repo-new.png){width="350" align="left"}
+  ![](images/options-file-repo-new.png){width="350"}
 
    - **편집**: 편집할 파일을 엽니다.
    - **산소에서 편집**: Oxygen 커넥터 플러그인에서 선택한 파일을 편집하려면 이 옵션을 선택하십시오.
@@ -107,11 +108,11 @@ ht-degree: 0%
 
 **검색** 옵션은 주로 **파일 제목**, **파일 이름** 및 **컨텐츠**&#x200B;를 기반으로 저장소에서 필요한 파일을 검색하는 데 도움이 됩니다. 하나, 둘 또는 세 가지 기준을 모두 사용하여 검색할 수 있습니다. 기준을 선택하지 않으면 세 가지 기준 모두에 공통되는 결과가 포함됩니다.
 
-![](images/search-in-repository.png){align="left"}
+![](images/search-in-repository.png)
 
 **필터 검색** \(![검색 필터 아이콘](images/filter-search-icon.svg)\) 아이콘을 선택하여 오른쪽에 있는 필터 패널을 엽니다.
 
-![](images/Search-filters-repo.png){align="left"}
+![](images/Search-filters-repo.png)
 
 다음과 같은 옵션을 사용하여 파일을 필터링하고 검색 범위를 좁힐 수 있습니다.
 
@@ -119,7 +120,7 @@ ht-degree: 0%
 
 - **파일 형식**: 특정 파일 형식을 기준으로 검색을 필터링합니다. 사용 가능한 옵션은 **주제**, **맵**, **DITAVAL**, **이미지**, **멀티미디어**, **문서** 및 **기타**&#x200B;입니다.
 
-- **문서 상태**: 파일의 현재 문서 상태를 기준으로 검색을 필터링할 수 있습니다. 사용 가능한 필터 값은 `repositoryFilters`의 `ui_config.json file` 필드에 정의되어 있으며 현재 사용 중인 폴더 프로필과 연결되어 있습니다.
+- **문서 상태**: 파일의 현재 문서 상태를 기준으로 검색을 필터링할 수 있습니다. 사용 가능한 필터 값은 `ui_config.json file`의 `repositoryFilters` 필드에 정의되어 있으며 현재 사용 중인 폴더 프로필과 연결되어 있습니다.
 
   이것은 다음을 의미합니다.
 
@@ -143,15 +144,14 @@ ht-degree: 0%
 
 선택한 필터에 따라 사용자 지정된 검색 결과는 **파일 테이블 형식 목록**&#x200B;으로만 표시됩니다(폴더는 표시되지 않음). 필터를 개별적으로 제거하거나 여러 필터를 동시에 제거할 수 있으며, 결과가 새로 고침되어 업데이트된 선택 사항이 반영됩니다.
 
-![](images/search-results-with-filters.png){align="left"}
+![](images/search-results-with-filters.png)
 
 검색 결과가 나타나면 파일을 여러 번 선택하여 **편집** 아이콘을 사용하여 편집기에서 열거나 **검색 패널에 표시** 옵션을 통해 검색 결과를 편집기로 보내 모든 결과를 사용할 수 있습니다.
 
-![](images/post-search-operation.png){align="left"}
+![](images/post-search-operation.png)
 
 **검색 패널에 표시**
 
 저장소에서 검색을 수행한 후 **검색 패널에 표시** 옵션을 사용할 수 있습니다. 이 기능을 사용하면 편집기 내의 **검색 패널**&#x200B;에 검색된 모든 결과를 표시할 수 있습니다. 자세한 내용은 [검색 패널](./search-panel-explorer.md)을 참조하세요.
 
-![](images/search-panel-repo.png){align="left"}
-
+![](images/search-panel-repo.png)

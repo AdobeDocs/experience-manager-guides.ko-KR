@@ -4,9 +4,9 @@ description: Adobe Experience Manager Guides에서 맵을 게시하고 관리할
 feature: Publishing
 role: User
 exl-id: b273b1ae-fbb2-4b35-abce-0df78eeb2e11
-source-git-commit: e14b19ff7c128899b4536d5b8c4290c476991bef
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '773'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 Adobe Experience Manager Guides은 모든 맵 관리 및 게시 작업을 간소화하기 위해 전용 콘솔(**맵 콘솔**)을 제공합니다. 이 중앙 집중식 인터페이스는 출력을 생성하고, 콘텐츠를 번역하고, 보고서에 액세스하는 등의 옵션을 한 곳에서 제공하여 맵 관련 활동의 생산성과 정확성을 향상시킵니다.
 
-![파일 속성 옵션 탭](./images/map-console-screen.png){align="left"}
+![파일 속성 옵션 탭](./images/map-console-screen.png)
 
 맵 콘솔 인터페이스는 주로 **탐색 모음** 및 **왼쪽 패널** 섹션으로 나뉩니다.
 
-![새로 만들기](images/map-console-sections.png){align="left"}
+![새로 만들기](images/map-console-sections.png)
 
 - (**A**) **탐색 모음**: 탐색 모음은 탐색을 전환하고 페이지 보기를 조정하며 선택한 맵 파일의 이름을 표시하는 도구를 표시합니다.
 

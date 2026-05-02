@@ -5,7 +5,7 @@ feature: Publishing, Bulk Activation
 role: User
 hide: true
 exl-id: a15ee164-ec60-483e-8760-b1c290625415
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 2%
@@ -43,11 +43,11 @@ AEM Site, PDF, Native PDF, HTML5, Custom 및 JSON 출력과 같은 다양한 유
 
 1. **삭제**&#x200B;를 클릭합니다.
 
-   ![](images/bulk-activation-delete-map.png){width="600" align="left"}
+   ![](images/bulk-activation-delete-map.png){width="600"}
 
    선택한 맵이 벌크 활성화 맵 컬렉션에서 제거됩니다.
 
 1. **완료**&#x200B;를 클릭합니다.
 
 
-**상위 항목:**&#x200B;[&#x200B;게시된 콘텐츠의 일괄 활성화](conf-bulk-activation.md)
+**상위 항목:**[&#x200B;게시된 콘텐츠의 일괄 활성화](conf-bulk-activation.md)

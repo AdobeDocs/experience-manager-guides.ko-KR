@@ -5,7 +5,7 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: 3e43206b-c1a3-43ba-a4e5-c45c68c8b941
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
    >
    > 검토자는 재할당할 권한이 있어야 하며 사용자 관리자 그룹의 일부여야 합니다.
 
-   ![](images/reassign-user-inbox.png){width="800" align="left"}
+   ![](images/reassign-user-inbox.png){width="800"}
 
 1. **다시 할당**&#x200B;을 선택합니다.
 
@@ -39,4 +39,4 @@ ht-degree: 0%
 
 할당된 검토자는 다시 할당된 검토 작업에 대한 알림을 받은 편지함에 받게 됩니다.
 
-**상위 항목:**&#x200B;[&#x200B;항목 또는 맵 검토](review.md)
+**상위 항목:**[&#x200B;항목 또는 맵 검토](review.md)

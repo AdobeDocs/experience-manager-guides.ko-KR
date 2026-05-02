@@ -4,10 +4,10 @@ description: AEM Guides에서 인용을 추가하고 관리합니다. 인용을 
 exl-id: 685d747d-e017-4350-a6bf-822fd55c76e8
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1923'
-ht-degree: 0%
+source-wordcount: '1932'
+ht-degree: 1%
 
 ---
 
@@ -36,7 +36,7 @@ Experience Manager Guides은 MLA(Modern Language Association), APA(American Psyc
 
    **인용** 패널이 열립니다.
 
-   ![](images/citation-panel.png){width="350" align="left"}
+   ![](images/citation-panel.png){width="350"}
 
 1. **인용** 패널에서 ![아이콘 추가](images/Add_icon.svg)를 선택합니다. 드롭다운에서 새 인용을 추가하거나 인용을 가져오도록 선택할 수 있습니다.
 
@@ -44,7 +44,7 @@ Experience Manager Guides은 MLA(Modern Language Association), APA(American Psyc
 
    **인용 추가** 대화 상자가 열립니다.
 
-   웹 편집기의 ![인용 패널](images/citation-add.png) {width="300" align="left"}
+   웹 편집기의 ![인용 패널](images/citation-add.png) {width="300"}
 
 
 1. **인용 추가** 대화 상자의 필드를 채웁니다.
@@ -56,7 +56,7 @@ Experience Manager Guides은 MLA(Modern Language Association), APA(American Psyc
    | 책 | 웹 사이트 | 저널 |
    | --- | ---|---|
    | **Source** <br> 드롭다운에서 장부로 인용의 출처를 선택합니다. | **Source**<br>&#x200B;드롭다운에서 웹 사이트로 인용의 출처를 선택합니다. | **Source** <br> 드롭다운에서 인용의 출처를 저널로 선택합니다. |
-   | **검색 기준** <br> 드롭다운에서 **ISBN** 또는 **DOI**&#x200B;을(를) 선택하여 인용에 연결된 디지털 ID를 검색합니다.  <br> DOI: 디지털 개체 식별자 <br> ISBN: 고유한 숫자 책 식별자 | **검색 기준** <br> 드롭다운에서 **DOI**&#x200B;를 선택하여 인용에 연결된 디지털 ID를 검색합니다. | **검색 기준** <ul><li>드롭다운에서 **DOI** 또는 **PubMed ID**&#x200B;을(를) 선택하여 인용에 연결된 디지털 ID를 검색합니다.</li><li>드롭다운에서 **모든 필드**&#x200B;을(를) 선택하여 *제목*, *저널 제목*, *작성자*, *연도*, *볼륨*, *숫자*, *페이지*&#x200B;와 같은 모든 저널 필드를 검색합니다. <br> 입력한 텍스트를 기반으로 가장 일치하는 인용구를 검색합니다.</li> |
+   | **검색 기준** <br> 드롭다운에서 **ISBN** 또는 **DOI**&#x200B;을(를) 선택하여 인용에 연결된 디지털 ID를 검색합니다.  <br> DOI: 디지털 개체 ID <br> ISBN: 고유 번호부 ID | **검색 기준** <br> 드롭다운에서 **DOI**&#x200B;를 선택하여 인용에 연결된 디지털 ID를 검색합니다. | **검색 기준** <ul><li>드롭다운에서 **DOI** 또는 **PubMed ID**&#x200B;을(를) 선택하여 인용에 연결된 디지털 ID를 검색합니다.</li><li>드롭다운에서 **모든 필드**&#x200B;을(를) 선택하여 *제목*, *저널 제목*, *작성자*, *연도*, *볼륨*, *숫자*, *페이지*&#x200B;와 같은 모든 저널 필드를 검색합니다. <br> 입력한 텍스트를 기반으로 가장 일치하는 인용구를 검색합니다.</li> |
    | **작성자** <br> 인용문 작성자의 이름과 성을 추가합니다. 이름을 더 추가하려면 ![](images/Add_icon.svg)을(를) 선택하십시오. | **작성자** <br> 인용문 작성자의 이름과 성을 추가합니다. 이름을 더 추가하려면 ![](images/Add_icon.svg)을(를) 선택하십시오. | **작성자** <br> 인용문 작성자의 이름과 성을 추가합니다. 이름을 더 추가하려면 ![](images/Add_icon.svg)을(를) 선택하십시오. |
    | **제목** <br> 책 제목을 추가합니다. | **제목** <br> 웹 페이지의 제목을 추가합니다. | **제목** <br> 문서의 제목을 추가합니다. |
    | **편집기** <br> 책의 편집기를 추가합니다. | **웹 사이트 이름** <br> 웹 사이트 이름을 추가합니다. | **저널 제목** <br> 문서가 있는 작업의 제목을 추가합니다. |
@@ -96,7 +96,7 @@ Experience Manager Guides은 MLA(Modern Language Association), APA(American Psyc
 
    >[!NOTE]
    > <ol><li> Experience Manager Guides은 고유하고 아직 존재하지 않는 인용구만 가져옵니다.
-   > &gt; <li> Experience Manager Guides은 책, 저널 또는 웹 사이트에서 인용구를 가져올 수 있습니다. 현재 다른 소스의 인용을 지원하지 않습니다.
+    &gt; <li> Experience Manager Guides은 책, 저널 또는 웹 사이트에서 인용구를 가져올 수 있습니다. 현재 다른 소스의 인용을 지원하지 않습니다.
 
 ## 인용 관리
 
@@ -133,20 +133,20 @@ Experience Manager Guides은 MLA(Modern Language Association), APA(American Psyc
 | MLA | APA | 시카고 | IEEE | AHA |
 |---|---|---|---|---|
 | 최신 언어 연결 스타일 <br> | 미국 심리학회 스타일 | 시카고 스타일 설명서 | 전기 전자 엔지니어 연구소 스타일 | 미국 심장 협회 스타일 |
-| 예: <br> Crawford, Claire, et al. *어두운 기억의 감정 콘텐츠*.Edited by Memory, vol 16, 2010, Amsterdam. | 예: <br> Crawford, C., J., &amp; , C. (2010). *어두운 기억의 감정 콘텐츠*(505-16판). 10.1080/ 09658210902067289 | 예: <br> Crawford, Claire 등. *어두운 추억의 감정 콘텐츠*. 505-16, 2010. | 예: <br> C. Crawford, J. 및 C. , *어두운 기억의 감정 콘텐츠*. 암스테르담, 2010년 | 예: <br> C. Crawford, J. 및 C. , *어두운 기억의 감정 콘텐츠*. 암스테르담, 2010년 |
+| 예: <br> Crawford, Claire, et al. *어두운 기억의 감정 콘텐츠*.Edited by Memory, vol 16, 2010, Amsterdam. | 예: <br> Crawford, C., J., &amp; , C. (2010). *어두운 기억의 감정 콘텐츠*(505-16판). 10.1080/ 09658210902067289 | 예: <br> Crawford, Claire 등. *어두운 추억의 감정 콘텐츠*. 505-16, 2010. | 예: <br> C. Crawford, J. , 및 C , *어두운 추억의 감정 콘텐츠*. 암스테르담, 2010년 | 예: <br> C. Crawford, J. , 및 C , *어두운 추억의 감정 콘텐츠*. 암스테르담, 2010년 |
 
 
 ## 인용 편집
 
 인용을 편집하려면 다음 단계를 따르십시오.
 
-1. 목록에서 인용구의 이름 위로 마우스를 가져갑니다. ![](images/options.svg)옵션&#x200B;**아이콘을**&#x200B;하세요.
+1. 목록에서 인용구의 이름 위로 마우스를 가져갑니다. **옵션** 아이콘을 ![](images/options.svg)하세요.
 
 1. **편집**&#x200B;을 선택합니다.
 
 **인용 편집** 대화 상자가 열립니다.
 
-1. 필요한 사항을 변경합니다. **완료**&#x200B;를 선택합니다.
+1. 필요한 사항을 변경합니다. **완료**를 선택합니다.
 선택한 인용이 편집되었습니다.
 
 >[!NOTE]
@@ -157,9 +157,9 @@ Experience Manager Guides은 MLA(Modern Language Association), APA(American Psyc
 
 인용을 미리 보려면 다음 단계를 수행합니다.
 
-목록에서 인용구의 이름 위로 마우스를 가져갑니다. 선택     ![](images/options.svg) **옵션** 아이콘.
+목록에서 인용구의 이름 위로 마우스를 가져갑니다. ![](images/options.svg) **옵션** 아이콘을 선택하십시오.
 
-1. **미리 보기**&#x200B;를 선택합니다.
+1. **미리보기**를 선택합니다.
 미리보기 창에서 인용의 내용과 형식을 미리 볼 수 있습니다.
 
    >[!NOTE]
@@ -168,7 +168,7 @@ Experience Manager Guides은 MLA(Modern Language Association), APA(American Psyc
 
 1. 화면에서 아무 곳이나 선택하여 미리 보기 상자를 닫습니다.
 
-   ![](images/citation-preview.png){width="550" align="left"}
+   ![](images/citation-preview.png){width="550"}
 
 >[!NOTE]
 >
@@ -186,12 +186,12 @@ Experience Manager Guides은 MLA(Modern Language Association), APA(American Psyc
 
 ### 기본 도구 모음에서
 
-1. 기본 도구 모음에서 **인용** ![인용 아이콘 &#x200B;](images/citations-icon.svg) 아이콘을 선택합니다.
+1. 기본 도구 모음에서 **인용** ![인용 아이콘 ](images/citations-icon.svg) 아이콘을 선택합니다.
 1. **인용** 대화 상자에서 인용을 선택합니다. 여러 개의 인용을 선택할 수도 있습니다.
-   ![인용 대화 상자](images/citation-dialog-main-toolbar.png){width="300" align="left"}
+   ![인용 대화 상자](images/citation-dialog-main-toolbar.png){width="300"}
 1. **인용** 대화 상자의 검색 패널에 처음 몇 개의 알파벳을 입력하여 인용을 필터링할 수 있습니다.
 
-1. **완료**&#x200B;를 선택합니다.
+1. **완료**를 선택합니다.
 선택한 인용이 주제의 커서 위치에 추가됩니다.
 
 
@@ -201,10 +201,10 @@ Experience Manager Guides은 MLA(Modern Language Association), APA(American Psyc
 > 
 >왼쪽 패널에서 **인용** 아이콘을 보려면 시스템 관리자가 **설정**&#x200B;의 **패널** 탭에서 **인용** 옵션을 활성화해야 합니다.
 
-1. 왼쪽 패널에서 **인용** ![인용 아이콘 &#x200B;](images/citations-icon.svg) 아이콘을 선택합니다.
+1. 왼쪽 패널에서 **인용** ![인용 아이콘 ](images/citations-icon.svg) 아이콘을 선택합니다.
 1. **인용** 패널에서 인용을 드래그하여 주제의 적절한 위치에 놓습니다.
 
-   **&#x200B;**&#x200B;옵션![](images/options.svg)에서 **삽입**&#x200B;을 선택하여 인용을 삽입할 수도 있습니다.
+   ![](images/options.svg) **옵션**&#x200B;에서 **삽입**&#x200B;을 선택하여 인용을 삽입할 수도 있습니다.
 
    ![인용 삽입](images/citation-panel-insert.png)
 1. 여러 인용을 선택하려면 항목에서 인용을 마우스 오른쪽 단추로 클릭하고 바로 가기 메뉴에서 **인용 수정**&#x200B;을 선택합니다.
@@ -225,9 +225,9 @@ Experience Manager Guides은 MLA(Modern Language Association), APA(American Psyc
 
 1. 목록에서 인용구의 이름 위로 마우스를 가져갑니다.
 1. ![](images/options.svg) **옵션** 아이콘을 선택합니다.
-1. 다음 항목 선택   **삭제** ![](images/Delete_icon.svg).
+1. **삭제** ![](images/Delete_icon.svg)을(를) 선택하십시오.
 확인(confirmation) 대화상자가 열립니다.
-1. **예**&#x200B;를 선택합니다.
+1. **예**를 선택합니다.
 선택한 인용이 인용 패널에서 삭제됩니다.
 
 
@@ -238,7 +238,7 @@ Experience Manager Guides은 MLA(Modern Language Association), APA(American Psyc
 
 항목에서 인용의 끝에 커서를 놓습니다.
 
-1. 항목에서 인용을 마우스 오른쪽 단추로 클릭하고 바로 가기 메뉴에서 **인용 수정**&#x200B;을 선택합니다. 인용 대화 상자가 열립니다.
+1. 항목에서 인용을 마우스 오른쪽 단추로 클릭하고 바로 가기 메뉴에서 **인용 수정**을 선택합니다. 인용 대화 상자가 열립니다.
    ![인용의 바로 가기 메뉴](./images/modify-citation.png)
 
 1. 문서에 삽입할 인용구를 선택할 수 있습니다.

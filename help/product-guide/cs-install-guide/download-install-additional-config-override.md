@@ -5,7 +5,7 @@ exl-id: dc5f81f7-5b0a-4d12-a944-ba66b0239d5c
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 0%
@@ -59,10 +59,10 @@ Experience Manager Guides UI를 구성하려면 다음 단계를 수행하십시
 5. **추가/업데이트**&#x200B;를 선택합니다.
 6. UI 구성 세부 사항을 추가합니다. 다음 스크린샷과 동일한 이름과 구성을 사용하고 있는지 확인합니다.
 
-   ![](assets/enable-penultimate-ui.png){width="800" align="left"}
+   ![](assets/enable-penultimate-ui.png){width="800"}
 
    값을 **true**(으)로 설정하면 이전 UI가 유지되지만 **false**&#x200B;은(는) 새 UI를 활성화합니다.
 
 
 
-**상위 항목:**&#x200B;[&#x200B;다운로드 및 설치](download-install.md)
+**상위 항목:**[&#x200B;다운로드 및 설치](download-install.md)

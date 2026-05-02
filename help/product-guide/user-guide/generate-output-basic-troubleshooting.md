@@ -4,7 +4,7 @@ description: AEM Guides의 기본 문제 해결 관련 문제를 해결합니다
 exl-id: 57b88291-b5a3-4931-b3ed-f2b2ce7a463c
 feature: Publishing, Troubleshooting
 role: User
-source-git-commit: e049cb1f3d091c701285dbe89194058b93d5e2e4
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Adobe Experience Manager Guides으로 작업하는 동안 문서를 게시하거
 
    **생성된 출력**&#x200B;의 **생성 설정** 열에는 다양한 출력 사전 설정에 대한 출력 생성의 성공 또는 실패에 대한 시각적 단서를 제공하는 색상이 표시됩니다.
 
-   ![](images/output-general-settings-new.png){width="300" align="left"}
+   ![](images/output-general-settings-new.png){width="300"}
 
    위의 스크린샷에서
 
@@ -39,7 +39,7 @@ Adobe Experience Manager Guides으로 작업하는 동안 문서를 게시하거
 
    로그 파일이 새 탭에서 열립니다.
 
-   ![](images/log-file-new.png){align="left"}
+   ![](images/log-file-new.png)
 
 1. 다음 필터를 적용하여 로그 파일의 텍스트를 강조 표시합니다.
    - **치명적**: 로그 파일의 치명적인 오류를 진한 빨간색으로 강조 표시합니다.
@@ -75,13 +75,13 @@ Adobe Experience Manager Guides으로 작업하는 동안 문서를 게시하거
 
    다음 샘플 로그 파일 코드 조각에서 오류 원인과 함께 `BUILD FAILED` 메시지를 볼 수 있습니다.
 
-   ![](images/dita-error-in-log-file.png){width="650" align="left"}
+   ![](images/dita-error-in-log-file.png){width="650"}
 
    - *Experience Manager Guides 관련 오류*: 로그 파일에서 식별할 수 있는 다른 유형의 오류는 Experience Manager Guides 프로세스 자체와 관련되어 있습니다. 이 경우 DITA 맵 파일을 구문 분석했지만 Experience Manager Guides의 내부 오류로 인해 출력 생성 프로세스가 실패합니다. 이러한 오류의 경우 기술 지원 팀에 도움을 요청해야 합니다.
 
    다음 샘플 로그 파일 코드 조각에서 `BUILD SUCCESSFUL` 메시지와 다른 기술 오류를 볼 수 있습니다.
 
-   ![](images/process-error-in-log-file.png){width="650" align="left"}
+   ![](images/process-error-in-log-file.png){width="650"}
 
 
 
@@ -104,4 +104,4 @@ DITA 주제가 너무 큰 경우 브라우저에서 JSP 컴파일 오류 \(`org.
 1. 요구 사항에 따라 *요청당 호출 수* 매개 변수의 값을 늘립니다.
 
 
-**상위 항목:**&#x200B;[&#x200B;출력 생성](generate-output.md)
+**상위 항목:**[&#x200B;출력 생성](generate-output.md)

@@ -4,9 +4,9 @@ description: 제품 교육 및 학습에서 주제 만들기에 대해 설명합
 feature: Authoring
 role: User
 exl-id: a08a165d-801b-4b35-9626-b27471349327
-source-git-commit: b914c69f9d29884382ce43f163a8f766567b10bf
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '130'
 ht-degree: 1%
 
 ---
@@ -23,17 +23,17 @@ ht-degree: 1%
 
 1. **과정 관리자**&#x200B;에서 과정을 열고 **옵션** 메뉴에서 **새로 추가**&#x200B;를 선택합니다.
 
-   ![](assets/workflow-learning-content.png){width="650" align="left"}
+   ![](assets/workflow-learning-content.png){width="650"}
 
 1. **주제**&#x200B;를 선택하십시오.
 
    **새 학습 항목** 대화 상자가 표시됩니다.
 
-   ![](assets/new-learning-topic-dialog.png){width="350" align="left"}
+   ![](assets/new-learning-topic-dialog.png){width="350"}
 
 1. 드롭다운 메뉴에서 원하는 템플릿을 선택합니다.
 
-   ![](assets/template-types-lc.png){width="350" align="left"}
+   ![](assets/template-types-lc.png){width="350"}
 
 1. 주제에 적합한 제목을 입력합니다.
 1. **만들기**&#x200B;를 선택합니다.

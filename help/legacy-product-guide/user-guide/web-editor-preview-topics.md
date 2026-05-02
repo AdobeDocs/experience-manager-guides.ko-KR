@@ -5,7 +5,7 @@ feature: Authoring
 role: User
 hide: true
 exl-id: c2c24b6f-08e8-47be-be33-b3e9fb50052e
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1863'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ## 미리보기 모드에서 사용 가능한 기능
 
-![](images/preview-screen.png){width="800" align="left"}
+![](images/preview-screen.png){width="800"}
 
 미리보기 모드에서 도구 모음에서 다음 작업을 수행할 수 있습니다.
 
@@ -49,87 +49,87 @@ ht-degree: 0%
 
 **Used In** 참조는 현재 파일이 참조되거나 사용되는 문서를 나열합니다. **발신 참조**&#x200B;에 현재 문서에서 참조되는 문서가 나열됩니다.
 
-The \(+\) icon in the **Used In** references section allows you to further navigate upwards to find where that topic is being used or referred.
+**다음에서 사용됨** 참조 섹션의 \(+\) 아이콘을 사용하면 위로 이동하여 해당 주제가 사용되거나 참조되는 위치를 찾을 수 있습니다.
 
-![](images/used-in-dialog_cs.png){width="800" align="left"}
+![](images/used-in-dialog_cs.png){width="800"}
 
-Clicking the ![](images/right-arrow-used-in-dialog.svg)icon next to a document shows the map or topic files where that document is being further referred.
+문서 옆에 있는 ![](images/right-arrow-used-in-dialog.svg) 아이콘을 클릭하면 해당 문서가 추가로 참조되는 맵 또는 주제 파일이 표시됩니다.
 
-**Conditional Filtering \(A/B\)**
+**조건부 필터링 \(A/B\)**
 
-If your topic has conditional content, then you will see the A/B icon on the toolbar. Clicking on this icon opens a pop-up that allows you to filter the content as per the available conditions in the topic.
+주제에 조건부 콘텐츠가 있는 경우 도구 모음에 A/B 아이콘이 표시됩니다. 이 아이콘을 클릭하면 항목의 사용 가능한 조건에 따라 콘텐츠를 필터링할 수 있는 팝업이 열립니다.
 
 >[!NOTE]
 >
-> The conditional content is highlighted using light background color in the Web Editor.
+> 조건부 콘텐츠는 웹 편집기에서 밝은 배경색을 사용하여 강조 표시됩니다.
 
-![](images/conditional-popup_cs.png){width="300" align="left"}
+![](images/conditional-popup_cs.png){width="300"}
 
 **편집**
 
-- Open the topic for editing in the Web Editor. The **Edit** option will not be available if your administrator has enabled the **Disable Edit Without Checkout** option. With the option enabled, you will see the **Edit** option only after checking out a topic file.
+- 웹 편집기에서 편집할 항목을 엽니다. 관리자가 **체크아웃하지 않고 편집 사용 안 함** 옵션을 사용하도록 설정한 경우 **편집** 옵션을 사용할 수 없습니다. 이 옵션을 활성화하면 주제 파일을 체크 아웃한 후에만 **편집** 옵션이 표시됩니다.
 
-**Key Resolution**
+**키 확인**
 
-- If you want to use a keyspace file for the topic, click the Key Resolution icon. You can then choose a key space from the Key Resolution pop-up.
+- 항목에 대해 키 공간 파일을 사용하려면 키 해상도 아이콘을 클릭합니다. 그런 다음 키 해상도 팝업에서 키 공간을 선택할 수 있습니다.
 
 **소스**
 
-- Open the XML source code of a file. You can view the underlying XML code of a map, topic or DITAVAL file by opening the file in the Preview mode and clicking the Source icon. The XML Source pop-up displays the XML source code. You can select a specific code from the file or press `Ctrl`+`a` to select the entire content.
+- 파일의 XML 소스 코드를 엽니다. 미리 보기 모드에서 파일을 열고 Source 아이콘을 클릭하여 맵, 주제 또는 DITAVAL 파일의 기본 XML 코드를 볼 수 있습니다. XML Source 팝업에 XML 소스 코드가 표시됩니다. 파일에서 특정 코드를 선택하거나 `Ctrl`+`a`을 눌러 전체 콘텐츠를 선택할 수 있습니다.
 
   >[!NOTE]
   >
-  > To get the source code view of a DITA map file, select the file in Assets UI and click Source.
+  > DITA 맵 파일의 소스 코드 보기를 가져오려면 Assets UI에서 파일을 선택하고 Source을 클릭합니다.
 
-  ![](images/xml-source-code-view-from-preview_cs.png){width="800" align="left"}
+  ![](images/xml-source-code-view-from-preview_cs.png){width="800"}
 
-**Share UUID Link**
+**UUID 링크 공유**
 
-- AEM Guides allows you to share the UUID-based links for DITA maps, topics, and image files from the following places:
+- AEM Guides을 사용하면 다음 위치에서 DITA 맵, 주제 및 이미지 파일에 대한 UUID 기반 링크를 공유할 수 있습니다.
 
-   - Assets UI
-   - DITA map&#39;s console
-   - Topic or image&#39;s Preview
+   - ASSETS UI
+   - DITA 맵의 콘솔
+   - 주제 또는 이미지의 미리 보기
 
-A new option **Share UUID Link** is shown in the toolbar of the above-mentioned areas. The following screenshot shows the **Share UUID Link** option in the Preview mode of a topic:
+위에서 언급한 영역의 도구 모음에 새 옵션 **UUID 링크 공유**&#x200B;가 표시됩니다. 다음 스크린샷은 주제의 미리 보기 모드에서 **UUID 링크 공유** 옵션을 보여 줍니다.
 
-![](images/share-uuid-link_cs.png){width="800" align="left"}
+![](images/share-uuid-link_cs.png){width="800"}
 
-In the Asset UI, this option is visible when you select a file. While in the Preview mode, this option is available in the main toolbar by default. In a DITA map console, this option is visible in the Output Presets section.
+에셋 UI에서 이 옵션은 파일을 선택할 때 표시됩니다. 미리보기 모드에 있는 동안 이 옵션은 기본적으로 기본 도구 모음에서 사용할 수 있습니다. DITA 맵 콘솔에서 이 옵션은 [출력 사전 설정] 섹션에 표시됩니다.
 
-Once you have copied the URL, the same can be shared with other users to give them direct access to the file. This link remains valid even when the file is moved to some other location in the repository. The only time the link will fail is when the file is deleted from the repository.
+URL을 복사하면 동일한 내용을 다른 사용자와 공유하여 해당 사용자에게 파일에 대한 직접 액세스 권한을 제공할 수 있습니다. 이 링크는 파일을 저장소의 다른 위치로 이동하더라도 유효합니다. 링크가 실패하는 유일한 때는 파일이 저장소에서 삭제될 때입니다.
 
-If you share the link from DITA map console or a file&#39;s preview mode, then the user taken to same view of file. However, when you share a map file&#39;s link from the Assets UI, then the user is taken to the map&#39;s console. Similarly, for a topic or image file, the file&#39;s preview is shown.
+DITA 맵 콘솔 또는 파일의 미리보기 모드에서 링크를 공유하는 경우 사용자는 동일한 파일 보기로 이동됩니다. 그러나 Assets UI에서 맵 파일의 링크를 공유하면 사용자가 맵의 콘솔로 이동합니다. 마찬가지로 주제 또는 이미지 파일의 경우 파일의 미리 보기가 표시됩니다.
 
 >[!IMPORTANT]
 >
-> The link cannot be used as a reference link in other topic, it only gives direct access to the file in the repository. Also, the link remains valid as long as the file is available in the repository. Even if the file is moved to some other location in the repository, the link remain valid. The link will fail only when the file is deleted from the repository.
+> 링크는 다른 항목에서 참조 링크로 사용할 수 없으며 저장소의 파일에 대한 직접 액세스만 제공합니다. 또한 파일을 저장소에서 사용할 수 있는 한 링크는 유효한 상태로 유지됩니다. 파일이 저장소의 다른 위치로 이동되더라도 링크는 유효한 상태로 유지됩니다. 파일이 저장소에서 삭제될 때만 링크가 실패합니다.
 
-**Check Out/Check In**
+**체크아웃/체크인**
 
-- Toggles the Check Out and Check In features. When a file is checked out, the current user gets an exclusive write permission on the file. A checked out file can be opened in the Web Editor for editing. Once you have made the required changes, click the Check In icon to save the file in DAM.
+- 체크아웃 및 체크인 기능을 전환합니다. 파일을 체크 아웃하면 현재 사용자는 파일에 대한 단독 쓰기 권한을 받습니다. 체크 아웃된 파일은 웹 편집기에서 열어서 편집할 수 있습니다. 필요한 사항을 변경한 후 체크 인 아이콘을 클릭하여 파일을 DAM에 저장합니다.
 
-When you check out a topic, the status of the file is shown as checked out in the card view and in the list view.
+항목을 체크 아웃하면 파일 상태가 카드 보기와 목록 보기에서 체크 아웃됨으로 표시됩니다.
 
-Checked out file in the card view:
+카드 보기에서 체크 아웃한 파일:
 
-![](images/checkout-card-62.png){width="300" align="left"}
+![](images/checkout-card-62.png){width="300"}
 
-Checked out file in the list view:
+목록 보기에서 체크 아웃된 파일:
 
-![](images/checkout-list-62.png){width="550" align="left"}
+![](images/checkout-list-62.png){width="550"}
 
-If the Checked Out column is not visible, select **View Settings** under **List View** and select the **Checked Out** status in the **Configure Columns** dialog.
+체크 아웃된 열이 표시되지 않으면 **목록 보기**&#x200B;에서 **설정 보기**&#x200B;를 선택하고 **열 구성** 대화 상자에서 **체크 아웃** 상태를 선택하십시오.
 
-![](images/list-view-settings-check-out_cs.png){width="800" align="left"}
+![](images/list-view-settings-check-out_cs.png){width="800"}
 
 >[!TIP]
 >
-> See the Versioning of content section in the Best practices guide for best practices around working with file check-out and check-in.
+> 파일 체크아웃 및 체크인 작업에 대한 우수 사례는 우수 사례 안내서의 콘텐츠 버전 관리 섹션을 참조하십시오.
 
-**Web-based version difference**
+**웹 기반 버전 차이점**
 
-- If your topic has undergone some changes, you can easily find out the changes made in different versions of that topic. To find out changes in different versions of a topic:
+- 주제가 일부 변경된 경우 해당 주제의 다른 버전에서 변경된 내용을 쉽게 확인할 수 있습니다. 주제의 다른 버전에서 변경 사항을 확인하려면 다음을 수행합니다.
 
   >[!IMPORTANT]
   >
@@ -139,17 +139,17 @@ If the Checked Out column is not visible, select **View Settings** under **List 
 
    1. 왼쪽 레일에서 **버전 기록**&#x200B;을 클릭하고 버전을 선택합니다.
 
-      ![](images/timeline-versions62_cs.png){width="800" align="left"}
+      ![](images/timeline-versions62_cs.png){width="800"}
 
    1. 나열된 버전에서 기본 버전으로 사용할 버전을 선택하고 **버전 미리 보기**&#x200B;를 클릭합니다. 선택한 버전의 미리보기가 버전 미리보기 창에 표시됩니다.
 
    1. **차이점 표시** 목록에서 기본 버전을 비교할 버전을 선택합니다.
 
-      ![](images/show-diff-list-cropped.png){width="800" align="left"}
+      ![](images/show-diff-list-cropped.png){width="800"}
 
       변경된 내용은 주제 미리 보기에서 강조 표시됩니다. 녹색에서 강조 표시된 콘텐츠는 새로 추가된 콘텐츠를 의미하며 빨간색으로 표시된 콘텐츠는 삭제된 콘텐츠입니다.
 
-      ![](images/version-difference.png){width="800" align="left"}
+      ![](images/version-difference.png){width="800"}
 
 
 ### 분기, 되돌리기 및 후속 버전 관리 {#id193PG0Y051X}
@@ -168,55 +168,55 @@ If the Checked Out column is not visible, select **View Settings** under **List 
 
   분기 와 유사하게 작업 또는 현재 버전을 저장소에 있는 모든 버전으로 되돌릴 수도 있습니다. 버전으로 되돌리려면 원하는 버전의 항목을 선택하고 **버전 기록** 패널에서 **이 버전으로 되돌리기**&#x200B;를 클릭하면 됩니다.
 
-  Perform the following steps to create a branch, revert to a version, and maintain subsequent versions of a topic:
+  분기를 만들고, 버전으로 되돌리고, 주제의 후속 버전을 유지 관리하려면 다음 단계를 수행하십시오.
 
   >[!IMPORTANT]
   >
   > 다음 절차에 설명된 메서드는 DITA 파일에만 적용할 수 있습니다. 비 DITA 파일의 경우 타임라인 보기를 사용하여 버전을 생성하거나 파일의 기존 버전을 복원합니다.
 
-   1. Access the topic in Assets UI.
+   1. Assets UI의 주제에 액세스합니다.
 
       >[!NOTE]
       >
-      > You can also open the topic in Preview mode and proceed with Step 3.
+      > 미리보기 모드에서 항목을 열고 3단계를 진행할 수도 있습니다.
 
-   1. Select the topic for which you want to create a branch.
+   1. 분기를 만들 항목을 선택합니다.
 
-   1. In the left rail, click **Version History**.
-
-      >[!NOTE]
-      >
-      > A list of versions available for the selected topic is displayed. Each version contains the timestamp, user name, version comment, and [label](web-editor-use-label.md#) information.
-
-   1. Select a version from where you want to create a branch. In the following screenshot, version 1.2 is selected for creating a branch.
-
-      ![](images/branching.png){width="300" align="left"}
+   1. 왼쪽 레일에서 **버전 기록**&#x200B;을 클릭합니다.
 
       >[!NOTE]
       >
-      > The current version of a topic contains *\(Current\)* mentioned next to the version number.
+      > 선택한 주제에 사용할 수 있는 버전 목록이 표시됩니다. 각 버전에는 타임스탬프, 사용자 이름, 버전 설명 및 [label](web-editor-use-label.md#) 정보가 포함되어 있습니다.
 
-   1. Click **Revert to This Version**.
+   1. 분기를 만들 위치에서 버전을 선택합니다. 다음 스크린샷에서는 분기를 만들기 위해 버전 1.2가 선택되어 있습니다.
 
-      A message appears asking you to confirm the creation of a new branch.
+      ![](images/branching.png){width="300"}
 
-   1. *\(Optional\)* In the message prompt, you get an option to select the **Save The Current Working Copy As A New Version**. The following two actions are possible based on the selection of this option:
+      >[!NOTE]
+      >
+      > 주제의 현재 버전에는 버전 번호 옆에 *\(Current\)*&#x200B;이(가) 있습니다.
 
-      - If you select this option, then a branch is created from version 1.1. And, a new version of the topic is also created from the current working copy of the topic and saved as the next version – 1.4.
+   1. **이 버전으로 되돌리기**&#x200B;를 클릭합니다.
 
-        ![](images/next_version_created_over_working_copy.png){width="300" align="left"}
+      새 분기 만들기를 확인하라는 메시지가 나타납니다.
 
-        Version 1.2 becomes your current working copy of the topic. Any version saved after this is created under the new branch of 1.1. For example, the subsequent version of a new topic in this branch will be saved as 1.2.0.
+   1. *\(선택 사항\)* 메시지 프롬프트에서 **현재 작업 복사본을 새 버전으로 저장**&#x200B;을 선택할 수 있습니다. 이 옵션의 선택을 기준으로 다음 두 가지 작업이 가능합니다.
 
-        ![](images/new_version_in_branch.png){width="300" align="left"}
+      - 이 옵션을 선택하면 버전 1.1에서 분기가 생성됩니다. 또한 주제의 현재 작업 복사본에서 주제의 새 버전이 만들어지고 다음 버전인 1.4로 저장됩니다.
 
-      - If you do not select this option, then no new version from the current working copy of the topic is created. A new branch is created from version 1.2 of the topic. Any subsequent version of the topic is saved under the 1.2 branch as 1.2.0, 1.2.1, and so on.
+        ![](images/next_version_created_over_working_copy.png){width="300"}
 
-        ![](images/new_version_without_working_copy.png){width="300" align="left"}
+        버전 1.2가 주제의 현재 작업 복사본이 됩니다. 이후 저장된 모든 버전은 1.1의 새 분기에 생성됩니다. 예를 들어 이 분기에 있는 새 주제의 후속 버전은 1.2.0으로 저장됩니다.
+
+        ![](images/new_version_in_branch.png){width="300"}
+
+      - 이 옵션을 선택하지 않으면 주제의 현재 작업 복사본에서 새 버전이 만들어지지 않습니다. 주제의 버전 1.2에서 새 분기가 만들어집니다. 항목의 후속 버전은 1.2 분기 아래에 1.2.0, 1.2.1 등으로 저장됩니다.
+
+        ![](images/new_version_without_working_copy.png){width="300"}
 
    1. **확인**&#x200B;을 클릭합니다.
 
 
-  A new branch is created from the selected version of the topic. 위의 프로세스는 주제의 특정 버전으로 되돌리는 데에도 적용할 수 있습니다. 특정 버전으로 되돌린다는 것은 기술적으로 선택한 버전에서 새 분기를 만들고 해당 버전을 주제의 현재 작업 복사본으로 만든다는 것을 의미합니다. 버전 되돌리기 기록 보고서에서 복구된 파일의 기록을 볼 수도 있습니다. 이 보고서에 대한 자세한 내용은 [되돌려진 파일 버전 기록 보고서](reports-reverted-file-version-history.md#)를 참조하십시오.
+  선택한 버전의 주제에서 새 분기가 만들어집니다. 위의 프로세스는 주제의 특정 버전으로 되돌리는 데에도 적용할 수 있습니다. 특정 버전으로 되돌린다는 것은 기술적으로 선택한 버전에서 새 분기를 만들고 해당 버전을 주제의 현재 작업 복사본으로 만든다는 것을 의미합니다. 버전 되돌리기 기록 보고서에서 복구된 파일의 기록을 볼 수도 있습니다. 이 보고서에 대한 자세한 내용은 [되돌려진 파일 버전 기록 보고서](reports-reverted-file-version-history.md#)를 참조하십시오.
 
-**상위 항목:**&#x200B;[&#x200B;항목 만들기 및 미리 보기](create-preview-topics.md)
+**상위 항목:**[&#x200B;항목 만들기 및 미리 보기](create-preview-topics.md)

@@ -4,7 +4,7 @@ description: AEM Guides에서 일괄 게시 대시보드를 사용합니다. 맵
 exl-id: 5f897c52-5d6e-4614-a14f-1806e085c21c
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: 1350304943e86f4f9c5270eaedd36eacb25a6b0f
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 2%
@@ -42,11 +42,11 @@ AEM Site, PDF, Native PDF, HTML5, Custom 및 JSON 출력과 같은 다양한 유
 
 1. **삭제**&#x200B;를 선택합니다.
 
-   ![](images/bulk-activation-delete-map.png){width="600" align="left"}
+   ![](images/bulk-activation-delete-map.png){width="600"}
 
    선택한 맵이 벌크 활성화 맵 컬렉션에서 제거됩니다.
 
 1. **완료**&#x200B;를 선택합니다.
 
 
-**상위 항목:**&#x200B;[&#x200B;게시된 콘텐츠의 일괄 활성화](conf-bulk-activation.md)
+**상위 항목:**[&#x200B;게시된 콘텐츠의 일괄 활성화](conf-bulk-activation.md)

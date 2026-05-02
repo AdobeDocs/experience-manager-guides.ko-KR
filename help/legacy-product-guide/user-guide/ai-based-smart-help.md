@@ -3,7 +3,7 @@ title: 콘텐츠 검색에 대한 AI 기반 스마트 도움말
 description: 웹 편집기에서 AI 기반 스마트 도움말을 보고 활용하는 방법에 대해 알아봅니다.
 hide: true
 exl-id: cf08f6a9-bf92-47d9-9952-da0301ea7023
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 
 
-Experience Manager Guides은 [Adobe Experience Manager Guides 설명서](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/overview)에서 관련 콘텐츠를 찾는 데 도움이 되는 대화형 검색 기능인 GenAI 기반 스마트 도움말을 제공합니다.
+Experience Manager Guides은 [Adobe Experience Manager Guides 설명서](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)에서 관련 콘텐츠를 찾는 데 도움이 되는 대화형 검색 기능인 GenAI 기반 스마트 도움말을 제공합니다.
 질문을 하고 유익한 방법으로 답변을 얻을 수 있다. 쿼리에 대한 답변은 제품 설명서의 콘텐츠를 기반으로 합니다. 이 검색은 완전히 대화형입니다. 질문을 한 다음 응답을 기반으로 추가 질문을 할 수도 있습니다. 이 응답에는 소스 문서에 대한 링크도 포함되어 있습니다. 자세한 내용은 을 참조하십시오.
 
 예를 들어, Experience Manager Guides에서 설명서에 대한 주제를 만들 수 있습니다. *주제를 만드는 방법*&#x200B;을 물어볼 수 있습니다. 응답 및 관련 문서에 대한 링크를 받습니다. 그런 다음 문서에 대한 PDF 출력을 생성하는 방법을 배우려면 관련 질문을 할 수 있습니다. 예를 들어 *PDF에 항목을 게시하는 방법*&#x200B;을 참고하십시오. 또는 *주제에 대한 PDF 출력을 생성하는 방법*
@@ -29,9 +29,9 @@ Experience Manager Guides은 [Adobe Experience Manager Guides 설명서](https:/
 >
 > 관리자가 **스마트 도움말** 기능을 구성해야 합니다. 자세한 내용은 클라우드 서비스 설치 및 구성 안내서의 [콘텐츠를 검색하도록 AI 기반 스마트 도움말 구성](/help/product-guide/cs-install-guide/conf-smart-help.md) 섹션을 참조하십시오.
 
-![고급 도움말 패널](images/smart-help-panel.png){width="300" align="left"}
+![고급 도움말 패널](images/smart-help-panel.png){width="300"}
 
-***스마트 도움말**&#x200B;패널을 봅니다.*
+***스마트 도움말**패널을 봅니다.*
 
 대화형 검색을 사용하여 적절한 콘텐츠를 찾고 쿼리를 해결하려면 다음 단계를 수행하십시오.
 
@@ -49,7 +49,7 @@ Experience Manager Guides은 [Adobe Experience Manager Guides 설명서](https:/
 
    질문에 따라 콘텐츠, 적용 가능한 이미지 및 기사 링크를 볼 수 있습니다.
 
-   ![고급 도움말 패널 응답](images/smart-help-panel-response.png){width="300" align="left"}
+   ![고급 도움말 패널 응답](images/smart-help-panel-response.png){width="300"}
 
 
    *샘플 질문을 선택하고 응답으로 콘텐츠와 이미지를 봅니다.*
