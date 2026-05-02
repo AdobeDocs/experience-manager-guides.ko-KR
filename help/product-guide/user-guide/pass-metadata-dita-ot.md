@@ -38,7 +38,7 @@ DITA-OT 게시를 사용하여 메타데이터를 출력에 전달하려면 다�
 
    이 파일은 `/apps/fmdita/config/metadataList`에 오버레이할 수 있습니다.
 
-   값을 이미 정의한 사용자 지정 속성을 전달하려면 [DITA-OT PDF 출력에서 AEM 메타데이터 사용](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880)을 확인하십시오.
+   값을 이미 정의한 사용자 지정 속성을 전달하려면 [DITA-OT PDF 출력에서 AEM 메타데이터 사용](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880?profile.language=ko)을 확인하십시오.
 
 1. 선택한 속성이 드롭다운 아래에 나열됩니다.
 
@@ -73,7 +73,7 @@ DITA-OT 게시를 사용하여 메타데이터를 출력에 전달하려면 다�
 
    이 파일은 `/apps/fmdita/config/metadataList`에 오버레이할 수 있습니다.
 
-   값을 이미 정의한 사용자 지정 속성을 전달하려면 [DITA-OT PDF 출력에서 AEM 메타데이터 사용](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880)을 확인하십시오.
+   값을 이미 정의한 사용자 지정 속성을 전달하려면 [DITA-OT PDF 출력에서 AEM 메타데이터 사용](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880?profile.language=ko)을 확인하십시오.
 
 1. **속성** 드롭다운에서 필요한 사용자 지정 및 기본 속성을 선택합니다. 예를 들어 `author`, `dc:title` 및 `dc:description`을(를) 선택합니다. 파일을 만들면 만들어지는 표준 `metadata/properties`입니다. 선택한 속성이 드롭박스 아래에 나열됩니다.
 

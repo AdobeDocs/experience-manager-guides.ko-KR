@@ -25,10 +25,10 @@ Experience Manager Guides 및 Adobe Workfront 통합을 통해 다음과 같은 
 
 * 통합되지 않은 여러 도구에 의존하지 않고 개별 작업 및 프로젝트의 진행 상황을 계획, 할당 및 추적합니다.
 * 콘텐츠 작성, 검토, 게시 및 번역을 포함한 모든 Experience Manager Guides 워크플로를 보다 효율적으로 관리할 수 있습니다.
-* 새 작업이 할당될 때마다 Adobe Workfront에서 이메일 알림을 수신합니다. 자세한 내용은 [알림 개요](https://experienceleague.adobe.com/en/docs/workfront/using/basics/use-notifications/wf-notifications)를 참조하세요.
+* 새 작업이 할당될 때마다 Adobe Workfront에서 이메일 알림을 수신합니다. 자세한 내용은 [알림 개요](https://experienceleague.adobe.com/ko/docs/workfront/using/basics/use-notifications/wf-notifications)를 참조하세요.
 * Adobe Workfront의 직관적인 대시보드를 사용하여 프로젝트 상태를 모니터링하여 프로젝트 성능에 대한 실시간 통찰력을 제공합니다.
 
-  Experience Manager Guides의 프로젝트 관리자를 위해 활성화된 Adobe Workfront의 강력한 프로젝트 관리 기능에 대해 알아보려면 [프로젝트 계획 개요](https://experienceleague.adobe.com/en/docs/workfront/using/manage-work/projects/plan-a-project/plan-project)를 확인하십시오.
+  Experience Manager Guides의 프로젝트 관리자를 위해 활성화된 Adobe Workfront의 강력한 프로젝트 관리 기능에 대해 알아보려면 [프로젝트 계획 개요](https://experienceleague.adobe.com/ko/docs/workfront/using/manage-work/projects/plan-a-project/plan-project)를 확인하십시오.
 
 ## 시작하기
 
@@ -61,7 +61,7 @@ Workfront 작업 페이지에서 사용할 수 있는 기능은 다음과 같습
 
 Workfront 작업 페이지에는 링크 출력 아이콘 ![](./images/Smock_LinkOut_18_N.svg)도 포함되어 있습니다. 이 아이콘을 선택하면 Adobe Workfront 프로젝트 페이지로 이동합니다. 여기에서 Adobe Workfront 계정과 매핑된 권한을 기반으로 작업 세부 사항을 보고, 댓글을 보고, 댓글을 추가하고, 다른 기능에 액세스할 수 있습니다.
 
-자세한 내용은 [Workfront의 프로젝트, 작업 및 문제 날짜에 대한 개요](https://experienceleague.adobe.com/en/docs/workfront/using/basics/navigate/definitions-pti-dates)를 참조하세요.
+자세한 내용은 [Workfront의 프로젝트, 작업 및 문제 날짜에 대한 개요](https://experienceleague.adobe.com/ko/docs/workfront/using/basics/navigate/definitions-pti-dates)를 참조하세요.
 
 ### Workfront 작업 만들기
 
@@ -122,7 +122,7 @@ Workfront 작업 페이지에 있는 **새 작업** 단추를 사용하여 Exper
 
 >[!NOTE]
 >
-> 프로젝트 관리자는 다른 주요 작업 세부 정보와 함께 Adobe Workfront 대시보드에서 새로 만든 이 작업을 볼 수 있습니다. 자세한 내용은 [대시보드 이해](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/dashboards/understand-dashboards/understand-dashboards)를 참조하세요.
+> 프로젝트 관리자는 다른 주요 작업 세부 정보와 함께 Adobe Workfront 대시보드에서 새로 만든 이 작업을 볼 수 있습니다. 자세한 내용은 [대시보드 이해](https://experienceleague.adobe.com/ko/docs/workfront/using/reporting/dashboards/understand-dashboards/understand-dashboards)를 참조하세요.
 
 ### 사용자가 생성한 작업 관리
 
