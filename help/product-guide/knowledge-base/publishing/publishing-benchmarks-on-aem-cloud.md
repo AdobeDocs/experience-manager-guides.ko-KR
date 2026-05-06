@@ -14,7 +14,7 @@ ht-degree: 20%
 
 이 벤치마크는 다양한 출력 사전 설정에서 새 게시 API의 성능을 평가하고 AEM Guides as a Cloud Service의 맵 크기를 늘립니다. 목표는 확장성 비헤이비어를 이해하고 성능 병목 현상을 파악하는 것입니다.
 
-게시 서비스는 자동 크기 조절을 통해 [마이크로서비스 기반 아키텍처](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/publish-microservice-architecture-and-performance)를 사용하므로 추가 Pod를 통해 더 큰 워크로드를 처리할 수 있습니다.
+게시 서비스는 자동 크기 조절을 통해 [마이크로서비스 기반 아키텍처](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/publish-microservice-architecture-and-performance)를 사용하므로 추가 Pod를 통해 더 큰 워크로드를 처리할 수 있습니다.
 
 ## 실행 환경
 
