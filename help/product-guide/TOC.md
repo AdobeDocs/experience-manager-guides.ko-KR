@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 살펴보십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 3f38264b6ce09366d07cdd302c9c53e8abcf4b7c
 workflow-type: tm+mt
-source-wordcount: '3316'
+source-wordcount: '3342'
 ht-degree: 7%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 7%
       - 클라우드 서비스 {#cloud-release-notes}
          - {hide-from-toc}[배포 지침](./release-info/deploy-xml-on-aemaacs.md)
          - 2026 릴리스 {#2026-releases}
+            - 2026.05.0 릴리스 {#2605-release}
+               - [새로운 기능](./release-info/whats-new-2026-05-0.md)
+               - [해결된 문제](./release-info/fixed-issues-2026-05-0.md)
+               - [업그레이드 지침](./release-info/upgrade-instructions-2026-05-0.md)
             - 2026.04.0 릴리스 {#2604-release}
                - [새로운 기능](./release-info/whats-new-2026-04-0.md)
                - [해결된 문제](./release-info/fixed-issues-2026-04-0.md)
@@ -229,6 +233,7 @@ ht-degree: 7%
          - [데이터 원본의 데이터 사용](./user-guide/web-editor-content-snippet.md)
          - [문서 상태](./user-guide/web-editor-document-states.md)
          - [레이블 사용](./user-guide/web-editor-use-label.md)
+         - [편집기 설정](./user-guide/config-editor-settings.md)
       - 맵 편집기 {#map-editor}
          - [맵 편집기 소개](./user-guide/map-editor.md)
          - [맵 만들기](./user-guide/map-editor-create-map.md)
@@ -664,6 +669,7 @@ ht-degree: 7%
          - [Cloud Service에 붙여 넣은 테이블 표시 구성](./install-conf-guide/conf-pasted-tables.md)
          - [Cloud Service에 대한 단일 주제 PDF 생성 구성](./install-conf-guide/conf-pdf-generation-dita-ot.md)
          - [Cloud Service용 웹 편집기에서 번역 기능 구성](./install-conf-guide/conf-translation-editor.md)
+         - [Cloud Service에 대한 메타데이터 속성 무시 목록 구성](./install-conf-guide/conf-metadata-prop.md)
       - On-Premise용 편집기 설정 {#editor-on-prem-settings}
          - [온프레미스에 대한 추가 특수 문자 구성](/help/product-guide/web-editor/conf-additional-special-characters.md)
          - [온-프레미스의 체크인 및 체크아웃 아이콘 제목 구성](./install-conf-guide/conf-checkin-checkout-title.md)
@@ -778,6 +784,7 @@ ht-degree: 7%
             - 위젯 {#framework-widgets}
                - [렌더링 위젯](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
                - [기본 위젯](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
+            - [Editor 2.0에 대한 확장 프레임워크 변경 사항](./guides-ui-extensions/getting-started/editor-extension-guide.md)
          - 시작하기 {#getting-started}
             - [소개](./guides-ui-extensions/getting-started/introduction.md)
             - [설치 안내서](./guides-ui-extensions/getting-started/integrating-customisations.md)
@@ -813,7 +820,7 @@ ht-degree: 7%
          - [JWT 인증을 사용하여 마이크로서비스 기반 게시 구성](./knowledge-base/publishing/configure-microservices.md)
          - [OAuth 인증을 통해 마이크로서비스 기반 게시 구성](./knowledge-base/publishing/configure-microservices-imt-config.md)
          - [Edge Delivery Services 구성(Beta)](./knowledge-base/publishing/configure-eds.md)
-         - [AEM 클라우드에서 벤치마크 게시](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
+         - [AEM 클라우드에서 벤치마크 게시](./knowledge-base/publishing/publishing-benchmarks-on-aem-cloud.md)
       - 워크플로 {#workflows}
          - [사후 생성 워크플로](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
       - 번역 {#translation}

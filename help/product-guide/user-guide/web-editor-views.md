@@ -4,20 +4,25 @@ description: 작성자, 소스 및 미리보기 모드에서 주제를 봅니다
 exl-id: 74db2902-4507-4904-85d8-6b52e4af4c55
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1593'
 ht-degree: 0%
 
 ---
 
 # 주제에 대한 편집기 뷰 {#id204GK0D0V5Z}
 
-Adobe Experience Manager의 편집기 인터페이스는 세 가지 다른 모드 또는 보기에서 주제를 볼 수 있습니다.
+>[!INFO]
+>
+>이 항목은 새 편집기와 이전 편집기 모두에 적용됩니다. 핵심 기능은 일관되게 유지되지만, 사용자 인터페이스, 용어 및 상호 작용의 차이는 해당되는 경우 탭 및 설명선을 사용하여 콘텐츠 내에 표시됩니다.
+
+Adobe Experience Manager의 편집기 인터페이스는 네 가지 다른 모드 또는 보기에서 주제를 볼 수 있도록 지원합니다.
 
 * [작성자](#author)
 * [소스](#source)
 * [미리보기](#preview)
+* [나란히](#side-by-side)
 
 ## 작성자
 
@@ -88,6 +93,17 @@ Source 보기에는 항목을 구성하는 기본 XML이 표시됩니다. XML을
   | 재귀적으로 현재 단어 \(역방향\) 찾기 | **Shift**+**Ctrl**+**F3** |
 
 
+## 나란히
+
+>[!NOTE]
+>
+>이 기능은 새 편집기에서만 사용할 수 있습니다.
+
+나란히 보기를 사용하면 동일한 화면에서 작성자 및 Source 보기를 동시에 보고 작업할 수 있습니다. WYSIWYG 작성자 보기와 기본 XML Source 보기는 서로 인접하여 표시되므로 보기를 전환하지 않고도 병렬 콘텐츠와 구조적 편집을 수행할 수 있습니다. 두 보기 모두 실시간으로 동기화된 상태를 유지하여 작성자 보기의 커서 위치와 선택 사항이 Source 보기의 해당 위치에 반영되므로 구조화된 콘텐츠를 작성하는 동안 정확도와 제어력이 향상됩니다.
+
+![](images/side-by-side-editor-2-0.png){width="650"}
+
+
 ## 미리보기
 
 미리보기 모드에서 주제를 열면 브라우저에서 사용자가 주제를 볼 때 주제가 표시되는 방식이 표시됩니다. DITA 맵의 경우 맵 미리보기가 표시되고 맵 내의 모든 주제에 대한 단일 합성 문서가 표시됩니다.
@@ -102,9 +118,19 @@ Source 보기에는 항목을 구성하는 기본 XML이 표시됩니다. XML을
 
 주제나 맵에서 조건을 사용한 경우 해당 조건이 필터 패널에 표시됩니다. 기본적으로 모든 조건이 선택되고 전체 콘텐츠가 표시됩니다. 조건을 선택 취소하면 해당 조건을 가진 콘텐츠가 보기에서 제거됩니다. 또한 조건화된 콘텐츠를 강조 표시하도록 선택할 수도 있습니다.
 
-다음 이미지는 `Audience`과(와) `Product`의 두 조건을 사용하는 주제를 보여 줍니다. 조건화된 콘텐츠는 노란색 배경으로 강조 표시됩니다.
+다음 이미지는 `Audience`과(와) `Platfor` 두 조건을 사용하는 주제를 보여 줍니다. 조건화된 콘텐츠는 노란색 배경으로 강조 표시됩니다.
 
-![](images/preview-filters.png)
+>[!BEGINTABS]
+
+>[!TAB 새 편집기]
+
+![](images/preview-filters-editor-2-0.png){width="650"}
+
+>[!TAB 이전 편집기]
+
+![](images/preview-filters.png){width="650"}
+
+>[!ENDTABS]
 
 ### 변경 내용 추적 마크업 보기 {#id2114BJ00CE8}
 

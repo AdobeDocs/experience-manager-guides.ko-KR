@@ -4,14 +4,18 @@ description: AEM Guides에서 인용을 추가하고 관리합니다. 인용을 
 exl-id: 685d747d-e017-4350-a6bf-822fd55c76e8
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
-source-wordcount: '1932'
+source-wordcount: '1962'
 ht-degree: 1%
 
 ---
 
 # 콘텐츠의 인용 항목 추가 및 관리
+
+>[!NOTE]
+>
+> 인용은 이전 편집기에서만 지원되며 현재 새 편집기에서 사용할 수 없습니다. 이 문서의 정보는 이전 편집기를 사용하는 경우에만 적용됩니다.
 
 인용은 콘텐츠에 추가된 정보 소스에 대한 참조입니다. 인용을 사용하여, 당신은 소스 정보의 작성자를 크레딧하고 독자가 소스 정보에 대한 후속 조치를 도울 수 있습니다. 인용을 추가하면 콘텐츠를 더욱 신뢰할 수 있게 만들고 표절을 방지하게 된다. 또한 잘 연구된 콘텐츠를 표시할 수 있습니다.
 
