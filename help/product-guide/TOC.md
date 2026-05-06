@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 살펴보십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 3f38264b6ce09366d07cdd302c9c53e8abcf4b7c
 workflow-type: tm+mt
-source-wordcount: '3316'
+source-wordcount: '3342'
 ht-degree: 7%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 7%
       - 클라우드 서비스 {#cloud-release-notes}
          - {hide-from-toc}[배포 지침](./release-info/deploy-xml-on-aemaacs.md)
          - 2026 릴리스 {#2026-releases}
+            - 2026.05.0 릴리스 {#2605-release}
+               - [새로운 기능](./release-info/whats-new-2026-05-0.md)
+               - [해결된 문제](./release-info/fixed-issues-2026-05-0.md)
+               - [업그레이드 지침](./release-info/upgrade-instructions-2026-05-0.md)
             - 2026.04.0 릴리스 {#2604-release}
                - [새로운 기능](./release-info/whats-new-2026-04-0.md)
                - [해결된 문제](./release-info/fixed-issues-2026-04-0.md)
@@ -188,13 +192,13 @@ ht-degree: 7%
                - [4.2.1 릴리스 정보](./release-info/release-notes-4-2-1.md)
                - [4.2 릴리스 노트](./release-info/release-notes-4-2.md)
          - [4.1.x 릴리스 노트](./release-info/release-notes-4-1.md)
-         - [4.0.x 릴리스 노트](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x 릴리스 노트](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - 사용 안내서 (새 UI) {#user-guide}
    - 소개 {#about-aemg}
-      - [&#x200B; [!DNL Adobe Experience Manager Guides] 정보](./user-guide/intro.md)
+      - [ [!DNL Adobe Experience Manager Guides] 정보](./user-guide/intro.md)
       - [!DNL AEM Guides] 작업 중 및 주요 기능 {#aemg-works-features}
-         - [&#x200B; [!DNL AEM Guides] 작동 방식](./user-guide/intro-how-dxml-works.md)
+         - [ [!DNL AEM Guides] 작동 방식](./user-guide/intro-how-dxml-works.md)
          - [주요 [!DNL AEM Guides] 기능](./user-guide/intro-dxml-features.md)
    - 홈 페이지 {#home-page}
       - [[!DNL AEM Guides] 홈 페이지 경험](./user-guide/intro-home-page.md)
@@ -229,6 +233,7 @@ ht-degree: 7%
          - [데이터 원본의 데이터 사용](./user-guide/web-editor-content-snippet.md)
          - [문서 상태](./user-guide/web-editor-document-states.md)
          - [레이블 사용](./user-guide/web-editor-use-label.md)
+         - [편집기 설정](./user-guide/config-editor-settings.md)
       - 맵 편집기 {#map-editor}
          - [맵 편집기 소개](./user-guide/map-editor.md)
          - [맵 만들기](./user-guide/map-editor-create-map.md)
@@ -396,7 +401,7 @@ ht-degree: 7%
       - 문제 해결 {#troubleshooting}
          - [세션 시간 초과](./user-guide/session-timeout-prompt.md)
 - 사용 안내서 (이전 UI) {#user-guide-old-ui}
-   - [AEM Guides 개요](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides 개요](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 설치 및 구성 {#install-guide}
    - 온프레미스 {#on-prem-ig}
       - {hide-from-toc}[On-Premise 기본 사항](./install-guide/introduction.md)
@@ -473,7 +478,7 @@ ht-degree: 7%
             - {hide-from-toc}[PDF 템플릿](./native-pdf/pdf-template.md)
             - {hide-from-toc}[PDF 템플릿의 구성 요소](./native-pdf/components-pdf-template.md)
             - {hide-from-toc}[페이지 레이아웃 디자인](./native-pdf/design-page-layout.md)
-            - {hide-from-toc}[PDF 출력의 변수](./native-pdf/native-pdf-variables.md)
+            - PDF 출력의 {hide-from-toc}[변수](./native-pdf/native-pdf-variables.md)
             - {hide-from-toc}[언어 변수 지원](./native-pdf/native-pdf-language-variables.md)
             - {hide-from-toc}[PDF 출력에 바코드 추가](./native-pdf/add-barcode.md)
             - 공통 컨텐츠 스타일 {#content-styles}
@@ -664,6 +669,7 @@ ht-degree: 7%
          - [Cloud Service에 붙여 넣은 테이블 표시 구성](./install-conf-guide/conf-pasted-tables.md)
          - [Cloud Service에 대한 단일 주제 PDF 생성 구성](./install-conf-guide/conf-pdf-generation-dita-ot.md)
          - [Cloud Service용 웹 편집기에서 번역 기능 구성](./install-conf-guide/conf-translation-editor.md)
+         - [Cloud Service에 대한 메타데이터 속성 무시 목록 구성](./install-conf-guide/conf-metadata-prop.md)
       - On-Premise용 편집기 설정 {#editor-on-prem-settings}
          - [온프레미스에 대한 추가 특수 문자 구성](/help/product-guide/web-editor/conf-additional-special-characters.md)
          - [온-프레미스의 체크인 및 체크아웃 아이콘 제목 구성](./install-conf-guide/conf-checkin-checkout-title.md)
@@ -720,7 +726,7 @@ ht-degree: 7%
    - [데이터 소스 커넥터를 등록하는 REST API](./api-reference/data-source-connector.md)
    - [조건부 특성으로 작업할 수 있는 REST API](./api-reference/conditional-attribute.md)
    - [전환 워크플로우에 대한 REST API](./api-reference/convert-to-dita.md)
-   - [패키지를 만들고 활성화하기 위한 REST API](./api-reference/create-activate-package.md)
+   - 패키지를 만들고 활성화하기 위한 [REST API](./api-reference/create-activate-package.md)
    - [사후 처리 이벤트 핸들러](./api-reference/post-process-event.md)
    - [폴더 또는 에셋의 사후 처리 상태를 추적하는 API](./api-reference/track-post-processing-status.md)
    - [자산에 대한 일괄 처리를 시작하기 위한 API](./api-reference/bulk-assets-processing.md)
@@ -778,6 +784,7 @@ ht-degree: 7%
             - 위젯 {#framework-widgets}
                - [렌더링 위젯](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
                - [기본 위젯](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
+            - [Editor 2.0에 대한 확장 프레임워크 변경 사항](./guides-ui-extensions/getting-started/editor-extension-guide.md)
          - 시작하기 {#getting-started}
             - [소개](./guides-ui-extensions/getting-started/introduction.md)
             - [설치 안내서](./guides-ui-extensions/getting-started/integrating-customisations.md)
@@ -813,7 +820,7 @@ ht-degree: 7%
          - [JWT 인증을 사용하여 마이크로서비스 기반 게시 구성](./knowledge-base/publishing/configure-microservices.md)
          - [OAuth 인증을 통해 마이크로서비스 기반 게시 구성](./knowledge-base/publishing/configure-microservices-imt-config.md)
          - [Edge Delivery Services 구성(Beta)](./knowledge-base/publishing/configure-eds.md)
-         - [AEM 클라우드에서 벤치마크 게시](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
+         - [AEM 클라우드에서 벤치마크 게시](./knowledge-base/publishing/publishing-benchmarks-on-aem-cloud.md)
       - 워크플로 {#workflows}
          - [사후 생성 워크플로](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
       - 번역 {#translation}
