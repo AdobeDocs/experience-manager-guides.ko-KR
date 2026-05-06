@@ -4,18 +4,32 @@ description: 편집기의 탭 모음에 대해 알아봅니다. Adobe Experience
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 02e45d34-898f-411c-bd80-bd4f2364b7d7
-source-git-commit: e14b19ff7c128899b4536d5b8c4290c476991bef
+source-git-commit: 4d7daf0dc3c6c915701e60d6811822df9f6a64aa
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
 
 # 편집기의 탭 모음
 
-탭 표시줄은 편집기 인터페이스 맨 위에 있으며 다음 기능에 대한 액세스를 제공합니다.
+>[!INFO]
+>
+> 이 항목은 새 편집기와 이전 편집기 모두에 적용됩니다. 핵심 기능은 일관되게 유지되지만, 사용자 인터페이스, 용어 및 상호 작용의 차이는 해당되는 경우 탭 및 설명선을 사용하여 콘텐츠 내에 표시됩니다.
+
+탭 모음은 편집기 인터페이스의 맨 위에 있으며 다양한 파일 수준 기능에 액세스할 수 있습니다.
+
+>[!BEGINTABS]
+
+>[!TAB 새 편집기]
+
+![](./images/web-editor-tab-bar-editor-2-0.png)
+
+>[!TAB 이전 편집기]
 
 ![](./images/web-editor-tab-bar.png)
+
+>[!ENDTABS]
 
 **탭**
 
@@ -23,7 +37,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 관리자는 탭에서 파일 이름별로 파일 목록을 보도록 선택할 수도 있습니다. **사용자 환경 설정**&#x200B;에서 **편집기 파일 표시 구성** 섹션의 [파일 이름](./intro-home-page.md#user-preferences) 옵션을 선택하십시오.
+> 관리자는 탭에서 파일 이름별로 파일 목록을 보도록 선택할 수도 있습니다. [사용자 환경 설정](./intro-home-page.md#user-preferences) 아래의 **편집기 파일 표시 구성** 섹션에서 **파일 이름** 옵션을 선택하십시오.
 
 파일 탭을 선택하면 새 버전으로 저장, 복사, 위치, 추가, 속성, 분할, PDF으로 다운로드 및 닫기 옵션이 있는 컨텍스트 메뉴가 열립니다.
 
@@ -57,4 +71,6 @@ ht-degree: 0%
 >
 > 온-프레미스 설정에서 Adobe Experience Manager Guides을 사용하는 경우 Workspace 설정 옵션이 추가 작업 메뉴에 **설정**(으)로 계속 표시됩니다.
 
-**상위 항목:**&#x200B;[&#x200B;편집기 소개](web-editor.md)
+- **편집기 설정**: 개별 작성자 수준에서 편집기 동작을 사용자 지정할 수 있는 편집기 설정 대화 상자로 이동합니다. 작성 중에 태그, 주석 및 기타 편집기 수준 설정의 가시성과 비헤이비어를 제어할 수 있습니다. 자세한 내용은 [편집기 설정](./config-editor-settings.md)을 참조하세요.
+
+**상위 항목:**[&#x200B;편집기 소개](web-editor.md)
