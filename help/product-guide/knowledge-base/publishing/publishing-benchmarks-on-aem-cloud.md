@@ -3,7 +3,7 @@ title: AEMaaCS에서 안내서 게시 벤치마크
 description: AEM Cloud에 게시하는 것에 대한 시스템 제한을 이해합니다.
 feature: Publishing
 role: User, Admin
-source-git-commit: 6e2577f04f1092ec9d8445ddbb97aa34be1e53a4
+source-git-commit: b6e4fd5051018ce6c60aadf66e6bf7375322aaa1
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 20%
