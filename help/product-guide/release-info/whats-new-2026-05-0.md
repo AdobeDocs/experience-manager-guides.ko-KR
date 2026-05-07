@@ -2,9 +2,9 @@
 title: 릴리스 정보 | Adobe Experience Manager Guides 2026.05.0 릴리스의 새로운 기능
 description: Adobe Experience Manager Guides 2026.05.0 릴리스의 새로운 기능과 향상된 기능에 대해 알아봅니다
 role: Leader
-source-git-commit: 3f38264b6ce09366d07cdd302c9c53e8abcf4b7c
+source-git-commit: 2c9e91a85bb9cfbfec05dbe5c2e9eae9e240d571
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1031'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,7 @@ ht-degree: 0%
 
 이 릴리스의 일부로 다음과 같은 검토 개선 사항이 적용되었습니다.
 
-- 이제 **자동 미리 알림**&#x200B;을(를) 사용하여 검토 작업의 기한 이전과 기한이 지난 후에 검토자에 대한 AEM 알림 및 전자 메일 미리 알림을 예약할 수 있습니다. 각 사례에 대해 미리 알림을 여러 개 구성할 수 있습니다. 미리 알림은 정의된 순서로 전송되며 작업 기한이 지난 후 트리거되는 미리 알림은 구성된 미리 알림 일정에 따라 달라집니다. 검토 작업에 대한 미리 알림을 구성하는 방법에 대한 자세한 내용은 [검토할 하나 이상의 항목 보내기](../user-guide/review-send-topics-for-review.md#send-one-or-more-topics-for-review)를 참조하십시오.
+- 이제 **자동 미리 알림**&#x200B;을(를) 사용하여 검토 작업의 기한 이전과 기한이 지난 후에 검토자에 대한 AEM 알림 및 전자 메일 미리 알림을 예약할 수 있습니다. 각 사례에 대해 미리 알림을 여러 개 구성할 수 있습니다. 미리 알림은 정의된 순서로 전송되며 작업 기한이 지난 후 트리거되는 미리 알림은 구성된 미리 알림 일정에 따라 달라집니다. 자세한 내용은 [검토할 항목 보내기](../user-guide/review-send-topics-for-review.md)를 참조하십시오.
 
 - 이제 검토자는 검토 중인 주제에 대한 버전 내역에 액세스하여 이전 검토 작업에서 동일한 주제에 대한 이전에 검토한 버전과 업데이트된 버전을 보고 비교할 수 있습니다. 이렇게 하면 검토자가 현재 검토 컨텍스트 내에서 주석, 레이블 및 기타 관련 세부 사항을 검토하여 이전 검토 주기 이후에 변경된 내용을 확인하고 연속성을 유지할 수 있습니다. 자세한 내용은 검토자의 [버전 기록](../user-guide/review-topics.md#version-history-for-the-reviewer)을 확인하세요.
 

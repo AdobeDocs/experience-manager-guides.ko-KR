@@ -3,7 +3,7 @@ title: 편집기 설정
 description: AEM Guides에서 편집기 설정을 구성하는 방법에 대해 알아봅니다.
 feature: Web Editor
 role: User
-source-git-commit: 3f38264b6ce09366d07cdd302c9c53e8abcf4b7c
+source-git-commit: 2c9e91a85bb9cfbfec05dbe5c2e9eae9e240d571
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # 편집기 설정
 
->[!INFO]
+>[!NOTE]
 >
-> 이 문서는 새 편집기에 적용됩니다. AEM Guides 고객 지원 팀에 문의하여 환경에서 새 편집기를 활성화하십시오.
+> 이 문서는 새 편집기에만 적용됩니다. 귀하의 환경에서 이 기능을 활성화하려면 AEM Guides 고객 성공 팀에 문의하십시오.
 
 편집기 설정은 개별 작성자 수준에서 편집기 동작을 사용자 지정할 수 있는 중앙 집중식 구성 패널을 제공합니다. 작성 프로세스 동안 유연성, 일관성 및 제어 기능이 향상됩니다.
 
