@@ -4,7 +4,7 @@ description: Editor 2.0용 확장 프레임워크의 변경 사항에 대해 알
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 3f38264b6ce09366d07cdd302c9c53e8abcf4b7c
+source-git-commit: 2ba8eadcb30faca01170cb13ae2da6fdf7da19c8
 workflow-type: tm+mt
 source-wordcount: '2003'
 ht-degree: 3%
