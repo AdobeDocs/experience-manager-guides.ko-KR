@@ -4,10 +4,17 @@ description: Adobe Experience Manager Guides 4.6.0 서비스 팩 1 릴리스로 
 role: Leader
 exl-id: 26ac7ed8-2d3f-40f6-af72-7868b88e218c
 TQID: https://experienceleague.adobe.com/aEtRdFT-H1kJDnLroH3XS1rNcmxJcGBkBXODQFQpfl4
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: afb45297-4313-4f67-818e-bc0b03abe086id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2: id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
-role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 525

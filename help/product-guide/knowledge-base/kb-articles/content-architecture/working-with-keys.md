@@ -5,8 +5,11 @@ role: Admin
 exl-id: b8e3a6d2-ea82-4fdb-bd16-3f4b6594af52
 feature: Use Keys in AEM Guides
 TQID: https://experienceleague.adobe.com/uWvlGyjI4b0Y6rFwhKNK4egq7p6-N4dql-AHnuwiDDo
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 179

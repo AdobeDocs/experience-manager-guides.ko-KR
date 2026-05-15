@@ -6,8 +6,11 @@ role: User
 hide: true
 exl-id: f3ed7e82-8bb8-400f-9406-367da9e0052c
 TQID: https://experienceleague.adobe.com/9A3QCOjdrMwovrnsHnRAQZv9iFryLXrgJP-dCjCGN04
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 1302
@@ -128,4 +131,4 @@ ht-degree: 0%
 - 모든 주제에 대한 총 댓글 수입니다. 검토 중인 주제가 여러 개인 경우 각 주제의 설명 수는 주제 이름에 \(대괄호\)로 표시됩니다.
 - 검토자가 마지막으로 주제에 액세스한 날짜입니다.
 
-**상위 항목:**[&#x200B;항목 또는 맵 검토](review.md)
+**상위 항목:**&#x200B;[&#x200B;항목 또는 맵 검토](review.md)

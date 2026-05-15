@@ -5,10 +5,17 @@ exl-id: 74bef625-acd6-49a6-b983-881a782f68d6
 feature: Report Generation
 role: User
 TQID: https://experienceleague.adobe.com/XgYartZNktcTWmpCR1MgxakbuVXm3AK0iJlLv7-8lxs
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: d90290ec-3e61-4ebd-8649-bcafe0836803
-subfeature_v2: id: cdab8659-8d50-4417-b6fd-762f347c13eeid: fd456af4-cb12-4a34-8cc4-b74adf885626
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: cdab8659-8d50-4417-b6fd-762f347c13ee
+  - id: fd456af4-cb12-4a34-8cc4-b74adf885626
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 471
@@ -62,4 +69,4 @@ Revert History 보고서에 액세스하려면 다음 단계를 수행하십시�
    - **댓글**: 파일을 되돌린 사용자가 제공한 모든 댓글.
 
 
-**상위 항목:**[&#x200B;보고서 소개](reports-intro.md)
+**상위 항목:**&#x200B;[&#x200B;보고서 소개](reports-intro.md)

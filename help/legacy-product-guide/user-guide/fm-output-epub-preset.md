@@ -6,10 +6,15 @@ role: User
 hide: true
 exl-id: b8d16ae9-5cbd-4fa1-b231-f06307e8ee17
 TQID: https://experienceleague.adobe.com/ALVvglhp9MoAb1CqLhzqfmRm69YgT-IQTu6HMHNc2Qw
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
-subfeature_v2: id: bf79f6d3-0ad0-4d82-99e4-42ce98324d60
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2:
+  - id: bf79f6d3-0ad0-4d82-99e4-42ce98324d60
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 176
@@ -33,4 +38,4 @@ ePub 출력에 사용할 수 있는 옵션은 다음과 같습니다.
 | 대상 경로 | ePub 출력이 저장되는 AEM 저장소 내의 경로입니다. |
 | 사후 생성 워크플로 실행 | 이 옵션을 선택하면 AEM에 구성된 모든 워크플로우를 포함하는 새 사후 생성 워크플로우 드롭다운 목록이 표시됩니다. 출력 생성 워크플로우가 완료된 후 실행할 워크플로우를 선택해야 합니다. |
 
-**상위 항목:**[ FrameMaker 문서의 출력 생성](fm-output-generatation.md)
+**상위 항목:**&#x200B;[&#x200B; FrameMaker 문서의 출력 생성](fm-output-generatation.md)

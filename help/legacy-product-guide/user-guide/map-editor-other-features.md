@@ -6,10 +6,15 @@ role: User
 hide: true
 exl-id: d6e00884-e17c-499e-9568-0807a75051ad
 TQID: https://experienceleague.adobe.com/tAzYI5Pxc6SkzgksjL3mFAQHY01YtejwTrU6vHW5vMc
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 467
@@ -47,4 +52,4 @@ DITA 주제에 연관된 키 참조가 있는 경우 주제를 미리 보거나,
 
 **주제 편집 보기** - DITA 주제를 편집하는 동안 키 확인 아이콘을 클릭하고 키 참조를 확인하는 데 사용할 DITA 파일을 선택하십시오.
 
-**상위 항목:**[&#x200B;맵 편집기 작업](map-editor.md)
+**상위 항목:**&#x200B;[&#x200B;맵 편집기 작업](map-editor.md)

@@ -4,11 +4,25 @@ description: Adobe Experience Manager Guides 5.1.0 릴리스의 새로운 기능
 role: Leader
 exl-id: 4f65cf99-3ea2-47aa-91fd-ce0c8d9eaa11
 TQID: https://experienceleague.adobe.com/gmsMzcQ72rLV538UWvg3iUi-cNi2mmgyTWo53VGVU-I
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8id: f6b497f1-f8e0-42ce-8e95-56c28d94026eid: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+  - id: f6b497f1-f8e0-42ce-8e95-56c28d94026e
+  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 1401
@@ -46,7 +60,7 @@ ht-degree: 0%
 
 주요 기능은 다음과 같습니다.
 
-- **DITAVAL 파일 작성에 대한 플래그 지정 지원 향상:** Experience Manager Guides은 DITAVAL 파일의 향상된 플래그 지정 지원을 통해 콘텐츠 게시를 사용자 지정할 수 있는 새로운 기능을 제공합니다. 이제 이미지를 포함하여 특정 콘텐츠 주위에 시작 및 종료 플래그를 적용하고 굵게, 기울임체 등의 서식 옵션을 사용하여 플래그가 지정된 섹션을 보강할 수 있습니다. 조건 중복을 처리하기 위해 **스타일 충돌**을 구성할 수 있습니다. 여기에는 기본 배경색과 텍스트 색 설정, 출력의 명확성과 일관성이 포함됩니다. 이러한 플래그는 기본 PDF 생성에서 완전히 지원되며, 결과 출력은 적용된 모든 스타일 요소를 정확하고 종합적으로 반영합니다.
+- **DITAVAL 파일 작성에 대한 플래그 지정 지원 향상:** Experience Manager Guides은 DITAVAL 파일의 향상된 플래그 지정 지원을 통해 콘텐츠 게시를 사용자 지정할 수 있는 새로운 기능을 제공합니다. 이제 이미지를 포함하여 특정 콘텐츠 주위에 시작 및 종료 플래그를 적용하고 굵게, 기울임체 등의 서식 옵션을 사용하여 플래그가 지정된 섹션을 보강할 수 있습니다. 조건 중복을 처리하기 위해 **스타일 충돌**&#x200B;을 구성할 수 있습니다. 여기에는 기본 배경색과 텍스트 색 설정, 출력의 명확성과 일관성이 포함됩니다. 이러한 플래그는 기본 PDF 생성에서 완전히 지원되며, 결과 출력은 적용된 모든 스타일 요소를 정확하고 종합적으로 반영합니다.
 자세한 내용은 [DITAVAL 편집기 사용](../user-guide/ditaval-editor.md)을 참조하세요.
 
   ![](assets/ditaval-flag-style-new.png){width="350"}

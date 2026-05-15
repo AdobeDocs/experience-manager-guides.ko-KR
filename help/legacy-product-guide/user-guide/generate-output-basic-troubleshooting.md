@@ -6,11 +6,19 @@ role: User
 hide: true
 exl-id: f85fee0f-30d1-453f-8700-781e0be8f616
 TQID: https://experienceleague.adobe.com/jMAgPQGFPANQobS5s92KkGYc-rfhKy70Zda43TY-6VY
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2: id: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 690
@@ -98,4 +106,4 @@ DITA 주제가 너무 큰 경우 브라우저에 JSP 컴파일 오류 \(`org.apa
 1. 요구 사항에 따라 *요청당 호출 수* 매개 변수의 값을 늘립니다.
 
 
-**상위 항목:**[&#x200B;출력 생성](generate-output.md)
+**상위 항목:**&#x200B;[&#x200B;출력 생성](generate-output.md)

@@ -6,9 +6,15 @@ feature: Java-Based API Baseline
 role: Developer
 level: Experienced
 TQID: https://experienceleague.adobe.com/3vpR2zCp5a6dBn6RkSKgBeU7cS3Me-HE0KQxc-duYCk
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: c6d09140-3c91-45d3-b7ed-b681af752f43id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+  - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 944
@@ -126,7 +132,7 @@ public static void applyLabel(Session session,
 | `session` | javax.jcr.Session | 유효한 JCR 세션입니다. |
 | `sourcePath` | 문자열 | AEM 저장소의 DITA 맵 파일의 절대 경로입니다. |
 | ``baselineName`` | 문자열 | 레이블을 적용할 기준 노드의 이름입니다. 기준선 노드의 이름을 가져오려면 [\#id185NFF0085Z](#id185NFF0085Z) 메서드를 사용하거나 CRXDE에서 DITA 맵의 기준선 노드를 확인하십시오.<br> **참고:** 레이블은 기준선에 있는 맵 파일에서 직접 참조되는 파일 버전에 적용됩니다. |
-| `label` | 문자열 | 기준선의 파일에 적용되는 레이블입니다. 레이블에 다음 문자가 포함되어 있지 않은지 확인합니다. &amp;sol; &amp;comma; &amp;colon; &amp;comma; &amp;lbrack; &amp;comma; &amp;rbrack; &amp;comma; &amp;vert; &amp;comma; &amp;ast; <br> 여러 레이블을 설정하려면 레이블1, 레이블2와 같이 쉼표;로 레이블을 구분합니다. |
+| `label` | 문자열 | 기준선의 파일에 적용되는 레이블입니다. 레이블에 다음 문자가 포함되어 있지 않은지 확인합니다. &sol; &comma; &colon; &comma; &lbrack; &comma; &rbrack; &comma; &vert; &comma; &ast; <br> 여러 레이블을 설정하려면 레이블1, 레이블2와 같이 쉼표;로 레이블을 구분합니다. |
 
 **예외**:
 `RepositoryException`을(를) throw합니다.

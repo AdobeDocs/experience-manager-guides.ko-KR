@@ -6,9 +6,13 @@ role: Admin
 level: Experienced
 exl-id: aa843a72-ff0d-4c9a-a87d-48d099087b5e
 TQID: https://experienceleague.adobe.com/d-eC5SHwAeCMEZhZJzN-12rdk37TjqBy0SYXC6lfbUI
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 469
@@ -40,7 +44,7 @@ ht-degree: 0%
 ## CRX 패키지 관리자를 사용한 패키지 설치
 
 1. **구성 요소 패키지 설치:**
-   1. [**CRX 패키지 관리자**](http://<your-aem-instance>/crx/packmgr)&#x200B;(으)로 이동합니다.
+   1. [**CRX 패키지 관리자**](http://&lt;your-aem-instance>/crx/packmgr)&#x200B;(으)로 이동합니다.
    2. on-prem-guides-components.all-1.x.0.zip 패키지를 업로드하고 설치합니다.
 
 2. **사이트 패키지 설치:** CRX 패키지 관리자를 사용하여 aemg-docs.all-1.x.0.zip 패키지를 업로드하고 설치합니다.
@@ -90,7 +94,7 @@ ht-degree: 0%
    2. OOTB 사이트 구조 아래에 새 제품 페이지를 만듭니다.
    3. **AEMG 문서** > **영어** > **문서**(으)로 이동합니다.
 
-      ![AEM 사이트 구조 ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-page.png){width="350"}에서 페이지 만들기
+      ![AEM 사이트 구조 &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-page.png){width="350"}에서 페이지 만들기
 
    4. **홈 페이지** 타일을 선택한 다음 **다음**&#x200B;을 선택합니다.
 

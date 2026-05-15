@@ -3,10 +3,17 @@ title: Adobe Experience Manager Guides의 AI Assistant에 대한 FAQ
 description: Adobe Experience Manager Guides의 AI Assistant에 대한 FAQ에 대해 알아봅니다.
 exl-id: 3445ba5a-ef12-4756-8b8d-2ae21bc65955
 TQID: https://experienceleague.adobe.com/W7kUVGjY-NDdsmomAOlnqZU38gnvWdi2qiq92g8DpJA
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 265

@@ -6,8 +6,11 @@ feature: Installation
 role: Admin
 level: Experienced
 TQID: https://experienceleague.adobe.com/WDiYcOCdCuaJCrGYCupOS0TEk5TV-1q6Zi5z-S7KWLA
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 162
@@ -32,4 +35,4 @@ AEM Guides을 설치한 후에는 설치 성공 여부를 확인해야 합니다
    배포된 번들에 대한 *활성* 상태가 표시됩니다. 번들에 활성 상태가 없는 것이 있으면 AEM 로그를 확인하여 설치 문제를 해결하십시오.
 
 
-**상위 항목:**[&#x200B;다운로드 및 설치](download-install.md)
+**상위 항목:**&#x200B;[&#x200B;다운로드 및 설치](download-install.md)

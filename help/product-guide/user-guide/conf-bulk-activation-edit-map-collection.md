@@ -5,10 +5,15 @@ exl-id: 5f897c52-5d6e-4614-a14f-1806e085c21c
 feature: Publishing, Bulk Activation
 role: User
 TQID: https://experienceleague.adobe.com/UZY5vRMeR3ytX2lGtIBu7Dx4EPhxXmX3Cbg-Pzp3MKc
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
-subfeature_v2: id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2:
+  - id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 250
@@ -54,4 +59,4 @@ AEM Site, PDF, Native PDF, HTML5, Custom 및 JSON 출력과 같은 다양한 유
 1. **완료**&#x200B;를 선택합니다.
 
 
-**상위 항목:**[&#x200B;게시된 콘텐츠의 일괄 활성화](conf-bulk-activation.md)
+**상위 항목:**&#x200B;[&#x200B;게시된 콘텐츠의 일괄 활성화](conf-bulk-activation.md)

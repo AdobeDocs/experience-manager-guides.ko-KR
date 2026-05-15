@@ -5,11 +5,19 @@ exl-id: f2a4df86-bba7-434c-b7f9-3587b8a4f9bc
 feature: Translation
 role: User
 TQID: https://experienceleague.adobe.com/798Cq-uPIr0LZRTB7LbcM5mYeoDxuVTR4meQn0LYsfs
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2: id: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd456af4-cb12-4a34-8cc4-b74adf885626
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+  - id: fd456af4-cb12-4a34-8cc4-b74adf885626
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 857
@@ -85,4 +93,4 @@ ht-degree: 0%
 >- 여러 프로젝트(프로젝트 중 하나에 대해)에 있는 주제에 대한 번역 작업을 거부, 삭제 또는 취소하면 해당 주제의 **진행 중** 번역 상태는 되돌릴 수 없지만 해당 프로젝트는 해당 에셋에 대한 **진행 중** 프로젝트 목록에서 제거됩니다.
 >- 또한 번역 작업을 취소 또는 삭제하거나 전체 프로젝트를 삭제하면 **진행 중** 번역 상태가 원래 상태로 되돌아갑니다.
 
-**상위 항목:**[&#x200B;콘텐츠 번역 개요](translation.md)
+**상위 항목:**&#x200B;[&#x200B;콘텐츠 번역 개요](translation.md)

@@ -5,9 +5,13 @@ feature: Authoring
 role: User
 exl-id: 171b9df9-3782-4cfa-b450-7824e5fd390d
 TQID: https://experienceleague.adobe.com/fIdzpub-IWWPZMqqRd4l6NrVGZlQAPCtAlsvuOnkCCQ
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 590
@@ -59,7 +63,7 @@ ht-degree: 0%
 
 - **재사용 가능한 콘텐츠**: 재사용 가능성을 위해 에셋 또는 저장소의 기존 콘텐츠를 통합할 수 있습니다. 재사용 가능한 콘텐츠를 삽입하려면 다음 단계를 수행하십시오.
 
-   1. 도구 모음에서 **재사용 가능한 콘텐츠**를 선택합니다.
+   1. 도구 모음에서 **재사용 가능한 콘텐츠**&#x200B;를 선택합니다.
 **콘텐츠 재사용** 대화 상자가 열립니다.
    2. 원하는 주제를 탐색하고 선택하여 현재 강의에 해당 콘텐츠를 포함합니다.
    3. 추가할 콘텐츠의 ID를 선택합니다. 참조를 위해 미리보기가 함께 표시됩니다.
@@ -99,7 +103,7 @@ ht-degree: 0%
    >
    > 기존 제목을 제목으로 사용하지 않으려면 먼저 편집기 도구 모음에서 텍스트 구성 요소를 사용하여 제목을 삽입한 다음 **제목 추가**&#x200B;를 선택하십시오. 이렇게 하면 샘플 **제목**&#x200B;이(가) 콘텐츠에 추가되며 필요에 따라 편집할 수 있습니다.
 
-1. 파일 속성에서 **하위 제목 추가**를 선택합니다.
+1. 파일 속성에서 **하위 제목 추가**&#x200B;를 선택합니다.
 샘플 **부제목**&#x200B;이(가) 콘텐츠에 추가됩니다.
 
    ![](assets/add-subtitles-lc.png)

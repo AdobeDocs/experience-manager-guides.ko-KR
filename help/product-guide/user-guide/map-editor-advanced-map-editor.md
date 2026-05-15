@@ -5,11 +5,20 @@ exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
 TQID: https://experienceleague.adobe.com/EPnCDG2eSljhIm-DrPk9uMBrTyK9-mT1J8N8bAQVrQ8
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2: id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41id: ad602516-aca3-4247-9ae8-f393d958efa9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 2918
@@ -23,7 +32,7 @@ ht-degree: 0%
 >
 > 이 항목은 새 편집기와 이전 편집기 모두에 적용됩니다. 핵심 기능은 일관되게 유지되지만, 사용자 인터페이스, 용어 및 상호 작용의 차이는 해당되는 경우 탭 및 설명선을 사용하여 콘텐츠 내에 표시됩니다.
 
-맵 편집기의 도구 모음은 주제 편집기와 유사합니다. 왼쪽 패널 전환, 맵 저장, 새 맵 버전 만들기, 마지막 작업 실행 취소/다시 실행 및 선택한 요소 삭제와 같은 기본 작업은 두 편집기에서 공통됩니다. 이러한 작업이 작동하는 방식에 대한 자세한 내용은 편집기](web-editor-toolbar.md#) 섹션에서 [도구 모음을 확인하세요.
+맵 편집기의 도구 모음은 주제 편집기와 유사합니다. 왼쪽 패널 전환, 맵 저장, 새 맵 버전 만들기, 마지막 작업 실행 취소/다시 실행 및 선택한 요소 삭제와 같은 기본 작업은 두 편집기에서 공통됩니다. 이러한 작업이 작동하는 방식에 대한 자세한 내용은 편집기[&#128279;](web-editor-toolbar.md#) 섹션에서 도구 모음을 확인하세요.
 
 편집기 도구 모음에서 보는 옵션은 맵 편집기 보기를 기반으로 합니다. 맵 편집기에서 사용할 수 있는 보기는 5개입니다.
 
@@ -322,7 +331,7 @@ XML 태그를 표시하거나 숨깁니다. 태그는 요소의 경계를 나타
 - **맵 수준 새로 고침**: **새로 고침** 단추를 선택하면 전체 맵(모든 항목 포함)의 미리 보기가 새로 고침되고, 명확한 보기를 위해 첫 번째 스크롤 위치로 이동합니다.
   ![](images/refresh-map.png){width="650"}
 
-- **항목 수준 새로 고침**: 컨텍스트 메뉴에서 **항목 새로 고침**을 선택하면 스크롤 위치가 변경되지 않은 상태로 특정 항목이 새로 고쳐집니다.
+- **항목 수준 새로 고침**: 컨텍스트 메뉴에서 **항목 새로 고침**&#x200B;을 선택하면 스크롤 위치가 변경되지 않은 상태로 특정 항목이 새로 고쳐집니다.
   ![](images/refresh-topic.png){width="650"}
 
 **맵 파일을 미리 보는 다른 방법**
