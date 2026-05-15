@@ -26,14 +26,14 @@ AEM Guides은 Adobe Experience Manager 위에 설치되는 플러그인입니다
 
 - [기본 AEM 개념](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/deploy.html#BasicConcepts)
 
-- [권장 AEM 배포](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/recommended-deploys.html)
+- [권장 AEM 배포](https://helpx.adobe.com/kr/experience-manager/6-5/sites/deploying/using/recommended-deploys.html)
 
 
 >[!IMPORTANT]
 >
 > AEM 6.5.x에서 Java 11을 사용하는 경우 문제가 발생할 수 있습니다. *JDK 11이`NoClassDefFoundError`*&#x200B;을(를) 일으킵니다. 이 문제를 해결하려면 [JDK 11에서 NoClassDefFoundError \| AEM 6.5](https://helpx.adobe.com/experience-manager/kb/jdk-11-causes-noclassdeffounderror---aem-6-5.html) 문서를 참조하십시오.
 
-조직에 가장 적합한 배포 전략을 파악한 후에는 AEM 설명서의 *[시작하기](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/deploy.html#GettingStarted)* 섹션에 설명된 대로 설치 프로세스를 수행하십시오.
+조직에 가장 적합한 배포 전략을 파악한 후에는 AEM 설명서의 *[시작하기](https://helpx.adobe.com/kr/experience-manager/6-5/sites/deploying/using/deploy.html#GettingStarted)* 섹션에 설명된 대로 설치 프로세스를 수행하십시오.
 
 AEM 인스턴스를 업그레이드하려는 경우 지정된 순서를 따라야 합니다.
 

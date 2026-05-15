@@ -36,7 +36,7 @@ ht-degree: 0%
 ## 배경
 
 AEM Guides에서는 DITA-OT 플러그인을 사용하여 구성된 플러그인을 사용하여 원하는 출력 형식으로 게시할 수 있습니다.
-AEM DAM에서 관리되는 에셋의 메타데이터를 DITA-OT 프로세스에 전달하여 생성된 출력에서 사용할 수도 있습니다. [ditamap/topics를 설정하여 출력 사전 설정을 통해 메타데이터를 전달하는 방법](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot)에 대한 설명서를 참조하십시오.
+AEM DAM에서 관리되는 에셋의 메타데이터를 DITA-OT 프로세스에 전달하여 생성된 출력에서 사용할 수도 있습니다. [ditamap/topics를 설정하여 출력 사전 설정을 통해 메타데이터를 전달하는 방법](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot)에 대한 설명서를 참조하십시오.
 
 
 ## 가정
@@ -180,7 +180,7 @@ DITA-OT 플러그인이 _metadata.xml_ 및 이 플러그인에서 사용할 수 
 
 ### 배포
 
-DITA-OT 플러그인을 개발했으면 DITA-OT 디렉터리 아래의 _dita —install_ 명령을 사용하여 DITA-OT에 이 플러그인을 통합하고 AEM 서버에 배포할 수 있습니다. [자세한 내용은 이 문서를 참조하십시오.](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/steps-to-setup-a-custom-dita-ot/td-p/407659)
+DITA-OT 플러그인을 개발했으면 DITA-OT 디렉터리 아래의 _dita —install_ 명령을 사용하여 DITA-OT에 이 플러그인을 통합하고 AEM 서버에 배포할 수 있습니다. [자세한 내용은 이 문서를 참조하십시오.](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/steps-to-setup-a-custom-dita-ot/td-p/407659?profile.language=ko)
 
 
 ## 리소스

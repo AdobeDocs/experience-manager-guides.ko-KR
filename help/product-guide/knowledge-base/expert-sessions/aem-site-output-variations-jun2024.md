@@ -52,13 +52,13 @@ ht-degree: 5%
 ## 관련 리소스
 
 
-- [AEM 사이트 출력 게시](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-aem-site#:~:text=To%20open%20output%20presets%20for,configurations%2C%20and%20then%20click%20Save입니다.)
+- [AEM 사이트 출력 게시](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-aem-site#:~:text=To%20open%20output%20presets%20for,configurations%2C%20and%20then%20click%20Save입니다.)
 
-- [KB 출력 게시](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-knowledge-base)
+- [KB 출력 게시](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-knowledge-base)
 
 - [AEM 템플릿](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/developing/platform/templates/templates)
 
-- **커뮤니티 포럼** - Experience League에서 세션별 커뮤니티 상호 작용을 보려면 [AEM Guides 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)을 방문하십시오.
+- **커뮤니티 포럼** - Experience League에서 세션별 커뮤니티 상호 작용을 보려면 [AEM Guides 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=ko)을 방문하십시오.
 
 >[!NOTE]
 >

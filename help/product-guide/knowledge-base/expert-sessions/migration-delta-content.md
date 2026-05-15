@@ -50,16 +50,16 @@ AEM Guides의 콘텐츠 마이그레이션에 대한 시리즈의 세 번째 세
 
 ### 설명서
 
-- [콘텐츠 복사 도구](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developer-tools/content-copy)
+- [콘텐츠 복사 도구](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/developer-tools/content-copy)
 - [패키지 관리자를 사용하여 콘텐츠 전송](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager)
-- [비 UUID에서 UUID로 콘텐츠 마이그레이션](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/content-migration/migration-process/migrate-non-uuid-uuid)
+- [비 UUID에서 UUID로 콘텐츠 마이그레이션](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/install-guide/on-prem-ig/content-migration/migration-process/migrate-non-uuid-uuid)
 - [AEM Guides: 온-프레미스/AMS에서 클라우드로 UUID 콘텐츠 이동](../../cs-install-guide/migrate-on-premise-content-cloud.md)
 - [AEM Cloud로 이동](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
 - [AEM Guides: uuid가 아닌 콘텐츠를 클라우드로 마이그레이션](../../install-guide/migrate-uuid-non-uuid.md)
 
 ### 커뮤니티 포럼
 
-- Experience League에서 세션별 커뮤니티 상호 작용을 보려면 [AEM Guides 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)을 방문하십시오.
+- Experience League에서 세션별 커뮤니티 상호 작용을 보려면 [AEM Guides 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=ko)을 방문하십시오.
 
 
 >[!NOTE]
