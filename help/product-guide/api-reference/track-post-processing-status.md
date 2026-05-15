@@ -4,9 +4,16 @@ description: 폴더 또는 에셋에 대한 사후 처리를 추적하는 API에
 feature: Post-Processing Event Handler
 role: Developer
 level: Experienced
-source-git-commit: 558108650aeeeda440895972e460fa523b804bb2
+exl-id: f902fac1-2717-4696-a835-c4b0bb8add3d
+TQID: https://experienceleague.adobe.com/Lyv-S5o-Z40bMqqIHhbxKrsmn9CCqHRnqnpiq91EjGU
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: 150
 ht-degree: 10%
 
 ---

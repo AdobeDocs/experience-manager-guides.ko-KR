@@ -3,9 +3,16 @@ title: 구성 요소
 description: 앱 구성 요소 검토
 role: User, Admin
 exl-id: 78d626f9-9f96-4748-a268-39fa57aef495
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+TQID: https://experienceleague.adobe.com/wyDhZj81cM5IPso-L08mb2ecyc6PcmaG-F802GMwX-k
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: 127
 ht-degree: 0%
 
 ---
@@ -35,15 +42,12 @@ XML 편집기 측의 댓글 검토:
 
 - 댓글 회신 검토: `id: comment_reply`
    - 각 리뷰 댓글 회신에 대한 위젯입니다.
-
      ![댓글 응답 스크린샷 검토](./imgs/reply.png)
 
 - 새 리뷰 댓글 회신: `id: comment_new_reply`
    - 새 리뷰 댓글 회신에 대한 위젯입니다.
-
      ![새 리뷰 댓글 스크린샷](./imgs/new_reply.png)
 
 - 주석 도구 상자: `id: annotation_toolbox`
    - 리뷰 앱의 오른쪽 상단 도구 모음
-
      ![주석 도구 상자 스크린샷](./imgs/annotation_toolbox.png)

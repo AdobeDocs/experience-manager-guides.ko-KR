@@ -5,9 +5,20 @@ feature: Authoring, DITAVAL Editor
 role: User
 hide: true
 exl-id: 8eee347d-840e-4eaf-9441-c7c53a7c3aa0
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+TQID: https://experienceleague.adobe.com/kIveRGwg17BgYGEsn9dgAtr8r5HFlEya-nD7gK2G--c
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: ca593223-d11a-4a52-b369-a8e081e71737
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: 792
 ht-degree: 0%
 
 ---
@@ -86,11 +97,11 @@ DITAVAL 파일에 단일 속성을 추가합니다.
 
 AEM Guides의 DITAVAL 편집기는 두 가지 다른 모드 또는 보기에서 DITAVAL 파일 보기를 지원합니다.
 
-**작성자**:   이는 DITAVAL 편집기의 \(WYSISYG\) 보기에 표시되는 일반적인 모습입니다. 드롭다운 목록에 속성, 해당 값 및 작업을 표시하는 간단한 사용자 인터페이스를 사용하여 속성을 추가하거나 제거할 수 있습니다. 작성자 보기에서는 한 번의 클릭으로 개별 속성을 삽입하고 모든 속성을 삽입할 수 있습니다.
+**작성자**: DITAVAL 편집기의 \(WYSISYG\) 보기에 표시되는 일반적인 내용입니다. 드롭다운 목록에 속성, 해당 값 및 작업을 표시하는 간단한 사용자 인터페이스를 사용하여 속성을 추가하거나 제거할 수 있습니다. 작성자 보기에서는 한 번의 클릭으로 개별 속성을 삽입하고 모든 속성을 삽입할 수 있습니다.
 
 파일 이름 위로 포인터를 가져가면 현재 작업 중인 DITAVAL 파일의 버전을 찾을 수도 있습니다.
 
-**Source**:   Source 보기에는 DITAVAL 파일을 구성하는 기본 XML이 표시됩니다. 이 보기에서 일반 텍스트 편집 작업을 수행할 수 있을 뿐만 아니라 작성자는 스마트 카탈로그를 사용하여 속성을 추가하거나 편집할 수도 있습니다.
+**Source**: Source 보기에는 DITAVAL 파일을 구성하는 기본 XML이 표시됩니다. 이 보기에서 일반 텍스트 편집 작업을 수행할 수 있을 뿐만 아니라 작성자는 스마트 카탈로그를 사용하여 속성을 추가하거나 편집할 수도 있습니다.
 
 스마트 카탈로그를 호출하려면 속성 정의의 끝에 커서를 놓고 &quot;&lt;&quot;를 입력합니다. 해당 위치에 삽입할 수 있는 모든 유효한 XML 요소 목록이 편집기에 표시됩니다.
 

@@ -1,13 +1,30 @@
 ---
-title: 릴리스 정보 | Adobe Experience Manager Guides, 2023년 10월 릴리스의 업그레이드 지침 및 해결된 문제
+title: 릴리스 정보 | 업그레이드 지침 및 해결된 Adobe Experience Manager Guides 문제, 2023년 10월 릴리스
 description: 버그 수정 사항 및 Adobe Experience Manager Guides as a Cloud Service 2023년 10월 릴리스로 업그레이드하는 방법에 대해 알아보십시오
 exl-id: 536d2ec2-31a0-4533-9c29-16a27525acca
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/z5F-Y7WSSnFSGU5n6obqNb9bOqp3WQvvpxaQJ9ksOLI
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: cda0baeb-996e-4aaa-92d1-41032e34fd68
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 1%
+source-wordcount: 1047
+ht-degree: 2%
 
 ---
 
@@ -22,7 +39,7 @@ ht-degree: 1%
 다음 단계를 수행하여 현재 AEM Guides as a Cloud Service 설정을 업그레이드합니다.
 
 1. 클라우드 서비스의 Git 코드를 체크아웃하고 업그레이드하려는 환경에 해당하는 클라우드 서비스 파이프라인에 구성된 분기로 전환합니다.
-2. 클라우드 서비스 Git 코드의 `<dox.version>` 파일에서 `/dox/dox.installer/pom.xml` 속성을 2023.10.0.373으로 업데이트합니다.
+2. 클라우드 서비스 Git 코드의 `/dox/dox.installer/pom.xml` 파일에서 `<dox.version>` 속성을 2023.10.0.373으로 업데이트합니다.
 3. 변경 사항을 커밋하고 클라우드 서비스 파이프라인을 실행하여 2023년 10월 AEM Guides as a Cloud Service 릴리스로 업그레이드합니다.
 
 ## 서블릿을 통해 스크립트 트리거를 활성화하는 단계
@@ -66,7 +83,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 기존 콘텐츠를 후처리하고 새 끊어진 링크 보고서를 사용하려면 다음 단계를 수행하십시오.
 
-1. (선택 사항) 시스템에 100,000개 이상의 DITA 파일이 있는 경우 `queryLimitReads`의 `org.apache.jackrabbit.oak.query.QueryEngineSettingsService`을(를) 더 큰 값(존재하는 에셋 수보다 큰 값(예: 200,000))으로 업데이트한 다음 다시 배포합니다.
+1. (선택 사항) 시스템에 100,000개 이상의 DITA 파일이 있는 경우 `org.apache.jackrabbit.oak.query.QueryEngineSettingsService`의 `queryLimitReads`을(를) 더 큰 값(존재하는 에셋 수보다 큰 값(예: 200,000))으로 업데이트한 다음 다시 배포합니다.
 
    - Adobe Experience Manager Guides as a Cloud Service 설치 및 구성 의 *구성 재정의* 섹션에 제공된 지침을 사용하여 구성 파일을 만듭니다.
    - 구성 파일에서 다음 (속성) 세부 정보를 제공하여 queryLimitReads 옵션을 구성합니다.
@@ -140,8 +157,8 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 ### 게시
 
 - 기본 PDF | PDF 출력이 생성될 때 주제의 순서가 수정되지 않습니다. (13157)
-- 기본 PDF| `<p>`요소에 사용할 수 있는 기본 스타일 태그가 없습니다. (12559)
-- 기본 PDF | 컨텐츠 영역에 적용된 인라인 스타일은 앞면 및 뒷면 항목의 주제에 적용되지 않습니다. (13510)
+- 네이티브 PDF| `<p>`요소에 사용할 수 있는 기본 스타일 태그가 없습니다. (12559)
+- 기본 PDF | 컨텐츠 영역에 적용된 인라인 스타일은 앞뒤의 주제에 적용되지 않습니다. (13510)
 - AEM 사이트 출력을 생성할 때 `DeliveryTarget` 특성이 전파되지 않습니다.  (13132)
 - 특정 오류가 있는 콘텐츠에 대한 AEM 사이트 출력을 생성하는 동안 **게시** 워크플로우가 중단되었습니다. (12000)
 

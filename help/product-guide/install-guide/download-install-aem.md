@@ -5,9 +5,17 @@ exl-id: 4693b102-b75a-4904-b2d5-914e774305f3
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+TQID: https://experienceleague.adobe.com/yoV8cMoMPIDbFi-cTm2LmmOSTpOjx8TrhengJ3WPrBs
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: 215
 ht-degree: 0%
 
 ---
@@ -16,7 +24,7 @@ ht-degree: 0%
 
 AEM Guides은 Adobe Experience Manager 위에 설치되는 플러그인입니다. AEM을 설치하려면 몇 가지 기본 AEM 개념과 권장 배포 시나리오를 이해해야 합니다. 다음 링크는 AEM 설치를 시작하는 데 도움이 됩니다.
 
-- [기본 AEM 개념](https://helpx.adobe.com/kr/experience-manager/6-5/sites/deploying/using/deploy.html#BasicConcepts)
+- [기본 AEM 개념](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/deploy.html#BasicConcepts)
 
 - [권장 AEM 배포](https://helpx.adobe.com/kr/experience-manager/6-5/sites/deploying/using/recommended-deploys.html)
 

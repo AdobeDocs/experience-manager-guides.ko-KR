@@ -1,13 +1,32 @@
 ---
-title: 릴리스 정보 | Adobe Experience Manager Guides의 업그레이드 지침 및 해결된 문제, 2023년 9월 릴리스
+title: 릴리스 정보 | 업그레이드 지침 및 해결된 Adobe Experience Manager Guides 문제, 2023년 9월 릴리스
 description: 버그 수정 사항 및 Adobe Experience Manager Guides as a Cloud Service 2023년 9월 릴리스로 업그레이드하는 방법에 대해 알아보십시오
 exl-id: 795b86a0-e763-404a-a4bb-35d3d2a42672
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/CoWG1c1gE-wPrI90-qp0QJu-oOE4pDLcY6bIEN2QQpE
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: cda0baeb-996e-4aaa-92d1-41032e34fd68
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1485'
-ht-degree: 0%
+source-wordcount: 1492
+ht-degree: 3%
 
 ---
 
@@ -22,7 +41,7 @@ ht-degree: 0%
 다음 단계를 수행하여 현재 AEM Guides as a Cloud Service 설정을 업그레이드합니다.
 
 1. 클라우드 서비스의 Git 코드를 체크아웃하고 업그레이드하려는 환경에 해당하는 클라우드 서비스 파이프라인에 구성된 분기로 전환합니다.
-2. 클라우드 서비스 Git 코드의 `<dox.version>` 파일에서 `/dox/dox.installer/pom.xml` 속성을 2023.9.0.359로 업데이트합니다.
+2. 클라우드 서비스 Git 코드의 `/dox/dox.installer/pom.xml` 파일에서 `<dox.version>` 속성을 2023.9.0.359로 업데이트합니다.
 3. 변경 사항을 커밋하고 Cloud Services 파이프라인을 실행하여 AEM Guides as a Cloud Service의 2023년 9월 릴리스로 업그레이드합니다.
 
 ## 서블릿을 통해 스크립트 트리거를 활성화하는 단계
@@ -66,7 +85,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 기존 콘텐츠를 후처리하고 새 끊어진 링크 보고서를 사용하려면 다음 단계를 수행하십시오.
 
-1. (선택 사항) 시스템에 100,000개 이상의 dita 파일이 있는 경우 `queryLimitReads`의 `org.apache.jackrabbit.oak.query.QueryEngineSettingsService`을(를) 더 큰 값(존재하는 에셋 수보다 큰 값(예: 200,000))으로 업데이트한 다음 다시 배포합니다.
+1. (선택 사항) 시스템에 100,000개 이상의 dita 파일이 있는 경우 `org.apache.jackrabbit.oak.query.QueryEngineSettingsService`의 `queryLimitReads`을(를) 더 큰 값(존재하는 에셋 수보다 큰 값(예: 200,000))으로 업데이트한 다음 다시 배포합니다.
 
    - Adobe Experience Manager Guides 설치 및 구성 의 *구성 재정의* 섹션에 제공된 지침을 사용하십시오.
 as a Cloud Service을 클릭하여 구성 파일을 만듭니다.
@@ -134,9 +153,9 @@ as a Cloud Service을 클릭하여 구성 파일을 만듭니다.
 
 - 파일 잠금 해제 옵션과 저장 안 함 옵션이 선택되어 있어도 웹 편집기에서 주제 파일이 잠금 해제되지 않습니다. (12558)
 - 체크 인하기 전에 변경 내용을 취소하기 위해 [아니요] 옵션을 선택했지만 웹 편집기에서 파일을 체크 아웃할 수 없습니다. (12557)
-- 웹 편집기 내의 기본 도구 모음에 있는 파일 잠금 및 잠금 해제 아이콘의 도구 설명이 저장소 보기에 표시된 아이콘과 일치하지 않습니다.(12555)
+- 웹 편집기 내의 기본 도구 모음에 있는 파일 잠금 및 잠금 해제 아이콘의 도구 설명이 저장소 보기에 표시된 아이콘과 일치하지 않습니다(12555).
 - 맵 보기에서 아직 체크 아웃되지 않은 웹 편집기의 파일에 대해 체크 아웃 취소 및 잠금 해제 옵션이 표시됩니다. (12556)
-- 기존 &quot;topicref&quot; 링크에서 PDF 에셋을 선택할 수 없습니다. (12477)
+- 기존 &quot;topicref&quot; 링크에서 PDF 에셋을 선택할 수 없습니다. (12477).
 - 저장소 보기에서 검색/필터 기능을 사용한 후에는 주제나 이미지를 드래그할 수 없습니다. (12396)
 - 검색된 파일을 한 개 열면 찾기 및 바꾸기 패널에서 검색 결과가 비활성화됩니다. (12142)
 - 측면 키보드의 &quot;8&quot; 숫자 키가 AEM Guides 편집기에서 작동하지 않습니다. (12106)
@@ -164,14 +183,14 @@ as a Cloud Service을 클릭하여 구성 파일을 만듭니다.
 
 - 기본 PDF | 여러 xref를 포함하면 텍스트가 열 너비를 넘어갑니다. (13004)
 - 기본 PDF | 주제와 제목에 동일한 ID가 있으면 잘못된 PDF 출력 생성이 발생합니다. (12644)
-- 기본 PDF | DITA 맵의 부모 `<topicref>` 요소에 outputclass를 추가하고 outputclass에 사용자 지정 스타일을 적용하면 섹션 제목을 포함하여 항목 본문 내의 요소에 스타일이 적용됩니다.(12166)
+- 기본 PDF | DITA 맵에서 상위 `<topicref>` 요소에 outputclass를 추가하고 outputclass에 사용자 지정 스타일을 적용하면 섹션 제목을 포함하여 항목 본문 내의 요소에 스타일이 적용됩니다(12166).
 - DITA 맵에 여러 개의 ditavalrefs가 있는 경우 증분 게시가 작동하지 않습니다. (12117)
-- AEM 사이트 | 항목을 변수로 가리키는 keydef를 사용하여 맵을 만들고 processing-role=resource-only를 추가하면 예기치 않은 페이지가 만들어집니다. (12099)
+- AEM 사이트 | keydef가 항목을 변수로 가리키는 맵을 만들고 processing-role=resource-only를 추가하면 예기치 않은 페이지가 만들어집니다. (12099)
 - AEM의 DAM에 있는 에셋이 AEM 사이트 이외의 출력에 사용되는 경우 메타데이터 &quot;jcr:createdBy&quot;은(는) 게시자의 이름이나 DITA 맵 또는 주제를 마지막으로 수정한 사용자의 이름을 반영하지 않습니다. (12090)
-- AEM Sites | navtitle에 topichead가 있는 DITA 맵(지원되지 않는 문자 포함)은 잘못된 페이지 URL로 이어집니다. (11978)
+- AEM Sites | navtitle에 topichead가 포함된 DITA 맵(지원되지 않는 문자 포함)으로 인해 페이지 URL이 잘못되었습니다. (11978)
 - 기본 PDF | Frontmatter 및 Backmatter에서 topichead/topicmeta/navtitle을 지원할 때 문제가 발생합니다. (11969)
-- 기본 PDF | 대용량 문서의 PDF를 생성하는 데에는 많은 시간이 소요됩니다. (11955)
-- 기본 PDF | 사전 설정의 이름을 바꾸면 PDF 출력을 생성하는 동안 NullPointerException이 발생합니다. (11889)
+- 기본 PDF | 대용량 문서의 PDF를 생성하는 데 시간이 오래 걸립니다. (11955)
+- 기본 PDF | 사전 설정 이름을 바꾸면 PDF 출력을 생성하는 동안 NullPointerException이 발생합니다. (11889)
 - `<conref>` 콘텐츠가 PDF 출력에 표시되지 않습니다. (11131)
 - 페이지 레이아웃 편집기에서 작성자와 Source 보기 사이를 전환할 때 `<div>` 요소 내부에 추가 공간이 추가됩니다. (10750)
 - AEM Cloud Manager에 복제된 콘텐츠는 게시 인스턴스에 표시되지 않습니다. (9564)

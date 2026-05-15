@@ -4,9 +4,18 @@ description: 전문가 세션 섹션의 랜딩 페이지입니다.
 exl-id: 8a4bac35-95c0-4348-90c0-3e6e5ca9de59
 feature: Expert Sessions
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+TQID: https://experienceleague.adobe.com/WEJ9bbtoB3aevS4QIWuHNClBwiKybYRO4egB0J-X-0o
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: 223
 ht-degree: 0%
 
 ---

@@ -2,9 +2,21 @@
 title: 릴리스 정보 | Adobe Experience Manager Guides 5.0.0 서비스 팩 1 릴리스의 업그레이드 지침
 description: 호환성 매트릭스와 Adobe Experience Manager Guides 5.0.0 서비스 팩 1 릴리스로 업그레이드하는 방법에 대해 알아봅니다.
 exl-id: abcae46f-052e-4a33-82af-4f2a3b0c9d1b
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/wZCAetcX95l6uZh1tFCOvT23kYafotZ2vxLZ4VJMiKg
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: 437
 ht-degree: 1%
 
 ---

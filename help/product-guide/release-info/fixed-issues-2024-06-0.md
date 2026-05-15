@@ -1,17 +1,37 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides, 2024.06.0 릴리스의 문제가 해결되었습니다.
-description: Adobe Experience Manager Guides as a Cloud Service 6의 2024.0.0 릴리스 버그 수정에 대해 알아봅니다.
+description: Adobe Experience Manager Guides as a Cloud Service 2024.06.0 릴리스의 버그 수정에 대해 알아봅니다.
 exl-id: 608e5b2c-72af-4498-9b63-935e698231d4
-source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
+TQID: https://experienceleague.adobe.com/PWXSeB-BhL9Gc104XoVpfqdWqywq7T6bphx8im92C4c
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '784'
-ht-degree: 3%
+source-wordcount: 781
+ht-degree: 8%
 
 ---
 
 # 2024.06.0 릴리스의 문제가 해결되었습니다.
 
-이 문서에서는 Adobe Experience Manager Guides as a Cloud Service 의 2024.06.0 릴리스의 다양한 영역에서 수정된 버그를 다룹니다.
+이 문서에서는 Adobe Experience Manager Guides as a Cloud Service의 2024.06.0 릴리스의 다양한 영역에서 수정된 버그를 다룹니다.
 
 새로운 기능 및 개선 사항에 대한 자세한 내용은 [2024.06.0 릴리스의 새로운 기능](whats-new-2024-06-0.md)을 참조하십시오.
 
@@ -33,13 +53,13 @@ ht-degree: 3%
 - Experience Manager Guides이 **미리 보기** 모드에서 **처리 역할** 특성을 준수하지 못했습니다. (15787)
 - 편집기에서 선택한 영역 이외의 추가 텍스트가 간헐적으로 삭제됩니다.  (15708)
 - Word 문서 또는 HTML에서 큰 표를 복사하여 웹 편집기에 붙여넣을 수 없습니다. (15369)
-- Experience Manager Guidesas a Cloud Service 의 빈 폴더에 대한 **복사** 기능이 실패했습니다. (15353)
+- Experience Manager Guides as a Cloud Service의 빈 폴더에 대해 **Copy** 함수가 실패합니다. (15353)
 - 요소에 대한 속성 추가 또는 새 요소 삽입을 캡처하기 위한 API 또는 이벤트 부족. (15351)
 - 웹 편집기의 `<ol>` 태그 내에 `<data>` 태그를 추가할 수 없습니다. (15161)
 - 통합 셸을 사용하도록 설정하면 **버전 레이블 관리** 대화 상자에 레이블이 없는 버전의 **기본 컨텐츠**&#x200B;가 잘못 표시됩니다. (15039)
 - 큰 파일은 웹 편집기에서 몇 초 정도 느리게 로드됩니다. (14958)
 - 텍스트 내의 테이블 셀에서 **Enter** 키를 눌러도 단락이 예상대로 분할되지 않습니다. (14251)
-- 자동 들여쓰기 기능을 사용한 후 Experience Manager DITA 가이드가 **Save** 함수를 트리거하지 못했습니다. (16482)
+- 자동 들여쓰기 기능을 사용한 후 Experience Manager DITA 안내서에서 **Save** 함수를 트리거하지 못했습니다. (16482)
 - 검토 주제가 올바른 순서로 표시되지 않습니다. (16319)
 - **작성자** 보기에서 줄바꿈 없는 공백을 사용할 때 복사 및 붙여넣기 문제가 발생하여 텍스트가 오버플로됩니다. (15541)
 
@@ -53,10 +73,10 @@ ht-degree: 3%
 - 교차 맵 연결에서 `peer @scope`이(가) 있는 링크에 대한 게시 컨텍스트 설정에 모든 상위 맵을 표시하지 못했습니다. (16700)
 - 새 특성을 추가하거나 기존 특성을 제거하면 이전 특성이 **조건 사전 설정**&#x200B;에 유지됩니다. (15890)
 - RTL 언어 콘텐츠가 기본 PDF 게시 출력에서 올바르게 처리되지 않습니다. (15709)
-- 기본 PDF 출력이 생성될 때 첫 번째 PDF의 버전이 관리되지 않습니다. (10305)
+- 기본 PDF 출력이 생성되면 첫 번째 PDF의 버전이 관리되지 않습니다. (10305)
 - 기본 PDF에서 중첩된 DITA 주제가 목차(TOC)에 잘못 표시됩니다. (16742)
-- Dynamic Media에서 비디오 파일에 대해 생성된 썸네일은 게시된 출력에서 유지되지 않습니다. (15656)
-- ARM64 프로세서에서 기본 PDF 게시를 수행하면 출력이 생성되지 않습니다. (16968)
+- 비디오 파일에 대한 Dynamic Media에서 생성된 썸네일은 게시된 출력에서 유지되지 않습니다. (15656)
+- ARM64 프로세서에 대한 기본 PDF 게시의 출력 생성에 실패합니다. (16968)
 
 ## 관리
 
@@ -69,7 +89,7 @@ ht-degree: 3%
 ## Cloud Service
 
 - Adobe Experience Manager 도구 탐색이 응답하지 않습니다. (17118)
-- Cloud Service 배포의 빌드 변환 단계가 실패하고 DITA 코드베이스에서 오류가 발생합니다. (14432)
+- Cloud Services 배포의 빌드 변환 단계가 실패하고 DITA 코드베이스에서 오류가 발생합니다. (14432)
 
 ## 보고서
 
@@ -81,6 +101,6 @@ ht-degree: 3%
 
 Adobe은 2024.06.0 릴리스에 대해 다음과 같은 알려진 문제를 확인했습니다.
 
-- Vimeo 콘텐츠가 주제에 추가되면 기본 PDF 게시가 실패합니다.
+- Vimeo 콘텐츠를 주제에 추가하면 기본 PDF 게시가 실패합니다.
 - **주제 속성**&#x200B;은(는) 선택한 형식에 따라 페이지 레이아웃의 메타데이터 필드에 표시되지 않습니다.
-- Dynamic Media이 활성화되어 있으면 **Assets** 보기에서 `xrefs`을(를) 클릭할 수 없습니다.
+- Dynamic Media가 활성화되어 있으면 **Assets** 보기에서 `xrefs`을(를) 클릭할 수 없습니다.

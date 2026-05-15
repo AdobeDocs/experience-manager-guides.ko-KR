@@ -5,9 +5,18 @@ exl-id: 807d9ffa-23e3-476c-992d-c1f495233892
 feature: Java-Based API Conversion Workflow
 role: Developer
 level: Experienced
-source-git-commit: 8c80a4da8e61909aab0f2db81ef97149774b36c4
+TQID: https://experienceleague.adobe.com/gAntb7T-OGlwRNInxAsV8orxL3H9qL19Dsjwf5FZ14I
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+  - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: 324
 ht-degree: 4%
 
 ---
@@ -89,7 +98,7 @@ public static void convertWordToDita(Session session,
 | 이름 | 유형 | 설명 |
 |----|----|-----------|
 | `session` | javax.jcr.Session | 유효한 JCR 세션입니다. |
-| `inputFile` | 문자열 | AEM 저장소의 원본 Word 파일의 절대 경로입니다. |
+| `inputFile` | 문자열 | AEM 저장소의 소스 Word 파일의 절대 경로입니다. |
 | `destPath` | 문자열 | 변환된 DITA 파일을 저장할 대상 위치의 절대 경로입니다. |
 | `style2tagMap` | 문자열 | 변환에 사용될 스타일 매핑 파일의 절대 경로입니다. |
 | `createRev` | 부울 | 지정한 대상에 파일 수정 버전을 만들지 \( `true`\) 여부를 지정하십시오. \( `false`\) 대상 위치에 변환된 파일의 기존 버전이 포함된 경우에만 이 값이 고려됩니다. |

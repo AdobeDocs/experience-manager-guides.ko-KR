@@ -1,10 +1,23 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides 5.1.0 서비스 팩 3 릴리스의 업그레이드 지침
 description: 호환성 매트릭스와 Adobe Experience Manager Guides 5.1.0 서비스 팩 3 릴리스로 업그레이드하는 방법에 대해 알아봅니다.
-source-git-commit: 7ffaa292f2323a9d4b166ab20d20c986752c1c1d
+exl-id: 2452da05-36f2-4df3-aee9-918072a67d9c
+TQID: https://experienceleague.adobe.com/qFrmvlpp7uxkLs2KXq3ItTVD6LxteJkMUuKdtmN9JY4
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 3%
+source-wordcount: 595
+ht-degree: 4%
 
 ---
 
@@ -21,7 +34,7 @@ ht-degree: 3%
 | AEM Guides | AEM 버전 | 서비스 팩 |
 | --- | --- | --- |
 | 5.1.0 서비스 팩 3(UUID) | 6.5 LTS | 1 |
-| 5.1.0 서비스 팩 3(UUID) | 6.5 | 23,22,21 |
+| 5.1.0 서비스 팩 3(UUID) | 6.5 | 23, 22, 21 |
 
 자세한 내용은 On-Premise 설치 및 구성 안내서의 [기술 요구 사항](../install-guide/download-install-technical-requirements.md) 섹션을 참조하십시오.
 

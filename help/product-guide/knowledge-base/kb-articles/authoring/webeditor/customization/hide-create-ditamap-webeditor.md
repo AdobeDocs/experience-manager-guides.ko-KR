@@ -2,9 +2,23 @@
 title: 특정 사용자 또는 그룹에 대한 폴더 컨텍스트 메뉴 옵션에서 DitaMap 만들기 옵션을 숨깁니다.
 description: 특정 사용자/그룹에 대한 폴더 컨텍스트 메뉴에서 'DitaMap' 옵션을 숨겨서 웨비저를 사용자 지정하는 방법을 알아봅니다
 exl-id: 796bfe3a-3950-4ade-9215-c33534791055
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+TQID: https://experienceleague.adobe.com/fAMBEOKlPA4KHsE81zfI-6EJ6zwaQOgRfx0w-cx-mmw
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: 571
 ht-degree: 0%
 
 ---
@@ -14,7 +28,7 @@ ht-degree: 0%
 이 문서에서는 사용자/그룹 권한에 따라 폴더 컨텍스트 메뉴에서 &quot;DitaMap 만들기&quot; 옵션을 숨기거나 표시하도록 안내서 웹 편집기를 사용자 지정하는 방법을 알아봅니다.
 이 사용 사례에서는 작성자가 아닌 모든 사용자에 대해 이 옵션을 숨깁니다.
 
-## 전제 조건
+## 사전 요구 사항
 
 요구 사항에 따라 앱의 UI를 사용자 지정할 수 있는 AEM Guides 확장 패키지를 활용합니다.
 이 [설명서](https://github.com/adobe/guides-extension/tree/main)를 통해 안내서 확장 프레임워크 작동 방식에 대한 자세한 정보를 얻으십시오.
@@ -27,7 +41,7 @@ ht-degree: 0%
 
 이제 Guides Extension Framework를 사용하여 이 옵션을 숨길 수 있는 방법을 살펴보겠습니다.
 
-## 구현 단계
+## 구현 절차
 
 구현은 아래 부분에서 설명합니다.
 

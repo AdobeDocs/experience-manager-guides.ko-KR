@@ -5,16 +5,22 @@ feature: Bulk Activation Event Handler
 role: Developer
 level: Experienced
 exl-id: 08b153d7-3d13-4804-9e3e-38790dbea1f3
-source-git-commit: 9b8971bf7065a94a2e42669094249c822c555718
+TQID: https://experienceleague.adobe.com/M8Q8A8auCkKjmoilHsUfU2ztNSCxOWstwPC1bMLmvD0
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: 185
 ht-degree: 6%
 
 ---
 
 # 일괄 활성화 완료 이벤트 핸들러
 
-Experience Manager Guides은 일괄 활성화 프로세스가 완료된 후 작업을 수행하는 데 사용되는 `com/adobe/fmdita/replication/complete` 이벤트를 노출합니다. 이 이벤트는 일괄 활성화 프로세스가 완료될 때마다 트리거됩니다. 예를 들어 맵의 AEM 사이트 사전 설정의 벌크 활성화를 실행하는 경우 이 이벤트는 활성화 프로세스가 끝난 후 호출됩니다.
+Experience Manager Guides은 일괄 활성화 프로세스가 완료된 후 작업을 수행하는 데 사용되는 `com/adobe/fmdita/replication/complete` 이벤트를 노출합니다. 이 이벤트는 일괄 활성화 프로세스가 완료될 때마다 트리거됩니다. 예를 들어, 맵의 AEM 사이트 사전 설정의 벌크 활성화를 실행하는 경우 이 이벤트는 활성화 프로세스가 끝난 후 호출됩니다.
 
 이 이벤트에서 사용할 수 있는 속성을 읽고 추가 처리를 수행하려면 AEM 이벤트 처리기를 만들어야 합니다.
 
@@ -30,7 +36,7 @@ com/adobe/fmdita/replication/complete
 
 | 이름 | 유형 | 설명 |
 |----|----|-----------|
-| `path` | 문자열 | 이 이벤트를 트리거한 파일의 경로입니다. <br> 예: `/content/output/sites/ditamap1-ditamap`. <br> JSON 배열로 직렬화된 경로 목록입니다. |
+| `path` | 문자열 | 이 이벤트를 트리거한 파일의 경로입니다. <br> 예: `/content/output/sites/ditamap1-ditamap`. <br> JSON 배열로 일련화된 경로 목록입니다. |
 | `messageType` | 문자열 | 메시지 유형. <br>가능한 옵션: `REPLICATION` |
 | `action` | 문자열 | 수행한 작업입니다. <br>가능한 옵션: `BulkReplicate` |
 | `user` | 문자열 | 작업을 시작한 사용자입니다. |

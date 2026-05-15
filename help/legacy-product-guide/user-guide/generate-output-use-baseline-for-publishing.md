@@ -5,9 +5,21 @@ feature: Publishing
 role: User
 hide: true
 exl-id: d4892eca-2715-4bd6-8ac8-0a8edff2c4f8
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/gekOxsimiTMF2Ch3cRsMAkMMnI7tRKVKZmdTVU9cxTs
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1972'
+source-wordcount: 1972
 ht-degree: 0%
 
 ---
@@ -53,7 +65,7 @@ ht-degree: 0%
 
    **레이블**&#x200B;을(를) 선택하면 지정된 레이블이 적용되지 않은 최신 버전의 주제를 사용할 수 있는 추가 옵션도 제공됩니다. 이 옵션을 선택하지 않고 지정된 레이블이 없는 주제 또는 미디어 파일이 있는 경우 기준선 작성 프로세스가 실패합니다. 레이블 추가에 대한 자세한 내용은 [레이블 사용](web-editor-use-label.md#)을 참조하십시오.
 
-   - **버전** &lt;*타임스탬프*\>: 지정한 날짜 및 시간의 항목 버전을 선택합니다. 여기서 지정하는 시간은 AEM 서버의 시간대에 해당합니다. 서버가 다른 시간대에 있는 경우 항목은 로컬 시간대가 아니라 서버의 시간대에 따라 선택됩니다.
+   - **버전 설정** &lt;*타임스탬프*\>: 지정한 날짜 및 시간의 항목 버전을 선택합니다. 여기서 지정하는 시간은 AEM 서버의 시간대에 해당합니다. 서버가 다른 시간대에 있는 경우 항목은 로컬 시간대가 아니라 서버의 시간대에 따라 선택됩니다.
 
    날짜로 레이블 또는 버전을 선택하면 맵 내에서 참조된 모든 주제 및 미디어 파일이 그에 따라 선택됩니다. 이렇게 선택한 항목은 사용자 인터페이스에 표시되지 않지만 백엔드에 저장됩니다.
 

@@ -4,10 +4,22 @@ description: Adobe Experience Manager Guides as a Cloud Service 3월 릴리스
 exl-id: 6a0bba92-7d7d-4b20-ad46-0eacc91268da
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/eIPiGBWr-vxglYwzI0zYT64a4orZXm42hWthchmcceU
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2:
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 0%
+source-wordcount: 565
+ht-degree: 2%
 
 ---
 
@@ -22,7 +34,7 @@ ht-degree: 0%
 다음 단계를 수행하여 현재 AEM Guides as a Cloud Service 설정을 업그레이드합니다.
 
 1. 클라우드 서비스의 Git 코드를 체크아웃하고 업그레이드하려는 환경에 해당하는 클라우드 서비스 파이프라인에 구성된 분기로 전환합니다.
-1. 클라우드 서비스 Git 코드의 `<dox.version>` 파일에서 `/dox/dox.installer/pom.xml` 속성을 2023.3.242로 업데이트합니다.
+1. 클라우드 서비스 Git 코드의 `/dox/dox.installer/pom.xml` 파일에서 `<dox.version>` 속성을 2023.3.242로 업데이트합니다.
 1. 변경 사항을 커밋하고 클라우드 서비스 파이프라인을 실행하여 AEM Guides as a Cloud Service 2023년 3월 릴리스로 업그레이드합니다.
 
 ## 기존 콘텐츠를 색인화하는 단계(AEM Guides as a Cloud Service의 9월 이전 버전을 사용하는 경우에만)
@@ -33,7 +45,7 @@ ht-degree: 0%
 (선택 사항: 맵의 특정 경로를 전달하여 인덱싱할 수 있습니다. 기본적으로 모든 맵이 인덱싱됩니다 || 예: `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
 * API는 jobId를 반환합니다. 작업 상태를 확인하려면 작업 ID가 있는 GET 요청을 동일한 끝점으로 보낼 수 있습니다. `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
-(예: http://&lt;_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
+(예: http://&lt;_localhost:8080_/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
 
 * 작업이 완료되면 위의 GET 요청은 성공으로 응답하고 맵이 실패한 경우 언급됩니다. 인덱싱된 맵은 서버 로그에서 확인할 수 있습니다.
 
@@ -61,7 +73,7 @@ ht-degree: 0%
 다양한 영역에서 수정된 버그는 다음과 같습니다.
 
 * PDF 다운로드 프로세스가 웹 편집기에서 제대로 작동하지 않습니다. (11496)
-* JSON 출력 | 속성 값이 `"value in spaces and double quotes"`(으)로 설정된 맵 메타데이터로 인해 게시 오류가 발생합니다. (11438)
+* JSON 출력 | 속성 값이 `"value in spaces and double quotes"`(으)로 있는 맵 메타데이터로 인해 게시 오류가 발생합니다. (11438)
 * **멀티미디어 삽입** 아이콘 아래에 있는 YouTube 형식에서 오디오 및 비디오 멀티미디어 파일을 삽입할 수 없습니다. (11320)
 * 특화된 제목 요소가 있는 템플릿을 사용하여 맵을 만들 때 유효성 검사 오류가 발생합니다. (11212)
 * 기본 PDF | 표 머리글에 있는 각주는 PDF 출력 내의 해당 페이지 바닥글에 굵게 표시되고 가운데 정렬된 텍스트로 이어집니다. (10610)

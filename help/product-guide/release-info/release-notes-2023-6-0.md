@@ -1,13 +1,30 @@
 ---
-title: 릴리스 정보 | Adobe Experience Manager Guides의 업그레이드 지침 및 해결된 문제, 2023년 6월 릴리스
+title: 릴리스 정보 | 업그레이드 지침 및 해결된 Adobe Experience Manager Guides 문제, 2023년 6월 릴리스
 description: 버그 수정 사항 및 Adobe Experience Manager Guides as a Cloud Service 2023년 6월 릴리스로 업그레이드하는 방법에 대해 알아보십시오
 exl-id: df17ee33-9f50-4223-ab9f-a57a31097d22
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/LIY9wVDmvusGD-K-kyjK-lmzpyxJELj0mWzn9YoP0vw
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1169'
-ht-degree: 1%
+source-wordcount: 1169
+ht-degree: 3%
 
 ---
 
@@ -22,7 +39,7 @@ ht-degree: 1%
 다음 단계를 수행하여 현재 AEM Guides as a Cloud Service 설정을 업그레이드합니다.
 
 1. 클라우드 서비스의 Git 코드를 체크아웃하고 업그레이드하려는 환경에 해당하는 클라우드 서비스 파이프라인에 구성된 분기로 전환합니다.
-2. 클라우드 서비스 Git 코드의 `<dox.version>` 파일에서 `/dox/dox.installer/pom.xml` 속성을 2023.6.297로 업데이트합니다.
+2. 클라우드 서비스 Git 코드의 `/dox/dox.installer/pom.xml` 파일에서 `<dox.version>` 속성을 2023.6.297로 업데이트합니다.
 3. 변경 사항을 커밋하고 클라우드 서비스 파이프라인을 실행하여 2023년 6월 AEM Guides as a Cloud Service 릴리스로 업그레이드합니다.
 
 ## 서블릿을 통해 스크립트 트리거를 활성화하는 단계
@@ -64,7 +81,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 기존 콘텐츠를 후처리하고 새 끊어진 링크 보고서를 사용하려면 다음 단계를 수행하십시오.
 
-1. (선택 사항) 시스템에 100,000개 이상의 dita 파일이 있는 경우 `queryLimitReads`의 `org.apache.jackrabbit.oak.query.QueryEngineSettingsService`을(를) 더 큰 값(존재하는 에셋 수보다 큰 값(예: 200,000))으로 업데이트한 다음 다시 배포합니다.
+1. (선택 사항) 시스템에 100,000개 이상의 dita 파일이 있는 경우 `org.apache.jackrabbit.oak.query.QueryEngineSettingsService`의 `queryLimitReads`을(를) 더 큰 값(존재하는 에셋 수보다 큰 값(예: 200,000))으로 업데이트한 다음 다시 배포합니다.
 
    - Adobe Experience Manager Guides 설치 및 구성 의 *구성 재정의* 섹션에 제공된 지침을 사용하십시오.
 as a Cloud Service을 클릭하여 구성 파일을 만듭니다.
@@ -127,10 +144,10 @@ as a Cloud Service을 클릭하여 구성 파일을 만듭니다.
 - 레이아웃 보기에서 작성자 또는 소스 보기로 전환하면 Navtitle이 content33에서 제거됩니다. (12174)
 - DITA 맵을 클릭할 때 응용 프로그램 오류가 발생하는 경우가 있습니다. (11842)
 - 웹 편집기 | 항목을 편집하는 동안 XML 편집기에 줄바꿈하지 않는 공백이 추가됩니다. (11786)
-- 자산 UI | 목록 보기에서 오버레이된 사용 가능한 열은 병합할 수 없습니다. (11528)
+- 자산 UI | 목록 보기에서 오버레이된 사용 가능한 열을 병합할 수 없습니다. (11528)
 - Keyref가 맵 보기에서 확인되지 않습니다. (11490)
 - XML 편집기를 탐색할 때 상단 메뉴가 나타나지 않습니다. (10868)
-- ph 태그의 `conref` | 표시된 찾아보기 대화 상자가 올바르지 않습니다. (9481)
+- ph 태그의 `conref` | 표시되는 찾아보기 대화 상자가 올바르지 않습니다. (9481)
 - 다른 요소에 대한 로컬 링크는 웹 편집기에서 확인되지 않습니다. (8790)
 - Matches() 함수가 schematron 기능에서 작동하지 않습니다. (11224)
 
@@ -145,17 +162,17 @@ as a Cloud Service을 클릭하여 구성 파일을 만듭니다.
 
 - 새로 고치거나 다시 시작한 Pod에서 임시 파일을 읽을 때 AEM 사이트에 게시하지 못합니다. (12113)
 - 기본 PDF | brackets()가 있는 출력 클래스가 있는 콘텐츠를 게시하면 게시가 중지됩니다. (11936)
-- JSON 출력 | 속성 값이 `"value in spaces and double quotes"`(으)로 설정된 맵 메타데이터로 인해 게시 오류가 발생합니다. (11933)
+- JSON 출력 | 속성 값이 `"value in spaces and double quotes"`(으)로 있는 맵 메타데이터로 인해 게시 오류가 발생합니다. (11933)
 - 웹 편집기 | AEM 사전 설정에서 출력 경로 및 템플릿을 선택할 수 없습니다. (11530)
-- 기본 PDF | 사용자 지정 속성은 임시 HTML 또는 PDF 엔진에 전파되지 않습니다. (DXML-12005)
-- 기본 PDF |  큰 콘텐츠를 게시할 때 Java OutOfMemoryError가 발생합니다. (11789)
-- JSON 출력 | JSON의 jcr`fmUuid` 노드에 있는 :content 속성이 JSON 내부의 &quot;id&quot;와 다릅니다. (11564)
-- JSON 출력 | 맵과 동일한 파일 이름을 가진 주제가 있으면 맵에 대한 JSON이 제거됩니다. (11524)
+- 기본 PDF | 사용자 지정 특성이 임시 HTML 또는 PDF 엔진에 전파되지 않습니다. (DXML-12005)
+- 기본 PDF | 큰 콘텐츠를 게시할 때 Java OutOfMemoryError가 발생합니다. (11789)
+- JSON 출력 | JSON의 jcr:content 노드에 있는 `fmUuid` 속성이 JSON 내부의 &quot;id&quot;와 다릅니다. (11564)
+- JSON 출력 | 동일한 파일 이름을 가진 맵과 주제가 있으면 맵에 대한 JSON이 제거됩니다. (11524)
 - 기본 PDF | Xref가 Xref 레이블 대신 href 주제 제목의 콘텐츠를 인쇄하고 있습니다. (11322)
 - 기본 PDF | PDF 템플릿 설정을 저장할 수 없습니다. (10751)
-- 기본 PDF | 텍스트가 여러 xref를 포함할 때 열 너비를 초과하여 확장됩니다. (10876)
-- 기본 PDF | `<note>` `</note>` 요소가 해당 형식의 추가 스팬 제목을 생성하지 않습니다. (10549)
-- 기본 PDF | WCAG 2.0을 준수하도록 생성된 PDF에서 언어 메타데이터를 설정할 수 없습니다. (12296)
+- 기본 PDF | 텍스트가 여러 xref를 포함할 때 열 너비를 넘어갑니다. (10876)
+- 기본 PDF | `<note>` `</note>` 요소가 해당 유형의 추가 스팬 제목을 생성하지 않습니다. (10549)
+- 기본 PDF | 생성된 PDF에서 WCAG 2.0을 준수하도록 언어 메타데이터를 설정할 수 없습니다. (12296)
 
 
 
@@ -165,4 +182,4 @@ as a Cloud Service을 클릭하여 구성 파일을 만듭니다.
 
 ### 검토
 
-- 새 리뷰 UI | 조건이 강조 표시되고 숨김 작업이 웹 편집기에서 작동하는 방식과 다릅니다. (11628)
+- 새 리뷰 UI | 조건이 강조 표시되고, 숨기기 작업이 웹 편집기에서 작동하는 방식과 다릅니다. (11628)

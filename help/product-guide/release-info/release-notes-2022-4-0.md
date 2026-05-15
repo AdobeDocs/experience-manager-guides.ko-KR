@@ -4,10 +4,22 @@ description: Adobe Experience Manager Guides as a Cloud Service 4월 릴리스
 exl-id: c735ba24-a803-454b-8723-57dacf90061b
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/v2bcZpcgnJ3lrXbl0O7fSxunkkO1OM239NhOzGp45ao
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2:
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 0%
+source-wordcount: 810
+ht-degree: 3%
 
 ---
 
@@ -17,7 +29,7 @@ ht-degree: 0%
 
 다음 단계를 수행하여 현재 [!DNL Adobe Experience Manager Guides] as a Cloud Service(*[!DNL AEM Guides]as a Cloud Service*)를 업그레이드합니다.
 1. 클라우드 서비스의 Git 코드를 체크아웃하고 업그레이드하려는 환경에 해당하는 클라우드 서비스 파이프라인에 구성된 분기로 전환합니다.
-1. 클라우드 서비스 Git 코드의 `<dox.version>` 파일에서 `/dox/dox.installer/pom.xml` 속성을 2022.4.133으로 업데이트합니다.
+1. 클라우드 서비스 Git 코드의 `/dox/dox.installer/pom.xml` 파일에서 `<dox.version>` 속성을 2022.4.133으로 업데이트합니다.
 1. 변경 사항을 커밋하고 Cloud Services 파이프라인을 실행하여 [!DNL AEM Guides] as a Cloud Service의 4월 릴리스로 업그레이드합니다.
 
 ## 호환성 매트릭스

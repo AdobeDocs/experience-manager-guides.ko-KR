@@ -5,9 +5,18 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: 67f7ff26-fbc7-426c-aa7d-9bf4debf05d8
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/fj9JDKmklfdc-3UHShHD3PqynCcnnH5cK8lQNqCLD2c
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: 705
 ht-degree: 0%
 
 ---
@@ -134,4 +143,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 프로덕션에 배포하기 전에 모든 구성을 비프로덕션 환경에서 테스트하십시오. <br><br> 자세한 내용은 공식 [AEM as a Cloud Service에 배포 설명서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/deploying/overview)를 참조하십시오.
+> 프로덕션에 배포하기 전에 모든 구성을 비프로덕션 환경에서 테스트하십시오. <br><br> 자세한 내용은 공식 [AEM as a Cloud Service에 배포 설명서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview)를 참조하십시오.

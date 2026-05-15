@@ -1,19 +1,31 @@
 ---
-title: 릴리스 정보 | Adobe Experience Manager Guides as a Cloud Service 2003년 4월 릴리스
+title: 릴리스 정보 | Adobe Experience Manager Guides as a Cloud Service, 2023년 4월 릴리스
 description: 2023년 4월 Adobe Experience Manager Guides as a Cloud Service 릴리스
 exl-id: 269e3a13-584d-4cff-a18a-d4fa89646a5a
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+TQID: https://experienceleague.adobe.com/c1aOcwHgxAs11yAalOnlW-ghsTP1Or32TnBwLsc59-M
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2:
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: 386
 ht-degree: 0%
 
 ---
 
-# 새로운 기능 2023년 4월 릴리스 Adobe Experience Manager Guides as a Cloud Service
+# Adobe Experience Manager Guides as a Cloud Service 2023년 4월 릴리스의 새로운 기능
 
-이 문서에서는 2023년 4월 Adobe Experience Manager Guides 버전(*AEM Guides as a Cloud Service*)의 새로운 기능 및 향상된 기능을 다룹니다.
+이 문서에서는 2023년 4월 Adobe Experience Manager Guides(이후 *AEM Guides as a Cloud Service*)의 새로운 기능과 향상된 기능을 다룹니다.
 
 업그레이드 지침, 호환성 매트릭스 및 이 릴리스에서 해결된 문제에 대한 자세한 내용은 [릴리스 정보](release-notes-2023-4-0.md) 문서를 참조하십시오.
 
@@ -39,9 +51,9 @@ AEM Guides에서는 문서에 사용된 요소의 계층적 보기를 얻을 수
 * 검색 기능을 사용하여 이름, ID, 텍스트 또는 속성 값으로 요소를 검색할 수 있습니다.
 
 
-## AEM Guidesas a Cloud Service 를 위한 마이크로서비스 기반 게시
+## AEM Guides as a Cloud Service용 마이크로서비스 기반 게시
 
-AEM Guides as a Cloud Service Adobe I/O Runtime 기반 게시 및 대규모 게시 워크로드를 업계 최고의 서버리스 플랫폼과 함께 실행할 수 있는 기능을 제공합니다.
+AEM Guides as a Cloud Service은 마이크로서비스 기반 게시와 동시에 대규모 게시 워크로드를 실행하고 업계를 선도하는 Adobe I/O Runtime 서버리스 플랫폼을 활용하는 기능을 제공합니다.
 
-이제 4월 릴리스에서는 마이크로서비스 기반 기본 PDF 게시를 사용하여 여러 게시 요청을 동시에 실행하고 벌크 PDF 출력을 매우 효율적으로 생성할 수 있습니다.
-자세한 내용은 [AEM Guidesas a Cloud Service 에 새 마이크로서비스 기반 게시 구성](../knowledge-base/publishing/configure-microservices.md)을 참조하십시오.
+이제 4월 릴리스에서는 마이크로서비스 기반의 기본 PDF 게시를 사용하여 여러 게시 요청을 동시에 실행하고 벌크 PDF 출력을 매우 효율적으로 생성할 수 있습니다.
+자세한 내용은 [AEM Guides as a Cloud Service에 대한 새 마이크로서비스 기반 게시 구성](../knowledge-base/publishing/configure-microservices.md)을 참조하십시오.

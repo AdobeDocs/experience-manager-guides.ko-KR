@@ -1,13 +1,25 @@
 ---
-title: AEM Guides as a Cloud Service 마이크로서비스를 위한 새로운 게시 기반 구성
+title: AEM Guides as a Cloud Service에 대한 새로운 마이크로서비스 기반 게시 구성
 description: AEM Guides에 대한 새로운 마이크로서비스 기반 게시를 구성하는 방법에 대해 알아봅니다.
 exl-id: 92e3091d-6337-4dc6-9609-12b1503684cd
 feature: Microservice in AEM Guides
 role: User, Admin
-source-git-commit: f929d4fd74e98e2025d80c14dbef6aeb464c0dd5
+TQID: https://experienceleague.adobe.com/1M-gDrJclVMkYHOo69FPmKqkJvzYaDHK0ljK5dIh-tA
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 0%
+source-wordcount: 740
+ht-degree: 1%
 
 ---
 
@@ -21,11 +33,11 @@ ht-degree: 0%
 
 
 
-Adobe Experience Manager Guidesas a Cloud Service 용 의 Microservice 기반 게시는 PDF(기본 DITA-OT 기반 모두), HTML 5, JSON 및 사용자 지정 유형의 출력 사전 설정을 지원합니다.
+Adobe Experience Manager Guides as a Cloud Service용 의 마이크로서비스 기반 게시는 PDF(기본 및 DITA-OT 기반 모두), HTML5, JSON 및 사용자 지정 유형의 출력 사전 설정을 지원합니다.
 
 JWT(서비스 계정) 자격 증명은 더 이상 사용되지 않으므로 Adobe IMS OAuth 기반 인증을 사용하는 것이 좋습니다. [OAuth 인증을 통해 마이크로서비스 기반 게시를 구성](configure-microservices-imt-config.md)하는 방법에 대해 알아봅니다.
 
-Adobe IMS JWT 기반 인증으로 보호되는 클라우드 게시 서비스의 경우 고객은 아래의 단계에 따라 환경을 Adobe의 보안 토큰 기반 인증 워크플로와 통합하고 새로운 클라우드 기반의 확장 가능한 게시 솔루션을 사용해야 합니다.
+Adobe IMS JWT 기반 인증으로 보호되는 클라우드 게시 서비스의 경우 고객은 아래 단계에 따라 환경을 Adobe의 보안 토큰 기반 인증 워크플로와 통합하고 새로운 클라우드 기반의 확장 가능한 게시 솔루션을 사용해야 합니다.
 
 
 ## Adobe Developer Console에서 IMS 구성 만들기
@@ -124,7 +136,7 @@ Adobe Developer Console에서 IMS 구성을 만들려면 다음 단계를 수행
 
 **컨텐츠**:
 * `dxml.use.publish.microservice`: DITA-OT를 사용하여 마이크로서비스 기반 게시를 사용하도록 전환
-* `dxml.use.publish.microservice.native.pdf`: 마이크로서비스 기반 네이티브 PDF 게시를 사용하도록 전환
+* `dxml.use.publish.microservice.native.pdf`: 마이크로서비스 기반 기본 PDF 게시를 사용하도록 전환합니다.
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>

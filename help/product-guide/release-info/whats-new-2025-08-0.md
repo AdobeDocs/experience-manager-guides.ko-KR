@@ -3,9 +3,27 @@ title: 릴리스 정보 | Adobe Experience Manager Guides 2025.08.0 릴리스의
 description: Adobe Experience Manager Guides 2025.08.0 릴리스의 새로운 기능과 향상된 기능에 대해 알아봅니다
 role: Leader
 exl-id: c3461d0a-6394-4275-9d54-b2b1545d7c18
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/-joxRCHZVxxs58BRUt7gN5mEGP9txRzf0Ofgu-OXP38
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+  - id: f6b497f1-f8e0-42ce-8e95-56c28d94026e
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: 844
 ht-degree: 1%
 
 ---

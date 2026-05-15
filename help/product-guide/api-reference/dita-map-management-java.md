@@ -5,9 +5,21 @@ exl-id: bd91fc90-75f8-487c-99d1-2637e9cf9924
 feature: Java-Based API Dita Map
 role: Developer
 level: Experienced
-source-git-commit: 8c80a4da8e61909aab0f2db81ef97149774b36c4
+TQID: https://experienceleague.adobe.com/XDVopMV3mqDipQ1P3FgfJPquykDrl1trrZYd2S-KLpw
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+  - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1068'
+source-wordcount: 1096
 ht-degree: 2%
 
 ---
@@ -68,13 +80,13 @@ public static void zipMapWithDependents(Session session,
 | 이름 | 유형 | 설명 |
 |----|----|-----------|
 | `session` | javax.jcr.Session | 유효한 JCR 세션입니다. |
-| `sourcePath` | 문자열 | 다운로드해야 하는 DITA 맵 파일의 경로 \(AEM 저장소\). |
-| `outputStream` | java.io.OutputStream | ZIP을 쓸 스트림입니다. |
+| `sourcePath` | 문자열 | 다운로드해야 하는 DITA 맵 파일의 경로 \(AEM 저장소\) |
+| `outputStream` | java.io.Out풋스트림 | ZIP을 쓸 스트림입니다. |
 | `baseline` | 문자열 | 버전이 지정된 콘텐츠를 검색하는 데 사용되는 베이스라인의 제목입니다. <br> **참고:** 값은 대/소문자를 구분합니다. |
 | 플랫 FS | 부울 | \(선택 사항\) true로 설정하면 파일의 플랫 구조가 ZIP 파일에 반환됩니다. 예를 들어 DITA 맵이 여러 폴더의 콘텐츠를 참조하는 경우 참조된 모든 파일을 단일 폴더로 가져옵니다. 이름이 같은 파일이 있는 경우 숫자 접미사를 추가하여 해당 파일의 이름을 바꿉니다. 플랫 폴더 구조에서 파일의 새 위치를 기반으로 업데이트되므로 모든 참조 \(DITA 맵 및 주제\)가 자동으로 처리됩니다. false로 설정하면 폴더 구조가 ZIP 파일에서 그대로 유지됩니다. DITA 맵이 여러 위치의 파일을 참조하는 경우 이러한 모든 위치도 ZIP 파일에 생성됩니다. ZIP 파일을 복원하면 대상 위치에 정확한 폴더 구조가 생성됩니다. <br> 이 매개 변수의 기본값은 false입니다. |
 
 **반환**:
-ZIP의 내용은 `outputStream`에 기록됩니다.
+ZIP의 내용이 `outputStream`에 기록됩니다.
 
 **예외**:
 ``javax.jcr.RepositoryException``, `java.io.IOException`을(를) throw합니다.
@@ -105,9 +117,9 @@ public static CompletableFuture<Node> zipMapWithDependencies(Session session,
 | 이름 | 유형 | 설명 |
 |----|----|-----------|
 | `session` | javax.jcr.Session | 유효한 JCR 세션입니다. |
-| `sourcePath` | 문자열 | 다운로드해야 하는 DITA 맵 파일의 경로 \(AEM 저장소\). |
+| `sourcePath` | 문자열 | 다운로드해야 하는 DITA 맵 파일의 경로 \(AEM 저장소\) |
 | `baseline` | 문자열 | 버전이 지정된 콘텐츠를 검색하는 데 사용되는 베이스라인의 제목입니다. <br> **참고:** 값은 대/소문자를 구분합니다. |
-| 플랫 FS | 부울 | \(선택 사항\) true로 설정하면 파일의 플랫 구조가 ZIP 파일에 반환됩니다. 예를 들어 DITA 맵이 여러 폴더의 콘텐츠를 참조하는 경우 참조된 모든 파일을 단일 폴더로 가져옵니다. 이름이 같은 파일이 있는 경우 숫자 접미사를 추가하여 해당 파일의 이름을 바꿉니다. 플랫 폴더 구조에서 파일의 새 위치를 기반으로 업데이트되므로 모든 참조 \(DITA 맵 및 주제\)가 자동으로 처리됩니다. false로 설정하면 폴더 구조가 ZIP 파일에서 그대로 유지됩니다. DITA 맵이 여러 위치의 파일을 참조하는 경우 이러한 모든 위치도 ZIP 파일에 생성됩니다. ZIP 파일을 복원하면 대상 위치에 정확한 폴더 구조가 생성됩니다.<br> 이 매개 변수의 기본값은 false입니다. |
+| 플랫 FS | 부울 | \(선택 사항\) true로 설정하면 파일의 플랫 구조가 ZIP 파일에 반환됩니다. 예를 들어 DITA 맵이 여러 폴더의 콘텐츠를 참조하는 경우 참조된 모든 파일을 단일 폴더로 가져옵니다. 이름이 같은 파일이 있는 경우 숫자 접미사를 추가하여 해당 파일의 이름을 바꿉니다. 플랫 폴더 구조에서 파일의 새 위치를 기반으로 업데이트되므로 모든 참조 \(DITA 맵 및 주제\)가 자동으로 처리됩니다. false로 설정하면 폴더 구조가 ZIP 파일에서 그대로 유지됩니다. DITA 맵이 여러 위치의 파일을 참조하는 경우 이러한 모든 위치도 ZIP 파일에 생성됩니다. ZIP 파일을 복원하면 대상 위치에 정확한 폴더 구조가 만들어집니다.<br> 이 매개 변수의 기본값은 false입니다. |
 
 **반환**:
 zip 파일의 노드가 `CompletableFuture` 클래스에서 래핑됩니다. 사용자는 비동기적으로 계속 처리할 수 있으며 향후 `.get()` 메서드를 사용하여 노드가 필요할 때 스레드를 차단할 수 있습니다. 반환된 값도 오류로 끝날 수 있으며 `.exceptionally()` 메서드로 처리할 수 있습니다.
@@ -156,7 +168,7 @@ public static List<HashMap<String,String>> getConditionalPresetList (
 | 이름 | 유형 | 설명 |
 |----|----|-----------|
 | `session` | javax.jcr.Session | 유효한 JCR 세션입니다. |
-| `sourcePath` | 문자열 | 조건부 사전 설정 정보를 검색할 DITA 맵 파일의 경로 \(AEM 저장소\). |
+| `sourcePath` | 문자열 | 조건부 사전 설정 정보를 검색할 DITA 맵 파일의 경로 \(AEM 저장소). |
 
 **반환**:
 `HashMap`개 개체 목록입니다. 각 `HashMap` 개체는 조건부 사전 설정을 나타내며 조건부 사전 설정의 이름과 제목을 포함합니다.
@@ -182,7 +194,7 @@ public static String getDitavalFromConditionalPreset
 | 이름 | 유형 | 설명 |
 |----|----|-----------|
 | `session` | javax.jcr.Session | 유효한 JCR 세션입니다. |
-| `sourcePath` | 문자열 | AEM 파일을 검색할 DITA 맵 파일의 경로 \(DITA 저장소\). |
+| `sourcePath` | 문자열 | DITAVAL 파일을 검색할 DITA 맵 파일의 경로 \(AEM 저장소\). |
 | `cpName` | 문자열 | DITAVAL 파일을 검색할 DITA 맵의 조건부 사전 설정 이름. |
 
 **반환**:

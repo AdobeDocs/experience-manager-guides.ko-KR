@@ -5,9 +5,18 @@ exl-id: 388ae654-c4f9-4bb7-ba98-370b8919e3a6
 feature: Java-Based API Folder Profiles
 role: Developer
 level: Experienced
-source-git-commit: 8c80a4da8e61909aab0f2db81ef97149774b36c4
+TQID: https://experienceleague.adobe.com/-rZBkRHgOJDh0hpvpMgRx7jyvcYstElA4ztdjXmpATU
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+  - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: 315
 ht-degree: 2%
 
 ---
@@ -72,7 +81,7 @@ Session session) throws GuidesApiException
 | `session` | javax.jcr.Session | 유효한 JCR 세션입니다. |
 
 **반환**:
-성공의 경우 `true`. 실패할 경우 예외가 발생합니다.
+`true`(성공). 실패할 경우 예외가 발생합니다.
 
 **예외**:
 다음 시나리오에서 ``java.lang.Exception``을(를) throw합니다.

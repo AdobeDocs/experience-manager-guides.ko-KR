@@ -4,9 +4,23 @@ description: 맞춤형 스타일을 추가하여 Guides Webeditor의 모양과 �
 exl-id: 03143fb2-d05d-4103-b172-8b91880b7f9e
 feature: Web Editor
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+TQID: https://experienceleague.adobe.com/uQc8TTz7dHxbN6-zbin-esQevLoJR-IMR1hchrwEs8M
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: 300
 ht-degree: 0%
 
 ---
@@ -34,7 +48,7 @@ ht-degree: 0%
 
 폴더 프로필을 사용하여 &quot;XML 편집기 구성&quot; 탭에서 *css_layout.css*&#x200B;를 확인하고 사용자 지정 스타일이 있는 CSS를 추가하십시오
 
-[이 링크를 사용하여 폴더 프로필 및 CSS 템플릿 레이아웃 구성에 대해 자세히 알아보세요](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=ko#customize-the-css-template-layout)
+[이 링크를 사용하여 폴더 프로필 및 CSS 템플릿 레이아웃 구성에 대해 자세히 알아보십시오](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=ko#customize-the-css-template-layout)
 
 다음 명령을 사용하여 웨비터에서의 위 스타일을 설정하십시오.
 - [css_layout.css](../../../assets/authoring/webeditor-customstyles-css_layout.css)을(를) 사용하여 선택한 폴더 프로필에 업로드합니다.

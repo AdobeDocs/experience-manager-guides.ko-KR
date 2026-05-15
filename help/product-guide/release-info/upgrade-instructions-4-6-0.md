@@ -3,9 +3,22 @@ title: 릴리스 정보 | Adobe Experience Manager Guides 4.6.0 릴리스에 대
 description: Adobe Experience Manager Guides 4.6.0 릴리스로 업그레이드하는 방법 알아보기
 role: Leader
 exl-id: 03d0d85b-7324-441f-9b35-66a63691d630
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/IxKzpRSAnKzDSq06bTnYyvwHs8d63yiD0stkKIDPWRw
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: cda0baeb-996e-4aaa-92d1-41032e34fd68
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: 464
 ht-degree: 5%
 
 ---
