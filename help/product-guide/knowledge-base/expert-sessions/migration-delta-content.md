@@ -1,10 +1,15 @@
 ---
 title: 델타 콘텐츠 마이그레이션
 description: AEM Guides, 델타 컨텐츠 마이그레이션
-source-git-commit: 7f4cf7a6fd7191814442d76cf2d72c0a7cabd8b7
+exl-id: 293d05c4-637e-41ae-81d7-9cf492be32c5
+TQID: https://experienceleague.adobe.com/WZC-a-ixs3LjKhG5-PN-cjYIW271PEcjWdWwAuXdAp4
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 2%
+source-wordcount: 310
+ht-degree: 5%
 
 ---
 
@@ -41,16 +46,16 @@ AEM Guides의 콘텐츠 마이그레이션에 대한 시리즈의 세 번째 세
 
 ### 설명서
 
-- [콘텐츠 복사 도구](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/developer-tools/content-copy)
+- [콘텐츠 복사 도구](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developer-tools/content-copy)
 - [패키지 관리자를 사용하여 콘텐츠 전송](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager)
-- [UUID가 아닌 콘텐츠를 UUID로 마이그레이션 중](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/install-guide/on-prem-ig/content-migration/migration-process/migrate-non-uuid-uuid)
+- [비 UUID에서 UUID로 콘텐츠 마이그레이션](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/content-migration/migration-process/migrate-non-uuid-uuid)
 - [AEM Guides: 온-프레미스/AMS에서 클라우드로 UUID 콘텐츠 이동](../../cs-install-guide/migrate-on-premise-content-cloud.md)
-- [AEM 클라우드로 이동](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
+- [AEM Cloud로 이동](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
 - [AEM Guides: uuid가 아닌 콘텐츠를 클라우드로 마이그레이션](../../install-guide/migrate-uuid-non-uuid.md)
 
 ### 커뮤니티 포럼
 
-- Experience League에서 세션별 커뮤니티 상호 작용을 보려면 [AEM Guides 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=ko)을 방문하십시오.
+- Experience League에서 세션별 커뮤니티 상호 작용을 보려면 [AEM Guides 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)을 방문하십시오.
 
 
 >[!NOTE]

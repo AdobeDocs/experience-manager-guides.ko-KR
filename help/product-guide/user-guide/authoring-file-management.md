@@ -4,9 +4,13 @@ description: AEM Guides에서 파일 및 폴더를 관리하는 방법에 대해
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/mI3V4UN3L9sHBCY89xOyOmR5UANb0Ko7Fg1CWi4Tkhc
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '3300'
+source-wordcount: 3300
 ht-degree: 0%
 
 ---
@@ -325,4 +329,4 @@ Adobe Experience Manager 저장소에서 파일을 삭제하는 것은 시스템
    ![](images/media-version-preview.png){width="650" align="center"}
 
 
-**상위 항목:**&#x200B;[&#x200B;콘텐츠 관리](authoring.md)
+**상위 항목:**[&#x200B;콘텐츠 관리](authoring.md)

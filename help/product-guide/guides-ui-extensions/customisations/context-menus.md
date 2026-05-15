@@ -3,9 +3,12 @@ title: 컨텍스트 메뉴
 description: 컨텍스트 메뉴 사용자 정의
 role: User, Admin
 exl-id: 25aa76dd-ef05-41ed-b980-14bbc1626059
-source-git-commit: 492f72768e0de74a91eb7acc9db8264e21bfc810
+TQID: https://experienceleague.adobe.com/TJyqos515-hGMn2S0fG4Nqs-kKz2MDF7cM40PSuZFMY
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: 154
 ht-degree: 0%
 
 ---

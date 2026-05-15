@@ -3,9 +3,15 @@ title: 릴리스 정보 | Adobe Experience Manager Guides 2025.06.0 릴리스의
 description: Adobe Experience Manager Guides 2025.06.0 릴리스의 새로운 기능과 향상된 기능에 대해 알아봅니다
 role: Leader
 exl-id: 48f27aa6-d870-4228-8e62-db81699a25f7
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/Lu9Ebb7OEpxiRmjkho1KnXiry5Kz5kDwfAYbXJD8-uI
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: 404
 ht-degree: 3%
 
 ---

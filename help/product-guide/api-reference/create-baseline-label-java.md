@@ -5,9 +5,13 @@ exl-id: 0e2ba1bb-f5bf-44da-848a-a55385460c83
 feature: Java-Based API Baseline
 role: Developer
 level: Experienced
-source-git-commit: 8c80a4da8e61909aab0f2db81ef97149774b36c4
+TQID: https://experienceleague.adobe.com/3vpR2zCp5a6dBn6RkSKgBeU7cS3Me-HE0KQxc-duYCk
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: c6d09140-3c91-45d3-b7ed-b681af752f43id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: 944
 ht-degree: 2%
 
 ---
@@ -67,14 +71,14 @@ throws GuidesApiException
 | `sourcePath` | 문자열 | AEM 저장소의 DITA 맵 파일의 절대 경로입니다. |
 | `baselineTitle` | 문자열 | 기준선에 대한 고유한 제목. |
 | `label` | 문자열 | 지정된 레이블이 적용된 주제의 버전을 선택합니다. |
-| `directContext` | LinkedHashMap&lt;문자열, 개체\> | 직접 참조된 항목 \(content\)을 기반으로 구성을 선택하면 맵에서 언급한 순서가 따라 버전 확인이 수행됩니다. <br> 맵의 모든 키에 대해 반복한 후 버전을 찾을 수 없으면 기준 만들기 프로세스가 실패합니다. <br> HashMap이 비어 있으면 \(기본적으로 비어 있고 null 맵이 아닌 맵을 보냅니다\) 기본적으로 <br>`directContext.put("label", label);` <br>(으)로 채워집니다. `directContext.put("latest", true);` <br> 기준 요소 만들기에서 지정된 레이블의 버전만 선택하고 해당 버전이 없으면 실패하도록 하려면 `label` 키와 기준 요소를 만들 레이블을 지정합니다. |
-| `indirectContext` | LinkedHashMap&lt;문자열, 개체\> | 간접적으로 참조된 항목 \(참조된 콘텐츠\)을 기반으로 구성을 선택하면 맵에 언급된 순서를 따라 버전을 확인합니다. <br> 맵의 모든 키에 대해 반복한 후 버전을 찾을 수 없으면 기준 만들기 프로세스가 실패합니다. <br> HashMap이 비어 있으면 \(기본적으로 비어 있고 null 맵이 아님\) 기본적으로 다음과 같이 채워집니다. <br>`indirectContext.put("label", label);` <br>`indirectContext.put "pickAutomatically", null);` <br> 자동으로 버전을 선택하는 대신 최신 버전이 되게 하려면 <br>`indirectContext.put("pickAutomatically", null);` <br> _포함:_ <br>`indirectContext.put("latest", true)` |
+| `directContext` | LinkedHashMap&lt;문자열, 개체\> | 직접 참조된 항목 \(content\)을 기반으로 구성을 선택하면 맵에서 언급한 순서가 따라 버전 확인이 수행됩니다. <br> 맵의 모든 키에서 반복 후 버전을 찾을 수 없는 경우 기준 작성 프로세스가 실패합니다. <br> HashMap이 비어 있으면\(기본적으로 비어 있고 null 맵이 아님) 기본적으로 <br>`directContext.put("label", label);` <br>(으)로 채워집니다. `directContext.put("latest", true);` <br> 기준 요소 만들기에서 지정된 레이블의 버전만 선택하고 해당 버전이 없으면 실패하도록 하려면 `label` 키와 기준 요소를 만들 레이블을 지정합니다. |
+| `indirectContext` | LinkedHashMap&lt;문자열, 개체\> | 간접적으로 참조된 항목 \(참조된 콘텐츠\)을 기반으로 구성을 선택하면 맵에 언급된 순서를 따라 버전을 확인합니다. <br> 맵의 모든 키에서 반복 후 버전을 찾을 수 없는 경우 기준 작성 프로세스가 실패합니다. <br> HashMap이 비어 있으면 \(기본적으로 비어 있고 null 맵이 아님\) 기본적으로 다음과 같이 채워집니다. <br>`indirectContext.put("label", label);` <br>`indirectContext.put "pickAutomatically", null);` <br> 자동으로 버전을 선택하는 대신 최신 버전이 되게 하려면 <br>`indirectContext.put("pickAutomatically", null);` <br> _with :_<br>`indirectContext.put("latest", true)` |
 
 **반환**:
 기준 요소 이름 - JCR 저장소에 있는 기준 요소의 노드 이름입니다. 새로 만든 베이스라인의 제목이 DITA 맵의 베이스라인 페이지에 표시됩니다.
 
 **예외**:
-제목이 같은 기준선이 이미 있으면 ``ItemExistExceptiom``을(를) 표시합니다.
+제목이 같은 기준선이 이미 있으면 ``ItemExistExceptiom``을(를) 실행합니다.
 
 **구문 \(버전 3.4, 3.3 및 3.2\)**
 
@@ -99,7 +103,7 @@ Date versionDate) throws GuidesApiException
 기준 요소 이름 - JCR 저장소에 있는 기준 요소의 노드 이름입니다. 새로 만든 베이스라인의 제목이 DITA 맵의 베이스라인 페이지에 표시됩니다.
 
 **예외**:
-``RepositoryException.`` 처리
+``RepositoryException.``개 발생
 
 ## 레이블 적용
 
@@ -122,7 +126,7 @@ public static void applyLabel(Session session,
 | `session` | javax.jcr.Session | 유효한 JCR 세션입니다. |
 | `sourcePath` | 문자열 | AEM 저장소의 DITA 맵 파일의 절대 경로입니다. |
 | ``baselineName`` | 문자열 | 레이블을 적용할 기준 노드의 이름입니다. 기준선 노드의 이름을 가져오려면 [\#id185NFF0085Z](#id185NFF0085Z) 메서드를 사용하거나 CRXDE에서 DITA 맵의 기준선 노드를 확인하십시오.<br> **참고:** 레이블은 기준선에 있는 맵 파일에서 직접 참조되는 파일 버전에 적용됩니다. |
-| `label` | 문자열 | 기준선의 파일에 적용되는 레이블입니다. 레이블에 다음 문자가 포함되어 있지 않은지 확인합니다. &sol; &comma; &colon; &comma; &lbrack; &comma; &comma; &comma; &vert; &comma; &ast; <br> 여러 레이블을 설정하려면 레이블(예: Label1, Label2)을 쉼표로 구분하십시오. |
+| `label` | 문자열 | 기준선의 파일에 적용되는 레이블입니다. 레이블에 다음 문자가 포함되어 있지 않은지 확인합니다. &amp;sol; &amp;comma; &amp;colon; &amp;comma; &amp;lbrack; &amp;comma; &amp;rbrack; &amp;comma; &amp;vert; &amp;comma; &amp;ast; <br> 여러 레이블을 설정하려면 레이블1, 레이블2와 같이 쉼표;로 레이블을 구분합니다. |
 
 **예외**:
 `RepositoryException`을(를) throw합니다.
@@ -151,7 +155,7 @@ String label) throws GuidesApiException
 | `label` | 문자열 | 기준선에 있는 파일에서 삭제할 레이블입니다. <br> 여러 레이블을 삭제하려면 쉼표로 레이블을 구분하십시오(예: Label1, Label2). |
 
 **반환**:
-기준선에 있는 모든 파일에 대한 `path:deletedlabels`의 *key:value* 쌍이 있는 맵입니다.
+기준선에 있는 모든 파일에 대한 `path:deletedlabels`의 *키:value* 쌍이 있는 맵입니다.
 
 **예외**:
 ``RepositoryException`, `VersionException`, `Exception``을(를) throw합니다.

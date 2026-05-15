@@ -2,9 +2,14 @@
 title: 콘텐츠를 검색하도록 스마트 도움말 구성
 description: 콘텐츠 검색을 위한 Smart Help를 구성하는 방법을 알아봅니다
 exl-id: b5836c02-027e-459a-a7f0-f7d631f999dc
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/CVY-v5lrpyLwIjmcxA6-p-4E0OuKZM14cvJomBqADz4
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: c6d09140-3c91-45d3-b7ed-b681af752f43id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: 619
 ht-degree: 0%
 
 ---
@@ -23,17 +28,17 @@ Adobe Developer Console에서 IMS 구성을 만들려면 다음 단계를 수행
 
 1. [Adobe Developer Console](https://developer.adobe.com/console)을(를) 시작합니다.
 1. Developer Console에 로그인하면 **홈** 화면이 표시됩니다. **홈** 화면에서 프로젝트 및 다운로드에 대한 위쪽 탐색 링크를 포함하여 정보와 빠른 링크를 쉽게 찾을 수 있습니다.
-1. 새 빈 프로젝트를 만들려면 **빠른 시작** 링크에서 **새 프로젝트 만들기**&#x200B;를 선택하십시오.
+1. 새 빈 프로젝트를 만들려면 **빠른 시작** 링크에서 **새 프로젝트 만들기**를 선택하십시오.
    ![빠른 시작 링크](assets/conf-ss-quick-start.png) {width="550"}
    *새 프로젝트를 만듭니다.*
 
 1. **프로젝트** 화면에서 **API 추가**&#x200B;를 선택합니다.  **API 추가** 화면이 나타납니다. 이 화면에는 애플리케이션을 개발할 수 있는 Adobe 제품 및 기술에 사용 가능한 모든 API, 이벤트 및 서비스가 표시됩니다.
 
-1. **I/O 관리 API**&#x200B;를 선택하여 프로젝트에 추가하십시오.
+1. **I/O 관리 API**를 선택하여 프로젝트에 추가하십시오.
    ![IO 관리 API](assets/confi-ss-io-management.png)
    *I/O 관리 API를 프로젝트에 추가합니다.*
 
-1. 새 **OAuth 자격 증명**&#x200B;을(를) 만들고 저장하십시오.
+1. 새 **OAuth 자격 증명**을(를) 만들고 저장하십시오.
    API 구성의 ![OAuth 자격 증명 타일](assets/conf-ss-OAuth-credential.png) {width="3000"}
    *API에 대한 OAuth 자격 증명을 구성합니다.*
 

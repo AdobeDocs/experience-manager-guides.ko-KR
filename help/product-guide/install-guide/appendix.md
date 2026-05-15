@@ -5,9 +5,14 @@ exl-id: 02da0e61-7a73-4c4c-9bd7-2664d90fa728
 feature: InDesign File Conversion
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+TQID: https://experienceleague.adobe.com/cfaAR6ieDyb5pmbXcAcxzXzHj0mGoJyX5QYg9O4InY8
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: d90290ec-3e61-4ebd-8649-bcafe0836803
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '2865'
+source-wordcount: 2865
 ht-degree: 0%
 
 ---
@@ -453,7 +458,7 @@ AEM Guides을 설치하고 구성했으면 문제를 해결할 수 있습니다.
 1. 유효성 검사 스크립트 \[`/bin/fmdita/validatebtree?operation=validate`\]를 실행하여 끊어진 새 참조가 있는지 확인합니다.
 1. 유효성 검사 스크립트에서 오류가 보고되는 경우 패치 스크립트를 사용하여 패치할 수 있습니다.
 1. 아래에 제공된 세부 정보를 기록하고 필요한 경우 고객 성공 팀과 공유하십시오.
-1. &#x200B;
+1. 
    - 유효성 확인 스크립트로 인쇄된 로그
 - &quot;`/content/fmdita/references`&quot;의 패키지
 - 보고된 시나리오에 따른 기타 필수 세부 정보
@@ -467,7 +472,7 @@ AEM Guides을 설치하고 구성했으면 문제를 해결할 수 있습니다.
    **&#x200B;참고:* 참조용으로 로그를 복사하고 저장하는 것이 좋습니다.
 
 1. 패치 스크립트가 성공적으로 실행되면 다음 검사를 수행할 수 있습니다.
-1. &#x200B;
+1. 
    - `/content/fmdita`에 새 노드 &quot;`references_backup_<timestamp>"`&quot;이(가) 생성되었는지 확인
 - 참조가 수정되었는지 확인합니다.
 

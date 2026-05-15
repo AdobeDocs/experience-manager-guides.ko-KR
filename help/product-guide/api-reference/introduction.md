@@ -5,10 +5,15 @@ exl-id: d8ee9cf7-1d67-4b4a-aa80-64e893a99463
 feature: API Introduction
 role: Developer
 level: Experienced
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/dNO8nZusaPCor506Q-2drrcJGf68mx-Hxo4uaT-cDtM
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: a3bd6397-2eb2-4908-a61c-226e26855dcaid: c6d09140-3c91-45d3-b7ed-b681af752f43id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: f3645292-50bd-4f4a-ac6a-29dcecdf8abe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 1%
+source-wordcount: 656
+ht-degree: 0%
 
 ---
 
@@ -120,9 +125,9 @@ API 사용, 매개 변수 및 예제 요청에 대한 자세한 내용은 Experi
 
 ## 추가 리소스
 
-다음은 [학습 및 지원](https://helpx.adobe.com/kr/support/xml-documentation-for-experience-manager.html) 페이지에서 사용할 수 있는 AEM Guides의 다른 유용한 리소스 목록입니다.
+다음은 [학습 및 지원](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html) 페이지에서 사용할 수 있는 AEM Guides의 다른 유용한 리소스 목록입니다.
 
 - 사용 안내서
 - 설치 및 구성 안내서
 - 빠른 시작 안내서
-- [도움말 보관 페이지](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/archive.html) \(이전 릴리스 설명서에 액세스\)
+- [도움말 보관 페이지](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \(이전 릴리스 설명서에 액세스\)

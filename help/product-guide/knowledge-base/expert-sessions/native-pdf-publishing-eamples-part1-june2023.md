@@ -4,10 +4,16 @@ description: 기본 PDF 게시 엔진을 사용하면 업데이트하기 쉬운 
 exl-id: ddaf4e83-9958-42c5-b172-4c9f8e923910
 feature: Native PDF Output
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+TQID: https://experienceleague.adobe.com/dFEpXuwcMdlNqPf9r97DCfhTABQfoCnDPIG7bZMwsZg
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2: id: d6596f3f-92a7-43ec-b444-237db6adad05
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 1%
+source-wordcount: 341
+ht-degree: 0%
 
 ---
 
@@ -32,7 +38,7 @@ ht-degree: 1%
 
 ## 핵심 사항
 
-이 세션에서는 기본 PDF 게시를 위한 다음 사항에 대해 배웠습니다.
+이 세션에서는 기본 PDF 게시에 대한 다음에 대해 알아보았습니다.
 - MathML, 워터마크, 변경 내용 추적 등의 기본 기능 활성화
 - 사용자 정의 글꼴 사용
 - PDF 출력에서 DITA XML의 메타데이터 사용
@@ -42,23 +48,23 @@ ht-degree: 1%
 
 ## 관련 리소스
 
-- **기본 PDF 설정 단계** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.html?lang=ko)
+- **기본 PDF 설정 단계** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.html?lang=en)
 
-- **기본 PDF 게시의 기능 개요** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23.html?lang=ko)
+- **기본 PDF 게시의 기능 개요** - [Experience League의 기능 개요](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23.html?lang=en)
 
-- **문서화된 일반적인 사용 사례** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/content-styles/stylesheet.html?lang=ko)
+- **문서화된 일반적인 사용 사례** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/content-styles/stylesheet.html?lang=en)
 
-- **커뮤니티 포럼** - Experience League에 대한 세션별 커뮤니티 상호 작용의 경우 [AEM Guides 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=ko)을 방문하십시오.
+- **커뮤니티 포럼** - Experience League에서 세션별 커뮤니티 상호 작용을 보려면 [AEM Guides 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)을 방문하십시오.
 
 >[!NOTE]
 >
 > 이 세션에 표시된 기능은 다음 버전의 AEM Guides에서 사용할 수 있습니다.
 > - On-prem 4.2 이상
-> - Cloud Service 2303 이상
+> - Cloud Services 2303 이상
 
 ## 다음 전문가 세션
 
-- **주제** - 기본 PDF 게시 &quot;실습 - BYOS&quot; - 대화형 학습
+- **주제** - 기본 PDF 게시 &quot;Hands on lab - BYOS&quot; - 대화형 학습
 - **예약됨** - 2023년 9월 7일
 
 ## 연락처

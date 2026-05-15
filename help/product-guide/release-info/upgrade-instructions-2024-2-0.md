@@ -2,9 +2,14 @@
 title: 릴리스 정보 | Adobe Experience Manager Guides, 2024.2.0 릴리스의 업그레이드 지침 및 해결된 문제
 description: 호환성 매트릭스와 Adobe Experience Manager Guides as a Cloud Service 2024.2.0 릴리스로 업그레이드하는 방법에 대해 알아보십시오.
 exl-id: 7aaa4317-eb96-4fff-8a45-b38b9dfc234a
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/phKPHZnrFnMwgHbnHOjCF-t8eod6LCl09IeTBiWOaqk
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: afb45297-4313-4f67-818e-bc0b03abe086id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0eid: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: cda0baeb-996e-4aaa-92d1-41032e34fd68id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: 872
 ht-degree: 3%
 
 ---
@@ -92,7 +97,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 기존 콘텐츠를 후처리하고 새 끊어진 링크 보고서를 사용하려면 다음 단계를 수행하십시오.
 
-1. (선택 사항) 시스템에 100,000개 이상의 DITA 파일이 있는 경우 `queryLimitReads`의 `queryLimitInMemory` 및 `org.apache.jackrabbit.oak.query.QueryEngineSettingsService`을(를) 더 큰 값(존재하는 에셋 수보다 큰 값(예: 200,000))으로 업데이트한 다음 다시 배포합니다.
+1. (선택 사항) 시스템에 100,000개 이상의 DITA 파일이 있는 경우 `org.apache.jackrabbit.oak.query.QueryEngineSettingsService`의 `queryLimitReads` 및 `queryLimitInMemory`을(를) 더 큰 값(존재하는 에셋 수보다 큰 값(예: 200,000))으로 업데이트한 다음 다시 배포합니다.
 
    - Adobe Experience Manager Guides as a Cloud Service 설치 및 구성 의 *구성 재정의* 섹션에 제공된 지침을 사용하여 구성 파일을 만듭니다.
    - 구성 파일에서 `queryLimitReads` 및 `queryLimitInMemory` 옵션을 구성하려면 다음(속성) 세부 정보를 제공합니다.

@@ -5,9 +5,14 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 19d9121f-6b72-445c-a7d9-07f00026b654
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+TQID: https://experienceleague.adobe.com/ECHcQjwfY4veo70H3MRXO0C0F3Wx3-3X-vgVMnUC-3s
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: 393
 ht-degree: 0%
 
 ---
@@ -31,4 +36,4 @@ AEM 사이트 또는 PDF에서 출력을 생성하는 동안 변수를 사용하
 | `${system_time}` | 현재 서버 시간을 사용하여 대상 경로를 만듭니다. | **DITA 맵 파일 이름:** <br>`SampleDita.ditamap` <br> <br> **DITA 맵 파일 경로:** <br>`/content/dam/projects/AEM-Guides/en/user-guide/` <br><Br>**대상 경로** 구성: <br> `/content/output/sites/${system_time}`<br><br>**최종 출력 위치:**<br>`/content/output/sites/055612/SampleDita.html` |
 
 또한 DITA 맵이나 북맵 파일에 대해 정의된 메타데이터를 변수로 사용할 수도 있습니다. 메타데이터는 DITA 맵 또는 북맵 파일의 `/jcr:content/metadata` 노드에서 찾을 수 있습니다. 예를 들어 `/jcr:content/metadata` 노드에 정의된 메타데이터 속성 중 하나는 `dc:title`입니다. `${dc:title}`을(를) 지정할 수 있으며 제목 값은 최종 출력에서 사용됩니다.
-**상위 항목:**&#x200B;[&#x200B;출력 생성](generate-output.md)
+**상위 항목:**[&#x200B;출력 생성](generate-output.md)

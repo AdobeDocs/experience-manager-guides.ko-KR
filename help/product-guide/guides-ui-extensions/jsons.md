@@ -3,9 +3,13 @@ title: 노출된 JSON
 description: 노출된 JSON 목록
 role: User, Admin
 exl-id: 7ad86795-d26b-464a-94f6-ffaf3376b252
-source-git-commit: 0af09be192bf3ead5e34c39c42282fa7556fbe9a
+TQID: https://experienceleague.adobe.com/Pj3XGB5Vj4jfDL-FyautZrebugbAcooLs29dMQ9-BXw
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: 377
 ht-degree: 0%
 
 ---
@@ -14,7 +18,7 @@ ht-degree: 0%
 
 편집기:
 
-- [&#39;other_attribute_list_item&#39;](./jsons/editor/other_attribute_list_item.json)
+- [`other_attribute_list_item`](./jsons/editor/other_attribute_list_item.json)
 
   컨텐츠 속성의 오른쪽 패널에 표시된 &quot;속성&quot; 하위 섹션 아래에 있는 속성 구성을 사용자 정의합니다.
 
@@ -50,15 +54,15 @@ ht-degree: 0%
 
 리뷰 앱:
 
-- [&#39;inline_review_panel&#39;](./jsons/review_app/inline_review_panel.json)
+- [`inline_review_panel`](./jsons/review_app/inline_review_panel.json)
 
   검토 페이지의 오른쪽 패널과 안내선 UI를 조정하여 주석을 표시합니다.
 
-- [&#39;annotation_toolbox&#39;](./jsons/review_app/annotation_toolbox.json)
+- [`annotation_toolbox`](./jsons/review_app/annotation_toolbox.json)
 
   검토 페이지에 설명을 추가하기 위한 단추가 들어 있는 도구 상자를 구성합니다.
 
-- [&#39;review_comment&#39;](./jsons/review_app/review_comment.json)
+- [`review_comment`](./jsons/review_app/review_comment.json)
 
   검토 페이지에서 주석 상자의 모양 및 기능을 수정합니다.
 
@@ -74,15 +78,15 @@ ht-degree: 0%
 
   검토 페이지 상단에 표시되는 도구 모음을 사용자 지정합니다.
 
-- [&#39;review_left_panels_container&#39;](./jsons/review_app/review_left_panels_container.json)
+- [`review_left_panels_container`](./jsons/review_app/review_left_panels_container.json)
 
   특정 패널 추가 또는 제거를 포함하여 검토 페이지의 왼쪽 패널을 수정합니다.
 
-- [&#39;review_left_panel_topics&#39;](./jsons/review_app/review_left_panel_topics.json)
+- [`review_left_panel_topics`](./jsons/review_app/review_left_panel_topics.json)
 
   검토 페이지 및 안내서 편집기의 왼쪽 패널에서 계층 구조 또는 항목 목록을 사용자 지정합니다.
 
-- [&#39;review_left_panel_item&#39;](./jsons/review_app/review_left_panel_item.json)
+- [`review_left_panel_item`](./jsons/review_app/review_left_panel_item.json)
 
   더 나은 사용성을 위해 주제 목록에서 개별 항목을 개인화합니다.
 
@@ -90,7 +94,7 @@ ht-degree: 0%
 
 대화 상자:
 
-- [&#39;save_revision&#39;](./jsons/dialogs/save_revision.json)
+- [`save_revision`](./jsons/dialogs/save_revision.json)
 
   마지막 파일 버전을 표시하고 저장 시 업데이트할 수 있는 &quot;수정 버전 저장&quot; 대화 상자를 관리합니다.
 
@@ -98,11 +102,11 @@ ht-degree: 0%
 
 위젯:
 
-- [&#39;save_as_new_version&#39;](./jsons/widgets/save_as_new_version.json)
+- [`save_as_new_version`](./jsons/widgets/save_as_new_version.json)
 
   버전 세부 사항을 표시하고 &quot;새 버전으로 저장&quot; 대화 상자를 업데이트하거나 여는 옵션을 제공하는 위젯을 사용자 정의합니다.
 
-- [&#39;file_lock&#39;](./jsons/widgets/file_lock.json)
+- [`file_lock`](./jsons/widgets/file_lock.json)
 
   편집기 도구 모음에서 파일에 대한 잠금/잠금 해제 단추 기능을 정의합니다.
 
@@ -114,7 +118,7 @@ ht-degree: 0%
 
   웹 편집기에서 연 파일에 대한 편집기 도구 모음을 개인화합니다.
 
-- [&#39;editor_tab_bar&#39;](./jsons/toolbars/editor_tab_bar.json)
+- [`editor_tab_bar`](./jsons/toolbars/editor_tab_bar.json)
 
   &quot;모두 저장&quot; 및 &quot;설정&quot; 옵션을 포함하여 편집기 도구 모음 위에 있는 탭 모음 단추를 수정합니다.
 
@@ -126,7 +130,7 @@ ht-degree: 0%
 
   맵 콘솔 탐색 모음을 사용자 지정하여 맵 이름, 맵 변경을 위한 드롭다운 및 편집기 탐색을 표시할 수 있습니다.
 
-- [&#39;home_navigation_bar&#39;](./jsons/toolbars/home_navigation_bar.json)
+- [`home_navigation_bar`](./jsons/toolbars/home_navigation_bar.json)
 
   폴더 프로필 및 개요 섹션 버튼을 포함하여 안내서 UI 홈 페이지의 탐색 막대를 관리합니다.
 

@@ -3,9 +3,14 @@ title: 릴리스 정보 | Adobe Experience Manager Guides 4.6.0 서비스 팩 3 
 description: Adobe Experience Manager Guides 4.6.0 서비스 팩 3 릴리스로 업그레이드하는 방법에 대해 알아봅니다
 role: Leader
 exl-id: f0612eff-c18b-4667-a487-5f8809127d75
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/vuj58wNzA6nQPPdhszA1ZEBkW6ghJzK6zAN-AIF3LI8
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: afb45297-4313-4f67-818e-bc0b03abe086id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: 523
 ht-degree: 1%
 
 ---
@@ -69,7 +74,7 @@ ht-degree: 1%
 - 버전 4.2, 4.2.1(핫픽스 4.2.1.3), 4.1 또는 4.1.x를 사용하는 경우 버전 4.6.0으로 업그레이드하기 전에 버전 4.4로 업그레이드해야 합니다.
 - 버전 4.0을 사용 중인 경우 버전 4.3.x로 업그레이드하기 전에 버전 4.2로 업그레이드해야 합니다.
 - 버전 3.8.5를 사용하는 경우 버전 4.2로 업그레이드하기 전에 버전 4.0으로 업그레이드해야 합니다.
-- 3.8.5 이전 버전을 사용하는 경우 [Experience Manager Guides 도움말 PDF 보관](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/archive.html)에 있는 제품별 설치 안내서의 Adobe Experience Manager Guides 업그레이드 섹션을 참조하십시오.
+- 3.8.5 이전 버전을 사용하는 경우 [Experience Manager Guides 도움말 PDF 보관](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)에 있는 제품별 설치 안내서의 Adobe Experience Manager Guides 업그레이드 섹션을 참조하십시오.
 
 >[!NOTE]
 >

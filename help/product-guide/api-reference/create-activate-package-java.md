@@ -5,10 +5,14 @@ exl-id: b801c2b3-445f-4aa7-a4f2-029563d7cb3a
 feature: Java-Based API Packages
 role: Developer
 level: Experienced
-source-git-commit: ed0b0e6124a8656e711a8e64b290b805569fbd48
+TQID: https://experienceleague.adobe.com/g5Mp7tMM9JaAYwNmMyPmaFEcI0fx66vrX8ry97lIUF8
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: a3bd6397-2eb2-4908-a61c-226e26855dcaid: c6d09140-3c91-45d3-b7ed-b681af752f43
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 1%
+source-wordcount: 618
+ht-degree: 0%
 
 ---
 
@@ -81,16 +85,16 @@ throws GuidesApiException
 | 이름 | 유형 | 설명 |
 |----|----|-----------|
 | `json` | 문자열 | 빌드할 CRX 패키지를 결정하는 JSON 문자열입니다. JSON 문자열을 만들려면 다음 형식을 사용하십시오. <br>- `activate`: 은(는) 부울 \(`true`/`false`\) 유형입니다. 작성자 인스턴스에서 만든 CRX 패키지를 게시 인스턴스에 복제할지 여부를 결정합니다. <br> - `rules`: JSON 배열 유형입니다. CRX 패키지를 빌드하기 위해 순차적으로 처리되는 JSON 규칙의 배열입니다. <br> - `rootPath`: 유형 문자열입니다. 노드/속성 쿼리가 실행되는 기본 경로입니다. 노드/속성 쿼리가 없는 경우 루트 경로 및 루트 경로 아래에 있는 모든 노드가 CRX 패키지에 포함됩니다. <br> - `nodeQueries`: Regex 배열 유형입니다. 루트 경로 아래에 특정 파일을 포함하는 데 사용되는 정규 표현식의 배열입니다. <br> - `propertyQueries`: JSON 배열 유형입니다. 쿼리가 실행된 후 각 JCR 노드에 있는 속성의 이름과 루트 경로에서 실행될 XPath 쿼리로 구성된 각 JSON 개체가 있는 JSON 개체의 배열입니다. 각 JCR 노드의 속성 값은 경로 또는 경로 배열이어야 합니다. 이 속성에 있는 경로는 CRX 패키지에 추가됩니다. |
-| `outputstream` | java.io.OutputStream | 쿼리 실행, 파일 포함, CRX 패키지 생성 또는 활성화와 같은 다양한 단계의 결과를 작성하는 데 사용됩니다. 만들기 또는 활성화 프로세스 중에 발생한 모든 오류가 `outputstream`에 기록됩니다. 이 기능은 디버깅에 유용합니다. |
+| `outputstream` | java.io.Out풋스트림 | 쿼리 실행, 파일 포함, CRX 패키지 생성 또는 활성화와 같은 다양한 단계의 결과를 작성하는 데 사용됩니다. 만들기 또는 활성화 프로세스 중에 발생한 모든 오류가 `outputstream`에 기록됩니다. 이 기능은 디버깅에 유용합니다. |
 | `session` | 문자열 | 활성화 권한이 있는 올바른 JCR 세션입니다. |
-| `activationTarget` | 문자열 | (*선택적*) Cloud Service의 경우 `preview` 또는 `publish`, 온-프레미스 소프트웨어의 경우 <br> - Cloud Service의 경우 매개 변수에 잘못된 값이 있으면 패키지 활성화에 실패합니다. `publish` <br> - On-Premise 소프트웨어의 경우 매개 변수에 잘못된 값이 있으면 오류가 기록되고 기본값 `publish`을(를) 사용하여 게시가 수행됩니다. |
+| `activationTarget` | 문자열 | (*옵션*) Cloud Service의 경우 `preview` 또는 `publish`, On-Premise Software의 경우 <br> - Cloud Service의 경우 매개 변수에 잘못된 값이 포함되어 있으면 패키지 활성화에 실패합니다. <br> - On-Premise 소프트웨어의 경우 매개 변수에 잘못된 값이 있으면 오류가 기록되며 기본값 `publish`을(를) 사용하여 게시가 수행됩니다.`publish` |
 
 **예외**:
 
 `java.io.IOException` 및 `java.io.IllegalArgumentException` 처리
 
 
-선택적 매개 변수 `activationTarget`을(를) 정의하지 않으면 Cloud Service 및 온-프레미스 소프트웨어 모두에 대해 기본 게시 에이전트를 사용하여 활성화됩니다.
+선택적 매개 변수 `activationTarget`을(를) 정의하지 않으면 Cloud Service 및 On-premise Software 모두에 대해 기본 게시 에이전트를 사용하여 활성화됩니다.
 
 
 **예**:

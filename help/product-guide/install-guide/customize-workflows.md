@@ -5,9 +5,15 @@ exl-id: 3be387b9-6ac2-4b61-afdf-fbe9d8b6cc1e
 feature: Workflow Configuration
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+TQID: https://experienceleague.adobe.com/Q7sMFjgwS0NIiXnSv3VWO6-sg-m7i0yXgNrkwS4FqwY
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: b455a250-64c4-4598-b015-7b6b6dc528b1id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e6ff21d3-dec6-4298-8590-7c749fffaf78
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '2228'
+source-wordcount: 2228
 ht-degree: 3%
 
 ---
@@ -18,20 +24,20 @@ ht-degree: 3%
 
 AEM의 워크플로우에 대한 자세한 내용은 다음을 참조하십시오.
 
-- [워크플로 관리](https://helpx.adobe.com/kr/experience-manager/6-5/sites/administering/using/workflows.html)
+- [워크플로 관리](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)
 
-- 워크플로 적용 및 참여: [워크플로를 사용하여 작업](https://helpx.adobe.com/kr/experience-manager/6-5/sites/authoring/using/workflows.html).
+- 워크플로 적용 및 참여: [워크플로를 사용하여 작업](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/workflows.html).
 
-- 워크플로 모델 만들기 및 워크플로 기능 확장: [워크플로 개발 및 확장](https://helpx.adobe.com/kr/experience-manager/6-5/sites/developing/using/workflows.html).
+- 워크플로 모델 만들기 및 워크플로 기능 확장: [워크플로 개발 및 확장](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/workflows.html).
 
-- 중요한 서버 리소스를 사용하는 워크플로우의 성능을 개선합니다. [동시 워크플로우 처리](https://helpx.adobe.com/kr/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance).
+- 중요한 서버 리소스를 사용하는 워크플로우의 성능을 개선합니다. [동시 워크플로우 처리](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance).
 
 
 이 항목의 섹션에서는 AEM Guides에서 제공되는 기본 워크플로우에서 수행할 수 있는 다양한 사용자 정의에 대해 설명합니다.
 
 ## 리뷰 워크플로 사용자 지정 {#id176NE0C00HS}
 
-모든 조직의 콘텐츠 작성 팀은 비즈니스 요구 사항을 충족하기 위해 특정 방식으로 작업합니다. 일부 조직에서는 전용 편집기가 있는 반면, 다른 조직에서는 편집 검토 시스템을 자동화할 수 있습니다. 예를 들어 조직에서 일반적인 작성 및 게시 작업 과정에는 작성자가 컨텐츠 작성을 완료할 때마다 검토자에게 자동으로 전달되고 검토가 완료되면 최종 출력을 생성하기 위해 게시자에게 전달되는 등의 작업이 포함될 수 있습니다. AEM에서 컨텐츠 및 에셋에서 수행하는 활동은 프로세스 형태로 결합되어 AEM 워크플로우에 매핑될 수 있습니다. AEM의 워크플로에 대한 자세한 내용은 AEM 설명서에서 [워크플로 관리](https://helpx.adobe.com/kr/experience-manager/6-5/sites/administering/using/workflows.html)를 참조하십시오.
+모든 조직의 콘텐츠 작성 팀은 비즈니스 요구 사항을 충족하기 위해 특정 방식으로 작업합니다. 일부 조직에서는 전용 편집기가 있는 반면, 다른 조직에서는 편집 검토 시스템을 자동화할 수 있습니다. 예를 들어 조직에서 일반적인 작성 및 게시 작업 과정에는 작성자가 컨텐츠 작성을 완료할 때마다 검토자에게 자동으로 전달되고 검토가 완료되면 최종 출력을 생성하기 위해 게시자에게 전달되는 등의 작업이 포함될 수 있습니다. AEM에서 컨텐츠 및 에셋에서 수행하는 활동은 프로세스 형태로 결합되어 AEM 워크플로우에 매핑될 수 있습니다. AEM의 워크플로에 대한 자세한 내용은 AEM 설명서에서 [워크플로 관리](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)를 참조하십시오.
 
 AEM Guides을 사용하면 기본 검토 워크플로를 사용자 지정할 수 있습니다. 다른 작성 또는 게시 작업 과정에서 다음 네 가지 사용자 정의 검토 관련 프로세스를 사용할 수 있습니다.
 

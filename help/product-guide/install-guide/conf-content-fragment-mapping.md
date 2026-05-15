@@ -5,10 +5,15 @@ exl-id: 21446bcb-e7df-4823-acc3-1fdc7473f0d1
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+hidefromtoc: yes
+TQID: https://experienceleague.adobe.com/RQfBAqnFbJwbscxdqkuPFf8N8HnXXy-Z-SuiwlleofY
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: 239
 ht-degree: 0%
 
 ---
@@ -95,4 +100,4 @@ AEM Guides은 주제와 콘텐츠 조각 모델 간에 JSON 기반 매핑을 만
 ]
 ```
 
-기본 매핑을 사용하여 전체 주제를 게시할 수 있습니다. `Full Topic`콘텐츠 조각으로 게시&#x200B;**대화 상자의 드롭다운에서** 매핑을 선택하고 콘텐츠 조각 모델에 &quot;topicData&quot; 필드를 포함하십시오.
+기본 매핑을 사용하여 전체 주제를 게시할 수 있습니다. **콘텐츠 조각으로 게시** 대화 상자의 드롭다운에서 `Full Topic` 매핑을 선택하고 콘텐츠 조각 모델에 &quot;topicData&quot; 필드를 포함하십시오.

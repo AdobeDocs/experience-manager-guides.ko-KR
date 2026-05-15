@@ -4,10 +4,16 @@ description: Adobe Experience Manager Guides as a Cloud Service 2월 릴리스
 exl-id: c639b136-11ed-4a8b-a595-4bb5da879747
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/KtMCjANUmaT-PaKIJltf0G72WaHR0JV94HyutN9DyFY
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 0%
+source-wordcount: 877
+ht-degree: 4%
 
 ---
 
@@ -21,7 +27,7 @@ ht-degree: 0%
 
 다음 단계를 수행하여 현재 AEM Guides as a Cloud Service 설정을 업그레이드합니다.
 1. 클라우드 서비스의 Git 코드를 체크아웃하고 업그레이드하려는 환경에 해당하는 클라우드 서비스 파이프라인에 구성된 분기로 전환합니다.
-2. 클라우드 서비스 Git 코드의 `<dox.version>` 파일에서 `/dox/dox.installer/pom.xml` 속성을 2023.2.235로 업데이트합니다.
+2. 클라우드 서비스 Git 코드의 `/dox/dox.installer/pom.xml` 파일에서 `<dox.version>` 속성을 2023.2.235로 업데이트합니다.
 3. 변경 사항을 커밋하고 Cloud Services 파이프라인을 실행하여 AEM Guides as a Cloud Service의 2023년 2월 릴리스로 업그레이드합니다.
 
 ## 기존 콘텐츠를 색인화하는 단계(AEM Guides as a Cloud Service의 9월 이전 버전을 사용하는 경우에만)
@@ -32,7 +38,7 @@ ht-degree: 0%
 (선택 사항: 맵의 특정 경로를 전달하여 인덱싱할 수 있습니다. 기본적으로 모든 맵이 인덱싱됩니다 || 예: `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
 * API는 jobId를 반환합니다. 작업 상태를 확인하려면 작업 ID가 있는 GET 요청을 동일한 끝점으로 보낼 수 있습니다. `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
-(예: http://&lt;_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
+(예: http://&lt;_localhost:8080_/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
 
 * 작업이 완료되면 위의 GET 요청은 성공으로 응답하고 맵이 실패한 경우 언급됩니다. 인덱싱된 맵은 서버 로그에서 확인할 수 있습니다.
 
@@ -80,7 +86,7 @@ ht-degree: 0%
 
 * DITA 맵 자산( 자산 UI에서 )을 복사하면 복사된 자산에 잘못된 기준선이 생깁니다. (11218)
 * AEM에 허용된 제한(기본적으로 2GB)보다 큰 파일을 업로드할 때에는 경고 메시지가 표시되지 않습니다. (10817)
-* 웹 편집기 기준선 | 최근 열의 비헤이비어는 웹 편집기 내의 새 기준선 대시보드에서 다릅니다. (10808)
+* 웹 편집기 기준선 | 최신 열의 동작이 웹 편집기 내의 새 기준선 대시보드에 있습니다. (10808)
 * 번역 | 잘못된 /libs/fmdita/i18n/ja.json으로 인해 번역 작업이 시작되지 않습니다. (10543)
 * 번역 | 번역 대시보드(사람 번역)에서 생성된 범위 번역 프로젝트에서 오류가 발생합니다. (10526)
 * 번역 | 활성 번역 프로젝트에 자산이 있는 전체 언어 폴더에 대한 사후 처리가 차단됩니다. (10332)
@@ -92,11 +98,11 @@ ht-degree: 0%
 * 일부 시나리오에서는 주제 재생성이 작동하지 않습니다. (10635)
 * Publishlistener는 요청된 데이터를 정보 로그에 표시하지 않으며 일부 정크 로그도 포함합니다.( 10567)
 * 기본 PDF | &quot;폴더 프로필에 추가&quot; 옵션을 사용하여 출력 사전 설정을 만들 때 PDF 생성이 실패하고 Null 포인터 예외가 발생합니다. (10950)
-* 기본 PDF | 테이블 헤더 회전 시 문제가 발생합니다. (10555)
-* 기본 PDF | 중첩된 `<indexterm>`은(는) 기본 PDF 내보내기에서 중첩되지 않습니다. (10521)
+* 기본 PDF | 표 머리글을 회전할 때 문제가 발생합니다. (10555)
+* 기본 PDF | 중첩된 `<indexterm>`이(가) 기본 PDF 내보내기에서 중첩되지 않습니다. (10521)
 * 기본 PDF | 부록의 중첩된 topicref는 모두 임시 HTML에서 h1로 변환됩니다. (10454)
 * FrameMaker Publishing Server 2020을 사용하여 생성된 PDF에 대한 기준선 게시가 실패합니다. (10551)
-* 기본 PDF | 이미지에 `xref`을(를) 추가해도 생성된 PDF의 이미지가 렌더링되지 않습니다. (11346)
-* 기본 PDF | Image 태그는 모든 이미지에 display-inline 속성을 추가합니다. (10653)
+* 기본 PDF | `xref`을(를) 이미지에 추가해도 생성된 PDF의 이미지가 렌더링되지 않습니다. (11346)
+* 기본 PDF | 이미지 태그는 모든 이미지에 display-inline 특성을 추가합니다. (10653)
 * 기본 PDF | 초안 주석은 생성된 출력에서 기본적으로 숨겨집니다. (10560)
-* 기본 PDF | navtitle은 topichead에 대해 적용되지 않습니다. (10509)
+* 기본 PDF | navtitle이 topichead에 대해 적용되지 않습니다. (10509)

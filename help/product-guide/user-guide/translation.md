@@ -4,9 +4,14 @@ description: AEM Guides에서 콘텐츠를 여러 언어로 번역합니다. 사
 exl-id: 88df750c-fb26-47f1-a884-b9e2f96b96ea
 feature: Translation
 role: User
-source-git-commit: 38ea2eb35ebd75c1202c86d598ad953db3894d40
+TQID: https://experienceleague.adobe.com/lTvC5pNNCoACZEX9-RjfvuUJ6nM2jRZsQ-DofXLKluQ
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd456af4-cb12-4a34-8cc4-b74adf885626
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: 150
 ht-degree: 0%
 
 ---

@@ -4,9 +4,14 @@ description: 웨비저 도구 모음에 새 사용자 지정 단추를 추가하
 exl-id: 34999db6-027a-4d93-944f-b285b4a44288
 feature: Web Editor
 role: User, Admin
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/7NqswCerJdfej5j4XqnPhHzvvAkhlThHAUY3iQYL3t0
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: 553
 ht-degree: 0%
 
 ---
@@ -57,7 +62,7 @@ JIRA ID가 포함된 &quot;change-request-id&quot; 요소는 API에서 검색해
 }
 ```
 
-[이 링크를 사용하여 폴더 프로필 및 ui_config.json 구성에 대해 자세히 알아보세요](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=ko)
+[이 링크를 사용하여 폴더 프로필 및 ui_config.json 구성에 대해 자세히 알아보십시오](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en)
 
 
 ### 새 단추에 대한 클릭 이벤트를 처리합니다.
@@ -65,7 +70,7 @@ JIRA ID가 포함된 &quot;change-request-id&quot; 요소는 API에서 검색해
 참고: 아래에 언급된 단계는 이 게시물에 첨부된 패키지로 사용할 수 있습니다
 
 
-- 폴더 프로필을 저장한 후 프로젝트 디렉터리(:ClientLibraryFolder/apps *에 있을 수 있음) 아래에 &quot;cq*&quot;을(를) 만들고 아래 스크린샷과 같이 속성을 추가합니다.
+- 폴더 프로필을 저장한 후 프로젝트 디렉터리(*/apps*&#x200B;에 있을 수 있음) 아래에 &quot;cq:ClientLibraryFolder&quot;을(를) 만들고 아래 스크린샷과 같이 속성을 추가합니다.
   ![웨비터용 클라이언트 라이브러리 설정](../../../assets/authoring/webeditor-add-customtoolbarbutton-clientlibrarysettings.png)
 
 ```

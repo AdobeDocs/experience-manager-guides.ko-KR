@@ -1,20 +1,22 @@
 ---
-title: 릴리스 정보 | 2003년 3월 Adobe Experience Manager Guides as a Cloud Service 릴리스
+title: 릴리스 정보 | Adobe Experience Manager Guides as a Cloud Service, 2023년 3월 릴리스
 description: Adobe Experience Manager Guides as a Cloud Service 3월 릴리스
 exl-id: b3fe7cc8-1654-467a-ab18-6e6912855ecc
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+TQID: https://experienceleague.adobe.com/Umn-W3BgqDGvYmG2iMrdGY9p9A8gvSeJ-6Pywv8KV1s
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: 149
 ht-degree: 0%
 
 ---
 
+# Adobe Experience Manager Guides as a Cloud Service 2023년 3월 릴리스의 새로운 기능
 
-# 새로운 기능 2023년 3월 Adobe Experience Manager Guides as a Cloud Service 릴리스
-
-이 문서에서는 2023년 3월 Adobe Experience Manager Guides 버전(*AEM Guides as a Cloud Service*)의 새로운 기능 및 향상된 기능을 다룹니다.
+이 문서에서는 2023년 3월 Adobe Experience Manager Guides(이후 *AEM Guides as a Cloud Service*)의 새로운 기능과 향상된 기능을 다룹니다.
 
 업그레이드 지침, 호환성 매트릭스 및 이 릴리스에서 해결된 문제에 대한 자세한 내용은 [릴리스 정보](release-notes-2023-3-0.md) 문서를 참조하십시오.
 

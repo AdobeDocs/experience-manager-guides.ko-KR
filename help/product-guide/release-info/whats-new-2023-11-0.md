@@ -4,9 +4,13 @@ description: Adobe Experience Manager Guides as a Cloud Service의 2023년 11월
 exl-id: 83c04e01-92f1-41b0-8866-a202f4106b51
 feature: What's New
 role: Leader
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/XAwjfiapDvgvcwAuWm943W36PsAEiBfJUkN37DJeSZ0
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: 811
 ht-degree: 0%
 
 ---
@@ -59,14 +63,14 @@ Experience Manager Guides은 기본 제공 또는 팩토리 PDF 템플릿을 제
 
 ![사용자 환경 설정 대화 상자](assets/user-preferences-2311.png){width="550"}
 
-***사용자 환경 설정**&#x200B;대화 상자에서 파일을 보는 기본 방법을 변경합니다.*
+***사용자 환경 설정**대화 상자에서 파일을 보는 기본 방법을 변경합니다.*
 
 
 ### 조건 사전 설정 관리
 
 DITA 주제에서 조건 속성을 정의할 수 있습니다. 그런 다음 조건 사전 설정에서 조건 속성을 사용하여 DITA 맵의 콘텐츠를 게시합니다. 이제 Experience Manager Guides을 사용하여 웹 편집기에서 조건 사전 설정을 만들고 관리할 수도 있습니다. 쉽게 편집, 복제 또는 삭제할 수도 있습니다.
 
-웹 편집기 ![&#128279;](assets/web-editor-manage-condition-presets.png){width="550"}의 관리 탭에서 조건 사전 설정
+웹 편집기 ](assets/web-editor-manage-condition-presets.png){width="550"}의 관리 탭에서 ![조건 사전 설정
 
 자세한 내용은 [조건 사전 설정 사용](../user-guide/generate-output-use-condition-presets.md)을 참조하세요.
 

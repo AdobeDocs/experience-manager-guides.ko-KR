@@ -3,10 +3,14 @@ title: 설치 및 설정
 description: AEM Guides 확장 패키지 설치 및 사용
 role: User, Admin
 exl-id: 0304c8d0-35a8-4712-a9af-36557e3b247f
-source-git-commit: b4d6c1c8c2d413bb4137e58391554abf2fb68b8c
+TQID: https://experienceleague.adobe.com/ngU5TVcI7yva051ZscfGCfBb6vEbtG4cvjoOgplqmoA
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 0%
+source-wordcount: 362
+ht-degree: 1%
 
 ---
 
@@ -83,5 +87,5 @@ tcx1.css
 
 위의 모든 단계가 올바르게 수행되었는지 확인합니다.
 tcx.js에 코드를 추가한 후 하드 새로 고침(shift+refresh)을 수행해야 합니다.
-이제 AEM을 열고 마우스 오른쪽 단추를 클릭하여 `Inspect`을(를) 클릭합니다.
+이제 AEM을 열고 마우스 오른쪽 단추를 클릭하여 `Inspect`
 소스로 이동하여 `[node_name].js`(예: extensions.js) 파일을 검색합니다. 제어 / Cmd + D를 수행하여 파일을 검색합니다. `dist/guides-extension.umd.cjs` 또는 `dist/guides-extension.js`에서 붙여넣은 JS 코드와 함께 `.js` 파일이 있으면 설정이 완료되었습니다

@@ -1,10 +1,15 @@
 ---
-title: 릴리스 정보 | Adobe Experience Manager Guides 5.1.0 서비스 팩 3 릴리스의 문제가 해결되었습니다
+title: 릴리스 정보 | Adobe Experience Manager Guides 5.1.0 서비스 팩 3 릴리스의 문제가 해결되었습니다.
 description: Adobe Experience Manager Guides 5.1.0 서비스 팩 3 릴리스의 버그 수정에 대해 알아봅니다
 role: Leader
-source-git-commit: 82eb0e18eb285006c66b1fe2b6ecc3ca86fefe61
+exl-id: faa9a5d7-616f-4692-98d1-23abc78556b6
+TQID: https://experienceleague.adobe.com/qiVY-B-D3FcHq2PH7Go2AAFpnstCrPJ2MVLEalQCVn0
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: 297
 ht-degree: 1%
 
 ---
@@ -34,7 +39,7 @@ ht-degree: 1%
 
 ## 게시
 
-- 기존 구성 요소 매핑을 사용하여 AEM Sites 출력을 생성하면 `copy-to` 특성을 사용하는 항목이 `copy-from` 특성에 설정된 이름 대신 `copy-to` 항목의 이름으로 게시됩니다. (GUIDES-22155)
+- 기존 구성 요소 매핑을 사용하여 AEM Sites 출력을 생성하면 `copy-to` 특성을 사용하는 항목이 `copy-to` 특성에 설정된 이름 대신 `copy-from` 항목의 이름으로 게시됩니다. (GUIDES-22155)
 - 동적 기준선을 사용하여 기본 PDF 출력이 생성되면 실제 맵 제목 대신 **PDFProject** 용어가 PDF 제목으로 표시됩니다. (GUIDES-31102)
 
 ## Platform
@@ -46,7 +51,3 @@ ht-degree: 1%
 Adobe은 5.1.0 서비스 팩 3 릴리스에 대해 다음과 같은 알려진 문제를 확인했습니다.
 
 - 작업 세부 정보 페이지에서 검토 작업을 완료로 표시하면 작업이 완료되고 닫힙니다. 그러나 검토 대시보드에서는 상태가 **진행 중**&#x200B;으로 계속 표시됩니다. (GUIDES-39375)
-
-
-
-

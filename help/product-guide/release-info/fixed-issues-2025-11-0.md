@@ -1,9 +1,15 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides, 2025.11.0 릴리스의 문제가 해결되었습니다.
 description: Adobe Experience Manager Guides as a Cloud Service 2025.11.0 릴리스의 버그 수정에 대해 알아봅니다.
-source-git-commit: d9a46a009477b1110208a509d4ad8c0616139661
+exl-id: a86621c3-c4e1-4538-8700-dd9c22be440f
+TQID: https://experienceleague.adobe.com/VSfdJPL26DZFuIyfEcTk2eGjCSbJ5JY4f5B-W63lkjI
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: 699
 ht-degree: 3%
 
 ---
@@ -42,26 +48,15 @@ ht-degree: 3%
 - 주제 참조에서 특정 `print` 특성 값을 사용하여 기본 PDF 출력을 생성하는 작업이 예상대로 작동하지 않습니다. (GUIDES-31101)
 - Assets UI 또는 **일괄 이동** 옵션을 사용하여 DITA 맵이 포함된 폴더를 이동하면 기존 맵 컬렉션과 해당 맵을 참조하는 일괄 활성화 컬렉션이 로드되지 않습니다. (GUIDES-28355)
 - 조건 사전 설정이 있는 맵이 포함된 폴더를 이동하면 이동 후 생성된 출력에 조건이 적용되지 않습니다. (GUIDES-28352)
-- 기존 구성 요소 매핑을 사용하여 AEM Sites 출력을 생성하면 `copy-to` 특성을 사용하는 항목이 `copy-from` 특성에 설정된 이름 대신 `copy-to` 항목의 이름으로 게시됩니다. (GUIDES-22155)
+- 기존 구성 요소 매핑을 사용하여 AEM Sites 출력을 생성하면 `copy-to` 특성을 사용하는 항목이 `copy-to` 특성에 설정된 이름 대신 `copy-from` 항목의 이름으로 게시됩니다. (GUIDES-22155)
 - **일괄 게시 대시보드**&#x200B;에서 하나 이상의 DITA 맵을 활성화하면 너무 큰 로그가 생성됩니다. (GUIDES-20746)
 
 ## Platform
 
-- Assets UI를 통해 자산을 업로드하거나 편집기 인터페이스에서 새 파일을 만드는 동안 생성된 오류 로그는 로그 메시지에서 `predecessor` 대신 `successor` 용어를 잘못 사용합니다. (GUIDES-35607)
+- Assets UI를 통해 자산을 업로드하거나 편집기 인터페이스에서 새 파일을 만드는 동안 생성된 오류 로그는 로그 메시지에서 `successor` 대신 `predecessor` 용어를 잘못 사용합니다. (GUIDES-35607)
 
 ## 알려진 문제
 
 Adobe은 2025.11.0 릴리스에 대해 다음과 같은 알려진 문제를 확인했습니다.
 
 - `copy-to` 특성을 사용하여 중복 항목을 만들고 `scope=peer` 특성과 함께 참조하면 AEM Sites 출력에서 링크가 AEM Sites(복합 구성 요소 매핑 사용)에서 AEM Sites(레거시 구성 요소 매핑 사용)로 리디렉션되거나 그 반대로 리디렉션되는 문제가 발생합니다. (GUIDES-37656)
-
-
-
-
-
-
-
-
-
-
-

@@ -5,9 +5,14 @@ feature: Authoring, Map Editor
 role: User
 hide: true
 exl-id: d6e00884-e17c-499e-9568-0807a75051ad
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+TQID: https://experienceleague.adobe.com/tAzYI5Pxc6SkzgksjL3mFAQHY01YtejwTrU6vHW5vMc
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: 467
 ht-degree: 0%
 
 ---
@@ -36,10 +41,10 @@ DITA 주제에 연관된 키 참조가 있는 경우 주제를 미리 보거나,
 
 **프로젝트 속성** - 프로젝트 속성 섹션에서 프로젝트를 만드는 동안 키 참조를 확인하는 루트 맵을 정의할 수 있습니다.
 
-이 루트 맵은 해당 프로젝트와 연결된 모든 자산 \(폴더 및 하위 폴더\)에 적용할 수 있습니다. 여러 프로젝트에서 참조되는 콘텐츠의 경우 알파벳 프로젝트 목록이 유지되고 첫 번째 프로젝트와 연결된 기본 루트 맵이 사용됩니다. You can also choose the DITA map to be used from the list for resolving key references.
+이 루트 맵은 해당 프로젝트와 연결된 모든 자산 \(폴더 및 하위 폴더\)에 적용할 수 있습니다. 여러 프로젝트에서 참조되는 콘텐츠의 경우 알파벳 프로젝트 목록이 유지되고 첫 번째 프로젝트와 연결된 기본 루트 맵이 사용됩니다. 주요 참조를 확인하기 위해 목록에서 사용할 DITA 맵을 선택할 수도 있습니다.
 
-**Topic preview** - In the topic preview mode, click on the Key Resolution icon in the toolbar and select the DITA file to be used for key references.
+**주제 미리 보기** - 주제 미리 보기 모드에서 도구 모음의 키 해상도 아이콘을 클릭하고 키 참조에 사용할 DITA 파일을 선택합니다.
 
-**Topic edit view** - Click on Key Resolution icon while editing a DITA topic and select the DITA file to use for resolving the key references.
+**주제 편집 보기** - DITA 주제를 편집하는 동안 키 확인 아이콘을 클릭하고 키 참조를 확인하는 데 사용할 DITA 파일을 선택하십시오.
 
-**상위 항목:**&#x200B;[&#x200B;맵 편집기 작업](map-editor.md)
+**상위 항목:**[&#x200B;맵 편집기 작업](map-editor.md)

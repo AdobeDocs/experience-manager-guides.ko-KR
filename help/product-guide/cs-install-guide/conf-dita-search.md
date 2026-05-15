@@ -5,9 +5,15 @@ exl-id: 125d247f-1017-4450-9e3f-9ecc7188ca8f
 feature: Search Configuration
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+TQID: https://experienceleague.adobe.com/z0del86WAJYu5cd2-h2RPuWvi1FwzvyeyEn-1zKDvl4
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: c1a26c73-5f45-427a-a313-7cb7df2c304e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1596'
+source-wordcount: 1596
 ht-degree: 1%
 
 ---
@@ -219,7 +225,7 @@ AEM Guides에서 임시 번역 폴더 위치를 검색하지 못하게 하려면
 
 >[!NOTE]
 >
-> 이 절차를 사용하여 제외 목록에 다른 폴더 위치를 추가할 수 있습니다. 인덱스 작업에 대한 자세한 내용은 [콘텐츠 검색 및 색인화](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html?lang=ko)를 참조하십시오.
+> 이 절차를 사용하여 제외 목록에 다른 폴더 위치를 추가할 수 있습니다. 인덱스 작업에 대한 자세한 내용은 [콘텐츠 검색 및 색인화](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html)를 참조하십시오.
 
 1. 사용자 지정 damAssetLucene 인덱스에 다음 속성을 추가합니다.
 

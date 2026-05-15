@@ -4,9 +4,15 @@ description: Workfront을 Adobe Experience Manager Guides과 통합하고 워크
 feature: Authoring
 role: User
 exl-id: fd988434-3ebd-40ac-a776-e62359dcb6ef
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/I5rB66768VPerp3v8WZAdOKmF07VjAc4aoOsHnGC9JI
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8id: f9dbea21-a714-40dd-bc90-080d8046c93f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '2531'
+source-wordcount: 2531
 ht-degree: 0%
 
 ---
@@ -25,10 +31,10 @@ Experience Manager Guides 및 Adobe Workfront 통합을 통해 다음과 같은 
 
 * 통합되지 않은 여러 도구에 의존하지 않고 개별 작업 및 프로젝트의 진행 상황을 계획, 할당 및 추적합니다.
 * 콘텐츠 작성, 검토, 게시 및 번역을 포함한 모든 Experience Manager Guides 워크플로를 보다 효율적으로 관리할 수 있습니다.
-* 새 작업이 할당될 때마다 Adobe Workfront에서 이메일 알림을 수신합니다. 자세한 내용은 [알림 개요](https://experienceleague.adobe.com/ko/docs/workfront/using/basics/use-notifications/wf-notifications)를 참조하세요.
+* 새 작업이 할당될 때마다 Adobe Workfront에서 이메일 알림을 수신합니다. 자세한 내용은 [알림 개요](https://experienceleague.adobe.com/en/docs/workfront/using/basics/use-notifications/wf-notifications)를 참조하세요.
 * Adobe Workfront의 직관적인 대시보드를 사용하여 프로젝트 상태를 모니터링하여 프로젝트 성능에 대한 실시간 통찰력을 제공합니다.
 
-  Experience Manager Guides의 프로젝트 관리자를 위해 활성화된 Adobe Workfront의 강력한 프로젝트 관리 기능에 대해 알아보려면 [프로젝트 계획 개요](https://experienceleague.adobe.com/ko/docs/workfront/using/manage-work/projects/plan-a-project/plan-project)를 확인하십시오.
+  Experience Manager Guides의 프로젝트 관리자를 위해 활성화된 Adobe Workfront의 강력한 프로젝트 관리 기능에 대해 알아보려면 [프로젝트 계획 개요](https://experienceleague.adobe.com/en/docs/workfront/using/manage-work/projects/plan-a-project/plan-project)를 확인하십시오.
 
 ## 시작하기
 
@@ -61,7 +67,7 @@ Workfront 작업 페이지에서 사용할 수 있는 기능은 다음과 같습
 
 Workfront 작업 페이지에는 링크 출력 아이콘 ![](./images/Smock_LinkOut_18_N.svg)도 포함되어 있습니다. 이 아이콘을 선택하면 Adobe Workfront 프로젝트 페이지로 이동합니다. 여기에서 Adobe Workfront 계정과 매핑된 권한을 기반으로 작업 세부 사항을 보고, 댓글을 보고, 댓글을 추가하고, 다른 기능에 액세스할 수 있습니다.
 
-자세한 내용은 [Workfront의 프로젝트, 작업 및 문제 날짜에 대한 개요](https://experienceleague.adobe.com/ko/docs/workfront/using/basics/navigate/definitions-pti-dates)를 참조하세요.
+자세한 내용은 [Workfront의 프로젝트, 작업 및 문제 날짜에 대한 개요](https://experienceleague.adobe.com/en/docs/workfront/using/basics/navigate/definitions-pti-dates)를 참조하세요.
 
 ### Workfront 작업 만들기
 
@@ -122,7 +128,7 @@ Workfront 작업 페이지에 있는 **새 작업** 단추를 사용하여 Exper
 
 >[!NOTE]
 >
-> 프로젝트 관리자는 다른 주요 작업 세부 정보와 함께 Adobe Workfront 대시보드에서 새로 만든 이 작업을 볼 수 있습니다. 자세한 내용은 [대시보드 이해](https://experienceleague.adobe.com/ko/docs/workfront/using/reporting/dashboards/understand-dashboards/understand-dashboards)를 참조하세요.
+> 프로젝트 관리자는 다른 주요 작업 세부 정보와 함께 Adobe Workfront 대시보드에서 새로 만든 이 작업을 볼 수 있습니다. 자세한 내용은 [대시보드 이해](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/dashboards/understand-dashboards/understand-dashboards)를 참조하세요.
 
 ### 사용자가 생성한 작업 관리
 
@@ -287,7 +293,7 @@ Experience Manager Guides에 할당되었을 때 생성, 할당 또는 작업할
 
    ![](./images/translation-tasks-review-details.png)
 4. 다양한 번역 옵션을 보려면 **번역** 탭으로 이동합니다. Experience Manager Guides에서 [콘텐츠를 번역](../user-guide/translation.md)하는 방법에 대해 알아봅니다.
-5. 필요한 번역을 수행하고 **번역용으로 보내기**&#x200B;를 선택합니다.
+5. 필요한 번역을 수행하고 **번역용으로 보내기**를 선택합니다.
    ![](./images/translation-tasks-send-translation.png)
 6. **Workfront** 섹션으로 이동한 다음 **완료로 표시**&#x200B;를 선택하여 작업이 완료되었음을 나타냅니다.
 7. **댓글** 탭으로 전환하여 이 작업에 댓글을 추가하세요. 작업 수준에서 추가된 이러한 주석은 Adobe Workfront 프로젝트 대시보드에 반영됩니다.

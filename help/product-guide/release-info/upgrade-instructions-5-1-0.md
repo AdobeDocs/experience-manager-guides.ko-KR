@@ -2,9 +2,14 @@
 title: 릴리스 정보 | Adobe Experience Manager Guides 5.1.0 릴리스에 대한 업그레이드 지침
 description: 호환성 매트릭스와 Adobe Experience Manager Guides 5.1.0 릴리스로 업그레이드하는 방법에 대해 알아봅니다.
 exl-id: 4b7b6756-d260-4baf-a9cb-d99fc02f020f
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/kHyj1IRvP47upA7sClT-Vl7PQAq4UD9aX8lBfL8pFRA
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: afb45297-4313-4f67-818e-bc0b03abe086id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: cda0baeb-996e-4aaa-92d1-41032e34fd68id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: 519
 ht-degree: 7%
 
 ---
@@ -24,7 +29,7 @@ ht-degree: 7%
 | AEM Guides | AEM 버전 | 서비스 팩 |
 | --- | --- | --- |
 | 5.1.0(UUID) | 6.5 LTS | 1 |
-| 5.1.0(UUID) | 6.5 | 23,22,21 |
+| 5.1.0(UUID) | 6.5 | 23, 22, 21 |
 
 자세한 내용은 On-Premise 설치 및 구성 안내서의 [기술 요구 사항](../install-guide/download-install-technical-requirements.md) 섹션을 참조하십시오.
 
@@ -60,7 +65,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
-> 현재 AEM 6.5를 사용 중이며 AEM 6.5 LTS로 이동할 계획이라면 Experience Manager Guides 5.1.0 업그레이드를 진행하기 전에 먼저 AEM 업그레이드를 완료해야 합니다. 자세한 내용은 [Adobe Experience Manager(AEM) 6.5 LTS로 업그레이드](https://experienceleague.adobe.com/ko/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)를 참조하십시오.
+> 현재 AEM 6.5를 사용 중이며 AEM 6.5 LTS로 이동할 계획이라면 Experience Manager Guides 5.1.0 업그레이드를 진행하기 전에 먼저 AEM 업그레이드를 완료해야 합니다. 자세한 내용은 [Adobe Experience Manager(AEM) 6.5 LTS로 업그레이드](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)를 참조하십시오.
 
 Experience Manager Guides 버전 5.1.0으로 업그레이드하기 전에 다음 사항을 고려해야 합니다.
 
@@ -69,7 +74,7 @@ Experience Manager Guides 버전 5.1.0으로 업그레이드하기 전에 다음
 - 버전 4.3.x, 4.2, 4.2.1(핫픽스 4.2.1.3), 4.1 또는 4.1.x를 사용하는 경우 버전 5.1.0으로 업그레이드하기 전에 버전 4.4로 업그레이드해야 합니다.
 - 버전 4.0을 사용 중인 경우 버전 4.3.x로 업그레이드하기 전에 버전 4.2로 업그레이드해야 합니다.
 - 버전 3.8.5를 사용하는 경우 버전 4.2로 업그레이드하기 전에 버전 4.0으로 업그레이드해야 합니다.
-- 3.8.5 이전 버전을 사용하는 경우 [Experience Manager Guides 도움말 PDF 보관](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/archive.html)에 있는 제품별 설치 안내서의 Adobe Experience Manager Guides 업그레이드 섹션을 참조하십시오.
+- 3.8.5 이전 버전을 사용하는 경우 [Experience Manager Guides 도움말 PDF 보관](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)에 있는 제품별 설치 안내서의 Adobe Experience Manager Guides 업그레이드 섹션을 참조하십시오.
 
 >[!NOTE]
 >

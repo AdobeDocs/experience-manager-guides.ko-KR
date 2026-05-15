@@ -3,10 +3,13 @@ title: AEM Guides에 대한 외부 데이터 소스 통합
 description: AEM Guides과 컨텐츠 데이터 소스 통합 .
 role: User, Admin
 exl-id: 02a6c2ea-a550-49d5-ae54-1cc24ef35287
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+TQID: https://experienceleague.adobe.com/yTY1gZ3-dVI-XqbVyOL9y4U9c9PUuJ8v3pylkzDtf7M
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 1%
+source-wordcount: 335
+ht-degree: 0%
 
 ---
 
@@ -38,17 +41,17 @@ ht-degree: 1%
 - 작성된 콘텐츠에서 가져온 콘텐츠 활용
    - 주제 생성기를 사용하여 주제 생성
    - 데이터 소스에서 콘텐츠 조각 삽입
-- AEM Guides의 통합에 대한 전체적인 작업 데모
+- AEM 안내서 통합에 대한 전체적인 작업 데모
    - 웹 사이트 및 PDF의 릴리스 정보를 JIRA에서 사용 가능한 변경 사항으로 업데이트
 
 
 ## 관련 리소스
 
-- **데이터 원본 커넥터 구성** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-data-source-connector-tools.html?lang=ko)
+- **데이터 원본 커넥터 구성** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-data-source-connector-tools.html?lang=en)
 
-- **설명서** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/web-editor-content-snippet.html?lang=ko)
+- **설명서** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/web-editor-content-snippet.html)
 
-- **템플릿에 대한 속도 도구를 사용하여 작업** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/web-editor-content-snippet.html?lang=ko#use-velocity-tools)
+- **템플릿에 대한 속도 도구를 사용하여 작업** - [Experience League에서 작업](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/web-editor-content-snippet.html?lang=en#use-velocity-tools)
 
 
 

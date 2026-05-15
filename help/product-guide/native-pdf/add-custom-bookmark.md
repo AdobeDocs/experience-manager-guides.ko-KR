@@ -5,9 +5,12 @@ exl-id: 6e6dbba3-da41-4066-b7b2-735a3d92b70a
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/W971ghc9G1ZE80ccDDAEw99d8Wvc-68AK4ELA1EC2uw
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: 349
 ht-degree: 0%
 
 ---
@@ -51,7 +54,7 @@ PDF 출력에 **Contents** 제목을 포함하지 않으려면 `<h1>` 요소 대
 책갈피에서 컨텐츠 제목을 제거하는 단계별 프로세스는 다음과 같습니다.
 
 1. PDF 출력에 사용할 PDF 템플릿을 엽니다.
-2. **페이지 레이아웃**&#x200B;에서 **목차 페이지**&#x200B;를 엽니다.
+2. **페이지 레이아웃**&#x200B;에서 **목차 페이지**를 엽니다.
 목차 페이지가 오른쪽에 표시됩니다.
 3. **Source** 모드로 전환하고 Contents가 있는 요소를 `<h1>`에서 `<p>`(으)로 변경합니다.
 

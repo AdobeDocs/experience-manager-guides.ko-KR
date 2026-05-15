@@ -1,17 +1,23 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides, 2024.4.0 릴리스의 문제가 해결되었습니다.
-description: Adobe Experience Manager Guides as a Cloud Service 4의 2024.0.0 릴리스 버그 수정에 대해 알아봅니다.
+description: Adobe Experience Manager Guides as a Cloud Service 2024.04.0 릴리스의 버그 수정에 대해 알아봅니다.
 exl-id: 35351d71-7739-4ad3-a063-67adf64906bf
-source-git-commit: 5d99274da8fdacbd255d426fa4913b5773ca45f8
+TQID: https://experienceleague.adobe.com/cHKuFCElWbjxik0EHgoTrtlq2t3I62LQ5zUArzBoMqk
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d6596f3f-92a7-43ec-b444-237db6adad05id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0efid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 3%
+source-wordcount: 577
+ht-degree: 8%
 
 ---
 
 # 2024.04.0 릴리스의 문제가 해결되었습니다.
 
-이 문서에서는 Adobe Experience Manager Guides as a Cloud Service 의 2024.04.0 릴리스의 다양한 영역에서 수정된 버그를 다룹니다.
+이 문서에서는 Adobe Experience Manager Guides as a Cloud Service의 2024.04.0 릴리스의 다양한 영역에서 수정된 버그를 다룹니다.
 
 새로운 기능 및 개선 사항에 대한 자세한 내용은 [2024.04.0 릴리스의 새로운 기능](whats-new-2024-04-0.md)을 참조하십시오.
 
@@ -41,19 +47,19 @@ ht-degree: 3%
 - 맵 컬렉션에 파일을 추가할 때 편집 기능이 작동하지 않습니다. (15813)
 - JSON 출력에서 DITA 맵 또는 주제의 메타데이터가 JSON 출력 파일로 전파되지 않습니다. (15713)
 - 사전 설정의 이름을 바꾸는 동안 기본 PDF 게시가 실패합니다. (15662)
-- 게시된 AEM 사이트 출력의 **sourcePath** 속성이 잘못되었습니다. (15502)
+- 게시된 AEM 사이트 출력에서 **sourcePath** 속성이 잘못되었습니다. (15502)
 - 언어 변수 선택 및 사용자 지정이 기본 PDF 출력 사전 설정에서 제대로 작동하지 않습니다. (15399)
 - 큰 스타일시트나 레이아웃이 있는 템플릿을 사용할 때 기본 PDF 생성이 실패합니다. (15344)
 - `<conref>`을(를) 절대 경로와 함께 사용하는 경우 게시된 출력에서 콘텐츠가 제대로 렌더링되지 않습니다.
 - `fmdita rewriter`과(와) `ResourceResolver` 사이의 충돌로 인해 AEM Sites URL 단축이 작동하지 않습니다. (14793)
 - **processing-role=&quot;resource-only&quot;**, **search=&quot;no&quot;** 및 **chunk=&quot;to-content&quot;** 특성은 각각 AEM Sites 출력에 표시되지 않습니다. (14442)
-- 2k 맵이 포함된 폴더가 폴더 프로필 내의 폴더 경로에 설정되어 있으면 출력 사전 설정에 적용된 변경 사항이 실패합니다.(14852)
+- 2k 맵이 포함된 폴더가 폴더 프로필 내의 폴더 경로에 설정되어 있으면 출력 사전 설정에 적용된 변경 사항이 실패합니다(14852).
 
 ## 관리
 
-- 닫히지 않은 **리소스 확인자**&#x200B;로 인해 세션 수가 증가하고 PathNotFoundException 오류가 Experience Manager Guidesas a Cloud Service 의 2023년 10월 릴리스 이후 발생합니다. (15604)
+- Experience Manager Guides as a Cloud Service의 2023년 10월 릴리스 이후 세션 수가 증가하고 PathNotFoundException 오류가 발생하여 닫히지 않은 **리소스 확인자**&#x200B;가 발생했습니다. (15604)
 - 기능 플래그 **fmdita.useapproval**&#x200B;이(가) 예상대로 작동하지 않습니다. (15310)
-- Java API를 사용하여 기준선을 만드는 것은 Experience Manager Guidesas a Cloud Service 의 2023년 6월 릴리스에서는 작동하지 않습니다. (14787)
+- Java API를 사용하여 기준선을 만드는 것은 Experience Manager Guides as a Cloud Service의 2023년 6월 릴리스와 작동하지 않습니다. (14787)
 - 자산 업로드가 500MB를 초과할 때 `/bin/fmdita/import` API가 보류 중인 요청에서 무기한 보류됩니다. (14743)
 
 ## 검토

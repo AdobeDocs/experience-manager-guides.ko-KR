@@ -5,9 +5,15 @@ exl-id: 0d3a909c-3499-4ef4-b033-02e412dae959
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+TQID: https://experienceleague.adobe.com/z-F7BZkijY3MNcgHYJvw3ZxqCRldK0qWAdGoClTWNYo
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: 1088
 ht-degree: 6%
 
 ---
@@ -23,17 +29,17 @@ ht-degree: 6%
 
 콘텐츠 번역의 단계는 다음과 같습니다.
 
-1. AEM을 [번역 서비스 공급업체에 연결](https://helpx.adobe.com/kr/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider)하고 [번역 통합 프레임워크 구성](https://helpx.adobe.com/kr/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration)을 만듭니다.
+1. AEM을 [번역 서비스 공급업체에 연결](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider)하고 [번역 통합 프레임워크 구성](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration)을 만듭니다.
 
-1. 언어 마스터의 페이지를 [번역 서비스 및 프레임워크 구성](https://helpx.adobe.com/kr/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation)과 연결합니다.
+1. 언어 마스터의 페이지를 [번역 서비스 및 프레임워크 구성](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation)과 연결합니다.
 
-1. 번역할 [콘텐츠 유형 식별](https://helpx.adobe.com/kr/experience-manager/6-5/sites/administering/using/tc-rules.html).
+1. 번역할 [콘텐츠 유형 식별](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-rules.html).
 
-1. 언어 마스터를 작성하고 언어 사본의 루트 페이지를 만들어 [번역할 콘텐츠를 준비](https://helpx.adobe.com/kr/experience-manager/6-5/sites/administering/using/tc-prep.html)합니다.
+1. 언어 마스터를 작성하고 언어 사본의 루트 페이지를 만들어 [번역할 콘텐츠를 준비](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html)합니다.
 
-1. [번역 프로젝트](https://helpx.adobe.com/kr/experience-manager/6-5/sites/administering/using/tc-manage.html)를 만들어 번역할 콘텐츠를 수집하고 번역 프로세스를 준비합니다.
+1. [번역 프로젝트](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html)를 만들어 번역할 콘텐츠를 수집하고 번역 프로세스를 준비합니다.
 
-1. 번역 프로젝트를 사용하여 [콘텐츠 번역을 관리](https://helpx.adobe.com/kr/experience-manager/6-5/sites/administering/using/tc-manage.html) 합니다.
+1. 번역 프로젝트를 사용하여 [콘텐츠 번역을 관리](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html) 합니다.
 
 
 번역 서비스 공급자가 AEM과의 통합을 위한 커넥터를 제공하지 않는 경우, AEM은 번역된 콘텐츠를 XML 형식으로 수동으로 내보내고 가져올 수 있도록 지원합니다.
@@ -88,7 +94,7 @@ ht-degree: 6%
 
    >[!NOTE]
    >
-   > 번역 커넥터를 사용하는 경우 AEM 설명서의 *[번역 통합 프레임워크 구성](https://helpx.adobe.com/kr/experience-manager/6-5/sites/administering/using/tc-tic.html)* 항목에 설명된 대로 커넥터를 구성했는지 확인하십시오.
+   > 번역 커넥터를 사용하는 경우 AEM 설명서의 *[번역 통합 프레임워크 구성](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html)* 항목에 설명된 대로 커넥터를 구성했는지 확인하십시오.
 
 1. **저장**&#x200B;을 클릭합니다.
 
@@ -205,7 +211,7 @@ Based on the translation workflow used in your setup, provide the following (pro
 
 1. 설정에 따라 **사후 처리 언어 사본** 옵션을 구성합니다.
 
-   - \(*기본*\) 임시 파일에서 후처리 작업을 실행하지 않으려면 *언어 사본&#x200B;**후처리**&#x200B;옵션을 비활성화*&#x200B;하십시오.
+   - \(*기본*\) 임시 파일에서 후처리 작업을 실행하지 않으려면 *언어 사본&#x200B;**후처리**옵션을 비활성화*&#x200B;하십시오.
 
    - 임시 파일에서 사후 처리 작업을 실행하려면 **사후 처리 언어 사본** 옵션을 *사용*&#x200B;합니다.
 

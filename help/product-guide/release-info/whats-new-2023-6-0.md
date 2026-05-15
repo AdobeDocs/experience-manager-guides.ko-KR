@@ -4,9 +4,14 @@ description: Adobe Experience Manager Guides as a Cloud Service 2023년 6월 릴
 exl-id: 625f9702-2b91-4622-9fec-282f47f1d7a6
 feature: What's New
 role: Leader
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/fPOg5RioczOxug8ACT9X9seCvXgjZ84mpPMEBUD4yJs
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: d90290ec-3e61-4ebd-8649-bcafe0836803
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: 1216
 ht-degree: 0%
 
 ---
@@ -121,7 +126,7 @@ AEM Guides에는 분류 체계 주제와 제어 값을 정의하는 데 사용�
 
 ## 번역에서 XLIFF 형식 지원
 
-AEM Guides은 또한 번역에서 XML 로컬라이제이션 교환 파일 형식(XLIFF) 형식을 지원합니다. 이제 **새 XLIFF 번역 프로젝트를 만들기**&#x200B;하여 XML 콘텐츠를 XLIFF 형식으로 변환할 수도 있습니다.
+AEM Guides은 또한 번역에서 XML 로컬라이제이션 교환 파일 형식(XLIFF) 형식을 지원합니다. 이제 **새 XLIFF 번역 프로젝트를 만들기**하여 XML 콘텐츠를 XLIFF 형식으로 변환할 수도 있습니다.
 이 형식을 사용하면 콘텐츠를 업계 표준 XLIFF 형식으로 내보낸 다음 번역 공급업체에 제공할 수 있습니다. 자세한 내용은 [번역 프로젝트 만들기](../user-guide/translate-documents-web-editor.md#create-translation-project)를 참조하십시오.
 
 ![](assets/translation-project-types.png){width="350"}

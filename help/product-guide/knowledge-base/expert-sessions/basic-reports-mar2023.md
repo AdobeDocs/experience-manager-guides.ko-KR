@@ -1,13 +1,19 @@
 ---
 title: AEM Guides의 보고서
-description: 사용자가 컨텐츠 품질을 개선하는 데 도움이 되는 AEM의 모든 보고서를 사용할 수 있는지 알아봅니다.
+description: AEM에서 사용자가 콘텐츠 품질을 개선하는 데 도움이 되는 모든 보고서를 사용할 수 있는지 알아봅니다.
 exl-id: f0d761ff-efea-452c-bb8e-865f34a182fc
 feature: Report Generation
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+TQID: https://experienceleague.adobe.com/bW4L1eMZPdpVt8Z00HqvaOpwrbPB3A6Uxb2L7aXsVbU
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: cdab8659-8d50-4417-b6fd-762f347c13eeid: d6596f3f-92a7-43ec-b444-237db6adad05
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 1%
+source-wordcount: 314
+ht-degree: 0%
 
 ---
 
@@ -51,17 +57,17 @@ ht-degree: 1%
 
 - 세션에 표시된 보고서의 세부 정보를 이해하려면 **[AEM Guides 보고서 핸드북을 다운로드](./assets/aem-guides-expert-session-reports-documentation.pdf)**&#x200B;하십시오.
 
-- **기능 비디오** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=ko)
+- **기능 비디오** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=en)
 
 - **사용 안내서** - [콘텐츠 작성자](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
 
-- **커뮤니티 포럼** - Experience League에 대한 세션별 커뮤니티 상호 작용의 경우 [AEM Guides 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=ko)을 방문하십시오.
+- **커뮤니티 포럼** - Experience League에서 세션별 커뮤니티 상호 작용을 보려면 [AEM Guides 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)을 방문하십시오.
 
 >[!NOTE]
 >
 > 이 세션에 표시된 기능은 다음 버전의 AEM Guides에서 사용할 수 있습니다.
 > - 온-프레미스: 4.2 이상
-> - Cloud Service: 2302 이상
+> - 클라우드 서비스: 2302 이상
 
 
 ## 다음 전문가 세션

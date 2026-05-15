@@ -5,9 +5,14 @@ exl-id: 6277e52d-1b05-4dd7-8d2b-4b94f329e2d7
 feature: Rest API DITA Map
 role: Developer
 level: Experienced
-source-git-commit: 1843cae11aac38053abc3c50fa2d00c050520470
+TQID: https://experienceleague.adobe.com/GT4JRw1nFV7M18tJX-0t0Gx-g0I9tA8XfXLGnnhvif0
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: c6d09140-3c91-45d3-b7ed-b681af752f43
+subfeature_v2: id: b7cb7f25-3b6d-4e58-beab-fe9279275fe4
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: 626
 ht-degree: 4%
 
 ---
@@ -35,10 +40,10 @@ http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/fmdita/exportditamap
 
 ## 종속 항목이 있는 DITA 맵에 대한 내보내기 시작
 
-맵 및 주제에 사용되는 참조된 주제, 하위 맵, 이미지 및 DTD와 같은 모든 종속 항목이 있는 DITA 맵에 대한 내보내기를 시작하는 POST 메서드입니다. 상태는 나중에 쿼리할 수 있으며 완료되면 다운로드 URL을 검색할 수 있습니다.
+맵과 주제에 사용되는 참조된 주제, 하위 맵, 이미지 및 DTD와 같은 모든 종속 항목이 있는 DITA 맵에 대한 내보내기를 시작하는 POST 메서드입니다. 상태는 나중에 쿼리할 수 있으며 완료되면 다운로드 URL을 검색할 수 있습니다.
 
 **요청 URL**:
-http:*//&lt;aem-guides-server\>: &lt;port-number\>/bin/dxml/async-export*
+http:*/&lt;aem-guides-server\>: &lt;port-number\>/bin/dxml/async-export*
 
 **매개 변수**:
 
@@ -62,7 +67,7 @@ http:*//&lt;aem-guides-server\>: &lt;port-number\>/bin/dxml/async-export*
 모든 종속 항목이 있는 DITA 맵에 대한 내보내기 상태를 검색하는 GET 메서드입니다. 상태가 STARTED 또는 INPROGRESS인 경우 완료될 때까지 간격을 두고 폴링할 수 있습니다\(성공 또는 오류 발생\).
 
 **요청 URL**:
-http:*//&lt;aem-guides-server\>: &lt;port-number\>/bin/dxml/async-export*
+http:*/&lt;aem-guides-server\>: &lt;port-number\>/bin/dxml/async-export*
 
 **매개 변수**:
 

@@ -5,9 +5,14 @@ feature: Publishing FrameMaker Documents
 role: User
 hide: true
 exl-id: 9b5760bd-817c-4d8d-ab37-ab8699ac62fa
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/T0nY9GM3ARyNxBkYc6D16noSPHzL5q1MtWCEfFRWnVc
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2: id: bf79f6d3-0ad0-4d82-99e4-42ce98324d60id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: 127
 ht-degree: 0%
 
 ---
@@ -31,4 +36,4 @@ FrameMaker 문서에 대한 출력을 생성하려면 다음 단계를 수행하
 >
 > 출력을 클릭하여 출력 생성 요청의 현재 상태를 볼 수 있습니다. 자세한 내용은 [출력 생성 작업의 상태 보기](fm-output-view-status.md)를 참조하십시오.
 
-**상위 항목:**&#x200B;[&#x200B; FrameMaker 문서의 출력 생성](fm-output-generatation.md)
+**상위 항목:**[ FrameMaker 문서의 출력 생성](fm-output-generatation.md)

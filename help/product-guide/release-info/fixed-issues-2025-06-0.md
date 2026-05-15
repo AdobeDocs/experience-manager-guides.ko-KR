@@ -2,9 +2,15 @@
 title: 릴리스 정보 | Adobe Experience Manager Guides, 2025.06.0 릴리스의 문제가 해결되었습니다.
 description: Adobe Experience Manager Guides as a Cloud Service 2025.06.0 릴리스의 버그 수정에 대해 알아봅니다.
 exl-id: 0f362ab3-0fae-4eba-bbd6-0b64ae1f2599
-source-git-commit: c137f18d3cb85ed47547d5523c4dea08c22f9560
+TQID: https://experienceleague.adobe.com/kfgmTuMdfq1c1IUcTKiPef9ijJ0tG-fPUuoJlaQEhQA
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d6596f3f-92a7-43ec-b444-237db6adad05
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: 514
 ht-degree: 4%
 
 ---
@@ -20,7 +26,7 @@ ht-degree: 4%
 ## 작성
 
 - 항목을 업데이트하거나 만드는 동안 JCR 세션 연결을 닫지 않으면 메모리 누수가 발생하고 서비스 다운타임이 발생합니다. (GUIDES-26282)
-- 열을 드래그하면 너비가 백분율에서 픽셀 값으로 변경되어 테이블이 왜곡되거나 잘못 정렬됩니다.(GUIDES-23128)
+- 열을 드래그하면 너비가 백분율에서 픽셀 값으로 변경되어 테이블이 왜곡되거나 잘못 정렬됩니다(GUIDES-23128).
 - 콘텐츠를 `code block`에 붙여넣거나 `code block`에 공백을 추가하고 보기를 전환하면 간격이 손실됩니다. (GUIDES-27478)
 - `bookmap`에 맵을 추가하면 `fmditamaprefs` 대신 `fmditatopicrefs`에 저장됩니다. (GUIDES-25480)
 - **이미지 삽입** 대화 상자가 고해상도 또는 축소된 화면에서 올바르게 렌더링되지 않아 그림 제목과 대체 텍스트 필드가 사라집니다. (GUIDES-26459)
@@ -34,7 +40,7 @@ ht-degree: 4%
 - 공백으로 구분된 여러 단어를 포함하는 제목으로 AEM 사이트 페이지를 생성할 때 맵 제목에 공백 대신 하이픈이 표시됩니다. (GUIDES-27903)
 - 네이티브 PDF의 경우 잘못된 메타데이터 속성 이름이 확인되지 않고 **문서 속성**&#x200B;에 `unresolved property name`(으)로 표시됩니다. (GUIDES-25680)
 - `codeblock` 내의 여러 줄 텍스트로 인해 PDF 생성 중 텍스트 오버플로 문제가 발생합니다. (GUIDES-15541)
-- 맵을 맵 컬렉션에 추가할 때 맵 이외의 에셋(좋아요 항목 등)이 표시되고, 번역된 맵 언어도 제대로 정렬되지 않습니다.(GUIDES-25085)
+- 맵을 맵 컬렉션에 추가할 때 맵 이외의 에셋(주제 등) 표시된 지도 언어도 올바르게 정렬되지 않습니다(GUIDES-25085).
 
 
 ## 검토

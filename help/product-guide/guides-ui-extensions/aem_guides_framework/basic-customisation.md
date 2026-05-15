@@ -3,9 +3,13 @@ title: 앱 사용자 지정
 description: 앱 사용자 지정
 role: User, Admin
 exl-id: 3e454c48-2168-41a5-bbab-05c8a5b5aeb1
-source-git-commit: 3615928117ce1be527dc3c6d2ec8ddd115b78b0a
+TQID: https://experienceleague.adobe.com/7DiEcUTAvp4rT3Fy9pIv4-zaHKwswjokjlaBgx8Pbyo
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: 485
 ht-degree: 0%
 
 ---
@@ -130,7 +134,7 @@ this.next('methodName', args)
   }
 ```
 
-아래 GIF은 위의 코드를 작동 중인 상태로 보여 줍니다
+아래 GIF은 위의 코드가 작동 중인 것을 보여 줍니다
 ![기본 사용자 지정](imgs/basic_customisation.gif "기본 사용자 지정 단추")
 
 

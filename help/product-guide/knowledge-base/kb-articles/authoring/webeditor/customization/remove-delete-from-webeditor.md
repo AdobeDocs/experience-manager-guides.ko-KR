@@ -2,9 +2,15 @@
 title: 특정 사용자를 위해 웹 편집기의 파일 상황에 맞는 메뉴에서 '삭제' 옵션 제거
 description: 특정 사용자/그룹에 대한 파일 상황에 맞는 메뉴에서 '삭제' 옵션을 제거하여 웨비저 사용자 지정 방법을 알아봅니다
 exl-id: 31b4dd53-3938-42e1-bbc6-64806d668696
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+TQID: https://experienceleague.adobe.com/dzbMsXUoEibR5QxKB-Z-h4qGnQaX2NmIYLTtxVJHE-A
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: 241
 ht-degree: 0%
 
 ---
@@ -25,7 +31,7 @@ ht-degree: 0%
 - 검색 상자에서 그룹 또는 사용자를 선택합니다.
 - 오른쪽 상단에서 &#39;ACE 추가&#39;를 클릭합니다.
 - 폴더 경로를 선택합니다.
-- 권한 &quot;jcr:removeChildNodes&quot; 및 &quot;jcr:removeNode&quot;를 포함합니다.
+- 권한 &quot;jcr:removeChildNodes&quot; 및 &quot;jcr:removeNode&quot;을 포함합니다.
 - &#39;권한 유형&#39;을 &#39;거부&#39;로 선택하고 아래와 같이 &#39;추가&#39;를 클릭합니다.
 
 ![사용자 권한 거부 ACE](../../../assets/authoring/permission-ACE-Delete.png)

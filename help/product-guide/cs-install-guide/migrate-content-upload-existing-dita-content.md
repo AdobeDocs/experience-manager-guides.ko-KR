@@ -5,16 +5,21 @@ exl-id: 2b385eef-00a7-4c25-9e78-367a0c9e44ba
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+TQID: https://experienceleague.adobe.com/oVLPpwMXyeRGo-1QO553dthsza05mbnRIedaIYpQ1Vg
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: 511
 ht-degree: 0%
 
 ---
 
 # 기존 DITA 콘텐츠 업로드 {#id176FF000JUI}
 
-AEM Guides에서 사용하려는 기존 DITA 콘텐츠 저장소가 있을 수 있습니다. 이러한 기존 콘텐츠의 경우 [Adobe Experience Manager as a Cloud Service Assets에 디지털 에셋 추가](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=ko)에 설명된 지원되는 방법을 사용할 수 있습니다.
+AEM Guides에서 사용하려는 기존 DITA 콘텐츠 저장소가 있을 수 있습니다. 이러한 기존 콘텐츠의 경우 [Adobe Experience Manager as a Cloud Service Assets에 디지털 에셋 추가](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html)에 설명된 지원되는 방법을 사용할 수 있습니다.
 
 ## UUID 파일 이름 패턴 구성
 
@@ -81,4 +86,4 @@ curl --user <username>:<password> -F<attribute name>=<value> <metadata node path
 - `<metadata node path>`: 파일 이름과 메타데이터 노드를 포함하는 전체 폴더 경로입니다. 예를 들어 경로를 `http://192.168.1.1:4502/content/dam/projects/AEM-Guides/intro.xml/jcr:content/metadata`(으)로 지정하면 지정된 메타데이터 정보가 `intro.xml` 파일에 설정됩니다.
 
 
-**상위 항목:**&#x200B;[&#x200B;기존 콘텐츠 마이그레이션](migrate-content.md)
+**상위 항목:**[&#x200B;기존 콘텐츠 마이그레이션](migrate-content.md)
