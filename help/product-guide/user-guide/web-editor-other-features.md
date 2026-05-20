@@ -17,9 +17,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 67bbbc9afc5278722d7d60bf5574feb44a9ed69c
 workflow-type: tm+mt
-source-wordcount: 4271
+source-wordcount: 4286
 ht-degree: 0%
 
 ---
@@ -181,9 +181,11 @@ Generate the output for the selected file. Output can be generated only for file
 
 ## 새 편집기에서 표 작업
 
-새 편집기를 사용하면 다양한 컨텍스트 기반의 작업을 사용하여 콘텐츠 내에서 직접 표를 만들고, 형식을 지정하며, 구성할 수 있습니다.
+새 편집기를 사용하면 다양한 컨텍스트 기반의 작업을 사용하여 콘텐츠 내에서 직접 표를 만들고, 형식을 지정하며, 구성할 수 있습니다. 다음은 새 편집기에서 사용할 수 있는 다양한 테이블 편집 기능을 사용하는 방법에 대한 짧은 비디오입니다.
 
-이 섹션에서는 새 편집기에서 사용할 수 있는 다양한 표 작성 기능을 안내합니다.
+>[!VIDEO](https://video.tv.adobe.com/v/3491344)
+
+새 편집기에서 다음 표 편집 기능을 사용할 수 있습니다.
 
 **상황에 맞는 메뉴를 사용하여 테이블을 수정합니다**
 

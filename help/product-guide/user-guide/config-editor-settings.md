@@ -3,9 +3,9 @@ title: 편집기 설정
 description: AEM Guides에서 편집기 설정을 구성하는 방법에 대해 알아봅니다.
 feature: Web Editor
 role: User
-source-git-commit: 2c9e91a85bb9cfbfec05dbe5c2e9eae9e240d571
+source-git-commit: 67bbbc9afc5278722d7d60bf5574feb44a9ed69c
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -47,6 +47,8 @@ ht-degree: 0%
 
   즐겨찾기에 요소를 검색 및 추가하고, 이전에 추가한 요소를 제거하고, 간단한 드래그 앤 드롭을 사용하여 요소를 다시 정렬할 수 있습니다. 즐겨찾기에는 가장 자주 사용하는 요소가 포함되며, 여기서 설정한 순서는 편집기에서 액세스할 때 빠른 삽입 메뉴에 반영됩니다.
 
+  다음은 새 편집기의 빠른 삽입 메뉴를 사용하여 작업하는 방법에 대한 짧은 비디오입니다.
 
+  >[!VIDEO](https://video.tv.adobe.com/v/3491343)
 
 
