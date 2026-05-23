@@ -24,7 +24,7 @@ ht-degree: 0%
 
 AEM Guides은 Adobe Experience Manager 위에 설치되는 플러그인입니다. AEM을 설치하려면 몇 가지 기본 AEM 개념과 권장 배포 시나리오를 이해해야 합니다. 다음 링크는 AEM 설치를 시작하는 데 도움이 됩니다.
 
-- [기본 AEM 개념](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/deploy.html#BasicConcepts)
+- [기본 AEM 개념](https://helpx.adobe.com/kr/experience-manager/6-5/sites/deploying/using/deploy.html#BasicConcepts)
 
 - [권장 AEM 배포](https://helpx.adobe.com/kr/experience-manager/6-5/sites/deploying/using/recommended-deploys.html)
 

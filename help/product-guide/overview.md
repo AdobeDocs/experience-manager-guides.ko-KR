@@ -54,14 +54,14 @@ ht-degree: 9%
 
   _[!DNL Adobe Experience Manager Guides]에서 기본 웹 편집기를 사용하여 콘텐츠를 작성하는 방법에 대해 알아봅니다. 사용자 환경 설정, 편집기 설정, 구성, 도구 모음 등을 완벽하게 이해합니다._
 
-* **[출력 생성( [!DNL Experience Manager Guides]](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/overview.html){target="blank"}**)
+* **[출력 생성( [!DNL Experience Manager Guides]](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/overview.html?lang=ko){target="blank"}**)
 
   _[!DNL Adobe Experience Manager Guides]을(를) 사용하여 출력을 생성하는 방법에 대해 알아봅니다. 보고서, 기준선, 조건, 문제 해결, 벌크 게시 및 활성화와 같이 출력 생성에 사용할 수 있는 다양한 기능에 대해 알아봅니다._
 
 
 ## 추가 리소스
 
-* [[!DNL Experience Manager Guides] 사용 안내서(이전 UI)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
-* [[!DNL AEM Guides] 학습 및 지원](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
+* [[!DNL Experience Manager Guides] 사용 안내서(이전 UI)](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+* [[!DNL AEM Guides] 학습 및 지원](https://helpx.adobe.com/kr/support/xml-documentation-for-experience-manager.html)
 * [Experience League - AEM 살펴보기](https://business.adobe.com/kr/products/experience-manager/adobe-experience-manager.html)
 
