@@ -59,7 +59,7 @@ ht-degree: 0%
 
 - [AEM Guides의 AI 기능](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/user-guide/ai-assistant-aem/ai-assistant)
 
-- [AI Assistant 구성](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-smart-suggestions)
+- [AI Assistant 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-smart-suggestions)
 
 
 
