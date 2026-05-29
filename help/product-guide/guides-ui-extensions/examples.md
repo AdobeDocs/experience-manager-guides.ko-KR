@@ -8,12 +8,13 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 18a1e586774da61e19055f8e4eb68a507192205c
+source-git-commit: 82d95464acaa3d4d2c43a35197e40a606cd2cc49
 workflow-type: tm+mt
-source-wordcount: 563
+source-wordcount: 533
 ht-degree: 0%
 
 ---
+
 
 # 예
 
@@ -493,7 +494,7 @@ export default {
 ```
 
 1. **댓글 검토**: 이 예제에서는 사용자 이름을 사용자 정보로 대체하고(댓글의 전체 이름 및 제목을 고려), 고유한 댓글 ID, mailTo 아이콘을 추가하고, 댓글 심각도 및 이유를 언급하는 입력 필드를 추가했습니다.
-대화 상자를 여는 XMLEditor 측의 댓글에 `accept with modification` 단추도 추가했습니다. [댓글 검토](./examples/review_app_examples/review_comment.ts)에 대한 코드 샘플을 다운로드합니다.
+대화 상자를 여는 XMLEditor 측의 주석에 `accept with modification` 단추도 추가했습니다. [댓글 검토](./examples/review_app_examples/review_comment.ts)를 위한 코드 샘플을 다운로드하십시오.
 
 ```typescript
 export enum VIEW_STATE {
