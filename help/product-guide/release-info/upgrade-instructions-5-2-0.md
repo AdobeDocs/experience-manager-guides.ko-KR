@@ -1,7 +1,7 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides 5.2.0 릴리스에 대한 업그레이드 지침
 description: 호환성 매트릭스와 Adobe Experience Manager Guides 5.2.0 릴리스로 업그레이드하는 방법에 대해 알아봅니다.
-source-git-commit: 1dc529ba8913c30fba876f101c3b52474e8a71dd
+source-git-commit: a2d4731af4f4996c87dd177a6e45f1d8ebabd6cf
 workflow-type: tm+mt
 source-wordcount: '859'
 ht-degree: 4%
