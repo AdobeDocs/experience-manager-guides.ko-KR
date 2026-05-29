@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 살펴보십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: ffe43716d6f922cf6da9bd94244fc80a80d99b2f
+source-git-commit: efd7ab95f0ed7f35e99587a2f47eaeac7a330221
 workflow-type: tm+mt
-source-wordcount: '3384'
-ht-degree: 8%
+source-wordcount: '3391'
+ht-degree: 7%
 
 ---
 
@@ -621,6 +621,7 @@ ht-degree: 8%
       - AEM 온프레미스 {#on-prem}
          - [AEM Guides On-Premise 4.6.0 이상 업그레이드](./install-conf-guide/upgrade-aemg-latest-version.md)
          - [AEM Guides On-Premise 이전 버전 업그레이드](./install-conf-guide/upgrade-aemg-prev-versions.md)
+         - [Experience Manager Guides 릴리스에 대한 구성 업데이트](./install-conf-guide/configuration-on-prem.md)
    - 성능 최적화를 위한 권장 사항 {#performance-optimization-aemg}
       - [Cloud Service을 위한 성능 최적화](./install-conf-guide/perf-optimization-cs.md)
       - [On-Premise에 대한 성능 최적화](./install-conf-guide/perf-optimization-on-prem.md)
