@@ -16,9 +16,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 563
+source-wordcount: 566
 ht-degree: 0%
 
 ---
@@ -77,12 +77,12 @@ ht-degree: 0%
    - **클라우드 서비스**: 클라우드 서비스를 사용하는 경우 **Assets** 옵션을 선택하면 AEM 탐색 페이지로 이동합니다.
 
    - **온-프레미스 소프트웨어**: Adobe Experience Manager Guides(4.2.1 이상)를 사용하는 경우 **Assets** 옵션을 선택하면 Assets UI의 현재 파일 경로로 이동합니다.
-- **Workspace 설정**: Workspace 설정 대화 상자로 이동합니다. 자세한 내용은 [Workspace 설정 구성](../cs-install-guide/workspace-settings.md)을 참조하세요.
+- **Workspace 설정**: Workspace 설정 대화 상자로 이동합니다. 자세한 내용은 [Workspace 설정 구성](../install-conf-guide/workspace-settings.md)을 참조하세요.
 
 >[!NOTE]
 >
-> 온-프레미스 설정에서 Adobe Experience Manager Guides을 사용하는 경우 Workspace 설정 옵션이 추가 작업 메뉴에 **설정**(으)로 계속 표시됩니다.
+>5.2 이전 버전의 온-프레미스 설정에서 Adobe Experience Manager Guides을 사용하는 경우 Workspace 설정 옵션이 추가 작업 메뉴에 **설정**(으)로 계속 표시됩니다.
 
-- **편집기 설정**: 개별 작성자 수준에서 편집기 동작을 사용자 지정할 수 있는 편집기 설정 대화 상자로 이동합니다. 작성 중에 태그, 주석 및 기타 편집기 수준 설정의 가시성과 비헤이비어를 제어할 수 있습니다. 자세한 내용은 [편집기 설정](./config-editor-settings.md)을 참조하세요.
+- **편집기 설정**: 개별 작성자 수준에서 편집기 동작을 사용자 지정할 수 있는 편집기 설정 대화 상자로 이동합니다. 작성 중에 태그, 주석 및 기타 편집기 수준 설정의 가시성과 비헤이비어를 제어할 수 있습니다. 자세한 내용은 [편집기 설정](../install-conf-guide/workspace-settings.md)을 참조하세요.
 
 **상위 항목:**&#x200B;[&#x200B;편집기 소개](web-editor.md)

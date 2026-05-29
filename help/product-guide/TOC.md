@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 살펴보십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: e1c94e180a89b8d68ea6e0812a2c576b272ffdf5
+source-git-commit: ffe43716d6f922cf6da9bd94244fc80a80d99b2f
 workflow-type: tm+mt
-source-wordcount: '3347'
-ht-degree: 7%
+source-wordcount: '3384'
+ht-degree: 8%
 
 ---
 
@@ -129,6 +129,10 @@ ht-degree: 7%
             - [1월 릴리스 정보](./release-info/release-notes-2022-1-0.md)
       - On-prem/Managed Services {#on-prem-release-notes}
          - [[!DNL AEM Guides] 릴리스](./release-info/latest-release-info.md)
+         - 5.2.0 릴리스 {#520-release}
+            - [새로운 기능](./release-info/whats-new-5-2-0.md)
+            - [해결된 문제](./release-info/fixed-issues-5-2-0.md)
+            - [업그레이드 지침](./release-info/upgrade-instructions-5-2-0.md)
          - 5.1.0 SP4 릴리스 {#510-sp4-release}
             - [해결된 문제](./release-info/fixed-issues-5-1-0-sp4.md)
             - [업그레이드 지침](./release-info/upgrade-instructions-5-1-0-sp4.md)
@@ -664,6 +668,7 @@ ht-degree: 7%
       - [텍스트 필터 구성](./install-conf-guide/conf-text-filters.md)
       - [파일 검색 대화 상자에 대한 필터 구성](./install-conf-guide/conf-custom-file-filters.md)
       - [문서 기반 게시용 패키지 설치](./install-conf-guide/conf-article-based-publishing.md)
+      - [메타데이터 속성 무시 목록 구성](./install-conf-guide/conf-metadata-prop.md)
       - Cloud Service용 편집기 설정 {#editor-cloud-settings}
          - [Cloud Service 작성을 위한 AI 기반 스마트 제안 구성](./install-conf-guide/conf-smart-suggestions.md)
          - [Cloud Service에 대한 콘텐츠를 검색하도록 AI 기반 스마트 도움말을 구성합니다](./install-conf-guide/conf-smart-help.md)
@@ -671,8 +676,8 @@ ht-degree: 7%
          - [Cloud Service에 붙여 넣은 테이블 표시 구성](./install-conf-guide/conf-pasted-tables.md)
          - [Cloud Service에 대한 단일 주제 PDF 생성 구성](./install-conf-guide/conf-pdf-generation-dita-ot.md)
          - [Cloud Service용 웹 편집기에서 번역 기능 구성](./install-conf-guide/conf-translation-editor.md)
-         - [Cloud Service에 대한 메타데이터 속성 무시 목록 구성](./install-conf-guide/conf-metadata-prop.md)
       - On-Premise용 편집기 설정 {#editor-on-prem-settings}
+         - [새 편집기 구성](./install-conf-guide/conf-new-editor-on-prem.md)
          - [온프레미스에 대한 추가 특수 문자 구성](/help/product-guide/web-editor/conf-additional-special-characters.md)
          - [온-프레미스의 체크인 및 체크아웃 아이콘 제목 구성](./install-conf-guide/conf-checkin-checkout-title.md)
          - [온-프레미스에 대한 쿼리에 대한 LimitReads 수를 구성합니다.](./install-conf-guide/conf-query-limitreads.md)
@@ -714,9 +719,13 @@ ht-degree: 7%
       - [데스크탑 기반 XML 편집기 통합](./install-conf-guide/integrate-desktop-editors.md)
       - [Cloud Service용 Workfront 구성](./install-conf-guide/conf-workfront.md)
       - [번역 구성](./install-conf-guide/conf-translation.md)
+      - [On-Premise에 대한 대상 복사 초기화 구성](./install-conf-guide/conf-translation-copies-on-prem.md)
+      - [온-프레미스에 대한 새 기준선 구성](./install-conf-guide/conf-new-baseline-on-prem.md)
+      - [On-Premise에 대한 피어 링크 건너뛰기 구성](./install-conf-guide/conf-skip-peer-links-on-prem.md)
    - 피쳐 확장 {#aemg-customization}
       - [Cloud Service의 찾기 및 바꾸기 기능에 대한 사용자 지정 인덱스 배포](./install-conf-guide/custom-indexing-cs.md)
       - [온-프레미스의 찾기 및 바꾸기 기능에 대한 다시 인덱싱](./install-conf-guide/custom-indexing-on-prem.md)
+      - [On-Premise에 대한 찾기 및 바꾸기 기능 구성](./install-conf-guide/conf-find-replace-on-prem.md)
       - [AEM Sites에 대한 구성 요소 매핑](./install-conf-guide/component-mapping.md)
    - 부록 {#appendix}
       - [부록](./install-conf-guide/aemg-appendix.md)

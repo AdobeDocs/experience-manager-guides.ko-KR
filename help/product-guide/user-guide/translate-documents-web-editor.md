@@ -21,9 +21,9 @@ subfeature_v2:
   - id: fd456af4-cb12-4a34-8cc4-b74adf885626
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 2536
+source-wordcount: 2473
 ht-degree: 1%
 
 ---
@@ -188,7 +188,7 @@ Experience Manager Guides은 번역 프로젝트의 소스 언어에 따라 SRX 
 
 Experience Manager Guides을 사용하면 소스 파일의 레이블을 타겟 파일에 전달할 수 있습니다. 이렇게 하면 번역된 파일의 소스 버전을 쉽게 식별할 수 있습니다.
 
-대상 복사본에 원본 버전 레이블을 추가하려면 시스템 관리자가 **Workspace 설정**&#x200B;의 **번역** 탭에서 **원본 버전 레이블을 대상 버전에 전파** 옵션을 활성화해야 합니다(**On-Prem**&#x200B;에 대해 **설정**).
+대상 복사본에 원본 버전 레이블을 추가하려면 시스템 관리자가 **Workspace 설정**&#x200B;의 **번역** 탭에서 **원본 버전 레이블을 대상 버전에 전파** 옵션을 활성화해야 합니다(**버전 5.2** 이전의 온-프레미스 설정에 대한 **설정** 표시).
 
 예를 들어 버전 레이블 `Release 1.0`이(가) 적용된 일부 소스 파일이 있는 경우 소스 레이블 \(`Release 1.0`\)을 번역된 파일에 전달할 수도 있습니다.
 

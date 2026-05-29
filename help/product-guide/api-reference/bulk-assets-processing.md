@@ -11,14 +11,18 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 591
-ht-degree: 9%
+source-wordcount: 639
+ht-degree: 8%
 
 ---
 
 # 자산에 대한 일괄 처리를 시작하기 위한 API
+
+>[!NOTE]
+>
+> 최신 REST API 끝점 정의 및 관련 세부 정보는 `https://<aem-author-url>/libs/fmdita/clientlibs/api-docs/index.html`에서 Swagger 설명서를 참조하십시오(`<aem-author-url>`을(를) AEM 서버 URL로 바꾸기). 이 문서는 2026년 10월에 보관될 예정이므로 앞으로 진행될 최신 API 정보에 대해 Swagger 설명서를 사용하는 것이 좋습니다.
 
 지정된 경로에 대해 일괄 에셋 처리를 시작하는 POST 메서드입니다. 이 API는 JCR 기반 및 데이터베이스 기반 에셋 처리를 모두 지원합니다. 지정된 경로와 해당 하위 경로 아래의 모든 자산을 처리하는 비동기 작업을 시작합니다. 시작되면 API는 작업 상태를 추적하는 데 사용할 수 있는 고유한 처리 ID를 반환합니다.
 
@@ -79,7 +83,7 @@ ht-degree: 9%
 
 ## 작업 상태 확인
 
-이전에 시작된 에셋 처리 작업의 현재 상태를 검색하는 GET 메서드입니다.
+이전에 시작한 에셋 처리 작업의 현재 상태를 검색하는 GET 메서드입니다.
 
 **요청 URL**
 

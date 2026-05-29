@@ -17,9 +17,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 1599
+source-wordcount: 1606
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 >[!INFO]
 >
->2025.11.0 릴리스부터 **저장소**&#x200B;의 이름이 **탐색기**(으)로 바뀝니다. 온-프레미스 설정의 경우 Experience Manager Guides 5.1 릴리스까지 저장소로 사용할 수 있습니다.
+>Cloud Service의 2025.11.0 릴리스와 온-프레미스의 5.2 릴리스에서 **저장소**&#x200B;의 이름이 **탐색기**(으)로 바뀝니다. 5.2 이전 버전의 온프레미스 설정의 경우 저장소로 계속 사용할 수 있습니다.
 
 Adobe Experience Manager Guides은 DITA 맵과 북맵이라는 두 가지 기본 맵 템플릿을 제공합니다. 또한 고유한 맵 템플릿을 만들고 이를 작성자와 공유하여 맵 파일을 만들 수도 있습니다.
 

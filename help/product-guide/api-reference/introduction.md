@@ -19,9 +19,9 @@ subfeature_v2:
   - id: f3645292-50bd-4f4a-ac6a-29dcecdf8abe
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 0047d3917ffcc8b83a319be5b7c12780c0f2ef55
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 656
+source-wordcount: 686
 ht-degree: 0%
 
 ---
@@ -131,6 +131,11 @@ Experience Manager Guides은 개발자가 HTTP를 통해 핵심 기능에 액세
 - 맞춤형 애플리케이션 및 확장 구축
 
 API 사용, 매개 변수 및 예제 요청에 대한 자세한 내용은 Experience Manager Guides 설명서의 **API 참조** 섹션에서 관련 항목을 참조하십시오.
+
+>[!NOTE]
+>
+> `https://<aem-author-url>/libs/fmdita/clientlibs/api-docs/index.html`에서 공개적으로 사용 가능한 REST API에 대해서는 **Swagger 설명서**&#x200B;를 참조할 수도 있습니다. 현재 Assets, 기준선 및 보고와 관련된 API만 Swagger 설명서에서 사용할 수 있습니다.
+
 
 ## 추가 리소스
 

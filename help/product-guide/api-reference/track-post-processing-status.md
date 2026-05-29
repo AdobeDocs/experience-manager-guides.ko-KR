@@ -11,14 +11,18 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 150
-ht-degree: 10%
+source-wordcount: 198
+ht-degree: 8%
 
 ---
 
 # 폴더 또는 에셋의 사후 처리 상태를 추적하는 API
+
+>[!NOTE]
+>
+> 최신 REST API 끝점 정의 및 관련 세부 정보는 `https://<aem-author-url>/libs/fmdita/clientlibs/api-docs/index.html`에서 Swagger 설명서를 참조하십시오(`<aem-author-url>`을(를) AEM 서버 URL로 바꾸기). 이 문서는 2026년 10월에 보관될 예정이므로 앞으로 진행될 최신 API 정보에 대해 Swagger 설명서를 사용하는 것이 좋습니다.
 
 다음은 자산의 상태를 가져오기 위해 비동기 작업을 시작하는 POST 메서드입니다.
 

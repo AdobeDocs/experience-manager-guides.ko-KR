@@ -4,9 +4,9 @@ description: Experience Manager Guides의 편집기 인터페이스에서 사용
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 10df0495-1d52-4c7c-a11a-059fe72d09f2
-source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
+source-git-commit: e41cf263f42e91bc384aa09fd1135b46e429c86a
 workflow-type: tm+mt
-source-wordcount: '2275'
+source-wordcount: '2212'
 ht-degree: 0%
 
 ---
@@ -15,8 +15,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 온-프레미스 설정에서 **설정** 옵션이 편집기의 탭 표시줄에 나타납니다. Cloud Service 설정에서 이 옵션의 이름이 **Workspace 설정**(으)로 변경되었습니다. **편집기 설정**&#x200B;에서 사용할 수 있는 기존의 모든 구성 옵션은 변경되지 않습니다.
-> ![On-premise](assets/editor-settings-on-prem.png){width="650"}에 대한 편집기 설정
+> 5.2 이전 버전의 온-프레미스 설정에서 **설정** 옵션이 편집기의 탭 표시줄에 나타납니다. 버전 5.2 이상의 Cloud Service 및 On-Premise 구성의 경우 이 옵션의 이름이 **Workspace 설정**(으)로 변경되었습니다. **편집기 설정**&#x200B;에서 사용할 수 있는 기존의 모든 구성 옵션은 변경되지 않습니다.
+> ![온-프레미스용 편집기 설정](assets/editor-settings-on-prem.png){width="650"}
 
 
 편집기의 [탭 모음](../user-guide/web-editor-tab-bar.md)에 있는 **Workspace 설정** 옵션은 관리자 및 폴더 프로필 관리자만 사용할 수 있으며 다음 설정을 구성할 수 있습니다.

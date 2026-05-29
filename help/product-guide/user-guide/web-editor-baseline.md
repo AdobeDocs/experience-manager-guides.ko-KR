@@ -19,7 +19,7 @@ subfeature_v2:
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: e3a10752fa872baabf8cfc339510d3ea907a17d1
 workflow-type: tm+mt
 source-wordcount: 1929
 ht-degree: 0%
@@ -128,7 +128,7 @@ ht-degree: 0%
   >
   >동적 기준선의 경우 편집 작업을 사용하면 동적 기준선에 대한 참조가 런타임 시 레이블을 사용하여 생성되므로 기준선의 속성을 편집할 수 있습니다.
 
-  ![기준선의 옵션](images/baseline-options.png){}
+  ![기준선의 옵션](images/baseline-options.png)
 
 ### 기존 베이스라인에 사용 가능한 작업
 

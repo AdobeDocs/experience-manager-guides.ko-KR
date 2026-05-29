@@ -5,7 +5,7 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: a4623088-a867-4079-80d6-20866c99683e
-source-git-commit: 18a4473776955700003c2381494dd5325120ea89
+source-git-commit: e3a10752fa872baabf8cfc339510d3ea907a17d1
 workflow-type: tm+mt
 source-wordcount: '1616'
 ht-degree: 1%
@@ -99,7 +99,7 @@ GitHub 설정 페이지로 리디렉션되어 *AEM 코드 동기화* 응용 프�
 
 이제 앱이 준비되었습니다. GitHub 앱의 **설정** 페이지로 리디렉션됩니다.
 
-![](assets/eds-github-app-registered-page.png){}
+![](assets/eds-github-app-registered-page.png)
 
 ### 새 OAuth 앱 만들기
 

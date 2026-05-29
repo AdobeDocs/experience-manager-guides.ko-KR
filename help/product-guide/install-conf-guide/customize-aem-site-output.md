@@ -5,7 +5,7 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 0849544d-fa7b-4c66-b418-1ffcd1ca09df
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 179e9016b12edb14c09ce9352a318e06a4fc628a
 workflow-type: tm+mt
 source-wordcount: '3190'
 ht-degree: 1%
@@ -210,7 +210,7 @@ Experience Manager Guides 설정을 기반으로 파일 이름 및 AEM 사이트
 
 1. *com.adobe.fmdita.common.SanitizeNodeNameImpl* 번들을 검색하고 클릭합니다.
 
-1. **AEM Sites에 게시하는 데 허용되지 않는 문자 집합** 속성에서 속성이 ```'<>`@$```(으)로 설정되어 있는지 확인하십시오. 이 목록에 더 많은 특수 문자를 추가할 수 있지만 필수 특수 문자가 있어야 합니다.
+1. **AEM Sites에 게시하는 데 허용되지 않는 문자 집합** 속성에서 속성이 `<>` `@$`(으)로 설정되어 있는지 확인하십시오. 이 목록에 더 많은 특수 문자를 추가할 수 있지만 필수 특수 문자가 있어야 합니다.
 
    >[!NOTE]
    >
