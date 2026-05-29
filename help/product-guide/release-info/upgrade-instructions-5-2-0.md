@@ -1,7 +1,7 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides 5.2.0 릴리스에 대한 업그레이드 지침
 description: 호환성 매트릭스와 Adobe Experience Manager Guides 5.2.0 릴리스로 업그레이드하는 방법에 대해 알아봅니다.
-source-git-commit: 1dc529ba8913c30fba876f101c3b52474e8a71dd
+source-git-commit: a2d4731af4f4996c87dd177a6e45f1d8ebabd6cf
 workflow-type: tm+mt
 source-wordcount: '859'
 ht-degree: 4%
@@ -69,7 +69,7 @@ Experience Manager Guides 5.2.0 업그레이드 프로세스를 시작하기 전
 >
 > - **AEM 6.5 LTS의 경우**: Experience Manager Guides 5.2.0은 AEM 6.5 LTS 서비스 팩 2에서만 지원됩니다.
 > - **AEM 6.5**&#x200B;의 경우: Experience Manager Guides 5.2.0은 AEM 6.5 서비스 팩 24, 23 및 22에서만 지원됩니다.
-> - 현재 AEM 6.5를 사용 중이며 AEM 6.5 LTS로 이동할 계획이라면 Experience Manager Guides 5.2.0 업그레이드를 진행하기 전에 먼저 AEM 업그레이드를 완료해야 합니다. 자세한 내용은 [Adobe Experience Manager(AEM) 6.5 LTS로 업그레이드](https://experienceleague.adobe.com/ko/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)를 참조하십시오.
+> - 현재 AEM 6.5를 사용 중이며 AEM 6.5 LTS로 이동할 계획이라면 Experience Manager Guides 5.2.0 업그레이드를 진행하기 전에 먼저 AEM 업그레이드를 완료해야 합니다. 자세한 내용은 [Adobe Experience Manager(AEM) 6.5 LTS로 업그레이드](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)를 참조하십시오.
 
 Experience Manager Guides 버전 5.2.0으로 업그레이드하기 전에 다음 사항을 고려해야 합니다.
 
@@ -79,7 +79,7 @@ Experience Manager Guides 버전 5.2.0으로 업그레이드하기 전에 다음
 - 버전 4.3.x, 4.2, 4.2.1(핫픽스 4.2.1.3), 4.1 또는 4.1.x를 사용하는 경우 버전 5.1.0으로 업그레이드하기 전에 버전 4.4로 업그레이드해야 합니다.
 - 버전 4.0을 사용 중인 경우 버전 4.3.x로 업그레이드하기 전에 버전 4.2로 업그레이드해야 합니다.
 - 버전 3.8.5를 사용하는 경우 버전 4.2로 업그레이드하기 전에 버전 4.0으로 업그레이드해야 합니다.
-- 3.8.5 이전 버전을 사용하는 경우 [Experience Manager Guides 도움말 PDF 보관](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/archive.html)에 있는 제품별 설치 안내서의 Adobe Experience Manager Guides 업그레이드 섹션을 참조하십시오.
+- 3.8.5 이전 버전을 사용하는 경우 [Experience Manager Guides 도움말 PDF 보관](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)에 있는 제품별 설치 안내서의 Adobe Experience Manager Guides 업그레이드 섹션을 참조하십시오.
 
 ## Experience Manager Guides 5.2.0 업그레이드 프로세스
 
