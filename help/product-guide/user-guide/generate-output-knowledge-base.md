@@ -5,22 +5,13 @@ feature: Publishing
 role: User
 exl-id: 31fdfd96-377c-406b-96ed-59a80bf6e03e
 TQID: https://experienceleague.adobe.com/7WV8Ey5ufs-tSPVc9sI-DMTLY9t31QASpv3pwDO8UcA
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: afb45297-4313-4f67-818e-bc0b03abe086
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
-  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
-  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: afb45297-4313-4f67-818e-bc0b03abe086id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 1333
+source-wordcount: 1343
 ht-degree: 1%
 
 ---
@@ -100,7 +91,7 @@ ht-degree: 1%
 
 | ServiceNow 옵션 | 설명 |
 | --- | --- |
-| 프로필 게시 | 드롭다운을 사용하여 관리자가 구성하는 ServiceNow 연결 프로필에서 선택합니다. 관리자가 게시 프로필을 만드는 방법에 대해 자세히 알아보려면 [왼쪽 패널](./web-editor-features.md#id2051EA0M0HS) 섹션에서 **Workspace 설정**(**On-Prem**&#x200B;에 대해 **설정**(으)로 표시) 기능 설명을 확인하십시오. |
+| 프로필 게시 | 드롭다운을 사용하여 관리자가 구성하는 ServiceNow 연결 프로필에서 선택합니다. 관리자가 게시 프로필을 만드는 방법에 대한 자세한 내용은 [왼쪽 패널](./web-editor-features.md#id2051EA0M0HS) 섹션에서 **Workspace 설정**(버전 5.2 **이전의** On-Premise 설정에 대해 **설정**(으)로 표시) 기능 설명을 참조하십시오. |
 | 기술 자료 | 이 필드를 사용하여 필요한 ServiceNow 기술 자료를 선택하십시오. ServiceNow 사이트에서 사용 권한에 따라 콘텐츠를 저장하도록 기술 자료를 구성할 수 있습니다. 이 DITA 맵의 문서를 이러한 기술 자료로 게시할 수 있습니다. |
 | 범주 및 하위 범주 | 카테고리는 ServiceNow 기술 자료 문서를 찾고 분류하는 데 사용되는 계층 구조 트리와 같습니다. 범주 및 하위 범주를 추가하여 TOC의 주제 및 하위 주제를 ServiceNow 사이트의 해당 범주 및 하위 범주에 게시합니다. |
 
@@ -110,7 +101,7 @@ ht-degree: 1%
 
 | Salesforce 옵션 | 설명 |
 | --- | --- |
-| 프로필 게시 | 드롭다운을 사용하여 관리자가 구성하는 Salesforce 연결 프로필에서 선택합니다. 관리자가 게시 프로필을 만드는 방법에 대해 자세히 알아보려면 [탭 모음](./web-editor-tab-bar.md)에서 **Workspace 설정**(**On-Prem**&#x200B;에 대해 **설정**(으)로 표시) 기능 설명을 확인하십시오. |
+| 프로필 게시 | 드롭다운을 사용하여 관리자가 구성하는 Salesforce 연결 프로필에서 선택합니다. 관리자가 게시 프로필을 만드는 방법에 대해 자세히 알아보려면 [탭 모음](./web-editor-tab-bar.md)에서 **Workspace 설정**(버전 5.2 **이전의** On-Premise 설정에 대해 **설정**(으)로 표시) 기능 설명을 확인하십시오. |
 | 레코드 유형 | 드롭다운을 사용하여 사용자 프로필에 따른 가시성 설정에 따라 Salesforce에 설정된 레코드 유형 중에서 선택합니다. Salesforce 레코드 유형은 해당 개체에 대해 한 유형의 여러 레코드를 그룹화하는 방법입니다. 발행물의 구성 방법을 정의합니다. 예를 들어 FAQ 페이지 레이아웃 및 필드에 따라 FAQ 레코드 유형 및 게시를 선택할 수 있습니다. |
 | 문서 콘텐츠 필드 | 각 레코드 유형 템플릿에 대해 서로 다른 필드와 고유한 레이아웃을 가질 수 있습니다. 이러한 필드를 사용하여 문서 유형에 따라 특정 정보를 입력합니다. 예를 들어 FAQ 문서의 제목, 답변 및 방정식을 볼 수 있습니다. |
 | 범주 | 드롭다운에서 카테고리를 선택하여 Salesforce 사이트에 해당 카테고리의 TOC 주제를 게시합니다. |

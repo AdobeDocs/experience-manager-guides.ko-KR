@@ -6,22 +6,13 @@ feature: API Introduction
 role: Developer
 level: Experienced
 TQID: https://experienceleague.adobe.com/dNO8nZusaPCor506Q-2drrcJGf68mx-Hxo4uaT-cDtM
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: c6d09140-3c91-45d3-b7ed-b681af752f43
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
-  - id: f3645292-50bd-4f4a-ac6a-29dcecdf8abe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 0047d3917ffcc8b83a319be5b7c12780c0f2ef55
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: a3bd6397-2eb2-4908-a61c-226e26855dcaid: c6d09140-3c91-45d3-b7ed-b681af752f43id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: f3645292-50bd-4f4a-ac6a-29dcecdf8abe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 656
+source-wordcount: 686
 ht-degree: 0%
 
 ---
@@ -132,11 +123,16 @@ Experience Manager Guides은 개발자가 HTTP를 통해 핵심 기능에 액세
 
 API 사용, 매개 변수 및 예제 요청에 대한 자세한 내용은 Experience Manager Guides 설명서의 **API 참조** 섹션에서 관련 항목을 참조하십시오.
 
+>[!NOTE]
+>
+> `https://<aem-author-url>/libs/fmdita/clientlibs/api-docs/index.html`에서 공개적으로 사용 가능한 REST API에 대해서는 **Swagger 설명서**&#x200B;를 참조할 수도 있습니다. 현재 Assets, 기준선 및 보고와 관련된 API만 Swagger 설명서에서 사용할 수 있습니다.
+
+
 ## 추가 리소스
 
-다음은 [학습 및 지원](https://helpx.adobe.com/kr/support/xml-documentation-for-experience-manager.html) 페이지에서 사용할 수 있는 AEM Guides의 다른 유용한 리소스 목록입니다.
+다음은 [학습 및 지원](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html) 페이지에서 사용할 수 있는 AEM Guides의 다른 유용한 리소스 목록입니다.
 
 - 사용 안내서
 - 설치 및 구성 안내서
 - 빠른 시작 안내서
-- [도움말 보관 페이지](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/archive.html) \(이전 릴리스 설명서에 액세스\)
+- [도움말 보관 페이지](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \(이전 릴리스 설명서에 액세스\)

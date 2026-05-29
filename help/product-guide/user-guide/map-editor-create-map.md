@@ -5,21 +5,14 @@ exl-id: b9cda118-ab6f-4d6b-9616-a083180ba069
 feature: Authoring, Map Editor
 role: User
 TQID: https://experienceleague.adobe.com/hd0LxXHbISW1ppu4pE8Z1RzAhO8s6NGUV-0aYPfK5zQ
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2:
-  - id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 1599
+source-wordcount: 1606
 ht-degree: 0%
 
 ---
@@ -28,7 +21,7 @@ ht-degree: 0%
 
 >[!INFO]
 >
->2025.11.0 릴리스부터 **저장소**&#x200B;의 이름이 **탐색기**(으)로 바뀝니다. 온-프레미스 설정의 경우 Experience Manager Guides 5.1 릴리스까지 저장소로 사용할 수 있습니다.
+>Cloud Service의 2025.11.0 릴리스와 온-프레미스의 5.2 릴리스에서 **저장소**&#x200B;의 이름이 **탐색기**(으)로 바뀝니다. 5.2 이전 버전의 온프레미스 설정의 경우 저장소로 계속 사용할 수 있습니다.
 
 Adobe Experience Manager Guides은 DITA 맵과 북맵이라는 두 가지 기본 맵 템플릿을 제공합니다. 또한 고유한 맵 템플릿을 만들고 이를 작성자와 공유하여 맵 파일을 만들 수도 있습니다.
 

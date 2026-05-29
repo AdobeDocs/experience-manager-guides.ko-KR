@@ -4,9 +4,9 @@ description: Adobe Experience Manager Guides의 맵 콘솔에서 새 기준선(B
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 exl-id: 574806bb-21c5-41fe-b8be-4c6506ce8cce
-source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
+source-git-commit: 179e9016b12edb14c09ce9352a318e06a4fc628a
 workflow-type: tm+mt
-source-wordcount: '1315'
+source-wordcount: '1327'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 이 문서는 Experience Manager Guides 2026.04.0 릴리스에서 사용할 수 있는 향상된 성능과 안정성을 제공하는 현재 *Beta* 기능으로 사용 가능한 새 기준선 에도 적용됩니다. 설정에서 새 기준선 기능을 활성화하려면 고객 성공 팀에 문의하십시오.
+> - 이 문서는 Experience Manager Guides 2026.04.0 릴리스에서 사용할 수 있는 향상된 성능과 안정성을 제공하는 현재 *Beta* 기능으로 사용 가능한 새 기준선 에도 적용됩니다.
+> - Cloud Service에 대한 새 기준선 기능을 활성화하려면 고객 성공 팀에 문의하십시오.
+> - 온-프레미스에 대한 새 기준선 기능을 활성화하려면 [새 기준선 구성](../install-conf-guide/conf-new-baseline-on-prem.md)을 참조하십시오.
 
 새로운 기준선 기능은 크고 복잡한 맵과 관련된 중요한 안정성 및 성능 문제를 해결합니다. 이 제품에는 보다 빠르고 안정적이며 일관된 기본 경험을 제공하는 다시 설계된 기본 아키텍처가 포함되어 있습니다. 자세한 내용을 살펴보기 전에 새로운 기준선 기능의 기능을 강조 표시하는 짧은 연습 비디오입니다.
 
