@@ -15,9 +15,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 9f5364625d113f2f1fd147b6df30b0ca3d439029
 workflow-type: tm+mt
-source-wordcount: 984
+source-wordcount: 907
 ht-degree: 0%
 
 ---
@@ -148,9 +148,8 @@ Regex 표현식을 사용하여 matches() 함수를 사용하는 규칙을 정�
 ```XML
 <assert test="not(matches(.,'^\w+$'))"> 
 No one word titles.
-</assert>  
+</assert>
 ```
-
 
 ## 추상 패턴 정의{#schematron-abstract-patterns}
 
