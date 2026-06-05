@@ -6,18 +6,13 @@ role: Admin
 level: Experienced
 exl-id: 67f7ff26-fbc7-426c-aa7d-9bf4debf05d8
 TQID: https://experienceleague.adobe.com/fj9JDKmklfdc-3UHShHD3PqynCcnnH5cK8lQNqCLD2c
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 6d10f55ace72536266723331313c73ce33cddcf1
 workflow-type: tm+mt
-source-wordcount: 705
-ht-degree: 0%
+source-wordcount: 698
+ht-degree: 1%
 
 ---
 
@@ -53,9 +48,9 @@ ht-degree: 0%
       ![저장소 정보 액세스 선택](/help/product-guide/knowledge-base/kb-articles/assets/publishing/access-repo.png){width="350"}
 
    3. 제공된 사용자 이름과 암호를 사용하여 로컬 시스템에 저장소를 복제합니다(필요한 경우 암호 생성).
-2. **Maven 번들에 패키지 추가:**
-   1. 로컬로 복제된 저장소에서 새 Maven 번들을 생성하거나 기존 번들에 추가합니다.
-   2. Maven 프로젝트에 `/jcr_root/apps/fmdita/` 설치 구조가 있는지 확인하십시오.
+2. **프로젝트 모듈에 패키지 추가:**
+   1. 로컬로 복제된 저장소에서 새 프로젝트 모듈을 만들거나 기존 모듈에 추가합니다.
+   2. `/jcr_root/apps/fmdita/` 설치 구조가 있는지 확인하십시오.
 
       Maven 프로젝트의 ![구조](/help/product-guide/knowledge-base/kb-articles/assets/publishing/maven-structure.png){width="650"}
 
@@ -65,8 +60,7 @@ ht-degree: 0%
 3. **filters.xml 업데이트:**
 
    1. 상위 콘텐츠 디렉터리의 META-INF 폴더에 있는 filters.xml 파일을 엽니다.
-   2. 필터 루트=`/apps/fmdita` 모드=`merge`/
-
+   2. `<filter root=/apps/fmdita  mode=merge/>` 필터를 추가합니다.
 
       ![필터 추가](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-filter-xml.png){width="650"}
 
@@ -143,4 +137,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 프로덕션에 배포하기 전에 모든 구성을 비프로덕션 환경에서 테스트하십시오. <br><br> 자세한 내용은 공식 [AEM as a Cloud Service에 배포 설명서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/deploying/overview)를 참조하십시오.
+> 프로덕션에 배포하기 전에 모든 구성을 비프로덕션 환경에서 테스트하십시오. <br><br> 자세한 내용은 공식 [AEM as a Cloud Service에 배포 설명서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview)를 참조하십시오.
