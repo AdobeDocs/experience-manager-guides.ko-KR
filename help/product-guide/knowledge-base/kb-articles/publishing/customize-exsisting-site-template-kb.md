@@ -19,9 +19,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 9555f90917819727b77daea4520b6bba2350129f
 workflow-type: tm+mt
-source-wordcount: 947
+source-wordcount: 951
 ht-degree: 1%
 
 ---
@@ -102,7 +102,7 @@ AEM 사이트에서 두 개의 편집 가능한 템플릿을 선택하고 구성
 >
 > `wcm/foundation/components`에서 sling:resourceType을(를) 사용하는 구성 요소가 해당 `core/wcm/components`(으)로 마이그레이션되었는지 확인하십시오.
 
-동일한 템플릿의 구조에 동일한 (컨테이너 및 텍스트 구성 요소) 추가:
+동일한 템플릿의 구조에 동일한 컨테이너 구성 요소를 추가합니다.
 
 ![컨테이너 및 텍스트 구성 요소 추가](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-and-text-component.png){width="650"}
 
@@ -114,7 +114,7 @@ AEM 사이트에서 두 개의 편집 가능한 템플릿을 선택하고 구성
 
 | 기능 | 구성 요소 이름 | 설명 | 추천 템플릿 |
 |---|---|---|---|
-| 목차 | guidessidenavigation | DITA 맵에서 전체 목차를 렌더링합니다 | 설명서 컨테이너 |
+| 목차 | guidessidenavigation | DITA 맵에서 전체 목차를 렌더링합니다 | 주제 페이지 |
 | 페이지 리디렉션 | childredirect | 맵의 첫 번째 주제 페이지로 리디렉션합니다. | 설명서 컨테이너 |
 | 미니 TOC | 미니톡 | 현재 주제에 대한 목차를 표시합니다. | 주제 페이지 |
 | 마지막 업데이트 | pageproperty | 마지막 수정 날짜 표시 | 주제 페이지 |
@@ -135,7 +135,7 @@ AEM 사이트에서 두 개의 편집 가능한 템플릿을 선택하고 구성
 
 1. **템플릿 편집:**
 
-   1. **편집기 모드**&#x200B;에서 **제품 페이지**&#x200B;를 엽니다.
+   1. 편집기 모드에서 **컨테이너 페이지 템플릿** 및 **주제 페이지 템플릿**&#x200B;을 엽니다.
    2. **템플릿 편집**&#x200B;을 선택합니다. 그러면 conf/settings/wcm/templates/structure.html과 같은 URL이 열립니다.
 
       ![템플릿 편집](/help/product-guide/knowledge-base/kb-articles/assets/publishing/edit-template.png){width="650"}
