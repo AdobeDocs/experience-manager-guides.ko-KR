@@ -47,7 +47,7 @@ AEM Guides 및 FMPS 설치 및 구성은 다음을 참조하십시오
 
 ### FMPS
 
-FMPS 설치의 경우 제공된 [YouTube 링크](https://www.youtube.com/watch?v=2deelyM5VA8&t) 또는 [FMPS 설치 및 구성](https://help.adobe.com/en_US/framemaker/server/index.html#t=fmps-user-guide%2Finstall_config_fmps.html%23install_config_fmps&rhtocid=_2)을 참조할 수 있습니다.
+FMPS 설치의 경우 제공된 [YouTube 링크](https://www.youtube.com/watch?v=2deelyM5VA8&t) 또는 [FMPS 설치 및 구성](https://help.adobe.com/ko_KR/framemaker/server/index.html#t=fmps-user-guide%2Finstall_config_fmps.html%23install_config_fmps&rhtocid=_2)을 참조할 수 있습니다.
 
 ## 필수 구성
 
