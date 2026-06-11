@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 살펴보십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: efd7ab95f0ed7f35e99587a2f47eaeac7a330221
+source-git-commit: 5f626c210e74c6d11e2441f719cfbfeb33bf55c5
 workflow-type: tm+mt
-source-wordcount: '3391'
+source-wordcount: '3406'
 ht-degree: 7%
 
 ---
@@ -237,6 +237,7 @@ ht-degree: 7%
          - [편집기에서 Markdown 문서 작성](./user-guide/web-editor-markdown-topic.md)
          - [콘텐츠에 인용 부호 추가](./user-guide/web-editor-apply-citations.md)
          - [데이터 원본의 데이터 사용](./user-guide/web-editor-content-snippet.md)
+         - {hide-from-toc}[Git 커넥터(Beta)를 사용하여 콘텐츠 가져오기](./user-guide/web-editor-git-connector.md)
          - [문서 상태](./user-guide/web-editor-document-states.md)
          - [레이블 사용](./user-guide/web-editor-use-label.md)
          - [편집기 설정](./user-guide/config-editor-settings.md)
@@ -685,6 +686,7 @@ ht-degree: 7%
       - 데이터 소스 커넥터 {#data-source}
          - [사용자 인터페이스에서 데이터 소스 커넥터 구성](./install-conf-guide/conf-data-source-connector-tools.md)
          - [Cloud Service용 데이터 소스 커넥터 구성](./install-conf-guide/conf-data-source-connector-cs.md)
+         - {hide-from-toc}[사용자 인터페이스에서 Git 커넥터 만들기 및 구성](./install-conf-guide/conf-git-connector.md)
    - 글로벌 및 폴더 수준 프로필 {#global-folder-profiles}
       - [전역 또는 폴더 수준 프로필 구성](./install-conf-guide/conf-profiles.md)
    - 주제 및 맵 템플릿 {#topic-map-template}
