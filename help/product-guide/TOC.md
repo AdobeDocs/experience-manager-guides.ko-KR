@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 살펴보십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: efd7ab95f0ed7f35e99587a2f47eaeac7a330221
+source-git-commit: 5f626c210e74c6d11e2441f719cfbfeb33bf55c5
 workflow-type: tm+mt
-source-wordcount: '3391'
+source-wordcount: '3406'
 ht-degree: 7%
 
 ---
@@ -198,13 +198,13 @@ ht-degree: 7%
                - [4.2.1 릴리스 정보](./release-info/release-notes-4-2-1.md)
                - [4.2 릴리스 노트](./release-info/release-notes-4-2.md)
          - [4.1.x 릴리스 노트](./release-info/release-notes-4-1.md)
-         - [4.0.x 릴리스 노트](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x 릴리스 노트](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - 사용 안내서 (새 UI) {#user-guide}
    - 소개 {#about-aemg}
-      - [&#x200B; [!DNL Adobe Experience Manager Guides] 정보](./user-guide/intro.md)
+      - [ [!DNL Adobe Experience Manager Guides] 정보](./user-guide/intro.md)
       - [!DNL AEM Guides] 작업 중 및 주요 기능 {#aemg-works-features}
-         - [&#x200B; [!DNL AEM Guides] 작동 방식](./user-guide/intro-how-dxml-works.md)
+         - [ [!DNL AEM Guides] 작동 방식](./user-guide/intro-how-dxml-works.md)
          - [주요 [!DNL AEM Guides] 기능](./user-guide/intro-dxml-features.md)
    - 홈 페이지 {#home-page}
       - [[!DNL AEM Guides] 홈 페이지 경험](./user-guide/intro-home-page.md)
@@ -237,6 +237,7 @@ ht-degree: 7%
          - [편집기에서 Markdown 문서 작성](./user-guide/web-editor-markdown-topic.md)
          - [콘텐츠에 인용 부호 추가](./user-guide/web-editor-apply-citations.md)
          - [데이터 원본의 데이터 사용](./user-guide/web-editor-content-snippet.md)
+         - {hide-from-toc}[Git 커넥터(Beta)를 사용하여 콘텐츠 가져오기](./user-guide/web-editor-git-connector.md)
          - [문서 상태](./user-guide/web-editor-document-states.md)
          - [레이블 사용](./user-guide/web-editor-use-label.md)
          - [편집기 설정](./user-guide/config-editor-settings.md)
@@ -407,7 +408,7 @@ ht-degree: 7%
       - 문제 해결 {#troubleshooting}
          - [세션 시간 초과](./user-guide/session-timeout-prompt.md)
 - 사용 안내서 (이전 UI) {#user-guide-old-ui}
-   - [AEM Guides 개요](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides 개요](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 설치 및 구성 {#install-guide}
    - 온프레미스 {#on-prem-ig}
       - {hide-from-toc}[On-Premise 기본 사항](./install-guide/introduction.md)
@@ -484,7 +485,7 @@ ht-degree: 7%
             - {hide-from-toc}[PDF 템플릿](./native-pdf/pdf-template.md)
             - {hide-from-toc}[PDF 템플릿의 구성 요소](./native-pdf/components-pdf-template.md)
             - {hide-from-toc}[페이지 레이아웃 디자인](./native-pdf/design-page-layout.md)
-            - {hide-from-toc}[PDF 출력의 변수](./native-pdf/native-pdf-variables.md)
+            - PDF 출력의 {hide-from-toc}[변수](./native-pdf/native-pdf-variables.md)
             - {hide-from-toc}[언어 변수 지원](./native-pdf/native-pdf-language-variables.md)
             - {hide-from-toc}[PDF 출력에 바코드 추가](./native-pdf/add-barcode.md)
             - 공통 컨텐츠 스타일 {#content-styles}
@@ -685,6 +686,7 @@ ht-degree: 7%
       - 데이터 소스 커넥터 {#data-source}
          - [사용자 인터페이스에서 데이터 소스 커넥터 구성](./install-conf-guide/conf-data-source-connector-tools.md)
          - [Cloud Service용 데이터 소스 커넥터 구성](./install-conf-guide/conf-data-source-connector-cs.md)
+         - {hide-from-toc}[사용자 인터페이스에서 Git 커넥터 만들기 및 구성](./install-conf-guide/conf-git-connector.md)
    - 글로벌 및 폴더 수준 프로필 {#global-folder-profiles}
       - [전역 또는 폴더 수준 프로필 구성](./install-conf-guide/conf-profiles.md)
    - 주제 및 맵 템플릿 {#topic-map-template}
@@ -738,7 +740,7 @@ ht-degree: 7%
    - [데이터 소스 커넥터를 등록하는 REST API](./api-reference/data-source-connector.md)
    - [조건부 특성으로 작업할 수 있는 REST API](./api-reference/conditional-attribute.md)
    - [전환 워크플로우에 대한 REST API](./api-reference/convert-to-dita.md)
-   - [패키지를 만들고 활성화하기 위한 REST API](./api-reference/create-activate-package.md)
+   - 패키지를 만들고 활성화하기 위한 [REST API](./api-reference/create-activate-package.md)
    - [사후 처리 이벤트 핸들러](./api-reference/post-process-event.md)
    - [폴더 또는 에셋의 사후 처리 상태를 추적하는 API](./api-reference/track-post-processing-status.md)
    - [자산에 대한 일괄 처리를 시작하기 위한 API](./api-reference/bulk-assets-processing.md)
