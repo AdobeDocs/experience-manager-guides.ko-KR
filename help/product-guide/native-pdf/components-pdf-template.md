@@ -16,7 +16,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 4767
+source-wordcount: 4602
 ht-degree: 0%
 
 ---
@@ -238,14 +238,14 @@ TOC 구조인 홀수 또는 짝수 페이지에서 챕터를 시작하기 위한
 
 * **목차에 챕터 번호 표시 안 함** : 목차에 챕터 번호 없이 챕터 이름을 표시하려면 이 옵션을 선택합니다.   기본적으로 챕터 번호는 PDF 출력의 TOC에 표시됩니다.
 * **지시선 형식**: 드롭다운을 사용하여 [점선], [단색] 또는 [공백] 지시선을 선택하여 제목 수준을 해당 페이지 번호에 연결합니다.
-목차 구조 및 스타일 머리글 수준을 적용하려면 [장 목차 추가](design-page-layout.md#add-chapter-toc)를 참조하십시오.
+목차 구조 및 스타일 머리글 수준을 적용하려면 [챕터 목차 추가](design-page-layout.md#add-chapter-toc)를 참조하십시오.
 
   >[!NOTE]
   >
   >CSS 개발자인 경우 CSS 파일에서 직접 지시선 형식을 정의할 수도 있습니다.
 
 * **표 연속 표식 사용**: 여러 페이지에 걸쳐 있는 긴 표의 표식을 정의하려면 이 옵션을 선택하십시오.
-브레이크 전후에 표시할 텍스트를 정의할 수 있습니다. 예를 들어 5페이지에서 테이블이 중단되고 **Text Before Break**&#x200B;에 대해 `<Continued on page %page-num%>`을(를) 정의합니다.  텍스트는 5페이지 하단에 &quot;6페이지에서 계속됨&quot;을 표시합니다.
+브레이크 전후에 표시할 텍스트를 정의할 수 있습니다. 예를 들어 5페이지에서 테이블이 중단되고 **중단 전 텍스트**&#x200B;에 대해 `<Continued on page %page-num%>`을(를) 정의합니다. 텍스트는 5페이지 하단에 &quot;6페이지에서 계속&quot;으로 표시됩니다.
 
   언어 변수를 사용하여 중단 전후의 연속 마커 텍스트를 정의합니다. 선택한 언어에 따라 현지화된 값이 PDF 출력에서 자동으로 선택됩니다. 예를 들어 `Continued on page %page-num%`은(는) 영어로, `Fortsetzung auf Seite %page-num%`은(는) 독일어로 게시할 수 있습니다.
 

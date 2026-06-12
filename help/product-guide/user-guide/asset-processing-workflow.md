@@ -3,7 +3,7 @@ title: Adobe Experience Manager Guides의 게시 성능 및 확장성에 대한 
 description: Adobe Experience Manager Guides의 게시 성능 및 확장성에 대한 FAQ에 대해 알아봅니다.
 source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
 workflow-type: tm+mt
-source-wordcount: '1666'
+source-wordcount: '1654'
 ht-degree: 1%
 
 ---

@@ -35,7 +35,7 @@ Adobe Experience Manager Guides은 모든 맵 관리 및 게시 작업을 간소
 
 맵 콘솔 인터페이스는 주로 **탐색 모음** 및 **왼쪽 패널** 섹션으로 나뉩니다.
 
-![새로 만들기](images/map-console-sections.png)
+![신규](images/map-console-sections.png)
 
 - (**A**) **탐색 모음**: 탐색 모음은 탐색을 전환하고 페이지 보기를 조정하며 선택한 맵 파일의 이름을 표시하는 도구를 표시합니다.
 
