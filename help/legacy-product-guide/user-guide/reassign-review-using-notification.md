@@ -6,8 +6,11 @@ role: User
 hide: true
 exl-id: 3e43206b-c1a3-43ba-a4e5-c45c68c8b941
 TQID: https://experienceleague.adobe.com/jF4wtAFnt2rEs4Vn-INbBYn5Juv-RXdQHhsjXKLH65A
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 271
@@ -42,4 +45,4 @@ ht-degree: 0%
 
 할당된 검토자는 다시 할당된 검토 작업에 대한 알림을 받은 편지함에 받게 됩니다.
 
-**상위 항목:**[&#x200B;항목 또는 맵 검토](review.md)
+**상위 항목:**&#x200B;[&#x200B;항목 또는 맵 검토](review.md)

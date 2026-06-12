@@ -6,10 +6,16 @@ role: User
 hide: true
 exl-id: a9551eb0-ad30-424d-b1c8-c079125d8118
 TQID: https://experienceleague.adobe.com/CyM9kTBYOhhD-dO1WE--B1vrT-LYhl4WEhjoHC-CUSQ
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 1036
@@ -79,4 +85,4 @@ ht-degree: 0%
 - **I**: 댓글에 필터를 적용합니다. 검토 유형 \(all, highlight, deleted, inserted 또는 sticky note\), 검토 상태 \(all, accepted, rejected 또는 none\), 검토자 \(all 또는 특정 검토자\\)\) 또는 주제 버전 을 기준으로 설명을 표시하도록 필터링할 수 있습니다.
 
 
-**상위 항목:**[&#x200B;항목 또는 맵 검토](review.md)
+**상위 항목:**&#x200B;[&#x200B;항목 또는 맵 검토](review.md)
