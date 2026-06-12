@@ -3,10 +3,17 @@ title: 릴리스 정보 | Adobe Experience Manager Guides, 2025.11.0 릴리스�
 description: Adobe Experience Manager Guides as a Cloud Service 2025.11.0 릴리스의 버그 수정에 대해 알아봅니다.
 exl-id: a86621c3-c4e1-4538-8700-dd9c22be440f
 TQID: https://experienceleague.adobe.com/VSfdJPL26DZFuIyfEcTk2eGjCSbJ5JY4f5B-W63lkjI
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 699
