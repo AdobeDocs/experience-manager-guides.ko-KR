@@ -3,11 +3,22 @@ title: AEM Guides의 새로운 UX 및 AI 기능
 description: AEM Guides에서 재설계된 사용자 경험과 AI 도우미가 작성을 간소화하고 탐색을 향상시키며 콘텐츠 워크플로우에 실시간 인텔리전스를 적용하는 방법을 살펴봅니다.
 exl-id: 26daaae5-1f10-42bf-91b5-93cdb6df6625
 TQID: https://experienceleague.adobe.com/TAhZh5BFgI-0Lh8DqGJnGUEA6-7yEAgDURA3WNxPcyk
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: ac5ecfc1-cc78-4ecc-a90a-0362685062ce
-subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: bf7fca06-df97-4229-884f-76afcfade5adid: f9dbea21-a714-40dd-bc90-080d8046c93f
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: ac5ecfc1-cc78-4ecc-a90a-0362685062ce
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: bf7fca06-df97-4229-884f-76afcfade5ad
+  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 338
