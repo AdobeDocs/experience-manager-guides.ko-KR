@@ -6,22 +6,11 @@ role: Admin
 level: Experienced
 exl-id: 1f72642c-e694-47cd-9182-f4f4aaf69655
 TQID: https://experienceleague.adobe.com/Yua4Y6xsnec3O-hpTNhSmK4HvsCwaGYbLTxUxEeQAKY
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: ae478996-b206-4712-9b0c-dc78a2644453
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: f7774ebe-aec9-42b6-97e4-5002acdc712e
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: ae478996-b206-4712-9b0c-dc78a2644453id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0eid: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: f7774ebe-aec9-42b6-97e4-5002acdc712e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 600
@@ -40,7 +29,7 @@ Experience Manager Guides의 [Adobe Workfront 통합](../user-guide/workfront-in
 시작하기 전에 다음을 확인하십시오.
 
 1. Adobe Workfront에 대한 표준 액세스 권한과 Experience Manager Guides에 대한 관리자 액세스 권한이 있습니다.
-2. 아래 필드를 사용하여 Adobe Workfront에 필요한 [새 사용자 정의 양식을 만듭니다](https://experienceleague.adobe.com/ko/docs/workfront/using/administration-and-setup/customize/custom-forms/design-a-form/design-a-form).
+2. 아래 필드를 사용하여 Adobe Workfront에 필요한 [새 사용자 정의 양식을 만듭니다](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/customize/custom-forms/design-a-form/design-a-form).
 
    | 필드 유형 | 레이블 | 이름 | 선택 사항(값 표시 활성화됨) |
    |------------|------|------|-------------------------------|
@@ -74,7 +63,7 @@ Experience Manager Guides에서 Adobe Workfront을 구성하려면 다음 단계
 
    Adobe Workfront 설정에 구성된 **클라이언트 ID** 및 **클라이언트 암호** 키에 액세스하려면 `Setup >> Systems>> oAuth2 Applications`(으)로 이동하십시오.
 
-   Adobe Workfront 도메인 구성에 대한 자세한 내용은 [Workfront 통합을 위한 OAuth2 애플리케이션 만들기](https://experienceleague.adobe.com/ko/docs/workfront/using/administration-and-setup/configure-integrations/create-oauth-application#create-an-oauth2-application-using-user-credentials-authorization-code-flow)의 인증 코드 흐름 섹션을 참조하십시오.
+   Adobe Workfront 도메인 구성에 대한 자세한 내용은 [Workfront 통합을 위한 OAuth2 애플리케이션 만들기](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/configure-integrations/create-oauth-application#create-an-oauth2-application-using-user-credentials-authorization-code-flow)의 인증 코드 흐름 섹션을 참조하십시오.
 
 4. **로그인 및 확인**&#x200B;을 선택합니다.
 
@@ -86,4 +75,4 @@ Experience Manager Guides에서 Adobe Workfront을 구성하려면 다음 단계
 6. 사용자 정의 양식 드롭다운 목록에서 Experience Manager Guides용으로 만든 Adobe Workfront 사용자 정의 양식을 선택합니다. [필수 구성 요소](#prerequisites)를 봅니다.
 7. Workfront 구성 변경 사항을 적용하고 저장하려면 **저장 후 닫기**&#x200B;를 선택합니다.
 
-구성하고 나면 Adobe Workfront에 있는 것과 동일한 전자 메일 주소를 사용하여 [Experience Manager Guides에 사용자를 추가](https://experienceleague.adobe.com/ko/docs/workfront/using/administration-and-setup/add-users/create-manage-users/add-users)합니다.
+구성하고 나면 Adobe Workfront에 있는 것과 동일한 전자 메일 주소를 사용하여 [Experience Manager Guides에 사용자를 추가](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/add-users/create-manage-users/add-users)합니다.
