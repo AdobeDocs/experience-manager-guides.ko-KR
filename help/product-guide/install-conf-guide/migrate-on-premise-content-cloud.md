@@ -4,10 +4,11 @@ description: 온프레미스 소프트웨어에서 클라우드 서비스로 콘
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 453da51a42984b912547570f2e1de70806b41171
+exl-id: c8348aae-224c-4419-845a-b8910629e5b3
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 1%
+source-wordcount: '844'
+ht-degree: 0%
 
 ---
 
@@ -94,7 +95,7 @@ Experience Manager Guides 콘텐츠를 Experience Manager as a cloud service로 
    >
    >  최신 버전을 다운로드하십시오.
 
-1. 온-프레미스 인스턴스의 `content-transfer.all-3.0.10.zip`패키지 관리자&#x200B;**에서** 패키지를 업로드하고 설치합니다.
+1. 온-프레미스 인스턴스의 **패키지 관리자**&#x200B;에서 `content-transfer.all-3.0.10.zip` 패키지를 업로드하고 설치합니다.
    ![콘텐츠 전송 도구 다운로드](./assets/content-transfer-tool-software-portal.png)
 
 
