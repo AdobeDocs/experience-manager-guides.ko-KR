@@ -3,16 +3,9 @@ title: 기본 PDF 게시 기능 | 바코드 추가
 description: 바코드를 추가하는 방법을 알아봅니다.
 exl-id: 206bdcf9-2bcd-4bf1-815a-c97cdf0dc415
 TQID: https://experienceleague.adobe.com/DqR4uUYKTCRxQqr9EGgLVk-EnboNc9mIfW0X73a14EI
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 792
@@ -65,7 +58,7 @@ margin-top: 2mm;
 1. 페이지 레이아웃을 선택합니다. 예를 들어 머리글이나 바닥글이 포함된 표지 페이지 레이아웃을 선택할 수 있습니다.
 1. 바코드를 삽입할 위치에 다음 범위를 추가합니다.
 
-   `<span class="barcode">Sample barcode</span></p>`.
+   `<span class="barcode">Sample barcode</span></p>`
 
    >[!NOTE]
    >

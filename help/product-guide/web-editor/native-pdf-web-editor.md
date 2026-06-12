@@ -5,29 +5,14 @@ exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
 feature: Publishing, Native PDF Output
 role: User
 TQID: https://experienceleague.adobe.com/GV3iYtBdFVrQwFjdvfqnfDIWPMugO3hFjS4FZqspG2M
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: afb45297-4313-4f67-818e-bc0b03abe086
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: d6596f3f-92a7-43ec-b444-237db6adad05
-  - id: f6b497f1-f8e0-42ce-8e95-56c28d94026e
-  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
-  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: afb45297-4313-4f67-818e-bc0b03abe086id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d6596f3f-92a7-43ec-b444-237db6adad05id: f6b497f1-f8e0-42ce-8e95-56c28d94026eid: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 3366
+source-wordcount: 3311
 ht-degree: 1%
 
 ---
@@ -102,7 +87,7 @@ ht-degree: 1%
 
 * **XMP 파일 제공**
 
-  [XMP](https://www.adobe.com/kr/products/xmp.html)&#x200B;(Extensible Metadata Platform) 파일을 가져와서 메타데이터 필드를 직접 채울 수도 있습니다. 여기에서 샘플 XMP 파일을 다운로드할 수 있습니다.
+  [XMP](https://www.adobe.com/products/xmp.html)&#x200B;(Extensible Metadata Platform) 파일을 가져와서 메타데이터 필드를 직접 채울 수도 있습니다. 여기에서 샘플 XMP 파일을 다운로드할 수 있습니다.
 
   [다운로드](assets/SampleXMP.xmp)
 
@@ -206,7 +191,7 @@ ht-degree: 1%
 | **대화형 PDF 양식 만들기** | 생성된 PDF 출력에서 향상된 사용자 입력을 위해 대화형 및 사용자 지정 가능한 PDF 양식 필드를 포함하려면 이 옵션을 선택합니다. |
 | **트랙 변경 내용 포함** | 간편한 검토 및 비교를 위해 생성된 PDF에서 추적된 변경 사항을 포함하려면 이 옵션을 선택합니다. |
 | **임시 파일 유지** | 기본 PDF 출력을 생성하는 동안 생성된 임시 HTML 파일을 유지하려면 이 옵션을 선택합니다. 출력을 생성한 후 나중에 임시 파일을 다운로드할 수 있습니다. 다운로드한 파일에는 작성자 URL, 로컬 URL 및 게시 URL에 대한 정보를 제공하는 `system_config.xml` 파일도 포함됩니다. 이러한 URL은 AEM 외부화 설정에 구성되어 `system_config.xml` 파일에 반영됩니다. |
-| **PDF 적합성** | PDF이 준수되는지 확인하기 위해 저장하려는 표준입니다. 드롭다운에서 을(를) 선택하여 사용 가능한 PDF 표준 목록에서 을(를) 선택합니다. 지원되는 표준에 대한 자세한 내용은 [PDF 표준 정보](https://helpx.adobe.com/kr/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards)를 참조하십시오. |
+| **PDF 적합성** | PDF이 준수되는지 확인하기 위해 저장하려는 표준입니다. 드롭다운에서 을(를) 선택하여 사용 가능한 PDF 표준 목록에서 을(를) 선택합니다. 지원되는 표준에 대한 자세한 내용은 [PDF 표준 정보](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards)를 참조하십시오. |
 | **파일 속성** | 기본 PDF 게시로 전달할 메타데이터를 선택합니다. 드롭다운에 사용자 지정 및 기본 속성이 모두 나열됩니다. 예를 들어 `dc:description`, `dc:language`, `dc:title` 및 `docstate`은(는) 기본 속성이지만 `author`을(를) 사용자 지정 속성으로 가질 수 있습니다. 선택한 메타데이터 속성이 네이티브 PDF을 사용하여 생성된 PDF 파일에 전달됩니다. <br> 이 속성은 `/libs/fmdita/config/metadataList`에서 사용할 수 있는 `metadataList` 파일에서 선택됩니다. <br>이 파일은 `/apps/fmdita/config/metadataList`에 오버레이할 수 있습니다. |
 
 
