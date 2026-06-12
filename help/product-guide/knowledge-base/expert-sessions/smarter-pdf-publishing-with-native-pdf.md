@@ -2,10 +2,11 @@
 title: 기본 PDF을 사용하여 더욱 스마트한 PDF 게시
 description: 이 전문가 세션에서는 PDF 생성을 위해 낮은 코드 기술을 사용하는 대신 고급 CSS 또는 XSLT 전문 지식을 사용하지 않고 기본 PDF을 사용하여 DITA 지원 PDF을 만드는 방법을 다룹니다
 keywords: DITA PDF 게시, AEM Guides, 기본 PDF, PDF에 대한 DITA, DITA 게시 워크플로, PDF 자동화, 메타데이터 기반 게시, DITA 템플릿
-source-git-commit: 1ae89da4d2638e375f684c187ef68389baa5a5bc
+exl-id: 763ca6fb-1e5a-4676-9684-879c13ba9a8e
+source-git-commit: 2fde91e85c4283d114b29f77a38bae6d67e60112
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 1%
+source-wordcount: '266'
+ht-degree: 2%
 
 ---
 
@@ -55,7 +56,7 @@ ht-degree: 1%
 
 ### 커뮤니티 포럼
 
-- Experience League에서 세션별 커뮤니티 상호 작용을 보려면 [AEM Guides 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=ko)을 방문하십시오.
+- Experience League에서 세션별 커뮤니티 상호 작용을 보려면 [AEM Guides 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)을 방문하십시오.
 
 
 

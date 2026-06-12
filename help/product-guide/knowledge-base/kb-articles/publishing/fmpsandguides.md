@@ -6,22 +6,14 @@ feature: AEM Guides FrameMaker Publishing Server
 author: Pulkit Nagpal(punagpal)
 role: User, Admin
 TQID: https://experienceleague.adobe.com/-qkx3TRKOd-kPx1tFrguuWvBY4hIIyqLdCfKDQzR5jg
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 779
+source-wordcount: 757
 ht-degree: 0%
 
 ---
@@ -33,9 +25,9 @@ ht-degree: 0%
 
 ## FMPS와 AEM Guides의 호환성
 
-- 4.1 AEM Guides과의 호환성: [4.1 호환성 매트릭스](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=ko/#compatibility-matrix)
+- 4.1 AEM Guides과의 호환성: [4.1 호환성 매트릭스](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=en/#compatibility-matrix)
 - 4.0 AEM Guides과의 호환성: [4.0 호환성 매트릭스](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html/#Compatibility%20matrix)
-- 최신 릴리스: [최신 릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=ko)
+- 최신 릴리스: [최신 릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=en)
 
 ## 설치
 
@@ -47,7 +39,7 @@ AEM Guides 및 FMPS 설치 및 구성은 다음을 참조하십시오
 
 ### FMPS
 
-FMPS 설치의 경우 제공된 [YouTube 링크](https://www.youtube.com/watch?v=2deelyM5VA8&t) 또는 [FMPS 설치 및 구성](https://help.adobe.com/ko_KR/framemaker/server/index.html#t=fmps-user-guide%2Finstall_config_fmps.html%23install_config_fmps&rhtocid=_2)을 참조할 수 있습니다.
+FMPS 설치의 경우 제공된 [YouTube 링크](https://www.youtube.com/watch?v=2deelyM5VA8&t) 또는 [FMPS 설치 및 구성](https://help.adobe.com/en_US/framemaker/server/index.html#t=fmps-user-guide%2Finstall_config_fmps.html%23install_config_fmps&rhtocid=_2)을 참조할 수 있습니다.
 
 ## 필수 구성
 
@@ -99,7 +91,7 @@ FMPS2020.0.2 이상 버전으로 이미 생성된 기준선을 게시할 수 있
 ### 기준선이 FMPS에서 게시되지 않음
 
 >FMPS2020.0.2 이상 버전은 기준 게시와 호환됩니다.
->기준선이 제대로 생성되었는지 확인합니다. 확인하려면 맵 대시보드— 주제— 다운로드로 이동한 다음 &quot;기준선 사용&quot;을 선택합니다.
+>기준선이 제대로 만들어졌는지 확인하십시오. 확인하려면 맵 대시보드— 주제— 맵으로 이동하여 &quot;기준선 사용&quot;을 선택하십시오.
 
 ### FMPS에서 작업을 게시하는 데 다른 엔진보다 시간이 더 걸립니다.
 
@@ -107,10 +99,10 @@ FMPS2020.0.2 이상 버전으로 이미 생성된 기준선을 게시할 수 있
 
 ## 기타 리소스:
 
-[FMPS 학습 및 지원](https://helpx.adobe.com/kr/support/framemaker-publishing-server.html)
+[FMPS 학습 및 지원](https://helpx.adobe.com/support/framemaker-publishing-server.html)
 
 [AEM Guides 학습 및 지원](https://helpx.adobe.com/in/support/xml-documentation-for-experience-manager.html)
 
 [FrameMaker 및 FMPS 커뮤니티](https://community.adobe.com/t5/framemaker/ct-p/ct-framemaker?page=1&sort=latest_replies&lang=all&tabid=all)
 
-[AEM Guides 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=ko)
+[AEM Guides 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)
