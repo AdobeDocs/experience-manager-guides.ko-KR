@@ -65,7 +65,7 @@ margin-top: 2mm;
 1. 페이지 레이아웃을 선택합니다. 예를 들어 머리글이나 바닥글이 포함된 표지 페이지 레이아웃을 선택할 수 있습니다.
 1. 바코드를 삽입할 위치에 다음 범위를 추가합니다.
 
-   `<span class="barcode">Sample barcode</span></p>`.
+   `<span class="barcode">Sample barcode</span></p>`
 
    >[!NOTE]
    >

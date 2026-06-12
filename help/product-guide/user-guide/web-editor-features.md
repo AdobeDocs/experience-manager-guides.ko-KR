@@ -34,7 +34,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 18790
+source-wordcount: 18677
 ht-degree: 0%
 
 ---
@@ -1736,7 +1736,7 @@ Experience Manager Guides은 또한 중첩된 수준 제목 체계 맵을 지원
 **값을 특정 요소로 제한**
 
 항목 내의 일부 요소로 조건을 제한할 수도 있습니다. `<elementdef>` 태그를 사용하여 요소를 정의하고 `<attributedef>` 태그를 사용하여 요소에 적용할 수 있는 조건을 정의합니다.  `<elementdef>` 태그를 추가하지 않으면 모든 요소에 조건을 적용할 수 있습니다.
-예를들어 다음 열거형을 사용하여 `@platform` 특성을 `<shortdesc>` 요소로 제한합니다.  다른 조건은 모든 요소에 대해 표시됩니다.
+예를 들어 다음 열거형을 사용하여 `@platform` 특성을 `<shortdesc>` 요소로 제한합니다.  다른 조건은 모든 요소에 대해 표시됩니다.
 
 ```XML
 <enumerationdef>
