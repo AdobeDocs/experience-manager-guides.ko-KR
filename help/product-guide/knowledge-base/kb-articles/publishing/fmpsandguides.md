@@ -33,9 +33,9 @@ ht-degree: 0%
 
 ## FMPS와 AEM Guides의 호환성
 
-- 4.1 AEM Guides과의 호환성: [4.1 호환성 매트릭스](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=en/#compatibility-matrix)
+- 4.1 AEM Guides과의 호환성: [4.1 호환성 매트릭스](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=ko/#compatibility-matrix)
 - 4.0 AEM Guides과의 호환성: [4.0 호환성 매트릭스](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html/#Compatibility%20matrix)
-- 최신 릴리스: [최신 릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=en)
+- 최신 릴리스: [최신 릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=ko)
 
 ## 설치
 
@@ -47,7 +47,7 @@ AEM Guides 및 FMPS 설치 및 구성은 다음을 참조하십시오
 
 ### FMPS
 
-FMPS 설치의 경우 제공된 [YouTube 링크](https://www.youtube.com/watch?v=2deelyM5VA8&t) 또는 [FMPS 설치 및 구성](https://help.adobe.com/en_US/framemaker/server/index.html#t=fmps-user-guide%2Finstall_config_fmps.html%23install_config_fmps&rhtocid=_2)을 참조할 수 있습니다.
+FMPS 설치의 경우 제공된 [YouTube 링크](https://www.youtube.com/watch?v=2deelyM5VA8&t) 또는 [FMPS 설치 및 구성](https://help.adobe.com/ko_KR/framemaker/server/index.html#t=fmps-user-guide%2Finstall_config_fmps.html%23install_config_fmps&rhtocid=_2)을 참조할 수 있습니다.
 
 ## 필수 구성
 
@@ -107,10 +107,10 @@ FMPS2020.0.2 이상 버전으로 이미 생성된 기준선을 게시할 수 있
 
 ## 기타 리소스:
 
-[FMPS 학습 및 지원](https://helpx.adobe.com/support/framemaker-publishing-server.html)
+[FMPS 학습 및 지원](https://helpx.adobe.com/kr/support/framemaker-publishing-server.html)
 
 [AEM Guides 학습 및 지원](https://helpx.adobe.com/in/support/xml-documentation-for-experience-manager.html)
 
 [FrameMaker 및 FMPS 커뮤니티](https://community.adobe.com/t5/framemaker/ct-p/ct-framemaker?page=1&sort=latest_replies&lang=all&tabid=all)
 
-[AEM Guides 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)
+[AEM Guides 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=ko)
