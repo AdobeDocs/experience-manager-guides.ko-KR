@@ -5,21 +5,14 @@ exl-id: 41152fa4-f739-44d2-9ccd-74072f53e31b
 feature: Publishing
 role: User
 TQID: https://experienceleague.adobe.com/4ZtP8sNNhuZwJ-bTKThXiRZwVXvJ2PvfKyyo91HO1bE
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-subfeature_v2:
-  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
-  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2: id: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 1251
+source-wordcount: 1234
 ht-degree: 1%
 
 ---
@@ -137,7 +130,7 @@ Adobe Experience Manager Guides에서는 맵 컬렉션이라는 대시보드를 
 
 1. 업데이트를 저장하려면 맨 위에 있는 **저장 및 닫기**&#x200B;를 선택하십시오.
 1. (선택 사항) 태그를 업데이트할 때 **저장 및 닫기** 드롭다운에서 추가를 선택하여 새 태그를 기존 목록에 추가할 수도 있습니다.
-1. **저장 및 닫기** 드롭다운에서 **제출**&#x200B;을 선택합니다.
+1. **저장 및 닫기** 드롭다운에서 **제출**을 선택합니다.
 맵 컬렉션에서 일괄 선택하는 DITA 맵에 대해 메타데이터 속성이 업데이트됩니다.
 
 >[!NOTE]
@@ -162,4 +155,4 @@ Adobe Experience Manager Guides에서는 맵 컬렉션이라는 대시보드를 
 
 ![](images/cancel-publish-task-map-collection.png)
 
-**상위 항목:**&#x200B;[&#x200B;출력 생성](generate-output.md)
+**상위 항목:**[&#x200B;출력 생성](generate-output.md)

@@ -5,18 +5,13 @@ exl-id: ea0bd465-a2d9-488f-83e9-62b336233eb1
 feature: Publishing, Bulk Activation
 role: User
 TQID: https://experienceleague.adobe.com/wsG3SOMPqESl5dtCXw0wERboSJ57RG2PIR9QKYow-5Q
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-subfeature_v2:
-  - id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2: id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 758
+source-wordcount: 732
 ht-degree: 0%
 
 ---
@@ -99,7 +94,7 @@ DITA 맵 파일이 벌크 활성화 맵 컬렉션에 추가됩니다.
 - **게시됨**: 마지막으로 게시된(또는 활성화된) 출력의 날짜와 시간을 표시합니다. 링크를 선택하면 콘텐츠가 활성화된 루트 경로에 대한 정보와 함께 로그가 포함된 활성화 결과 페이지가 표시됩니다.
   ![이(가) 일괄 활성화 컬렉션 감사 기록 탭을 만들었습니다](images/bulk-collection-audit-history.png)
 
-  ***감사 기록**&#x200B;탭에서 활성화된 맵 출력에 대한 정보를 봅니다.*
+  ***감사 기록**탭에서 활성화된 맵 출력에 대한 정보를 봅니다.*
 
 
   >[!NOTE]
@@ -118,4 +113,4 @@ DITA 맵 파일이 벌크 활성화 맵 컬렉션에 추가됩니다.
 
 **맵 및 사전 설정** 탭에서 **감사 기록** 탭으로 전환하거나 그 반대로 전환하면 필터가 업데이트됩니다.
 
-**상위 항목: &#x200B;** [게시된 콘텐츠의 일괄 활성화](conf-bulk-activation.md)
+**상위 항목: **[게시된 콘텐츠의 일괄 활성화](conf-bulk-activation.md)
