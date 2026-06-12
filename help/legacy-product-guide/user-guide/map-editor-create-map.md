@@ -6,16 +6,10 @@ role: User
 hide: true
 exl-id: 981ecaeb-9b1f-4c7a-8336-7746a739bedc
 TQID: https://experienceleague.adobe.com/ezadQbcoT3y2-owiIZ5MgsnBbNegmCb2lCIwxgwhcAE
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2:
-  - id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 472
@@ -66,4 +60,4 @@ AEM Guides은 DITA 맵과 북맵이라는 두 가지 기본 맵 템플릿을 제
    > 고급 맵 편집기를 사용하려면 웹 편집기에서 맵 파일에 액세스합니다. 관리자가 고급 맵 편집기를 맵 파일의 기본 편집기로 구성한 경우 맵 파일은 편집을 위해 고급 맵 편집기에서 직접 열립니다. Adobe Experience Manager Guides as a Cloud Service 설치 및 구성에서 *고급 맵 편집기를 기본값으로 설정* 섹션을 참조하십시오.
 
 
-**상위 항목:**&#x200B;[&#x200B;맵 편집기 작업](map-editor.md)
+**상위 항목:**[&#x200B;맵 편집기 작업](map-editor.md)

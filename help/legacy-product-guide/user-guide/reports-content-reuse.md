@@ -6,17 +6,11 @@ role: User
 hide: true
 exl-id: 1a61fc05-b2b4-4665-a15a-0058fbbc2942
 TQID: https://experienceleague.adobe.com/VpM0bDhlBIh5R1JA97j-k1YYfWoyss0exz8d5tUuKTE
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
-subfeature_v2:
-  - id: cdab8659-8d50-4417-b6fd-762f347c13ee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: cdab8659-8d50-4417-b6fd-762f347c13ee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 428
@@ -77,4 +71,4 @@ ht-degree: 0%
 >
 > 콘텐츠 재사용 보고서를 CSV 형식으로 내보낼 수도 있습니다. 이렇게 하려면 화면 왼쪽 상단 모서리에서 CSV로 내보내기 링크를 클릭하고 CSV 파일을 저장할 위치를 선택합니다. 그런 다음 모든 CSV 편집기에서 이 CSV 파일을 열 수 있습니다.
 
-**상위 항목:**&#x200B;[&#x200B;보고서](reports-intro.md)
+**상위 항목:**[&#x200B;보고서](reports-intro.md)

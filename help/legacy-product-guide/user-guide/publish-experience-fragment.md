@@ -6,19 +6,12 @@ role: User
 hide: true
 exl-id: c3c6c063-441c-413b-a63e-0acbd126ca6d
 TQID: https://experienceleague.adobe.com/-criVtAp0Z8q4-Pw0fdJvqXxYgWBOXUSuH3ySkaMeNc
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: c6d09140-3c91-45d3-b7ed-b681af752f43
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: a3bd6397-2eb2-4908-a61c-226e26855dcaid: c6d09140-3c91-45d3-b7ed-b681af752f43id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 995
+source-wordcount: 974
 ht-degree: 0%
 
 ---
@@ -48,7 +41,7 @@ Experience Manager Guides을 사용하면 주제 또는 해당 요소를 경험 
 
      폴더에 대해 허용된 템플릿을 정의하지 않으면 기본적으로 상위 폴더 또는 템플릿 폴더에서 템플릿이 선택됩니다.
    * **정렬 가능**: 폴더 내의 자산 순서를 변경할 수 있습니다.
-     ![폴더 속성에서 클라우드 구성 세부 정보 추가](images/experience-fragment-folder-properties.png){width="650"}
+     ![폴더 속성에 클라우드 구성 세부 정보 추가](images/experience-fragment-folder-properties.png){width="650"}
      *폴더 속성에 클라우드 구성을 추가하여 조각 템플릿과 연결합니다.*
 1. 경험 조각을 생성하려면 주제의 **파일 속성**&#x200B;에서 **출력** 섹션에서 **새 출력** ![새 출력 아이콘](./images/Add_icon.svg)을 선택하십시오.
 1. **경험 조각**&#x200B;을 선택합니다.\
