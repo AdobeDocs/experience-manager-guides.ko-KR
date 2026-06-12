@@ -5,10 +5,15 @@ exl-id: 4da644b9-8c5f-4976-a212-960085b693b8
 feature: Publishing, Bulk Activation
 role: User
 TQID: https://experienceleague.adobe.com/ujkifru-aKa2oYvrE8EKUEE3Sai8NqQ9lx9BA2ZUw9U
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
-subfeature_v2: id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2:
+  - id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 469
@@ -78,7 +83,7 @@ ht-degree: 1%
 다음 중 하나를 수행하십시오.
 
 * 선택한 맵의 출력을 활성화하려면 미리 생성된 맵 출력을 선택하고 **빠른 게시**&#x200B;를 선택합니다.
-* 구성된 사전 설정으로 모든 DITA 맵의 출력을 활성화하려면 맵(열) 옆에 있는 확인란을 선택한 다음 **빠른 게시**를 선택합니다.
+* 구성된 사전 설정으로 모든 DITA 맵의 출력을 활성화하려면 맵(열) 옆에 있는 확인란을 선택한 다음 **빠른 게시**&#x200B;를 선택합니다.
   ![bulk-collection-publish](images/bulk-activation-collection-quick-publish.png){width="650"}
 
   >[!NOTE]
@@ -90,4 +95,4 @@ ht-degree: 1%
 
 선택한 맵 파일에 대해 출력이 활성화되면 감사 기록 탭이 업데이트되고 가장 최근에 활성화된 출력이 맨 위에 표시됩니다. **게시됨** 열이 게시 날짜 및 시간으로 업데이트되었습니다.
 
-**상위 항목: **[게시된 콘텐츠의 일괄 활성화](conf-bulk-activation.md)
+**상위 항목: &#x200B;** [게시된 콘텐츠의 일괄 활성화](conf-bulk-activation.md)
