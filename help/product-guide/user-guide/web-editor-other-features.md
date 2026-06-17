@@ -17,9 +17,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
+source-git-commit: 1833481e1801fa171901abafe5eb256baaa10b8f
 workflow-type: tm+mt
-source-wordcount: 4232
+source-wordcount: 4258
 ht-degree: 0%
 
 ---
@@ -414,6 +414,10 @@ Experience Manager Guides은 [MathType Web](https://docs.wiris.com/en/mathtype/m
 MathML 수식 도구를 사용하여 수식을 만들고 **삽입**&#x200B;을 선택하여 문서에 추가합니다. 방정식은 밝은 회색 배경과 함께 삽입됩니다.
 
 언제든지 기존 방정식을 마우스 오른쪽 단추로 클릭하고 컨텍스트 메뉴에서 **MathML 편집**&#x200B;을 선택하여 방정식을 업데이트할 수 있습니다.
+
+>[!NOTE]
+>
+> MathML 생성은 MathML 방정식과 연결된 `output-class`을(를) 전파하여 글꼴, 색상, 배경 및 기타 서식과 같은 구성된 스타일을 생성된 출력에 반영할 수 있도록 합니다.
 
 ### MathML 편집기의 방정식 유효성 검사
 

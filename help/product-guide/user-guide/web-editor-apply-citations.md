@@ -15,32 +15,27 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 4eddfbe75d7dba679c1a414369394827162706f9
 workflow-type: tm+mt
-source-wordcount: 1962
-ht-degree: 1%
+source-wordcount: 1890
+ht-degree: 0%
 
 ---
 
 # 콘텐츠의 인용 항목 추가 및 관리
 
->[!NOTE]
->
-> 인용은 이전 편집기에서만 지원되며 현재 새 편집기에서 사용할 수 없습니다. 이 문서의 정보는 이전 편집기를 사용하는 경우에만 적용됩니다.
-
 인용은 콘텐츠에 추가된 정보 소스에 대한 참조입니다. 인용을 사용하여, 당신은 소스 정보의 작성자를 크레딧하고 독자가 소스 정보에 대한 후속 조치를 도울 수 있습니다. 인용을 추가하면 콘텐츠를 더욱 신뢰할 수 있게 만들고 표절을 방지하게 된다. 또한 잘 연구된 콘텐츠를 표시할 수 있습니다.
 
 Adobe Experience Manager Guides에서 인용을 추가 및 가져와서 콘텐츠에 적용할 수 있습니다. 책, 웹 사이트 및 저널의 모든 소스에서 이러한 인용구를 추가할 수 있습니다.
 
-
 Experience Manager Guides을 사용하면 인용구를 편집, 미리 보기 및 정렬할 수 있습니다. 콘텐츠에 인용을 추가한 후 기본 PDF을 사용하여 출력을 생성할 수 있습니다. 기본 PDF 출력에서 참고 문헌 또는 참조 페이지를 추가할 수도 있습니다.
 
-Experience Manager Guides은 MLA(Modern Language Association), APA(American Psychological Association), Chicago, IEEE(Institute for Electrical and Electronics Engineers) 및 AHA(American Heart Association)와 같은 다양한 스타일의 인용을 지원합니다. 명확하고 일관되게 사용할 것을 권장합니다.
+Experience Manager Guides은 현대언어협회(MLA), 미국심리학회(APA), 시카고, 전기전자공학회(IEEE), 미국심장학회(AHA), 미국의학협회(AMA) 등 다양한 스타일의 인용을 지원합니다. 명확하고 일관되게 사용할 것을 권장합니다.
 
 
 >[!NOTE]
 >
->현재 Experience Manager Guides은 인용에 대한 기본 PDF만 지원합니다.
+>Experience Manager Guides은 기본 PDF에 게시할 때 모든 인용 스타일을 지원합니다. AEM Sites 출력의 경우 현재 AMA 스타일 인용만 지원됩니다.
 
 
 ## 인용 추가
@@ -71,7 +66,7 @@ Experience Manager Guides은 MLA(Modern Language Association), APA(American Psyc
    | 책 | 웹 사이트 | 저널 |
    | --- | ---|---|
    | **Source** <br> 드롭다운에서 장부로 인용의 출처를 선택합니다. | **Source**<br>&#x200B;드롭다운에서 웹 사이트로 인용의 출처를 선택합니다. | **Source** <br> 드롭다운에서 인용의 출처를 저널로 선택합니다. |
-   | **검색 기준** <br> 드롭다운에서 **ISBN** 또는 **DOI**&#x200B;을(를) 선택하여 인용에 연결된 디지털 ID를 검색합니다.  <br> DOI: 디지털 개체 ID <br> ISBN: 고유 번호부 ID | **검색 기준** <br> 드롭다운에서 **DOI**&#x200B;를 선택하여 인용에 연결된 디지털 ID를 검색합니다. | **검색 기준** <ul><li>드롭다운에서 **DOI** 또는 **PubMed ID**&#x200B;을(를) 선택하여 인용에 연결된 디지털 ID를 검색합니다.</li><li>드롭다운에서 **모든 필드**&#x200B;을(를) 선택하여 *제목*, *저널 제목*, *작성자*, *연도*, *볼륨*, *숫자*, *페이지*&#x200B;와 같은 모든 저널 필드를 검색합니다. <br> 입력한 텍스트를 기반으로 가장 일치하는 인용구를 검색합니다.</li> |
+   | **검색 기준** <br> 드롭다운에서 **ISBN** 또는 **DOI**&#x200B;을(를) 선택하여 인용에 연결된 디지털 ID를 검색합니다.  <br> DOI: 디지털 개체 ID <br> ISBN: 고유 번호부 ID | **검색 기준** <br> 드롭다운에서 **DOI**&#x200B;를 선택하여 인용에 연결된 디지털 ID를 검색합니다. | **검색 기준** <ul><li>드롭다운에서 **DOI** 또는 **PubMed ID**&#x200B;을(를) 선택하여 인용에 연결된 디지털 ID를 검색합니다.</li><li>드롭다운에서 **모든 필드**&#x200B;을(를) 선택하여 *제목*, *저널 제목*, *작성자*, *연도*, *볼륨*, *숫자*, *페이지*&#x200B;와 같은 모든 저널 필드를 검색합니다. <br> 입력한 텍스트를 기반으로 가장 일치하는 인용구를 검색합니다.</li><li> 드롭다운에서 **인용 구문 분석**&#x200B;을 선택하여 지원되는 AMA 인용을 구문 분석하고 인용 필드를 자동으로 채웁니다. |
    | **작성자** <br> 인용문 작성자의 이름과 성을 추가합니다. 이름을 더 추가하려면 ![](images/Add_icon.svg)을(를) 선택하십시오. | **작성자** <br> 인용문 작성자의 이름과 성을 추가합니다. 이름을 더 추가하려면 ![](images/Add_icon.svg)을(를) 선택하십시오. | **작성자** <br> 인용문 작성자의 이름과 성을 추가합니다. 이름을 더 추가하려면 ![](images/Add_icon.svg)을(를) 선택하십시오. |
    | **제목** <br> 책 제목을 추가합니다. | **제목** <br> 웹 페이지의 제목을 추가합니다. | **제목** <br> 문서의 제목을 추가합니다. |
    | **편집기** <br> 책의 편집기를 추가합니다. | **웹 사이트 이름** <br> 웹 사이트 이름을 추가합니다. | **저널 제목** <br> 문서가 있는 작업의 제목을 추가합니다. |
@@ -174,7 +169,7 @@ Experience Manager Guides은 MLA(Modern Language Association), APA(American Psyc
 
 목록에서 인용구의 이름 위로 마우스를 가져갑니다. ![](images/options.svg) **옵션** 아이콘을 선택하십시오.
 
-1. **미리보기**&#x200B;를 선택합니다.
+1. **미리 보기**&#x200B;를 선택합니다.
 미리보기 창에서 인용의 내용과 형식을 미리 볼 수 있습니다.
 
    >[!NOTE]
