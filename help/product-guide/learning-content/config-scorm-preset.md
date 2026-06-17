@@ -5,17 +5,12 @@ feature: Authoring
 role: User
 exl-id: b3000708-6120-4725-bea1-0b8e58048948
 TQID: https://experienceleague.adobe.com/9WSwgksrX0fahrniOalbizWFXCqcW0QlGAHn707vm-k
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: f7c0b10f032c2584fb6e951da898faaeb4ca7aaf
 workflow-type: tm+mt
-source-wordcount: 275
+source-wordcount: 331
 ht-degree: 0%
 
 ---
@@ -41,8 +36,13 @@ ht-degree: 0%
 
   ![](assets/scorm-content-tab.png){width="650"}
 
-- **게시:** 직접 액세스를 위해 출력을 SCORM Cloud에 게시하려는 경우에만 이 설정을 사용합니다.
 
-  ![](assets/scorm-publish-tab.png){width="650"}
+- **LMS에 게시:** 이 설정을 사용하여 콘텐츠를 ALM(Adobe Learning Manager)에 직접 게시합니다. **게시 서버** 드롭다운에서 **Adobe Learning Manager**&#x200B;을(를) 선택한 다음 이전에 Workspace 설정에 구성된 필수 **게시 프로필**&#x200B;을(를) 선택합니다. 선택한 프로필을 사용하여 연결을 설정하고 생성된 콘텐츠를 ALM에 업로드합니다.
+
+  >[!NOTE]
+  >
+  > 콘텐츠를 ALM에 게시하기 전에 Adobe Learning Manager 게시 프로필을 구성해야 합니다. 자세한 내용은 [프로필 게시](../lc-config-guide/lc-folder-profile.md)를 참조하세요.
+
+  ![](assets/scorm-publish-lms.png){width="650"}
 
 모든 변경 사항이 구성되면 SCORM 사전 설정 페이지의 도구 모음 오른쪽 모서리에 있는 **저장**&#x200B;을 사용하여 SCORM 사전 설정에 대한 변경 사항을 저장합니다.

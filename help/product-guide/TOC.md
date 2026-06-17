@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 살펴보십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: 5f626c210e74c6d11e2441f719cfbfeb33bf55c5
+source-git-commit: c748a4cef0848b35c2e1bee6c5fec4e4de91ba22
 workflow-type: tm+mt
-source-wordcount: '3406'
-ht-degree: 7%
+source-wordcount: '2532'
+ht-degree: 10%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 7%
       - 클라우드 서비스 {#cloud-release-notes}
          - {hide-from-toc}[배포 지침](./release-info/deploy-xml-on-aemaacs.md)
          - 2026 릴리스 {#2026-releases}
+            - 2026.06.0 릴리스 {#2606-release}
+               - [새로운 기능](./release-info/whats-new-2026-06-0.md)
+               - [해결된 문제](./release-info/fixed-issues-2026-06-0.md)
+               - [업그레이드 지침](./release-info/upgrade-instructions-2026-06-0.md)
             - 2026.05.0 SP1 릴리스 {#2605-sp1-release}
                - [해결된 문제](./release-info/fixed-issues-2026-05-0-sp1.md)
             - 2026.05.0 릴리스 {#2605-release}
@@ -198,13 +202,13 @@ ht-degree: 7%
                - [4.2.1 릴리스 정보](./release-info/release-notes-4-2-1.md)
                - [4.2 릴리스 노트](./release-info/release-notes-4-2.md)
          - [4.1.x 릴리스 노트](./release-info/release-notes-4-1.md)
-         - [4.0.x 릴리스 노트](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x 릴리스 노트](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - 사용 안내서 (새 UI) {#user-guide}
    - 소개 {#about-aemg}
-      - [&#x200B; [!DNL Adobe Experience Manager Guides] 정보](./user-guide/intro.md)
+      - [ [!DNL Adobe Experience Manager Guides] 정보](./user-guide/intro.md)
       - [!DNL AEM Guides] 작업 중 및 주요 기능 {#aemg-works-features}
-         - [&#x200B; [!DNL AEM Guides] 작동 방식](./user-guide/intro-how-dxml-works.md)
+         - [ [!DNL AEM Guides] 작동 방식](./user-guide/intro-how-dxml-works.md)
          - [주요 [!DNL AEM Guides] 기능](./user-guide/intro-dxml-features.md)
    - 홈 페이지 {#home-page}
       - [[!DNL AEM Guides] 홈 페이지 경험](./user-guide/intro-home-page.md)
@@ -311,6 +315,7 @@ ht-degree: 7%
             - [맵 콘솔에서 기준선 만들기 및 관리](./user-guide/web-editor-baseline.md)
             - [맵 대시보드에서 기준선 만들기 및 관리](./user-guide/generate-output-use-baseline-for-publishing.md)
             - [맵 콘솔에서 새 기준선 만들기 및 관리](./user-guide/web-editor-baseline-v2.md)
+            - [새 기준 마이그레이션 FAQ](./user-guide/new-baseline-migration-faq.md)
          - [글로벌 및 폴더 프로필 출력 사전 설정 관리](./user-guide/web-editor-manage-output-presets.md)
          - [대상 경로, 사이트 이름 또는 파일 이름 옵션 설정에 변수 사용](./user-guide/generate-output-use-variables.md)
          - [DITA-OT를 사용하여 메타데이터를 출력에 전달](./user-guide/pass-metadata-dita-ot.md)
@@ -323,6 +328,7 @@ ht-degree: 7%
                - [AEM Sites 페이지 게시](./user-guide/publish-aem-sites.md)
                - [증분 출력 생성](./user-guide/generate-output-aem-site.md)
          - [출력 생성을 위해 맵 컬렉션 사용](./user-guide/generate-output-use-map-collection-output-generation.md)
+         - [출력 생성을 위해 새 맵 컬렉션 사용](./user-guide/generate-output-use-new-map-collection-output-generation.md)
          - [출력 생성 프로세스 관리](./user-guide/generate-output-manage-process.md)
          - [게시 대시보드를 사용하여 게시 작업 관리](./user-guide/generate-output-publish-dashboard.md)
          - [기본 문제 해결](./user-guide/generate-output-basic-troubleshooting.md)
@@ -408,201 +414,7 @@ ht-degree: 7%
       - 문제 해결 {#troubleshooting}
          - [세션 시간 초과](./user-guide/session-timeout-prompt.md)
 - 사용 안내서 (이전 UI) {#user-guide-old-ui}
-   - [AEM Guides 개요](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
-- 설치 및 구성 {#install-guide}
-   - 온프레미스 {#on-prem-ig}
-      - {hide-from-toc}[On-Premise 기본 사항](./install-guide/introduction.md)
-      - 다운로드, 설치 및 업그레이드 {#download-install-upgrade-aemg}
-         - {hide-from-toc}[다운로드 및 설치 개요](./install-guide/download-install.md)
-         - {hide-from-toc}[기술 요구 사항](./install-guide/download-install-technical-requirements.md)
-         - {hide-from-toc}[Adobe Experience Manager 설치](./install-guide/download-install-aem.md)
-         - {hide-from-toc}[처음으로 AEM Guides 다운로드 및 설치](./install-guide/download-install-aemg-first-time.md)
-         - {hide-from-toc}[Dispatcher 구성](./install-guide/download-install-configure-dispatcher.md)
-         - {hide-from-toc}[AEM Guides 설치 확인](./install-guide/download-install-verify-aemg-installation.md)
-         - {hide-from-toc}[AEM Guides 업그레이드](./install-guide/upgrade-xml-documentation.md)
-         - {hide-from-toc}[AEM Guides 제거](./install-guide/download-install-unistall-aemg.md)
-         - {hide-from-toc}[성능 최적화를 위한 권장 사항](./install-guide/download-install-recommend-perf-optimiz.md)
-      - 사용자 그룹 및 보안 작업 {#user-group-sec}
-         - {hide-from-toc}[사용자 관리 및 보안](./install-guide/user-admin-sec.md)
-      - 콘텐츠 마이그레이션 {#content-migration}
-         - {hide-from-toc}[UUID가 아닌 콘텐츠를 UUID로 마이그레이션](./install-guide/migrate-uuid-non-uuid.md)
-         - 마이그레이션 프로세스 {#migration-process}
-            - {hide-from-toc}[4.3.1 비 UUID에서 4.3.2 UUID로 콘텐츠 마이그레이션](./install-guide/migrate-non-uuid-4-3.md)
-            - {hide-from-toc}[4.6.0 비 UUID에서 4.6.1 UUID 콘텐츠 마이그레이션으로](./install-guide/migrate-non-uuid-uuid-4-6.md)
-         - {hide-from-toc}[기존 콘텐츠 마이그레이션](./install-guide/migrate-content.md)
-         - {hide-from-toc}[기존 DITA 콘텐츠 업로드](./install-guide/migrate-content-upload-existing-dita-content.md)
-         - {hide-from-toc}[DITA가 아닌 콘텐츠 마이그레이션](./install-guide/migrate-content-non-dita.md)
-      - 사용자 지정 DITA-OT 및 특수화 작업 {#custom-dita-ot-spec}
-         - {hide-from-toc}[사용자 지정 DITA-OT 및 DITA 특수화 사용](./install-guide/dita-ot-specialization.md)
-      - {hide-from-toc}[폴더에 대한 사후 처리 구성](./install-guide/conf-folder-post-processing.md)
-      - {hide-from-toc}[파일 이름 구성](./install-guide/conf-file-names.md)
-      - {hide-from-toc}[UUID를 기반으로 자동 파일 이름 구성](./install-guide/conf-auto-uuid-filenames.md)
-      - {hide-from-toc}[올바른 파일 이름 문자에 대한 Regx 구성](./install-guide/conf-file-names-valid-regx.md)
-      - {hide-from-toc}[AEM 사이트 출력에 대해 올바른 파일 이름 구성](./install-guide/conf-file-names-valid-regx-aem-site-output.md)
-      - 주제 및 맵 템플릿 작업 {#topic-map-template}
-         - {hide-from-toc}[주제 및 맵 템플릿 구성](./install-guide/conf-template-tags.md)
-         - {hide-from-toc}[사용자 지정 DITA 주제 템플릿 구성](./install-guide/conf-template-tags-custom-dita-topic-template.md)
-         - {hide-from-toc}[사용자 지정 DITA 맵 템플릿 구성](./install-guide/conf-template-tags-custom-dita-map-templates.md)
-      - 문서 상태 작업 {#doc-state}
-         - {hide-from-toc}[문서 상태 구성](./install-guide/customize-doc-state.md)
-      - 편집기 설정 {#editor-configs}
-         - {hide-from-toc}[편집기 설정 구성](./install-guide/editor-settings.md)
-      - 웹 편집기 구성 작업 {#web-editor-configs}
-         - {hide-from-toc}[웹 편집기 사용자 지정](./install-guide/conf-web-editor.md)
-         - {hide-from-toc}[도구 모음 사용자 지정](./install-guide/conf-web-editor-customize-toolbar.md)
-         - {hide-from-toc}[태그 보기에 대한 기본값 구성](./install-guide/configure-default-value-tags-view.md)
-         - {hide-from-toc}[체크 인 및 체크 아웃 아이콘에 대한 제목 구성](./install-guide/conf-checkin-checkout-title.md)
-         - {hide-from-toc}[UUID 기반 링크 표시 구성](./install-guide/conf-uuid-based-links.md)
-         - {hide-from-toc}[같은 탭에서 DITA 주제 또는 맵 파일 열기](./install-guide/open-dita-files-same-tab.md)
-         - {hide-from-toc}[왼쪽 패널에서 사용자 지정 패널 구성](./install-guide/configure-custom-panel.md)
-         - {hide-from-toc}[웹 편집기에서 파일 자동 저장 구성](./install-guide/auto-save-in-editor.md)
-         - {hide-from-toc}[파일 검색 대화 상자에 대한 필터 구성](./install-guide/conf-custom-file-filters.md)
-         - {hide-from-toc}[닫을 때 새 버전으로 저장하라는 메시지를 구성하십시오](./install-guide/conf-save-as-new-version-close.md)
-         - {hide-from-toc}[닫을 때 파일을 체크 인하도록 프롬프트 구성](./install-guide/conf-checkin-file-close.md)
-         - {hide-from-toc}[허용되는 특수 문자 구성](./install-guide/conf-special-chars.md)
-         - {hide-from-toc}[요소 ID 자동 생성](./install-guide/auto-generate-ids.md)
-         - {hide-from-toc}[AEM의 기본 사전 사용자 지정](./install-guide/customize-aem-custom-dictionary.md)
-         - {hide-from-toc}[텍스트 필터 구성](./install-guide/config-text-filters.md)
-         - {hide-from-toc}[쿼리에 대한 LimitReads 수를 구성합니다.](./install-guide/conf-query-limitreads.md)
-         - {hide-from-toc}[문서 기반 게시용 패키지 설치](./install-guide/configure-article-based-publishing.md)
-         - {hide-from-toc}[사용자 인터페이스에서 데이터 원본 커넥터 구성](./install-guide/conf-data-source-connector-tools.md)
-         - {hide-from-toc}[고급 맵 편집기를 기본값으로 설정](./install-guide/conf-map-editor.md)
-         - {hide-from-toc}[기본적@navtitle 특성 포함](./install-guide/auto-add-navtitle.md)
-         - {hide-from-toc}[Oxygen에서 편집할 옵션 구성](./cs-install-guide/conf-edit-in-oxygen.md)
-         - {hide-from-toc}[추가 특수 문자 구성](./web-editor/configure-additional-special-characters.md)
-      - 글로벌 및 폴더 수준 프로필 작업 {#global-folder-profiles}
-         - {hide-from-toc}[전역 또는 폴더 수준 프로필 구성](./install-guide/conf-folder-level.md)
-      - 버전 구성 {#version-mgt}
-         - {hide-from-toc}[버전 관리](./install-guide/version-management.md)
-      - 데스크탑 기반 XML 편집기 작업 {#desktop-xml-editor}
-         - {hide-from-toc}[데스크톱 기반 XML 편집기 통합](./install-guide/integrate-desktop-editors.md)
-      - 출력 생성 설정을 사용한 작업 {#output-gen-config}
-         - {hide-from-toc}[출력 생성 설정 구성](./install-guide/conf-output-generation.md)
-         - {hide-from-toc}[AEM Sites 템플릿 다운로드 및 설치](./install-guide/download-install-aem-sites-templates.md)
-         - {hide-from-toc}[AEM Sites에 대한 구성 요소 매핑](./install-guide/component-mapping.md)
-         - {hide-from-toc}[AEM Sites 출력에서 HTML 태그 오버레이](./install-guide/overlay-html-tags-aem-sites.md)
-         - 기본 PDF 게시 {#config-native-pdf-publish}
-            - {hide-from-toc}[PDF 템플릿](./native-pdf/pdf-template.md)
-            - {hide-from-toc}[PDF 템플릿의 구성 요소](./native-pdf/components-pdf-template.md)
-            - {hide-from-toc}[페이지 레이아웃 디자인](./native-pdf/design-page-layout.md)
-            - {hide-from-toc}[PDF 출력의 변수](./native-pdf/native-pdf-variables.md)
-            - {hide-from-toc}[언어 변수 지원](./native-pdf/native-pdf-language-variables.md)
-            - {hide-from-toc}[PDF 출력에 바코드 추가](./native-pdf/add-barcode.md)
-            - 공통 컨텐츠 스타일 {#content-styles}
-               - {hide-from-toc}[일반적인 콘텐츠 스타일을 사용하여 작업](./native-pdf/stylesheet.md)
-               - {hide-from-toc}[사용자 지정 변경 막대 스타일을 사용하여 작업](./native-pdf/change-bar-style.md)
-               - {hide-from-toc}[목차 항목 및 주제 콘텐츠에 사용자 지정 스타일 적용](./native-pdf/custom-style-toc.md)
-               - {hide-from-toc}[PDF 출력에 사용자 지정 책갈피 추가](./native-pdf/add-custom-bookmark.md)
-               - {hide-from-toc}[콘텐츠 또는 스타일에 JavaScript 사용](./native-pdf/use-javascript-content-style.md)
-               - {hide-from-toc}[각주에 스타일 적용](./native-pdf/footnote-number-style.md)
-         - {hide-from-toc}[기본 PDF 게시를 위한 JVM 플래그 구성](./native-pdf/configure-jvm-flags.md)
-         - {hide-from-toc}[출력을 게시할 기본 출력 위치 구성](./native-pdf/configure-base-output-location.md)
-         - {hide-from-toc}[워크플로 구성 및 사용자 지정](./install-guide/customize-workflows.md)
-      - 번역 구성 작업 {#translate-config}
-         - {hide-from-toc}[콘텐츠 번역](./install-guide/translation.md)
-      - AEM Assets 검색 작업 {#aem-asset-search}
-         - {hide-from-toc}[AEM Assets UI 검색 구성](./install-guide/conf-dita-search.md)
-      - 자산 처리 작업 {#asset-processing-on-prem}
-         - {hide-from-toc}[자산 처리 기능 구성](./install-guide/configure-asset-processing.md)
-      - B 트리 정리 작업{#btree-cleanup}
-         - {hide-from-toc}[B-트리 정리 구성](./install-guide/configure-btree-clean-up-job.md)
-      - 사용자 지정 색인화{#custom-indexing}
-         - {hide-from-toc}[찾기 및 바꾸기를 위한 사용자 지정 인덱스 배포(Source 보기)](./install-guide/custom-indexing-prem.md)
-      - DITA 에셋 복제 작업{#dita-assets-replication}
-         - {hide-from-toc}[DITA 에셋 복제 구성](./install-guide/configure-dita-asset-replication.md)
-      - {hide-from-toc}[부록](./install-guide/appendix.md)
-   - 클라우드 서비스 {#cs-ig}
-      - {hide-from-toc}[이 안내서 정보](./cs-install-guide/introduction.md)
-      - AEM Guides as Cloud Service 배포 및 구성 {#deploy-conf-aemg-cs}
-         - {hide-from-toc}[다운로드 및 설치](./cs-install-guide/download-install.md)
-         - {hide-from-toc}[AEM Guides 모듈 배포](./cs-install-guide/download-install-dxml-first-time.md)
-         - {hide-from-toc}[Dispatcher 구성](./cs-install-guide/download-install-configure-dispatcher.md)
-         - {hide-from-toc}[AEM Guides 설치 확인](./cs-install-guide/download-install-verify-dxml-installation.md)
-         - {hide-from-toc}[AEM Guides 업그레이드](./cs-install-guide/download-install-upgrade-dxml.md)
-         - {hide-from-toc}[AEM Guides as Cloud Service을 업그레이드하기 위한 추가 구성](./cs-install-guide/additional-config-for-cloud-service.md)
-         - {hide-from-toc}[구성 재정의](./cs-install-guide/download-install-additional-config-override.md)
-         - {hide-from-toc}[성능 최적화를 위한 권장 사항](./cs-install-guide/download-install-recommend-perf-optimiz.md)
-      - 사용자 그룹 및 보안 작업 {#user-group-sec-cs}
-         - {hide-from-toc}[사용자 관리 및 보안](./cs-install-guide/user-admin-sec.md)
-      - 컨텐츠 마이그레이션 {#migrate-con-cs}
-         - {hide-from-toc}[기존 콘텐츠 마이그레이션](./cs-install-guide/migrate-content.md)
-         - {hide-from-toc}[기존 DITA 콘텐츠 업로드](./cs-install-guide/migrate-content-upload-existing-dita-content.md)
-         - {hide-from-toc}[DITA가 아닌 콘텐츠 마이그레이션](./cs-install-guide/migrate-content-non-dita.md)
-         - {hide-from-toc}[온-프레미스에서 Cloud Service으로 콘텐츠 마이그레이션](./cs-install-guide/migrate-on-premise-content-cloud.md)
-      - 사용자 지정 DITA-OT 및 특수화 작업 {#custom-dita-ot-spec-cs}
-         - {hide-from-toc}[사용자 지정 DITA-OT 및 DITA 특수화 사용](./cs-install-guide/dita-ot-specialization.md)
-      - UUID 및 비 UUID 기반 파일 이름 구성 {#conf-non-uuid-filename-cs}
-         - {hide-from-toc}[폴더에 대한 사후 처리 구성](./cs-install-guide/conf-folder-post-processing.md)
-         - {hide-from-toc}[파일 이름 구성](./cs-install-guide/conf-file-names.md)
-         - {hide-from-toc}[UUID를 기반으로 자동 파일 이름 구성](./cs-install-guide/conf-auto-uuid-filenames.md)
-         - {hide-from-toc}[올바른 파일 이름 문자에 대한 Regx 구성](./cs-install-guide/conf-file-names-valid-regx.md)
-         - {hide-from-toc}[AEM 사이트 출력에 대해 올바른 파일 이름 구성](./cs-install-guide/conf-file-names-valid-regx-aem-site-output.md)
-      - 주제 및 맵 템플릿 작업 {#topic-map-template-cs}
-         - {hide-from-toc}[주제 및 맵 템플릿 구성](./cs-install-guide/conf-template-tags.md)
-         - {hide-from-toc}[사용자 지정 DITA 주제 템플릿 구성](./cs-install-guide/conf-template-tags-custom-dita-topic-template.md)
-         - {hide-from-toc}[사용자 지정 DITA 맵 템플릿 구성](./cs-install-guide/conf-template-tags-custom-dita-map-templates.md)
-      - 문서 상태 작업 {#doc-state-cs}
-         - {hide-from-toc}[문서 상태 구성](./cs-install-guide/customize-doc-state.md)
-         - {hide-from-toc}[문서 상태 필터 구성](./cs-install-guide/config-doc-state-filters.md)
-      - Workspace 설정 구성 {#workspace-configs}
-         - {hide-from-toc}[Workspace 설정](./cs-install-guide/workspace-settings.md)
-      - 웹 편집기 구성 작업 {#web-editor-configs-cs}
-         - {hide-from-toc}[웹 편집기 사용자 지정](./cs-install-guide/conf-web-editor.md)
-         - {hide-from-toc}[도구 모음 사용자 지정](./cs-install-guide/conf-web-editor-customize-toolbar.md)
-         - {hide-from-toc}[작성을 위해 AI 기반 스마트 제안 구성](./cs-install-guide/conf-smart-suggestions.md)
-         - {hide-from-toc}[콘텐츠를 검색하도록 AI 기반 스마트 도움말을 구성하십시오](./cs-install-guide/conf-smart-help.md)
-         - {hide-from-toc}[태그 보기에 대한 기본값 구성](./cs-install-guide/configure-default-value-tags-view.md)
-         - {hide-from-toc}[UUID 기반 링크 표시 구성](./cs-install-guide/conf-uuid-based-links.md)
-         - {hide-from-toc}[붙여 넣은 테이블 표시 구성](./cs-install-guide/conf-pasted-tables.md)
-         - {hide-from-toc}[같은 탭에서 DITA 주제 또는 맵 파일 열기](./cs-install-guide/open-dita-files-same-tab.md)
-         - {hide-from-toc}[왼쪽 패널에서 사용자 지정 패널 구성](./cs-install-guide/configure-custom-panel.md)
-         - {hide-from-toc}[웹 편집기에서 파일 자동 저장 구성](./cs-install-guide/auto-save-in-editor.md)
-         - {hide-from-toc}[닫을 때 새 버전으로 저장하라는 메시지를 구성하십시오](./cs-install-guide/conf-save-as-new-version-close.md)
-         - {hide-from-toc}[닫을 때 파일을 체크 인하도록 프롬프트 구성](./cs-install-guide/conf-checkin-file-close.md)
-         - {hide-from-toc}[허용되는 특수 문자 구성](./cs-install-guide/conf-special-chars.md)
-         - {hide-from-toc}[요소 ID 자동 생성](./cs-install-guide/auto-generate-ids.md)
-         - {hide-from-toc}[AEM의 기본 사전 사용자 지정](./cs-install-guide/customize-aem-custom-dictionary.md)
-         - {hide-from-toc}[텍스트 필터 구성](./cs-install-guide/config-text-filters.md)
-         - {hide-from-toc}[파일 검색 대화 상자에 대한 필터 구성](./cs-install-guide/conf-custom-file-filters.md)
-         - {hide-from-toc}[문서 기반 게시용 패키지 설치](./cs-install-guide/configure-article-based-publishing.md)
-         - {hide-from-toc}[단일 주제 PDF 생성 구성](./cs-install-guide/conf-pdf-generation-dita-ot.md)
-         - {hide-from-toc}[웹 편집기에서 번역 기능 구성](./cs-install-guide/conf-translation-web-editor.md)
-         - {hide-from-toc}[데이터 원본 커넥터 구성](./cs-install-guide/conf-data-source-connector.md)
-         - {hide-from-toc}[사용자 인터페이스에서 데이터 원본 커넥터 구성](./cs-install-guide/conf-data-source-connector-tools.md)
-         - {hide-from-toc}[고급 맵 편집기를 기본값으로 설정](./cs-install-guide/conf-map-editor.md)
-         - {hide-from-toc}[기본적@navtitle 특성 포함](./cs-install-guide/auto-add-navtitle.md)
-      - 글로벌 및 폴더 수준 프로필 작업 {#global-folder-profiles-cs}
-         - {hide-from-toc}[전역 또는 폴더 수준 프로필 구성](./cs-install-guide/conf-folder-level.md)
-      - 버전 구성 {#version-mgt-cs}
-         - {hide-from-toc}[버전 관리](./cs-install-guide/version-management.md)
-      - 데스크탑 기반 XML 편집기 작업 {#desktop-xml-editor}
-         - {hide-from-toc}[데스크톱 기반 XML 편집기 통합](./cs-install-guide/integrate-desktop-editors-cs.md)
-      - Workfront 구성 {#configure-workfront-cs}
-         - {hide-from-toc}[Workfront 구성](./cs-install-guide/conf-workfront.md)
-      - 출력 생성 설정을 사용한 작업 {#output-gen-config-cs}
-         - {hide-from-toc}[출력 생성 설정 구성](./cs-install-guide/conf-output-generation.md)
-         - {hide-from-toc}[AEM Sites 템플릿 다운로드 및 설치](./cs-install-guide/download-install-aem-sites-templates-cs.md)
-         - {hide-from-toc}[AEM Sites에 대한 구성 요소 매핑](./cs-install-guide/component-mapping.md)
-         - {hide-from-toc}[기본 PDF 게시](./cs-install-guide/native-pdf-publishing.md)
-         - {hide-from-toc}[기본 PDF 게시를 위한 노드 프로세스 구성](./native-pdf/configure-node-options.md)
-         - {hide-from-toc}[주제와 콘텐츠 조각 간의 매핑을 만듭니다](./cs-install-guide/conf-content-fragment-mapping-cs.md)
-         - {hide-from-toc}[주제와 경험 조각 간의 매핑을 만듭니다](./cs-install-guide/conf-experience-fragment-mapping-cs.md)
-         - {hide-from-toc}[출력을 게시할 기본 출력 위치 구성](./native-pdf/configure-base-location-cs.md)
-      - 사용자 정의 워크플로우를 사용하여 작업 {#custom-workflow-cs}
-         - {hide-from-toc}[워크플로 구성 및 사용자 지정](./cs-install-guide/customize-workflows.md)
-      - 번역 구성 작업 {#translate-config-cs}
-         - {hide-from-toc}[콘텐츠 번역](./cs-install-guide/translation.md)
-      - AEM Assets 검색 작업 {#aem-asset-search-cs}
-         - {hide-from-toc}[AEM Assets UI 검색 구성](./cs-install-guide/conf-dita-search.md)
-      - 자산 처리 작업 {#asset-processing-cloud}
-         - {hide-from-toc}[자산 처리 기능 구성](./cs-install-guide/configure-asset-processing-cs.md)
-      - B 트리 정리 작업 {#btree-cleanup-cs}
-         - {hide-from-toc}[B-트리 정리 구성](./cs-install-guide/configure-btree-cleanup-cs.md)
-      - 사용자 지정 색인화 {#custom-indexing-cs}
-         - {hide-from-toc}[찾기 및 바꾸기를 위한 사용자 지정 인덱스 배포(Source 보기)](./cs-install-guide/custom-indexing.md)
-      - DITA 에셋 복제 작업 {#dita-assets-replication-cs}
-         - {hide-from-toc}[DITA 에셋 복제 구성](./cs-install-guide/configure-dita-assets-replication.md)
-      - {hide-from-toc}[부록](./cs-install-guide/appendix.md)
+   - [AEM Guides 개요](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 설치 및 구성 {#install-conf-guide}
    - [다운로드, 설치 및 업그레이드](./install-conf-guide/introduction.md)
    - Cloud Service 설치 프로세스 {#deploy-conf-aemg-cs}
@@ -685,7 +497,7 @@ ht-degree: 7%
          - [온-프레미스에 대한 쿼리에 대한 LimitReads 수를 구성합니다.](./install-conf-guide/conf-query-limitreads.md)
       - 데이터 소스 커넥터 {#data-source}
          - [사용자 인터페이스에서 데이터 소스 커넥터 구성](./install-conf-guide/conf-data-source-connector-tools.md)
-         - [Cloud Service용 데이터 소스 커넥터 구성](./install-conf-guide/conf-data-source-connector-cs.md)
+         - {hide-from-toc}[Cloud Service에 대한 데이터 원본 커넥터 구성](./install-conf-guide/conf-data-source-connector-cs.md)
          - {hide-from-toc}[사용자 인터페이스에서 Git 커넥터 만들기 및 구성](./install-conf-guide/conf-git-connector.md)
    - 글로벌 및 폴더 수준 프로필 {#global-folder-profiles}
       - [전역 또는 폴더 수준 프로필 구성](./install-conf-guide/conf-profiles.md)
@@ -710,7 +522,22 @@ ht-degree: 7%
          - [온-프레미스를 위한 AEM Sites 출력의 HTML 태그 오버레이](./install-conf-guide/overlay-html-tags-aem-sites-on-prem.md)
          - [AEM 사이트 출력에 대한 유효한 파일 이름 구성](./install-conf-guide/conf-file-names-valid-regx-aem-site-output.md)
       - 기본 PDF 게시 {#config-native-pdf-publish}
-         - [기본 PDF 게시 템플릿 및 컨텐츠 스타일](./install-conf-guide/template-content-styles.md)
+         - {hide-from-toc}[기본 PDF 게시 템플릿 및 콘텐츠 스타일](./install-conf-guide/template-content-styles.md)
+         - [PDF 템플릿](./native-pdf/pdf-template.md)
+         - [PDF 템플릿의 구성 요소](./native-pdf/components-pdf-template.md)
+         - [페이지 레이아웃 디자인](./native-pdf/design-page-layout.md)
+         - [PDF 출력의 변수](./native-pdf/native-pdf-variables.md)
+         - [언어 변수 지원](./native-pdf/native-pdf-language-variables.md)
+         - [PDF 출력에 바코드 추가](./native-pdf/add-barcode.md)
+         - 공통 컨텐츠 스타일 {#content-styles}
+            - [일반적인 콘텐츠 스타일 사용](./native-pdf/stylesheet.md)
+            - [사용자 정의 변경 막대 스타일 작업](./native-pdf/change-bar-style.md)
+            - [목차 항목 및 주제 콘텐츠에 사용자 지정 스타일 적용](./native-pdf/custom-style-toc.md)
+            - [PDF 출력에 사용자 지정 책갈피 추가](./native-pdf/add-custom-bookmark.md)
+            - [JavaScript을 사용하여 콘텐츠 또는 스타일 작업](./native-pdf/use-javascript-content-style.md)
+            - [각주에 스타일 적용](./native-pdf/footnote-number-style.md)
+         - [기본 PDF에 대한 새 게시 엔진 구성](./native-pdf/conf-new-pdf-engine.md)
+         - [기본 PDF 엔진 v2로 작업](./native-pdf/new-pdf-engine.md)
          - [Cloud Service의 기본 PDF 게시를 위한 노드 프로세스 구성](./native-pdf/conf-node-options-cs.md)
          - [온프레미스를 위한 기본 PDF 게시를 위한 JVM 플래그 구성](./native-pdf/conf-jvm-flags-on-prem.md)
       - Cloud Service에 대한 컨텐츠 및 경험 조각 구성 {#conf-content-exp-fragment}
@@ -725,6 +552,7 @@ ht-degree: 7%
       - [On-Premise에 대한 대상 복사 초기화 구성](./install-conf-guide/conf-translation-copies-on-prem.md)
       - [온-프레미스에 대한 새 기준선 구성](./install-conf-guide/conf-new-baseline-on-prem.md)
       - [On-Premise에 대한 피어 링크 건너뛰기 구성](./install-conf-guide/conf-skip-peer-links-on-prem.md)
+      - {hide-from-toc}[출력 생성을 위한 새 맵 컬렉션 구성](./install-conf-guide/conf-new-map-collection-on-prem.md)
    - 피쳐 확장 {#aemg-customization}
       - [Cloud Service의 찾기 및 바꾸기 기능에 대한 사용자 지정 인덱스 배포](./install-conf-guide/custom-indexing-cs.md)
       - [온-프레미스의 찾기 및 바꾸기 기능에 대한 다시 인덱싱](./install-conf-guide/custom-indexing-on-prem.md)
@@ -740,7 +568,7 @@ ht-degree: 7%
    - [데이터 소스 커넥터를 등록하는 REST API](./api-reference/data-source-connector.md)
    - [조건부 특성으로 작업할 수 있는 REST API](./api-reference/conditional-attribute.md)
    - [전환 워크플로우에 대한 REST API](./api-reference/convert-to-dita.md)
-   - [패키지를 만들고 활성화하기 위한 REST API](./api-reference/create-activate-package.md)
+   - 패키지를 만들고 활성화하기 위한 [REST API](./api-reference/create-activate-package.md)
    - [사후 처리 이벤트 핸들러](./api-reference/post-process-event.md)
    - [폴더 또는 에셋의 사후 처리 상태를 추적하는 API](./api-reference/track-post-processing-status.md)
    - [자산에 대한 일괄 처리를 시작하기 위한 API](./api-reference/bulk-assets-processing.md)
