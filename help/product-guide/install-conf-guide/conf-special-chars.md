@@ -5,16 +5,16 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: e3747a18-b6a1-46fd-a4d1-28a9c087e924
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
 
 # 허용되는 특수 문자 구성 {#id20CIL600035}
 
-웹 편집기를 사용하면 일부 특수 문자를 즉시 삽입할 수 있습니다. 그러나 작성자가 문서에 삽입할 수 있는 특수 문자 목록을 사용자 지정할 수 있습니다. 특수 문자 목록을 사용자 정의하는 경우 기본 특수 문자 집합을 덮어씁니다. 작성자는 구성에 추가하는 특수 문자만 사용할 수 있습니다.
+편집기를 사용하면 일부 특수 문자를 즉시 삽입할 수 있습니다. 그러나 작성자가 문서에 삽입할 수 있는 특수 문자 목록을 사용자 지정할 수 있습니다. 특수 문자 목록을 사용자 정의하는 경우 기본 특수 문자 집합을 덮어씁니다. 작성자는 구성에 추가하는 특수 문자만 사용할 수 있습니다.
 
 Experience Manager Guides 설정을 기반으로 하는 특수 문자의 기본 목록을 덮어쓰는 지침은 Cloud Service 또는 온프레미스에서 제공됩니다.
 
@@ -82,4 +82,4 @@ Experience Manager Guides 설정을 기반으로 하는 특수 문자의 기본 
 
 >[!ENDTABS]
 
-**상위 항목:**&#x200B;[&#x200B;웹 편집기 사용자 지정](customize-overview.md)
+**상위 항목:**[&#x200B;편집기 사용자 지정](customize-overview.md)

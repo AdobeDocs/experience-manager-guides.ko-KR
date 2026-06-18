@@ -1,17 +1,17 @@
 ---
-title: 웹 편집기 도구 모음에서 추가 특수 문자 구성
-description: AEM Guides 웹 편집기에서 추가 특수 문자를 구성하는 방법에 대해 알아봅니다.
+title: 편집기 도구 모음에서 추가 특수 문자 구성
+description: AEM Guides 편집기에서 추가 특수 문자를 구성하는 방법에 대해 알아봅니다.
 feature: Web Editor
 role: User
 exl-id: 4007eb03-c100-4892-b293-f22b3f0082e2
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
 
-# 온프레미스용 웹 편집기 도구 모음에서 추가 특수 문자를 구성하는 방법
+# 온프레미스용 편집기 도구 모음에서 추가 특수 문자를 구성하는 방법
 
 웹 편집기 도구 모음에는 작성자가 이미 특수 문자를 삽입할 수 있는 바로 가기 옵션이 있습니다.
 아래 스크린샷에서도 동일한 내용을 볼 수 있습니다.

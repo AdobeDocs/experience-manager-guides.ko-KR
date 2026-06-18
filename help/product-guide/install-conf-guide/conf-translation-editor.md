@@ -1,24 +1,24 @@
 ---
-title: 웹 편집기에서 번역 기능 구성
-description: 웹 편집기에서 번역 기능을 구성하는 방법 알아보기
+title: 편집기에서 번역 기능 구성
+description: 편집기에서 번역 기능을 구성하는 방법 알아보기
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 22d7e1c7-2059-43fb-b7aa-3ae4a6072678
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
 
-# Cloud Service용 웹 편집기에서 번역 기능 구성
+# Cloud Service용 편집기에서 번역 기능 구성
 
-웹 편집기는 콘텐츠를 여러 언어로 번역할 수 있는 강력한 번역 기능을 제공합니다.
+편집기는 콘텐츠를 여러 언어로 번역할 수 있는 강력한 번역 기능을 제공합니다.
 
-웹 편집기의 **관리** 탭을 사용하여 콘텐츠를 번역할 수 있습니다. 이 탭은 기본적으로 사용할 수 있습니다.
+편집기의 **관리** 탭을 사용하여 콘텐츠를 번역할 수 있습니다. 이 탭은 기본적으로 사용할 수 있습니다.
 
-웹 편집기에서 **관리** 탭을 숨기려면 다음 단계를 수행하십시오.
+편집기에서 **관리** 탭을 숨기려면 다음 단계를 수행하십시오.
 
 1. 관리자로 **Adobe Experience Manager**&#x200B;에 로그인합니다.
 1. 맨 위에 있는 **Adobe Experience Manager** 링크를 클릭하고 **도구**&#x200B;를 선택합니다.
@@ -48,4 +48,4 @@ ht-degree: 0%
 
 **관리** 필터는 더 이상 사용할 수 없습니다.
 
-**상위 항목:**&#x200B;[&#x200B;웹 편집기 사용자 지정](customize-overview.md)
+**상위 항목:**[&#x200B;편집기 사용자 지정](customize-overview.md)

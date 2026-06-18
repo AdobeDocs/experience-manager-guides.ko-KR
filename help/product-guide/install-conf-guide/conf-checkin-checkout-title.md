@@ -5,16 +5,16 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 3032b49e-73d1-44d0-88b4-7e6e9444cac6
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '168'
 ht-degree: 0%
 
 ---
 
 # 온-프레미스의 체크인 및 체크아웃 아이콘 제목 구성
 
-AEM Guides을 사용하면 웹 편집기에서 체크인 및 체크아웃 아이콘의 제목을 구성할 수 있습니다. 체크 인 및 체크 아웃 아이콘의 제목을 구성하려면 다음 단계를 수행하십시오.
+AEM Guides을 사용하면 편집기에서 체크인 및 체크아웃 아이콘의 제목을 구성할 수 있습니다. 체크 인 및 체크 아웃 아이콘의 제목을 구성하려면 다음 단계를 수행하십시오.
 
 1. Adobe Experience Manager에 관리자로 로그인하여 UI 구성 파일을 다운로드합니다.
 1. 맨 위에 있는 Adobe Experience Manager 링크를 클릭하고 **도구**&#x200B;를 선택합니다.

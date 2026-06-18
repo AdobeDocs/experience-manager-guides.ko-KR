@@ -4,9 +4,9 @@ description: AEM Guides에서 메타데이터 속성에 대한 무시 목록을 
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 8e8b24bea8504ad9fcca1117bd9e7b400e757dff
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -70,4 +70,4 @@ AEM Guides에는 무시 목록에 기본 메타데이터 속성 세트가 포함
 
 무시 목록에 포함되지 않은 메타데이터 속성만 문서 버전을 더티(dirty)하게 표시할 수 있습니다.
 
-**상위 항목:**&#x200B;[&#x200B;웹 편집기 사용자 지정](customize-overview.md)
+**상위 항목:**[&#x200B;편집기 사용자 지정](customize-overview.md)

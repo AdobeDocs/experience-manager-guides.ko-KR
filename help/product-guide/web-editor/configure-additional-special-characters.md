@@ -1,25 +1,21 @@
 ---
-title: 웹 편집기 도구 모음에서 추가 특수 문자 구성
-description: AEM Guides 웹 편집기에서 추가 특수 문자를 구성하는 방법에 대해 알아봅니다.
+title: 편집기 도구 모음에서 추가 특수 문자 구성
+description: AEM Guides 편집기에서 추가 특수 문자를 구성하는 방법에 대해 알아봅니다.
 feature: Web Editor
 role: User
 exl-id: 0fbc05a5-a6b0-4f6b-bbc4-8fca03581d90
 TQID: https://experienceleague.adobe.com/7InE1R4lpkq7cQ6xptqVIyjG4b-2i9klObtxf2y7Cw8
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 265
+source-wordcount: 262
 ht-degree: 0%
 
 ---
 
-# 온프레미스용 웹 편집기 도구 모음에서 추가 특수 문자를 구성하는 방법
+# 온프레미스용 편집기 도구 모음에서 추가 특수 문자를 구성하는 방법
 
 웹 편집기 도구 모음에는 작성자가 이미 특수 문자를 삽입할 수 있는 바로 가기 옵션이 있습니다.
 아래 스크린샷에서도 동일한 내용을 볼 수 있습니다.

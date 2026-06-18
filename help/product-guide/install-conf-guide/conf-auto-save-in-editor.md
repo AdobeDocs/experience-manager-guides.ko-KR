@@ -1,24 +1,24 @@
 ---
-title: 웹 편집기에서 파일 자동 저장 구성
-description: 웹 편집기에서 파일 자동 저장을 구성하는 방법에 대해 알아봅니다
+title: 편집기에서 파일 자동 저장 구성
+description: 편집기에서 파일 자동 저장 을 구성하는 방법에 대해 알아봅니다
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 142a588a-3d26-48ee-a3fe-23882922243c
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '275'
 ht-degree: 1%
 
 ---
 
-# 웹 편집기에서 파일 자동 저장 구성 {#id199CC0J0M5Z}
+# 편집기에서 파일 자동 저장 구성 {#id199CC0J0M5Z}
 
-브라우저 기반 편집기에서 가장 일반적인 기능 중 하나는 특정 기간 후에 데이터를 저장하는 기능입니다. AEM Guides 웹 편집기는 또한 지정된 시간 간격으로 주제 및 맵 파일을 자동으로 저장할 수 있도록 지원합니다. 이 기능이 트리거되면 주제 또는 맵의 작업 복사본이 저장됩니다. 주제나 맵의 새 버전이 만들어지지 않습니다. 새 버전을 생성하려면 웹 편집기의 도구 모음에서 개정 저장 아이콘을 클릭해야 합니다.
+브라우저 기반 편집기에서 가장 일반적인 기능 중 하나는 특정 기간 후에 데이터를 저장하는 기능입니다. 또한 AEM Guides 편집기는 지정된 시간 간격으로 주제 및 맵 파일을 자동으로 저장할 수 있도록 지원합니다. 이 기능이 트리거되면 주제 또는 맵의 작업 복사본이 저장됩니다. 주제나 맵의 새 버전이 만들어지지 않습니다. 새 버전을 생성하려면 편집기 도구 모음에서 개정 저장 아이콘을 클릭해야 합니다.
 
 자동 저장 기능은 기본적으로 활성화되어 있지 않으며, Cloud Service용 구성 파일 및 온-프레미스용 `configMgr`을(를) 사용하여 활성화해야 합니다.
 
-Experience Manager Guides 설정을 기반으로 웹 편집기에서 자동 저장 기능을 활성화하기 위한 지침은 Cloud Service 또는 온프레미스입니다.
+Experience Manager Guides 설정을 기반으로 편집기에서 자동 저장 기능을 활성화하기 위한 지침은 Cloud Service 또는 온프레미스에서 제공됩니다.
 
 >[!BEGINTABS]
 

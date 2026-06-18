@@ -4,20 +4,13 @@ description: Adobe Experience Manager Guides 4.6.0 서비스 팩 3 릴리스의 
 role: Leader
 exl-id: 8ff26c28-4a88-4eb2-b359-5b1b0138dd4b
 TQID: https://experienceleague.adobe.com/bsiTHK--FPkvfF4bdYUnL-HbAMuhtBKj7wT2eCmd7hM
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2:
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 371
+source-wordcount: 370
 ht-degree: 4%
 
 ---
@@ -43,7 +36,7 @@ ht-degree: 4%
 - 콘텐츠에 줄바꿈 없는 공백이 포함된 경우 Salesforce에 게시할 수 없습니다. (23664)
 - 끊어진 링크와 같은 오류가 있는 주제의 경우 Salesforce 게시가 실패하고 진행률 표시줄이 무기한 표시됩니다. (22985)
 - 끊어진 링크가 있는 맵의 경우 Salesforce 게시가 실패하고 진행률 표시줄이 무기한 표시됩니다. (24963)
-- 외부 링크에 UUID가 포함되어 있는 경우 사후 처리로 이동하여 외부 링크를 UUID 링크로 변환하므로 웹 편집기와 게시 사이트에서의 링크가 끊어집니다. (22574)
+- 외부 링크에 UUID가 포함되어 있는 경우 사후 처리로 이동하여 외부 링크를 UUID 링크로 변환하므로 편집기와 게시 사이트에서의 링크가 끊어집니다. (22574)
 - `xref`은(는) 링크의 **범위**&#x200B;가 **외부**(으)로 설정된 경우에도 상대 링크로 변환됩니다. (23059)
 - **chunk** 특성이 **to-content**(으)로 설정된 콘텐츠에 대해 기본 PDF 생성이 실패합니다. (21772)
 - 기준선에 대한 **속성 편집** 대화 상자에 동적 기준선에 대해 이전에 저장된 기준이 표시되지 않습니다. (23964)

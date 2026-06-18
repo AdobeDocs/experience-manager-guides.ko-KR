@@ -5,22 +5,14 @@ exl-id: 7b2efae3-be8c-4259-babb-f28a6903116a
 feature: Web Editor, Troubleshooting
 role: User, Admin
 TQID: https://experienceleague.adobe.com/6XYV9fBtBJiOAi2elIcZX3EC-fn22cfLCq2LrgpGJyg
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-subfeature_v2:
-  - id: d6596f3f-92a7-43ec-b444-237db6adad05
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2: id: d6596f3f-92a7-43ec-b444-237db6adad05
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 387
+source-wordcount: 386
 ht-degree: 0%
 
 ---
@@ -48,7 +40,7 @@ ht-degree: 0%
 - 이 확장 프레임워크를 사용하여 모든 인터페이스를 확장할 수 있는지 이해
 - 이미 사용 가능한 내용을 이해하여 나만의 사용자 정의 기능을 쉽게 만들 수 있습니다
 - 다음 예를 사용하여 사용자 지정 학습:
-   - 웹 편집기에서 도움말 및 지원 섹션 추가
+   - 편집기에서 도움말 및 지원 섹션 추가
    - 왼쪽 패널을 하나 더 추가 - 현재 사용자의 작업을 볼 수 있음
    - 이 프레임워크를 사용하여 주제/맵에 대한 도구 모음 단추를 하나 더 추가
    - 웹 편집기의 컨텐츠 속성 패널에 표시되는 정보 확장 - 주어진 파일에서 사후 처리가 수행되는지 여부를 나타내는 사후 처리 정보를 추가합니다.
