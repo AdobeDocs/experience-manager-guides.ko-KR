@@ -16,19 +16,19 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 571
-ht-degree: 0%
+source-wordcount: 444
+ht-degree: 1%
 
 ---
 
 # 웹 편집기의 폴더 컨텍스트 메뉴에서 &#39;DitaMAP 만들기&#39; 표시/숨기기
 
-이 문서에서는 사용자/그룹 권한에 따라 폴더 컨텍스트 메뉴에서 &quot;DitaMap 만들기&quot; 옵션을 숨기거나 표시하도록 안내서 웹 편집기를 사용자 지정하는 방법을 알아봅니다.
+이 문서에서는 사용자/그룹 권한을 기반으로 폴더 컨텍스트 메뉴에서 &quot;DitaMap 만들기&quot; 옵션을 숨기거나 표시하도록 안내서 편집기를 사용자 지정하는 방법을 배웁니다.
 이 사용 사례에서는 작성자가 아닌 모든 사용자에 대해 이 옵션을 숨깁니다.
 
-## 사전 요구 사항
+## 전제 조건
 
 요구 사항에 따라 앱의 UI를 사용자 지정할 수 있는 AEM Guides 확장 패키지를 활용합니다.
 이 [설명서](https://github.com/adobe/guides-extension/tree/main)를 통해 안내서 확장 프레임워크 작동 방식에 대한 자세한 정보를 얻으십시오.

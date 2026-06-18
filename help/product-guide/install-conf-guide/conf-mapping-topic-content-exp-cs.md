@@ -5,9 +5,9 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: f37cd341-aa8b-4af0-9a40-1d034eea3be6
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -157,6 +157,6 @@ Experience Manager Guides은 전체 항목을 HTML으로 변환한 다음 경험
 
 
 
-웹 편집기에서 경험 조각을 게시하는 동안 **경험 조각 생성** 대화 상자의 드롭다운에서 `Template`을(를) 선택하여 **매핑** 필드에서 템플릿에 사용할 수 있는 매핑을 봅니다. 템플릿에 대한 사용자 지정 매핑이 없는 경우 기본 매핑이 나열됩니다. 기본 매핑을 사용하여 전체 주제를 경험 조각으로 게시할 수 있습니다.
+편집기에서 경험 조각을 게시하는 동안 **경험 조각 생성** 대화 상자의 드롭다운에서 `Template`을(를) 선택하여 **매핑** 필드에서 템플릿에 사용할 수 있는 매핑을 봅니다. 템플릿에 대한 사용자 지정 매핑이 없는 경우 기본 매핑이 나열됩니다. 기본 매핑을 사용하여 전체 주제를 경험 조각으로 게시할 수 있습니다.
 
 자세한 내용은 [경험 조각 게시](../user-guide/publish-experience-fragment.md)를 참조하십시오.

@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 살펴보십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: a1c07d0f60b7c37248bcf7ce72ce25d537e3fd57
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '2532'
+source-wordcount: '2528'
 ht-degree: 10%
 
 ---
@@ -474,7 +474,7 @@ ht-degree: 10%
       - [UUID 기반 링크 표시 구성](./install-conf-guide/conf-uuid-based-links.md)
       - [동일한 탭에서 DITA 주제 또는 맵 파일 열기](./install-conf-guide/open-dita-files-same-tab.md)
       - [고급 맵 편집기를 기본값으로 설정](./install-conf-guide/conf-default-map-editor.md)
-      - [웹 편집기에서 파일 자동 저장 구성](./install-conf-guide/conf-auto-save-in-editor.md)
+      - [편집기에서 파일 자동 저장 구성](./install-conf-guide/conf-auto-save-in-editor.md)
       - [닫을 때 새 버전으로 저장하라는 메시지 구성](./install-conf-guide/conf-save-as-new-version-close.md)
       - [닫을 때 파일을 체크 인하도록 프롬프트 구성](./install-conf-guide/conf-checkin-file-close.md)
       - [허용되는 특수 문자 구성](./install-conf-guide/conf-special-chars.md)
@@ -489,7 +489,7 @@ ht-degree: 10%
          - [Cloud Service용 Oxygen에서 편집할 옵션 구성](./install-conf-guide/conf-edit-in-oxygen.md)
          - [Cloud Service에 붙여 넣은 테이블 표시 구성](./install-conf-guide/conf-pasted-tables.md)
          - [Cloud Service에 대한 단일 주제 PDF 생성 구성](./install-conf-guide/conf-pdf-generation-dita-ot.md)
-         - [Cloud Service용 웹 편집기에서 번역 기능 구성](./install-conf-guide/conf-translation-editor.md)
+         - [Cloud Service용 편집기에서 번역 기능 구성](./install-conf-guide/conf-translation-editor.md)
       - On-Premise용 편집기 설정 {#editor-on-prem-settings}
          - [새 편집기 구성](./install-conf-guide/conf-new-editor-on-prem.md)
          - [온프레미스에 대한 추가 특수 문자 구성](/help/product-guide/web-editor/conf-additional-special-characters.md)
@@ -600,12 +600,12 @@ ht-degree: 10%
       - [AEM Guides의 콘텐츠 검토](./knowledge-base/expert-sessions/review-in-aem-guides-jan2026.md)
    - 기사 {#kb-articles}
       - 작성 {#authoring}
-         - 웹 편집기 {#webeditor}
+         - 편집기 {#webeditor}
             - [AEM Guides의 콘텐츠 재사용](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
             - [AEM Guides에서 Markdown 사용](./knowledge-base/kb-articles/authoring/webeditor/markdown-in-dita-and-aem-guides.md)
             - 사용자 정의 {#customizing}
                - [도구 모음에 사용자 지정 단추 추가](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
-               - [웹 편집기에 사용자 지정 스타일 추가](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
+               - [편집기에 사용자 정의 스타일 추가](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
                - [폴더 상황에 맞는 메뉴 사용자 지정](./knowledge-base/kb-articles/authoring/webeditor/customization/hide-create-ditamap-webeditor.md)
                - [파일 상황에 맞는 메뉴 사용자 지정](./knowledge-base/kb-articles/authoring/webeditor/customization/remove-delete-from-webeditor.md)
             - 도식 문자 {#schematron}

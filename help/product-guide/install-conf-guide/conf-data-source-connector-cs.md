@@ -4,18 +4,19 @@ description: 데이터 소스 커넥터 구성 방법 알아보기
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: bb70cca8-cfa5-455b-bc48-a8d26ec5326c
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
 
 # Cloud Service용 데이터 소스 커넥터 구성
 
-AEM Guides은 JIRA, SQL(MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce 및 Elasticsearch 데이터베이스에 대한 기본 제공 커넥터를 제공합니다. 기본 인터페이스를 확장하여 다른 커넥터를 추가할 수도 있습니다. 다음 구성은 다양한 데이터 소스를 쉽게 추가하는 데 도움이 됩니다. 추가되면 웹 편집기에서 데이터 소스를 볼 수 있습니다.
+AEM Guides은 JIRA, SQL(MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce 및 Elasticsearch 데이터베이스에 대한 기본 제공 커넥터를 제공합니다. 기본 인터페이스를 확장하여 다른 커넥터를 추가할 수도 있습니다. 다음 구성은 다양한 데이터 소스를 쉽게 추가하는 데 도움이 됩니다. 추가되면 편집기에서 데이터 소스를 볼 수 있습니다.
 
-데이터 소스 커넥터를 구성한 다음 웹 편집기에서 사용하려면 다음 단계를 수행하십시오.
+데이터 소스 커넥터를 구성한 다음 편집기에서 사용하려면 다음 단계를 수행하십시오.
 
 ## 커넥터 구성
 
@@ -282,4 +283,4 @@ AEM Assets의 일부 위치에 파일을 업로드합니다.
 
 REST API를 사용하여 구성을 등록할 수 있습니다. 자세한 내용은 Adobe Experience Manager Guides용 API 참조에서 *REST API를 보고 데이터 원본 커넥터를 등록하십시오* 섹션을 참조하십시오.
 
-데이터 소스를 구성하면 커넥터가 웹 편집기의 데이터 소스 패널 아래에 나열됩니다. 그런 다음 데이터 소스에 연결하고 주제에 콘텐츠 스니펫을 삽입할 수 있습니다. 자세한 내용은 [데이터 원본에서 콘텐츠 조각 삽입](../user-guide/web-editor-content-snippet.md)을 참조하세요.
+데이터 소스를 구성하면 편집기의 데이터 소스 패널 아래에 커넥터가 나열됩니다. 그런 다음 데이터 소스에 연결하고 주제에 콘텐츠 스니펫을 삽입할 수 있습니다. 자세한 내용은 [데이터 원본에서 콘텐츠 조각 삽입](../user-guide/web-editor-content-snippet.md)을 참조하세요.

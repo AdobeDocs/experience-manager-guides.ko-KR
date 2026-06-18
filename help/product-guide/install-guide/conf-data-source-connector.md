@@ -6,18 +6,18 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
 
 # 데이터 소스 커넥터 구성
 
-AEM Guides은 JIRA 및 SQL(MySQL, PostgreSQL, SQL Server, SQLite) 데이터베이스를 위한 기본 제공 커넥터를 제공합니다. 기본 인터페이스를 확장하여 다른 커넥터를 추가할 수도 있습니다. 다음 구성은 다양한 데이터 소스를 쉽게 추가하는 데 도움이 됩니다. 추가되면 웹 편집기에서 데이터 소스를 볼 수 있습니다.
+AEM Guides은 JIRA 및 SQL(MySQL, PostgreSQL, SQL Server, SQLite) 데이터베이스를 위한 기본 제공 커넥터를 제공합니다. 기본 인터페이스를 확장하여 다른 커넥터를 추가할 수도 있습니다. 다음 구성은 다양한 데이터 소스를 쉽게 추가하는 데 도움이 됩니다. 추가되면 편집기에서 데이터 소스를 볼 수 있습니다.
 
-데이터 소스 커넥터를 구성한 다음 웹 편집기에서 사용하려면 다음 단계를 수행하십시오.
+데이터 소스 커넥터를 구성한 다음 편집기에서 사용하려면 다음 단계를 수행하십시오.
 
 ## 커넥터 구성
 

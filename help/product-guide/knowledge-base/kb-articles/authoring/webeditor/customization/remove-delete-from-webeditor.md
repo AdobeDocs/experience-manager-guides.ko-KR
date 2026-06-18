@@ -15,16 +15,16 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 241
+source-wordcount: 240
 ht-degree: 0%
 
 ---
 
 # 웹 편집기의 파일 상황에 맞는 메뉴에서 &#39;삭제&#39; 옵션 제거
 
-이 문서에서는 특정 사용자 또는 그룹을 위해 AEM Guides 웹 편집기의 파일 컨텍스트 메뉴에서 &#39;삭제&#39; 옵션을 숨기는 방법에 대해 알아봅니다. 파일 컨텍스트 메뉴 옵션의 기타 사용자 지정에 대해서는 Guides Extension Framework 를 확인하십시오. 자세한 내용은 [여기](https://github.com/adobe/guides-extension/tree/main)를 참조하세요.
+이 문서에서는 특정 사용자 또는 그룹을 위해 AEM Guides 편집기의 파일 컨텍스트 메뉴에서 &#39;삭제&#39; 옵션을 숨기는 방법에 대해 알아봅니다. 파일 컨텍스트 메뉴 옵션의 기타 사용자 지정에 대해서는 Guides Extension Framework 를 확인하십시오. 자세한 내용은 [여기](https://github.com/adobe/guides-extension/tree/main)를 참조하세요.
 
 아래 코드 조각에서 볼 수 있듯이 파일 컨텍스트 메뉴에는 이 특정 사용자에게 사용할 수 있는 &#39;삭제&#39; 옵션이 있습니다.
 
@@ -58,5 +58,5 @@ ht-degree: 0%
 ![삭제 없이 파일 contextmenu](../../../assets/authoring/file-contextmenu-Delete-removed.png)
 
 ```
-Please note that these steps would also remove 'move' and 'rename' options from the Web Editor as they are also tied to delete process at the backend.
+Please note that these steps would also remove 'move' and 'rename' options from the Editor as they are also tied to delete process at the backend.
 ```

@@ -5,16 +5,16 @@ feature: Introduction
 role: Admin
 level: Experienced
 exl-id: 43167f0e-158e-4599-8451-303750076731
-source-git-commit: 33f261cafedf505f6d67cdb32d7529d9bfdfe305
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '207'
 ht-degree: 1%
 
 ---
 
 # 이 안내서 정보
 
-Adobe Experience Manager Guides \(나중에 *AEM Guides*\)는 강력한 클라우드 기반의 엔터프라이즈급 구성 요소 콘텐츠 관리 솔루션 \(CCMS\)입니다. Adobe Experience Manager의 기본 DITA 지원을 활성화하여 AEM에서 DITA 기반 콘텐츠 생성 및 전달을 처리할 수 있도록 촉진합니다. 작성자는 기본 제공 웹 편집기를 사용하여 콘텐츠를 만들고 다양한 출력 형식으로 게시할 수 있습니다.
+Adobe Experience Manager Guides \(나중에 *AEM Guides*\)는 강력한 클라우드 기반의 엔터프라이즈급 구성 요소 콘텐츠 관리 솔루션 \(CCMS\)입니다. Adobe Experience Manager의 기본 DITA 지원을 활성화하여 AEM에서 DITA 기반 콘텐츠 생성 및 전달을 처리할 수 있도록 촉진합니다. 작성자는 사용하기 쉬운 기본 편집기를 사용하여 콘텐츠를 만들고 다양한 출력 형식으로 게시할 수 있습니다.
 
 이 안내서에서는 Cloud Service 및 온프레미스용 AEM Guides을 다운로드, 설치 및 구성하는 방법에 대한 지침을 제공합니다. 이 안내서에서는 조직 작성 및 게시 요구 사항에 따라 AEM Guides을 설정하는 자세한 지침을 제공합니다.
 

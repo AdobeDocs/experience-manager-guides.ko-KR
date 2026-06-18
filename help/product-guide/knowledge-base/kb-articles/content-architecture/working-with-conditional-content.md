@@ -15,9 +15,9 @@ subfeature_v2:
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 263
+source-wordcount: 262
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ XML 편집기의 **사용자 환경 설정**&#x200B;에서 1단계에 정의된 
 조건을 사용하여 콘텐츠 섹션을 조건화합니다.
 사용 안내서 [90페이지](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)의 **조건** 섹션을 참조하세요.
 
-![웹 편집기에서 조건 사용](assets/conditions-in-web-editor.png)
+![편집기에서 조건 사용](assets/conditions-in-web-editor.png)
 
 **4단계**
 

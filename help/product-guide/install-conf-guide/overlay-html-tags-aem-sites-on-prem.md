@@ -4,16 +4,17 @@ description: 핵심 구성 요소 매핑을 기반으로 AEM Sites 출력에 대
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: af349df4-04bf-4b9b-885f-d8bca32a4484
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
 
 # 온-프레미스를 위한 AEM Sites 출력의 HTML 태그 오버레이
 
-웹 편집기의 핵심 구성 요소 매핑을 기반으로 AEM Sites 사전 설정을 사용하여 생성된 AEM Sites 출력에서 HTML 태그를 추가하고 사용자 지정할 수 있습니다. HTML 태그를 사용자 지정하려면 `config.xml` 파일을 오버레이할 수 있습니다. 예를 들어 AEM Sites 출력에서 비디오 및 이미지 맵을 구성할 수 있습니다.
+편집기의 핵심 구성 요소 매핑을 기반으로 AEM Sites 사전 설정을 사용하여 생성된 AEM Sites 출력에서 HTML 태그를 추가하고 사용자 지정할 수 있습니다. HTML 태그를 사용자 지정하려면 `config.xml` 파일을 오버레이할 수 있습니다. 예를 들어 AEM Sites 출력에서 비디오 및 이미지 맵을 구성할 수 있습니다.
 
 `config.xml` 파일을 오버레이하고 업데이트하려면 다음 단계를 수행하십시오.
 

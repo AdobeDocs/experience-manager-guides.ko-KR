@@ -25,10 +25,10 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 371
-ht-degree: 9%
+source-wordcount: 370
+ht-degree: 10%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 9%
 
 * **[[!DNL Experience Manager Guides] 기본 제공 편집기에서 작성](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=ko){target="blank"}**
 
-  _[!DNL Adobe Experience Manager Guides]에서 기본 웹 편집기를 사용하여 콘텐츠를 작성하는 방법에 대해 알아봅니다. 사용자 환경 설정, 편집기 설정, 구성, 도구 모음 등을 완벽하게 이해합니다._
+  _[!DNL Adobe Experience Manager Guides]에서 기본 편집기를 사용하여 콘텐츠를 작성하는 방법에 대해 알아봅니다. 사용자 환경 설정, 편집기 설정, 구성, 도구 모음 등을 완벽하게 이해합니다._
 
 * **[출력 생성( [!DNL Experience Manager Guides]](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/overview.html?lang=ko){target="blank"}**)
 
