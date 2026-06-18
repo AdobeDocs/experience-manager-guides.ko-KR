@@ -143,4 +143,4 @@ ht-degree: 0%
 
 
 
-[보안](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/security)의 모범 사례에 대해 자세히 알아보세요.
+[보안](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/developing/introduction/security)의 모범 사례에 대해 자세히 알아보세요.
