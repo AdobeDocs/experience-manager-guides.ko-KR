@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 살펴보십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: c748a4cef0848b35c2e1bee6c5fec4e4de91ba22
+source-git-commit: a1c07d0f60b7c37248bcf7ce72ce25d537e3fd57
 workflow-type: tm+mt
 source-wordcount: '2532'
 ht-degree: 10%
@@ -522,7 +522,7 @@ ht-degree: 10%
          - [온-프레미스를 위한 AEM Sites 출력의 HTML 태그 오버레이](./install-conf-guide/overlay-html-tags-aem-sites-on-prem.md)
          - [AEM 사이트 출력에 대한 유효한 파일 이름 구성](./install-conf-guide/conf-file-names-valid-regx-aem-site-output.md)
       - 기본 PDF 게시 {#config-native-pdf-publish}
-         - {hide-from-toc}[기본 PDF 게시 템플릿 및 콘텐츠 스타일](./install-conf-guide/template-content-styles.md)
+         - [기본 PDF 게시 템플릿 및 컨텐츠 스타일](./install-conf-guide/template-content-styles.md)
          - [PDF 템플릿](./native-pdf/pdf-template.md)
          - [PDF 템플릿의 구성 요소](./native-pdf/components-pdf-template.md)
          - [페이지 레이아웃 디자인](./native-pdf/design-page-layout.md)
