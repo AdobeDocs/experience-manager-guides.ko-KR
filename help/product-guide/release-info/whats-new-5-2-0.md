@@ -2,9 +2,9 @@
 title: 릴리스 정보 | Adobe Experience Manager Guides 5.2.0 릴리스의 새로운 기능
 description: Adobe Experience Manager Guides 5.2.0 릴리스의 새로운 기능과 향상된 기능에 대해 알아봅니다
 role: Leader
-source-git-commit: efd7ab95f0ed7f35e99587a2f47eaeac7a330221
+source-git-commit: 166dd4eec428d81bfe3db92ebc5a54f1760fe7dc
 workflow-type: tm+mt
-source-wordcount: '4132'
+source-wordcount: '4052'
 ht-degree: 0%
 
 ---
@@ -345,13 +345,6 @@ DITA가 아닌 에셋(예: 이미지 및 멀티미디어)의 경우 메타데이
 이제 regex를 사용하여 폴더에 대한 사후 처리를 활성화 또는 비활성화할 수 있습니다. 이 향상된 기능을 통해 관리자는 개별 폴더 경로를 지정하는 대신 단일 구성을 사용하여 여러 폴더 또는 전체 폴더 계층에 적용되는 사후 처리 규칙을 정의할 수 있습니다.
 
 자세한 내용은 [regex를 사용하여 사후 처리를 활성화 또는 비활성화하십시오](../install-conf-guide/conf-folder-post-processing.md)를 참조하십시오.
-
-- 폴더 및 개별 파일 수준 모두에서 자산 처리 실행
-- 주제, 맵, Markdown, HTML/CSS, DITAVAL 또는 기타 지원되는 파일과 같은 특정 자산 유형을 선택하여 자산을 필터링하여 필요한 파일만 처리합니다.
-- 날짜 기반 필터를 적용하여 지정된 일정의 처리 범위를 제한합니다.
-- 저장소 보기 및 탐색기 패널 내의 파일 및 폴더의 컨텍스트 메뉴에서 사용할 수 있는 새 옵션(**에셋 재처리**)을 사용하여 에셋을 직접 재처리합니다.
-
-자산 처리에 대한 자세한 내용은 [자산 처리](../user-guide/asset-processor.md)를 참조하십시오.
 
 ### 최적의 성능을 위한 B 트리 자동 정리
 
