@@ -5,26 +5,26 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: a4623088-a867-4079-80d6-20866c99683e
-source-git-commit: 7a207bd17946baaf1489a8aa5ca7caa07199be31
+source-git-commit: 1aea696b5f5eba9027a71246f7bff0d0fef93221
 workflow-type: tm+mt
-source-wordcount: '1589'
+source-wordcount: '1585'
 ht-degree: 1%
 
 ---
 
 # Experience Manager Guides 및 Edge Delivery Services
 
-Adobe Experience Manager Guides을 사용하면 전용 GitHub 기반 게시 프로필을 통해 DITA 콘텐츠를 현재 *Beta*&#x200B;에서 사용 가능한 Edge Delivery Services(EDS)에 직접 게시할 수 있습니다. 이 기능을 통해 조직은 Experience Manager Guides에서 DITA 기반 작성 워크플로를 유지하면서 고성능 반응형 설명서 경험을 제공할 수 있습니다.
+Adobe Experience Manager Guides을 사용하면 전용 GitHub 기반 게시 프로필을 통해 DITA 콘텐츠를 Edge Delivery Services(EDS)에 직접 게시할 수 있습니다. 이 기능을 통해 조직은 Experience Manager Guides에서 DITA 기반 작성 워크플로를 유지하면서 고성능 반응형 설명서 경험을 제공할 수 있습니다.
 
 Adobe Experience Manager에서 EDS를 사용하는 방법에 대한 자세한 내용은 [Edge Delivery Services 개요](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/edge-delivery/overview)를 참조하십시오.
 
 Experience Manager Guides에서 EDS로 게시를 활성화하려면 GitHub 및 Experience Manager Guides에서 일련의 구성 단계를 완료해야 합니다. 아래 섹션에서는 각 단계를 순서대로 요약하고 전체 게시 워크플로우에서 함께 작동하는 방식을 설명합니다.
 
-1. [EDS용 GitHub 설정 및 구성](#set-up-and-configure-github-for-eds-beta)
-2. [Experience Manager Guides에서 EDS용 게시 프로필 만들기 및 구성](#create-and-configure-a-publish-profile-for-eds-beta-in-experience-manager)
+1. [EDS용 GitHub 설정 및 구성](#set-up-and-configure-github-for-eds)
+2. [Experience Manager Guides에서 EDS용 게시 프로필 만들기 및 구성](#create-and-configure-a-publish-profile-for-eds-in-experience-manager)
 3. [EDS 블록을 사용하여 출력 사용자 지정](#customize-output-using-eds-blocks)
 
-빠른 비디오 연습이 필요하면 [AEM Guides에서 게시](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25)를 참조하십시오.
+빠른 비디오 연습이 필요하면 [AEM Guides에서 게시](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25)를 참조하십시오.
 
 
 
@@ -241,7 +241,7 @@ EDS는 `blocks`을(를) 사용하여 콘텐츠의 다양한 부분을 어떻게 
    - **콘텐츠 속성**(으)로 이동합니다.
    - `outputclass` 특성을 추가합니다.
    - 값을 `example eds-force-block`(으)로 설정합니다.
-   - **추가**&#x200B;를 선택합니다.
+   - **추가**를 선택합니다.
      ![](assets/eds-example-tag.png){width="650"}
 3. 출력을 저장하고 재생성합니다.
 4. `blocks` 디렉터리 내에서 `outputclass`과(와) 같은 이름의 새 폴더를 만듭니다. [저장소에 파일 추가](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository#adding-a-file-to-a-repository-using-the-command-line)에 대해 알아봅니다.
