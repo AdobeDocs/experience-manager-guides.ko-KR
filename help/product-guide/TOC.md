@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 살펴보십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+source-git-commit: 1aea696b5f5eba9027a71246f7bff0d0fef93221
 workflow-type: tm+mt
-source-wordcount: '2528'
+source-wordcount: '2527'
 ht-degree: 10%
 
 ---
@@ -661,7 +661,7 @@ ht-degree: 10%
          - [마이크로서비스 아키텍처 및 성능](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          - [JWT 인증을 사용하여 마이크로서비스 기반 게시 구성](./knowledge-base/publishing/configure-microservices.md)
          - [OAuth 인증을 통해 마이크로서비스 기반 게시 구성](./knowledge-base/publishing/configure-microservices-imt-config.md)
-         - [Edge Delivery Services 구성(Beta)](./knowledge-base/publishing/configure-eds.md)
+         - [Edge Delivery Services 구성](./knowledge-base/publishing/configure-eds.md)
          - [AEM 클라우드에서 벤치마크 게시](./knowledge-base/publishing/publishing-benchmarks-on-aem-cloud.md)
       - 워크플로 {#workflows}
          - [사후 생성 워크플로](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
