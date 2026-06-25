@@ -6,10 +6,17 @@ role: User
 hide: true
 exl-id: bf5a4365-0183-43d5-a39a-b9eb8a34b27d
 TQID: https://experienceleague.adobe.com/FP5RxNtyWcdS-xpw2Atttt3x6DHx73Ljv-Ym91IxY5s
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: d90290ec-3e61-4ebd-8649-bcafe0836803
-subfeature_v2: id: bf79f6d3-0ad0-4d82-99e4-42ce98324d60id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: bf79f6d3-0ad0-4d82-99e4-42ce98324d60
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: c1b7d852b148187cb5d33256223d5e0f5498aa7e
 workflow-type: tm+mt
 source-wordcount: 449
@@ -46,7 +53,7 @@ FrameMaker 문서에 대한 출력 생성 작업을 시작하면 AEM Guides은 �
 > 셀, 행 또는 열 레벨에서 속성을 정의할 수 있습니다
 >
 > <details>
-&gt; <summary>단계 표시</summary>
+>&gt; <summary>단계 표시</summary>
 >
 > 테이블의 여러 셀, 전체 행 또는 열에 속성을 정의할 수도 있습니다. 예를 들어 표 셀을 정렬하려면 필요한 셀을 끌어서 선택합니다. 콘텐츠 속성 패널(오른쪽)에서 속성 **Type**&#x200B;이(가) **entry**(으)로 변경됩니다.
 >
@@ -64,7 +71,7 @@ FrameMaker 문서에 대한 출력 생성 작업을 시작하면 AEM Guides은 �
 셀, 행 또는 열 레벨에서 속성을 정의할 수 있습니다.
 
 > <details>
-&gt; <summary>단계 표시</summary>
+>&gt; <summary>단계 표시</summary>
 >
 > 테이블의 여러 셀, 전체 행 또는 열에 속성을 정의할 수도 있습니다. 예를 들어 표 셀을 정렬하려면 필요한 셀을 끌어서 선택합니다. 콘텐츠 속성 패널(오른쪽)에서 속성 **Type**&#x200B;이(가) **entry**(으)로 변경됩니다.
 >
@@ -77,4 +84,4 @@ FrameMaker 문서에 대한 출력 생성 작업을 시작하면 AEM Guides은 �
 >
 > </details>
 
-**상위 항목:**[ FrameMaker 문서의 출력 생성](fm-output-generatation.md)
+**상위 항목:**&#x200B;[&#x200B; FrameMaker 문서의 출력 생성](fm-output-generatation.md)
