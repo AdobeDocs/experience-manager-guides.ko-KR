@@ -6,10 +6,17 @@ role: User
 hide: true
 exl-id: bf5a4365-0183-43d5-a39a-b9eb8a34b27d
 TQID: https://experienceleague.adobe.com/FP5RxNtyWcdS-xpw2Atttt3x6DHx73Ljv-Ym91IxY5s
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: d90290ec-3e61-4ebd-8649-bcafe0836803
-subfeature_v2: id: bf79f6d3-0ad0-4d82-99e4-42ce98324d60id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: bf79f6d3-0ad0-4d82-99e4-42ce98324d60
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 2e0c04c623ad0fc59d962c3b7c9f2c82d4ff70e0
 workflow-type: tm+mt
 source-wordcount: 245
@@ -42,5 +49,5 @@ FrameMaker 문서에 대한 출력 생성 작업을 시작하면 AEM Guides은 �
      이 목록에서 성공적으로 실행된 작업 또는 실패한 작업이 있을 수 있습니다. 성공적으로 완료된 작업의 경우 게시 프로세스는 생성된 위치 열의 링크를 클릭하여 액세스할 수 있는 로그 파일 \(logs.txt\)을 만듭니다.
 
 
-**상위 항목:**[ FrameMaker 문서의 출력 생성](fm-output-generatation.md)
+**상위 항목:**&#x200B;[&#x200B; FrameMaker 문서의 출력 생성](fm-output-generatation.md)
 
