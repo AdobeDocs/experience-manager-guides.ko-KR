@@ -6,20 +6,13 @@ role: User
 hide: true
 exl-id: dbc27856-6903-4694-9875-77dc778c80bd
 TQID: https://experienceleague.adobe.com/9MQYpx6TIE5Lt447H2Ybr21dZrb2isZlM6gb5Y-PdHk
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: e8cdb1fe05d839d9167e834577f46e17f9ed28b5
 workflow-type: tm+mt
-source-wordcount: 1460
+source-wordcount: 1470
 ht-degree: 0%
 
 ---
@@ -57,8 +50,7 @@ Source 보기에는 항목을 구성하는 기본 XML이 표시됩니다. XML을
 
   위의 스크린샷에서는 잘못된 XML이 포함된 줄을 가리키는 데 상호 강조 표시가 사용됩니다.
 
-- 찾기 및 바꾸기 기능을 사용하면 Source 보기에서 텍스트, 요소 또는 속성을 검색할 수 있습니다.
-자세한 내용은 [기본 도구 모음](web-editor-features.md#id#id2051EA0G05Z) 섹션에서 **찾기 및 바꾸기** 기능 설명을 참조하십시오.
+- 찾기 및 바꾸기 기능을 사용하면 Source 보기에서 텍스트, 요소 또는 속성을 검색할 수 있습니다.자세한 내용은 [기본 도구 모음](web-editor-features.md#id#id2051EA0G05Z) 섹션에서 **찾기 및 바꾸기** 기능 설명을 참조하십시오.
 
 - Source 보기에서는 문서를 빠르게 탐색하고 작업하는 데 도움이 되는 다양한 단축키를 제공합니다. 다음 표에는 지원되는 작업과 해당 바로 가기 키가 나열되어 있습니다.
 
@@ -163,5 +155,7 @@ PDF은 문서 개발 주기의 모든 단계에서 사용되는 가장 일반적
 
    PDF이 생성되어 새 탭에서 열거나 로컬 시스템에 PDF을 저장하는 대화 상자가 표시됩니다.
 
+   자세한 내용은 [PDF 보기](./images/best-practices-guide.pdf)를 참조하세요.
 
-**상위 항목:**&#x200B;[&#x200B;웹 편집기에서 작업](web-editor.md)
+
+**상위 항목:**[&#x200B;웹 편집기에서 작업](web-editor.md)
