@@ -6,10 +6,17 @@ role: User
 hide: true
 exl-id: dbc27856-6903-4694-9875-77dc778c80bd
 TQID: https://experienceleague.adobe.com/9MQYpx6TIE5Lt447H2Ybr21dZrb2isZlM6gb5Y-PdHk
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: e8cdb1fe05d839d9167e834577f46e17f9ed28b5
 workflow-type: tm+mt
 source-wordcount: 1470
@@ -158,4 +165,4 @@ PDF은 문서 개발 주기의 모든 단계에서 사용되는 가장 일반적
    자세한 내용은 [PDF 보기](./images/best-practices-guide.pdf)를 참조하세요.
 
 
-**상위 항목:**[&#x200B;웹 편집기에서 작업](web-editor.md)
+**상위 항목:**&#x200B;[&#x200B;웹 편집기에서 작업](web-editor.md)
