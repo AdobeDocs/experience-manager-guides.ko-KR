@@ -5,16 +5,12 @@ feature: Authoring
 role: User
 exl-id: 3de623d6-c547-42a5-9ce4-c3e09accb8b1
 TQID: https://experienceleague.adobe.com/bSlHWEHJz3axXD3x4mPioaYiId535wHu5m9a5L0jhdc
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 318f2b7a530e50ca4432313650801b2293d6697e
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 4433d28a41c3d9d797b38dbf732119fc3ea69f36
 workflow-type: tm+mt
-source-wordcount: 125
+source-wordcount: 124
 ht-degree: 0%
 
 ---
@@ -28,7 +24,7 @@ SCORM 출력을 생성하려면 다음 단계를 수행하십시오.
 
    ![](assets/scorm-generate-output-new.png){width="650"}
 
-1. 생성이 완료되면 **filename.zip** 파일이 생성되었음을 확인하는 성공 메시지가 나타납니다. 성공 메시지에서 **출력 보기**&#x200B;를 사용하여 출력을 미리 볼 수 있습니다.
+1. 생성이 완료되면 **filename.zip** 파일이 생성되었음을 확인하는 성공 메시지가 나타납니다. 성공 메시지에서 **출력 보기** 옵션을 사용하여 출력을 미리 볼 수 있습니다.
 
    ![](assets/scorm-success-message.png){width="350"}
 
@@ -36,5 +32,5 @@ SCORM 출력을 생성하려면 다음 단계를 수행하십시오.
 
    ![](assets/scorm-view-output-new.png){width="650"}
 
-SCORM 사전 설정에 대한 **LMS에 게시** 탭의 **업로드** 옵션을 사용하여 학습자가 과정을 사용할 수 있도록 ZIP 파일을 LMS에 업로드할 수 있습니다.
+ZIP 파일을 LMS에 업로드하여 SCORM 사전 설정에 대한 **LMS에 게시** 탭의 **업로드** 옵션을 사용하여 학습자가 과정을 사용할 수 있도록 할 수 있습니다.
 
