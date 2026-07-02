@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 살펴보십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: 31ea563a6878c340bba73dfa549fae7cd399720f
+source-git-commit: 944f0c06731cec941f72581a1e47aba25c451c6a
 workflow-type: tm+mt
-source-wordcount: '2537'
+source-wordcount: '2533'
 ht-degree: 10%
 
 ---
@@ -404,7 +404,6 @@ ht-degree: 10%
          - [폴더 프로필 구성](./lc-config-guide/lc-folder-profile.md)
          - [폴더 구조 설정 우수 사례](./lc-config-guide/best-practices-folder-structure.md)
          - [다른 설정 구성](./lc-config-guide/lc-other-settings.md)
-         - [SCORM 미리 보기 필터 구성](./lc-config-guide/conf-scorm-preview-filters.md)
          - [SCORM 키 지표](./lc-config-guide/learning-course-parameters.md)
       - 비디오 자습서 {#lc-video}
          - [작성 워크플로](./lc-video-tutorials/author-workflow.md)
