@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 살펴보십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: 1aea696b5f5eba9027a71246f7bff0d0fef93221
+source-git-commit: 31ea563a6878c340bba73dfa549fae7cd399720f
 workflow-type: tm+mt
-source-wordcount: '2527'
+source-wordcount: '2537'
 ht-degree: 10%
 
 ---
@@ -20,6 +20,9 @@ ht-degree: 10%
       - 클라우드 서비스 {#cloud-release-notes}
          - {hide-from-toc}[배포 지침](./release-info/deploy-xml-on-aemaacs.md)
          - 2026 릴리스 {#2026-releases}
+            - 2026.07.0 릴리스 {#2607-release}
+               - [해결된 문제](./release-info/fixed-issues-2026-07-0.md)
+               - [업그레이드 지침](./release-info/upgrade-instructions-2026-07-0.md)
             - 2026.06.0 릴리스 {#2606-release}
                - [새로운 기능](./release-info/whats-new-2026-06-0.md)
                - [해결된 문제](./release-info/fixed-issues-2026-06-0.md)
@@ -401,6 +404,7 @@ ht-degree: 10%
          - [폴더 프로필 구성](./lc-config-guide/lc-folder-profile.md)
          - [폴더 구조 설정 우수 사례](./lc-config-guide/best-practices-folder-structure.md)
          - [다른 설정 구성](./lc-config-guide/lc-other-settings.md)
+         - [SCORM 미리 보기 필터 구성](./lc-config-guide/conf-scorm-preview-filters.md)
          - [SCORM 키 지표](./lc-config-guide/learning-course-parameters.md)
       - 비디오 자습서 {#lc-video}
          - [작성 워크플로](./lc-video-tutorials/author-workflow.md)

@@ -12,9 +12,9 @@ feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9132140a0305eb0507598a7caf5f704861879a93
+source-git-commit: 6c69cc5da7eadbcbfe499ca7b54c2ddaa1064db7
 workflow-type: tm+mt
-source-wordcount: 127
+source-wordcount: 159
 ht-degree: 0%
 
 ---
@@ -33,6 +33,10 @@ SCORM 출력을 생성하려면 다음 단계를 수행하십시오.
    ![](assets/scorm-success-message.png){width="350"}
 
 1. 각각 **출력 다운로드** 또는 **출력 미리 보기**&#x200B;를 선택하여 출력을 다운로드하거나 미리 볼 수 있습니다.
+
+   >[!NOTE]
+   >
+   > SCORM 미리 보기는 SCORM 출력을 생성할 때 사용할 수 있습니다. 강좌에서 글꼴, 스타일 시트 또는 포함된 콘텐츠를 외부 도메인에 사용하는 경우 [SCORM 미리 보기 구성](../lc-config-guide/conf-scorm-preview-filters.md)에서 허용된 도메인을 구성하십시오.
 
    ![](assets/scorm-view-output-new.png){width="650"}
 
