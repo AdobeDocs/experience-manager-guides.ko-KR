@@ -17,9 +17,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: e8cdb1fe05d839d9167e834577f46e17f9ed28b5
+source-git-commit: 83f5a8409e8bb9c8a6ccc33ffadf64e6c7875f6f
 workflow-type: tm+mt
-source-wordcount: 1470
+source-wordcount: 1478
 ht-degree: 0%
 
 ---
@@ -164,5 +164,8 @@ PDF은 문서 개발 주기의 모든 단계에서 사용되는 가장 일반적
 
    자세한 내용은 [PDF 보기](./images/best-practices-guide.pdf)를 참조하세요.
 
+
+
+   자세한 내용은 [PDF 보기](./images/best-practices-guide.pdf) ![PDF 아이콘](./images/pdf_icon.png "PDF 문서")를 참조하십시오
 
 **상위 항목:**&#x200B;[&#x200B;웹 편집기에서 작업](web-editor.md)
