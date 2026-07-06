@@ -5,9 +5,13 @@ exl-id: 780697a9-bdc6-40c2-b258-64639fe30f88
 feature: Release Notes
 role: Leader
 TQID: https://experienceleague.adobe.com/RROF3KWnqtnbbHGyW1McC9uvdA7x27fI-Rp4nCZOTHo
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 1a08469a4bd12f8b6dd9d83196463432b331f239
 workflow-type: tm+mt
 source-wordcount: 2473
