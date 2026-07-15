@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 살펴보십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: 5dd840e3286511dff9eccc17b048bb7701f4ac9c
+source-git-commit: d24dd017dcedb08e71cfbcf6c4f0aabdc8f20d85
 workflow-type: tm+mt
-source-wordcount: '2499'
+source-wordcount: '2502'
 ht-degree: 10%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 10%
    - 릴리스 정보 {#release-notes}
       - 클라우드 서비스 {#cloud-release-notes}
          - {hide-from-toc}[배포 지침](./release-info/deploy-xml-on-aemaacs.md)
+         - {hide-from-toc}[클라우드 릴리스](./release-info/latest-release-info-cs.md)
          - 2026 릴리스 {#2026-releases}
             - 2026.07.0 릴리스 {#2607-release}
                - [해결된 문제](./release-info/fixed-issues-2026-07-0.md)
@@ -602,6 +603,7 @@ ht-degree: 10%
       - [AEM Guides에서 게시](./knowledge-base/expert-sessions/publishing-in-aem-guides-aug25.md)
       - [AEM Guides의 콘텐츠 검토](./knowledge-base/expert-sessions/review-in-aem-guides-jan2026.md)
    - 기사 {#kb-articles}
+      - [개요](./knowledge-base/kb-articles/introduction.md)
       - 작성 {#authoring}
          - 편집기 {#webeditor}
             - [AEM Guides의 콘텐츠 재사용](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)

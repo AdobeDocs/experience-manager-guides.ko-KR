@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: ff832d30f88c5810017e1a1ee41d644619f7331f
 workflow-type: tm+mt
 source-wordcount: 625
 ht-degree: 0%
@@ -96,3 +96,4 @@ HR, 재무, 법률 등 부서별로 별도의 폴더를 생성하여 자체 컨�
 이러한 권한은 사용자가 지정된 폴더 내에서만 콘텐츠를 만들거나 수정할 수 있도록 해줍니다.
 
 자세한 내용은 [AEM의 사용 권한](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/security/security#permissions-in-aem)을 참조하세요.
+
