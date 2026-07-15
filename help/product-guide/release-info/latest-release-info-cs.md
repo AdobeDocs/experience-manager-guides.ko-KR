@@ -3,9 +3,13 @@ title: Adobe Experience Manager Guides as a Cloud Service 릴리스 정보
 description: 최신 Adobe Experience Manager Guides as a Cloud Service 릴리스 정보, 기능 업데이트, 해결된 문제, 알려진 문제 등을 살펴보십시오.
 feature: Release Notes
 role: Leader
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 4ec392d0525a89afc07e98bc7c23ed72178efca1
 workflow-type: tm+mt
 source-wordcount: 413
