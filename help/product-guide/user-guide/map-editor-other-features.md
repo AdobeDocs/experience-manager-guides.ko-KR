@@ -5,10 +5,16 @@ exl-id: f0e7a402-ac12-4c63-9d7f-92567ee29a39
 feature: Authoring, Map Editor
 role: User
 TQID: https://experienceleague.adobe.com/Af2mFR-OG-QTbQU7HBQb-kfvuCcw5fd89CA4-mSroNE
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: d90290ec-3e61-4ebd-8649-bcafe0836803
-subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: c3a30c22dd49ab8af898ecd2ff032101d2f9d93f
 workflow-type: tm+mt
 source-wordcount: 1285
@@ -161,4 +167,4 @@ DITA 주제에 연관된 키 참조가 있는 경우 주제를 미리 보거나,
 **보고서 다운로드**&#x200B;를 선택하여 모든 결과에 대한 자세한 정보를 포함하여 XLS 형식으로 보고서를 다운로드합니다.
 
 
-**상위 항목:**[&#x200B;맵 편집기 소개](map-editor.md)
+**상위 항목:**&#x200B;[&#x200B;맵 편집기 소개](map-editor.md)
