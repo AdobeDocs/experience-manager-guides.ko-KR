@@ -425,7 +425,7 @@ ht-degree: 10%
       - [세션 시간 초과](./user-guide/session-timeout-prompt.md)
       - [메타데이터 내보내기에서 문자열이 너무 깁니다.](./user-guide/metadata-export-failure.md)
 - 사용 안내서 (이전 UI) {#user-guide-old-ui}
-  - [AEM Guides 개요](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+  - [AEM Guides 개요](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 설치 및 구성 {#install-conf-guide}
   - [다운로드, 설치 및 업그레이드](./install-conf-guide/introduction.md)
   - Cloud Service 설치 프로세스 {#deploy-conf-aemg-cs}
