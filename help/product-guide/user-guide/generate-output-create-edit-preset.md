@@ -15,9 +15,9 @@ subfeature_v2:
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: a99aa6be404fb5f4675f50aad8c4f282520d605f
 workflow-type: tm+mt
-source-wordcount: 129
+source-wordcount: 153
 ht-degree: 0%
 
 ---
@@ -31,6 +31,10 @@ ht-degree: 0%
 필수 필드를 필요한 사전 설정 설정으로 직접 변경하여 선택한 출력 사전 설정을 편집할 수 있습니다.
 
 또한 아래와 같이 **옵션** 드롭다운 메뉴를 사용하여 출력 사전 설정을 복제하거나 삭제할 수 있습니다.
+
+>[!NOTE]
+>
+>템플릿 사전 설정을 편집, 복제 또는 삭제할 수 없습니다. 이러한 작업은 관리자만 수행할 수 있습니다. 템플릿 사전 설정에 대한 자세한 내용은 [템플릿 사전 설정](../install-conf-guide/template-presets-output-generation.md)을 참조하세요.
 
 
 ![](images/delete-preset-map-console.png)

@@ -19,9 +19,9 @@ subfeature_v2:
   - id: f3645292-50bd-4f4a-ac6a-29dcecdf8abe
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
+source-git-commit: b0e39e78724e6d47e47648cd8c3a36aef307caf8
 workflow-type: tm+mt
-source-wordcount: 686
+source-wordcount: 701
 ht-degree: 0%
 
 ---
@@ -134,14 +134,13 @@ API 사용, 매개 변수 및 예제 요청에 대한 자세한 내용은 Experi
 
 >[!NOTE]
 >
-> `https://<aem-author-url>/libs/fmdita/clientlibs/api-docs/index.html`에서 공개적으로 사용 가능한 REST API에 대해서는 **Swagger 설명서**&#x200B;를 참조할 수도 있습니다. 현재 Assets, 기준선 및 보고와 관련된 API만 Swagger 설명서에서 사용할 수 있습니다.
-
+> `https://<aem-author-url>/libs/fmdita/clientlibs/api-docs/index.html`에서 공개적으로 사용 가능한 REST API에 대해서는 **Swagger 설명서**&#x200B;를 참조하거나 **도구** > **안내서** > **API Swagger**&#x200B;로 이동하여 AEM 인터페이스를 통해 액세스할 수도 있습니다. 현재 Assets, 기준선, 보고, 번역 및 게시와 관련된 API만 Swagger 설명서에서 사용할 수 있습니다.
 
 ## 추가 리소스
 
-다음은 [학습 및 지원](https://helpx.adobe.com/kr/support/xml-documentation-for-experience-manager.html) 페이지에서 사용할 수 있는 AEM Guides의 다른 유용한 리소스 목록입니다.
+다음은 [학습 및 지원](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html) 페이지에서 사용할 수 있는 AEM Guides의 다른 유용한 리소스 목록입니다.
 
 - 사용 안내서
 - 설치 및 구성 안내서
 - 빠른 시작 안내서
-- [도움말 보관 페이지](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/archive.html) \(이전 릴리스 설명서에 액세스\)
+- [도움말 보관 페이지](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \(이전 릴리스 설명서에 액세스\)

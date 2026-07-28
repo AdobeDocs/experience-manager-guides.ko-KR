@@ -15,9 +15,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c003b524d168d0c1826f6af44278223e2fa4bf0b
+source-git-commit: 07f25eacbfa6e22c1de71d9c4012ad1e9b3440a8
 workflow-type: tm+mt
-source-wordcount: 458
+source-wordcount: 453
 ht-degree: 0%
 
 ---
@@ -48,7 +48,6 @@ Experience Manager Guides에는 구조화된 문서를 만들고 편집할 수 �
 새 편집기는 현재 다음 기능을 지원하지 않습니다. 이러한 기능은 향후 릴리스에 도입될 예정입니다.
 
 - 변경 내용 추적이 활성화된 작성(기존의 추적된 변경 내용은 모두 일반 컨텐츠로 유지 및 처리됨)
-- 작성자 보기의 이미지 크기 조정기
 
 
 >[!NOTE]

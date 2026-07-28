@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: fd5e1e85933eb2785b0a74b0fa49fec1da4ca0c2
 workflow-type: tm+mt
-source-wordcount: 1303
+source-wordcount: 1396
 ht-degree: 0%
 
 ---
@@ -67,6 +67,10 @@ ht-degree: 0%
 - 조건부 필터링 \(조건이 맵에 대해 정의된 경우\)
 - 베이스라인 사용 \(맵에 대한 베이스라인이 작성되는 경우\)
 - 사후 생성 워크플로
+
+>[!NOTE]
+>
+>폴더 프로필에 대해 [상태 검사 기능](../install-conf-guide/conf-health-check-preset.md)이 구성된 경우 [일반] 탭에 추가 **출력 생성 전 상태 검사 실행** 토글이 표시됩니다. 이 사전 설정을 사용하여 출력을 생성할 때마다 상태 검사를 자동으로 실행하도록 하려면 맵에서 수동으로 트리거할 필요가 없습니다. 보고서는 게시 로그에 추가되며 정보 제공용으로만 사용됩니다. 검사 결과 해결되지 않은 오류나 경고가 발견되더라도 출력이 차단되거나 지연되지는 않습니다. [Experience Manager Guides에서 상태 확인 기능 사용](./map-editor-other-features.md#run-health-check-on-a-map)에 대해 자세히 알아보세요.
 
 **고급**
 

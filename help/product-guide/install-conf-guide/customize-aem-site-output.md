@@ -5,9 +5,9 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 0849544d-fa7b-4c66-b418-1ffcd1ca09df
-source-git-commit: 179e9016b12edb14c09ce9352a318e06a4fc628a
+source-git-commit: 75954eab3ac1738705fe2a7280973af39b9214df
 workflow-type: tm+mt
-source-wordcount: '3190'
+source-wordcount: '3264'
 ht-degree: 1%
 
 ---
@@ -122,6 +122,9 @@ Experience Manager Guides 설정을 기반으로 AEM 사이트 출력에서 URL 
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `aemsite.pagetitle` | 부울 \(true/false\). 페이지 제목을 사용하여 출력을 생성하려는 경우 이 속성을 true로 설정합니다. 기본적으로 파일 이름을 사용하도록 설정되어 있습니다.<br> **기본값**: false |
 
+>[!NOTE]
+>
+> `aemsite.pagetitle` 속성은 AEM 사이트 페이지 제목의 기본 폴더 수준 동작을 정의합니다. 환경에 대한 AEM Sites 사전 설정에서 `Topic filename` 또는 `Topic title`을(를) 선택하는 옵션을 사용할 수 있는 경우 사전 설정 수준의 선택이 우선하며 해당 출력에 대한 `aemsite.pagetitle` 폴더 수준 구성을 무시합니다. 예를 들어 `aemsite.pagetitle=true`이지만 사용자가 출력 사전 설정에서 *주제 파일 이름*&#x200B;을 선택한 경우 주제 파일 이름이 사용됩니다. `aemsite.pagetitle=false`인데 사용자가 *주제 제목*&#x200B;을 선택하면 주제 제목이 사용됩니다.
 
 >[!TAB 온-프레미스]
 

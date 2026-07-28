@@ -12,18 +12,14 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: f6b42924258ff1092eb492dfdcc348f9247886f7
+source-git-commit: 7d0c757b647a2e6c5e563f0ed7db6a7225769033
 workflow-type: tm+mt
-source-wordcount: 604
+source-wordcount: 637
 ht-degree: 0%
 
 ---
 
 # 작성자로 리뷰 요청 또는 리뷰 작업 닫기
-
->[!IMPORTANT]
->
-> 이 문서에 설명된 새 기능은 Experience Manager Guides as a Cloud Service 2508 릴리스에서 기본적으로 활성화됩니다. 마이그레이션 전에 생성된 검토는 영향을 받지 않으며 이전 워크플로우를 계속 사용합니다. 이러한 업데이트 없이 기존 기능을 계속 사용하려면 고객 지원 팀에 문의하여 새 기능을 비활성화하십시오.
 
 검토자가 검토 작업을 완료됨으로 표시하면 작업 개시자에게 알림이 트리거되어 작업 및 관련 작업 수준 설명에 액세스하고 검토할 수 있습니다.
 
@@ -31,6 +27,10 @@ ht-degree: 0%
 
 - 재검토 요청
 - 리뷰 작업 닫기
+
+>[!NOTE]
+>
+> 사용자 환경에 대해 위임 기능을 사용할 수 있는 경우 검토자는 [다른 검토자를 검토 작업에 추가](./review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer)하도록 요청할 수도 있습니다. 이러한 요청은 AEM 받은 편지함에서 알림 형태로 표시됩니다. 권장 검토자가 연결된 프로젝트의 일부가 아닌 경우 권장 검토자를 프로젝트에 먼저 추가할 수 있는 옵션이 제공됩니다. 그렇지 않으면 **작업 세부 정보** 페이지의 **검토자** 탭으로 이동하여 권장 검토자를 검토 작업에 추가하세요. 권장 검토자를 추가하기로 결정한 사항은 항상 검토 작업의 개시자로 사용자에게 표시됩니다.
 
 ## 리뷰 요청 또는 리뷰 작업 닫기
 

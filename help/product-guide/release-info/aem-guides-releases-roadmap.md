@@ -12,9 +12,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: fb2dc7f7a0341924f86f024c31d3cc7f46092f4f
+source-git-commit: 0d64b07a3e5230b84acf451ea7a8f784bcd804f6
 workflow-type: tm+mt
-source-wordcount: 852
+source-wordcount: 881
 ht-degree: 38%
 
 ---
@@ -35,13 +35,14 @@ Experience Manager Guides as a Cloud Service의 릴리스는 다음과 같이 �
 
 | 릴리스 | 이벤트 | 일정 | 새로운 기능 | 업그레이드 지침 | 해결된 문제 | 상태 |
 |---|---|---|---|---|---|---|
-| Adobe Experience Manager Guides 2026.08.0 <br> | 자동 업데이트 | 2026년 8월 3~05일 | - | - | - | 대상 |
+| Adobe Experience Manager Guides 2026.09.0 | 자동 업데이트 | ~2026년 9월 | - | - | - | 대상 |
 
 
 ### 라이브 릴리스
 
 | 릴리스 | 이벤트 | 일정 | 새로운 기능 | 업그레이드 지침 | 해결된 문제 | 상태 |
 |---|---|---|---|---|---|---|
+| Adobe Experience Manager Guides 2026.08.0 <br> [(AEM 릴리스 - 27293)](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | 자동 업데이트 | 2026년 8월 3~05일 | [여기](./whats-new-2026-08-0.md) | [여기](./upgrade-instructions-2026-08-0.md) | [여기](./fixed-issues-2026-08-0.md) | 업데이트됨 |
 | Adobe Experience Manager Guides 2026.07.0 <br> [(AEM 릴리스 - 26908)](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | 자동 업데이트 | 2026년 7월 첫 주 | - | [여기](upgrade-instructions-2026-07-0.md) | [여기](fixed-issues-2026-07-0.md) | 업데이트됨 |
 | Adobe Experience Manager Guides 2026.06.0 <br> [(AEM 릴리스 - 26773)](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | 자동 업데이트 | 2026년 6월 22~24일 | [여기](whats-new-2026-06-0.md) | [여기](upgrade-instructions-2026-06-0.md) | [여기](fixed-issues-2026-06-0.md) | 업데이트됨 |
 | Adobe Experience Manager Guides 2026.05.0 <br> [(AEM 릴리스 - 25898)](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | 서비스 팩 1 | 2026년 5월 21~22일 | - | - | [여기](fixed-issues-2026-05-0-sp1.md) | 업데이트됨 |
