@@ -22,7 +22,7 @@ ht-degree: 0%
 
 # &quot;문자열이 너무 깁니다.&quot; 예외로 인해 폴더에 대한 메타데이터 내보내기가 실패하는 이유는 무엇입니까?
 
-Assets UI의 폴더에 대해 [메타데이터 내보내기](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/using/metadata#export-metadata)를 수행하는 경우 `String is too long` 예외로 인해 내보내기 작업이 실패할 수 있습니다. 이 문제는 일반적으로 폴더에 `baselineObj`과(와) 같이 문자열이 아닌 값을 저장하는 Experience Manager Guides 관련 속성이 있을 때 발생합니다.
+Assets UI의 폴더에 대해 [메타데이터 내보내기](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/using/metadata#export-metadata)를 수행하는 경우 `String is too long` 예외로 인해 내보내기 작업이 실패할 수 있습니다. 이 문제는 일반적으로 폴더에 `baselineObj`과(와) 같이 문자열이 아닌 값을 저장하는 Experience Manager Guides 관련 속성이 있을 때 발생합니다.
 
 **이 문제가 발생하는 이유는 무엇입니까?**
 

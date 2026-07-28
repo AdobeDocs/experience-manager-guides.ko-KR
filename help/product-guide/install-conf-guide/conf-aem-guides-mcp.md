@@ -79,7 +79,7 @@ Experience Manager Guides MCP 서버가 **원격** 서버입니다. 다음과 �
 
 ### 인류 클로드
 
-공식 설명을 따르십시오. [AEM MCP용 클라우드 설정](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/mcp-support/chat-applications/setup-claude). 사용자 지정 커넥터를 추가할 때 Experience Manager Guides 엔드포인트를 사용합니다.
+공식 설명을 따르십시오. [AEM MCP용 클라우드 설정](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/mcp-support/chat-applications/setup-claude). 사용자 지정 커넥터를 추가할 때 Experience Manager Guides 엔드포인트를 사용합니다.
 
 ```
 https://mcp.adobeaemcloud.com/adobe/mcp/guides
