@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 살펴보십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: c3a30c22dd49ab8af898ecd2ff032101d2f9d93f
+source-git-commit: b866964c30a565eab0f6f9aec4b3fc9013f15f75
 workflow-type: tm+mt
-source-wordcount: '2568'
+source-wordcount: '2573'
 ht-degree: 10%
 
 ---
@@ -214,9 +214,9 @@ ht-degree: 10%
       - [3.8.x 릴리스 노트](./release-info/release-notes-3-8.md)
 - 사용 안내서 (새 UI) {#user-guide}
   - 소개 {#about-aemg}
-    - [&#x200B; [!DNL Adobe Experience Manager Guides] 정보](./user-guide/intro.md)
+    - [ [!DNL Adobe Experience Manager Guides] 정보](./user-guide/intro.md)
     - [!DNL AEM Guides] 작업 중 및 주요 기능 {#aemg-works-features}
-      - [&#x200B; [!DNL AEM Guides] 작동 방식](./user-guide/intro-how-dxml-works.md)
+      - [ [!DNL AEM Guides] 작동 방식](./user-guide/intro-how-dxml-works.md)
       - [주요 [!DNL AEM Guides] 기능](./user-guide/intro-dxml-features.md)
   - 홈 페이지 {#home-page}
     - [[!DNL AEM Guides] 홈 페이지 경험](./user-guide/intro-home-page.md)
@@ -365,7 +365,8 @@ ht-degree: 10%
     - [AI Assistant를 사용하여 문서 작성하기](./user-guide/ai-assistant-right-panel.md)
     - [콘텐츠 작성에 대한 AI 기반 스마트 제안](./user-guide/authoring-ai-based-smart-suggestions.md)
     - [FAQ](./user-guide/ai-assistant-faq.md)
-  - [Guides AI 시작](./user-guide/guides-ai.md)
+  - AEM Guides의 AI 가이드 {#guides-ai-aem}
+    - [Guides AI 시작](./user-guide/guides-ai.md)
   - 학습 콘텐츠 관리 {#learning-training-content}
     - 시작 안내서 {#get-started}
       - 소개 {#intro-lc}
@@ -425,7 +426,7 @@ ht-degree: 10%
       - [세션 시간 초과](./user-guide/session-timeout-prompt.md)
       - [메타데이터 내보내기에서 문자열이 너무 깁니다.](./user-guide/metadata-export-failure.md)
 - 사용 안내서 (이전 UI) {#user-guide-old-ui}
-  - [AEM Guides 개요](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+  - [AEM Guides 개요](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 설치 및 구성 {#install-conf-guide}
   - [다운로드, 설치 및 업그레이드](./install-conf-guide/introduction.md)
   - Cloud Service 설치 프로세스 {#deploy-conf-aemg-cs}
@@ -584,7 +585,7 @@ ht-degree: 10%
   - [데이터 소스 커넥터를 등록하는 REST API](./api-reference/data-source-connector.md)
   - [조건부 특성으로 작업할 수 있는 REST API](./api-reference/conditional-attribute.md)
   - [전환 워크플로우에 대한 REST API](./api-reference/convert-to-dita.md)
-  - [패키지를 만들고 활성화하기 위한 REST API](./api-reference/create-activate-package.md)
+  - 패키지를 만들고 활성화하기 위한 [REST API](./api-reference/create-activate-package.md)
   - [사후 처리 이벤트 핸들러](./api-reference/post-process-event.md)
   - [폴더 또는 에셋의 사후 처리 상태를 추적하는 API](./api-reference/track-post-processing-status.md)
   - [자산에 대한 일괄 처리를 시작하기 위한 API](./api-reference/bulk-assets-processing.md)

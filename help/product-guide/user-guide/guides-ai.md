@@ -1,7 +1,7 @@
 ---
 title: 스마트 태그 지정 기능을 위한 AI 가이드
 description: 단일 작업에서 주제 및 맵에 대한 스마트 태그 지정 기능을 위해 Guides AI를 사용하는 방법에 대해 알아봅니다.
-source-git-commit: 75954eab3ac1738705fe2a7280973af39b9214df
+source-git-commit: b866964c30a565eab0f6f9aec4b3fc9013f15f75
 workflow-type: tm+mt
 source-wordcount: '1276'
 ht-degree: 0%
@@ -113,7 +113,7 @@ Guides AI의 다음 구성 요소를 사용하여 파일을 추가하고, 태그
 
      ![가이드 AI 일괄 태그 지정](images/ai-map-selection.png){width="650"}
 
-1. **보내기**&#x200B;를 선택합니다.
+1. **보내기**를 선택합니다.
 선택한 맵에 여러 주제가 포함되어 있음을 나타내는 메시지가 표시됩니다. 태그를 추천할 주제를 선택하려면 **주제 선택**&#x200B;을 선택하십시오.
 
    ![주제를 선택하는 동안 AI 벌크 태그 지정 가이드](images/ai-select-topics.png){width="650"}

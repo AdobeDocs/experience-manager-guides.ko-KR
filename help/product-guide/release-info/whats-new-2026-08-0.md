@@ -2,7 +2,7 @@
 title: 릴리스 정보 | Adobe Experience Manager Guides 2026.08.0 릴리스의 새로운 기능
 description: Adobe Experience Manager Guides 2026.08.0 릴리스의 새로운 기능과 향상된 기능에 대해 알아봅니다
 role: Leader
-source-git-commit: 2108fea9ba6d35a9439f672b66e5d25aeb19f0ca
+source-git-commit: b866964c30a565eab0f6f9aec4b3fc9013f15f75
 workflow-type: tm+mt
 source-wordcount: '1383'
 ht-degree: 0%
@@ -61,10 +61,9 @@ Experience Manager Guides은 이제 MCP(Model Context Protocol) 통합을 지원
 
 ![](assets/review-details.png){width="350"}
 
-
 ### 검토 중 태깅 목록에서 사용자 식별
 
-검토 의견 또는 답글에서 사용자를 태그 지정할 때 이제 태그 지정 드롭다운에 사용자 ID와 함께 각 사용자의 이메일 주소가 표시됩니다. 이렇게 하면 특히 표시 이름만 모호할 수 있는 대규모 조직의 경우 올바른 검토자를 보다 쉽게 식별하고 선택할 수 있습니다.
+검토 의견 또는 답글에서 사용자를 태그 지정할 때 이제 태그 지정 드롭다운에 사용자 ID와 함께 각 사용자의 이메일 주소가 표시됩니다. 이렇게 하면 특히 표시 이름만 모호할 수 있는 대규모 조직에서 올바른 검토자를 보다 쉽게 식별하고 선택할 수 있습니다.
 
 이메일 주소를 사용할 수 없는 경우 대신 사용자 ID가 표시됩니다. 검토 UI 작업에 대한 자세한 내용은 [댓글로 작업 사용자 태그 지정](../user-guide/review-topics.md#tag-task-users-in-a-comment)을 참조하세요.
 
