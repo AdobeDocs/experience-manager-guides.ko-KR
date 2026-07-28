@@ -5,9 +5,9 @@ feature: Version Management
 role: Admin
 level: Experienced
 exl-id: 4ca4292a-a97a-4b54-ab9d-17f73e4a100f
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+source-git-commit: 84be6501066dae623e057c15ac79b748d3e631f1
 workflow-type: tm+mt
-source-wordcount: '2307'
+source-wordcount: '2277'
 ht-degree: 0%
 
 ---
@@ -63,11 +63,6 @@ Experience Manager Guides 설정에 따라 **업로드된 파일에 대한 새 �
    이 옵션을 선택하면 새 버전 관리 메커니즘이 실행되고 이후 업로드에 대한 기본 업로드 동작을 재정의하면 업로드된 파일의 내용이 새 버전으로 저장됩니다. 이 옵션을 선택 해제하면 AEM Guides은 AEM의 기본 버전 관리 메커니즘을 사용합니다.
 
 1. **저장**&#x200B;을 클릭합니다.
-
-
->[!NOTE]
->
-> **업로드된 파일에 대한 새 버전 만들기** \(create.ver.new.content\) 속성을 활성화하고 **Assets UI**&#x200B;를 사용하여 자산을 대량 업로드하는 경우 70개 이하의 파일을 일괄적으로 업로드할 수 있습니다.
 
 >[!ENDTABS]
 
@@ -314,7 +309,7 @@ Experience Manager Guides 설정을 기반으로 다른 파일에서 참조하�
 
    ![](assets/preview-purge-report.png)
 
-1. &#x200B;
+1. 
    - **최신 버전에서 유지할 버전 수**: 유지하거나 삭제하지 않을 버전 수를 입력하십시오. 예를 들어 5를 입력하면 마지막 5개 버전은 유지되고 그 이전 버전은 다른 삭제 조건이 충족되는 경우 삭제될 수 있습니다.
    - **Timespan 내에 만든 버전 유지 \(일 수\)**: 일 단위의 최대 버전 기간을 입력하십시오. 지정된 일수보다 오래된 버전은 기타 삭제 조건이 충족되는 경우 삭제할 수 있습니다. 예를 들어 100을 입력하면 다른 삭제 조건이 충족될 경우 100일 전에 생성된 모든 버전을 삭제할 수 있습니다.
    - **경로**: 제거할 파일의 파일 또는 폴더의 경로를 선택하십시오.

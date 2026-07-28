@@ -5,23 +5,14 @@ feature: Publishing
 role: User
 exl-id: f3657268-9dee-43af-b643-499dbc3ca948
 TQID: https://experienceleague.adobe.com/o-vv28SWWNym2aSVCshJDbPTWkpwH-KNwES4M5MKKJ8
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
-  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: fd5e1e85933eb2785b0a74b0fa49fec1da4ca0c2
 workflow-type: tm+mt
-source-wordcount: 3616
+source-wordcount: 3727
 ht-degree: 0%
 
 ---
@@ -64,7 +55,7 @@ Experience Manager Guides은 AEM Sites을 만들기 위한 사전 정의된 템�
    AEM Sites용 사전 설정이 생성됩니다.
 
 
-   ![새 &#x200B;](images/new-aem-sites-dialog-box.png){width="300"}
+   ![새 ](images/new-aem-sites-dialog-box.png){width="300"}
 
 <!--
 ### Generate the AEM Sites output using the templates
@@ -103,7 +94,7 @@ You can configure the Out-of-the-box Sites template  in two ways:
 - 주제 목록
 - 교차 맵 참조
 
-![새 &#x200B;](images/aem-sites-new-config.png){width="650"}
+![새 ](images/aem-sites-new-config.png){width="650"}
 
 **일반**
 
@@ -120,6 +111,10 @@ You can configure the Out-of-the-box Sites template  in two ways:
 | 다음을 기반으로 페이지 이름 생성 | **주제 파일 이름**: DITA 주제의 파일 이름을 사용하여 사이트 URL을 만듭니다. <br> **주제 제목**: DITA 주제의 제목을 사용하여 Experience Manager 사이트 이름을 만듭니다. |
 | 이전에 생성된 페이지 정리 | - **맵에서 제거된 항목에 대해 이전에 생성된 페이지를 삭제합니다**: DTIA 맵의 구조가 변경되면 이 옵션을 사용하여 제거된 항목에 대해 이전에 생성된 페이지를 제거할 수 있습니다. 이 기능은 전체 맵 게시에만 사용할 수 있습니다.<br><br>a.dita, b.dita 및 c.dita 주제가 포함된 DITA 맵을 게시했다고 가정해 보겠습니다. 맵을 다시 게시하기 전에 맵에서 b.dita 주제를 제거했습니다. 이제 이 옵션을 선택하면 b.dita와 관련된 모든 컨텐츠가 AEM Sites 출력에서 제거되고 a.dita 및 c.dita만 게시됩니다.<br><br>**참고**: 삭제된 페이지에 대한 정보도 출력 생성 로그에 캡처됩니다. 로그 파일에 액세스하는 방법에 대한 자세한 내용은 [로그 파일을 보고 확인](generate-output-basic-troubleshooting.md#id1821I0Y0G0A__id1822G0P0CHS)하세요. <br><br>**주의**: 항목을 삭제하면 게시된 사이트에서 페이지를 사용할 수 없게 됩니다. 따라서 주제가 삭제되기 전에 경고가 나타납니다. 삭제를 확인해야 합니다.<br><br>- **이 경로에 있는 다른 원본에서 만든 모든 페이지를 삭제**: 이 옵션을 선택하면 다른 지도, 개별 항목 또는 다른 원본에서 이 경로에 게시된 모든 페이지가 삭제됩니다. 또한 게시된 사이트에서 페이지를 사용할 수 없게 됩니다. 따라서 주제가 삭제되기 전에 경고가 나타납니다. 삭제를 확인해야 합니다. |
 | 사후 생성 워크플로 | 이 옵션을 선택하면 AEM에 구성된 모든 워크플로우를 포함하는 새 사후 생성 워크플로우 드롭다운 목록이 표시됩니다. 출력 생성 워크플로우가 완료된 후 실행할 워크플로우를 선택해야 합니다. |
+
+>[!NOTE]
+>
+>폴더 프로필에 대해 [상태 검사 기능](../install-conf-guide/conf-health-check-preset.md)이 구성된 경우 [일반] 탭에 추가 **출력 생성 전 상태 검사 실행** 토글이 표시됩니다. 이 사전 설정을 사용하여 출력을 생성할 때마다 상태 검사를 자동으로 실행하도록 하려면 맵에서 수동으로 트리거할 필요가 없습니다. 보고서는 게시 로그에 추가되며 정보 제공용으로만 사용됩니다. 검사 결과 해결되지 않은 오류나 경고가 발견되더라도 출력이 차단되거나 지연되지는 않습니다. [Experience Manager Guides에서 상태 검사 사용](./map-editor-other-features.md#run-health-check-on-a-map)에 대해 자세히 알아보세요.
 
 **콘텐츠**
 
@@ -168,17 +163,22 @@ You can configure the Out-of-the-box Sites template  in two ways:
 - 콘텐츠
 - 교차 맵 참조
 
-![새 &#x200B;](images/aem-sites-preset-legacy-config.png){width="500"}
+![새 ](images/aem-sites-preset-legacy-config.png){width="500"}
 
 **일반**
 
 **일반** 탭에는 다음 구성 옵션이 포함되어 있습니다.
+
+>[!NOTE]
+>
+>폴더 프로필에 대해 [상태 검사 기능](../install-conf-guide/conf-health-check-preset.md)이 구성된 경우 [일반] 탭에 추가 **출력 생성 전 상태 검사 실행** 토글이 표시됩니다. 이 사전 설정을 사용하여 출력을 생성할 때마다 상태 검사를 자동으로 실행하도록 하려면 맵에서 수동으로 트리거할 필요가 없습니다. 보고서는 게시 로그에 추가되며 정보 제공용으로만 사용됩니다. 검사 결과 해결되지 않은 오류나 경고가 발견되더라도 출력이 차단되거나 지연되지는 않습니다. [Experience Manager Guides에서 상태 검사 사용](./map-editor-other-features.md#run-health-check-on-a-map)에 대해 자세히 알아보세요.
 
 | AEM Sites 옵션 | 설명 |
 | --- | --- |
 | 사이트 이름 | 출력이 AEM 저장소에 저장되는 사이트 이름입니다.<br><br>AEM 저장소의 노드는 여기에 지정된 이름으로 만들어집니다. 사이트 이름을 지정하지 않으면 사이트 노드가 DITA 맵 파일 이름으로 생성됩니다.<br><br>여기에서 지정한 사이트 이름은 브라우저 탭의 제목으로도 사용됩니다.<br><br>사이트 이름을 설정하는 동안 변수를 사용할 수도 있습니다. 자세한 내용은 [대상 경로, 사이트 이름 또는 파일 이름 옵션을 설정할 변수 사용](./generate-output-use-variables.md)을 참조하세요. |
 | 출력 경로 | 출력이 저장되는 AEM 저장소 내의 경로입니다. 최종 출력을 생성하는 동안 사이트 이름과 출력 경로가 결합됩니다. 예를 들어 사이트 이름을 `user-guide`(으)로 지정하고 출력 경로를 `/content/output/aem-guides`(으)로 지정하면 최종 출력이 `/content/output/aem-guides/user-guide` 노드 아래에 생성됩니다.<br><br>출력 경로를 설정하는 동안 변수를 사용할 수도 있습니다. 자세한 내용은 [대상 경로, 사이트 이름 또는 파일 이름 옵션을 설정할 변수 사용](./generate-output-use-variables.md)을 참조하세요. |
 | 기존 출력 페이지 | 기존 페이지의 콘텐츠를 덮어쓰려면 **콘텐츠 덮어쓰기** 옵션을 선택하십시오. 이 옵션은 페이지의 콘텐츠 및 헤드 노드 아래에 있는 콘텐츠만 덮어씁니다. 이 옵션을 사용하면 콘텐츠를 혼합 게시할 수 있습니다. 이 옵션을 선택하면 게시된 출력에서 고립 페이지 삭제를 선택하는 옵션이 제공됩니다. 또한 AEM Sites 출력을 만들기 위한 *기본* 옵션입니다.<br><br>게시 중에 기존 페이지를 강제로 삭제하려면 **삭제 및 만들기** 옵션을 선택하십시오. 이 옵션은 페이지 노드를 해당 콘텐츠 및 그 아래의 모든 하위 페이지와 함께 삭제합니다. 출력 사전 설정의 디자인 템플릿을 변경했거나 대상에 이미 있는 추가 페이지를 제거하려면 이 옵션을 사용합니다. |
+| 다음을 기반으로 페이지 이름 생성 | **항목 파일 이름**: 항목의 파일 이름을 사용하여 사이트 URL을 만듭니다. <br> **주제 제목**: 주제의 제목을 사용하여 Experience Manager 사이트 이름을 만듭니다. <br> **참고**: 이 옵션은 환경에 대해 활성화된 경우에만 사용할 수 있습니다. Adobe 고객 지원 팀에 문의하여 활성화하십시오. 사용 가능한 경우 이 사전 설정에서 선택한 값이 폴더 수준 `aemsite.pagetitle` 구성을 재정의합니다. 자세한 내용은 [기존 AEM 사이트 출력 사용자 지정](../install-conf-guide/customize-aem-site-output.md)을 참조하세요. |
 | 맵에서 제거된 주제에 대해 이전에 생성된 페이지 삭제 | DTIA 맵의 구조가 변경되는 경우 이 옵션을 사용하여 제거된 주제에 대해 이전에 생성된 페이지를 제거할 수 있습니다. 이 기능은 전체 맵 게시에만 사용할 수 있습니다.<br><br>a.dita, b.dita 및 c.dita 주제가 포함된 DITA 맵을 게시했다고 가정해 보겠습니다. 맵을 다시 게시하기 전에 맵에서 b.dita 주제를 제거했습니다. 이제 이 옵션을 선택하면 b.dita와 관련된 모든 컨텐츠가 AEM Sites 출력에서 제거되고 a.dita 및 c.dita만 게시됩니다.<br><br>**참고**: 삭제된 페이지에 대한 정보도 출력 생성 로그에 캡처됩니다. 로그 파일에 액세스하는 방법에 대한 자세한 내용은 [로그 파일을 보고 확인](generate-output-basic-troubleshooting.md#id1821I0Y0G0A__id1822G0P0CHS)하세요. <br><br>**주의**: 항목을 삭제하면 게시된 사이트에서 페이지를 사용할 수 없게 됩니다. 따라서 주제가 삭제되기 전에 경고가 나타납니다. 삭제를 확인해야 합니다. |
 | 디자인 | 출력을 생성하는 데 사용할 디자인 템플릿을 선택합니다.<br><br>사용자 지정 디자인 서식 파일을 사용하여 출력을 생성하는 방법에 대한 자세한 내용은 게시 관리자에게 문의하십시오. |
 | 사후 생성 워크플로 | 이 옵션을 선택하면 AEM에 구성된 모든 워크플로우를 포함하는 새 사후 생성 워크플로우 드롭다운 목록이 표시됩니다. 출력 생성 워크플로우가 완료된 후 실행할 워크플로우를 선택해야 합니다. |
@@ -186,7 +186,7 @@ You can configure the Out-of-the-box Sites template  in two ways:
 
 **콘텐츠**
 
-![새 &#x200B;](images/aem-sites-content-tab.png){width="650"}
+![새 ](images/aem-sites-content-tab.png){width="650"}
 
 **콘텐츠** 탭에는 다음 구성 옵션이 포함되어 있습니다.
 
@@ -231,7 +231,7 @@ Experience Manager Guides에서는 `peer @scope`을(를) 사용하여 주제 참
 
    ![교차 맵 참조](images/aem-sites-preset-cross-map-references.png)
 
-1. 맵에서 각 종속 파일의 가장 최근에 게시된 출력을 사용하려면 모든 종속 항목에 대해 **가장 최근에 생성된 게시 컨텍스트 사용**&#x200B;을 선택합니다.
+1. 맵에서 각 종속 파일의 가장 최근에 게시된 출력을 사용하려면 모든 종속 항목에 대해 **가장 최근에 생성된 게시 컨텍스트 사용**을 선택합니다.
 연결된 항목이 들어 있는 맵을 게시하기 전에 상위 맵으로 선택한 맵을 게시해야 합니다. 연결된 주제가 있는 맵이 게시되지 않으면 해당 링크는 AEM Sites 출력에 하이퍼링크 대신 일반 텍스트로 표시됩니다.
 연결된 주제에 대해 동일한 유형의 AEM Sites 사전 설정을 선택해야 합니다. 예를 들어 현재 AEM Sites 사전 설정이 기존 구성 요소 매핑을 사용하는 경우 연결된 주제의 유사한 AEM Sites 사전 설정을 선택합니다.
 1. 상위 맵 드롭다운 목록에서 현재 맵의 출력을 연결할 출력이 있는 맵 파일을 선택합니다.

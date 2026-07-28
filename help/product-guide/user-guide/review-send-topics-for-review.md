@@ -5,19 +5,13 @@ exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 feature: Reviewing
 role: User
 TQID: https://experienceleague.adobe.com/mrpBKOZcVm1XHdkEy9PBFOt-cbjfmyjqhT-BRbg3Swo
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: a668e1b862702ae1154b05d974414b54b43559ea
 workflow-type: tm+mt
-source-wordcount: 3343
+source-wordcount: 3663
 ht-degree: 0%
 
 ---
@@ -81,7 +75,9 @@ Assets UI에서 작성자/게시자가 검토 작업을 만들 수 있는 방법
 
 1. 작업에 대한 **설명**&#x200B;을(를) 입력하십시오.
 
-   이 설명은 검토자에게 전송된 알림 이메일의 본문으로 사용됩니다.
+   설명은 검토자에게 전송된 알림 이메일의 본문으로 사용됩니다. 또한 검토 UI와 편집기 인터페이스에서 **댓글** 제목 옆에 있는 *정보* 아이콘을 통해 액세스할 수 있는 **검토 세부 정보** 대화 상자에도 표시됩니다.
+
+   ![](images/review-details.png)
 
 1. **기한**&#x200B;과 시간을 선택하여 검토 기한을 표시하십시오.
 
@@ -108,6 +104,35 @@ Assets UI에서 작성자/게시자가 검토 작업을 만들 수 있는 방법
    >[!NOTE]
    >
    > 선택한 루트 맵이 키 참조를 확인하는 데 가장 높은 우선 순위를 갖습니다. 자세한 내용은 [키 참조 확인](map-editor-other-features.md#id176GD01H05Z)을 참조하십시오.
+
+1. DITAVAL 파일 첨부(사용자 환경에 대해 활성화된 경우에만 사용 가능)
+
+   >[!NOTE]
+   >
+   > DITAVAL 파일을 검토 작업에 첨부하는 기능은 기본적으로 활성화되어 있습니다. 사용자 환경에서 이 기능을 사용하지 않으려면 고객 지원 팀에 문의하십시오.
+
+   검토를 위해 보내는 주제가 조건을 사용하는 경우 검토 작업에 하나 이상의 DITAVAL 파일을 첨부할 수 있습니다.
+
+   ![](./images/attach-ditaval-review-task.png)
+
+   >[!NOTE]
+   >
+   > 파일 선택기는 DITAVAL 파일만 허용합니다. 주제나 맵과 같은 다른 파일 유형을 선택하면 대신 DITAVAL 파일을 선택하라는 오류 메시지가 표시됩니다.
+
+   첨부된 DITAVAL 파일에 정의된 조건은 검토자의 조건 패널에서 전환을 미리 선택하는 데 사용되므로 검토자는 개시자가 이 검토를 위해 의도한 것과 동일한 조건 세트에 액세스할 수 있습니다.
+
+   미리 설정된 토글을 검토자가 변경할 수 있는지 여부를 제어하는 **검토자 조건 변경 허용** 확인란도 있습니다.
+
+   ![](./images/reviewer-conditions.png)
+
+   - 선택하면 검토자가 검토하는 동안 모든 조건의 토글을 켜거나 끌 수 있으므로 DITAVAL 파일에 의해 설정된 값을 재정의할 수 있습니다.
+   - 이 옵션의 선택을 취소하면 검토자는 토글을 사용할 수 없게 되며, 첨부된 DITAVAL 파일로 필터링된 내용만 검토할 수 있습니다.
+
+   **추가 참고**:
+
+   - 단일 검토 작업에 여러 DITAVAL 파일을 첨부할 수 있습니다. 두 개 이상의 첨부 파일이 동일한 조건에 대해 충돌하는 값을 정의하는 경우 삽입 순서로 먼저 추가된 파일이 우선합니다.
+   - 첨부된 DITAVAL 파일에서 다루지 않는 조건은 영향을 받지 않습니다. 검토 UI에서 기본(필터링되지 않은) 비헤이비어를 유지합니다.
+   - 검토 작업이 만들어진 후에는 [작업 세부 정보] 페이지에서 검토 작업을 업데이트하여 첨부된 DITAVAL 파일을 추가, 제거 또는 바꾸고 **검토자 조건 변경 허용** 설정을 변경할 수 있습니다.
 
 1. 다른 주제에 다른 검토자를 할당할 수 있으므로 **피할당자가 모든 주제를 검토할 수 있도록 허용** 옵션은 검토자가 검토 작업의 모든 주제를 검토할 수 있는지 또는 검토에 할당된 주제만 검토할 수 있는지 제어합니다.
 
@@ -334,4 +359,4 @@ Experience Manager Guides을 사용하면 DITA 맵에서 하나 이상의 주제
 자세한 내용은 [검토 알림 이해](./review-understanding-review-notifications.md)를 참조하세요.
 
 
-**상위 항목:**&#x200B;[&#x200B;검토 소개](review.md)
+**상위 항목:**[&#x200B;검토 소개](review.md)

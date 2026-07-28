@@ -5,20 +5,13 @@ feature: Authoring, Features of Web Editor
 role: User
 exl-id: 02e45d34-898f-411c-bd80-bd4f2364b7d7
 TQID: https://experienceleague.adobe.com/sqNExkYi3iIqIxC7mdlhWw-59-LcAXCOU8w7GD63d8Q
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 018c2332a9e5a4ce8fb683a8cb0bcf859977922c
 workflow-type: tm+mt
-source-wordcount: 566
+source-wordcount: 671
 ht-degree: 0%
 
 ---
@@ -69,14 +62,22 @@ ht-degree: 0%
 >
 > AI Assistant 기능은 현재 Adobe Experience Manager Guides as a Cloud Service에서 사용할 수 있습니다.
 
+**AI 가이드**
+
+Adobe CX Enterprise Coworker의 지능적인 아젠틱 스마트 태그 지정 기술을 편집기에 가져와 자연스러운 대화형 콘텐츠 태그 지정을 활성화합니다. 콘텐츠를 분석하고, 관련 태그를 추천하며, 최소한의 노력으로 일관되고 정확한 메타데이터를 적용하는 데 도움이 됩니다. 콘텐츠 구성 및 검색 기능을 개선하기 위해 선택한 사항을 확인하기 전에 제안된 태그를 검토하고 적용 또는 거부하도록 선택할 수 있습니다.
+
+>[!NOTE]
+>
+> 환경에서 Guides AI 기능을 사용하려면 고객 지원 팀에 문의하십시오. 이 기능이 활성화되면 관리자는 Workspace 설정에서 이 기능을 켜거나 끌 수 있습니다. 한 번에 하나의 AI 경험만 활성화할 수 있습니다(Guides AI 또는 AI Assistant).
+
 **보기 확장**: **확장** 아이콘을 사용하여 페이지 보기를 확장할 수 있습니다. 이 보기에서는 Adobe Experience Manager 로고가 포함된 헤더 막대가 숨겨집니다. 이렇게 하면 편집할 컨텐츠 공간이 최대화됩니다. 표준 보기로 돌아가려면 **확장된 보기로 끝내기** 아이콘을 사용합니다.
 
 **추가 작업**: 추가 옵션에 대한 액세스를 제공합니다. 이 버튼을 선택하면 다음 옵션이 있는 메뉴가 열립니다.
 
 - **Assets**: 설정에 따라 대상으로 이동합니다.
-   - **클라우드 서비스**: 클라우드 서비스를 사용하는 경우 **Assets** 옵션을 선택하면 AEM 탐색 페이지로 이동합니다.
+  - **클라우드 서비스**: 클라우드 서비스를 사용하는 경우 **Assets** 옵션을 선택하면 AEM 탐색 페이지로 이동합니다.
 
-   - **온-프레미스 소프트웨어**: Adobe Experience Manager Guides(4.2.1 이상)를 사용하는 경우 **Assets** 옵션을 선택하면 Assets UI의 현재 파일 경로로 이동합니다.
+  - **온-프레미스 소프트웨어**: Adobe Experience Manager Guides(4.2.1 이상)를 사용하는 경우 **Assets** 옵션을 선택하면 Assets UI의 현재 파일 경로로 이동합니다.
 - **Workspace 설정**: Workspace 설정 대화 상자로 이동합니다. 자세한 내용은 [Workspace 설정 구성](../install-conf-guide/workspace-settings.md)을 참조하세요.
 
 >[!NOTE]
@@ -85,4 +86,4 @@ ht-degree: 0%
 
 - **편집기 설정**: 개별 작성자 수준에서 편집기 동작을 사용자 지정할 수 있는 편집기 설정 대화 상자로 이동합니다. 작성 중에 태그, 주석 및 기타 편집기 수준 설정의 가시성과 비헤이비어를 제어할 수 있습니다. 자세한 내용은 [편집기 설정](../install-conf-guide/workspace-settings.md)을 참조하세요.
 
-**상위 항목:**&#x200B;[&#x200B;편집기 소개](web-editor.md)
+**상위 항목:**[&#x200B;편집기 소개](web-editor.md)

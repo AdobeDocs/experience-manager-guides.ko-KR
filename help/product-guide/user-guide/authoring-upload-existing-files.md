@@ -5,17 +5,12 @@ exl-id: b5430242-1122-43df-a0b2-275b1dea33f2
 feature: Content Management
 role: User
 TQID: https://experienceleague.adobe.com/GG5Bx2yyJz2GaQFmMsDZ6wq6xzb4XUAsSBxEkRNvEVE
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: d1a4b75ef3acd3d02cce2225f03e1f9b3a086ef7
 workflow-type: tm+mt
-source-wordcount: 536
+source-wordcount: 695
 ht-degree: 0%
 
 ---
@@ -26,21 +21,34 @@ Adobe Experience Manager Guides에 사용하려는 기존 DITA 콘텐츠 저장�
 
 >[!IMPORTANT]
 >
-> Adobe Experience Manager에서 지원되는 콘텐츠 업로드 방법에 대한 자세한 내용은 [Adobe Experience Manager as a Cloud Service Assets에 디지털 에셋 추가](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=ko)를 참조하십시오.
+> Adobe Experience Manager에서 지원되는 콘텐츠 업로드 방법에 대한 자세한 내용은 [Adobe Experience Manager as a Cloud Service Assets에 디지털 에셋 추가](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html)를 참조하십시오.
 
 ## Assets 콘솔 사용자 인터페이스
 
 Assets 콘솔 사용자 인터페이스를 사용하여 [Adobe Experience Manager as a Cloud Service Assets에 디지털 자산을 추가](#upload-assets)하려면 바탕 화면에서 필요한 자산을 선택하고 Adobe Experience Manager 사용자 인터페이스 \(웹 브라우저\)를 대상 폴더로 드래그합니다. 에셋을 업로드할 때 파일 이름에 지원되지 않거나 금지된 문자가 포함되어 있지 않은지 확인하십시오.
 
-자세한 내용은 Adobe Experience Manager 설명서의 [파일 이름 처리 및 금지된 문자](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=ko#filename-handling) 섹션을 참조하십시오.
+자세한 내용은 Adobe Experience Manager 설명서의 [파일 이름 처리 및 금지된 문자](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#filename-handling) 섹션을 참조하십시오.
+
+### Assets UI 인터페이스를 사용하여 파일 업로드
+
+**만들기** > **파일**&#x200B;을 사용하여 파일을 업로드하고 시스템에서 파일을 선택하면 **Assets 업로드**&#x200B;가 나타납니다. 이 대화 상자를 사용하면 업로드를 시작하기 전에 파일을 검토하고 선택적으로 이름을 바꿀 수 있습니다. 원래 파일 이름을 유지하거나 요구 사항에 따라 새 이름을 제공할 수 있습니다.
+
+![](images/upload-file.png){width="350"}
+
+업로드를 시작하면 **Assets 업로드** 대화 상자에 업로드 중인 각 파일에 대한 업로드 진행 상황이 표시됩니다. 작업을 완료하기 전에 중지해야 하는 경우 언제든지 **취소** 옵션을 선택하거나 취소 아이콘을 선택하여 업로드를 취소할 수 있습니다. 작업을 취소하면 업로드가 종료되고 파일이 저장소에 추가되지 않습니다.
+
+![](images/upload-status.png){width="350"}
+
+업로드가 성공적으로 완료되면 파일이 성공적으로 업로드되었음을 나타내는 확인 메시지가 표시됩니다. 이 메시지는 이제 Assets 저장소 내에서 선택한 위치에서 파일을 사용할 수 있음을 확인합니다.
+
 
 ## Adobe Experience Manager 데스크탑 앱
 
-크리에이티브 전문가이고 로컬 데스크탑에서 자산을 관리하려는 경우 Adobe Experience Manager 데스크탑 앱을 사용하십시오. 데스크탑 애플리케이션을 사용하여 이러한 에셋을 열고 편집할 수 있습니다. 버전을 유지 관리하고 다른 사용자와 파일을 공유할 수도 있습니다. 자세한 내용은 [Adobe Experience Manager 데스크톱 앱](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html?lang=ko)을 참조하세요.
+크리에이티브 전문가이고 로컬 데스크탑에서 자산을 관리하려는 경우 Adobe Experience Manager 데스크탑 앱을 사용하십시오. 데스크탑 애플리케이션을 사용하여 이러한 에셋을 열고 편집할 수 있습니다. 버전을 유지 관리하고 다른 사용자와 파일을 공유할 수도 있습니다. 자세한 내용은 [Adobe Experience Manager 데스크톱 앱](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html)을 참조하세요.
 
 ## 일괄 에셋 수집기
 
-대규모 마이그레이션 및 경우에 따라 일괄 수집이 있는 경우 일괄 에셋 수집기 를 사용하여 콘텐츠를 업로드하십시오. 이 도구를 사용하면 Azure 또는 S3와 같이 지원되는 데이터 저장소에서 대량 콘텐츠를 업로드할 수 있습니다. 자세한 내용은 [일괄 에셋 수집기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=ko#asset-bulk-ingestor)를 참조하십시오.
+대규모 마이그레이션 및 경우에 따라 일괄 수집이 있는 경우 일괄 에셋 수집기 를 사용하여 콘텐츠를 업로드하십시오. 이 도구를 사용하면 Azure 또는 S3와 같이 지원되는 데이터 저장소에서 대량 콘텐츠를 업로드할 수 있습니다. 자세한 내용은 [일괄 에셋 수집기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=en#asset-bulk-ingestor)를 참조하십시오.
 
 ## 벌크 업로드에 FrameMaker 사용
 
@@ -58,4 +66,7 @@ FrameMaker에서 일괄 업로드 기능을 사용하는 방법에 대한 자세
 
 Adobe Experience Manager 데스크탑 앱이나 자산 대량 수집기와 같은 도구를 사용하는 경우 중복 파일에서 수행할 작업은 Adobe Experience Manager 서버의 설정에 의해 제어됩니다. 이 구성에 대해 알아보려면 시스템 관리자에게 문의하십시오.
 
-**상위 항목:**&#x200B;[&#x200B;콘텐츠 관리](authoring.md)
+
+
+
+**상위 항목:**[&#x200B;콘텐츠 관리](authoring.md)

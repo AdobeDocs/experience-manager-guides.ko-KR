@@ -5,18 +5,13 @@ feature: Authoring
 role: User
 exl-id: 8c12ed9b-6309-40bf-b264-a2323cd6f4b3
 TQID: https://experienceleague.adobe.com/SWlP2-iWhN1x25K9s-mrMcfUTy5Fxv7TVWg6G2ucufc
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0763896c75767d8a4bffc019d42c129e2e34f4be
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 7989955248054571a569ad34d92ae7e26fe70ffd
 workflow-type: tm+mt
-source-wordcount: 557
+source-wordcount: 577
 ht-degree: 0%
 
 ---
@@ -65,12 +60,14 @@ ht-degree: 0%
 
   방정식은 밝은 회색 배경과 함께 삽입됩니다. 언제든지 기존 방정식을 마우스 오른쪽 단추로 클릭하고 상황에 맞는 메뉴에서 **수식 편집**&#x200B;을 선택하여 방정식을 업데이트할 수 있습니다. Experience Manager Guides에서 MathML 방정식 유효성 검사에 대한 자세한 내용은 MathML 편집기에서 [방정식 유효성 검사](../user-guide/web-editor-other-features.md#validation-of-equations-in-the-mathml-editor)를 참조하십시오.
 
-- **지식 확인:** 주제에 사용 가능한 형식(단일 수정, 다중 수정, True/False, 다음 항목과 일치 또는 문제 은행에서 삽입)의 질문을 추가하여 검토하고 채점 없이 이해를 확인할 수 있습니다. 이러한 질문은 표준 형식을 반영하며 점수를 제외하므로 자체 평가에 적합하고 나중에 퀴즈나 평가 전에 강의 내용이나 주제의 일부로 적합합니다.
+- **지식 확인:** 주제에 사용 가능한 형식(단일 수정, 다중 수정, True/False, 다음 항목과 일치 또는 문제 은행에서 삽입)의 질문을 추가하여 검토하고 채점 없이 이해를 확인할 수 있습니다. 이러한 질문은 표준 형식을 반영하며 점수를 제외하므로 자체 평가에 적합하고 나중에 퀴즈나 평가 전에 강의 내용이나 주제의 일부로 적합합니다. **콘텐츠 속성** 패널을 통해 정답 및 기타 필수 필드를 구성할 수 있습니다. 자세한 내용은 [질문 유형](./quiz-insert-questions.md)을 참조하세요.
 
   ![](assets/knowledge-check-topic.png){width="650"}
 
 
-  **콘텐츠 속성** 패널을 통해 정답 및 기타 필수 필드를 구성할 수 있습니다. 자세한 내용은 [질문 유형](./quiz-insert-questions.md)을 참조하세요. 아래와 같은 지식 확인 옵션을 사용하여 다양한 질문 유형을 추가할 수 있습니다.
+  학습자가 지식 확인 질문에 잘못된 응답을 제출하면 오류 메시지와 함께 응답 필드가 강조 표시되어 학습자가 동일한 질문을 다시 시도하도록 **다시 시도**&#x200B;를 선택하도록 안내합니다.
+
+  ![](assets/knowledge-check-try-again.png){width="650"}
 
   또한 **진행하려면 지식 확인 필요** 옵션을 활성화하여 학습자가 후속 강의 컨텐츠로 이동하기 전에 지정된 지식 확인을 시도하도록 할 수 있습니다. 이 기능은 학습자가 중요한 평가 체크포인트를 건너뛰지 않도록 하여 주요 학습 목표를 강화하는 데 도움이 됩니다. SCORM 사전 설정 출력을 구성하는 동안 **학습자가 순차적 순서로 콘텐츠를 진행해야 하는 경우** 설정이 활성화되어 과정 진행이 의도한 학습 경로를 따르도록 하면 이 기능이 지원됩니다.
 

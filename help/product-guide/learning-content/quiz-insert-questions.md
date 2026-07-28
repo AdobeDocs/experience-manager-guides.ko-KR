@@ -5,17 +5,12 @@ feature: Authoring
 role: User
 exl-id: dff38476-c078-4970-b967-05a902430015
 TQID: https://experienceleague.adobe.com/2VGxq0TrCbvFXYL44fOo5xIjP6GBLi9aKfVSTfLD3jg
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: ff08b63bf8668fddc89c43391b3264a733a824e7
 workflow-type: tm+mt
-source-wordcount: 649
+source-wordcount: 691
 ht-degree: 0%
 
 ---
@@ -53,6 +48,13 @@ ht-degree: 0%
 - **오답에 대한 벌점**: 오답에 대해 감점할 점수를 지정합니다.
 - **질문 레이블**: 질문 레이블을 추가할 수 있습니다.
 - **피드백**: 정답 또는 오답에 대한 피드백을 제공할 수 있도록 설정하십시오.
+
+  >[!NOTE]
+  >
+  > 과정의 게시된 출력에서 퀴즈에 있는 모든 질문을 시도한 후 학습자는 **답변 검토** 옵션을 사용하여 제출된 답변을 다시 살펴보고 정답 또는 오답을 확인할 수 있습니다. 이 경우 추가 설정이나 구성이 필요하지 않습니다.
+
+  ![](assets/review-answer-quiz.png){width="350"}
+
 - **위치에 옵션 고정**: 질문에 대한 특정 옵션이 고정되면 SCORM 사전 설정 구성에서 **각 시도에 대한 답변 선택 무작위 지정**&#x200B;이 활성화되어 있더라도 옵션 목록의 지정된 위치에 고정 상태로 유지됩니다. 그렇지 않으면 사용 가능한 옵션이 재구성됩니다. 콘텐츠 속성 패널에서 원하는 질문 옵션 위로 마우스를 가져간 후 고정할 수 있습니다.
 
   ![](assets/pin-question.png){width="350"}

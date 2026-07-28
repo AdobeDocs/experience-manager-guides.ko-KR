@@ -5,17 +5,12 @@ feature: Authoring
 role: User
 exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
 TQID: https://experienceleague.adobe.com/Ffg1tESMpsZU71BF5UcWu-bSBTekVGiv-dv24jD-tjA
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 75954eab3ac1738705fe2a7280973af39b9214df
 workflow-type: tm+mt
-source-wordcount: 709
+source-wordcount: 740
 ht-degree: 0%
 
 ---
@@ -47,11 +42,16 @@ ht-degree: 0%
 콘텐츠 저장소의 기존 콘텐츠를 강의에 추가할 수 있습니다. 기존 콘텐츠를 추가하려면 다음 단계를 수행하십시오.
 
 1. **옵션** 메뉴 > **기존 항목 추가**&#x200B;를 선택합니다.
-2. 만들려는 강의 컨텐츠 유형을 선택합니다.
-3. **파일 선택** 대화 상자에서 콘텐츠 위치로 이동하여 원하는 학습 콘텐츠를 선택합니다.
+1. 만들려는 강의 컨텐츠 유형을 선택합니다.
+1. **파일 선택** 대화 상자에서 콘텐츠 위치로 이동하여 원하는 학습 콘텐츠를 선택합니다.
 
-   ![](assets/add-existing-learning-content.png)
-4. **선택**&#x200B;을 선택하세요.
+>[!NOTE]
+>
+> HTML 주제를 학습 그룹 맵에 추가하면 `format="html"` 특성이 맵의 해당 `topicref`에 자동으로 추가됩니다. 이렇게 하면 항목이 올바르게 처리 및 게시됩니다.
+
+![](assets/add-existing-learning-content.png)
+
+1. **선택**&#x200B;을 선택하세요.
 
 선택한 강의 컨텐츠가 저장소의 강의에 추가됩니다.
 

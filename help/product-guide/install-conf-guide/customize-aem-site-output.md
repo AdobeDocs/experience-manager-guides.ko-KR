@@ -5,9 +5,9 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 0849544d-fa7b-4c66-b418-1ffcd1ca09df
-source-git-commit: 179e9016b12edb14c09ce9352a318e06a4fc628a
+source-git-commit: 75954eab3ac1738705fe2a7280973af39b9214df
 workflow-type: tm+mt
-source-wordcount: '3190'
+source-wordcount: '3264'
 ht-degree: 1%
 
 ---
@@ -98,7 +98,7 @@ Experience Manager Guides 설정을 기반으로 AEM 사이트 출력 생성에 
 >
 > 사용자 지정 디자인 템플릿 노드를 만든 후 AEM 사이트 출력 사전 설정에서 디자인 옵션을 업데이트하여 사용자 지정 디자인 템플릿 노드를 사용해야 합니다.
 
-자세한 내용은 [첫 번째 Adobe Experience Manager 웹 사이트 만들기](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=ko) 및 AEM에서 자체 웹 사이트 개발 [기본 사항](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=ko)을 참조하십시오.
+자세한 내용은 [첫 번째 Adobe Experience Manager 웹 사이트 만들기](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=en) 및 AEM에서 자체 웹 사이트 개발 [기본 사항](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=en)을 참조하십시오.
 
 ## AEM 사이트 출력 생성에 문서 제목 사용
 
@@ -122,6 +122,9 @@ Experience Manager Guides 설정을 기반으로 AEM 사이트 출력에서 URL 
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `aemsite.pagetitle` | 부울 \(true/false\). 페이지 제목을 사용하여 출력을 생성하려는 경우 이 속성을 true로 설정합니다. 기본적으로 파일 이름을 사용하도록 설정되어 있습니다.<br> **기본값**: false |
 
+>[!NOTE]
+>
+> `aemsite.pagetitle` 속성은 AEM 사이트 페이지 제목의 기본 폴더 수준 동작을 정의합니다. 환경에 대한 AEM Sites 사전 설정에서 `Topic filename` 또는 `Topic title`을(를) 선택하는 옵션을 사용할 수 있는 경우 사전 설정 수준의 선택이 우선하며 해당 출력에 대한 `aemsite.pagetitle` 폴더 수준 구성을 무시합니다. 예를 들어 `aemsite.pagetitle=true`이지만 사용자가 출력 사전 설정에서 *주제 파일 이름*&#x200B;을 선택한 경우 주제 파일 이름이 사용됩니다. `aemsite.pagetitle=false`인데 사용자가 *주제 제목*&#x200B;을 선택하면 주제 제목이 사용됩니다.
 
 >[!TAB 온-프레미스]
 
@@ -210,7 +213,7 @@ Experience Manager Guides 설정을 기반으로 파일 이름 및 AEM 사이트
 
 1. *com.adobe.fmdita.common.SanitizeNodeNameImpl* 번들을 검색하고 클릭합니다.
 
-1. **AEM Sites에 게시하는 데 허용되지 않는 문자 집합** 속성에서 속성이 `<>`&#x200B;`@$`(으)로 설정되어 있는지 확인하십시오. 이 목록에 더 많은 특수 문자를 추가할 수 있지만 필수 특수 문자가 있어야 합니다.
+1. **AEM Sites에 게시하는 데 허용되지 않는 문자 집합** 속성에서 속성이 `<>``@$`(으)로 설정되어 있는지 확인하십시오. 이 목록에 더 많은 특수 문자를 추가할 수 있지만 필수 특수 문자가 있어야 합니다.
 
    >[!NOTE]
    >
@@ -363,7 +366,7 @@ AEM 사이트 출력에서 평면화할 노드를 지정하는 것과 마찬가�
 
 ## AEM 사이트 출력에서 삭제된 페이지에 대한 버전 관리 구성
 
-기존 출력 페이지 설정에 대해 **삭제 및**&#x200B;만들기&#x200B;**&#x200B;**&#x200B;옵션이 선택된 AEM 사이트 출력을 생성하면 삭제되는 페이지에 대한 버전이 만들어집니다. 삭제하기 전에 버전 생성을 중단하도록 시스템을 구성할 수 있습니다.
+기존 출력 페이지 설정에 대해 **삭제 및**&#x200B;만들기&#x200B;****옵션이 선택된 AEM 사이트 출력을 생성하면 삭제되는 페이지에 대한 버전이 만들어집니다. 삭제하기 전에 버전 생성을 중단하도록 시스템을 구성할 수 있습니다.
 
 Experience Manager Guides 설정에 따라 삭제되는 페이지의 버전 만들기를 중지하는 지침을 제공합니다. Cloud Service 또는 온프레미스.
 

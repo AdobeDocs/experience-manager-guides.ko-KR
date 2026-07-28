@@ -5,22 +5,14 @@ exl-id: 9eb426fc-ca0a-4932-8a55-fea731281a0a
 feature: Publishing
 role: User
 TQID: https://experienceleague.adobe.com/qUqrdURCFXqbjNwZ1-CVXbCj-cbj6wTFs3MW-BRupdM
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
-  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: fd5e1e85933eb2785b0a74b0fa49fec1da4ca0c2
 workflow-type: tm+mt
-source-wordcount: 923
+source-wordcount: 1016
 ht-degree: 0%
 
 ---
@@ -57,6 +49,10 @@ ht-degree: 0%
 
 자세한 내용은 [JSON 구성](#json-configuration)을 참조하세요.
 
+>[!NOTE]
+>
+>폴더 프로필에 대해 [상태 검사 기능](../install-conf-guide/conf-health-check-preset.md)이 구성된 경우 [일반] 탭에 추가 **출력 생성 전 상태 검사 실행** 토글이 표시됩니다. 이 사전 설정을 사용하여 출력을 생성할 때마다 상태 검사를 자동으로 실행하도록 하려면 맵에서 수동으로 트리거할 필요가 없습니다. 보고서는 게시 로그에 추가되며 정보 제공용으로만 사용됩니다. 검사 결과 해결되지 않은 오류나 경고가 발견되더라도 출력이 차단되거나 지연되지는 않습니다. [Experience Manager Guides에서 상태 확인 기능 사용](./map-editor-other-features.md#run-health-check-on-a-map)에 대해 자세히 알아보세요.
+
 ![](images/json-preset-config-new.png)
 
 ## JSON 구성
@@ -77,4 +73,4 @@ JSON 사전 설정에 사용할 수 있는 옵션은 다음과 같습니다.
 | 출력에서 전파할 속성 | 메타데이터로 처리할 속성을 선택합니다. 이러한 등록 정보는 DITA 맵 또는 북맵 파일의 등록 정보 페이지에서 설정됩니다. 드롭다운 목록에서 선택한 속성이 속성 필드 아래에 나열됩니다.<br><br>**참고**: 사용자 지정 속성을 정의하고 DITA-OT 게시를 사용하여 메타데이터를 출력에 전달할 수도 있습니다. 자세한 내용을 보려면 [메타데이터 작업](metadata-dita.md#id21BJ00QD0XA)을 하세요. |
 | 사후 생성 워크플로 | 이 옵션을 선택하면 AEM에 구성된 모든 워크플로우를 포함하는 새 사후 생성 워크플로우 드롭다운 목록이 표시됩니다. 출력 생성 워크플로우를 완료한 후 실행할 워크플로우를 선택해야 합니다.<br><br>**참고**: 사용자 지정 출력 후 생성 워크플로우를 만드는 방법에 대한 자세한 내용은 Adobe Experience Manager Guides as a Cloud Service 설치 및 구성 안내서에서 _출력 후 생성 워크플로우 사용자 지정_&#x200B;을 참조하십시오. |
 
-**상위 항목:**&#x200B;[&#x200B;출력 사전 설정 이해](generate-output-understand-presets.md)
+**상위 항목:**[&#x200B;출력 사전 설정 이해](generate-output-understand-presets.md)
