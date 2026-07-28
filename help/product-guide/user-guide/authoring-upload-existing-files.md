@@ -5,9 +5,14 @@ exl-id: b5430242-1122-43df-a0b2-275b1dea33f2
 feature: Content Management
 role: User
 TQID: https://experienceleague.adobe.com/GG5Bx2yyJz2GaQFmMsDZ6wq6xzb4XUAsSBxEkRNvEVE
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: d1a4b75ef3acd3d02cce2225f03e1f9b3a086ef7
 workflow-type: tm+mt
 source-wordcount: 695
@@ -69,4 +74,4 @@ Adobe Experience Manager 데스크탑 앱이나 자산 대량 수집기와 같�
 
 
 
-**상위 항목:**[&#x200B;콘텐츠 관리](authoring.md)
+**상위 항목:**&#x200B;[&#x200B;콘텐츠 관리](authoring.md)

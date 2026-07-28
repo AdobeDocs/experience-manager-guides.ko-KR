@@ -4,11 +4,18 @@ description: 새 맵 컬렉션을 만들고 삭제하고 DITA 맵을 추가하�
 feature: Publishing
 role: User
 TQID: https://experienceleague.adobe.com/4ZtP8sNNhuZwJ-bTKThXiRZwVXvJ2PvfKyyo91HO1bE
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
-subfeature_v2: id: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2:
+  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 56c9710820f790ed64e58521dd0d0f9ac343825f
 workflow-type: tm+mt
 source-wordcount: 1548
@@ -186,7 +193,7 @@ Adobe Experience Manager Guides의 맵 컬렉션을 사용하면 게시 전문�
 
 1. 업데이트를 저장하려면 맨 위에 있는 **저장 및 닫기**&#x200B;를 선택하십시오.
 1. (선택 사항) 태그를 업데이트할 때 **저장 및 닫기** 드롭다운에서 추가를 선택하여 새 태그를 기존 목록에 추가할 수도 있습니다.
-1. **저장 및 닫기** 드롭다운에서 **제출**을 선택합니다.
+1. **저장 및 닫기** 드롭다운에서 **제출**&#x200B;을 선택합니다.
 메타데이터 속성은 맵 컬렉션에서 선택한 DITA 맵에 대해 일괄적으로 업데이트됩니다.
 
 >[!NOTE]
@@ -196,4 +203,4 @@ Adobe Experience Manager Guides의 맵 컬렉션을 사용하면 게시 전문�
 메타데이터 속성이 파일 속성과 동기화됩니다. 업데이트하면 편집기의 **파일 속성** 패널에서 볼 수 있습니다.
 
 
-**상위 항목:**[&#x200B;출력 생성](generate-output.md)
+**상위 항목:**&#x200B;[&#x200B;출력 생성](generate-output.md)

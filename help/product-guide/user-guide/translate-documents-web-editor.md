@@ -5,10 +5,22 @@ exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
 TQID: https://experienceleague.adobe.com/aSjUOzg8-jreMvbiuBZ5lRlbeikBHMHBLUww4L3-hZA
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0efid: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd456af4-cb12-4a34-8cc4-b74adf885626
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+  - id: fd456af4-cb12-4a34-8cc4-b74adf885626
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 077335fcbb539ef545ce2ca9903e4a8223b3f6ce
 workflow-type: tm+mt
 source-wordcount: 2562
@@ -121,7 +133,7 @@ Experience Manager Guides에는 콘텐츠를 여러 언어로 번역할 수 있�
    새 번역 프로젝트 외에 다음 옵션 중에서 선택할 수도 있습니다.
 
    - 번역 프로젝트에 대해 **구조만 만들기**&#x200B;를 선택할 수 있습니다.
-   - **새 XLIFF 번역 프로젝트를 만들기**를 선택하여 XML 콘텐츠를 XLIFF(XML 로컬라이제이션 교환 파일 형식)로 변환할 수 있습니다. XLIFF는 컨텐츠 번역 프로세스에서 사용되는 다양한 도구 간의 데이터 전송을 표준화하는 데 사용되는 개방형 XML 기반 형식입니다. Experience Manager Guides은 XLIFF 버전 1.2를 지원합니다.
+   - **새 XLIFF 번역 프로젝트를 만들기**&#x200B;를 선택하여 XML 콘텐츠를 XLIFF(XML 로컬라이제이션 교환 파일 형식)로 변환할 수 있습니다. XLIFF는 컨텐츠 번역 프로세스에서 사용되는 다양한 도구 간의 데이터 전송을 표준화하는 데 사용되는 개방형 XML 기반 형식입니다. Experience Manager Guides은 XLIFF 버전 1.2를 지원합니다.
      XLIFF 프로젝트에서는 콘텐츠를 업계 표준 XLIFF 형식으로 내보내고 이를 번역 공급업체에 제공할 수 있습니다. XLIFF 형식을 사용하면 번역 단계 중에 이미 번역한 세그먼트를 다시 사용할 수 있습니다.\
      XLIFF 콘텐츠를 번역한 후 Experience Manager Guides으로 가져와 원본 DITA 프로젝트의 번역된 버전을 만들 수 있습니다.
 
@@ -254,4 +266,4 @@ Experience Manager Guides에서는 문서 관리를 수행하기 위해 번역�
 나중에 사용하려면 번역 프로젝트를 비활성화할 수도 있습니다. 프로젝트를 삭제하면 프로젝트에 있는 모든 파일과 폴더가 삭제됩니다. 프로젝트를 비활성화해도 삭제되지는 않지만 저장소에 유지됩니다. 그러나 비활성화된 프로젝트는 업데이트하거나 편집할 수 없습니다.  프로젝트를 삭제하거나 비활성화해도 참조의 번역 상태에는 영향을 주지 않습니다.
 
 
-**상위 항목:**[&#x200B;편집기 소개](web-editor.md)
+**상위 항목:**&#x200B;[&#x200B;편집기 소개](web-editor.md)

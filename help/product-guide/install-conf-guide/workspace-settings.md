@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 5.2 이전 버전의 온-프레미스 설정에서 **설정** 옵션이 편집기의 탭 표시줄에 나타납니다. 버전 5.2 이상의 Cloud Service 및 On-Premise 구성의 경우 이 옵션의 이름이 **Workspace 설정**(으)로 변경되었습니다. **편집기 설정**에서 사용할 수 있는 기존의 모든 구성 옵션은 변경되지 않습니다.
+> 5.2 이전 버전의 온-프레미스 설정에서 **설정** 옵션이 편집기의 탭 표시줄에 나타납니다. 버전 5.2 이상의 Cloud Service 및 On-Premise 구성의 경우 이 옵션의 이름이 **Workspace 설정**(으)로 변경되었습니다. **편집기 설정**&#x200B;에서 사용할 수 있는 기존의 모든 구성 옵션은 변경되지 않습니다.
 > ![온-프레미스용 편집기 설정](assets/editor-settings-on-prem.png){width="650"}
 
 
@@ -282,7 +282,7 @@ Experience Manager Guides에서 [AI Assistant](../user-guide/ai-assistant.md) �
 
 작업 영역 설정의 ![메타데이터 탭](../user-guide/images/editor-setting-metadata.png){width="550"}
 
-***버전 기록**대화 상자에 대한 메타데이터를 구성합니다.*
+***버전 기록**&#x200B;대화 상자에 대한 메타데이터를 구성합니다.*
 
 
 

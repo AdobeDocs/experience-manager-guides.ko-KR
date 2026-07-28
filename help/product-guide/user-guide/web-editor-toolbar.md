@@ -5,11 +5,21 @@ feature: Authoring, Features of Web Editor
 role: User
 exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
 TQID: https://experienceleague.adobe.com/KX-yf8J7QxTJ-vZq0onxJVPLqYFPMIka8CE6DWZgvbw
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2: id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41id: ad602516-aca3-4247-9ae8-f393d958efa9id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 550ca219c5664b33e5a4a3db74ff3cade05e0c68
 workflow-type: tm+mt
 source-wordcount: 6454
@@ -106,7 +116,7 @@ Source 보기에서 **찾기 및 바꾸기** 기능은 특정 요소나 특성�
 
    **메타데이터** 탭: 새로 추가된 메타데이터는 녹색 글꼴이고 삭제된 메타데이터는 빨간색 글꼴입니다.
 
-   ](images/metadata-version-diff.png){width="550"} 버전에 대한 ![메타데이터 차이점
+   ![&#128279;](images/metadata-version-diff.png){width="550"} 버전에 대한 메타데이터 차이점
 
    *버전 기록에서 다른 버전의 메타데이터를 비교합니다.*
 
@@ -764,4 +774,4 @@ DITA 맵에 정의된 키워드를 삽입합니다. 키워드 옵션을 선택�
 관리자는 다른 사용자가 잠근 파일의 잠금을 해제할 수 있는 **잠금 해제 강제** 기능에 액세스할 수도 있습니다. 이 기능을 사용하여 다른 사용자가 잠근 파일의 편집 권한에 액세스할 수 있습니다.
 
 ![](images/web-editor-force-unlock-new.png){width="350"}
-**상위 항목:**[&#x200B;편집기 소개](web-editor.md)
+**상위 항목:**&#x200B;[&#x200B;편집기 소개](web-editor.md)

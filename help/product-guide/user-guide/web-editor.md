@@ -5,10 +5,16 @@ exl-id: 285d3ad3-fb4e-4cdd-ab83-493ffce891d6
 feature: Authoring, Web Editor
 role: User
 TQID: https://experienceleague.adobe.com/SZs-Hc4QAGj6Mfdm-Rsaio-UEaIRpLQArxVP2FUydok
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 07f25eacbfa6e22c1de71d9c4012ad1e9b3440a8
 workflow-type: tm+mt
 source-wordcount: 453
@@ -54,4 +60,4 @@ Experience Manager Guides에는 구조화된 문서를 만들고 편집할 수 �
 Experience Manager Guides의 이전 편집기는 구조화된 컨텐츠를 위한 간단하고 안정적인 작성 환경을 제공하여 DITA 1.2, 1.3, 경량 DITA 및 특수화된 DITA와 같은 지원되는 표준을 준수하면서도 DITA의 복잡성을 추상화합니다. 이는 일반적인 블록 및 인라인 요소로 작업하는 데 필요한 도구를 제공하므로 구조화된 프레임워크 내에서 일관되고 통제되는 콘텐츠 생성에 적합합니다.
 
 
-**상위 항목:**[ Experience Manager Guides을 사용하여 콘텐츠 작성](authoring-content-xml-doc.md)
+**상위 항목:**&#x200B;[&#x200B; Experience Manager Guides을 사용하여 콘텐츠 작성](authoring-content-xml-doc.md)
