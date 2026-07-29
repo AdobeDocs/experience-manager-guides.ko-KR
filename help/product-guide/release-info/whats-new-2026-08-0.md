@@ -2,9 +2,9 @@
 title: 릴리스 정보 | Adobe Experience Manager Guides 2026.08.0 릴리스의 새로운 기능
 description: Adobe Experience Manager Guides 2026.08.0 릴리스의 새로운 기능과 향상된 기능에 대해 알아봅니다
 role: Leader
-source-git-commit: b866964c30a565eab0f6f9aec4b3fc9013f15f75
+source-git-commit: 087f74b41a3ce374aca06701e8b58e0d27492592
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '1371'
 ht-degree: 0%
 
 ---
@@ -36,11 +36,11 @@ ht-degree: 0%
 ![](assets/git-bulk-importer-import-all.png)
 
 
-## Experience Manager Guides, AI Assistant 통합을 위한 MCP 지원 추가
+## Experience Manager Guides, MCP 지원 추가
 
-Experience Manager Guides은 이제 MCP(Model Context Protocol) 통합을 지원하므로 Anthropic Cloud와 같은 AI 지원 담당자가 AEM Guides 환경에 직접 연결할 수 있습니다.
+Experience Manager Guides은 이제 MCP(Model Context Protocol)를 지원합니다. 사용자 정의 작업 없이 Claude, Cursor 등과 같은 AI 도구를 가이드에 연결할 수 있습니다. 이 버전에서 단일 MCP 엔드포인트를 통해 인증된 사용자는 기존 AEM 권한으로 작동하면서 Guides를 Headless 시스템으로 사용하고 주제 및 맵을 관리하고 기준선을 만들고 내보내며 보고서를 생성할 수 있습니다. 이를 통해 설명서 팀은 AI 애플리케이션 및 에이전트를 사용하여 보다 효율적으로 작업할 수 있습니다.
 
-인증된 사용자는 단일 MCP 끝점을 통해 기존 AEM 권한으로 작업하는 동안 주제 및 맵을 관리하고, 기준선을 만들고, 내보내고, 자연어를 사용하여 보고서를 생성할 수 있습니다. 따라서 탐색이 많은 반복적인 작업을 수행할 필요가 없어지고 설명서 팀이 Cursor 및 Visual Studio Code와 같은 MCP 지원 개발자 도구와 채팅 응용 프로그램에서 보다 효율적으로 작업할 수 있습니다. 자세한 내용은 [Adobe Experience Manager Guides MCP 서버 사용](../install-conf-guide/conf-aem-guides-mcp.md)을 참조하세요.
+자세한 내용은 [Adobe Experience Manager Guides MCP 서버 사용](../install-conf-guide/conf-aem-guides-mcp.md)을 참조하세요.
 
 
 ## 향상된 기능 검토

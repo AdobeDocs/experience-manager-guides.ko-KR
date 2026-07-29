@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c3a30c22dd49ab8af898ecd2ff032101d2f9d93f
+source-git-commit: 06126f77ee4db22865895739ad9af4efa787a7df
 workflow-type: tm+mt
-source-wordcount: 3064
+source-wordcount: 3089
 ht-degree: 0%
 
 ---
@@ -158,6 +158,10 @@ ht-degree: 0%
 주석은 문서에 있는 주석 텍스트 순서대로 표시됩니다. 예를 들어 첫 번째 문장에 강조 표시 주석이 있고 첫 번째 단락의 두 번째 문장에 텍스트 삽입 주석이 있으면 강조 표시 텍스트 주석이 삽입된 텍스트 주석 앞에 표시됩니다.
 
 설명 패널을 사용하여 수행할 수 있는 작업은 아래에 설명되어 있습니다.
+
+- 정보 아이콘 ![](./images/info-icon.svg)을(를) 사용하여 리뷰 작업 이름, 리뷰 버전, 상태 및 작업 설명을 포함한 리뷰 작업의 세부 정보를 볼 수 있습니다.
+
+  ![](./images/review-details-review-ui.png)
 
 - 주석을 선택하면 해당 주석이 강조 표시되고 문서에서 해당 주석의 위치가 표시됩니다.
 - 댓글에 답글을 추가할 수 있습니다.
