@@ -4,7 +4,7 @@ description: Adobe Experience Manager Guides의 홈 페이지를 알아봅니다
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
-source-git-commit: 018c2332a9e5a4ce8fb683a8cb0bcf859977922c
+source-git-commit: b866964c30a565eab0f6f9aec4b3fc9013f15f75
 workflow-type: tm+mt
 source-wordcount: '2247'
 ht-degree: 0%
@@ -50,6 +50,7 @@ Experience Manager Guides 홈 페이지는 다음 섹션으로 나뉩니다.
   [AI Assistant](./ai-assistant.md) 기능은 현재 Adobe Experience Manager as Cloud Service에서만 사용할 수 있습니다.
 
 - **AI 가이드**: Adobe CX Enterprise Coworker의 지능적이고 무의미한 스마트 태그 지정 기술을 편집기에 가져와 자연스러운 대화형 콘텐츠 태그 지정을 활성화합니다. 콘텐츠를 분석하고, 관련 태그를 추천하며, 최소한의 노력으로 일관되고 정확한 메타데이터를 적용하는 데 도움이 됩니다. 선택 내용을 확인하기 전에 제안된 태그를 검토하고 적용 또는 거부하도록 선택할 수 있습니다. [안내서 AI](../user-guide/guides-ai.md)는 태그 지정 프로세스를 간소화하여 콘텐츠 구성 및 검색 기능을 개선합니다.
+
 
   >[!NOTE]
   >

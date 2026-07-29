@@ -1,7 +1,7 @@
 ---
 title: 스마트 태그 지정 기능을 위한 AI 가이드
 description: 단일 작업에서 주제 및 맵에 대한 스마트 태그 지정 기능을 위해 Guides AI를 사용하는 방법에 대해 알아봅니다.
-source-git-commit: 75954eab3ac1738705fe2a7280973af39b9214df
+source-git-commit: b866964c30a565eab0f6f9aec4b3fc9013f15f75
 workflow-type: tm+mt
 source-wordcount: '1276'
 ht-degree: 0%

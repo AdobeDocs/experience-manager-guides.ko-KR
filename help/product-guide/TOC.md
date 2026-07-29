@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 살펴보십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: c3a30c22dd49ab8af898ecd2ff032101d2f9d93f
+source-git-commit: b866964c30a565eab0f6f9aec4b3fc9013f15f75
 workflow-type: tm+mt
-source-wordcount: '2568'
+source-wordcount: '2573'
 ht-degree: 10%
 
 ---
@@ -365,7 +365,8 @@ ht-degree: 10%
     - [AI Assistant를 사용하여 문서 작성하기](./user-guide/ai-assistant-right-panel.md)
     - [콘텐츠 작성에 대한 AI 기반 스마트 제안](./user-guide/authoring-ai-based-smart-suggestions.md)
     - [FAQ](./user-guide/ai-assistant-faq.md)
-  - [Guides AI 시작](./user-guide/guides-ai.md)
+  - AEM Guides의 AI 가이드 {#guides-ai-aem}
+    - [Guides AI 시작](./user-guide/guides-ai.md)
   - 학습 콘텐츠 관리 {#learning-training-content}
     - 시작 안내서 {#get-started}
       - 소개 {#intro-lc}
