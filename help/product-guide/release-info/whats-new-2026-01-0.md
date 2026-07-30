@@ -3,7 +3,7 @@ title: 릴리스 정보 | Adobe Experience Manager Guides 2026.01.0 릴리스의
 description: Adobe Experience Manager Guides 2026.01.0 릴리스의 새로운 기능과 향상된 기능에 대해 알아봅니다
 role: Leader
 exl-id: f24a6f4a-2754-48d9-b0ce-79229dc8dba9
-source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
+source-git-commit: 5da6c5239a4118d00f3a40707759950483aafdd8
 workflow-type: tm+mt
 source-wordcount: '1599'
 ht-degree: 0%
@@ -184,5 +184,5 @@ Experience Manager Guides은 이제 AEM Sites 출력에서 요소 수준 구성 
 
 이 릴리스의 일부로 다음과 같은 API 개선이 이루어졌습니다.
 
-- 새 API는 새 번역 프로젝트를 만들고 상태를 추적하기 위해 도입되었습니다. 이러한 API는 번역 프로세스를 자동화하여 수작업을 줄이고 효율성을 개선하는 데 도움이 됩니다. 자세한 내용은 [번역 프로젝트 만들기](../api-reference/translation-project.md)를 참조하세요.
+- 새 API는 새 번역 프로젝트를 만들고 상태를 추적하기 위해 도입되었습니다. 이러한 API는 번역 프로세스를 자동화하여 수작업을 줄이고 효율성을 개선하는 데 도움이 됩니다. 자세한 내용은 [번역 프로젝트 만들기](../api-reference/api-update-swagger.md)를 참조하세요.
 - 파일 및 폴더에 대한 향상된 필터링 기능으로 자산 처리 API를 개선했습니다. 자세한 내용은 [자산 처리](../api-reference/bulk-assets-processing.md)를 참조하세요.
