@@ -4,14 +4,19 @@ description: API 번역 프로젝트 만들기에 대해 알아보기
 feature: Post-Processing Event Handler
 role: Developer
 level: Experienced
-source-git-commit: 41dd3dee5f9d64fb5c58b5b302cc9759e48e3631
+source-git-commit: 3a0184bbedb9935ed4f2171245478330063904ba
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 17%
+source-wordcount: '247'
+ht-degree: 14%
 
 ---
 
+
 # 번역 프로젝트 만들기
+
+>[!NOTE]
+>
+> 최신 REST API 끝점 정의 및 관련 세부 정보는 `https://<aem-author-url>/libs/fmdita/clientlibs/api-docs/index.html`에서 Swagger 설명서를 참조하십시오(`<aem-author-url>`을(를) AEM 서버 URL로 바꾸기). 이 문서는 2026년 10월에 보관될 예정이므로 앞으로 진행될 최신 API 정보에 대해 Swagger 설명서를 사용하는 것이 좋습니다.
 
 필요한 프로젝트 세부 정보를 수락하여 번역 프로젝트를 만드는 데 도움이 되는 POST 메서드입니다.
 
@@ -165,6 +170,3 @@ GET
   }
 }
 ```
-
-
-

@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 살펴보십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: 5a4aae4385951abb8c0a577d4b7f5542c8b1dde6
+source-git-commit: 3a0184bbedb9935ed4f2171245478330063904ba
 workflow-type: tm+mt
-source-wordcount: '2573'
+source-wordcount: '2578'
 ht-degree: 10%
 
 ---
@@ -412,6 +412,7 @@ ht-degree: 10%
       - [폴더 프로필 구성](./lc-config-guide/lc-folder-profile.md)
       - [폴더 구조 설정 우수 사례](./lc-config-guide/best-practices-folder-structure.md)
       - [다른 설정 구성](./lc-config-guide/lc-other-settings.md)
+      - [SCORM 미리 보기에 대한 CSP 구성](./lc-config-guide/guides-scorm-preview-config.md)
       - [SCORM 키 지표](./lc-config-guide/learning-course-parameters.md)
     - 비디오 자습서 {#lc-video}
       - [작성 워크플로](./lc-video-tutorials/author-workflow.md)
@@ -591,7 +592,7 @@ ht-degree: 10%
   - [자산에 대한 일괄 처리를 시작하기 위한 API](./api-reference/bulk-assets-processing.md)
   - [일괄 활성화 완료 이벤트 핸들러](./api-reference/bulk-activation-complete-event.md)
   - [전환 프로세스 이벤트 핸들러](./api-reference/conversion-complete-event.md)
-  - [번역 프로젝트 만들기](./api-reference/translation-project.md)
+  - [번역 프로젝트 만들기](./api-reference/create-translation-project.md)
 - 기술 자료 {#knowledge-base}
   - 전문가 세션 {#expert-session}
     - [전문가 세션 개요](./knowledge-base/expert-sessions/expert-session.md)
