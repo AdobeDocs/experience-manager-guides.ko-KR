@@ -2,7 +2,7 @@
 title: 릴리스 정보 | Adobe Experience Manager Guides 5.2.0 릴리스의 새로운 기능
 description: Adobe Experience Manager Guides 5.2.0 릴리스의 새로운 기능과 향상된 기능에 대해 알아봅니다
 role: Leader
-source-git-commit: 5da6c5239a4118d00f3a40707759950483aafdd8
+source-git-commit: 3a0184bbedb9935ed4f2171245478330063904ba
 workflow-type: tm+mt
 source-wordcount: '4052'
 ht-degree: 0%
@@ -415,7 +415,7 @@ Experience Manager Guides은 이제 AEM Sites 출력에서 요소 수준 구성 
 
 이 릴리스의 일부로 다음과 같은 API 개선이 이루어졌습니다.
 
-- 새 API는 새 번역 프로젝트를 만들고 상태를 추적하기 위해 도입되었습니다. 이러한 API는 번역 프로세스를 자동화하여 수작업을 줄이고 효율성을 개선하는 데 도움이 됩니다. 자세한 내용은 [번역 프로젝트 만들기](../api-reference/api-update-swagger.md)를 참조하세요.
+- 새 API는 새 번역 프로젝트를 만들고 상태를 추적하기 위해 도입되었습니다. 이러한 API는 번역 프로세스를 자동화하여 수작업을 줄이고 효율성을 개선하는 데 도움이 됩니다. 자세한 내용은 [번역 프로젝트 만들기](../api-reference/create-translation-project.md)를 참조하세요.
 - 파일 및 폴더에 대한 향상된 필터링 기능으로 자산 처리 API를 개선했습니다. 자세한 내용은 [자산 처리](../api-reference/bulk-assets-processing.md)를 참조하세요.
 - 새 API는 개별 에셋 및 폴더의 사후 처리 상태를 추적하는 데 사용할 수 있습니다. 이 기능은 콘텐츠가 완전히 처리된 후에만 게시가 수행되어야 하는 자동화된 워크플로를 사용하는 팀에 특히 유용합니다. API는 준비 상태를 확인할 수 있는 신뢰할 수 있는 방법을 제공하여 불완전한 처리로 인한 게시 실패의 위험을 줄입니다. 또한 이 API의 도입으로 자산 사후 처리 이벤트가 자동으로 실행되지 않습니다. 대신 이제 관리자는 `fmdita config manager`의 설정을 통해 이 이벤트를 활성화할 수 있습니다.
 자세한 내용은 [API를 보고 개별 에셋 및 폴더의 후처리 상태를 추적하십시오](../api-reference/track-post-processing-status.md) 및 [fmdita 구성 관리자의 후처리 이벤트 처리기 설정](../api-reference/post-process-event.md)
