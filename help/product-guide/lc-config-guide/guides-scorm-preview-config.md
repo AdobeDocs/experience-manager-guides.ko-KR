@@ -68,7 +68,7 @@ Experience Manager Guides SCORM 미리 보기는 미리 보기 환경에 적용�
 2. 환경의 **구성** 탭으로 이동합니다.
 3. 환경 변수를 추가하려면 **추가/업데이트**&#x200B;를 선택하십시오.
 
-   ![클라우드 관리자에 새 변수 추가 ](assets/add-new-variable.png){width="650"}
+   ![클라우드 관리자에 새 변수 추가 &#x200B;](assets/add-new-variable.png){width="650"}
 
 4. **이름** 필드에 변수 이름(`GUIDES_SCORM_PREVIEW_CONFIG`)을 입력하십시오.
 
