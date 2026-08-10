@@ -6,8 +6,8 @@ role: Admin
 level: Experienced
 source-git-commit: 75954eab3ac1738705fe2a7280973af39b9214df
 workflow-type: tm+mt
-source-wordcount: '1904'
-ht-degree: 0%
+source-wordcount: '2006'
+ht-degree: 3%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 ## 개요
 
 - **등록이 변경되지 않습니다**: `window.extension` / `tcx.extension.register`을(를) 계속 사용합니다.
-- **편집기 캔버스가 새 표면입니다.** 상황에 맞는 메뉴 항목에서 새 위젯 ID를 선언해야 합니다.
+- **편집기 캔버스는 새 표면입니다.** 컨텍스트 메뉴 항목은 새 위젯 ID를 선언해야 합니다.
   `markup_editor_menu`; 편집기에서 DOM 터치를 중지해야 합니다.
 - **DOM 읽기/쓰기 중지**: `tcx.curEditor.*` DOM 액세스를 다음으로 바꾸기
   `guides.editor` API: [`runUtil(...)`](#migrate-reads-dom-runutil)(으)로 읽기, [`runCommand(...)`](#migrate-writes-dom-mutation-runcommand)(으)로 쓰기, [장식으로 스타일 지정](#migrate-rendering-only-logic-dom-paint-decorations) 및 [앱 이벤트를 통해 전역 작업(저장) 실행](#migrate-global-actions-savefocus-app-events) .
@@ -54,7 +54,7 @@ guides.util      // bundled utility libs (lodash, async)
 guides.ready(cb) // fires once at app load (view system ready) — before any file is open
 ```
 
-`guides.editor.version`이(가) **현재 열려 있는 편집기**&#x200B;를 보고하므로
+`guides.editor.version`이(가) **현재 열려 있는 편집기**를 보고하므로
 파일이 실제로 열려 있습니다.
 
 | `guides.editor.version` | 의미 |
@@ -91,7 +91,7 @@ function onMenuClick() {
 
 ### Hello world: CSS 전용 강조 표시 플러그인
 
-가장 작은 유용한 확장 프로그램은 **CSS만**&#x200B;에 no-op ProseMirror 플러그인과 스타일을 제공합니다. 이
+가장 작은 유용한 확장 프로그램은 **CSS만**에 no-op ProseMirror 플러그인과 스타일을 제공합니다. 이
 편집기 내에서 노란색 배경이 있는 모든 `<note>` 요소를 강조 표시합니다.
 
 ```js
@@ -147,7 +147,7 @@ write*, *전역 작업*, *렌더링 전용* 또는 *CSS*.
   | 맵 뷰어 | `ditamap_viewer` / `map_view_options` |
   | 기준선 / 사전 설정 패널 | `baseline_panel_menu` / `preset_item_menu` |
 
-  이러한 표면을 타깃팅하는 항목은 새 편집기에 **변경 내용 없음**&#x200B;이 필요합니다. 해당 항목을 다음으로 이동하지 마십시오.
+  이러한 표면을 타깃팅하는 항목은 새 편집기에 **변경 내용 없음**이 필요합니다. 해당 항목을 다음으로 이동하지 마십시오.
   `markup_editor_menu`.
 
 ## API 대체 참조
@@ -355,7 +355,7 @@ const createXrefPlugin = () => {
 guides.ready(() => guides.editor.registerPlugin(createXrefPlugin));
 ```
 
-대화 상자 내부가 아닌 앱 로드 시(한 번) 플러그인을 등록하거나 반복적으로 레지스트리가 중복 제거되지 않습니다. `registerPlugin`은(는) 플러그 인 인스턴스가 아닌 **팩터리 함수만**&#x200B;을(를) 허용합니다.
+대화 상자 내부가 아닌 앱 로드 시(한 번) 플러그인을 등록하거나 반복적으로 레지스트리가 중복 제거되지 않습니다. `registerPlugin`은(는) 플러그 인 인스턴스가 아닌 **팩터리 함수만**을(를) 허용합니다.
 `guides.editor.prosemirror` 노출 횟수: `state`, `model`, `view`, `transform`, `commands`, `keymap`,
 `history`, `tables`, `dropcursor`, `collab`, `markdown`.
 
@@ -492,7 +492,7 @@ guides.ready(() => guides.editor.registerPlugin(createMyPlugin));
 ## 부록 B: 노출된 명령 더 보기(예)
 
 아래 명령은 `guides.editor.runCommand(name, ...args)`을(를) 통해 노출된 내용에 대한 추가적인 예입니다.
-현재 컨텍스트에서 적용되지 않을 수 있는 경우 먼저 `guides.editor.canRunCommand(name, ...args)`을(를) 사용하여 모든 명령을 보호하십시오.
+현재 컨텍스트에서 적용되지 않을 수 있는 경우 `guides.editor.canRunCommand(name, ...args)`을(를) 사용하여 명령을 먼저 보호하십시오.
 
 | 명령 | 매개 변수 | 설명 |
 |---|---|---|
