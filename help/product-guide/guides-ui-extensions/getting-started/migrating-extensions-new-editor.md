@@ -54,7 +54,7 @@ guides.util      // bundled utility libs (lodash, async)
 guides.ready(cb) // fires once at app load (view system ready) — before any file is open
 ```
 
-`guides.editor.version`이(가) **현재 열려 있는 편집기**를 보고하므로
+`guides.editor.version`이(가) **현재 열려 있는 편집기**&#x200B;를 보고하므로
 파일이 실제로 열려 있습니다.
 
 | `guides.editor.version` | 의미 |
@@ -91,7 +91,7 @@ function onMenuClick() {
 
 ### Hello world: CSS 전용 강조 표시 플러그인
 
-가장 작은 유용한 확장 프로그램은 **CSS만**에 no-op ProseMirror 플러그인과 스타일을 제공합니다. 이
+가장 작은 유용한 확장 프로그램은 **CSS만**&#x200B;에 no-op ProseMirror 플러그인과 스타일을 제공합니다. 이
 편집기 내에서 노란색 배경이 있는 모든 `<note>` 요소를 강조 표시합니다.
 
 ```js
@@ -147,7 +147,7 @@ write*, *전역 작업*, *렌더링 전용* 또는 *CSS*.
   | 맵 뷰어 | `ditamap_viewer` / `map_view_options` |
   | 기준선 / 사전 설정 패널 | `baseline_panel_menu` / `preset_item_menu` |
 
-  이러한 표면을 타깃팅하는 항목은 새 편집기에 **변경 내용 없음**이 필요합니다. 해당 항목을 다음으로 이동하지 마십시오.
+  이러한 표면을 타깃팅하는 항목은 새 편집기에 **변경 내용 없음**&#x200B;이 필요합니다. 해당 항목을 다음으로 이동하지 마십시오.
   `markup_editor_menu`.
 
 ## API 대체 참조
@@ -355,7 +355,7 @@ const createXrefPlugin = () => {
 guides.ready(() => guides.editor.registerPlugin(createXrefPlugin));
 ```
 
-대화 상자 내부가 아닌 앱 로드 시(한 번) 플러그인을 등록하거나 반복적으로 레지스트리가 중복 제거되지 않습니다. `registerPlugin`은(는) 플러그 인 인스턴스가 아닌 **팩터리 함수만**을(를) 허용합니다.
+대화 상자 내부가 아닌 앱 로드 시(한 번) 플러그인을 등록하거나 반복적으로 레지스트리가 중복 제거되지 않습니다. `registerPlugin`은(는) 플러그 인 인스턴스가 아닌 **팩터리 함수만**&#x200B;을(를) 허용합니다.
 `guides.editor.prosemirror` 노출 횟수: `state`, `model`, `view`, `transform`, `commands`, `keymap`,
 `history`, `tables`, `dropcursor`, `collab`, `markdown`.
 
