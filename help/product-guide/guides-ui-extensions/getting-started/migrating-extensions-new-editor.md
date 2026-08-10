@@ -6,8 +6,8 @@ role: Admin
 level: Experienced
 source-git-commit: 75954eab3ac1738705fe2a7280973af39b9214df
 workflow-type: tm+mt
-source-wordcount: '1904'
-ht-degree: 0%
+source-wordcount: '2006'
+ht-degree: 3%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 ## 개요
 
 - **등록이 변경되지 않습니다**: `window.extension` / `tcx.extension.register`을(를) 계속 사용합니다.
-- **편집기 캔버스가 새 표면입니다.** 상황에 맞는 메뉴 항목에서 새 위젯 ID를 선언해야 합니다.
+- **편집기 캔버스는 새 표면입니다.** 컨텍스트 메뉴 항목은 새 위젯 ID를 선언해야 합니다.
   `markup_editor_menu`; 편집기에서 DOM 터치를 중지해야 합니다.
 - **DOM 읽기/쓰기 중지**: `tcx.curEditor.*` DOM 액세스를 다음으로 바꾸기
   `guides.editor` API: [`runUtil(...)`](#migrate-reads-dom-runutil)(으)로 읽기, [`runCommand(...)`](#migrate-writes-dom-mutation-runcommand)(으)로 쓰기, [장식으로 스타일 지정](#migrate-rendering-only-logic-dom-paint-decorations) 및 [앱 이벤트를 통해 전역 작업(저장) 실행](#migrate-global-actions-savefocus-app-events) .
@@ -492,7 +492,7 @@ guides.ready(() => guides.editor.registerPlugin(createMyPlugin));
 ## 부록 B: 노출된 명령 더 보기(예)
 
 아래 명령은 `guides.editor.runCommand(name, ...args)`을(를) 통해 노출된 내용에 대한 추가적인 예입니다.
-현재 컨텍스트에서 적용되지 않을 수 있는 경우 먼저 `guides.editor.canRunCommand(name, ...args)`을(를) 사용하여 모든 명령을 보호하십시오.
+현재 컨텍스트에서 적용되지 않을 수 있는 경우 `guides.editor.canRunCommand(name, ...args)`을(를) 사용하여 명령을 먼저 보호하십시오.
 
 | 명령 | 매개 변수 | 설명 |
 |---|---|---|
