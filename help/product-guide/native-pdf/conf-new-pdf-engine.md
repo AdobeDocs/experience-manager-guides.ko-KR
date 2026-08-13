@@ -4,7 +4,7 @@ description: Experience Manager Guides에서 새 PDF 엔진을 활성화하는 �
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 7f2b24b0ffbedaa3542de9d75d10aa155f6c3c0e
+source-git-commit: 40ec0c4ba2bb7fae03dfae32c555f03311f1de64
 workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 2%
@@ -21,3 +21,4 @@ ht-degree: 2%
 | PID | 속성 키 | 속성 값 |
 |-----|--------------|----------------|
 | `com.adobe.fmdita.publish.config.GuidesPublishConfiguratorService` | `guides.publish.config` | `{"PDF_ENGINE": "v2"}` <br> 기본값: `v1` |
+
