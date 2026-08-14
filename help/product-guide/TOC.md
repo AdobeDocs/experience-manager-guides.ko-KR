@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 살펴보십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: 3a0184bbedb9935ed4f2171245478330063904ba
+source-git-commit: 40ec0c4ba2bb7fae03dfae32c555f03311f1de64
 workflow-type: tm+mt
 source-wordcount: '2578'
 ht-degree: 10%
@@ -550,7 +550,7 @@ ht-degree: 10%
         - [PDF 출력에 사용자 지정 책갈피 추가](./native-pdf/add-custom-bookmark.md)
         - [JavaScript을 사용하여 콘텐츠 또는 스타일 작업](./native-pdf/use-javascript-content-style.md)
         - [각주에 스타일 적용](./native-pdf/footnote-number-style.md)
-      - [기본 PDF에 대한 새 게시 엔진 구성](./native-pdf/conf-new-pdf-engine.md)
+        - [기본 PDF에 대한 새 게시 엔진 구성](./native-pdf/conf-new-pdf-engine.md)
       - [기본 PDF 엔진 v2로 작업](./native-pdf/new-pdf-engine.md)
       - [Cloud Service의 기본 PDF 게시를 위한 노드 프로세스 구성](./native-pdf/conf-node-options-cs.md)
       - [온프레미스를 위한 기본 PDF 게시를 위한 JVM 플래그 구성](./native-pdf/conf-jvm-flags-on-prem.md)
