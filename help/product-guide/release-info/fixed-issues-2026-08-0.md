@@ -1,10 +1,10 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides, 2026.08.0 릴리스의 문제가 해결되었습니다.
 description: Adobe Experience Manager Guides as a Cloud Service 2026.08.0 릴리스의 버그 수정에 대해 알아봅니다.
-source-git-commit: 9e4af58e571659d9ed92308d3629a193d5558417
+source-git-commit: 6872e4298df8e51a3c46845793d4dad23f92eddb
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 0%
+source-wordcount: '1200'
+ht-degree: 1%
 
 ---
 
@@ -85,16 +85,16 @@ Adobe은 2026.08.0 릴리스에 대해 다음과 같은 알려진 문제를 확�
 ## 작성
 
 - 다른 위치로 이동한 DITAVAL 파일을 닫으면 `ERROR IN FETCHING VERSION DETAILS` 오류 메시지가 표시됩니다. (GUIDES-51420)
+- 충돌 API가 실패하고 저장소 폴더 경로가 슬래시로 끝나는 경우 애플리케이션 오류가 발생합니다. (GUIDES-51006)
 
 ## 편집기 2.0
 
 
-- 충돌 API가 실패하고 저장소 폴더 경로가 슬래시로 끝나는 경우 애플리케이션 오류가 발생합니다. (GUIDES-51006)
 - 개요 보기에서 처리 명령 요소를 선택하면 선택한 요소 대신 전체 상위 태그가 강조 표시됩니다. (GUIDES-48318)
 - 소스 보기에서 `keyref` 내의 키워드를 편집하면 보기가 다른 보기로 전환될 때 키워드가 끊어집니다. (GUIDES-49998)
 - `foreign` 및 `equation` 블록 안에 래핑된 MathML 방정식은 원하지 않는 간격을 발생하며 수식 안에 입력하면 들여쓰기를 조정한 후에도 문제가 발생합니다. (GUIDES-46606)
 - 편집기 설정에서 **태그 표시** 옵션을 사용하고 **특성 표시** 옵션을 사용하지 않도록 설정한 경우 `reltable` 내의 `topicref` 내에 커서를 배치할 수 없습니다. (GUIDES-46565)
-- 참조를 빈 `keydef`(으)로 끌어다 놓으면 참조를 업데이트하는 대신 `topicref` 요소가 추가됩니다. (GUIDES-45068)
+
 - 테이블 셀 `<entry>` 내의 인라인 태그가 삭제되기 바로 전에 입력한 공백입니다. (GUIDES-49144)
 
 ## 게시
