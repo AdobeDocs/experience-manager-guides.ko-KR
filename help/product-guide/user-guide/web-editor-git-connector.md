@@ -4,23 +4,14 @@ description: Experience Manager Guides의 Git 커넥터가 수행하는 작업�
 feature: Authoring, Features of Web Editor
 role: User
 TQID: https://experienceleague.adobe.com/DDAXW8cUFjvHUeJIbtL6FaHYSU7NW5fkzTai-7n90ms
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
-  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: eb30be6342a50ba52e8afd8b4a31148b3ad9c340
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: f8123b54fae2aa209efda73abb333e63cf722708
 workflow-type: tm+mt
-source-wordcount: 1352
+source-wordcount: 1409
 ht-degree: 0%
 
 ---
@@ -101,7 +92,7 @@ Git 저장소에서 콘텐츠를 가져오려면 다음 단계를 수행하십�
 
 1. **Git 커넥터** 타일을 선택합니다.
 
-1. &#x200B;+ 아이콘을 선택한 다음 **일괄 가져오기**&#x200B;를 선택합니다.
+1. + 아이콘을 선택한 다음 **일괄 가져오기**&#x200B;를 선택합니다.
 
    **일괄 가져오기** 대화 상자가 표시됩니다.
 
@@ -115,7 +106,9 @@ Git 저장소에서 콘텐츠를 가져오려면 다음 단계를 수행하십�
 
    >[!NOTE]
    >
-   > **자동 동기화**&#x200B;를 활성화하여 Git 저장소에서 Experience Manager Guides으로 콘텐츠를 자동으로 동기화하고 가져올 수 있습니다. 오류가 감지되면 자동 동기화가 트리거되지 않으며 작성자는 **모두 가져오기**&#x200B;를 선택하여 콘텐츠를 수동으로 가져와야 합니다. 자동 동기화가 활성화되면 가져오기에 대해 자동 동기화를 비활성화할 수 없습니다.
+   > 1.0.1 이전 버전의 Git Connector를 사용하는 경우 가져오기 작업 중에 Git 하위 모듈을 포함하는 저장소를 가져오지 못할 수 있습니다. 이 문제를 방지하려면 Git Connector 버전 1.0.1 이상으로 업그레이드하십시오. 버전 1.0.1부터 복제 및 가져오기 중에 Git 하위 모듈을 건너뛰고 주 리포지토리의 콘텐츠만 가져옵니다.
+
+1. *(선택 사항)* **자동 동기화**&#x200B;를 사용하도록 설정하여 Git 저장소에서 Experience Manager Guides으로 콘텐츠를 자동으로 동기화하고 가져올 수 있습니다. 오류가 감지되면 자동 동기화가 트리거되지 않으며 작성자는 **모두 가져오기**&#x200B;를 선택하여 콘텐츠를 수동으로 가져와야 합니다. 자동 동기화가 활성화되면 가져오기에 대해 자동 동기화를 비활성화할 수 없습니다.
 
 콘텐츠를 가져온 후에는 Git 커넥터를 설정할 때 구성된 **Target AEM 루트 경로** 아래에 저장됩니다.
 

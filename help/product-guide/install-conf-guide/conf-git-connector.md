@@ -4,9 +4,9 @@ description: Experience Manager Guides에서 Git을 구성하는 방법을 알�
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: eb30be6342a50ba52e8afd8b4a31148b3ad9c340
+source-git-commit: b73e904c7e0a6f398e471be6fc874de30742e519
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '568'
 ht-degree: 0%
 
 ---
@@ -40,19 +40,19 @@ Experience Manager Guides의 데이터 소스 도구를 사용하여 사용자 �
    >[!TIP]
    >
    >* 마우스로 가리키기 자세한 내용을 보려면 필드 근처 <img src="./assets/info-details.svg" alt= "정보 아이콘" width="25">에서 확인하십시오.
-   >* *가 있는 필드는 필수입니다. 예를 들어 Elasticsearch 커넥터에 대해 다음 세부 정보를 입력할 수 있습니다.
+   >* *가 있는 필드는 필수입니다. 예를 들어 Git 커넥터에 대해 다음 세부 사항을 입력할 수 있습니다.
 
-   &#x200B;- **이름**: 데이터 원본 이름을 입력하십시오.
-   &#x200B;- **대상 AEM 루트 경로**: Git에서 가져온 콘텐츠를 저장할 AEM 저장소의 경로를 입력하십시오.
-   &#x200B;- **파일 형식 필터(포함)**: 가져오는 동안 포함할 파일 형식을 지정합니다.
-   &#x200B;- **제외된 경로(정규 표현식)**: 가져오기에서 제외할 경로 패턴을 지정합니다.
-   &#x200B;- **인증 유형**: 드롭다운 목록에서 인증 유형을 선택합니다. 현재 **PAT(개인 액세스 토큰)**&#x200B;만 지원되는 인증 방법입니다. 커넥터를 설정하는 동안 PAT를 입력하여 Git 저장소를 인증하고 액세스합니다.
+   - **이름**: 데이터 원본 이름을 입력하십시오.
+   - **대상 AEM 루트 경로**: Git에서 가져온 콘텐츠를 저장할 AEM 저장소의 경로를 입력하십시오.
+   - **파일 형식 필터(포함)**: 가져오는 동안 포함할 파일 형식을 지정합니다.
+   - **제외된 경로(정규 표현식)**: 가져오기에서 제외할 경로 패턴을 지정합니다.
+   - **인증 유형**: 드롭다운 목록에서 인증 유형을 선택합니다. 현재 **PAT(개인 액세스 토큰)**&#x200B;만 지원되는 인증 방법입니다. 커넥터를 설정하는 동안 PAT를 입력하여 Git 저장소를 인증하고 액세스합니다.
 
      [GitHub 개인 액세스 토큰을 생성](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic)하는 방법에 대해 알아봅니다.
 
      GitHub에서 PAT 생성 중 범위를 선택하는 동안 다음 범위를 활성화해야 합니다.
-     &#x200B;- **저장소**: 최상위 확인란을 선택합니다. 모든 하위 범위가 자동으로 선택되어 저장소 콘텐츠, 커밋 상태 및 배포에 대한 액세스 권한이 부여됩니다.
-     &#x200B;- **관리자:org**: **읽기:org**&#x200B;만 선택하십시오. 조직 및 팀 멤버십을 해결하는 데 필요합니다.
+     - **저장소**: 최상위 확인란을 선택합니다. 모든 하위 범위가 자동으로 선택되어 저장소 콘텐츠, 커밋 상태 및 배포에 대한 액세스 권한이 부여됩니다.
+     - **관리자:org**: **읽기:org**&#x200B;만 선택하십시오. 조직 및 팀 멤버십을 해결하는 데 필요합니다.
    * **저장소 URL**: 콘텐츠를 가져올 Git 저장소 URL을 입력하십시오.
    * **분기**: 콘텐츠 가져오기에 사용할 분기를 입력하십시오.
 
@@ -70,13 +70,17 @@ Experience Manager Guides의 데이터 소스 도구를 사용하여 사용자 �
 
 Git 커넥터를 **데이터 소스** 페이지에서 구성하려면 먼저 Git 커넥터를 AEM 프로젝트에 종속성으로 포함해야 합니다. 종속성을 추가하려면 다음 단계를 수행하십시오.
 
+>[!NOTE]
+>
+> 사용 가능한 Git 커넥터 버전을 보려면 [Maven 중앙 저장소](https://central.sonatype.com/artifact/com.adobe.aem.addon.guides/konnect-github)를 확인하십시오.
+
 1. AEM 프로젝트의 `all/pom.xml`에서 Git 커넥터를 `<dependencies>` 아래에 종속성으로 추가합니다.
 
    ```xml
    <dependency>
        <groupId>com.adobe.aem.addon.guides</groupId>
        <artifactId>konnect-github</artifactId>
-       <version>1.0.0</version>
+       <version>1.0.1</version>
    </dependency>
    ```
 
