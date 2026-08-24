@@ -4,9 +4,9 @@ description: Experience Manager Guides에서 Git을 구성하는 방법을 알�
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: eb30be6342a50ba52e8afd8b4a31148b3ad9c340
+source-git-commit: b73e904c7e0a6f398e471be6fc874de30742e519
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '568'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Experience Manager Guides의 데이터 소스 도구를 사용하여 사용자 �
    >[!TIP]
    >
    >* 마우스로 가리키기 자세한 내용을 보려면 필드 근처 <img src="./assets/info-details.svg" alt= "정보 아이콘" width="25">에서 확인하십시오.
-   >* *가 있는 필드는 필수입니다. 예를 들어 Elasticsearch 커넥터에 대해 다음 세부 정보를 입력할 수 있습니다.
+   >* *가 있는 필드는 필수입니다. 예를 들어 Git 커넥터에 대해 다음 세부 사항을 입력할 수 있습니다.
 
    &#x200B;- **이름**: 데이터 원본 이름을 입력하십시오.
    &#x200B;- **대상 AEM 루트 경로**: Git에서 가져온 콘텐츠를 저장할 AEM 저장소의 경로를 입력하십시오.
@@ -70,13 +70,17 @@ Experience Manager Guides의 데이터 소스 도구를 사용하여 사용자 �
 
 Git 커넥터를 **데이터 소스** 페이지에서 구성하려면 먼저 Git 커넥터를 AEM 프로젝트에 종속성으로 포함해야 합니다. 종속성을 추가하려면 다음 단계를 수행하십시오.
 
+>[!NOTE]
+>
+> 사용 가능한 Git 커넥터 버전을 보려면 [Maven 중앙 저장소](https://central.sonatype.com/artifact/com.adobe.aem.addon.guides/konnect-github)를 확인하십시오.
+
 1. AEM 프로젝트의 `all/pom.xml`에서 Git 커넥터를 `<dependencies>` 아래에 종속성으로 추가합니다.
 
    ```xml
    <dependency>
        <groupId>com.adobe.aem.addon.guides</groupId>
        <artifactId>konnect-github</artifactId>
-       <version>1.0.0</version>
+       <version>1.0.1</version>
    </dependency>
    ```
 
