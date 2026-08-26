@@ -1,17 +1,17 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides 2024.12.0 릴리스의 문제가 해결되었습니다.
-description: Adobe Experience Manager Guides as a Cloud Service 2024.1.0 릴리스의 버그 수정에 대해 알아봅니다.
+description: Adobe Experience Manager Guides as a Cloud Service 2024.12.0 릴리스의 버그 수정에 대해 알아봅니다.
 exl-id: 04a57e1a-6e74-46f6-acde-5045d3dcacdc
 source-git-commit: dd404c42863f0b4a5f31b54f770c0bf296d68ab9
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 1%
+source-wordcount: '422'
+ht-degree: 3%
 
 ---
 
 # 2024.12.0 릴리스의 문제가 해결되었습니다.
 
-이 문서에서는 Adobe Experience Manager Guides as a Cloud Service 의 2024.12.0 릴리스의 다양한 영역에서 수정된 버그를 다룹니다.
+이 문서에서는 Adobe Experience Manager Guides as a Cloud Service의 2024.12.0 릴리스의 다양한 영역에서 수정된 버그를 다룹니다.
 
 [2024.12.0 릴리스의 업그레이드 지침](./upgrade-instructions-2024-12-0.md)에 대해 알아봅니다.
 
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 ## 게시
 
-- 기본 PDF 출력의 TOC에서 챕터 제목이 누락되어 잘못된 계층 구조가 발생합니다. (21840)
+- 기본 PDF 출력에서 TOC에 챕터 제목이 누락되어 잘못된 계층 구조가 발생합니다. (21840)
 
 
 ## 관리
@@ -44,7 +44,7 @@ ht-degree: 1%
 
 ## 해결 방법에 대한 알려진 문제
 
-Adobe은 Adobe Experience Manager Guidesas a Cloud Service 의 2024.12.0 릴리스에서 다음과 같은 알려진 문제를 확인했습니다.
+Adobe은 Adobe Experience Manager Guides as a Cloud Service의 2024.12.0 릴리스에서 다음과 같은 알려진 문제를 확인했습니다.
 
 콘텐츠 번역을 처리하는 동안 **프로젝트 만들기가 실패합니다**
 
