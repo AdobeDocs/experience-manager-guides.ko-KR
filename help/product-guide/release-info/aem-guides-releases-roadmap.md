@@ -12,10 +12,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: cd3d36fcd2da9af45520c8221411003b88269ac8
+source-git-commit: 029e68ca746583f2e3d30918f6785333beb3d01c
 workflow-type: tm+mt
-source-wordcount: 905
-ht-degree: 38%
+source-wordcount: 929
+ht-degree: 37%
 
 ---
 
@@ -36,6 +36,8 @@ Experience Manager Guides as a Cloud Service의 릴리스는 다음과 같이 �
 | 릴리스 | 이벤트 | 일정 | 새로운 기능 | 업그레이드 지침 | 해결된 문제 | 상태 |
 |---|---|---|---|---|---|---|
 | Adobe Experience Manager Guides 2026.09.0 | 자동 업데이트 | 2026년 9월 14~16일 | - | - | - | 대상 |
+| Adobe Experience Manager Guides 2026.10.0 | 자동 업데이트 | 2026년 10월 26~28일 | - | - | - | 대상 |
+| Adobe Experience Manager Guides 2026.12.0 | 자동 업데이트 | 2026년 12월 07~09일 | - | - | - | 대상 |
 
 
 ### 라이브 릴리스
