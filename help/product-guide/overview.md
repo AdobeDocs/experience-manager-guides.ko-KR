@@ -62,6 +62,6 @@ ht-degree: 10%
 ## 추가 리소스
 
 * [[!DNL Experience Manager Guides] 사용 안내서(이전 UI)](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
-* [[!DNL AEM Guides] 학습 및 지원](https://helpx.adobe.com/kr/support/xml-documentation-for-experience-manager.html)
+* [[!DNL AEM Guides] 학습 및 지원](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
 * [Experience League - AEM 살펴보기](https://business.adobe.com/kr/products/experience-manager/adobe-experience-manager.html)
 
