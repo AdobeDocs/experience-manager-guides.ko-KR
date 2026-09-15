@@ -7,18 +7,20 @@ role: Leader
 TQID: https://experienceleague.adobe.com/RROF3KWnqtnbbHGyW1McC9uvdA7x27fI-Rp4nCZOTHo
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 1a08469a4bd12f8b6dd9d83196463432b331f239
+    internal-label: Customer experience
+source-git-commit: 244642e60f489789379feeba34f0d5fc80e18ce1
 workflow-type: tm+mt
-source-wordcount: 2473
+source-wordcount: '2473'
 ht-degree: 0%
-
 ---
-
 # [!DNL AEM Guides] 릴리스
 
 [!DNL Adobe Experience Manager Guides]은(는) AEM에 배포된 응용 프로그램입니다. Adobe Experience Manager의 기본 DITA 지원을 활성화하는 강력한 엔터프라이즈급 구성 요소 콘텐츠 관리 솔루션(CCMS)으로, AEM에서 DITA 기반 콘텐츠 생성 및 전달을 처리할 수 있도록 촉진합니다.
@@ -37,8 +39,8 @@ UUID 빌드와 UUID가 아닌 빌드 간의 주요 차이점은 다음과 같습
 ### UUID 빌드의 이점
 
 * UUID 설치가 보다 성능이 뛰어납니다.
-   * 참조는 경로에 독립적입니다. 참조 관리 시스템은 참조가 경로가 아닌 UUID를 기반으로 생성되므로 연결을 인식합니다.
-   * 이동/업데이트 작업이 효율적임: 에셋이 저장소의 다른 경로로 이동하더라도 UUID는 그대로 유지됩니다. 따라서 이동/업데이트 작업 시 에셋 간의 참조를 패치하는 데 처리가 필요하지 않습니다.
+  * 참조는 경로에 독립적입니다. 참조 관리 시스템은 참조가 경로가 아닌 UUID를 기반으로 생성되므로 연결을 인식합니다.
+  * 이동/업데이트 작업이 효율적임: 에셋이 저장소의 다른 경로로 이동하더라도 UUID는 그대로 유지됩니다. 따라서 이동/업데이트 작업 시 에셋 간의 참조를 패치하는 데 처리가 필요하지 않습니다.
 * AEM Guides의 클라우드 설정에도 이 프레임워크를 사용하므로 UUID 빌드는 전향적입니다.
 
 
@@ -56,7 +58,9 @@ UUID 빌드와 UUID가 아닌 빌드 간의 주요 차이점은 다음과 같습
 
 이전 버전에서 새 버전의 [!DNL AEM Guides]&#x200B;(으)로 업그레이드하는 경우 마이그레이션 스크립트를 실행해야 할 수 있습니다. 업그레이드 지침은 릴리스 노트 및 버전별 설명서 를 참조하십시오.
 
-일부 업그레이드 경로가 직접 지원되는 것은 아닙니다. 예를 들어 버전 3.8에서만 버전 4.0으로 직접 업그레이드할 수 있습니다.3.8 이전 버전을 사용하고 있는 경우 업그레이드 지침 [도움말 보관](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/archive.html)에 대한 버전별 설명서를 참조하십시오.업그레이드 경로의 유효성을 검사하려면 고객 성공 관리자에게 문의하십시오.
+일부 업그레이드 경로가 직접 지원되는 것은 아닙니다. 예를 들어 버전 3.8에서만 버전 4.0으로 직접 업그레이드할 수 있습니다.
+3.8 이전 버전을 사용하고 있는 경우 업그레이드 지침 [도움말 보관](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)에 대한 버전별 설명서를 참조하십시오.
+업그레이드 경로의 유효성을 검사하려면 고객 성공 관리자에게 문의하십시오.
 
 **[!DNL AEM Guides]개 빌드**
 
@@ -64,7 +68,7 @@ UUID 빌드와 UUID가 아닌 빌드 간의 주요 차이점은 다음과 같습
 >
 >AEM as a Cloud Service용 [!DNL AEM Guides] 빌드에 액세스하려면 고객 성공 관리자에게 문의하십시오.
 
-다음 목록에는 AMS 또는 온프레미에서 설치할 수 있는 최신 [!DNL AEM Guides] 패키지, 패키지 다운로드 링크 및 기타 유용한 정보가 포함되어 있습니다. Experience Manager Guides을 설치하기 전에 시스템이 [기술 요구 사항](../install-guide/download-install-technical-requirements.md)을 충족하는지 확인하십시오. 또한 [!DNL AEM Guides]의 최신 빌드만 사용하는 것이 좋습니다. 어떤 이유로 이전 빌드에 액세스해야 하는 경우 계정의 고객 성공 관리자에게 문의하십시오.
+다음 목록에는 AMS 또는 온프레미에서 설치할 수 있는 최신 [!DNL AEM Guides] 패키지, 패키지 다운로드 링크 및 기타 유용한 정보가 포함되어 있습니다. Experience Manager Guides을 설치하기 전에 시스템이 [기술 요구 사항](../install-conf-guide/aemg-technical-requirements.md)을 충족하는지 확인하십시오. 또한 [!DNL AEM Guides]의 최신 빌드만 사용하는 것이 좋습니다. 어떤 이유로 이전 빌드에 액세스해야 하는 경우 계정의 고객 성공 관리자에게 문의하십시오.
 
 >[!NOTE]
 >
