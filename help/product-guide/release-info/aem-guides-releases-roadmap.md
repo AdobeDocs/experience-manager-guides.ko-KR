@@ -18,9 +18,9 @@ role_v2:
     internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 244642e60f489789379feeba34f0d5fc80e18ce1
+source-git-commit: 07589ad852842604e53ccd7cb5802ade6573a786
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '917'
 ht-degree: 38%
 ---
 # [!DNL Experience Manager Guides] 릴리스 정보 {#aem-guides-releases-roadmap}
@@ -40,8 +40,7 @@ Experience Manager Guides as a Cloud Service의 릴리스는 다음과 같이 �
 | 릴리스 | 이벤트 | 일정 | 새로운 기능 | 업그레이드 지침 | 해결된 문제 | 상태 |
 |---|---|---|---|---|---|---|
 | Adobe Experience Manager Guides 2026.09.0 | 자동 업데이트 | 2026년 9월 28~30일 | - | - | - | 대상 |
-| Adobe Experience Manager Guides 2026.11.0 | 자동 업데이트 | 2026년 11월 8~10일 | - | - | - | 대상 |
-| Adobe Experience Manager Guides 2026.12.0 | 자동 업데이트 | 2026년 12월 07~09일 | - | - | - | 대상 |
+| Adobe Experience Manager Guides 2026.11.0 | 자동 업데이트 | 2026년 11월 9~11일 | - | - | - | 대상 |
 
 
 ### 라이브 릴리스
