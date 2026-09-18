@@ -39,16 +39,16 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: d3a1a627c00ccf276c78a0bc1337b71dd3951bc4
+source-git-commit: 6ec4546ab632167e8e49baacc8e771a44563f394
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '288'
 ht-degree: 5%
 ---
 # Experience Manager Guides 설명서
 
 Experience Manager Guides은 구조화된 작성, 다중 채널 게시 및 컨텐츠 수명주기 관리를 위한 기본 DITA 지원을 제공하는 엔터프라이즈급 CCMS입니다.
 
-[!BADGE Cloud Service]{type=Informative}, [!BADGE 온-프레미스]{type=Informative}, [!BADGE 관리 서비스]{type=Informative}
+**배포:** [!BADGE Cloud Service]{type=Informative} [!BADGE 온-프레미스]{type=Informative} [!BADGE 관리 서비스]{type=Informative}
 
 ## 역할로 시작
 
@@ -57,7 +57,7 @@ Experience Manager Guides은 구조화된 작성, 다중 채널 게시 및 컨�
 ::::landing-cards-container
 
 :::card
-![작성자 아이콘](./user-guide/images/author.svg)
+![작성자 아이콘](./user-guide/images/author.png)
 
 작성자
 
@@ -67,7 +67,7 @@ DITA 주제, 맵, 콘텐츠 재사용 및 검토 워크플로우를 만들고 �
 :::
 
 :::card
-![관리자 아이콘](./user-guide/images/admin.svg)
+![관리자 아이콘](./user-guide/images/admin.png)
 
 관리자
 
@@ -77,7 +77,7 @@ DITA 주제, 맵, 콘텐츠 재사용 및 검토 워크플로우를 만들고 �
 :::
 
 :::card
-![게시자 아이콘](./user-guide/images/publish.svg)
+![게시자 아이콘](./user-guide/images/publish.png)
 
 게시자
 
@@ -86,16 +86,17 @@ DITA 주제, 맵, 콘텐츠 재사용 및 검토 워크플로우를 만들고 �
 [맵 관리 및 게시](./user-guide/map-console-overview.md)
 :::
 
+<!--
 :::card
-![설계자 아이콘](./user-guide/images/architect.svg)
+![Architects icon](./user-guide/images/architect.svg)
 
-설계자
+Architects
 
-구현을 위한 DITA 전문, 스키마 및 콘텐츠 아키텍처를 디자인합니다.
+Design DITA specializations, schemas, and content architecture for your implementation.
 
-[DITA 특수화](./install-conf-guide/dita-ot-specialization.md)
+[DITA specialization](./install-conf-guide/dita-ot-specialization.md)
 :::
-
+-->
 ::::
 
 ## 기능 영역별 탐색
@@ -175,17 +176,17 @@ PDF, AEM Sites, HTML5, EPUB 및 JSON 출력 유형.
 <tr>
 <td>
 
-[!BADGE 기능]{type=Informative} <br> [**Git 커넥터를 사용하여 콘텐츠 가져오기**](./user-guide/web-editor-git-connector.md)<br> 콘텐츠를 Git 저장소에서 직접 안내서로 가져오기
+[!BADGE 기능]{type=Neutral} <br> [**Git 커넥터를 사용하여 콘텐츠 가져오기**](./user-guide/web-editor-git-connector.md)<br> 콘텐츠를 Git 저장소에서 직접 안내서로 가져오기
 
 </td>
 <td>
 
-[!BADGE 기능]{type=Informative} <br> [**새 맵 컬렉션**](./user-guide/generate-output-use-new-map-collection-output-generation.md)<br> 맵 관리 및 출력 게시용 통합 인터페이스
+[!BADGE 기능]{type=Neutral} <br> [**새 맵 컬렉션**](./user-guide/generate-output-use-new-map-collection-output-generation.md)<br> 맵 관리 및 출력 게시용 통합 인터페이스
 
 </td>
 <td>
 
-[!BADGE 개선 사항]{type=Informative} <br> [**검토 작업 위임**](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer) <br> 검토자는 다른 검토자에게 검토 작업을 위임할 수 있습니다.
+[!BADGE 개선 사항]{type=Neutral} <br> [**검토 작업 위임**](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer) <br> 검토자는 다른 검토자에게 검토 작업을 위임할 수 있습니다.
 
 </td>
 </tr>
@@ -195,7 +196,7 @@ PDF, AEM Sites, HTML5, EPUB 및 JSON 출력 유형.
 
 * [Cloud Service 릴리스 노트](./release-info/latest-release-info-cs.md)
 * [온-프레미스용 릴리스 정보](./release-info/latest-release-info.md)
-* [AEM Guides 커뮤니티](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=ko){target="_blank"}
-* [GitHub 저장소](https://github.com/AdobeDocs/experience-manager-guides.ko-KR){target="_blank"}
-* [지원](https://experienceleague.adobe.com/support/v2/en/?lang=ko){target="_blank"}
-* [비디오 자습서](https://experienceleague.adobe.com/ko/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [AEM Guides 커뮤니티](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
+* [GitHub 저장소](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [지원](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [비디오 자습서](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
