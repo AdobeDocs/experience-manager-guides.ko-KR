@@ -4,13 +4,12 @@ description: AEM 사이트 출력에 대한 유효한 파일 이름을 구성하
 feature: Filename Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: b2bc5159-2144-4683-970d-738949ac9662
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '219'
 ht-degree: 0%
-
 ---
-
 # AEM 사이트 출력에 대한 유효한 파일 이름 구성 {#id214GK0X0KXA}
 
 DITA 주제에 허용되는 유효한 파일 이름 문자 목록과 유사하게 AEM 사이트 출력에 유효한 파일 이름 문자 목록을 구성할 수도 있습니다. URL에 허용되지 않는 알려진 문자 중 일부는 ``'<>`@$``입니다. 이러한 문자는 AEM 사이트 출력 파일 이름을 생성하는 동안 발견될 때 밑줄 &quot;`_`&quot;(으)로 자동 변환되도록 구성되어 있습니다.

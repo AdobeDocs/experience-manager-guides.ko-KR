@@ -4,13 +4,12 @@ description: 기존 콘텐츠를 마이그레이션하는 방법 알아보기
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 453da51a42984b912547570f2e1de70806b41171
+exl-id: d3d24119-8a3c-40f2-994f-3c0e5ee37f59
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '155'
 ht-degree: 2%
-
 ---
-
 # 기존 콘텐츠 마이그레이션 {#id181AGB000Y4}
 
 AEM Guides을 사용하면 다양한 정형 및 비정형 문서를 DITA 형식으로 변환할 수 있습니다. 이 항목에서는 AEM 저장소에서 DITA 콘텐츠를 업로드하고 비 DITA 콘텐츠를 DITA 형식으로 변환하는 방법에 대해 설명합니다.
@@ -24,5 +23,3 @@ AEM Guides을 사용하면 다양한 정형 및 비정형 문서를 DITA 형식�
 | Cloud Service | AEM 온프레미스 |
 |-------------|------------|
 | <ul><li>[Curl 명령을 사용하여 DITA 콘텐츠를 업로드합니다](./use-curl-command.md)</li><li>[UUID 파일 패턴 구성](./conf-uuid-filename-pattern.md)</li><li>[DITA가 아닌 콘텐츠 마이그레이션](./non-dita-content.md)</li><li>[온-프레미스에서 Cloud Service으로 콘텐츠 마이그레이션](./migrate-on-premise-content-cloud.md)</li></ul> | <ul><li>[Framemaker 및 WebDav 도구를 사용하여 기존 DITA 콘텐츠 업로드(On-Prem)](upload-dita-content.md)</li><li>[Curl 명령을 사용하여 DITA 콘텐츠를 업로드합니다](./use-curl-command.md)</li><li>[UUID 파일 패턴 구성](./conf-uuid-filename-pattern.md)</li><li>[DITA가 아닌 콘텐츠 마이그레이션](./non-dita-content.md)</li></ul> |
-
-

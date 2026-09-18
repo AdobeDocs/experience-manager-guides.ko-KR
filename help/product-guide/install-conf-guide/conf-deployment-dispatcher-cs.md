@@ -4,13 +4,12 @@ description: Experience Manager Guides as a Cloud Service의 배포 및 Dispatch
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 657a42be-36e7-4657-83d5-e866f8e55f09
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 3%
-
+source-wordcount: '347'
+ht-degree: 6%
 ---
-
 # 배포 및 Dispatcher 구성
 
 이 문서에서는 Experience Manager Guides as a Cloud Service을 배포하고 Dispatcher를 구성하는 방법에 대해 설명합니다.
@@ -46,9 +45,9 @@ Experience Manager Guides 솔루션의 자동 프로비저닝을 위해 프로�
 
 ## Dispatcher 구성
 
-Dispatcher는 Adobe Experience Manager의 캐싱 및/또는 로드 밸런싱 도구입니다. 자세한 내용은 [클라우드의 Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html?lang=ko)를 참조하세요.
+Dispatcher는 Adobe Experience Manager의 캐싱 및/또는 로드 밸런싱 도구입니다. 자세한 내용은 [클라우드의 Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html?lang=en)를 참조하세요.
 
-1. AMS에서 클라우드 서비스로 Dispatcher 구성을 마이그레이션하려면 [AMS에서 AEM as a Cloud Service으로 Dispatcher 구성 마이그레이션](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/ams-aem.html?lang=ko)을 참조하십시오.
+1. AMS에서 클라우드 서비스로 Dispatcher 구성을 마이그레이션하려면 [AMS에서 AEM as a Cloud Service으로 Dispatcher 구성 마이그레이션](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/ams-aem.html?lang=en)을 참조하십시오.
 1. Dispatcher 구성 방법에 대한 자세한 내용은 [Dispatcher 구성](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=ko-KR)을 참조하십시오.
 
 >[!NOTE]

@@ -4,13 +4,12 @@ description: UUID가 아닌 콘텐츠를 UUID로 마이그레이션하는 방법
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 453da51a42984b912547570f2e1de70806b41171
+exl-id: 20c977de-db01-4d1e-ba8c-7fffc2a54231
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 0%
-
 ---
-
 # 비 UUID에서 UUID로의 콘텐츠 마이그레이션 {#id226TI0U20XA}
 
 
@@ -55,8 +54,5 @@ ht-degree: 0%
 
 콘텐츠 마이그레이션에 대한 자세한 단계는 다음 문서를 참조하십시오.
 
-- [**4.3.1 비 UUID를 4.3.2 UUID 콘텐츠 마이그레이션으로**](../install-conf-guide/non-uuid-4-3.md)
-- [**4.6.0 서비스 팩 4 비 UUID를 4.6.1 UUID 콘텐츠 마이그레이션으로**](../install-conf-guide/non-uuid-uuid-4-6.md)
-
-
-
+- [**4.3.1 비 UUID에서 4.3.2 UUID로 콘텐츠 마이그레이션**](../install-conf-guide/non-uuid-4-3.md)
+- [**4.6.0 서비스 팩 4 비 UUID를 4.6.1 UUID 콘텐츠 마이그레이션으로 변환**](../install-conf-guide/non-uuid-uuid-4-6.md)

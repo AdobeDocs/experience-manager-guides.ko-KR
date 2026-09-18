@@ -4,13 +4,12 @@ description: 기본 PDF 기능의 다양한 구성 요소를 사용자 지정하
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 2198b9c77a0dfa888edbce5994da4721cb6127e6
+exl-id: f1ee4b53-9fdc-4227-903f-082fcf67818b
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 0%
-
 ---
-
 # 기본 PDF 게시
 
 AEM Guides을 사용하면 기본 PDF 출력 생성 기능을 사용하여 개별 주제의 PDF 또는 맵 파일을 생성할 수 있습니다. PDF 출력을 생성하는 동안 PDF 템플릿을 사용자 정의하고 사용할 수 있습니다. 페이지 레이아웃을 만들고 디자인하여 요구 사항에 따라 PDF 출력에 다양한 섹션을 표시할 수 있습니다.
@@ -26,9 +25,9 @@ AEM Guides을 사용하면 기본 PDF 출력 생성 기능을 사용하여 개�
 * [PDF 출력의 변수](../native-pdf/native-pdf-variables.md)
 * [PDF 출력에 바코드 추가](../native-pdf/add-barcode.md)
 * 공통 컨텐츠 스타일 {#content-styles}
-   * [일반적인 콘텐츠 스타일 사용](../native-pdf/stylesheet.md)
-   * [사용자 정의 변경 막대 스타일 작업](../native-pdf/change-bar-style.md)
-   * [목차 항목 및 주제 콘텐츠에 사용자 지정 스타일 적용](../native-pdf/custom-style-toc.md)
-   * [PDF 출력에 사용자 지정 책갈피 추가](../native-pdf/add-custom-bookmark.md)
-   * [JavaScript을 사용하여 콘텐츠 또는 스타일 작업](../native-pdf/use-javascript-content-style.md)
-   * [각주에서 사용자 정의 스타일 사용](../native-pdf/footnote-number-style.md)
+  * [일반적인 콘텐츠 스타일 사용](../native-pdf/stylesheet.md)
+  * [사용자 정의 변경 막대 스타일 작업](../native-pdf/change-bar-style.md)
+  * [목차 항목 및 주제 콘텐츠에 사용자 지정 스타일 적용](../native-pdf/custom-style-toc.md)
+  * [PDF 출력에 사용자 지정 책갈피 추가](../native-pdf/add-custom-bookmark.md)
+  * [JavaScript을 사용하여 콘텐츠 또는 스타일 작업](../native-pdf/use-javascript-content-style.md)
+  * [각주에서 사용자 정의 스타일 사용](../native-pdf/footnote-number-style.md)

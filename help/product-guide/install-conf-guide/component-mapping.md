@@ -4,13 +4,12 @@ description: AEM Sites에 대한 구성 요소 매핑을 수행하는 방법 알
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 9243592c-1a3c-4218-8674-19305dd6f17a
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1053'
 ht-degree: 0%
-
 ---
-
 # AEM Sites에 대한 구성 요소 매핑
 
 이 문서에서는 AEM 사이트에 대한 구성 요소 매핑의 다양한 측면에 대해 설명합니다(복합 구성 요소 매핑 사용).
@@ -191,9 +190,9 @@ HTML 테이블 콘텐츠를 수락하고 그 안의 모든 `<img>`을(를) AEM �
 ### 폴더 구조 및 키 파일(이 저장소)
 
 - 구성 요소 HTL 및 clientlibs: `ui.apps/src/main/content/jcr_root/apps/guides-components/components/table/`
-   - `table.html`(HTL 렌더러)
-   - `_cq_editConfig.xml`(수신기 새로 고침)
-   - `clientlibs/`, `css.txt`, `js.txt`, `css/table.css`, `js/table.js`
+  - `table.html`(HTL 렌더러)
+  - `_cq_editConfig.xml`(수신기 새로 고침)
+  - `clientlibs/`, `css.txt`, `js.txt`, `css/table.css`, `js/table.js`
 - Sling 모델: `core/src/main/java/com/adobe/guides/aem/components/core/models/TableModel.java`
 - 이미지 렌더링 서비스: `core/src/main/java/com/adobe/guides/aem/components/core/services/ImageComponentRenderer.java`
 
@@ -315,7 +314,7 @@ clientlibs/js.txt
 - **응답형 사용**: `./enableResponsive`(확인란); 응답형 래퍼 클래스를 전환합니다.
 - **테이블 스타일**: `./tableStyle`(선택); 스타일 한정자 클래스를 적용합니다.
 
-이러한 매핑 1:1은(는) Sling 모델의 속성 및 제어 렌더링에 매핑됩니다.
+이는 Sling 모델의 속성 및 제어 렌더링에 1:1을 매핑합니다.
 
 **템플릿에서 구성 요소 허용**
 

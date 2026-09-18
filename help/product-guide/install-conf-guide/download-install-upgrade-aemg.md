@@ -4,13 +4,12 @@ description: AEM Guides 업그레이드 방법 알아보기
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: b416334318a83e882c32318bc4769d24268cdd1c
+exl-id: 9d48a7c4-384d-4ad4-a1d3-4c50d97e5d5b
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '120'
 ht-degree: 2%
-
 ---
-
 # Cloud Service용 AEM Guides 업그레이드 {#id213BD050YPH}
 
 AEM Guides을 업그레이드하려면 다음 단계를 수행하십시오.
@@ -26,7 +25,7 @@ AEM Guides을 업그레이드하려면 다음 단계를 수행하십시오.
 
 >[!NOTE]
 >
-> CI/CD 파이프라인 사용에 대한 자세한 내용은 [Adobe Cloud Manager에서 CI/CD 파이프라인 사용](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/cloud-manager/use-the-cicd-pipeline-in-cloud-manager-for-aem.html?lang=ko)을 참조하십시오.
+> CI/CD 파이프라인 사용에 대한 자세한 내용은 [Adobe Cloud Manager에서 CI/CD 파이프라인 사용](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/cloud-manager/use-the-cicd-pipeline-in-cloud-manager-for-aem.html)을 참조하십시오.
 
 ## 브라우저 캐시를 지웁니다.
 

@@ -1,13 +1,12 @@
 ---
-title: 릴리스 노트 | Adobe Experience Manager Guides 5.1.0 서비스 팩 4 릴리스에 대한 업그레이드 지침
+title: 릴리스 정보 | Adobe Experience Manager Guides 5.1.0 서비스 팩 4 릴리스의 업그레이드 지침
 description: 호환성 매트릭스와 Adobe Experience Manager Guides 5.1.0 서비스 팩 4 릴리스로 업그레이드하는 방법에 대해 알아봅니다.
-source-git-commit: acc063d149f52a457d4ce2447c8eafaff6296dac
+exl-id: 4970ee05-2644-43d6-976b-bfaa91b41146
+source-git-commit: d11f910bde58b36a8db27d74be6799eb7891f3b5
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 3%
-
+source-wordcount: '595'
+ht-degree: 4%
 ---
-
 # 5.1.0 서비스 팩 4 릴리스(2026년 4월)의 업그레이드 지침
 
 이 문서에서는 Adobe Experience Manager Guides 5.1.0 서비스 팩 4 릴리스의 업그레이드 지침 및 호환성 매트릭스를 다룹니다.
@@ -21,7 +20,7 @@ ht-degree: 3%
 | AEM Guides | AEM 버전 | 서비스 팩 |
 | --- | --- | --- |
 | 5.1.0 서비스 팩 4(UUID) | 6.5 LTS | 1 |
-| 5.1.0 서비스 팩 4(UUID) | 6.5 | 23,22,21 |
+| 5.1.0 서비스 팩 4(UUID) | 6.5 | 23, 22, 21 |
 
 자세한 내용은 On-Premise 설치 및 구성 안내서의 [기술 요구 사항](../install-guide/download-install-technical-requirements.md) 섹션을 참조하십시오.
 
@@ -61,7 +60,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
-> 현재 AEM 6.5를 사용하고 있으며 AEM 6.5 LTS로 이동하려면 [Adobe Experience Manager(AEM) 6.5 LTS로 업그레이드](https://experienceleague.adobe.com/ko/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)를 참조하십시오.
+> 현재 AEM 6.5를 사용하고 있으며 AEM 6.5 LTS로 이동하려면 [Adobe Experience Manager(AEM) 6.5 LTS로 업그레이드](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)를 참조하십시오.
 
 Experience Manager Guides 버전 5.1.0 서비스 팩 4로 업그레이드하기 전에 다음 사항을 고려해야 합니다.
 
@@ -71,7 +70,7 @@ Experience Manager Guides 버전 5.1.0 서비스 팩 4로 업그레이드하기 
 - 버전 4.3.x, 4.2, 4.2.1(핫픽스 4.2.1.3), 4.1 또는 4.1.x를 사용하는 경우 버전 5.0.0으로 업그레이드하기 전에 버전 4.4로 업그레이드해야 합니다.
 - 버전 4.0을 사용 중인 경우 버전 4.3.x로 업그레이드하기 전에 버전 4.2로 업그레이드해야 합니다.
 - 버전 3.8.5를 사용하는 경우 버전 4.2로 업그레이드하기 전에 버전 4.0으로 업그레이드해야 합니다.
-- 3.8.5 이전 버전을 사용하는 경우 [Experience Manager Guides 도움말 PDF 보관](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/archive.html)에 있는 제품별 설치 안내서의 Adobe Experience Manager Guides 업그레이드 섹션을 참조하십시오.
+- 3.8.5 이전 버전을 사용하는 경우 [Experience Manager Guides 도움말 PDF 보관](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)에 있는 제품별 설치 안내서의 Adobe Experience Manager Guides 업그레이드 섹션을 참조하십시오.
 
 >[!NOTE]
 >

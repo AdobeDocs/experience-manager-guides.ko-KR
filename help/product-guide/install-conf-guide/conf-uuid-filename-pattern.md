@@ -4,13 +4,12 @@ description: UUID 파일 이름 패턴을 구성하는 방법 알아보기
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 63d19ec4-1313-4691-b83e-38b67f9d2050
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '301'
 ht-degree: 1%
-
 ---
-
 # UUID 파일 이름 패턴 구성
 
 콘텐츠를 가져올 때 파일 이름이 UUID를 기반으로 할 필요는 없습니다. UUID 기반 파일 이름을 사용하는 시스템에서 모든 파일을 원래 파일 이름이 아닌 해당 UUID를 사용하여 참조해야 합니다. 가져온 파일에 UUID 기반 파일 이름이 없는 경우 파일 속성에 UUID를 추가하도록 시스템을 구성할 수 있습니다. 그런 다음 이 UUID는 파일 이름을 지정하는 데 UUID가 사용되지 않는 파일을 참조하는 데 사용됩니다.
@@ -27,7 +26,7 @@ Experience Manager Guides 설정을 기반으로 UUID 파일 이름 패턴을 �
 
 | PID | 속성 키 | 속성 값 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `uuid.regex` | UUID 파일 이름 패턴의 정규 표현식을 지정하는 문자열. <br> 파일이 지정된 패턴을 따르지 않으면 UUID가 파일의 속성에 추가되고 파일에 대한 모든 참조가 파일에 할당된 UUID로 업데이트됩니다. <br> **기본값**: `"^GUID-(?<id>.*)"` |
+| `com.adobe.fmdita.config.ConfigManager` | `uuid.regex` | UUID 파일 이름 패턴의 정규 표현식을 지정하는 문자열. <br> 파일이 지정된 패턴을 따르지 않으면 UUID가 파일의 속성에 추가되고 파일에 대한 모든 참조가 파일에 지정된 UUID로 업데이트됩니다. <br> **기본값**: `"^GUID-(?<id>.*)"` |
 
 >[!TAB 온-프레미스]
 
@@ -50,8 +49,3 @@ UUID 패턴에 대해 파일 이름을 확인하고 UUID가 할당되지 않은 
 1. **저장**&#x200B;을 선택합니다.
 
 >[!ENDTABS]
-
-
-
-
-

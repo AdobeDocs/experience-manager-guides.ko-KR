@@ -4,13 +4,12 @@ description: 사용자 지정 DITA 주제 템플릿을 구성하는 방법 알�
 feature: Template Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: aaf24a83-3a94-4f77-aa37-7b0398f6ae71
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '490'
 ht-degree: 2%
-
 ---
-
 # 사용자 지정 DITA 주제 템플릿 구성 {#id16A7G0O02TD}
 
 AEM Guides에는 다음과 같은 DITA 주제 템플릿이 포함되어 있습니다.
@@ -99,4 +98,4 @@ Experience Manager Guides 설정을 기반으로 사용자 지정 DITA 템플릿
 >[!ENDTABS]
 
 
-**상위 항목:**&#x200B;[&#x200B;항목 및 맵 템플릿 구성](conf-template-tags.md)
+**상위 항목:**[&#x200B;항목 및 맵 템플릿 구성](conf-template-tags.md)
