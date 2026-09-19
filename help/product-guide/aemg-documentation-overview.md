@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 411756129e6ce756f8674d6d3feb27a1cd9a2f19
+source-git-commit: a45df7e9eef75b0c4684e944fd9611eb6e7b060e
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '289'
 ht-degree: 5%
 ---
 # Experience Manager Guides 설명서
@@ -54,7 +54,7 @@ Experience Manager Guides은 구조화된 작성, 다중 채널 게시 및 컨�
 
 ::::landing-cards-container
 :::card
-![관리자 아이콘](./user-guide/images/admin.png)
+![관리자 아이콘](../assets/admin.png)
 
 관리자
 
@@ -64,7 +64,7 @@ Experience Manager Guides은 구조화된 작성, 다중 채널 게시 및 컨�
 :::
 
 :::card
-![작성자 아이콘](./user-guide/images/author.png)
+![작성자 아이콘](../assets/author.png)
 
 작성자
 
@@ -74,7 +74,7 @@ DITA 주제, 맵, 콘텐츠 재사용 및 검토 워크플로우를 만들고 �
 :::
 
 :::card
-![게시자 아이콘](./user-guide/images/publish.png)
+![게시자 아이콘](../assets/publisher.png)
 
 게시자
 
@@ -84,7 +84,6 @@ DITA 주제, 맵, 콘텐츠 재사용 및 검토 워크플로우를 만들고 �
 :::
 
 ::::
-
 
 <!--
 :::card
@@ -102,12 +101,12 @@ Design DITA specializations, schemas, and content architecture for your implemen
 
 ## 기능 영역별 탐색
 
-<!-- Author note: Six cards will wrap to two rows of three in production. Same beta caveat as the role cards above applies here. -->
+<!-- Author note: Six cards wrap to two rows of three in production. The landing-cards-container component is in beta — verify rendering in production before publishing. -->
 
 ::::landing-cards-container
 
 :::card
-![작성 아이콘](./user-guide/images/author.svg)
+![작성 아이콘](../assets/authoring.png)
 
 작성
 
@@ -117,7 +116,7 @@ Design DITA specializations, schemas, and content architecture for your implemen
 :::
 
 :::card
-![검토 아이콘](./user-guide/images/review.svg)
+![검토 아이콘](../assets/review.png)
 
 검토
 
@@ -127,7 +126,7 @@ Design DITA specializations, schemas, and content architecture for your implemen
 :::
 
 :::card
-![게시 아이콘](./user-guide/images/publish.svg)
+![게시 아이콘](../assets/publishing.png)
 
 게시
 
@@ -137,7 +136,7 @@ PDF, AEM Sites, HTML5, EPUB 및 JSON 출력 유형.
 :::
 
 :::card
-![번역 아이콘](./user-guide/images/Smock_GlobeGrid_18_N.svg)
+![번역 아이콘](../assets/translation.png)
 
 번역
 
@@ -147,7 +146,7 @@ PDF, AEM Sites, HTML5, EPUB 및 JSON 출력 유형.
 :::
 
 :::card
-![보고서 아이콘](./user-guide/images/Smock_Report_18_N.svg)
+![보고서 아이콘](../assets/reports.png)
 
 보고서
 
@@ -157,7 +156,7 @@ PDF, AEM Sites, HTML5, EPUB 및 JSON 출력 유형.
 :::
 
 :::card
-![구성 아이콘](./user-guide/images/config.svg)
+![구성 아이콘](../assets/configure.png)
 
 구성
 
@@ -170,69 +169,49 @@ PDF, AEM Sites, HTML5, EPUB 및 JSON 출력 유형.
 
 ## 새로운 기능
 
-<!-- Author note: Badges render correctly in markdown table cells per ExL spec. <br> is supported within cells. Update release version, links, and descriptions each release cycle. The What's new table is the primary update touchpoint on this page — aim to refresh it within one week of each cloud service release. -->
-::::landing-cards-container
+<!-- Author note: Update images, badge labels, feature titles, descriptions, and links each release cycle. Images are stored in /assets/. The shade box with a borderless HTML table provides the three-column layout. Blank lines inside each <td> are required for ExL to process badge and bold-link markdown syntax. -->
 
-:::card
-![관리자 아이콘](https://cdn.experienceleague.adobe.com/icons/admin.svg)
+>[!BEGINSHADEBOX]
 
-Git 커넥터
+<table>
+<tr style="border: 0;">
+<td>
+
+![Git 커넥터](../assets/whats-new-git-connector.svg)
+
+**[Git 커넥터를 사용하여 콘텐츠 가져오기](./user-guide/web-editor-git-connector.md)**
 
 Git 저장소에서 바로 안내서로 콘텐츠를 가져옵니다.
 
-[Git 커넥터를 사용하여 콘텐츠 가져오기](./user-guide/web-editor-git-connector.md)
-:::
+</td>
+<td>
 
-:::card
-![문제 해결 아이콘](https://cdn.experienceleague.adobe.com/icons/atomic-search-troubleshoot.svg)
+![맵 컬렉션](../assets/whats-new-map-collection.svg)
 
-새 맵 컬렉션
+**[새 맵 컬렉션](./user-guide/generate-output-use-new-map-collection-output-generation.md)**
 
 맵 관리 및 출력 게시를 위한 통합 인터페이스.
 
-[새 맵 컬렉션](./user-guide/web-editor-git-connector.md)
-:::
+</td>
+<td>
 
-:::card
-![책 아이콘](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![검토 위임](../assets/whats-new-delegate-review.svg)
 
-리뷰 작업 위임
+**[검토 작업 위임](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer)**
 
 검토자는 다른 검토자에게 검토 작업을 위임할 수 있습니다.
-
-[리뷰 작업 위임](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer)
-:::
-
-::::
-
-<!--
-<table>
-<tr>
-<td>
-
-[!BADGE Feature]{type=Neutral} <br> [**Import content using Git Connector**](./user-guide/web-editor-git-connector.md)<br> Import content into Guides directly from Git repositories.
-
-</td>
-<td>
-
-[!BADGE Feature]{type=Neutral} <br> [**New map collection**](./user-guide/generate-output-use-new-map-collection-output-generation.md)<br> Unified interface for managing maps and publishing outputs
-
-</td>
-<td>
-
-[!BADGE Enhancement]{type=Neutral} <br> [**Delegate a review task**](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer) <br> Reviewers can delegate a review task to another reviewer
 
 </td>
 </tr>
 </table>
--->
 
+>[!ENDSHADEBOX]
 
 ## 추가 리소스
 
 * [Cloud Service 릴리스 노트](./release-info/latest-release-info-cs.md)
 * [온-프레미스용 릴리스 정보](./release-info/latest-release-info.md)
-* [AEM Guides 커뮤니티](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=ko){target="_blank"}
-* [GitHub 저장소](https://github.com/AdobeDocs/experience-manager-guides.ko-KR){target="_blank"}
-* [지원](https://experienceleague.adobe.com/support/v2/en/?lang=ko){target="_blank"}
-* [비디오 자습서](https://experienceleague.adobe.com/ko/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [AEM Guides 커뮤니티](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
+* [GitHub 저장소](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [지원](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [비디오 자습서](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
