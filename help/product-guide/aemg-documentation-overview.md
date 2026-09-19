@@ -194,7 +194,7 @@ Git 저장소에서 바로 안내서로 콘텐츠를 가져옵니다.
 :::
 
 :::card
-![책 아이콘](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![책 아이콘](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
 
 리뷰 작업 위임
 
@@ -232,7 +232,7 @@ Git 저장소에서 바로 안내서로 콘텐츠를 가져옵니다.
 
 * [Cloud Service 릴리스 노트](./release-info/latest-release-info-cs.md)
 * [온-프레미스용 릴리스 정보](./release-info/latest-release-info.md)
-* [AEM Guides 커뮤니티](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
-* [GitHub 저장소](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
-* [지원](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
-* [비디오 자습서](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [AEM Guides 커뮤니티](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=ko){target="_blank"}
+* [GitHub 저장소](https://github.com/AdobeDocs/experience-manager-guides.ko-KR){target="_blank"}
+* [지원](https://experienceleague.adobe.com/support/v2/en/?lang=ko){target="_blank"}
+* [비디오 자습서](https://experienceleague.adobe.com/ko/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
