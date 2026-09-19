@@ -39,35 +39,22 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 6ec4546ab632167e8e49baacc8e771a44563f394
+source-git-commit: a45df7e9eef75b0c4684e944fd9611eb6e7b060e
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '289'
 ht-degree: 5%
 ---
 # Experience Manager Guides 설명서
 
 Experience Manager Guides은 구조화된 작성, 다중 채널 게시 및 컨텐츠 수명주기 관리를 위한 기본 DITA 지원을 제공하는 엔터프라이즈급 CCMS입니다.
 
-**배포:** [!BADGE Cloud Service]{type=Informative} [!BADGE 온-프레미스]{type=Informative} [!BADGE 관리 서비스]{type=Informative}
+**배포:** [!BADGE Cloud Service]{type=Positive} [!BADGE 온-프레미스]{type=Informative}
 
 ## 역할로 시작
 
-<!-- Author note: The landing-cards-container component is in beta with known display issues in preview and review environments. Verify rendering in production before publishing. Update icon paths below once confirmed against the ExL CDN icon library. Role card links point to the first topic in each role's section of the left nav — update paths to match the actual repo structure. -->
-
 ::::landing-cards-container
-
 :::card
-![작성자 아이콘](./user-guide/images/author.png)
-
-작성자
-
-DITA 주제, 맵, 콘텐츠 재사용 및 검토 워크플로우를 만들고 관리합니다.
-
-[작성 개요](./user-guide/authoring-content.md)
-:::
-
-:::card
-![관리자 아이콘](./user-guide/images/admin.png)
+![관리자 아이콘](../assets/admin.png)
 
 관리자
 
@@ -77,7 +64,17 @@ DITA 주제, 맵, 콘텐츠 재사용 및 검토 워크플로우를 만들고 �
 :::
 
 :::card
-![게시자 아이콘](./user-guide/images/publish.png)
+![작성자 아이콘](../assets/author.png)
+
+작성자
+
+DITA 주제, 맵, 콘텐츠 재사용 및 검토 워크플로우를 만들고 관리합니다.
+
+[작성 개요](./user-guide/authoring-content.md)
+:::
+
+:::card
+![게시자 아이콘](../assets/publisher.png)
 
 게시자
 
@@ -85,6 +82,8 @@ DITA 주제, 맵, 콘텐츠 재사용 및 검토 워크플로우를 만들고 �
 
 [맵 관리 및 게시](./user-guide/map-console-overview.md)
 :::
+
+::::
 
 <!--
 :::card
@@ -96,17 +95,18 @@ Design DITA specializations, schemas, and content architecture for your implemen
 
 [DITA specialization](./install-conf-guide/dita-ot-specialization.md)
 :::
--->
+
 ::::
+-->
 
 ## 기능 영역별 탐색
 
-<!-- Author note: Six cards will wrap to two rows of three in production. Same beta caveat as the role cards above applies here. -->
+<!-- Author note: Six cards wrap to two rows of three in production. The landing-cards-container component is in beta — verify rendering in production before publishing. -->
 
 ::::landing-cards-container
 
 :::card
-![작성 아이콘](./user-guide/images/author.svg)
+![작성 아이콘](../assets/authoring.png)
 
 작성
 
@@ -116,7 +116,7 @@ Design DITA specializations, schemas, and content architecture for your implemen
 :::
 
 :::card
-![검토 아이콘](./user-guide/images/review.svg)
+![검토 아이콘](../assets/review.png)
 
 검토
 
@@ -126,7 +126,7 @@ Design DITA specializations, schemas, and content architecture for your implemen
 :::
 
 :::card
-![게시 아이콘](./user-guide/images/publish.svg)
+![게시 아이콘](../assets/publishing.png)
 
 게시
 
@@ -136,7 +136,7 @@ PDF, AEM Sites, HTML5, EPUB 및 JSON 출력 유형.
 :::
 
 :::card
-![번역 아이콘](./user-guide/images/Smock_GlobeGrid_18_N.svg)
+![번역 아이콘](../assets/translation.png)
 
 번역
 
@@ -146,7 +146,7 @@ PDF, AEM Sites, HTML5, EPUB 및 JSON 출력 유형.
 :::
 
 :::card
-![보고서 아이콘](./user-guide/images/Smock_Report_18_N.svg)
+![보고서 아이콘](../assets/reports.png)
 
 보고서
 
@@ -156,7 +156,7 @@ PDF, AEM Sites, HTML5, EPUB 및 JSON 출력 유형.
 :::
 
 :::card
-![구성 아이콘](./user-guide/images/config.svg)
+![구성 아이콘](../assets/configure.png)
 
 구성
 
@@ -169,28 +169,43 @@ PDF, AEM Sites, HTML5, EPUB 및 JSON 출력 유형.
 
 ## 새로운 기능
 
-<!-- Author note: Badges render correctly in markdown table cells per ExL spec. <br> is supported within cells. Update release version, links, and descriptions each release cycle. The What's new table is the primary update touchpoint on this page — aim to refresh it within one week of each cloud service release. -->
+<!-- Author note: Update images, badge labels, feature titles, descriptions, and links each release cycle. Images are stored in /assets/. The shade box with a borderless HTML table provides the three-column layout. Blank lines inside each <td> are required for ExL to process badge and bold-link markdown syntax. -->
 
+>[!BEGINSHADEBOX]
 
 <table>
-<tr>
+<tr style="border: 0;">
 <td>
 
-[!BADGE 기능]{type=Neutral} <br> [**Git 커넥터를 사용하여 콘텐츠 가져오기**](./user-guide/web-editor-git-connector.md)<br> 콘텐츠를 Git 저장소에서 직접 안내서로 가져오기
+![Git 커넥터](../assets/whats-new-git-connector.svg)
+
+**[Git 커넥터를 사용하여 콘텐츠 가져오기](./user-guide/web-editor-git-connector.md)**
+
+Git 저장소에서 바로 안내서로 콘텐츠를 가져옵니다.
 
 </td>
 <td>
 
-[!BADGE 기능]{type=Neutral} <br> [**새 맵 컬렉션**](./user-guide/generate-output-use-new-map-collection-output-generation.md)<br> 맵 관리 및 출력 게시용 통합 인터페이스
+![맵 컬렉션](../assets/whats-new-map-collection.svg)
+
+**[새 맵 컬렉션](./user-guide/generate-output-use-new-map-collection-output-generation.md)**
+
+맵 관리 및 출력 게시를 위한 통합 인터페이스.
 
 </td>
 <td>
 
-[!BADGE 개선 사항]{type=Neutral} <br> [**검토 작업 위임**](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer) <br> 검토자는 다른 검토자에게 검토 작업을 위임할 수 있습니다.
+![검토 위임](../assets/whats-new-delegate-review.svg)
+
+**[검토 작업 위임](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer)**
+
+검토자는 다른 검토자에게 검토 작업을 위임할 수 있습니다.
 
 </td>
 </tr>
 </table>
+
+>[!ENDSHADEBOX]
 
 ## 추가 리소스
 
