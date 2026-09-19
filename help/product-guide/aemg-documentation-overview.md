@@ -39,22 +39,29 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 6ec4546ab632167e8e49baacc8e771a44563f394
+source-git-commit: 411756129e6ce756f8674d6d3feb27a1cd9a2f19
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '311'
 ht-degree: 5%
 ---
 # Experience Manager Guides 설명서
 
 Experience Manager Guides은 구조화된 작성, 다중 채널 게시 및 컨텐츠 수명주기 관리를 위한 기본 DITA 지원을 제공하는 엔터프라이즈급 CCMS입니다.
 
-**배포:** [!BADGE Cloud Service]{type=Informative} [!BADGE 온-프레미스]{type=Informative} [!BADGE 관리 서비스]{type=Informative}
+**배포:** [!BADGE Cloud Service]{type=Positive} [!BADGE 온-프레미스]{type=Informative}
 
 ## 역할로 시작
 
-<!-- Author note: The landing-cards-container component is in beta with known display issues in preview and review environments. Verify rendering in production before publishing. Update icon paths below once confirmed against the ExL CDN icon library. Role card links point to the first topic in each role's section of the left nav — update paths to match the actual repo structure. -->
-
 ::::landing-cards-container
+:::card
+![관리자 아이콘](./user-guide/images/admin.png)
+
+관리자
+
+폴더 프로필, 권한, 워크플로 설정 및 출력 템플릿을 구성합니다.
+
+[관리 안내서](./install-conf-guide/introduction.md)
+:::
 
 :::card
 ![작성자 아이콘](./user-guide/images/author.png)
@@ -67,16 +74,6 @@ DITA 주제, 맵, 콘텐츠 재사용 및 검토 워크플로우를 만들고 �
 :::
 
 :::card
-![관리자 아이콘](./user-guide/images/admin.png)
-
-관리자
-
-폴더 프로필, 권한, 워크플로 설정 및 출력 템플릿을 구성합니다.
-
-[관리 안내서](./install-conf-guide/introduction.md)
-:::
-
-:::card
 ![게시자 아이콘](./user-guide/images/publish.png)
 
 게시자
@@ -85,6 +82,9 @@ DITA 주제, 맵, 콘텐츠 재사용 및 검토 워크플로우를 만들고 �
 
 [맵 관리 및 게시](./user-guide/map-console-overview.md)
 :::
+
+::::
+
 
 <!--
 :::card
@@ -96,8 +96,9 @@ Design DITA specializations, schemas, and content architecture for your implemen
 
 [DITA specialization](./install-conf-guide/dita-ot-specialization.md)
 :::
--->
+
 ::::
+-->
 
 ## 기능 영역별 탐색
 
@@ -170,33 +171,68 @@ PDF, AEM Sites, HTML5, EPUB 및 JSON 출력 유형.
 ## 새로운 기능
 
 <!-- Author note: Badges render correctly in markdown table cells per ExL spec. <br> is supported within cells. Update release version, links, and descriptions each release cycle. The What's new table is the primary update touchpoint on this page — aim to refresh it within one week of each cloud service release. -->
+::::landing-cards-container
 
+:::card
+![관리자 아이콘](https://cdn.experienceleague.adobe.com/icons/admin.svg)
 
+Git 커넥터
+
+Git 저장소에서 바로 안내서로 콘텐츠를 가져옵니다.
+
+[Git 커넥터를 사용하여 콘텐츠 가져오기](./user-guide/web-editor-git-connector.md)
+:::
+
+:::card
+![문제 해결 아이콘](https://cdn.experienceleague.adobe.com/icons/atomic-search-troubleshoot.svg)
+
+새 맵 컬렉션
+
+맵 관리 및 출력 게시를 위한 통합 인터페이스.
+
+[새 맵 컬렉션](./user-guide/web-editor-git-connector.md)
+:::
+
+:::card
+![책 아이콘](https://cdn.experienceleague.adobe.com/icons/book.svg)
+
+리뷰 작업 위임
+
+검토자는 다른 검토자에게 검토 작업을 위임할 수 있습니다.
+
+[리뷰 작업 위임](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer)
+:::
+
+::::
+
+<!--
 <table>
 <tr>
 <td>
 
-[!BADGE 기능]{type=Neutral} <br> [**Git 커넥터를 사용하여 콘텐츠 가져오기**](./user-guide/web-editor-git-connector.md)<br> 콘텐츠를 Git 저장소에서 직접 안내서로 가져오기
+[!BADGE Feature]{type=Neutral} <br> [**Import content using Git Connector**](./user-guide/web-editor-git-connector.md)<br> Import content into Guides directly from Git repositories.
 
 </td>
 <td>
 
-[!BADGE 기능]{type=Neutral} <br> [**새 맵 컬렉션**](./user-guide/generate-output-use-new-map-collection-output-generation.md)<br> 맵 관리 및 출력 게시용 통합 인터페이스
+[!BADGE Feature]{type=Neutral} <br> [**New map collection**](./user-guide/generate-output-use-new-map-collection-output-generation.md)<br> Unified interface for managing maps and publishing outputs
 
 </td>
 <td>
 
-[!BADGE 개선 사항]{type=Neutral} <br> [**검토 작업 위임**](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer) <br> 검토자는 다른 검토자에게 검토 작업을 위임할 수 있습니다.
+[!BADGE Enhancement]{type=Neutral} <br> [**Delegate a review task**](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer) <br> Reviewers can delegate a review task to another reviewer
 
 </td>
 </tr>
 </table>
+-->
+
 
 ## 추가 리소스
 
 * [Cloud Service 릴리스 노트](./release-info/latest-release-info-cs.md)
 * [온-프레미스용 릴리스 정보](./release-info/latest-release-info.md)
-* [AEM Guides 커뮤니티](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=ko){target="_blank"}
-* [GitHub 저장소](https://github.com/AdobeDocs/experience-manager-guides.ko-KR){target="_blank"}
-* [지원](https://experienceleague.adobe.com/support/v2/en/?lang=ko){target="_blank"}
-* [비디오 자습서](https://experienceleague.adobe.com/ko/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [AEM Guides 커뮤니티](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
+* [GitHub 저장소](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [지원](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [비디오 자습서](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
