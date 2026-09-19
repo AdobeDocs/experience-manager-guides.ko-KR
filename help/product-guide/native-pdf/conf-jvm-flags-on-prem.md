@@ -4,13 +4,12 @@ description: 기본 PDF 게시를 위한 JVM 플래그 구성
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: a2a9f44c-cb17-4423-a66e-499bce921398
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '128'
 ht-degree: 1%
-
 ---
-
 # 온프레미스를 위한 기본 PDF 게시를 위한 JVM 플래그 구성
 
 기본 PDF 게시는 별도의 JVM 프로세스를 시작하여 PDF을 생성합니다. 다른 시나리오를 지원하려면 이 JVM의 구성을 수정해야 할 수 있습니다. 예를 들어 더 큰 워크로드를 실행하려면 생성된 JVM 프로세스에 사용할 수 있는 최대 힙 크기를 늘려야 합니다.

@@ -4,13 +4,12 @@ description: 올바른 파일 이름 문자에 대해 Regx를 구성하는 방�
 feature: Filename Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 0eacc712-1179-4c11-b8f9-9eb2706e6295
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '511'
 ht-degree: 0%
-
 ---
-
 # 올바른 파일 이름 문자에 대한 Regx 구성 {#id214BD0550E8}
 
 AEM Guides 3.8 릴리스부터 관리자는 파일 이름에 사용할 수 있는 유효한 특수 문자 목록을 정의할 수 있습니다. 이전 릴리스에서는 사용자가 `@`, `$`, `>` 등의 특수 문자가 포함된 파일 이름을 정의할 수 있었습니다. 이러한 특수 문자는 DITA 맵 대시보드에서 주제를 열거나 목차에서 주제의 링크를 클릭하는 동안 문제가 발생했으며, 이로 인해 URL의 특수 문자로 인해 페이지가 열리지 않는 경우가 있었습니다.

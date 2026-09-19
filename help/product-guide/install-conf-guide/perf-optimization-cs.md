@@ -4,13 +4,12 @@ description: 성능 최적화를 위한 권장 사항 알아보기
 feature: Performance Optimization
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 6c9684d4-180f-4ccb-bfd6-6c82a8a7b720
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 0%
-
+source-wordcount: '152'
+ht-degree: 5%
 ---
-
 # Cloud Service 성능 최적화를 위한 권장 사항 {#id213BD0JG0XA}
 
 성능 최적화를 위해 다음 사항을 고려하십시오.
@@ -22,4 +21,3 @@ ht-degree: 0%
   *필수 구성*: 사용자 지정 DITA-OT 패키지의 Xerces Jar 파일을 제공된 OOTB로 바꿉니다. 기본 OOTB `xercesImpl-2.11.0.jar` 파일은 `/libs/fmdita/dita\_resources/DITA-OT.zip` 파일 내에서 사용할 수 있습니다. 교체되는 이전 Xerces Jar 파일과 일치하도록 `xercesImpl-2.11.0.jar` 파일의 이름을 바꾸십시오. 이 작업은 런타임에 수행할 수 있습니다.
 
   이렇게 하면 주제가 많은 DITA 맵을 게시하는 동안 게시 시간과 메모리 활용도가 줄어듭니다.
-

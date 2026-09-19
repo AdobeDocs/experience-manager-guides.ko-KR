@@ -1,20 +1,19 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides, 2026.01.0 릴리스의 업그레이드 지침 및 해결된 문제
 description: 호환성 매트릭스와 Adobe Experience Manager Guides as a Cloud Service 2026.01.0 릴리스로 업그레이드하는 방법에 대해 알아보십시오.
-source-git-commit: e6dab21263731b42567729649a11e9d0a74f1dfd
+exl-id: 25513149-c852-4dd4-8a44-f03969af3bd6
+source-git-commit: 100b115fcc6bd5522e88a3e236f3771d13ce389c
 workflow-type: tm+mt
-source-wordcount: '1139'
-ht-degree: 3%
-
+source-wordcount: '1147'
+ht-degree: 1%
 ---
-
 # 2026.01.0 릴리스에 대한 업그레이드 지침
 
 이 문서에서는 Adobe Experience Manager Guides as a Cloud Service 2026.01.0 릴리스의 업그레이드 지침 및 호환성 매트릭스를 다룹니다.
 
-새로운 기능 및 개선 사항에 대한 자세한 내용은 [2026.01.0 릴리스의 새로운 기능](whats-new-2026-01-0.md)을 참조하십시오.
+새로운 기능 및 향상된 기능에 대한 자세한 내용은 [2026.01.0 릴리스의 새로운 기능](whats-new-2026-01-0.md)을 참조하세요.
 
-이 릴리스에서 해결된 문제 목록을 보려면 [2026.01.0 릴리스에서 해결된 문제](fixed-issues-2026-01-0.md)를 확인하십시오.
+이 릴리스에서 수정된 문제 목록을 보려면 [2026.01.0 릴리스에서 수정된 문제](fixed-issues-2026-01-0.md)를 확인하십시오.
 
 ## 호환성 매트릭스
 
@@ -102,7 +101,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 기존 콘텐츠를 후처리하고 새 끊어진 링크 보고서를 사용하려면 다음 단계를 수행하십시오.
 
-1. (선택 사항) 시스템에 100,000개 이상의 DITA 파일이 있는 경우 `queryLimitReads`의 `queryLimitInMemory` 및 `org.apache.jackrabbit.oak.query.QueryEngineSettingsService`을(를) 더 큰 값(존재하는 에셋 수보다 큰 값(예: 200,000))으로 업데이트한 다음 다시 배포합니다.
+1. (선택 사항) 시스템에 100,000개 이상의 DITA 파일이 있는 경우 `org.apache.jackrabbit.oak.query.QueryEngineSettingsService`의 `queryLimitReads` 및 `queryLimitInMemory`을(를) 더 큰 값(존재하는 에셋 수보다 큰 값(예: 200,000))으로 업데이트한 다음 다시 배포합니다.
 
    - Adobe Experience Manager Guides as a Cloud Service 설치 및 구성 의 *구성 재정의* 섹션에 제공된 지침을 사용하여 구성 파일을 만듭니다.
    - 구성 파일에서 `queryLimitReads` 및 `queryLimitInMemory` 옵션을 구성하려면 다음(속성) 세부 정보를 제공합니다.
@@ -127,7 +126,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 기존 콘텐츠를 색인화하기 위해 다음 단계를 수행하고 보고서 탭 아래의 맵 수준 및 주제 목록에서 새 찾기 및 바꾸기 텍스트를 사용합니다.
 
-1. 올바른 인증으로 서버에 대한 POST 요청을 실행합니다. `http://<server:port>/bin/guides/map-find/indexing`. (선택 사항: 맵의 특정 경로를 전달하여 인덱싱할 수 있습니다. 기본적으로 모든 맵이 인덱싱됩니다.| 예: `https://<Server:port>/bin/guides/map-find/indexing?paths=<path of the MAP in repository>`)
+1. 올바른 인증으로 서버에 대한 POST 요청을 실행합니다. `http://<server:port>/bin/guides/map-find/indexing`. (선택 사항: 맵의 특정 경로를 전달하여 인덱싱할 수 있습니다. 기본적으로 모든 맵은 인덱싱됩니다. 예: `https://<Server:port>/bin/guides/map-find/indexing?paths=<path of the MAP in repository>`)
 
 1. 루트 폴더를 전달하여 특정 폴더(및 그 하위 폴더)의 DITA 맵을 인덱싱할 수도 있습니다. 예를 들어, `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`과 같이 입력합니다. paths 매개 변수와 root 매개 변수가 모두 전달되면 paths 매개 변수만 고려됩니다.
 
@@ -172,7 +171,7 @@ http://localhost:4503/bin/guides/script/start?jobType=cf-reference-store-btree-m
 >
 >노드가 여전히 존재하는지 여부와 작업 상태를 확인해야 합니다.
 
-GET:
+가져오기:
 
 ```
 http://<aem_domain>/var/dxml/executor-locks/cf-reference-store-btree-migration/1683190032886.json

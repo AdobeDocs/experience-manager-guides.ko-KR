@@ -4,13 +4,12 @@ description: UUID가 아닌 콘텐츠를 UUID로 마이그레이션하는 방법
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 453da51a42984b912547570f2e1de70806b41171
+exl-id: 313208e4-4403-4ba8-8e97-c5a95475b87e
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1697'
 ht-degree: 1%
-
 ---
-
 # 4.3.1 비 UUID에서 4.3.2 UUID로 콘텐츠 마이그레이션
 
 
@@ -115,7 +114,7 @@ UUID가 아닌 버전 4.3.1에서 다음 검사를 수행합니다.
    * `com.adobe.guides.uuid`
 
 
-1. (이전에 수행하지 않은 경우) 시스템에 100,000개 이상의 DITA 파일이 있는 경우 `queryLimitReads`의 `org.apache.jackrabbit.oak.query.QueryEngineSettingsService`을(를) 더 큰 값(존재하는 에셋 수보다 큰 값(예: 200,000))으로 업데이트합니다.
+1. (이전에 수행하지 않은 경우) 시스템에 100,000개 이상의 DITA 파일이 있는 경우 `org.apache.jackrabbit.oak.query.QueryEngineSettingsService`의 `queryLimitReads`을(를) 더 큰 값(존재하는 에셋 수보다 큰 값(예: 200,000))으로 업데이트합니다.
 
    | PID | 속성 키 | 속성 값 |
    |---|---|---|
@@ -216,8 +215,7 @@ UUID가 아닌 버전 4.3.1에서 다음 검사를 수행합니다.
 
    >[!NOTE]
    >
-   > 마이그레이션 전에 **내의** AEM 사이트 페이지 이름에 제목 사용`com.adobe.fmdita.config.ConfigManager` 속성이 *False*(으)로 설정된 경우 마이그레이션 후에 이 속성을 업데이트해야 합니다.
+   > 마이그레이션 전에 `com.adobe.fmdita.config.ConfigManager` 내의 **AEM 사이트 페이지 이름에 제목 사용** 속성이 *False*(으)로 설정된 경우 마이그레이션 후에 이 속성을 업데이트해야 합니다.
 
 
 1. 유효성 검사가 완료되면 압축을 실행하여 대부분의 디스크 공간을 회수할 수 있습니다(`https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=ko` 참조).
-

@@ -1,20 +1,19 @@
 ---
-title: 릴리스 노트 | Adobe Experience Manager Guides, 2026.04.0 릴리스의 업그레이드 지침 및 수정 문제
+title: 릴리스 정보 | Adobe Experience Manager Guides, 2026.04.0 릴리스의 업그레이드 지침 및 해결된 문제
 description: 호환성 매트릭스와 Adobe Experience Manager Guides as a Cloud Service 2026.04.0 릴리스로 업그레이드하는 방법에 대해 알아보십시오.
-source-git-commit: ce2c9da0d9beb05a15f7cefcf9483e0c93abbf37
+exl-id: 897d70d4-7f35-41e3-95ff-6cabeeacb1ac
+source-git-commit: 97512e5459540f57703bc99ec9a29a9d35786f01
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 11%
-
+source-wordcount: '325'
+ht-degree: 1%
 ---
-
 # 2026.04.0 릴리스에 대한 업그레이드 지침
 
 이 문서에서는 Adobe Experience Manager Guides as a Cloud Service 2026.04.0 릴리스의 업그레이드 지침 및 호환성 매트릭스를 다룹니다.
 
-새로운 기능 및 개선 사항에 대한 자세한 내용은 [2026.04.0 릴리스의 새로운 기능](whats-new-2026-04-0.md)을 참조하십시오.
+새로운 기능 및 향상된 기능에 대한 자세한 내용은 [2026.04.0 릴리스의 새로운 기능](whats-new-2026-04-0.md)을 참조하세요.
 
-이 릴리스에서 해결된 문제 목록을 보려면 [2026.04.0 릴리스에서 해결된 문제](fixed-issues-2026-04-0.md)를 확인하십시오.
+이 릴리스에서 수정된 문제 목록을 보려면 [2026.04.0 릴리스에서 수정된 문제](fixed-issues-2026-04-0.md)를 확인하십시오.
 
 ## 호환성 매트릭스
 

@@ -4,13 +4,12 @@ description: 콘텐츠 번역 방법 알아보기
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 7138fc35-09ee-4df5-8496-dc673effe120
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '1368'
-ht-degree: 6%
-
+source-wordcount: '1573'
+ht-degree: 5%
 ---
-
 # 콘텐츠 번역 {#id181GB0400UI}
 
 페이지 콘텐츠, 에셋 및 사용자 생성 콘텐츠의 번역을 자동화하여 다국어 웹 사이트를 만들고 관리할 수 있습니다. 번역 워크플로를 자동화하려면 번역 서비스 공급업체를 AEM과 통합하고 콘텐츠를 다국어로 번역하는 프로젝트를 제작해야 합니다. AEM은 인간 번역 및 기계 번역 워크플로를 지원합니다.
@@ -121,7 +120,7 @@ Experience Manager Guides 설정을 기반으로 하는 번역 워크플로에 �
 
 | PID | 속성 키 | 속성 값 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `component.translation` | 부울: <br> -   사람 번역을 사용하는 경우 *구성 요소 기반 번역 워크플로* 옵션을 `false`비활성화&#x200B;**\(**\) 합니다. <br> -   기계 번역을 사용하는 경우 *구성 요소 기반 번역 워크플로`true` 옵션을*&#x200B;활성화 \(**\)**&#x200B;합니다. |
+| `com.adobe.fmdita.config.ConfigManager` | `component.translation` | 부울: <br> - 사람 번역을 사용하는 경우 **구성 요소 기반 번역 워크플로** 옵션을 *비활성화* \( `false`\)합니다. <br> - 기계 번역을 사용하는 경우 *구성 요소 기반 번역 워크플로 활성화&#x200B;**옵션을 `true`\)*합니다.** |
 
 >[!TAB 온-프레미스]
 
@@ -137,9 +136,9 @@ Experience Manager Guides 설정을 기반으로 하는 번역 워크플로에 �
 
 1. 설정에 따라 **구성 요소 기반 DITA 번역 워크플로** 옵션을 구성합니다.
 
-   - 사람 번역을 사용하는 경우 *구성 요소 기반 번역 워크플로* 옵션을 **사용 안 함**&#x200B;합니다.
+   - 사람 번역을 사용하는 경우 **구성 요소 기반 번역 워크플로** 옵션을 *사용 안 함*&#x200B;합니다.
 
-   - 기계 번역을 사용하는 경우 *구성 요소 기반 번역 워크플로* 옵션을 **사용**&#x200B;하십시오.
+   - 기계 번역을 사용하는 경우 **구성 요소 기반 번역 워크플로** 옵션을 *사용*&#x200B;하십시오.
 
    >[!NOTE]
    >
@@ -171,7 +170,7 @@ Experience Manager Guides 설정을 기반으로 이 옵션을 구성하는 지�
 
 | PID | 속성 키 | 속성 값 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | 부울: <br> - 최신 번역 워크플로를 사용하는 경우 *레거시 번역 워크플로 실행* 옵션을 `false`비활성화&#x200B;**\(**\) 합니다.  <br> -   기존 번역을 사용하는 경우 *활성화 \( `true`\)*, **기존 번역 워크플로 실행** 옵션을 사용하십시오. <br> **기본값**: false |
+| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | 부울: <br> - 최신 번역 워크플로를 사용하는 경우 **레거시 번역 워크플로 실행** 옵션을 *비활성화* \(`false`\) 합니다.  <br> - 이전 번역을 사용하는 경우 *이전 번역 워크플로 실행&#x200B;**옵션을 `true`\(**\)*&#x200B;합니다. <br> **기본값**: false |
 
 
 >[!NOTE]
@@ -221,7 +220,7 @@ Experience Manager Guides 설정을 기반으로 이 옵션을 구성하는 지�
 
 | PID | 속성 키 | 속성 값 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | 부울: <br> -   임시 파일에서 사후 처리 작업을 실행하지 않으려면 *사후 처리 언어 사본* 옵션을 **비활성화** \( false\)합니다.<br> -   임시 파일에서 사후 처리 작업을 실행하려면 *언어 사본*&#x200B;사후 처리&#x200B;**옵션을 활성화** \( true\)합니다.<br> **기본값**: false |
+| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | 부울: <br> - 임시 파일에서 사후 처리 작업을 실행하지 않으려면 **사후 처리 언어 사본** 옵션을 *비활성화* \( false\)합니다.<br> - 임시 파일에서 사후 처리 작업을 실행하려면 *언어 사본&#x200B;**사후 처리**&#x200B;옵션을 활성화* \( true\)합니다.<br> **기본값**: false |
 
 >[!TAB 온-프레미스]
 
@@ -241,9 +240,9 @@ Experience Manager Guides 설정을 기반으로 이 옵션을 구성하는 지�
 
 1. 설정에 따라 **사후 처리 언어 사본** 옵션을 구성합니다.
 
-   - \(*기본*\) 임시 파일에서 후처리 작업을 실행하지 않으려면 *언어 사본*&#x200B;후처리&#x200B;**옵션을 비활성화**&#x200B;하십시오.
+   - \(*기본*\) 임시 파일에서 후처리 작업을 실행하지 않으려면 *언어 사본&#x200B;**후처리**&#x200B;옵션을 비활성화*&#x200B;하십시오.
 
-   - 임시 파일에서 사후 처리 작업을 실행하려면 *사후 처리 언어 사본* 옵션을 **사용**&#x200B;합니다.
+   - 임시 파일에서 사후 처리 작업을 실행하려면 **사후 처리 언어 사본** 옵션을 *사용*&#x200B;합니다.
 
 1. **저장**&#x200B;을 클릭합니다.
 

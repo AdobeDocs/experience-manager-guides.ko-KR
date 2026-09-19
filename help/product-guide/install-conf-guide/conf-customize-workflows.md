@@ -4,13 +4,12 @@ description: 워크플로우 구성 및 사용자 지정 방법 알아보기
 feature: Workflow Configuration
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 169d6e01-7ab2-4f0a-bd70-a3aee39cee8e
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '2158'
+source-wordcount: '2280'
 ht-degree: 2%
-
 ---
-
 # 워크플로우 구성 및 사용자 정의 {#id181AI0OJ0RO}
 
 워크플로우를 통해 Adobe Experience Manager \(AEM\) 활동을 자동화할 수 있습니다. 워크플로우는 특정 순서로 실행되는 일련의 단계로 구성됩니다. 각 단계에서 실행할 개별 활동을 정의할 수 있습니다. 예를 들어 주제 검토를 만들 때 그룹의 모든 검토자에게 이메일 알림을 보낼 수 있습니다. 또는 출력 생성 작업이 완료되면 게시자에게 알림을 보냅니다.
@@ -95,7 +94,7 @@ workflowdata.getMetaDataMap().put("reviewVersion","3.0");
 | `initiator` | 문자열 | 검토 작업을 시작하는 사용자의 사용자 ID입니다. |
 | `operation` | 문자열 | 정적 값이 `AEM_REVIEW`(으)로 설정되었습니다. |
 | `orgTopics` | 문자열 | 검토를 위해 공유 중인 주제 경로. 쉼표로 구분된 여러 주제를 지정합니다. |
-| `payloadJson` | JSON 오브젝트 | 다음 값을 지정하십시오. -   `base`: 검토를 위해 보낸 주제가 포함된 상위 폴더의 경로입니다. <br> -   `asset`: 검토를 위해 보낸 주제의 경로. <br> -   `referrer`: 비워 둡니다. |
+| `payloadJson` | JSON 오브젝트 | 다음 값을 지정하십시오. - `base`: 검토를 위해 보낸 항목이 포함된 상위 폴더의 경로입니다. <br> - `asset`: 검토를 위해 보낸 주제의 경로. <br> - `referrer`: 비워 둡니다. |
 | `deadline` | 문자열 | 시간을 `yyyy-MM-dd'T'HH:mm:ss.SSSXXX` 형식으로 지정하십시오. |
 | `title` | 문자열 | 리뷰 작업의 제목을 입력합니다. |
 | `description` | 문자열 | 검토 작업에 대한 설명을 입력합니다. |
@@ -110,7 +109,7 @@ workflowdata.getMetaDataMap().put("reviewVersion","3.0");
 | `ditamap` | 문자열 | 리뷰 작업의 ditamap 경로 지정 |
 | `allowAllReviewers` | 부울 | false/true |
 | `notifyViaEmail` | 부울 | false/true |
-| `reviewVersion` | 문자열 | 검토 워크플로의 현재 버전을 지정합니다. 기본값은 `3.0`(으)로 설정되어 있습니다.<br> [작성자](../user-guide/review-close-review-task.md) 및 [검토자](../user-guide/review-complete-review-tasks.md)에 대해 새 검토 워크플로 기능을 사용하려면 `reviewVersion`이(가) `3.0`(으)로 설정되어 있는지 확인하십시오. |
+| `reviewVersion` | 문자열 | 검토 워크플로의 현재 버전을 지정합니다. 기본값은 `3.0`.<br>(으)로 설정되어 있습니다. [작성자](../user-guide/review-close-review-task.md) 및 [검토자](../user-guide/review-complete-review-tasks.md)에 대해 새 검토 작업 과정 기능을 활성화하려면 `reviewVersion`이(가) `3.0`(으)로 설정되어 있는지 확인하십시오. |
 
 
 스크립트를 만들었으면 워크플로우에서 검토 만들기 프로세스를 호출하기 전에 스크립트를 호출합니다. 그런 다음 요구 사항에 따라 다른 검토 워크플로우 프로세스를 호출할 수 있습니다.
@@ -140,7 +139,7 @@ AEM Guides에는 사용자 정의할 수 있는 검토 작업 과정에 사용�
 
    >[!NOTE]
    >
-   > ``libs`` 노드에서 사용할 수 있는 기본 구성 파일의 사용자 지정을 만들지 마십시오. ``libs`` 노드에서 ``apps`` 노드의 오버레이를 만들고 ``apps`` 노드에서만 필요한 파일을 업데이트해야 합니다.
+   > ``libs`` 노드에서 사용할 수 있는 기본 구성 파일의 사용자 지정을 만들지 마십시오. ``apps`` 노드에서 ``libs`` 노드의 오버레이를 만들고 ``apps`` 노드에서만 필요한 파일을 업데이트해야 합니다.
 
 1. `review` 폴더에는 다음 하위 폴더가 있습니다.
 

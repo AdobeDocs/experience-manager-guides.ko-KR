@@ -1,14 +1,13 @@
 ---
-title: 릴리스 노트 | Adobe Experience Manager Guides 5.0.0 서비스 팩 4 릴리스의 해결된 문제
+title: 릴리스 정보 | Adobe Experience Manager Guides 5.0.0 서비스 팩 4 릴리스의 문제가 해결되었습니다.
 description: Adobe Experience Manager Guides 5.0.0 서비스 팩 4 릴리스의 버그 수정에 대해 알아봅니다
 role: Leader
-source-git-commit: 75d2e6464224cafdb30e76848165cf057a83b308
+exl-id: 4d8f7d13-4643-44b2-b127-dc13fdefc202
+source-git-commit: dc8f50f21aa27730e541f7e0f41b2a81eaf4fe6a
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 0%
-
+source-wordcount: '98'
+ht-degree: 1%
 ---
-
 # 5.0.0 서비스 팩 4 릴리스(2026년 4월)의 문제가 해결되었습니다.
 
 
@@ -19,4 +18,3 @@ ht-degree: 0%
 ## 번역
 
 - 대용량 맵을 처음 변환하는 동안 대상 언어에 대해 빈 XML 파일이 생성되므로 서버 로드가 증가하고 성능이 느려집니다. (GUIDES-41613)
-

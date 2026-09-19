@@ -1,13 +1,12 @@
 ---
 title: AEM Guides의 콘텐츠 검토
 description: 전문가 세션 - AEM Guides 검토 워크플로우 내에서. 기능 및 실제 사용 사례
-source-git-commit: a05fb3e28481648b7cceca970dc9d9a617dce3a2
+exl-id: 4fa4a7f8-4b0b-45d8-978e-e2bde3692b1d
+source-git-commit: 0d214aca4b5f12d5401ed174d20259627bf94469
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '234'
 ht-degree: 1%
-
 ---
-
 # AEM Guides의 콘텐츠 검토
 
 AEM Guides 검토 워크플로를 사용하면 작성자, SME 및 검토자가 AEM에서 나가지 않고 DITA 주제 및 맵에 공동 작업할 수 있습니다. 주석, 버전 관리, 작업 관리 및 다단계 승인을 지원합니다.
@@ -38,11 +37,11 @@ AEM Guides 검토 워크플로를 사용하면 작성자, SME 및 검토자가 A
 
 ## 관련 리소스
 
-- [워크플로 설명서 검토](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/user-guide/review/review)
+- [워크플로우 설명서 검토](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/user-guide/review/review)
 
 - [Workfront과 AEM Guides 통합](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/user-guide/workfront-integration/workfront-integration)
 
-- [검토 UI 사용자 지정](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/knowledge-base/kb-articles/extention-framework/customisations/review-app-customisations/customisation)
+- [검토 UI 사용자 정의](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/knowledge-base/kb-articles/extention-framework/customisations/review-app-customisations/customisation)
 
 
 

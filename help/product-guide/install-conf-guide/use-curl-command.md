@@ -4,13 +4,12 @@ description: Experience Manager Guides에서 업로드한 콘텐츠에 curl 명�
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 7772246c-f885-46c0-a1e5-915d111bbc61
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '290'
 ht-degree: 1%
-
 ---
-
 # curl 명령 사용
 
 curl 명령을 사용하여 DAM에 폴더를 만들고, 파일을 업로드하고, 업로드된 콘텐츠에 메타데이터를 추가할 수도 있습니다.
@@ -29,7 +28,7 @@ curl --user <username>:<password> --data jcr:primaryType=sling:Folder "<server f
 
 - `jcr:primaryType=sling:Folder`: 이 매개 변수 *을(를)*(으)로 지정하여 폴더 유형 리소스를 만드십시오.
 
-- `<server folder path>`: AEM 저장소에 만들 새 폴더의 이름을 포함하는 전체 폴더 경로입니다. 예를 들어 경로를 `http://192.168.1.1:4502/content/dam/projects/AEM-Guides`(으)로 지정하면 DAM의 `AEM-Guides` 폴더 내에 `projects` 폴더가 만들어집니다.
+- `<server folder path>`: AEM 저장소에 만들 새 폴더의 이름을 포함하는 전체 폴더 경로입니다. 예를 들어 경로를 `http://192.168.1.1:4502/content/dam/projects/AEM-Guides`(으)로 지정하면 DAM의 `projects` 폴더 내에 `AEM-Guides` 폴더가 만들어집니다.
 
 
 ## 파일 업로드

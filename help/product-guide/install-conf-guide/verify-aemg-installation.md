@@ -4,13 +4,12 @@ description: AEM Guides 설치 확인 방법 알아보기
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 19cded6f-6545-42af-8511-7c32cf4ddf2d
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '311'
 ht-degree: 0%
-
 ---
-
 # AEM Guides 설치 확인 {#id213BD030FBE}
 
 AEM Guides을 설치한 후에는 설치 성공 여부를 확인해야 합니다.
@@ -25,11 +24,11 @@ Cloud Service 또는 온프레미스 탭에서 Experience Manager Guides 설정�
 
 1. Cloud Service Developer Console에 액세스합니다.
 
-   Developer Console 액세스에 대한 자세한 내용은 AEM 설명서에서 [Developer Console 액세스](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=ko)를 참조하십시오.
+   Developer Console 액세스에 대한 자세한 내용은 AEM 설명서에서 [Developer Console 액세스](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html)를 참조하십시오.
 
 1. AEM의 OSGi 번들 목록에 액세스합니다.
 
-   번들에 액세스하는 방법에 대한 자세한 내용은 AEM 설명서의 [번들](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=ko#bundles)을 참조하십시오.
+   번들에 액세스하는 방법에 대한 자세한 내용은 AEM 설명서의 [번들](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=en#bundles)을 참조하십시오.
 
 1. 번들 목록에서 fmdita를 검색하고 상태를 확인합니다.
 
@@ -59,5 +58,3 @@ Cloud Service 또는 온프레미스 탭에서 Experience Manager Guides 설정�
 > 시스템 성능을 개선하기 위해 고려할 수 있는 다양한 성능 최적화 권장 사항이 있습니다. 자세한 내용은 [성능 최적화를 위한 권장 사항](perf-optimization-on-prem.md#)을 참조하십시오.
 
 >[!ENDTABS]
-
-

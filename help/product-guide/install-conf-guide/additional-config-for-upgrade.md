@@ -1,13 +1,12 @@
 ---
 title: 클라우드 서비스 업그레이드를 위한 추가 구성
 description: 클라우드 서비스 업그레이드를 위한 추가 구성에 대해 알아봅니다
-source-git-commit: 453da51a42984b912547570f2e1de70806b41171
+exl-id: 92230263-776f-4019-8654-f35895785398
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '849'
-ht-degree: 0%
-
+source-wordcount: '863'
+ht-degree: 1%
 ---
-
 # AEM Guides as Cloud Service 업그레이드를 위한 추가 구성
 
 >[!INFO]
@@ -60,7 +59,7 @@ http://localhost:4503/bin/guides/script/start?jobType=cf-reference-store-btree-m
 >
 >노드가 여전히 존재하는지 여부와 작업 상태를 확인해야 합니다.
 
-GET:
+가져오기:
 
 ```
 http://<aem_domain>/var/dxml/executor-locks/cf-reference-store-btree-migration/1683190032886.json
@@ -94,7 +93,7 @@ Experience Manager Guides에는 교차 맵(서로 다른 두 맵의 주제 간 �
 +++끊어진 링크 보고서를 사용하기 위해 기존 콘텐츠를 게시하는 절차 
 기존 콘텐츠를 후처리하고 새 끊어진 링크 보고서를 사용하려면 다음 단계를 수행하십시오.
 
-1. (선택 사항) 시스템에 100,000개 이상의 DITA 파일이 있는 경우 `queryLimitReads`의 `queryLimitInMemory` 및 `org.apache.jackrabbit.oak.query.QueryEngineSettingsService`을(를) 더 큰 값(존재하는 에셋 수보다 큰 값(예: 200,000))으로 업데이트한 다음 다시 배포합니다.
+1. (선택 사항) 시스템에 100,000개 이상의 DITA 파일이 있는 경우 `org.apache.jackrabbit.oak.query.QueryEngineSettingsService`의 `queryLimitReads` 및 `queryLimitInMemory`을(를) 더 큰 값(존재하는 에셋 수보다 큰 값(예: 200,000))으로 업데이트한 다음 다시 배포합니다.
 
    - Adobe Experience Manager Guides as a Cloud Service 설치 및 구성 의 *구성 재정의* 섹션에 제공된 지침을 사용하여 구성 파일을 만듭니다.
    - 구성 파일에서 `queryLimitReads` 및 `queryLimitInMemory` 옵션을 구성하려면 다음(속성) 세부 정보를 제공합니다.

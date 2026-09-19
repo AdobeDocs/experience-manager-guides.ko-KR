@@ -1,14 +1,13 @@
 ---
-title: 릴리스 노트 | Adobe Experience Manager Guides 5.1.0 서비스 팩 4 릴리스의 해결된 문제
+title: 릴리스 정보 | Adobe Experience Manager Guides 5.1.0 서비스 팩 4 릴리스의 문제가 해결되었습니다.
 description: Adobe Experience Manager Guides 5.1.0 서비스 팩 4 릴리스의 버그 수정에 대해 알아봅니다
 role: Leader
-source-git-commit: 8fb33e0f609ebfb15fb16e710928c01be73e41e9
+exl-id: 35137d5f-82ec-4c1e-a61d-f905a0075dff
+source-git-commit: d11f910bde58b36a8db27d74be6799eb7891f3b5
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '92'
 ht-degree: 1%
-
 ---
-
 # 5.1.0 서비스 팩 4 릴리스(2026년 4월)의 문제가 해결되었습니다.
 
 
