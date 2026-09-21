@@ -3,9 +3,9 @@ title: Adobe Experience Manager Guides에서 MCP 사용
 description: AEM Guides과 함께 MCP(Model Context Protocol)를 사용하여 AI 도우미를 통해 주제, 맵, 기준선 및 보고서로 작업하는 방법에 대해 알아봅니다
 feature: Authoring
 role: User
-source-git-commit: 864884f26389d256b0e054e3c0b7400b89f6d6ce
+source-git-commit: 20e5b1099b3d9a7230a40415495ba8e77f438b2a
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '790'
 ht-degree: 0%
 ---
 
@@ -40,10 +40,6 @@ Experience Manager Guides은 Experience Manager Guides 콘텐츠 및 관련 워�
 * **시스템**: 패키지 버전, 번들 상태 및 환경 진단을 확인하여 시스템의 상태를 파악합니다.
 
 AEM에서 작업을 수행할 권한이 없는 경우 MCP를 통해 동일한 작업을 수행할 수 없습니다.
-
-사용 가능한 정확한 도구는 시간이 지남에 따라 변경될 수 있습니다. 고정된 목록에 의존하는 대신 도우미에게 사용 가능한 목록을 보여 달라고 요청하십시오.
-
-`List all Experience Manager Guides tools available and describe what they do.`
 
 
 ## 지원되는 애플리케이션
