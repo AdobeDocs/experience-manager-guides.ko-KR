@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 살펴보십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: d3a1a627c00ccf276c78a0bc1337b71dd3951bc4
+source-git-commit: 79259c4991292c12990c42bdd819f121655d650b
 workflow-type: tm+mt
-source-wordcount: '2582'
+source-wordcount: '2610'
 ht-degree: 10%
 ---
 
@@ -140,6 +140,10 @@ ht-degree: 10%
         - [1월 릴리스 정보](./release-info/release-notes-2022-1-0.md)
     - On-prem/Managed Services {#on-prem-release-notes}
       - [[!DNL AEM Guides] 릴리스](./release-info/latest-release-info.md)
+      - 5.2.0 SP1 릴리스 {#520-sp1-release}
+        - [새로운 기능](./release-info/whats-new-5-2-1.md)
+        - [해결된 문제](./release-info/fixed-issues-5-2-0-sp1.md)
+        - [업그레이드 지침](./release-info/upgrade-instructions-5-2-0-sp1.md)
       - 5.2.0 릴리스 {#520-release}
         - [새로운 기능](./release-info/whats-new-5-2-0.md)
         - [해결된 문제](./release-info/fixed-issues-5-2-0.md)
@@ -566,7 +570,10 @@ ht-degree: 10%
     - [온-프레미스에 대한 새 기준선 구성](./install-conf-guide/conf-new-baseline-on-prem.md)
     - [On-Premise에 대한 피어 링크 건너뛰기 구성](./install-conf-guide/conf-skip-peer-links-on-prem.md)
     - {hide-from-toc}[출력 생성을 위한 새 맵 컬렉션 구성](./install-conf-guide/conf-new-map-collection-on-prem.md)
-    - [Experience Manager Guides MCP 서버 사용](./install-conf-guide/conf-aem-guides-mcp.md)
+    - AEM Guides MCP 통합 {#mcp}
+      - [AEM Guides MCP 서버 사용](./install-conf-guide/conf-aem-guides-mcp.md)
+      - [AEM Guides MCP 서버 설정](./install-conf-guide/configure-aem-guides-mcp.md)
+      - [AEM Guides On-Premise에 대한 MCP 연결 설정 구성](./install-conf-guide/configure-aem-guides-mcp-on-prem.md)
   - 피쳐 확장 {#aemg-customization}
     - [Cloud Service의 찾기 및 바꾸기 기능에 대한 사용자 지정 인덱스 배포](./install-conf-guide/custom-indexing-cs.md)
     - [온-프레미스의 찾기 및 바꾸기 기능에 대한 다시 인덱싱](./install-conf-guide/custom-indexing-on-prem.md)

@@ -7,26 +7,34 @@ exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
 TQID: https://experienceleague.adobe.com/KX-yf8J7QxTJ-vZq0onxJVPLqYFPMIka8CE6DWZgvbw
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41
+    internal-label: Map Editor
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 550ca219c5664b33e5a4a3db74ff3cade05e0c68
+    internal-label: Metadata
+source-git-commit: 2a8b90039694267a542d3eb6012a3b5d439eeba8
 workflow-type: tm+mt
-source-wordcount: 6454
+source-wordcount: '6603'
 ht-degree: 0%
-
 ---
-
 # 편집기의 도구 모음
 
 >[!INFO]
@@ -555,7 +563,8 @@ YouTube 또는 Vimeo를 선택하면 **멀티미디어 삽입** 대화 상자가
 
 >[!IMPORTANT]
 >
-> 표준 DITA 동작에 따라 범위=`external` 특성은 외부 리소스에 대한 참조용으로만 사용되므로 내부 링크에 적용할 수 없습니다. 이 속성을 내부 링크에 적용하면 워크플로우가 중단될 수 있습니다. Experience Manager Guides에서 관리되는 콘텐츠의 경우 기본 범위=`local` 또는 키 기반 참조를 대신 사용하십시오.
+> - 표준 DITA 동작에 따라 범위=`external` 특성은 외부 리소스에 대한 참조용으로만 사용되므로 내부 링크에 적용할 수 없습니다. 이 속성을 내부 링크에 적용하면 워크플로우가 중단될 수 있습니다. Experience Manager Guides에서 관리되는 콘텐츠의 경우 기본 범위=`local` 또는 키 기반 참조를 대신 사용하십시오.
+> - 웹 링크 참조 형식은 항상 기본적으로 scope=`external`을(를) 삽입하고 수정 없이 URL을 그대로 추가합니다. 이 동작은 HTTP/S 및 FTP/S를 포함하여 지원되는 모든 URL 유형에서 상대 경로와 절대 경로 모두에 일관되게 적용됩니다.
 
 >[!BEGINTABS]
 
