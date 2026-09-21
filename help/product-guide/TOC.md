@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 살펴보십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: d3a1a627c00ccf276c78a0bc1337b71dd3951bc4
+source-git-commit: 79259c4991292c12990c42bdd819f121655d650b
 workflow-type: tm+mt
-source-wordcount: '2582'
+source-wordcount: '2610'
 ht-degree: 10%
 ---
 
@@ -140,6 +140,10 @@ ht-degree: 10%
         - [1월 릴리스 정보](./release-info/release-notes-2022-1-0.md)
     - On-prem/Managed Services {#on-prem-release-notes}
       - [[!DNL AEM Guides] 릴리스](./release-info/latest-release-info.md)
+      - 5.2.0 SP1 릴리스 {#520-sp1-release}
+        - [새로운 기능](./release-info/whats-new-5-2-1.md)
+        - [해결된 문제](./release-info/fixed-issues-5-2-0-sp1.md)
+        - [업그레이드 지침](./release-info/upgrade-instructions-5-2-0-sp1.md)
       - 5.2.0 릴리스 {#520-release}
         - [새로운 기능](./release-info/whats-new-5-2-0.md)
         - [해결된 문제](./release-info/fixed-issues-5-2-0.md)
@@ -213,9 +217,9 @@ ht-degree: 10%
       - [3.8.x 릴리스 노트](./release-info/release-notes-3-8.md)
 - 사용 안내서 (새 UI) {#user-guide}
   - 소개 {#about-aemg}
-    - [&#x200B; [!DNL Adobe Experience Manager Guides] 정보](./user-guide/intro.md)
+    - [ [!DNL Adobe Experience Manager Guides] 정보](./user-guide/intro.md)
     - [!DNL AEM Guides] 작업 중 및 주요 기능 {#aemg-works-features}
-      - [&#x200B; [!DNL AEM Guides] 작동 방식](./user-guide/intro-how-dxml-works.md)
+      - [ [!DNL AEM Guides] 작동 방식](./user-guide/intro-how-dxml-works.md)
       - [주요 [!DNL AEM Guides] 기능](./user-guide/intro-dxml-features.md)
   - 홈 페이지 {#home-page}
     - [[!DNL AEM Guides] 홈 페이지 경험](./user-guide/intro-home-page.md)
@@ -426,7 +430,7 @@ ht-degree: 10%
       - [세션 시간 초과](./user-guide/session-timeout-prompt.md)
       - [메타데이터 내보내기에서 문자열이 너무 깁니다.](./user-guide/metadata-export-failure.md)
 - 사용 안내서 (이전 UI) {#user-guide-old-ui}
-  - [AEM Guides 개요](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+  - [AEM Guides 개요](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 설치 및 구성 {#install-conf-guide}
   - [다운로드, 설치 및 업그레이드](./install-conf-guide/introduction.md)
   - Cloud Service 설치 프로세스 {#deploy-conf-aemg-cs}
@@ -566,7 +570,10 @@ ht-degree: 10%
     - [온-프레미스에 대한 새 기준선 구성](./install-conf-guide/conf-new-baseline-on-prem.md)
     - [On-Premise에 대한 피어 링크 건너뛰기 구성](./install-conf-guide/conf-skip-peer-links-on-prem.md)
     - {hide-from-toc}[출력 생성을 위한 새 맵 컬렉션 구성](./install-conf-guide/conf-new-map-collection-on-prem.md)
-    - [Experience Manager Guides MCP 서버 사용](./install-conf-guide/conf-aem-guides-mcp.md)
+    - AEM Guides MCP 통합 {#mcp}
+      - [AEM Guides MCP 서버 사용](./install-conf-guide/conf-aem-guides-mcp.md)
+      - [AEM Guides MCP 서버 설정](./install-conf-guide/configure-aem-guides-mcp.md)
+      - [AEM Guides On-Premise에 대한 MCP 연결 설정 구성](./install-conf-guide/configure-aem-guides-mcp-on-prem.md)
   - 피쳐 확장 {#aemg-customization}
     - [Cloud Service의 찾기 및 바꾸기 기능에 대한 사용자 지정 인덱스 배포](./install-conf-guide/custom-indexing-cs.md)
     - [온-프레미스의 찾기 및 바꾸기 기능에 대한 다시 인덱싱](./install-conf-guide/custom-indexing-on-prem.md)
@@ -585,7 +592,7 @@ ht-degree: 10%
   - [데이터 소스 커넥터를 등록하는 REST API](./api-reference/data-source-connector.md)
   - [조건부 특성으로 작업할 수 있는 REST API](./api-reference/conditional-attribute.md)
   - [전환 워크플로우에 대한 REST API](./api-reference/convert-to-dita.md)
-  - [패키지를 만들고 활성화하기 위한 REST API](./api-reference/create-activate-package.md)
+  - 패키지를 만들고 활성화하기 위한 [REST API](./api-reference/create-activate-package.md)
   - [사후 처리 이벤트 핸들러](./api-reference/post-process-event.md)
   - [폴더 또는 에셋의 사후 처리 상태를 추적하는 API](./api-reference/track-post-processing-status.md)
   - [자산에 대한 일괄 처리를 시작하기 위한 API](./api-reference/bulk-assets-processing.md)
