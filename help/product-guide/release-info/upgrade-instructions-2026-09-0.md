@@ -26,7 +26,7 @@ ht-degree: 1%
 |---|---|---|----|
 | 2026.09.0 | 2026.9.0 | [AEM Guides SDK API 2026.9.0](https://central.sonatype.com/artifact/com.adobe.aem/aem-dox-sdk-api/2026.9.0) | [Javadoc 2026.9.0](https://javadoc.io/doc/com.adobe.aem/aem-dox-sdk-api/latest/index.html) |
 
-자세한 내용은 [Maven Central 저장소에서 API JAR 구성 및 사용](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/api-reference/introduction)을 참조하십시오.
+자세한 내용은 [Maven Central 저장소에서 API JAR 구성 및 사용](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/api-reference/introduction)을 참조하십시오.
 
 ### FrameMaker 및 FrameMaker Publishing Server
 
