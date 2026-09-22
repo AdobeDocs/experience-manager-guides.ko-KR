@@ -7,27 +7,37 @@ role: User
 TQID: https://experienceleague.adobe.com/aSjUOzg8-jreMvbiuBZ5lRlbeikBHMHBLUww4L3-hZA
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd456af4-cb12-4a34-8cc4-b74adf885626
+    internal-label: Content translation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 077335fcbb539ef545ce2ca9903e4a8223b3f6ce
+    internal-label: User
+source-git-commit: 0db59f201b2418911634609b93ab7892477052c9
 workflow-type: tm+mt
-source-wordcount: 2562
-ht-degree: 1%
-
+source-wordcount: '2794'
+ht-degree: 0%
 ---
-
 # 맵 콘솔에서 문서 번역 {#id21BKF0Z0YZF}
 
 >[!TIP]
@@ -66,7 +76,8 @@ Experience Manager Guides에는 콘텐츠를 여러 언어로 번역할 수 있�
 
    >[!IMPORTANT]
    >
-   > 소스 언어와 평행하게 대상 폴더를 만든 언어만 선택하고 번역할 수 있습니다. 소스 언어 폴더의 한 수준 아래 등 다른 수준에서 만든 언어 폴더도 표시되지 않습니다. 모든 대상 언어 폴더를 소스 언어 폴더와 동일한 수준으로 만들어야 합니다.
+   > * 소스 언어와 평행하게 대상 폴더를 만든 언어만 선택하고 번역할 수 있습니다. 소스 언어 폴더의 한 수준 아래 등 다른 수준에서 만든 언어 폴더도 표시되지 않습니다. 모든 대상 언어 폴더를 소스 언어 폴더와 동일한 수준으로 만들어야 합니다.
+   > * 언어 그룹을 만든 후 언어에 대한 대상 폴더를 만드는 경우 브라우저를 새로 고쳐 언어 그룹의 언어를 활성화합니다.
 
 
 
@@ -80,7 +91,9 @@ Experience Manager Guides에는 콘텐츠를 여러 언어로 번역할 수 있�
 
    >[!NOTE]
    >
-   > 언어 그룹을 만든 후 언어에 대한 대상 폴더를 만드는 경우 브라우저를 새로 고쳐 언어 그룹의 언어를 활성화합니다.
+   > 개별 소스 또는 대상 언어 사본(파일)을 원래 언어 폴더에서 다른 폴더로 이동하면 [번역] 패널에 다음과 같은 변경 사항이 반영됩니다.
+   > - 대상 언어 사본: 대상(대상) 언어 사본을 원래 대상 언어 폴더에서 다른 폴더로 이동하면 해당 에셋이 번역 패널에 비활성화된 것으로 표시됩니다.
+   > - Source 언어 사본: 소스 언어 사본을 원래 소스 언어 폴더에서 다른 언어 폴더로 이동하면 해당 에셋이 번역 패널에 활성화된 것으로 표시되어 번역을 예상대로 계속할 수 있습니다.
 
 1. 특정 언어를 선택하면 선택한 모든 언어 그룹에서 선택된 것으로 표시됩니다. 그래서 어떤 언어로든 번역할 때 모든 언어 그룹에 대해 한 번에 번역할 수 있습니다. 예를 들어 G1과 G2 언어 그룹 모두에 독일어가 있으면 두 언어 모두에 대해 독일어가 선택됩니다.
 
@@ -144,6 +157,10 @@ Experience Manager Guides에는 콘텐츠를 여러 언어로 번역할 수 있�
    - **새 다국어 번역 프로젝트 만들기**&#x200B;를 선택할 수 있습니다. 이 프로젝트에는 번역을 위해 선택한 모든 언어의 번역 작업이 포함됩니다. 예를 들어, 프랑스어, 독일어 및 스페인어를 선택한 경우 세 언어 모두에 대한 번역 작업이 포함된 프로젝트를 만듭니다.
    - 번역 프로젝트가 이미 있는 경우 해당 프로젝트에 주제를 추가할 수 있습니다. 프로젝트 목록에서 **기존 번역 프로젝트에 추가** 옵션을 선택하고 기존 번역 프로젝트 목록에서 프로젝트를 선택합니다. 이러한 프로젝트를 가장 최근, 오름차순 또는 내림차순으로 정렬할 수 있습니다.
 
+     >[!NOTE]
+     >
+     > **기존 번역 프로젝트에 추가**&#x200B;를 사용하여 번역을 위한 추가 자산을 보낼 때 동일한 프로젝트에 대한 이전 요청(프로젝트 만들기 또는 기존 프로젝트에 추가)이 계속 진행 중인 경우 작업이 실패합니다. 다음 메시지가 표시됩니다. *이 프로젝트에 대한 이전 요청이 아직 진행 중입니다.*&#x200B;을(를) 다시 시도하기 전에 잠시 기다려 주십시오.
+
    - **기존 번역 프로젝트에 추가**&#x200B;를 선택하면 에셋이 이미 추가되고 관련 번역 작업 상태가 *초안* 상태인 경우 이 작업은 프로젝트의 기존 에셋 항목을 업데이트합니다.
      - 프로젝트에 대상 언어가 없으면 단일 언어 번역 프로젝트에 대해 새 프로젝트가 생성되고 다중 언어 번역 프로젝트에 대해 새 작업이 생성됩니다.
 
@@ -163,6 +180,7 @@ Experience Manager Guides에는 콘텐츠를 여러 언어로 번역할 수 있�
    - 기존 번역 프로젝트에 을 추가하는 경우 해당 프로젝트가 이미 있는 경로를 선택합니다. 그런 다음 **기존 번역 프로젝트** 목록에서 현재 번역 작업을 추가할 프로젝트를 선택합니다. 사용 가능한 **필터**&#x200B;를 사용하여 목록의 범위를 좁힐 수도 있습니다.
 
      ![기존 프로젝트 경로 입력](images/existing-project-path.png){width="650"}
+
 
 1. In the **Project Title** field, enter a title for the project.
 1. 새 번역 프로젝트를 만들려면 **제출**&#x200B;을 선택하십시오.

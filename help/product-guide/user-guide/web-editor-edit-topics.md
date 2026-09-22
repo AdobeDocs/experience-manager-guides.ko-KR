@@ -7,21 +7,25 @@ role: User
 TQID: https://experienceleague.adobe.com/Ln0JE2F8klsmIZJqtpy3Idi3VHdh1U900sfMrD0xpEU
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 67bbbc9afc5278722d7d60bf5574feb44a9ed69c
+    internal-label: User
+source-git-commit: 44b50108aa453052c1c9b429eaeb254cad746166
 workflow-type: tm+mt
-source-wordcount: 1409
+source-wordcount: '1497'
 ht-degree: 0%
-
 ---
-
 # 편집기에서 주제 편집 {#id2056B040VUI}
 
 >[!INFO]
@@ -91,16 +95,16 @@ Experience Manager Guides에서는 여러 요소의 콘텐츠를 선택할 수�
 
 - 콘텐츠를 유효한 요소로 둘러싸기: 콘텐츠를 유효한 요소로 둘러싸려면 다음 단계를 수행하십시오.
 
-   - 요소 내의 콘텐츠를 선택합니다.
-   - 상단의 도구 모음에서 ![추가](images/Add_icon.svg) 아이콘을 선택하여 **요소 삽입** 대화 상자를 표시합니다. 대화 상자에는 선택한 콘텐츠에 대한 유효한 요소가 나열됩니다.
+  - 요소 내의 콘텐츠를 선택합니다.
+  - 상단의 도구 모음에서 ![추가](images/Add_icon.svg) 아이콘을 선택하여 **요소 삽입** 대화 상자를 표시합니다. 대화 상자에는 선택한 콘텐츠에 대한 유효한 요소가 나열됩니다.
 
-     >[!NOTE]
-     >
-     > 선택한 컨텐츠의 컨텍스트 메뉴를 선택하여 요소 삽입 대화 상자를 볼 수도 있습니다.
+    >[!NOTE]
+    >
+    > 선택한 컨텐츠의 컨텍스트 메뉴를 선택하여 요소 삽입 대화 상자를 볼 수도 있습니다.
 
-   - 대화 상자에서 요소를 선택합니다. 선택한 콘텐츠는 해당 요소 아래에 래핑됩니다. 예를 들어, 단락의 내용을 선택한 다음 **요소 삽입** 대화 상자에서 `<note>` 요소를 선택하면 선택한 내용이 메모 아래에 나타납니다.
+  - 대화 상자에서 요소를 선택합니다. 선택한 콘텐츠는 해당 요소 아래에 래핑됩니다. 예를 들어, 단락의 내용을 선택한 다음 **요소 삽입** 대화 상자에서 `<note>` 요소를 선택하면 선택한 내용이 메모 아래에 나타납니다.
 
-     ![요소 삽입 대화 상자](./images/insert-element-editor.png) {width="300"}
+    ![요소 삽입 대화 상자](./images/insert-element-editor.png) {width="300"}
 
 ## 파일을 편집하는 동안 브라우저 새로 고침
 
@@ -180,6 +184,14 @@ You can access the **Layout** view for read-only DITA maps. This view lets you s
 > Your folder-level administrative users must update *ui_config.json* so that you can harmoniously access the read-only files in the  Author, Source, and Layout modes.
 
  -->
+
+## 동시 편집 중 컨텐츠 덮어쓰기 방지
+
+>[!NOTE]
+>
+> 이 기능에 대해 ConfigMgr에서 **파일을 잠그지 않고 편집 사용 안 함** 설정을 사용하도록 설정합니다.
+
+두 작성자가 동일한 DITA 주제를 동시에 작업할 때 오래된 복사본 위에 편집한 내용을 보면 다른 작성자의 변경 내용을 알 수 없이 덮어쓸 수 있습니다. 이를 방지하기 위해 항목에서 **잠금**&#x200B;을(를) 선택하면 편집을 시작하기 전에 편집기가 자동으로 새로 고쳐져 서버의 최신 콘텐츠를 로드하므로 변경 내용이 항상 오래된 복사본이 아닌 최신 버전을 기반으로 합니다.
 
 ## 탐색기에서 열린 파일 찾기
 

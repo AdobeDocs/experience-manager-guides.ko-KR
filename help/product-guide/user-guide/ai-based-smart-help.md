@@ -5,23 +5,31 @@ exl-id: 61a15208-9600-4bb8-adc0-feca1a0ffef3
 TQID: https://experienceleague.adobe.com/FQZ-2VrO9yjsX7gwcZHC8mb5OU9b0r0WTTJva17oAJ4
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Troubleshooting
+source-git-commit: ae9ac69745555aa3683e0a6a648f6519377dd6d7
 workflow-type: tm+mt
-source-wordcount: 621
+source-wordcount: '631'
 ht-degree: 0%
-
 ---
-
 # AI Assistant(Beta)의 스마트 도움말로 효율성 향상
+
+>[!NOTE]
+>
+>이 기능은 표준 모드의 AI Assistant에서 사용할 수 있습니다.
 
 Experience Manager Guides은 [Adobe Experience Manager Guides 설명서](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/overview)에서 관련 콘텐츠를 찾는 데 도움이 되는 대화형 검색 기능인 GenAI 기반 스마트 도움말을 제공합니다.
 

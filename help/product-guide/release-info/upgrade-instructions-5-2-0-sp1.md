@@ -1,10 +1,10 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides 5.2.0 서비스 팩 1 릴리스의 업그레이드 지침
 description: 호환성 매트릭스와 Adobe Experience Manager Guides 5.2.0 서비스 팩 1 릴리스로 업그레이드하는 방법에 대해 알아봅니다.
-source-git-commit: b975fd2c2d79fb56f180484431af135d35eec750
+source-git-commit: 6841c373b75770e8691a2cac4d56aeb368b09480
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 4%
+source-wordcount: '926'
+ht-degree: 3%
 ---
 # 5.2.0 서비스 팩 1 릴리스의 업그레이드 지침(2026년 9월)
 
@@ -80,6 +80,7 @@ Experience Manager Guides 5.2.0 서비스 팩 1 업그레이드 프로세스를 
 > - **AEM 6.5 LTS의 경우**: Experience Manager Guides 5.2.0 서비스 팩 1은 AEM 6.5 LTS 서비스 팩 2에서만 지원됩니다.
 > - **AEM 6.5**&#x200B;의 경우: Experience Manager Guides 5.2.0 서비스 팩 1은 AEM 6.5 서비스 팩 24, 23 및 22에서만 지원됩니다.
 > - 현재 AEM 6.5를 사용 중이며 AEM 6.5 LTS로 이동할 계획이라면 Experience Manager Guides 5.2.0 업그레이드를 진행하기 전에 먼저 AEM 업그레이드를 완료해야 합니다. 자세한 내용은 [Adobe Experience Manager(AEM) 6.5 LTS로 업그레이드](https://experienceleague.adobe.com/ko/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)를 참조하십시오.
+> - 현재 AEM 6.5를 사용 중이며 AEM 6.5 서비스 팩 24 이상으로 이동할 계획이라면 먼저 AEM 업그레이드를 완료해야 합니다. 완료되면 Experience Manager Guides 5.2.0을 다시 설치합니다. Experience Manager Guides 5.2.1을 설치하기 전에
 
 Experience Manager Guides 버전 5.2.0 서비스 팩 1로 업그레이드하기 전에 다음 사항을 고려해야 합니다.
 

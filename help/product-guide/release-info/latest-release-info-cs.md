@@ -5,26 +5,29 @@ feature: Release Notes
 role: Leader
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 06126f77ee4db22865895739ad9af4efa787a7df
+    internal-label: Customer experience
+source-git-commit: 6841c373b75770e8691a2cac4d56aeb368b09480
 workflow-type: tm+mt
-source-wordcount: 431
+source-wordcount: '441'
 ht-degree: 2%
-
 ---
-
 # Adobe Experience Manager Guides as a Cloud Service 릴리스 정보
 
-이 페이지에서는 Adobe Experience Manager Guides as a Cloud Service에 대한 최신 릴리스 정보를 제공합니다. 각 릴리스를 최신 상태로 유지하는 데 도움이 되는 새로운 기능, 개선 사항, 해결된 문제, 알려진 문제 및 업그레이드 지침에 대한 세부 정보를 찾아보십시오.
+이 문서에서는 Adobe Experience Manager Guides as a Cloud Service에 대한 최신 릴리스 정보를 제공합니다. 각 릴리스를 최신 상태로 유지하는 데 도움이 되는 새로운 기능, 개선 사항, 해결된 문제, 알려진 문제 및 업그레이드 지침에 대한 세부 정보를 찾아보십시오.
 
 ## 2026 릴리스
 
 | [!DNL AEM Guides] 릴리스 | 릴리스 정보 |
 |---|---|
+| **AEM Guides 2026.09.0** | [2026.09.0 새로운 기능](./whats-new-2026-09-0.md)<br><br>[2026.09.0 해결된 문제](./fixed-issues-2026-09-0.md)<br><br>[2026.09.0 업그레이드 지침](./upgrade-instructions-2026-09-0.md) |
 | **AEM Guides 2026.08.0** | [2026.08.0 새로운 기능](./whats-new-2026-08-0.md)<br><br>[2026.08.0 해결된 문제](./fixed-issues-2026-08-0.md)<br><br>[2026.08.0 업그레이드 지침](./upgrade-instructions-2026-08-0.md) |
 | **AEM Guides 2026.07.0** | [2026.07.0 해결된 문제](./fixed-issues-2026-07-0.md)<br><br>[2026.07.0 업그레이드 지침](./upgrade-instructions-2026-07-0.md) |
 | **AEM Guides 2026.06.0** | [2026.06.0 새로운 기능](./whats-new-2026-06-0.md)<br><br>[2026.06.0 해결된 문제](./fixed-issues-2026-06-0.md)<br><br>[2026.06.0 업그레이드 지침](./upgrade-instructions-2026-06-0.md) |

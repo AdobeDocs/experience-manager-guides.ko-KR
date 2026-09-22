@@ -7,23 +7,29 @@ role: User
 TQID: https://experienceleague.adobe.com/r6gZE2a3lXtL0mFWxurEjna8mUTJIMEQdz2eLw2OWcQ
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1833481e1801fa171901abafe5eb256baaa10b8f
+    internal-label: User
+source-git-commit: 811743900fefe761f10254ff13c741a7d8f41d27
 workflow-type: tm+mt
-source-wordcount: 4258
+source-wordcount: '4329'
 ht-degree: 0%
-
 ---
-
 # 편집기의 추가 기능 {#id2056B0B0YPF}
 
 편집기에는 다음과 같은 몇 가지 유용한 기능이 있습니다.
@@ -220,26 +226,26 @@ Generate the output for the selected file. Output can be generated only for file
 
   ![](images/set-alignment-rows.png){width="550"}
 
-   - 가로 텍스트 정렬(단순 표에는 사용할 수 없음)
-   - 세로 텍스트 정렬(단순 표에는 사용할 수 없음)
-   - 위에 행 삽입
-   - 아래에 행 삽입
-   - 행 제거
-   - 셀 병합(단순 표에는 사용할 수 없음)
+  - 가로 텍스트 정렬(단순 표에는 사용할 수 없음)
+  - 세로 텍스트 정렬(단순 표에는 사용할 수 없음)
+  - 위에 행 삽입
+  - 아래에 행 삽입
+  - 행 제거
+  - 셀 병합(단순 표에는 사용할 수 없음)
 
   단일 또는 다중 열 선택에 사용 가능한 옵션:
 
   ![](images/set-alignment-columns.png){width="550"}
 
-   - 가로 텍스트 정렬(단순 표에는 사용할 수 없음)
-   - 세로 텍스트 정렬(단순 표에는 사용할 수 없음)
-   - 위에 행 삽입
-   - 아래에 행 삽입
-   - 행 제거
-   - 위에 열 삽입
-   - 아래에 열 삽입
-   - 열 제거
-   - 셀 병합(단순 표에는 사용할 수 없음)
+  - 가로 텍스트 정렬(단순 표에는 사용할 수 없음)
+  - 세로 텍스트 정렬(단순 표에는 사용할 수 없음)
+  - 위에 행 삽입
+  - 아래에 행 삽입
+  - 행 제거
+  - 위에 열 삽입
+  - 아래에 열 삽입
+  - 열 제거
+  - 셀 병합(단순 표에는 사용할 수 없음)
 
 - 전체 표에 텍스트 서식 및 맞춤을 적용하려면 표를 선택합니다.
 
@@ -349,17 +355,17 @@ Experience Manager Guides에서는 콘텐츠 리포지토리 내의 파일이나
 
   이것은 다음을 의미합니다.
 
-   - 글로벌 프로필을 사용하는 경우 글로벌 프로필에 구성된 필터 값이 적용됩니다.
-   - 특정 폴더 프로필을 선택하는 경우 해당 프로필에 정의된 필터 값을 가져옵니다.
+  - 글로벌 프로필을 사용하는 경우 글로벌 프로필에 구성된 필터 값이 적용됩니다.
+  - 특정 폴더 프로필을 선택하는 경우 해당 프로필에 정의된 필터 값을 가져옵니다.
 
   문서 상태에 사용할 수 있는 기본 필터 값은 초안, 편집, 검토 중, 승인됨, 검토됨 및 완료됨입니다. 문서 상태의 필터 값을 사용자 지정하는 방법에 대한 자세한 내용은 [문서 상태 필터 구성](../cs-install-guide/config-doc-state-filters.md)을 참조하십시오.
 
 - **잠근 사용자**: 사용자 목록을 표시합니다. 목록의 페이지가 매겨지고 비동기적으로 로드되어 한 번에 제한된 사용자 세트를 표시하고 스크롤하거나 이동할 때 더 많은 사용자를 가져옵니다. 따라서 특히 많은 수의 사용자로 작업할 때 로드 속도와 전체 성능이 향상됩니다.
 
 - **마지막 수정일**: 수정 날짜를 기준으로 콘텐츠를 필터링합니다. 달력에서 날짜 범위를 선택하거나 다음 시간대 옵션 중 하나를 선택합니다.
-   - 지난 주
-   - 지난 달
-   - 작년
+  - 지난 주
+  - 지난 달
+  - 작년
 
 - **태그**: 태그를 기반으로 콘텐츠를 필터링합니다.
 
@@ -498,7 +504,7 @@ XML에서 공백에는 공백, 탭, 캐리지 리턴 및 빈 줄이 포함됩니
 - **Symobol** ![](images/symbol-icon.svg) 아이콘 또는 **Alt** + **Space** 바로 가기 키를 사용하여 문서에 줄바꿈하지 않는 공백을 삽입할 수 있습니다.  이러한 줄바꿈하지 않는 공백은 편집기에서 항목을 편집하는 동안 표시기로 표시됩니다. [사용자 환경 설정](./intro-home-page.md#user-preferences)의 **모양** 탭에서 **작성자 모드에서 줄바꿈하지 않는 공백 표시기 표시** 옵션을 사용하여 줄바꿈하지 않는 공백 표시를 끌 수 있습니다.
 
 - 외부 원본에서 줄바꿈하지 않는 공백이 포함된 콘텐츠를 복사하여 **작성자** 보기로 붙여넣으면 줄바꿈하지 않는 공백이 공백으로 변환됩니다.
-그러나 **작성자** 보기에서 줄바꿈 없는 공백이 있는 콘텐츠를 복사하여 붙여넣으면 콘텐츠가 유지됩니다.
+그러나 **작성자** 보기에서 줄바꿈 없는 공백이 있는 콘텐츠를 복사하여 붙여 넣으면 그대로 유지됩니다.
 
 
 ## 요소 ID 자동 생성
@@ -551,6 +557,5 @@ DITA 주제의 요소에 대한 ID를 자동으로 생성할 수 있습니다. �
 
 
 - 경고 메시지는 DITA 파일에만 사용할 수 있으며 작성자, Source 및 레이아웃과 같은 모든 보기에서 볼 수 있습니다.
-
 
 **상위 항목:**&#x200B;[&#x200B;편집기 소개](web-editor.md)

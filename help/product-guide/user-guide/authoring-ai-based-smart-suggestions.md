@@ -5,24 +5,34 @@ exl-id: 23c5285e-0d4f-484a-a062-fe1ba1608b8d
 TQID: https://experienceleague.adobe.com/M46mebqRPlx-9qmpAG3rB3xwREgEbW9yx-VKLyuNFyg
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: ac5ecfc1-cc78-4ecc-a90a-0362685062ce
+    internal-label: AI Tools
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: bf7fca06-df97-4229-884f-76afcfade5ad
+    internal-label: AI Assistant
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: ae9ac69745555aa3683e0a6a648f6519377dd6d7
 workflow-type: tm+mt
-source-wordcount: 690
+source-wordcount: '700'
 ht-degree: 0%
-
 ---
-
 # 콘텐츠 작성에 대한 AI 기반 스마트 제안
+
+>[!NOTE]
+>
+>이 기능은 표준 모드의 AI Assistant에서 사용할 수 있습니다.
 
 Adobe Experience Manager Guides에서는 일관되고 정확한 콘텐츠를 만드는 데 도움이 되는 스마트 제안 사항을 제공합니다.
 

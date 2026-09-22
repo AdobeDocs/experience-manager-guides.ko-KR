@@ -7,28 +7,38 @@ role: User
 TQID: https://experienceleague.adobe.com/1eKOv9Ys8N5wOu5-gon4uDq-LLIqADeSmbWq55iVg18
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: b1210526-416b-4ef6-bcc0-1692e99f30e9
+    internal-label: Administration and security
   - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: c5fd2af0-6cbb-4746-ab0d-40ecb093af12
+    internal-label: Introduction
   - id: c8841798-1a28-4264-a46a-984860f8e6f6
+    internal-label: User administration
   - id: f7774ebe-aec9-42b6-97e4-5002acdc712e
+    internal-label: Review
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e5812ebac255dc10f4b6bf7287cfaede92354e70
+    internal-label: Administration
+source-git-commit: 912b7583cbbbb4beff08423d360a9a06f3c365cf
 workflow-type: tm+mt
-source-wordcount: 1526
+source-wordcount: '1618'
 ht-degree: 0%
-
 ---
-
 # 리뷰 댓글 처리 {#id2056B0X0KBI}
 
 작성자는 편집기를 사용하여 주제의 주석을 처리할 수 있습니다. 주석은 [검토] 패널에서 선택한 검토 작업을 기반으로 로드됩니다. 자세한 내용은 [왼쪽 패널](../user-guide/web-editor-left-panel.md) 섹션에서 **검토** 패널 ![](images/active-review-tasklist-icon.svg) 기능 설명을 참조하십시오.
@@ -101,6 +111,18 @@ ht-degree: 0%
 
 ![](images/tag-users-review.png){width="350"}
 개시자/작성자로 *캡션:Tag명의 사용자*
+
+사용자에 태그를 지정하려면 댓글이나 회신에 `@`을(를) 입력하고 이 프로젝트와 연결된 사용자 목록에서 사용자를 선택하십시오. 이 목록에는 올바른 사용자를 식별하는 데 도움이 되는 추가 세부 정보와 함께 사용자 이름이 표시됩니다.
+
+사용자 세부 사항은 다음 순서로 표시됩니다.
+
+`<Role>` | `<User name>` | `<Email address>`
+
+이메일 주소를 사용할 수 없는 경우 사용자의 역할과 이름만 표시됩니다.
+
+마우스로 목록의 사용자를 가리키면 도구 설명에서 사용자 이름, 역할 및 이메일 주소를 볼 수도 있습니다.
+
+![](images/tag-users-author-ui.png){width="350"}
 
 태그 지정된 사용자는 이메일과 AEM 알림을 모두 수신하므로 즉시 알림을 받을 수 있습니다. 검토 알림을 트리거하는 방법에 대한 자세한 내용은 [검토 알림 이해](./review-understanding-review-notifications.md)를 참조하세요.
 

@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 살펴보십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: 79259c4991292c12990c42bdd819f121655d650b
+source-git-commit: 2123962f8c168928c9b0a1ee1331e5cfd86db319
 workflow-type: tm+mt
-source-wordcount: '2610'
+source-wordcount: '2647'
 ht-degree: 10%
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 10%
       - {hide-from-toc}[배포 지침](./release-info/deploy-xml-on-aemaacs.md)
       - [클라우드 릴리스](./release-info/latest-release-info-cs.md)
       - 2026 릴리스 {#2026-releases}
+        - 2026.09.0 릴리스 {#2609-release}
+          - [새로운 기능](./release-info/whats-new-2026-09-0.md)
+          - [해결된 문제](./release-info/fixed-issues-2026-09-0.md)
+          - [업그레이드 지침](./release-info/upgrade-instructions-2026-09-0.md)
         - 2026.08.0 릴리스 {#2608-release}
           - [새로운 기능](./release-info/whats-new-2026-08-0.md)
           - [해결된 문제](./release-info/fixed-issues-2026-08-0.md)
@@ -364,12 +368,13 @@ ht-degree: 10%
   - AEM Guides의 AI 지원 {#ai-assistant-aem}
     - [Adobe Generative AI 사용자 공개](./user-guide/adobe-generative-ai-disclosures.md)
     - [AI 어시스턴트 개요](./user-guide/ai-assistant.md)
-    - [콘텐츠 검색에 대한 AI 기반 스마트 도움말](./user-guide/ai-based-smart-help.md)
-    - [AI Assistant를 사용하여 문서 작성하기](./user-guide/ai-assistant-right-panel.md)
-    - [콘텐츠 작성에 대한 AI 기반 스마트 제안](./user-guide/authoring-ai-based-smart-suggestions.md)
-    - [FAQ](./user-guide/ai-assistant-faq.md)
-  - AEM Guides의 AI 가이드 {#guides-ai-aem}
-    - [Guides AI 시작](./user-guide/guides-ai.md)
+    - 아젠틱 모드의 AI 어시스턴트 {#ai-assistant-agentic}
+      - [에이전트 모드에서 AI Assistant 사용](./user-guide/ai-assistant-agentic.md)
+    - 표준 모드의 AI Assistant {#ai-assistant-standard}
+      - [콘텐츠 검색에 대한 AI 기반 스마트 도움말](./user-guide/ai-based-smart-help.md)
+      - [AI Assistant를 사용하여 문서 작성하기](./user-guide/ai-assistant-right-panel.md)
+      - [콘텐츠 작성에 대한 AI 기반 스마트 제안](./user-guide/authoring-ai-based-smart-suggestions.md)
+      - [FAQ](./user-guide/ai-assistant-faq.md)
   - 학습 콘텐츠 관리 {#learning-training-content}
     - 시작 안내서 {#get-started}
       - 소개 {#intro-lc}
@@ -429,6 +434,8 @@ ht-degree: 10%
     - 문제 해결 {#troubleshooting}
       - [세션 시간 초과](./user-guide/session-timeout-prompt.md)
       - [메타데이터 내보내기에서 문자열이 너무 깁니다.](./user-guide/metadata-export-failure.md)
+    - 성능 관리 {#performance-management}
+      - [페이지 매김된 파일 및 폴더 로드](./user-guide/paginated-loading-assets.md)
 - 사용 안내서 (이전 UI) {#user-guide-old-ui}
   - [AEM Guides 개요](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 설치 및 구성 {#install-conf-guide}
@@ -500,6 +507,7 @@ ht-degree: 10%
     - [문서 기반 게시용 패키지 설치](./install-conf-guide/conf-article-based-publishing.md)
     - [메타데이터 속성 무시 목록 구성](./install-conf-guide/conf-metadata-prop.md)
     - Cloud Service용 편집기 설정 {#editor-cloud-settings}
+      - [Cloud Service의 Agentic 모드에서 AI Assistant 구성](./install-conf-guide/configure-ai-assistant-agentic-mode-cs.md)
       - [Cloud Service 작성을 위한 AI 기반 스마트 제안 구성](./install-conf-guide/conf-smart-suggestions.md)
       - [Cloud Service에 대한 콘텐츠를 검색하도록 AI 기반 스마트 도움말을 구성합니다](./install-conf-guide/conf-smart-help.md)
       - [Cloud Service용 Oxygen에서 편집할 옵션 구성](./install-conf-guide/conf-edit-in-oxygen.md)
@@ -556,10 +564,11 @@ ht-degree: 10%
         - [기본 PDF에 대한 새 게시 엔진 구성](./native-pdf/conf-new-pdf-engine.md)
       - [기본 PDF 엔진 v2로 작업](./native-pdf/new-pdf-engine.md)
       - [Cloud Service의 기본 PDF 게시를 위한 노드 프로세스 구성](./native-pdf/conf-node-options-cs.md)
-      - [온프레미스를 위한 기본 PDF 게시를 위한 JVM 플래그 구성](./native-pdf/conf-jvm-flags-on-prem.md)
+      - [온-프레미스용 기본 PDF 게시를 위한 JVM 플래그 구성](./native-pdf/conf-jvm-flags-on-prem.md)
     - Cloud Service에 대한 컨텐츠 및 경험 조각 구성 {#conf-content-exp-fragment}
       - [주제와 컨텐츠 조각 간의 매핑 만들기](./install-conf-guide/conf-mapping-topic-content-fragment-cs.md)
       - [주제와 경험 조각 간의 매핑 만들기](./install-conf-guide/conf-mapping-topic-content-exp-cs.md)
+    - [XML 파서 엔터티 크기 제한 구성](./install-conf-guide/conf-xml-parsing.md)
   - 워크플로 사용자 정의 {#workflow}
     - [워크플로 구성 및 사용자 지정](./install-conf-guide/conf-customize-workflows.md)
   - 통합 {#aemg-integrations}

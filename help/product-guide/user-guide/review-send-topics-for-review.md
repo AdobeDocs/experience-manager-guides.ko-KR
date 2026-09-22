@@ -7,21 +7,25 @@ role: User
 TQID: https://experienceleague.adobe.com/mrpBKOZcVm1XHdkEy9PBFOt-cbjfmyjqhT-BRbg3Swo
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a668e1b862702ae1154b05d974414b54b43559ea
+    internal-label: User
+source-git-commit: 279cf0605427042290a7bbf179636f022d4bfd46
 workflow-type: tm+mt
-source-wordcount: 3663
+source-wordcount: '4036'
 ht-degree: 0%
-
 ---
-
 # 검토할 항목 보내기 {#id199RD0S035Z}
 
 검토 워크플로우는 개시자가 검토할 주제 목록을 지정하고, 여러 검토자를 추가하고, 검토 작업에 대한 타임라인을 지정하는 다중 검토자 환경을 만듭니다. Adobe Experience Manager Guides을 사용하면 Authors 및 Publishers 그룹에 속한 사용자가 검토를 시작할 수 있습니다.
@@ -275,6 +279,10 @@ Experience Manager Guides을 사용하면 DITA 맵에서 하나 이상의 주제
 
    ![](images/content-page-map-review.png)
 
+   >[!NOTE]
+   >
+   > 이 페이지에서 콘텐츠를 구성하는 방법은 해당 환경에 대해 계층 매핑 기능이 활성화되어 있는지 여부에 따라 다릅니다. 활성화되면 맵과 해당 하위 맵이 플랫 항목 목록 대신 계층 구조 보기로 표시됩니다. 자세한 내용은 [검토할 항목을 선택하는 동안 맵 계층 구조를 봅니다](#view-the-map-hierarchy-while-selecting-topics-for-review)를 참조하십시오.
+
 1. 컨텐트 페이지에서 검토를 위해 공유할 주제의 버전을 선택합니다.
 
    다음 방법 중 하나를 사용하여 버전을 선택할 수 있습니다.
@@ -327,6 +335,33 @@ Experience Manager Guides을 사용하면 DITA 맵에서 하나 이상의 주제
 
 
 모든 검토자에게 검토를 위한 항목이 할당되었음을 알리는 이메일이 전송됩니다. 이메일에는 브라우저 창의 주제에 액세스하는 데 사용할 수 있는 직접 링크가 포함되어 있습니다. DITA 맵과 함께 주제가 검토 모드에서 열립니다.
+
+### 검토할 항목을 선택하는 동안 맵 계층 보기
+
+>[!NOTE]
+>
+> 이 기능은 기본적으로 비활성화되어 있습니다. 환경에서 활성화하려면 고객 지원 팀에 문의하십시오.
+
+이 기능을 사용하면 맵 콘텐츠의 기존 구조 또는 계층 구조가 **콘텐츠** 페이지에 표시됩니다. 맵의 모든 항목을 플랫 목록으로 표시하는 대신 검토할 컨텐츠를 선택할 때 더 잘 참조할 수 있도록 맵과 해당 하위 맵이 실제 계층에 표시됩니다.
+
+![](./images/review-map-hierarchy.png)
+
+>[!NOTE]
+>
+> - 맵에 주제만 있고 하위 맵이 없는 경우 주제 목록이 평소와 같이 표시됩니다.
+> - 검토에 포함할 수 있는 콘텐츠 유형만 계층 구조에 표시됩니다. 여기에는 DITA 맵, BookMap 및 학습 콘텐츠 맵 유형과 함께 개념, 작업, 참조 및 일반 주제가 포함됩니다. 용어집 참조, 주요 정의 및 용어집 목록과 같이 다시 볼 수 없는 항목은 맵 계층에 표시되지 않습니다.
+
+기본적으로 계층의 모든 맵, 하위 맵 및 주제가 선택됩니다. 검토 작업의 작성자 또는 개시자는 검토를 위해 전송할 콘텐츠를 기반으로 개별 주제 또는 전체 하위 맵을 선택하거나 선택 취소할 수 있습니다. 하위 맵을 선택 취소하면 해당 맵 내의 모든 항목도 선택 취소됩니다.
+
+하위 맵 내의 일부 주제만 선택하면 하위 맵의 확인란이 불확정 상태로 변경되어 부분 선택을 나타냅니다. 이 선택 상태는 **콘텐츠** 및 **검토자** 페이지에 모두 반영되므로 선택한 콘텐츠가 검토 워크플로에서 일관되게 유지됩니다.
+
+![](./images/review-partial-selection-submap.png)
+
+하위 맵 내의 모든 항목이 선택되거나 선택되지 않으면 하위 맵의 선택 상태가 자동으로 그에 따라 조정됩니다.
+
+맵 계층에서 동일한 주제를 두 번 이상 참조하는 경우 쉽게 식별할 수 있도록 첫 번째 항목 이후의 각 항목에 **복제** 레이블이 표시됩니다. 이러한 중복 주제의 버전을 선택, 선택 해제 또는 변경하는 옵션이 비활성화됩니다. 모든 선택 또는 버전 변경은 주제의 첫 번째 발생 항목에서 이루어져야 합니다.
+
+![](./images/review-duplicate-topics-in-map.png)
 
 ## 진행 중인 검토 작업에서 주제 추가 또는 제거
 
