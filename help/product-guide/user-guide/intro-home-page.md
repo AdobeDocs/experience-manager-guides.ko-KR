@@ -4,13 +4,11 @@ description: Adobe Experience Manager Guides의 홈 페이지를 알아봅니다
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
-source-git-commit: b866964c30a565eab0f6f9aec4b3fc9013f15f75
+source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
 workflow-type: tm+mt
-source-wordcount: '2247'
+source-wordcount: '2331'
 ht-degree: 0%
-
 ---
-
 # Experience Manager Guides 홈페이지 경험
 
 홈 페이지는 Experience Manager Guides에 로그인할 때 표시되는 첫 번째 화면입니다. 최근에 액세스한 파일, 컬렉션 등을 빠르게 볼 수 있는 통합적이고 직관적인 시작 화면 경험을 제공합니다.
@@ -45,16 +43,17 @@ Experience Manager Guides 홈 페이지는 다음 섹션으로 나뉩니다.
   - **홈**: Experience Manager Guides에 로그인할 때 표시되는 기본 페이지입니다.
   - **편집기**: Experience Manager Guides에서 구조화된 문서를 만들고 관리할 수 있는 사용하기 쉬운 웹 기반 편집기입니다. [편집기 인터페이스에 대해 알아봅니다](./web-editor.md).
   - **맵 콘솔**: 맵 관리 및 게시의 모든 측면을 처리할 수 있는 전용 작업 영역을 제공합니다. [맵 콘솔 인터페이스에 대해 알아봅니다](./map-console-overview.md).
-- **AI Assistant**: 스마트 도움말 기능을 통해 생산성을 높일 수 있도록 설계된 강력한 AI 기반 도구입니다. 또한 편집기 인터페이스에서 작업할 때 콘텐츠 재사용 및 최적화를 위한 인텔리전트 제안을 통해 작성 프로세스를 보다 스마트하고 빠르게 만드는 AI Assistant의 스마트 작성 기능을 활용할 수 있습니다.
-
-  [AI Assistant](./ai-assistant.md) 기능은 현재 Adobe Experience Manager as Cloud Service에서만 사용할 수 있습니다.
-
-- **AI 가이드**: Adobe CX Enterprise Coworker의 지능적이고 무의미한 스마트 태그 지정 기술을 편집기에 가져와 자연스러운 대화형 콘텐츠 태그 지정을 활성화합니다. 콘텐츠를 분석하고, 관련 태그를 추천하며, 최소한의 노력으로 일관되고 정확한 메타데이터를 적용하는 데 도움이 됩니다. 선택 내용을 확인하기 전에 제안된 태그를 검토하고 적용 또는 거부하도록 선택할 수 있습니다. [안내서 AI](../user-guide/guides-ai.md)는 태그 지정 프로세스를 간소화하여 콘텐츠 구성 및 검색 기능을 개선합니다.
-
+- **AI Assistant**: AI Assistant는 두 가지 모드로 사용할 수 있습니다. **Agentic** 및 **Standard**.
 
   >[!NOTE]
   >
-  > 환경에서 Guides AI 기능을 사용하려면 고객 지원 팀에 문의하십시오. 이 기능이 활성화되면 관리자는 Workspace 설정에서 이 기능을 켜거나 끌 수 있습니다. 한 번에 하나의 AI 경험만 활성화할 수 있습니다(Guides AI 또는 AI Assistant).
+  > 사용자 환경에서 AI Assistant의 에이전트 모드 기능을 사용하려면 고객 지원 팀에 문의하십시오. 이 기능이 활성화되면 관리자는 Workspace 설정에서 이 기능을 켜거나 끌 수 있습니다. AI Assistant는 한 번에 하나의 모드만 활성화할 수 있습니다(Agentic 또는 Standard).
+
+  - **에이전트**: Adobe CX Enterprise Coworker의 지능적이고 무의미한 스마트 태그 지정 기술을 편집기로 가져와 자연스러운 대화형 콘텐츠 태그 지정을 활성화합니다. 콘텐츠를 분석하고, 관련 태그를 추천하며, 최소한의 노력으로 일관되고 정확한 메타데이터를 적용하는 데 도움이 됩니다. 선택 내용을 확인하기 전에 제안된 태그를 검토하고 적용 또는 거부하도록 선택할 수 있습니다. [에이전트 모드에서 AI Assistant 사용](../user-guide/ai-assistant-agentic.md) 태깅 프로세스를 간소화하여 콘텐츠 구성 및 검색 기능을 개선합니다.
+
+  - **표준**: 스마트 도움말 기능을 통해 생산성을 향상하도록 설계된 강력한 AI 기반 도구입니다. 또한 편집기 인터페이스에서 작업할 때 콘텐츠 재사용 및 최적화를 위한 인텔리전트 제안을 통해 작성 프로세스를 보다 스마트하고 빠르게 만드는 AI Assistant의 스마트 작성 기능을 활용할 수 있습니다.
+
+  [AI Assistant](./ai-assistant.md) 기능은 현재 Adobe Experience Manager as Cloud Service에서만 사용할 수 있습니다.
 
 - **개요 섹션 사용자 지정**: 위젯 섹션에서 위젯을 숨기거나 표시할 수 있습니다.
 - **사용 중인 폴더 프로필**: 현재 사용 중인 폴더 프로필을 표시합니다.
@@ -208,6 +207,7 @@ Experience Manager Guides에서는 **컬렉션 매핑**&#x200B;이라는 대시�
 
   - **항상 탐색기에서 파일 찾기**: 편집기에서 편집하는 동안 저장소의 파일 위치를 표시하려면 이 옵션을 선택하십시오.
 
-  >[!NOTE]
-  >
-  >Cloud Service의 2025.11.0 릴리스와 온-프레미스의 5.2.0 릴리스에서 **저장소에서 파일 항상 찾기** 설정의 이름이 **탐색기에서 파일 항상 찾기**(으)로 바뀝니다. 5.2 릴리스 이전 온-프레미스 설정의 경우 저장소에서 파일을 항상 찾음으로 계속 사용할 수 있습니다.
+    >[!NOTE]
+    >
+    >- Cloud Service의 2025.11.0 릴리스와 온-프레미스의 5.2.0 릴리스에서 **저장소에서 파일 항상 찾기** 설정의 이름이 **탐색기에서 파일 항상 찾기**(으)로 바뀝니다. 5.2 릴리스 이전 온-프레미스 설정의 경우 저장소에서 파일을 항상 찾음으로 계속 사용할 수 있습니다.
+    >- 2026.09.0 릴리스부터 **페이지 매김된 파일 및 폴더 로드**&#x200B;가 기본적으로 활성화됩니다. 이 기능을 사용하면 **항상 탐색기에서 파일을 찾습니다**&#x200B;를 사용자 기본 설정에서 사용할 수 없습니다. 탐색기에서 항상 파일 찾기 기본 설정을 사용할 수 있도록 하려면 고객 지원 팀에 문의하여 페이지 매김된 파일 및 폴더 로드 설정을 비활성화하십시오. 자세한 내용은 [페이지 번호를 매긴 파일 및 폴더 로드](./web-editor-other-features.md#paginated-loading-of-files-and-folders)를 참조하십시오.

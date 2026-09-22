@@ -4,19 +4,17 @@ description: Experience Manager Guides의 편집기 인터페이스에서 사용
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 10df0495-1d52-4c7c-a11a-059fe72d09f2
-source-git-commit: 2386f02cf0752ca6c97ca1e3697bfbd03e6ca4d5
+source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
 workflow-type: tm+mt
-source-wordcount: '2304'
+source-wordcount: '2378'
 ht-degree: 0%
-
 ---
-
 # Workspace 설정
 
 >[!NOTE]
 >
-> 5.2 이전 버전의 온-프레미스 설정에서 **설정** 옵션이 편집기의 탭 표시줄에 나타납니다. 버전 5.2 이상의 Cloud Service 및 On-Premise 구성의 경우 이 옵션의 이름이 **Workspace 설정**(으)로 변경되었습니다. **편집기 설정**&#x200B;에서 사용할 수 있는 기존의 모든 구성 옵션은 변경되지 않습니다.
-> ![온-프레미스용 편집기 설정](assets/editor-settings-on-prem.png){width="650"}
+> 5.2 이전 버전의 온-프레미스 설정에서 **설정** 옵션이 편집기의 탭 표시줄에 나타납니다. 버전 5.2 이상의 Cloud Service 및 On-Premise 구성의 경우 이 옵션의 이름이 **Workspace 설정**(으)로 변경되었습니다. **편집기 설정**에서 사용할 수 있는 기존의 모든 구성 옵션은 변경되지 않습니다.
+> ![On-premise](assets/editor-settings-on-prem.png){width="650"}에 대한 편집기 설정
 
 
 편집기의 [탭 모음](../user-guide/web-editor-tab-bar.md)에 있는 **Workspace 설정** 옵션은 관리자 및 폴더 프로필 관리자만 사용할 수 있으며 다음 설정을 구성할 수 있습니다.
@@ -42,14 +40,27 @@ ht-degree: 0%
 
 일반 설정을 사용하면 편집기를 사용하도록 설정을 구성할 수 있습니다. 이 탭에는 **AI 길잡이**, **작성**, **인용**, **조건** 및 **맞춤법 검사**&#x200B;의 5개 섹션이 포함되어 있습니다.
 
-![](../user-guide/images/editor-setting-general.png){width="350"}
+![](assets/editor-setting-general-agentic.png){width="350"}
 
-- **AI 도우미**
-Experience Manager Guides에서 [AI Assistant](../user-guide/ai-assistant.md) 기능을 활성화하려면 이 옵션을 선택하십시오. 기능을 비활성화하려면 선택 취소합니다.
+- **AI 길잡이**
 
-  **AI Assistant** 토글을 활성화한 후 아래와 같이 **빠른 작업 작성** 메뉴를 사용하여 작성자가 **작성 탭**&#x200B;에 표시할 옵션을 구성할 수 있습니다.\
-  이러한 변경 사항은 작업 중인 특정 폴더 프로필에 적용됩니다. 새 폴더 프로필을 만들면 기본적으로 **전역** 폴더 프로필에 정의된 Workspace 설정을 상속합니다. **Workspace 설정**&#x200B;을 사용하여 필요에 따라 이러한 설정을 수정하고 업데이트된 구성을 저장할 수 있습니다.\
-  AI Assistant를 사용하여 작성할 수 있는 옵션에 대한 자세한 개요는 [AI Assistant를 사용하여 문서를 현명하게 작성](../user-guide/ai-assistant-right-panel.md)하십시오.
+  >[!NOTE]
+  >
+  > 사용자 환경에서 AI Assistant의 에이전트 모드 기능을 사용하려면 고객 지원 팀에 문의하십시오.
+
+  Experience Manager Guides에서 [AI Assistant](../user-guide/ai-assistant.md) 기능을 활성화하려면 이 옵션을 선택하십시오. 기능을 비활성화하려면 선택 취소합니다.
+
+  AI Assistant는 **Agentic** 및 **Standard** 두 가지 모드로 사용할 수 있습니다. 각 전환을 활성화하여 두 모드 중에서 선택할 수 있습니다.
+
+  - **Agentic**: 이 옵션을 활성화하면 홈 페이지의 탐색 표시줄과 편집기 인터페이스의 탭 표시줄에서 Agentic AI Assistant 기능에 액세스할 수 있습니다. 주제에 대해 AI 추천 태그를 생성하는 방법에 대한 자세한 내용은 [에이전트 모드에서 AI Assistant 사용](../user-guide/ai-assistant-agentic.md)을 참조하십시오.
+
+  ![](assets/agentic-ai-workspace.png){width="350"}
+
+  - **표준**: **표준** 전환을 사용하도록 설정한 후 아래와 같이 **빠른 작업 작성** 메뉴를 사용하여 작성자의 **작성 탭**&#x200B;에 표시되는 옵션을 구성할 수 있습니다.
+
+    이러한 변경 사항은 작업 중인 특정 폴더 프로필에 적용됩니다. 새 폴더 프로필을 만들면 기본적으로 **전역** 폴더 프로필에 정의된 Workspace 설정을 상속합니다. **Workspace 설정**&#x200B;을 사용하여 필요에 따라 이러한 설정을 수정하고 업데이트된 구성을 저장할 수 있습니다.
+
+    AI Assistant를 사용하여 작성할 수 있는 옵션에 대한 자세한 개요는 [AI Assistant를 사용하여 문서를 현명하게 작성](../user-guide/ai-assistant-right-panel.md)하십시오.
 
   **빠른 작업 작성** 메뉴에서 다음을 수행할 수 있습니다.
 
@@ -57,19 +68,7 @@ Experience Manager Guides에서 [AI Assistant](../user-guide/ai-assistant.md) �
 
   - 옵션이 표시되는 순서를 변경하고 필요에 따라 끌어서 놓습니다.
 
-  ![](../user-guide/images/authoring-quick-actions-new.png){width="350"}
-
-- **AI 가이드**
-
-  >[!NOTE]
-  >
-  > 환경에서 Guides AI 기능을 사용하려면 고객 지원 팀에 문의하십시오. 한 번에 하나의 AI 경험만 활성화할 수 있습니다(Guides AI 또는 AI Assistant).
-
-  Experience Manager Guides에서 이 기능을 활성화하려면 **Guides AI** 전환을 선택하십시오.기능을 비활성화하려면 선택을 취소하십시오.
-
-  이 옵션을 활성화하면 홈 페이지의 탐색 모음 및 편집기 인터페이스의 탭 모음에서 안내서 AI 기능에 액세스할 수 있습니다. 주제에 대한 AI 추천 태그를 생성하는 방법에 대한 자세한 내용은 [안내서 AI 시작](../user-guide/guides-ai.md)을 참조하십시오.
-
-  ![](assets/guides-ai-workspace.png){width="350"}
+  ![](assets/authoring-quick-actions-standard.png){width="350"}
 
 - **작성**
 
@@ -282,7 +281,7 @@ Experience Manager Guides에서 [AI Assistant](../user-guide/ai-assistant.md) �
 
 작업 영역 설정의 ![메타데이터 탭](../user-guide/images/editor-setting-metadata.png){width="550"}
 
-***버전 기록**&#x200B;대화 상자에 대한 메타데이터를 구성합니다.*
+***버전 기록**대화 상자에 대한 메타데이터를 구성합니다.*
 
 
 

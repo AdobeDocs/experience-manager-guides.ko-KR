@@ -7,20 +7,23 @@ exl-id: cf3c03b5-383c-464c-8ef1-2f0f825c4e56
 TQID: https://experienceleague.adobe.com/bz8MQVs9yKIVkdD4iyjZWj-w70f1fukQ1I-bwx6LF80
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 53f073a6c37a9b6e9bff27349cc065e9a2d75345
 workflow-type: tm+mt
-source-wordcount: 571
+source-wordcount: '611'
 ht-degree: 0%
-
 ---
-
 # 검색 패널
 
 >[!INFO]
@@ -60,6 +63,10 @@ ht-degree: 0%
 2. 검색을 수행하고 필요에 따라 필터를 적용합니다. 검색 및 필터 옵션에 대한 자세한 지침은 [검색 및 필터 경험](./home-page-repository-view.md#search-and-filter-experience)을 참조하세요.
 
 3. 검색이 완료되면 **검색 패널에 표시**&#x200B;를 선택합니다. 그러면 편집기 하단의 검색 패널에 최근 검색이 나타납니다.
+
+   >[!NOTE]
+   >
+   > 2026.09.0 릴리스부터 Experience Manager Guides은 페이지 매김된 로드를 통해 향상된 탐색 경험을 제공합니다. 이 기능은 기본적으로 활성화되어 있습니다. 비활성화하려면 고객 지원 팀에 문의하십시오. 자세한 내용은 [페이지 번호를 매긴 파일 및 폴더 로드](./web-editor-other-features.md#paginated-loading-of-files-and-folders)를 참조하십시오.
 
    ![](images/show-search-explorer.png)
 

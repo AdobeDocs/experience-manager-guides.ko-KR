@@ -7,20 +7,23 @@ exl-id: 8c12ed9b-6309-40bf-b264-a2323cd6f4b3
 TQID: https://experienceleague.adobe.com/SWlP2-iWhN1x25K9s-mrMcfUTy5Fxv7TVWg6G2ucufc
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 7989955248054571a569ad34d92ae7e26fe70ffd
+    internal-label: User
+source-git-commit: 2fcdb485f7527b5ffdfe1d42ed3d9bbdd576ce7a
 workflow-type: tm+mt
-source-wordcount: 577
+source-wordcount: '640'
 ht-degree: 0%
-
 ---
-
 # 삽입 메뉴의 기타 옵션
 
 편집기 도구 모음의 삽입 메뉴에서 사용할 수 있는 기타 옵션은 다음과 같습니다.
@@ -52,11 +55,17 @@ ht-degree: 0%
 
   ![](assets/upload-assets-option.png)
 
-  완료되면 미리보기 모드에서 H5P 콘텐츠 및 게시된 출력을 검토합니다.
+  완료되면 미리보기 모드에서 H5P 콘텐츠 및 게시된 출력을 검토합니다. H5P 콘텐츠는 전체 화면 표시 옵션도 지원합니다. [컨텐츠 속성] 패널의 전용 전환을 통해 각 포함된 H5P 요소에 대해 전체 화면 모드를 활성화하거나 비활성화할 수 있습니다. 활성화되면 학습자는 콘텐츠를 전체 화면으로 확장할 수 있습니다. 비활성화되면 콘텐츠는 표준 보기 내에서 인라인으로 유지됩니다. 이 설정은 미리보기 모드와 게시된 출력 간에 일관되게 적용됩니다.
 
   >[!NOTE]
   >
   > Adobe Experience Manager Guides 내에서는 H5P 콘텐츠를 편집하거나 만들 수 없습니다. 업로드하기 전에 외부에서 H5P 패키지를 준비합니다.
+
+  ![](assets/h5p-fullscreen.png)
+
+  **미리보기 모드**
+
+  ![](assets/h5p-preview.png)
 
 
 - **MathML 수식:** 콘텐츠에 MathML 수식을 삽입합니다. MathML 방정식을 만들고 **삽입**&#x200B;을 선택하여 문서에 추가할 수 있습니다.

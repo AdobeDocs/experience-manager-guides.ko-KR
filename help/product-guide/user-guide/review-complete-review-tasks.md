@@ -7,21 +7,27 @@ exl-id: 99b64fb5-c509-41cf-b091-ba78b90db481
 TQID: https://experienceleague.adobe.com/Ttty7SNmwHvrs-Ma5SN0JqjQRR3Y6yM-W-ozgQ3Vcyg
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: eb30be6342a50ba52e8afd8b4a31148b3ad9c340
+    internal-label: Customer experience
+source-git-commit: 912b7583cbbbb4beff08423d360a9a06f3c365cf
 workflow-type: tm+mt
-source-wordcount: 854
+source-wordcount: '912'
 ht-degree: 0%
-
 ---
-
 # 검토자로 검토 작업 완료
 
 검토자는 모든 콘텐츠를 검토한 후 작성자에게 알리고자 하는 경우 검토 작업을 완료로 표시할 수 있습니다. 이 단계에서 최종 주석을 남길 수도 있습니다.
+
+>[!NOTE]
+>
+> Experience Manager Guides as a Cloud Service의 **2026.09.0 릴리스**&#x200B;부터 **완료로 표시** 단추의 이름이 **검토 작업 완료**(으)로 변경되고 검토자가 검토 진행 상황을 추적하는 데 도움이 되는 검토 UI의 추가 기능이 추가됩니다. 자세한 내용은 [개별 주제를 완료로 표시](review-topics.md#mark-individual-topics-as-done-in-a-review-task)를 참조하십시오. 검토 작업을 완료하는 단계는 그대로 유지됩니다.
 
 다음 단계를 수행하여 검토 작업을 완료합니다.
 

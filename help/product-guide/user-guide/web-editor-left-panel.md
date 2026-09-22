@@ -7,29 +7,40 @@ exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
 TQID: https://experienceleague.adobe.com/GbsiDGw2pByOZ-AfWM2yH46QYWm95Z4ShDSvqyedViU
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: d6596f3f-92a7-43ec-b444-237db6adad05
+    internal-label: Native PDF publishing
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: fd5e1e85933eb2785b0a74b0fa49fec1da4ca0c2
+    internal-label: Troubleshooting
+source-git-commit: 06a24bcf5a4dc05ba20846e9d745ea6f36ee8183
 workflow-type: tm+mt
-source-wordcount: 11073
+source-wordcount: '11296'
 ht-degree: 0%
-
 ---
-
 # 편집기의 왼쪽 패널
 
 >[!INFO]
@@ -77,6 +88,10 @@ Adobe Workfront이 구성된 경우 **Workfront**(으)로 레이블이 지정된
 왼쪽 패널 기능에 대한 자세한 설명은 다음과 같습니다.
 
 ## 컬렉션
+
+>[!NOTE]
+>
+> 2026.09.0 릴리스부터 Experience Manager Guides은 페이지 매김된 로드를 통해 향상된 탐색 경험을 제공합니다. 이 기능은 기본적으로 활성화되어 있습니다. 비활성화하려면 고객 지원 팀에 문의하십시오. 자세한 내용은 [페이지 번호를 매긴 파일 및 폴더 로드](./web-editor-other-features.md#paginated-loading-of-files-and-folders)를 참조하십시오.
 
 파일 또는 폴더 세트에서 작업하는 경우 즐겨찾는 목록에 추가하여 빠르게 액세스할 수 있습니다. **컬렉션**&#x200B;은(는) 추가한 문서 목록과 다른 사용자가 공개적으로 액세스할 수 있는 문서 목록을 표시합니다.
 
@@ -185,7 +200,7 @@ DAM 내에서 필요한 파일로 이동하여 편집기에서 열 수 있습니
 - **DITA 파일**: 선택한 경로에 있는 모든 **DITA 주제** 및 **DITA 맵**&#x200B;을(를) 찾을 수 있습니다. 기본적으로 선택되어 있습니다.
 - **DITA가 아닌 파일**: 선택한 경로에서 **Ditaval 파일**, **이미지 파일**, **멀티미디어**, **문서** 및 **JSON**&#x200B;을 검색할 수 있습니다.
 
-  ![빠른 검색 필터 &#x200B;](images/repository-filter-search-quick.png) {width="300"}
+  ![빠른 검색 필터 ](images/repository-filter-search-quick.png) {width="300"}
 
   *빠른 필터를 사용하여 DITA 및 비 DITA 파일을 검색합니다.*
 
@@ -493,7 +508,8 @@ DAM 내에서 필요한 파일로 이동하여 편집기에서 열 수 있습니
 
 >[!NOTE]
 >
-> Cloud Service의 2025.11.0 릴리스 및 온-프레미스용 5.2.0 릴리스부터 **저장소**&#x200B;가 **탐색기**&#x200B;로 대체됩니다. 5.2 이전 버전의 On-Premise의 경우 편집기 인터페이스를 통해 저장소를 계속 보고 사용합니다.
+>- Cloud Service의 2025.11.0 릴리스 및 온-프레미스용 5.2.0 릴리스부터 **저장소**&#x200B;가 **탐색기**&#x200B;로 대체됩니다. 5.2 이전 버전의 On-Premise의 경우 편집기 인터페이스를 통해 저장소를 계속 보고 사용합니다.
+>- 2026.09.0 릴리스부터 Experience Manager Guides은 페이지 매김된 로드를 통해 향상된 탐색 경험을 제공합니다. 이 기능은 기본적으로 활성화되어 있습니다. 비활성화하려면 고객 지원 팀에 문의하십시오. 자세한 내용은 [페이지 번호를 매긴 파일 및 폴더 로드](./web-editor-other-features.md#paginated-loading-of-files-and-folders)를 참조하십시오.
 
 Explorer는 다음을 포함하여 이전에 저장소에서 사용할 수 있었던 대부분의 기능을 제공합니다.
 
@@ -1009,7 +1025,7 @@ Experience Manager Guides은 또한 중첩된 수준 제목 체계 맵을 지원
 
 
 항목 내의 일부 요소로 조건을 제한할 수도 있습니다. `<elementdef>` 태그를 사용하여 요소를 정의하고 `<attributedef>` 태그를 사용하여 요소에 적용할 수 있는 조건을 정의합니다.  `<elementdef>` 태그를 추가하지 않으면 모든 요소에 조건을 적용할 수 있습니다.
-예를 들어 다음 열거형을 사용하여 `@platform` 특성을 `<shortdesc>` 요소로 제한합니다.  다른 조건은 모든 요소에 대해 표시됩니다.
+예를들어 다음 열거형을 사용하여 `@platform` 특성을 `<shortdesc>` 요소로 제한합니다.  다른 조건은 모든 요소에 대해 표시됩니다.
 
 ```XML
 <enumerationdef>
@@ -1115,6 +1131,10 @@ Source 보기에서 속성 드롭다운의 값을 변경할 수도 있습니다.
 > 코드 조각 항목의 컨텍스트 메뉴에서 [편집], [삭제], [미리 보기] 또는 [코드 조각 삽입]을 선택할 수도 있습니다.
 
 ## 템플릿
+
+>[!NOTE]
+>
+> 2026.09.0 릴리스부터 Experience Manager Guides은 페이지 매김된 로드를 통해 향상된 탐색 경험을 제공합니다. 이 기능은 기본적으로 활성화되어 있습니다. 비활성화하려면 고객 지원 팀에 문의하십시오. 자세한 내용은 [페이지 번호를 매긴 파일 및 폴더 로드](./web-editor-other-features.md#paginated-loading-of-files-and-folders)를 참조하십시오.
 
 템플릿 패널은 관리자만 사용할 수 있습니다. 관리자는 이 패널을 사용하여 작성자가 사용할 수 있는 템플릿을 쉽게 만들고 관리할 수 있습니다. 기본적으로 템플릿은 *맵* 및 *주제* 형식 템플릿에서 분류됩니다.
 
@@ -1391,4 +1411,4 @@ Experience Manager Guides은 프로젝트의 모든 검토 작업을 표시하�
 
 </details>
 
-**상위 항목:**&#x200B;[&#x200B;편집기 소개](web-editor.md)
+**상위 항목:**[&#x200B;편집기 소개](web-editor.md)

@@ -1,25 +1,32 @@
 ---
-title: AI Assistant를 사용하여 문서를 스마트하게 작성 &grave;
+title: AI Assistant를 사용하여 문서를 스마트하게 작성 `
 description: AI Assistant를 사용하여 효율적인 방식으로 문서를 작성하는 방법에 대해 알아봅니다.
 exl-id: 47d37323-20bf-4444-a2c9-41c44b2c8daf
 TQID: https://experienceleague.adobe.com/R61ig9pzRNSHnZrlnZRRPMwNXjJhvcKoJ5SCUQb3nzI
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: ae9ac69745555aa3683e0a6a648f6519377dd6d7
 workflow-type: tm+mt
-source-wordcount: 1059
+source-wordcount: '1074'
 ht-degree: 0%
-
 ---
-
 # AI Assistant(Beta)를 사용하여 문서를 지능적으로 작성
+
+>[!NOTE]
+>
+>이 기능은 표준 모드의 AI Assistant에서 사용할 수 있습니다.
 
 Adobe Experience Manager Guides은 보다 스마트하고 빠르게 작성할 수 있도록 도와주는 AI Assistant 도구를 제공합니다. 이 도구를 사용하여 기존 콘텐츠 저장소의 콘텐츠를 재사용하기 위한 스마트 제안을 봅니다. 텍스트 프롬프트 기능을 사용하여 프롬프트를 제공하고 요구 사항에 따라 콘텐츠를 변경합니다. AI Assistant를 사용하여 단락을 목록으로 스마트 변환합니다. 선택한 콘텐츠를 기반으로 현재 주제에 대한 간단한 설명을 만들 수 있습니다. 이 기능을 사용하면 선택한 콘텐츠를 쉽게 개선하고 번역할 수도 있습니다.
 
@@ -34,7 +41,7 @@ Adobe Experience Manager Guides은 보다 스마트하고 빠르게 작성할 �
 ## 재사용 가능한 콘텐츠 제안
 
 
-**재사용 가능한 콘텐츠 제안** ![ai 재사용 가능한 콘텐츠 제안 아이콘 &#x200B;](./images/ai-suggest-reusable-content-icon.svg) 기능을 사용하여 일관되고 정확하게 콘텐츠를 작성합니다. 콘텐츠를 선택할 수 있으며 Experience Manager Guides에서는 저장소의 기존 콘텐츠를 재사용하는 방법에 대한 제안 사항을 제공합니다.
+**재사용 가능한 콘텐츠 제안** ![ai 재사용 가능한 콘텐츠 제안 아이콘 ](./images/ai-suggest-reusable-content-icon.svg) 기능을 사용하여 일관되고 정확하게 콘텐츠를 작성합니다. 콘텐츠를 선택할 수 있으며 Experience Manager Guides에서는 저장소의 기존 콘텐츠를 재사용하는 방법에 대한 제안 사항을 제공합니다.
 [AI 기반의 스마트 제안을 사용하여 콘텐츠를 작성하는 방법](authoring-ai-based-smart-suggestions.md)에 대해 자세히 알아보세요.
 
 

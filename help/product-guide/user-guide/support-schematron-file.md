@@ -7,21 +7,25 @@ role: User
 TQID: https://experienceleague.adobe.com/8heDTU9viOxhsg-Epvu6OZMrRyHoWRJ-584O6u9lut8
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: de26a643364cab57b415d8eff9e863ea1b4bfe62
+    internal-label: User
+source-git-commit: e4019ae1e605bd26f7df676a4fab8c632fd8fa8e
 workflow-type: tm+mt
-source-wordcount: 984
+source-wordcount: '1091'
 ht-degree: 0%
-
 ---
-
 # Schematron 파일 지원
 
 &quot;Schematron&quot;은 XML 파일에 대한 테스트를 정의하는 데 사용되는 규칙 기반 유효성 검사 언어를 나타냅니다. 편집기는 Schematron 파일을 지원합니다. Schematron 파일을 가져와서 편집기에서 편집할 수도 있습니다. Schematron 파일을 사용하여 특정 규칙을 정의한 다음 DITA 주제 또는 맵의 유효성을 검사할 수 있습니다.
@@ -191,3 +195,21 @@ You have <sch:value-of select="$words"/> letters. This should be greater than <s
 
 </sch:pattern> 
 ```
+
+## 텍스트 노드 컨텍스트를 사용하여 규칙 정의
+
+텍스트 노드 컨텍스트(예: `context="//text()"`)로 Schematron 규칙을 정의하여 해당 텍스트를 포함할 수 있는 모든 가능한 DITA 요소를 열거하지 않고 규칙이 텍스트 노드에 대해 직접 평가되도록 할 수 있습니다.
+
+예를 들어 다음 규칙은 주제 텍스트의 어디에나 곧은 따옴표에 플래그를 지정합니다.
+
+```XML
+<sch:pattern id="quotation-marks-straight-v2">
+  <sch:rule context="//text()">
+    <sch:report role="info" test="contains(., '&quot;')">Please use typographic quotes instead of straight quotes.</sch:report>
+  </sch:rule>
+</sch:pattern>
+```
+
+이 규칙이 일치하면 유효성 검사 결과는 바깥쪽 요소만 연결하는 것이 아니라 이 규칙을 트리거한 정확한 텍스트 노드를 가리킵니다.
+
+명시적 요소 컨텍스트를 사용하는 규칙(예: `context="//p"`)은 이전과 같이 계속 작동하며 일치와 오류 위치를 얼마나 정확하게 일치시키는지에 따라 두 방법 중 하나를 사용할 수 있습니다.

@@ -8,18 +8,20 @@ level: Experienced
 TQID: https://experienceleague.adobe.com/Tl18qyeww079p8XGKwbKTN8TvoZLb-q9mPQ-8q660Dc
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
 workflow-type: tm+mt
-source-wordcount: 1417
+source-wordcount: '1891'
 ht-degree: 0%
-
 ---
-
 # 언어 변수 지원
 
 Adobe Experience Manager Guides은 언어 변수를 사용하는 기능을 제공합니다. 언어 변수를 사용하여 PDF 출력에서 지역화된 문자열을 정의하거나 출력 템플릿에서 정적 텍스트를 지역화할 수 있습니다. CSS 스타일을 사용하여 CSS에서 오는 문자열을 현지화할 수 있습니다.
@@ -102,7 +104,7 @@ Experience Manager Guides에서는 선택한 언어에 있는 언어 변수를 �
 ### 언어 변수 내보내기
 
 언어의 언어 변수를 내보내려면 드롭다운에서 언어를 선택하고 **내보내기**&#x200B;를 선택합니다. <img src="./assets/language-variable-export-icon.svg" alt="내보내기 아이콘" width="25">.
-`language_variable_<ln>` 형식의 XML 파일을 만듭니다. 여기서 `<ln>`은(는) 선택한 언어의 코드입니다. 예를 들어, 영어는 `language_variable_en.xml`, 프랑스어는 `language_variable_fr.xml`입니다.
+`language_variable_<ln>` 형식의 XML 파일을 만듭니다. 여기서 `<ln>`은(는) 선택한 언어의 코드입니다. 예를들어, 영어는 `language_variable_en.xml`이고 프랑스어는 `language_variable_fr.xml`입니다.
 
 >[!NOTE]
 > 
@@ -130,7 +132,7 @@ Experience Manager Guides에서는 선택한 언어에 있는 언어 변수를 �
 >[!NOTE]
 > 
 ><ul><li>파일이 XML 파일이 아니거나 파일에 언어 변수와 매핑되지 않는 잘못된 형식이 포함되어 있으면 XML 파일에 문제가 있다는 오류가 표시됩니다. 
->&gt;<li>파일에 동일한 ID를 가진 변수가 없으면 가져온 파일에 일치하는 언어 변수가 없다는 경고가 표시됩니다.
+&gt;<li>파일에 동일한 ID를 가진 변수가 없으면 가져온 파일에 일치하는 언어 변수가 없다는 경고가 표시됩니다.
 
 ### 언어 변수 옵션
 
@@ -138,9 +140,9 @@ Experience Manager Guides에서는 선택한 언어에 있는 언어 변수를 �
 
 <img width="550" alt="언어 변수의 옵션 메뉴" src="./assets/language-variable-user-options.png">
 
-*언어 변수를 삭제, 미리 보거나 복제하려면&#x200B;**옵션**&#x200B;메뉴를 사용합니다.*
+*언어 변수를 삭제, 미리 보거나 복제하려면&#x200B;**옵션**메뉴를 사용합니다.*
 
-응용 프로그램 변수와 사용자 변수를 모두 미리 볼 수 있습니다. 변수 값이 출력에 표시되는 방식을 보려면 선택한 변수의 **옵션** 메뉴에서 **미리 보기**&#x200B;를 선택하십시오.
+응용 프로그램 변수와 사용자 변수를 모두 미리 볼 수 있습니다. 변수 값이 출력에 표시되는 방식을 보려면 선택한 변수의 **옵션** 메뉴에서 **미리 보기**를 선택하십시오.
 사용자 변수를 **삭제** 또는 **복제**&#x200B;하도록 선택할 수도 있습니다. 한 언어에서 변수를 삭제하면 모든 언어에서 자동으로 삭제됩니다.
 
 ### 응용 프로그램 변수 편집 또는 되돌리기
@@ -150,8 +152,6 @@ Experience Manager Guides에서는 선택한 언어에 있는 언어 변수를 �
 ## 출력 템플릿에서 언어 변수 사용
 
 현지화된 문서에 언어 변수를 추가해야 합니다. 현지화된 문서의 여러 페이지에 표시되는 페이지 레이아웃 내에 이러한 언어 변수를 삽입할 수 있습니다. 예를 들어 페이지 레이아웃의 머리글 영역(또는 바닥글이나 본문 같은 다른 부분)에 나타나는 `author-name`에 대한 언어 변수를 추가할 수 있습니다.
-
-
 
 <img alt="pdf의 페이지 레이아웃" src="./assets/language-variable-page-layout.png" width="550">
 
@@ -180,6 +180,21 @@ Experience Manager Guides에서는 선택한 언어에 있는 언어 변수를 �
 <img alt="헤더 영역에 변수 삽입" src="./assets/language-variable-header.png" width="550">
 
 *헤더 영역에 `copyright-label`이(가) 추가되었습니다.*
+
+삽입되면 생성된 출력의 언어 변수 값은 출력 사전 설정에 구성된 언어에 따라 달라집니다. 맵에 `xml:lang` 특성을 사용하여 이미 정의된 언어가 있고 템플릿에 동일한 언어를 사용하도록 하려면 언어를 명시적으로 선택하는 대신 출력 사전 설정에서 **맵 언어 사용** 옵션이 선택되어 있는지 확인하십시오. 언어가 콘텐츠 유형에 따라 어떻게 확인되는지 알아보려면 [DITA 콘텐츠와 출력 템플릿 변수의 언어 해상도](#language-resolution-for-dita-content-vs-output-template-variables)를 확인하십시오.
+
+### DITA 콘텐츠와 출력 템플릿 변수의 언어 해상도
+
+문서에는 번역이 필요한 두 가지 유형의 내용, 즉 상호 참조 및 테이블 연속 마커와 같은 DITA 내용과 언어 변수를 사용하여 삽입하는 정문, 역문, 머리글 및 바닥글과 같은 출력 템플릿 내용이 포함될 수 있습니다.
+
+다음 표를 사용하여 각 유형의 콘텐츠가 언어를 확인하는 방법을 이해할 수 있습니다.
+
+| 컨텐츠 유형 | 예 | 언어 해결 순서 |
+|---|---|---|
+| DITA 콘텐츠 | 상호 참조(예: &quot;챕터 참조&quot; 또는 &quot;페이지 보기&quot;), 테이블 연속 마커 | &#x200B;1. 가장 가까운 항목 또는 맵 <br> 2의 `xml:lang` 특성. `xml:lang`이(가) 설정되지 않은 경우 출력 사전 설정 언어 |
+| 출력 템플릿 언어 변수 | 앞면, 뒷면, 머리글, 바닥글, 런닝 헤드 및 생성된 레이블(참고, 주의, 경고) | &#x200B;1. 출력 사전 설정 <br> 2에서 선택한 언어입니다. 루트 맵의 `xml:lang`, **맵 언어 사용**&#x200B;을 선택한 경우 <br> 3. 영어(en_US)(둘 다 사용할 수 없는 경우) |
+
+DITA 콘텐츠가 특정 언어를 따르도록 하려면 주제 또는 맵에서 해당 콘텐츠와 가장 가까운 `xml:lang` 특성을 설정합니다. 언어 변수는 다르게 작동합니다. 언어 변수는 DITA 소스의 일부가 아니므로 상속할 `xml:lang`이(가) 없으므로 출력 사전 설정을 통해 언어 변수를 제어할 수 있습니다.
 
 ### 언어 변수에 콘텐츠 스타일 적용
 
