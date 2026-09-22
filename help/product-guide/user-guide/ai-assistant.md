@@ -24,7 +24,7 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
+source-git-commit: 71ddd55d2a6848449d5810701b60e9f69a29112b
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Adobe Experience Manager Guides의 **AI Assistant**&#x200B;은(는) 스마트 �
 
 >[!NOTE]
 >
->사용자 환경에 대해 에이전트 모드에서 AI 관리자를 활성화하려면 고객 지원 팀에 문의하십시오.
+>사용자 환경에 대해 에이전트 모드에서 AI Assistant를 활성화하려면 고객 지원 팀에 문의하십시오.
 
 AI Assistant는 **Agentic** 및 **Standard** 두 가지 모드로 사용할 수 있습니다. 관리자는 **Workspace 설정**&#x200B;의 **일반** 탭에 있는 **AI Assistant** 섹션에서 두 모드 중 하나를 선택할 수 있습니다. AI 지원 패널은 편집기의 두 모드에서 동일하게 유지되지만, 그 내에서 사용할 수 있는 기능은 서로 다릅니다.
 
@@ -79,7 +79,7 @@ AI Assistant가 **표준** 모드로 구성된 경우 **도움말** 기능은 Ex
 
 ## 표준 모드에서 AI Assistant 시작
 
-표준 모드에서 **AI 지원**&#x200B;을 처음 사용하는 경우 Experience Manager Guides Generative AI 기능을 사용하기 전에 동의를 제출하라는 메시지가 표시됩니다.
+표준 모드에서 **AI Assistant**&#x200B;를 처음 사용하는 경우 Experience Manager Guides Generative AI 기능을 사용하기 전에 동의를 제출하라는 메시지가 표시됩니다.
 
 AI Assistant를 시작하려면 다음 단계를 수행하십시오.
 

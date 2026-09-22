@@ -21,9 +21,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: e4019ae1e605bd26f7df676a4fab8c632fd8fa8e
+source-git-commit: 71ddd55d2a6848449d5810701b60e9f69a29112b
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1098'
 ht-degree: 0%
 ---
 # Schematron 파일 지원
@@ -77,7 +77,7 @@ Schematron 파일을 가져온 후 편집기에서 편집할 수 있습니다. S
 
    >[!NOTE]
    >
-   > 검증 결과는 Schematron 파일에 정의된 역할 속성에 따라 표시됩니다. 자세한 내용은 [유효성 검사 결과 및 심각도 수준 이해](#understanding-validation-results-and-serverity-levels)를 참조하십시오.
+   > 검증 결과는 Schematron 파일에 정의된 역할 속성에 따라 표시됩니다. 자세한 내용은 [유효성 검사 결과 및 심각도 수준 이해](#understanding-validation-results-and-severity-levels)를 참조하세요.
 
 1. 오류 메시지를 선택하여 열린 항목/맵에서 오류가 포함된 요소를 강조 표시합니다.
 
