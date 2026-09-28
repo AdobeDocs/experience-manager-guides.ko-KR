@@ -7,22 +7,27 @@ exl-id: 02e45d34-898f-411c-bd80-bd4f2364b7d7
 TQID: https://experienceleague.adobe.com/sqNExkYi3iIqIxC7mdlhWw-59-LcAXCOU8w7GD63d8Q
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 018c2332a9e5a4ce8fb683a8cb0bcf859977922c
+    internal-label: User
+source-git-commit: 4546a7e24f9eea064f049d9f84eabd3253d257bd
 workflow-type: tm+mt
-source-wordcount: 671
+source-wordcount: '691'
 ht-degree: 0%
-
 ---
-
 # 편집기의 탭 모음
 
 >[!INFO]
@@ -61,21 +66,17 @@ ht-degree: 0%
 >
 > **모두 저장** 작업은 새 버전의 주제를 만들지 않습니다. 새 버전을 만들려면 **새 버전으로 저장** 옵션을 사용하십시오.
 
-**AI 길잡이**
-
-스마트 도움말 및 작성 기능을 통해 생산성을 향상시키도록 설계된 강력한 AI 기반 도구입니다. 강력한 두 가지 AI 기능(**작성** 및 **도움말**)을 Experience Manager Guides 인터페이스에 포함시켜 콘텐츠를 작성하고 Experience Manager Guides 설명서에서 정보에 보다 빠르고 효율적으로 액세스할 수 있도록 합니다.
+**AI Assistant**: AI Assistant는 두 가지 모드로 사용할 수 있습니다. **Agentic** 및 **Standard**.
 
 >[!NOTE]
 >
-> AI Assistant 기능은 현재 Adobe Experience Manager Guides as a Cloud Service에서 사용할 수 있습니다.
+> 사용자 환경에서 AI Assistant의 에이전트 모드 기능을 사용하려면 고객 지원 팀에 문의하십시오. 이 기능이 활성화되면 관리자는 Workspace 설정에서 이 기능을 켜거나 끌 수 있습니다. AI Assistant는 한 번에 하나의 모드만 활성화할 수 있습니다(Agentic 또는 Standard).
 
-**AI 가이드**
+- **에이전트**: Adobe CX Enterprise Coworker의 지능적이고 무의미한 스마트 태그 지정 기술을 편집기로 가져와 자연스러운 대화형 콘텐츠 태그 지정을 활성화합니다. 콘텐츠를 분석하고, 관련 태그를 추천하며, 최소한의 노력으로 일관되고 정확한 메타데이터를 적용하는 데 도움이 됩니다. 선택 내용을 확인하기 전에 제안된 태그를 검토하고 적용 또는 거부하도록 선택할 수 있습니다. [에이전트 모드에서 AI Assistant 사용](../user-guide/ai-assistant-agentic.md) 태깅 프로세스를 간소화하여 콘텐츠 구성 및 검색 기능을 개선합니다.
 
-Adobe CX Enterprise Coworker의 지능적인 아젠틱 스마트 태그 지정 기술을 편집기에 가져와 자연스러운 대화형 콘텐츠 태그 지정을 활성화합니다. 콘텐츠를 분석하고, 관련 태그를 추천하며, 최소한의 노력으로 일관되고 정확한 메타데이터를 적용하는 데 도움이 됩니다. 콘텐츠 구성 및 검색 기능을 개선하기 위해 선택한 사항을 확인하기 전에 제안된 태그를 검토하고 적용 또는 거부하도록 선택할 수 있습니다.
+- **표준**: 스마트 도움말 기능을 통해 생산성을 향상하도록 설계된 강력한 AI 기반 도구입니다. 또한 편집기 인터페이스에서 작업할 때 콘텐츠 재사용 및 최적화를 위한 인텔리전트 제안을 통해 작성 프로세스를 보다 스마트하고 빠르게 만드는 AI Assistant의 스마트 작성 기능을 활용할 수 있습니다.
 
->[!NOTE]
->
-> 환경에서 Guides AI 기능을 사용하려면 고객 지원 팀에 문의하십시오. 이 기능이 활성화되면 관리자는 Workspace 설정에서 이 기능을 켜거나 끌 수 있습니다. 한 번에 하나의 AI 경험만 활성화할 수 있습니다(Guides AI 또는 AI Assistant).
+[AI Assistant](./ai-assistant.md) 기능은 현재 Adobe Experience Manager as Cloud Service에서만 사용할 수 있습니다.
 
 **보기 확장**: **확장** 아이콘을 사용하여 페이지 보기를 확장할 수 있습니다. 이 보기에서는 Adobe Experience Manager 로고가 포함된 헤더 막대가 숨겨집니다. 이렇게 하면 편집할 컨텐츠 공간이 최대화됩니다. 표준 보기로 돌아가려면 **확장된 보기로 끝내기** 아이콘을 사용합니다.
 
@@ -91,6 +92,6 @@ Adobe CX Enterprise Coworker의 지능적인 아젠틱 스마트 태그 지정 �
 >
 >5.2 이전 버전의 온-프레미스 설정에서 Adobe Experience Manager Guides을 사용하는 경우 Workspace 설정 옵션이 추가 작업 메뉴에 **설정**(으)로 계속 표시됩니다.
 
-- **편집기 설정**: 개별 작성자 수준에서 편집기 동작을 사용자 지정할 수 있는 편집기 설정 대화 상자로 이동합니다. 작성 중에 태그, 주석 및 기타 편집기 수준 설정의 가시성과 비헤이비어를 제어할 수 있습니다. 자세한 내용은 [편집기 설정](../install-conf-guide/workspace-settings.md)을 참조하세요.
+- **편집기 설정**: 개별 작성자 수준에서 편집기 동작을 사용자 지정할 수 있는 편집기 설정 대화 상자로 이동합니다. 작성 중에 태그, 주석 및 기타 편집기 수준 설정의 가시성과 비헤이비어를 제어할 수 있습니다. 자세한 내용은 [편집기 설정](../user-guide/config-editor-settings.md)을 참조하세요.
 
-**상위 항목:**&#x200B;[&#x200B;편집기 소개](web-editor.md)
+**상위 항목:**[&#x200B;편집기 소개](web-editor.md)
