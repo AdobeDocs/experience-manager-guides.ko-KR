@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: a45df7e9eef75b0c4684e944fd9611eb6e7b060e
+source-git-commit: 863a9c706ce3aa62aaa24bef7242019e1886f255
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '325'
 ht-degree: 5%
 ---
 # Experience Manager Guides 설명서
@@ -206,6 +206,15 @@ Git 저장소에서 바로 안내서로 콘텐츠를 가져옵니다.
 </table>
 
 >[!ENDSHADEBOX]
+
+## 새로운 기능
+
+[!BADGE 2026.09.0 릴리스]{type=Informative}
+
+Adobe Experience Manager Guides 2026.09.0 릴리스에서는 작성, 콘텐츠 관리, 게시 및 전체 사용자 경험에 대한 개선 사항과 함께 AI Assistant의 AI 기반 스마트 태깅을 도입했습니다.
+
+[새로운 기능 살펴보기](./release-info/whats-new-2026-09-0.md)
+
 
 ## 추가 리소스
 
