@@ -5,25 +5,33 @@ exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
 TQID: https://experienceleague.adobe.com/gR8g8sV4RYkMabIxgGFk1I3lKffpMKJdvsPasHgC5aw
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+    internal-label: APIs
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
-source-wordcount: 989
+source-wordcount: '989'
 ht-degree: 0%
-
 ---
-
 # AI Assistant 구성
 
 관리자는 Experience Manager Guides에서 AI Assistant 기능을 구성할 수 있습니다. AI Assistant는 Adobe IMS 인증 기반 인증을 통해 보호됩니다. Adobe의 보안 토큰 기반 인증 워크플로우와 환경을 통합하고 AI Assistant 기능을 사용해 보십시오. 다음 구성은 폴더 프로필에 **AI 구성** 탭을 추가하는 데 도움이 됩니다. 추가되면 Experience Manager Guides에서 AI Assistant 기능을 사용할 수 있습니다.
@@ -48,13 +56,13 @@ Adobe Developer Console에서 IMS 구성을 만들려면 다음 단계를 수행
 
 1. [Adobe Developer Console](https://developer.adobe.com/console)을(를) 시작합니다.
 1. Developer Console에 로그인하면 **홈** 화면이 표시됩니다. **홈** 화면에서 프로젝트 및 다운로드에 대한 위쪽 탐색 링크를 포함하여 정보와 빠른 링크를 쉽게 찾을 수 있습니다.
-1. 새 빈 프로젝트를 만들려면 **빠른 시작** 링크에서 **새 프로젝트 만들기**&#x200B;를 선택하십시오.
+1. 새 빈 프로젝트를 만들려면 **빠른 시작** 링크에서 **새 프로젝트 만들기**를 선택하십시오.
    ![빠른 시작 링크](assets/conf-ss-quick-start.png) {width="550"}
    *새 프로젝트를 만듭니다.*
 
 1. **프로젝트** 화면에서 **API 추가**&#x200B;를 선택합니다.  **API 추가** 화면이 나타납니다. 이 화면에는 애플리케이션을 개발할 수 있는 Adobe 제품 및 기술에 사용 가능한 모든 API, 이벤트 및 서비스가 표시됩니다.
 
-1. **I/O 관리 API**&#x200B;를 선택하여 프로젝트에 추가하십시오.
+1. **I/O 관리 API**를 선택하여 프로젝트에 추가하십시오.
    ![IO 관리 API](assets/confi-ss-io-management.png)
    *I/O 관리 API를 프로젝트에 추가합니다.*
 

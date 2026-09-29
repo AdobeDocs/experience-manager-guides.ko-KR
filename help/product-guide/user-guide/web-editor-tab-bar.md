@@ -23,7 +23,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4546a7e24f9eea064f049d9f84eabd3253d257bd
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 0%
@@ -94,4 +94,4 @@ ht-degree: 0%
 
 - **편집기 설정**: 개별 작성자 수준에서 편집기 동작을 사용자 지정할 수 있는 편집기 설정 대화 상자로 이동합니다. 작성 중에 태그, 주석 및 기타 편집기 수준 설정의 가시성과 비헤이비어를 제어할 수 있습니다. 자세한 내용은 [편집기 설정](../user-guide/config-editor-settings.md)을 참조하세요.
 
-**상위 항목:**&#x200B;[&#x200B;편집기 소개](web-editor.md)
+**상위 항목:**[&#x200B;편집기 소개](web-editor.md)

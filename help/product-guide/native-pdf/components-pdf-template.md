@@ -19,9 +19,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: fde5d8f842d835708f1ae052879bca8a86bf8187
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
-source-wordcount: '5053'
+source-wordcount: '5049'
 ht-degree: 0%
 ---
 # PDF 템플릿의 구성 요소 {#components-pdf-template}
@@ -61,6 +61,7 @@ PDF 템플릿에는 페이지 레이아웃, 스타일시트, 리소스 및 설�
      <img src="assets/add-layout-2.png" alt="레이아웃 추가 대화 상자" width="250">
 
 1. 새 페이지 레이아웃의 이름을 지정합니다.
+
    >[!NOTE]
    >
    >페이지 레이아웃의 이름을 지정할 때 특수 문자를 사용하지 마십시오. 이름의 공백은 밑줄 &quot;_&quot;로 대체됩니다.
@@ -80,7 +81,7 @@ PDF 템플릿에는 페이지 레이아웃, 스타일시트, 리소스 및 설�
 
 1. _레이아웃 복제_ 대화 상자에서 페이지 레이아웃의 이름을 입력합니다.
 
-1. **완료**&#x200B;를 클릭합니다.
+1. **완료**를 클릭합니다.
 선택한 페이지 레이아웃의 복사본이 생성되어 페이지 레이아웃 아래에 추가됩니다.
 
 ### 페이지 레이아웃 사용자 지정 {#customize-page-layout}
@@ -132,7 +133,7 @@ CSS 파일이 컨텐츠와 레이아웃에 제공되면 새 스타일시트를 �
 새 스타일을 만들려면 아래 단계를 수행하십시오.
 1. 왼쪽 사이드바를 확장하고 스타일을 만들 템플릿을 두 번 클릭합니다.
 1. **스타일시트** 섹션을 확장합니다. 모든 스타일 옵션이 포함된 **스타일** 패널이 열립니다.
-1. &#x200B;+ 아이콘을 선택하여 새 스타일을 추가합니다.
+1. + 아이콘을 선택하여 새 스타일을 추가합니다.
 
    **스타일 추가** 대화 상자가 열립니다.
 
@@ -196,13 +197,14 @@ Resources 폴더에 자산 파일을 추가하려면 아래 단계를 수행합�
    <img src="assets/resources-import-assets.png" alt="자산 업로드" width="300">
 
    자산 파일을 업로드할 경로가 **자산 폴더 선택** 필드에 표시됩니다.
+
    >[!NOTE]
    >
    >에셋 업로드의 경로를 변경할 수 없습니다. 기본적으로 모든 자산은 `/content/dam/dita-templates/pdf/<PDF-template-name>` 폴더에 저장됩니다.
 
 1. 로컬 컴퓨터에서 자산 파일을 찾아보려면 **파일 선택**&#x200B;을 클릭하십시오.
 
-1. **업로드**&#x200B;를 클릭합니다.
+1. **업로드**를 클릭합니다.
 선택한 파일을 가져와서 Resources 폴더 아래에 나열됩니다.
 
 ## 기본 PDF 출력에서 초안 주석 표시 또는 숨기기
@@ -339,8 +341,6 @@ TOC 구조인 홀수 또는 짝수 페이지에서 챕터를 시작하기 위한
 
 PDF에서 다음 섹션을 표시하거나 숨길 수 있으며 최종 PDF 출력에 표시될 순서를 정렬할 수 있습니다.
 
-
-
 * 목차
 * 챕터 및 주제
 * 숫자 목록
@@ -349,18 +349,16 @@ PDF에서 다음 섹션을 표시하거나 숨길 수 있으며 최종 PDF 출�
 * 용어 설명
 * 인용
 
-  <img src="assets/page-order-advance-settings.png" alt="페이지 레이아웃 순서" width="550">
+<img src="assets/page-order-advance-settings.png" alt="페이지 레이아웃 순서" width="550">
 
-  PDF 출력에서 특정 섹션을 표시하지 않으려면 전환 스위치를 끄고 이를 숨길 수 있습니다.
+PDF 출력에서 특정 섹션을 표시하지 않으려면 전환 스위치를 끄고 이를 숨길 수 있습니다.
 
-  PDF에서 이러한 서로 다른 섹션이 생성되는 순서를 정의할 수도 있습니다. 이러한 섹션의 기본 순서를 변경하려면 점선 막대를 선택하여 원하는 위치에 섹션을 드래그 앤 드롭합니다.
+PDF에서 이러한 서로 다른 섹션이 생성되는 순서를 정의할 수도 있습니다. 이러한 섹션의 기본 순서를 변경하려면 점선 막대를 선택하여 원하는 위치에 섹션을 드래그 앤 드롭합니다.
 
-  >[!NOTE]
-  >
-  > 순서 및 포함 설정은 DITA 맵에만 적용됩니다. 북맵의 경우 이 설정을 적용할 수 없습니다. 북맵의 페이지는 북맵의 섹션 순서에 따라 표시됩니다.
+>[!NOTE]
+>
+> 순서 및 포함 설정은 DITA 맵에만 적용됩니다. 북맵의 경우 이 설정을 적용할 수 없습니다. 북맵의 페이지는 북맵의 섹션 순서에 따라 표시됩니다.
 
-
-.
 **챕터 및 항목** 레이아웃은 항상 기본적으로 활성화되어 있습니다. 전환할 수 없습니다.
 
 **페이지 병합**
@@ -479,6 +477,7 @@ AEM Guides은 다음과 같은 기본 변수를 제공합니다.
 * **테이블**: `{captionText}`
 
 상호 참조의 우선 순위는 다음과 같습니다.
+
 * 상호 참조에 추가된 링크 텍스트
 * 네이티브 PDF 템플릿에 정의된 상호 참조 형식
 * 기본 상호 참조 형식
@@ -497,12 +496,11 @@ AEM Guides은 다음과 같은 기본 변수를 제공합니다.
 단락 섹션에 `${lng:<variable name>}`을(를) 추가하면 출력의 단락에 있는 상호 참조에 지역화된 텍스트와 페이지 번호가 포함됩니다.\
 예를 들어 다음 스크린샷은 상호 참조된 &quot;View on page 1&quot;(영어) 및 &quot;Einzelheiten finden Sie auf der Seite 1&quot;(독일어)을 보여 줍니다.
 
-<img src="./assets/english-output-corss-reference.png" alt="프라그라에 있는 상호 참조의 영어 출력&quot; width =&quot;800" border="2px">
+<img src="./assets/english-output-corss-reference.png" alt="프라그라에 있는 상호 참조의 영어 출력" width ="800" border="2px">
 
 *영어로 게시할 때 단락 내의 상호 참조입니다.*
 
-<img src="./assets/german-output-corss-reference.png" alt="프라그라에서 상호 참조에 대한 독일어 출력&quot; width =&quot;800" border="2px">
-
+<img src="./assets/german-output-corss-reference.png" alt="프라그라에서 상호 참조에 대한 독일어 출력" width ="800" border="2px">
 
 *독일어로 게시할 때 단락 내의 상호 참조입니다.*
 

@@ -7,23 +7,29 @@ exl-id: 52bc8f90-e4ae-4e83-bb1c-9d152fa9bb65
 TQID: https://experienceleague.adobe.com/NX3LuUjSmQKtirXc1iaJVZziVIvuDqANXwqPTi-1LIo
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: f7c0b10f032c2584fb6e951da898faaeb4ca7aaf
+    internal-label: Security
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
-source-wordcount: 3002
+source-wordcount: '3060'
 ht-degree: 1%
-
 ---
-
 # PDF 출력 사전 설정 구성
 
 사전 설정이 만들어지면 PDF 사전 설정 설정을 구성합니다. 사전 설정된 구성 옵션은 [일반], [메타데이터], [레이아웃], [보안], [인쇄] 및 [고급] 탭에서 구성됩니다.
@@ -59,23 +65,23 @@ ht-degree: 1%
 
 * **XMP 파일 제공**
 
-  [XMP](https://www.adobe.com/kr/products/xmp.html)&#x200B;(Extensible Metadata Platform) 파일을 가져와서 메타데이터 필드를 직접 채울 수도 있습니다. 여기에서 샘플 XMP 파일을 다운로드할 수 있습니다.
+  [XMP](https://www.adobe.com/products/xmp.html)&#x200B;(Extensible Metadata Platform) 파일을 가져와서 메타데이터 필드를 직접 채울 수도 있습니다. 여기에서 샘플 XMP 파일을 다운로드할 수 있습니다.
 
   [다운로드](assets/SampleXMP.xmp)
 
   또는 Adobe Acrobat을 사용하여 XMP 파일을 생성할 수 있습니다.
-   1. Acrobat에서 **파일** > **속성**&#x200B;을 선택합니다.
-   1. **설명**&#x200B;에서 **추가 메타데이터**&#x200B;를 선택합니다.
-   1. 왼쪽 패널에서 **고급**&#x200B;을 선택합니다.
-   1. **저장**&#x200B;을 선택합니다.
+  1. Acrobat에서 **파일** > **속성**&#x200B;을 선택합니다.
+  1. **설명**&#x200B;에서 **추가 메타데이터**&#x200B;를 선택합니다.
+  1. 왼쪽 패널에서 **고급**&#x200B;을 선택합니다.
+  1. **저장**&#x200B;을 선택합니다.
 
   XMP 파일이 장치에 저장됩니다.
 
 * **메타데이터 이름 및 값 제공**
 
-   1. 드롭다운에서 을 선택하여 이름을 추가하거나 이름 필드에 직접 입력하여 사용자 지정 메타데이터를 추가합니다.
-   1. 메타데이터 값을 입력하고 &#39;+&#39; 아이콘을 선택합니다.
-메타데이터가 PDF의 메타데이터 목록에 추가됩니다.
+  1. 드롭다운에서 을 선택하여 이름을 추가하거나 이름 필드에 직접 입력하여 사용자 지정 메타데이터를 추가합니다.
+  1. 메타데이터 값을 입력하고 &#39;+&#39; 아이콘을 선택합니다.
+     메타데이터가 PDF의 메타데이터 목록에 추가됩니다.
 
 변수를 사용하여 메타데이터 값을 정의할 수도 있습니다.  DITA 맵 또는 북맵 파일에 대해 정의된 메타데이터를 변수로 사용할 수 있습니다. 메타데이터는 DITA 맵 또는 북맵 파일의 `/jcr:content/metadata` 노드에서 찾을 수 있습니다.
 변수를 사용하는 경우 메타데이터 속성에서 해당 값이 선택됩니다.
@@ -115,10 +121,10 @@ ht-degree: 1%
 프린터 표시를 할당하고, 색상 모델을 선택하고, PDF 출력 인쇄와 관련된 속성을 지정하도록 인쇄 프로덕션 설정을 구성합니다.
 
 * **프린터 표시**: 인쇄 제작을 위해 문서를 준비하면 인쇄 중에 적절한 정렬, 트리밍 및 색상 선택을 돕기 위해 프린터 표시가 페이지 경계에 추가됩니다. 프린터 표시를 선택하면 인쇄 중에 잘리는 표시를 수용하도록 페이지 경계가 확장됩니다. PDF 출력에 다음 프린터 표시를 표시하도록 선택할 수 있습니다.
-   * **재단선**: 인쇄 후 용지를 재단해야 하는 위치를 나타내기 위해 재단선 영역의 각 모서리에 표시를 배치하려면 옵션을 선택합니다.
-   * **재단 물림 표시**: 재단 물림 상자의 각 모서리에 표시를 배치하여 확장된 이미지의 재단 영역을 나타내려면 선택합니다.
-   * **등록 표시**: 색상 문서에서 다른 분판을 정렬하기 위해 자르기 영역 밖에 표시를 배치하려면 선택합니다.
-   * **색상 막대**: 인쇄 시 색상 일관성을 유지하고 잉크 밀도를 조정하려면 트리밍 영역 외부에 색상 스트립을 추가합니다.
+  * **재단선**: 인쇄 후 용지를 재단해야 하는 위치를 나타내기 위해 재단선 영역의 각 모서리에 표시를 배치하려면 옵션을 선택합니다.
+  * **재단 물림 표시**: 재단 물림 상자의 각 모서리에 표시를 배치하여 확장된 이미지의 재단 영역을 나타내려면 선택합니다.
+  * **등록 표시**: 색상 문서에서 다른 분판을 정렬하기 위해 자르기 영역 밖에 표시를 배치하려면 선택합니다.
+  * **색상 막대**: 인쇄 시 색상 일관성을 유지하고 잉크 밀도를 조정하려면 트리밍 영역 외부에 색상 스트립을 추가합니다.
 
   **선 너비**, **선 색상** 및 **재단 물림 상자 너비** 옵션을 사용하여 선택한 프린터 표시의 치수를 설정하십시오.
 
@@ -154,5 +160,5 @@ ht-degree: 1%
 | **대화형 PDF 양식 만들기** | 생성된 PDF 출력에서 향상된 사용자 입력을 위해 대화형 및 사용자 지정 가능한 PDF 양식 필드를 포함하려면 이 옵션을 선택합니다. |
 | **트랙 변경 내용 포함** | 간편한 검토 및 비교를 위해 생성된 PDF에서 추적된 변경 사항을 포함하려면 이 옵션을 선택합니다. |
 | **임시 파일 유지** | 기본 PDF 출력을 생성하는 동안 생성된 임시 HTML 파일을 유지하려면 이 옵션을 선택합니다. 출력을 생성한 후 나중에 임시 파일을 다운로드할 수 있습니다. 다운로드한 파일에는 작성자 URL, 로컬 URL 및 게시 URL에 대한 정보를 제공하는 `system_config.xml` 파일도 포함됩니다. 이러한 URL은 AEM 외부화 설정에 구성되어 `system_config.xml` 파일에 반영됩니다. |
-| **PDF 적합성** | PDF이 준수되는지 확인하기 위해 저장하려는 표준입니다. 드롭다운에서 을(를) 선택하여 사용 가능한 PDF 표준 목록에서 을(를) 선택합니다. 지원되는 표준에 대한 자세한 내용은 [PDF 표준 정보](https://helpx.adobe.com/kr/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards)를 참조하십시오. |
+| **PDF 적합성** | PDF이 준수되는지 확인하기 위해 저장하려는 표준입니다. 드롭다운에서 을(를) 선택하여 사용 가능한 PDF 표준 목록에서 을(를) 선택합니다. 지원되는 표준에 대한 자세한 내용은 [PDF 표준 정보](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards)를 참조하십시오. |
 | **파일 속성** | 기본 PDF 게시로 전달할 메타데이터를 선택합니다. 드롭다운에 사용자 지정 및 기본 속성이 모두 나열됩니다. 예를 들어 `dc:description`, `dc:language`, `dc:title` 및 `docstate`은(는) 기본 속성이지만 `author`을(를) 사용자 지정 속성으로 가질 수 있습니다. 선택한 메타데이터 속성이 네이티브 PDF을 사용하여 생성된 PDF 파일에 전달됩니다. <br> 이 속성은 `/libs/fmdita/config/metadataList`에서 사용할 수 있는 `metadataList` 파일에서 선택됩니다. <br>이 파일은 `/apps/fmdita/config/metadataList`에 오버레이할 수 있습니다. |
