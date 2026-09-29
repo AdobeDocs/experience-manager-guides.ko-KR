@@ -39,7 +39,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: bd500b169cc39e5d179bb2ba36e70f9a7c64958f
+source-git-commit: afb7cb895a2861dfa49070ef10bd69becf5d686b
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 5%
@@ -211,16 +211,20 @@ Git 저장소에서 바로 안내서로 콘텐츠를 가져옵니다.
 
 [!BADGE 2026.09.0 릴리스]{type=Informative}
 
+>[!BEGINSHADEBOX]
+
 Adobe Experience Manager Guides 2026.09.0 릴리스에서는 작성, 콘텐츠 관리, 게시 및 전체 사용자 경험에 대한 개선 사항과 함께 AI Assistant의 AI 기반 스마트 태깅을 도입했습니다.
 
 [새로운 기능 살펴보기](./release-info/whats-new-2026-09-0.md)
+
+>[!ENDSHADEBOX]
 
 
 ## 추가 리소스
 
 * [Cloud Service 릴리스 노트](./release-info/latest-release-info-cs.md)
 * [온-프레미스용 릴리스 정보](./release-info/latest-release-info.md)
-* [AEM Guides 커뮤니티](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=ko){target="_blank"}
-* [GitHub 저장소](https://github.com/AdobeDocs/experience-manager-guides.ko-KR){target="_blank"}
-* [지원](https://experienceleague.adobe.com/support/v2/en/?lang=ko){target="_blank"}
-* [비디오 자습서](https://experienceleague.adobe.com/ko/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [AEM Guides 커뮤니티](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
+* [GitHub 저장소](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [지원](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [비디오 자습서](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
