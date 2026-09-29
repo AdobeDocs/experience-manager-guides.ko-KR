@@ -57,7 +57,7 @@ ht-degree: 17%
 
 ![파일 속성 옵션 탭](./assets/file-properties-outputs-4-6.png) {width="300"}
 
-***파일 속성**의&#x200B;**출력**섹션에서 주제의 경험 조각을 게시하고 봅니다.*
+***파일 속성**&#x200B;의&#x200B;**출력**&#x200B;섹션에서 주제의 경험 조각을 게시하고 봅니다.*
 
 이제 Experience Manager Guides을 사용하여 주제 또는 해당 요소를 경험 조각에 게시할 수 있습니다. 주제 또는 해당 요소와 경험 조각 템플릿 간에 JSON 기반 매핑을 만들 수 있습니다. 조건 필터를 사용하여 경험 조각 변형을 만들 수도 있습니다.
 
@@ -108,7 +108,7 @@ Experience Manager Guides의 교차 맵 참조는 콘텐츠 탐색을 개선하�
 
 ![기존 AEM Sites 사전 설정](assets/aem-sites-legacy.png)
 
-***AEM Sites**사전 설정의&#x200B;**상호 맵 참조**탭에서 연결된 주제에 대한 게시 컨텍스트를 지정하십시오.*
+***AEM Sites**&#x200B;사전 설정의&#x200B;**상호 맵 참조**&#x200B;탭에서 연결된 주제에 대한 게시 컨텍스트를 지정하십시오.*
 
 
 
@@ -215,7 +215,7 @@ Experience Manager Guides은 웹 편집기의 요소에서 콘텐츠를 선택�
 
 관련 파일에 대한 더 빠른 액세스, 더 직관적인 사용자 인터페이스 등의 이점을 활용하여 검색 경험을 더욱 원활하고 효율적으로 만들어 보십시오.
 
-![빠른 검색 필터 ](assets/repository-filter-search-quick.png) {width="300"}
+![빠른 검색 필터 &#x200B;](assets/repository-filter-search-quick.png) {width="300"}
 
 *빠른 필터를 사용하여 DITA 및 비 DITA 파일을 검색합니다.*
 

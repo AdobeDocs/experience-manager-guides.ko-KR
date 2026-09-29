@@ -97,7 +97,7 @@ Experience Manager Guides의 교차 맵 참조는 콘텐츠 탐색을 개선하�
 
 ![기존 AEM Sites 사전 설정](assets/aem-sites-legacy.png)
 
-***AEM Sites**사전 설정의&#x200B;**상호 맵 참조**탭에서 연결된 주제에 대한 게시 컨텍스트를 지정하십시오.*
+***AEM Sites**&#x200B;사전 설정의&#x200B;**상호 맵 참조**&#x200B;탭에서 연결된 주제에 대한 게시 컨텍스트를 지정하십시오.*
 
 [AEM Sites 사전 설정](../user-guide/generate-output-aem-site.md)에 대해 자세히 알아보세요.
 
