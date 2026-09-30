@@ -8,16 +8,17 @@ exl-id: 96e54aee-52df-4af1-97fd-34986f553be4
 TQID: https://experienceleague.adobe.com/Y6sobecXfXdQn-BpVO-z3H2uLbSCLpbcPtYUv7pFPYo
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Admin
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
-source-wordcount: 1318
+source-wordcount: '1476'
 ht-degree: 0%
-
 ---
-
 # PDF 출력의 변수
 
 변수는 재사용 가능한 정보 역할을 하는 데이터의 이름-값 쌍입니다. 이렇게 하면 콘텐츠를 휴대하고 쉽게 업데이트할 수 있습니다. 변수나 해당 값을 수정하면 해당 변수나 값의 모든 항목이 업데이트됩니다.

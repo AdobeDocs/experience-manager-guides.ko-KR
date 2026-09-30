@@ -2,13 +2,11 @@
 title: 콘텐츠를 검색하도록 스마트 도움말 구성
 description: 콘텐츠 검색을 위한 Smart Help를 구성하는 방법을 알아봅니다
 exl-id: 5ebda503-066a-428e-bff4-1a1e91ada917
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '626'
 ht-degree: 0%
-
 ---
-
 # Cloud Service에 대한 콘텐츠를 검색하도록 AI 기반 스마트 도움말을 구성합니다
 
 관리자는 작성자에 대한 스마트 도움말 기능을 구성할 수 있습니다. 스마트 도움말 서비스는 Adobe IMS 인증 기반 인증을 통해 보호됩니다. Adobe의 보안 토큰 기반 인증 워크플로우와 환경을 통합하고 새로운 스마트 도움말 기능을 사용하십시오. 다음 구성은 폴더 프로필에 **AI 구성** 탭을 추가하는 데 도움이 됩니다. 추가되면 편집기에서 스마트 도움말 기능을 사용할 수 있습니다.
@@ -106,4 +104,4 @@ OAuth 인증 세부 사항을 구성하고 JSON 서비스 세부 사항을 다�
 
 
 구성하고 나면 편집기의 오른쪽 패널에 **스마트 도움말** ![스마트 도움말](assets/smart-help-icon.svg) 아이콘이 표시됩니다. 아이콘을 선택하여 **스마트 도움말** 패널을 보십시오.
-자세한 내용은 Experience Manager 사용 안내서의 [AI 기반 스마트 도움말을 참조하여 콘텐츠를 검색하십시오](../user-guide/ai-based-smart-help.md) 섹션을 참조하십시오.
+자세한 내용은 Experience Manager 사용 안내서에서 [콘텐츠를 검색하는 AI 기반 스마트 도움말](../user-guide/ai-based-smart-help.md) 섹션을 참조하십시오.

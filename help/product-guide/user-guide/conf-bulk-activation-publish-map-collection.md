@@ -7,20 +7,23 @@ role: User
 TQID: https://experienceleague.adobe.com/ujkifru-aKa2oYvrE8EKUEE3Sai8NqQ9lx9BA2ZUw9U
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
 subfeature_v2:
   - id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388b
+    internal-label: Bulk activation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 5d63f33b8644b9adad67fd6badf4760aacbff063
 workflow-type: tm+mt
-source-wordcount: 469
+source-wordcount: '469'
 ht-degree: 1%
-
 ---
-
 # 출력 활성화 {#id214GGF00V5U}
 
 일괄 활성화를 위한 맵 컬렉션을 만들었으면 다음 단계는 게시 인스턴스에서 콘텐츠를 활성화하는 것입니다. 콘텐츠를 활성화하려면 다음 단계를 수행하십시오.
@@ -62,13 +65,11 @@ ht-degree: 1%
 **게시**
 
 * 선택한 맵의 출력을 활성화하려면 미리 생성된 맵 출력을 선택하고 **게시 대상** > **게시**&#x200B;를 선택합니다.
-
 * 구성된 사전 설정으로 모든 DITA 맵의 출력을 활성화하려면 맵(열) 옆에 있는 확인란을 선택한 다음 **게시 대상** > **게시**&#x200B;를 선택합니다.
-
 
 >[!NOTE]
 > 
-> 맵 출력 확인란은 맵에 대한 출력을 생성한 경우에만 활성화됩니다.
+>맵 출력 확인란은 맵에 대한 출력을 생성한 경우에만 활성화됩니다.
 
 맵 출력이 게시 큐에 있으면 성공 메시지가 표시됩니다.
 
@@ -84,6 +85,7 @@ ht-degree: 1%
 
 * 선택한 맵의 출력을 활성화하려면 미리 생성된 맵 출력을 선택하고 **빠른 게시**&#x200B;를 선택합니다.
 * 구성된 사전 설정으로 모든 DITA 맵의 출력을 활성화하려면 맵(열) 옆에 있는 확인란을 선택한 다음 **빠른 게시**&#x200B;를 선택합니다.
+
   ![bulk-collection-publish](images/bulk-activation-collection-quick-publish.png){width="650"}
 
   >[!NOTE]

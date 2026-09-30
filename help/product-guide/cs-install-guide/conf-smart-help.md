@@ -5,24 +5,31 @@ exl-id: b5836c02-027e-459a-a7f0-f7d631f999dc
 TQID: https://experienceleague.adobe.com/CVY-v5lrpyLwIjmcxA6-p-4E0OuKZM14cvJomBqADz4
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+    internal-label: APIs
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
-source-wordcount: 591
+source-wordcount: '625'
 ht-degree: 0%
-
 ---
-
 # 콘텐츠 검색을 위한 AI 기반 스마트 도움말 구성
 
 관리자는 작성자에 대한 스마트 도움말 기능을 구성할 수 있습니다. 스마트 도움말 서비스는 Adobe IMS 인증 기반 인증을 통해 보호됩니다. Adobe의 보안 토큰 기반 인증 워크플로우와 환경을 통합하고 새로운 스마트 도움말 기능을 사용하십시오. 다음 구성은 폴더 프로필에 **AI 구성** 탭을 추가하는 데 도움이 됩니다. 추가한 후에는 웹 편집기의 스마트 도움말 기능을 사용할 수 있습니다.
@@ -120,4 +127,4 @@ OAuth 인증 세부 사항을 구성하고 JSON 서비스 세부 사항을 다�
 
 
 구성하고 나면 **스마트 도움말** ![스마트 도움말](assets/smart-help-icon.svg) 아이콘이 웹 편집기의 오른쪽 패널에 표시됩니다. 아이콘을 선택하여 **스마트 도움말** 패널을 보십시오.
-자세한 내용은 Experience Manager 사용 안내서의 [AI 기반 스마트 도움말을 참조하여 콘텐츠를 검색하십시오](../user-guide/ai-based-smart-help.md) 섹션을 참조하십시오.
+자세한 내용은 Experience Manager 사용 안내서에서 [콘텐츠를 검색하는 AI 기반 스마트 도움말](../user-guide/ai-based-smart-help.md) 섹션을 참조하십시오.

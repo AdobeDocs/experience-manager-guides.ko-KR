@@ -7,19 +7,22 @@ exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
 TQID: https://experienceleague.adobe.com/Ffg1tESMpsZU71BF5UcWu-bSBTekVGiv-dv24jD-tjA
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 75954eab3ac1738705fe2a7280973af39b9214df
+    internal-label: User
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
-source-wordcount: 740
+source-wordcount: '740'
 ht-degree: 0%
-
 ---
-
 # 과정 관리
 
 과정을 만들면 과정 관리자 패널에서 열립니다. 과정을 잠그고 과정 수준에서 필요한 모든 사항을 변경할 수 있습니다. 다음 섹션에서는 과정 편집에 사용할 수 있는 옵션에 대해 설명합니다.
@@ -50,11 +53,11 @@ ht-degree: 0%
 1. 만들려는 강의 컨텐츠 유형을 선택합니다.
 1. **파일 선택** 대화 상자에서 콘텐츠 위치로 이동하여 원하는 학습 콘텐츠를 선택합니다.
 
->[!NOTE]
->
-> HTML 주제를 학습 그룹 맵에 추가하면 `format="html"` 특성이 맵의 해당 `topicref`에 자동으로 추가됩니다. 이렇게 하면 항목이 올바르게 처리 및 게시됩니다.
+   >[!NOTE]
+   >
+   > HTML 주제를 학습 그룹 맵에 추가하면 `format="html"` 특성이 맵의 해당 `topicref`에 자동으로 추가됩니다. 이렇게 하면 항목이 올바르게 처리 및 게시됩니다.
 
-![](assets/add-existing-learning-content.png)
+   ![](assets/add-existing-learning-content.png)
 
 1. **선택**&#x200B;을 선택하세요.
 

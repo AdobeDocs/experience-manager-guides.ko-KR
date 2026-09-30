@@ -17,7 +17,7 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
 source-wordcount: '1891'
 ht-degree: 0%
@@ -91,9 +91,9 @@ AEM Guides은 사전 정의되거나 즉시 사용 가능한 애플리케이션 
 
 1. **언어 변수 추가** 선택 <img src="./assets/add-language-variable.svg" width="25">: 선택한 언어에 새 언어 변수를 추가합니다. 한 언어에 변수를 추가하면 모든 언어에 자동으로 추가됩니다. 기존 변수와 이름이 같은 변수는 만들 수 없습니다. 오류가 표시됩니다.
 
->[!NOTE]
->
-> **언어 변수 추가**&#x200B;를 선택하지 않으면 변수가 만들어지지 않고 목록에 추가됩니다
+   >[!NOTE]
+   >
+   > **언어 변수 추가**&#x200B;를 선택하지 않으면 변수가 만들어지지 않고 목록에 추가됩니다
 
 ## 언어 변수 내보내기 및 가져오기
 

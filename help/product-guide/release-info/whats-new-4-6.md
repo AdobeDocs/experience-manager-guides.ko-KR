@@ -6,27 +6,36 @@ exl-id: 3e73d595-a574-4104-af46-6994685a2f4c
 TQID: https://experienceleague.adobe.com/SuUfplm5WDGOjPlkNjMiWXoWzpFeM8RQsTHNL36iLn8
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: d6596f3f-92a7-43ec-b444-237db6adad05
+    internal-label: Native PDF publishing
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+    internal-label: Content structure
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Content reuse
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
-source-wordcount: 2738
-ht-degree: 19%
-
+source-wordcount: '3089'
+ht-degree: 17%
 ---
-
 # 4.6.0 릴리스의 새로운 기능(2024년 9월)
 
 이 문서에서는 Adobe Experience Manager Guides 버전 4.6.0과 함께 도입된 새로운 기능 및 향상된 기능을 다룹니다.
@@ -83,7 +92,7 @@ Experience Manager Guides은 또한 콘텐츠 조각에 몇 가지 유용한 개
 AEM Sites 사전 설정에서 **일반**, **콘텐츠** 및 **교차 맵 참조** 탭을 봅니다.
 - **일반**: 출력을 생성하는 일반 구성을 포함합니다. 사이트 및 출력 경로를 지정하고, 기존 출력 페이지를 삭제 또는 덮어쓰고, 제거된 주제에 대해 이전에 생성된 페이지를 삭제하고, 디자인 템플릿을 선택하고, 임시 파일을 유지하고, 사후 생성 워크플로우를 지정할 수 있습니다.
 - **Content**: 출력 생성을 위해 콘텐츠에 적용할 수 있는 설정이 포함되어 있습니다. 필터, DITA 맵의 기준선 및 게시할 메타데이터 속성을 선택할 수 있습니다.
-- **교차 맵 참조**: 이 목록에는 범위 =&quot;peer&quot;가 있는 교차 맵 참조가 포함된 항목이 포함되어 있습니다. 다른 DITA 맵에서 사용할 수 있는 주제에 대해 scope=&quot;peer&quot;를 사용하여 교차 맵 참조 목록에 대한 게시 컨텍스트를 지정할 수 있습니다. 이 탭은 Experience Manager Guides(UUID) 버전을 사용하는 경우에 나타납니다.
+- **교차 맵 참조**: 이 목록에는 범위 =&quot;peer&quot;인 교차 맵 참조가 포함된 항목이 포함되어 있습니다. 범위=&quot;피어&quot;를 사용하여 다른 DITA 맵에서 사용할 수 있는 주제에 대한 교차 맵 참조 목록에 대한 게시 컨텍스트를 지정할 수 있습니다. 이 탭은 Experience Manager Guides(UUID) 버전을 사용하는 경우에 나타납니다.
 
 
 
@@ -93,7 +102,7 @@ Experience Manager Guides의 최신 개선 사항에서는 웹 편집기의 AEM 
 Experience Manager Guides의 교차 맵 참조는 콘텐츠 탐색을 개선하고, 콘텐츠 재사용을 늘리며, 사용자 경험을 개선하는 데 도움이 됩니다.
 
 
-scope=&quot;peer&quot;가 있는 다른 DITA 맵에서 사용할 수 있는 주제에 대한 교차 맵 참조 목록에 대한 게시 컨텍스트를 지정할 수 있습니다. 예를 들어 맵 A의 항목 1에는 항목 2에 대한 참조가 포함되어 있습니다. 주제 2는 단일 또는 다중 지도에 존재할 수 있다.  각 링크에 대해 상위 맵과 특정 사전 설정 또는 가장 최근에 게시된 출력을 선택할 수 있습니다.
+범위=&quot;peer&quot;인 다른 DITA 맵에서 사용할 수 있는 주제에 대한 교차 맵 참조 목록에 대한 게시 컨텍스트를 지정할 수 있습니다. 예를 들어 맵 A의 항목 1에는 항목 2에 대한 참조가 포함되어 있습니다. 주제 2는 단일 또는 다중 지도에 존재할 수 있다.  각 링크에 대해 상위 맵과 특정 사전 설정 또는 가장 최근에 게시된 출력을 선택할 수 있습니다.
 
 파일에서 동일한 주제가 두 번 이상 참조되는 경우 각 인스턴스에 대해 다른 게시 컨텍스트를 추가할 수 있습니다. 따라서 컨텐츠를 보다 유연하게 제어하고 제어할 수 있습니다. 예를 들어 항목 3은 맵 B와 맵 C 모두에 있습니다. 항목 1에는 항목 3에 대한 두 개의 참조가 포함되어 있습니다. 맵 B를 첫 번째 링크의 상위 맵으로 선택하고 맵 C를 두 번째 링크의 상위 맵으로 선택할 수 있습니다.
 
@@ -154,6 +163,7 @@ DITA-OT를 사용하여 생성된 출력으로 전달된 메타데이터 속성�
 읽기 전용 모드에서는 **작성자** 또는 **Source** 모드에서 태그 및 특성과 함께 콘텐츠를 보고 파일 속성을 편집할 수 있습니다.
 
 읽기 전용 DITA 맵에 대해 **레이아웃** 보기에 액세스할 수도 있습니다.
+
 >[!NOTE]
 >
 > 작성자, Source 및 레이아웃 모드에서 읽기 전용 파일에 조화롭게 액세스할 수 있도록 폴더 프로필 관리자는 *ui_config.json*&#x200B;을(를) 업데이트해야 합니다.
@@ -203,7 +213,7 @@ Experience Manager Guides은 웹 편집기의 요소에서 콘텐츠를 선택�
 
 *텍스트가 포함된 파일 검색`general purpose.`*
 
-관련 파일에 대한 더 빠른 액세스, 더 직관적인 사용자 인터페이스 등의 이점을 활용하여 검색 환경을 더욱 원활하고 효율적으로 만들어 보십시오.
+관련 파일에 대한 더 빠른 액세스, 더 직관적인 사용자 인터페이스 등의 이점을 활용하여 검색 경험을 더욱 원활하고 효율적으로 만들어 보십시오.
 
 ![빠른 검색 필터 &#x200B;](assets/repository-filter-search-quick.png) {width="300"}
 
@@ -304,7 +314,7 @@ ILM( 콘텐츠 수명주기 관리 ) 은 다음과 같은 방식으로 향상되
 >
 >언어의 대상 폴더가 없거나 대상 언어가 소스와 동일한 경우 회색으로 표시되며 경고 기호가 나타납니다.
 
-관리자는 언어 그룹을 생성하고 이를 여러 폴더 프로필로 구성할 수 있습니다. 작성자는 폴더 프로필에 구성된 언어 그룹을 조회할 수 있습니다.
+관리자는 언어 그룹을 생성하고 이를 여러 폴더 프로필에 구성할 수 있습니다. 작성자는 폴더 프로필에 구성된 언어 그룹을 조회할 수 있습니다.
 
 
 언어 그룹을 만들면 번역 프로젝트의 전반적인 효율성과 생산성이 향상되어 궁극적으로 여러 언어에 대한 현지화 프로세스가 개선됩니다.

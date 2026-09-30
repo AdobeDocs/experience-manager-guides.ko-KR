@@ -6,24 +6,30 @@ exl-id: 13135928-f0fe-4147-83ac-8b06ca241ed7
 TQID: https://experienceleague.adobe.com/PFM-i4fVsgpBUJy4BeOpvyY4GWxGS8F24jEGb0Y2oiI
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Content reuse
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
-source-wordcount: 1026
+source-wordcount: '1021'
 ht-degree: 1%
-
 ---
-
 # 2024.10.0 릴리스(2024년 10월)의 새로운 기능
 
 이 문서에서는 Adobe Experience Manager Guides as a Cloud Service 2024.10.0 릴리스와 함께 도입된 새로운 기능 및 향상된 기능을 다룹니다.
@@ -75,7 +81,7 @@ Experience Manager Guides을 사용하면 주제 또는 해당 요소를 경험 
 AEM Sites 사전 설정에서 **일반**, **콘텐츠** 및 **교차 맵 참조** 탭을 봅니다.
 - **일반**: 출력을 생성하는 일반 구성을 포함합니다. 사이트 및 출력 경로를 지정하고, 기존 출력 페이지를 삭제 또는 덮어쓰고, 제거된 주제에 대해 이전에 생성된 페이지를 삭제하고, 디자인 템플릿을 선택하고, 임시 파일을 유지하고, 사후 생성 워크플로우를 지정할 수 있습니다.
 - **Content**: 출력 생성을 위해 콘텐츠에 적용할 수 있는 설정이 포함되어 있습니다. 필터, DITA 맵의 기준선 및 게시할 메타데이터 속성을 선택할 수 있습니다.
-- **교차 맵 참조**: 이 목록에는 범위 =&quot;peer&quot;가 있는 교차 맵 참조가 포함된 항목이 포함되어 있습니다. 다른 DITA 맵에서 사용할 수 있는 주제에 대해 scope=&quot;peer&quot;를 사용하여 교차 맵 참조 목록에 대한 게시 컨텍스트를 지정할 수 있습니다. 이 탭은 Experience Manager Guides(UUID) 버전을 사용하는 경우에 나타납니다.
+- **교차 맵 참조**: 이 목록에는 범위 =&quot;peer&quot;인 교차 맵 참조가 포함된 항목이 포함되어 있습니다. 범위=&quot;피어&quot;를 사용하여 다른 DITA 맵에서 사용할 수 있는 주제에 대한 교차 맵 참조 목록에 대한 게시 컨텍스트를 지정할 수 있습니다. 이 탭은 Experience Manager Guides(UUID) 버전을 사용하는 경우에 나타납니다.
 
 
 
@@ -85,7 +91,7 @@ Experience Manager Guides의 최신 개선 사항에서는 웹 편집기의 AEM 
 Experience Manager Guides의 교차 맵 참조는 콘텐츠 탐색을 개선하고, 콘텐츠 재사용을 늘리며, 사용자 경험을 개선하는 데 도움이 됩니다.
 
 
-scope=&quot;peer&quot;가 있는 다른 DITA 맵에서 사용할 수 있는 주제에 대한 교차 맵 참조 목록에 대한 게시 컨텍스트를 지정할 수 있습니다. 예를 들어 맵 A의 항목 1에는 항목 2에 대한 참조가 포함되어 있습니다. 주제 2는 단일 또는 다중 지도에 존재할 수 있다.  각 링크에 대해 상위 맵과 특정 사전 설정 또는 가장 최근에 게시된 출력을 선택할 수 있습니다.
+범위=&quot;peer&quot;인 다른 DITA 맵에서 사용할 수 있는 주제에 대한 교차 맵 참조 목록에 대한 게시 컨텍스트를 지정할 수 있습니다. 예를 들어 맵 A의 항목 1에는 항목 2에 대한 참조가 포함되어 있습니다. 주제 2는 단일 또는 다중 지도에 존재할 수 있다.  각 링크에 대해 상위 맵과 특정 사전 설정 또는 가장 최근에 게시된 출력을 선택할 수 있습니다.
 
 파일에서 동일한 주제가 두 번 이상 참조되는 경우 각 인스턴스에 대해 다른 게시 컨텍스트를 추가할 수 있습니다. 따라서 컨텐츠를 보다 유연하게 제어하고 제어할 수 있습니다. 예를 들어 항목 3은 맵 B와 맵 C 모두에 있습니다. 항목 1에는 항목 3에 대한 두 개의 참조가 포함되어 있습니다. 맵 B를 첫 번째 링크의 상위 맵으로 선택하고 맵 C를 두 번째 링크의 상위 맵으로 선택할 수 있습니다.
 
@@ -114,6 +120,7 @@ scope=&quot;peer&quot;가 있는 다른 DITA 맵에서 사용할 수 있는 주�
 읽기 전용 모드에서는 **작성자** 또는 **Source** 모드에서 태그 및 특성과 함께 콘텐츠를 보고 파일 속성을 편집할 수 있습니다.
 
 읽기 전용 DITA 맵에 대해 **레이아웃** 보기에 액세스할 수도 있습니다.
+
 >[!NOTE]
 >
 > 작성자, Source 및 레이아웃 모드에서 읽기 전용 파일에 조화롭게 액세스할 수 있도록 폴더 프로필 관리자는 *ui_config.json*&#x200B;을(를) 업데이트해야 합니다.
