@@ -1,13 +1,11 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides 5.2.0 릴리스에 대한 업그레이드 지침
 description: 호환성 매트릭스와 Adobe Experience Manager Guides 5.2.0 릴리스로 업그레이드하는 방법에 대해 알아봅니다.
-source-git-commit: 575e8452f02626dab3d2bc6a040767a592588205
+source-git-commit: 40e70b86b070cb91a7bc18da595edd2f2f90d29b
 workflow-type: tm+mt
-source-wordcount: '859'
-ht-degree: 4%
-
+source-wordcount: '872'
+ht-degree: 3%
 ---
-
 # 5.2.0 릴리스에 대한 업그레이드 지침(2026년 5월)
 
 이 문서에서는 Adobe Experience Manager Guides 5.2.0 릴리스의 업그레이드 지침 및 호환성 매트릭스를 다룹니다.
@@ -37,7 +35,7 @@ Use the following resources when developing custom Java plugins or integrations 
 |---|---|---|----|
 | 5.2.0 (UUID) | 5.2.1 | [AEM Guides SDK API 5.2.1 ](https://central.sonatype.com/artifact/com.adobe.aem/aem-guides-sdk-api/5.2.1/overviewhttps://central.sonatype.com/artifact/com.adobe.aem/aem-guides-sdk-api/5.2.1/overview) | [Javadoc 5.2.1](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api/5.2.1/index.html) |
 
-For more details, view [Configure and use the API JAR from Maven Central repository](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/api-reference/introduction).
+For more details, view [Configure and use the API JAR from Maven Central repository](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/api-reference/introduction).
 
  -->
 
@@ -64,7 +62,7 @@ For more details, view [Configure and use the API JAR from Maven Central reposit
 
 | AEM Guides | AEM 버전 | 구성 요소 버전 | 사이트 버전 |
 |---|---|---| ---|
-| 5.2.0 UUID | 6.5 LTS | guides-components.all-1.4.1 | NA |
+| 5.2.0 UUID | 6.5 LTS | guides-components.all-1.4.1 | aemg-sites-template-1.3.0 |
 | 5.2.0 UUID | 6.5 | guides-components.all-1.4.0 | aemg-sites-template-1.3.0 |
 
 ## 사전 요구 사항
@@ -83,7 +81,7 @@ Experience Manager Guides 5.2.0 업그레이드 프로세스를 시작하기 전
 >
 > - **AEM 6.5 LTS의 경우**: Experience Manager Guides 5.2.0은 AEM 6.5 LTS 서비스 팩 2에서만 지원됩니다.
 > - **AEM 6.5**&#x200B;의 경우: Experience Manager Guides 5.2.0은 AEM 6.5 서비스 팩 24, 23 및 22에서만 지원됩니다.
-> - 현재 AEM 6.5를 사용 중이며 AEM 6.5 LTS로 이동할 계획이라면 Experience Manager Guides 5.2.0 업그레이드를 진행하기 전에 먼저 AEM 업그레이드를 완료해야 합니다. 자세한 내용은 [Adobe Experience Manager(AEM) 6.5 LTS로 업그레이드](https://experienceleague.adobe.com/ko/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)를 참조하십시오.
+> - 현재 AEM 6.5를 사용 중이며 AEM 6.5 LTS로 이동할 계획이라면 Experience Manager Guides 5.2.0 업그레이드를 진행하기 전에 먼저 AEM 업그레이드를 완료해야 합니다. 자세한 내용은 [Adobe Experience Manager(AEM) 6.5 LTS로 업그레이드](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)를 참조하십시오.
 
 Experience Manager Guides 버전 5.2.0으로 업그레이드하기 전에 다음 사항을 고려해야 합니다.
 
