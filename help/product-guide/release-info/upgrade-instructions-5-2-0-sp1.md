@@ -1,9 +1,9 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides 5.2.0 서비스 팩 1 릴리스의 업그레이드 지침
 description: 호환성 매트릭스와 Adobe Experience Manager Guides 5.2.0 서비스 팩 1 릴리스로 업그레이드하는 방법에 대해 알아봅니다.
-source-git-commit: 6841c373b75770e8691a2cac4d56aeb368b09480
+source-git-commit: 40e70b86b070cb91a7bc18da595edd2f2f90d29b
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '929'
 ht-degree: 3%
 ---
 # 5.2.0 서비스 팩 1 릴리스의 업그레이드 지침(2026년 9월)
@@ -60,7 +60,7 @@ ht-degree: 3%
 
 | AEM Guides | AEM 버전 | 구성 요소 버전 | 사이트 버전 |
 |---|---|---| ---|
-| 5.2.0 서비스 팩 1 UUID | 6.5 LTS | guides-components.all-1.4.1 | NA |
+| 5.2.0 서비스 팩 1 UUID | 6.5 LTS | guides-components.all-1.4.1 | aemg-sites-template-1.3.0 |
 | 5.2.0 서비스 팩 1 UUID | 6.5 | guides-components.all-1.4.0 | aemg-sites-template-1.3.0 |
 
 ## 사전 요구 사항

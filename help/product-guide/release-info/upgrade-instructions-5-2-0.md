@@ -1,13 +1,11 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides 5.2.0 릴리스에 대한 업그레이드 지침
 description: 호환성 매트릭스와 Adobe Experience Manager Guides 5.2.0 릴리스로 업그레이드하는 방법에 대해 알아봅니다.
-source-git-commit: 575e8452f02626dab3d2bc6a040767a592588205
+source-git-commit: 40e70b86b070cb91a7bc18da595edd2f2f90d29b
 workflow-type: tm+mt
-source-wordcount: '859'
-ht-degree: 4%
-
+source-wordcount: '872'
+ht-degree: 3%
 ---
-
 # 5.2.0 릴리스에 대한 업그레이드 지침(2026년 5월)
 
 이 문서에서는 Adobe Experience Manager Guides 5.2.0 릴리스의 업그레이드 지침 및 호환성 매트릭스를 다룹니다.
@@ -64,7 +62,7 @@ For more details, view [Configure and use the API JAR from Maven Central reposit
 
 | AEM Guides | AEM 버전 | 구성 요소 버전 | 사이트 버전 |
 |---|---|---| ---|
-| 5.2.0 UUID | 6.5 LTS | guides-components.all-1.4.1 | NA |
+| 5.2.0 UUID | 6.5 LTS | guides-components.all-1.4.1 | aemg-sites-template-1.3.0 |
 | 5.2.0 UUID | 6.5 | guides-components.all-1.4.0 | aemg-sites-template-1.3.0 |
 
 ## 사전 요구 사항
