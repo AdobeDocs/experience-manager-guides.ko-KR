@@ -39,10 +39,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 863a9c706ce3aa62aaa24bef7242019e1886f255
+source-git-commit: 82b02a0c27b9caeedc59f6508c5a36821ab1666e
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 5%
+source-wordcount: '441'
+ht-degree: 6%
 ---
 # Experience Manager Guides 설명서
 
@@ -215,12 +215,65 @@ Adobe Experience Manager Guides 2026.09.0 릴리스에서는 작성, 콘텐츠 �
 
 [새로운 기능 살펴보기](./release-info/whats-new-2026-09-0.md)
 
+## 빠른 링크
+
+>[!BEGINSHADEBOX]
+
+<table>
+<tr style="border: 0;">
+<td>
+
+![새로운 기능](../assets/whats-new-git-connector.svg)
+
+**AEM Guides의 새로운 기능**
+
+Experience Manager Guides 최신 릴리스의 새로운 기능에 대해 알아봅니다.
+
+[자세히 알아보기](../../help/product-guide/release-info/whats-new-2026-09-0.md)
+
+</td>
+<td>
+
+![릴리스 정보](../assets/whats-new-map-collection.svg)
+
+**릴리스 정보**
+
+Cloud 및 On-Premise 배포에 대한 최신 릴리스 정보와 제품 업데이트를 살펴보십시오.
+
+- AEM Guides Cloud 릴리스 | [릴리스 정보 보기](./release-info/latest-release-info-cs.md)
+- AEM Guides On-Premise 릴리스 | [릴리스 정보 보기](./release-info/latest-release-info.md)
+
+[릴리스 로드맵 보기](./release-info/aem-guides-releases-roadmap.md)
+
+</td>
+<td>
+
+![학습 및 지원](../assets/whats-new-delegate-review.svg)
+
+**학습 및 지원**
+
+유용한 리소스, 설명서 및 지원에 액세스하여 플랫폼을 최대한 활용할 수 있습니다.
+
+* [GitHub 저장소](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [지원](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [비디오 자습서](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+
+[커뮤니티에서 상호 작용](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11)
+
+</td>
+</tr>
+</table>
+
+>[!ENDSHADEBOX]
+
+
+
 
 ## 추가 리소스
 
 * [Cloud Service 릴리스 노트](./release-info/latest-release-info-cs.md)
 * [온-프레미스용 릴리스 정보](./release-info/latest-release-info.md)
-* [AEM Guides 커뮤니티](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=ko){target="_blank"}
-* [GitHub 저장소](https://github.com/AdobeDocs/experience-manager-guides.ko-KR){target="_blank"}
-* [지원](https://experienceleague.adobe.com/support/v2/en/?lang=ko){target="_blank"}
-* [비디오 자습서](https://experienceleague.adobe.com/ko/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [AEM Guides 커뮤니티](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
+* [GitHub 저장소](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [지원](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [비디오 자습서](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
