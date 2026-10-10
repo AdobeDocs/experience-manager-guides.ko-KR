@@ -247,7 +247,7 @@ AEM은 지원되는 클라우드 스토리지 공급자를 통해 일괄 컨텐�
 
 - 예약된 수집: 사전 정의된 기간 동안 컨텐츠 수집이 발생하도록 예약할 수 있으므로 최종 사용자 및 진행 중인 작업에 영향을 최소화하거나 전혀 미치지 않습니다.
 
-자세한 내용은 [일괄 가져오기 사용](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/migration/bulk-import)을 참조하십시오.
+자세한 내용은 [일괄 가져오기 사용](https://experienceleague.adobe.com/ko/docs/experience-manager-learn/cloud-service/migration/bulk-import)을 참조하십시오.
 
 ## AEM 업로드를 사용한 일괄 수집
 

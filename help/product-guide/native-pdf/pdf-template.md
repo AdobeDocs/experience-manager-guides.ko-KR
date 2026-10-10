@@ -119,7 +119,7 @@ Assets UI에서 템플릿을 보려면 이 옵션을 선택합니다. 템플릿�
 
 사용자 지정 템플릿을 만든 후에는 PDF 출력 사전 설정의 페이지 레이아웃에서 해당 템플릿을 선택할 수 있습니다.
 
-[PDF 출력을 게시](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=en)하는 방법에 대해 알아봅니다.
+[PDF 출력을 게시](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=ko)하는 방법에 대해 알아봅니다.
 
 >[!NOTE]
 >

@@ -35,7 +35,7 @@ Adobe Experience Manager 설명서의 다음 항목은 사용자 관리 및 보�
 
 | 클라우드 서비스 | 온-프레미스 |
 |---|---|
-| [AEM 사용자, 그룹 및 권한](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html)<br>[사용자 관리 및 보안](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html) | [AEM의 사용자 및 그룹](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)<br>[AEM의 권한](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)<br>[사용자 및 그룹 관리](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)<br>[권한 관리](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions) |
+| [AEM 사용자, 그룹 및 권한](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html?lang=ko)<br>[사용자 관리 및 보안](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=ko) | [AEM의 사용자 및 그룹](https://helpx.adobe.com/kr/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)<br>[AEM의 권한](https://helpx.adobe.com/kr/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)<br>[사용자 및 그룹 관리](https://helpx.adobe.com/kr/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)<br>[권한 관리](https://helpx.adobe.com/kr/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions) |
 
 
 ## AEM Guides에서 만든 사용자 그룹 {#id181TF0K0MHT}

@@ -184,4 +184,4 @@ Experience Manager Guides 설정을 기반으로 커넥터를 구성하는 지�
 
 데이터 소스를 구성하면 커넥터가 편집기의 **데이터 소스 패널** 아래에 나열됩니다. 그런 다음 데이터 소스에 연결하고 주제에 콘텐츠 스니펫을 삽입할 수 있습니다. 자세한 내용은 [데이터 원본에서 콘텐츠 조각 삽입](../user-guide/web-editor-content-snippet.md)을 참조하세요.
 
-온-프레미스 설정에서만 사용자 지정 커넥터를 만들고 다른 데이터 소스와 함께 사용할 수 있습니다. [사용자 지정 커넥터를 구성](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/external-data-source/conf-custom-data-source-connector)하는 방법을 알아봅니다.
+온-프레미스 설정에서만 사용자 지정 커넥터를 만들고 다른 데이터 소스와 함께 사용할 수 있습니다. [사용자 지정 커넥터를 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/knowledge-base/kb-articles/external-data-source/conf-custom-data-source-connector)하는 방법을 알아봅니다.

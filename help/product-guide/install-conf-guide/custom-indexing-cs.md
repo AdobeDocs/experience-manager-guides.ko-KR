@@ -226,6 +226,6 @@ AEM as a Cloud Service에 사용자 지정 색인을 배포하는 방법에 대�
 
 - [AEM as a Cloud Service 색인화 설명서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/operations/indexing)
 - [Apache Jackrabbit Oak 색인화 안내서](https://jackrabbit.apache.org/oak/docs/query/indexing.html)
-- [AEM Guides 설명서](https://experienceleague.adobe.com/en/docs/experience-manager-guides)
+- [AEM Guides 설명서](https://experienceleague.adobe.com/ko/docs/experience-manager-guides)
 - [Cloud Manager 설명서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager)
 

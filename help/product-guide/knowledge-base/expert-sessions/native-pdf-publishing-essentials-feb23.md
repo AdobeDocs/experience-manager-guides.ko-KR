@@ -67,11 +67,11 @@ AEM Guides에는 PDF 형식으로 컨텐츠를 만들고, 개발하고, 게시�
 
 ## 관련 리소스
 
-- **기능 비디오** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
+- **기능 비디오** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=ko)
 
-- **사용 안내서** - [기본 PDF 게시](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/map-management-publishing/output-gen/output-presets-aemg/pdf-preset/native-pdf-web-editor)
+- **사용 안내서** - [기본 PDF 게시](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/user-guide/map-management-publishing/output-gen/output-presets-aemg/pdf-preset/native-pdf-web-editor)
 
-- **커뮤니티 포럼** - Experience League에서 세션별 커뮤니티 상호 작용을 보려면 [AEM Guides 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)을 방문하십시오.
+- **커뮤니티 포럼** - Experience League에서 세션별 커뮤니티 상호 작용을 보려면 [AEM Guides 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=ko)을 방문하십시오.
 
 >[!NOTE]
 >

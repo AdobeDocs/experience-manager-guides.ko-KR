@@ -61,7 +61,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
-> 현재 AEM 6.5를 사용 중이며 AEM 6.5 LTS로 이동할 계획이라면 Experience Manager Guides 5.2.0 업그레이드를 진행하기 전에 먼저 AEM 업그레이드를 완료해야 합니다. 자세한 내용은 [Adobe Experience Manager(AEM) 6.5 LTS로 업그레이드](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)를 참조하십시오.
+> 현재 AEM 6.5를 사용 중이며 AEM 6.5 LTS로 이동할 계획이라면 Experience Manager Guides 5.2.0 업그레이드를 진행하기 전에 먼저 AEM 업그레이드를 완료해야 합니다. 자세한 내용은 [Adobe Experience Manager(AEM) 6.5 LTS로 업그레이드](https://experienceleague.adobe.com/ko/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)를 참조하십시오.
 
 **사전 요구 사항**
 
@@ -89,7 +89,7 @@ Experience Manager Guides 5.2.0 업그레이드 프로세스를 시작하기 전
 
 >[!IMPORTANT]
 >
-> 현재 AEM 6.5를 사용 중이며 AEM 6.5 LTS로 이동할 계획이라면 Experience Manager Guides 5.1.0 업그레이드를 진행하기 전에 먼저 AEM 업그레이드를 완료해야 합니다. 자세한 내용은 [Adobe Experience Manager(AEM) 6.5 LTS로 업그레이드](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)를 참조하십시오.
+> 현재 AEM 6.5를 사용 중이며 AEM 6.5 LTS로 이동할 계획이라면 Experience Manager Guides 5.1.0 업그레이드를 진행하기 전에 먼저 AEM 업그레이드를 완료해야 합니다. 자세한 내용은 [Adobe Experience Manager(AEM) 6.5 LTS로 업그레이드](https://experienceleague.adobe.com/ko/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)를 참조하십시오.
 
 **사전 요구 사항**
 
@@ -293,7 +293,7 @@ Experience Manager Guides에는 교차 맵(서로 다른 두 맵의 주제 간 �
 
 ### damAssetLucene를 다시 인덱싱하는 절차
 
-AEM Guides이 포함된 damAssetLucene에 대한 색인 정의가 업데이트되었습니다. 필요한 버전으로 업그레이드한 후 damAssetLucene를 다시 인덱싱하려면 [이 문서](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460)를 참조하십시오.
+AEM Guides이 포함된 damAssetLucene에 대한 색인 정의가 업데이트되었습니다. 필요한 버전으로 업그레이드한 후 damAssetLucene를 다시 인덱싱하려면 [이 문서](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-16460)를 참조하십시오.
 
 >[!NOTE]
 >
