@@ -5,29 +5,41 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 9a9ae44f-8fed-4a4e-812c-451bcf138d0a
-TQID: https://experienceleague.adobe.com/QwfgJH1sqiJKtM3UfYDne0eOCS-y6-yoBZxSCED4umQ
+TQID: 'https://experienceleague.adobe.com/QwfgJH1sqiJKtM3UfYDne0eOCS-y6-yoBZxSCED4umQ'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Troubleshooting
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 2755
+source-wordcount: '2766'
 ht-degree: 0%
-
 ---
-
 # 웹 편집기의 AEM Sites 사전 설정
 
 
@@ -49,7 +61,7 @@ Experience Manager Guides은 AEM Sites을 만들기 위한 사전 정의된 템�
 1. **새 출력 사전 설정** 대화 상자의 **유형** 드롭다운에서 **AEM Sites**&#x200B;을(를) 선택합니다.
 1. **새 출력 사전 설정** 대화 상자에서 **기존 구성 요소 매핑 사용** 옵션을 선택 취소합니다.
 
-![새 &#x200B;](images/new-aem-sites-dialog-box.png)
+![새 ](images/new-aem-sites-dialog-box.png)
 
 
 
@@ -58,8 +70,8 @@ Experience Manager Guides은 AEM Sites을 만들기 위한 사전 정의된 템�
 >[!NOTE]
 >
 >Experience Manager Guides에 대한 AEM Sites 사전 설정을 구성하기 전에 관리자가 템플릿을 사용하여 AEM Sites 구조를 만들어야 합니다.
->- **온-프레미스 소프트웨어**: 온-프레미스 소프트웨어용 [AEM Sites 템플릿을 다운로드하고 설치](/help/product-guide/install-guide/download-install-aem-sites-templates.md)하는 방법에 대해 자세히 알아보세요.
->- **Cloud Service**: Cloud Service용 [AEM Sites 템플릿을 다운로드하고 설치](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md)하는 방법에 대해 자세히 알아보세요.
+- **온-프레미스 소프트웨어**: 온-프레미스 소프트웨어용 [AEM Sites 템플릿을 다운로드하고 설치](/help/product-guide/install-guide/download-install-aem-sites-templates.md)하는 방법에 대해 자세히 알아보세요.
+- **Cloud Service**: Cloud Service용 [AEM Sites 템플릿을 다운로드하고 설치](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md)하는 방법에 대해 자세히 알아보세요.
 
 
 
@@ -91,11 +103,11 @@ Experience Manager Guides은 AEM Sites을 만들기 위한 사전 정의된 템�
 - 게시 경로
 - 주제 페이지 템플릿
 - 다음을 기반으로 페이지 이름 생성
-   - 항목 파일 이름
-   - 주제 제목
+  - 항목 파일 이름
+  - 주제 제목
 - 이전에 생성된 페이지 정리
-   - 맵에서 제거된 주제에 대해 이전에 생성된 페이지 삭제
-   - 이 경로에서 다른 소스에서 만든 모든 페이지를 삭제:
+  - 맵에서 제거된 주제에 대해 이전에 생성된 페이지 삭제
+  - 이 경로에서 다른 소스에서 만든 모든 페이지를 삭제:
 - 사후 생성 워크플로
 
 
@@ -108,8 +120,8 @@ Experience Manager Guides은 AEM Sites을 만들기 위한 사전 정의된 템�
 - 조건 필터링
 - 추가 DITA-OT 명령줄 인수
 - 메타데이터
-   - 파일(Assets) 속성
-   - 맵 속성을 대체 항목으로 사용
+  - 파일(Assets) 속성
+  - 맵 속성을 대체 항목으로 사용
 
 
 자세한 내용은 [AEM Sites 구성](#aem_sites_config)을 참조하세요.
@@ -208,7 +220,7 @@ Experience Manager Guides에서는 `peer @scope`을(를) 사용하여 주제 참
    - 맵 대시보드에서 만든 사전 설정용. 맵(Map) 대시보드 툴팁이 나타납니다.
    - OOTB 사전 설정의 경우 대시보드 매핑 도구 설명이 표시됩니다.
    - 전역 사전 설정의 경우 이 전역 사전 설정의 로컬 복사본을 만들어 교차 맵 참조를 설정합니다.
-웹 편집기의 AEM Sites 사전 설정을 사용하려면 새 사전 설정을 만들거나 기존 사전 설정을 복제하십시오.
+     웹 편집기의 AEM Sites 사전 설정을 사용하려면 새 사전 설정을 만들거나 기존 사전 설정을 복제하십시오.
 
 1. **교차 맵 참조** 탭을 엽니다.
 
@@ -224,7 +236,7 @@ Experience Manager Guides에서는 `peer @scope`을(를) 사용하여 주제 참
 
    ![교차 맵 참조](images/aem-sites-cross-map-references.png)
 
-1. 맵에서 각 종속 파일의 가장 최근에 게시된 출력을 사용하려면 모든 종속 항목에 대해 **가장 최근에 생성된 게시 컨텍스트 사용**&#x200B;을 선택합니다.
+1. 맵에서 각 종속 파일의 가장 최근에 게시된 출력을 사용하려면 모든 종속 항목에 대해 **가장 최근에 생성된 게시 컨텍스트 사용**을 선택합니다.
 연결된 항목이 들어 있는 맵을 게시하기 전에 상위 맵으로 선택한 맵을 게시해야 합니다. 연결된 주제가 있는 맵이 게시되지 않으면 해당 링크는 AEM Sites 출력에 하이퍼링크 대신 일반 텍스트로 표시됩니다.
 연결된 주제에 대해 동일한 유형의 AEM Sites 사전 설정을 선택해야 합니다. 예를 들어 현재 AEM Sites 사전 설정이 기존 구성 요소 매핑을 사용하는 경우 연결된 주제의 유사한 AEM Sites 사전 설정을 선택합니다.
 1. 상위 맵 드롭다운 목록에서 현재 맵의 출력을 연결할 출력이 있는 맵 파일을 선택합니다.

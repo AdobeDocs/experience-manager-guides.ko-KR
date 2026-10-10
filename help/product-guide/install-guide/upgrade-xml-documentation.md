@@ -5,30 +5,46 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/ga5xY7Qjubm-GcHwxt6QWbLU5MZ-VXTD3ML2pHFBOIE
+TQID: 'https://experienceleague.adobe.com/ga5xY7Qjubm-GcHwxt6QWbLU5MZ-VXTD3ML2pHFBOIE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
   - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+    internal-label: APIs
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: cdab8659-8d50-4417-b6fd-762f347c13ee
+    internal-label: Report generation
+  - id: e557051c-ff02-4ff8-9421-cf452af0edd5
+    internal-label: Installation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Security
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 9214
+source-wordcount: '9271'
 ht-degree: 1%
-
 ---
-
 # Adobe Experience Manager Guides 업그레이드 {#id224MBE0M0XA}
 
 >[!NOTE]
@@ -43,7 +59,7 @@ ht-degree: 1%
 - 버전 4.3.x, 4.2, 4.2.1(핫픽스 4.2.1.3), 4.1 또는 4.1.x를 사용하는 경우 버전 5.0.0으로 업그레이드하기 전에 버전 4.4로 업그레이드해야 합니다.
 - 버전 4.0을 사용 중인 경우 버전 4.3.x로 업그레이드하기 전에 버전 4.2로 업그레이드해야 합니다.
 - 버전 3.8.5를 사용하는 경우 버전 4.2로 업그레이드하기 전에 버전 4.0으로 업그레이드해야 합니다.
-- 3.8.5 이전 버전을 사용하는 경우 [Experience Manager Guides 도움말 PDF 보관](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/archive.html)에 있는 제품별 설치 안내서의 Adobe Experience Manager Guides 업그레이드 섹션을 참조하십시오.
+- 3.8.5 이전 버전을 사용하는 경우 [Experience Manager Guides 도움말 PDF 보관](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)에 있는 제품별 설치 안내서의 Adobe Experience Manager Guides 업그레이드 섹션을 참조하십시오.
 
 
 >[!NOTE]
@@ -76,11 +92,11 @@ Experience Manager Guides 버전 3.8.5를 사용하는 경우 Experience Manager
 
 >[!NOTE]
 >
-> 이 업그레이드 프로세스는 버전 3.8.5에서 버전 4.0으로만 적용할 수 있습니다. 버전 3.4 이상에서 3.8.5로 업그레이드하는 절차는 [Experience Manager Guides 도움말 PDF 보관](https://helpx.adobe.com/kr/xml-documentation-for-experience-manager/archive.html)에 있는 제품별 설치 안내서의 *Adobe Experience Manager Guides 업그레이드* 섹션을 참조하십시오.
+> 이 업그레이드 프로세스는 버전 3.8.5에서 버전 4.0으로만 적용할 수 있습니다. 버전 3.4 이상에서 3.8.5로 업그레이드하는 절차는 [Experience Manager Guides 도움말 PDF 보관](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)에 있는 제품별 설치 안내서의 *Adobe Experience Manager Guides 업그레이드* 섹션을 참조하십시오.
 
 
 
-**&#x200B;**&#x200B;사전 요구 사항&#x200B;**&#x200B;**
+****사전 요구 사항****
 
 Experience Manager Guides 업그레이드 프로세스를 시작하기 전에 다음을 확인하십시오.
 
@@ -134,7 +150,7 @@ Experience Manager Guides 업그레이드 프로세스를 시작하기 전에 �
 
    - UUID 버전의 소프트웨어를 사용하는 경우 &quot;4.0 UUID Release for XML Documentation solution for AEM 6.5&quot;를 검색합니다.
    - 비 UUID 버전의 소프트웨어를 사용하는 경우 &quot;4.0 Non-UUID Release for XML Documentation solution for AEM 6.5&quot;를 검색합니다.
-CRX 패키지 관리자를 사용하여 기존 AEM 서버 인스턴스에 패키지를 업로드하고 설치합니다.
+     CRX 패키지 관리자를 사용하여 기존 AEM 서버 인스턴스에 패키지를 업로드하고 설치합니다.
 
    >[!NOTE]
    >
@@ -153,7 +169,7 @@ CRX 패키지 관리자를 사용하여 기존 AEM 서버 인스턴스에 패키
 
 버전 4.0, 4.1 또는 4.1.x를 사용하는 경우 버전 4.2로 바로 업그레이드할 수 있습니다.
 
-**&#x200B;**&#x200B;사전 요구 사항&#x200B;**&#x200B;**
+****사전 요구 사항****
 
 Experience Manager Guides 4.2 업그레이드 프로세스를 시작하기 전에 다음을 확인하십시오.
 
@@ -287,7 +303,7 @@ Experience Manager Guides을 설치한 후 새로 설치한 버전에서 설정�
 1. 노드 아래에 발췌한 이름의 새 노드를 추가합니다.
 
    `/oak:index/damAssetLucene/indexRules/dam:Asset/properties`
-를 누르고 노드에서 다음 속성을 설정합니다.
+   를 누르고 노드에서 다음 속성을 설정합니다.
 
    ```
    name - rep:excerpt
@@ -329,7 +345,7 @@ Experience Manager Guides을 설치한 후 새로 설치한 버전에서 설정�
 >
 >사후 처리 및 인덱싱에는 몇 시간이 걸릴 수 있습니다. 사용량이 적은 시간 동안 업그레이드 프로세스를 시작하는 것이 좋습니다.
 
-**&#x200B;**&#x200B;사전 요구 사항&#x200B;**&#x200B;**
+****사전 요구 사항****
 
 Experience Manager Guides 4.2.1 업그레이드 프로세스를 시작하기 전에 다음을 확인하십시오.
 
@@ -506,7 +522,7 @@ Experience Manager Guides을 설치한 후 새로 설치한 버전에서 설정�
 >
 >사후 처리 및 인덱싱에는 몇 시간이 걸릴 수 있습니다. 사용량이 적은 시간 동안 업그레이드 프로세스를 시작하는 것이 좋습니다.
 
-**&#x200B;**&#x200B;사전 요구 사항&#x200B;**&#x200B;**
+****사전 요구 사항****
 
 Experience Manager Guides 4.3.0 업그레이드 프로세스를 시작하기 전에 다음을 확인하십시오.
 
@@ -564,7 +580,7 @@ Experience Manager Guides을 설치한 후 새로 설치한 버전에서 설정�
 >
 >사후 처리 및 인덱싱에는 몇 시간이 걸릴 수 있습니다. 사용량이 적은 시간 동안 업그레이드 프로세스를 시작하는 것이 좋습니다.
 
-**&#x200B;**&#x200B;사전 요구 사항&#x200B;**&#x200B;**
+****사전 요구 사항****
 
 Experience Manager Guides 4.3.1 업그레이드 프로세스를 시작하기 전에 다음을 확인하십시오.
 
@@ -805,7 +821,7 @@ Experience Manager Guides을 설치한 후 새로 설치한 버전에서 설정�
 >
 >사후 처리 및 인덱싱에는 몇 시간이 걸릴 수 있습니다. 사용량이 적은 시간 동안 업그레이드 프로세스를 시작하는 것이 좋습니다.
 
-**&#x200B;**&#x200B;사전 요구 사항&#x200B;**&#x200B;**
+****사전 요구 사항****
 
 Experience Manager Guides 4.4.0 업그레이드 프로세스를 시작하기 전에 다음을 확인하십시오.
 
@@ -998,7 +1014,7 @@ Experience Manager Guides에는 교차 맵(서로 다른 두 맵의 주제 간 �
 이 업그레이드 중에 `'order'` 값이 1000에서 50으로 변경되었으므로 기존 사용자 지정 재작성기가 있는 경우 `'fmdita-rewriter'`과(와) 병합해야 합니다.
 
 
-**상위 항목:**&#x200B;[&#x200B;다운로드 및 설치](download-install.md)
+**상위 항목:**[&#x200B;다운로드 및 설치](download-install.md)
 
 
 ## 버전 4.6.0으로 업그레이드
@@ -1013,7 +1029,7 @@ Experience Manager Guides에는 교차 맵(서로 다른 두 맵의 주제 간 �
 >
 > 사후 처리 및 인덱싱에는 몇 시간이 걸릴 수 있습니다. 사용량이 적은 시간 동안 업그레이드 프로세스를 시작하는 것이 좋습니다.
 
-**&#x200B;**&#x200B;사전 요구 사항&#x200B;**&#x200B;**
+****사전 요구 사항****
 
 Experience Manager Guides 4.6.0 업그레이드 프로세스를 시작하기 전에 다음을 확인하십시오.
 
@@ -1168,7 +1184,7 @@ Experience Manager Guides에는 교차 맵(서로 다른 두 맵의 주제 간 �
 >
 > 사후 처리 및 인덱싱에는 몇 시간이 걸릴 수 있습니다. 사용량이 적은 시간 동안 업그레이드 프로세스를 시작하는 것이 좋습니다.
 
-**&#x200B;**&#x200B;사전 요구 사항&#x200B;**&#x200B;**
+****사전 요구 사항****
 
 Experience Manager Guides 5.0.0 업그레이드 프로세스를 시작하기 전에 다음을 확인하십시오.
 
@@ -1316,7 +1332,7 @@ Experience Manager Guides에는 교차 맵(서로 다른 두 맵의 주제 간 �
 
 ## damAssetLucene를 다시 인덱싱하는 절차
 
-안내서가 있는 damAssetLucene에 대한 색인 정의가 업데이트되었습니다. 5.0.0 버전으로 업그레이드한 후 damAssetLucene을 다시 인덱싱하려면 [이 문서](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-16460)를 참조하십시오.
+안내서가 있는 damAssetLucene에 대한 색인 정의가 업데이트되었습니다. 5.0.0 버전으로 업그레이드한 후 damAssetLucene을 다시 인덱싱하려면 [이 문서](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460)를 참조하십시오.
 
 >[!NOTE]
 >
@@ -1326,7 +1342,7 @@ Experience Manager Guides에는 교차 맵(서로 다른 두 맵의 주제 간 �
 
 >[!IMPORTANT]
 >
-> 현재 AEM 6.5를 사용 중이며 AEM 6.5 LTS로 이동할 계획이라면 Experience Manager Guides 5.1.0 업그레이드를 진행하기 전에 먼저 AEM 업그레이드를 완료해야 합니다. 자세한 내용은 [Adobe Experience Manager(AEM) 6.5 LTS로 업그레이드](https://experienceleague.adobe.com/ko/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)를 참조하십시오.
+> 현재 AEM 6.5를 사용 중이며 AEM 6.5 LTS로 이동할 계획이라면 Experience Manager Guides 5.1.0 업그레이드를 진행하기 전에 먼저 AEM 업그레이드를 완료해야 합니다. 자세한 내용은 [Adobe Experience Manager(AEM) 6.5 LTS로 업그레이드](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)를 참조하십시오.
 
 **사전 요구 사항**
 
@@ -1483,7 +1499,7 @@ Experience Manager Guides에는 교차 맵(서로 다른 두 맵의 주제 간 �
 
 ## damAssetLucene를 다시 인덱싱하는 절차
 
-안내서가 있는 damAssetLucene에 대한 색인 정의가 업데이트되었습니다. 5.1.0 버전으로 업그레이드한 후 damAssetLucene을 다시 인덱싱하려면 [이 문서](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-16460)를 참조하십시오.
+안내서가 있는 damAssetLucene에 대한 색인 정의가 업데이트되었습니다. 5.1.0 버전으로 업그레이드한 후 damAssetLucene을 다시 인덱싱하려면 [이 문서](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460)를 참조하십시오.
 
 >[!NOTE]
 >

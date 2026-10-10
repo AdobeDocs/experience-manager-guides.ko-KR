@@ -4,25 +4,34 @@ description: 맵 콘솔에서 문서를 한 개 이상 게시하는 방법을 �
 exl-id: d89ce69d-8d4c-4265-bfca-60763f561afd
 feature: Publishing
 role: User
-TQID: https://experienceleague.adobe.com/ZoHALUOHRMDqjz0JjR4ZQFXtYju6LQOdy1nwuzwvw5E
+TQID: 'https://experienceleague.adobe.com/ZoHALUOHRMDqjz0JjR4ZQFXtYju6LQOdy1nwuzwvw5E'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 346
+source-wordcount: '346'
 ht-degree: 0%
-
 ---
-
 # 기술 자료 출력 생성 {#id218CL05J0M1}
 
 Adobe Experience Manager Guides에는 사용자가 하나 이상의 기술 자료 문서를 동시에 게시할 수 있는 문서 기반 게시 기능이 포함되어 있습니다.
@@ -43,7 +52,7 @@ DITA 맵의 일부 주제에 대해서만 콘텐츠를 업데이트한 경우 �
 
 1. **게시할 파일 확인** 프롬프트에서 게시할 파일을 선택하고 **게시**&#x200B;를 선택하여 확인합니다.
 
-   ![새 &#x200B;](images/knowledge-base-confirm-files-for-publishing.png)
+   ![새 ](images/knowledge-base-confirm-files-for-publishing.png)
 
    출력 생성 프로세스의 상태를 볼 수 있습니다. **주제** 열에는 출력이 생성되는 주제가 나열되며 **상태** 열에는 각 주제의 게시 상태가 표시됩니다.
 
@@ -58,4 +67,4 @@ DITA 맵의 일부 주제에 대해서만 콘텐츠를 업데이트한 경우 �
    > [옵션] 메뉴에서 기존 출력 사전 설정의 이름을 바꾸거나, 복제하거나, 삭제할 수도 있습니다.
 
 
-**상위 항목:**&#x200B;[&#x200B;편집기 작업](web-editor.md)
+**상위 항목:**[&#x200B;편집기 작업](web-editor.md)

@@ -5,23 +5,29 @@ exl-id: 876dfc77-078f-4341-b99d-02a453d2e065
 feature: Filename Configuration
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/STMaIE3mkqhAwXB7dz-3pmROSQjqPO5EVC9e2cC0nlE
+TQID: 'https://experienceleague.adobe.com/STMaIE3mkqhAwXB7dz-3pmROSQjqPO5EVC9e2cC0nlE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ccd46b93-df7f-4458-ba4c-90a3562d9ab0
+    internal-label: Filename configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 397
+source-wordcount: '397'
 ht-degree: 0%
-
 ---
-
 # 올바른 파일 이름 문자에 대한 Regx 구성 {#id214BD0550E8}
 
 AEM Guides 3.8 릴리스부터 관리자는 파일 이름에 사용할 수 있는 유효한 특수 문자 목록을 정의할 수 있습니다. 이전 릴리스에서는 사용자가 `@`, `$`, `>` 등의 특수 문자가 포함된 파일 이름을 정의할 수 있었습니다. 이러한 특수 문자로 인해 DITA 맵 대시보드에서 주제를 열거나 목차에서 주제의 링크를 클릭하는 동안 문제가 발생했습니다. URL의 특수 문자로 인해 페이지가 열리지 않는 경우가 많습니다.
@@ -44,7 +50,7 @@ AEM Guides 3.8 릴리스부터 관리자는 파일 이름에 사용할 수 있�
 
 1. *com.adobe.fmdita.config.ConfigManager* 번들을 검색하고 클릭합니다.
 
-1. **Regex for Valid Characters** 속성에서 속성이 \[-a-zA-Z0-9\_\] (으)로 설정되어 있는지 확인하십시오. 이 목록에 문자를 더 추가할 수 있지만 기본 문자는 이러한 것이고 목록은 하이픈 &quot;-&quot;로 시작해야 합니다.
+1. **Regex for Valid Characters** 속성에서 속성이 \[-a-zA-Z0-9\_\](으)로 설정되어 있는지 확인하십시오. 이 목록에 문자를 더 추가할 수 있지만 기본 문자는 이러한 것이고 목록은 하이픈 &quot;-&quot;로 시작해야 합니다.
 
    >[!NOTE]
    >
@@ -57,4 +63,4 @@ AEM Guides 3.8 릴리스부터 관리자는 파일 이름에 사용할 수 있�
 >
 > 유효한 파일 이름 문자 목록과 유사하게 AEM 사이트 출력에 유효한 파일 이름 문자 목록을 지정할 수도 있습니다. 자세한 내용은 [AEM 사이트 출력에 대해 올바른 파일 이름 구성](conf-file-names-valid-regx-aem-site-output.md#)을 참조하십시오.
 
-**상위 항목:**&#x200B;[&#x200B;파일 이름 구성](conf-file-names.md)
+**상위 항목:**[&#x200B;파일 이름 구성](conf-file-names.md)

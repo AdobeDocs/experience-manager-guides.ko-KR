@@ -5,19 +5,23 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: 371d89b8-fe05-4477-9bf8-cc47c0899108
-TQID: https://experienceleague.adobe.com/q07HdBMHuEyjdQ12idI4-PuBol-NpCWXTsOuZgcAhps
+TQID: 'https://experienceleague.adobe.com/q07HdBMHuEyjdQ12idI4-PuBol-NpCWXTsOuZgcAhps'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 72792fc7-6fd6-5775-a2c2-99253bb26dc2
+    internal-label: Reviewing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 2362
+source-wordcount: '2362'
 ht-degree: 0%
-
 ---
-
 # 주제 검토 {#id2056B0W0FBI}
 
 검토자인 경우 검토 주제에 대한 링크가 포함된 검토 요청 이메일을 받게 됩니다. 링크를 클릭하면 공유 주제에 대한 피드백을 추가할 수 있는 검토 페이지로 이동합니다.
@@ -256,4 +260,4 @@ ht-degree: 0%
 
 필터를 제거하고 모든 주석을 보려면 **필터 유형** 대화 상자에서 모든 필터를 선택 취소하고 **적용**&#x200B;을 클릭하십시오.
 
-**상위 항목:**&#x200B;[&#x200B;항목 또는 맵 검토](review.md)
+**상위 항목:**[&#x200B;항목 또는 맵 검토](review.md)

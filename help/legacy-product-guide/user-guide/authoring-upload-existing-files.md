@@ -5,41 +5,46 @@ feature: Content Management
 role: User
 hide: true
 exl-id: fcb2cc43-6a36-42f2-a695-7a50ae1031a0
-TQID: https://experienceleague.adobe.com/Kcxzs3D9Vcp7hhgttmCx7jdetS8NWR8YTP85UY0DlJU
+TQID: 'https://experienceleague.adobe.com/Kcxzs3D9Vcp7hhgttmCx7jdetS8NWR8YTP85UY0DlJU'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: 2afda568-c433-5cad-ab97-19b8847286b0
+    internal-label: Content Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 451
+source-wordcount: '451'
 ht-degree: 0%
-
 ---
-
 # 파일 업로드 {#id176FF000JUI}
 
 AEM Guides에 사용하려는 기존 DITA 콘텐츠 저장소가 있을 수 있습니다. 이러한 기존 콘텐츠의 경우 다음 접근 방식 중 하나를 사용하여 콘텐츠를 AEM 저장소에 일괄 업로드할 수 있습니다.
 
 >[!IMPORTANT]
 >
-> AEM에서 지원되는 콘텐츠 업로드 방법에 대한 자세한 내용은 [Adobe Experience Manager as a Cloud Service Assets에 디지털 에셋 추가](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=ko)를 참조하십시오.
+> AEM에서 지원되는 콘텐츠 업로드 방법에 대한 자세한 내용은 [Adobe Experience Manager as a Cloud Service Assets에 디지털 에셋 추가](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html)를 참조하십시오.
 
 ## Assets 콘솔 사용자 인터페이스
 
-데스크탑에서 컨텐츠를 선택하고 AEM 사용자 인터페이스 \(웹 브라우저\)를 대상 폴더로 드래그할 수 있습니다. 자세한 내용은 AEM 설명서에서 [자산 업로드](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=ko#upload-assets)를 참조하십시오.
+데스크탑에서 컨텐츠를 선택하고 AEM 사용자 인터페이스 \(웹 브라우저\)를 대상 폴더로 드래그할 수 있습니다. 자세한 내용은 AEM 설명서에서 [자산 업로드](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#upload-assets)를 참조하십시오.
 
 ## AEM 데스크탑 앱
 
-크리에이티브 전문가이고 로컬 데스크탑에서 자산을 관리하려는 경우 AEM 데스크탑 앱을 사용하십시오. 데스크탑 애플리케이션을 사용하여 이러한 에셋을 열고 편집할 수 있습니다. 버전을 유지 관리하고 다른 사용자와 파일을 공유할 수도 있습니다. 자세한 내용은 [AEM 데스크톱 앱](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html?lang=ko)을 참조하세요.
+크리에이티브 전문가이고 로컬 데스크탑에서 자산을 관리하려는 경우 AEM 데스크탑 앱을 사용하십시오. 데스크탑 애플리케이션을 사용하여 이러한 에셋을 열고 편집할 수 있습니다. 버전을 유지 관리하고 다른 사용자와 파일을 공유할 수도 있습니다. 자세한 내용은 [AEM 데스크톱 앱](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html)을 참조하세요.
 
 ## 일괄 에셋 수집기
 
-대규모 마이그레이션 및 경우에 따라 일괄 수집이 있는 경우 일괄 에셋 수집기 를 사용하여 콘텐츠를 업로드하십시오. 이 도구를 사용하면 Azure 또는 S3와 같이 지원되는 데이터 저장소에서 대량 콘텐츠를 업로드할 수 있습니다. 자세한 내용은 [일괄 에셋 수집기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=ko#asset-bulk-ingestor)를 참조하십시오.
+대규모 마이그레이션 및 경우에 따라 일괄 수집이 있는 경우 일괄 에셋 수집기 를 사용하여 콘텐츠를 업로드하십시오. 이 도구를 사용하면 Azure 또는 S3와 같이 지원되는 데이터 저장소에서 대량 콘텐츠를 업로드할 수 있습니다. 자세한 내용은 [일괄 에셋 수집기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=en#asset-bulk-ingestor)를 참조하십시오.
 
 ## 벌크 업로드에 FrameMaker 사용
 
@@ -57,4 +62,4 @@ FrameMaker에서 일괄 업로드 기능을 사용하는 방법에 대한 자세
 
 AEM 데스크탑 앱이나 자산 대량 수집기와 같은 도구를 사용하는 경우 중복 파일에서 수행할 작업은 AEM 서버의 설정에 의해 제어됩니다. 이 구성에 대해 알아보려면 시스템 관리자에게 문의하십시오.
 
-**상위 항목:**&#x200B;[&#x200B;콘텐츠 관리](authoring.md)
+**상위 항목:**[&#x200B;콘텐츠 관리](authoring.md)

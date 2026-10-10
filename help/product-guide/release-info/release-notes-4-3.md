@@ -4,28 +4,39 @@ description: 버그 수정 사항 및 Adobe Experience Manager Guides 4.3.0 릴�
 exl-id: 7fb568a0-0b88-4ea0-9b79-2625336348ff
 feature: Release Notes
 role: Leader
-TQID: https://experienceleague.adobe.com/tpIgdm6yEWAcTHYKOXC4d3xR6yTLpVF5M9BVxquyahw
+TQID: 'https://experienceleague.adobe.com/tpIgdm6yEWAcTHYKOXC4d3xR6yTLpVF5M9BVxquyahw'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+    internal-label: FrameMaker Publishing Server
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
+  - id: fc07eb3b-d7d7-4e9a-a558-c3099c2b6f7b
+    internal-label: Release notes
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1075
+source-wordcount: '1075'
 ht-degree: 4%
-
 ---
-
 # Adobe Experience Manager Guides 4.3.0 릴리스(2023년 7월)
 
 이 릴리스 노트에서는 업그레이드 지침, 호환성 매트릭스 및 Adobe Experience Manager Guides 버전 4.3.0(이후 *AEM Guides*)에서 해결된 문제를 다룹니다.
@@ -135,7 +146,7 @@ ht-degree: 4%
 - 기본 PDF | Xref가 Xref 레이블 대신 href 주제 제목의 콘텐츠를 인쇄하고 있습니다. (11322)
 - 기본 PDF | PDF 템플릿 설정을 저장할 수 없습니다. (10751)
 - 기본 PDF | 텍스트가 여러 xref를 포함할 때 열 너비를 넘어갑니다. (10876)
-- 기본 PDF | `<note>`&#x200B;`</note>` 요소가 해당 유형의 추가 스팬 제목을 생성하지 않습니다. (10549)
+- 기본 PDF | `<note>``</note>` 요소가 해당 유형의 추가 스팬 제목을 생성하지 않습니다. (10549)
 - JSON 출력 | JSON의 jcr:content 노드에 있는 `fmUuid` 속성이 JSON 내부의 &quot;id&quot;와 다릅니다. (11564)
 - JSON 출력 | 동일한 파일 이름을 가진 맵과 주제가 있으면 맵에 대한 JSON이 제거됩니다. (11524)
 
@@ -146,18 +157,18 @@ Adobe은 AEM Guides 4.3.0 릴리스에 대해 다음과 같은 알려진 문제�
 - 기본 템플릿에 정의된 일반 페이지 레이아웃이 기본 템플릿으로 적용되지 않습니다.
 
   해결 방법:
-일반 페이지 레이아웃을 앞면 및 뒷면 표지로 추가하면 모든 페이지에 대해 제공되기 시작합니다.
+  일반 페이지 레이아웃을 앞면 및 뒷면 표지로 추가하면 모든 페이지에 대해 제공되기 시작합니다.
 - AEM 서비스 팩 16 또는 17의 AEM 사이트 출력 페이지에서 검색하는 동안 사이트 검색에서 문제가 발생합니다.
 
   해결 방법:
 
-   1. `crx/de`에서 경로가 `/libs/foundation/components/search/search.jsp`인 파일 열기
-   1. 줄 번호 234를 다음 코드로 바꿉니다.
+  1. `crx/de`에서 경로가 `/libs/foundation/components/search/search.jsp`인 파일 열기
+  1. 줄 번호 234를 다음 코드로 바꿉니다.
 
-      ```
-      <a href="<c:url value="${hit.URL}" context="/"/>" onclick="trackSelectedResult(this, ${status.index + 1})"><%= xssAPI.filterHTML(((Search.Hit) pageContext.getAttribute("hit")).getTitle()) %></a>
-      
-      *(Add the missing closing anchor tag at the end).
-      ```
+     ```
+     <a href="<c:url value="${hit.URL}" context="/"/>" onclick="trackSelectedResult(this, ${status.index + 1})"><%= xssAPI.filterHTML(((Search.Hit) pageContext.getAttribute("hit")).getTitle()) %></a>
+     
+     *(Add the missing closing anchor tag at the end).
+     ```
 
-   1. 파일을 저장합니다.
+  1. 파일을 저장합니다.

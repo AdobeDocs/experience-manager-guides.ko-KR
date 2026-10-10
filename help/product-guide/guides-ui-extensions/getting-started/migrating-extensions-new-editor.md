@@ -4,13 +4,28 @@ description: Editor 2.0용 확장 프레임워크로의 마이그레이션에 �
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 75954eab3ac1738705fe2a7280973af39b9214df
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '2006'
 ht-degree: 3%
-
 ---
-
 
 # 확장 프레임워크를 편집기 2.0(새 편집기)으로 마이그레이션
 
@@ -54,7 +69,7 @@ guides.util      // bundled utility libs (lodash, async)
 guides.ready(cb) // fires once at app load (view system ready) — before any file is open
 ```
 
-`guides.editor.version`이(가) **현재 열려 있는 편집기**&#x200B;를 보고하므로
+`guides.editor.version`이(가) **현재 열려 있는 편집기**를 보고하므로
 파일이 실제로 열려 있습니다.
 
 | `guides.editor.version` | 의미 |
@@ -91,7 +106,7 @@ function onMenuClick() {
 
 ### Hello world: CSS 전용 강조 표시 플러그인
 
-가장 작은 유용한 확장 프로그램은 **CSS만**&#x200B;에 no-op ProseMirror 플러그인과 스타일을 제공합니다. 이
+가장 작은 유용한 확장 프로그램은 **CSS만**에 no-op ProseMirror 플러그인과 스타일을 제공합니다. 이
 편집기 내에서 노란색 배경이 있는 모든 `<note>` 요소를 강조 표시합니다.
 
 ```js
@@ -147,7 +162,7 @@ write*, *전역 작업*, *렌더링 전용* 또는 *CSS*.
   | 맵 뷰어 | `ditamap_viewer` / `map_view_options` |
   | 기준선 / 사전 설정 패널 | `baseline_panel_menu` / `preset_item_menu` |
 
-  이러한 표면을 타깃팅하는 항목은 새 편집기에 **변경 내용 없음**&#x200B;이 필요합니다. 해당 항목을 다음으로 이동하지 마십시오.
+  이러한 표면을 타깃팅하는 항목은 새 편집기에 **변경 내용 없음**이 필요합니다. 해당 항목을 다음으로 이동하지 마십시오.
   `markup_editor_menu`.
 
 ## API 대체 참조
@@ -355,7 +370,7 @@ const createXrefPlugin = () => {
 guides.ready(() => guides.editor.registerPlugin(createXrefPlugin));
 ```
 
-대화 상자 내부가 아닌 앱 로드 시(한 번) 플러그인을 등록하거나 반복적으로 레지스트리가 중복 제거되지 않습니다. `registerPlugin`은(는) 플러그 인 인스턴스가 아닌 **팩터리 함수만**&#x200B;을(를) 허용합니다.
+대화 상자 내부가 아닌 앱 로드 시(한 번) 플러그인을 등록하거나 반복적으로 레지스트리가 중복 제거되지 않습니다. `registerPlugin`은(는) 플러그 인 인스턴스가 아닌 **팩터리 함수만**을(를) 허용합니다.
 `guides.editor.prosemirror` 노출 횟수: `state`, `model`, `view`, `transform`, `commands`, `keymap`,
 `history`, `tables`, `dropcursor`, `collab`, `markdown`.
 

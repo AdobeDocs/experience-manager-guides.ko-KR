@@ -4,7 +4,7 @@ description: 기본 PDF 게시를 사용하고, PDF 출력 사전 설정을 만�
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
 feature: Publishing, Native PDF Output
 role: User
-TQID: https://experienceleague.adobe.com/GV3iYtBdFVrQwFjdvfqnfDIWPMugO3hFjS4FZqspG2M
+TQID: 'https://experienceleague.adobe.com/GV3iYtBdFVrQwFjdvfqnfDIWPMugO3hFjS4FZqspG2M'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -19,6 +19,8 @@ feature_v2:
     internal-label: Knowledge base
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
     internal-label: Configuration
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
     internal-label: Editor
@@ -30,6 +32,10 @@ subfeature_v2:
     internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
     internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
+  - id: c4e6b17e-c50c-59a1-a719-9c33ce69e5b6
+    internal-label: Native PDF Output
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -40,7 +46,7 @@ topic_v2:
     internal-label: Accessibility
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '4071'
 ht-degree: 1%
@@ -126,7 +132,7 @@ ht-degree: 1%
 
 * **XMP 파일 제공**
 
-  [XMP](https://www.adobe.com/kr/products/xmp.html)&#x200B;(Extensible Metadata Platform) 파일을 가져와서 메타데이터 필드를 직접 채울 수도 있습니다. 여기에서 샘플 XMP 파일을 다운로드할 수 있습니다.
+  [XMP](https://www.adobe.com/products/xmp.html)&#x200B;(Extensible Metadata Platform) 파일을 가져와서 메타데이터 필드를 직접 채울 수도 있습니다. 여기에서 샘플 XMP 파일을 다운로드할 수 있습니다.
 
   [다운로드](assets/SampleXMP.xmp)
 
@@ -256,7 +262,7 @@ ht-degree: 1%
 | **트랙 변경 내용 포함** | 간편한 검토 및 비교를 위해 생성된 PDF에서 추적된 변경 사항을 포함하려면 이 옵션을 선택합니다. |
 | **초안 댓글 포함** | 선택한 맵의 DITA 주제에 추가된 초안 주석을 생성된 PDF에 포함하려면 이 옵션을 선택합니다. <br> **참고**: 이 옵션만 활성화해도 출력에 초안 주석이 표시되지 않습니다. 또한 관리자는 맵에 사용된 출력 템플릿에서 초안 주석 스타일의 표시 속성을 표시 값(예: `block`, `inline-block`, `grid` 등)으로 설정해야 합니다. 자세한 내용은 [기본 PDF 출력에서 초안 설명 표시 또는 숨기기](../native-pdf/components-pdf-template.md#show-or-hide-draft-comments-in-native-pdf-output)를 참조하십시오. |
 | **임시 파일 유지** | 기본 PDF 출력을 생성하는 동안 생성된 임시 HTML 파일을 유지하려면 이 옵션을 선택합니다. 출력을 생성한 후 나중에 임시 파일을 다운로드할 수 있습니다. 다운로드한 파일에는 작성자 URL, 로컬 URL 및 게시 URL에 대한 정보를 제공하는 `system_config.xml` 파일도 포함됩니다. 이러한 URL은 AEM 외부화 설정에 구성되어 `system_config.xml` 파일에 반영됩니다. |
-| **PDF 적합성** | PDF이 준수되는지 확인하기 위해 저장하려는 표준입니다. 드롭다운에서 을(를) 선택하여 사용 가능한 PDF 표준 목록에서 을(를) 선택합니다. 지원되는 표준에 대한 자세한 내용은 [PDF 표준 정보](https://helpx.adobe.com/kr/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards)를 참조하십시오. |
+| **PDF 적합성** | PDF이 준수되는지 확인하기 위해 저장하려는 표준입니다. 드롭다운에서 을(를) 선택하여 사용 가능한 PDF 표준 목록에서 을(를) 선택합니다. 지원되는 표준에 대한 자세한 내용은 [PDF 표준 정보](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards)를 참조하십시오. |
 | **파일 속성** | 기본 PDF 게시로 전달할 메타데이터를 선택합니다. 드롭다운에 사용자 지정 및 기본 속성이 모두 나열됩니다. 예를 들어 `dc:description`, `dc:language`, `dc:title` 및 `docstate`은(는) 기본 속성이지만 `author`을(를) 사용자 지정 속성으로 가질 수 있습니다. 선택한 메타데이터 속성이 네이티브 PDF을 사용하여 생성된 PDF 파일에 전달됩니다. <br> 이 속성은 `/libs/fmdita/config/metadataList`에서 사용할 수 있는 `metadataList` 파일에서 선택됩니다. <br>이 파일은 `/apps/fmdita/config/metadataList`에 오버레이할 수 있습니다. |
 
 

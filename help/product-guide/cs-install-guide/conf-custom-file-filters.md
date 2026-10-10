@@ -5,27 +5,36 @@ exl-id: 1ef2cec8-2e77-40c1-9ed2-324048bf65fb
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/16wf6vZUb-0tknXb7LrHfHgViX-dTWRqRkQU4CIPCWM
+TQID: 'https://experienceleague.adobe.com/16wf6vZUb-0tknXb7LrHfHgViX-dTWRqRkQU4CIPCWM'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 375
+source-wordcount: '375'
 ht-degree: 0%
-
 ---
-
 # 파일 찾아보기 대화 상자에 대한 필터 구성 {#id20CIL7009GN}
 
 웹 편집기에서 작업하는 동안 파일 찾아보기 대화 상자를 사용하여 이미지, 참조 또는 키 참조와 같은 요소를 삽입해야 합니다. 기본 파일 찾아보기 대화 상자에는 파일 필터링 옵션이 없습니다. 필요한 파일에 쉽고 빠르게 액세스할 수 있는 필터를 직접 추가할 수 있습니다.
@@ -65,13 +74,13 @@ ht-degree: 0%
    위의 코드 스니펫에서 첫 번째 필터는 DITA 파일용입니다. 필터 정의는 다음 매개 변수를 사용합니다.
 
    제목
-: 필터의 표시 이름입니다. 이 제목은 파일 찾아보기 대화 상자에 필터링 옵션으로 나타납니다.
+   : 필터의 표시 이름입니다. 이 제목은 파일 찾아보기 대화 상자에 필터링 옵션으로 나타납니다.
 
    속성
-: 파일 메타데이터에서 일치하는 속성입니다. 예를 들어 속성에 `dita_class` 메타데이터가 있는 파일만 허용하려면 속성 필터에서 &quot; `jcr:content/metadata/dita_class`&quot;을(를) 값으로 사용합니다.
+   : 파일 메타데이터에서 일치하는 속성입니다. 예를 들어 속성에 `dita_class` 메타데이터가 있는 파일만 허용하려면 속성 필터에서 &quot; `jcr:content/metadata/dita_class`&quot;을(를) 값으로 사용합니다.
 
    작업
-: 속성 매개 변수에 지정된 값이 있는지 확인하려면 &quot; `exists`&quot;을(를) 지정하십시오.
+   : 속성 매개 변수에 지정된 값이 있는지 확인하려면 &quot; `exists`&quot;을(를) 지정하십시오.
 
    두 번째 필터는 이미지 파일에 대한 것입니다. 매개 변수는 `value` 매개 변수를 제외하고 첫 번째 필터와 유사합니다. `value` 매개 변수는 이미지 형식의 배열을 해당 값으로 사용합니다. 값 매개변수에 지정된 모든 파일 유형이 검색되어 파일 찾아보기 대화 상자에 표시되고 다른 모든 파일 유형은 무시됩니다.
 
@@ -82,4 +91,4 @@ ht-degree: 0%
    ![](assets/file-browse-custom-filters.png)
 
 
-**상위 항목:**&#x200B;[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)
+**상위 항목:**[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)

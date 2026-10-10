@@ -5,13 +5,28 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 0849544d-fa7b-4c66-b418-1ffcd1ca09df
-source-git-commit: 75954eab3ac1738705fe2a7280973af39b9214df
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+subfeature_v2:
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '3264'
+source-wordcount: '3276'
 ht-degree: 1%
-
 ---
-
 # 기존 AEM 사이트 출력 사용자 지정 {#id166TG0B30WR}
 
 AEM Guides은 다음 형식의 출력 만들기를 지원합니다.
@@ -98,7 +113,7 @@ Experience Manager Guides 설정을 기반으로 AEM 사이트 출력 생성에 
 >
 > 사용자 지정 디자인 템플릿 노드를 만든 후 AEM 사이트 출력 사전 설정에서 디자인 옵션을 업데이트하여 사용자 지정 디자인 템플릿 노드를 사용해야 합니다.
 
-자세한 내용은 [첫 번째 Adobe Experience Manager 웹 사이트 만들기](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=ko) 및 AEM에서 자체 웹 사이트 개발 [기본 사항](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=ko)을 참조하십시오.
+자세한 내용은 [첫 번째 Adobe Experience Manager 웹 사이트 만들기](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=en) 및 AEM에서 자체 웹 사이트 개발 [기본 사항](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=en)을 참조하십시오.
 
 ## AEM 사이트 출력 생성에 문서 제목 사용
 
@@ -213,7 +228,7 @@ Experience Manager Guides 설정을 기반으로 파일 이름 및 AEM 사이트
 
 1. *com.adobe.fmdita.common.SanitizeNodeNameImpl* 번들을 검색하고 클릭합니다.
 
-1. **AEM Sites에 게시하는 데 허용되지 않는 문자 집합** 속성에서 속성이 `<>`&#x200B;`@$`(으)로 설정되어 있는지 확인하십시오. 이 목록에 더 많은 특수 문자를 추가할 수 있지만 필수 특수 문자가 있어야 합니다.
+1. **AEM Sites에 게시하는 데 허용되지 않는 문자 집합** 속성에서 속성이 `<>``@$`(으)로 설정되어 있는지 확인하십시오. 이 목록에 더 많은 특수 문자를 추가할 수 있지만 필수 특수 문자가 있어야 합니다.
 
    >[!NOTE]
    >
@@ -366,7 +381,7 @@ AEM 사이트 출력에서 평면화할 노드를 지정하는 것과 마찬가�
 
 ## AEM 사이트 출력에서 삭제된 페이지에 대한 버전 관리 구성
 
-기존 출력 페이지 설정에 대해 **삭제 및**&#x200B;만들기&#x200B;**&#x200B;**&#x200B;옵션이 선택된 AEM 사이트 출력을 생성하면 삭제되는 페이지에 대한 버전이 만들어집니다. 삭제하기 전에 버전 생성을 중단하도록 시스템을 구성할 수 있습니다.
+기존 출력 페이지 설정에 대해 **삭제 및**&#x200B;만들기&#x200B;****옵션이 선택된 AEM 사이트 출력을 생성하면 삭제되는 페이지에 대한 버전이 만들어집니다. 삭제하기 전에 버전 생성을 중단하도록 시스템을 구성할 수 있습니다.
 
 Experience Manager Guides 설정에 따라 삭제되는 페이지의 버전 만들기를 중지하는 지침을 제공합니다. Cloud Service 또는 온프레미스.
 

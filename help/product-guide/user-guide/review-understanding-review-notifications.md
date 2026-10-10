@@ -4,22 +4,28 @@ description: 다양한 유형의 검토 알림과 Experience Manager Guides의 �
 feature: Reviewing
 role: User
 exl-id: dc452e7d-a317-4168-8015-9fa4a06666ea
-TQID: https://experienceleague.adobe.com/qM0Vx84EClSsT6ACLJxUmX5RsDl4n6QM5mSp-l5cGGs
+TQID: 'https://experienceleague.adobe.com/qM0Vx84EClSsT6ACLJxUmX5RsDl4n6QM5mSp-l5cGGs'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 72792fc7-6fd6-5775-a2c2-99253bb26dc2
+    internal-label: Reviewing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 7d0c757b647a2e6c5e563f0ed7db6a7225769033
+    internal-label: Accessibility
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 675
+source-wordcount: '675'
 ht-degree: 0%
-
 ---
-
 # 검토 알림 이해
 
 Experience Manager Guides은 구조화된 검토 작업 과정을 통해 작성자와 검토자 간의 협업을 간소화합니다. 이 워크플로의 일부로서, 알림은 검토 작업의 모든 참여자에게 변경 사항에 대한 알림 및 응답을 유지하는 데 중요한 역할을 합니다.
@@ -66,4 +72,4 @@ Experience Manager Guides은 구조화된 검토 작업 과정을 통해 작성�
 
 
 
-**상위 항목:**&#x200B;[&#x200B;검토 소개](review.md)
+**상위 항목:**[&#x200B;검토 소개](review.md)

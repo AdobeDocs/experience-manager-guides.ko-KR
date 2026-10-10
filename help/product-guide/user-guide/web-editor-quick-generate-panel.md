@@ -4,25 +4,36 @@ description: AEM Guides의 빠른 생성 패널을 사용합니다. 빠른 생�
 exl-id: 5de04980-91d7-4bbc-a4b7-9bfd60ccf3c7
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-TQID: https://experienceleague.adobe.com/goYyIBvM-PL5i3NHp0O-UGFyEz37y25U3ZRQEhF2UHI
+TQID: 'https://experienceleague.adobe.com/goYyIBvM-PL5i3NHp0O-UGFyEz37y25U3ZRQEhF2UHI'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 292
+source-wordcount: '292'
 ht-degree: 0%
-
 ---
-
 # 빠른 생성 패널을 사용하여 출력 생성 및 보기 {#id22AKE050F5L}
 
 >[!NOTE]
@@ -46,4 +57,4 @@ AEM Guides은 웹 편집기 내에 통합된 **빠른 생성** 패널을 제공�
 1. **생성**&#x200B;을 클릭하여 선택한 사전 설정에 대한 출력을 생성합니다. 출력 생성에 성공 메시지가 표시됩니다. 생성에 실패하면 오류 메시지가 표시됩니다. 오류 로그를 보고 생성 프로세스에서 발생한 오류의 세부 정보를 확인할 수도 있습니다.
 1. 사전 설정에 대해 생성된 출력을 보려면 특정 사전 설정의 **출력 보기** \(![](images/view-output-icon.svg)\) 아이콘을 클릭합니다.
 
-**상위 항목:**&#x200B;[&#x200B;웹 편집기에서 작업](web-editor.md)
+**상위 항목:**[&#x200B;웹 편집기에서 작업](web-editor.md)

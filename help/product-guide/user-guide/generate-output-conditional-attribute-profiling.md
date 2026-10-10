@@ -4,24 +4,32 @@ description: AEM Guides에서 조건부 속성을 만드는 방법을 알아봅�
 exl-id: 5ec7666e-df6b-4b0d-b6c2-cdc395fcccc5
 feature: Publishing
 role: User
-TQID: https://experienceleague.adobe.com/23vd2pqUR6yXPQvq5xxj31JxkoWgkQaqtKhu7l9XxOs
+TQID: 'https://experienceleague.adobe.com/23vd2pqUR6yXPQvq5xxj31JxkoWgkQaqtKhu7l9XxOs'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 479
+source-wordcount: '479'
 ht-degree: 0%
-
 ---
-
 # 조건부 속성 프로파일링 {#id1843I0HN0Y4}
 
 엔터프라이즈 수준에서는 표준 태그 지정 시스템을 갖추는 것이 매우 중요합니다. 태그나 조건부 특성은 저장소의 디지털 에셋과 연결할 수 있으므로 선택한 조건에 따라 출력을 게시하는 데 도움이 됩니다. 예를 들어 Windows 및 Mac 컨텐츠에 대한 조건부 속성을 만들 수 있습니다. 그런 다음 이러한 속성을 주제의 관련 콘텐츠에 추가합니다. 콘텐츠를 게시할 때 Windows 또는 Mac 전용 콘텐츠를 게시할지 여부를 선택할 수 있습니다.
@@ -69,4 +77,4 @@ Adobe Experience Manager Guides을 사용하면 관련 DITA 속성을 사용하�
 
 ![](images/properties-tab.png){width="350"}
 
-**상위 항목:**&#x200B;[&#x200B;출력 생성](generate-output.md)
+**상위 항목:**[&#x200B;출력 생성](generate-output.md)

@@ -4,23 +4,30 @@ description: 주제 또는 주제 내의 요소를 Adobe Experience Manager Site
 feature: Publishing
 role: User
 exl-id: acbc48b7-93a2-41c6-8565-359fbbdd1fb9
-TQID: https://experienceleague.adobe.com/Henc9JvV-SglV4JQf0HaLvMxJ1p2tkmXq0C5lIGwTUM
+TQID: 'https://experienceleague.adobe.com/Henc9JvV-SglV4JQf0HaLvMxJ1p2tkmXq0C5lIGwTUM'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 622
+source-wordcount: '622'
 ht-degree: 0%
-
 ---
-
 # Adobe Experience Manager Sites 페이지 게시
 
 
@@ -46,9 +53,9 @@ Experience Manager Sites 페이지는 Adobe Experience Manager 웹 사이트에 
    * 다른 조건을 선택하여 콘텐츠를 게시할 수도 있습니다. 다음 옵션 중 하나를 선택하십시오.
 
 
-      * **없음**: 게시된 출력에 조건을 적용하지 않으려면 이 옵션을 선택하십시오.
-      * **DITAVAL 사용**: 개인화된 콘텐츠를 생성하려면 DITAVAL 파일을 선택하십시오. 찾아보기 대화 상자를 사용하거나 파일 경로를 입력하여 DITAVAL 파일을 선택할 수 있습니다.
-      * **특성 사용**: DITA 주제에 조건 특성을 정의할 수 있습니다. 그런 다음 조건 속성을 선택하여 관련 콘텐츠를 게시합니다.
+     * **없음**: 게시된 출력에 조건을 적용하지 않으려면 이 옵션을 선택하십시오.
+     * **DITAVAL 사용**: 개인화된 콘텐츠를 생성하려면 DITAVAL 파일을 선택하십시오. 찾아보기 대화 상자를 사용하거나 파일 경로를 입력하여 DITAVAL 파일을 선택할 수 있습니다.
+     * **특성 사용**: DITA 주제에 조건 특성을 정의할 수 있습니다. 그런 다음 조건 속성을 선택하여 관련 콘텐츠를 게시합니다.
 
      >[!NOTE]
      > 

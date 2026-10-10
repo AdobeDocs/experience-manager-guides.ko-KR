@@ -5,26 +5,36 @@ exl-id: 5af78233-343e-47ba-b60c-b7f4789e2406
 feature: Translation
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/WjrAoZplwWbFYxySm-faIIda81AWTYnqhvbdsRk8tjU
+TQID: 'https://experienceleague.adobe.com/WjrAoZplwWbFYxySm-faIIda81AWTYnqhvbdsRk8tjU'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: 626b0638-bd2d-504c-8ccd-53d63b856710
+    internal-label: Translation
 subfeature_v2:
   - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 877
+source-wordcount: '877'
 ht-degree: 8%
-
 ---
-
 # 콘텐츠 번역 {#id181GB0400UI}
 
 페이지 콘텐츠, 에셋 및 사용자 생성 콘텐츠의 번역을 자동화하여 다국어 웹 사이트를 만들고 관리할 수 있습니다. 번역 워크플로를 자동화하려면 번역 서비스 공급업체를 AEM과 통합하고 콘텐츠를 다국어로 번역하는 프로젝트를 제작해야 합니다. AEM은 인간 번역 및 기계 번역 워크플로를 지원합니다.
@@ -36,17 +46,17 @@ ht-degree: 8%
 
 콘텐츠 번역의 단계는 다음과 같습니다.
 
-1. AEM을 [번역 서비스 공급자](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=ko)와 연결하고 번역 통합 프레임워크 구성을 만듭니다.
+1. AEM을 [번역 서비스 공급자](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)와 연결하고 번역 통합 프레임워크 구성을 만듭니다.
 
 1. 번역 서비스 및 프레임워크 구성과 언어 마스터의 페이지를 연결합니다.
 
-1. 번역할 [콘텐츠 유형 식별](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/rules.html?lang=ko).
+1. 번역할 [콘텐츠 유형 식별](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/rules.html?lang=en).
 
-1. 언어 마스터를 작성하고 언어 사본의 루트 페이지를 만들어 [번역할 콘텐츠를 준비](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html?lang=ko)합니다.
+1. 언어 마스터를 작성하고 언어 사본의 루트 페이지를 만들어 [번역할 콘텐츠를 준비](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html?lang=en)합니다.
 
-1. [번역 프로젝트](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=ko)를 만들어 번역할 콘텐츠를 수집하고 번역 프로세스를 준비합니다.
+1. [번역 프로젝트](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en)를 만들어 번역할 콘텐츠를 수집하고 번역 프로세스를 준비합니다.
 
-1. 번역 프로젝트를 사용하여 [콘텐츠 번역을 관리](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=ko) 합니다.
+1. 번역 프로젝트를 사용하여 [콘텐츠 번역을 관리](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en) 합니다.
 
 
 번역 서비스 공급자가 AEM과의 통합을 위한 커넥터를 제공하지 않는 경우, AEM은 번역된 콘텐츠를 XML 형식으로 수동으로 내보내고 가져올 수 있도록 지원합니다.
@@ -101,7 +111,7 @@ DITA 맵 대시보드에서 변환 탭을 숨기려면 다음 단계를 수행�
 
 >[!NOTE]
 >
-> 번역 커넥터를 사용하는 경우 Adobe Experience Manager 설명서의 *[번역 통합 프레임워크 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=ko)* 항목에 설명된 대로 커넥터를 구성했는지 확인하십시오.
+> 번역 커넥터를 사용하는 경우 Adobe Experience Manager 설명서의 *[번역 통합 프레임워크 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)* 항목에 설명된 대로 커넥터를 구성했는지 확인하십시오.
 
 >[!IMPORTANT]
 >
@@ -115,5 +125,5 @@ DITA 맵 대시보드에서 변환 탭을 숨기려면 다음 단계를 수행�
 
 | PID | 속성 키 | 속성 값 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | 부울: <br> - 임시 파일에서 사후 처리 작업을 실행하지 않으려면 **사후 처리 언어 사본** 옵션을 *비활성화* \( false\)합니다.<br> - 임시 파일에서 사후 처리 작업을 실행하려면 *언어 사본&#x200B;**사후 처리**&#x200B;옵션을 활성화* \( true\)합니다.<br> **기본값**: false |
+| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | 부울: <br> - 임시 파일에서 사후 처리 작업을 실행하지 않으려면 **사후 처리 언어 사본** 옵션을 *비활성화* \( false\)합니다.<br> - 임시 파일에서 사후 처리 작업을 실행하려면 *언어 사본&#x200B;**사후 처리**옵션을 활성화* \( true\)합니다.<br> **기본값**: false |
 

@@ -5,7 +5,24 @@ feature: Performance Optimization
 role: Admin
 level: Experienced
 exl-id: 0f289f7c-8300-427a-a4d9-9c2f31608240
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: baa3aa24-d162-4a57-b73a-d27341145083
+    internal-label: Performance optimization
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '888'
 ht-degree: 0%
@@ -15,7 +32,7 @@ ht-degree: 0%
 ## 데이터 저장소 구성 \(필수\)
 
 **변경 내용**
-`minRecordLength` 속성을 `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.` 구성 아래의 `100` 값으로 설정합니다. 파일 날짜 저장소 및 S3 데이터 저장소에 대한 자세한 내용은 [AEM 6](https://helpx.adobe.com/kr/experience-manager/6-5/sites/deploying/using/data-store-config.html)에서 노드 저장소 및 데이터 저장소 구성 문서를 참조하십시오.
+`minRecordLength` 속성을 `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.` 구성 아래의 `100` 값으로 설정합니다. 파일 날짜 저장소 및 S3 데이터 저장소에 대한 자세한 내용은 [AEM 6](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/data-store-config.html)에서 노드 저장소 및 데이터 저장소 구성 문서를 참조하십시오.
 
 >[!NOTE]
 >
@@ -49,7 +66,7 @@ JVM 시작 매개변수는 인프라 및 디스크 크기에 따라 신중하게
 
 - JVM 힙 크기를 사용 가능한 총 메모리의 1/4 이상으로 설정합니다. `-Xmx<size>` 매개 변수를 사용하여 힙 메모리 크기를 설정합니다. -`Xms`의 값을 `-Xmx`과(와) 동일하게 설정합니다.
 
-- `-XX:+HeapDumpOnOutOfMemoryError`을(를) 사용하도록 설정하고 `-XX:HeapDumpPath=</path/to/folder`&#x200B;`>`의 경로를 설정합니다.
+- `-XX:+HeapDumpOnOutOfMemoryError`을(를) 사용하도록 설정하고 `-XX:HeapDumpPath=</path/to/folder``>`의 경로를 설정합니다.
 
 - 다음과 같이 Java GC 로그 활성화:
 

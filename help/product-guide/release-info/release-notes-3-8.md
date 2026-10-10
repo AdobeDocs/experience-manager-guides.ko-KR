@@ -1,13 +1,19 @@
 ---
 title: Adobe Experience Manager Guides 3.8 및 3.8.5 릴리스 노트
 description: Adobe Experience Manager Guides 3.8 및 3.8.5 릴리스(이전 XML Documentation 솔루션)의 주요 새로운 기능 및 개선 사항입니다.
-source-git-commit: ff3d35832b80f6221f1261498934ab74261b282b
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1589'
 ht-degree: 0%
-
 ---
-
 
 # 릴리스 정보 | Adobe Experience Manager Guides 3.8
 
@@ -66,8 +72,8 @@ XML Documentation 솔루션에서 DITA 주제를 만드는 동안 사용자는 �
   ![Version 큐](assets/old-version-icon.avif)
 
 - 이 릴리스에는 새 버전 내역 기능이 도입되었습니다. 버전 기록 기능을 사용하여 다음을 수행할 수 있습니다.
-   - 각 버전에 대해 추가된 레이블과 함께 현재 활성화된 주제의 모든 버전 목록을 봅니다.
-   - 주제의 이전 버전으로 되돌립니다.
+  - 각 버전에 대해 추가된 레이블과 함께 현재 활성화된 주제의 모든 버전 목록을 봅니다.
+  - 주제의 이전 버전으로 되돌립니다.
 
   ![버전 기록](assets/version-history.avif)
 
@@ -98,9 +104,9 @@ XML Documentation 솔루션에서 DITA 주제를 만드는 동안 사용자는 �
 #### 게시
 
 - **생성된 사이트 페이지에 대한 정리 규칙 구성 허용**: 관리자는 생성된 AEM 사이트 또는 DITA-OT 출력의 파일 이름에 대한 정리 규칙을 정의할 수 있습니다. DITA-OT를 사용하여 AEM 사이트 출력 또는 출력을 생성할 때마다 아래 규칙을 구성하여 출력 생성 URL 또는 파일 이름을 정리할 수 있습니다.
-   - 모든 문자를 소문자로 변환합니다.
-   - 특수 문자를 구분자로 바꿉니다.
-   - 긴 파일 이름을 사전 정의된 문자 수로 제한합니다.
+  - 모든 문자를 소문자로 변환합니다.
+  - 특수 문자를 구분자로 바꿉니다.
+  - 긴 파일 이름을 사전 정의된 문자 수로 제한합니다.
 
 - 일괄 활성화 대시보드를 사용하여 작성자 인스턴스의 출력을 게시 인스턴스로 쉽게 푸시할 수 있습니다. 단일 맵 또는 맵 컬렉션으로 작업하고 게시하는 데 사용할 출력 사전 설정을 선택할 수 있습니다.
 

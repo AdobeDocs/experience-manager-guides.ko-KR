@@ -5,33 +5,48 @@ exl-id: 6df31e3c-683c-4188-b917-9c1855d9b95b
 feature: Output Generation
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/IkHZuSR5DLwAFy2ll9n0MN2syoqjScq7oUh7pRiQyjA
+TQID: 'https://experienceleague.adobe.com/IkHZuSR5DLwAFy2ll9n0MN2syoqjScq7oUh7pRiQyjA'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
 subfeature_v2:
   - id: baa3aa24-d162-4a57-b73a-d27341145083
+    internal-label: Performance optimization
   - id: ccd46b93-df7f-4458-ba4c-90a3562d9ab0
+    internal-label: Filename configuration
   - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+    internal-label: FrameMaker Publishing Server
   - id: df6fa66f-4542-4a6d-90ca-9f146eb5d494
+    internal-label: Template configuration
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 179e9016b12edb14c09ce9352a318e06a4fc628a
+    internal-label: Optimization
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 5886
+source-wordcount: '5893'
 ht-degree: 1%
-
 ---
-
 # 출력 생성 설정 구성 {#id181AI0B0E30}
 
 AEM Guides에는 출력 생성 프로세스를 사용자 정의할 수 있는 다양한 구성 옵션이 포함되어 있습니다. 이 항목에서는 출력 생성 프로세스를 설정하는 데 도움이 되는 모든 구성 및 사용자 정의에 대해 설명합니다.
@@ -73,11 +88,11 @@ FMPS를 사용하도록 AEM Guides을 구성하려면 웹 콘솔에서 `com.adob
 
 >[!NOTE]
 >
-> http://&lt;server name\>:<port\>/system/console/configMgr URL에 액세스하여 웹 콘솔을 엽니다.
+> http://<server name\>:<port\>/system/console/configMgr URL에 액세스하여 웹 콘솔을 엽니다.
 
 | 속성 | 설명 |
 |--------|-----------|
-| FrameMaker Publishing Server 로그인 도메인 | FrameMaker Publishing Server이 호스팅되는 도메인 이름 또는 작업 그룹 이름을 지정합니다. FMPS 버전을 기반으로 도메인 이름을 :- **FMPS 2020**(으)로 제공: IP 주소를 192.168.1.101 <br>- **FMPS 2019 및 이전**(으)로 제공: IP 주소 또는 도메인 이름 |
+| FrameMaker Publishing Server 로그인 도메인 | FrameMaker Publishing Server이 호스팅되는 도메인 이름 또는 작업 그룹 이름을 지정합니다. FMPS 버전을 기반으로 도메인 이름을 다음과 같이 제공하십시오.- **FMPS 2020**: IP 주소를 192.168.1.101 <br>- **FMPS 2019 및 이전**: IP 주소 또는 도메인 이름 |
 | FRAMEMAKER PUBLISHING SERVER URL | FrameMaker Publishing Server의 URL을 지정합니다. FMPS 버전을 기반으로 FMPS URL을 다음과 같이 제공하십시오.<br>- **FMPS 2020**: `http://<fmps_ip>:<port>` \(http://192.168.1.101:7000\) <br> - **FMPS 2019 및 이전**: `http://<fmps_ip>:<port>/fmserver/v1/` |
 | FMPS 버전 | FrameMaker Publishing Server의 버전 번호를 지정합니다. FMPS 버전을 기반으로 버전 정보를 다음과 같이 제공하십시오. <br>- **FMPS 2020**: 2020 <br> - **FMPS 2019 및 이전**: 2019 또는 2017 |
 | FrameMaker Publishing Server 사용자 이름 및 암호 | FrameMaker Publishing Server에 액세스하기 위한 사용자 이름과 암호를 지정합니다. |
@@ -205,7 +220,7 @@ AEM 사이트 출력 생성에 사용할 디자인 템플릿을 지정하려면 
 >
 > 사용자 지정 디자인 템플릿 노드를 만든 후 AEM 사이트 출력 사전 설정에서 디자인 옵션을 업데이트하여 사용자 지정 디자인 템플릿 노드를 사용해야 합니다.
 
-자세한 내용은 [첫 번째 Adobe Experience Manager 6.3 웹 사이트 만들기](https://helpx.adobe.com/experience-manager/using/first_aem63_website.html) 및 AEM에서 자체 웹 사이트 개발 [기본 사항](https://helpx.adobe.com/kr/experience-manager/6-3/sites/developing/using/the-basics.html)을 참조하십시오.
+자세한 내용은 [첫 번째 Adobe Experience Manager 6.3 웹 사이트 만들기](https://helpx.adobe.com/experience-manager/using/first_aem63_website.html) 및 AEM에서 자체 웹 사이트 개발 [기본 사항](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/the-basics.html)을 참조하십시오.
 
 ### AEM 사이트 출력 생성에 문서 제목 사용
 
@@ -262,7 +277,7 @@ AEM Site 출력에서 URL 생성을 구성하려면 다음 단계를 수행합�
 
 1. *com.adobe.fmdita.common.SanitizeNodeNameImpl* 번들을 검색하고 클릭합니다.
 
-1. **AEM Sites에 게시하는 데 허용되지 않는 문자 집합** 속성에서 속성이 `<>`&#x200B;`@$`(으)로 설정되어 있는지 확인하십시오. 이 목록에 더 많은 특수 문자를 추가할 수 있지만 필수 특수 문자가 있어야 합니다.
+1. **AEM Sites에 게시하는 데 허용되지 않는 문자 집합** 속성에서 속성이 `<>``@$`(으)로 설정되어 있는지 확인하십시오. 이 목록에 더 많은 특수 문자를 추가할 수 있지만 필수 특수 문자가 있어야 합니다.
 
    >[!NOTE]
    >
@@ -352,7 +367,7 @@ AEM 사이트 출력에서 평면화할 노드를 지정하는 것과 마찬가�
 
 ### AEM 사이트 출력에서 삭제된 페이지에 대한 버전 관리 구성
 
-기존 출력 페이지 설정에 대해 **삭제 및**&#x200B;만들기&#x200B;**&#x200B;**&#x200B;옵션이 선택된 AEM 사이트 출력을 생성하면 삭제되는 페이지에 대한 버전이 만들어집니다. 삭제하기 전에 버전 생성을 중단하도록 시스템을 구성할 수 있습니다.
+기존 출력 페이지 설정에 대해 **삭제 및**&#x200B;만들기&#x200B;****옵션이 선택된 AEM 사이트 출력을 생성하면 삭제되는 페이지에 대한 버전이 만들어집니다. 삭제하기 전에 버전 생성을 중단하도록 시스템을 구성할 수 있습니다.
 
 삭제할 페이지에 대한 버전 만들기를 중지하려면 다음 단계를 수행하십시오.
 
@@ -662,11 +677,11 @@ AEM Guides은 맵 콘솔을 사용자 지정할 `apps.fmdita.dashboard-extn` 범
 
 >[!NOTE]
 >
-> AEM 클라이언트 라이브러리를 만드는 방법에 대한 자세한 내용은 [클라이언트측 라이브러리 사용](https://helpx.adobe.com/kr/experience-manager/6-4/sites/developing/using/clientlibs.html)을 참조하십시오.
+> AEM 클라이언트 라이브러리를 만드는 방법에 대한 자세한 내용은 [클라이언트측 라이브러리 사용](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/clientlibs.html)을 참조하십시오.
 
 ## 출력 생성 중 이미지 렌디션 처리 {#id177BF0G0VY4}
 
-AEM에는 자산을 처리하는 기본 워크플로우 및 미디어 핸들 세트가 포함되어 있습니다. AEM에는 가장 일반적인 MIME 유형에 대한 에셋 처리를 처리하는 미리 정의된 워크플로가 있습니다. 일반적으로 AEM은 업로드하는 모든 이미지에 대해 동일한 여러 렌디션을 이진 형식으로 만듭니다. 이러한 렌디션은 크기가 다르고 해상도가 다르며 워터마크가 추가되거나 다른 특성이 변경될 수 있습니다. AEM에서 자산을 처리하는 방법에 대한 자세한 내용은 AEM 설명서에서 [미디어 핸들러 및 워크플로우를 사용하여 Assets 처리](https://helpx.adobe.com/kr/experience-manager/6-5/assets/using/media-handlers.html)를 참조하십시오.
+AEM에는 자산을 처리하는 기본 워크플로우 및 미디어 핸들 세트가 포함되어 있습니다. AEM에는 가장 일반적인 MIME 유형에 대한 에셋 처리를 처리하는 미리 정의된 워크플로가 있습니다. 일반적으로 AEM은 업로드하는 모든 이미지에 대해 동일한 여러 렌디션을 이진 형식으로 만듭니다. 이러한 렌디션은 크기가 다르고 해상도가 다르며 워터마크가 추가되거나 다른 특성이 변경될 수 있습니다. AEM에서 자산을 처리하는 방법에 대한 자세한 내용은 AEM 설명서에서 [미디어 핸들러 및 워크플로우를 사용하여 Assets 처리](https://helpx.adobe.com/experience-manager/6-5/assets/using/media-handlers.html)를 참조하십시오.
 
 AEM Guides을 사용하면 문서에 대한 출력을 생성할 때 사용할 이미지 렌디션을 구성할 수 있습니다. 예를 들어 기본 이미지 표현물 중 하나를 선택하거나 표현물을 만들어 이를 사용하여 문서를 게시할 수 있습니다. 문서를 게시하기 위한 이미지 렌디션 매핑은 `/libs/fmdita/config/ **renditionmap.xml**` 파일에 저장됩니다. `renditionmap.xml` 파일의 스니펫은 다음과 같습니다.
 

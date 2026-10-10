@@ -5,13 +5,28 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 08502168-a995-44bc-9ce3-c3e562714c06
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 0%
-
 ---
-
 # 텍스트 필터 구성 {#id21BPD0FK0XA}
 
 AEM Guides은 AEM 저장소의 선택한 경로에 있는 파일에서 텍스트를 검색하는 기능을 제공합니다. 필터 검색을 사용하여 저장소 패널에서 파일을 검색하거나 파일을 검색할 수 있습니다. 편집기에서 작업하는 동안 파일 찾아보기 대화 상자를 사용하여 이미지, 참조 또는 키 참조와 같은 요소를 삽입해야 합니다.
@@ -74,11 +89,11 @@ Experience Manager Guides 설정을 기반으로 텍스트 필터를 구성하�
 
       위의 코드 스니펫에서 첫 번째 필터는 DITA 파일용입니다. 필터 정의는 다음 매개 변수를 사용합니다.
 
-      **&#x200B;**&#x200B;제목&#x200B;**&#x200B;**: 필터의 표시 이름입니다. 이 제목은 파일 찾아보기 대화 상자에 필터링 옵션으로 나타납니다.
+      ****제목****: 필터의 표시 이름입니다. 이 제목은 파일 찾아보기 대화 상자에 필터링 옵션으로 나타납니다.
 
-      **&#x200B;**&#x200B;속성&#x200B;**&#x200B;**: 파일의 메타데이터에서 일치하는 속성입니다. 예를 들어 속성에 dita\_class 메타데이터가 있는 파일만 허용하려면 속성 필터에 &quot;jcr:content/metadata/dita\_class&quot;가 해당 값으로 사용됩니다.
+      ****속성****: 파일의 메타데이터에서 일치하는 속성입니다. 예를 들어 속성에 dita\_class 메타데이터가 있는 파일만 허용하려면 속성 필터에 &quot;jcr:content/metadata/dita\_class&quot;가 해당 값으로 사용됩니다.
 
-      **&#x200B;**&#x200B;작업&#x200B;**:**&#x200B;속성 매개 변수에 지정된 값이 있는지 확인하려면 &quot;exists&quot;를 지정하십시오
+      ****작업&#x200B;**:**속성 매개 변수에 지정된 값이 있는지 확인하려면 &quot;exists&quot;를 지정하십시오
 
 1. 추가된 필터가 포함된 업데이트된 ui\_config.json 파일을 업로드합니다.
 
@@ -166,4 +181,4 @@ Experience Manager Guides 설정을 기반으로 텍스트 필터를 구성하�
 
 >[!ENDTABS]
 
-**상위 항목:**&#x200B;[&#x200B;편집기 사용자 지정](customize-overview.md)
+**상위 항목:**[&#x200B;편집기 사용자 지정](customize-overview.md)

@@ -5,23 +5,29 @@ exl-id: a651db7f-228e-4de5-b569-3f1b4f86c418
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/xnUjt33qyeXgxwIH3L2t08FShHaicDSVVvXQQNGytI4
+TQID: 'https://experienceleague.adobe.com/xnUjt33qyeXgxwIH3L2t08FShHaicDSVVvXQQNGytI4'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 291
+source-wordcount: '291'
 ht-degree: 1%
-
 ---
-
 # 요소 ID 자동 생성 {#id20CIL40016I}
 
 AEM Guides은 사용자가 만드는 모든 새 문서에 대한 문서 ID를 생성합니다. 예를 들어 DITA 맵을 만들 때 `map.ditamap_random_digits`과(와) 같은 ID가 맵의 ID에 지정됩니다. ID가 자동으로 생성되고 할당되는 요소를 정의할 수도 있습니다.
@@ -40,4 +46,4 @@ AEM Guides에서는 ID가 자동 생성되는 요소와 ID에 대한 패턴을 �
 |---|------------|--------------|
 | `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.pattern` | 이 필드의 기본값은 `${elementName}_${id}`(으)로 설정되어 있습니다. `${elementName}` 값이 요소의 이름으로 대체되었습니다. `${id}` 변수는 요소에 대한 순차적 번호를 생성합니다. 예를 들어, 단락 요소를 할당하여 자동 생성된 ID를 갖게 되면 주제나 문서의 첫 번째 단락은 p\_1과 같은 ID를 갖게 되고 다음 단락은 p\_2를 받게 됩니다. 하지만 다른 문서에서는 ID 생성 프로세스가 다시 시작됩니다. 즉, 다른 문서에서 p\_1 및 p\_2와 같은 ID를 단락 요소에 할당할 수 있습니다. **기본값**: ``${elementName}_${id}`` |
 
-**상위 항목:**&#x200B;[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)
+**상위 항목:**[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)

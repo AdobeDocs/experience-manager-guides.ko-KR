@@ -1,13 +1,19 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides, 2026.08.0 릴리스의 업그레이드 지침 및 해결된 문제
 description: 호환성 매트릭스와 Adobe Experience Manager Guides as a Cloud Service 2026.08.0 릴리스로 업그레이드하는 방법에 대해 알아보십시오.
-source-git-commit: 0de22d4883096f6a9f3b2ca8acfad4a10992f5e7
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 1%
-
 ---
-
 # 2026.08.0 릴리스에 대한 업그레이드 지침
 
 이 문서에서는 Adobe Experience Manager Guides as a Cloud Service 2026.08.0 릴리스의 업그레이드 지침 및 호환성 매트릭스를 다룹니다.
@@ -28,7 +34,7 @@ ht-degree: 1%
 |---|---|---|----|
 | 2026.08.0 | 2026.8.0 | [AEM Guides SDK API 2026.8.0](https://central.sonatype.com/artifact/com.adobe.aem/aem-dox-sdk-api/2026.8.0) | [Javadoc 2026.8.0](https://javadoc.io/doc/com.adobe.aem/aem-dox-sdk-api/latest/index.html) |
 
-자세한 내용은 [Maven Central 저장소에서 API JAR 구성 및 사용](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/api-reference/introduction)을 참조하십시오.
+자세한 내용은 [Maven Central 저장소에서 API JAR 구성 및 사용](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/api-reference/introduction)을 참조하십시오.
 
 ### FrameMaker 및 FrameMaker Publishing Server
 

@@ -2,7 +2,15 @@
 title: 릴리스 정보 | Adobe Experience Manager Guides 5.1.0 서비스 팩 4 릴리스의 업그레이드 지침
 description: 호환성 매트릭스와 Adobe Experience Manager Guides 5.1.0 서비스 팩 4 릴리스로 업그레이드하는 방법에 대해 알아봅니다.
 exl-id: 4970ee05-2644-43d6-976b-bfaa91b41146
-source-git-commit: d11f910bde58b36a8db27d74be6799eb7891f3b5
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 4%
@@ -60,7 +68,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
-> 현재 AEM 6.5를 사용하고 있으며 AEM 6.5 LTS로 이동하려면 [Adobe Experience Manager(AEM) 6.5 LTS로 업그레이드](https://experienceleague.adobe.com/ko/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)를 참조하십시오.
+> 현재 AEM 6.5를 사용하고 있으며 AEM 6.5 LTS로 이동하려면 [Adobe Experience Manager(AEM) 6.5 LTS로 업그레이드](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)를 참조하십시오.
 
 Experience Manager Guides 버전 5.1.0 서비스 팩 4로 업그레이드하기 전에 다음 사항을 고려해야 합니다.
 

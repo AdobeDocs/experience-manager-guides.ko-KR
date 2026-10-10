@@ -5,13 +5,28 @@ feature: Profiles
 role: Admin
 level: Experienced
 exl-id: 0292a9cd-0f94-4039-8758-1740106feb71
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '6082'
 ht-degree: 0%
-
 ---
-
 # 전역 또는 폴더 수준 프로필 구성 {#id181AH2003PF}
 
 기업에서는 다른 그룹 또는 제품이 다른 작성 템플릿, 출력 템플릿, 조건부 속성 프로필 \(또는 주제 스키마\) 및 편집기 구성을 사용할 수 있습니다. 작성자가 엔터프라이즈 \(또는 글로벌\) 수준에서만 구성하면 작성자와 관련 없는 템플릿 또는 프로필이 표시되므로 작성자가 어려움을 겪을 수 있습니다.
@@ -30,21 +45,21 @@ AEM Guides을 사용하면 폴더 수준뿐만 아니라 엔터프라이즈 \(�
 
 - **템플릿**: 작성자가 DITA 콘텐츠를 만들거나 게시하는 데 사용할 템플릿을 구성하려면 이 탭을 사용합니다. 다음 주제 템플릿은 즉시 사용할 수 있습니다.
 
-   - 용어 설명
+  - 용어 설명
 
-   - 참조
+  - 참조
 
-   - 주제
+  - 주제
 
-   - 개념
+  - 개념
 
-   - 작업
+  - 작업
 
-   - 문제 해결
+  - 문제 해결
 
-   - 비어 있음
+  - 비어 있음
 
-   - DITAVAL
+  - DITAVAL
 
   >[!NOTE]
   >
@@ -52,33 +67,33 @@ AEM Guides을 사용하면 폴더 수준뿐만 아니라 엔터프라이즈 \(�
 
   주제 템플릿과 함께 작성자가 사용할 수 있는 맵 템플릿을 정의할 수도 있습니다. 다음과 같은 맵 템플릿을 즉시 사용할 수 있습니다.
 
-   - 맵
+  - 맵
 
-   - 북맵
+  - 북맵
 
 - **출력 사전 설정**: 템플릿과 마찬가지로 5개의 미리 구성된 출력 사전 설정이 있습니다.
 
-   - AEM 사이트
+  - AEM 사이트
 
-   - PDF
+  - PDF
 
-   - HTML5
+  - HTML5
 
-   - EPUB
+  - EPUB
 
-   - 사용자 정의
+  - 사용자 정의
 
   게시자는 이러한 기본 출력 사전 설정을 사용하여 콘텐츠를 게시할 수 있습니다. 이러한 사전 설정은 전역 또는 폴더 수준 프로필의 관리자가 구성할 수 있습니다. 구성하고 나면 새로 만든 DITA 맵에 대해 게시자가 게시 사전 설정을 사용할 수 있게 됩니다. 기존 DITA 맵에 게시 사전 설정을 적용할 수도 있습니다. 자세한 내용은 [사전 설정 변경 내용 적용](#id18AGD0K0OHS)을 참조하십시오.
 
 - **XML 편집기 구성**: 이 탭을 사용하여 편집기의 모양 및 다양한 기능을 사용자 지정할 수 있습니다. 편집기에서 다음 구성 가능한 설정을 사용할 수 있습니다.
 
-   - XML 편집기 UI 구성
-   - Cloud Service에 대한 XML 편집기 페이지 레이아웃만
-   - Cloud Service에 대해서만 XML 편집기 구성
-   - CSS 템플릿 레이아웃
-   - XML 편집기 조각
-   - XML 콘텐츠 버전 레이블
-   - Rootmap \(폴더 수준에서만\)
+  - XML 편집기 UI 구성
+  - Cloud Service에 대한 XML 편집기 페이지 레이아웃만
+  - Cloud Service에 대해서만 XML 편집기 구성
+  - CSS 템플릿 레이아웃
+  - XML 편집기 조각
+  - XML 콘텐츠 버전 레이블
+  - Rootmap \(폴더 수준에서만\)
 
 전역 프로필과 폴더 수준 프로필을 모두 구성할 수 있습니다. 폴더 수준 프로필에서는 설정을 적용할 폴더를 정의할 수 있습니다. 이러한 설정에는 조건부 특성, 템플릿, 출력 사전 설정 및 XML 편집기 설정이 포함됩니다. 구성된 폴더에서 작업하는 작성자는 조건부 사전 설정, 템플릿 및 XML 편집기 구성을 사용할 수 있습니다. 마찬가지로 게시자는 구성된 폴더 내에 정의된 구성된 출력 사전 설정에 액세스할 수 있습니다.
 
@@ -517,7 +532,7 @@ AEM Guides을 사용하면 관리자가 특정 설정을 사용하여 출력 사
 
 ## 스마트 도움말 및 작성을 위한 AI Assistant 구성(Cloud Service 전용)
 
-Experience Manager Guides as a Cloud Service(![AEM 클라우드 &#x200B;](assets/aem-cloud-icon.svg))용
+Experience Manager Guides as a Cloud Service(![AEM 클라우드 ](assets/aem-cloud-icon.svg))용
 
 Adobe Experience Manager Guides의 AI Assistant는 스마트 작성 및 컨텐츠 재사용 경험을 통해 컨텐츠를 향상시키도록 설계된 강력한 AI 기반 도구입니다. 강력한 두 가지 AI 기능(**작성** 및 **도움말**)을 Experience Manager Guides 인터페이스에 통합하므로 문서를 작성하고 보다 빠르고 효율적으로 정보에 액세스할 수 있습니다.
 
@@ -603,9 +618,9 @@ AI 기반의 스마트 제안을 구성하고 작성자가 기존 콘텐츠를 �
 
 **스마트 도움말의 기본 질문 사용자 지정**
 
-Experience Manager Guides as a Cloud Service(![AEM 클라우드 &#x200B;](assets/aem-cloud-icon.svg))용
+Experience Manager Guides as a Cloud Service(![AEM 클라우드 ](assets/aem-cloud-icon.svg))용
 
-작성자가 질문을 하고 [Experience Manager Guides 설명서](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/overview)에서 필요한 콘텐츠를 쉽게 찾을 수 있도록 AI 기반 스마트 **도움말**&#x200B;을 구성할 수 있습니다.
+작성자가 질문을 하고 [Experience Manager Guides 설명서](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)에서 필요한 콘텐츠를 쉽게 찾을 수 있도록 AI 기반 스마트 **도움말**&#x200B;을 구성할 수 있습니다.
 
 **XML 편집기 구성** 탭에서 **도움말** 패널의 기본 질문을 구성할 수 있습니다.
 
@@ -662,7 +677,7 @@ Experience Manager Guides 설정을 기반으로 Cloud Service 또는 온프레�
 
 이 설정을 사용하면 `ui_config.json` 파일에서 수정된 사항을 반영하는 JSON 확장을 만들 수 있습니다. 폴더 프로필 수준에서 이러한 확장을 독립적으로 업로드하여 향상된 유연성과 사용자 지정을 제공할 수 있습니다. 예를들어, 단추를 업데이트하는 등 **XML 편집기 구성**&#x200B;을 변경하면 시스템이 자동으로 차이점을 식별합니다. 이러한 변경 사항을 **XML 편집기 UI 구성**&#x200B;에 업로드하고 **UI 구성을 JSON으로 변환** 단추를 사용하여 JSON 확장으로 변환하면 시스템이 새 기능을 통합하는 확장을 생성합니다.
 
-[JSON 구성 사용자 지정 및 새 AEM Guides 편집기의 UI 구성 전환](https://experienceleague.adobe.com/ko/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config)에 대해 자세히 알아보십시오.
+[JSON 구성 사용자 지정 및 새 AEM Guides 편집기의 UI 구성 전환](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config)에 대해 자세히 알아보십시오.
 
 >[!NOTE]
 >

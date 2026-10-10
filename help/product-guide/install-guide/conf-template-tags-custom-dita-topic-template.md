@@ -5,27 +5,36 @@ exl-id: a9b2c479-7bf6-4c62-addd-fdfe74dc1f69
 feature: Template Configuration
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/YGsNmqPAjBHtBEa-o53tns-h1DLRkTZNIq3PNbG8LNw
+TQID: 'https://experienceleague.adobe.com/YGsNmqPAjBHtBEa-o53tns-h1DLRkTZNIq3PNbG8LNw'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: df6fa66f-4542-4a6d-90ca-9f146eb5d494
+    internal-label: Template configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Troubleshooting
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 365
+source-wordcount: '365'
 ht-degree: 2%
-
 ---
-
 # 사용자 지정 DITA 주제 템플릿 구성 {#id16A7G0O02TD}
 
 AEM Guides에는 다음과 같은 DITA 주제 템플릿이 포함되어 있습니다.
@@ -91,4 +100,4 @@ AEM Guides을 사용하면 사용자 정의된 DITA 맵 및 템플릿을 저장�
 
 지정된 위치가 DAM에 있으면 모든 기본 맵 및 주제 템플릿이 해당 폴더에 복사됩니다. 위치가 존재하지 않으면 모든 기본 맵 및 주제 템플릿으로 폴더가 생성됩니다.
 
-**상위 항목:**&#x200B;[&#x200B;항목 및 맵 템플릿 구성](conf-template-tags.md)
+**상위 항목:**[&#x200B;항목 및 맵 템플릿 구성](conf-template-tags.md)

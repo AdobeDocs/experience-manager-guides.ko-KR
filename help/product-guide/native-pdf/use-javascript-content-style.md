@@ -5,23 +5,31 @@ exl-id: 2f301f6a-0d1c-4194-84c2-0fddaef8d3ec
 feature: Output Generation
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/qLGskiqXBeu9Q7XjCBMjmRx5NFNaJ7xtS0XzxOFX0Zw
+TQID: 'https://experienceleague.adobe.com/qLGskiqXBeu9Q7XjCBMjmRx5NFNaJ7xtS0XzxOFX0Zw'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
 subfeature_v2:
   - id: d6596f3f-92a7-43ec-b444-237db6adad05
+    internal-label: Native PDF publishing
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 519
+source-wordcount: '519'
 ht-degree: 0%
-
 ---
-
 # JavaScript을 사용하여 콘텐츠 또는 스타일 작업
 
 기본 PDF 게시 기능을 사용하면 최종 PDF이 생성되기 전에 JavaScript을 실행하여 콘텐츠에 적용된 콘텐츠 또는 스타일을 조작할 수 있습니다. 이 기능을 사용하면 최종 출력 생성 방법을 완벽하게 제어할 수 있습니다. 예를 들어 다른 PDF에 있는 PDF 출력에 법적 고지 사항 정보를 추가할 수 있습니다. JavaScript을 사용하면 기본 콘텐츠에 대해 PDF이 만들어지고 최종 PDF이 생성되기 전에 법적 고지 사항을 추가할 수 있습니다.\

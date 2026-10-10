@@ -4,28 +4,37 @@ description: 기본 AEM 게시를 위한 PDF 환경 구성
 exl-id: 40266ca0-0b0b-4418-b606-f70270addbaa
 feature: Native PDF Output
 role: User, Admin
-TQID: https://experienceleague.adobe.com/SLuPn9YigAcHvcSEdrbbQOz29Y6DeWGYnWktWY9L9nQ
+TQID: 'https://experienceleague.adobe.com/SLuPn9YigAcHvcSEdrbbQOz29Y6DeWGYnWktWY9L9nQ'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: d6596f3f-92a7-43ec-b444-237db6adad05
+    internal-label: Native PDF publishing
+  - id: c4e6b17e-c50c-59a1-a719-9c33ce69e5b6
+    internal-label: Native PDF Output
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+    internal-label: Troubleshooting
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 911
+source-wordcount: '928'
 ht-degree: 1%
-
 ---
-
 # 기본 AEM 게시를 위한 PDF 환경 구성
 
 AEM Guides에는 사용자가 PDF 형식으로 콘텐츠를 디자인, 개발 및 게시할 수 있도록 하는 기본 PDF 게시 엔진이 포함되어 있습니다.
@@ -158,8 +167,8 @@ Linux 운영 체제용 다운로드한 노드 모듈을 수동으로 가져오�
    C:/{aem-installation-folder}/crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcabe8166
 
    i) 찾기 . -type d -exec chmod 0755 {} \;
-ii) 찾기 . -type f -exec chmod 0755 {} \;
-iii) ./node-darwin/bin/node node-darwin/lib/node_modules/npm/bin/npm-cli.js —접두사 . install —unsafe-perm —scripts-prepend-node-path
+   ii) 찾기 . -type f -exec chmod 0755 {} \;
+   iii) ./node-darwin/bin/node node-darwin/lib/node_modules/npm/bin/npm-cli.js —접두사 . install —unsafe-perm —scripts-prepend-node-path
 
 8. 아래 명령을 사용하여 Java가 설치되었는지 확인합니다
 
@@ -200,4 +209,4 @@ CRX 저장소의 /var/dxml/profiles/b1aad0a7-9079-e56c-1ed8-6fcabe8166/nodejs에
 
 
 
-위의 단계를 수행하는 동안 문제가 발생하면 AEM Guides 커뮤니티 [포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=ko)에 질문을 게시하여 도움을 받으십시오.
+위의 단계를 수행하는 동안 문제가 발생하면 AEM Guides 커뮤니티 [포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)에 질문을 게시하여 도움을 받으십시오.

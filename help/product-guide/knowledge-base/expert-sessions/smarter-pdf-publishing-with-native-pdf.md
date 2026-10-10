@@ -3,13 +3,19 @@ title: 기본 PDF을 사용하여 더욱 스마트한 PDF 게시
 description: 이 전문가 세션에서는 PDF 생성을 위해 낮은 코드 기술을 사용하는 대신 고급 CSS 또는 XSLT 전문 지식을 사용하지 않고 기본 PDF을 사용하여 DITA 지원 PDF을 만드는 방법을 다룹니다
 keywords: DITA PDF 게시, AEM Guides, 기본 PDF, PDF에 대한 DITA, DITA 게시 워크플로, PDF 자동화, 메타데이터 기반 게시, DITA 템플릿
 exl-id: 763ca6fb-1e5a-4676-9684-879c13ba9a8e
-source-git-commit: 2fde91e85c4283d114b29f77a38bae6d67e60112
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 2%
-
 ---
-
 # 기본 PDF을 사용하여 더욱 스마트한 PDF 게시
 
 이 세션에서는 AEM Guides의 고급 기본 PDF 기능을 사용하여 DITA를 PDF에 게시 워크플로우를 향상시키는 방법을 발견했습니다. 이 세션은 메타데이터, 브랜딩 및 현지화를 통해 PDF 사용자 지정을 자동화하여 여러 DITA 게시 템플릿의 필요성을 줄이는 방법을 보여 줍니다. 이러한 강력한 기능을 통해 DITA 팀이 보다 스마트하고, 빠르고, 규모에 맞게 게시하는 방법을 알아봅니다.
@@ -56,7 +62,7 @@ ht-degree: 2%
 
 ### 커뮤니티 포럼
 
-- Experience League에서 세션별 커뮤니티 상호 작용을 보려면 [AEM Guides 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=ko)을 방문하십시오.
+- Experience League에서 세션별 커뮤니티 상호 작용을 보려면 [AEM Guides 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)을 방문하십시오.
 
 
 

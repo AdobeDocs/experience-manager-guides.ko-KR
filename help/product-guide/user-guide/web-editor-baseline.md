@@ -4,7 +4,7 @@ description: Adobe Experience Manager Guides의 맵 콘솔에서 기준선을 �
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-TQID: https://experienceleague.adobe.com/SSfVuVDBo6RbMZM15CoDlR2zltDGj78D6SYCyyJta2g
+TQID: 'https://experienceleague.adobe.com/SSfVuVDBo6RbMZM15CoDlR2zltDGj78D6SYCyyJta2g'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -17,6 +17,10 @@ feature_v2:
     internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
     internal-label: Configuration
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
     internal-label: Editor
@@ -26,10 +30,12 @@ subfeature_v2:
     internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
     internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 5d63f33b8644b9adad67fd6badf4760aacbff063
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1929'
 ht-degree: 0%
@@ -163,7 +169,7 @@ ht-degree: 0%
 
 1. **복제**&#x200B;를 선택합니다.
 
-- **이름을 바꾸거나** 기존 기준선을 **삭제**&#x200B;**.
+- **이름을 바꾸거나** 기존 기준선을 **삭제****.
 - 정적 기준선의 기존 레이블을 추가, 제거 또는 변경할 수 있는 **레이블을 관리합니다**. 관리자가 사전 정의된 레이블을 구성한 경우 레이블 추가 드롭다운 목록에 해당 레이블이 표시됩니다. 레이블 추가에 대한 자세한 내용은 [레이블 사용](web-editor-use-label.md#)을 참조하십시오.
 
   >[!NOTE]
@@ -199,5 +205,5 @@ ht-degree: 0%
 
 기준선을 편집한 후에는 **저장**&#x200B;을 선택하여 변경 내용을 기준선에 저장합니다. 변경 내용을 저장하고 기준선을 다시 설정하지 않으려면 **다시 설정**&#x200B;을 선택할 수 있습니다. **재설정**&#x200B;을 선택하면 저장하지 않은 변경 내용이 손실된다는 경고가 표시됩니다.
 
-**상위 항목:**&#x200B;[&#x200B;출력 생성](generate-output.md)
+**상위 항목:**[&#x200B;출력 생성](generate-output.md)
 

@@ -5,29 +5,35 @@ feature: Authoring, DITAVAL Editor
 role: User
 hide: true
 exl-id: 8eee347d-840e-4eaf-9441-c7c53a7c3aa0
-TQID: https://experienceleague.adobe.com/kIveRGwg17BgYGEsn9dgAtr8r5HFlEya-nD7gK2G--c
+TQID: 'https://experienceleague.adobe.com/kIveRGwg17BgYGEsn9dgAtr8r5HFlEya-nD7gK2G--c'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: ca593223-d11a-4a52-b369-a8e081e71737
+    internal-label: Desktop tools
+  - id: ec789d92-5632-44b6-abc6-bc29bbd44cb6
+    internal-label: DITAVAL editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 792
+source-wordcount: '792'
 ht-degree: 0%
-
 ---
-
 # DITAVAL 편집기 {#ditaval-editor}
 
 DITAVAL 파일은 조건부 출력을 생성하는 데 사용됩니다. 단일 항목에서 요소 속성을 사용하여 조건을 추가하여 콘텐츠를 조건화할 수 있습니다. 그런 다음 컨텐츠를 생성하기 위해 선택해야 하는 조건과 최종 출력에서 제외해야 하는 조건을 지정하는 DITAVAL 파일을 만듭니다.
 
-AEM Guides을 사용하면 DITAVAL 편집기를 사용하여 DITAVAL 파일을 쉽게 만들고 편집할 수 있습니다. DITAVAL 편집기는 시스템에 정의된 \(또는 tags\) 속성을 검색하며, 이 속성을 사용하여 DITAVAL 파일을 만들거나 편집할 수 있습니다. AEM에서 태그를 만들고 관리하는 방법에 대한 자세한 내용은 AEM 설명서의 [태그 관리](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=ko) 섹션을 참조하십시오.
+AEM Guides을 사용하면 DITAVAL 편집기를 사용하여 DITAVAL 파일을 쉽게 만들고 편집할 수 있습니다. DITAVAL 편집기는 시스템에 정의된 \(또는 tags\) 속성을 검색하며, 이 속성을 사용하여 DITAVAL 파일을 만들거나 편집할 수 있습니다. AEM에서 태그를 만들고 관리하는 방법에 대한 자세한 내용은 AEM 설명서의 [태그 관리](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) 섹션을 참조하십시오.
 
 ## DITAVAL 파일 만들기
 
@@ -63,13 +69,13 @@ DITAVAL 파일을 편집하려면 다음 단계를 수행하십시오.
    DITAVAL 편집기를 사용하여 다음 작업을 수행할 수 있습니다.
 
    A: 왼쪽 패널 전환
-왼쪽 패널 보기를 전환합니다. DITA 맵을 통해 DITAVAL 파일을 연 경우 이 패널에 맵과 저장소가 표시됩니다. DITA 맵을 통해 파일을 여는 방법에 대한 자세한 내용은 [DITA 맵을 통해 주제 편집](map-editor-advanced-map-editor.md#id17ACJ0F0FHS)을 참조하십시오.
+   왼쪽 패널 보기를 전환합니다. DITA 맵을 통해 DITAVAL 파일을 연 경우 이 패널에 맵과 저장소가 표시됩니다. DITA 맵을 통해 파일을 여는 방법에 대한 자세한 내용은 [DITA 맵을 통해 주제 편집](map-editor-advanced-map-editor.md#id17ACJ0F0FHS)을 참조하십시오.
 
    B: 저장
-파일에서 변경한 사항을 저장합니다. 모든 변경 사항은 파일의 현재 버전에 저장됩니다.
+   파일에서 변경한 사항을 저장합니다. 모든 변경 사항은 파일의 현재 버전에 저장됩니다.
 
    C: 속성 추가
-DITAVAL 파일에 단일 속성을 추가합니다.
+   DITAVAL 파일에 단일 속성을 추가합니다.
 
    ![](images/ditaval-editor-props.png)
 
@@ -78,7 +84,7 @@ DITAVAL 파일에 단일 속성을 추가합니다.
    두 번째 드롭다운 목록에는 선택한 속성에 대해 구성된 값이 표시됩니다. 그런 다음 다음 드롭다운 목록에 선택한 속성에서 구성할 수 있는 작업이 표시됩니다. 작업 드롭다운에서 허용되는 값은 `include`, `exclude`, `passthrough` 및 `flag`입니다. 이러한 값에 대한 자세한 내용은 OASIS DITA 설명서에서 [prop](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop) 요소의 정의를 참조하십시오
 
    D: 모든 속성 추가
-한 번의 클릭으로 시스템에 정의된 모든 조건부 속성이나 속성을 추가하려면 모든 속성 추가 기능을 사용합니다.
+   한 번의 클릭으로 시스템에 정의된 모든 조건부 속성이나 속성을 추가하려면 모든 속성 추가 기능을 사용합니다.
 
    >[!NOTE]
    >

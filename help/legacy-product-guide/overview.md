@@ -5,28 +5,39 @@ feature: AEM Guides Tutorials
 role: User
 hide: true
 exl-id: de7bda03-371b-4414-846b-86787f98fda8
-TQID: https://experienceleague.adobe.com/wg4LIw7BOdNUs-yeyU0GTPJoDN4rsOQbVlmGiTiYAUE
+TQID: 'https://experienceleague.adobe.com/wg4LIw7BOdNUs-yeyU0GTPJoDN4rsOQbVlmGiTiYAUE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
+  - id: f5449061-fbde-4905-be99-034c1b054385
+    internal-label: AEM Guides tutorials
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Content reuse
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 269
+source-wordcount: '269'
 ht-degree: 13%
-
 ---
-
 # AEM Guides 개요
 
 [!DNL Experience Manager Guides]&#x200B;(이하 _[!DNL AEM Guides]_)은(는) 강력한 엔터프라이즈급 구성 요소 콘텐츠 관리 솔루션(CCMS)입니다. Experience Manager의 기본 DITA 지원을 활성화하여 AEM에서 DITA 기반 콘텐츠 생성 및 전달을 처리할 수 있도록 촉진합니다. 작성자는 Adobe FrameMaker 또는 사용하기 쉬운 내장 웹 편집기와 같은 오프라인 DITA 작성 도구를 사용하여 컨텐츠를 만들 수 있습니다.
@@ -41,6 +52,6 @@ ht-degree: 13%
 
 ## 추가 리소스
 
-* [[!DNL AEM Guides] 사용 안내서(새 UI)](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/overview)
-* [[!DNL AEM Guides] 학습 및 지원](https://helpx.adobe.com/kr/support/xml-documentation-for-experience-manager.html)
-* [Experience League - AEM 살펴보기](https://business.adobe.com/kr/products/experience-manager/adobe-experience-manager.html)
+* [[!DNL AEM Guides] 사용 안내서(새 UI)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)
+* [[!DNL AEM Guides] 학습 및 지원](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
+* [Experience League - AEM 살펴보기](https://business.adobe.com/products/experience-manager/adobe-experience-manager.html)

@@ -5,20 +5,35 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 42f1ee19-cc59-49da-b882-5d97ec387df6
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '1710'
+source-wordcount: '1728'
 ht-degree: 0%
-
 ---
-
 # 도구 모음 사용자 지정 {#id172FB00L0V6}
 
 기본적으로 편집기는 DITA 편집기에 필요한 가장 일반적인 편집 기능과 함께 제공됩니다. 편집기에서 유형 목록 \(번호 매기기 또는 글머리 기호\), 상호 참조, 콘텐츠 참조, 표, 단락 및 문자 서식의 요소 삽입과 같은 기능을 사용할 수 있습니다. 이러한 기본 요소 외에도 작성 환경에서 사용되는 요소를 삽입하도록 편집기를 사용자 지정할 수 있습니다.
 
 >[!NOTE]
 >
-> 이전 UI에서 새 AEM Guides UI(AEM Guides의 2502 및 5.0 릴리스에서 적용 가능)로 마이그레이션할 때 `ui_config`에 대한 업데이트를 보다 유연하고 모듈식 UI 구성으로 변환해야 합니다. 이 프레임워크를 사용하면 해당하는 경우 editor_toolbar 및 기타 대상 위젯에 변경 사항을 원활하게 적용할 수 있습니다. 자세한 내용은 [UI 구성 전환 개요](https://experienceleague.adobe.com/ko/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config)를 참조하세요.
+> 이전 UI에서 새 AEM Guides UI(AEM Guides의 2502 및 5.0 릴리스에서 적용 가능)로 마이그레이션할 때 `ui_config`에 대한 업데이트를 보다 유연하고 모듈식 UI 구성으로 변환해야 합니다. 이 프레임워크를 사용하면 해당하는 경우 editor_toolbar 및 기타 대상 위젯에 변경 사항을 원활하게 적용할 수 있습니다. 자세한 내용은 [UI 구성 전환 개요](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config)를 참조하세요.
 
 편집기 도구 모음을 사용자 지정하는 방법에는 두 가지가 있습니다.
 
@@ -55,16 +70,16 @@ Experience Manager Guides 설정을 기반으로 Cloud Service 또는 온프레�
    **항목**: 도구 모음에 있는 모든 그룹의 정의를 지정합니다. 각 그룹에는 하나 이상의 도구 모음 아이콘이 포함될 수 있습니다. 도구 모음 그룹 내에서 아이콘을 정의하려면 `items` 내에서 `type` 특성을 다시 정의하고 해당 값을 `buttonGroup`(으)로 설정해야 합니다. `extraclass` 속성에 하나 이상의 클래스 이름을 지정하십시오. `label` 속성에 기능 이름을 지정하십시오. `ui_config.json` 파일의 다음 코드 조각은 기본 도구 모음 블록에 대한 정의 다음에 `buttonGroup` 정의를 표시합니다.
 
        &quot;
-     &quot;toolbar&quot;: &lbrace;
+     &quot;toolbar&quot;: {
      &quot;type&quot;: &quot;blockGroup&quot;,
      &quot;extraclass&quot;:
      &quot;toolbar operations&quot;,
-     &quot;items&quot;: &lbrack;
-     &lbrace;
+     &quot;items&quot;: [
+     {
      &quot;type&quot;: &quot;buttonGroup&quot;,
      &quot;extraclass&quot;: &quot;left-controls&quot;,
      &quot;label&quot;: &quot;Left Controls&quot;,
-     &quot;items&quot;: &lbrack;
+     &quot;items&quot;: [
      &quot;
    
    `items` 컬렉션 내에서 하나 이상의 도구 모음 아이콘에 대한 정의를 지정해야 합니다.
@@ -153,7 +168,7 @@ Experience Manager Guides 설정을 기반으로 Cloud Service 또는 온프레�
      ```
 
      `items` 컬렉션 내에서 하나 이상의 도구 모음 아이콘에 대한 정의를 지정해야 합니다.
-도구 모음 아이콘을 추가하려면 다음 속성을 정의해야 합니다.
+     도구 모음 아이콘을 추가하려면 다음 속성을 정의해야 합니다.
 
    - **type:** `button`을(를) `type` 값으로 지정합니다. 이 값은 도구 모음 단추를 추가하고 있음을 나타냅니다.
 

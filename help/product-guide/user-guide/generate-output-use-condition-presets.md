@@ -4,24 +4,32 @@ description: AEM Guides에서 조건 사전 설정의 사용을 알 수 있습�
 exl-id: f6865a34-abdd-4d23-b903-0211bebd13b7
 feature: Publishing
 role: User
-TQID: https://experienceleague.adobe.com/IKcIREoHuXjW-uUDFS6ifRhjzzUoKCXPMW5ip2OKBZU
+TQID: 'https://experienceleague.adobe.com/IKcIREoHuXjW-uUDFS6ifRhjzzUoKCXPMW5ip2OKBZU'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1154
+source-wordcount: '1154'
 ht-degree: 2%
-
 ---
-
 # 조건 사전 설정 사용 {#id1825FL004PN}
 
 DITA 주제에서 속성을 정의하고 조건 사전 설정을 사용하여 최종 출력에서 속성이 발생하는 상황을 지정할 수 있습니다. 예를 들어 컨텐츠에 속성을 버전 1.0 및 버전 2.0으로 추가하고, 조건 사전 설정을 사용하여 릴리스 1.0의 버전 1.0을 포함하고 버전 2.0을 제외할 수 있습니다. 마찬가지로 속성에 OS Windows 및 OS Linux를 추가한 다음 운영 체제에 따라 최종 출력에 관련 컨텐츠를 포함하거나 제외할 수 있습니다.
@@ -70,7 +78,7 @@ Experience Manager Guides을 사용하면 맵 콘솔에서 조건 사전 설정�
 1. (선택 사항) 필요한 경우 속성에 적용된 작업을 재정의할 수 있습니다.
 
    다음 중 하나를 수행하십시오.
-속성에 대해 작업 드롭다운 또는 도구 모음에서 다음 작업 중 하나를 선택합니다.
+   속성에 대해 작업 드롭다운 또는 도구 모음에서 다음 작업 중 하나를 선택합니다.
 
    - 포함
    - 제외
@@ -134,7 +142,7 @@ Experience Manager Guides을 사용하면 맵 콘솔에서 조건 사전 설정�
    - 제외
    - 통과
    - 플래그
-작업은 조건 사전 설정에 추가되는지 여부에 관계없이 모든 속성에 대한 기본 작업으로 설정됩니다.
+     작업은 조건 사전 설정에 추가되는지 여부에 관계없이 모든 속성에 대한 기본 작업으로 설정됩니다.
 
    예를 들어 문서에 15개의 조건 속성이 있고 이 중 4개를 조건 사전 설정에 포함했습니다. **exclude**&#x200B;을(를) 기본 작업으로 선택하면 15개의 모든 특성에 적용됩니다.
 
@@ -180,4 +188,4 @@ DITA 맵 콘솔의 **조건 사전 설정** 탭에서 하나 이상의 조건 �
 1. **제거** 단추를 선택하십시오.
 1. **제거**&#x200B;를 선택하여 작업을 확인합니다.
 
-**상위 항목:**&#x200B;[&#x200B;출력 생성](generate-output.md)
+**상위 항목:**[&#x200B;출력 생성](generate-output.md)

@@ -5,25 +5,32 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: 4e47536a-ad78-4c97-9cea-a6af854f6e2f
-TQID: https://experienceleague.adobe.com/lkdspw-tp-2yG1e00tAsgIS-TJQFZLHrqQGxxPDgVYQ
+TQID: 'https://experienceleague.adobe.com/lkdspw-tp-2yG1e00tAsgIS-TJQFZLHrqQGxxPDgVYQ'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: 72792fc7-6fd6-5775-a2c2-99253bb26dc2
+    internal-label: Reviewing
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 2775
+source-wordcount: '2775'
 ht-degree: 0%
-
 ---
-
 # 검토할 항목 보내기 {#id199RD0S035Z}
 
 검토 워크플로우는 개시자가 검토할 주제 목록을 지정하고, 여러 검토자를 추가하고, 검토 작업에 대한 타임라인을 지정하는 다중 검토자 환경을 만듭니다. AEM Guides을 사용하면 Authors 및 Publishers 그룹에 속한 사용자가 검토를 시작할 수 있습니다.
@@ -278,4 +285,4 @@ AEM Guides을 사용하면 DITA 맵에서 하나 이상의 주제를 동시에 �
 
 모든 검토자에게 검토를 위한 항목이 할당되었음을 알리는 이메일이 전송됩니다. 이메일에는 브라우저 창에서 클릭하여 주제에 액세스할 수 있는 직접 링크가 포함되어 있습니다. DITA 맵과 함께 주제가 검토 모드에서 열립니다.
 
-**상위 항목:**&#x200B;[&#x200B;항목 또는 맵 검토](review.md)
+**상위 항목:**[&#x200B;항목 또는 맵 검토](review.md)

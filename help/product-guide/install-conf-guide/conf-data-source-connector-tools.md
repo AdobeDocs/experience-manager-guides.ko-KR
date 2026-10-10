@@ -5,13 +5,28 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: ea09ea67-3051-4231-90e2-3b8a3ceb9270
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1240'
 ht-degree: 0%
-
 ---
-
 # 사용자 인터페이스에서 데이터 소스 커넥터 구성
 
 Experience Manager Guides에는 데이터 소스에 대한 기본 제공 커넥터를 구성하는 데 도움이 되는 **데이터 소스** 도구가 포함되어 있습니다. JIRA, SQL(MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce, Elasticsearch 및 Generic REST 클라이언트 커넥터를 설정할 수 있습니다.
@@ -169,4 +184,4 @@ Experience Manager Guides 설정을 기반으로 커넥터를 구성하는 지�
 
 데이터 소스를 구성하면 커넥터가 편집기의 **데이터 소스 패널** 아래에 나열됩니다. 그런 다음 데이터 소스에 연결하고 주제에 콘텐츠 스니펫을 삽입할 수 있습니다. 자세한 내용은 [데이터 원본에서 콘텐츠 조각 삽입](../user-guide/web-editor-content-snippet.md)을 참조하세요.
 
-온-프레미스 설정에서만 사용자 지정 커넥터를 만들고 다른 데이터 소스와 함께 사용할 수 있습니다. [사용자 지정 커넥터를 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/knowledge-base/kb-articles/external-data-source/conf-custom-data-source-connector)하는 방법을 알아봅니다.
+온-프레미스 설정에서만 사용자 지정 커넥터를 만들고 다른 데이터 소스와 함께 사용할 수 있습니다. [사용자 지정 커넥터를 구성](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/external-data-source/conf-custom-data-source-connector)하는 방법을 알아봅니다.

@@ -5,24 +5,36 @@ exl-id: 02da0e61-7a73-4c4c-9bd7-2664d90fa728
 feature: InDesign File Conversion
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/cfaAR6ieDyb5pmbXcAcxzXzHj0mGoJyX5QYg9O4InY8
+TQID: 'https://experienceleague.adobe.com/cfaAR6ieDyb5pmbXcAcxzXzHj0mGoJyX5QYg9O4InY8'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: f118db50-bb08-4bfa-a602-3b196f1f8882
+    internal-label: InDesign file conversion
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Troubleshooting
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 2865
+source-wordcount: '2865'
 ht-degree: 0%
-
 ---
-
 # 부록 {#id195AD0L60Y4}
 
 ## InDesign 파일 변환 준비 {#id195DBF0045Z}
@@ -321,8 +333,8 @@ InDesign 표 스타일을 사용하면 열과 셀의 규칙을 교대로 반복�
 - `@mapTo`: DITA 대상 요소의 이름입니다.
 
 - `@context`: 두 개 이상의 래퍼 선택을 사용할 수 있는 경우 이 특성을 사용하여 특정 **wrap** 규칙에 연결합니다. 예: `li` 요소는 `ol` 또는 `ul` 요소에 래핑될 수 있습니다. 다른 목록 유형을 식별하기 위해 다음을 표시할 수 있는 특정 스타일 이름 또는 `@local` 특성을 사용할 수 있습니다.
-   - `local="p[-|-|-|-|-|b|-|-]"` 필드 6의 &#39;`b`&#39;이(가) 글머리 기호 목록 항목을 나타내는 경우 이 경우 `@context`을(를) &#39;`bullet`&#39;(으)로 설정합니다.
-   - `local="p[-|-|-|-|-|n|-|-]"` 필드 6의 &#39;`n`&#39;이(가) 번호 매기기 목록 항목을 나타내는 경우 이 경우 `@context`을(를) &#39;`number`&#39;(으)로 설정합니다.
+  - `local="p[-|-|-|-|-|b|-|-]"` 필드 6의 &#39;`b`&#39;이(가) 글머리 기호 목록 항목을 나타내는 경우 이 경우 `@context`을(를) &#39;`bullet`&#39;(으)로 설정합니다.
+  - `local="p[-|-|-|-|-|n|-|-]"` 필드 6의 &#39;`n`&#39;이(가) 번호 매기기 목록 항목을 나타내는 경우 이 경우 `@context`을(를) &#39;`number`&#39;(으)로 설정합니다.
 
 - `@commentOut`: 이 특성을 사용하면 XML 주석에서 대상 요소를 래핑할 수 있으므로 정보가 손실되지 않지만 사용자가 수동으로 처리할 수 있습니다. 이 기능은 소스 컨텐트가 DITA 구조 규칙을 준수하도록 강제할 수 없는 경우에 유용합니다.
 
@@ -353,9 +365,9 @@ InDesign 표 스타일을 사용하면 열과 셀의 규칙을 교대로 반복�
 - `@local`: [\#id194CG0V005Z](#id194CG0V005Z)을(를) 참조하십시오.
 - `@mapTo`: DITA 대상 요소의 이름입니다.
 - `@refactor`: 이 선택적 특성은 다음 두 값을 선택할 수 있습니다.
-   - `unwrap`: 일치하는 요소는 해당 콘텐츠를 유지하는 동안 제거됩니다.
+  - `unwrap`: 일치하는 요소는 해당 콘텐츠를 유지하는 동안 제거됩니다.
 
-   - `drop`: 일치하는 요소와 모든 해당 콘텐츠가 제거됩니다.
+  - `drop`: 일치하는 요소와 모든 해당 콘텐츠가 제거됩니다.
 
 
 **특성 규칙**
@@ -385,11 +397,11 @@ InDesign 표 스타일을 사용하면 열과 셀의 규칙을 교대로 반복�
 > 이 요소에는 여러 하위 요소가 포함될 수 있습니다.
 
 - `addNew`: 일치하는 요소에 새 특성을 추가합니다. 모든 컨텍스트에 사용 가능합니다. 여기에는 두 가지 속성이 있습니다.
-   - `@name`: 올바른 XML 이름이어야 합니다. DITA 컨텍스트에 적합한 것이 좋습니다.
-   - `@value`: 리터럴 텍스트나 간단한 XPath 식일 수 있습니다.
+  - `@name`: 올바른 XML 이름이어야 합니다. DITA 컨텍스트에 적합한 것이 좋습니다.
+  - `@value`: 리터럴 텍스트나 간단한 XPath 식일 수 있습니다.
 - `copyAtt`: 프로세스에서 필요에 따라 이름을 바꾸는 동안 단일 특성을 대상에 복사합니다. 값은 변경되지 않습니다. `mapDoctypeParaRule`, `mapDoctypeElemRule`, `doctypeElemRule` 및 `elementRule` 컨텍스트에서 사용할 수 있습니다. 이 요소가 있으면 `@copyAllAtts` 값은 `false`(으)로 간주됩니다. 여기에는 두 가지 속성이 있습니다.
-   - `@name`: 원본 XML 요소에 있는 특성의 이름이어야 합니다.
-   - `@mapTo`: 올바른 XML 이름이어야 합니다. DITA 컨텍스트에 적합한 것이 좋습니다.
+  - `@name`: 원본 XML 요소에 있는 특성의 이름이어야 합니다.
+  - `@mapTo`: 올바른 XML 이름이어야 합니다. DITA 컨텍스트에 적합한 것이 좋습니다.
 
 **로컬 서식 코드**
 
@@ -437,9 +449,9 @@ InDesign 표 스타일을 사용하면 열과 셀의 규칙을 교대로 반복�
 
 - `@refactor`: 이 선택적 특성은 다음 두 값을 선택할 수 있습니다.
 
-   - `unwrap`: 일치하는 요소는 해당 콘텐츠를 유지하는 동안 제거됩니다.
+  - `unwrap`: 일치하는 요소는 해당 콘텐츠를 유지하는 동안 제거됩니다.
 
-   - `drop`: 일치하는 요소와 모든 해당 콘텐츠가 제거됩니다.
+  - `drop`: 일치하는 요소와 모든 해당 콘텐츠가 제거됩니다.
 
 - `@context`: 두 개 이상의 래퍼 선택을 사용할 수 있는 경우 이 특성을 사용하여 특정 래핑 규칙에 연결합니다. 예: `li` 요소는 `ol` 또는 `ul` 요소에 래핑될 수 있습니다.
 
@@ -464,7 +476,7 @@ AEM Guides을 설치하고 구성했으면 문제를 해결할 수 있습니다.
 1. 유효성 검사 스크립트 \[`/bin/fmdita/validatebtree?operation=validate`\]를 실행하여 끊어진 새 참조가 있는지 확인합니다.
 1. 유효성 검사 스크립트에서 오류가 보고되는 경우 패치 스크립트를 사용하여 패치할 수 있습니다.
 1. 아래에 제공된 세부 정보를 기록하고 필요한 경우 고객 성공 팀과 공유하십시오.
-1. &#x200B;
+1. 
    - 유효성 확인 스크립트로 인쇄된 로그
 - &quot;`/content/fmdita/references`&quot;의 패키지
 - 보고된 시나리오에 따른 기타 필수 세부 정보
@@ -478,7 +490,7 @@ AEM Guides을 설치하고 구성했으면 문제를 해결할 수 있습니다.
    **&#x200B;참고:* 참조용으로 로그를 복사하고 저장하는 것이 좋습니다.
 
 1. 패치 스크립트가 성공적으로 실행되면 다음 검사를 수행할 수 있습니다.
-1. &#x200B;
+1. 
    - `/content/fmdita`에 새 노드 &quot;`references_backup_<timestamp>"`&quot;이(가) 생성되었는지 확인
 - 참조가 수정되었는지 확인합니다.
 

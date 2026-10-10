@@ -5,19 +5,28 @@ exl-id: 2335a7d5-251b-4266-8bba-9c9935e7bbf4
 feature: Output Generation
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/Tl18qyeww079p8XGKwbKTN8TvoZLb-q9mPQ-8q660Dc
+TQID: 'https://experienceleague.adobe.com/Tl18qyeww079p8XGKwbKTN8TvoZLb-q9mPQ-8q660Dc'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+subfeature_v2:
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1891'
 ht-degree: 0%
@@ -132,7 +141,7 @@ Experience Manager Guides에서는 선택한 언어에 있는 언어 변수를 �
 >[!NOTE]
 > 
 ><ul><li>파일이 XML 파일이 아니거나 파일에 언어 변수와 매핑되지 않는 잘못된 형식이 포함되어 있으면 XML 파일에 문제가 있다는 오류가 표시됩니다. 
->&gt;<li>파일에 동일한 ID를 가진 변수가 없으면 가져온 파일에 일치하는 언어 변수가 없다는 경고가 표시됩니다.
+&gt;<li>파일에 동일한 ID를 가진 변수가 없으면 가져온 파일에 일치하는 언어 변수가 없다는 경고가 표시됩니다.
 
 ### 언어 변수 옵션
 
@@ -140,9 +149,9 @@ Experience Manager Guides에서는 선택한 언어에 있는 언어 변수를 �
 
 <img width="550" alt="언어 변수의 옵션 메뉴" src="./assets/language-variable-user-options.png">
 
-*언어 변수를 삭제, 미리 보거나 복제하려면&#x200B;**옵션**&#x200B;메뉴를 사용합니다.*
+*언어 변수를 삭제, 미리 보거나 복제하려면&#x200B;**옵션**메뉴를 사용합니다.*
 
-응용 프로그램 변수와 사용자 변수를 모두 미리 볼 수 있습니다. 변수 값이 출력에 표시되는 방식을 보려면 선택한 변수의 **옵션** 메뉴에서 **미리 보기**&#x200B;를 선택하십시오.
+응용 프로그램 변수와 사용자 변수를 모두 미리 볼 수 있습니다. 변수 값이 출력에 표시되는 방식을 보려면 선택한 변수의 **옵션** 메뉴에서 **미리 보기**를 선택하십시오.
 사용자 변수를 **삭제** 또는 **복제**&#x200B;하도록 선택할 수도 있습니다. 한 언어에서 변수를 삭제하면 모든 언어에서 자동으로 삭제됩니다.
 
 ### 응용 프로그램 변수 편집 또는 되돌리기

@@ -4,23 +4,29 @@ description: AEM Guides에서 파일 및 폴더를 관리하는 방법에 대해
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-TQID: https://experienceleague.adobe.com/mI3V4UN3L9sHBCY89xOyOmR5UANb0Ko7Fg1CWi4Tkhc
+TQID: 'https://experienceleague.adobe.com/mI3V4UN3L9sHBCY89xOyOmR5UANb0Ko7Fg1CWi4Tkhc'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: 2afda568-c433-5cad-ab97-19b8847286b0
+    internal-label: Content Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c6cc5b187f72c1da1dc6f28186047989c3c1faa1
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 3195
+source-wordcount: '3213'
 ht-degree: 0%
-
 ---
-
 # 파일 및 폴더 관리 {#id2116G0L08XA}
 
 이 섹션에서는 Adobe Experience Manager Guides이 파일 복사, 붙여넣기, 드래그 앤 드롭 및 삭제와 같은 기본 파일 작업을 처리하는 방법에 대해 설명합니다. 다음과 같은 시나리오가 가능합니다.
@@ -333,4 +339,4 @@ Adobe Experience Manager 저장소에서 파일을 삭제하는 것은 시스템
    ![](images/media-version-preview.png){width="650" align="center"}
 
 
-**상위 항목:**&#x200B;[&#x200B;콘텐츠 관리](authoring.md)
+**상위 항목:**[&#x200B;콘텐츠 관리](authoring.md)

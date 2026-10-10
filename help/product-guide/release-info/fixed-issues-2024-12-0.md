@@ -2,13 +2,19 @@
 title: 릴리스 정보 | Adobe Experience Manager Guides 2024.12.0 릴리스의 문제가 해결되었습니다.
 description: Adobe Experience Manager Guides as a Cloud Service 2024.12.0 릴리스의 버그 수정에 대해 알아봅니다.
 exl-id: 04a57e1a-6e74-46f6-acde-5045d3dcacdc
-source-git-commit: dd404c42863f0b4a5f31b54f770c0bf296d68ab9
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 3%
-
 ---
-
 # 2024.12.0 릴리스의 문제가 해결되었습니다.
 
 이 문서에서는 Adobe Experience Manager Guides as a Cloud Service의 2024.12.0 릴리스의 다양한 영역에서 수정된 버그를 다룹니다.
@@ -59,7 +65,7 @@ Adobe은 Adobe Experience Manager Guides as a Cloud Service의 2024.12.0 릴리�
 
 **해결 방법**: 이 문제를 해결하려면 다음 해결 단계를 수행하십시오.
 
-1. Repoinit 파일을 추가합니다. 파일이 없는 경우 [샘플 repoinit 구성 만들기 단계](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-cloud-questions/repoinit-configuration-for-property-set-on-aem-as-cloud-service/m-p/438854?profile.language=ko)를 수행하여 파일을 만드십시오.
+1. Repoinit 파일을 추가합니다. 파일이 없는 경우 [샘플 repoinit 구성 만들기 단계](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-cloud-questions/repoinit-configuration-for-property-set-on-aem-as-cloud-service/m-p/438854)를 수행하여 파일을 만드십시오.
 2. 파일에 다음 줄을 추가하고 코드를 배포합니다.
 
    ```

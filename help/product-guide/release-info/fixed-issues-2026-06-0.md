@@ -1,13 +1,19 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides, 2026.06.0 릴리스의 문제가 해결되었습니다.
 description: Adobe Experience Manager Guides as a Cloud Service 2026.06.0 릴리스의 버그 수정에 대해 알아봅니다.
-source-git-commit: 318f2b7a530e50ca4432313650801b2293d6697e
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '2171'
 ht-degree: 0%
-
 ---
-
 # 2026.06.0 릴리스의 문제가 해결되었습니다.
 
 이 문서에서는 Adobe Experience Manager Guides as a Cloud Service의 2026.06.0 릴리스의 다양한 영역에서 수정된 버그를 다룹니다.
@@ -63,10 +69,10 @@ ht-degree: 0%
 - 기존 구성 요소 매핑을 사용하여 AEM Sites에 `processing-role=resource-only` 요소가 있는 DITA 맵을 게시하면 `topicgroup` 요소 및 특정 콘텐츠 구성과 같은 추가 시나리오에서 해당 요소에 대해 분리된 사이트 페이지가 생성됩니다. (GUIDES-37650)
 - 이름이 긴 맵을 맵 컬렉션에 추가하면 맵 컬렉션 UI가 왜곡된 레이아웃으로 렌더링됩니다. 이 문제는 새 맵 컬렉션으로 해결되었습니다. (GUIDES-42062)
 - 기본 PDF 엔진 v1을 사용하여 게시:
-   - 특정 컨텐츠에 대한 기본 PDF 출력을 생성할 때, 여러 페이지에 걸쳐 전체 컨텐츠가 들어 있는 중간 HTML에도 불구하고 PDF에서 첫 번째 페이지만 렌더링됩니다. (GUIDES-28270)
-   - 접근성 설정이 활성화된 기본 PDF 출력의 콘텐츠 읽기 순서가 잘못되었습니다. 바닥글의 페이지 번호는 끝이 아닌 기본 콘텐츠 앞에 읽혀집니다. (GUIDES-27790)
-   - 기본 PDF 출력의 색상 막대는 전체 페이지 너비를 넘지 않고 페이지 크기를 사용자 지정할 때 겹쳐 일부 색상 상자가 숨겨집니다. (GUIDES-15505)
-   - CSS `:is()` 의사(pseudo) 클래스 선택기가 기본 PDF 출력에서 사용되지 않으므로 브라우저 렌더링과 스타일이 다릅니다. (GUIDES-11328)
+  - 특정 컨텐츠에 대한 기본 PDF 출력을 생성할 때, 여러 페이지에 걸쳐 전체 컨텐츠가 들어 있는 중간 HTML에도 불구하고 PDF에서 첫 번째 페이지만 렌더링됩니다. (GUIDES-28270)
+  - 접근성 설정이 활성화된 기본 PDF 출력의 콘텐츠 읽기 순서가 잘못되었습니다. 바닥글의 페이지 번호는 끝이 아닌 기본 콘텐츠 앞에 읽혀집니다. (GUIDES-27790)
+  - 기본 PDF 출력의 색상 막대는 전체 페이지 너비를 넘지 않고 페이지 크기를 사용자 지정할 때 겹쳐 일부 색상 상자가 숨겨집니다. (GUIDES-15505)
+  - CSS `:is()` 의사(pseudo) 클래스 선택기가 기본 PDF 출력에서 사용되지 않으므로 브라우저 렌더링과 스타일이 다릅니다. (GUIDES-11328)
 
   >[!NOTE]
   >

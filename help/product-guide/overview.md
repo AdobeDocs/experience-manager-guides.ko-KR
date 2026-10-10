@@ -4,34 +4,51 @@ description: 'Experience Manager Guides(이전 명칭: Adobe Experience Manager�
 exl-id: 06dd1b77-1a98-430f-8322-475d4fa4947b
 feature: AEM Guides Tutorials
 role: User
-TQID: https://experienceleague.adobe.com/S4wTM-7gfU7D-JfKVbb9nK3qoQIG6PdiY7jtpsc6kDs
+TQID: 'https://experienceleague.adobe.com/S4wTM-7gfU7D-JfKVbb9nK3qoQIG6PdiY7jtpsc6kDs'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
   - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
 subfeature_v2:
   - id: aad65a09-20cc-4780-ad44-329d14dc8481
+    internal-label: Workflows
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
   - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f5449061-fbde-4905-be99-034c1b054385
+    internal-label: AEM Guides tutorials
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+    internal-label: Content reuse
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 370
+source-wordcount: '370'
 ht-degree: 10%
-
 ---
-
 # Experience Manager Guides 설명서
 
 [!DNL Experience Manager Guides]은(는) 강력한 엔터프라이즈급 CCMS(구성 요소 콘텐츠 관리 솔루션)입니다. Experience Manager의 기본 DITA 지원을 활성화하여 AEM에서 DITA 기반 콘텐츠 생성 및 전달을 처리할 수 있도록 촉진합니다. 작성자는 Adobe FrameMaker 또는 사용하기 쉬운 기본 편집기 등의 오프라인 DITA 작성 도구를 사용하여 컨텐츠를 만들 수 있습니다.
@@ -46,22 +63,22 @@ ht-degree: 10%
 
 ## 새로운 기능
 
-* **[[!DNL Experience Manager Guides] 과정 시작](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/getting-started/overview.html?lang=ko){target="blank"}**
+* **[[!DNL Experience Manager Guides] 과정 시작](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/getting-started/overview.html){target="blank"}**
 
   _[!DNL Adobe Experience Manager Guides]을(를) 사용하여 콘텐츠를 만들고, 구성하고, 작성하고, 게시하는 방법에 대해 알아봅니다._
 
-* **[[!DNL Experience Manager Guides] 기본 제공 편집기에서 작성](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=ko){target="blank"}**
+* **[[!DNL Experience Manager Guides] 기본 제공 편집기에서 작성](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html){target="blank"}**
 
   _[!DNL Adobe Experience Manager Guides]에서 기본 편집기를 사용하여 콘텐츠를 작성하는 방법에 대해 알아봅니다. 사용자 환경 설정, 편집기 설정, 구성, 도구 모음 등을 완벽하게 이해합니다._
 
-* **[출력 생성( [!DNL Experience Manager Guides]](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/overview.html?lang=ko){target="blank"}**)
+* **[출력 생성( [!DNL Experience Manager Guides]](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/overview.html){target="blank"}**)
 
   _[!DNL Adobe Experience Manager Guides]을(를) 사용하여 출력을 생성하는 방법에 대해 알아봅니다. 보고서, 기준선, 조건, 문제 해결, 벌크 게시 및 활성화와 같이 출력 생성에 사용할 수 있는 다양한 기능에 대해 알아봅니다._
 
 
 ## 추가 리소스
 
-* [[!DNL Experience Manager Guides] 사용 안내서(이전 UI)](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+* [[!DNL Experience Manager Guides] 사용 안내서(이전 UI)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 * [[!DNL AEM Guides] 학습 및 지원](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
-* [Experience League - AEM 살펴보기](https://business.adobe.com/kr/products/experience-manager/adobe-experience-manager.html)
+* [Experience League - AEM 살펴보기](https://business.adobe.com/products/experience-manager/adobe-experience-manager.html)
 

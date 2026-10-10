@@ -3,13 +3,19 @@ title: 릴리스 정보 | Adobe Experience Manager Guides 2026.04.0 릴리스의
 description: Adobe Experience Manager Guides 2026.04.0 릴리스의 새로운 기능과 향상된 기능에 대해 알아봅니다
 role: Leader
 exl-id: 39b73511-a324-461d-b569-b3b215988890
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 0%
-
 ---
-
 # 2026.04.0 릴리스(2026년 4월)의 새로운 기능
 
 이 문서에서는 Adobe Experience Manager Guides as a Cloud Service 2026.04.0 릴리스와 함께 도입된 새로운 기능 및 향상된 기능을 다룹니다.

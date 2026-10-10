@@ -5,20 +5,25 @@ feature: Translation
 role: User, Admin
 author: Pulkit Nagpal (punagpal)
 exl-id: d7e4f3ae-2143-4767-b7ab-c89f5e5eef59
-TQID: https://experienceleague.adobe.com/n6-b3-ZsOIueVYWgcm1NkDLKRAOwQhWxctbgj7Q6P1U
+TQID: 'https://experienceleague.adobe.com/n6-b3-ZsOIueVYWgcm1NkDLKRAOwQhWxctbgj7Q6P1U'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 626b0638-bd2d-504c-8ccd-53d63b856710
+    internal-label: Translation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 4f263fb5c60be66c1ec2d30d57dfb8f5be06eb92
+    internal-label: Admin
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 289
+source-wordcount: '289'
 ht-degree: 0%
-
 ---
-
 # AEM Guides에서 번역을 위해 따라야 할 모범 사례
 
 시간이 지남에 따라 시스템의 번역 활동이 증가함에 따라 번역 프로젝트의 성능이 감소할 수 있습니다.
@@ -31,11 +36,11 @@ ht-degree: 0%
 
 - 번역이 완료되고 승인되면 모든 프로젝트를 &quot;비활성&quot;으로 표시합니다.이 프로젝트는 계속 검토 가능하며 비활성 상태로 표시됩니다.
   - 이러한 단계를 수행하면 전반적인 번역 성능을 양호한 상태로 유지하는 데 도움이 됩니다.
-    ![비활성 번역 프로젝트 &#x200B;](./assets/translation-project-image1.png)
+    ![비활성 번역 프로젝트 ](./assets/translation-project-image1.png)
 
 - 비활성, 승인 및 검토됨으로 표시된 이전 프로젝트 폴더의 경우 삭제해야 합니다.
   - 이러한 단계를 수행하면 이 프로젝트 폴더와 연결된 임시 번역 파일 및 사용자 그룹을 정리하여 전체 번역 성능을 정상적으로 유지할 수 있습니다.
-    ![번역 프로젝트 및 폴더 &#x200B;](./assets/translation-project-image2.png) 삭제
+    ![번역 프로젝트 및 폴더 ](./assets/translation-project-image2.png) 삭제
 
 
 ## 를 켜면 빌드 4.6 또는 2404 이상:
@@ -44,4 +49,4 @@ ht-degree: 0%
 
 참조: [완료된 번역 프로젝트를 자동으로 삭제하거나 사용하지 않도록 설정](../../../user-guide/translate-documents-web-editor.md#automatically-delete-or-disable-a-completed-translation-project)
 
-![AEM Guides &#x200B;](./assets/translation-project-image3.png)에서 번역 프로젝트를 삭제하고 사용하지 않도록 설정하는 자동화된 설정
+![AEM Guides ](./assets/translation-project-image3.png)에서 번역 프로젝트를 삭제하고 사용하지 않도록 설정하는 자동화된 설정

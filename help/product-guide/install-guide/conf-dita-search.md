@@ -5,25 +5,32 @@ exl-id: b920ba7f-e8fc-4af6-aa8a-b8516b1cffc0
 feature: Search Configuration
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/KIGBsoM0RSx7U8Woz5H49CRQ3iotlE2JwDtzJyuiDRg
+TQID: 'https://experienceleague.adobe.com/KIGBsoM0RSx7U8Woz5H49CRQ3iotlE2JwDtzJyuiDRg'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: c1a26c73-5f45-427a-a313-7cb7df2c304e
+    internal-label: Search configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1704
+source-wordcount: '1704'
 ht-degree: 1%
-
 ---
-
 # AEM Assets UI에 대한 검색 구성 {#id192SC800MY4}
 
 기본적으로 AEM은 DITA 콘텐츠를 인식하지 않으므로 저장소 내에서 DITA 콘텐츠를 검색하는 메커니즘을 제공하지 않습니다. AEM Guides을 사용하면 AEM 저장소에서 DITA 콘텐츠 검색 기능을 추가할 수 있습니다.
@@ -190,7 +197,7 @@ XPath 쿼리에는 문서 유형의 클래스 이름이 들어 있습니다. `to
 
 1. Adobe Experience Manager 웹 콘솔 구성 페이지를 엽니다. 구성 페이지에 액세스하기 위한 기본 URL은 다음과 같습니다.
 
-   http://&lt;server name\>:<port\>/system/console/configMgr
+   http://<server name\>:<port\>/system/console/configMgr
 
 1. *com.adobe.fmdita.config.ConfigManager* 번들을 검색하고 클릭합니다.
 
@@ -214,7 +221,7 @@ configMgr에서 메타데이터 추출 옵션을 활성화하려면 다음 단�
 
 1. Adobe Experience Manager 웹 콘솔 구성 페이지를 엽니다. 구성 페이지에 액세스하기 위한 기본 URL은 다음과 같습니다.
 
-   http://&lt;server name\>:<port\>/system/console/configMgr
+   http://<server name\>:<port\>/system/console/configMgr
 
 1. *com.adobe.fmdita.config.ConfigManager* 번들을 검색하고 클릭합니다.
 

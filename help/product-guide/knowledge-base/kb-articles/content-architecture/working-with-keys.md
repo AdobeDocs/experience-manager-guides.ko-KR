@@ -4,19 +4,26 @@ description: 조직 콘텐츠 간에 사용할 키를 만드는 방법
 role: Admin
 exl-id: b8e3a6d2-ea82-4fdb-bd16-3f4b6594af52
 feature: Use Keys in AEM Guides
-TQID: https://experienceleague.adobe.com/uWvlGyjI4b0Y6rFwhKNK4egq7p6-N4dql-AHnuwiDDo
+TQID: 'https://experienceleague.adobe.com/uWvlGyjI4b0Y6rFwhKNK4egq7p6-N4dql-AHnuwiDDo'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: acb2dac6-53bd-40fc-9ed3-b29fdd6136fd
+    internal-label: Use Keys in AEM Guides
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Admin
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 179
+source-wordcount: '179'
 ht-degree: 0%
-
 ---
-
 # 키 만들기
 
 여러 곳에서 사용되지만 쉽게 변경될 수 있는 제품 이름 또는 제품 소개와 같이 결과 가능하고 일반적인 텍스트가 있는 경우 키를 사용해야 합니다. 이러한 재사용 가능한 텍스트에 키를 사용하면 키 값과 같은 단일 위치에서 변경을 통해 여러 위치에서 업데이트를 푸시할 수 있습니다.

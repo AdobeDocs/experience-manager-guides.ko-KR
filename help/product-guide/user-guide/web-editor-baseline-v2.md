@@ -4,13 +4,29 @@ description: Adobe Experience Manager Guides의 맵 콘솔에서 새 기준선(B
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 exl-id: 574806bb-21c5-41fe-b8be-4c6506ce8cce
-source-git-commit: 5fe9e9476b001a1ad74c045bf05e3061702f5e42
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1409'
 ht-degree: 0%
-
 ---
-
 # Experience Manager Guides의 새 기준선(Beta)
 
 >[!NOTE]
@@ -136,10 +152,10 @@ ht-degree: 0%
   ![](images/baseline-v2-dynamic-baseline-new.png)
 
   새 베이스라인 모델을 사용하여 생성된 동적 베이스라인에 대해 도입된 새로운 옵션을 사용할 수도 있습니다.
-   - **속성 편집**: 기존 기준선의 속성을 편집할 수 있습니다.
-   - **다시 빌드**: 변경 사항이 발생할 때마다 동적 기준선을 다시 빌드할 수 있습니다.
+  - **속성 편집**: 기존 기준선의 속성을 편집할 수 있습니다.
+  - **다시 빌드**: 변경 사항이 발생할 때마다 동적 기준선을 다시 빌드할 수 있습니다.
 
-     ![다시 빌드-기준선](images/rebuild-baseline.png)
+    ![다시 빌드-기준선](images/rebuild-baseline.png)
 
 - **다운로드** 작업은 페이지 매김된 다운로드를 지원합니다. 적용된 필터와 일치하는 모든 기준선 콘텐츠는 현재 페이지에 표시되는 콘텐츠뿐만 아니라 다운로드에 포함됩니다.
 - 파일 이름 또는 파일 위치 외에 GUID로 파일을 필터링합니다. **레이블이 없는 파일을 필터링**&#x200B;하는 추가 옵션도 사용할 수 있습니다.
@@ -151,28 +167,28 @@ ht-degree: 0%
 
   베이스라인을 편집하려면 다음 단계를 수행하십시오.
 
-   - **기준선** 패널에서 기준선을 엽니다.
+  - **기준선** 패널에서 기준선을 엽니다.
 
-     베이스라인의 참조를 테이블 형식으로 볼 수 있습니다.
+    베이스라인의 참조를 테이블 형식으로 볼 수 있습니다.
 
-   - 편집할 파일로 이동하여 그 위에 놓습니다.
-   - **편집** 아이콘을 선택합니다.
+  - 편집할 파일로 이동하여 그 위에 놓습니다.
+  - **편집** 아이콘을 선택합니다.
 
-     ![edit-baseline-icon](images/edit-baseline-icon.png)
+    ![edit-baseline-icon](images/edit-baseline-icon.png)
 
-     **버전 편집** 대화 상자가 표시됩니다.
-   - **버전** 드롭다운에서 필요한 버전을 선택합니다(예: 버전 1.0에서 1.1로 변경).
+    **버전 편집** 대화 상자가 표시됩니다.
+  - **버전** 드롭다운에서 필요한 버전을 선택합니다(예: 버전 1.0에서 1.1로 변경).
 
 
-     ![edit-version-baseline](images/edit-version-baseline.png)
+    ![edit-version-baseline](images/edit-version-baseline.png)
 
-     추가되고 제거된 종속성은 평가되어 미리보기로 표시됩니다. 변경 사항을 적용하기 전에 검토하십시오.
+    추가되고 제거된 종속성은 평가되어 미리보기로 표시됩니다. 변경 사항을 적용하기 전에 검토하십시오.
 
-     ![](images/baseline-v2-version-added.png)
+    ![](images/baseline-v2-version-added.png)
 
-     종속성 변경이 감지되지 않으면 빈 상태 메시지가 표시됩니다.
+    종속성 변경이 감지되지 않으면 빈 상태 메시지가 표시됩니다.
 
-   - 변경 내용을 적용하려면 **업데이트**&#x200B;를 선택하세요.
+  - 변경 내용을 적용하려면 **업데이트**&#x200B;를 선택하세요.
 
   베이스라인이 선택한 버전으로 업데이트됩니다.
   +++

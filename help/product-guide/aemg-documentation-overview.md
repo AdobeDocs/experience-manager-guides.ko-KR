@@ -3,7 +3,7 @@ title: Experience Manager Guides 설명서
 description: Adobe Experience Manager Guides에 대한 설명서를 찾습니다. Experience Manager의 기본 DITA 지원, 구조화된 작성 및 다중 채널 게시에 대해 알아봅니다.
 feature: AEM Guides Tutorials
 role: User
-TQID: https://experienceleague.adobe.com/S4wTM-7gfU7D-JfKVbb9nK3qoQIG6PdiY7jtpsc6kDs
+TQID: 'https://experienceleague.adobe.com/S4wTM-7gfU7D-JfKVbb9nK3qoQIG6PdiY7jtpsc6kDs'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -20,6 +20,8 @@ feature_v2:
     internal-label: Reports
   - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
     internal-label: Authoring and publishing content
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
 subfeature_v2:
   - id: aad65a09-20cc-4780-ad44-329d14dc8481
     internal-label: Workflows
@@ -31,6 +33,8 @@ subfeature_v2:
     internal-label: Publishing
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
     internal-label: Output generation
+  - id: f5449061-fbde-4905-be99-034c1b054385
+    internal-label: AEM Guides tutorials
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -39,7 +43,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: ce193b31d44d3a67bb18d1db5531c23cb81c4803
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 6%
@@ -258,11 +262,11 @@ Cloud 및 On-Premise 배포에 대한 최신 릴리스 정보와 제품 업데�
 
 유용한 리소스, 설명서 및 지원에 액세스하여 플랫폼을 최대한 활용할 수 있습니다.
 
-* [GitHub 저장소](https://github.com/AdobeDocs/experience-manager-guides.ko-KR){target="_blank"}
-* [지원](https://experienceleague.adobe.com/support/v2/en/?lang=ko){target="_blank"}
-* [비디오 자습서](https://experienceleague.adobe.com/ko/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [GitHub 저장소](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [지원](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [비디오 자습서](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
 
-[커뮤니티에서 상호 작용](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=ko)
+[커뮤니티에서 상호 작용](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11)
 
 </td>
 </tr>
@@ -277,7 +281,7 @@ Cloud 및 On-Premise 배포에 대한 최신 릴리스 정보와 제품 업데�
 
 * [Cloud Service 릴리스 노트](./release-info/latest-release-info-cs.md)
 * [온-프레미스용 릴리스 정보](./release-info/latest-release-info.md)
-* [AEM Guides 커뮤니티](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=ko){target="_blank"}
-* [GitHub 저장소](https://github.com/AdobeDocs/experience-manager-guides.ko-KR){target="_blank"}
-* [지원](https://experienceleague.adobe.com/support/v2/en/?lang=ko){target="_blank"}
-* [비디오 자습서](https://experienceleague.adobe.com/ko/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [AEM Guides 커뮤니티](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
+* [GitHub 저장소](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [지원](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [비디오 자습서](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}

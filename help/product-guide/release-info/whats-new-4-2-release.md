@@ -4,26 +4,35 @@ description: Adobe Experience Manager Guides 4.2 릴리스의 새로운 기능�
 exl-id: 46367ccf-58ff-4889-8314-cdd5bf5d0f1d
 feature: What's New
 role: Leader
-TQID: https://experienceleague.adobe.com/Ig3Lc-OGmHe83U44eEebdfUwquPqskLorbUgGX4JHJ4
+TQID: 'https://experienceleague.adobe.com/Ig3Lc-OGmHe83U44eEebdfUwquPqskLorbUgGX4JHJ4'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
 subfeature_v2:
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: cda0baeb-996e-4aaa-92d1-41032e34fd68
+    internal-label: What's new
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 2435
+source-wordcount: '2438'
 ht-degree: 0%
-
 ---
-
 # Adobe Experience Manager Guides 4.2 릴리스의 새로운 기능 (2023년 2월)
 
 이 문서에서는 Adobe Experience Manager Guides 버전 4.2(*AEM Guides*)의 새로운 기능 및 향상된 기능을 다룹니다.
@@ -141,7 +150,7 @@ AEM Guides에서는 전역 및 폴더 프로필에 대한 출력 사전 설정�
 주제 참조, 주제 그룹, 키 정의를 맵에 삽입할 수 있습니다. 지도에 있는 주제를 위, 아래, 왼쪽 또는 오른쪽으로 이동하여 재구성할 수 있습니다. 항목을 드래그 앤 드롭하여 맵에서 이동할 수도 있습니다. 또한 맵 편집기에서는 파일 잠금 또는 잠금 해제, 버전 내역 확인 및 버전 레이블 관리를 수행하는 아이콘도 제공합니다.
 
 
-또한 레이아웃 보기에서는 **보기 옵션**&#x200B;을 제공하여 줄 번호, 표시 또는 숨기기 확인란을 표시하거나 숨기거나 맵에서 항목의 파일 이름이나 제목을 표시합니다.
+또한 레이아웃 보기에서는 **보기 옵션**을 제공하여 줄 번호, 표시 또는 숨기기 확인란을 표시하거나 숨기거나 맵에서 항목의 파일 이름이나 제목을 표시합니다.
 주제에 적용된 조건부 필터를 기반으로 주제를 볼 수도 있습니다.
 
 맵 파일에서 주제를 구성할 수 있을 뿐만 아니라 레이아웃 보기의 요소에 사용할 수 있는 **옵션** 메뉴를 사용하여 참조를 추가, 이동, 복사, 붙여넣기 또는 삭제할 수도 있습니다.

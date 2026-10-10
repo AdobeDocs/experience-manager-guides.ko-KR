@@ -5,13 +5,28 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: 53a36126-2075-40c8-8882-f77ad6435715
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: e557051c-ff02-4ff8-9421-cf452af0edd5
+    internal-label: Installation
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '908'
 ht-degree: 0%
-
 ---
-
 # AEM Sites 템플릿 다운로드 및 설치
 
 이 안내서에서는 클라우드 환경에서 AEM Sites 페이지를 생성하기 위해 최신 AEM Guides 템플릿을 설정하고 구성하는 단계별 지침을 제공합니다. 다음 단계에 따라 필요한 패키지를 설치하고 사전 설정을 만들고 구성하며 AEM Sites을 생성합니다.
@@ -28,14 +43,14 @@ Cloud Service 또는 온프레미스 탭은 Experience Manager Guides 설정에 
 
 - **필요한 권한**: 다음 권한이 있어야 합니다.
 
-   - 패키지를 배포하려면 **Cloud Manager**&#x200B;에 액세스하십시오.
-   - 환경과 연결된 **Git 저장소**&#x200B;에 대한 액세스 권한.
-   - AEM Guides에서 사전 설정을 만들고 수정할 수 있는 권한.
+  - 패키지를 배포하려면 **Cloud Manager**&#x200B;에 액세스하십시오.
+  - 환경과 연결된 **Git 저장소**&#x200B;에 대한 액세스 권한.
+  - AEM Guides에서 사전 설정을 만들고 수정할 수 있는 권한.
 
 - **패키지 다운로드**: 소프트웨어 배포 포털에서 다음 패키지를 다운로드합니다.
 
-   - 구성 요소 패키지: guides-components.all-1.x.0.zip
-   - 사이트 템플릿: aemg-docs-1.x.0.zip
+  - 구성 요소 패키지: guides-components.all-1.x.0.zip
+  - 사이트 템플릿: aemg-docs-1.x.0.zip
 
 >[!TAB 온-프레미스]
 
@@ -43,14 +58,14 @@ Cloud Service 또는 온프레미스 탭은 Experience Manager Guides 설정에 
 
 - **필요한 권한**: 다음 권한이 있는지 확인하십시오.
 
-   - 필요한 패키지를 다운로드하려면 **소프트웨어 배포 포털**&#x200B;에 액세스하십시오.
-   - AEM에서 패키지를 설치하려면 **CRX 패키지 관리자**&#x200B;에 액세스하십시오.
-   - AEM Guides에서 사전 설정을 만들고 수정할 수 있는 권한.
+  - 필요한 패키지를 다운로드하려면 **소프트웨어 배포 포털**&#x200B;에 액세스하십시오.
+  - AEM에서 패키지를 설치하려면 **CRX 패키지 관리자**&#x200B;에 액세스하십시오.
+  - AEM Guides에서 사전 설정을 만들고 수정할 수 있는 권한.
 
 - **패키지 다운로드**: **소프트웨어 배포 포털**&#x200B;에서 다음 패키지를 다운로드합니다.
 
-   - 구성 요소 패키지: on-prem-guides-components.all-1.x.0.zip
-   - 사이트 패키지: aemg-docs.all-1.x.0.zip
+  - 구성 요소 패키지: on-prem-guides-components.all-1.x.0.zip
+  - 사이트 패키지: aemg-docs.all-1.x.0.zip
 
 >[!ENDTABS]
 
@@ -99,7 +114,7 @@ Experience Manager Guides 설정에 따른 패키지 설치 지침은 Cloud Serv
 >[!TAB 온-프레미스]
 
 1. **구성 요소 패키지 설치:**
-   1. [**CRX 패키지 관리자**](http://&lt;your-aem-instance>/crx/packmgr)&#x200B;(으)로 이동합니다.
+   1. [**CRX 패키지 관리자**](http://<your-aem-instance>/crx/packmgr)&#x200B;(으)로 이동합니다.
    2. on-prem-guides-components.all-1.x.0.zip 패키지를 업로드하고 설치합니다.
 
 2. **사이트 패키지 설치:** CRX 패키지 관리자를 사용하여 aemg-docs.all-1.x.0.zip 패키지를 업로드하고 설치합니다.
@@ -179,4 +194,4 @@ Experience Manager Guides 설정에 따른 패키지 설치 지침은 Cloud Serv
 
 >[!NOTE]
 >
-> Cloud Service 설정의 경우 프로덕션에 배포하기 전에 모든 구성을 비프로덕션 환경에서 테스트하십시오. <br><br> 자세한 내용은 공식 [AEM as a Cloud Service에 배포 설명서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/deploying/overview)를 참조하십시오.
+> Cloud Service 설정의 경우 프로덕션에 배포하기 전에 모든 구성을 비프로덕션 환경에서 테스트하십시오. <br><br> 자세한 내용은 공식 [AEM as a Cloud Service에 배포 설명서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview)를 참조하십시오.

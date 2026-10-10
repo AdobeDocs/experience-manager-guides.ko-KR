@@ -4,32 +4,47 @@ description: Adobe Experience Manager Guides as a Cloud Service 2023년 9월 릴
 exl-id: d185d27f-0cbb-4ec6-ac65-cb69f7572c3f
 feature: What's New
 role: Leader
-TQID: https://experienceleague.adobe.com/mwi2Z0-3bixo5z1oi7tIk0yYwd2thaP0JV-k8swfCk0
+TQID: 'https://experienceleague.adobe.com/mwi2Z0-3bixo5z1oi7tIk0yYwd2thaP0JV-k8swfCk0'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+    internal-label: APIs
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388b
+    internal-label: Bulk activation
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: cda0baeb-996e-4aaa-92d1-41032e34fd68
+    internal-label: What's new
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1516
+source-wordcount: '1728'
 ht-degree: 0%
-
 ---
-
 # Adobe Experience Manager Guides as a Cloud Service 2023년 9월 릴리스의 새로운 기능
 
 이 문서에서는 2023년 9월 Adobe Experience Manager Guides(*AEM Guides as a Cloud Service*)의 새로운 기능과 향상된 기능을 다룹니다.
@@ -215,7 +230,7 @@ AEM Guides의 벌크 활성화 기능을 사용하면 작성에서 게시 인스
 
 컨텍스트 메뉴를 사용하여 파일(.dita, .xml, 오디오, 비디오 또는 이미지)을 열지 않고 빠르게 미리 볼 수 있습니다. 이제 미리 보기 창의 크기를 조정할 수 있으며, 콘텐츠에 참조 링크가 포함되어 있으면 이를 선택하여 새 탭에서 열 수 있습니다.
 
-![미리 보기 창 &#x200B;](assets/quick-preview_cs.png){width="800"}
+![미리 보기 창 ](assets/quick-preview_cs.png){width="800"}
 
 *창에서 파일을 미리 봅니다.*
 

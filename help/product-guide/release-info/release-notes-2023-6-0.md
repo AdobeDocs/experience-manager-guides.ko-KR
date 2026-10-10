@@ -4,30 +4,43 @@ description: 버그 수정 사항 및 Adobe Experience Manager Guides as a Cloud
 exl-id: df17ee33-9f50-4223-ab9f-a57a31097d22
 feature: Release Notes
 role: Leader
-TQID: https://experienceleague.adobe.com/LIY9wVDmvusGD-K-kyjK-lmzpyxJELj0mWzn9YoP0vw
+TQID: 'https://experienceleague.adobe.com/LIY9wVDmvusGD-K-kyjK-lmzpyxJELj0mWzn9YoP0vw'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+    internal-label: FrameMaker Publishing Server
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
+  - id: fc07eb3b-d7d7-4e9a-a558-c3099c2b6f7b
+    internal-label: Release notes
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1169
+source-wordcount: '1169'
 ht-degree: 3%
-
 ---
-
 # 2023년 6월 Adobe Experience Manager Guides as a Cloud Service 릴리스
 
 이 릴리스 노트는 2023년 6월 Adobe Experience Manager Guides(이후 *AEM Guides as a Cloud Service*)에서 수정된 업그레이드 지침, 호환성 매트릭스 및 문제를 다룹니다.
@@ -84,7 +97,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 1. (선택 사항) 시스템에 100,000개 이상의 dita 파일이 있는 경우 `org.apache.jackrabbit.oak.query.QueryEngineSettingsService`의 `queryLimitReads`을(를) 더 큰 값(존재하는 에셋 수보다 큰 값(예: 200,000))으로 업데이트한 다음 다시 배포합니다.
 
    - Adobe Experience Manager Guides 설치 및 구성 의 *구성 재정의* 섹션에 제공된 지침을 사용하십시오.
-as a Cloud Service을 클릭하여 구성 파일을 만듭니다.
+     as a Cloud Service을 클릭하여 구성 파일을 만듭니다.
    - 구성 파일에서 다음 (속성) 세부 정보를 제공하여 queryLimitReads 옵션을 구성합니다.
 
      | PID | 속성 키 | 속성 값 |
@@ -171,7 +184,7 @@ as a Cloud Service을 클릭하여 구성 파일을 만듭니다.
 - 기본 PDF | Xref가 Xref 레이블 대신 href 주제 제목의 콘텐츠를 인쇄하고 있습니다. (11322)
 - 기본 PDF | PDF 템플릿 설정을 저장할 수 없습니다. (10751)
 - 기본 PDF | 텍스트가 여러 xref를 포함할 때 열 너비를 넘어갑니다. (10876)
-- 기본 PDF | `<note>`&#x200B;`</note>` 요소가 해당 유형의 추가 스팬 제목을 생성하지 않습니다. (10549)
+- 기본 PDF | `<note>``</note>` 요소가 해당 유형의 추가 스팬 제목을 생성하지 않습니다. (10549)
 - 기본 PDF | 생성된 PDF에서 WCAG 2.0을 준수하도록 언어 메타데이터를 설정할 수 없습니다. (12296)
 
 

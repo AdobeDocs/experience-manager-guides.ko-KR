@@ -5,48 +5,67 @@ exl-id: 1269a652-5261-413d-9ea0-b4f75003e9d8
 feature: User Management
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/Che13Q87qddeS5u48gPSfCqfIyunmBshHlq5pB-HjGk
+TQID: 'https://experienceleague.adobe.com/Che13Q87qddeS5u48gPSfCqfIyunmBshHlq5pB-HjGk'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: b1210526-416b-4ef6-bcc0-1692e99f30e9
+    internal-label: Administration and security
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
   - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: a7a242db-c88c-4e44-818b-bfb4ef92efdf
+    internal-label: Permissions
   - id: c837a922-f95c-4da0-83b2-0cfe7038c5d6
+    internal-label: Users and groups
   - id: c8841798-1a28-4264-a46a-984860f8e6f6
+    internal-label: User administration
   - id: f7774ebe-aec9-42b6-97e4-5002acdc712e
+    internal-label: Review
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
+  - id: dc1f7602-db3c-4ad4-a440-ff999bb16455
+    internal-label: User management
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Administration
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 758
+source-wordcount: '758'
 ht-degree: 10%
-
 ---
-
 # 사용자 관리 및 보안 {#id181AED00G5Z}
 
 AEM Guides의 기능에 액세스하고 구성하려면 사용자를 생성해야 합니다. 그런 다음 이러한 사용자에게 AEM Guides의 모든 또는 특정 기능에 액세스할 수 있는 권한을 할당할 수 있습니다. 사용자 권한 부여를 구성 및 유지 관리하는 방법을 알아보고 AEM에서 인증 및 권한 부여가 작동하는 방식에 대한 이론을 이해합니다.
 
 AEM 설명서의 다음 항목은 사용자 관리 및 보안 관련 개념과 기능을 이해하는 데 도움이 됩니다.
 
-- [AEM의 사용자 및 그룹](https://helpx.adobe.com/kr/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)
+- [AEM의 사용자 및 그룹](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)
 
-- [AEM의 권한](https://helpx.adobe.com/kr/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)
+- [AEM의 권한](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)
 
-- [사용자 및 그룹 관리](https://helpx.adobe.com/kr/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)
+- [사용자 및 그룹 관리](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)
 
-- [권한 관리](https://helpx.adobe.com/kr/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions)
+- [권한 관리](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions)
 
 
 ## AEM Guides에서 만든 사용자 그룹 {#id181TF0K0MHT}
@@ -112,11 +131,11 @@ AEM Guides은 세 가지 기본 제공 그룹을 제공합니다. 이러한 그�
 
 - 기본적으로 *게시자*&#x200B;에게는 DAM의 다음 폴더에 대한 액세스 및 권한이 부여됩니다.
 
-   - ``/var/dxml``-\> 읽기 및 쓰기
+  - ``/var/dxml``-\> 읽기 및 쓰기
 
-   - `/content/dam/fmdita-outputs` -\> 읽기 및 쓰기
+  - `/content/dam/fmdita-outputs` -\> 읽기 및 쓰기
 
-   - `/content/output/sites` -\> 읽기 및 쓰기
+  - `/content/output/sites` -\> 읽기 및 쓰기
 
   위에서 언급한 기본 게시 위치 이외의 다른 위치를 사용하는 경우 게시자에게 명시적 읽기 및 쓰기 권한을 부여해야 합니다.
 

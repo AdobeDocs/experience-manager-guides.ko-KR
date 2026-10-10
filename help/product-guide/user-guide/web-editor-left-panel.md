@@ -4,7 +4,7 @@ description: 편집기의 왼쪽 패널에 대해 알아봅니다. Adobe Experie
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
-TQID: https://experienceleague.adobe.com/GbsiDGw2pByOZ-AfWM2yH46QYWm95Z4ShDSvqyedViU
+TQID: 'https://experienceleague.adobe.com/GbsiDGw2pByOZ-AfWM2yH46QYWm95Z4ShDSvqyedViU'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -17,6 +17,8 @@ feature_v2:
     internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
     internal-label: Configuration
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
     internal-label: Editor
@@ -36,7 +38,7 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 06a24bcf5a4dc05ba20846e9d745ea6f36ee8183
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '11296'
 ht-degree: 0%
@@ -200,7 +202,7 @@ DAM 내에서 필요한 파일로 이동하여 편집기에서 열 수 있습니
 - **DITA 파일**: 선택한 경로에 있는 모든 **DITA 주제** 및 **DITA 맵**&#x200B;을(를) 찾을 수 있습니다. 기본적으로 선택되어 있습니다.
 - **DITA가 아닌 파일**: 선택한 경로에서 **Ditaval 파일**, **이미지 파일**, **멀티미디어**, **문서** 및 **JSON**&#x200B;을 검색할 수 있습니다.
 
-  ![빠른 검색 필터 &#x200B;](images/repository-filter-search-quick.png) {width="300"}
+  ![빠른 검색 필터 ](images/repository-filter-search-quick.png) {width="300"}
 
   *빠른 필터를 사용하여 DITA 및 비 DITA 파일을 검색합니다.*
 
@@ -1411,4 +1413,4 @@ Experience Manager Guides은 프로젝트의 모든 검토 작업을 표시하�
 
 </details>
 
-**상위 항목:**&#x200B;[&#x200B;편집기 소개](web-editor.md)
+**상위 항목:**[&#x200B;편집기 소개](web-editor.md)

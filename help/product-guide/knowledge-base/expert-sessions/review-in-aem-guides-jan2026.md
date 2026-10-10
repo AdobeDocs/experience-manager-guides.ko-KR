@@ -2,7 +2,15 @@
 title: AEM Guides의 콘텐츠 검토
 description: 전문가 세션 - AEM Guides 검토 워크플로우 내에서. 기능 및 실제 사용 사례
 exl-id: 4fa4a7f8-4b0b-45d8-978e-e2bde3692b1d
-source-git-commit: 0d214aca4b5f12d5401ed174d20259627bf94469
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 1%
@@ -37,11 +45,11 @@ AEM Guides 검토 워크플로를 사용하면 작성자, SME 및 검토자가 A
 
 ## 관련 리소스
 
-- [워크플로우 설명서 검토](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/user-guide/review/review)
+- [워크플로우 설명서 검토](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/review/review)
 
-- [Workfront과 AEM Guides 통합](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/user-guide/workfront-integration/workfront-integration)
+- [Workfront과 AEM Guides 통합](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/workfront-integration/workfront-integration)
 
-- [검토 UI 사용자 정의](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/knowledge-base/kb-articles/extention-framework/customisations/review-app-customisations/customisation)
+- [검토 UI 사용자 정의](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/extention-framework/customisations/review-app-customisations/customisation)
 
 
 
@@ -54,7 +62,7 @@ AEM Guides 검토 워크플로를 사용하면 작성자, SME 및 검토자가 A
 
 ### 커뮤니티 포럼
 
-- Experience League에서 세션별 커뮤니티 상호 작용을 보려면 [AEM Guides 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=ko)을 방문하십시오.
+- Experience League에서 세션별 커뮤니티 상호 작용을 보려면 [AEM Guides 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)을 방문하십시오.
 
 
 ## 연락처

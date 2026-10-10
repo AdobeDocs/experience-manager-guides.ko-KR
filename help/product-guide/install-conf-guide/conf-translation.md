@@ -5,7 +5,21 @@ feature: Translation
 role: Admin
 level: Experienced
 exl-id: 7138fc35-09ee-4df5-8496-dc673effe120
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: 626b0638-bd2d-504c-8ccd-53d63b856710
+    internal-label: Translation
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1573'
 ht-degree: 5%
@@ -25,32 +39,32 @@ Experience Manager Guides 설정을 기반으로 콘텐츠를 번역하기 위�
 
 >[!TAB Cloud Service]
 
-1. AEM을 [번역 서비스 공급자](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=ko)와 연결하고 번역 통합 프레임워크 구성을 만듭니다.
+1. AEM을 [번역 서비스 공급자](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)와 연결하고 번역 통합 프레임워크 구성을 만듭니다.
 
 1. 번역 서비스 및 프레임워크 구성과 언어 마스터의 페이지를 연결합니다.
 
-1. 번역할 [콘텐츠 유형 식별](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/rules.html?lang=ko).
+1. 번역할 [콘텐츠 유형 식별](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/rules.html?lang=en).
 
-1. 언어 마스터를 작성하고 언어 사본의 루트 페이지를 만들어 [번역할 콘텐츠를 준비](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html?lang=ko)합니다.
+1. 언어 마스터를 작성하고 언어 사본의 루트 페이지를 만들어 [번역할 콘텐츠를 준비](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html?lang=en)합니다.
 
-1. [번역 프로젝트](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=ko)를 만들어 번역할 콘텐츠를 수집하고 번역 프로세스를 준비합니다.
+1. [번역 프로젝트](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en)를 만들어 번역할 콘텐츠를 수집하고 번역 프로세스를 준비합니다.
 
-1. 번역 프로젝트를 사용하여 [콘텐츠 번역을 관리](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=ko) 합니다.
+1. 번역 프로젝트를 사용하여 [콘텐츠 번역을 관리](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en) 합니다.
 
 
 >[!TAB 온-프레미스]
 
-1. AEM을 [번역 서비스 공급업체에 연결](https://helpx.adobe.com/kr/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider)하고 [번역 통합 프레임워크 구성](https://helpx.adobe.com/kr/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration)을 만듭니다.
+1. AEM을 [번역 서비스 공급업체에 연결](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider)하고 [번역 통합 프레임워크 구성](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration)을 만듭니다.
 
-1. 언어 마스터의 페이지를 [번역 서비스 및 프레임워크 구성](https://helpx.adobe.com/kr/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation)과 연결합니다.
+1. 언어 마스터의 페이지를 [번역 서비스 및 프레임워크 구성](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation)과 연결합니다.
 
-1. 번역할 [콘텐츠 유형 식별](https://helpx.adobe.com/kr/experience-manager/6-5/sites/administering/using/tc-rules.html).
+1. 번역할 [콘텐츠 유형 식별](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-rules.html).
 
-1. 언어 마스터를 작성하고 언어 사본의 루트 페이지를 만들어 [번역할 콘텐츠를 준비](https://helpx.adobe.com/kr/experience-manager/6-5/sites/administering/using/tc-prep.html)합니다.
+1. 언어 마스터를 작성하고 언어 사본의 루트 페이지를 만들어 [번역할 콘텐츠를 준비](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html)합니다.
 
-1. [번역 프로젝트](https://helpx.adobe.com/kr/experience-manager/6-5/sites/administering/using/tc-manage.html)를 만들어 번역할 콘텐츠를 수집하고 번역 프로세스를 준비합니다.
+1. [번역 프로젝트](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html)를 만들어 번역할 콘텐츠를 수집하고 번역 프로세스를 준비합니다.
 
-1. 번역 프로젝트를 사용하여 [콘텐츠 번역을 관리](https://helpx.adobe.com/kr/experience-manager/6-5/sites/administering/using/tc-manage.html) 합니다.
+1. 번역 프로젝트를 사용하여 [콘텐츠 번역을 관리](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html) 합니다.
 
 >[!ENDTABS]
 
@@ -142,7 +156,7 @@ Experience Manager Guides 설정을 기반으로 하는 번역 워크플로에 �
 
    >[!NOTE]
    >
-   > 번역 커넥터를 사용하는 경우 AEM 설명서의 *[번역 통합 프레임워크 구성](https://helpx.adobe.com/kr/experience-manager/6-5/sites/administering/using/tc-tic.html)* 항목에 설명된 대로 커넥터를 구성했는지 확인하십시오.
+   > 번역 커넥터를 사용하는 경우 AEM 설명서의 *[번역 통합 프레임워크 구성](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html)* 항목에 설명된 대로 커넥터를 구성했는지 확인하십시오.
 
 1. **저장**&#x200B;을 클릭합니다.
 
@@ -175,7 +189,7 @@ Experience Manager Guides 설정을 기반으로 이 옵션을 구성하는 지�
 
 >[!NOTE]
 >
-> 번역 커넥터를 사용하는 경우 Adobe Experience Manager 설명서의 *[번역 통합 프레임워크 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=ko)* 항목에 설명된 대로 커넥터를 구성했는지 확인하십시오.
+> 번역 커넥터를 사용하는 경우 Adobe Experience Manager 설명서의 *[번역 통합 프레임워크 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)* 항목에 설명된 대로 커넥터를 구성했는지 확인하십시오.
 
 >[!IMPORTANT]
 >
@@ -220,7 +234,7 @@ Experience Manager Guides 설정을 기반으로 이 옵션을 구성하는 지�
 
 | PID | 속성 키 | 속성 값 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | 부울: <br> - 임시 파일에서 사후 처리 작업을 실행하지 않으려면 **사후 처리 언어 사본** 옵션을 *비활성화* \( false\)합니다.<br> - 임시 파일에서 사후 처리 작업을 실행하려면 *언어 사본&#x200B;**사후 처리**&#x200B;옵션을 활성화* \( true\)합니다.<br> **기본값**: false |
+| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | 부울: <br> - 임시 파일에서 사후 처리 작업을 실행하지 않으려면 **사후 처리 언어 사본** 옵션을 *비활성화* \( false\)합니다.<br> - 임시 파일에서 사후 처리 작업을 실행하려면 *언어 사본&#x200B;**사후 처리**옵션을 활성화* \( true\)합니다.<br> **기본값**: false |
 
 >[!TAB 온-프레미스]
 
@@ -240,7 +254,7 @@ Experience Manager Guides 설정을 기반으로 이 옵션을 구성하는 지�
 
 1. 설정에 따라 **사후 처리 언어 사본** 옵션을 구성합니다.
 
-   - \(*기본*\) 임시 파일에서 후처리 작업을 실행하지 않으려면 *언어 사본&#x200B;**후처리**&#x200B;옵션을 비활성화*&#x200B;하십시오.
+   - \(*기본*\) 임시 파일에서 후처리 작업을 실행하지 않으려면 *언어 사본&#x200B;**후처리**옵션을 비활성화*&#x200B;하십시오.
 
    - 임시 파일에서 사후 처리 작업을 실행하려면 **사후 처리 언어 사본** 옵션을 *사용*&#x200B;합니다.
 

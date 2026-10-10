@@ -5,7 +5,21 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: 313208e4-4403-4ba8-8e97-c5a95475b87e
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: 5be0fc8f-1cff-5c3e-bb92-2903a56a3de6
+    internal-label: Migration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1697'
 ht-degree: 1%
@@ -218,4 +232,4 @@ UUID가 아닌 버전 4.3.1에서 다음 검사를 수행합니다.
    > 마이그레이션 전에 `com.adobe.fmdita.config.ConfigManager` 내의 **AEM 사이트 페이지 이름에 제목 사용** 속성이 *False*(으)로 설정된 경우 마이그레이션 후에 이 속성을 업데이트해야 합니다.
 
 
-1. 유효성 검사가 완료되면 압축을 실행하여 대부분의 디스크 공간을 회수할 수 있습니다(`https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=ko` 참조).
+1. 유효성 검사가 완료되면 압축을 실행하여 대부분의 디스크 공간을 회수할 수 있습니다(`https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en` 참조).

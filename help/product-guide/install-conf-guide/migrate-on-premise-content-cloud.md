@@ -5,13 +5,25 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: c8348aae-224c-4419-845a-b8910629e5b3
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: 5be0fc8f-1cff-5c3e-bb92-2903a56a3de6
+    internal-label: Migration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 0%
-
+source-wordcount: '1034'
+ht-degree: 2%
 ---
-
 # 온-프레미스에서 Cloud Service으로 콘텐츠 마이그레이션
 
 Experience Manager as a Cloud Service은 Experience Manager Guides, Assets, Forms 및 Screens에 확장 가능하고 안전하며 민첩한 기술 기반을 제공합니다. 이를 통해 마케터와 IT 전문가는 규모에 맞게 효과적인 경험을 제공하는 데 집중할 수 있습니다.
@@ -31,7 +43,7 @@ Experience Manager as a Cloud Service을 사용하면 팀이 제품 업그레이
 
 ## 마이그레이션 프로세스
 
-**컨텐츠 전송 도구**&#x200B;은(는) Adobe에서 개발한 도구로, 원본 Adobe Experience Manager 온-프레미스 또는 Managed Services 인스턴스에서 대상 Experience Manager Cloud Service 인스턴스로 기존 컨텐츠를 마이그레이션하는 데 사용할 수 있습니다.
+**컨텐츠 전송 도구**은(는) Adobe에서 개발한 도구로, 원본 Adobe Experience Manager 온-프레미스 또는 Managed Services 인스턴스에서 대상 Experience Manager Cloud Service 인스턴스로 기존 컨텐츠를 마이그레이션하는 데 사용할 수 있습니다.
 이 도구는 주체(사용자 또는 그룹)도 자동으로 전송합니다.
 
 **소프트웨어 배포** 포털에서 **콘텐츠 전송 도구**&#x200B;를 ZIP 파일로 다운로드할 수 있습니다.
@@ -41,8 +53,8 @@ Experience Manager as a Cloud Service을 사용하면 팀이 제품 업그레이
 1. 목록에서 **콘텐츠 전송 도구**&#x200B;을(를) 선택하고 다운로드하십시오.
 
 ![콘텐츠 전송 도구 다운로드](./assets/content-transfer-tool-software-portal.png)
-그런 다음 소스 Adobe Experience Manager 인스턴스에서 **패키지 관리자**&#x200B;를 통해 패키지를 설치합니다. 최신 버전을 다운로드해야 합니다.
-최신 버전에 대한 자세한 내용은 [릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=ko)를 참조하세요.
+그런 다음 소스 Adobe Experience Manager 인스턴스에서 **패키지 관리자**를 통해 패키지를 설치합니다. 최신 버전을 다운로드하십시오.
+최신 버전에 대한 자세한 내용은 [릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=en)를 참조하세요.
 
 >[!NOTE]
 > 
@@ -59,7 +71,7 @@ Experience Manager Guides 콘텐츠를 Experience Manager as a cloud service로 
    ![경험 관리자](./assets/migration-experience-manager.png)
 
 
-1. **Cloud Acceleration Manager** 타일에서 **시작**&#x200B;을 클릭합니다.
+1. **Cloud Acceleration Manager** 타일에서 **시작**을 클릭합니다.
    ![클라우드 가속 관리자](./assets/migration-experience-manager-cloud.png)
 
 1. 첫 번째 프로젝트를 만듭니다.
@@ -82,7 +94,7 @@ Experience Manager Guides 콘텐츠를 Experience Manager as a cloud service로 
 1. 만든 후 세 점을 선택하고 **추출 키 복사**&#x200B;를 선택합니다.
 
 
-1. **클립보드에 복사**&#x200B;를 클릭합니다. 첫 번째 프로젝트를 만듭니다.
+1. **클립보드에 복사**를 클릭합니다. 첫 번째 프로젝트를 만듭니다.
    ![추출 키](./assets/migration-copy-to-clipboard.png)
 
 1. 맨 위에서 **Adobe Experience Manager**&#x200B;을(를) 선택한 다음 **소프트웨어 배포** 타일을 선택합니다.
@@ -107,8 +119,8 @@ Experience Manager Guides 콘텐츠를 Experience Manager as a cloud service로 
 1. 파일 버전을 포함하려면 **버전 포함** 옵션을 활성화하십시오.
    ![](./assets/migration-create-migration-set.png)
 
-1. 마이그레이션할 경로를 입력하고 **저장**&#x200B;을 클릭합니다.
-예: `/content/sites`
+1. 마이그레이션할 경로를 입력하고 **저장**을 클릭합니다.
+예:  `/content/sites`
 또는
    `/content/dam/tech-docs`
    ![포함된 경로](./assets/migration-included-paths.png)
@@ -129,10 +141,10 @@ Experience Manager Guides 콘텐츠를 Experience Manager as a cloud service로 
    * `/etc` CTT에서 일부 `/etc` 경로를 선택할 수 있습니다.
 
 1. **저장** 클릭
-1. **마이그레이션 세트**&#x200B;를 선택한 다음 맨 위에서 **추출**&#x200B;을 선택하십시오.
-   ![마이그레이션 세트 추출 &#x200B;](./assets/migration-extract.png)
+1. **마이그레이션 세트**&#x200B;를 선택한 다음 맨 위에서 **추출**을 선택하십시오.
+   ![마이그레이션 세트 추출 ](./assets/migration-extract.png)
 
-1. **마이그레이션 세트 추출** 팝업에서 선택한 경로 및 구성에 대한 세부 정보를 확인하고 **추출**&#x200B;을 클릭합니다. 추출은 몇 분 정도 소요되며 상태는 업데이트된 것으로 표시됩니다.
+1. **마이그레이션 세트 추출** 팝업에서 선택한 경로 및 구성에 대한 세부 정보를 확인하고 **추출**을 클릭합니다. 추출은 몇 분 정도 소요되며 상태는 업데이트된 것으로 표시됩니다.
    ![마이그레이션 세트 추출](./assets/migration-set-extraction.png)
 
 1. 추출이 완료되고 `finished` 상태로 표시되면 Cloud Acceleration Manager으로 이동하여 18단계에서 만든 프로젝트를 선택합니다.
@@ -144,7 +156,7 @@ Experience Manager Guides 콘텐츠를 Experience Manager as a cloud service로 
 
 
 1. **수집 작업** > **새 수집**&#x200B;을 클릭합니다.
-1. 필요한 확인 표시 값을 확인한 다음 **만들기**&#x200B;를 클릭합니다.
+1. 필요한 확인 표시 값을 확인한 다음 **만들기**를 클릭합니다.
    ![마이그레이션 확인 확인](./assets/migration-new-ingestion-acknowledge.png)
 
 1. 마이그레이션 세트를 선택하고 환경에 필요한 서버를 선택한 다음 **수집**&#x200B;을 클릭합니다.

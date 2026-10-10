@@ -2,13 +2,19 @@
 title: 클라우드 서비스 업그레이드를 위한 추가 구성
 description: 클라우드 서비스 업그레이드를 위한 추가 구성에 대해 알아봅니다
 exl-id: 3d60d06b-ce50-4948-b50d-bd373051d055
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '863'
 ht-degree: 1%
-
 ---
-
 # AEM Guides as Cloud Service 업그레이드를 위한 추가 구성
 
 >[!INFO]
@@ -61,7 +67,7 @@ http://localhost:4503/bin/guides/script/start?jobType=cf-reference-store-btree-m
 >
 >노드가 여전히 존재하는지 여부와 작업 상태를 확인해야 합니다.
 
-GET:
+가져오기:
 
 ```
 http://<aem_domain>/var/dxml/executor-locks/cf-reference-store-btree-migration/1683190032886.json

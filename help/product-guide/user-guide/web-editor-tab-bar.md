@@ -4,7 +4,7 @@ description: 편집기의 탭 모음에 대해 알아봅니다. Adobe Experience
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 02e45d34-898f-411c-bd80-bd4f2364b7d7
-TQID: https://experienceleague.adobe.com/sqNExkYi3iIqIxC7mdlhWw-59-LcAXCOU8w7GD63d8Q
+TQID: 'https://experienceleague.adobe.com/sqNExkYi3iIqIxC7mdlhWw-59-LcAXCOU8w7GD63d8Q'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -15,6 +15,8 @@ feature_v2:
     internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
     internal-label: Configuration
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
     internal-label: Editor
@@ -23,7 +25,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 0%
@@ -94,4 +96,4 @@ ht-degree: 0%
 
 - **편집기 설정**: 개별 작성자 수준에서 편집기 동작을 사용자 지정할 수 있는 편집기 설정 대화 상자로 이동합니다. 작성 중에 태그, 주석 및 기타 편집기 수준 설정의 가시성과 비헤이비어를 제어할 수 있습니다. 자세한 내용은 [편집기 설정](../user-guide/config-editor-settings.md)을 참조하세요.
 
-**상위 항목:**&#x200B;[&#x200B;편집기 소개](web-editor.md)
+**상위 항목:**[&#x200B;편집기 소개](web-editor.md)

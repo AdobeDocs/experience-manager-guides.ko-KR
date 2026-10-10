@@ -4,35 +4,40 @@ description: AEM 저장소에 파일을 업로드하고 오류를 처리하는 �
 exl-id: b5430242-1122-43df-a0b2-275b1dea33f2
 feature: Content Management
 role: User
-TQID: https://experienceleague.adobe.com/GG5Bx2yyJz2GaQFmMsDZ6wq6xzb4XUAsSBxEkRNvEVE
+TQID: 'https://experienceleague.adobe.com/GG5Bx2yyJz2GaQFmMsDZ6wq6xzb4XUAsSBxEkRNvEVE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: 2afda568-c433-5cad-ab97-19b8847286b0
+    internal-label: Content Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d1a4b75ef3acd3d02cce2225f03e1f9b3a086ef7
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 695
+source-wordcount: '695'
 ht-degree: 0%
-
 ---
-
 # 파일 업로드 {#id176FF000JUI}
 
 Adobe Experience Manager Guides에 사용하려는 기존 DITA 콘텐츠 저장소가 있을 수 있습니다. 이러한 기존 콘텐츠의 경우 다음 접근 방식 중 하나를 사용하여 콘텐츠를 Adobe Experience Manager 저장소에 일괄 업로드할 수 있습니다.
 
 >[!IMPORTANT]
 >
-> Adobe Experience Manager에서 지원되는 콘텐츠 업로드 방법에 대한 자세한 내용은 [Adobe Experience Manager as a Cloud Service Assets에 디지털 에셋 추가](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=ko)를 참조하십시오.
+> Adobe Experience Manager에서 지원되는 콘텐츠 업로드 방법에 대한 자세한 내용은 [Adobe Experience Manager as a Cloud Service Assets에 디지털 에셋 추가](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html)를 참조하십시오.
 
 ## Assets 콘솔 사용자 인터페이스
 
 Assets 콘솔 사용자 인터페이스를 사용하여 [Adobe Experience Manager as a Cloud Service Assets에 디지털 자산을 추가](#upload-assets)하려면 바탕 화면에서 필요한 자산을 선택하고 Adobe Experience Manager 사용자 인터페이스 \(웹 브라우저\)를 대상 폴더로 드래그합니다. 에셋을 업로드할 때 파일 이름에 지원되지 않거나 금지된 문자가 포함되어 있지 않은지 확인하십시오.
 
-자세한 내용은 Adobe Experience Manager 설명서의 [파일 이름 처리 및 금지된 문자](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=ko#filename-handling) 섹션을 참조하십시오.
+자세한 내용은 Adobe Experience Manager 설명서의 [파일 이름 처리 및 금지된 문자](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#filename-handling) 섹션을 참조하십시오.
 
 ### Assets UI 인터페이스를 사용하여 파일 업로드
 
@@ -49,11 +54,11 @@ Assets 콘솔 사용자 인터페이스를 사용하여 [Adobe Experience Manage
 
 ## Adobe Experience Manager 데스크탑 앱
 
-크리에이티브 전문가이고 로컬 데스크탑에서 자산을 관리하려는 경우 Adobe Experience Manager 데스크탑 앱을 사용하십시오. 데스크탑 애플리케이션을 사용하여 이러한 에셋을 열고 편집할 수 있습니다. 버전을 유지 관리하고 다른 사용자와 파일을 공유할 수도 있습니다. 자세한 내용은 [Adobe Experience Manager 데스크톱 앱](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html?lang=ko)을 참조하세요.
+크리에이티브 전문가이고 로컬 데스크탑에서 자산을 관리하려는 경우 Adobe Experience Manager 데스크탑 앱을 사용하십시오. 데스크탑 애플리케이션을 사용하여 이러한 에셋을 열고 편집할 수 있습니다. 버전을 유지 관리하고 다른 사용자와 파일을 공유할 수도 있습니다. 자세한 내용은 [Adobe Experience Manager 데스크톱 앱](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html)을 참조하세요.
 
 ## 일괄 에셋 수집기
 
-대규모 마이그레이션 및 경우에 따라 일괄 수집이 있는 경우 일괄 에셋 수집기 를 사용하여 콘텐츠를 업로드하십시오. 이 도구를 사용하면 Azure 또는 S3와 같이 지원되는 데이터 저장소에서 대량 콘텐츠를 업로드할 수 있습니다. 자세한 내용은 [일괄 에셋 수집기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=ko#asset-bulk-ingestor)를 참조하십시오.
+대규모 마이그레이션 및 경우에 따라 일괄 수집이 있는 경우 일괄 에셋 수집기 를 사용하여 콘텐츠를 업로드하십시오. 이 도구를 사용하면 Azure 또는 S3와 같이 지원되는 데이터 저장소에서 대량 콘텐츠를 업로드할 수 있습니다. 자세한 내용은 [일괄 에셋 수집기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=en#asset-bulk-ingestor)를 참조하십시오.
 
 ## 벌크 업로드에 FrameMaker 사용
 
@@ -74,4 +79,4 @@ Adobe Experience Manager 데스크탑 앱이나 자산 대량 수집기와 같�
 
 
 
-**상위 항목:**&#x200B;[&#x200B;콘텐츠 관리](authoring.md)
+**상위 항목:**[&#x200B;콘텐츠 관리](authoring.md)

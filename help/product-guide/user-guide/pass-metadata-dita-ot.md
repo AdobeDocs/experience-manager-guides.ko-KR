@@ -4,27 +4,41 @@ description: AEM Guides에서 DITA-OT 게시를 사용하여 메타데이터를 
 exl-id: 70ca32dc-56c3-45ee-b6b9-0efb8cc79ea1
 feature: Publishing, Metadata Management
 role: User
-TQID: https://experienceleague.adobe.com/X840xTCOxbuqBpg8-YYbmFKOuF-KDHX-tGyj8rEG0hE
+TQID: 'https://experienceleague.adobe.com/X840xTCOxbuqBpg8-YYbmFKOuF-KDHX-tGyj8rEG0hE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
+  - id: da9cce28-0561-45e7-851e-4500741b9744
+    internal-label: Metadata management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Data management
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 620
+source-wordcount: '620'
 ht-degree: 0%
-
 ---
-
 # DITA-OT를 사용하여 메타데이터를 출력에 전달 {#id21BJ00QD0XA}
 
 메타데이터는 출력에 대한 추가 정보입니다. Adobe Experience Manager Guides에서 기존 메타데이터를 전달하거나 사용자 지정 메타데이터 태그를 만들 수 있습니다. DITA-OT 게시를 사용하여 AEM, PDF, HTML5, EPUB 및 사용자 지정 형식 출력에 메타데이터를 전달할 수 있습니다.
@@ -52,7 +66,7 @@ DITA-OT 게시를 사용하여 메타데이터를 출력에 전달하려면 다�
 
    이 파일은 `/apps/fmdita/config/metadataList`에 오버레이할 수 있습니다.
 
-   값을 이미 정의한 사용자 지정 속성을 전달하려면 [DITA-OT PDF 출력에서 AEM 메타데이터 사용](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880?profile.language=ko)을 확인하십시오.
+   값을 이미 정의한 사용자 지정 속성을 전달하려면 [DITA-OT PDF 출력에서 AEM 메타데이터 사용](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880)을 확인하십시오.
 
 1. 선택한 속성이 드롭다운 아래에 나열됩니다.
 
@@ -87,7 +101,7 @@ DITA-OT 게시를 사용하여 메타데이터를 출력에 전달하려면 다�
 
    이 파일은 `/apps/fmdita/config/metadataList`에 오버레이할 수 있습니다.
 
-   값을 이미 정의한 사용자 지정 속성을 전달하려면 [DITA-OT PDF 출력에서 AEM 메타데이터 사용](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880?profile.language=ko)을 확인하십시오.
+   값을 이미 정의한 사용자 지정 속성을 전달하려면 [DITA-OT PDF 출력에서 AEM 메타데이터 사용](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880)을 확인하십시오.
 
 1. **속성** 드롭다운에서 필요한 사용자 지정 및 기본 속성을 선택합니다. 예를 들어 `author`, `dc:title` 및 `dc:description`을(를) 선택합니다. 파일을 만들면 만들어지는 표준 `metadata/properties`입니다. 선택한 속성이 드롭박스 아래에 나열됩니다.
 
@@ -100,4 +114,4 @@ DITA-OT 게시를 사용하여 메타데이터를 출력에 전달하려면 다�
 
 
 
-**상위 항목:**&#x200B;[&#x200B;출력 생성](generate-output.md)
+**상위 항목:**[&#x200B;출력 생성](generate-output.md)

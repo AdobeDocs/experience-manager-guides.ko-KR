@@ -4,28 +4,39 @@ description: 합성 구성 요소 매핑 및 레거시 구성 요소 매핑을 �
 feature: Publishing
 role: User
 exl-id: f3657268-9dee-43af-b643-499dbc3ca948
-TQID: https://experienceleague.adobe.com/o-vv28SWWNym2aSVCshJDbPTWkpwH-KNwES4M5MKKJ8
+TQID: 'https://experienceleague.adobe.com/o-vv28SWWNym2aSVCshJDbPTWkpwH-KNwES4M5MKKJ8'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: fd5e1e85933eb2785b0a74b0fa49fec1da4ca0c2
+    internal-label: Troubleshooting
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 3727
+source-wordcount: '3873'
 ht-degree: 0%
-
 ---
-
 # 맵 콘솔의 AEM Sites 사전 설정
 
 맵 콘솔에서 AEM Sites 사전 설정을 만들고 AEM Sites 출력을 생성하도록 구성할 수 있습니다. AEM Sites 출력을 만드는 방법에는 두 가지가 있습니다.
@@ -64,7 +75,7 @@ Experience Manager Guides은 AEM Sites을 만들기 위한 사전 정의된 템�
    AEM Sites용 사전 설정이 생성됩니다.
 
 
-   ![새 &#x200B;](images/new-aem-sites-dialog-box.png){width="300"}
+   ![새 ](images/new-aem-sites-dialog-box.png){width="300"}
 
 <!--
 ### Generate the AEM Sites output using the templates
@@ -103,7 +114,7 @@ You can configure the Out-of-the-box Sites template  in two ways:
 - 주제 목록
 - 교차 맵 참조
 
-![새 &#x200B;](images/aem-sites-new-config.png){width="650"}
+![새 ](images/aem-sites-new-config.png){width="650"}
 
 **일반**
 
@@ -172,7 +183,7 @@ You can configure the Out-of-the-box Sites template  in two ways:
 - 콘텐츠
 - 교차 맵 참조
 
-![새 &#x200B;](images/aem-sites-preset-legacy-config.png){width="500"}
+![새 ](images/aem-sites-preset-legacy-config.png){width="500"}
 
 **일반**
 
@@ -195,7 +206,7 @@ You can configure the Out-of-the-box Sites template  in two ways:
 
 **콘텐츠**
 
-![새 &#x200B;](images/aem-sites-content-tab.png){width="650"}
+![새 ](images/aem-sites-content-tab.png){width="650"}
 
 **콘텐츠** 탭에는 다음 구성 옵션이 포함되어 있습니다.
 
@@ -240,7 +251,7 @@ Experience Manager Guides에서는 `peer @scope`을(를) 사용하여 주제 참
 
    ![교차 맵 참조](images/aem-sites-preset-cross-map-references.png)
 
-1. 맵에서 각 종속 파일의 가장 최근에 게시된 출력을 사용하려면 모든 종속 항목에 대해 **가장 최근에 생성된 게시 컨텍스트 사용**&#x200B;을 선택합니다.
+1. 맵에서 각 종속 파일의 가장 최근에 게시된 출력을 사용하려면 모든 종속 항목에 대해 **가장 최근에 생성된 게시 컨텍스트 사용**을 선택합니다.
 연결된 항목이 들어 있는 맵을 게시하기 전에 상위 맵으로 선택한 맵을 게시해야 합니다. 연결된 주제가 있는 맵이 게시되지 않으면 해당 링크는 AEM Sites 출력에 하이퍼링크 대신 일반 텍스트로 표시됩니다.
 연결된 주제에 대해 동일한 유형의 AEM Sites 사전 설정을 선택해야 합니다. 예를 들어 현재 AEM Sites 사전 설정이 기존 구성 요소 매핑을 사용하는 경우 연결된 주제의 유사한 AEM Sites 사전 설정을 선택합니다.
 1. 상위 맵 드롭다운 목록에서 현재 맵의 출력을 연결할 출력이 있는 맵 파일을 선택합니다.

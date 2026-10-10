@@ -4,24 +4,33 @@ description: Experience Manager Guides의 세션 시간 초과에 대해 알아�
 feature: Authoring, Publishing
 role: User
 exl-id: f09b1215-4753-4dfd-89ef-1629257e5efe
-TQID: https://experienceleague.adobe.com/nrxkVxSUooy2-08PaUp1pjiH8w2kBBNGC9efarvepbQ
+TQID: 'https://experienceleague.adobe.com/nrxkVxSUooy2-08PaUp1pjiH8w2kBBNGC9efarvepbQ'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Troubleshooting
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 249
+source-wordcount: '249'
 ht-degree: 0%
-
 ---
-
 # Experience Manager Guides은 특정 기간이 지난 후 로그아웃하는 이유는 무엇입니까?
 
 Experience Manager Guides은 정의된 비활성화 기간(유휴 시간 초과) 이후 사용자 세션을 종료합니다. 이 자동 로그아웃 기능은 Adobe Experience Manager에서 구성됩니다. 세션이 만료되면 만료된 세션에 대해 사용자에게 알리는 팝업 경고가 표시됩니다. 이 경고는 사용자가 콘텐츠를 추가로 변경할 수 없도록 제한합니다.

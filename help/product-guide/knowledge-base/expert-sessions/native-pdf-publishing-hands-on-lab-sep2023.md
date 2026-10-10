@@ -4,28 +4,37 @@ description: 이 '실습형 랩 - BYOS' 세션은 기본 PDF 게시를 심층적
 exl-id: 55c276d8-8611-4050-be5f-7f9854f94228
 feature: Native PDF Output
 role: User, Admin
-TQID: https://experienceleague.adobe.com/nPgfochzBl2Zv5ANSYE1q-I6PiYiAONbuOV-qfkVtA8
+TQID: 'https://experienceleague.adobe.com/nPgfochzBl2Zv5ANSYE1q-I6PiYiAONbuOV-qfkVtA8'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
 subfeature_v2:
   - id: d6596f3f-92a7-43ec-b444-237db6adad05
+    internal-label: Native PDF publishing
+  - id: c4e6b17e-c50c-59a1-a719-9c33ce69e5b6
+    internal-label: Native PDF Output
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Insights
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 407
+source-wordcount: '407'
 ht-degree: 0%
-
 ---
-
 # 기본 PDF 게시 &quot;Hands on lab - BYOS&quot; - 대화형 학습
 
 이 &#39;실습형 랩 - BYOS&#39; 세션은 기본 PDF 게시를 심층적으로 살펴볼 수 있습니다. 다양한 사용 사례를 살펴보고, 주요 기능을 활용하고, Adobe 전문가와 직접 소통하여 특정 문제 진술 및 요구 사항을 해결하십시오.
@@ -63,13 +72,13 @@ ht-degree: 0%
 
 ## 관련 리소스
 
-- **기본 PDF 설정 단계** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.html?lang=ko)
+- **기본 PDF 설정 단계** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.html?lang=en)
 
-- **기본 PDF 게시의 기능 개요** - [Experience League의 기능 개요](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23.html?lang=ko)
+- **기본 PDF 게시의 기능 개요** - [Experience League의 기능 개요](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23.html?lang=en)
 
-- **문서화된 일반적인 사용 사례** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/content-styles/stylesheet.html?lang=ko)
+- **문서화된 일반적인 사용 사례** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/content-styles/stylesheet.html?lang=en)
 
-- **커뮤니티 포럼** - Experience League에서 세션별 커뮤니티 상호 작용을 보려면 [AEM Guides 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=ko)을 방문하십시오.
+- **커뮤니티 포럼** - Experience League에서 세션별 커뮤니티 상호 작용을 보려면 [AEM Guides 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)을 방문하십시오.
 
 >[!NOTE]
 >

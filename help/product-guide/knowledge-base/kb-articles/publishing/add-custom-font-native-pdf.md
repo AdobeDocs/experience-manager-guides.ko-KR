@@ -5,24 +5,30 @@ feature: Native PDF Output
 author: Pulkit Nagpal(punagpal)
 role: User, Admin
 exl-id: 151e3b1c-6340-4ff2-84d4-246bc4b68065
-TQID: https://experienceleague.adobe.com/xqr9eYA2XTcyXL8X4aS-Wu2-FmU8-aCWDpb-L2BBFqI
+TQID: 'https://experienceleague.adobe.com/xqr9eYA2XTcyXL8X4aS-Wu2-FmU8-aCWDpb-L2BBFqI'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
 subfeature_v2:
   - id: d6596f3f-92a7-43ec-b444-237db6adad05
+    internal-label: Native PDF publishing
+  - id: c4e6b17e-c50c-59a1-a719-9c33ce69e5b6
+    internal-label: Native PDF Output
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Admin
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 223
+source-wordcount: '223'
 ht-degree: 0%
-
 ---
-
 # DITA 기본 PDF에 사용자 정의 글꼴 추가
 
 ## 이 문서에서는 다음 사항을 다룹니다.
@@ -38,15 +44,15 @@ ht-degree: 0%
 
 ## 1단계 : 사용자 지정 글꼴을 템플릿의 리소스 폴더에 업로드
 
-![사용자 지정 글꼴 업로드 및 가져오기 &#x200B;](../assets/publishing/custom-font1.png)
+![사용자 지정 글꼴 업로드 및 가져오기 ](../assets/publishing/custom-font1.png)
 
 ## 2단계 : PDF 템플릿의 스타일시트에서 필요한 변경
 
-![PDF 템플릿의 스타일시트 &#x200B;](../assets/publishing/custom-font2.png)에 있는 글꼴
+![PDF 템플릿의 스타일시트 ](../assets/publishing/custom-font2.png)에 있는 글꼴
 
 ## 3단계 (선택 사항) : PDF에 사용된 글꼴 포함
 
-![DITA PDF에 포함된 사용자 지정 글꼴 &#x200B;](../assets/publishing/custom-font3.png)
+![DITA PDF에 포함된 사용자 지정 글꼴 ](../assets/publishing/custom-font3.png)
 
 ## FAQ
 

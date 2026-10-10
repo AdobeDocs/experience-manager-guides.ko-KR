@@ -5,31 +5,44 @@ exl-id: b5cf4f6c-dc56-428e-a514-6c9f879ac03d
 feature: Output Generation
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/z-5JBbQXNm-3Vv-wSiaY17xDzlqEfjLUCy9-V5jKkaA
+TQID: 'https://experienceleague.adobe.com/z-5JBbQXNm-3Vv-wSiaY17xDzlqEfjLUCy9-V5jKkaA'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
 subfeature_v2:
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: ccd46b93-df7f-4458-ba4c-90a3562d9ab0
+    internal-label: Filename configuration
   - id: df6fa66f-4542-4a6d-90ca-9f146eb5d494
+    internal-label: Template configuration
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 5820
+source-wordcount: '5834'
 ht-degree: 1%
-
 ---
-
 # 출력 생성 설정 구성 {#id181AI0B0E30}
 
 AEM Guides에는 출력 생성 프로세스를 사용자 정의할 수 있는 다양한 구성 옵션이 포함되어 있습니다. 이 항목에서는 출력 생성 프로세스를 설정하는 데 도움이 되는 모든 구성 및 사용자 정의에 대해 설명합니다.
@@ -146,7 +159,7 @@ AEM 사이트 출력 생성에 사용할 디자인 템플릿을 지정하려면 
 >
 > 사용자 지정 디자인 템플릿 노드를 만든 후 AEM 사이트 출력 사전 설정에서 디자인 옵션을 업데이트하여 사용자 지정 디자인 템플릿 노드를 사용해야 합니다.
 
-자세한 내용은 [첫 번째 Adobe Experience Manager 웹 사이트 만들기](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=ko) 및 AEM에서 자체 웹 사이트 개발 [기본 사항](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=ko)을 참조하십시오.
+자세한 내용은 [첫 번째 Adobe Experience Manager 웹 사이트 만들기](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=en) 및 AEM에서 자체 웹 사이트 개발 [기본 사항](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=en)을 참조하십시오.
 
 ### AEM 사이트 출력 생성에 문서 제목 사용
 
@@ -287,7 +300,7 @@ AEM 사이트 출력에서 평면화할 노드를 지정하는 것과 마찬가�
 
 ### AEM 사이트 출력에서 삭제된 페이지에 대한 버전 관리 구성
 
-기존 출력 페이지 설정에 대해 **삭제 및**&#x200B;만들기&#x200B;**&#x200B;**&#x200B;옵션이 선택된 AEM 사이트 출력을 생성하면 삭제되는 페이지에 대한 버전이 만들어집니다. 삭제하기 전에 버전 생성을 중단하도록 시스템을 구성할 수 있습니다.
+기존 출력 페이지 설정에 대해 **삭제 및**&#x200B;만들기&#x200B;****옵션이 선택된 AEM 사이트 출력을 생성하면 삭제되는 페이지에 대한 버전이 만들어집니다. 삭제하기 전에 버전 생성을 중단하도록 시스템을 구성할 수 있습니다.
 
 삭제할 페이지에 대한 버전 만들기를 중지하려면 다음 단계를 수행하십시오.
 
@@ -408,8 +421,8 @@ DITA-OT에 전달된 메타데이터 값의 유효성을 검사하기 위해 클
 
   metadata.xml에 액세스하려면 다음을 수행하십시오.
 
-   - AEM 인스턴스가 실행 중인 서버 위치에 로그인합니다.
-   - crx-quickstart/profiles/ditamaps/&lt;새로 만든 디렉터리 이름\>/metadata.xml으로 마이그레이션합니다.
+  - AEM 인스턴스가 실행 중인 서버 위치에 로그인합니다.
+  - crx-quickstart/profiles/ditamaps/&lt;새로 만든 디렉터리 이름\>/metadata.xml으로 마이그레이션합니다.
 - 샘플 파일 형식:
 
   **metadata.xml**
@@ -648,11 +661,11 @@ AEM Guides은 맵 콘솔을 사용자 지정할 `apps.fmdita.dashboard-extn` 범
 
 >[!NOTE]
 >
-> AEM 클라이언트 라이브러리를 만드는 방법에 대한 자세한 내용은 [클라이언트측 라이브러리 사용](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=ko)을 참조하십시오.
+> AEM 클라이언트 라이브러리를 만드는 방법에 대한 자세한 내용은 [클라이언트측 라이브러리 사용](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=en)을 참조하십시오.
 
 ## 출력 생성 중 이미지 렌디션 처리 {#id177BF0G0VY4}
 
-AEM에는 자산을 처리하는 기본 워크플로우 및 미디어 핸들 세트가 포함되어 있습니다. AEM에는 가장 일반적인 MIME 유형에 대한 에셋 처리를 처리하는 미리 정의된 워크플로가 있습니다. 일반적으로 AEM은 업로드하는 모든 이미지에 대해 동일한 여러 렌디션을 이진 형식으로 만듭니다. 이러한 렌디션은 크기가 다르고 해상도가 다르며 워터마크가 추가되거나 다른 특성이 변경될 수 있습니다. AEM에서 자산을 처리하는 방법에 대한 자세한 내용은 AEM 설명서에서 [미디어 핸들러 및 워크플로우를 사용하여 Assets 처리](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=ko)를 참조하십시오.
+AEM에는 자산을 처리하는 기본 워크플로우 및 미디어 핸들 세트가 포함되어 있습니다. AEM에는 가장 일반적인 MIME 유형에 대한 에셋 처리를 처리하는 미리 정의된 워크플로가 있습니다. 일반적으로 AEM은 업로드하는 모든 이미지에 대해 동일한 여러 렌디션을 이진 형식으로 만듭니다. 이러한 렌디션은 크기가 다르고 해상도가 다르며 워터마크가 추가되거나 다른 특성이 변경될 수 있습니다. AEM에서 자산을 처리하는 방법에 대한 자세한 내용은 AEM 설명서에서 [미디어 핸들러 및 워크플로우를 사용하여 Assets 처리](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=en)를 참조하십시오.
 
 AEM Guides을 사용하면 문서에 대한 출력을 생성할 때 사용할 이미지 렌디션을 구성할 수 있습니다. 예를 들어 기본 이미지 표현물 중 하나를 선택하거나 표현물을 만들어 이를 사용하여 문서를 게시할 수 있습니다. 문서를 게시하기 위한 이미지 렌디션 매핑은 `/libs/fmdita/config/ **renditionmap.xml**` 파일에 저장됩니다. `renditionmap.xml` 파일의 스니펫은 다음과 같습니다.
 

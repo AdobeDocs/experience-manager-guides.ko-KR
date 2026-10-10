@@ -4,7 +4,7 @@ description: 웹 편집기에서 콘텐츠를 여러 언어로 번역합니다. 
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-TQID: https://experienceleague.adobe.com/aSjUOzg8-jreMvbiuBZ5lRlbeikBHMHBLUww4L3-hZA
+TQID: 'https://experienceleague.adobe.com/aSjUOzg8-jreMvbiuBZ5lRlbeikBHMHBLUww4L3-hZA'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -17,6 +17,10 @@ feature_v2:
     internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
     internal-label: Configuration
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
+  - id: 626b0638-bd2d-504c-8ccd-53d63b856710
+    internal-label: Translation
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
     internal-label: Editor
@@ -33,7 +37,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 0db59f201b2418911634609b93ab7892477052c9
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '2794'
 ht-degree: 0%
@@ -146,7 +150,7 @@ Experience Manager Guides에는 콘텐츠를 여러 언어로 번역할 수 있�
    새 번역 프로젝트 외에 다음 옵션 중에서 선택할 수도 있습니다.
 
    - 번역 프로젝트에 대해 **구조만 만들기**&#x200B;를 선택할 수 있습니다.
-   - **새 XLIFF 번역 프로젝트를 만들기**&#x200B;를 선택하여 XML 콘텐츠를 XLIFF(XML 로컬라이제이션 교환 파일 형식)로 변환할 수 있습니다. XLIFF는 컨텐츠 번역 프로세스에서 사용되는 다양한 도구 간의 데이터 전송을 표준화하는 데 사용되는 개방형 XML 기반 형식입니다. Experience Manager Guides은 XLIFF 버전 1.2를 지원합니다.
+   - **새 XLIFF 번역 프로젝트를 만들기**를 선택하여 XML 콘텐츠를 XLIFF(XML 로컬라이제이션 교환 파일 형식)로 변환할 수 있습니다. XLIFF는 컨텐츠 번역 프로세스에서 사용되는 다양한 도구 간의 데이터 전송을 표준화하는 데 사용되는 개방형 XML 기반 형식입니다. Experience Manager Guides은 XLIFF 버전 1.2를 지원합니다.
      XLIFF 프로젝트에서는 콘텐츠를 업계 표준 XLIFF 형식으로 내보내고 이를 번역 공급업체에 제공할 수 있습니다. XLIFF 형식을 사용하면 번역 단계 중에 이미 번역한 세그먼트를 다시 사용할 수 있습니다.\
      XLIFF 콘텐츠를 번역한 후 Experience Manager Guides으로 가져와 원본 DITA 프로젝트의 번역된 버전을 만들 수 있습니다.
 
@@ -284,4 +288,4 @@ Experience Manager Guides에서는 문서 관리를 수행하기 위해 번역�
 나중에 사용하려면 번역 프로젝트를 비활성화할 수도 있습니다. 프로젝트를 삭제하면 프로젝트에 있는 모든 파일과 폴더가 삭제됩니다. 프로젝트를 비활성화해도 삭제되지는 않지만 저장소에 유지됩니다. 그러나 비활성화된 프로젝트는 업데이트하거나 편집할 수 없습니다.  프로젝트를 삭제하거나 비활성화해도 참조의 번역 상태에는 영향을 주지 않습니다.
 
 
-**상위 항목:**&#x200B;[&#x200B;편집기 소개](web-editor.md)
+**상위 항목:**[&#x200B;편집기 소개](web-editor.md)

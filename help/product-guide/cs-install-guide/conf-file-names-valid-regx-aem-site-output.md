@@ -5,23 +5,29 @@ exl-id: 05215bec-653b-4563-83c6-a1bb16200469
 feature: Filename Configuration
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/hhc9Q8A-Eq3e8PAHHDXf1jXf8qVb-p4sU3Cum53ra9M
+TQID: 'https://experienceleague.adobe.com/hhc9Q8A-Eq3e8PAHHDXf1jXf8qVb-p4sU3Cum53ra9M'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ccd46b93-df7f-4458-ba4c-90a3562d9ab0
+    internal-label: Filename configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 145
+source-wordcount: '145'
 ht-degree: 1%
-
 ---
-
 # AEM 사이트 출력에 대한 유효한 파일 이름 구성 {#id214GK0X0KXA}
 
 DITA 주제에 허용되는 유효한 파일 이름 문자 목록과 유사하게 AEM 사이트 출력에 유효한 파일 이름 문자 목록을 구성할 수도 있습니다. URL에 허용되지 않는 알려진 문자 중 일부는 ``'<>`@$``입니다. 이러한 문자는 AEM 사이트 출력 파일 이름을 생성하는 동안 발견될 때 밑줄 &quot;`_`&quot;(으)로 자동 변환되도록 구성되어 있습니다.
@@ -32,4 +38,4 @@ DITA 주제에 허용되는 유효한 파일 이름 문자 목록과 유사하�
 |---|------------|--------------|
 | `com.adobe.fmdita.common.SanitizeNodeNameImpl` | `aemsite.DisallowedFileNameChars` | AEM 사이트 출력 파일 이름에 밑줄로 바꿀 문자를 추가합니다. <br> **기본값**: ``'<\>\`@$`` |
 
-**상위 항목:**&#x200B;[&#x200B;파일 이름 구성](conf-file-names.md)
+**상위 항목:**[&#x200B;파일 이름 구성](conf-file-names.md)

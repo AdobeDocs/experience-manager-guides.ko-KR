@@ -5,13 +5,28 @@ feature: Search Configuration
 role: Admin
 level: Experienced
 exl-id: bfb98000-7496-4d00-80f8-53b1a7ab4016
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: c1a26c73-5f45-427a-a313-7cb7df2c304e
+    internal-label: Search configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1870'
 ht-degree: 2%
-
 ---
-
 # AEM Assets UI에 대한 검색 구성 {#id192SC800MY4}
 
 기본적으로 AEM은 DITA 콘텐츠를 인식하지 않으므로 저장소 내에서 DITA 콘텐츠를 검색하는 메커니즘을 제공하지 않습니다. 또한 UUID를 기반으로 컨텐츠를 검색하는 OOTB 기능도 없습니다. AEM Guides을 사용하면 AEM 저장소에서 DITA 콘텐츠 검색 및 UUID 기반 검색 기능을 추가할 수 있습니다.
@@ -273,7 +288,7 @@ Experience Manager Guides 설정을 기반으로 검색에서 임시 번역 폴�
 
 >[!NOTE]
 >
-> 이 절차를 사용하여 제외 목록에 다른 폴더 위치를 추가할 수 있습니다. 인덱스 작업에 대한 자세한 내용은 [콘텐츠 검색 및 색인화](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html?lang=ko)를 참조하십시오.
+> 이 절차를 사용하여 제외 목록에 다른 폴더 위치를 추가할 수 있습니다. 인덱스 작업에 대한 자세한 내용은 [콘텐츠 검색 및 색인화](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html)를 참조하십시오.
 
 1. 사용자 지정 damAssetLucene 인덱스에 다음 속성을 추가합니다.
 

@@ -5,13 +5,28 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 612f0be3-9f9d-4e30-ac57-65da227ea08f
-source-git-commit: 9dba92a79858ee8a182d833d09f9907ff895ec38
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 7%
-
 ---
-
 # Cloud Service의 찾기 및 바꾸기(Source 보기) 기능을 위한 사용자 지정 색인 배포
 
 ## 개요
@@ -171,8 +186,8 @@ AEM as a Cloud Service에 사용자 지정 색인을 배포하는 방법에 대�
 - **인덱스 유형**: 전체 사용자 지정 인덱스(OOTB 인덱스의 사용자 지정 아님)
 - **위치**: `ui.apps/src/main/content/jcr_root/_oak_index/guidesAssetLucene-1-custom-1/.content.xml`
 - **패키지 속성 필요**:
-   - `noIntermediateSaves=true`
-   - `allowIndexDefinitions=true`
+  - `noIntermediateSaves=true`
+  - `allowIndexDefinitions=true`
 
 ## 리인덱싱
 
@@ -211,6 +226,6 @@ AEM as a Cloud Service에 사용자 지정 색인을 배포하는 방법에 대�
 
 - [AEM as a Cloud Service 색인화 설명서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/operations/indexing)
 - [Apache Jackrabbit Oak 색인화 안내서](https://jackrabbit.apache.org/oak/docs/query/indexing.html)
-- [AEM Guides 설명서](https://experienceleague.adobe.com/ko/docs/experience-manager-guides)
+- [AEM Guides 설명서](https://experienceleague.adobe.com/en/docs/experience-manager-guides)
 - [Cloud Manager 설명서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager)
 

@@ -4,7 +4,20 @@ description: Experience Manager Guides의 편집기 인터페이스에서 사용
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 10df0495-1d52-4c7c-a11a-059fe72d09f2
-source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '2378'
 ht-degree: 0%
@@ -13,7 +26,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 5.2 이전 버전의 온-프레미스 설정에서 **설정** 옵션이 편집기의 탭 표시줄에 나타납니다. 버전 5.2 이상의 Cloud Service 및 On-Premise 구성의 경우 이 옵션의 이름이 **Workspace 설정**(으)로 변경되었습니다. **편집기 설정**&#x200B;에서 사용할 수 있는 기존의 모든 구성 옵션은 변경되지 않습니다.
+> 5.2 이전 버전의 온-프레미스 설정에서 **설정** 옵션이 편집기의 탭 표시줄에 나타납니다. 버전 5.2 이상의 Cloud Service 및 On-Premise 구성의 경우 이 옵션의 이름이 **Workspace 설정**(으)로 변경되었습니다. **편집기 설정**에서 사용할 수 있는 기존의 모든 구성 옵션은 변경되지 않습니다.
 > ![On-premise](assets/editor-settings-on-prem.png){width="650"}에 대한 편집기 설정
 
 
@@ -281,7 +294,7 @@ ht-degree: 0%
 
 작업 영역 설정의 ![메타데이터 탭](../user-guide/images/editor-setting-metadata.png){width="550"}
 
-***버전 기록**&#x200B;대화 상자에 대한 메타데이터를 구성합니다.*
+***버전 기록**대화 상자에 대한 메타데이터를 구성합니다.*
 
 
 

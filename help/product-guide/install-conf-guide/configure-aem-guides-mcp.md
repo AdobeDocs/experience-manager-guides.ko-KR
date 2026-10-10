@@ -5,7 +5,15 @@ meta-feature: Authoring
 meta-product: Experience Manager, Experience Manager Guides
 meta-role: User
 meta-type: Documentation
-source-git-commit: 6841c373b75770e8691a2cac4d56aeb368b09480
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1557'
 ht-degree: 1%
@@ -48,7 +56,7 @@ Experience Manager Guides MCP 서버에 대한 액세스는 **조직당 옵트�
 
 ### 인류 클로드
 
-공식 설명을 따르십시오. [AEM MCP용 클라우드 설정](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/mcp-support/chat-applications/setup-claude). 사용자 지정 커넥터를 추가할 때 Experience Manager Guides 엔드포인트를 사용합니다.
+공식 설명을 따르십시오. [AEM MCP용 클라우드 설정](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/mcp-support/chat-applications/setup-claude). 사용자 지정 커넥터를 추가할 때 Experience Manager Guides 엔드포인트를 사용합니다.
 
 ```
 https://mcp.adobeaemcloud.com/adobe/mcp/guides

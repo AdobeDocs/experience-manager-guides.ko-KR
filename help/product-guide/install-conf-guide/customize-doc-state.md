@@ -5,13 +5,28 @@ feature: Document State
 role: Admin
 level: Experienced
 exl-id: 2f035c92-21f9-401a-a2cb-d1bc19c75598
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+subfeature_v2:
+  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 0%
-
 ---
-
 # 문서 상태 구성 {#id181GB0400UI}
 
 AEM Guides을 사용하면 조직의 요구 사항에 따라 DITA 주제에 대한 문서 상태를 정의할 수 있습니다. 문서의 여러 상태를 처음부터 끝까지 정의할 수 있습니다. 예를 들어 첫 번째 상태는 초안일 수 있으며 검토, 승인됨, 번역됨 및 마지막으로 게시됨으로 이동할 수 있습니다.
@@ -62,11 +77,11 @@ AEM Guides은 기본 문서 상태 세트와 함께 제공됩니다. 이 상태�
    - 문서의 끝 상태를 **끝 상태**&#x200B;로 지정하십시오.
    - **상태 전환** 아래의 **시작** 및 **끝**&#x200B;에서 문서의 상태 전환을 지정하십시오.
 
-      - **그룹**&#x200B;에서 문서 상태를 변경할 수 있는 사용자 및 사용자 그룹을 지정하십시오.
+     - **그룹**&#x200B;에서 문서 상태를 변경할 수 있는 사용자 및 사용자 그룹을 지정하십시오.
 
-      - 상태 전환을 추가하려면 **추가** 단추를 클릭하십시오.
+     - 상태 전환을 추가하려면 **추가** 단추를 클릭하십시오.
 
-      - 삭제 아이콘을 클릭하여 상태 전환을 삭제합니다.
+     - 삭제 아이콘을 클릭하여 상태 전환을 삭제합니다.
 
      >[!NOTE]
      >

@@ -5,24 +5,33 @@ exl-id: cf437fb8-ed33-47af-aa7e-ffd8acd232da
 feature: Migration
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/EoyXmpAq2512icOucboiDrqOSyOaIESRz32v3QXzQSM
+TQID: 'https://experienceleague.adobe.com/EoyXmpAq2512icOucboiDrqOSyOaIESRz32v3QXzQSM'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: 5be0fc8f-1cff-5c3e-bb92-2903a56a3de6
+    internal-label: Migration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Customer experience
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 2581
+source-wordcount: '2581'
 ht-degree: 0%
-
 ---
-
 # DITA가 아닌 콘텐츠 마이그레이션 {#id181AH0R02HT}
 
 이 섹션에서는 DITA가 아닌 문서를 DITA 형식으로 마이그레이션하는 마이그레이션 프로세스를 안내합니다. AEM Guides은 다음 소스에서 마이그레이션을 제공합니다.
@@ -139,7 +148,7 @@ AEM Guides을 사용하면 InDesign 문서를 변환할 수 있습니다. FrameM
 - 개별 DITA 주제 및 DITA 맵 파일의 생성 및 유효성 검사
 - 임시 파일 삭제.
 
-변환 프로세스를 실행하려면 [변환을 위해 InDesign 파일 준비](appendix.md#id195DBF0045Z) [appendix.md\#id195DBF0045Z](appendix.md#id195DBF0045Z) 및 [InDesign에서 DITA로의 마이그레이션 매핑 파일 준비](appendix.md#id194AF0003HT) [appendix.md\#id194AF0003HT](appendix.md#id194AF0003HT)를 수행해야 합니다. 그런 다음 변환 프로세스를 실행하는 지정된 절차를 따라야 합니다.
+변환 프로세스를 실행하려면 [변환을 위해 InDesign 파일 준비](appendix.md#id195DBF0045Z)[appendix.md\#id195DBF0045Z](appendix.md#id195DBF0045Z) 및 [InDesign에서 DITA로의 마이그레이션 매핑 파일 준비](appendix.md#id194AF0003HT)[appendix.md\#id194AF0003HT](appendix.md#id194AF0003HT)를 수행해야 합니다. 그런 다음 변환 프로세스를 실행하는 지정된 절차를 따라야 합니다.
 
 기존 InDesign 문서를 DITA 주제 유형 문서로 변환하려면 다음 단계를 수행하십시오.
 
@@ -413,4 +422,4 @@ AEM Guides을 사용하면 기존의 구조화된 문서를 유효한 DITA 문�
 
 `<config> </config>` 블록을 사용하여 변환을 위해 하나 이상의 구성 블록을 정의할 수 있습니다. 변환 워크플로우가 실행되고 DITA 주제 형식의 최종 출력이 `outputDir` 요소에 지정된 위치에 저장됩니다.
 
-**상위 항목:**&#x200B;[&#x200B;기존 콘텐츠 마이그레이션](migrate-content.md)
+**상위 항목:**[&#x200B;기존 콘텐츠 마이그레이션](migrate-content.md)

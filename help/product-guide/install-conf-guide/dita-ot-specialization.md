@@ -5,13 +5,28 @@ feature: DITA-OT Configuration
 role: Admin
 level: Experienced
 exl-id: 4a5ba148-da31-4751-943d-624165c66429
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: a9152842-7b20-4563-9267-e1dc8991bd13
+    internal-label: DITA OT configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '3728'
 ht-degree: 0%
-
 ---
-
 # 사용자 지정 DITA-OT 및 DITA 특수화 사용 {#id181GAJ0005Z}
 
 DITA Open Toolkit \(DITA-OT\)는 DITA 맵 및 주제 컨텐츠를 처리하는 Java 기반 오픈 소스 도구 세트입니다. AEM Guides을 사용하면 사용자 지정 DITA-OT 플러그인을 쉽게 가져오고 사용할 수 있습니다. 가져온 후에는 사용자 지정 DITA-OT 플러그인을 사용하여 모든 형식의 출력을 생성하도록 AEM Guides을 구성할 수 있습니다. 출력을 생성할 때 DITA-OT 옵션을 선택하면 AEM Guides에서 사용자 지정 DITA-OT 플러그인을 사용하여 필요한 출력을 생성합니다.
@@ -59,7 +74,7 @@ AEM Guides에서 사용할 수 있는 기본 DITA-OT 패키지에는 MathML 방�
 
    >[!NOTE]
    >
-   > 기본 DITA-OT 패키지를 덮어쓰지 않는 것이 좋습니다. 플러그인 /var/dxml/dita\_resources/dita-ot 폴더가 포함된 사용자 지정 DITA-OT 패키지를 업로드해야 합니다. Cloud Manager 파이프라인을 사용하여 수행할 수도 있습니다. 자세한 내용은 AEM 설명서에서 [AEM as a Cloud Service에 배포](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=ko)를 참조하십시오.
+   > 기본 DITA-OT 패키지를 덮어쓰지 않는 것이 좋습니다. 플러그인 /var/dxml/dita\_resources/dita-ot 폴더가 포함된 사용자 지정 DITA-OT 패키지를 업로드해야 합니다. Cloud Manager 파이프라인을 사용하여 수행할 수도 있습니다. 자세한 내용은 AEM 설명서에서 [AEM as a Cloud Service에 배포](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html)를 참조하십시오.
 
 1. 기본 프로파일을 편집하거나, 새 프로파일을 만들거나, 기본 프로파일에서 설정을 복제하여 새 프로파일을 만들 수 있습니다.
 

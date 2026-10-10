@@ -5,13 +5,28 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: eabaec57-e717-45a9-8321-4057b993d7fb
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: e557051c-ff02-4ff8-9421-cf452af0edd5
+    internal-label: Installation
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 1%
-
 ---
-
 # 새 AEM 사이트 템플릿 맞춤화
 
 이 안내서에서는 AEM Guides과 함께 사용하여 DITA 맵 및 주제에서 AEM Sites을 생성할 수 있도록 기존 AEM 사이트 템플릿을 사용자 지정하는 단계별 지침을 제공합니다.
@@ -26,8 +41,8 @@ ht-degree: 1%
 - 기존 사이트 계층 구조가 편집 가능한 템플릿을 사용하여 구축되어 있습니다.
 - 기존 프로젝트에는 최소한 두 개의 템플릿이 있습니다.
 
-   - DITA 맵을 문서 루트로 렌더링하는 데 사용되는 **문서 컨테이너 페이지 템플릿**.
-   - 개별 DITA 주제 페이지를 렌더링하는 데 사용되는 **주제 페이지 템플릿**.
+  - DITA 맵을 문서 루트로 렌더링하는 데 사용되는 **문서 컨테이너 페이지 템플릿**.
+  - 개별 DITA 주제 페이지를 렌더링하는 데 사용되는 **주제 페이지 템플릿**.
 
 ## 템플릿 이름 지정 고려 사항
 
@@ -74,8 +89,8 @@ AEM 사이트에서 두 개의 편집 가능한 템플릿을 선택하고 구성
   ![필수 속성이 있는 텍스트 구성 요소 추가](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component-mandatory-property.png){width="650"}
 
 - 이 자리 표시자는 사이트 생성 중 DITA 주제의 실제 콘텐츠로 대체됩니다.
-   - 텍스트 구성 요소는 일반적으로 적절한 레이아웃과 스타일을 위해 **컨테이너 구성 요소** 내부에 배치됩니다.
-   - 모든 주제 페이지에서 일관된 머리글, 바닥글 및 탐색 요소를 포함하도록 사용자 지정할 수 있습니다.
+  - 텍스트 구성 요소는 일반적으로 적절한 레이아웃과 스타일을 위해 **컨테이너 구성 요소** 내부에 배치됩니다.
+  - 모든 주제 페이지에서 일관된 머리글, 바닥글 및 탐색 요소를 포함하도록 사용자 지정할 수 있습니다.
 
 **사용 사례 예:**
 &quot;설치 지침&quot;에 대한 DITA 주제가 있는 경우 주제 페이지 템플릿에서 해당 주제의 내용을 표시하는 페이지를 생성합니다.
@@ -140,4 +155,4 @@ AEM 사이트에서 두 개의 편집 가능한 템플릿을 선택하고 구성
 
 >[!NOTE]
 >
-> 프로덕션에 배포하기 전에 비프로덕션 환경에서 템플릿을 테스트해야 합니다.<br><br>자세한 내용은 공식 [AEM Guides](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/overview) 및 [AEM Sites](https://experienceleague.adobe.com/ko/docs/experience-manager-core-components/using/get-started/authoring) 설명서를 참조하십시오.
+> 프로덕션에 배포하기 전에 비프로덕션 환경에서 템플릿을 테스트해야 합니다.<br><br>자세한 내용은 공식 [AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview) 및 [AEM Sites](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/get-started/authoring) 설명서를 참조하십시오.

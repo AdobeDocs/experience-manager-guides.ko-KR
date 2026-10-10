@@ -5,13 +5,28 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: d54e3a3c-9f61-43cf-a925-12e4ce948a55
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 0%
-
 ---
-
 # 태그 보기에 대한 기본값 구성 {#id223GN0M0NDC}
 
 AEM Guides을 사용하면 편집기에서 태그 보기에 대한 기본 상태를 구성할 수 있으므로 새 사용자의 세션에 대해 기본적으로 태그 보기를 켜거나 끌 수 있습니다.태그 보기의 기본값을 구성하려면 다음 단계를 수행하십시오.
@@ -37,4 +52,4 @@ AEM Guides을 사용하면 편집기에서 태그 보기에 대한 기본 상태
 >
 > 태그 보기를 활성화/비활성화하는 편집기의 사용자 기본 설정은 이 기본값보다 우선합니다. 따라서 사용자가 편집기에서 태그 보기를 활성화하면 세션 중에도 활성화된 상태가 유지됩니다.
 
-**상위 항목:**&#x200B;[&#x200B;편집기 사용자 지정](customize-overview.md)
+**상위 항목:**[&#x200B;편집기 사용자 지정](customize-overview.md)
