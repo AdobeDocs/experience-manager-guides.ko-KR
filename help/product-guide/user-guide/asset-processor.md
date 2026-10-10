@@ -5,24 +5,33 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: 27786098-119c-4b7a-8275-8a89d435294f
-TQID: https://experienceleague.adobe.com/gAPjyNNTtHv3StIe0O-Fs8Wx0NhXjkML-TEkAPLosIE
+TQID: 'https://experienceleague.adobe.com/gAPjyNNTtHv3StIe0O-Fs8Wx0NhXjkML-TEkAPLosIE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: 5be0fc8f-1cff-5c3e-bb92-2903a56a3de6
+    internal-label: Migration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Troubleshooting
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 648
+source-wordcount: '677'
 ht-degree: 0%
-
 ---
-
 # 자산 처리
 
 게시와 같이 데이터가 많은 워크플로우에서는 효율적인 에셋 관리가 성능과 안정성을 유지하는 데 중요합니다. 에셋 처리 워크플로우는 집중적인 데이터 작업이 필요한 사용자별 에셋을 관리하도록 설계되었습니다. 주로 두 가지 경우를 다룹니다. 오류로 인해 초기 처리가 실패하거나 자산 처리 트리거가 시작되지 않아 파일이 처리되지 않은 상태입니다. 타깃팅된 폴더 수준 처리를 가능하게 함으로써 사용자는 필요한 자산만 분리하여 처리할 수 있으므로 불필요한 계산의 오버헤드를 방지할 수 있습니다. 이러한 선택적 접근 방식은 성능을 크게 향상시켜 게시 및 보고서 생성과 같은 중요한 작업에 필요한 시간을 단축합니다. 전반적으로 복잡한 데이터 작업을 처리하는 데 효율성과 속도를 높이는 데 기여합니다.
@@ -74,7 +83,7 @@ ht-degree: 0%
    1. **폴더 및 파일 선택**: 처리할 하나 이상의 폴더 및 파일을 탐색하고 선택합니다.
    1. **무시할 폴더 선택**: 선택적으로 선택한 상위 폴더 내에서 처리에서 제외할 하위 폴더를 선택합니다.
    1. **자산 유형**: 드롭다운에서 처리할 특정 자산 유형(예: DITA 주제, DITA 맵, Markdown, HTML/CSS, DITAVAL 또는 기타 파일)을 선택합니다. 선택한 자산 유형만 이전에 지정한 폴더에서 처리됩니다.
-예: DITA 주제를 선택하면 선택한 폴더 내의 DITA 주제만 처리되므로 타깃팅된 필터링을 사용할 수 있습니다.
+      예: DITA 주제를 선택하면 선택한 폴더 내의 DITA 주제만 처리되므로 타깃팅된 필터링을 사용할 수 있습니다.
    1. **다음 시간 이후에 생성됨/다음 시간 이전에 생성됨**: 지정된 일정 내에 생성된 에셋을 처리하는 데 날짜 필터를 적용합니다.
 
    >[!NOTE]

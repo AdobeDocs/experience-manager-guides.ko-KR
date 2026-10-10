@@ -1,11 +1,18 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides, 2026.09.0 릴리스의 문제가 해결되었습니다.
 description: Adobe Experience Manager Guides as a Cloud Service 2026.09.0 릴리스의 버그 수정에 대해 알아봅니다.
-source-git-commit: 71ddd55d2a6848449d5810701b60e9f69a29112b
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1241'
 ht-degree: 0%
-
 ---
 
 # 2026.09.0 릴리스의 문제가 해결되었습니다.

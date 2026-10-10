@@ -5,19 +5,26 @@ feature: Bulk Activation Event Handler
 role: Developer
 level: Experienced
 exl-id: 08b153d7-3d13-4804-9e3e-38790dbea1f3
-TQID: https://experienceleague.adobe.com/M8Q8A8auCkKjmoilHsUfU2ztNSCxOWstwPC1bMLmvD0
+TQID: 'https://experienceleague.adobe.com/M8Q8A8auCkKjmoilHsUfU2ztNSCxOWstwPC1bMLmvD0'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: e9ce386a-8fcd-5611-afd2-52376f08545a
+    internal-label: Bulk Activation Event Handler
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 185
+source-wordcount: '185'
 ht-degree: 6%
-
 ---
-
 # 일괄 활성화 완료 이벤트 핸들러
 
 Experience Manager Guides은 일괄 활성화 프로세스가 완료된 후 작업을 수행하는 데 사용되는 `com/adobe/fmdita/replication/complete` 이벤트를 노출합니다. 이 이벤트는 일괄 활성화 프로세스가 완료될 때마다 트리거됩니다. 예를 들어, 맵의 AEM 사이트 사전 설정의 벌크 활성화를 실행하는 경우 이 이벤트는 활성화 프로세스가 끝난 후 호출됩니다.

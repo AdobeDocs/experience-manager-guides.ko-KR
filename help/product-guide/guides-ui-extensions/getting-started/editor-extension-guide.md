@@ -4,13 +4,28 @@ description: Editor 2.0용 확장 프레임워크의 변경 사항에 대해 알
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 2ba8eadcb30faca01170cb13ae2da6fdf7da19c8
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '2003'
+source-wordcount: '2006'
 ht-degree: 3%
-
 ---
-
 # Editor 2.0(새 편집기)의 확장 프레임워크 변경 사항
 
 이 문서에서는 새 편집기(ProseMirror 기반 편집기)의 확장 프레임워크의 일부로 `guides.editor`(및 `guides`)에 추가된 모든 API를 다룹니다. 이러한 API를 사용하면 직접 DOM 조작이나 내부 구현 지식 없이 외부 확장이 편집기와 상호 작용할 수 있습니다.
@@ -240,63 +255,63 @@ guides.ready(() => {
   | 찾기 및 바꾸기 | `findNext` | _(없음)_ | 다음 검색 일치로 이동 |
   | 찾기 및 바꾸기 | `replaceAll` | `replacement?: string` | 현재 검색 쿼리의 모든 일치 항목을 `replacement`(으)로 바꾸기 |
 
-   - **예: 노드에 여러 특성을 설정합니다**
+  - **예: 노드에 여러 특성을 설정합니다**
 
-     ```js
-     guides.editor.runCommand(
-       "setNodeXmlAttributes",
-       rootRange.from,
-       { createdDate: "2024-01-01", author: "Jane Doe" }
-     );
-     ```
+    ```js
+    guides.editor.runCommand(
+      "setNodeXmlAttributes",
+      rootRange.from,
+      { createdDate: "2024-01-01", author: "Jane Doe" }
+    );
+    ```
 
-   - **예: 노드에서 단일 특성 설정**
+  - **예: 노드에서 단일 특성 설정**
 
-     ```js
-     guides.editor.runCommand(
-       "setNodeXmlAttribute",
-       range.from,
-       "placeholdertext",
-       "Chapter 3 — Safety Requirements"
-     );
-     ```
+    ```js
+    guides.editor.runCommand(
+      "setNodeXmlAttribute",
+      range.from,
+      "placeholdertext",
+      "Chapter 3 — Safety Requirements"
+    );
+    ```
 
-   - **예: 요소를 사용하여 선택 항목을 래핑하고 특성을 설정합니다**
+  - **예: 요소를 사용하여 선택 항목을 래핑하고 특성을 설정합니다**
 
-     ```js
-     const didWrap = guides.editor.runCommand(
-       "surroundWithElement",
-       "ph",
-       { outputclass: "highlight" },
-       true   // replace text content with empty node
-     );
-     ```
+    ```js
+    const didWrap = guides.editor.runCommand(
+      "surroundWithElement",
+      "ph",
+      { outputclass: "highlight" },
+      true   // replace text content with empty node
+    );
+    ```
 
-   - **예: `<sup>`에서 선택 항목 줄바꿈(위 첨자 켜기 전환)**
+  - **예: `<sup>`에서 선택 항목 줄바꿈(위 첨자 켜기 전환)**
 
-     ```js
-     const didWrap = guides.editor.runCommand('surroundWithElement', 'sup');
-     if (!didWrap) {
-       tcx.util.showAlert("warning", "superscript is not allowed here");
-     }
-     ```
+    ```js
+    const didWrap = guides.editor.runCommand('surroundWithElement', 'sup');
+    if (!didWrap) {
+      tcx.util.showAlert("warning", "superscript is not allowed here");
+    }
+    ```
 
-   - **예: 현재 노드의 줄바꿈 해제(위 첨자 해제 전환)**
+  - **예: 현재 노드의 줄바꿈 해제(위 첨자 해제 전환)**
 
-     ```js
-     const didUnwrap = guides.editor.runCommand('unwrapNode');
-     ```
+    ```js
+    const didUnwrap = guides.editor.runCommand('unwrapNode');
+    ```
 
-   - **예: 캐럿을 내부에 배치한 채 커서에 XML 삽입**
+  - **예: 캐럿을 내부에 배치한 채 커서에 XML 삽입**
 
-     ```js
-     guides.editor.runCommand(
-       'insertXml',
-       '<sup></sup>',
-       undefined,
-       { setCursorInContent: true, focusEditor: true, selectInsertedXml: false }
-     );
-     ```
+    ```js
+    guides.editor.runCommand(
+      'insertXml',
+      '<sup></sup>',
+      undefined,
+      { setCursorInContent: true, focusEditor: true, selectInsertedXml: false }
+    );
+    ```
 
 - `guides.editor.canRunCommand(commandName, ...args)`: 명명된 명령을 실제로 실행하지 않고 현재 실행할 수 있는지 확인합니다.
 
@@ -461,7 +476,7 @@ guides.ready(() => {
   | `filter` | `(node) => boolean` | 선택적 조건자 — `true`을(를) 반환하는 노드만 장식됩니다. |
 
   `computeAttributes`에 전달된 `context` 개체는 다음을 포함합니다.
-   - `index` — 선택기와 일치하는 형제 중 노드의 0부터 위치
+  - `index` — 선택기와 일치하는 형제 중 노드의 0부터 위치
 
   **예: 모든 `<section>` 요소에 CSS 클래스 추가**
 

@@ -4,29 +4,41 @@ description: Adobe Experience Manager Guides에서 맵을 게시하고 관리할
 feature: Publishing
 role: User
 exl-id: b273b1ae-fbb2-4b35-abce-0df78eeb2e11
-TQID: https://experienceleague.adobe.com/RFlLBJ4tFUBVo2FyGFur21uIResNd0qFWpKszJbnBIk
+TQID: 'https://experienceleague.adobe.com/RFlLBJ4tFUBVo2FyGFur21uIResNd0qFWpKszJbnBIk'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: d6596f3f-92a7-43ec-b444-237db6adad05
+    internal-label: Native PDF publishing
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd456af4-cb12-4a34-8cc4-b74adf885626
+    internal-label: Content translation
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 776
+source-wordcount: '776'
 ht-degree: 0%
-
 ---
-
 # 맵 콘솔 개요
 
 Adobe Experience Manager Guides은 모든 맵 관리 및 게시 작업을 간소화하기 위해 전용 콘솔(**맵 콘솔**)을 제공합니다. 이 중앙 집중식 인터페이스는 출력을 생성하고, 콘텐츠를 번역하고, 보고서에 액세스하는 등의 옵션을 한 곳에서 제공하여 맵 관련 활동의 생산성과 정확성을 향상시킵니다.
@@ -41,15 +53,15 @@ Adobe Experience Manager Guides은 모든 맵 관리 및 게시 작업을 간소
 
   탐색 모음에서 사용할 수 있는 기능은 다음과 같이 설명되어 있습니다.
 
-   - **탐색 전환기**: 다른 페이지(편집기 또는 홈 페이지)로 원활하게 탐색할 수 있습니다.
-   - **선택한 맵 파일**: 현재 선택한 맵 파일의 이름을 표시합니다. 편집기에서 열거나 맵 콘솔에 대해 다른 맵 파일을 선택할 수 있습니다.
-   - **추가 작업**: **Assets UI** 및 **Workspace 설정** 탐색 옵션을 제공합니다. 자세한 내용은 [탭 모음](./web-editor-tab-bar.md)을 참조하세요.
+  - **탐색 전환기**: 다른 페이지(편집기 또는 홈 페이지)로 원활하게 탐색할 수 있습니다.
+  - **선택한 맵 파일**: 현재 선택한 맵 파일의 이름을 표시합니다. 편집기에서 열거나 맵 콘솔에 대해 다른 맵 파일을 선택할 수 있습니다.
+  - **추가 작업**: **Assets UI** 및 **Workspace 설정** 탐색 옵션을 제공합니다. 자세한 내용은 [탭 모음](./web-editor-tab-bar.md)을 참조하세요.
 
   >[!NOTE]
   >
   > 5.2 이전 버전의 온-프레미스 설정에서 Adobe Experience Manager Guides을 사용하는 경우 Workspace 설정 옵션이 추가 작업 메뉴에 **설정**(으)로 계속 표시됩니다.
 
-   - **보기 확장**: **확장** 아이콘을 사용하여 페이지 보기를 확장할 수 있습니다. 이 보기에서는 헤더 막대를 숨겨 콘텐츠 공간을 최대화합니다. 표준 보기로 돌아가려면 **확장된 보기로 끝내기** 아이콘을 사용합니다.
+  - **보기 확장**: **확장** 아이콘을 사용하여 페이지 보기를 확장할 수 있습니다. 이 보기에서는 헤더 막대를 숨겨 콘텐츠 공간을 최대화합니다. 표준 보기로 돌아가려면 **확장된 보기로 끝내기** 아이콘을 사용합니다.
 
   >[!NOTE]
   >

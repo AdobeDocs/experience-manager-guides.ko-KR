@@ -2,13 +2,19 @@
 title: 릴리스 정보 | Adobe Experience Manager Guides 5.2.0 릴리스의 새로운 기능
 description: Adobe Experience Manager Guides 5.2.0 릴리스의 새로운 기능과 향상된 기능에 대해 알아봅니다
 role: Leader
-source-git-commit: 3a0184bbedb9935ed4f2171245478330063904ba
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '4052'
+source-wordcount: '4152'
 ht-degree: 0%
-
 ---
-
 # 5.2.0 릴리스의 새로운 기능(2026년 5월)
 
 이 문서에서는 Adobe Experience Manager Guides as a Cloud Service 5.2.0 릴리스와 함께 도입된 새로운 기능 및 향상된 기능을 다룹니다.

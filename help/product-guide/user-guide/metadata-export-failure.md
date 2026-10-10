@@ -5,21 +5,30 @@ feature: Authoring, Publishing
 role: User
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 1c61df4820e559417410d25c81800637481b040c
+    internal-label: Troubleshooting
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 274
+source-wordcount: '274'
 ht-degree: 0%
-
 ---
-
 # &quot;문자열이 너무 깁니다.&quot; 예외로 인해 폴더에 대한 메타데이터 내보내기가 실패하는 이유는 무엇입니까?
 
 Assets UI의 폴더에 대해 [메타데이터 내보내기](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/using/metadata#export-metadata)를 수행하는 경우 `String is too long` 예외로 인해 내보내기 작업이 실패할 수 있습니다. 이 문제는 일반적으로 폴더에 `baselineObj`과(와) 같이 문자열이 아닌 값을 저장하는 Experience Manager Guides 관련 속성이 있을 때 발생합니다.

@@ -4,19 +4,23 @@ description: AEM Guides의 알림을 사용하여 검토 작업을 재할당합�
 exl-id: 6cd01564-aa26-4773-9c95-9dc519706f27
 feature: Reviewing
 role: User
-TQID: https://experienceleague.adobe.com/Wc4JmI2Y1FlWINp8CyOicMSQqrcTyNrin491ZLukp0o
+TQID: 'https://experienceleague.adobe.com/Wc4JmI2Y1FlWINp8CyOicMSQqrcTyNrin491ZLukp0o'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 72792fc7-6fd6-5775-a2c2-99253bb26dc2
+    internal-label: Reviewing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 270
+source-wordcount: '270'
 ht-degree: 0%
-
 ---
-
 # 알림을 사용하여 검토 작업 재할당 {#id21BNH03M0KS}
 
 귀하에게 할당된 검토 작업을 동일한 검토 프로젝트에 추가된 다른 사용자에게 재할당할 수 있습니다. 받은 편지함에 전달된 검토 알림을 통해 검토 작업을 간편하게 재할당할 수 있습니다. 그러나 검토자는 알림을 사용하는 사용자 그룹이 아닌 개별 사용자에게만 검토 작업을 다시 할당할 수 있습니다.

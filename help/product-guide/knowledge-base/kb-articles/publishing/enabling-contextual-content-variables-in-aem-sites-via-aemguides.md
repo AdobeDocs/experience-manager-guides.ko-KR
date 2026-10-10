@@ -4,23 +4,32 @@ description: AEM Guides에서 생성된 AEM Sites 페이지에서 컨텍스트 �
 feature: Web Editor
 role: User, Admin
 exl-id: f9adbb3f-6c1c-4d6f-b55d-1fb45acca91a
-TQID: https://experienceleague.adobe.com/ehW4uJQaj3XqejwquxVwFo4vFx6q7qCsVIm6MowolZE
+TQID: 'https://experienceleague.adobe.com/ehW4uJQaj3XqejwquxVwFo4vFx6q7qCsVIm6MowolZE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+subfeature_v2:
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Admin
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 497
+source-wordcount: '497'
 ht-degree: 2%
-
 ---
-
 # AEM Guides에서 생성된 AEM Sites 페이지에서 컨텍스트 기반 콘텐츠 변수(CCVAR) 활성화
 
 컨텍스트 콘텐츠 변수(CCVAR)는 작성자가 작성한 텍스트에서 직접 동적 콘텐츠 변수를 사용할 수 있도록 해주는 ACS Commons 기능입니다. CCVAR는 AEM Sites에서 일반적으로 사용되지만, 이 문서에서는 주로 DITA 맵에 정의된 키워드를 사용하여 **AEM Guides** *에서 작성된 콘텐츠에서 생성된 페이지를 통해 유사한 기능을 수행하는 방법을 설명합니다*.
@@ -45,9 +54,9 @@ AEM Guides이 모든 컨텐츠(AEM Sites, PDF 또는 HTML5 포함)의 소스로 
 
 2. **컨텍스트 콘텐츠 변수 구성**:
    - [공식 설명서](https://adobe-consulting-services.github.io/acs-aem-commons/features/contextual-content-variables/index.html)를 사용하여 AEM에서 **컨텍스트 콘텐츠 변수** 설정을 완료합니다. 여기에는 다음이 포함됩니다.
-      - **속성 집계**&#x200B;를 사용하도록 설정하는 중입니다.
-      - **HTML 재작성** 구성(HTML 출력을 사용하는 경우).
-      - **JSON 재작성**&#x200B;을 구성하는 중입니다(JSON 출력을 사용하는 경우).
+     - **속성 집계**&#x200B;를 사용하도록 설정하는 중입니다.
+     - **HTML 재작성** 구성(HTML 출력을 사용하는 경우).
+     - **JSON 재작성**&#x200B;을 구성하는 중입니다(JSON 출력을 사용하는 경우).
 
 
 
@@ -88,7 +97,7 @@ AEM Guides이 모든 컨텐츠(AEM Sites, PDF 또는 HTML5 포함)의 소스로 
 
 - AEM Sites에 대한 출력을 생성하면 키워드 참조가 해당 동적 값으로 확인됩니다.
 - 예:
-   - `((page_properties.pageTitle))`이(가) `My Product`(으)로 확인되는 경우 출력이 표시됩니다.
+  - `((page_properties.pageTitle))`이(가) `My Product`(으)로 확인되는 경우 출력이 표시됩니다.
 
 ```xml
    This is the title of the product: My Product.

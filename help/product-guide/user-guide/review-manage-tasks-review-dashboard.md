@@ -4,19 +4,23 @@ description: AEM Guides의 검토 대시보드에서 검토 작업을 관리합�
 exl-id: 4fef5653-1c73-4b68-adf2-b24145555142
 feature: Reviewing
 role: User
-TQID: https://experienceleague.adobe.com/VHKsjdRxz2MOIAmYGi7fFDKJNPU3rTR466d-jj-QojU
+TQID: 'https://experienceleague.adobe.com/VHKsjdRxz2MOIAmYGi7fFDKJNPU3rTR466d-jj-QojU'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 72792fc7-6fd6-5775-a2c2-99253bb26dc2
+    internal-label: Reviewing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1440
+source-wordcount: '1440'
 ht-degree: 0%
-
 ---
-
 # 검토 대시보드를 사용하여 검토 작업 관리 {#id2056B0Y70X4}
 
 검토 관리 워크플로에는 다양한 작업이 포함될 수 있습니다. 예를 들어 특정 주제에 대한 검토자를 추가하거나 검토 기한을 연장할 수 있습니다. 모든 관련자가 피드백을 제공했다고 생각되면 검토 작업을 완료로 표시할 수도 있습니다. 이러한 작업은 검토 대시보드를 사용하여 관리할 수 있습니다.
@@ -139,9 +143,9 @@ Experience Manager Guides에서 각 검토 작업은 현재 상태를 반영하�
 
 - 검토 작업이 할당된 검토자의 이름입니다.
 - 상태 열은 검토 상태를 나타냅니다. 상태는 다음 중 하나일 수 있습니다.
-   - **시작되지 않음**: 검토자가 검토 작업을 아직 열지 않았습니다.
-   - **진행 중**: 검토자가 검토 작업을 열었고 항목을 검토 중입니다.
-   - **완료**: 검토자가 검토를 완료하고 검토 UI에서 작업을 완료로 표시했습니다. 검토 작업은 각 검토자의 AEM 알림 받은 편지함에 있습니다.
+  - **시작되지 않음**: 검토자가 검토 작업을 아직 열지 않았습니다.
+  - **진행 중**: 검토자가 검토 작업을 열었고 항목을 검토 중입니다.
+  - **완료**: 검토자가 검토를 완료하고 검토 UI에서 작업을 완료로 표시했습니다. 검토 작업은 각 검토자의 AEM 알림 받은 편지함에 있습니다.
 - 검토자가 검토 링크를 열고 검토된 주제 목록에 추가된 특정 주제로 이동하면 이렇게 하면 작성자가 검토자가 각 섹션을 열었는지 여부를 확인하는 데 도움이 됩니다. 댓글이 주어지면 대괄호 안에 표시됩니다.
 - 모든 주제에 대한 총 댓글 수입니다. 검토 중인 주제가 여러 개인 경우 각 주제의 설명 수는 주제 이름에 \(대괄호\)로 표시됩니다.
 - 검토자가 마지막으로 주제에 액세스한 날짜입니다.

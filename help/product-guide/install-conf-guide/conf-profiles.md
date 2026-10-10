@@ -5,13 +5,28 @@ feature: Profiles
 role: Admin
 level: Experienced
 exl-id: 0292a9cd-0f94-4039-8758-1740106feb71
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '6082'
 ht-degree: 0%
-
 ---
-
 # 전역 또는 폴더 수준 프로필 구성 {#id181AH2003PF}
 
 기업에서는 다른 그룹 또는 제품이 다른 작성 템플릿, 출력 템플릿, 조건부 속성 프로필 \(또는 주제 스키마\) 및 편집기 구성을 사용할 수 있습니다. 작성자가 엔터프라이즈 \(또는 글로벌\) 수준에서만 구성하면 작성자와 관련 없는 템플릿 또는 프로필이 표시되므로 작성자가 어려움을 겪을 수 있습니다.
@@ -30,21 +45,21 @@ AEM Guides을 사용하면 폴더 수준뿐만 아니라 엔터프라이즈 \(�
 
 - **템플릿**: 작성자가 DITA 콘텐츠를 만들거나 게시하는 데 사용할 템플릿을 구성하려면 이 탭을 사용합니다. 다음 주제 템플릿은 즉시 사용할 수 있습니다.
 
-   - 용어 설명
+  - 용어 설명
 
-   - 참조
+  - 참조
 
-   - 주제
+  - 주제
 
-   - 개념
+  - 개념
 
-   - 작업
+  - 작업
 
-   - 문제 해결
+  - 문제 해결
 
-   - 비어 있음
+  - 비어 있음
 
-   - DITAVAL
+  - DITAVAL
 
   >[!NOTE]
   >
@@ -52,33 +67,33 @@ AEM Guides을 사용하면 폴더 수준뿐만 아니라 엔터프라이즈 \(�
 
   주제 템플릿과 함께 작성자가 사용할 수 있는 맵 템플릿을 정의할 수도 있습니다. 다음과 같은 맵 템플릿을 즉시 사용할 수 있습니다.
 
-   - 맵
+  - 맵
 
-   - 북맵
+  - 북맵
 
 - **출력 사전 설정**: 템플릿과 마찬가지로 5개의 미리 구성된 출력 사전 설정이 있습니다.
 
-   - AEM 사이트
+  - AEM 사이트
 
-   - PDF
+  - PDF
 
-   - HTML5
+  - HTML5
 
-   - EPUB
+  - EPUB
 
-   - 사용자 정의
+  - 사용자 정의
 
   게시자는 이러한 기본 출력 사전 설정을 사용하여 콘텐츠를 게시할 수 있습니다. 이러한 사전 설정은 전역 또는 폴더 수준 프로필의 관리자가 구성할 수 있습니다. 구성하고 나면 새로 만든 DITA 맵에 대해 게시자가 게시 사전 설정을 사용할 수 있게 됩니다. 기존 DITA 맵에 게시 사전 설정을 적용할 수도 있습니다. 자세한 내용은 [사전 설정 변경 내용 적용](#id18AGD0K0OHS)을 참조하십시오.
 
 - **XML 편집기 구성**: 이 탭을 사용하여 편집기의 모양 및 다양한 기능을 사용자 지정할 수 있습니다. 편집기에서 다음 구성 가능한 설정을 사용할 수 있습니다.
 
-   - XML 편집기 UI 구성
-   - Cloud Service에 대한 XML 편집기 페이지 레이아웃만
-   - Cloud Service에 대해서만 XML 편집기 구성
-   - CSS 템플릿 레이아웃
-   - XML 편집기 조각
-   - XML 콘텐츠 버전 레이블
-   - Rootmap \(폴더 수준에서만\)
+  - XML 편집기 UI 구성
+  - Cloud Service에 대한 XML 편집기 페이지 레이아웃만
+  - Cloud Service에 대해서만 XML 편집기 구성
+  - CSS 템플릿 레이아웃
+  - XML 편집기 조각
+  - XML 콘텐츠 버전 레이블
+  - Rootmap \(폴더 수준에서만\)
 
 전역 프로필과 폴더 수준 프로필을 모두 구성할 수 있습니다. 폴더 수준 프로필에서는 설정을 적용할 폴더를 정의할 수 있습니다. 이러한 설정에는 조건부 특성, 템플릿, 출력 사전 설정 및 XML 편집기 설정이 포함됩니다. 구성된 폴더에서 작업하는 작성자는 조건부 사전 설정, 템플릿 및 XML 편집기 구성을 사용할 수 있습니다. 마찬가지로 게시자는 구성된 폴더 내에 정의된 구성된 출력 사전 설정에 액세스할 수 있습니다.
 

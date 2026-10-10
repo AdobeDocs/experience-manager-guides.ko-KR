@@ -5,23 +5,29 @@ exl-id: 2a599228-6d46-494f-a57a-96c3f30e073a
 feature: Filename Configuration
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/2oXpOlXt4gZ3GELX7SmwPJoWJYM71f0cZFy2--M6AYM
+TQID: 'https://experienceleague.adobe.com/2oXpOlXt4gZ3GELX7SmwPJoWJYM71f0cZFy2--M6AYM'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ccd46b93-df7f-4458-ba4c-90a3562d9ab0
+    internal-label: Filename configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 220
+source-wordcount: '220'
 ht-degree: 0%
-
 ---
-
 # UUID를 기반으로 자동 파일 이름 구성 {#id205QG070D5Z}
 
 기본적으로 주제 또는 맵 파일을 만들 때 작성자에게 파일 이름도 지정할 수 있는 옵션이 제공됩니다. 작성자는 필요에 따라 자유롭게 파일 이름을 할당할 수 있습니다. 그러나 이로 인해 불일치가 발생할 수 있으며 광범위한 파일 이름이 대규모 문서 시스템에서 볼 수 있습니다. 관리자는 작성자가 시스템에서 만드는 파일의 파일 이름을 할당하지 못하도록 제한할 수 있습니다. 모든 새 주제 또는 맵 파일에 대해 UUID 기반 파일 이름을 자동으로 할당하도록 선택할 수 있습니다.

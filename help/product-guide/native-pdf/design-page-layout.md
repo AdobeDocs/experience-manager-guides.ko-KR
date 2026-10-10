@@ -5,26 +5,36 @@ exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
 feature: Output Generation
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/S-gzuvk3PoU8kiNR9m39L50ftQRTrt8RnZ3Lo9WJkZs
+TQID: 'https://experienceleague.adobe.com/S-gzuvk3PoU8kiNR9m39L50ftQRTrt8RnZ3Lo9WJkZs'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: d6596f3f-92a7-43ec-b444-237db6adad05
+    internal-label: Native PDF publishing
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 5060
+source-wordcount: '5089'
 ht-degree: 0%
-
 ---
-
 # 페이지 레이아웃 디자인 {#design-page-layout}
 
 PDF 문서를 만들 때 다양한 유형의 정보를 제공하는 다양한 섹션이 있습니다. 예를 들어 PDF 문서는 회사의 로고, 책 제목 또는 버전 정보가 있는 표지나 표지에서 시작됩니다. 그런 다음 장, 부록 또는 용어집 페이지가 있습니다. PDF 문서의 각 섹션은 서로 다르게 보이며 페이지 레이아웃을 만들고 사용자 지정하여 이를 수행합니다.
@@ -113,9 +123,9 @@ PDF 문서에는 일반적으로 다음 섹션이 포함되어 있습니다.
 * **회전 보기** : 회전 후 원래 위쪽 면이 표시되는 면 또는 방향을 지정합니다. 시계 방향 90도, 반시계 방향 90도 또는 반시계 방향 180도 중에서 선택할 수 있습니다. 이 기능은 출력에서 세로 및 가로 레이아웃을 조합하여 사용하려는 경우에 매우 유용합니다. 예를 들어 세로 를 일반 페이지 레이아웃으로 사용하고 가로 페이지 레이아웃을 설정하여 넓은 테이블을 렌더링할 수 있습니다. 이 경우 테이블 내용을 시계 방향으로 90도로 표시하도록 설정할 수 있습니다. 이 방식으로 페이지가 가로로 방향이 지정되며, 콘텐츠가 90도 회전되어 보기에서 연속성을 유지합니다. 이 과정의 뒷부분에서 예를 들어 보겠습니다.
 
 * **페이지 번호 매기기** :The 페이지 번호 매기기는 기본적으로 PDF에서 연속적입니다. 예를 들어 100페이지의 PDF에는 1부터 100까지의 연속적인 페이지 번호가 있을 수 있습니다. 다른 모든 섹션의 특정 번호에서 번호 매기기를 다시 시작하거나 섹션의 첫 번째 발생 횟수를 다시 시작할 수도 있습니다.
-   * **다음에서 다시 시작** : 이 페이지 레이아웃에 대한 번호 매기기를 시작할 페이지 번호를 지정합니다. 예를 들어 모든 챕터에 대해 다시 시작하도록 페이지 번호를 설정할 수 있습니다. 이 경우 챕터 페이지 레이아웃의 첫 번째 페이지 레이아웃 변형에서 속성에서 다시 시작을 1로 설정해야 합니다. 기본적으로 페이지 번호 매기기는 이전 페이지에서 계속됩니다.
+  * **다음에서 다시 시작** : 이 페이지 레이아웃에 대한 번호 매기기를 시작할 페이지 번호를 지정합니다. 예를 들어 모든 챕터에 대해 다시 시작하도록 페이지 번호를 설정할 수 있습니다. 이 경우 챕터 페이지 레이아웃의 첫 번째 페이지 레이아웃 변형에서 속성에서 다시 시작을 1로 설정해야 합니다. 기본적으로 페이지 번호 매기기는 이전 페이지에서 계속됩니다.
 
-   * **처음 발생 횟수에만 적용**: 섹션의 처음 발생 횟수에 대해서만 특정 번호부터 시작할 수도 있습니다. 예를 들어 첫 번째 챕터를 1에서 시작하여 다른 챕터의 페이지 번호를 계속할 수 있습니다.
+  * **처음 발생 횟수에만 적용**: 섹션의 처음 발생 횟수에 대해서만 특정 번호부터 시작할 수도 있습니다. 예를 들어 첫 번째 챕터를 1에서 시작하여 다른 챕터의 페이지 번호를 계속할 수 있습니다.
 
 * **레이아웃** : 위쪽, 아래쪽, 왼쪽 및 오른쪽의 패딩과 함께 페이지 여백을 지정합니다. 다음 그림에서는 컨텐츠를 중심으로 여백, 패딩 및 테두리를 렌더링하는 방법을 설명합니다. 페이지 상단과 하단의 여백에는 머리글과 바닥글이 포함됩니다.
 

@@ -4,23 +4,32 @@ description: 주제 또는 주제 내의 요소를 AEM Guides의 콘텐츠 조�
 exl-id: b1769e48-d721-4e93-b10f-04b385272be7
 feature: Publishing
 role: User
-TQID: https://experienceleague.adobe.com/VcZKWpffZfB7KtquXVtIFWESim8paNCYmqGqboC1Kic
+TQID: 'https://experienceleague.adobe.com/VcZKWpffZfB7KtquXVtIFWESim8paNCYmqGqboC1Kic'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 955
+source-wordcount: '962'
 ht-degree: 2%
-
 ---
-
 # 콘텐츠 조각 게시
 
 컨텐츠 조각은 Adobe Experience Manager에서 개별 컨텐츠 조각입니다. 이는 콘텐츠 모델을 기반으로 하는 구조화된 콘텐츠입니다. 콘텐츠 조각 은 디자인 또는 레이아웃 정보가 없는 순수 콘텐츠입니다. Adobe Experience Manager이 지원하는 채널과 독립적으로 작성 및 관리할 수 있습니다. 콘텐츠 조각은 모듈식이며, 콘텐츠는 더 작은 구성 요소로 분류됩니다.
@@ -63,9 +72,9 @@ Experience Manager Guides을 사용하면 주제 또는 해당 요소를 콘텐�
      > 
      > 조건은 조건 속성이 주제에 정의된 경우에만 활성화됩니다.
 
-      * **없음**: 게시된 출력에 조건을 적용하지 않으려면 이 옵션을 선택하십시오.
-      * **DITAVAL 사용**: 생성된 출력에 특정 콘텐츠를 포함하거나 제외할 DITAVAL 파일을 선택하십시오. 찾아보기 대화 상자를 사용하거나 파일 경로를 입력하여 DITAVAL 파일을 선택할 수 있습니다.
-      * **특성 사용**: DITA 주제에 조건 특성을 정의할 수 있습니다. 그런 다음 조건 속성을 선택하여 관련 콘텐츠를 게시합니다.
+     * **없음**: 게시된 출력에 조건을 적용하지 않으려면 이 옵션을 선택하십시오.
+     * **DITAVAL 사용**: 생성된 출력에 특정 콘텐츠를 포함하거나 제외할 DITAVAL 파일을 선택하십시오. 찾아보기 대화 상자를 사용하거나 파일 경로를 입력하여 DITAVAL 파일을 선택할 수 있습니다.
+     * **특성 사용**: DITA 주제에 조건 특성을 정의할 수 있습니다. 그런 다음 조건 속성을 선택하여 관련 콘텐츠를 게시합니다.
 
 
 
@@ -80,7 +89,7 @@ Experience Manager Guides을 사용하면 주제 또는 해당 요소를 콘텐�
 
    * **모델**: 콘텐츠 조각을 만드는 데 사용할 콘텐츠 조각 모델을 선택합니다. 모델은 Experience Manager Guides 서버에서 구성한 폴더에서 선택됩니다.
    * **매핑**: ID 특성이 적용된 주제 요소를 볼 수 있습니다. 주제 요소를 콘텐츠 조각 모델에 있는 필드로 드래그합니다.
-오른쪽은 기존 콘텐츠 조각의 경우 게시된 콘텐츠 조각 콘텐츠로 채워집니다. 필요한 경우 주제 내용으로 덮어쓸 수 있습니다. **실행 취소**&#x200B;를 선택하여 매핑 변경 내용을 되돌릴 수도 있습니다.
+     오른쪽은 기존 콘텐츠 조각의 경우 게시된 콘텐츠 조각 콘텐츠로 채워집니다. 필요한 경우 주제 내용으로 덮어쓸 수 있습니다. **실행 취소**&#x200B;를 선택하여 매핑 변경 내용을 되돌릴 수도 있습니다.
 
 
      >[!NOTE]

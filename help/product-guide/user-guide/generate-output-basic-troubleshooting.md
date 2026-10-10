@@ -4,27 +4,41 @@ description: AEM Guides의 기본 문제 해결 관련 문제를 해결합니다
 exl-id: 57b88291-b5a3-4931-b3ed-f2b2ce7a463c
 feature: Publishing, Troubleshooting
 role: User
-TQID: https://experienceleague.adobe.com/KUVhUInH7oDS4Skbw6C9dshnrBV40Jg28X2-HftSoKo
+TQID: 'https://experienceleague.adobe.com/KUVhUInH7oDS4Skbw6C9dshnrBV40Jg28X2-HftSoKo'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
+  - id: e13e7f13-0f4c-43f9-b0a7-1f33bd47e105
+    internal-label: Troubleshooting
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Troubleshooting
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 776
+source-wordcount: '776'
 ht-degree: 0%
-
 ---
-
 # 기본 문제 해결 {#id1821I0Y0G0A}
 
 Adobe Experience Manager Guides으로 작업하는 동안 문서를 게시하거나 여는 동안 오류가 발생할 수 있습니다. 이러한 오류는 DITA 맵, 주제 또는 Experience Manager Guides 프로세스 자체에 있을 수 있습니다. 이 섹션에서는 출력 생성 로그 파일의 정보에 액세스하고 구문 분석하는 방법에 대한 정보를 제공합니다. 또한 DITA 주제가 너무 큰 경우 JSP 컴파일 오류가 표시될 수 있습니다. 이 섹션에서는 JSP 컴파일 오류를 해결하는 방법도 설명합니다.

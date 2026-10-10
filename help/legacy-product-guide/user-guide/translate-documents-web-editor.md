@@ -5,29 +5,42 @@ feature: Authoring, Features of Web Editor, Translation
 role: User
 hide: true
 exl-id: a288a4d5-5c24-4021-8bfa-4b68cecf630f
-TQID: https://experienceleague.adobe.com/PXjRYkh69-gjZ5PFKWxh2LwUd1b8l0R7GNdKMq8jrrw
+TQID: 'https://experienceleague.adobe.com/PXjRYkh69-gjZ5PFKWxh2LwUd1b8l0R7GNdKMq8jrrw'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
+  - id: 626b0638-bd2d-504c-8ccd-53d63b856710
+    internal-label: Translation
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
   - id: fd456af4-cb12-4a34-8cc4-b74adf885626
+    internal-label: Content translation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 2291
+source-wordcount: '2363'
 ht-degree: 1%
-
 ---
-
 # 웹 편집기에서 문서 번역 {#id21BKF0Z0YZF}
 
 >[!TIP]
@@ -119,7 +132,7 @@ AEM Guides에는 콘텐츠를 여러 언어로 번역할 수 있는 강력한 �
 
    - 번역 프로젝트에 대해서만 **구조를 만들기**&#x200B;하도록 선택할 수 있습니다.
    - **새 XLIFF 번역 프로젝트를 만들기**&#x200B;를 선택하여 XML 콘텐츠를 XLIFF(XML 로컬라이제이션 교환 파일 형식)로 변환할 수 있습니다. XLIFF는 컨텐츠 번역 프로세스에서 사용되는 다양한 도구 간의 데이터 전송을 표준화하는 데 사용되는 개방형 XML 기반 형식입니다. AEM Guides은 XLIFF 버전 1.2를 지원합니다.
-XLIFF 프로젝트에서는 콘텐츠를 업계 표준 XLIFF 형식으로 내보내고 이를 번역 공급업체에 제공할 수 있습니다. XLIFF 형식을 사용하면 번역 단계 중에 이미 번역한 세그먼트를 다시 사용할 수 있습니다.\
+     XLIFF 프로젝트에서는 콘텐츠를 업계 표준 XLIFF 형식으로 내보내고 이를 번역 공급업체에 제공할 수 있습니다. XLIFF 형식을 사용하면 번역 단계 중에 이미 번역한 세그먼트를 다시 사용할 수 있습니다.\
      XLIFF 콘텐츠를 번역한 후 AEM Guides으로 가져와 원본 DITA 프로젝트의 번역된 버전을 만들 수 있습니다.
 
      >[!NOTE]
@@ -130,8 +143,8 @@ XLIFF 프로젝트에서는 콘텐츠를 업계 표준 XLIFF 형식으로 내보
    - 번역 프로젝트가 이미 있는 경우 해당 프로젝트에 주제를 추가할 수 있습니다. 프로젝트 목록에서 **기존 번역 프로젝트에 추가** 옵션을 선택하고 기존 번역 프로젝트 목록에서 프로젝트를 선택합니다. 이러한 프로젝트를 가장 최근, 오름차순 또는 내림차순으로 정렬할 수 있습니다.
 
 - **기존 번역 프로젝트**&#x200B;을(를) 선택하면 에셋이 이미 추가되고 관련 번역 작업 상태가 *초안* 상태인 경우 이 작업은 프로젝트의 기존 에셋 항목을 업데이트합니다.
-   - 프로젝트에 대상 언어가 없으면 단일 언어 번역 프로젝트에 대해 새 프로젝트가 생성되고 다중 언어 번역 프로젝트에 대해 새 작업이 생성됩니다.
-   - 대상 언어에 대한 작업이 이미 있고 작업 상태가 *초안* 상태가 아닌 경우, 같은 프로젝트 내에 새 작업이 만들어져서 번역할 자산을 추가합니다.
+  - 프로젝트에 대상 언어가 없으면 단일 언어 번역 프로젝트에 대해 새 프로젝트가 생성되고 다중 언어 번역 프로젝트에 대해 새 작업이 생성됩니다.
+  - 대상 언어에 대한 작업이 이미 있고 작업 상태가 *초안* 상태가 아닌 경우, 같은 프로젝트 내에 새 작업이 만들어져서 번역할 자산을 추가합니다.
 
   >[!NOTE]
   >

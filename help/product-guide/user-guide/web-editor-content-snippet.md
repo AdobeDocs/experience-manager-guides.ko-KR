@@ -4,28 +4,37 @@ description: AEM Guides에서 데이터 소스의 데이터를 사용합니다. 
 exl-id: fbd5eff2-451b-49d6-ba77-6eb271e94349
 feature: Authoring, Features of Web Editor
 role: User
-TQID: https://experienceleague.adobe.com/DDAXW8cUFjvHUeJIbtL6FaHYSU7NW5fkzTai-7n90ms
+TQID: 'https://experienceleague.adobe.com/DDAXW8cUFjvHUeJIbtL6FaHYSU7NW5fkzTai-7n90ms'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 2405
+source-wordcount: '2409'
 ht-degree: 0%
-
 ---
-
 # 데이터 소스의 데이터 사용
 
 **데이터 원본**&#x200B;은(는) 조직의 데이터를 저장하고 관리하는 시스템입니다. JIRA, SQL 데이터베이스, PIM 또는 PLM과 같은 기록 시스템입니다. AEM Guides은 데이터 소스와 연결하여 해당 소스의 데이터를 사용할 수 있는 기능을 제공합니다.
@@ -135,7 +144,7 @@ Adobe Experience Manager Guides은 데이터 소스와 연결하는 기능을 �
 1. 미리보기 또는 DITA 소스 뷰에서 데이터를 볼 수 있습니다.
 
    1. 미리보기는 콘텐츠에 삽입할 때 데이터가 표시되는 방식을 보여 줍니다. 미리 보기에는 데이터의 작은 부분이 선택한 템플릿의 형식으로 표시됩니다.
-예:
+      예:
       - SQL 테이블 템플릿을 선택한 경우 SQL 데이터를 테이블 형식으로 볼 수 있습니다.
       - jira 순차 목록 템플릿을 선택한 경우 Jira 문제에 대한 순차 목록을 볼 수 있습니다.
 

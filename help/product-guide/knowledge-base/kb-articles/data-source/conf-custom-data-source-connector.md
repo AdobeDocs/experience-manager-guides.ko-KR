@@ -5,27 +5,36 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: ef7ab117-7541-4e89-9ba4-22254a17efc0
-TQID: https://experienceleague.adobe.com/ri2JBIGaro4dVmRbzq1KfOjt4DghBghn6hQ2-dbZ42E
+TQID: 'https://experienceleague.adobe.com/ri2JBIGaro4dVmRbzq1KfOjt4DghBghn6hQ2-dbZ42E'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Implementation
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1559
+source-wordcount: '1560'
 ht-degree: 0%
-
 ---
-
 # 사용자 지정 데이터 소스 커넥터 구성
 
 Experience Manager Guides을 사용하면 요구 사항에 따라 커넥터를 사용자 지정한 다음 다양한 데이터 소스에서 사용할 수 있습니다. 커넥터를 사용자 지정하려면 커넥터 인터페이스와 해당 중요 기능을 구현한 다음 인터페이스를 구성해야 합니다. 사용자 지정 커넥터와 함께 리소스를 제공할 수도 있습니다.
@@ -35,10 +44,10 @@ Experience Manager Guides을 사용하면 요구 사항에 따라 커넥터를 �
 - [커넥터 인터페이스 구현](#implement-interface)
 - [중요 함수](#important-functions)
 - [기본 커넥터 구현 유형](#default-connectors)
-   - [인터페이스 구성](#config-interface)
-   - [기본 구성 구현 유형](#default-config-types)
-   - [구체적인 구성 구현](#concrete-config-implementation)
-   - [추가 리소스](#resources)
+  - [인터페이스 구성](#config-interface)
+  - [기본 구성 구현 유형](#default-config-types)
+  - [구체적인 구성 구현](#concrete-config-implementation)
+  - [추가 리소스](#resources)
 
 
 

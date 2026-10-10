@@ -2,13 +2,19 @@
 title: 릴리스 정보 | Adobe Experience Manager Guides 2026.05.0 릴리스의 새로운 기능
 description: Adobe Experience Manager Guides 2026.05.0 릴리스의 새로운 기능과 향상된 기능에 대해 알아봅니다
 role: Leader
-source-git-commit: 2c9e91a85bb9cfbfec05dbe5c2e9eae9e240d571
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
-
 ---
-
 # 2026.05.0 릴리스의 새로운 기능(2026년 5월)
 
 이 문서에서는 Adobe Experience Manager Guides as a Cloud Service 2026.05.0 릴리스와 함께 도입된 새로운 기능 및 향상된 기능을 다룹니다.
@@ -46,10 +52,10 @@ ht-degree: 0%
 
 - **통합 사용자 수준 편집기 설정**: 작성자가 편집기 동작을 보다 잘 제어할 수 있도록 해 주는 새로운 중앙 집중식 설정 패널을 통해 사용자는 한 위치에서 환경 설정을 보다 쉽게 관리할 수 있습니다. 구성 옵션에는 다음과 같은 활성화/비활성화 기능이 포함됩니다.
 
-   - 작성자 모드에서 줄바꿈하지 않는 공백
-   - 속성이 있거나 속성이 없는 태그 가시성 설정
-   - 작성자 모드의 XML 주석
-   - 편집기의 요소 삽입을 위한 빠른 삽입 메뉴
+  - 작성자 모드에서 줄바꿈하지 않는 공백
+  - 속성이 있거나 속성이 없는 태그 가시성 설정
+  - 작성자 모드의 XML 주석
+  - 편집기의 요소 삽입을 위한 빠른 삽입 메뉴
 
   ![](assets/editor-settings-dialog.png){width="350"}
 
@@ -82,9 +88,9 @@ ht-degree: 0%
 
 - **테이블 작성 개선**: 테이블을 만들고 관리하기 위한 보다 직관적이고 효율적인 상호 작용으로 전체 테이블 작성 환경을 개선합니다.
 
-   - 유동적이고 직관적인 상호 작용: 행 및 열 재정렬을 위한 드래그 앤 드롭 지원과 함께 행과 열을 쉽게 삽입할 수 있습니다.
-   - 상황별 도구 모음: 형식 지정, 정렬, 병합 및 기타 추가 작업과 같은 테이블 관련 작업에 표 내에서 직접 액세스합니다.
-   - 테이블 구성: 한 번의 작업으로 여러 행 또는 열을 추가하여 반복 단계를 줄이고 효율성을 개선합니다.
+  - 유동적이고 직관적인 상호 작용: 행 및 열 재정렬을 위한 드래그 앤 드롭 지원과 함께 행과 열을 쉽게 삽입할 수 있습니다.
+  - 상황별 도구 모음: 형식 지정, 정렬, 병합 및 기타 추가 작업과 같은 테이블 관련 작업에 표 내에서 직접 액세스합니다.
+  - 테이블 구성: 한 번의 작업으로 여러 행 또는 열을 추가하여 반복 단계를 줄이고 효율성을 개선합니다.
 
   ![](assets/config-table.png){width="650"}
 

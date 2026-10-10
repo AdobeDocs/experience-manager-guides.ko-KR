@@ -5,23 +5,29 @@ feature: Content Management
 role: User
 hide: true
 exl-id: 35663aa1-9e52-4909-aaee-0f01cf47dc64
-TQID: https://experienceleague.adobe.com/njK8ud-RQO0Ev2PnOnXuB7OUUorvKtnMHwLBx8cD1jI
+TQID: 'https://experienceleague.adobe.com/njK8ud-RQO0Ev2PnOnXuB7OUUorvKtnMHwLBx8cD1jI'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: 2afda568-c433-5cad-ab97-19b8847286b0
+    internal-label: Content Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 3126
+source-wordcount: '3144'
 ht-degree: 0%
-
 ---
-
 # 파일 및 폴더 관리 {#id2116G0L08XA}
 
 이 섹션에서는 AEM Guides이 파일 복사, 붙여넣기, 드래그 앤 드롭 및 삭제와 같은 기본 파일 작업을 처리하는 방법에 대해 설명합니다. 다음과 같은 시나리오가 가능합니다.
@@ -157,18 +163,18 @@ AEM Guides에는 관리자가 여러 파일이 있는 폴더를 한 위치에서
 
    - **Source 경로\**: 이동할 폴더의 위치를 지정합니다.
 
-      - **폴더 찾아보기** 선택  <img src="images/browse-folder-icon.svg" width="25">: 파일 찾아보기 대화 상자를 엽니다. 이동할 폴더를 선택하고 **선택**&#x200B;을 클릭하여 프로세스를 완료합니다.
+     - **폴더 찾아보기** 선택  <img src="images/browse-folder-icon.svg" width="25">: 파일 찾아보기 대화 상자를 엽니다. 이동할 폴더를 선택하고 **선택**&#x200B;을 클릭하여 프로세스를 완료합니다.
 
-      - 소스 위치를 입력하거나 복사하여 붙여넣을 수도 있습니다. Enter 키를 눌러 폴더를 목록에 추가합니다.
+     - 소스 위치를 입력하거나 복사하여 붙여넣을 수도 있습니다. Enter 키를 눌러 폴더를 목록에 추가합니다.
 
-        선택한 폴더가 해당 경로와 함께 나열됩니다. 전체 경로를 보려면 폴더 태그 위로 마우스를 가져갑니다.
-      - **제거**&#x200B;를 클릭하여 폴더를 제거할 수도 있습니다. 폴더 근처에 <img src="images/remove-folder.svg" width="25">이(가) 있습니다.
+       선택한 폴더가 해당 경로와 함께 나열됩니다. 전체 경로를 보려면 폴더 태그 위로 마우스를 가져갑니다.
+     - **제거**&#x200B;를 클릭하여 폴더를 제거할 수도 있습니다. 폴더 근처에 <img src="images/remove-folder.svg" width="25">이(가) 있습니다.
 
 
    - **대상 경로**: 원본 폴더를 이동할 위치를 지정하십시오.
 
-      - **폴더 찾아보기** 선택 <img src="images/browse-folder-icon.svg" width="25">: 파일 찾아보기 대화 상자를 엽니다. 소스 폴더를 이동할 위치를 선택합니다. 선택 을 클릭하여 프로세스를 완료합니다.
-      - 대상 경로를 입력하거나 복사하여 붙여넣을 수도 있습니다.
+     - **폴더 찾아보기** 선택 <img src="images/browse-folder-icon.svg" width="25">: 파일 찾아보기 대화 상자를 엽니다. 소스 폴더를 이동할 위치를 선택합니다. 선택 을 클릭하여 프로세스를 완료합니다.
+     - 대상 경로를 입력하거나 복사하여 붙여넣을 수도 있습니다.
 
      선택한 폴더가 텍스트 상자에 해당 경로와 함께 표시됩니다.
 
@@ -206,20 +212,20 @@ AEM Guides에는 관리자가 여러 파일이 있는 폴더를 한 위치에서
 
    - **Source 경로\**: 이동할 폴더의 위치를 지정합니다.
 
-      - **폴더 찾아보기** 선택  <img src="images/browse-folder-icon.svg" width="25">: 파일 찾아보기 대화 상자를 엽니다. 이동할 폴더를 선택하고 **선택**&#x200B;을 클릭하여 프로세스를 완료합니다.
+     - **폴더 찾아보기** 선택  <img src="images/browse-folder-icon.svg" width="25">: 파일 찾아보기 대화 상자를 엽니다. 이동할 폴더를 선택하고 **선택**&#x200B;을 클릭하여 프로세스를 완료합니다.
 
-      - 소스 위치를 입력하거나 복사하여 붙여넣을 수도 있습니다. Enter 키를 눌러 폴더를 목록에 추가합니다.
+     - 소스 위치를 입력하거나 복사하여 붙여넣을 수도 있습니다. Enter 키를 눌러 폴더를 목록에 추가합니다.
 
-        선택한 폴더가 해당 경로와 함께 나열됩니다. 전체 경로를 보려면 폴더 태그 위로 마우스를 가져갑니다.
-      - **제거**&#x200B;를 클릭하여 폴더를 제거할 수도 있습니다. 폴더 근처에 <img src="images/remove-folder.svg" width="25">이(가) 있습니다.
+       선택한 폴더가 해당 경로와 함께 나열됩니다. 전체 경로를 보려면 폴더 태그 위로 마우스를 가져갑니다.
+     - **제거**&#x200B;를 클릭하여 폴더를 제거할 수도 있습니다. 폴더 근처에 <img src="images/remove-folder.svg" width="25">이(가) 있습니다.
 
 
    - **대상 경로**: 원본 폴더를 이동할 위치를 지정하십시오.
 
-      - **폴더 찾아보기** 선택 <img src="images/browse-folder-icon.svg" width="25">: 파일 찾아보기 대화 상자를 엽니다. 소스 폴더를 이동할 위치를 선택합니다. 선택 을 클릭하여 프로세스를 완료합니다.
-      - 대상 경로를 입력하거나 복사하여 붙여넣을 수도 있습니다.
+     - **폴더 찾아보기** 선택 <img src="images/browse-folder-icon.svg" width="25">: 파일 찾아보기 대화 상자를 엽니다. 소스 폴더를 이동할 위치를 선택합니다. 선택 을 클릭하여 프로세스를 완료합니다.
+     - 대상 경로를 입력하거나 복사하여 붙여넣을 수도 있습니다.
 
-        선택한 폴더가 텍스트 상자에 해당 경로와 함께 표시됩니다.
+       선택한 폴더가 텍스트 상자에 해당 경로와 함께 표시됩니다.
 
    - **일괄 이동**&#x200B;을 클릭합니다.
 

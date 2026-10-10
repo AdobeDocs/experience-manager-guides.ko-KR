@@ -4,36 +4,53 @@ description: Experience Manager Guides의 편집기 인터페이스에서 사용
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: fad2874f-dab5-4538-8502-f7112c51d941
-TQID: https://experienceleague.adobe.com/KKt48fFBvNE76mzZeitOyhL-ZDsl4GJeJu-SpXD3yyI
+TQID: 'https://experienceleague.adobe.com/KKt48fFBvNE76mzZeitOyhL-ZDsl4GJeJu-SpXD3yyI'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
   - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+    internal-label: APIs
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
   - id: f6b497f1-f8e0-42ce-8e95-56c28d94026e
+    internal-label: Conditional content
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Security
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 2099
+source-wordcount: '2138'
 ht-degree: 0%
-
 ---
-
 # Workspace 설정
 
 편집기의 [탭 모음](./web-editor-tab-bar.md)에 있는 **Workspace 설정** 옵션은 관리자 및 폴더 프로필 관리자만 사용할 수 있으며 다음 설정을 구성할 수 있습니다.
@@ -69,9 +86,9 @@ Experience Manager Guides에서 [AI Assistant](./ai-assistant.md) 기능을 활�
 
   **빠른 작업 작성** 메뉴에서 다음을 수행할 수 있습니다.
 
-   - 작성자가 AI Assistant를 사용하여 작업할 때 액세스할 수 있는 특정 옵션을 활성화하거나 비활성화하려면 전환을 사용합니다.
+  - 작성자가 AI Assistant를 사용하여 작업할 때 액세스할 수 있는 특정 옵션을 활성화하거나 비활성화하려면 전환을 사용합니다.
 
-   - 옵션이 표시되는 순서를 변경하고 필요에 따라 끌어서 놓습니다.
+  - 옵션이 표시되는 순서를 변경하고 필요에 따라 끌어서 놓습니다.
 
   ![](images/authoring-quick-actions-new.png){width="350"}
 
@@ -79,7 +96,7 @@ Experience Manager Guides에서 [AI Assistant](./ai-assistant.md) 기능을 활�
 
 - **작성**
 
-   - **모두 바꾸기 사용**: **찾기 및 바꾸기** 패널에서 **모두 바꾸기** 아이콘을 보려면 이 항목을 선택하십시오.
+  - **모두 바꾸기 사용**: **찾기 및 바꾸기** 패널에서 **모두 바꾸기** 아이콘을 보려면 이 항목을 선택하십시오.
 
 - **인용**
 
@@ -87,15 +104,15 @@ Experience Manager Guides에서 [AI Assistant](./ai-assistant.md) 기능을 활�
 
 - **조건**
 
-   - **작성자 보기에서 조건부 텍스트 강조 표시**: 작성자 보기에서 조건부 텍스트를 강조 표시하려면 이 항목을 선택합니다. 조건부 콘텐츠는 조건에 대해 정의된 색상을 사용하여 강조 표시됩니다.
+  - **작성자 보기에서 조건부 텍스트 강조 표시**: 작성자 보기에서 조건부 텍스트를 강조 표시하려면 이 항목을 선택합니다. 조건부 콘텐츠는 조건에 대해 정의된 색상을 사용하여 강조 표시됩니다.
 
-   - **조건 특성으로 유효성 검사**: 특성에 대해 정의된 값의 유효성 검사를 허용하려면 이 항목을 선택하십시오. 이렇게 하면 잘못된 값을 추가할 수 없습니다.
+  - **조건 특성으로 유효성 검사**: 특성에 대해 정의된 값의 유효성 검사를 허용하려면 이 항목을 선택하십시오. 이렇게 하면 잘못된 값을 추가할 수 없습니다.
 
-   - **제목 구성표 패널에 제목이 있는 키 표시**: 제목 구성표의 제목과 함께 키를 표시하려면 이 항목을 선택하십시오. 이 옵션을 선택하지 않으면 제목만 표시됩니다. 예를 들어 여기에 &#39;os&#39;, &#39;audience&#39; 및 &#39;other&#39; 키도 제목과 함께 표시됩니다.
+  - **제목 구성표 패널에 제목이 있는 키 표시**: 제목 구성표의 제목과 함께 키를 표시하려면 이 항목을 선택하십시오. 이 옵션을 선택하지 않으면 제목만 표시됩니다. 예를 들어 여기에 &#39;os&#39;, &#39;audience&#39; 및 &#39;other&#39; 키도 제목과 함께 표시됩니다.
 
-     ![](images/subject-scheme-title.png){width="550"}
+    ![](images/subject-scheme-title.png){width="550"}
 
-   - **조건 패널에 주제 구성표 표시**: 조건 패널에서 주제 구성표를 보려면 이 항목을 선택하십시오. 이 옵션을 선택 취소하면 정의된 조건이 [조건] 패널에 표시됩니다.
+  - **조건 패널에 주제 구성표 표시**: 조건 패널에서 주제 구성표를 보려면 이 항목을 선택하십시오. 이 옵션을 선택 취소하면 정의된 조건이 [조건] 패널에 표시됩니다.
 
 - **맞춤법 검사**
 두 가지 옵션이 있습니다. **AEM 맞춤법 검사** 및 **브라우저 맞춤법 검사**. 기본적으로 편집기는 브라우저의 기본 제공 사전을 사용하여 맞춤법 검사가 수행되는 브라우저 맞춤법 검사 기능을 사용합니다. AEM 맞춤법 검사로 전환하여 Adobe Experience Manager 사전을 사용할 수 있습니다. 사용자 지정 단어 목록을 추가하도록 사용자 지정할 수도 있습니다. AEM 사전 사용자 지정에 대한 자세한 내용은 Adobe Experience Manager Guides as a Cloud Service 설치 및 구성 섹션에서 [AEM의 기본 사전 사용자 지정](../cs-install-guide/customize-aem-custom-dictionary.md) 섹션을 참조하십시오.
@@ -158,24 +175,24 @@ Experience Manager Guides에서 [AI Assistant](./ai-assistant.md) 기능을 활�
 
 - 연결된 앱을 구성하는 동안 다음을 확인하십시오.
 
-   - 콜백을 지정합니다.
+  - 콜백을 지정합니다.
 
-     `URL: http://<server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
+    `URL: http://<server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
 
-   - 다음 OAuth 범위를 선택하십시오.
-      - 전체 액세스(전체)
-      - API(Manage user data via API)를 선택합니다
+  - 다음 OAuth 범위를 선택하십시오.
+    - 전체 액세스(전체)
+    - API(Manage user data via API)를 선택합니다
 
-     앱이 구성되면 Salesforce에서 **소비자 키** 및 **소비자 암호**&#x200B;를 제공합니다. Salesforce 프로필을 만드는 데 사용할 수 있습니다.
+    앱이 구성되면 Salesforce에서 **소비자 키** 및 **소비자 암호**&#x200B;를 제공합니다. Salesforce 프로필을 만드는 데 사용할 수 있습니다.
 
 
-   - Salesforce 프로필을 만들려면 **서버 유형** 드롭다운에서 **Salesforce** 기술 자료를 선택하십시오. 프로필 이름을 입력합니다. **사이트 URL**&#x200B;에서 출력을 게시하는 데 사용할 소비자 사이트를 입력한 다음 Salesforce 소비자 사이트에서 제공한 **소비자 키** 및 **소비자 암호**&#x200B;를 추가하십시오. 그런 다음 새로 만든 프로필을 **확인**&#x200B;하고 **저장**&#x200B;합니다.
+  - Salesforce 프로필을 만들려면 **서버 유형** 드롭다운에서 **Salesforce** 기술 자료를 선택하십시오. 프로필 이름을 입력합니다. **사이트 URL**&#x200B;에서 출력을 게시하는 데 사용할 소비자 사이트를 입력한 다음 Salesforce 소비자 사이트에서 제공한 **소비자 키** 및 **소비자 암호**&#x200B;를 추가하십시오. 그런 다음 새로 만든 프로필을 **확인**&#x200B;하고 **저장**&#x200B;합니다.
 
-     ![작업 영역 설정의 salesforce 게시 프로필](./images/salesforce-publish-profile.png){width="550"}
+    ![작업 영역 설정의 salesforce 게시 프로필](./images/salesforce-publish-profile.png){width="550"}
 
-     >[!NOTE]
-     >
-     >Experience Manager Guides에서 Salesforce용 프록시를 구성하려면 AEM에서 Apache HTTP 구성 요소 프록시 구성 을 사용합니다. [AEM 링크 검사기에 대한 프록시를 구성](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html)하는 방법을 알아봅니다.
+    >[!NOTE]
+    >
+    >Experience Manager Guides에서 Salesforce용 프록시를 구성하려면 AEM에서 Apache HTTP 구성 요소 프록시 구성 을 사용합니다. [AEM 링크 검사기에 대한 프록시를 구성](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html)하는 방법을 알아봅니다.
 
 
 **ServiceNow 프로필 만들기**
@@ -238,24 +255,24 @@ Experience Manager Guides에서 [AI Assistant](./ai-assistant.md) 기능을 활�
 
   새 언어 그룹을 만들려면 다음 단계를 수행하십시오.
 
-   1. **추가**&#x200B;를 선택합니다.
-   1. 언어 그룹 이름을 입력합니다. 각 언어에는 고유한 이름이 있어야 합니다. 이름 필드가 비어 있거나 이름이 고유하지 않은 경우 오류를 볼 수 있습니다.
-   1. 드롭다운에서 언어를 선택합니다. 여러 언어를 선택할 수 있습니다.
+  1. **추가**&#x200B;를 선택합니다.
+  1. 언어 그룹 이름을 입력합니다. 각 언어에는 고유한 이름이 있어야 합니다. 이름 필드가 비어 있거나 이름이 고유하지 않은 경우 오류를 볼 수 있습니다.
+  1. 드롭다운에서 언어를 선택합니다. 여러 언어를 선택할 수 있습니다.
 
-      원하는 언어를 필터링하려면 언어의 처음 몇 글자 또는 언어 코드를 입력합니다. 예를 들어 &#39;en&#39;을 입력하면 &#39;en&#39;이 포함된 모든 언어를 이름이나 코드의 시작 부분에 필터링합니다.
+     원하는 언어를 필터링하려면 언어의 처음 몇 글자 또는 언어 코드를 입력합니다. 예를 들어 &#39;en&#39;을 입력하면 &#39;en&#39;이 포함된 모든 언어를 이름이나 코드의 시작 부분에 필터링합니다.
 
-   1. 완료 아이콘을 선택하여 선택한 언어를 그룹에 추가합니다. 언어가 표시됩니다. 3개 이상의 언어를 추가하면 **더 보기** 옵션이 표시됩니다. **자세히 표시**&#x200B;를 선택하여 그룹에 있는 모든 언어를 볼 수 있습니다.
+  1. 완료 아이콘을 선택하여 선택한 언어를 그룹에 추가합니다. 언어가 표시됩니다. 3개 이상의 언어를 추가하면 **더 보기** 옵션이 표시됩니다. **자세히 표시**&#x200B;를 선택하여 그룹에 있는 모든 언어를 볼 수 있습니다.
 
-      >[!TIP]
-      >
-      > **자세히 표시**&#x200B;에서 **간단히 표시**(으)로 전환하고 일부 언어만 봅니다.
+     >[!TIP]
+     >
+     > **자세히 표시**&#x200B;에서 **간단히 표시**(으)로 전환하고 일부 언어만 봅니다.
 
-   1. 그룹의 언어 위로 마우스를 가져가 ![편집 아이콘](images/edit_pencil_icon.svg)을 편집하거나 언어 그룹을 ![삭제](images/Delete_icon.svg)합니다.
-   1. **설정**&#x200B;을 저장합니다.
+  1. 그룹의 언어 위로 마우스를 가져가 ![편집 아이콘](images/edit_pencil_icon.svg)을 편집하거나 언어 그룹을 ![삭제](images/Delete_icon.svg)합니다.
+  1. **설정**&#x200B;을 저장합니다.
 
-      >[!NOTE]
-      >
-      >사용자는 폴더 프로필에 구성된 언어 그룹을 볼 수 있습니다.
+     >[!NOTE]
+     >
+     >사용자는 폴더 프로필에 구성된 언어 그룹을 볼 수 있습니다.
 
 - **원본 버전 레이블을 대상 버전에 전파**: 원본 파일 버전 레이블을 번역된 파일에 전달하려면 이 옵션을 선택하십시오. 기본적으로 비활성화되어 있습니다.
 - **완료 후 번역 프로젝트 정리**: 번역 프로젝트를 번역 후 자동으로 사용하지 않도록 설정하거나 삭제하도록 구성하려면 이 옵션을 선택하십시오. 번역 후 프로젝트가 존재하도록 기본적으로 **없음**&#x200B;이 선택됩니다.

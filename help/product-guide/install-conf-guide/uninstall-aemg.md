@@ -5,13 +5,28 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: 84b248da-af7b-4811-a184-4ab17838faaa
-source-git-commit: 2749c0df3bd5640c9491dce3ab6c96f707625969
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: e557051c-ff02-4ff8-9421-cf452af0edd5
+    internal-label: Installation
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '151'
 ht-degree: 0%
-
 ---
-
 # On-Premise용 AEM Guides 제거{#id21BHG0C0SXA}
 
 CRX 패키지 관리자를 사용하여 AEM Guides for On-Premise를 제거할 수 있습니다. 제거하는 동안 저장소의 내용은 패키지를 설치하기 직전에 만든 스냅샷으로 되돌아갑니다.

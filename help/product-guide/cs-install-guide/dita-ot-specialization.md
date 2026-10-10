@@ -5,28 +5,41 @@ exl-id: 4d3e0fc1-b684-44f9-ab0d-411033024019
 feature: DITA-OT Configuration
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/qi0ULJNb8gNRN-JialmPdr01brhyvyA9b1O6kgQVN7w
+TQID: 'https://experienceleague.adobe.com/qi0ULJNb8gNRN-JialmPdr01brhyvyA9b1O6kgQVN7w'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: a9152842-7b20-4563-9267-e1dc8991bd13
+    internal-label: DITA OT configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1809
+source-wordcount: '1809'
 ht-degree: 0%
-
 ---
-
 # 사용자 지정 DITA-OT 및 DITA 특수화 사용 {#id181GAJ0005Z}
 
 DITA Open Toolkit \(DITA-OT\)는 DITA 맵 및 주제 컨텐츠를 처리하는 Java 기반 오픈 소스 도구 세트입니다. AEM Guides을 사용하면 사용자 지정 DITA-OT 플러그인을 쉽게 가져오고 사용할 수 있습니다. 가져온 후에는 사용자 지정 DITA-OT 플러그인을 사용하여 모든 형식의 출력을 생성하도록 AEM Guides을 구성할 수 있습니다. 출력을 생성할 때 DITA-OT 옵션을 선택하면 AEM Guides에서 사용자 지정 DITA-OT 플러그인을 사용하여 필요한 출력을 생성합니다.

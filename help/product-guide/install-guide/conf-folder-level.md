@@ -5,36 +5,54 @@ exl-id: d7bf7e69-fe12-4c48-8ce4-17b74a6c61e7
 feature: Profiles
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/YhhyPK2yQ7uarXyRP1OVfYtbAjYtcA0j6rb2YQ-CTKc
+TQID: 'https://experienceleague.adobe.com/YhhyPK2yQ7uarXyRP1OVfYtbAjYtcA0j6rb2YQ-CTKc'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
   - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: e13e7f13-0f4c-43f9-b0a7-1f33bd47e105
+    internal-label: Troubleshooting
   - id: e557051c-ff02-4ff8-9421-cf452af0edd5
+    internal-label: Installation
   - id: f7774ebe-aec9-42b6-97e4-5002acdc712e
+    internal-label: Review
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Administration
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 3974
+source-wordcount: '3974'
 ht-degree: 0%
-
 ---
-
 # 전역 또는 폴더 수준 프로필 구성 {#id181AH2003PF}
 
 기업에서는 다른 그룹이나 제품이 다른 작성 템플릿, 출력 템플릿, 조건부 속성 프로필 \(또는 주제 스키마\) 및 웹 편집기 구성을 사용할 수 있습니다. 작성자가 엔터프라이즈 \(또는 글로벌\) 수준에서만 구성하면 작성자와 관련 없는 템플릿 또는 프로필이 표시되므로 작성자가 어려움을 겪을 수 있습니다.
@@ -53,21 +71,21 @@ AEM Guides을 사용하면 폴더 수준뿐만 아니라 엔터프라이즈 \(�
 
 - **제작 서식 파일**: 작성자가 DITA 콘텐츠를 만드는 데 사용할 서식 파일을 구성하려면 이 탭을 사용합니다. 다음 주제 템플릿은 즉시 사용할 수 있습니다.
 
-   - 용어 설명
+  - 용어 설명
 
-   - 참조
+  - 참조
 
-   - 주제
+  - 주제
 
-   - 개념
+  - 개념
 
-   - 작업
+  - 작업
 
-   - 문제 해결
+  - 문제 해결
 
-   - 비어 있음
+  - 비어 있음
 
-   - DITAVAL
+  - DITAVAL
 
   >[!NOTE]
   >
@@ -75,31 +93,31 @@ AEM Guides을 사용하면 폴더 수준뿐만 아니라 엔터프라이즈 \(�
 
   주제 템플릿과 함께 작성자가 사용할 수 있는 맵 템플릿을 정의할 수도 있습니다. 다음과 같은 맵 템플릿을 즉시 사용할 수 있습니다.
 
-   - 맵
+  - 맵
 
-   - 북맵
+  - 북맵
 
 - **출력 사전 설정**: 작성 템플릿과 마찬가지로 5개의 사전 구성된 출력 사전 설정이 있습니다.
 
-   - AEM 사이트
+  - AEM 사이트
 
-   - PDF
+  - PDF
 
-   - HTML5
+  - HTML5
 
-   - EPUB
+  - EPUB
 
-   - 사용자 정의
+  - 사용자 정의
 
   게시자는 이러한 기본 출력 사전 설정을 사용하여 콘텐츠를 게시할 수 있습니다. 이러한 사전 설정은 전역 또는 폴더 수준 프로필의 관리자가 구성할 수 있습니다. 구성하고 나면 새로 만든 DITA 맵에 대해 게시자가 게시 사전 설정을 사용할 수 있게 됩니다. 기존 DITA 맵에 게시 사전 설정을 적용할 수도 있습니다. 자세한 내용은 [사전 설정 변경 내용 적용](#id18AGD0K0OHS)을 참조하십시오.
 
 - **XML 편집기 구성**: 이 탭을 사용하여 웹 편집기의 모양과 다양한 기능을 사용자 지정할 수 있습니다. 웹 편집기에서 다음 구성 가능한 설정을 사용할 수 있습니다.
 
-   - XML 편집기 UI 구성
-   - CSS 템플릿 레이아웃
-   - XML 편집기 조각
-   - XML 콘텐츠 버전 레이블
-   - Rootmap \(폴더 수준에서만\)
+  - XML 편집기 UI 구성
+  - CSS 템플릿 레이아웃
+  - XML 편집기 조각
+  - XML 콘텐츠 버전 레이블
+  - Rootmap \(폴더 수준에서만\)
 
 전역 프로필과 폴더 수준 프로필을 모두 구성할 수 있습니다. 폴더 수준 프로필에서는 설정을 적용할 폴더를 정의할 수 있습니다. 이러한 설정에는 조건부 특성, 작성 템플릿, 출력 사전 설정 및 XML 편집기 설정이 포함됩니다. 구성된 폴더에서 작업하는 작성자는 조건부 사전 설정, 작성 템플릿 및 XML 편집기 구성을 사용할 수 있습니다. 마찬가지로 게시자는 구성된 폴더 내에 정의된 구성된 출력 사전 설정에 액세스할 수 있습니다.
 

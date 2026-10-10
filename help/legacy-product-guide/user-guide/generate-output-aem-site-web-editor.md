@@ -5,29 +5,41 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 9a9ae44f-8fed-4a4e-812c-451bcf138d0a
-TQID: https://experienceleague.adobe.com/QwfgJH1sqiJKtM3UfYDne0eOCS-y6-yoBZxSCED4umQ
+TQID: 'https://experienceleague.adobe.com/QwfgJH1sqiJKtM3UfYDne0eOCS-y6-yoBZxSCED4umQ'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Troubleshooting
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 2755
+source-wordcount: '2766'
 ht-degree: 0%
-
 ---
-
 # 웹 편집기의 AEM Sites 사전 설정
 
 
@@ -91,11 +103,11 @@ Experience Manager Guides은 AEM Sites을 만들기 위한 사전 정의된 템�
 - 게시 경로
 - 주제 페이지 템플릿
 - 다음을 기반으로 페이지 이름 생성
-   - 항목 파일 이름
-   - 주제 제목
+  - 항목 파일 이름
+  - 주제 제목
 - 이전에 생성된 페이지 정리
-   - 맵에서 제거된 주제에 대해 이전에 생성된 페이지 삭제
-   - 이 경로에서 다른 소스에서 만든 모든 페이지를 삭제:
+  - 맵에서 제거된 주제에 대해 이전에 생성된 페이지 삭제
+  - 이 경로에서 다른 소스에서 만든 모든 페이지를 삭제:
 - 사후 생성 워크플로
 
 
@@ -108,8 +120,8 @@ Experience Manager Guides은 AEM Sites을 만들기 위한 사전 정의된 템�
 - 조건 필터링
 - 추가 DITA-OT 명령줄 인수
 - 메타데이터
-   - 파일(Assets) 속성
-   - 맵 속성을 대체 항목으로 사용
+  - 파일(Assets) 속성
+  - 맵 속성을 대체 항목으로 사용
 
 
 자세한 내용은 [AEM Sites 구성](#aem_sites_config)을 참조하세요.
@@ -208,7 +220,7 @@ Experience Manager Guides에서는 `peer @scope`을(를) 사용하여 주제 참
    - 맵 대시보드에서 만든 사전 설정용. 맵(Map) 대시보드 툴팁이 나타납니다.
    - OOTB 사전 설정의 경우 대시보드 매핑 도구 설명이 표시됩니다.
    - 전역 사전 설정의 경우 이 전역 사전 설정의 로컬 복사본을 만들어 교차 맵 참조를 설정합니다.
-웹 편집기의 AEM Sites 사전 설정을 사용하려면 새 사전 설정을 만들거나 기존 사전 설정을 복제하십시오.
+     웹 편집기의 AEM Sites 사전 설정을 사용하려면 새 사전 설정을 만들거나 기존 사전 설정을 복제하십시오.
 
 1. **교차 맵 참조** 탭을 엽니다.
 

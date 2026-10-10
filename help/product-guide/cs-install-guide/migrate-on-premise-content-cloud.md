@@ -5,26 +5,36 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: da3a6f83-b21a-4b19-8b54-ee96f11e7c09
-TQID: https://experienceleague.adobe.com/lvzQA2ECfl6LYSVAbFmg12oFkKCiUjZgv4X3K1TCwkM
+TQID: 'https://experienceleague.adobe.com/lvzQA2ECfl6LYSVAbFmg12oFkKCiUjZgv4X3K1TCwkM'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: 5be0fc8f-1cff-5c3e-bb92-2903a56a3de6
+    internal-label: Migration
 subfeature_v2:
   - id: ed9d83c9-e55d-4a67-9667-8e31871715a7
+    internal-label: Content migration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Security
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 844
-ht-degree: 0%
-
+source-wordcount: '1034'
+ht-degree: 2%
 ---
-
 # 온-프레미스에서 Cloud Service으로 콘텐츠 마이그레이션
 
 Experience Manager as a Cloud Service은 Experience Manager Guides, Assets, Forms 및 Screens에 확장 가능하고 안전하며 민첩한 기술 기반을 제공합니다. 이를 통해 마케터와 IT 전문가는 규모에 맞게 효과적인 경험을 제공하는 데 집중할 수 있습니다.
@@ -54,7 +64,7 @@ Experience Manager as a Cloud Service을 사용하면 팀이 제품 업그레이
 1. 목록에서 **콘텐츠 전송 도구**&#x200B;을(를) 선택하고 다운로드하십시오.
 
 ![콘텐츠 전송 도구 다운로드](./assets/content-transfer-tool-software-portal.png)
-그런 다음 소스 Adobe Experience Manager 인스턴스에서 **패키지 관리자**&#x200B;를 통해 패키지를 설치합니다. 최신 버전을 다운로드해야 합니다.
+그런 다음 소스 Adobe Experience Manager 인스턴스에서 **패키지 관리자**&#x200B;를 통해 패키지를 설치합니다. 최신 버전을 다운로드하십시오.
 최신 버전에 대한 자세한 내용은 [릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=ko)를 참조하세요.
 
 >[!NOTE]
@@ -121,7 +131,7 @@ Experience Manager Guides 콘텐츠를 Experience Manager as a cloud service로 
    ![](./assets/migration-create-migration-set.png)
 
 1. 마이그레이션할 경로를 입력하고 **저장**&#x200B;을 클릭합니다.
-예: `/content/sites`
+예:  `/content/sites`
 또는
    `/content/dam/tech-docs`
    ![포함된 경로](./assets/migration-included-paths.png)

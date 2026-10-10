@@ -5,22 +5,31 @@ feature: Metadata Management
 role: User
 hide: true
 exl-id: 02f94238-2f45-4fc9-8586-6b96bb435013
-TQID: https://experienceleague.adobe.com/N3VQuKgUk9sqOsJn264DeQUxXtQwMghv6-4EQWnWGMU
+TQID: 'https://experienceleague.adobe.com/N3VQuKgUk9sqOsJn264DeQUxXtQwMghv6-4EQWnWGMU'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: da9cce28-0561-45e7-851e-4500741b9744
+    internal-label: Metadata management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Data management
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 165
+source-wordcount: '165'
 ht-degree: 2%
-
 ---
-
 # 메타데이터 관리 {#id221EJ0500LI}
 
 메타데이터는 콘텐츠에 대한 설명 또는 정의입니다. 이 메타데이터는 문서 또는 맵을 정의하는 데 유용합니다. 예를 들어, PDF 메타데이터는 제목, 작성자, 주제, 키워드 및 언어와 같은 문서의 속성으로 구성될 수 있습니다. AEM Guides은 콘텐츠에 대한 메타데이터를 정의하는 데 도움이 되는 다양한 도구를 제공합니다.

@@ -5,13 +5,28 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: 376aea7a-7850-44d4-a620-6b1a798a0801
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: e557051c-ff02-4ff8-9421-cf452af0edd5
+    internal-label: Installation
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '1052'
+source-wordcount: '1053'
 ht-degree: 0%
-
 ---
-
 # AEM Sites에 대한 구성 요소 매핑
 
 이 문서에서는 AEM 사이트에 대한 구성 요소 매핑의 다양한 측면에 대해 설명합니다(복합 구성 요소 매핑 사용).
@@ -192,9 +207,9 @@ HTML 테이블 콘텐츠를 수락하고 그 안의 모든 `<img>`을(를) AEM �
 ### 폴더 구조 및 키 파일(이 저장소)
 
 - 구성 요소 HTL 및 clientlibs: `ui.apps/src/main/content/jcr_root/apps/guides-components/components/table/`
-   - `table.html`(HTL 렌더러)
-   - `_cq_editConfig.xml`(수신기 새로 고침)
-   - `clientlibs/`, `css.txt`, `js.txt`, `css/table.css`, `js/table.js`
+  - `table.html`(HTL 렌더러)
+  - `_cq_editConfig.xml`(수신기 새로 고침)
+  - `clientlibs/`, `css.txt`, `js.txt`, `css/table.css`, `js/table.js`
 - Sling 모델: `core/src/main/java/com/adobe/guides/aem/components/core/models/TableModel.java`
 - 이미지 렌더링 서비스: `core/src/main/java/com/adobe/guides/aem/components/core/services/ImageComponentRenderer.java`
 
@@ -316,7 +331,7 @@ clientlibs/js.txt
 - **응답형 사용**: `./enableResponsive`(확인란); 응답형 래퍼 클래스를 전환합니다.
 - **테이블 스타일**: `./tableStyle`(선택); 스타일 한정자 클래스를 적용합니다.
 
-이러한 매핑 1:1은(는) Sling 모델의 속성 및 제어 렌더링에 매핑됩니다.
+이는 Sling 모델의 속성 및 제어 렌더링에 1:1을 매핑합니다.
 
 **템플릿에서 구성 요소 허용**
 

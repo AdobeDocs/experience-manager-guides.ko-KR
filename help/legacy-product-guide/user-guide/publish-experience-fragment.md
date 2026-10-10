@@ -5,24 +5,34 @@ feature: Publishing
 role: User
 hide: true
 exl-id: c3c6c063-441c-413b-a63e-0acbd126ca6d
-TQID: https://experienceleague.adobe.com/-criVtAp0Z8q4-Pw0fdJvqXxYgWBOXUSuH3ySkaMeNc
+TQID: 'https://experienceleague.adobe.com/-criVtAp0Z8q4-Pw0fdJvqXxYgWBOXUSuH3ySkaMeNc'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+    internal-label: APIs
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 974
+source-wordcount: '995'
 ht-degree: 0%
-
 ---
-
 # 경험 조각 게시
 
 경험 조각 은 Adobe Experience Manager의 모듈식 콘텐츠 조각입니다. 이러한 콘텐츠 블록은 템플릿을 기반으로 하며 콘텐츠와 그 레이아웃을 모두 캡슐화합니다. 재사용 가능한 이러한 콘텐츠 조각을 통해 콘텐츠 작성자는 Experience Manager이 지원하는 여러 채널에 걸쳐 일관되고 확장 가능한 경험을 조합하고 제공할 수 있습니다. 이 기능을 사용하면 뉴스레터, 프로모션 배너 및 고객 추천과 같은 일관된 마케팅 경험을 효율적으로 만들 수 있습니다.
@@ -48,7 +58,7 @@ Experience Manager Guides을 사용하면 주제 또는 해당 요소를 경험 
 
      폴더에 대해 허용된 템플릿을 정의하지 않으면 기본적으로 상위 폴더 또는 템플릿 폴더에서 템플릿이 선택됩니다.
    * **정렬 가능**: 폴더 내의 자산 순서를 변경할 수 있습니다.
-     ![폴더 속성에 클라우드 구성 세부 정보 추가](images/experience-fragment-folder-properties.png){width="650"}
+     ![폴더 속성에서 클라우드 구성 세부 정보 추가](images/experience-fragment-folder-properties.png){width="650"}
      *폴더 속성에 클라우드 구성을 추가하여 조각 템플릿과 연결합니다.*
 1. 경험 조각을 생성하려면 주제의 **파일 속성**&#x200B;에서 **출력** 섹션에서 **새 출력** ![새 출력 아이콘](./images/Add_icon.svg)을 선택하십시오.
 1. **경험 조각**&#x200B;을 선택합니다.\
@@ -78,9 +88,9 @@ Experience Manager Guides을 사용하면 주제 또는 해당 요소를 경험 
    * 다른 조건을 선택하여 콘텐츠를 게시할 수도 있습니다.  다음 옵션 중 하나를 선택하십시오.
 
 
-      * **없음**: 게시된 출력에 조건을 적용하지 않으려면 이 옵션을 선택하십시오.
-      * **DITAVAL 사용**: 개인화된 콘텐츠를 생성하려면 DITAVAL 파일을 선택하십시오. 찾아보기 대화 상자를 사용하거나 파일 경로를 입력하여 DITAVAL 파일을 선택할 수 있습니다.
-      * **특성 사용**: DITA 주제에 조건 특성을 정의할 수 있습니다. 그런 다음 조건 속성을 선택하여 관련 콘텐츠를 게시합니다.
+     * **없음**: 게시된 출력에 조건을 적용하지 않으려면 이 옵션을 선택하십시오.
+     * **DITAVAL 사용**: 개인화된 콘텐츠를 생성하려면 DITAVAL 파일을 선택하십시오. 찾아보기 대화 상자를 사용하거나 파일 경로를 입력하여 DITAVAL 파일을 선택할 수 있습니다.
+     * **특성 사용**: DITA 주제에 조건 특성을 정의할 수 있습니다. 그런 다음 조건 속성을 선택하여 관련 콘텐츠를 게시합니다.
 
      >[!NOTE]
      > 

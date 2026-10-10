@@ -4,26 +4,35 @@ description: 맵 컬렉션을 만들고 삭제하고 DITA 맵을 추가하거나
 exl-id: 41152fa4-f739-44d2-9ccd-74072f53e31b
 feature: Publishing
 role: User
-TQID: https://experienceleague.adobe.com/4ZtP8sNNhuZwJ-bTKThXiRZwVXvJ2PvfKyyo91HO1bE
+TQID: 'https://experienceleague.adobe.com/4ZtP8sNNhuZwJ-bTKThXiRZwVXvJ2PvfKyyo91HO1bE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1234
+source-wordcount: '1251'
 ht-degree: 1%
-
 ---
-
 # 출력 생성을 위해 맵 컬렉션 사용 {#id1723F20G0HS}
 
 어느 조직에서나 제품에는 여러 유형의 설명서가 있을 수 있습니다. 게시 전문가는 어떤 문서에 대해 생성할 출력을 제어하려고 합니다. 또한 한 번에 여러 문서를 일괄 게시할 수 있는 방법이 있어야 합니다.
@@ -74,17 +83,17 @@ Adobe Experience Manager Guides에서는 맵 컬렉션이라는 대시보드를 
 다음 필터링 옵션 및 맵 세부 사항이 컬렉션 페이지에 표시됩니다.
 
 - **필터:** 왼쪽 레일에는 다음 필터가 표시됩니다.
-   - **수정됨**: 예 또는 아니오를 선택할 수 있습니다. 예를 선택하면 수정된 DITA 맵만 맵 및 사전 설정 표에 표시됩니다.
-   - **사전 설정**: 맵 파일을 필터링할 사전 설정을 선택합니다. 예를 들어 *AEM 사이트* 사전 설정을 선택하면 *AEM 사이트* 출력 사전 설정이 구성된 맵만 표시됩니다.
-   - **언어**: 사용 가능한 언어 코드를 선택하고 맵 및 사전 설정 표에 선택한 언어만 표시할 수 있습니다.
+  - **수정됨**: 예 또는 아니오를 선택할 수 있습니다. 예를 선택하면 수정된 DITA 맵만 맵 및 사전 설정 표에 표시됩니다.
+  - **사전 설정**: 맵 파일을 필터링할 사전 설정을 선택합니다. 예를 들어 *AEM 사이트* 사전 설정을 선택하면 *AEM 사이트* 출력 사전 설정이 구성된 맵만 표시됩니다.
+  - **언어**: 사용 가능한 언어 코드를 선택하고 맵 및 사전 설정 표에 선택한 언어만 표시할 수 있습니다.
 - **맵 및 사전 설정** 테이블: 맵 및 사전 설정 테이블은 다음 열에 정보를 제공합니다.
-   - **맵**: DITA 맵 파일의 제목을 표시합니다.
-   - **파일 이름**: DITA 맵의 파일 이름을 표시합니다.
-   - **언어**: DITA 맵의 언어를 표시합니다.
-   - **사전 설정**: 맵 파일에 구성된 출력 사전 설정 형식을 표시합니다.
-   - **기준선**: 출력 사전 설정에서 사용하는 기준선을 표시합니다.  기준선을 사용하지 않으면 하이픈 &#39;-&#39;이 표시됩니다
-   - **수정됨**: 마지막 게시 후 DITA 맵이 업데이트되는지 여부를 나타냅니다. 이 정보를 기반으로 이 DITA 맵에 대한 출력을 다시 게시할지 여부를 결정할 수 있습니다.
-   - **마지막으로 생성됨**: 마지막으로 생성된 출력의 날짜와 시간을 표시합니다.
+  - **맵**: DITA 맵 파일의 제목을 표시합니다.
+  - **파일 이름**: DITA 맵의 파일 이름을 표시합니다.
+  - **언어**: DITA 맵의 언어를 표시합니다.
+  - **사전 설정**: 맵 파일에 구성된 출력 사전 설정 형식을 표시합니다.
+  - **기준선**: 출력 사전 설정에서 사용하는 기준선을 표시합니다.  기준선을 사용하지 않으면 하이픈 &#39;-&#39;이 표시됩니다
+  - **수정됨**: 마지막 게시 후 DITA 맵이 업데이트되는지 여부를 나타냅니다. 이 정보를 기반으로 이 DITA 맵에 대한 출력을 다시 게시할지 여부를 결정할 수 있습니다.
+  - **마지막으로 생성됨**: 마지막으로 생성된 출력의 날짜와 시간을 표시합니다.
 
 ## 맵 컬렉션을 사용하여 출력 구성 및 생성
 

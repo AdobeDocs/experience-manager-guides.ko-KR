@@ -5,23 +5,29 @@ feature: Filename Configuration
 role: Admin
 level: Experienced
 exl-id: 42722c6f-1b1c-4a7e-89ef-a373623eb774
-TQID: https://experienceleague.adobe.com/UM-r83s-H3f2ldZSgNSnYrsV5Iu-zzX1ia4wcCOBB8M
+TQID: 'https://experienceleague.adobe.com/UM-r83s-H3f2ldZSgNSnYrsV5Iu-zzX1ia4wcCOBB8M'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ccd46b93-df7f-4458-ba4c-90a3562d9ab0
+    internal-label: Filename configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 584
+source-wordcount: '584'
 ht-degree: 0%
-
 ---
-
 # 폴더에 대한 사후 처리 비활성화
 
 기본적으로 업로드된 모든 자산은 DAM 자산 업데이트 워크플로우를 사용하여 처리됩니다. Experience Manager Guides은 이 워크플로우의 일부로 후처리라는 추가 처리를 실행합니다. UUID를 생성하는 데도 도움이 됩니다
@@ -36,11 +42,11 @@ ht-degree: 0%
 
 | PID | 속성 키 | 속성 값 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `ignored.post.processing.paths` | 표준 NODE_OPTIONS(다중 값 속성, 끝에 `/`이(가) 없는 경로가 있거나 regex인 문자열) <br>을(를) 설정하는 문자열 값 **기본값**: `/content/dam/projects/translation_output` |
+| `com.adobe.fmdita.config.ConfigManager` | `ignored.post.processing.paths` | 표준 NODE_OPTIONS(다중 값 속성, 끝에 `/`이(가) 없는 경로가 있는 문자열 또는 regex) <br>을(를) 설정할 문자열 값 **기본값**: `/content/dam/projects/translation_output` |
 
 | PID | 속성 키 | 속성 값 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `enabled.post.processing.paths` | 표준 NODE_OPTIONS(다중 값 속성, 끝에 `/`이(가) 없는 경로가 있거나 regex인 문자열) <br>을(를) 설정하는 문자열 값 **기본값**: `/content/dam` |
+| `com.adobe.fmdita.config.ConfigManager` | `enabled.post.processing.paths` | 표준 NODE_OPTIONS(다중 값 속성, 끝에 `/`이(가) 없는 경로가 있는 문자열 또는 regex) <br>을(를) 설정할 문자열 값 **기본값**: `/content/dam` |
 
 ## 후처리를 활성화 또는 비활성화하는 규칙
 

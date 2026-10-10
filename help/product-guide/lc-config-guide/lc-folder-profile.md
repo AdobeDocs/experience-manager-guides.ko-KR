@@ -5,33 +5,48 @@ feature: Authoring
 role: Admin
 level: Experienced
 exl-id: dc26ae48-c953-492c-823a-5f65157b6902
-TQID: https://experienceleague.adobe.com/jp7oUSIZlnTfGnx58E9rPn6Tk4zE2lp-oZSTdjblbZ0
+TQID: 'https://experienceleague.adobe.com/jp7oUSIZlnTfGnx58E9rPn6Tk4zE2lp-oZSTdjblbZ0'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
   - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: b89a36a9-95de-429b-adde-f901256d8f24
+    internal-label: Variables
   - id: f7774ebe-aec9-42b6-97e4-5002acdc712e
+    internal-label: Review
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9132140a0305eb0507598a7caf5f704861879a93
+    internal-label: Administration
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1960
+source-wordcount: '1990'
 ht-degree: 0%
-
 ---
-
 # 폴더 프로필 구성
 
 폴더 프로필은 기업의 다양한 부서 또는 제품에 대한 구성을 분리하는 데 필요합니다. 학습 및 교육 컨텐츠의 경우 작성 템플릿, 출력 템플릿, 출력 사전 설정 및 기타 폴더 수준 설정을 관리하는 폴더 수준 프로필을 만들고 구성할 수 있습니다.
@@ -76,8 +91,8 @@ ht-degree: 0%
 - **학습 콘텐츠**: **학습 콘텐츠 활성화** 전환을 사용하여 폴더 프로필 수준에서 기능을 활성화하거나 비활성화합니다.
 - **HTML 편집기**: 이 설정을 사용하면 HTML 기반 작성에 대한 편집기를 구성할 수 있습니다. 이 설정에 있는 주요 구성 옵션은 다음과 같습니다.
 
-   - **인라인 스타일 숨기기**: 작성자가 과정 콘텐츠에 인라인 서식을 적용하지 않도록 하려면 이 옵션을 사용합니다. 활성화되면 편집기의 오른쪽 패널에 있는 글꼴, 테두리, 레이아웃, 배경 및 열과 같은 모든 인라인 스타일 옵션이 작성자에게 표시되지 않습니다. 그러나 작성자는 **스타일** 패널에서 사용할 수 있는 전역 클래스 기반 스타일 옵션을 계속 사용할 수 있습니다. 이렇게 하면 조직의 스타일 지침과 일관성을 유지할 수 있습니다.
-   - **작성자를 위한 Source 보기 숨기기**: HTML 소스 코드에 대한 액세스를 제한하려면 이 옵션을 사용하도록 설정하십시오. 이 기능은 편집 환경을 단순화하거나 기본 코드를 실수로 변경하지 않으려는 경우에 유용합니다.
+  - **인라인 스타일 숨기기**: 작성자가 과정 콘텐츠에 인라인 서식을 적용하지 않도록 하려면 이 옵션을 사용합니다. 활성화되면 편집기의 오른쪽 패널에 있는 글꼴, 테두리, 레이아웃, 배경 및 열과 같은 모든 인라인 스타일 옵션이 작성자에게 표시되지 않습니다. 그러나 작성자는 **스타일** 패널에서 사용할 수 있는 전역 클래스 기반 스타일 옵션을 계속 사용할 수 있습니다. 이렇게 하면 조직의 스타일 지침과 일관성을 유지할 수 있습니다.
+  - **작성자를 위한 Source 보기 숨기기**: HTML 소스 코드에 대한 액세스를 제한하려면 이 옵션을 사용하도록 설정하십시오. 이 기능은 편집 환경을 단순화하거나 기본 코드를 실수로 변경하지 않으려는 경우에 유용합니다.
 
 ## 패널 구성
 

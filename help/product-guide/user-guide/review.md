@@ -4,23 +4,28 @@ description: 원활한 콘텐츠 평가를 위해 AEM Guides에서 주제나 맵
 exl-id: 81ea0b52-52b0-4764-a6d8-a96d5c7693bf
 feature: Reviewing
 role: User
-TQID: https://experienceleague.adobe.com/vMRrcxgVXIV6SKBymdPsFK-32mK08DoRNraIRcuhoZ0
+TQID: 'https://experienceleague.adobe.com/vMRrcxgVXIV6SKBymdPsFK-32mK08DoRNraIRcuhoZ0'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: 72792fc7-6fd6-5775-a2c2-99253bb26dc2
+    internal-label: Reviewing
 subfeature_v2:
   - id: ca593223-d11a-4a52-b369-a8e081e71737
+    internal-label: Desktop tools
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 431
+source-wordcount: '431'
 ht-degree: 0%
-
 ---
-
 # 리뷰 소개 {#id1645H6010Q5}
 
 거의 모든 기술 문서는 여러 차례의 검토를 거쳐야 합니다. 대부분의 경우 검토 주기에는 두 명 이상의 검토자가 포함됩니다. 여러 검토자의 주석을 처리하고 응답하는 것은 작성자에게 항상 어려운 일입니다. 또한 여러 검토자 시나리오에서 한 검토자가 다른 검토자의 주석을 볼 수도 있는 경우 유용합니다.

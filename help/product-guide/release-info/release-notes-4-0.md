@@ -1,13 +1,19 @@
 ---
 title: Adobe Experience Manager Guides 4.0.x 릴리스 노트
 description: Adobe Experience Manager Guides 버전 4.0, 4.0.1, 4.0.2 및 4.0.3의 버그 수정, 새로운 기능 및 향상된 기능에 대해 알아봅니다.
-source-git-commit: dc078c23c02c813fe39ca563e615dc3238c40253
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '3496'
 ht-degree: 5%
-
 ---
-
 
 # 릴리스 정보 | Adobe Experience Manager Guides 4.0.x
 
@@ -209,10 +215,10 @@ AEM 외에도 이 고유한 기능을 사용하여 Salesforce과 같은 기술 �
 
 - 핵심 프레임워크를 Coral 기반 UI에서 Spectrum 기반 UI로 변경했습니다. 이렇게 하면 매우 표준화되고 직관적인 UI가 제공됩니다.
 - 새 파일 속성 기능이 오른쪽 패널에 도입되었습니다. 활성 문서의 속성을 확인할 수 있습니다. 정보는 다음 두 섹션으로 분류됩니다.
-   - *일반*: 파일 이름, UUID, 메타데이터 태그, 언어, 만든 날짜, 체크 아웃한 상태 및 문서 상태와 같은 일반 파일 세부 정보를 포함합니다.
-   - *참조*: 들어오는 참조와 나가는 참조가 있습니다.
+  - *일반*: 파일 이름, UUID, 메타데이터 태그, 언어, 만든 날짜, 체크 아웃한 상태 및 문서 상태와 같은 일반 파일 세부 정보를 포함합니다.
+  - *참조*: 들어오는 참조와 나가는 참조가 있습니다.
 
-     ![파일 속성 패널](assets/file-properties.avif)
+    ![파일 속성 패널](assets/file-properties.avif)
 
 - 웹 편집기에도 제목 구성표에 대한 지원이 추가되었습니다. 이제 [주제 스키마] 패널을 사용하여 주제 스키마를 만들고 사용할 수 있습니다. 이제 주제 스키마를 추가하여 회사 메타데이터 및 분류법을 사용할 수 있습니다.
 

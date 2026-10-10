@@ -5,26 +5,39 @@ exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
 feature: Output Generation
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/omjPXvRH20uR9prVDmOiw-yowtcyX3S9YUqFJWDCLqM
+TQID: 'https://experienceleague.adobe.com/omjPXvRH20uR9prVDmOiw-yowtcyX3S9YUqFJWDCLqM'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1099
+source-wordcount: '1170'
 ht-degree: 0%
-
 ---
-
 # PDF 템플릿 {#PDF-template}
 
 템플릿을 사용하면 콘텐츠 레이아웃 및 구조의 일관성을 유지할 수 있습니다. 템플릿이 사전 정의되어 있으므로 모든 새 프로젝트 또는 업데이트에 대해 발생하는 서식 지정 문제에 대한 재작업을 방지할 수 있습니다. 템플릿을 사용하면 페이지 레이아웃을 디자인하고, 콘텐츠를 스타일링할 수 있으며, 다양한 설정을 적용하여 PDF을 사용자 지정할 수 있습니다.
@@ -160,14 +173,14 @@ PDF 템플릿을 사용자 정의하려면 다음 단계를 수행하십시오.
 
    * 스타일시트: 스타일시트 섹션의 설정을 사용하여 목차, 색인, 용어집, 인용 등과 같은 페이지 레이아웃 구성 요소의 모양과 느낌을 사용자 지정할 수 있습니다. 제목, 단락, 목록 등과 같은 DITA 컨텐트의 스타일을 사용자 지정할 수도 있습니다. 스타일시트를 사용하는 방법에 대한 자세한 내용은 [스타일시트를 사용하여 PDF 사용자 지정](components-pdf-template.md#stylesheet-customization)을 참조하십시오.
    * 리소스: PDF 템플릿을 사용자 정의하거나 디자인하는 데 필요한 에셋 파일을 저장합니다. 로고, 사용자 지정 글꼴, 배경 이미지 등과 같은 Assets은 리소스에 저장됩니다.
-저장소의 다른 위치에 있는 리소스를 사용할 수도 있습니다. 각 템플릿에 대해 중복 리소스를 만들 필요가 없으며, 이러한 리소스를 공유 폴더에 보관하고 모든 기본 PDF 템플릿에서 사용할 수 있습니다.
+     저장소의 다른 위치에 있는 리소스를 사용할 수도 있습니다. 각 템플릿에 대해 중복 리소스를 만들 필요가 없으며, 이러한 리소스를 공유 폴더에 보관하고 모든 기본 PDF 템플릿에서 사용할 수 있습니다.
 
      리소스 사용에 대한 자세한 내용은 [리소스 작업](components-pdf-template.md#work-with-resources)을 참조하세요.
 
    * 설정: 템플릿을 사용하여 PDF을 생성하기 위한 출력 설정을 구성합니다. 이 섹션에서는 PDF의 다양한 페이지에 대한 템플릿 매핑, 챕터 시작 페이지, 인쇄 마커, 인용 부호 등을 정의할 수 있습니다.
 
    최종 PDF 출력에 표시되어야 하는 순서를 정렬할 수도 있습니다.
-설정을 적용하는 방법에 대한 자세한 내용은 [고급 PDF 설정](components-pdf-template.md#advanced-pdf-settings)을 참조하십시오.
+   설정을 적용하는 방법에 대한 자세한 내용은 [고급 PDF 설정](components-pdf-template.md#advanced-pdf-settings)을 참조하십시오.
 
 
 1. 템플릿 구성 요소를 사용자 정의하려면 템플릿 구성 요소를 두 번 클릭하거나 그 앞에 있는 > 아이콘을 선택합니다.

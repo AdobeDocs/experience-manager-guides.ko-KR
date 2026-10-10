@@ -5,26 +5,35 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 9d311979-a7d7-47f5-945c-520eda99798f
-TQID: https://experienceleague.adobe.com/TZZdQTYIQq-nVsSlMixPoJSRdw6mQDG7KOGNn23sOOk
+TQID: 'https://experienceleague.adobe.com/TZZdQTYIQq-nVsSlMixPoJSRdw6mQDG7KOGNn23sOOk'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Troubleshooting
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 523
+source-wordcount: '523'
 ht-degree: 0%
-
 ---
-
 # 게시 대시보드를 사용하여 게시 작업 관리 {#id205CC08305Z}
 
 시스템에서 많은 수의 게시 작업이 실행 중인 경우 각 DITA 맵을 개별적으로 확인하여 게시 작업을 모니터링하는 것이 사실상 불가능해집니다. AEM Guides은 관리자 및 게시자에게 시스템에서 실행 중인 모든 게시 작업에 대한 하나의 통합된 보기를 제공합니다. 게시 대시보드에서 모든 활성 게시 작업 목록을 사용할 수 있습니다.

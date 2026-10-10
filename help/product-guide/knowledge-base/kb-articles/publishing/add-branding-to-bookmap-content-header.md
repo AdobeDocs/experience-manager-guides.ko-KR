@@ -5,24 +5,30 @@ feature: Native PDF Output
 author: Pulkit Nagpal(punagpal)
 role: User, Admin
 exl-id: ab452529-3c7f-4057-a0f6-212b9f52a99d
-TQID: https://experienceleague.adobe.com/6CGRK2QWFZ6nIXmIAQZy3lX7t4KYP2-HeyqlVW2-7eE
+TQID: 'https://experienceleague.adobe.com/6CGRK2QWFZ6nIXmIAQZy3lX7t4KYP2-HeyqlVW2-7eE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
 subfeature_v2:
   - id: d6596f3f-92a7-43ec-b444-237db6adad05
+    internal-label: Native PDF publishing
+  - id: c4e6b17e-c50c-59a1-a719-9c33ce69e5b6
+    internal-label: Native PDF Output
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Admin
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 422
+source-wordcount: '422'
 ht-degree: 0%
-
 ---
-
 # DITA PDF의 첫 페이지에 엔터프라이즈 브랜딩 추가
 
 ## 이 문서에서는 다음 내용을 다룹니다.
@@ -34,7 +40,7 @@ FrontCover 페이지를 챕터 페이지와 원활하게 병합하여 엔터프�
 
 **이전:**
 
-![브랜딩을 수정하기 전: 미리 브랜딩된 PDF 레이아웃을 표시하는 스크린샷](../assets/publishing/branding-image1.png)
+![브랜딩을 수정하기 전: 미리 브랜딩된 PDF 레이아웃을 보여 주는 스크린샷](../assets/publishing/branding-image1.png)
 <br>
 <br>
 

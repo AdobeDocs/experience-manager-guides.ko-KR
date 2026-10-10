@@ -5,24 +5,31 @@ feature: Publishing FrameMaker Documents
 role: Admin
 level: Experienced
 exl-id: 86ba53fa-0e08-4791-9018-09fe974691da
-TQID: https://experienceleague.adobe.com/4cejVcInzwcFBWgxobUvn7g2teizpQCCeTC2Z5CZ1K8
+TQID: 'https://experienceleague.adobe.com/4cejVcInzwcFBWgxobUvn7g2teizpQCCeTC2Z5CZ1K8'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: bf79f6d3-0ad0-4d82-99e4-42ce98324d60
+    internal-label: Publishing FrameMaker documents
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 368
+source-wordcount: '368'
 ht-degree: 1%
-
 ---
-
 # 데스크탑 기반 XML 편집기 통합
 
 다양한 XML 편집기가 시판되고 있으며 이미 사용하고 있을 수도 있습니다. Adobe FrameMaker은 AEM 커넥터와 함께 제공되는 가장 강력한 XML 편집기 중 하나입니다. FrameMaker에서 AEM 커넥터를 사용하면 AEM 리포지토리와 쉽게 연결하고, 파일을 체크 아웃 및 체크 인하고, FrameMaker에서 직접 파일을 편집할 수 있습니다. 웹 편집기에서 FrameMaker을 시작하도록 Experience Manager Guides을 구성할 수도 있습니다. FrameMaker에서 파일을 열면 해당 파일을 편집하고 AEM 저장소에 다시 체크 인할 수 있습니다.

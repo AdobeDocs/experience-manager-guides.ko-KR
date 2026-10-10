@@ -5,24 +5,32 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 991179c7-186e-4b23-b918-248f596644ec
-TQID: https://experienceleague.adobe.com/vC4GMa4uSMJY9W2bwkVw92zrrVuCdoU0BIUZ-1buIwM
+TQID: 'https://experienceleague.adobe.com/vC4GMa4uSMJY9W2bwkVw92zrrVuCdoU0BIUZ-1buIwM'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1119
+source-wordcount: '1214'
 ht-degree: 2%
-
 ---
-
 # 조건 사전 설정 사용 {#id1825FL004PN}
 
 DITA 주제에서 속성을 정의하고 조건 사전 설정을 사용하여 최종 출력에서 속성이 발생하는 상황을 지정할 수 있습니다. 예를 들어 컨텐츠에 속성을 버전 1.0 및 버전 2.0으로 추가하고, 조건 사전 설정을 사용하여 릴리스 1.0의 버전 1.0을 포함하고 버전 2.0을 제외할 수 있습니다. 마찬가지로 속성에 OS Windows 및 OS Linux를 추가한 다음 운영 체제에 따라 최종 출력에 관련 컨텐츠를 포함하거나 제외할 수 있습니다.
@@ -66,17 +74,17 @@ Experience Manager Guides에서는 웹 편집기에서 조건 사전 설정을 �
    * 하나 이상의 속성 값을 선택하여 조건 사전 설정에 추가합니다. 예를 들어 platform 특성의 `Unix` 및 `Win` 값을 선택할 수 있습니다
    * 속성 및 값 쌍을 선택하고 가운데 패널로 드래그합니다. 예를 들어 platform 특성의 `Unix` 값을 선택하고 끌어서 놓을 수 있습니다.
    * **모두 선택**&#x200B;하여 모든 특성과 해당 값을 조건 사전 설정에 추가합니다.
-기본적으로 특성에 대한 작업은 `Include`입니다.
+     기본적으로 특성에 대한 작업은 `Include`입니다.
 
 1. **추가**&#x200B;를 선택합니다. 이 단계를 반복하여 속성을 더 추가할 수 있습니다. 추가하는 속성은 중앙에서 오른쪽 패널로 이동합니다.
 1. 맨 위에 있는 작업 막대에서 제거 를 선택하여 오른쪽 패널에서 선택한 속성을 제거합니다.
 1. (선택 사항) 필요한 경우 속성에 적용된 작업을 재정의할 수 있습니다.
-다음 중 하나를 수행합니다.
+다음 중 하나를 수행하십시오.
    * 속성에 대해 작업 드롭다운에서 다음 작업 중 하나를 선택합니다.
-      * 포함
-      * 제외
-      * 통과
-      * 플래그
+     * 포함
+     * 제외
+     * 통과
+     * 플래그
    * 오른쪽 패널에서 여러 속성 행을 선택하고 상단의 작업 막대에서 작업을 선택합니다. 예를 들어 선택한 속성에 대해 제외 작업을 선택할 수 있습니다.
 1. 조건 사전 설정을 저장하려면 **저장**&#x200B;을 선택합니다.
 
@@ -133,7 +141,7 @@ Experience Manager Guides에서는 웹 편집기에서 조건 사전 설정을 �
    * 제외
    * 통과
    * 플래그
-작업은 조건 사전 설정에 추가되는지 여부에 관계없이 모든 속성에 대한 기본 작업으로 설정됩니다.
+     작업은 조건 사전 설정에 추가되는지 여부에 관계없이 모든 속성에 대한 기본 작업으로 설정됩니다.
 
    예를 들어 문서에 15개의 조건 속성이 있고 이 중 4개를 조건 사전 설정에 포함했습니다. **exclude**&#x200B;을(를) 기본 작업으로 선택하면 15개의 모든 특성에 적용됩니다.
 
