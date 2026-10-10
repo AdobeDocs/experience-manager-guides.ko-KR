@@ -92,4 +92,4 @@ Adobe Experience Manager Guides에서는 현재 문서 상태를 기반으로 �
 
 구성된 필터는 홈 페이지의 저장소에 있는 **필터** 패널에 표시됩니다.
 
-**상위 항목:**[&#x200B;편집기 사용자 지정](customize-overview.md)
+**상위 항목:**&#x200B;[&#x200B;편집기 사용자 지정](customize-overview.md)

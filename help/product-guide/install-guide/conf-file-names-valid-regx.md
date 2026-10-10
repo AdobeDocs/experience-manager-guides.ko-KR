@@ -50,7 +50,7 @@ AEM Guides 3.8 릴리스부터 관리자는 파일 이름에 사용할 수 있�
 
 1. *com.adobe.fmdita.config.ConfigManager* 번들을 검색하고 클릭합니다.
 
-1. **Regex for Valid Characters** 속성에서 속성이 \[-a-zA-Z0-9\_\](으)로 설정되어 있는지 확인하십시오. 이 목록에 문자를 더 추가할 수 있지만 기본 문자는 이러한 것이고 목록은 하이픈 &quot;-&quot;로 시작해야 합니다.
+1. **Regex for Valid Characters** 속성에서 속성이 \[-a-zA-Z0-9\_\] (으)로 설정되어 있는지 확인하십시오. 이 목록에 문자를 더 추가할 수 있지만 기본 문자는 이러한 것이고 목록은 하이픈 &quot;-&quot;로 시작해야 합니다.
 
    >[!NOTE]
    >
@@ -63,4 +63,4 @@ AEM Guides 3.8 릴리스부터 관리자는 파일 이름에 사용할 수 있�
 >
 > 유효한 파일 이름 문자 목록과 유사하게 AEM 사이트 출력에 유효한 파일 이름 문자 목록을 지정할 수도 있습니다. 자세한 내용은 [AEM 사이트 출력에 대해 올바른 파일 이름 구성](conf-file-names-valid-regx-aem-site-output.md#)을 참조하십시오.
 
-**상위 항목:**[&#x200B;파일 이름 구성](conf-file-names.md)
+**상위 항목:**&#x200B;[&#x200B;파일 이름 구성](conf-file-names.md)

@@ -114,4 +114,4 @@ DITA-OT 게시를 사용하여 메타데이터를 출력에 전달하려면 다�
 
 
 
-**상위 항목:**[&#x200B;출력 생성](generate-output.md)
+**상위 항목:**&#x200B;[&#x200B;출력 생성](generate-output.md)

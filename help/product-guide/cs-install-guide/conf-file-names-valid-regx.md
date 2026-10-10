@@ -48,4 +48,4 @@ AEM Guides 3.8 릴리스부터 관리자는 파일 이름에 사용할 수 있�
 >
 > 유효한 파일 이름 문자 목록과 유사하게 AEM 사이트 출력에 유효한 파일 이름 문자 목록을 지정할 수도 있습니다. 자세한 내용은 [AEM 사이트 출력에 대해 올바른 파일 이름 구성](conf-file-names-valid-regx-aem-site-output.md#)을 참조하십시오.
 
-**상위 항목:**[&#x200B;파일 이름 구성](conf-file-names.md)
+**상위 항목:**&#x200B;[&#x200B;파일 이름 구성](conf-file-names.md)

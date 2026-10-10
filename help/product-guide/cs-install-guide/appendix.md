@@ -371,7 +371,7 @@ InDesign 표 스타일을 사용하면 열과 셀의 규칙을 교대로 반복�
 
 `paragraphStyleRule` 요소는 아래에 설명되어 있습니다.
 
-**0} 요소 **`paraRule`
+**0&rbrace; 요소 &#x200B;**`paraRule`
 
 `paraRule` 요소는 필수입니다. 모든 단락 스타일에 대한 매핑 규칙을 지정합니다. InDesign 문서에서 모든 텍스트는 단락 스타일의 하위 구조 내에 포함되어 있으며 스타일이 없는 단락의 이름은 `\[No paragraph style\]`입니다. 대괄호를 사용하여 기본 InDesign 스타일 이름을 나타냅니다.
 

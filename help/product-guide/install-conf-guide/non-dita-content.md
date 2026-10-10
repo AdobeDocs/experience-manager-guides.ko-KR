@@ -513,4 +513,4 @@ Experience Manager Guides 설정을 기반으로 다른 구조화된 문서를 �
 
 >[!ENDTABS]
 
-**상위 항목:**[&#x200B;기존 콘텐츠 마이그레이션](migrate-content.md)
+**상위 항목:**&#x200B;[&#x200B;기존 콘텐츠 마이그레이션](migrate-content.md)

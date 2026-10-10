@@ -532,7 +532,7 @@ AEM Guides을 사용하면 관리자가 특정 설정을 사용하여 출력 사
 
 ## 스마트 도움말 및 작성을 위한 AI Assistant 구성(Cloud Service 전용)
 
-Experience Manager Guides as a Cloud Service(![AEM 클라우드 ](assets/aem-cloud-icon.svg))용
+Experience Manager Guides as a Cloud Service(![AEM 클라우드 &#x200B;](assets/aem-cloud-icon.svg))용
 
 Adobe Experience Manager Guides의 AI Assistant는 스마트 작성 및 컨텐츠 재사용 경험을 통해 컨텐츠를 향상시키도록 설계된 강력한 AI 기반 도구입니다. 강력한 두 가지 AI 기능(**작성** 및 **도움말**)을 Experience Manager Guides 인터페이스에 통합하므로 문서를 작성하고 보다 빠르고 효율적으로 정보에 액세스할 수 있습니다.
 
@@ -618,7 +618,7 @@ AI 기반의 스마트 제안을 구성하고 작성자가 기존 콘텐츠를 �
 
 **스마트 도움말의 기본 질문 사용자 지정**
 
-Experience Manager Guides as a Cloud Service(![AEM 클라우드 ](assets/aem-cloud-icon.svg))용
+Experience Manager Guides as a Cloud Service(![AEM 클라우드 &#x200B;](assets/aem-cloud-icon.svg))용
 
 작성자가 질문을 하고 [Experience Manager Guides 설명서](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)에서 필요한 콘텐츠를 쉽게 찾을 수 있도록 AI 기반 스마트 **도움말**&#x200B;을 구성할 수 있습니다.
 

@@ -381,7 +381,7 @@ Experience Manager Guides을 설치한 후 새로 설치한 버전에서 설정�
 4. **DXML 사후 프로세스 개시자** 구성 요소가 있는 경우 사용자 지정이 동기화되었는지 확인하십시오.
 5. 구성 요소가 없으면 다음 내용을 삽입합니다.
    1. **구성 요소 삽입**&#x200B;을 클릭합니다(마지막 단계로 안내서 후처리).
-   2. **프로세스 단계**를 구성합니다.
+   2. **프로세스 단계**&#x200B;를 구성합니다.
       **공통 탭**
 - 제목: `DXML Post Process Initiator`
 - 설명: `DXML post process initiator step which will trigger a sling job for DXML post-processing of the modified/created asset`

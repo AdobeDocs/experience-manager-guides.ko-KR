@@ -77,4 +77,4 @@ Experience Manager Guides 설정을 기반으로 AEM 사전에 추가되는 사�
 
 >[!ENDTABS]
 
-**상위 항목:**[&#x200B;편집기 사용자 지정](customize-overview.md)
+**상위 항목:**&#x200B;[&#x200B;편집기 사용자 지정](customize-overview.md)

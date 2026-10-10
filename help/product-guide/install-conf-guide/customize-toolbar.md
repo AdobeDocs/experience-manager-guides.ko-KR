@@ -70,16 +70,16 @@ Experience Manager Guides 설정을 기반으로 Cloud Service 또는 온프레�
    **항목**: 도구 모음에 있는 모든 그룹의 정의를 지정합니다. 각 그룹에는 하나 이상의 도구 모음 아이콘이 포함될 수 있습니다. 도구 모음 그룹 내에서 아이콘을 정의하려면 `items` 내에서 `type` 특성을 다시 정의하고 해당 값을 `buttonGroup`(으)로 설정해야 합니다. `extraclass` 속성에 하나 이상의 클래스 이름을 지정하십시오. `label` 속성에 기능 이름을 지정하십시오. `ui_config.json` 파일의 다음 코드 조각은 기본 도구 모음 블록에 대한 정의 다음에 `buttonGroup` 정의를 표시합니다.
 
        &quot;
-     &quot;toolbar&quot;: {
+     &quot;toolbar&quot;: &lbrace;
      &quot;type&quot;: &quot;blockGroup&quot;,
      &quot;extraclass&quot;:
      &quot;toolbar operations&quot;,
-     &quot;items&quot;: [
-     {
+     &quot;items&quot;: &lbrack;
+     &lbrace;
      &quot;type&quot;: &quot;buttonGroup&quot;,
      &quot;extraclass&quot;: &quot;left-controls&quot;,
      &quot;label&quot;: &quot;Left Controls&quot;,
-     &quot;items&quot;: [
+     &quot;items&quot;: &lbrack;
      &quot;
    
    `items` 컬렉션 내에서 하나 이상의 도구 모음 아이콘에 대한 정의를 지정해야 합니다.

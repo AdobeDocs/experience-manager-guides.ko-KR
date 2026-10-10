@@ -67,4 +67,4 @@ ht-degree: 12%
 1. **완료**&#x200B;를 클릭합니다.
 
 
-**상위 항목:**[&#x200B;게시된 콘텐츠의 일괄 활성화](conf-bulk-activation.md)
+**상위 항목:**&#x200B;[&#x200B;게시된 콘텐츠의 일괄 활성화](conf-bulk-activation.md)

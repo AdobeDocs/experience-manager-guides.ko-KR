@@ -79,4 +79,4 @@ Adobe Experience Manager 데스크탑 앱이나 자산 대량 수집기와 같�
 
 
 
-**상위 항목:**[&#x200B;콘텐츠 관리](authoring.md)
+**상위 항목:**&#x200B;[&#x200B;콘텐츠 관리](authoring.md)

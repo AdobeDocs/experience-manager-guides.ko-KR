@@ -102,4 +102,4 @@ AEM Guides과 함께 Dispatcher을 사용할 때 작성자 인스턴스에 앞�
                 }
 ```
 
-**상위 항목:**[&#x200B;다운로드 및 설치](download-install.md)
+**상위 항목:**&#x200B;[&#x200B;다운로드 및 설치](download-install.md)
