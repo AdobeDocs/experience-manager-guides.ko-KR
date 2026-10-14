@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 07928af0e6f028d01ff9e879d7ff79093a661a5d
+source-git-commit: 481c5fe8df7a81a8f00358b8f28dba131bca63d9
 workflow-type: tm+mt
-source-wordcount: '2351'
+source-wordcount: '2331'
 ht-degree: 0%
 ---
 # Experience Manager Guides 홈페이지 경험
@@ -180,11 +180,7 @@ Experience Manager Guides 홈 페이지는 다음 섹션으로 나뉩니다.
 
 ### 컬렉션 매핑
 
->[!NOTE]
->
-> 새로운 맵 컬렉션은 2026.08.0 릴리스부터 Experience Manager Guides as a Cloud Service에서 사용할 수 있습니다. 이 기능을 활성화하려면 고객 지원 팀에 문의하십시오.
-
-Adobe Experience Manager Guides의 맵 컬렉션을 사용하면 게시 전문가들이 여러 문서를 하나의 컬렉션으로 구성하고, 각 문서에 대해 생성되는 출력을 제어하며, 중앙 집중식 대시보드에서 효율적으로 출력을 생성하고 게시할 수 있습니다. [출력 생성을 위해 새 맵 컬렉션을 사용하는 방법에 대해 자세히 알아보세요.](./generate-output-use-new-map-collection-output-generation.md)
+Experience Manager Guides에서는 **컬렉션 매핑**&#x200B;이라는 대시보드를 사용하여 게시할 콘텐츠를 구성할 수 있습니다. 이 기능을 사용하려면 왼쪽 패널에서 **컬렉션 매핑**&#x200B;을 선택하십시오. **Assets UI**&#x200B;의 맵 컬렉션 페이지로 이동하여 [출력 생성에 맵 컬렉션을 사용할 수 있습니다.](./generate-output-use-map-collection-output-generation.md)
 
 ### 벌크 게시
 
