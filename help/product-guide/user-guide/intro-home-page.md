@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 4b9859bf08ffdfc7047477203eb7c2b590dfb3d9
 workflow-type: tm+mt
-source-wordcount: '2331'
+source-wordcount: '2380'
 ht-degree: 0%
 ---
 # Experience Manager Guides 홈페이지 경험
@@ -179,6 +179,10 @@ Experience Manager Guides 홈 페이지는 다음 섹션으로 나뉩니다.
 저장소는 폴더 및 파일을 쉽게 검색할 수 있는 중앙 허브 역할을 합니다. 상황별 세부 정보와 함께 모든 파일 및 폴더에 대한 포괄적인 표 형식 목록 보기를 제공합니다. 이 통합 인터페이스를 통해 강력한 필터링 옵션을 통해 파일을 원활하게 탐색하고 검색을 수행할 수 있으므로 효율성과 향상된 경험이 보장됩니다. [저장소](./home-page-repository-view.md)에 대해 자세히 알아보세요.
 
 ### 컬렉션 매핑
+
+>[!NOTE]
+>
+>맵 관리와 벌크 게시를 통합 인터페이스로 결합하는 2026.08.0 릴리스부터 Adobe Experience Manager Guides as a Cloud Service의 새로운 맵 컬렉션 기능을 사용할 수 있습니다. 이 기능을 활성화하려면 고객 지원 팀에 문의하십시오.[새 맵 컬렉션을 사용하는 방법에 대해 자세히 알아보세요.](./generate-output-use-new-map-collection-output-generation.md)
 
 Experience Manager Guides에서는 **컬렉션 매핑**&#x200B;이라는 대시보드를 사용하여 게시할 콘텐츠를 구성할 수 있습니다. 이 기능을 사용하려면 왼쪽 패널에서 **컬렉션 매핑**&#x200B;을 선택하십시오. **Assets UI**&#x200B;의 맵 컬렉션 페이지로 이동하여 [출력 생성에 맵 컬렉션을 사용할 수 있습니다.](./generate-output-use-map-collection-output-generation.md)
 
