@@ -15,9 +15,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 4abf673f636ffd20d087c99b5112d8504929a6ee
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '124'
 ht-degree: 1%
 ---
 # 온-프레미스에 대한 새 기준선 구성
@@ -44,5 +44,5 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->이 기능을 활성화한 후에는 기존 베이스라인을 새 베이스라인으로 마이그레이션해야 합니다. 단계별 지침과 연습 비디오를 보려면 [Experience Manager Guides에서 새 기준선(Beta)을 봅니다](../user-guide/web-editor-baseline-v2.md).
+>이 기능을 활성화한 후에는 기존 베이스라인을 새 베이스라인으로 마이그레이션해야 합니다. 단계별 지침과 연습 비디오를 보려면 [Experience Manager Guides의 새 기준선](../user-guide/web-editor-baseline-v2.md)을 확인하십시오.
 
