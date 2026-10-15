@@ -44,7 +44,7 @@ ht-degree: 1%
 
 지식 AI는 서비스 계정을 사용하여 안전하게 인증하고 콘텐츠에 액세스합니다.
 
-1. [Microservices IMT 구성](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/configure-microservices-imt-config)의 지침을 따르십시오.
+1. [Microservices IMT 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/configure-microservices-imt-config)의 지침을 따르십시오.
 
 1. 새 서비스 계정을 만들고 생성된 JSON 자격 증명 파일을 다운로드합니다.
 
