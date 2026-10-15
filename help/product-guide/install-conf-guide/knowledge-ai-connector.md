@@ -4,7 +4,7 @@ description: AEM Guides을 안내서 지식 AI와 연결하는 방법에 대해 
 feature: Introduction
 role: Admin
 level: Experienced
-source-git-commit: 9f0ca688ae040c9f2f8a0aba0ac4547301a659ad
+source-git-commit: cdc177110720dbbe944a361142911a2e365ef8fa
 workflow-type: tm+mt
 source-wordcount: '663'
 ht-degree: 1%
@@ -44,7 +44,7 @@ ht-degree: 1%
 
 지식 AI는 서비스 계정을 사용하여 안전하게 인증하고 콘텐츠에 액세스합니다.
 
-1. [Microservices IMT 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/configure-microservices-imt-config)의 지침을 따르십시오.
+1. [Microservices IMT 구성](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/configure-microservices-imt-config)의 지침을 따르십시오.
 
 1. 새 서비스 계정을 만들고 생성된 JSON 자격 증명 파일을 다운로드합니다.
 
@@ -62,15 +62,13 @@ ht-degree: 1%
 지식 AI에 대한 액세스 권한을 부여하려면 서비스 계정을 식별합니다.
 
 1. 다운로드한 서비스 계정 JSON 파일을 엽니다.
-1. 필드 이름 `technical_account_email`을(를) 검색합니다.
+1. 필드 이름 `technical_account_email`을(를) 검색합니다. 다음과 유사한 값을 확인합니다.
 
-다음과 유사한 값을 확인합니다.
-
-```json
-{
-"technical_account_email": "a1b2c3d4e5f6@techacct.adobe.com"
-}
-```
+   ```json
+   {
+   "technical_account_email": "a1b2c3d4e5f6@techacct.adobe.com"
+   }
+   ```
 
 1. `technical_account_email`과(와) 연결된 전자 메일 주소를 복사합니다. 다음 단계에서 이 이메일 주소를 사용합니다.
 
