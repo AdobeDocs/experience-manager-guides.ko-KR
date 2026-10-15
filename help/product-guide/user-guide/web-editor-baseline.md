@@ -35,16 +35,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 4abf673f636ffd20d087c99b5112d8504929a6ee
 workflow-type: tm+mt
-source-wordcount: '1929'
+source-wordcount: '1927'
 ht-degree: 0%
 ---
 # 맵 콘솔에서 기준선 만들기 및 관리 {#id223MB0ZF043}
 
 >[!NOTE]
 >
-> Experience Manager Guides 2026.03.0 릴리스에서는 향상된 성능과 안정성을 제공하는 새로운 기준선(Beta)을 사용할 수 있습니다. 이 기준선을 사용하려면 고객 지원 팀에 문의하여 기능을 활성화하십시오. [새 기준선(Beta)](./web-editor-baseline-v2.md)에 대해 자세히 알아보세요.
+> Experience Manager Guides 2026.03.0 릴리스에서는 향상된 성능과 안정성을 제공하는 새로운 기준선을 사용할 수 있습니다. 이 기준선을 사용하려면 고객 지원 팀에 문의하여 기능을 활성화하십시오. [새 기준선](./web-editor-baseline-v2.md)에 대해 자세히 알아보세요.
 
 기준선 기능을 사용하면 게시 또는 번역에 사용할 수 있는 주제 및 에셋의 버전을 만들 수 있습니다. 예를 들어 DITA 맵에 `topicA`과(와) `imageA`이(가) 있는 경우 기준선을 만들어 세 번째 버전의 `topicA`을(를) 사용하고 네 번째 버전의 `ImageA`을(를) 사용할 수 있습니다. 베이스라인이 준비되면 한 단계에서 다른 버전의 주제를 게시하거나 번역할 수 있습니다.
 

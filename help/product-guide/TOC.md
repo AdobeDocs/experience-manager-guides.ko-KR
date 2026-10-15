@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 살펴보십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: 2123962f8c168928c9b0a1ee1331e5cfd86db319
+source-git-commit: a9f16f7a9a4458a89664c1b8bdae41453d4d8c3f
 workflow-type: tm+mt
-source-wordcount: '2647'
+source-wordcount: '2654'
 ht-degree: 10%
 ---
 
@@ -590,6 +590,7 @@ ht-degree: 10%
     - [리뷰 작업의 주제 색인화](./install-conf-guide/index-review-tasks.md)
     - [AEM Sites에 대한 구성 요소 매핑](./install-conf-guide/component-mapping.md)
     - [출력 생성을 위한 템플릿 사전 설정 구성](./install-conf-guide/template-presets-output-generation.md)
+    - [AEM Guides과 안내서 지식 AI 연결](./install-conf-guide/knowledge-ai-connector.md)
   - 부록 {#appendix}
     - [부록](./install-conf-guide/aemg-appendix.md)
 

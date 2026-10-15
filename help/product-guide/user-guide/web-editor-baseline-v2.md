@@ -1,6 +1,6 @@
 ---
-title: 맵 콘솔에서 새 기준선(Beta)을 만들고 관리합니다
-description: Adobe Experience Manager Guides의 맵 콘솔에서 새 기준선(Beta)을 만들고 관리합니다.
+title: 맵 콘솔에서 새 기준선 만들기 및 관리
+description: Adobe Experience Manager Guides의 맵 콘솔에서 새 기준선을 만들고 관리합니다.
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 exl-id: 574806bb-21c5-41fe-b8be-4c6506ce8cce
@@ -22,16 +22,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 4abf673f636ffd20d087c99b5112d8504929a6ee
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1400'
 ht-degree: 0%
 ---
-# Experience Manager Guides의 새 기준선(Beta)
+# Experience Manager Guides의 새 기준선
 
 >[!NOTE]
 >
-> - 이 문서는 Experience Manager Guides 2026.04.0 릴리스에서 사용할 수 있는 향상된 성능과 안정성을 제공하는 현재 *Beta* 기능으로 사용 가능한 새 기준선 에도 적용됩니다.
+> - 이 문서는 Experience Manager Guides 2026.04.0 릴리스에서 사용할 수 있는 향상된 성능과 안정성을 제공하는 새로운 기준선에 적용됩니다.
 > - Cloud Service에 대한 새 기준선 기능을 활성화하려면 고객 성공 팀에 문의하십시오.
 > - 온-프레미스에 대한 새 기준선 기능을 활성화하려면 [새 기준선 구성](../install-conf-guide/conf-new-baseline-on-prem.md)을 참조하십시오.
 
