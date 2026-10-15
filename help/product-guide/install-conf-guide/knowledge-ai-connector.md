@@ -4,9 +4,9 @@ description: AEM Guides을 안내서 지식 AI와 연결하는 방법에 대해 
 feature: Introduction
 role: Admin
 level: Experienced
-source-git-commit: cdc177110720dbbe944a361142911a2e365ef8fa
+source-git-commit: 05976e2a408e57256a454f181bb93d900dc091ab
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '665'
 ht-degree: 1%
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 1%
 
 지식 AI는 서비스 계정을 사용하여 안전하게 인증하고 콘텐츠에 액세스합니다.
 
-1. [Microservices IMT 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/configure-microservices-imt-config)의 지침을 따르십시오.
+1. [Microservices IMT 구성](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/configure-microservices-imt-config)의 지침을 따르십시오.
 
 1. 새 서비스 계정을 만들고 생성된 JSON 자격 증명 파일을 다운로드합니다.
 
