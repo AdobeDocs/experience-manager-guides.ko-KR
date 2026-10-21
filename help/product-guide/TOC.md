@@ -437,7 +437,7 @@ ht-degree: 10%
     - 성능 관리 {#performance-management}
       - [페이지 매김된 파일 및 폴더 로드](./user-guide/paginated-loading-assets.md)
 - 사용 안내서 (이전 UI) {#user-guide-old-ui}
-  - [AEM Guides 개요](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+  - [AEM Guides 개요](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 설치 및 구성 {#install-conf-guide}
   - [다운로드, 설치 및 업그레이드](./install-conf-guide/introduction.md)
   - Cloud Service 설치 프로세스 {#deploy-conf-aemg-cs}

@@ -39,11 +39,11 @@ AI 기반 경험이 MCP(모델 컨텍스트 프로토콜)를 통해 기존 AEM �
 
 ## 관련 리소스
 
-- **AEM Guides MCP 서버 설치** - [Experience League](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-conf-guide/aemg-integrations/mcp/configure-aem-guides-mcp)
+- **AEM Guides MCP 서버 설치** - [Experience League](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/install-conf-guide/aemg-integrations/mcp/configure-aem-guides-mcp)
 
-- **AEM Guides MCP 서버 사용** - [Experience League](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview)
+- **AEM Guides MCP 서버 사용** - [Experience League](https://experienceleague.adobe.com/ko/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview)
 
-- **커뮤니티 포럼** - Experience League에서 세션별 커뮤니티 상호 작용을 보려면 [AEM Guides 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)을 방문하십시오.
+- **커뮤니티 포럼** - Experience League에서 세션별 커뮤니티 상호 작용을 보려면 [AEM Guides 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=ko)을 방문하십시오.
 
 >[!NOTE]
 >
