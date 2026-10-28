@@ -43,9 +43,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 212757685049f8787ffe4d63be48c44977a67ef0
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '378'
 ht-degree: 6%
 ---
 # Experience Manager Guides 설명서
@@ -171,53 +171,6 @@ PDF, AEM Sites, HTML5, EPUB 및 JSON 출력 유형.
 
 ::::
 
-## 새로운 기능
-
-<!-- Author note: Update images, badge labels, feature titles, descriptions, and links each release cycle. Images are stored in /assets/. The shade box with a borderless HTML table provides the three-column layout. Blank lines inside each <td> are required for ExL to process badge and bold-link markdown syntax. -->
-
->[!BEGINSHADEBOX]
-
-<table>
-<tr style="border: 0;">
-<td>
-
-![Git 커넥터](../assets/whats-new-git-connector.svg)
-
-**[Git 커넥터를 사용하여 콘텐츠 가져오기](./user-guide/web-editor-git-connector.md)**
-
-Git 저장소에서 바로 안내서로 콘텐츠를 가져옵니다.
-
-</td>
-<td>
-
-![맵 컬렉션](../assets/whats-new-map-collection.svg)
-
-**[새 맵 컬렉션](./user-guide/generate-output-use-new-map-collection-output-generation.md)**
-
-맵 관리 및 출력 게시를 위한 통합 인터페이스.
-
-</td>
-<td>
-
-![검토 위임](../assets/whats-new-delegate-review.svg)
-
-**[검토 작업 위임](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer)**
-
-검토자는 다른 검토자에게 검토 작업을 위임할 수 있습니다.
-
-</td>
-</tr>
-</table>
-
->[!ENDSHADEBOX]
-
-## 새로운 기능
-
-[!BADGE 2026.09.0 릴리스]{type=Informative}
-
-Adobe Experience Manager Guides 2026.09.0 릴리스에서는 작성, 콘텐츠 관리, 게시 및 전체 사용자 경험에 대한 개선 사항과 함께 AI Assistant의 AI 기반 스마트 태깅을 도입했습니다.
-
-[새로운 기능 살펴보기](./release-info/whats-new-2026-09-0.md)
 
 ## 빠른 링크
 
@@ -266,7 +219,7 @@ Cloud 및 On-Premise 배포에 대한 최신 릴리스 정보와 제품 업데�
 * [지원](https://experienceleague.adobe.com/support/v2/en/?lang=ko){target="_blank"}
 * [비디오 자습서](https://experienceleague.adobe.com/ko/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
 
-[커뮤니티에서 상호 작용](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=ko&lang=ko)
+[커뮤니티에서 상호 작용](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?lang=ko)
 
 </td>
 </tr>
@@ -274,14 +227,11 @@ Cloud 및 On-Premise 배포에 대한 최신 릴리스 정보와 제품 업데�
 
 >[!ENDSHADEBOX]
 
-
-
-
 ## 추가 리소스
 
 * [Cloud Service 릴리스 노트](./release-info/latest-release-info-cs.md)
 * [온-프레미스용 릴리스 정보](./release-info/latest-release-info.md)
-* [AEM Guides 커뮤니티](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=ko&lang=ko){target="_blank"}
+* [AEM Guides 커뮤니티](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?lang=ko){target="_blank"}
 * [GitHub 저장소](https://github.com/AdobeDocs/experience-manager-guides.ko-KR){target="_blank"}
 * [지원](https://experienceleague.adobe.com/support/v2/en/?lang=ko){target="_blank"}
 * [비디오 자습서](https://experienceleague.adobe.com/ko/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
