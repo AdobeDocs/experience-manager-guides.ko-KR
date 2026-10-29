@@ -25,7 +25,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 18996443646923fcf9db06c020ecbdd94b8a9564
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 0%
@@ -74,7 +74,7 @@ ht-degree: 0%
 >
 > 사용자 환경에서 AI Assistant의 에이전트 모드 기능을 사용하려면 고객 지원 팀에 문의하십시오. 이 기능이 활성화되면 관리자는 Workspace 설정에서 이 기능을 켜거나 끌 수 있습니다. AI Assistant는 한 번에 하나의 모드만 활성화할 수 있습니다(Agentic 또는 Standard).
 
-- **에이전트**: Adobe CX Enterprise Coworker의 지능적이고 무의미한 스마트 태그 지정 기술을 편집기로 가져와 자연스러운 대화형 콘텐츠 태그 지정을 활성화합니다. 콘텐츠를 분석하고, 관련 태그를 추천하며, 최소한의 노력으로 일관되고 정확한 메타데이터를 적용하는 데 도움이 됩니다. 선택 내용을 확인하기 전에 제안된 태그를 검토하고 적용 또는 거부하도록 선택할 수 있습니다. [에이전트 모드에서 AI Assistant 사용](../user-guide/ai-assistant-agentic.md) 태깅 프로세스를 간소화하여 콘텐츠 구성 및 검색 기능을 개선합니다.
+- **Agentic**: Adobe CX Enterprise Coworker의 지능적인 Agentic Smart Tagging 기술을 편집기로 가져와 자연스러운 대화형 콘텐츠 태깅을 활성화합니다. 콘텐츠를 분석하고, 관련 태그를 추천하며, 최소한의 노력으로 일관되고 정확한 메타데이터를 적용하는 데 도움이 됩니다. 선택 내용을 확인하기 전에 제안된 태그를 검토하고 적용 또는 거부하도록 선택할 수 있습니다. [에이전트 모드에서 AI Assistant 사용](../user-guide/ai-assistant-agentic.md) 태깅 프로세스를 간소화하여 콘텐츠 구성 및 검색 기능을 개선합니다.
 
 - **표준**: 스마트 도움말 기능을 통해 생산성을 향상하도록 설계된 강력한 AI 기반 도구입니다. 또한 편집기 인터페이스에서 작업할 때 콘텐츠 재사용 및 최적화를 위한 인텔리전트 제안을 통해 작성 프로세스를 보다 스마트하고 빠르게 만드는 AI Assistant의 스마트 작성 기능을 활용할 수 있습니다.
 
