@@ -22,9 +22,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 63ae0f947d50646bed34cd815db6b9fb585fc015
+source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
 workflow-type: tm+mt
-source-wordcount: '1916'
+source-wordcount: '1913'
 ht-degree: 1%
 ---
 # Experience Manager Guides 및 Edge Delivery Services
@@ -39,7 +39,7 @@ Experience Manager Guides에서 EDS로 게시를 활성화하려면 GitHub 및 E
 2. [Experience Manager Guides에서 EDS용 게시 프로필 만들기 및 구성](#create-and-configure-a-publish-profile-for-eds-in-experience-manager)
 3. [EDS 블록을 사용하여 출력 사용자 지정](#customize-output-using-eds-blocks)
 
-빠른 비디오 연습이 필요하면 [AEM Guides에서 게시](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25)를 참조하십시오.
+빠른 비디오 연습이 필요하면 [AEM Guides에서 게시](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25)를 참조하십시오.
 
 
 
@@ -169,7 +169,7 @@ Adobe Experience Manager은 **AEM 코드 동기화**&#x200B;라는 GitHub 애플
 
    **다른 콘텐츠 원본 사용**&#x200B;을 선택했는지 확인하십시오.
 
-6. **사용자** 페이지에서 필요한 경우 사용자를 추가한 다음 **다음**&#x200B;을 선택합니다.
+6. **사용자** 페이지에서 필요한 경우 사용자를 추가하고 **다음**&#x200B;을 선택합니다.
 
 7. 구성 요약을 검토하고 **저장**&#x200B;을 선택합니다.
 
@@ -276,7 +276,7 @@ EDS는 `blocks`을(를) 사용하여 콘텐츠의 다양한 부분을 어떻게 
    - **콘텐츠 속성**(으)로 이동합니다.
    - `outputclass` 특성을 추가합니다.
    - 값을 `example eds-force-block`(으)로 설정합니다.
-   - **추가**&#x200B;를 선택합니다.
+   - **추가**를 선택합니다.
      ![](assets/eds-example-tag.png){width="650"}
 3. 출력을 저장하고 재생성합니다.
 4. `blocks` 디렉터리 내에서 `outputclass`과(와) 같은 이름의 새 폴더를 만듭니다. [저장소에 파일 추가](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository#adding-a-file-to-a-repository-using-the-command-line)에 대해 알아봅니다.

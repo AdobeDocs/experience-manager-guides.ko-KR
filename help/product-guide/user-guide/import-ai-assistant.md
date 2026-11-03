@@ -1,7 +1,7 @@
 ---
 title: AI Assistant를 사용하여 문서를 주제로 가져오기
 description: PDF, Word 및 Markdown 파일을 AI Assistant를 사용하여 DITA 주제 및 맵으로 변환하는 방법에 대해 알아보고 결과를 검토한 후 저장합니다.
-source-git-commit: f936d474c6efcea89b244ccd25e03b065a478250
+source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 0%
