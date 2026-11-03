@@ -34,9 +34,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: d859c31fb0241400fd0f1b4a8acfc0fed9554242
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '935'
 ht-degree: 0%
 ---
 # 맵 콘솔 개요
@@ -67,7 +67,7 @@ Adobe Experience Manager Guides은 모든 맵 관리 및 게시 작업을 간소
   >
   > Adobe Experience Manager Guides as a Cloud Service을 사용하는 경우 탐색 모음에 추가 기능 [AI Assistant](./ai-assistant.md)이(가) 표시됩니다.
 
-- (**B**) **왼쪽 패널**: 왼쪽 패널을 사용하면 출력 생성, 보고서 생성 및 관리, 기준선, 조건 사전 설정, 콘텐츠 번역 및 Workfront(구성된 경우에만) 기능에 빠르게 액세스할 수 있습니다.
+- (**B**) **왼쪽 패널**: 왼쪽 패널을 사용하면 [출력 생성], [출력 기록], [보고서 만들기 및 관리], [기준], [조건 사전 설정], [컨텐츠 번역] 및 [Workfront] (구성된 경우에만) 기능에 빠르게 액세스할 수 있습니다.
 
   자세한 내용은 아래의 [콘솔 기능 매핑](#map-console-features) 섹션을 참조하십시오.
 
@@ -81,6 +81,14 @@ Adobe Experience Manager Guides은 모든 맵 관리 및 게시 작업을 간소
 
 자세한 내용은 [출력 생성](./generate-output.md)을 참조하세요.
 
+**출력 기록**
+
+편집기에서 직접 선택한 DITA 맵에 대한 출력 생성 작업을 보고 관리할 수 있습니다. 진행 중인 작업 및 완료된 작업의 상태를 모니터링하고, 출력 생성 세부 정보를 보고, 게시 로그에 액세스하고, 출력 생성 기록을 관리할 수 있습니다.
+
+또한 사전 설정 유형, 작업 상태, 날짜 및 시간 범위를 기반으로 출력 생성 작업을 검색 및 필터링하고 출력 생성 기록을 CSV 형식으로 다운로드할 수 있습니다.
+
+자세한 내용은 [출력 생성 프로세스 관리](./generate-output-manage-process.md#view-and-manage-output-generation-tasks-from-the-editor)를 참조하세요.
+
 **보고서 만들기 및 관리**
 
 조직 설정에서 기술 문서 작업을 시작하거나 문서를 라이브로 푸시하기 전에 기술 문서의 전체 완성도를 확인하려고 합니다. 이러한 요구는 다중 사용자 및 대규모 환경에서 더욱 필수적이 된다. 맵 콘솔을 사용하면 저장소에 있는 콘텐츠의 전반적인 상태와 설명서 프로세스에서 콘텐츠가 사용되는 방식에 대해 유용한 insight을 제공하는 Experience Manager Guides 보고서에 액세스할 수 있습니다.
@@ -88,6 +96,10 @@ Adobe Experience Manager Guides은 모든 맵 관리 및 게시 작업을 간소
 자세한 내용은 [Experience Manager Guides의 보고서](./reports-intro.md)를 참조하세요.
 
 **기준선**
+
+>[!NOTE]
+>
+> 환경에 대해 분기를 사용할 수 있는지 여부에 따라 맵 콘솔에는 **기준선** 탭 또는 **분기** 탭이 표시됩니다. 분기는 2026.11.0 릴리스부터 Experience Manager Guides as a Cloud Service에서 사용할 수 있으며 기본적으로 비활성화되어 있습니다. 활성화하려면 Adobe 고객 성공 팀에 문의하십시오. 분기가 활성화되면 기준선을 더 이상 사용할 수 없습니다. 자세한 내용은 [Experience Manager Guides에서 분기](./branching-overview.md) 및 [DITA 맵의 분기 만들기 및 관리](./create-manage-branch.md#manage-branches)를 참조하십시오.
 
 Experience Manager Guides에서는 게시 또는 번역에 사용할 수 있는 주제 및 에셋의 버전을 만들 수 있는 기준선 기능을 제공합니다. 동일한 DITA 맵의 출력 사전 설정을 여러 개 병렬로 게시할 수도 있습니다.
 

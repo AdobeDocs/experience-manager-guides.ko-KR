@@ -36,9 +36,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '1618'
+source-wordcount: '1613'
 ht-degree: 0%
 ---
 # 리뷰 댓글 처리 {#id2056B0X0KBI}
@@ -130,9 +130,10 @@ ht-degree: 0%
 
 **검토 UI를 사용하여 검토 주석에 액세스**
 
-리뷰 작업의 시작자 또는 작성자가 **프로젝트 콘솔**&#x200B;에서 리뷰 작업을 열면 해당 항목이 리뷰 UI에서 실행됩니다. 이 작업이 사용자에게 할당되지 않았으므로 댓글을 보고 답글을 달 수 있지만 검토 작업을 수행할 수 없습니다. 작업에 할당되지 않은 사용자의 경우 주석 도구 모음이 비활성화됩니다.
+검토 작업의 개시자는 **검토 UI**&#x200B;에서 검토 작업을 열어 검토자의 의견을 보고 응답할 수 있습니다. 검토 작업의 주제에 주석을 추가하여 추가 컨텍스트를 제공하거나 검토자의 관심을 특정 콘텐츠로 끌 수도 있습니다.
 
-![](images/review-comments-toolbar-disabled.png){width="350"}
+자세한 내용은 [검토자를 위한 댓글 추가](./review-send-topics-for-review.md#add-comments-for-reviewers)를 참조하세요.
+
 
 ## 항목에 대한 모든 검토 작업 보기
 

@@ -24,18 +24,18 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 71ddd55d2a6848449d5810701b60e9f69a29112b
+source-git-commit: 082688d62ed871fa52947e5152df35575b622164
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '773'
 ht-degree: 0%
 ---
-# AI Assistant(Beta)
-
-Adobe Experience Manager Guides의 **AI Assistant**&#x200B;은(는) 스마트 도움말, 작성 및 태그 지정 기능을 통해 생산성을 향상시키도록 설계된 강력한 AI 기반 도구입니다. **표준** 모드에서는 두 가지 강력한 AI 기능인 **작성** 및 **도움말**&#x200B;을 Experience Manager Guides 인터페이스에 통합하므로 콘텐츠를 작성하고 Experience Manager Guides 설명서에서 정보에 보다 빠르고 효율적으로 액세스할 수 있습니다. 대신 **Agentic** 모드에서 AI Assistant는 **스마트 태그 지정**&#x200B;을 제공합니다. 대화 프롬프트 창을 통해 콘텐츠에 대한 태그 권장 사항을 요청하고 하나 이상의 주제에 적용할 수 있습니다.
+# AI 어시스턴트
 
 >[!NOTE]
 >
 > AI Assistant 기능은 현재 Adobe Experience Manager Guides as a Cloud Service에서 사용할 수 있습니다.
+
+Adobe Experience Manager Guides의 AI Assistant는 콘텐츠 생성, 관리 및 작성 워크플로를 단순화하여 생산성을 향상시키도록 설계된 AI 기반 도구입니다. 아젠틱과 스탠다드, 이렇게 두 가지 모드를 제공합니다. **에이전트 모드**&#x200B;에서 AI Assistant를 사용하면 자연어 상호 작용을 통해 콘텐츠 관련 작업을 수행할 수 있으며 가져오기, 만들기, 스마트 태깅과 같은 기술을 사용하여 콘텐츠 생성, 구성 및 메타데이터 관리를 간소화할 수 있습니다. **표준 모드**&#x200B;에서 AI Assistant는 보다 효율적으로 콘텐츠를 만들고, 다듬고, 관리하는 데 도움이 되는 작성 지원을 제공합니다.
 
 ## AI Assistant 모드
 
@@ -43,54 +43,60 @@ Adobe Experience Manager Guides의 **AI Assistant**&#x200B;은(는) 스마트 �
 >
 >사용자 환경에 대해 에이전트 모드에서 AI Assistant를 활성화하려면 고객 지원 팀에 문의하십시오.
 
-AI Assistant는 **Agentic** 및 **Standard** 두 가지 모드로 사용할 수 있습니다. 관리자는 **Workspace 설정**&#x200B;의 **일반** 탭에 있는 **AI Assistant** 섹션에서 두 모드 중 하나를 선택할 수 있습니다. AI 지원 패널은 편집기의 두 모드에서 동일하게 유지되지만, 그 내에서 사용할 수 있는 기능은 서로 다릅니다.
+AI Assistant는 **Agentic** 및 **Standard** 두 가지 모드로 사용할 수 있습니다. 관리자는 **Workspace 설정**&#x200B;의 **일반** 탭에 있는 **AI 기능** 섹션에서 모드를 선택할 수 있습니다. 편집기의 AI 도우미 패널은 두 모드에서 동일하게 유지되지만, 사용할 수 있는 기능은 다음과 같이 다릅니다.
 
-* **에이전트** 모드에서는 Adobe CX Enterprise Coworker의 **스마트 태그 지정** 스킬을 사용하여 콘텐츠를 분석하고 조직의 분류법에 따라 관련 태그를 추천합니다.
-* **표준** 모드는 AI Assistant 패널의 **도움말** 및 **작성** 탭을 사용하여 기존 AI Assistant 환경을 제공합니다.
+- **에이전트 모드:** 스킬 **가져오기**, **만들기** 및 **스마트 태그 지정**&#x200B;을 사용하여 파일을 구조화된 주제로 변환하고, 콘텐츠의 첫 번째 초안을 만들고, 조직의 분류법에 따라 관련 태그를 추천합니다.
+- **표준 모드:** 콘텐츠 재사용, 번역 및 콘텐츠 품질 개선과 같은 상황별 작업을 통해 AI 기반의 작성 지원을 제공하여 작성 워크플로를 간소화합니다.
 
 ## 무생식
 
-### 스마트 태그 지정
+>[!NOTE]
+>
+> 아젠틱 모드에서 AI Assistant를 사용하려면 조직이 Adobe CX Enterprise Coworker에 온보딩되어야 하며 사용 가능한 크레딧이 있어야 합니다. 온보딩되면 고객 성공 팀에 연락하여 기능을 활성화하십시오. 구성 세부 정보는 [에이전트 모드에서 AI Assistant 구성](../install-conf-guide/configure-ai-assistant-agentic-mode-cs.md)을 참조하십시오.
 
-에이전트 모드의 AI 어시스턴트는 대화 프롬프트 창을 통해 콘텐츠를 더 빠르고 쉽게 태깅할 수 있습니다. AI Assistant는 Adobe CX Enterprise Coworker의 아젠틱 스마트 태그 지정 기술을 사용하여 사용자가 요청할 때 컨텐츠에 관련 태그를 권장합니다. 제안된 태그를 검토하고 맵 내의 여러 주제를 포함하여 하나 이상의 주제에 적용하도록 선택하여 계속 제어할 수 있습니다.
+AI Assistant의 에이전트 모드를 사용하면 콘텐츠 생성 및 가져오기, 주제 요약, 맵에 주제 추가 및 메타데이터 관리와 같은 자연어 상호 작용을 통해 광범위한 콘텐츠 관련 작업을 수행할 수 있습니다. 채팅 패널에서 요구 사항을 설명할 수 있으며, AI Assistant는 진행 상황을 가시적으로 파악하면서 작업을 계획 및 실행합니다. 에이전트 모드에서는 다음 기술에 빠르게 액세스할 수 있습니다.
 
-자세한 내용은 [Agentic AI Assistant 시작](./ai-assistant-agentic.md)을 참조하십시오.
+- **가져오기**: 장치 또는 콘텐츠 저장소의 PDF, Word 또는 Markdown 파일을 구조화된 항목으로 변환합니다. 자세한 내용은 [AI Assistant로 콘텐츠 가져오기](./import-ai-assistant.md)를 참조하십시오.
 
-![ai 길잡이 스마트 태그 지정](./images/suggested-prompts.png)
+- **만들기**: 색조 및 스타일에 기존 콘텐츠를 사용하는 옵션과 함께 사양, 화이트보드 이미지, 스크린샷 및 기타 참조 콘텐츠와 같은 입력 자료에서 초안 주제 및 맵을 생성합니다. 자세한 내용은 [AI Assistant를 사용하여 콘텐츠 만들기](./create-ai-assistant.md)를 참조하십시오.
+
+- **스마트 태그 지정**: 메타데이터 일관성을 향상시키기 위해 조직의 분류법에 따라 주제에 대한 관련 태그를 권장합니다. 자세한 내용은 [AI Assistant를 사용하여 스마트 태그 지정](./ai-assistant-agentic.md)을 참조하십시오.
+
+AI Assistant 패널의 다음 구성 요소를 통해 컨텐츠를 추가하고, 프롬프트를 입력하고, 작업을 시작할 수 있습니다.
+
+![ai 길잡이 스마트 태그 지정](./images/panel-new-agentic.png)
+
+- **(A)** 대화 기록: 이전 대화 내용을 보고 다시 열어 이전 요청 및 응답을 검토합니다.
+- **(B)** 전체 화면: AI Assistant 패널을 전체 화면으로 확장합니다.
+- **(C)** 프롬프트 공간: 프롬프트 요청을 입력하거나 `/`을(를) 입력하여 파일을 추가하고 태그를 생성합니다.
+- **(D)** 파일 첨부 또는 컨텍스트 추가: 로컬 시스템의 주제, 맵 또는 파일을 추가하여 AI Assistant가 작동하는 콘텐츠를 제공합니다.
+- **(E)** 보내기: AI Assistant에 프롬프트 및 첨부된 콘텐츠를 제출합니다.
+- **(F)** 빠른 작업: **가져오기**, **만들기** 또는 **태그** 바로 가기 중 하나에서 작업을 시작합니다.
 
 ## 표준 모드
 
-### 작성
+표준 모드를 사용하면 작성 프로세스를 보다 스마트하고 빠르게 수행할 수 있습니다. 편집기에서 텍스트를 선택하면 AI 도우미가 선택한 콘텐츠를 기반으로 콘텐츠 재사용을 위한 지능형 제안 생성, 콘텐츠 번역, 콘텐츠 품질 개선 등과 같은 빠른 작업을 제공합니다. 이를 통해 전체적인 작성 경험과 작성자의 생산성이 향상됩니다.
 
-AI Assistant가 **표준** 모드로 구성된 경우 AI Assistant의 **작성** 기능을 통해 작성 프로세스를 보다 스마트하고 빠르게 수행할 수 있습니다. 선택한 콘텐츠를 기반으로 콘텐츠 재사용을 위한 지능형 제안 생성, 콘텐츠 번역, 콘텐츠 품질 개선 등의 기능을 제공합니다. 이 기능은 전반적인 작성 환경과 작성자의 생산성을 향상시킵니다.
-
-자세한 내용은 [작성](./ai-assistant-right-panel.md)을 참조하세요.
+자세한 내용은 [AI Assistant를 사용하여 문서 작성](./ai-assistant-right-panel.md)을 참조하십시오.
 
 ![ai 길잡이](./images/ai-assistant-panel.png)
 
-### 도움말
 
-AI Assistant가 **표준** 모드로 구성된 경우 **도움말** 기능은 Experience Manager Guides을 이해하고, 문제를 해결하며, Adobe Experience Manager Guides 설명서에서 정보를 찾는 데 도움이 되는 직관적인 채팅 기반 환경을 제공합니다. 사용 안내서와 참조 문서를 검색하는 대신 **도움말** 기능을 사용하여 쿼리에 대한 적절한 답변을 빠르게 찾을 수 있습니다. 따라서 시간을 절약하고 컨텐츠 작성에 집중할 수 있으므로 생산성과 효율성이 향상됩니다.
+## AI 어시스턴트 시작하기
 
-자세한 내용은 [도움말](./ai-based-smart-help.md)을 참조하세요.
-
-
-![고급 도움말 패널](images/smart-help-panel.png)
-
-## 표준 모드에서 AI Assistant 시작
-
-표준 모드에서 **AI Assistant**&#x200B;를 처음 사용하는 경우 Experience Manager Guides Generative AI 기능을 사용하기 전에 동의를 제출하라는 메시지가 표시됩니다.
+**AI Assistant**&#x200B;를 처음 사용하는 경우 Experience Manager Guides Generative AI 기능을 사용하기 전에 동의를 제출하라는 메시지가 표시됩니다.
 
 AI Assistant를 시작하려면 다음 단계를 수행하십시오.
 
-1. Experience Manager Guides에 로그인합니다.
+1. Experience Manager Guides에 로그인.
 1. 홈 페이지의 맨 위에서 **AI 길잡이**&#x200B;를 선택합니다. 관리자가 원하는 모드에서 AI Assistant 기능을 활성화했는지 확인합니다.
 
 AI 도우미에는 주요 기능, 사용자 지침 링크 및 **시작** 단추가 표시됩니다.
-
-![고급 도움말 패널](images/get-started-ai.png)
-
 사용자 지침을 주의 깊게 읽은 다음 **시작하기**&#x200B;를 선택하여 AI 도우미를 시작합니다.
+
+>[!NOTE]
+>
+>도움말 도우미 기능 사용 지침에 이미 동의한 경우 다시 동의 메시지가 표시되지 않으며 AI 도우미 기능을 계속 사용할 수 있습니다.
 
 **관련 항목**
 

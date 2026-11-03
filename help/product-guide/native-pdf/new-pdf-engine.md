@@ -45,9 +45,9 @@ topic_v2:
     internal-label: Accessibility
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '872'
 ht-degree: 0%
 ---
 # 기본 PDF 엔진 v2를 사용하여 작업
@@ -102,3 +102,4 @@ _기본 PDF 엔진 v1_&#x200B;을 사용하여 생성된 PDF 출력의 다음 �
 - 접근성 설정이 활성화된 기본 PDF 출력의 콘텐츠 읽기 순서가 잘못되었습니다. 바닥글의 페이지 번호는 끝이 아닌 기본 콘텐츠 앞에 읽혀집니다. (GUIDES-27790)
 - 기본 PDF 출력의 색상 막대는 전체 페이지 너비를 넘지 않고 페이지 크기를 사용자 지정할 때 겹쳐 일부 색상 상자가 숨겨집니다. (GUIDES-15505)
 - `CSS:is()pseudo-class` 선택기가 기본 PDF 출력에서 적용되지 않으므로 브라우저 렌더링과 스타일이 다릅니다. (GUIDES-11328)
+- 출력 언어가 중국어(zh-CN)로 설정되어 있더라도 특정 중국어(간체) 문자는 기본 PDF 출력에서 일본어 글꼴을 사용하여 렌더링됩니다. (GUIDES-48094)

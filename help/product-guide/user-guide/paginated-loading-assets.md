@@ -19,9 +19,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '724'
 ht-degree: 0%
 ---
 
@@ -70,6 +70,9 @@ Experience Manager Guides은 페이지 매김된 API를 사용하여 파일 및 
 - **추가 또는 복제**: 새 파일이 폴더 맨 위에 나타납니다.
 - **이동**: 관련되지 않은 폴더 사이를 이동하면 원본 폴더가 첫 번째 자산 배치에 새로 고침되고 대상의 맨 위에 항목이 추가됩니다(대상의 첫 번째 자산 배치가 아직 열려 있지 않은 경우 로드).
 - **새로 고침**: [탐색기] 패널 헤더의 새 새로 고침 단추가 루트 수준을 다시 로드하여 자산의 첫 번째 배치를 표시합니다.
+- **정렬**: [탐색기] 패널 위쪽에 있는 [정렬] 단추를 사용하여 파일 및 폴더의 순서를 오름차순(기본값)과 내림차순 사이에서 전환합니다. 탐색기 패널의 파일 및 폴더는 표시되는 이름별로 정렬되며, 이는 [사용자 환경 설정](./intro-home-page.md#user-preferences)의 **편집기 파일 표시 구성**&#x200B;에 따라 다릅니다. 제목으로 설정하면 파일 및 폴더가 제목별로 정렬됩니다. 파일 이름으로 설정된 경우 파일 이름별로 정렬됩니다.
+
+  ![탐색기 정렬](images/explorer-sorting.png){width="350"}
 
 ### 검색 패널
 

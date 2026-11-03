@@ -18,9 +18,9 @@ role_v2:
     internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 40e70b86b070cb91a7bc18da595edd2f2f90d29b
+source-git-commit: 01ef49b5e26c31359559d9849e6726f704393cd7
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '944'
 ht-degree: 39%
 ---
 # [!DNL Experience Manager Guides] 릴리스 정보 {#aem-guides-releases-roadmap}
@@ -33,19 +33,13 @@ ht-degree: 39%
 
 ## [!DNL Experience Manager Guides] as a [!DNL Cloud Service] {#aem-guides-roadmap-cs}
 
-Adobe Experience Manager Guides as a Cloud Service의 릴리스는 다음과 같이 계획되어 있습니다.
-
-### 계획된 릴리스
-
-| 릴리스 | 이벤트 | 일정 | 새로운 기능 | 업그레이드 지침 | 해결된 문제 | 상태 |
-|---|---|---|---|---|---|---|
-| Adobe Experience Manager Guides 2026.11.0 | 자동 업데이트 | 2026년 11월 9~11일 | - | - | - | 대상 |
-
+Adobe Experience Manager Guides as a Cloud Service의 릴리스는 다음과 같습니다.
 
 ### 라이브 릴리스
 
 | 릴리스 | 이벤트 | 일정 | 새로운 기능 | 업그레이드 지침 | 해결된 문제 | 상태 |
 |---|---|---|---|---|---|---|
+| Adobe Experience Manager Guides 2026.11.0 <br> [(AEM 릴리스 - 29251)](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | 자동 업데이트 | 2026년 11월 9~11일 | [여기](./whats-new-2026-11-0.md) | [여기](./upgrade-instructions-2026-11-0.md) | [여기](./fixed-issues-2026-11-0.md) | 업데이트됨 |
 | Adobe Experience Manager Guides 2026.09.0 <br> [(AEM 릴리스 - 28386)](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | 자동 업데이트 | 2026년 9월 28~30일 | [여기](./whats-new-2026-09-0.md) | [여기](./upgrade-instructions-2026-09-0.md) | [여기](./fixed-issues-2026-09-0.md) | 업데이트됨 |
 | Adobe Experience Manager Guides 2026.08.0 <br> [(AEM 릴리스 - 27293)](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | 자동 업데이트 | 2026년 8월 03~05일 | [여기](./whats-new-2026-08-0.md) | [여기](./upgrade-instructions-2026-08-0.md) | [여기](./fixed-issues-2026-08-0.md) | 업데이트됨 |
 | Adobe Experience Manager Guides 2026.07.0 <br> [(AEM 릴리스 - 26908)](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | 자동 업데이트 | 2026년 7월 첫 주 | - | [여기](upgrade-instructions-2026-07-0.md) | [여기](fixed-issues-2026-07-0.md) | 업데이트됨 |

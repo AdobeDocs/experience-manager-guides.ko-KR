@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '11296'
+source-wordcount: '11329'
 ht-degree: 0%
 ---
 # 편집기의 왼쪽 패널
@@ -859,7 +859,8 @@ Experience Manager Guides을 사용하면 용어집 유형 문서를 손쉽게 �
 
 >[!NOTE]
 >
-> 를 입력하여 새 그룹을 생성하거나 특정 속성에 대한 기존 그룹을 선택합니다.
+> - 를 입력하여 새 그룹을 생성하거나 특정 속성에 대한 기존 그룹을 선택합니다.
+> - 조건 패널의 조건은 값이 아닌 레이블을 기준으로 알파벳순으로 정렬됩니다. 해당 값에 관계없이 조건에 지정된 레이블에 따라 정렬 순서가 결정됩니다.
 
 `/`을(를) 사용하고 `AEM Guides/Cloud Service` 같은 하위 그룹을 정의할 수 있습니다.
 

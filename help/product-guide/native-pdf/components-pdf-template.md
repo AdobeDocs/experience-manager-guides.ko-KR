@@ -25,9 +25,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '5049'
+source-wordcount: '5098'
 ht-degree: 0%
 ---
 # PDF 템플릿의 구성 요소 {#components-pdf-template}
@@ -287,14 +287,17 @@ TOC 구조인 홀수 또는 짝수 페이지에서 챕터를 시작하기 위한
   >[!NOTE]
   >
   > **중단 전 텍스트** 또는 **중단 후 텍스트** 필드에서 언어 변수를 사용하는 경우 전체 텍스트가 단일 언어 변수 내에 정의되어 있는지 확인하십시오. 이러한 필드의 언어 변수 외부에 추가된 텍스트나 변수는 렌더링되지 않습니다. 예를 들어, **Text After Break 필드**&#x200B;에서 `${lng:Continued-from-page} %page-num%`과(와) 같은 변수의 조합을 사용하는 대신 필드에서 `${lng:Continued-from-page}`만 사용하고 별도로 `Continued-from-page` 언어 변수의 값을 `Continued-from-page %page-num%`(으)로 설정합니다.
-* **용어집 용어를 용어집 페이지에 연결**: 콘텐츠에 하이퍼링크로 표시하고 용어집 페이지의 용어에 연결하려면 이 옵션을 선택하십시오. 이렇게 하면 독자가 용어집에 정의된 용어의 정의를 빠르게 볼 수 있습니다.
+* **용어집 용어를 용어집 페이지에 연결**: 이 옵션을 사용하여 용어집 용어를 콘텐츠의 하이퍼링크로 표시하고 용어집 페이지의 용어에 연결합니다. 이렇게 하면 독자가 용어집에 정의된 용어의 정의를 빠르게 볼 수 있습니다.
 
   용어집을 하이퍼링크로 변환하려면 다음을 수행해야 합니다.
   * DITA 맵의 **페이지 레이아웃 순서** 탭에서 **용어집**&#x200B;을(를) 사용하도록 설정합니다.
   * 책 맵의 뒷면 문제 페이지에 용어집을 추가합니다.
 
   용어집 페이지를 활성화하지 않으면 콘텐츠의 용어집 용어가 PDF 출력의 하이퍼링크로 변환되지 않습니다.
-  <!--For more information on using table continuation markers, see Use table continuation markers.-->
+
+* **모든 용어집 항목 표시**: 해당 용어가 콘텐츠에서 참조되는지 여부에 관계없이 맵에 정의된 모든 용어집 항목을 포함하려면 이 옵션을 사용합니다. 기본적으로 이 옵션은 비활성화되어 있으며 콘텐츠에 실제로 사용되는 용어집 용어만 용어집 페이지에 포함됩니다.
+
+<!--For more information on using table continuation markers, see Use table continuation markers.-->
 
 ### 페이지 레이아웃 {#page-layouts}
 

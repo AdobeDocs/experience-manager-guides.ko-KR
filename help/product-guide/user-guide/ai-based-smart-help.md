@@ -20,36 +20,32 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ae9ac69745555aa3683e0a6a648f6519377dd6d7
+source-git-commit: 3aa727853173c89eb63ffa09f4caec92f6dff911
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '629'
 ht-degree: 0%
 ---
-# AI Assistant(Beta)의 스마트 도움말로 효율성 향상
+# 도움말 도우미를 통해 효율성 향상
 
->[!NOTE]
->
->이 기능은 표준 모드의 AI Assistant에서 사용할 수 있습니다.
-
-Experience Manager Guides은 [Adobe Experience Manager Guides 설명서](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/overview)에서 관련 콘텐츠를 찾는 데 도움이 되는 대화형 검색 기능인 GenAI 기반 스마트 도움말을 제공합니다.
+Experience Manager Guides은 [Adobe Experience Manager Guides 설명서](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/user-guide/about-aemg/intro)에서 관련 콘텐츠를 찾는 데 도움이 되는 대화형 검색 기능인 GenAI 기반 스마트 도움말을 제공합니다.
 
 질문을 하고 유익한 방법으로 답변을 얻을 수 있다. 쿼리에 대한 답변은 제품 설명서의 콘텐츠를 기반으로 합니다. 이 검색은 완전히 대화형입니다. Experience Manager Guides의 다양한 기능에 대해 질문하거나 문제 해결 쿼리를 선택하도록 할 수 있습니다. 응답을 기반으로 추가 질문을 할 수도 있습니다. 이 응답에는 소스 문서에 대한 링크도 포함되어 있습니다. 자세한 내용은 을 참조하십시오.
 
 예를 들어 *맵을 게시하는 방법*&#x200B;과 같은 질문을 할 수 있습니다. 응답 및 관련 문서에 대한 링크를 받습니다. 그런 다음 특정 방법을 사용하여 출력을 게시하는 방법을 배우려면 해당 방법에 대해 질문할 수 있습니다. 예를 들어 *PDF에 맵을 게시하려면 어떻게 해야 합니까?*
 
-홈 페이지, 맵 콘솔 또는 편집기에서 **AI 길잡이**&#x200B;를 열면 오른쪽에 **도움말** 패널이 열립니다. 편집기의 경우 스마트 작성 기능을 제공하는 작성 패널도 표시됩니다. 자세한 내용은 [AI Assistant를 보고 문서를 작성하십시오](./ai-assistant-right-panel.md)
+>[!NOTE]
+>
+>도움말 도우미를 처음 사용하는 경우 Experience Manager Guides Generative AI 기능에 액세스하기 전에 동의를 제공하라는 메시지가 표시됩니다. 이미 AI 도우미 기능 사용 지침에 대한 동의를 제공한 경우 다시 메시지가 표시되지 않으며 추가 동의 없이 도움말 도우미를 계속 사용할 수 있습니다.
 
-![고급 도움말 패널](images/smart-help-panel.png){width="300"}
+**도움말 도우미** 패널을 사용하여 적절한 콘텐츠를 찾고 쿼리를 해결하려면 다음 단계를 수행하십시오.
 
-***도움말**&#x200B;패널을 봅니다.*
-
-도움말 패널을 사용하여 적절한 콘텐츠를 찾고 쿼리를 해결하려면 다음 단계를 수행하십시오.
-
-1. **AI 길잡이**&#x200B;를 선택하여 도움말 패널을 엽니다.
+1. **도움말 도우미** 아이콘을 선택하여 도움말 도우미 패널을 엽니다.
 
    >[!NOTE]
    >
    > [전역 또는 폴더 수준 프로필](../cs-install-guide/conf-folder-level.md#conf-ai-guides-assistant)에서 관리자는 패널에 표시되는 기본 질문을 정의해야 합니다.
+
+   ![고급 도움말 패널](images/smart-help-panel-new.png){width="300"}
 
 1. 질문을 입력하여 Experience Manager Guides 설명서에서 관련 콘텐츠를 찾습니다. 패널에서 기본 질문을 선택하거나 텍스트 상자에 질문을 입력할 수 있습니다.
 
@@ -69,15 +65,18 @@ Experience Manager Guides은 [Adobe Experience Manager Guides 설명서](https:/
 
 사용 안내서와 참조 문서를 검색하는 대신 **도움말** 기능을 사용하여 쿼리에 대한 적절한 답변을 빠르게 찾을 수 있습니다. 따라서 시간을 절약하고 컨텐츠 작성에 집중할 수 있으므로 생산성과 효율성이 향상됩니다.
 
-## AI 지원 도움말 응답에 사용 가능한 옵션
+## 도움말 응답에 사용 가능한 옵션
 
-**도움말** 패널에서 AI Assistant의 응답을 받으면 응답과 상호 작용하거나 피드백을 제공하여 정확도와 안정성을 높일 수 있습니다. 귀하의 피드백은 Experience Manager Guides 팀이 AI Assistant 응답의 정확성과 관련성을 향상시켜 시간에 따른 성능을 개선하는 데 도움이 됩니다.
+**도움말 도우미** 패널에서 도움말 도우미로부터 응답을 받으면 이 응답과 상호 작용하거나 피드백을 제공하여 정확도와 안정성을 높일 수 있습니다. 귀하의 피드백은 Experience Manager Guides 팀이 정확성 및 관련성 응답을 향상시켜 시간 경과에 따른 성과를 높이는 데 도움이 됩니다.
 
-다음 옵션은 AI Assistant **도움말** 패널에서 제공하는 응답에 참여하거나 피드백을 제공하는 데 사용할 수 있습니다.
+다음 옵션을 사용하여 **도움말 도우미** 패널에서 제공하는 응답에 참여하거나 피드백을 제공할 수 있습니다.
 
 ![](images/ai-assistant-response-options.png){width="300"}
 
 - **복사**: 문서에 사용할 응답을 복사합니다.
 - **비슷함**: 응답이 유용하거나 정확함을 나타냅니다. 좋아요 아이콘을 선택하여 응답을 좋아하게 하고 **자세히 알리기** 옵션을 사용하여 자세한 피드백을 제공하세요.
-- **싫어요**: 응답을 유용하지 않거나 올바르지 않은 것으로 표시합니다. 응답을 좋아하려면 [싫어요] 아이콘을 선택하고 자세한 피드백을 제공하려면 **자세히 알리기** 옵션을 사용합니다.
+  ![](images/feedback-help.png){width="300"}
+- **싫어요**: 응답을 유용하지 않거나 올바르지 않은 것으로 표시합니다. 응답을 좋아하려면 [싫어요] 아이콘을 선택하고 자세한 피드백을 제공하려면 **자세히 알리기** 옵션을 사용합니다.\
+  ![](images/dislike-help.png){width="300"}
 - **Report**: 오류 또는 부정확한 내용이 포함된 경우 검토하도록 응답을 플래그 지정합니다. 플래그 아이콘을 선택하여 **보고서 결과** 대화 상자를 엽니다. 사용 가능한 옵션에서 선택하거나 사용자 지정 피드백을 제공합니다.
+  ![](images/report-help.png){width="300"}

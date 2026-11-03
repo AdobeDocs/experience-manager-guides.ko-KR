@@ -28,7 +28,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 0%
@@ -64,3 +64,4 @@ JSON 출력 사전 설정.
 
 
 **상위 항목:**&#x200B;[&#x200B;출력 생성](generate-output.md)
+

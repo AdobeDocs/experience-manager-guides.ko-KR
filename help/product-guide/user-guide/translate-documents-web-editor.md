@@ -37,9 +37,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '2794'
+source-wordcount: '2824'
 ht-degree: 0%
 ---
 # 맵 콘솔에서 문서 번역 {#id21BKF0Z0YZF}
@@ -181,7 +181,7 @@ Experience Manager Guides에는 콘텐츠를 여러 언어로 번역할 수 있�
 
      ![프로젝트 경로 입력](images/project-path.png){width="650"}
 
-   - 기존 번역 프로젝트에 을 추가하는 경우 해당 프로젝트가 이미 있는 경로를 선택합니다. 그런 다음 **기존 번역 프로젝트** 목록에서 현재 번역 작업을 추가할 프로젝트를 선택합니다. 사용 가능한 **필터**&#x200B;를 사용하여 목록의 범위를 좁힐 수도 있습니다.
+   - 기존 번역 프로젝트에 을 추가하는 경우 해당 프로젝트가 이미 있는 경로를 선택합니다. 그런 다음 **기존 번역 프로젝트** 목록에서 현재 번역 작업을 추가할 프로젝트를 선택합니다. 여러 프로젝트의 제목이 동일한 경우 각 프로젝트 제목과 함께 표시되는 경로를 사용하여 올바른 제목을 식별합니다. 목록의 범위를 좁히는 데 사용할 수 있는 **필터**&#x200B;를 사용할 수 있으며, 요구 사항에 따라 프로젝트를 **정렬**&#x200B;할 수도 있습니다.
 
      ![기존 프로젝트 경로 입력](images/existing-project-path.png){width="650"}
 

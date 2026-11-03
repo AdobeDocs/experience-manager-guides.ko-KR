@@ -22,9 +22,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 63ae0f947d50646bed34cd815db6b9fb585fc015
 workflow-type: tm+mt
-source-wordcount: '1585'
+source-wordcount: '1916'
 ht-degree: 1%
 ---
 # Experience Manager Guides 및 Edge Delivery Services
@@ -64,58 +64,6 @@ EDS에는 사전 정의된 구조의 GitHub 저장소가 필요합니다. Adobe�
 
 ![](assets/eds-repo-created-github-view.png)
 
-### AEM 코드 동기화를 통해 GitHub를 Adobe에 연결
-
-Adobe Experience Manager은 **AEM 코드 동기화**&#x200B;라는 GitHub 애플리케이션을 사용하여 콘텐츠를 Experience Manager Guides에서 GitHub로 푸시합니다.
-
-*AEM 코드 동기화* 응용 프로그램을 설치하고 구성하려면 다음 단계를 수행하십시오.
-
-1. [AEM 코드 동기화](https://github.com/apps/aem-code-sync) 페이지로 이동하고 **설치**&#x200B;를 선택합니다.
-2. *AEM 코드 동기화*&#x200B;는 저장소 변경 내용을 모니터링하고 업데이트가 GitHub로 올바르게 푸시되도록 합니다.
-
-   >[!NOTE]
-   >
-   >애플리케이션을 설치하는 동안 저장소를 소유하는 동일한 GitHub 계정을 사용해야 합니다.
-
-   ![](assets/eds-aem-code-sync-page.png)
-
-3. 다음 페이지에서 만든 저장소에 대한 액세스 권한을 부여합니다. 이렇게 하려면 **저장소만 선택** 옵션을 선택한 다음 드롭다운에서 저장소를 선택합니다.
-
-   ![](assets/eds-aem-code-sync-install-authorize.png){width="350"}
-
-4. **설치 및 승인**&#x200B;을 선택합니다.
-
-GitHub 설정 페이지로 리디렉션되어 *AEM 코드 동기화* 응용 프로그램이 성공적으로 등록되었습니다. 이 페이지에서 웹 사이트의 미리보기 및 라이브 URL을 저장할 수도 있습니다.
-
-![](assets/eds-aem-code-sync-registered.png)
-
-### 새 GitHub 앱 만들기
-
-1. GitHub에서 왼쪽 사이드바로 이동하여 **개발자 설정**&#x200B;을 선택합니다.
-2. 왼쪽 사이드바에서 **GitHub 앱**&#x200B;을 선택합니다.
-3. **새 GitHub 앱**&#x200B;을 선택합니다.
-
-   ![](assets/eds-new-github-app.png){width="650"}
-
-4. **새 GitHub 앱 등록** 페이지에서 다음 세부 정보를 제공합니다.
-
-   - **GitHub 앱 이름**: 앱 이름을 입력하십시오. 예를 들어 `USERNAME-eds-app`(여기서 USERNAME은 GitHub 사용자 이름).
-   - **홈 페이지 URL**: Experience Manager Guides 인스턴스의 URL을 입력하십시오.
-
-     샘플 URL(형식): `https://<aem-author-url>/libs/fmdita/clientlibs/xmleditor/page.html`
-
-     샘플 URL: `https://author-p16602-e335172-cmstg.adobeaemcloud.com/libs/fmdita/clientlibs/xmleditor/page.html`
-
-   - **콜백 URL**: 홈 페이지 URL과 동일합니다.
-   - **Webhook URL**: 이 옵션을 사용하지 않도록 설정합니다.
-   - **저장소 권한**: *작업, 관리 및 증명*&#x200B;에 대해 **읽기 및 쓰기** 권한을 설정합니다.
-
-5. **GitHub 앱 만들기**&#x200B;를 선택합니다.
-
-이제 앱이 준비되었습니다. GitHub 앱의 **설정** 페이지로 리디렉션됩니다.
-
-![](assets/eds-github-app-registered-page.png)
-
 ### 새 OAuth 앱 만들기
 
 Experience Manager Guides에서 EDS 게시 프로필을 만드는 동안 사용자를 인증하려면 OAuth 앱이 필요합니다. *클라이언트 ID* 및 *클라이언트 암호*&#x200B;를 사용하여 보안 로그인 흐름을 사용하도록 설정합니다.
@@ -145,54 +93,122 @@ Experience Manager Guides에서 EDS 게시 프로필을 만드는 동안 사용�
 
 ### EDS 저장소에서 마운트 지점 URL 구성
 
-EDS는 `fstab.yaml` 파일의 *mountpoint* URL로 정의된 GitHub 저장소 경로에서 콘텐츠를 읽습니다.
+EDS는 저장소의 루트에 있는 `fstab.yaml` 파일에 정의된 *mountpoint* URL에서 콘텐츠를 읽습니다. 이 URL은 Experience Manager Guides이 생성된 콘텐츠를 게시하는 위치를 가리킵니다.
 
 `fstab.yaml` 파일에서 탑재 지점 URL을 구성하려면 다음을 수행하십시오.
 
-1. 리포지토리에서 `fstab.yaml` 파일을 열고 다음을 업데이트합니다.
+1. GitHub 리포지토리에서 `fstab.yaml` 파일을 엽니다.
+2. 다음 형식을 사용하여 `url` 값을 업데이트하십시오.
 
-   - `your-user-name`
-   - `your-repo-name`
+   ```text
+   https://guides.adobe.com/eds-workers/<account type>/<git acc domain>/<git username>/<git repo>/<branch>/<root folder>
+   ```
 
-   >[!NOTE]
-   >
-   > 탑재 지점 URL에서 `main`은(는) 콘텐츠를 게시하려는 분기를 나타내며, `docs`은(는) 작업 중인 EDS 저장소의 루트 폴더를 나타냅니다. GitHub에서 분기 이름을 변경하려면 *mountpoint* URL(`fstab.yaml` 파일)에서 동일한 분기 이름 및 Experience Manager Guides의 해당 EDS 게시 프로필을 업데이트해야 합니다.
+   다음 표에서는 URL의 각 필드에 대해 설명합니다.
+
+   | 필드 | 설명 |
+   |---|---|
+   | `https://guides.adobe.com/eds-workers` | Experience Manager Guides에서 EDS에 콘텐츠를 게시하는 데 사용하는 작업자 URL입니다. 이 값을 변경하지 마십시오. |
+   | `<account type>` | Git 계정 유형. `github`(으)로 설정합니다. |
+   | `<git acc domain>` | Git 계정의 도메인입니다. `github.com`(으)로 설정합니다. |
+   | `<git username>` | GitHub 사용자 이름. |
+   | `<git repo>` | EDS용으로 만든 GitHub 저장소의 이름입니다. |
+   | `<branch>` | 콘텐츠를 게시할 분기입니다. 기본값은 `main`입니다. GitHub에서 분기 이름을 변경하는 경우 여기에서 업데이트하고 Experience Manager Guides의 EDS 게시 프로필에서 업데이트합니다. |
+   | `<root folder>` | 게시된 파일이 커밋되는 저장소의 루트 폴더입니다. 기본값은 `docs`입니다. GitHub에서 폴더 이름을 변경하는 경우 여기 및 Experience Manager Guides의 EDS 게시 프로필에서 폴더 이름을 업데이트합니다. |
+
+   예를 들어 GitHub 사용자 이름이 `my-username`이고 저장소 이름이 `my-eds-repo`인 경우 `fstab.yaml` 파일이 다음과 같이 표시됩니다.
+
+   ```yaml
+   mountpoints:
+     /:
+       url: https://guides.adobe.com/eds-workers/github/github.com/my-username/my-eds-repo/main/docs
+       type: markup
+   ```
 
    ![](assets/eds-fstab-yaml-file.png){width="650"}
 
-2. **변경 내용 커밋**&#x200B;을 선택하고 커밋 세부 정보를 입력한 다음 확인합니다.
-3. [개발자 설정](https://github.com/settings/apps)&#x200B;(으)로 돌아가서 앱을 찾은 다음 **편집**&#x200B;을 선택합니다.
+   >[!NOTE]
+   >
+   > 이전 URL 형식(`https://guides.adobe.com/eds-workers/<git username>/<git repo>/<branch>/<root folder>`)을 계속 사용하는 경우 계정 유형 및 도메인이 기본적으로 `github` 및 `github.com`(으)로 설정됩니다.
 
-   ![](assets/eds-edit-github-app.png){width="650"}
+3. [AEM 코드 동기화를 통해 GitHub를 Adobe에 연결](#connect-github-to-adobe-via-aem-code-sync) 섹션에서 2단계와 3단계를 반복하여 리포지토리를 인증합니다.
 
-4. **앱 설치** 페이지로 이동하여 **설치**&#x200B;를 선택합니다.
+### AEM 코드 동기화를 통해 GitHub를 Adobe에 연결
 
-   ![](assets/eds-install-eds-app.png){width="650"}
+Adobe Experience Manager은 **AEM 코드 동기화**&#x200B;라는 GitHub 애플리케이션을 사용하여 콘텐츠를 Experience Manager Guides에서 GitHub로 푸시합니다.
 
-5. [AEM 코드 동기화를 통해 GitHub를 Adobe에 연결](#connect-github-to-adobe-via-aem-code-sync) 섹션에서 2단계와 3단계를 반복하여 리포지토리를 인증합니다.
+*AEM 코드 동기화* 응용 프로그램을 설치하고 구성하려면 다음 단계를 수행하십시오.
+
+1. [AEM 코드 동기화](https://github.com/apps/aem-code-sync) 페이지로 이동하고 **설치**&#x200B;를 선택합니다.
+
+   **AEM 코드 동기화**&#x200B;는 저장소 변경 내용을 모니터링하고 업데이트가 GitHub로 올바르게 푸시되도록 합니다.
+
+   >[!NOTE]
+   >
+   >애플리케이션을 설치하는 동안 저장소를 소유하는 동일한 GitHub 계정을 사용해야 합니다.
+
+   ![](assets/eds-aem-code-sync-page.png)
+
+2. 다음 페이지에서 만든 저장소에 대한 액세스 권한을 부여합니다. **저장소만 선택**&#x200B;을 선택한 다음 드롭다운에서 저장소를 선택합니다.
+
+   ![](assets/eds-aem-code-sync-install-authorize.png){width="350"}
+
+3. **설치 및 승인**&#x200B;을 선택합니다.
+
+   GitHub 설정 페이지로 리디렉션됩니다.
+
+   ![](./assets/aem-code-sync-source-code-github.png)
+
+4. 소스 코드 세부 정보를 검토하고 **다음**&#x200B;을(를) 선택하십시오.
+
+5. **콘텐츠 원본** 페이지에서 다음 설정을 구성하십시오.
+
+   - **콘텐츠 원본 형식:** **기타(고유한 마크업 가져오기)**&#x200B;를 선택합니다.
+   - **콘텐츠 원본 URL:** `fstab.yaml` 파일에서 탑재 지점 URL로 구성된 URL을 검토하십시오. 파일에서 URL을 업데이트하지 않은 경우 여기에서 업데이트할 수 있습니다.
+   - **파일 확장명:** 기본 `.html` 접미사를 `.htm`(으)로 변경합니다.
+
+   **다른 콘텐츠 원본 사용**&#x200B;을 선택했는지 확인하십시오.
+
+6. **사용자** 페이지에서 필요한 경우 사용자를 추가한 다음 **다음**&#x200B;을 선택합니다.
+
+7. 구성 요약을 검토하고 **저장**&#x200B;을 선택합니다.
+
+   등록이 완료되면 확인 페이지가 나타납니다. 이 페이지에서 웹 사이트의 **미리 보기** 및 **라이브** URL을 복사하고 저장할 수 있습니다.
+
+   ![](assets/eds-aem-code-sync-registered.png)
+
+## EDS용 GitLab 설정 및 구성
+
+GitLab을 Edge Delivery Services의 게시 저장소로 구성하는 방법에 대한 지침은 [EDS용 GitLab 설정 및 구성](./configure-eds-gitlab.md)을 참조하십시오.
 
 ## Experience Manager에서 EDS용 게시 프로필 만들기 및 구성
 
 아래 섹션에서는 각 단계를 순차적으로 간략히 설명하고 Experience Manager Guides에서 EDS를 사용하여 EDS 게시 프로필을 설정하고, 출력 사전 설정을 구성하고, 출력을 생성하는 방법에 대해 설명합니다.
 
-### EDS 게시 프로필 만들기
+### GitHub 또는 GitLab용 EDS 게시 프로필 만들기
 
 1. **[Workspace 설정](/help/product-guide/cs-install-guide/workspace-settings.md)** **>** **프로필 게시**&#x200B;로 이동합니다.
 2. **+** 아이콘을 선택하여 새 게시 프로필을 만들고 다음 세부 정보를 제공합니다.
 
-   - **서버 유형**: 드롭다운에서 **GitHub Edge Delivery Services**&#x200B;을 선택합니다.
-   - **이름**: 이 프로필의 이름을 입력하십시오.
-   - **저장소 이름**: 상용구에서 만든 GitHub 저장소 이름을 사용합니다.
-   - **사용자 이름**: GitHub 사용자 이름을 입력하십시오.
-   - **분기 주**: 주(기본값)로 설정합니다.
-   - **루트 폴더**: docs(기본값)로 설정합니다.
-   - **클라이언트 ID 및 클라이언트 암호**: GitHub 앱에서 가져옵니다(자세한 내용은 [새 OAuth 앱 만들기](#create-a-new-oauth-app) 섹션 참조).
-
-3. 인증하려면 **로그인**&#x200B;을 선택하십시오.
+   - **서버 유형\*:** 드롭다운에서 **Git(Edge Delivery 서비스)**&#x200B;을 선택합니다.
+   - **이름\*:** 게시 프로필의 이름을 입력합니다.
+   - **Git 계정 유형\*:** Git 저장소 공급자에 따라 드롭다운에서 **GitHub** 또는 **GitLab**&#x200B;을(를) 선택합니다.
+   - **인스턴스 URL\*:** GitHub 또는 GitLab 인스턴스의 URL(예: `https://github.com` 또는 `https://gitlab.com`)을 입력합니다.
+   - **저장소 이름\*:** GitHub 또는 GitLab 저장소의 이름을 입력합니다.
+   - **사용자 이름\*:** GitHub 또는 GitLab 사용자 이름을 입력합니다.
+   - **분기 이름:**&#x200B;을(를) `main`(기본값)로 설정합니다.
+   - **루트 폴더\*:**&#x200B;을(를) `docs`(기본값)로 설정합니다.
+   - **사이트 소유자(*GitLab만 해당*):** Edge Delivery Services 사이트의 소유자를 입력합니다.
+   - **사이트 저장소(*GitLab만 해당*):** Edge Delivery Services 사이트와 연결된 저장소 이름을 입력합니다.
+   - **HLX API 키:** EDS 구성에 대한 HLX API 키를 입력합니다. 이 키는 Experience Manager Guides as a Cloud Service 2026.11.0 릴리스에 도입된 게시되지 않음 기능을 지원하는 데 필요합니다. 또한 콘텐츠 크기가 100개 이상의 파일인 경우 EDS에 콘텐츠를 게시하려면 키가 필요합니다.
+   - **인증 자격 증명:** 선택한 Git 계정 유형에 따라 자격 증명을 제공합니다.
+     - **GitHub:** GitHub OAuth 앱에서 가져온 **클라이언트 ID\*** 및 **클라이언트 암호\***를 입력합니다. 자세한 내용은 [새 OAuth 앱 만들기](#create-a-new-oauth-app)를 참조하십시오.
+     - **GitLab:** GitLab 계정에 대해 생성된 **액세스 토큰\***을 입력합니다.
+3. (*GitHub만*) 인증하려면 **로그인**&#x200B;을(를) 선택하십시오. GitLab의 경우, 액세스 토큰이 인증에 사용되므로 로그인이 필요하지 않습니다.
 
    ![](assets/eds-publish-profile.png){width="650"}
 
-4. 인증에 성공하면 **저장**&#x200B;을 선택합니다.
+4. **저장**&#x200B;을 선택합니다. GitHub의 경우 인증에 성공하면 **저장** 옵션을 사용할 수 있습니다.
 
 이제 EDS 게시 프로필이 구성되었습니다.
 
@@ -206,21 +222,25 @@ EDS는 `fstab.yaml` 파일의 *mountpoint* URL로 정의된 GitHub 저장소 경
 4. **추가**&#x200B;를 선택합니다.
 
    ![](assets/eds-output-preset.png){width="650"}
-5. 새로 만든 EDS 출력 사전 설정을 열고 **Config** 탭으로 이동합니다.
-   - 이전 단계에서 만든 게시 프로필을 선택합니다.
-   - **Push to live**&#x200B;를 사용하도록 설정하십시오.
+5. 새로 만든 EDS 출력 사전 설정을 열고 다음 필드를 구성합니다.
 
-   **Push to live**&#x200B;을(를) 사용하면 생성된 출력이 GitHub에 커밋되고 해당 업데이트가 라이브 웹 사이트로 즉시 전파됩니다.
+   - **조건부 필터링:** **없음**&#x200B;을 선택하여 필터링하지 않고 출력을 생성하거나 **DITAVAL을 사용**&#x200B;하여 조건부 필터링을 적용합니다.
+   - **하위 폴더 게시:** 출력이 게시되는 하위 폴더의 이름을 입력합니다. 하위 폴더는 루트 폴더 아래의 저장소에 만들어지고 해당 이름은 게시된 콘텐츠에 대한 EDS 링크에 표시됩니다. 예를 들어 루트 폴더가 `docs`이고 게시 하위 폴더가 `product-guide`이면 콘텐츠가 `docs/contents/product-guide`에 게시됩니다.
+   - **게시 프로필:** 이전 섹션에서 구성한 GitHub 또는 GitLab 게시 프로필을 선택합니다.
 
-   ![](assets/eds-output-preset-config-tab.png){width="650"}
+     ![](assets/eds-output-preset-config.png){width="650"}
 
 6. **저장**&#x200B;을 선택한 다음 **출력 생성**&#x200B;을 선택하십시오.
 
 >[!NOTE]
 >
->생성된 출력은 EDS 저장소의 **docs** 폴더에 저장됩니다.
+>생성된 출력은 EDS 저장소의 `<root folder>/contents/<publish subfolder>` 폴더에 저장됩니다.
 
 이제 EDS 출력이 생성됩니다. 컨텐츠가 깔끔하고 응답형 레이아웃으로 표시됩니다. 여기에는 페이지 제목, 탐색 표시, 본문 컨텐츠 및 주제에 사용되는 모든 블록과 같은 일반 요소가 포함됩니다. 왼쪽의 목차(맵에서 생성됨)는 주제 간을 탐색하는 데 도움이 되며 오른쪽의 미니 목차는 현재 페이지의 섹션을 강조 표시합니다. 전체 출력은 완전히 응답하므로 장치 간에 최적화되고 일관된 읽기 환경이 보장됩니다.
+
+>[!NOTE]
+>
+> 여러 DITA 맵을 동일한 웹 사이트에 게시할 수 있습니다. 게시된 맵은 왼쪽 탐색 패널에 나타나며, 사용자가 각 맵의 콘텐츠에 액세스할 수 있습니다. 새 맵을 게시하면 이전에 게시된 맵을 덮어쓰지 않습니다.
 
 ![](assets/eds-site-output.png)
 

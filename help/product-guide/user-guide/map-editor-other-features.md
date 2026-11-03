@@ -23,9 +23,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1297'
 ht-degree: 0%
 ---
 # 맵 편집기의 추가 기능 {#id1942D0T0HUI}
@@ -90,7 +90,7 @@ DITA 주제에 연관된 키 참조가 있는 경우 주제를 미리 보거나,
 
 ## 맵에서 상태 검사 실행
 
-컨텍스트 메뉴의 상태 검사 실행 옵션을 사용하면 게시하기 전에 선택한 맵에서 상태 검사를 실행하여 끊어진 링크, 중복 ID 및 스키마 유효성 검사 실패와 같은 문제를 발견할 수 있습니다.
+컨텍스트 메뉴의 **상태 검사 실행** 옵션을 사용하면 선택한 맵에서 상태 검사를 실행하여 게시하기 전에 끊어진 링크, 중복 ID 및 Schematron 유효성 검사 실패와 같은 문제를 확인할 수 있습니다. 이 기능은 새 편집기와 이전 편집기 모두에서 사용할 수 있습니다.
 
 >[!NOTE]
 >

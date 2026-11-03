@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 살펴보십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: 09b8fabaa75d656ae1465d741c8aac8307ce6231
+source-git-commit: e1ea38759b90ccb044664bd70a5e7dbbaf9dd4f2
 workflow-type: tm+mt
-source-wordcount: '2657'
+source-wordcount: '2699'
 ht-degree: 10%
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 10%
       - {hide-from-toc}[배포 지침](./release-info/deploy-xml-on-aemaacs.md)
       - [클라우드 릴리스](./release-info/latest-release-info-cs.md)
       - 2026 릴리스 {#2026-releases}
+        - 2026.11.0 릴리스 {#2611-release}
+          - [새로운 기능](./release-info/whats-new-2026-11-0.md)
+          - [해결된 문제](./release-info/fixed-issues-2026-11-0.md)
+          - [업그레이드 지침](./release-info/upgrade-instructions-2026-11-0.md)
         - 2026.09.0 릴리스 {#2609-release}
           - [새로운 기능](./release-info/whats-new-2026-09-0.md)
           - [해결된 문제](./release-info/fixed-issues-2026-09-0.md)
@@ -293,6 +297,10 @@ ht-degree: 10%
   - 맵 관리 및 게시 {#map-management-publishing}
     - [맵 콘솔 개요](./user-guide/map-console-overview.md)
     - [맵 콘솔에서 파일 열기](./user-guide/open-files-map-console.md)
+    - 분기 및 병합 {#work-with-branching}
+      - [개요](./user-guide/branching-overview.md)
+      - [분기 만들기 및 관리](./user-guide/create-manage-branch.md)
+      - [분기 병합](./user-guide/merge-branches.md)
     - 보고서 {#reports-aem-guide}
       - [보고서 소개](./user-guide/reports-intro.md)
       - [맵 콘솔의 DITA 맵 보고서](./user-guide/reports-web-editor.md)
@@ -330,7 +338,7 @@ ht-degree: 10%
         - [맵 콘솔에서 기준선 만들기 및 관리](./user-guide/web-editor-baseline.md)
         - [맵 대시보드에서 기준선 만들기 및 관리](./user-guide/generate-output-use-baseline-for-publishing.md)
         - [맵 콘솔에서 새 기준선 만들기 및 관리](./user-guide/web-editor-baseline-v2.md)
-        - [새 기준 마이그레이션 FAQ](./user-guide/new-baseline-migration-faq.md)
+        - [새 기본 마이그레이션 FAQ](./user-guide/new-baseline-migration-faq.md)
       - [글로벌 및 폴더 프로필 출력 사전 설정 관리](./user-guide/web-editor-manage-output-presets.md)
       - [대상 경로, 사이트 이름 또는 파일 이름 옵션 설정에 변수 사용](./user-guide/generate-output-use-variables.md)
       - [DITA-OT를 사용하여 메타데이터를 출력에 전달](./user-guide/pass-metadata-dita-ot.md)
@@ -369,12 +377,15 @@ ht-degree: 10%
     - [Adobe Generative AI 사용자 공개](./user-guide/adobe-generative-ai-disclosures.md)
     - [AI 어시스턴트 개요](./user-guide/ai-assistant.md)
     - 아젠틱 모드의 AI 어시스턴트 {#ai-assistant-agentic}
-      - [에이전트 모드에서 AI Assistant 사용](./user-guide/ai-assistant-agentic.md)
+      - [AI Assistant를 사용하여 콘텐츠 가져오기](./user-guide/import-ai-assistant.md)
+      - [콘텐츠의 첫 번째 초안 만들기](./user-guide/create-ai-assistant.md)
+      - [AI Assistant를 사용한 스마트 태그 지정](./user-guide/ai-assistant-agentic.md)
     - 표준 모드의 AI Assistant {#ai-assistant-standard}
-      - [콘텐츠 검색에 대한 AI 기반 스마트 도움말](./user-guide/ai-based-smart-help.md)
       - [AI Assistant를 사용하여 문서 작성하기](./user-guide/ai-assistant-right-panel.md)
       - [콘텐츠 작성에 대한 AI 기반 스마트 제안](./user-guide/authoring-ai-based-smart-suggestions.md)
       - [FAQ](./user-guide/ai-assistant-faq.md)
+  - AEM Guides의 도움말 도우미 {#help-assistant-aem}
+    - [콘텐츠 검색을 위한 AI 기반 스마트 도움말](./user-guide/ai-based-smart-help.md)
   - 학습 콘텐츠 관리 {#learning-training-content}
     - 시작 안내서 {#get-started}
       - 소개 {#intro-lc}
@@ -563,6 +574,7 @@ ht-degree: 10%
         - [각주에 스타일 적용](./native-pdf/footnote-number-style.md)
         - [기본 PDF에 대한 새 게시 엔진 구성](./native-pdf/conf-new-pdf-engine.md)
       - [기본 PDF 엔진 v2로 작업](./native-pdf/new-pdf-engine.md)
+      - [기본 PDF의 맵 렌더링을 위한 부록 렌더링 구성](./install-conf-guide/conf-appendix-map-ref-native-pdf.md)
       - [Cloud Service의 기본 PDF 게시를 위한 노드 프로세스 구성](./native-pdf/conf-node-options-cs.md)
       - [온-프레미스용 기본 PDF 게시를 위한 JVM 플래그 구성](./native-pdf/conf-jvm-flags-on-prem.md)
     - Cloud Service에 대한 컨텐츠 및 경험 조각 구성 {#conf-content-exp-fragment}

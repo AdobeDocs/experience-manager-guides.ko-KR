@@ -31,14 +31,14 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '541'
 ht-degree: 0%
 ---
 # 레이블 사용 {#id164JBG0M0T1}
 
-Adobe Experience Manager Guides을 사용하면 파일의 다른 버전에 레이블을 추가할 수 있습니다. 이러한 레이블을 사용하여 게시를 위한 기준선에 포함할 버전을 지정할 수 있습니다. 레이블을 사용하여 기준선을 만드는 방법에 대한 자세한 내용은 [기준선으로 작업](generate-output-use-baseline-for-publishing.md#)을 참조하세요.
+Adobe Experience Manager Guides을 사용하면 파일의 다른 버전에 레이블을 추가할 수 있습니다. 버전 레이블을 사용하여 게시할 [기준선](./generate-output-use-baseline-for-publishing.md)에 포함할 항목의 버전을 지정하고 [이미지, 멀티미디어 파일, PDF 및 ZIP 파일과 같은 비 DITA 파일의 버전을 관리](./authoring-file-management.md#work-with-media-and-other-non-dita-files)할 수 있습니다.
 
 예를 들어, *릴리스 1.0*&#x200B;에 있는 주제의 *버전 1.0*&#x200B;과 *릴리스 2.0*&#x200B;에 있는 동일한 주제의 *버전 1.1*&#x200B;을 사용하려면 *버전 1.1*&#x200B;에 있는 *버전 1.0*&#x200B;과 *릴리스 2.0* 레이블에 *릴리스 1.0* 레이블을 추가할 수 있습니다.
 
