@@ -1,9 +1,9 @@
 ---
 title: AI Assistant를 사용하여 주제 및 맵 만들기
 description: AI Assistant를 사용하여 메모, 사양 또는 붙여넣은 콘텐츠에서 새 DITA 주제 및 맵을 작성한 다음 저장하기 전에 검토하는 방법을 알아봅니다.
-source-git-commit: f936d474c6efcea89b244ccd25e03b065a478250
+source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '602'
 ht-degree: 0%
 ---
 
@@ -30,7 +30,7 @@ AI Assistant의 에이전트 모드에서 **만들기** 스킬을 사용하면 �
 
 1. *(선택 사항)* 시작 프롬프트에서 `[file]`을(를) 선택합니다. 초안을 일치시킬 색조가 있는 기존 항목을 선택합니다. 저장소 또는 컬렉션에서 항목을 선택할 수 있습니다. 항목 이름이 프롬프트에서 `[file]`을(를) 대체합니다.
 
-   ![항목을 선택할 파일 자리 표시자를 선택합니다](images/sample-create.png){width="350"}
+   ![항목을 선택할 파일 자리 표시자를 선택합니다](images/sample-create.png){width="650"}
 
 1. **보내기**&#x200B;를 선택합니다.
 
@@ -38,7 +38,7 @@ AI Assistant의 에이전트 모드에서 **만들기** 스킬을 사용하면 �
 
 1. AI Assistant의 후속 질문에 답변하여 콘텐츠 생성에 필요한 세부 사항을 제공합니다.
 
-   ![항목을 선택할 파일 자리 표시자를 선택합니다](images/folder-create.png){width="350"}
+   ![항목을 선택할 파일 자리 표시자를 선택합니다](images/folder-create.png){width="650"}
 
 1. 생성된 항목을 검토하려면 **미리 보기**&#x200B;를 선택하십시오.
 

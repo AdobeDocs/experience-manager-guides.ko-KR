@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 2eb766dc53b23f750dd6eb232ab21025b0c0c46d
+source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
 workflow-type: tm+mt
-source-wordcount: '2804'
+source-wordcount: '2799'
 ht-degree: 0%
 ---
 # Workspace 설정
@@ -55,15 +55,11 @@ ht-degree: 0%
 
 ![](assets/editor-setting-general-agentic.png){width="350"}
 
-- **AI 기능**
+- **AI 기능**: Experience Manager Guides에서 AI Assistant 기능을 활성화하려면 이 기능을 사용하십시오. AI Assistant는 **Agentic** 및 **Standard** 두 가지 모드로 사용할 수 있습니다. 각 라디오 단추를 활성화하여 두 모드 중에서 선택할 수 있습니다.
 
   >[!NOTE]
   >
   > 사용자 환경에서 AI Assistant의 에이전트 모드 기능을 사용하려면 고객 지원 팀에 문의하십시오.
-
-  Experience Manager Guides에서 AI Assistant 기능을 활성화하려면 을 선택합니다. 기능을 비활성화하려면 선택 취소합니다.
-
-  AI Assistant는 **Agentic** 및 **Standard** 두 가지 모드로 사용할 수 있습니다. 각 라디오 단추를 활성화하여 두 모드 중에서 선택할 수 있습니다.
 
   - **Agentic**: 이 옵션을 사용하도록 설정하면 Experience Manager Guides 응용 프로그램의 탐색 모음에서 Agentic AI Assistant에 액세스할 수 있습니다. 스마트 태그 지정 스킬에서 사용하는 분류 네임스페이스를 구성하여 태그 권장 사항을 생성할 수도 있습니다. AI Assistant는 AEM에 정의된 태그를 기반으로 선택한 네임스페이스의 태그만 고려합니다. 자세한 내용은 AI Assistant의 [에이전트 모드](../user-guide/ai-assistant.md#ai-assistant-modes)를 참조하십시오.
 

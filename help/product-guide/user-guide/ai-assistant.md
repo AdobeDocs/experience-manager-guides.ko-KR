@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 082688d62ed871fa52947e5152df35575b622164
+source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '757'
 ht-degree: 0%
 ---
 # AI 어시스턴트
@@ -38,10 +38,6 @@ ht-degree: 0%
 Adobe Experience Manager Guides의 AI Assistant는 콘텐츠 생성, 관리 및 작성 워크플로를 단순화하여 생산성을 향상시키도록 설계된 AI 기반 도구입니다. 아젠틱과 스탠다드, 이렇게 두 가지 모드를 제공합니다. **에이전트 모드**&#x200B;에서 AI Assistant를 사용하면 자연어 상호 작용을 통해 콘텐츠 관련 작업을 수행할 수 있으며 가져오기, 만들기, 스마트 태깅과 같은 기술을 사용하여 콘텐츠 생성, 구성 및 메타데이터 관리를 간소화할 수 있습니다. **표준 모드**&#x200B;에서 AI Assistant는 보다 효율적으로 콘텐츠를 만들고, 다듬고, 관리하는 데 도움이 되는 작성 지원을 제공합니다.
 
 ## AI Assistant 모드
-
->[!NOTE]
->
->사용자 환경에 대해 에이전트 모드에서 AI Assistant를 활성화하려면 고객 지원 팀에 문의하십시오.
 
 AI Assistant는 **Agentic** 및 **Standard** 두 가지 모드로 사용할 수 있습니다. 관리자는 **Workspace 설정**&#x200B;의 **일반** 탭에 있는 **AI 기능** 섹션에서 모드를 선택할 수 있습니다. 편집기의 AI 도우미 패널은 두 모드에서 동일하게 유지되지만, 사용할 수 있는 기능은 다음과 같이 다릅니다.
 
