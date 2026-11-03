@@ -9,9 +9,9 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: f936d474c6efcea89b244ccd25e03b065a478250
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '437'
 ht-degree: 1%
 ---
 
@@ -74,4 +74,4 @@ Agentic 모드에서 AI Assistant를 구성하려면 먼저 조직을 **CX Enter
 
 환경에 대한 구성이 완료되면 고객 지원 팀에 문의하여 에이전트 모드를 활성화하십시오.
 
-사용자의 환경에 대해 에이전트 모드를 활성화한 상태에서 **Workspace 설정**(으)로 이동하여 **AI Assistant** 섹션의 **일반** 탭에서 **에이전트** 토글을 활성화하십시오.
+사용자의 환경에 대해 에이전트 모드를 활성화한 상태에서 **Workspace 설정**(으)로 이동하여 **AI 기능** 섹션의 **일반** 탭에서 **에이전트** 옵션을 활성화하십시오. 자세한 내용은 [Workspace 설정](../install-conf-guide/workspace-settings.md)을 참조하세요.

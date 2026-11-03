@@ -25,9 +25,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '5049'
+source-wordcount: '5098'
 ht-degree: 0%
 ---
 # PDF 템플릿의 구성 요소 {#components-pdf-template}
@@ -87,7 +87,7 @@ PDF 템플릿에는 페이지 레이아웃, 스타일시트, 리소스 및 설�
 
 1. _레이아웃 복제_ 대화 상자에서 페이지 레이아웃의 이름을 입력합니다.
 
-1. **완료**&#x200B;를 클릭합니다.
+1. **완료**를 클릭합니다.
 선택한 페이지 레이아웃의 복사본이 생성되어 페이지 레이아웃 아래에 추가됩니다.
 
 ### 페이지 레이아웃 사용자 지정 {#customize-page-layout}
@@ -139,7 +139,7 @@ CSS 파일이 컨텐츠와 레이아웃에 제공되면 새 스타일시트를 �
 새 스타일을 만들려면 아래 단계를 수행하십시오.
 1. 왼쪽 사이드바를 확장하고 스타일을 만들 템플릿을 두 번 클릭합니다.
 1. **스타일시트** 섹션을 확장합니다. 모든 스타일 옵션이 포함된 **스타일** 패널이 열립니다.
-1. &#x200B;+ 아이콘을 선택하여 새 스타일을 추가합니다.
+1. + 아이콘을 선택하여 새 스타일을 추가합니다.
 
    **스타일 추가** 대화 상자가 열립니다.
 
@@ -210,7 +210,7 @@ Resources 폴더에 자산 파일을 추가하려면 아래 단계를 수행합�
 
 1. 로컬 컴퓨터에서 자산 파일을 찾아보려면 **파일 선택**&#x200B;을 클릭하십시오.
 
-1. **업로드**&#x200B;를 클릭합니다.
+1. **업로드**를 클릭합니다.
 선택한 파일을 가져와서 Resources 폴더 아래에 나열됩니다.
 
 ## 기본 PDF 출력에서 초안 주석 표시 또는 숨기기
@@ -287,14 +287,17 @@ TOC 구조인 홀수 또는 짝수 페이지에서 챕터를 시작하기 위한
   >[!NOTE]
   >
   > **중단 전 텍스트** 또는 **중단 후 텍스트** 필드에서 언어 변수를 사용하는 경우 전체 텍스트가 단일 언어 변수 내에 정의되어 있는지 확인하십시오. 이러한 필드의 언어 변수 외부에 추가된 텍스트나 변수는 렌더링되지 않습니다. 예를 들어, **Text After Break 필드**&#x200B;에서 `${lng:Continued-from-page} %page-num%`과(와) 같은 변수의 조합을 사용하는 대신 필드에서 `${lng:Continued-from-page}`만 사용하고 별도로 `Continued-from-page` 언어 변수의 값을 `Continued-from-page %page-num%`(으)로 설정합니다.
-* **용어집 용어를 용어집 페이지에 연결**: 콘텐츠에 하이퍼링크로 표시하고 용어집 페이지의 용어에 연결하려면 이 옵션을 선택하십시오. 이렇게 하면 독자가 용어집에 정의된 용어의 정의를 빠르게 볼 수 있습니다.
+* **용어집 용어를 용어집 페이지에 연결**: 이 옵션을 사용하여 용어집 용어를 콘텐츠의 하이퍼링크로 표시하고 용어집 페이지의 용어에 연결합니다. 이렇게 하면 독자가 용어집에 정의된 용어의 정의를 빠르게 볼 수 있습니다.
 
   용어집을 하이퍼링크로 변환하려면 다음을 수행해야 합니다.
   * DITA 맵의 **페이지 레이아웃 순서** 탭에서 **용어집**&#x200B;을(를) 사용하도록 설정합니다.
   * 책 맵의 뒷면 문제 페이지에 용어집을 추가합니다.
 
   용어집 페이지를 활성화하지 않으면 콘텐츠의 용어집 용어가 PDF 출력의 하이퍼링크로 변환되지 않습니다.
-  <!--For more information on using table continuation markers, see Use table continuation markers.-->
+
+* **모든 용어집 항목 표시**: 해당 용어가 콘텐츠에서 참조되는지 여부에 관계없이 맵에 정의된 모든 용어집 항목을 포함하려면 이 옵션을 사용합니다. 기본적으로 이 옵션은 비활성화되어 있으며 콘텐츠에 실제로 사용되는 용어집 용어만 용어집 페이지에 포함됩니다.
+
+<!--For more information on using table continuation markers, see Use table continuation markers.-->
 
 ### 페이지 레이아웃 {#page-layouts}
 
@@ -502,11 +505,11 @@ AEM Guides은 다음과 같은 기본 변수를 제공합니다.
 단락 섹션에 `${lng:<variable name>}`을(를) 추가하면 출력의 단락에 있는 상호 참조에 지역화된 텍스트와 페이지 번호가 포함됩니다.\
 예를 들어 다음 스크린샷은 상호 참조된 &quot;View on page 1&quot;(영어) 및 &quot;Einzelheiten finden Sie auf der Seite 1&quot;(독일어)을 보여 줍니다.
 
-<img src="./assets/english-output-corss-reference.png" alt="프라그라에 있는 상호 참조의 영어 출력&quot; width =&quot;800" border="2px">
+<img src="./assets/english-output-corss-reference.png" alt="프라그라에 있는 상호 참조의 영어 출력" width ="800" border="2px">
 
 *영어로 게시할 때 단락 내의 상호 참조입니다.*
 
-<img src="./assets/german-output-corss-reference.png" alt="프라그라에서 상호 참조에 대한 독일어 출력&quot; width =&quot;800" border="2px">
+<img src="./assets/german-output-corss-reference.png" alt="프라그라에서 상호 참조에 대한 독일어 출력" width ="800" border="2px">
 
 *독일어로 게시할 때 단락 내의 상호 참조입니다.*
 

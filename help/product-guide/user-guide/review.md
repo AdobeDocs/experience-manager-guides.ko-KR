@@ -21,9 +21,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '445'
 ht-degree: 0%
 ---
 # 리뷰 소개 {#id1645H6010Q5}
@@ -42,6 +42,8 @@ Adobe Experience Manager Guides에서 *이니시에이터 \(또는 작성자\)*&
 - 검토 대시보드에서 검토할 항목의 업데이트된 버전을 공유합니다.
 
 - 다른 버전의 주제에 대해 공유된 설명에 액세스합니다.
+- 주제에 주석을 추가하여 컨텍스트를 제공하거나 검토자의 주의를 특정 콘텐츠로 유도합니다.
+
 - 특정 검토 작업의 사용자를 댓글이나 댓글에 쉽게 태깅하여 빠른 작업 및 후속 작업을 수행할 수 있습니다. 태그가 지정된 사용자는 AEM 및 이메일 알림을 통해 즉시 알림을 받습니다.
 - 주제 버전을 기준으로 설명을 그룹화하고 필터링합니다.
 

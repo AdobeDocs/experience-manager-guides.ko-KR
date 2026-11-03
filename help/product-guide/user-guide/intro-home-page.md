@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 18996443646923fcf9db06c020ecbdd94b8a9564
+source-git-commit: b98bb66df096e0915c5d3c810b1c4b46d8473add
 workflow-type: tm+mt
-source-wordcount: '2380'
+source-wordcount: '2450'
 ht-degree: 0%
 ---
 # Experience Manager Guides 홈페이지 경험
@@ -46,7 +46,7 @@ Experience Manager Guides 홈 페이지는 다음 섹션으로 나뉩니다.
 >
 > Adobe Experience Manager Guides as a Cloud Service을 사용하는 경우 **AI Assistant**(으)로 레이블이 지정된 추가 기능이 탐색 모음에 표시됩니다.
 
-![](images/aem-home-nav-bar.png)
+![](images/aem-home-nav-bar-new.png)
 
 탐색 모음에서 사용할 수 있는 기능은 다음과 같이 설명되어 있습니다.
 
@@ -60,12 +60,13 @@ Experience Manager Guides 홈 페이지는 다음 섹션으로 나뉩니다.
   >
   > 사용자 환경에서 AI Assistant의 에이전트 모드 기능을 사용하려면 고객 지원 팀에 문의하십시오. 이 기능이 활성화되면 관리자는 Workspace 설정에서 이 기능을 켜거나 끌 수 있습니다. AI Assistant는 한 번에 하나의 모드만 활성화할 수 있습니다(Agentic 또는 Standard).
 
-  - **Agentic**: Adobe CX Enterprise Coworker의 지능적인 Agentic Smart Tagging 기술을 편집기로 가져와 자연스러운 대화형 콘텐츠 태깅을 활성화합니다. 콘텐츠를 분석하고, 관련 태그를 추천하며, 최소한의 노력으로 일관되고 정확한 메타데이터를 적용하는 데 도움이 됩니다. 선택 내용을 확인하기 전에 제안된 태그를 검토하고 적용 또는 거부하도록 선택할 수 있습니다. [에이전트 모드에서 AI Assistant 사용](../user-guide/ai-assistant-agentic.md) 태깅 프로세스를 간소화하여 콘텐츠 구성 및 검색 기능을 개선합니다.
+  - **아젠틱**: AI Assistant의 아젠틱 모드를 사용하면 자연어 상호 작용을 통해 콘텐츠 관련 작업을 수행할 수 있습니다. 채팅 패널에서 요구 사항을 설명할 수 있으며, AI Assistant는 진행 상황을 가시적으로 파악하면서 작업을 계획 및 실행합니다. 디바이스나 콘텐츠 저장소의 PDF, Word 또는 Markdown 파일을 구조화된 주제로 변환하는 가져오기, 요구 사항에 따라 새 주제를 생성하고 색조와 스타일에 대한 기존 콘텐츠를 참조할 수 있는 만들기, 조직의 분류법에 따라 관련 태그를 권장하여 메타데이터 일관성을 향상시키는 스마트 태깅 등의 기술을 지원합니다.
 
-  - **표준**: 스마트 도움말 기능을 통해 생산성을 향상하도록 설계된 강력한 AI 기반 도구입니다. 또한 편집기 인터페이스에서 작업할 때 콘텐츠 재사용 및 최적화를 위한 인텔리전트 제안을 통해 작성 프로세스를 보다 스마트하고 빠르게 만드는 AI Assistant의 스마트 작성 기능을 활용할 수 있습니다.
+  - **표준**: 콘텐츠 재사용 및 최적화를 위한 인텔리전트 제안을 통해 작성 프로세스를 보다 스마트하고 빠르게 할 수 있는 AI Assistant의 스마트 작성 기능을 통해 생산성을 향상시키도록 설계된 강력한 AI 기반 도구입니다.
 
   [AI Assistant](./ai-assistant.md) 기능은 현재 Adobe Experience Manager as Cloud Service에서만 사용할 수 있습니다.
 
+- **도움말 도우미**: Experience Manager Guides의 **도움말 도우미**&#x200B;는 제품 기능, 워크플로 및 문제 해결에 대한 정보를 찾는 데 도움이 되는 AI 기반의 대화식 검색 기능입니다. Experience Manager Guides 설명서를 기반으로 관련 답변을 제공하고, 후속 질문을 지원하며, 추가 참조를 위해 소스 문서에 대한 링크를 포함합니다. 자세한 내용은 [도움말 도우미로 효율성 향상](./ai-based-smart-help.md)을 참조하세요.
 - **개요 섹션 사용자 지정**: 위젯 섹션에서 위젯을 숨기거나 표시할 수 있습니다.
 - **사용 중인 폴더 프로필**: 현재 사용 중인 폴더 프로필을 표시합니다.
 - **추가 작업**: 추가 옵션에 대한 액세스를 제공합니다. 이 버튼을 선택하면 다음 옵션이 있는 메뉴가 열립니다.
@@ -182,7 +183,7 @@ Experience Manager Guides 홈 페이지는 다음 섹션으로 나뉩니다.
 
 >[!NOTE]
 >
->맵 관리와 벌크 게시를 통합 인터페이스로 결합하는 2026.08.0 릴리스부터 Adobe Experience Manager Guides as a Cloud Service의 새로운 맵 컬렉션 기능을 사용할 수 있습니다. 이 기능을 활성화하려면 고객 지원 팀에 문의하십시오.[새 맵 컬렉션을 사용하는 방법에 대해 자세히 알아보세요.](./generate-output-use-new-map-collection-output-generation.md)
+>맵 관리와 벌크 게시를 통합 인터페이스로 결합하는 2026.08.0 릴리스부터 Adobe Experience Manager Guides as a Cloud Service의 새로운 맵 컬렉션 기능을 사용할 수 있습니다. 이 기능을 활성화하려면 고객 지원 팀에 문의하십시오. [새 맵 컬렉션을 사용하는 방법에 대해 자세히 알아보세요.](./generate-output-use-new-map-collection-output-generation.md)
 
 Experience Manager Guides에서는 **컬렉션 매핑**&#x200B;이라는 대시보드를 사용하여 게시할 콘텐츠를 구성할 수 있습니다. 이 기능을 사용하려면 왼쪽 패널에서 **컬렉션 매핑**&#x200B;을 선택하십시오. **Assets UI**&#x200B;의 맵 컬렉션 페이지로 이동하여 [출력 생성에 맵 컬렉션을 사용할 수 있습니다.](./generate-output-use-map-collection-output-generation.md)
 

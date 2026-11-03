@@ -30,9 +30,9 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '5089'
+source-wordcount: '5425'
 ht-degree: 0%
 ---
 # 페이지 레이아웃 디자인 {#design-page-layout}
@@ -200,10 +200,10 @@ PDF 문서에는 일반적으로 다음 섹션이 포함되어 있습니다.
 
       편집을 위해 레이아웃 스타일시트가 열립니다.
 
-   1. **다른 스타일**&#x200B;을 마우스 오른쪽 단추로 클릭하고 **새 스타일**&#x200B;을 선택하세요.
+   1. **다른 스타일**&#x200B;을 마우스 오른쪽 단추로 클릭하고 **새 스타일**을 선택하세요.
       <img src="./assets/stylesheet-other-new-style.png" width="300">
 
-   1. 스타일 추가 팝업에서 **classname**&#x200B;에 **landscape-style**&#x200B;을(를) 입력합니다.
+   1. 스타일 추가 팝업에서 **classname**&#x200B;에 **landscape-style**을(를) 입력합니다.
       <img src="./assets/stylesheet-new-landscape-style.png" width="400">
 
    1. **완료**&#x200B;를 클릭합니다.
@@ -481,6 +481,60 @@ CSS 및 HTML 코드를 직접 사용하는 것을 좋아하는 경우 페이지 
 </p>
 …
 ```
+
+### 맵 메타데이터에서 이미지 추가
+
+동일한 템플릿을 사용하여 여러 맵을 게시하는 경우 템플릿 리소스의 정적 이미지 대신 각 맵에 대해 다른 이미지를 표시할 수 있습니다. 예를 들어 제품이 하나의 템플릿을 공유하고 표지 이미지만 다른 경우 표지 레이아웃에 이미지 자리 표시자를 추가할 수 있습니다. 맵을 게시하면 자리 표시자가 해당 맵의 메타데이터에 정의된 이미지로 바뀝니다. Publishing Map 1은 Map 1에서 정의된 이미지를 보여주며, Publishing Map 2는 Map 2에서 정의된 이미지를 보여준다. 이미지를 확인할 수 없는 경우에는 지정한 자리 표시자 텍스트가 대신 표시됩니다.
+
+북맵의 `<bookmeta>` 요소 또는 DITA 맵의 `<topicmeta>` 요소에서 이미지를 정의할 수 있습니다. `<image>` 요소만 지원됩니다. GIF, JPG, BMP, PNG, SVG 및 TIFF을 포함하여 Experience Manager Guides에서 지원하는 모든 이미지 형식을 사용할 수 있습니다.
+
+맵에서 이미지를 표시하려면 다음을 수행합니다.
+
+1. 다음 예에 표시된 대로 맵에서 이미지를 정의합니다.
+
+   북맵에서 `<bookmeta>` 요소에 이미지를 추가합니다.
+
+   ```xml
+   <bookmeta>
+     <metadata>
+       <data><image href="media/cover.png" id="cover-image"/></data>
+     </metadata>
+   </bookmeta>
+   ```
+
+   DITA 맵에서 `<topicmeta>` 요소에 이미지를 추가합니다.
+
+   ```xml
+   <topicmeta>
+     <data><image href="images/cover.png" id="cover-image"/></data>
+   </topicmeta>
+   ```
+
+   >[!NOTE]
+   >
+   >`<image>` 요소에는 `id` 특성이 있어야 합니다. `id`은(는) 필수이며 맵의 각 이미지에 대해 고유해야 합니다.
+
+1. **출력 템플릿**&#x200B;에서 이미지 자리 표시자를 추가할 페이지 레이아웃(예: 표지 레이아웃)을 엽니다.
+
+1. **추가 옵션**&#x200B;에서 **필드**&#x200B;을(를) 선택하십시오.
+
+1. **메타데이터** 탭에서 **형식 추가**&#x200B;를 선택합니다.
+
+1. 다음 세부 정보를 지정합니다.
+
+   1. **다음 항목의 메타데이터 사용**&#x200B;에서 **콘텐츠 매핑**&#x200B;을 선택합니다.
+   1. 이미지의 XPath 또는 해당 `href` 특성의 XPath를 입력합니다.
+   1. 원하는 형식을 입력합니다.
+   1. 이미지가 확인되지 않을 경우 표시할 자리 표시자 텍스트를 입력합니다.
+   1. **확인**&#x200B;을 선택합니다.
+
+1. (*선택 사항*) **스타일 시트**&#x200B;를 사용하여 이미지에 스타일을 적용하십시오. 이미지 요소에 대해 CSS 스타일이 지원됩니다.
+
+1. PDF 출력을 생성합니다.
+
+>[!NOTE]
+>
+>Assets UI에서 이미지를 업데이트하는 경우 업데이트된 이미지는 다음에 PDF 출력을 생성할 때 사용됩니다.
 
 ## 콘텐츠 영역을 사용하여 작업 {#content-area}
 

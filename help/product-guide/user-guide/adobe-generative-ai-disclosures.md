@@ -14,18 +14,16 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: a96b54b405c93383689c81bcb31e1b95d9d24182
 workflow-type: tm+mt
-source-wordcount: 408
+source-wordcount: '406'
 ht-degree: 2%
-
 ---
-
 # Adobe Experience Manager Guides Generative AI 사용자 공개
 
 Experience Manager Guides AI Assistant 액세스 및 사용에 대한 사용자 지침은 [여기](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)에서 찾을 수 있습니다.
 
-AI Assistant &quot;베타&quot;(&quot;Beta&quot;)를 사용함으로써, 귀하는 Beta 사용이 어떠한 종류의 보증도 없이 &quot;있는 그대로&quot; 제공된다는 것을 인정합니다. Adobe은 Beta을 유지, 수정, 업데이트, 변경, 수정 또는 지원할 의무가 없습니다. 이러한 Beta 및/또는 동봉된 자료의 올바른 기능이나 성능에 어떤 식으로든 의존하지 말고 주의하는 것이 좋습니다. Beta은 Adobe의 기밀 정보로 간주됩니다. Adobe은 제품 개선 및 개발을 위해 Beta에 입력되거나 가져온 프롬프트, 콘텐츠, 데이터 및 기타 자료 및 귀하에게 제공된 응답을 사용할 수 있습니다. 귀하가 Adobe에 제공한 모든 &quot;피드백&quot;(Beta 사용 중 발생하는 문제 또는 결함, 제안, 개선 사항 및 권장 사항을 포함하되 이에 국한되지 않는 Beta 관련 정보)은 이에 따라 해당 피드백에 대한 모든 권한, 제목 및 관심을 포함하여 Adobe에 할당됩니다. 
+AI Assistant를 사용함으로써, 귀하는 Beta 사용이 어떠한 종류의 보증도 없이 &quot;있는 그대로&quot; 제공된다는 것을 인정합니다. Adobe은 Beta을 유지, 수정, 업데이트, 변경, 수정 또는 지원할 의무가 없습니다. 이러한 Beta 및/또는 동봉된 자료의 올바른 기능이나 성능에 어떤 식으로든 의존하지 말고 주의하는 것이 좋습니다. Beta은 Adobe의 기밀 정보로 간주됩니다. Adobe은 제품 개선 및 개발을 위해 Beta에 입력되거나 가져온 프롬프트, 콘텐츠, 데이터 및 기타 자료 및 귀하에게 제공된 응답을 사용할 수 있습니다. 귀하가 Adobe에 제공한 모든 &quot;피드백&quot;(Beta 사용 중 발생하는 문제 또는 결함, 제안, 개선 사항 및 권장 사항을 포함하되 이에 국한되지 않는 Beta 관련 정보)은 이에 따라 해당 피드백에 대한 모든 권한, 제목 및 관심을 포함하여 Adobe에 할당됩니다. 
 
 또한 생성된 출력 및 모든 소스 속성을 평가하기 위해 항상 사용자의 판단을 활용하십시오. Experience Manager Guides 생성 AI 기능은 부정확하거나 오해의 소지가 있는 출력을 생성하거나 Adobe의 관점을 나타내지 않는 콘텐츠를 반영할 수 있는 강력하고 새롭게 등장하는 대형 언어 모델 기술을 기반으로 합니다.
 

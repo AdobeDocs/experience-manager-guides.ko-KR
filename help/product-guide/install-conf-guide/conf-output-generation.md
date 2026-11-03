@@ -22,9 +22,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '3402'
+source-wordcount: '3665'
 ht-degree: 1%
 ---
 # 출력 생성 설정 구성 {#id181AI0B0E30}
@@ -362,11 +362,11 @@ AEM Guides은 맵 콘솔을 사용자 지정할 `apps.fmdita.dashboard-extn` 범
 
 >[!NOTE]
 >
-> AEM 클라이언트 라이브러리를 만드는 방법에 대한 자세한 내용은 [클라이언트측 라이브러리 사용](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=ko)을 참조하십시오.
+> AEM 클라이언트 라이브러리를 만드는 방법에 대한 자세한 내용은 [클라이언트측 라이브러리 사용](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=en)을 참조하십시오.
 
 ## 출력 생성 중 이미지 렌디션 처리 {#id177BF0G0VY4}
 
-AEM에는 자산을 처리하는 기본 워크플로우 및 미디어 핸들 세트가 포함되어 있습니다. AEM에는 가장 일반적인 MIME 유형에 대한 에셋 처리를 처리하는 미리 정의된 워크플로가 있습니다. 일반적으로 AEM은 업로드하는 모든 이미지에 대해 동일한 여러 렌디션을 이진 형식으로 만듭니다. 이러한 렌디션은 크기가 다르고 해상도가 다르며 워터마크가 추가되거나 다른 특성이 변경될 수 있습니다. AEM에서 자산을 처리하는 방법에 대한 자세한 내용은 AEM 설명서에서 [미디어 핸들러 및 워크플로우를 사용하여 Assets 처리](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=ko)를 참조하십시오.
+AEM에는 자산을 처리하는 기본 워크플로우 및 미디어 핸들 세트가 포함되어 있습니다. AEM에는 가장 일반적인 MIME 유형에 대한 에셋 처리를 처리하는 미리 정의된 워크플로가 있습니다. 일반적으로 AEM은 업로드하는 모든 이미지에 대해 동일한 여러 렌디션을 이진 형식으로 만듭니다. 이러한 렌디션은 크기가 다르고 해상도가 다르며 워터마크가 추가되거나 다른 특성이 변경될 수 있습니다. AEM에서 자산을 처리하는 방법에 대한 자세한 내용은 AEM 설명서에서 [미디어 핸들러 및 워크플로우를 사용하여 Assets 처리](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=en)를 참조하십시오.
 
 AEM Guides을 사용하면 문서에 대한 출력을 생성할 때 사용할 이미지 렌디션을 구성할 수 있습니다. 예를 들어 기본 이미지 표현물 중 하나를 선택하거나 표현물을 만들어 이를 사용하여 문서를 게시할 수 있습니다. 문서를 게시하기 위한 이미지 렌디션 매핑은 `/libs/fmdita/config/ **renditionmap.xml**` 파일에 저장됩니다. `renditionmap.xml` 파일의 스니펫은 다음과 같습니다.
 
@@ -423,7 +423,12 @@ AEM Guides을 사용하면 문서에 대한 출력을 생성할 때 사용할 �
 
 `/var/dxml/metadata/outputHistory`
 
-일정 기간 동안 모든 로그 파일의 전체 크기가 GB로 증가할 수 있습니다. AEM Guides을 사용하면 이러한 로그 파일을 저장소에 보관하도록 기간을 구성할 수 있습니다. 지정된 기간이 지나면 출력 생성 기록과 함께 로그가 저장소에서 삭제됩니다.
+일정 기간 동안 모든 로그 파일의 전체 크기가 GB로 증가할 수 있습니다. AEM Guides을 사용하면 로그 및 출력 생성 기록이 저장소에 보관되는 시간을 제어할 수 있습니다. 다음 방법 중 하나로 출력 기록을 유지할 수 있습니다.
+
+- **나이별(기본값):**&#x200B;지정한 일수보다 오래된 항목이 삭제됩니다.
+- **개수별:** 지정한 항목의 가장 최근 수만 각 맵과 사전 설정에 대해 유지됩니다. 오래된 항목은 나이에 관계없이 삭제됩니다.
+
+지우기가 로그와 함께 전체 출력 기록 항목을 제거할지 로그만 제거할지 선택할 수도 있습니다. 로그 없이 항목을 보관하면 저장소 크기를 줄이면서 감사 목적으로 생성된 출력을 기록하는 데 도움이 됩니다.
 
 >[!NOTE]
 >
@@ -431,11 +436,15 @@ AEM Guides을 사용하면 문서에 대한 출력을 생성할 때 사용할 �
 
 기록 지우기 기능을 구성하면 저장소의 모든 DITA 맵에 대한 출력 생성에 영향을 미칩니다. DITA 맵의 출력 탭에서 기록은 지정된 일 수와 설정에 지정된 시간에 삭제됩니다.
 
+
+
 >[!NOTE]
 >
 > 로그 파일 및 출력 생성 기록을 제거해도 생성된 출력에는 영향을 주지 않습니다.
 
-Experience Manager Guides 설정을 기반으로 출력 기록 및 로그를 제거하는 데 하루 및 시간을 설정하는 지침을 제공하는 탭은 Cloud Service 또는 온프레미스입니다.
+Experience Manager Guides 설정을 기반으로 출력 기록 및 로그를 제거하는 방법을 구성하는 지침을 제공하는 탭은 Cloud Service 또는 온프레미스입니다.
+
+![](assets/purging-history-setting.png){width="600"}
 
 >[!BEGINTABS]
 
@@ -445,8 +454,11 @@ Experience Manager Guides 설정을 기반으로 출력 기록 및 로그를 제
 
 | PID | 속성 키 | 속성 값 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager\|output.history.purgeperiod` | 출력 로그와 함께 출력 기록이 삭제되는 일 수를 지정합니다. 이 기능을 사용하지 않으려면 이 속성을 0.Everyday로 설정합니다. 지정된 시간에 이 속성에 지정된 일 수 전에 생성된 출력에서 제거 프로세스가 실행됩니다. | **기본값**: 5 |
-| `output.history.purgetime` | 삭제 프로세스가 시작되는 시간을 지정합니다. | **기본값**: 0:00 \(또는 12:00 자정\) |
+| `com.adobe.fmdita.config.ConfigManager` | `output.history.purgeperiod` | 출력 로그와 함께 출력 기록이 삭제되는 일 수를 지정합니다. 이 기능을 비활성화하려면 이 속성을 0으로 설정합니다. 지정된 시간에 매일 이 속성에 지정된 일 수 전에 생성된 출력에서 제거 프로세스가 실행됩니다. 이 속성은 `output.history.retention.mode`이(가) `AGE`인 경우에만 사용됩니다. **기본값**: `5` |
+| `com.adobe.fmdita.config.ConfigManager` | `output.history.purgetime` | 삭제 프로세스가 시작되는 시간을 지정합니다. 형식: `HH:MM`(예: `15:30`). **기본값**: `0:00`(또는 자정 12:00) |
+| `com.adobe.fmdita.config.ConfigManager` | `output.history.retention.mode` | 출력 기록에 대한 보존 전략을 지정합니다. 가능한 값은 `AGE` 및 `COUNT`입니다. **기본값**: `AGE` |
+| `com.adobe.fmdita.config.ConfigManager` | `output.history.retention.count` | 각 맵과 사전 설정에 대해 유지할 가장 최근 출력 기록 항목의 수를 지정합니다. 양의 정수를 입력합니다. 이 속성은 `output.history.retention.mode`이(가) `COUNT`인 경우에만 사용됩니다. **기본값**: `25` |
+| `com.adobe.fmdita.config.ConfigManager` | `output.history.retention.action` | 두 모드 중 하나에서 보존에 의해 제거되는 출력 기록 항목의 동작을 지정합니다. 가능한 값은 `DELETE_ENTRY` 및 `LOGS_ONLY`입니다. **기본값**: `DELETE_ENTRY` |
 
 >[!TAB 온-프레미스]
 
@@ -460,13 +472,19 @@ Experience Manager Guides 설정을 기반으로 출력 기록 및 로그를 제
 
 1. **com.adobe.fmdita.config.ConfigManager** 번들을 검색하고 클릭합니다.
 
-1. **출력 기록 제거 기간** 속성에서 출력 기록과 함께 출력 로그를 제거하는 기간(일)을 지정합니다. 기본적으로 5일로 설정되어 있습니다. 이 기능을 비활성화하려면 이 속성을 0으로 설정합니다.
+1. **출력 기록 제거 기간** 속성에서 출력 기록과 함께 출력 로그를 제거하는 기간(일)을 지정합니다. 기본적으로 5일로 설정되어 있습니다. 이 기능을 비활성화하려면 이 속성을 0으로 설정합니다. 이 속성은 **출력 기록 보존 모드**&#x200B;가 **AGE**(으)로 설정된 경우에만 사용됩니다.
 
-1. **Output History Purging Time** 속성에서 제거 프로세스를 시작할 시간을 지정합니다. 기본적으로 0:00 \(또는 12:00 자정\)으로 설정됩니다. 매일 이때 제거 프로세스는 **출력 기록 제거 기간** 속성에 지정된 일 수 전에 생성된 출력에서 실행됩니다.
+1. **Output History Purging Time** 속성에서 제거 프로세스를 시작할 시간을 지정합니다. 기본적으로 0:00(또는 자정 12:00)으로 설정됩니다. 매일 이때 제거 프로세스는 **출력 기록 제거 기간** 속성에 지정된 일 수 전에 생성된 출력에서 실행됩니다.
 
    >[!NOTE]
    >
-   > 기본적으로 지우기 기능은 5일 이상 지난 출력에서 자정마다 실행됩니다.
+   >기본적으로 지우기 기능은 5일 이상 지난 출력에서 자정마다 실행됩니다.
+
+1. **출력 기록 보존 모드** 드롭다운 목록에서 보존 전략을 선택합니다. 기본적으로 **AGE**(으)로 설정됩니다. 두 모드는 상호 배타적입니다.
+
+1. **출력 기록 보존 카운트(사전 설정당)** 속성에서 각 맵과 사전 설정에 대해 유지할 가장 최근 출력 기록 항목의 수를 지정합니다. 기본적으로 25로 설정되어 있습니다. 이 속성은 **출력 기록 보존 모드**&#x200B;가 **COUNT**(으)로 설정된 경우에만 사용됩니다.
+
+1. **출력 기록 보존 작업** 드롭다운 목록에서 보존에 의해 제거된 항목에 대해 수행할 작업을 선택합니다. 기본적으로 **DELETE_ENTRY**(으)로 설정되어 있습니다.
 
 1. **저장**&#x200B;을 클릭합니다.
 

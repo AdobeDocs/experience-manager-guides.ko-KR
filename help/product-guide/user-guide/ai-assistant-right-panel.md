@@ -17,12 +17,12 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: ae9ac69745555aa3683e0a6a648f6519377dd6d7
+source-git-commit: 01ef49b5e26c31359559d9849e6726f704393cd7
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1067'
 ht-degree: 0%
 ---
-# AI Assistant(Beta)를 사용하여 문서를 지능적으로 작성
+# AI Assistant를 사용하여 문서를 지능적으로 작성
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ Adobe Experience Manager Guides은 보다 스마트하고 빠르게 작성할 �
 
 >[!NOTE]
 >
-> 이 작성 기능은 DITA 주제에만 사용할 수 있으며 편집기 인터페이스에서만 액세스할 수 있습니다. 홈 페이지 및 맵 콘솔에는 **도움말** 패널만 표시됩니다. 작성 기능에서 사용할 수 있는 옵션은 관리자가 Workspace 설정을 사용하여 폴더 프로필 수준에서 구성합니다.
+> 이 작성 기능은 DITA 주제에만 사용할 수 있으며 편집기 인터페이스에서만 액세스할 수 있습니다. 홈 페이지 및 맵 콘솔에서 을 클릭합니다. 작성 기능에서 사용할 수 있는 옵션은 관리자가 Workspace 설정을 사용하여 폴더 프로필 수준에서 구성합니다.
 
 항목에서 텍스트를 선택한 후 AI Assistant 작업을 수행하도록 선택할 수 있습니다.
 
@@ -41,7 +41,7 @@ Adobe Experience Manager Guides은 보다 스마트하고 빠르게 작성할 �
 ## 재사용 가능한 콘텐츠 제안
 
 
-**재사용 가능한 콘텐츠 제안** ![ai 재사용 가능한 콘텐츠 제안 아이콘 &#x200B;](./images/ai-suggest-reusable-content-icon.svg) 기능을 사용하여 일관되고 정확하게 콘텐츠를 작성합니다. 콘텐츠를 선택할 수 있으며 Experience Manager Guides에서는 저장소의 기존 콘텐츠를 재사용하는 방법에 대한 제안 사항을 제공합니다.
+**재사용 가능한 콘텐츠 제안** ![ai 재사용 가능한 콘텐츠 제안 아이콘 ](./images/ai-suggest-reusable-content-icon.svg) 기능을 사용하여 일관되고 정확하게 콘텐츠를 작성합니다. 콘텐츠를 선택할 수 있으며 Experience Manager Guides에서는 저장소의 기존 콘텐츠를 재사용하는 방법에 대한 제안 사항을 제공합니다.
 [AI 기반의 스마트 제안을 사용하여 콘텐츠를 작성하는 방법](authoring-ai-based-smart-suggestions.md)에 대해 자세히 알아보세요.
 
 

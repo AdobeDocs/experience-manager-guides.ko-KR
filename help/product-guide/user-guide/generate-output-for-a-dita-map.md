@@ -34,9 +34,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '597'
 ht-degree: 0%
 ---
 # 출력 생성
@@ -76,6 +76,9 @@ DITA 맵에 대한 출력을 생성하는 방법에는 두 가지가 있습니�
 >
 > 맵에서 DITAVAL 파일을 사용하는 경우 DITAVAL 파일에서 참조되는 플래그가 지정된 모든 이미지가 출력에서 게시된 맵과 관련된 위치에 복사됩니다.  또한 동일한 맵 내에서 필터링하는 데 여러 DITAVAL 파일을 사용하는 경우 게시하는 동안 파일 이름이 중복되지 않도록 고유한 `.ditaval` 파일 이름을 사용해야 합니다.
 
+**출력 기록** 탭에서 출력 생성 요청의 현재 상태를 볼 수 있습니다. 자세한 내용은 [출력 생성 작업의 상태를 확인](./generate-output-manage-process.md#view-and-manage-output-generation-tasks-from-the-editor)하세요.
+
+
 ## 맵 대시보드에서 DITA 맵에 대한 출력 생성
 
 맵 대시보드를 사용하여 DITA 맵에 대한 출력을 생성하려면 다음 단계를 수행하십시오.
@@ -91,7 +94,7 @@ DITA 맵에 대한 출력을 생성하는 방법에는 두 가지가 있습니�
 1. **생성** 아이콘을 선택하여 출력 생성 프로세스를 시작합니다.
 
 
-**출력** 탭에서 출력 생성 요청의 현재 상태를 볼 수 있습니다. 자세한 내용은 [출력 생성 작업의 상태를 확인](./generate-output-manage-process.md#view-the-status-of-the-output-generation-task)하세요.
+**출력** 탭에서 출력 생성 요청의 현재 상태를 볼 수 있습니다. 자세한 내용은 [출력 생성 작업의 상태를 보기](./generate-output-manage-process.md#view-and-manage-output-generation-tasks-from-the-editor)를 참조하십시오.
 
 >[!IMPORTANT]
 >
@@ -110,4 +113,4 @@ DITA 맵에는 참조, 개념 및 작업과 같은 다양한 주제 유형이 �
 
 
 
-**상위 항목:**&#x200B;[&#x200B;출력 생성](generate-output.md)
+**상위 항목:**[&#x200B;출력 생성](generate-output.md)

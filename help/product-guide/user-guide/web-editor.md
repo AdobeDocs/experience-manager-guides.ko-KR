@@ -21,13 +21,11 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 07f25eacbfa6e22c1de71d9c4012ad1e9b3440a8
+source-git-commit: 607a230b50d4c3025b6b0e91667138099b7a8000
 workflow-type: tm+mt
-source-wordcount: 453
+source-wordcount: '414'
 ht-degree: 0%
-
 ---
-
 # 편집기 소개 {#id181OD0QE05Z}
 
 Experience Manager Guides에는 구조화된 문서를 만들고 편집할 수 있는 사용하기 쉬운 편집기가 포함되어 있습니다. 편집기는 작성기에서 DITA 구조의 모든 복잡성을 숨깁니다. 편집기는 사용자가 일반적으로 문서 내에서 작업하는 데 필요한 DITA 요소 목록을 제공합니다.
@@ -49,21 +47,13 @@ Experience Manager Guides에는 구조화된 문서를 만들고 편집할 수 �
 - UI 및 UX 개선: 작성자 및 미리보기 모드에서 어두운 테마와 풍부한 기본 CSS를 통해 가독성과 시각적 편안함을 개선하여 보다 현대적인 편집 인터페이스를 제공합니다.
 - 중앙 편집기 설정: 태그, 특성, XML 주석, 줄바꿈 없는 공백 및 편집기의 빠른 삽입 메뉴에 대한 제어를 포함하여 작성 환경을 개인화할 수 있는 통합 설정 패널을 제공합니다.
 
-### 새 편집기의 제한 사항
-
-새 편집기는 현재 다음 기능을 지원하지 않습니다. 이러한 기능은 향후 릴리스에 도입될 예정입니다.
-
-- 변경 내용 추적이 활성화된 작성(기존의 추적된 변경 내용은 모두 일반 컨텐츠로 유지 및 처리됨)
-
-
 >[!NOTE]
 >
 >DITA 맵에 대한 레이아웃 보기는 새 편집기에서 지원되지 않습니다.
-
 
 ## 이전 편집기
 
 Experience Manager Guides의 이전 편집기는 구조화된 컨텐츠를 위한 간단하고 안정적인 작성 환경을 제공하여 DITA 1.2, 1.3, 경량 DITA 및 특수화된 DITA와 같은 지원되는 표준을 준수하면서도 DITA의 복잡성을 추상화합니다. 이는 일반적인 블록 및 인라인 요소로 작업하는 데 필요한 도구를 제공하므로 구조화된 프레임워크 내에서 일관되고 통제되는 콘텐츠 생성에 적합합니다.
 
 
-**상위 항목:**&#x200B;[&#x200B; Experience Manager Guides을 사용하여 콘텐츠 작성](authoring-content-xml-doc.md)
+**상위 항목:**[ Experience Manager Guides을 사용하여 콘텐츠 작성](authoring-content-xml-doc.md)

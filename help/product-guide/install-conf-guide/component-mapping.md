@@ -22,9 +22,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1140'
 ht-degree: 0%
 ---
 # AEM Sites에 대한 구성 요소 매핑
@@ -171,9 +171,30 @@ JSON 규칙 배열(`componentmapping.json`)을 사용하여 HTML을 구성 요�
 ]
 ```
 
-대상으로 지정할 요소 및 클래스를 정의하고 `attributeMap`을(를) 사용하여 노드 속성을 설정하고 `path-attributes` 항목을 추가하여 경로를 정규화하고 추출할 값에 대해 올바른 `from`을(를) 선택하십시오. 위에 사용된 `heroimage`은(는) `we-retail` 사이트의 구성 요소입니다.
+대상으로 지정할 요소 및 클래스를 정의하고 `attributeMap`을(를) 사용하여 노드 속성을 설정하고 `path-attributes` 항목을 추가하여 경로를 정규화하고 추출할 값에 대해 올바른 `from`을(를) 선택하십시오. 위에 사용된 `heroimage`은(는) `we-retail` 사이트의 구성 요소입니다.  기본 서식 있는 텍스트에 대해 논의하고 기본 서식 있는 텍스트가 사용되는 요소를 식별하는 것이 중요합니다.
 
-**참고**: 기본 서식 있는 텍스트에 대해 논의하고 이 텍스트가 사용되는 요소를 식별하는 것이 중요합니다.
+
+## 프롤로그 메타데이터를 페이지 헤드에 전파
+
+구성 요소 매핑으로 AEM Sites 출력을 생성하면 작성자, 키워드 및 리소스 ID와 같은 프롤로그 메타데이터가 페이지 헤드 대신 생성된 AEM Sites 페이지의 본문에 추가됩니다.
+
+프롤로그 메타데이터를 출력 페이지의 헤드에 전파하려면 구성 요소 매핑 파일에 다음 매핑을 추가합니다.
+
+```json
+{
+  "name": "div",
+  "class": "prolog",
+  "resourceType": "guides-components/components/prolog",
+  "attributeMap": [
+    {
+      "from": "outerHTML",
+      "to": "prologContent"
+    }
+  ]
+}
+```
+
+이 매핑을 추가하면 생성된 페이지의 헤드에서 프롤로그 메타데이터를 사용할 수 있습니다. 이는 검색 색인화와 같은 사용 사례를 지원합니다.
 
 ## 사용자 지정 구성 요소 빌드
 

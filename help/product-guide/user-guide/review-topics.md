@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 63ae0f947d50646bed34cd815db6b9fb585fc015
 workflow-type: tm+mt
-source-wordcount: '3753'
+source-wordcount: '3746'
 ht-degree: 0%
 ---
 # 주제 검토 {#id2056B0W0FBI}
@@ -235,7 +235,10 @@ ht-degree: 0%
 
 [주석] 패널에는 현재 주제에 지정된 주석 목록이 표시됩니다. 주제가 여러 검토자에게 전송된 경우 이 패널에는 다른 검토자의 주석도 나열됩니다. [주석] 패널의 각 주석은 현재 주제의 해당 텍스트에 연결됩니다. 주석을 단 텍스트를 식별하는 데 도움이 됩니다. 각 주석은 타임스탬프와 함께 주석을 추가한 검토자의 이름을 표시합니다.
 
-주석은 문서에 있는 주석 텍스트 순서대로 표시됩니다. 예를 들어 첫 번째 문장에 강조 표시 주석이 있고 첫 번째 단락의 두 번째 문장에 텍스트 삽입 주석이 있으면 강조 표시 텍스트 주석이 삽입된 텍스트 주석 앞에 표시됩니다.
+>[!NOTE]
+>
+> 검토 개시자는 주제에 주석을 추가하여 추가 컨텍스트를 제공하거나 검토자의 주의를 특정 콘텐츠로 끌 수도 있습니다. 이러한 댓글은 다른 검토자의 댓글과 함께 **댓글** 패널에 표시됩니다. 자세한 내용은 [검토자를 위한 댓글 추가](./review-send-topics-for-review.md#add-comments-for-reviewers)를 참조하세요.
+
 
 설명 패널을 사용하여 수행할 수 있는 작업은 아래에 설명되어 있습니다.
 
@@ -443,4 +446,4 @@ ht-degree: 0%
 
 ![](images/version-history-dialog.png)
 
-**상위 항목:**&#x200B;[&#x200B;검토 소개](review.md)
+**상위 항목:**[&#x200B;검토 소개](review.md)

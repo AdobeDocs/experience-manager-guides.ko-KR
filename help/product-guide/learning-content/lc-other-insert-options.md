@@ -19,9 +19,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 2fcdb485f7527b5ffdfe1d42ed3d9bbdd576ce7a
+source-git-commit: ab188ec25b60920cf4055bc21e21634a811bb20a
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '672'
 ht-degree: 0%
 ---
 # 삽입 메뉴의 기타 옵션
@@ -59,7 +59,8 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  > Adobe Experience Manager Guides 내에서는 H5P 콘텐츠를 편집하거나 만들 수 없습니다. 업로드하기 전에 외부에서 H5P 패키지를 준비합니다.
+  > - Adobe Experience Manager Guides 내에서는 H5P 콘텐츠를 편집하거나 만들 수 없습니다. 업로드하기 전에 외부에서 H5P 패키지를 준비합니다.
+  > - 여러 H5P 파일이 포함된 강의는 각 파일에 대해 복제하지 않고 공유 리소스를 사용합니다. 이렇게 하면 패키지 크기가 줄어들고 H5P가 많은 강좌의 강의 생성 및 게시가 빨라집니다.
 
   ![](assets/h5p-fullscreen.png)
 

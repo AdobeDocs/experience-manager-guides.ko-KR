@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '11296'
+source-wordcount: '11329'
 ht-degree: 0%
 ---
 # 편집기의 왼쪽 패널
@@ -202,7 +202,7 @@ DAM 내에서 필요한 파일로 이동하여 편집기에서 열 수 있습니
 - **DITA 파일**: 선택한 경로에 있는 모든 **DITA 주제** 및 **DITA 맵**&#x200B;을(를) 찾을 수 있습니다. 기본적으로 선택되어 있습니다.
 - **DITA가 아닌 파일**: 선택한 경로에서 **Ditaval 파일**, **이미지 파일**, **멀티미디어**, **문서** 및 **JSON**&#x200B;을 검색할 수 있습니다.
 
-  ![빠른 검색 필터 &#x200B;](images/repository-filter-search-quick.png) {width="300"}
+  ![빠른 검색 필터 ](images/repository-filter-search-quick.png) {width="300"}
 
   *빠른 필터를 사용하여 DITA 및 비 DITA 파일을 검색합니다.*
 
@@ -859,7 +859,8 @@ Experience Manager Guides을 사용하면 용어집 유형 문서를 손쉽게 �
 
 >[!NOTE]
 >
-> 를 입력하여 새 그룹을 생성하거나 특정 속성에 대한 기존 그룹을 선택합니다.
+> - 를 입력하여 새 그룹을 생성하거나 특정 속성에 대한 기존 그룹을 선택합니다.
+> - 조건 패널의 조건은 값이 아닌 레이블을 기준으로 알파벳순으로 정렬됩니다. 해당 값에 관계없이 조건에 지정된 레이블에 따라 정렬 순서가 결정됩니다.
 
 `/`을(를) 사용하고 `AEM Guides/Cloud Service` 같은 하위 그룹을 정의할 수 있습니다.
 
@@ -1413,4 +1414,4 @@ Experience Manager Guides은 프로젝트의 모든 검토 작업을 표시하�
 
 </details>
 
-**상위 항목:**&#x200B;[&#x200B;편집기 소개](web-editor.md)
+**상위 항목:**[&#x200B;편집기 소개](web-editor.md)
