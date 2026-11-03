@@ -95,7 +95,7 @@ Adobe CX Enterprise Coworker을 통해 AI Assistant의 에이전트 모드에서
 
      ![Agentic AI 길잡이 일괄 태그 지정](images/ai-map-selection.png){width="650"}
 
-1. **보내기**를 선택합니다.
+1. **보내기**&#x200B;를 선택합니다.
 선택한 맵에 여러 주제가 포함되어 있음을 나타내는 메시지가 표시됩니다. 태그를 추천할 주제를 선택하려면 **주제 선택**&#x200B;을 선택하십시오.
 
    항목을 선택하는 동안 ![Agentic AI Assistant 벌크 태그 지정](images/ai-select-topics.png){width="650"}

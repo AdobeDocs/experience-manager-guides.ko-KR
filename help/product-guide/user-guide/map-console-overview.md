@@ -67,7 +67,7 @@ Adobe Experience Manager Guides은 모든 맵 관리 및 게시 작업을 간소
   >
   > Adobe Experience Manager Guides as a Cloud Service을 사용하는 경우 탐색 모음에 추가 기능 [AI Assistant](./ai-assistant.md)이(가) 표시됩니다.
 
-- (**B**) **왼쪽 패널**: 왼쪽 패널을 사용하면 [출력 생성], [출력 기록], [보고서 만들기 및 관리], [기준], [조건 사전 설정], [컨텐츠 번역] 및 [Workfront](구성된 경우에만) 기능에 빠르게 액세스할 수 있습니다.
+- (**B**) **왼쪽 패널**: 왼쪽 패널을 사용하면 [출력 생성], [출력 기록], [보고서 만들기 및 관리], [기준], [조건 사전 설정], [컨텐츠 번역] 및 [Workfront] (구성된 경우에만) 기능에 빠르게 액세스할 수 있습니다.
 
   자세한 내용은 아래의 [콘솔 기능 매핑](#map-console-features) 섹션을 참조하십시오.
 

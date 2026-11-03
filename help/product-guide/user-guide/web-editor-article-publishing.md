@@ -55,7 +55,7 @@ DITA 맵의 일부 주제에 대해서만 콘텐츠를 업데이트한 경우 �
 1. 맨 위에 있는 **출력 생성**&#x200B;을 선택하여 출력을 생성합니다.
 1. **게시할 파일 확인** 프롬프트에서 게시할 파일을 선택하고 **게시**&#x200B;를 선택하여 확인합니다.
 
-   ![새 ](images/knowledge-base-confirm-files-for-publishing.png)
+   ![새 &#x200B;](images/knowledge-base-confirm-files-for-publishing.png)
 
    출력 생성 프로세스의 상태를 볼 수 있습니다. **주제** 열에는 출력이 생성되는 주제가 나열되며 **상태** 열에는 각 주제의 게시 상태가 표시됩니다.
 
@@ -113,4 +113,4 @@ Experience Manager Guides as Cloud Service의 2026.11.0 릴리스부터 향상�
 Experience Manager Guides에서 새로 고침 토큰 지원을 활성화하면 PKCE가 자동으로 지원됩니다. 하지만 인증이 제대로 작동하려면 Salesforce에서도 해당 설정을 활성화해야 합니다.
 
 
-**상위 항목:**[&#x200B;편집기 작업](web-editor.md)
+**상위 항목:**&#x200B;[&#x200B;편집기 작업](web-editor.md)

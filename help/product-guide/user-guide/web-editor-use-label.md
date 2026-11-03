@@ -104,4 +104,4 @@ Assets UI에서 주제에 레이블을 추가하려면 다음 단계를 수행�
 ![](images/delete-labels.png){width="300"}
 
 
-**상위 항목:**[&#x200B;편집기 소개](web-editor.md)
+**상위 항목:**&#x200B;[&#x200B;편집기 소개](web-editor.md)

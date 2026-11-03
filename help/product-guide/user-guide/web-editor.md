@@ -56,4 +56,4 @@ Experience Manager Guides에는 구조화된 문서를 만들고 편집할 수 �
 Experience Manager Guides의 이전 편집기는 구조화된 컨텐츠를 위한 간단하고 안정적인 작성 환경을 제공하여 DITA 1.2, 1.3, 경량 DITA 및 특수화된 DITA와 같은 지원되는 표준을 준수하면서도 DITA의 복잡성을 추상화합니다. 이는 일반적인 블록 및 인라인 요소로 작업하는 데 필요한 도구를 제공하므로 구조화된 프레임워크 내에서 일관되고 통제되는 콘텐츠 생성에 적합합니다.
 
 
-**상위 항목:**[ Experience Manager Guides을 사용하여 콘텐츠 작성](authoring-content-xml-doc.md)
+**상위 항목:**&#x200B;[&#x200B; Experience Manager Guides을 사용하여 콘텐츠 작성](authoring-content-xml-doc.md)
