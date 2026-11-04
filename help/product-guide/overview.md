@@ -43,7 +43,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 3c8ea4a0644121e4eb87877aeb6f9140fc365cc1
+source-git-commit: 30cc2448fbc386901ec2a71f4d226ca3b01d905e
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 5%
@@ -184,7 +184,7 @@ AEM Sites, PDF, HTML5, EPUB, JSON 및 기타 형식을 통해 출력을 구성�
 
 **AEM Guides의 새로운 기능**
 
-Experience Manager Guides 최신 릴리스에 도입된 새로운 기능과 향상된 기능을 살펴보십시오.
+최신 Experience Manager Guides 릴리스인 2026.11.0에 도입된 새로운 기능과 향상된 기능을 살펴보십시오.
 
 - 맵 수준 분기 및 병합
 - AI Assistant에서 컨텐츠 생성 및 가져오기
@@ -215,10 +215,10 @@ Cloud 및 On-Premise 배포에 대한 최신 릴리스 정보와 제품 업데�
 
 유용한 리소스, 설명서 및 지원에 액세스하여 플랫폼을 최대한 활용할 수 있습니다.
 
-* [GitHub 저장소](https://github.com/AdobeDocs/experience-manager-guides.ko-KR){target="_blank"}
-* [지원](https://experienceleague.adobe.com/support/v2/en/?lang=ko){target="_blank"}
-* [비디오 자습서](https://experienceleague.adobe.com/ko/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
-* [AEM Guides 커뮤니티](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?lang=ko){target="_blank"}
+* [GitHub 저장소](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [지원](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [비디오 자습서](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [AEM Guides 커뮤니티](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
 
 </td>
 </tr>
