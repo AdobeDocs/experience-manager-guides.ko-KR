@@ -1,7 +1,6 @@
 ---
-title: Experience Manager Guides용 자습서
-description: 'Experience Manager Guides(이전 명칭: Adobe Experience Manager용 XML Documentation)에 대한 튜토리얼 비디오를 확인하십시오. Experience Manager의 기본 DITA 지원 및 구조화된 작성에 대해 알아봅니다.'
-exl-id: 06dd1b77-1a98-430f-8322-475d4fa4947b
+title: Experience Manager Guides 설명서
+description: Adobe Experience Manager Guides에 대한 설명서를 찾습니다. Experience Manager의 기본 DITA 지원, 구조화된 작성 및 다중 채널 게시에 대해 알아봅니다.
 feature: AEM Guides Tutorials
 role: User
 TQID: 'https://experienceleague.adobe.com/S4wTM-7gfU7D-JfKVbb9nK3qoQIG6PdiY7jtpsc6kDs'
@@ -44,41 +43,190 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: c578f56f0aa976ea4421e4317e4c86dedfc5a700
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 10%
+source-wordcount: '328'
+ht-degree: 6%
 ---
 # Experience Manager Guides 설명서
 
-[!DNL Experience Manager Guides]은(는) 강력한 엔터프라이즈급 CCMS(구성 요소 콘텐츠 관리 솔루션)입니다. Experience Manager의 기본 DITA 지원을 활성화하여 AEM에서 DITA 기반 콘텐츠 생성 및 전달을 처리할 수 있도록 촉진합니다. 작성자는 Adobe FrameMaker 또는 사용하기 쉬운 기본 편집기 등의 오프라인 DITA 작성 도구를 사용하여 컨텐츠를 만들 수 있습니다.
+Experience Manager Guides은 구조화된 작성, 다중 채널 게시 및 컨텐츠 수명주기 관리를 위한 기본 DITA 지원을 제공하는 엔터프라이즈급 CCMS입니다.
 
-[!DNL Experience Manager Guides] 솔루션은 공동 작업, 검토, 번역, 검색 및 DITA 콘텐츠에 대한 보고서와 같은 모든 핵심 CCMS 기능을 제공하므로 작성자는 효율적인 콘텐츠 재사용 및 강력한 워크플로를 통해 더 짧은 시간에 더 많은 작업을 수행할 수 있습니다. 또한 사용자는 동급 최고의 단일 클릭 게시 기능을 활용하여 가장 많이 사용되는 형식(Experience Manager Sites, PDF, HTML5, EPUB, JSON 및 DITA-OT를 통한 사용자 지정 출력)에 대한 DITA 기반 출력을 생성할 수 있습니다.
+**배포:** [!BADGE Cloud Service]{type=Positive} [!BADGE 온-프레미스]{type=Informative}
 
-[!DNL Experience Manager Guides] 솔루션을 통해 기업은 최종 사용자에게 원활하고 개인화된 경험을 제공하고 사전 판매 및 사후 판매 콘텐츠의 일관성과 일관성을 확보할 수 있습니다. 컨텐츠 무결성을 완벽하게 제어할 수 있습니다. 또한 현지화 시간과 비용도 크게 줄어듭니다.
+## 역할로 시작
 
->[!NOTE]
-> 
-> Adobe Experience Manager Guides은 이전에 _Adobe Experience Manager용 XML Documentation_ 브랜드로 지정되었습니다. 설명서 내의 특정 참조는 이전 브랜딩을 계속 참조할 수 있지만 현재 제공에 여전히 적용할 수 있습니다.
+::::landing-cards-container
+:::card
+![관리자 아이콘](../assets/admin.png)
 
-## 새로운 기능
+관리자
 
-* **[[!DNL Experience Manager Guides] 과정 시작](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/getting-started/overview.html?lang=ko){target="blank"}**
+폴더 프로필, 권한, 워크플로 설정 및 출력 템플릿을 구성합니다.
 
-  _[!DNL Adobe Experience Manager Guides]을(를) 사용하여 콘텐츠를 만들고, 구성하고, 작성하고, 게시하는 방법에 대해 알아봅니다._
+[관리 안내서](./install-conf-guide/introduction.md)
+:::
 
-* **[[!DNL Experience Manager Guides] 기본 제공 편집기에서 작성](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=ko){target="blank"}**
+:::card
+![작성자 아이콘](../assets/author.png)
 
-  _[!DNL Adobe Experience Manager Guides]에서 기본 편집기를 사용하여 콘텐츠를 작성하는 방법에 대해 알아봅니다. 사용자 환경 설정, 편집기 설정, 구성, 도구 모음 등을 완벽하게 이해합니다._
+작성자
 
-* **[출력 생성( [!DNL Experience Manager Guides]](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/overview.html?lang=ko){target="blank"}**)
+DITA 주제, 맵, 콘텐츠 재사용 및 검토 워크플로우를 만들고 관리합니다.
 
-  _[!DNL Adobe Experience Manager Guides]을(를) 사용하여 출력을 생성하는 방법에 대해 알아봅니다. 보고서, 기준선, 조건, 문제 해결, 벌크 게시 및 활성화와 같이 출력 생성에 사용할 수 있는 다양한 기능에 대해 알아봅니다._
+[작성 개요](./user-guide/authoring-content.md)
+:::
+
+:::card
+![게시자 아이콘](../assets/publisher.png)
+
+게시자
+
+출력 사전 설정을 설정하고, 기준선을 관리하고, 채널 간에 출력을 생성합니다.
+
+[맵 관리 및 게시](./user-guide/map-console-overview.md)
+:::
+
+::::
+
+<!--
+:::card
+![Architects icon](./user-guide/images/architect.svg)
+
+Architects
+
+Design DITA specializations, schemas, and content architecture for your implementation.
+
+[DITA specialization](./install-conf-guide/dita-ot-specialization.md)
+:::
+
+::::
+-->
+
+## 기능 영역별 탐색
+
+<!-- Author note: Six cards wrap to two rows of three in production. The landing-cards-container component is in beta — verify rendering in production before publishing. -->
+
+::::landing-cards-container
+
+:::card
+![작성 아이콘](../assets/authoring.png)
+
+작성
+
+웹 편집기, FrameMaker 통합, 재사용 가능한 콘텐츠 및 검토 주기.
+
+[콘텐츠 작성](./user-guide/web-editor.md)
+:::
+
+:::card
+![검토 아이콘](../assets/review.png)
+
+검토
+
+항목을 검토하고, 검토 작업을 관리하고, 알림을 검토합니다.
+
+[리뷰 소개](./user-guide/review.md)
+:::
+
+:::card
+![게시 아이콘](../assets/publishing.png)
+
+게시
+
+PDF, AEM Sites, HTML5, EPUB 및 JSON 출력 유형.
+
+[콘텐츠 게시](./user-guide/generate-output.md)
+:::
+
+:::card
+![번역 아이콘](../assets/translation.png)
+
+번역
+
+다국어 콘텐츠를 위한 사람 및 기계 번역 워크플로.
+
+[콘텐츠 번역](./user-guide/translation.md)
+:::
+
+:::card
+![보고서 아이콘](../assets/reports.png)
+
+보고서
+
+주제 목록, 멀티미디어, 끊어진 링크 및 메타데이터 보고서.
+
+[보고서 생성](./user-guide/reports-intro.md)
+:::
+
+:::card
+![구성 아이콘](../assets/configure.png)
+
+구성
+
+폴더 프로파일, DITA-OT 사용자 정의 및 출력 템플릿.
+
+[폴더 프로필 구성](./install-conf-guide/conf-profiles.md)
+:::
+
+::::
 
 
-## 추가 리소스
+## 빠른 링크
 
-* [[!DNL Experience Manager Guides] 사용 안내서(이전 UI)](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
-* [[!DNL AEM Guides] 학습 및 지원](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
-* [Experience League - AEM 살펴보기](https://business.adobe.com/kr/products/experience-manager/adobe-experience-manager.html)
+>[!BEGINSHADEBOX]
+
+<table>
+<tr style="border: 0;">
+<td>
+
+![새로운 기능](../assets/whats-new-git-connector.svg)
+
+**AEM Guides의 새로운 기능**
+
+Experience Manager Guides 최신 릴리스에 도입된 새로운 기능과 향상된 기능을 살펴보십시오.
+
+- AI Assistant의 AI 기반 스마트 태그 지정
+- 검토 작업에서 완료로 주제 표시
+- 학습 콘텐츠 개선 사항
+
+[모두 탐색](../../help/product-guide/release-info/whats-new-2026-09-0.md)
+
+</td>
+<td>
+
+![릴리스 정보](../assets/whats-new-map-collection.svg)
+
+**릴리스 정보**
+
+Cloud 및 On-Premise 배포에 대한 최신 릴리스 정보와 제품 업데이트를 살펴보십시오.
+
+- 클라우드 릴리스 | [릴리스 정보 보기](./release-info/latest-release-info-cs.md)
+- On-Premise 릴리스 | [릴리스 정보 보기](./release-info/latest-release-info.md)
+
+[릴리스 로드맵 보기](./release-info/aem-guides-releases-roadmap.md)
+
+</td>
+<td>
+
+![학습 및 지원](../assets/whats-new-delegate-review.svg)
+
+**학습 및 지원**
+
+유용한 리소스, 설명서 및 지원에 액세스하여 플랫폼을 최대한 활용할 수 있습니다.
+
+* [GitHub 저장소](https://github.com/AdobeDocs/experience-manager-guides.ko-KR){target="_blank"}
+* [지원](https://experienceleague.adobe.com/support/v2/en/?lang=ko){target="_blank"}
+* [비디오 자습서](https://experienceleague.adobe.com/ko/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [AEM Guides 커뮤니티](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?lang=ko){target="_blank"}
+
+</td>
+</tr>
+</table>
+
+>[!ENDSHADEBOX]
+
+
+
+
 
