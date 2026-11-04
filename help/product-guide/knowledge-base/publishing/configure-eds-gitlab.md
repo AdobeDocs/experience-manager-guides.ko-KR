@@ -4,9 +4,9 @@ description: GitLab 저장소를 구성하고, 토큰, Cloud Manager에 액세�
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: e5721ff1d6e2322213ac7bc988fb1d7e721cd148
+source-git-commit: 380089cbcfc56b23a9cb494d49c0e39e1813eabd
 workflow-type: tm+mt
-source-wordcount: '1256'
+source-wordcount: '1217'
 ht-degree: 3%
 ---
 
@@ -27,20 +27,9 @@ GitLab을 사용하여 Experience Manager Guides에서 Edge Delivery Services(ED
 - Cloud Manager API 통합을 만들려면 Adobe 조직의 시스템 관리자 또는 API 개발자 역할입니다.
 - 구성 서비스에 등록된 `aem.live` 조직입니다. 자세한 내용은 [구성 서비스 설정](https://www.aem.live/docs/config-service-setup)을 참조하세요.
 
-## 구성 시퀀스
+## Edge Delivery Services용 GitLab 구성
 
-1. [GitHub를 사용하여 EDS 사이트 만들기](#1-create-the-eds-site-using-github)
-2. [GitLab 저장소 만들기](#2-create-the-gitlab-repository)
-3. [마운트 지점 URL 구성](#3-configure-the-mountpoint-url)
-4. [GitLab 액세스 토큰 만들기](#4-create-gitlab-access-tokens)
-5. [Cloud Manager에 GitLab 저장소 추가](#5-add-the-gitlab-repository-to-cloud-manager)
-6. [Cloud Manager API 키 생성](#6-generate-a-cloud-manager-api-key)
-7. [GitLab 웹후크 구성](#7-configure-the-gitlab-webhook)
-8. [Cloud Manager에 EDS 사이트 추가](#8-add-the-eds-site-to-cloud-manager)
-9. [Bring Your Own Git 을 사용하여 저장소 연결](#9-connect-the-repository-using-bring-your-own-git)
-10. [Cloud Manager을 사용하도록 EDS 사이트 구성](#10-configure-the-eds-site-to-use-cloud-manager)
-11. [동기화 및 확인](#11-sync-and-verify)
-12. [Experience Manager Guides에서 게시](#12-publish-from-experience-manager-guides)
+Edge Delivery Services에서 사용할 GitLab을 구성하려면 지정된 시퀀스에서 다음 단계를 수행하여 적절한 설정 및 통합을 보장합니다.
 
 ### &#x200B;1. GitHub를 사용하여 EDS 사이트 만들기
 
