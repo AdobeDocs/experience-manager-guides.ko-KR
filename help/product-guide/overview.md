@@ -43,10 +43,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: c6381f6d58f64bed575966423685b63971834d66
+source-git-commit: 3c8ea4a0644121e4eb87877aeb6f9140fc365cc1
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 6%
+source-wordcount: '349'
+ht-degree: 5%
 ---
 # Experience Manager Guides 설명서
 
@@ -114,7 +114,7 @@ Design DITA specializations, schemas, and content architecture for your implemen
 
 작성
 
-웹 편집기, FrameMaker 통합, 재사용 가능한 콘텐츠 및 검토 주기.
+편집기 및 DITA 작성 기능을 사용하여 구조화된 콘텐츠를 만들고 편집합니다.
 
 [콘텐츠 작성](./user-guide/web-editor.md)
 :::
@@ -124,7 +124,7 @@ Design DITA specializations, schemas, and content architecture for your implemen
 
 검토
 
-항목을 검토하고, 검토 작업을 관리하고, 알림을 검토합니다.
+검토 작업을 만들고 관리하며 피드백에 대해 공동 작업하고 검토 의견을 해결합니다.
 
 [리뷰 소개](./user-guide/review.md)
 :::
@@ -134,7 +134,7 @@ Design DITA specializations, schemas, and content architecture for your implemen
 
 게시
 
-PDF, AEM Sites, HTML5, EPUB 및 JSON 출력 유형.
+AEM Sites, PDF, HTML5, EPUB, JSON 및 기타 형식을 통해 출력을 구성하고 생성합니다.
 
 [콘텐츠 게시](./user-guide/generate-output.md)
 :::
@@ -144,7 +144,7 @@ PDF, AEM Sites, HTML5, EPUB 및 JSON 출력 유형.
 
 번역
 
-다국어 콘텐츠를 위한 사람 및 기계 번역 워크플로.
+사람 번역 또는 기계 번역 워크플로를 사용하여 콘텐츠를 번역하고 번역 상태를 추적합니다.
 
 [콘텐츠 번역](./user-guide/translation.md)
 :::
@@ -154,7 +154,7 @@ PDF, AEM Sites, HTML5, EPUB 및 JSON 출력 유형.
 
 보고서
 
-주제 목록, 멀티미디어, 끊어진 링크 및 메타데이터 보고서.
+컨텐츠 상태 평가, 메타데이터 관리, 끊어진 링크 식별 및 컨텐츠 재사용 분석
 
 [보고서 생성](./user-guide/reports-intro.md)
 :::
@@ -164,7 +164,7 @@ PDF, AEM Sites, HTML5, EPUB 및 JSON 출력 유형.
 
 구성
 
-폴더 프로파일, DITA-OT 사용자 정의 및 출력 템플릿.
+프로필, 템플릿, 조건부 속성, 출력 사전 설정 및 편집기 설정을 구성합니다.
 
 [폴더 프로필 구성](./install-conf-guide/conf-profiles.md)
 :::
@@ -172,7 +172,7 @@ PDF, AEM Sites, HTML5, EPUB 및 JSON 출력 유형.
 ::::
 
 
-## 빠른 링크
+## 리소스 및 업데이트
 
 >[!BEGINSHADEBOX]
 
@@ -215,10 +215,10 @@ Cloud 및 On-Premise 배포에 대한 최신 릴리스 정보와 제품 업데�
 
 유용한 리소스, 설명서 및 지원에 액세스하여 플랫폼을 최대한 활용할 수 있습니다.
 
-* [GitHub 저장소](https://github.com/AdobeDocs/experience-manager-guides.ko-KR){target="_blank"}
-* [지원](https://experienceleague.adobe.com/support/v2/en/?lang=ko){target="_blank"}
-* [비디오 자습서](https://experienceleague.adobe.com/ko/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
-* [AEM Guides 커뮤니티](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?lang=ko){target="_blank"}
+* [GitHub 저장소](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [지원](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [비디오 자습서](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [AEM Guides 커뮤니티](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
 
 </td>
 </tr>
