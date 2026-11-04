@@ -4,7 +4,7 @@ description: GitLab 저장소를 구성하고, 토큰, Cloud Manager에 액세�
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: e5721ff1d6e2322213ac7bc988fb1d7e721cd148
+source-git-commit: 97620587a9e736e0886ea4d7158af330814e6392
 workflow-type: tm+mt
 source-wordcount: '1256'
 ht-degree: 3%
@@ -29,7 +29,7 @@ GitLab을 사용하여 Experience Manager Guides에서 Edge Delivery Services(ED
 
 ## 구성 시퀀스
 
-1. [GitHub를 사용하여 EDS 사이트 만들기](#1-create-the-eds-site-using-github)
+1. [GitHub를 사용하여 EDS 사이트 만들기](#1-create-the-eds-site-using-github-create-eds-site)
 2. [GitLab 저장소 만들기](#2-create-the-gitlab-repository)
 3. [마운트 지점 URL 구성](#3-configure-the-mountpoint-url)
 4. [GitLab 액세스 토큰 만들기](#4-create-gitlab-access-tokens)
@@ -42,7 +42,7 @@ GitLab을 사용하여 Experience Manager Guides에서 Edge Delivery Services(ED
 11. [동기화 및 확인](#11-sync-and-verify)
 12. [Experience Manager Guides에서 게시](#12-publish-from-experience-manager-guides)
 
-### &#x200B;1. GitHub를 사용하여 EDS 사이트 만들기
+### &#x200B;1. GitHub를 사용하여 EDS 사이트 만들기 {#create-eds-site}
 
 AEM Guides 보일러판에서 GitHub 리포지토리를 만들고 AEM 코드 동기화 앱을 설치합니다. 나중에 생성된 **Live URL**(`https://<branch>--<github-repo>--<github-username>.aem.live`)을(를) 저장합니다.
 
@@ -78,18 +78,18 @@ https://<worker URL>/gitlab/<git acc domain>/<git username>/<git repo>/main/docs
 
 다음에 필요한 액세스 토큰 만들기:
 
-- **Cloud Manager**: 리포지토리의 유효성을 검사하고 액세스합니다. 자세한 내용은 [Cloud Manager에서 외부 저장소 추가](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-manager/content/managing-code/external-repositories)를 참조하세요.
+- **Cloud Manager**: 리포지토리의 유효성을 검사하고 액세스합니다. 자세한 내용은 [Cloud Manager에서 외부 저장소 추가](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/managing-code/external-repositories)를 참조하세요.
 - 게시된 출력을 커밋할 **Experience Manager Guides 게시 프로필**. **개발자** 역할 및 `api` 범위를 사용하여 GitLab 프로젝트 액세스 토큰을 만듭니다. 자세한 내용은 [GitLab 설명서](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html)를 참조하세요.
 
 >[!NOTE]
 >
-> 토큰이 만료되기 전에 갱신합니다. 게시 프로필의 토큰이 만료된 경우 게시가 실패합니다. Cloud Manager에서 사용하는 토큰을 업데이트하려면 [외부 저장소에 대한 액세스 토큰 관리](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-manager/content/managing-code/manage-access-tokens)를 참조하십시오.
+> 토큰이 만료되기 전에 갱신합니다. 게시 프로필의 토큰이 만료된 경우 게시가 실패합니다. Cloud Manager에서 사용하는 토큰을 업데이트하려면 [외부 저장소에 대한 액세스 토큰 관리](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/managing-code/manage-access-tokens)를 참조하십시오.
 
 ### &#x200B;5. Cloud Manager에 GitLab 저장소 추가
 
 Cloud Manager에서 **저장소** > **저장소 추가**(으)로 이동하고 **개인 저장소**&#x200B;를 선택한 다음 액세스 토큰을 사용하여 소유권을 확인합니다. 저장소 상태가 **준비**&#x200B;가 될 때까지 기다리십시오. BYOG 옵션은 최소 하나 이상의 외부 저장소가 준비된 후에만 사용할 수 있습니다.
 
-단계는 [Cloud Manager에서 외부 저장소 추가](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-manager/content/managing-code/external-repositories)를 참조하십시오.
+단계는 [Cloud Manager에서 외부 저장소 추가](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/managing-code/external-repositories)를 참조하십시오.
 
 ### &#x200B;6. Cloud Manager API 키 생성
 
