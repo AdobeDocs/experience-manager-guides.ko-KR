@@ -24,7 +24,7 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
+source-git-commit: b3c2c68321080aa4dde16befe4bfd0022bf9f61c
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 0%
@@ -85,10 +85,9 @@ AI Assistant 패널의 다음 구성 요소를 통해 컨텐츠를 추가하고,
 AI Assistant를 시작하려면 다음 단계를 수행하십시오.
 
 1. Experience Manager Guides에 로그인.
-1. 홈 페이지의 맨 위에서 **AI 길잡이**&#x200B;를 선택합니다. 관리자가 원하는 모드에서 AI Assistant 기능을 활성화했는지 확인합니다.
-
+1. 홈 페이지의 맨 위에서 **AI 길잡이**를 선택합니다. 관리자가 원하는 모드에서 AI Assistant 기능을 활성화했는지 확인합니다.
 AI 도우미에는 주요 기능, 사용자 지침 링크 및 **시작** 단추가 표시됩니다.
-사용자 지침을 주의 깊게 읽은 다음 **시작하기**&#x200B;를 선택하여 AI 도우미를 시작합니다.
+1. 사용자 지침을 주의 깊게 읽은 다음 **시작하기**&#x200B;를 선택하여 AI 도우미를 시작합니다.
 
 >[!NOTE]
 >
