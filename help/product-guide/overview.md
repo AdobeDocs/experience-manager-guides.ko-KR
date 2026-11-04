@@ -43,9 +43,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: c578f56f0aa976ea4421e4317e4c86dedfc5a700
+source-git-commit: c6381f6d58f64bed575966423685b63971834d66
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '326'
 ht-degree: 6%
 ---
 # Experience Manager Guides 설명서
@@ -186,11 +186,11 @@ PDF, AEM Sites, HTML5, EPUB 및 JSON 출력 유형.
 
 Experience Manager Guides 최신 릴리스에 도입된 새로운 기능과 향상된 기능을 살펴보십시오.
 
-- AI Assistant의 AI 기반 스마트 태그 지정
-- 검토 작업에서 완료로 주제 표시
-- 학습 콘텐츠 개선 사항
+- 맵 수준 분기 및 병합
+- AI Assistant에서 컨텐츠 생성 및 가져오기
+- 새 도움말 지원 패널
 
-[모두 탐색](../../help/product-guide/release-info/whats-new-2026-09-0.md)
+[모두 탐색](../../help/product-guide/release-info/whats-new-2026-11-0.md)
 
 </td>
 <td>
@@ -215,10 +215,10 @@ Cloud 및 On-Premise 배포에 대한 최신 릴리스 정보와 제품 업데�
 
 유용한 리소스, 설명서 및 지원에 액세스하여 플랫폼을 최대한 활용할 수 있습니다.
 
-* [GitHub 저장소](https://github.com/AdobeDocs/experience-manager-guides.ko-KR){target="_blank"}
-* [지원](https://experienceleague.adobe.com/support/v2/en/?lang=ko){target="_blank"}
-* [비디오 자습서](https://experienceleague.adobe.com/ko/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
-* [AEM Guides 커뮤니티](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?lang=ko){target="_blank"}
+* [GitHub 저장소](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [지원](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [비디오 자습서](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [AEM Guides 커뮤니티](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
 
 </td>
 </tr>
