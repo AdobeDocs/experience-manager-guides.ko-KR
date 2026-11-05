@@ -43,10 +43,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 30cc2448fbc386901ec2a71f4d226ca3b01d905e
+source-git-commit: ea5982aa0802068c9adc6ba38764f7102850996e
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 5%
+source-wordcount: '353'
+ht-degree: 6%
 ---
 # Experience Manager Guides 설명서
 
@@ -120,6 +120,16 @@ Design DITA specializations, schemas, and content architecture for your implemen
 :::
 
 :::card
+![AI 길잡이 아이콘](../assets/ai-author.png)
+
+AI 어시스턴트
+
+AI 기반 지원을 통해 콘텐츠 생성 시간을 단축하고, 답변을 찾고, 지능형 태그를 적용할 수 있습니다.
+
+[AI 어시스턴트](./user-guide/ai-assistant.md)
+:::
+
+:::card
 ![검토 아이콘](../assets/review.png)
 
 검토
@@ -157,16 +167,6 @@ AEM Sites, PDF, HTML5, EPUB, JSON 및 기타 형식을 통해 출력을 구성�
 컨텐츠 상태 평가, 메타데이터 관리, 끊어진 링크 식별 및 컨텐츠 재사용 분석
 
 [보고서 생성](./user-guide/reports-intro.md)
-:::
-
-:::card
-![구성 아이콘](../assets/configure.png)
-
-구성
-
-프로필, 템플릿, 조건부 속성, 출력 사전 설정 및 편집기 설정을 구성합니다.
-
-[폴더 프로필 구성](./install-conf-guide/conf-profiles.md)
 :::
 
 ::::
