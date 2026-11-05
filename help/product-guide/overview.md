@@ -43,7 +43,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: de4730d6b52026979ba40224dc7ff811a8915412
+source-git-commit: ea5982aa0802068c9adc6ba38764f7102850996e
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 6%
@@ -126,7 +126,7 @@ AI 어시스턴트
 
 AI 기반 지원을 통해 콘텐츠 생성 시간을 단축하고, 답변을 찾고, 지능형 태그를 적용할 수 있습니다.
 
-[AI 어시스턴트](./install-conf-guide/conf-profiles.md)
+[AI 어시스턴트](./user-guide/ai-assistant.md)
 :::
 
 :::card
@@ -215,10 +215,10 @@ Cloud 및 On-Premise 배포에 대한 최신 릴리스 정보와 제품 업데�
 
 유용한 리소스, 설명서 및 지원에 액세스하여 플랫폼을 최대한 활용할 수 있습니다.
 
-* [GitHub 저장소](https://github.com/AdobeDocs/experience-manager-guides.ko-KR){target="_blank"}
-* [지원](https://experienceleague.adobe.com/support/v2/en/?lang=ko){target="_blank"}
-* [비디오 자습서](https://experienceleague.adobe.com/ko/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
-* [AEM Guides 커뮤니티](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?lang=ko){target="_blank"}
+* [GitHub 저장소](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [지원](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [비디오 자습서](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [AEM Guides 커뮤니티](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
 
 </td>
 </tr>
