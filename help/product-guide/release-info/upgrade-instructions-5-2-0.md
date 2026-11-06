@@ -9,9 +9,9 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: b5e241987a89ab974c71f3ec7283c668fedb164b
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '873'
 ht-degree: 3%
 ---
 # 5.2.0 릴리스에 대한 업그레이드 지침(2026년 5월)
@@ -31,7 +31,7 @@ ht-degree: 3%
 | 5.2.0(UUID) | 6.5 LTS | 2 |
 | 5.2.0(UUID) | 6.5 | 24, 23, 22 |
 
-자세한 내용은 On-Premise 설치 및 구성 안내서의 [기술 요구 사항](../install-guide/download-install-technical-requirements.md) 섹션을 참조하십시오.
+자세한 내용은 On-Premise 설치 및 구성 안내서의 [기술 요구 사항](../install-conf-guide/aemg-technical-requirements.md) 섹션을 참조하십시오.
 
 <!--
 
