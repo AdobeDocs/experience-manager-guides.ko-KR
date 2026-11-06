@@ -10,9 +10,9 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: b5e241987a89ab974c71f3ec7283c668fedb164b
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '596'
 ht-degree: 4%
 ---
 # 5.1.0 서비스 팩 4 릴리스(2026년 4월)의 업그레이드 지침
@@ -30,7 +30,7 @@ ht-degree: 4%
 | 5.1.0 서비스 팩 4(UUID) | 6.5 LTS | 1 |
 | 5.1.0 서비스 팩 4(UUID) | 6.5 | 23, 22, 21 |
 
-자세한 내용은 On-Premise 설치 및 구성 안내서의 [기술 요구 사항](../install-guide/download-install-technical-requirements.md) 섹션을 참조하십시오.
+자세한 내용은 On-Premise 설치 및 구성 안내서의 [기술 요구 사항](../install-conf-guide/aemg-technical-requirements.md) 섹션을 참조하십시오.
 
 ### FrameMaker 및 FrameMaker Publishing Server
 
@@ -68,7 +68,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
-> 현재 AEM 6.5를 사용하고 있으며 AEM 6.5 LTS로 이동하려면 [Adobe Experience Manager(AEM) 6.5 LTS로 업그레이드](https://experienceleague.adobe.com/ko/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)를 참조하십시오.
+> 현재 AEM 6.5를 사용하고 있으며 AEM 6.5 LTS로 이동하려면 [Adobe Experience Manager(AEM) 6.5 LTS로 업그레이드](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)를 참조하십시오.
 
 Experience Manager Guides 버전 5.1.0 서비스 팩 4로 업그레이드하기 전에 다음 사항을 고려해야 합니다.
 
