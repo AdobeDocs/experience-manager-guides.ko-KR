@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Metadata
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 7ff10bcfe560a12e048d9b21aa60ad2c7cb7d02b
 workflow-type: tm+mt
-source-wordcount: '3873'
+source-wordcount: '3971'
 ht-degree: 0%
 ---
 # 맵 콘솔의 AEM Sites 사전 설정
@@ -75,7 +75,7 @@ Experience Manager Guides은 AEM Sites을 만들기 위한 사전 정의된 템�
    AEM Sites용 사전 설정이 생성됩니다.
 
 
-   ![새 &#x200B;](images/new-aem-sites-dialog-box.png){width="300"}
+   ![새 ](images/new-aem-sites-dialog-box.png){width="300"}
 
 <!--
 ### Generate the AEM Sites output using the templates
@@ -114,7 +114,7 @@ You can configure the Out-of-the-box Sites template  in two ways:
 - 주제 목록
 - 교차 맵 참조
 
-![새 &#x200B;](images/aem-sites-new-config.png){width="650"}
+![새 ](images/aem-sites-new-config.png){width="650"}
 
 **일반**
 
@@ -142,7 +142,7 @@ You can configure the Out-of-the-box Sites template  in two ways:
 
 | AEM Sites 옵션 | 설명 |
 | --- | --- |
-| 기준선 사용 | 선택한 DITA 맵에 대한 베이스라인을 생성한 경우 이 옵션을 선택하여 게시할 버전을 지정합니다.<br><br>자세한 내용은 [기준선으로 작업](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF)을 참조하세요. |
+| 기준선 사용 | 선택한 DITA 맵에 대한 베이스라인을 생성한 경우 이 옵션을 선택하여 게시할 버전을 지정합니다. 자세한 내용은 [기준선을 사용하여 작업](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF)을 참조하세요.<br>**참고**: 출력 사전 설정에서 사용되는 기준선을 삭제하면 사전 설정이 자동으로 업데이트되지 않습니다. 출력을 생성하기 전에 다음 작업을 수행하십시오. <ul><li>**기준선만 삭제하는 경우**: **기준선 사용** 토글이 활성화된 상태로 유지되며 드롭다운이 비어 있습니다. 이 상태에서 출력을 생성하지 못합니다. 기준 요소 사용 토글을 비활성화하고 페이지를 새로 고친 다음 출력을 생성합니다.</li><li>**기준선이 여러 개 있고 선택한 기준선을 삭제하는 경우**: **기준선 사용** 드롭다운에서 삭제된 기준선을 선택한 상태로 계속 표시합니다. 드롭다운에서 유효한 기준 요소를 선택한 다음 출력을 생성합니다.</li></ul> |
 | 조건부 필터링 | 다음 옵션 중 하나를 선택하십시오.<br><br>**없음**: 게시된 출력에 조건을 적용하지 않으려면 이 옵션을 선택하십시오.<br>**DITAVAL 사용**: DITAVal 파일을 선택하여 조건부 콘텐츠를 생성합니다. 찾아보기 대화 상자를 사용하거나 파일 경로를 입력하여 여러 DITAVal 파일을 선택할 수 있습니다. 파일 이름 근처에 있는 교차 아이콘을 사용하여 제거합니다. DITAVal 파일은 지정된 순서대로 평가되므로 첫 번째 파일에 지정된 조건이 이후 파일에 지정된 조건과 일치하는 조건보다 우선합니다. 파일을 추가하거나 삭제하여 파일 순서를 유지할 수 있습니다. DITAVal 파일이 다른 위치로 이동되거나 삭제되는 경우 맵 대시보드에서 자동으로 삭제되지 않습니다. 파일이 이동되거나 삭제될 경우에 대비하여 위치를 업데이트해야 합니다. 파일 이름 위로 마우스를 가져가면 파일이 저장된 AEM 저장소의 경로를 볼 수 있습니다. DITAVal 파일만 선택할 수 있으며 다른 파일 유형을 선택한 경우 오류가 표시됩니다.<br>**조건 사전 설정**: 출력을 게시하는 동안 조건을 적용하려면 드롭다운에서 조건 사전 설정을 선택합니다. 이 옵션은 DITA 맵 파일에 대한 조건을 추가한 경우에 표시됩니다. 조건부 설정은 DITA 맵 콘솔의 조건 사전 설정 탭에서 사용할 수 있습니다. 조건 사전 설정에 대해 자세히 알아보려면 [조건 사전 설정 사용](generate-output-use-condition-presets.md#id1825FL004PN)을 확인하세요. |
 | 추가 DITA-OT 명령줄 인수 | 출력을 생성하는 동안 DITA-OT에서 처리할 추가 인수를 지정합니다. DITA-OT에서 지원되는 명령줄 인수에 대한 자세한 내용은 [DITA-OT 설명서](https://www.dita-ot.org/)를 참조하십시오. |
 | 메타데이터 <br> <br>파일(Assets) 속성 | 메타데이터로 처리할 속성을 선택합니다. 이러한 등록 정보는 DITA 맵 또는 북맵 파일의 등록 정보 페이지에서 설정됩니다. 드롭다운 목록에서 선택한 속성이 **파일 속성** 필드 아래에 나타납니다. 속성 옆에 있는 교차 아이콘을 선택하여 제거합니다. <br><br>**참고**: 메타데이터 속성은 대소문자를 구분합니다.<br><br>*기준선을 선택한 경우 속성 값은 선택한 기준선의 버전을 기반으로 합니다.<br>* 베이스라인을 선택하지 않은 경우 등록 정보 값은 최신 버전을 기반으로 합니다.<br><br>DITA-OT 게시를 사용하여 메타데이터를 출력으로 전달할 수도 있습니다. 자세한 내용을 보려면 [DITA-OT를 사용하여 메타데이터를 출력에 전달하십시오](pass-metadata-dita-ot.md#id21BJ00QD0XA).<br><br>**참고**: 속성 옵션에서 `cq:tags`을(를) 정의하지 않은 경우 게시를 위해 기준선을 선택했더라도 `cq:tags`의 값이 현재 작업 복사본에서 선택됩니다. |
@@ -183,7 +183,7 @@ You can configure the Out-of-the-box Sites template  in two ways:
 - 콘텐츠
 - 교차 맵 참조
 
-![새 &#x200B;](images/aem-sites-preset-legacy-config.png){width="500"}
+![새 ](images/aem-sites-preset-legacy-config.png){width="500"}
 
 **일반**
 
@@ -206,7 +206,7 @@ You can configure the Out-of-the-box Sites template  in two ways:
 
 **콘텐츠**
 
-![새 &#x200B;](images/aem-sites-content-tab.png){width="650"}
+![새 ](images/aem-sites-content-tab.png){width="650"}
 
 **콘텐츠** 탭에는 다음 구성 옵션이 포함되어 있습니다.
 
@@ -251,7 +251,7 @@ Experience Manager Guides에서는 `peer @scope`을(를) 사용하여 주제 참
 
    ![교차 맵 참조](images/aem-sites-preset-cross-map-references.png)
 
-1. 맵에서 각 종속 파일의 가장 최근에 게시된 출력을 사용하려면 모든 종속 항목에 대해 **가장 최근에 생성된 게시 컨텍스트 사용**&#x200B;을 선택합니다.
+1. 맵에서 각 종속 파일의 가장 최근에 게시된 출력을 사용하려면 모든 종속 항목에 대해 **가장 최근에 생성된 게시 컨텍스트 사용**을 선택합니다.
 연결된 항목이 들어 있는 맵을 게시하기 전에 상위 맵으로 선택한 맵을 게시해야 합니다. 연결된 주제가 있는 맵이 게시되지 않으면 해당 링크는 AEM Sites 출력에 하이퍼링크 대신 일반 텍스트로 표시됩니다.
 연결된 주제에 대해 동일한 유형의 AEM Sites 사전 설정을 선택해야 합니다. 예를 들어 현재 AEM Sites 사전 설정이 기존 구성 요소 매핑을 사용하는 경우 연결된 주제의 유사한 AEM Sites 사전 설정을 선택합니다.
 1. 상위 맵 드롭다운 목록에서 현재 맵의 출력을 연결할 출력이 있는 맵 파일을 선택합니다.

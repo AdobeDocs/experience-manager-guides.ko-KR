@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Metadata
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '690'
 ht-degree: 0%
 ---
 # DITA-OT를 사용하여 메타데이터를 출력에 전달 {#id21BJ00QD0XA}
@@ -66,7 +66,7 @@ DITA-OT 게시를 사용하여 메타데이터를 출력에 전달하려면 다�
 
    이 파일은 `/apps/fmdita/config/metadataList`에 오버레이할 수 있습니다.
 
-   값을 이미 정의한 사용자 지정 속성을 전달하려면 [DITA-OT PDF 출력에서 AEM 메타데이터 사용](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880?profile.language=ko)을 확인하십시오.
+   값을 이미 정의한 사용자 지정 속성을 전달하려면 [DITA-OT PDF 출력에서 AEM 메타데이터 사용](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880)을 확인하십시오.
 
 1. 선택한 속성이 드롭다운 아래에 나열됩니다.
 
@@ -82,6 +82,10 @@ DITA-OT 게시를 사용하여 메타데이터를 출력에 전달하려면 다�
 > Experience Manager Guides 2502년 릴리스부터 DITA-OT 명령줄을 통해 루트 맵 메타데이터 인수를 전달하는 기능이 더 이상 사용되지 않습니다. 그러나 중단을 방지하기 위해 `Config.Manager`에 새 속성을 추가하여 기능을 활성화하거나 비활성화합니다.  자세한 내용은 [출력 생성 설정 구성](../cs-install-guide/conf-output-generation.md#configure-the-dita-ot-command-line-arguement-field-on-the-dita-map-dashboard)을 참조하세요.
 
 ## 맵 대시보드 사용
+
+>[!NOTE]
+>
+>Cloud Service용 2027.01.0 릴리스 및 Experience Manager Guides 온프레미스용 5.4 릴리스부터 맵 대시보드 기능은 신규 고객에게 더 이상 사용되지 않습니다. 그러나 이미 사용 중인 기존 고객에 대해서는 활성화된 상태가 유지됩니다. 맵 대시보드를 비활성화하려면 고객 지원 팀에 문의하십시오. 앞으로 맵 관리 및 게시를 위해 맵 콘솔을 사용하는 것이 좋습니다.
 
 **Assets UI**&#x200B;에서 작업하는 경우 다음 단계를 수행하여 DITA-OT 게시를 사용하여 메타데이터를 출력에 전달합니다.
 
@@ -101,7 +105,7 @@ DITA-OT 게시를 사용하여 메타데이터를 출력에 전달하려면 다�
 
    이 파일은 `/apps/fmdita/config/metadataList`에 오버레이할 수 있습니다.
 
-   값을 이미 정의한 사용자 지정 속성을 전달하려면 [DITA-OT PDF 출력에서 AEM 메타데이터 사용](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880?profile.language=ko)을 확인하십시오.
+   값을 이미 정의한 사용자 지정 속성을 전달하려면 [DITA-OT PDF 출력에서 AEM 메타데이터 사용](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880)을 확인하십시오.
 
 1. **속성** 드롭다운에서 필요한 사용자 지정 및 기본 속성을 선택합니다. 예를 들어 `author`, `dc:title` 및 `dc:description`을(를) 선택합니다. 파일을 만들면 만들어지는 표준 `metadata/properties`입니다. 선택한 속성이 드롭박스 아래에 나열됩니다.
 
@@ -114,4 +118,4 @@ DITA-OT 게시를 사용하여 메타데이터를 출력에 전달하려면 다�
 
 
 
-**상위 항목:**&#x200B;[&#x200B;출력 생성](generate-output.md)
+**상위 항목:**[&#x200B;출력 생성](generate-output.md)

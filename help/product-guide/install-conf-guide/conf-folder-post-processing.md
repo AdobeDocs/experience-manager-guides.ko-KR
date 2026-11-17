@@ -22,12 +22,16 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '497'
 ht-degree: 0%
 ---
 # 폴더에 대한 사후 처리 비활성화
+
+>[!NOTE]
+>
+>Cloud Service용 2027.01.0 릴리스 및 Experience Manager Guides 온프레미스용 5.4 릴리스부터 맵 대시보드 기능은 신규 고객에게 더 이상 사용되지 않습니다. 그러나 이미 사용 중인 기존 고객에 대해서는 활성화된 상태가 유지됩니다. 맵 대시보드를 비활성화하려면 고객 지원 팀에 문의하십시오. 앞으로 맵 관리 및 게시를 위해 맵 콘솔을 사용하는 것이 좋습니다.
 
 기본적으로 업로드된 모든 자산은 DAM 자산 업데이트 워크플로우를 사용하여 처리됩니다. Experience Manager Guides은 이 워크플로우의 일부로 후처리라는 추가 처리를 실행합니다. UUID를 생성하는 데도 도움이 됩니다
 
