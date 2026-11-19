@@ -1,5 +1,5 @@
 ---
-title: AEM Guides의 분기 | Adobe Experience Manager Guides`
+title: AEM Guides의 분기 | ADOBE EXPERIENCE MANAGER GUIDES
 description: AEM Guides에서 DITA 맵의 분기를 만들고 관리하여 설명서 변경 내용의 병렬 작성, 독립 게시 및 병합을 지원하는 방법에 대해 알아봅니다.
 TQID: https://experienceleague.adobe.com/pg9zeEg8m3NeDbN-j945SqPbaMX0GgBmuquAsQcrjOM
 product_v2:
@@ -10,8 +10,8 @@ product_v2:
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
     internal-label: Authoring
-  - id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
-    internal-label: Generative AI
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
     internal-label: Editor
@@ -23,9 +23,9 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 3f0d8e31537ade58a4eab5ddf73eb6d263d3dd96
+source-git-commit: 6359bacca2ef4114a81049d9792214f3439de364
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '659'
 ht-degree: 0%
 ---
 # 개요
@@ -54,8 +54,6 @@ Adobe Experience Manager Guides의 분기를 사용하면 DITA 맵의 **main** �
 >분기는 DITA 맵을 기반으로 만들어집니다. 선택한 분기 내에서 맵에서 참조하지 않는 주제를 추가하고 편집할 수도 있습니다. 자세한 내용은 [현재 맵 외부에서 항목을 열거나 편집하세요](./create-manage-branch.md#open-or-edit-topics-outside-the-current-map-context).
 
 DITA 맵의 분기를 만들 때 Experience Manager Guides은 맵에서 참조한 주제를 새 분기에 자동으로 복사하지 않습니다. 변경되지 않은 항목은 소스 분기 또는 기본 분기(주)에서 읽습니다. 주제는 해당 분기에서 편집하고 저장할 때만 새 분기로 복사됩니다.
-
-예를 들어 DITA 맵은 100개의 주제를 참조하고 저장소에는 맵에서 참조하지 않는 50개의 추가 주제가 있습니다. 새 분기(릴리스-1.0)를 만들면 참조된 100개의 모든 항목은 편집된 항목이 없더라도 자동으로 릴리스-1.0에 포함됩니다. 참조되지 않은 50개의 주제는 자동으로 새 분기의 일부가 되지 않습니다. 이 중 10개를 편집하면 10개만 릴리스-1.0에 포함됩니다. 변경되지 않은 나머지 40개의 항목은 기본 분기(주)에서 계속 사용됩니다.
 
 >[!NOTE]
 >
