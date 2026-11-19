@@ -25,9 +25,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 543a83c00a07931231dcd985e8ffdceb4306b4b7
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '223'
 ht-degree: 0%
 ---
 # 출력 사전 설정 편집, 복제 또는 삭제 {#id205BEH0K09Z}
@@ -49,6 +49,10 @@ ht-degree: 0%
 
 
 ## 맵 대시보드 사용
+
+>[!NOTE]
+>
+>Cloud Service용 2027.01.0 릴리스 및 Experience Manager Guides 온프레미스용 5.4 릴리스부터 맵 대시보드 기능은 신규 고객에게 더 이상 사용되지 않습니다. 그러나 이미 사용 중인 기존 고객에 대해서는 활성화된 상태가 유지됩니다. 맵 대시보드를 비활성화하려면 고객 지원 팀에 문의하십시오. 앞으로 맵 관리 및 게시를 위해 맵 콘솔을 사용하는 것이 좋습니다.
 
 맵 대시보드를 사용하여 아래 표시된 것처럼 상단 막대에서 필요한 탭을 선택하여 출력 사전 설정을 편집, 복제 및 삭제할 수 있습니다.
 

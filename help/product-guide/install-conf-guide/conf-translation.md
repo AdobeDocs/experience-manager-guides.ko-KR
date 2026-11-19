@@ -19,9 +19,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
 workflow-type: tm+mt
-source-wordcount: '1573'
+source-wordcount: '1643'
 ht-degree: 5%
 ---
 # 콘텐츠 번역 {#id181GB0400UI}
@@ -75,6 +75,10 @@ Experience Manager Guides 설정을 기반으로 콘텐츠를 번역하기 위�
 > 콘텐츠 번역에 대한 모범 사례는 모범 사례 안내서의 *번역* 섹션을 참조하십시오.
 
 ## DITA 맵 대시보드에서 번역 탭 구성
+
+>[!NOTE]
+>
+>Cloud Service용 2027.01.0 릴리스 및 Experience Manager Guides 온프레미스용 5.4 릴리스부터 맵 대시보드 기능은 신규 고객에게 더 이상 사용되지 않습니다. 그러나 이미 사용 중인 기존 고객에 대해서는 활성화된 상태가 유지됩니다. 맵 대시보드를 비활성화하려면 고객 지원 팀에 문의하십시오. 앞으로 맵 관리 및 게시를 위해 맵 콘솔을 사용하는 것이 좋습니다.
 
 Experience Manager Guides 설정을 기반으로 DITA 맵 대시보드에서 번역 탭을 숨기는 방법은 Cloud Service 또는 온프레미스탭을 참조하십시오.
 

@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 6359bacca2ef4114a81049d9792214f3439de364
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 0%
@@ -106,4 +106,4 @@ DITA Publishing은 주로 사용 가능한 시스템 메모리 및 CPU에 따라
 
 각 게시 요청의 일부는 마이크로서비스로 전송될 올바른 게시 콘텐츠를 가져오기 위해 AEM 인스턴스에서 실행해야 합니다. 새로운 클라우드 아키텍처는 이전 아키텍처의 경우처럼 AEM 워크플로 대신 AEM 작업을 사용합니다. 이 변경 사항을 사용하면 AEM Guides 관리자가 다른 AEM 작업 또는 워크플로우 구성에 영향을 주지 않고 클라우드 게시 큐 설정을 개별적으로 구성할 수 있습니다.
 
-새 게시 마이크로서비스를 구성하는 방법에 대한 자세한 내용은 [마이크로서비스 구성](configure-microservices.md)을 참조하십시오.
+새 게시 마이크로서비스를 구성하는 방법에 대한 자세한 내용은 [마이크로서비스 구성](./configure-microservices-imt-config.md)을 참조하십시오.
