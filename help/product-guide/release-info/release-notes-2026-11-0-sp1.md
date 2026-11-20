@@ -9,9 +9,9 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 9fc07666f2f53b6f0ca43e3203ac817daf8039d9
+source-git-commit: e21e39b2acf48c4115101ab806e97b45844fa191
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '431'
 ht-degree: 1%
 ---
 # 2026.11.0 서비스 팩 1 릴리스(2026년 11월)의 릴리스 정보
@@ -26,7 +26,7 @@ ht-degree: 1%
 |---|---|---|----|
 | 2026.11.0 서비스 팩 1 | 2026.11.0 | [AEM Guides SDK API 2026.11.0](https://central.sonatype.com/artifact/com.adobe.aem/aem-dox-sdk-api/2026.11.0) | [Javadoc 2026.11.0](https://javadoc.io/doc/com.adobe.aem/aem-dox-sdk-api/latest/index.html) |
 
-자세한 내용은 [Maven Central 저장소에서 API JAR 구성 및 사용](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/api-reference/introduction)을 참조하십시오.
+자세한 내용은 [Maven Central 저장소에서 API JAR 구성 및 사용](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/api-reference/introduction)을 참조하십시오.
 
 
 ## 해결된 문제
@@ -46,5 +46,5 @@ AEM Sites에 게시할 때(복합 구성 요소 매핑 사용) 다음과 같은 
 Adobe은 2026.11.0 서비스 팩 1 릴리스에 대해 다음과 같은 알려진 문제를 확인했습니다.
 
 - Experience Manager Guides as a Cloud Service 2026.11.0 이상을 사용하는 경우, 서버 인스턴스가 시작되는 경우와 같이 게시 프로세스 중에 AEM이 특정 내부 서비스를 다시 시작하는 경우 애플리케이션 오류가 발생하여 게시가 실패합니다. (GUIDES-60804)<br>**해결 방법:** 문제를 해결하려면 게시를 다시 시도하십시오.
-- **맵 컬렉션** 또는 API를 통해 여러 AEM Sites(복합 구성 요소 매핑 사용) 사전 설정 또는 기본 PDF 사전 설정에 대한 출력을 생성할 때 `Rebuild the Baseline` 예외와 함께 출력 생성이 실패합니다. (GUIDES-60877) <br>**해결 방법:** 문제를 방지하기 위해 사전 설정을 동시에 게시하지 않고 순차적으로 게시합니다.
+- **맵 컬렉션** 또는 API를 통해 동일한 기준선을 사용하여 여러 AEM Sites(복합 구성 요소 매핑 사용) 사전 설정 또는 기본 PDF 사전 설정에 대한 출력을 생성할 때 `Rebuild the Baseline` 예외로 인해 출력 생성이 실패합니다. (GUIDES-60877) <br>**해결 방법:** 문제를 방지하기 위해 사전 설정을 동시에 게시하지 않고 순차적으로 게시합니다.
 
