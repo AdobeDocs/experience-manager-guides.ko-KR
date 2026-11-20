@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides의 제품 설명서를 살펴보십시오.
 breadcrumb-title: AEM Guides 설명서
-source-git-commit: 5a65f5e9fc14df1548491321aa3a3356b6a91c12
+source-git-commit: b10b2c3756e78f8a2182000a09eb019f9d124566
 workflow-type: tm+mt
-source-wordcount: '2708'
+source-wordcount: '2713'
 ht-degree: 10%
 ---
 
@@ -18,7 +18,9 @@ ht-degree: 10%
     - 클라우드 서비스 {#cloud-release-notes}
       - {hide-from-toc}[배포 지침](./release-info/deploy-xml-on-aemaacs.md)
       - [클라우드 릴리스](./release-info/latest-release-info-cs.md)
-      - 2026 릴리스 {#2026-releases}
+      - {hide-from-toc} 2026 릴리스 {#2026-releases}
+        - 2026.11.0 SP1 릴리스 {#2611-sp1-release}
+          - {hide-from-toc}[해결된 문제](./release-info/fixed-issues-2026-11-0-sp1.md)
         - 2026.11.0 릴리스 {#2611-release}
           - [새로운 기능](./release-info/whats-new-2026-11-0.md)
           - [해결된 문제](./release-info/fixed-issues-2026-11-0.md)
@@ -227,9 +229,9 @@ ht-degree: 10%
       - [3.8.x 릴리스 노트](./release-info/release-notes-3-8.md)
 - 사용 안내서 (새 UI) {#user-guide}
   - 소개 {#about-aemg}
-    - [&#x200B; [!DNL Adobe Experience Manager Guides] 정보](./user-guide/intro.md)
+    - [ [!DNL Adobe Experience Manager Guides] 정보](./user-guide/intro.md)
     - [!DNL AEM Guides] 작업 중 및 주요 기능 {#aemg-works-features}
-      - [&#x200B; [!DNL AEM Guides] 작동 방식](./user-guide/intro-how-dxml-works.md)
+      - [ [!DNL AEM Guides] 작동 방식](./user-guide/intro-how-dxml-works.md)
       - [주요 [!DNL AEM Guides] 기능](./user-guide/intro-dxml-features.md)
   - 홈 페이지 {#home-page}
     - [[!DNL AEM Guides] 홈 페이지 경험](./user-guide/intro-home-page.md)
@@ -387,7 +389,7 @@ ht-degree: 10%
       - [콘텐츠 작성에 대한 AI 기반 스마트 제안](./user-guide/authoring-ai-based-smart-suggestions.md)
       - [FAQ](./user-guide/ai-assistant-faq.md)
   - AEM Guides의 도움말 도우미 {#help-assistant-aem}
-    - [콘텐츠 검색을 위한 AI 기반 스마트 도움말](./user-guide/ai-based-smart-help.md)
+    - 콘텐츠 검색을 위한 [AI 기반 스마트 도움말](./user-guide/ai-based-smart-help.md)
   - 학습 콘텐츠 관리 {#learning-training-content}
     - 시작 안내서 {#get-started}
       - 소개 {#intro-lc}
@@ -450,7 +452,7 @@ ht-degree: 10%
     - 성능 관리 {#performance-management}
       - [페이지 매김된 파일 및 폴더 로드](./user-guide/paginated-loading-assets.md)
 - 사용 안내서 (이전 UI) {#user-guide-old-ui}
-  - [AEM Guides 개요](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+  - [AEM Guides 개요](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 설치 및 구성 {#install-conf-guide}
   - [다운로드, 설치 및 업그레이드](./install-conf-guide/introduction.md)
   - Cloud Service 설치 프로세스 {#deploy-conf-aemg-cs}
@@ -616,7 +618,7 @@ ht-degree: 10%
   - [데이터 소스 커넥터를 등록하는 REST API](./api-reference/data-source-connector.md)
   - [조건부 특성으로 작업할 수 있는 REST API](./api-reference/conditional-attribute.md)
   - [전환 워크플로우에 대한 REST API](./api-reference/convert-to-dita.md)
-  - [패키지를 만들고 활성화하기 위한 REST API](./api-reference/create-activate-package.md)
+  - 패키지를 만들고 활성화하기 위한 [REST API](./api-reference/create-activate-package.md)
   - [사후 처리 이벤트 핸들러](./api-reference/post-process-event.md)
   - [폴더 또는 에셋의 사후 처리 상태를 추적하는 API](./api-reference/track-post-processing-status.md)
   - [자산에 대한 일괄 처리를 시작하기 위한 API](./api-reference/bulk-assets-processing.md)
