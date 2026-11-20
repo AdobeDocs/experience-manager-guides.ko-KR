@@ -23,9 +23,9 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 6359bacca2ef4114a81049d9792214f3439de364
+source-git-commit: 4dbc008bb913b34a534eb65a146b33e9939febb8
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1158'
 ht-degree: 0%
 ---
 
@@ -45,7 +45,7 @@ Experience Manager Guides에서 DITA 맵의 여러 분기를 만들어 서로 �
 
    >[!NOTE]
    >
-   > 편집기에 다른 맵이 이미 열려 있는 경우 확인 대화 상자가 나타납니다. 현재 분기에서 선택한 맵을 열려면 **열기**&#x200B;를 선택합니다. 자세한 내용은 [현재 맵 컨텍스트 외부에서 컨텐츠 열기](#open-content-outside-the-current-map-context)를 참조하십시오.
+   > 편집기에 다른 맵이 이미 열려 있는 경우 확인 대화 상자가 나타납니다. 현재 분기에서 선택한 맵을 열려면 **열기**&#x200B;를 선택합니다. 자세한 내용은 [현재 맵 컨텍스트 외부에서 맵을 엽니다](#open-a-map-outside-the-current-map-context)를 참조하십시오.
 
 1. **main** 분기 드롭다운을 선택하고 필요한 DITA 맵이 선택되어 있는지 확인합니다.
 
@@ -53,7 +53,7 @@ Experience Manager Guides에서 DITA 맵의 여러 분기를 만들어 서로 �
 
 1. 선택한 맵의 분기를 만들려면 **새 분기**&#x200B;를 선택하십시오.
 
-1. **새 분기** 대화 상자에서 새 분기의 이름을 입력하고 분기를 만들 상위 분기를 선택합니다.
+1. **새 분기** 대화 상자에서 새 분기의 이름을 입력하고 분기를 만들 **Source 분기**(상위 분기 역할을 함)를 선택합니다.
 
    ![](./images/new-branch-creation.png)
 
@@ -76,13 +76,9 @@ Experience Manager Guides에서 DITA 맵의 여러 분기를 만들어 서로 �
 
 이제 선택한 분기 내에서 맵과 관련 콘텐츠를 작업할 수 있습니다.
 
-![](./images/branch-switched.png)
-
 >[!NOTE]
 >
 >분기를 전환할 때 항목에 저장되지 않은 변경 사항이 있으면 선택한 분기로 전환하기 전에 변경 사항을 저장하라는 대화 상자가 나타납니다.
-
-이제 선택한 분기 내에서 맵과 관련 콘텐츠를 작업할 수 있습니다.
 
 ## 분기에서 격리된 편집
 

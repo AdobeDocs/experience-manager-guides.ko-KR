@@ -2,9 +2,9 @@
 title: 릴리스 정보 | Adobe Experience Manager Guides 2026.11.0 릴리스의 새로운 기능
 description: 맵 수준 분기 및 AI Assistant 콘텐츠 생성을 포함하여 Adobe Experience Manager Guides 2026.11.0 릴리스의 새로운 기능을 살펴보십시오.
 role: Leader
-source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
+source-git-commit: 88172f3fd5c6da80091581a082db9b05d5d13483
 workflow-type: tm+mt
-source-wordcount: '1508'
+source-wordcount: '1544'
 ht-degree: 0%
 ---
 
@@ -17,6 +17,10 @@ ht-degree: 0%
 [2026.11.0 릴리스의 업그레이드 지침](../release-info/upgrade-instructions-2026-11-0.md)에 대해 알아봅니다.
 
 ## 맵 수준 분기 및 병합 소개
+
+>[!NOTE]
+>
+> **분기 및 병합** 기능은 현재 데이터베이스 설정을 사용하는 Cloud Service 환경에서만 지원되며 기본적으로 비활성화됩니다. 환경에서 분기 및 병합을 활성화하려면 고객 지원 팀에 문의하십시오.
 
 Experience Manager Guides은 맵 수준 분기 및 병합 기능을 도입하여 작성자가 주요 콘텐츠에 영향을 주지 않고 여러 설명서 버전, 기능 업데이트 및 중요 수정 사항을 동시에 작업할 수 있도록 합니다. 작성자는 DITA 맵과 해당 종속 항목의 분리된 분기를 만들어 각 분기에 대한 편집, 잠금 및 미리보기를 유지할 수 있습니다.
 
