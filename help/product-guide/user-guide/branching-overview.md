@@ -1,5 +1,5 @@
 ---
-title: AEM Guides의 분기 | ADOBE EXPERIENCE MANAGER GUIDES
+title: AEM Guides에서 분기 및 병합 | ADOBE EXPERIENCE MANAGER GUIDES
 description: AEM Guides에서 DITA 맵의 분기를 만들고 관리하여 설명서 변경 내용의 병렬 작성, 독립 게시 및 병합을 지원하는 방법에 대해 알아봅니다.
 TQID: https://experienceleague.adobe.com/pg9zeEg8m3NeDbN-j945SqPbaMX0GgBmuquAsQcrjOM
 product_v2:
@@ -23,16 +23,16 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 6359bacca2ef4114a81049d9792214f3439de364
+source-git-commit: 88172f3fd5c6da80091581a082db9b05d5d13483
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '677'
 ht-degree: 0%
 ---
 # 개요
 
->[!NOTE]
+>[!IMPORTANT]
 >
-> 분기 및 병합 기능은 Experience Manager Guides as a Cloud Service의 2026.11.0 릴리스에서 도입되었으며 기본적으로 비활성화되어 있습니다. 환경에 대한 기능을 활성화하려면 고객 지원 팀에 문의하십시오.
+> Experience Manager Guides as a Cloud Service의 2026.11.0 릴리스부터 **분기 및 병합** 기능을 사용할 수 있습니다. 현재 데이터베이스 설정을 사용하는 Cloud Service 환경에서만 지원되며 기본적으로 비활성화되어 있습니다. 환경에서 분기 및 병합을 활성화하려면 고객 지원 팀에 문의하십시오.
 
 Adobe Experience Manager Guides의 분기를 사용하면 DITA 맵의 **main** 분기에서 여러 분기를 만들고 관리하여 서로 다른 설명서 릴리스에서 동시에 작업할 수 있습니다. 각 분기를 사용하면 작성자가 다른 분기의 해당 컨텐츠에 영향을 주지 않고 컨텐츠 변경 사항을 독립적으로 관리할 수 있습니다.
 
