@@ -14,9 +14,9 @@ feature_v2:
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
     internal-label: Leader
-source-git-commit: 01aae4f8c25d87d2dd0a0255bedab8d7b091e54d
+source-git-commit: a3144f0078b2073289043befacc5e2358b9c0e02
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '816'
 ht-degree: 0%
 ---
 # 5.2.0 서비스 팩 3 릴리스(2026년 11월)의 문제가 해결되었습니다.
@@ -74,4 +74,4 @@ ht-degree: 0%
 
 Adobe은 5.2.0 서비스 팩 3 릴리스에 대해 다음과 같은 알려진 문제를 확인했습니다.
 
-- 서비스 팩을 설치한 후 Schematron 유효성 검사가 `NoClassDefFoundError` 예외와 함께 실패할 수 있으며 편집기에 항목을 저장할 수 없습니다. <br>**해결 방법:** AEM 웹 콘솔(`/system/console/bundles`)에서 `com.adobe.fmdita.schematron-wrapper` 번들을 새로 고칩니다.
+- 서비스 팩을 설치한 후 Schematron 유효성 검사가 `NoClassDefFoundError` 예외와 함께 실패할 수 있으며 편집기에 항목을 저장할 수 없습니다. (GUIDES-60062)<br>**해결 방법:** AEM 웹 콘솔에서 `com.adobe.fmdita.schematron-wrapper` 번들을 새로 고칩니다(`/system/console/bundles`).
