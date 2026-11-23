@@ -14,9 +14,9 @@ feature_v2:
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
     internal-label: Leader
-source-git-commit: ad78587f55ec7190443dbbce80f596821ec41f9f
+source-git-commit: a232c8a03cda9b0ef7ae8114c3d901df5fb5bcb4
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '530'
 ht-degree: 1%
 ---
 # 5.2.0 서비스 팩 4 릴리스(2026년 11월)의 릴리스 정보
@@ -31,7 +31,7 @@ ht-degree: 1%
 |---|---|---|----|
 | 5.2.0 서비스 팩 4(UUID) | 5.2.2 | [AEM Guides SDK API 5.2.2](https://central.sonatype.com/artifact/com.adobe.aem/aem-guides-sdk-api/5.2.2/) | [Javadoc 5.2.2](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api/latest/index.html) |
 
-자세한 내용은 [Maven Central 저장소에서 API JAR 구성 및 사용](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/api-reference/introduction)을 참조하십시오.
+자세한 내용은 [Maven Central 저장소에서 API JAR 구성 및 사용](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/api-reference/introduction)을 참조하십시오.
 
 ## Experience Manager Guides 5.2.0 서비스 팩 4 릴리스로 업그레이드
 
@@ -45,7 +45,7 @@ Experience Manager Guides 5.2.0 서비스 팩 4 릴리스를 설치하는 방법
 
 Experience Manager Guides 5.2.0 서비스 팩 4 업그레이드 프로세스를 시작하기 전에 버전 5.2.0 서비스 팩 1을 사용 중인지 확인하십시오.
 
-### 업그레이드 프로세스 5.2.0 서비스 팩 4 릴리스
+### 5.2.0 서비스 팩 4 릴리스의 업그레이드 프로세스
 
 1. Experience Manager Guides 패키지 버전 5.2.0 서비스 팩 4 를 다운로드합니다.
 1. 패키지 관리자(`/crx/packmgr`)를 사용하여 패키지를 인스턴스에 업로드합니다.
@@ -58,7 +58,7 @@ Experience Manager Guides 5.2.0 서비스 팩 4 업그레이드 프로세스를 
 
 ### 작성
 
-- 다른 작성자가 자산을 이동한 후 새로 고쳐지지 않은 탐색기 패널에서 맵으로 자산을 드래그 앤 드롭하면 끊어진 참조가 맵에 추가됩니다. (GUIDES-57869)
+- 다른 작성자가 자산을 이동한 후 새로 고쳐지지 않은 탐색기 패널에서 맵으로 자산을 드래그하면 깨진 참조가 맵에 추가됩니다. (GUIDES-57869)
 
 ### 자산 관리
 
