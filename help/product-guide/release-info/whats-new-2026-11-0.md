@@ -2,9 +2,9 @@
 title: 릴리스 정보 | Adobe Experience Manager Guides 2026.11.0 릴리스의 새로운 기능
 description: 맵 수준 분기 및 AI Assistant 콘텐츠 생성을 포함하여 Adobe Experience Manager Guides 2026.11.0 릴리스의 새로운 기능을 살펴보십시오.
 role: Leader
-source-git-commit: 88172f3fd5c6da80091581a082db9b05d5d13483
+source-git-commit: 79ba2d52e002fd5c821678e5662d67e6607f7808
 workflow-type: tm+mt
-source-wordcount: '1544'
+source-wordcount: '1543'
 ht-degree: 0%
 ---
 
@@ -118,7 +118,7 @@ Experience Manager Guides을 사용하면 편집기에서 직접 버전 기록�
 
 출력 기록 **연령별**(지정한 일수보다 오래된 항목 제거) 또는 **횟수별**(지정한 수의 최근 항목만 유지)을 제거할 수 있습니다.
 
-감사 목적으로 기록 항목을 보존하면서 출력 로그만 삭제하거나 로그와 관련 항목을 모두 제거하도록 선택할 수도 있습니다. 이러한 옵션을 사용하면 저장소 저장소를 최적화하는 동시에 출력 기록 삭제를 보다 세밀하게 제어할 수 있습니다.
+감사 목적으로 기록 항목을 보존하면서 출력 로그만 삭제하도록 선택하거나 로그와 관련 항목을 모두 제거할 수 있습니다. 이러한 옵션을 사용하면 저장소 저장소를 최적화하는 동시에 출력 기록 삭제를 보다 세밀하게 제어할 수 있습니다.
 
 자세한 내용은 [출력 기록에 대한 자동 제거 기간 구성](../install-conf-guide/conf-output-generation.md#configure-auto-purging-period-for-output-history-id19aai070v8q)을 참조하세요.
 
