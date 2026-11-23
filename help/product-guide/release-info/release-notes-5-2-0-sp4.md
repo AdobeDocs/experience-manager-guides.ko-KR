@@ -31,7 +31,7 @@ ht-degree: 1%
 |---|---|---|----|
 | 5.2.0 서비스 팩 4(UUID) | 5.2.2 | [AEM Guides SDK API 5.2.2](https://central.sonatype.com/artifact/com.adobe.aem/aem-guides-sdk-api/5.2.2/) | [Javadoc 5.2.2](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api/latest/index.html) |
 
-자세한 내용은 [Maven Central 저장소에서 API JAR 구성 및 사용](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/api-reference/introduction)을 참조하십시오.
+자세한 내용은 [Maven Central 저장소에서 API JAR 구성 및 사용](https://experienceleague.adobe.com/ko/docs/experience-manager-guides/using/api-reference/introduction)을 참조하십시오.
 
 ## Experience Manager Guides 5.2.0 서비스 팩 4 릴리스로 업그레이드
 
