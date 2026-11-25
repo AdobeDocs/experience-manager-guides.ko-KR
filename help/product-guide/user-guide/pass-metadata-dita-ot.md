@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Metadata
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
+source-git-commit: 2296e0706603eef5c4a76542c4a58f7eb2e13c6c
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '696'
 ht-degree: 0%
 ---
 # DITA-OT를 사용하여 메타데이터를 출력에 전달 {#id21BJ00QD0XA}
@@ -85,7 +85,7 @@ DITA-OT 게시를 사용하여 메타데이터를 출력에 전달하려면 다�
 
 >[!NOTE]
 >
->Cloud Service용 2027.01.0 릴리스 및 Experience Manager Guides 온프레미스용 5.4 릴리스부터 맵 대시보드 기능은 신규 고객에게 더 이상 사용되지 않습니다. 그러나 이미 사용 중인 기존 고객에 대해서는 활성화된 상태가 유지됩니다. 맵 대시보드를 비활성화하려면 고객 지원 팀에 문의하십시오. 앞으로 맵 관리 및 게시를 위해 맵 콘솔을 사용하는 것이 좋습니다.
+>Experience Manager Guides Cloud Service 및 5.3 On-Premise 릴리스의 2027.01.0 릴리스부터 맵 대시보드는 신규 고객에 대해 더 이상 사용되지 않습니다. 새 고객은 기본적으로 맵 콘솔을 사용합니다. 2027.03.0 릴리스에서는 맵 대시보드가 기본적으로 비활성화됩니다. 앞으로 맵 관리 및 게시를 위해 맵 콘솔을 사용하는 것이 좋습니다. 여전히 맵 대시보드에 액세스해야 하는 경우 고객 지원 팀에 문의하십시오.
 
 **Assets UI**&#x200B;에서 작업하는 경우 다음 단계를 수행하여 DITA-OT 게시를 사용하여 메타데이터를 출력에 전달합니다.
 

@@ -27,16 +27,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
+source-git-commit: 2296e0706603eef5c4a76542c4a58f7eb2e13c6c
 workflow-type: tm+mt
-source-wordcount: '1873'
+source-wordcount: '1879'
 ht-degree: 0%
 ---
 # 맵 대시보드에서 기준선 작업 {#id1825FI0J0PF}
 
 >[!NOTE]
 >
->Cloud Service용 2027.01.0 릴리스 및 Experience Manager Guides 온프레미스용 5.4 릴리스부터 맵 대시보드 기능은 신규 고객에게 더 이상 사용되지 않습니다. 그러나 이미 사용 중인 기존 고객에 대해서는 활성화된 상태가 유지됩니다. 맵 대시보드를 비활성화하려면 고객 지원 팀에 문의하십시오. 앞으로 맵 관리 및 게시를 위해 맵 콘솔을 사용하는 것이 좋습니다.
+>Experience Manager Guides Cloud Service 및 5.3 On-Premise 릴리스의 2027.01.0 릴리스부터 맵 대시보드는 신규 고객에 대해 더 이상 사용되지 않습니다. 새 고객은 기본적으로 맵 콘솔을 사용합니다. 2027.03.0 릴리스에서는 맵 대시보드가 기본적으로 비활성화됩니다. 앞으로 맵 관리 및 게시를 위해 맵 콘솔을 사용하는 것이 좋습니다. 여전히 맵 대시보드에 액세스해야 하는 경우 고객 지원 팀에 문의하십시오.
 
 Experience Manager Guides에서는 사용자가 기준선을 만들고 이를 사용하여 다른 버전의 항목을 게시하거나 번역할 수 있는 기준선 기능을 제공합니다. 동일한 DITA 맵의 여러 출력 사전 설정을 병렬로 게시할 수도 있습니다.
 

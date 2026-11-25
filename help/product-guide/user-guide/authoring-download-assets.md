@@ -27,9 +27,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 543a83c00a07931231dcd985e8ffdceb4306b4b7
+source-git-commit: 2296e0706603eef5c4a76542c4a58f7eb2e13c6c
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '940'
 ht-degree: 0%
 ---
 # 파일 다운로드 {#id216MC0H0BE8}
@@ -92,7 +92,7 @@ DITA 및 비 DITA 파일을 포함하는 에셋을 다운로드할 수 있습니
 
 >[!NOTE]
 >
->Cloud Service용 2027.01.0 릴리스 및 Experience Manager Guides 온프레미스용 5.4 릴리스부터 맵 대시보드 기능은 신규 고객에게 더 이상 사용되지 않습니다. 그러나 이미 사용 중인 기존 고객에 대해서는 활성화된 상태가 유지됩니다. 맵 대시보드를 비활성화하려면 고객 지원 팀에 문의하십시오. 앞으로 맵 관리 및 게시를 위해 맵 콘솔을 사용하는 것이 좋습니다.
+>Experience Manager Guides Cloud Service 및 5.3 On-Premise 릴리스의 2027.01.0 릴리스부터 맵 대시보드는 신규 고객에 대해 더 이상 사용되지 않습니다. 새 고객은 기본적으로 맵 콘솔을 사용합니다. 2027.03.0 릴리스에서는 맵 대시보드가 기본적으로 비활성화됩니다. 앞으로 맵 관리 및 게시를 위해 맵 콘솔을 사용하는 것이 좋습니다. 여전히 맵 대시보드에 액세스해야 하는 경우 고객 지원 팀에 문의하십시오.
 
 Adobe Experience Manager 저장소에 DITA 맵 파일이 있으면 해당 종속 항목과 함께 맵 파일을 다운로드할 수 있습니다. 이렇게 하면 오프라인 편집, 유효성 검사, 검토 또는 간단히 백업을 만들 수 있도록 전체 맵 파일을 유연하게 공유할 수 있습니다.
 
