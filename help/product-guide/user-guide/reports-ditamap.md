@@ -30,16 +30,16 @@ topic_v2:
     internal-label: Reporting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
+source-git-commit: 2296e0706603eef5c4a76542c4a58f7eb2e13c6c
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '845'
 ht-degree: 0%
 ---
 # 맵 대시보드의 DITA 맵 보고서 {#id205BB800EEN}
 
 >[!NOTE]
 >
->Cloud Service용 2027.01.0 릴리스 및 Experience Manager Guides 온프레미스용 5.4 릴리스부터 맵 대시보드 기능은 신규 고객에게 더 이상 사용되지 않습니다. 그러나 이미 사용 중인 기존 고객에 대해서는 활성화된 상태가 유지됩니다. 맵 대시보드를 비활성화하려면 고객 지원 팀에 문의하십시오. 앞으로 맵 관리 및 게시를 위해 맵 콘솔을 사용하는 것이 좋습니다.
+>Experience Manager Guides Cloud Service 및 5.3 On-Premise 릴리스의 2027.01.0 릴리스부터 맵 대시보드는 신규 고객에 대해 더 이상 사용되지 않습니다. 새 고객은 기본적으로 맵 콘솔을 사용합니다. 2027.03.0 릴리스에서는 맵 대시보드가 기본적으로 비활성화됩니다. 앞으로 맵 관리 및 게시를 위해 맵 콘솔을 사용하는 것이 좋습니다. 여전히 맵 대시보드에 액세스해야 하는 경우 고객 지원 팀에 문의하십시오.
 
 Adobe Experience Manager Guides은 설명서를 게시하거나 최종 사용자가 사용할 수 있게 하기 전에 전체 무결성을 확인할 수 있는 보고 기능을 관리자에게 제공합니다. Experience Manager Guides의 맵 대시보드에 있는 DITA 맵 보고서는 누락된 주제, 누락된 요소가 있는 주제, 참조된 주제 및 미디어 파일의 UUID 및 각 주제의 검토 상태와 같은 중요한 정보를 제공합니다. 자세한 개별 주제 수준 보고서에서는 콘텐츠 참조, 누락된 이미지 또는 상호 참조와 같은 DITA 콘텐츠 관련 정보도 제공합니다.
 
@@ -125,4 +125,4 @@ DITA 맵 보고서의 CSV를 생성하려면 다음 단계를 수행하십시오
 
 받은 편지함에서 보고서가 다운로드되면 보고서를 선택하고 맨 위의 열기 아이콘을 사용하여 선택한 보고서를 열 수도 있습니다.
 
-**상위 항목:**&#x200B;[&#x200B;보고서 소개](reports-intro.md)
+**상위 항목:**[&#x200B;보고서 소개](reports-intro.md)

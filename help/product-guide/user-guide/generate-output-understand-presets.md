@@ -27,16 +27,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
+source-git-commit: 2296e0706603eef5c4a76542c4a58f7eb2e13c6c
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '299'
 ht-degree: 1%
 ---
 # 출력 사전 설정 이해 {#understanding_output_settings}
 
 >[!NOTE]
 >
->Cloud Service용 2027.01.0 릴리스 및 Experience Manager Guides 온프레미스용 5.4 릴리스부터 맵 대시보드 기능은 신규 고객에게 더 이상 사용되지 않습니다. 그러나 이미 사용 중인 기존 고객에 대해서는 활성화된 상태가 유지됩니다. 맵 대시보드를 비활성화하려면 고객 지원 팀에 문의하십시오. 앞으로 맵 관리 및 게시를 위해 맵 콘솔을 사용하는 것이 좋습니다.
+>Experience Manager Guides Cloud Service 및 5.3 On-Premise 릴리스의 2027.01.0 릴리스부터 맵 대시보드는 신규 고객에 대해 더 이상 사용되지 않습니다. 새 고객은 기본적으로 맵 콘솔을 사용합니다. 2027.03.0 릴리스에서는 맵 대시보드가 기본적으로 비활성화됩니다. 앞으로 맵 관리 및 게시를 위해 맵 콘솔을 사용하는 것이 좋습니다. 여전히 맵 대시보드에 액세스해야 하는 경우 고객 지원 팀에 문의하십시오.
 
 Experience Manager Guides에서는 AEM Sites, PDF, 기술 자료, HTML5, EPUB, JSON 및 DITA-OT, 기본 PDF 및 FMPS를 통한 사용자 지정 출력과 같이 가장 인기 있는 형식으로 출력을 만들 수 있습니다. 이러한 출력 형식을 사용하여 다양한 출력 사전 설정을 구성할 수 있습니다. 여기에서 출력 사전 설정은 컨텐츠를 게시하려는 사용자 정의 출력 형식을 나타냅니다.
 
@@ -67,4 +67,4 @@ Experience Manager Guides에서는 AEM Sites, PDF, 기술 자료, HTML5, EPUB, J
 
 관리자는 Experience Manager Guides을 사용하여 전역 및 폴더 프로필에 대한 출력 사전 설정을 만들고 관리할 수 있습니다. 자세한 내용은 [전역 및 폴더 프로필 출력 사전 설정 관리](./web-editor-manage-output-presets.md)를 참조하십시오.
 
-**상위 항목:**&#x200B;[&#x200B;출력 생성](generate-output.md)
+**상위 항목:**[&#x200B;출력 생성](generate-output.md)
