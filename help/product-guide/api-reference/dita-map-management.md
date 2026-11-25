@@ -25,9 +25,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: f3225fd7090ddfdcba5ec80908d9e300520ae995
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '625'
 ht-degree: 4%
 ---
 # DITA 맵에서 사용할 REST API {#id175UB30E05Z}
@@ -36,7 +36,7 @@ ht-degree: 4%
 
 ## 종속 항목이 있는 DITA 맵 다운로드
 
-맵 및 주제에 사용되는 참조된 주제, 하위 맵, 이미지 및 DTD와 같은 모든 종속 항목이 있는 DITA 맵을 다운로드하는 GET 메서드입니다.
+맵과 주제에 사용되는 참조된 주제, 하위 맵, 이미지 및 DTD와 같은 모든 종속 항목이 있는 DITA 맵을 다운로드하는 GET 메서드입니다.
 
 **요청 URL**:
 http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/fmdita/exportditamap
